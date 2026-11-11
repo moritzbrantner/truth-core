@@ -1,0 +1,11 @@
+{
+  "id": "2290b24d-75ac-4ce1-b4d9-1ebef57c4855",
+  "label": "Sleeping Beauty sampling and settlement algebra by exact rational algebra",
+  "argument_id": "58176593-762e-4595-8775-6dec5ca64cc2",
+  "challenge_module": "TruthCore.Results.Epistemology.SleepingBeauty1401.Challenge",
+  "solution_module": "TruthCore.Results.Epistemology.SleepingBeauty1401.Solution",
+  "theorem": "TruthCore.Results.Epistemology.SleepingBeauty1401.weightingAndWagers",
+  "comparator_config": "results/2290b24d-75ac-4ce1-b4d9-1ebef57c4855/comparator.json",
+  "status": "solution-present",
+  "description": "For every supplied non-dogmatic rational experiment prior p and positive Tails awakening count k, retained-slot conditioning equals p/[p+k(1-p)], which is strictly between zero and one, equals p iff k=1, and is less than p when k>1. Experiment-settled and awakening-settled fixed unit Heads tickets have expected gains p-c and p-c*[p+k(1-p)]; their unique zero-gain prices are respectively p and p/[p+k(1-p)]. This is prospective linear-utility protocol algebra, not a norm selecting Beauty's credence. Scope and provisional assessment: docs/notes/sleeping-beauty-1401.md. No root premise change; the applicability/warrant bridge to issues #931 and #934 remains unbuilt."
+}

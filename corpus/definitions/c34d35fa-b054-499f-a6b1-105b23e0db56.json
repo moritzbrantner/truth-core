@@ -1,0 +1,9 @@
+{
+  "id": "c34d35fa-b054-499f-a6b1-105b23e0db56",
+  "label": "Sleeping Beauty experiment prior and retained-slot selection",
+  "term": "experiment prior and retained-slot selection",
+  "definition": "Protocol supplies a rational experiment prior 0<p<1 and a positive natural number k of Tails awakenings, with one Heads awakening. Experiment selection retains each experiment once, giving Heads marginal p. Retained-slot selection first chooses an experiment with that prior, independently chooses one of k potential slots uniformly, and conditions on the slot containing an actual awakening; Heads retention likelihood is 1/k, Tails retention likelihood is 1. slotHeads is the resulting ratio (p/k)/(p/k+1-p). Awakening-weighted mass is p/[p+k(1-p)]. The certificate proves equality, positive normalization and strict reduction from p exactly when k>1. These are externally specified protocols, not an epistemic rule for Beauty.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Epistemology.SleepingBeauty1401.Protocol",
+  "note": "Analyst formulation for issue #1401; attribution deferred. Rival accounts, interpretation obligations and proposed unbuilt warrant connection in docs/notes/sleeping-beauty-1401.md. No unique rational credence or actual sampling mechanism is stipulated."
+}
