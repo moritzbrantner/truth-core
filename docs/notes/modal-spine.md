@@ -65,8 +65,10 @@ of moments. On non-negative rational times every moment after 0 has
 present at any non-initial moment of dense time in any possible history. That
 anti-continuum commitment is paid by this side. A3′ itself has the same
 founded-past condition. Control 8 satisfies A3, inert emptiness and universal
-coming-to-be on dense time with a first moment, while H2 holds and every bridge
-fails. Moving foundedness from moments to discrete events is an untested
+coming-to-be on dense time with a first moment, while H2 holds, the Reaper
+bridge fails, and no state-causation relation satisfies finitism and the
+precedence bridge together. Each of those two bridges, and the earlier-grounded
+possibility premise, can still hold there on its own. Moving foundedness from moments to discrete events is an untested
 alternative.
 
 A3′a has one derivation with independent content, plus one equivalent
