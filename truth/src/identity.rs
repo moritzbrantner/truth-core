@@ -637,9 +637,78 @@ pub fn validate(root: &Path) -> Result<(), String> {
     }
 }
 
+/// `label_cleanup.passing`: entries that have become safe to remove from the
+/// mechanical-label exception list. Keep their warning order equal to the JSON list.
+fn passing_cleanup_warnings(root: &Path) -> Vec<String> {
+    let Ok(contents) = fs::read_to_string(root.join(CLEANUP)) else {
+        return Vec::new();
+    };
+    let Ok(Value::Array(cleanup)) = serde_json::from_str::<Value>(&contents) else {
+        return Vec::new();
+    };
+    let records = entries(root);
+    let mut by_id: HashMap<&str, (&str, &Obj)> = HashMap::new();
+    let mut definitions: HashMap<String, &Obj> = HashMap::new();
+    let mut disambiguations: Vec<(String, &Obj)> = Vec::new();
+    for entry in &records {
+        let Some(id) = entry.record.get("id").and_then(Value::as_str) else {
+            continue;
+        };
+        by_id.insert(id, (entry.kind, &entry.record));
+        match entry.kind {
+            "definition" => {
+                definitions.insert(id.to_owned(), &entry.record);
+            }
+            "disambiguation" => disambiguations.push((id.to_owned(), &entry.record)),
+            _ => {}
+        }
+    }
+    let senses = SenseIndex::new(&definitions, &disambiguations, &records);
+    let mut warnings = Vec::new();
+    for entry in cleanup {
+        let (Some(id), Some(kind)) = (
+            entry.get("id").and_then(Value::as_str),
+            entry.get("kind").and_then(Value::as_str),
+        ) else {
+            continue;
+        };
+        let reason = match by_id.get(id) {
+            None => Some("the record no longer exists"),
+            Some((record_kind, record)) => {
+                let label = record.get("label").and_then(Value::as_str).unwrap_or("");
+                let rewritten = entry.get("label").and_then(Value::as_str) != Some(label);
+                let only_sense = match entry.get("flags") {
+                    None => true,
+                    Some(Value::Array(flags)) => flags.iter().all(|flag| flag == "untagged-sense"),
+                    _ => false,
+                };
+                if senses.untagged(record_kind, label, record).is_empty()
+                    && (rewritten || only_sense)
+                {
+                    if rewritten {
+                        Some("label rewritten")
+                    } else {
+                        Some("sense tags complete")
+                    }
+                } else {
+                    None
+                }
+            }
+        };
+        if let Some(reason) = reason {
+            warnings.push(format!(
+                "{kind} {id}: label clean-up entry passes ({reason}); remove it from {CLEANUP}"
+            ));
+        }
+    }
+    warnings
+}
+
 /// `identity_check.identity_warnings`.
 pub fn warnings(root: &Path) -> Vec<String> {
-    scan(root).1
+    let mut warnings = scan(root).1;
+    warnings.extend(passing_cleanup_warnings(root));
+    warnings
 }
 
 // ---------------------------------------------------------------------------
