@@ -1,0 +1,11 @@
+{
+  "id": "b203c461-805a-4572-b966-ba3a7886d561",
+  "label": "An inhabited semantic profile separates identity from an invalid inference",
+  "argument_id": "db6a3c5b-847e-49d3-9886-b035f273efe6",
+  "challenge_module": "TruthCore.Results.Logic.EpistemicUnderminers.Challenge",
+  "solution_module": "TruthCore.Results.Logic.EpistemicUnderminers.Solution",
+  "theorem": "TruthCore.Results.Logic.EpistemicUnderminers.validityControl",
+  "comparator_config": "results/b203c461-805a-4572-b966-ba3a7886d561/comparator.json",
+  "status": "solution-present",
+  "description": "Identity preserves truth. The sole world satisfies the true premise and falsifies the false conclusion, so the other inference is invalid in the same profile."
+}

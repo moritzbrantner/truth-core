@@ -1,0 +1,9 @@
+{
+  "id": "a71c4c77-3489-4720-86a5-2c4fe77ae974",
+  "label": "Well-foundedness of the supplied demonstration dependency",
+  "term": "well-founded demonstrative priority",
+  "definition": "Every supplied content is accessible in the supplied prior relation. Induction on accessibility propagates the exclusion of knowledge at earlier contents to the target content when the strong rule requires a known earlier used premise.",
+  "basis": "stipulative",
+  "note": "Analyst structural assumption. Strictness and transitivity alone are weaker, as the reverse natural-number priority profile illustrates. Actual well-foundedness and the interpretation of dependence remain open.",
+  "lean_declaration": "TruthCore.Logic.EpistemicUnderminers.WellFoundedDemonstrativePriority"
+}

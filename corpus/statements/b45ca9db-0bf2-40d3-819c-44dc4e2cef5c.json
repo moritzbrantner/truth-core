@@ -1,0 +1,9 @@
+{
+  "id": "b45ca9db-0bf2-40d3-819c-44dc4e2cef5c",
+  "label": "Someone asserts the selected content",
+  "paraphrase": "OPEN analyst occurrence input: some agent actually asserts the selected content. Mere candidate membership or a hypothetical assertion supplies no witness. Attribution deferred.",
+  "lean_declaration": "TruthCore.Logic.AssertionRetorsion.AssertionMade",
+  "definition_ids": [
+    "a5bbb67a-853e-4b1b-b5c9-9cfc8fa3a9a9"
+  ]
+}

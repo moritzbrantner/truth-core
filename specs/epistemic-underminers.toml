@@ -1,0 +1,262 @@
+[batch]
+vocab = "TruthCore.Logic.EpistemicUnderminers"
+results = "TruthCore.Results.Logic.EpistemicUnderminers"
+
+[[statement]]
+id = "Thin global epistemic nihilism fails"
+lean = "EpistemicNihilismFails"
+paraphrase = "It is false that every agent lacks an epistemic reason to believe every supplied content. This negates the canonical thin global nihilism proposition in the same reason relation."
+definitions = ["dcbd9590-2c87-5550-a69c-b4af6e272fa4"]
+
+[[statement]]
+id = "No actual belief meets the supplied warrant standard"
+lean = "NoJustifiedBeliefs"
+paraphrase = "OPEN analyst rival. No agent and content in the supplied domain pair actual belief with the supplied epistemic warrant predicate."
+definitions = ["15160f9d-a231-4a9f-834f-cc78a7523dc3"]
+
+[[statement]]
+id = "Some actual belief meets the supplied warrant standard"
+lean = "SomeJustifiedBelief"
+paraphrase = "Some agent believes a supplied content and meets the supplied epistemic warrant predicate for that belief."
+definitions = ["15160f9d-a231-4a9f-834f-cc78a7523dc3"]
+
+[[statement]]
+id = "An epistemic reason is taken up in an eligible belief"
+lean = "SomeEligibleReasonUptake"
+paraphrase = "OPEN analyst input. In some case an agent has a reason to believe a content, believes it and meets the supplied eligibility condition for basing, sufficiency and undefeatedness."
+definitions = ["15160f9d-a231-4a9f-834f-cc78a7523dc3"]
+
+[[statement]]
+id = "Eligible uptake of an epistemic reason meets the warrant standard"
+lean = "EligibleReasonUptakeWarrants"
+paraphrase = "OPEN analyst calibration. For each agent and content, the presence of an epistemic reason, actual belief and supplied eligibility jointly suffice for the supplied warrant predicate."
+definitions = ["15160f9d-a231-4a9f-834f-cc78a7523dc3"]
+
+[[statement]]
+id = "A reason and belief coexist without warrant when eligibility is missing"
+lean = "JustificationOmissionControl"
+paraphrase = "A one-agent one-content profile has an epistemic reason, an actual belief and the eligible-uptake warrant bridge, while no case is eligible reason uptake and no actual belief meets the warrant predicate."
+definitions = ["15160f9d-a231-4a9f-834f-cc78a7523dc3"]
+
+[[statement]]
+id = "All supplied reasoning methods fail the finite benchmark"
+lean = "AllReasoningUnreliable"
+paraphrase = "OPEN analyst rival scoped to the supplied binary-answer methods and benchmark. None satisfies the nonempty-benchmark and three-quarter accuracy requirement."
+definitions = ["f8ee6624-c6b7-43a2-8f2e-424e352f957e"]
+
+[[statement]]
+id = "Some supplied reasoning method clears the finite benchmark"
+lean = "SomeReliableReasoning"
+paraphrase = "OPEN actual application. One method in the supplied class answers correctly on at least three quarters of the entries in the same nonempty benchmark."
+definitions = ["f8ee6624-c6b7-43a2-8f2e-424e352f957e"]
+
+[[statement]]
+id = "Blanket finite benchmark unreliability fails"
+lean = "AllReasoningUnreliableFails"
+paraphrase = "The thesis that every supplied method fails the nonempty-benchmark and three-quarter accuracy requirement is false in the fixed profile."
+definitions = ["f8ee6624-c6b7-43a2-8f2e-424e352f957e"]
+
+[[statement]]
+id = "All supplied formation methods are insensitive to opposite truths"
+lean = "AllFormationTruthInsensitive"
+paraphrase = "OPEN analyst rival. Every supplied method gives identical answers at each pair of states in which the correct answer to the fixed binary question differs."
+definitions = ["87441e0b-62eb-47a5-801e-976448227f66"]
+
+[[statement]]
+id = "A supplied method answers opposite truths correctly"
+lean = "SomeOppositeTruthsAnsweredCorrectly"
+paraphrase = "OPEN actual application. The same supplied method answers correctly at two states with opposite correct answers."
+definitions = ["87441e0b-62eb-47a5-801e-976448227f66"]
+
+[[statement]]
+id = "Blanket formation insensitivity fails for the supplied states"
+lean = "AllFormationTruthInsensitiveFails"
+paraphrase = "The thesis that every supplied method gives equal output on each pair of opposite-truth states is false in the fixed profile."
+definitions = ["87441e0b-62eb-47a5-801e-976448227f66"]
+
+[[statement]]
+id = "Benchmark accuracy and opposite-truth responsiveness separate"
+lean = "AccuracyResponsivenessControls"
+paraphrase = "On the four-entry benchmark true, true, true, false, the sole constant-true method meets three-quarter accuracy, answers falsely at false and is insensitive across opposite truths. In the second profile, the sole opposite-answer method fails accuracy and violates insensitivity."
+definitions = ["f8ee6624-c6b7-43a2-8f2e-424e352f957e", "87441e0b-62eb-47a5-801e-976448227f66"]
+
+[[statement]]
+id = "No inference is valid in the supplied semantic profile"
+lean = "NoValidInference"
+paraphrase = "OPEN analyst rival. In the fixed profile no premise set semantically entails any content, with singleton identity sequents in scope."
+definitions = ["0ff13cc6-d04d-4b35-9b64-fe75d11ce482"]
+
+[[statement]]
+id = "The global denial of validity fails in the supplied semantic profile"
+lean = "NoValidInferenceFails"
+paraphrase = "The denial of every semantic entailment fails in the supplied profile when a content can be supplied. The derivation uses singleton identity."
+definitions = ["0ff13cc6-d04d-4b35-9b64-fe75d11ce482"]
+
+[[statement]]
+id = "One inhabited profile has a valid inference and an invalid inference"
+lean = "ValidityControl"
+paraphrase = "In a one-world Boolean-content profile with truth just at the true content, the true content follows from itself and the false content fails to follow from it."
+definitions = ["0ff13cc6-d04d-4b35-9b64-fe75d11ce482"]
+
+[[statement]]
+id = "PRIOR_DEMONSTRATION_1 requires an earlier certificate for every knowledge case"
+lean = "WeakPriorDemonstration"
+paraphrase = "OPEN analyst reading. Every agent who knows a content has a supplied prior demonstration certificate for it. The supplied certificate predicate carries the interpretation of timing and correctness."
+definitions = ["72b2f936-34ec-4982-b120-b5c5ffd1f8b8"]
+disambiguations = ["478d0c3a-dcde-4d8d-ad71-e88150ce772f"]
+
+[[statement]]
+id = "PRIOR_DEMONSTRATION_2 requires a known prior premise actually used in every knowledge case"
+lean = "StrongPriorDemonstration"
+paraphrase = "OPEN analyst reading. Every agent who knows a content has a supplied prior demonstration certificate for it and actually uses at least one premise that the same agent knows and that is earlier in the supplied priority relation."
+definitions = ["67a11f33-c4c5-4406-befa-2b9e66be52db"]
+disambiguations = ["478d0c3a-dcde-4d8d-ad71-e88150ce772f"]
+
+[[statement]]
+id = "The supplied demonstrative priority relation is well-founded"
+lean = "WellFoundedDemonstrativePriority"
+paraphrase = "OPEN analyst structural input. Every content is accessible under the supplied priority relation."
+definitions = ["a71c4c77-3489-4720-86a5-2c4fe77ae974"]
+
+[[statement]]
+id = "No agent knows any content in the supplied domain"
+lean = "NoKnownContent"
+paraphrase = "No agent knows any member of the supplied content domain. The encoding makes no claim that the denial itself is in that domain."
+definitions = ["dded0efa-87f2-441b-afb9-b56771b9c198"]
+
+[[statement]]
+id = "Certificate, premise use and accessibility controls"
+lean = "DemonstrationControls"
+paraphrase = "A single-content interpretation has knowledge, the weak certificate rule and well-founded priority, but lacks the strong requirement. A natural-number interpretation has knowledge at index zero, factivity for all known contents, irreflexive and transitive priority and the strong rule, but lacks well-founded priority."
+definitions = ["72b2f936-34ec-4982-b120-b5c5ffd1f8b8", "67a11f33-c4c5-4406-befa-2b9e66be52db", "a71c4c77-3489-4720-86a5-2c4fe77ae974"]
+disambiguations = ["478d0c3a-dcde-4d8d-ad71-e88150ce772f"]
+
+[[argument]]
+id = "Thin F6 is incompatible with global epistemic nihilism"
+theorem = "f6ExcludesNihilism"
+premises = ["STMT-THERE-ARE-EPISTEMIC-REASONS"]
+conclusion = "Thin global epistemic nihilism fails"
+rule = "Witness instantiation against the universal denial"
+meaning = "The agent and content supplied by thin F6 contradict the universal absence of epistemic reasons for the same reason relation. This uses F6 as a premise. The canonical self-undermining theorem by itself leaves nihilism formally satisfiable."
+
+[[argument]]
+id = "Eligible uptake yields a warranted actual belief"
+theorem = "eligibleReasonUptakeYieldsWarrant"
+premises = ["An epistemic reason is taken up in an eligible belief", "Eligible uptake of an epistemic reason meets the warrant standard"]
+conclusion = "Some actual belief meets the supplied warrant standard"
+rule = "Instantiate the warrant bridge at the eligible case"
+meaning = "The basing, sufficiency and undefeatedness calibration applies to the eligible uptake case and the belief at that case meets the supplied warrant standard. Both the eligible instance and the warrant bridge are explicit premises."
+
+[[argument]]
+id = "Thin reasons and actual belief without warrant are jointly satisfiable"
+theorem = "justificationOmissionControl"
+premises = []
+conclusion = "A reason and belief coexist without warrant when eligibility is missing"
+rule = "Explicit one-agent one-content interpretation"
+meaning = "Set reason and belief true and eligibility and warrant false. The warrant bridge holds without an eligible case. The interpretation shows why thin F6 plus actual belief does not produce warrant in this profile."
+
+[[argument]]
+id = "One benchmark success excludes blanket benchmark unreliability"
+theorem = "reliableWitnessExcludesUnreliability"
+premises = ["Some supplied reasoning method clears the finite benchmark"]
+conclusion = "Blanket finite benchmark unreliability fails"
+rule = "Witness instantiation against the universal denial"
+meaning = "Instantiate the universal failure thesis with the same successful method on the same benchmark. Actual assessment requires a calibrated benchmark and a successful method in the disputed class."
+
+[[argument]]
+id = "Correct answers to opposite truths exclude blanket insensitivity"
+theorem = "oppositeCorrectAnswersExcludeInsensitivity"
+premises = ["A supplied method answers opposite truths correctly"]
+conclusion = "Blanket formation insensitivity fails for the supplied states"
+rule = "Equality substitution at an opposite-truth state pair"
+meaning = "Equal answers at the same two states would make their opposite correct answers equal, since this method gets both right. This excludes the specified output invariance without addressing causal dependence or ordinary warrant."
+
+[[argument]]
+id = "Finite benchmark accuracy and opposite-truth responsiveness are independent"
+theorem = "accuracyResponsivenessControls"
+premises = []
+conclusion = "Benchmark accuracy and opposite-truth responsiveness separate"
+rule = "Two explicit single-method interpretations"
+meaning = "The constant true method clears a skewed four-entry benchmark while insensitive and fallible. The opposite-answer method changes its output with truth while failing the benchmark. These examples separate the two supplied assessments."
+
+[[argument]]
+id = "Singleton identity excludes denial of every semantically valid inference"
+theorem = "identityExcludesNoValidInference"
+premises = []
+conclusion = "The global denial of validity fails in the supplied semantic profile"
+rule = "Semantic consequence reflexivity"
+meaning = "For a supplied content, every world satisfying its singleton premise set satisfies that very content. A sequent class that excludes identity or a claim about actual inferential practice needs a different argument."
+
+[[argument]]
+id = "An inhabited semantic profile separates identity from an invalid inference"
+theorem = "validityControl"
+premises = []
+conclusion = "One inhabited profile has a valid inference and an invalid inference"
+rule = "Explicit Boolean counterinterpretation"
+meaning = "Identity preserves truth. The sole world satisfies the true premise and falsifies the false conclusion, so the other inference is invalid in the same profile."
+
+[[argument]]
+id = "The known-prior-premise demand entails the certificate requirement"
+theorem = "strongPriorImpliesWeak"
+premises = ["PRIOR_DEMONSTRATION_2 requires a known prior premise actually used in every knowledge case"]
+conclusion = "PRIOR_DEMONSTRATION_1 requires an earlier certificate for every knowledge case"
+senses = {PRIOR_DEMONSTRATION = "PRIOR_DEMONSTRATION_2"}
+sense_bridges = [{term = "PRIOR_DEMONSTRATION", from = "PRIOR_DEMONSTRATION_2", to = "PRIOR_DEMONSTRATION_1", statement_id = "PRIOR_DEMONSTRATION_1 requires an earlier certificate for every knowledge case", role = "conclusion"}]
+rule = "Projection of the same supplied demonstration certificate"
+meaning = "From the strong demand retrieve the certificate component for the same knowledge case. This conversion loses the already known premise requirement."
+
+[[argument]]
+id = "Known-prior-premise demand and well-founded priority exclude knowledge"
+theorem = "strongPriorExcludesKnowledge"
+premises = ["PRIOR_DEMONSTRATION_2 requires a known prior premise actually used in every knowledge case", "The supplied demonstrative priority relation is well-founded"]
+conclusion = "No agent knows any content in the supplied domain"
+senses = {PRIOR_DEMONSTRATION = "PRIOR_DEMONSTRATION_2"}
+strong_version_needed = {"PRIOR_DEMONSTRATION_2 requires a known prior premise actually used in every knowledge case" = "The induction needs a known earlier premise; a certificate alone supplies no predecessor."}
+rule = "Well-founded induction on prior contents"
+meaning = "Fix an agent and induct over the priority relation. A knowledge case would supply an earlier known used premise, which the induction hypothesis excludes. The result establishes ignorance only under the combined requirements, and says nothing about justification of basic beliefs."
+
+[[argument]]
+id = "Certificate-only and non-well-founded known-prior accounts survive"
+theorem = "demonstrationControls"
+premises = []
+conclusion = "Certificate, premise use and accessibility controls"
+sense_mixing_control = true
+rule = "Explicit one-content and infinite priority interpretations"
+meaning = "The empty priority interpretation allows knowledge under the certificate-only demand. The reverse strict natural-number order supplies each known content with a known used premise and preserves factivity, while failing accessibility. Neither interpretation supplies actual certificates or independent warrant for infinitism."
+
+[[relation]]
+id = "Known-prior-premise demonstration strengthens certificate demonstration"
+subject_kind = "statement"
+subject_id = "PRIOR_DEMONSTRATION_2 requires a known prior premise actually used in every knowledge case"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "PRIOR_DEMONSTRATION_1 requires an earlier certificate for every knowledge case"
+verification_result_id = "The known-prior-premise demand entails the certificate requirement"
+note = "The same certificate predicate is used in both demands. The one-content control shows the converse can fail."
+
+[[relation]]
+id = "Warranted belief refutes the denial of every justified belief"
+subject_kind = "argument"
+subject_id = "Eligible uptake yields a warranted actual belief"
+predicate = "refutes"
+object_kind = "statement"
+object_id = "No actual belief meets the supplied warrant standard"
+note = "The eligible case supplies an actual belief that meets the very warrant standard in the denial."
+
+[[relation]]
+id = "A benchmark success refutes blanket benchmark failure"
+subject_kind = "argument"
+subject_id = "One benchmark success excludes blanket benchmark unreliability"
+predicate = "refutes"
+object_kind = "statement"
+object_id = "All supplied reasoning methods fail the finite benchmark"
+note = "The method succeeds under the same benchmark, class and accuracy threshold used by the denial."
+
+[[relation]]
+id = "Opposite correct answers refute blanket output invariance"
+subject_kind = "argument"
+subject_id = "Correct answers to opposite truths exclude blanket insensitivity"
+predicate = "refutes"
+object_kind = "statement"
+object_id = "All supplied formation methods are insensitive to opposite truths"
+note = "The paired outputs vary in the same supplied method class and state profile used by the denial."

@@ -1,0 +1,11 @@
+{
+  "id": "20ed92f4-766f-4bd6-b67d-9e5e37f9a209",
+  "label": "Certificate-only and non-well-founded known-prior accounts survive",
+  "argument_id": "baba4a99-9b75-4f87-8325-28601d75db78",
+  "challenge_module": "TruthCore.Results.Logic.EpistemicUnderminers.Challenge",
+  "solution_module": "TruthCore.Results.Logic.EpistemicUnderminers.Solution",
+  "theorem": "TruthCore.Results.Logic.EpistemicUnderminers.demonstrationControls",
+  "comparator_config": "results/20ed92f4-766f-4bd6-b67d-9e5e37f9a209/comparator.json",
+  "status": "solution-present",
+  "description": "The empty priority interpretation allows knowledge under the certificate-only demand. The reverse strict natural-number order supplies each known content with a known used premise and preserves factivity, while failing accessibility. Neither interpretation supplies actual certificates or independent warrant for infinitism."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "7a23011d-5098-4477-8f2e-ab6750459bdf",
+  "label": "Social construction and local scope finite controls",
+  "argument_id": "a0b79b26-dab4-4fe8-8c4f-4966b28a5adb",
+  "challenge_module": "TruthCore.Results.Logic.GlobalThesisBoundaries.Challenge",
+  "solution_module": "TruthCore.Results.Logic.GlobalThesisBoundaries.Solution",
+  "theorem": "TruthCore.Results.Logic.GlobalThesisBoundaries.socialConstructionControls",
+  "comparator_config": "results/7a23011d-5098-4477-8f2e-ab6750459bdf/comparator.json",
+  "status": "solution-present",
+  "description": "A local nonvacuity witness and a global omission control on the same truth frame. Social construction by itself is compatible with objective truth, and a local truth-dependence thesis with a genuinely variable member leaves room for objective truth outside its scope. These are formal interpretations."
+}

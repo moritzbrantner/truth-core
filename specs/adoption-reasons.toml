@@ -1,0 +1,81 @@
+[batch]
+vocab = "TruthCore.Metaethics.AdoptionReasons"
+results = "TruthCore.Results.Metaethics.AdoptionReasons"
+
+[[statement]]
+id = "Reasons of a selected kind are absent"
+lean = "NoReasonsOfKind"
+paraphrase = "For the selected reason kind, no agent has a reason of that kind for any target. This formalizes moral reason nihilism when the selected kind is moral."
+definitions = ["5b5211f6-1cb4-4b6c-94c4-71158725808e"]
+
+[[statement]]
+id = "Global normative reason nihilism"
+lean = "GlobalNormativeNihilism"
+paraphrase = "No agent has any normative reason of any represented kind for any represented target."
+definitions = ["54e94123-63cc-41a7-9179-9040458adb0c"]
+
+[[statement]]
+id = "The view supplies no internal reason to adopt it of a selected kind"
+lean = "NoInternalAdoptionReason"
+paraphrase = "No agent has a reason of the selected kind to adopt the selected view in the attitude or action appropriate to that kind, within this reason profile."
+definitions = ["5b5211f6-1cb4-4b6c-94c4-71158725808e"]
+
+[[statement]]
+id = "The view supplies no internal reason to adopt it of any represented kind"
+lean = "NoInternalAdoptionReasonOfAnyKind"
+paraphrase = "For every kind in the profile, no agent has a reason of that kind to adopt the selected view in the attitude or action appropriate to that kind."
+definitions = ["5b5211f6-1cb4-4b6c-94c4-71158725808e", "54e94123-63cc-41a7-9179-9040458adb0c"]
+
+[[statement]]
+id = "Global normative reason denial fails in the given profile"
+lean = "GlobalNormativeNihilismExcluded"
+paraphrase = "The given reason profile cannot satisfy the denial of normative reasons in every represented kind."
+definitions = ["54e94123-63cc-41a7-9179-9040458adb0c"]
+
+[[statement]]
+id = "A moral reason denial can coexist with epistemic reason to adopt the view"
+lean = "MoralDenialEpistemicAdoptionControl"
+paraphrase = "In a two-kind profile with an agent and two targets, the selected view expresses a true denial of all moral reasons. There is no moral reason to adopt that view, and the agent has an epistemic reason to believe it."
+definitions = ["5b5211f6-1cb4-4b6c-94c4-71158725808e", "dcbd9590-2c87-5550-a69c-b4af6e272fa4"]
+
+[[argument]]
+id = "A reason denial rules out adopting the view for a reason of that kind"
+theorem = "kindDenialLeavesAdoptionGap"
+premises = ["Reasons of a selected kind are absent"]
+conclusion = "The view supplies no internal reason to adopt it of a selected kind"
+rule = "universal instantiation at the adoption target"
+meaning = "A denial of all reasons of one kind applies to the selected view as a target. The reason kind and its intended attitude or action are held fixed."
+
+[[argument]]
+id = "Global normative reason denial leaves no internal reason to adopt it"
+theorem = "globalDenialLeavesAdoptionGap"
+premises = ["Global normative reason nihilism"]
+conclusion = "The view supplies no internal reason to adopt it of any represented kind"
+rule = "universal instantiation at the adoption target for each reason kind"
+meaning = "Across every represented kind, global denial removes reasons to adopt the selected view. If the denial itself is represented as a target in the profile, the theorem applies to that target. The conclusion concerns the availability of reasons within the profile."
+
+[[argument]]
+id = "A witness to F6 excludes global normative reason denial in its profile"
+theorem = "epistemicReasonExcludesGlobalDenial"
+premises = ["STMT-THERE-ARE-EPISTEMIC-REASONS"]
+conclusion = "Global normative reason denial fails in the given profile"
+definitions = ["54e94123-63cc-41a7-9179-9040458adb0c", "dcbd9590-2c87-5550-a69c-b4af6e272fa4"]
+rule = "existential witness contradicts universal denial in the epistemic kind"
+meaning = "When the epistemic kind uses the F6 reason relation, its witness contradicts global denial. This uses F6 as a premise. Its conclusion is the incompatibility of global denial with this epistemic reason."
+
+[[argument]]
+id = "An explicit two-kind profile separates moral and epistemic adoption"
+theorem = "moralDenialAllowsEpistemicAdoption"
+premises = []
+conclusion = "A moral reason denial can coexist with epistemic reason to adopt the view"
+rule = "finite reason profile with one empty kind and one inhabited kind"
+meaning = "With one agent and two targets, the selected target holds exactly when the moral reason relation is empty, which it is. The epistemic reason relation has a reason to believe that target. The witness establishes compatibility in this stipulated profile."
+
+[[relation]]
+id = "An F6 reason excludes the global denial in the same profile"
+subject_kind = "argument"
+subject_id = "A witness to F6 excludes global normative reason denial in its profile"
+predicate = "refutes"
+object_kind = "statement"
+object_id = "Global normative reason nihilism"
+note = "Conditional on an epistemic reason witness from the same profile. The epistemic kind is the belief-reason slice used by F6."

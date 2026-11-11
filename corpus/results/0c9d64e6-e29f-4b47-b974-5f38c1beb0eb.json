@@ -1,0 +1,11 @@
+{
+  "id": "0c9d64e6-e29f-4b47-b974-5f38c1beb0eb",
+  "label": "Phenomenal experience from a realized assertion and its phenomenal classification",
+  "argument_id": "397c1b44-969e-4781-8ff3-78aea1c21b6c",
+  "challenge_module": "TruthCore.Results.Logic.AssertionRetorsion.Challenge",
+  "solution_module": "TruthCore.Results.Logic.AssertionRetorsion.Solution",
+  "theorem": "TruthCore.Results.Logic.AssertionRetorsion.experienceFromAssertion",
+  "comparator_config": "results/0c9d64e6-e29f-4b47-b974-5f38c1beb0eb/comparator.json",
+  "status": "solution-present",
+  "description": "Take an agent making the assertion, then an occurring thought realizing that assertion, then apply the phenomenal bridge to that episode and the same agent. This gives an episode that both occurs and is experienced. No phenomenal conclusion follows from the thought occurrence theorem alone."
+}

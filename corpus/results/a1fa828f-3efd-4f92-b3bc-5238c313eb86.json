@@ -1,0 +1,11 @@
+{
+  "id": "a1fa828f-3efd-4f92-b3bc-5238c313eb86",
+  "label": "Social construction with truth variation excludes objective truth in scope",
+  "argument_id": "2401e99d-fc8c-4587-991c-ed67c036c9b1",
+  "challenge_module": "TruthCore.Results.Logic.GlobalThesisBoundaries.Challenge",
+  "solution_module": "TruthCore.Results.Logic.GlobalThesisBoundaries.Solution",
+  "theorem": "TruthCore.Results.Logic.GlobalThesisBoundaries.socialConstructionExcludesScopedObjectiveTruth",
+  "comparator_config": "results/a1fa828f-3efd-4f92-b3bc-5238c313eb86/comparator.json",
+  "status": "solution-present",
+  "description": "With the actual-stable calibration, an objectively true content is actually true and holds at every supplied profile. The scoped construction thesis classifies it as constructed and the bridge supplies a profile where it fails. Universal scope gives the global consequence. The argument establishes neither the global thesis nor its defeat and does not identify objective with unindexed truth."
+}

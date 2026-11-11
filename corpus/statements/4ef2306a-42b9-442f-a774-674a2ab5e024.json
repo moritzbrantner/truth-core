@@ -1,0 +1,9 @@
+{
+  "id": "4ef2306a-42b9-442f-a774-674a2ab5e024",
+  "label": "None of the occurring episodes is phenomenally experienced",
+  "paraphrase": "The supplied episode domain has no occurring episode that is phenomenally experienced.",
+  "lean_declaration": "TruthCore.Logic.AssertionRetorsion.NoExperienceOccurs",
+  "definition_ids": [
+    "663c48ce-4166-4632-86d9-85eeef0c258b"
+  ]
+}

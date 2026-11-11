@@ -1,0 +1,19 @@
+{
+  "id": "397c1b44-969e-4781-8ff3-78aea1c21b6c",
+  "label": "Phenomenal experience from a realized assertion and its phenomenal classification",
+  "premise_statement_ids": [
+    "b45ca9db-0bf2-40d3-819c-44dc4e2cef5c",
+    "1edfc1d1-34d4-4f3e-99e6-e07a6ba58ffc",
+    "bbfacacc-6f44-4ca0-b9ba-75962a2a1d2e"
+  ],
+  "conclusion_statement_id": "77e57686-d710-4505-9272-589cf5af6fe8",
+  "inference_ids": [
+    "8bcce664-acb7-4d40-bb56-8c6c1c1f7026"
+  ],
+  "meaning": "Take an agent making the assertion, then an occurring thought realizing that assertion, then apply the phenomenal bridge to that episode and the same agent. This gives an episode that both occurs and is experienced. No phenomenal conclusion follows from the thought occurrence theorem alone.",
+  "definition_ids": [
+    "663c48ce-4166-4632-86d9-85eeef0c258b",
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3",
+    "a5bbb67a-853e-4b1b-b5c9-9cfc8fa3a9a9"
+  ]
+}

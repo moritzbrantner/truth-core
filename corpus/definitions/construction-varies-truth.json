@@ -1,0 +1,12 @@
+{
+  "id": "50827057-88b1-4519-9444-3203c9902c34",
+  "label": "Social construction varies truth across supplied profiles",
+  "term": "Social construction varies truth across supplied profiles",
+  "definition": "For any actually true constructed content in the supplied scope, there exists a supplied attitude profile at which the same content fails to hold.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.GlobalThesisBoundaries.ConstructionVariesTruth",
+  "note": "Analyst bridge, attribution deferred. This profile variation is neither an account of causation nor a claim that social origins always affect truth. Real application requires defending the profile variation while keeping content and non-attitude facts fixed. An institutional fact can vary with practices while the same proposition about a noninstitutional event can remain true across practices.",
+  "definition_ids": [
+    "4f377045-355c-500f-b159-1f8e9e9fa863"
+  ]
+}

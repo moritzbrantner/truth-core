@@ -1,0 +1,24 @@
+{
+  "id": "88f667a9-4ee9-4bfd-b5f2-e57adc7d21a8",
+  "label": "Scope of reasons to adopt moral and global normative nihilism",
+  "date": "2026-11-11",
+  "statement_ids": [
+    "0aa9811b-2e21-4b8d-9fc6-93d3ebb91070",
+    "22073f51-9ad0-479f-a674-42faa1943783",
+    "2fcbd634-d444-4ec2-a9d0-5b86e66afa63",
+    "3f77c61c-11e5-4bb2-a905-8ec6f8ebca19",
+    "86859b81-92dc-4abf-bbac-f5ef2fd39597",
+    "b30a1925-dfa0-4ab2-bc3c-860982298091",
+    "f56b2ee7-c69e-5e3b-85b0-e671d907ba58"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Reused the F6 existential reason predicate, the epistemic nihilism retorsion and its distinction between truth and available reasons, and the separate reflective-coherence policy boundary. The scope-specific denial removes reasons to adopt the target in that kind. In the two-kind witness, the designated target expresses a true denial of moral reasons and still has an epistemic reason to believe it. Global denial removes all represented reason kinds and conflicts with an F6 witness in its epistemic slice. Analyst formulations with attribution deferred. See docs/notes/self-undermining-views.md.",
+  "blocker": "A truth-claim error theory needs a bridge to moral reason denial, and a moral ought needs a bridge to a moral reason. Applying the global result to a concrete theory needs adequate kind and target coverage; applying it downstream requires independently warranted F6 and a reason profile shared with the target argument.",
+  "evidence": [
+    "0c32687e-0e0f-45a8-a85f-9c324bc10728",
+    "40ae0ae9-36f6-487d-bbb6-2cb4a500e98a",
+    "bce3240f-978c-43c7-a2cf-0faa5d14c68d",
+    "c66ad93e-f5c3-4d14-b4c4-5db1218b5d38"
+  ]
+}

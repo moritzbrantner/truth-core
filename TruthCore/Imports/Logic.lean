@@ -3,6 +3,7 @@ module
 
 public import TruthCore.Logic.ActualPhysicalCompleteness
 public import TruthCore.Logic.AdaptivePrediction
+public import TruthCore.Logic.AssertionRetorsion
 public import TruthCore.Logic.AtomismIndependence
 public import TruthCore.Logic.CaseNonContradiction
 public import TruthCore.Logic.CertifiedCorrection
@@ -21,6 +22,7 @@ public import TruthCore.Logic.EpistemicAccuracy
 public import TruthCore.Logic.EpistemicAuthority
 public import TruthCore.Logic.EpistemicReasonDefinitionFork
 public import TruthCore.Logic.EpistemicReasons
+public import TruthCore.Logic.EpistemicUnderminers
 public import TruthCore.Logic.ExcludedMiddle
 public import TruthCore.Logic.ExcludedMiddleAssertionBoundary
 public import TruthCore.Logic.FallibleCorrection
@@ -28,6 +30,7 @@ public import TruthCore.Logic.FiniteValidationLogic
 public import TruthCore.Logic.FitchKnowability
 public import TruthCore.Logic.ForeknowledgeDiscrimination
 public import TruthCore.Logic.FormSelection
+public import TruthCore.Logic.GlobalThesisBoundaries
 public import TruthCore.Logic.IntuitionisticKnowability
 public import TruthCore.Logic.JointRouteFailure
 public import TruthCore.Logic.JustificationIntrospection

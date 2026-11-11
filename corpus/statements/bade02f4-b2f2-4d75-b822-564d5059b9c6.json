@@ -1,0 +1,9 @@
+{
+  "id": "bade02f4-b2f2-4d75-b822-564d5059b9c6",
+  "label": "The supplied demonstrative priority relation is well-founded",
+  "paraphrase": "OPEN analyst structural input. Every content is accessible under the supplied priority relation.",
+  "lean_declaration": "TruthCore.Logic.EpistemicUnderminers.WellFoundedDemonstrativePriority",
+  "definition_ids": [
+    "a71c4c77-3489-4720-86a5-2c4fe77ae974"
+  ]
+}

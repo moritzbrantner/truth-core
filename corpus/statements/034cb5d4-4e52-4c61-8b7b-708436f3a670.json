@@ -1,0 +1,9 @@
+{
+  "id": "034cb5d4-4e52-4c61-8b7b-708436f3a670",
+  "label": "All supplied formation methods are insensitive to opposite truths",
+  "paraphrase": "OPEN analyst rival. Every supplied method gives identical answers at each pair of states in which the correct answer to the fixed binary question differs.",
+  "lean_declaration": "TruthCore.Logic.EpistemicUnderminers.AllFormationTruthInsensitive",
+  "definition_ids": [
+    "87441e0b-62eb-47a5-801e-976448227f66"
+  ]
+}

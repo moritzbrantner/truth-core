@@ -1,0 +1,14 @@
+{
+  "id": "f283063f-6a2c-410d-b48e-2e321e39596c",
+  "label": "Accepted worldview package undercuts a specified evidential basis conditionally (inference)",
+  "input_statement_ids": [
+    "82be04b8-f958-4fe0-b1fa-76405a41b355",
+    "280c3b9c-fb2a-4ad2-a26b-a00a8cb373b1",
+    "23ac5f08-430b-48b1-9ea6-53fa4ba943af"
+  ],
+  "output_statement_id": "ce6f3aff-e421-4a95-b47f-b54b2a5689fe",
+  "rule": "Apply the concern and defeater bridges to the same subject and basis",
+  "meaning": "The accepted package undercuts one basis if accepting it leads to a low or unassessable reliability assessment and that assessment defeats the basis. The result supplies neither bridge from evolutionary naturalism itself.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

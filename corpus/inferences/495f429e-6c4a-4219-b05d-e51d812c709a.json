@@ -1,0 +1,10 @@
+{
+  "id": "495f429e-6c4a-4219-b05d-e51d812c709a",
+  "label": "Social construction and local scope finite controls (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "45f60188-ffaf-47a4-b9d3-a6b2bdb19a18",
+  "rule": "Reuse the actual-stable frame with two explicit scope and construction predicates",
+  "meaning": "A local nonvacuity witness and a global omission control on the same truth frame. Social construction by itself is compatible with objective truth, and a local truth-dependence thesis with a genuinely variable member leaves room for objective truth outside its scope. These are formal interpretations.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

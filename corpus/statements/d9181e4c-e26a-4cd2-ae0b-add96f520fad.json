@@ -1,0 +1,9 @@
+{
+  "id": "d9181e4c-e26a-4cd2-ae0b-add96f520fad",
+  "label": "Thin global epistemic nihilism fails",
+  "paraphrase": "It is false that every agent lacks an epistemic reason to believe every supplied content. This negates the canonical thin global nihilism proposition in the same reason relation.",
+  "lean_declaration": "TruthCore.Logic.EpistemicUnderminers.EpistemicNihilismFails",
+  "definition_ids": [
+    "dcbd9590-2c87-5550-a69c-b4af6e272fa4"
+  ]
+}

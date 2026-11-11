@@ -1,0 +1,10 @@
+{
+  "id": "f182d391-f6d2-496a-881d-7fc408cc666e",
+  "label": "Every actually true content in scope is socially constructed",
+  "paraphrase": "OPEN analyst proposition, attribution deferred. Every content in the supplied scope that holds at the actual profile satisfies the supplied social construction classifier. The global form takes the entire content type as scope. No truth variation is assumed.",
+  "lean_declaration": "TruthCore.Logic.GlobalThesisBoundaries.ScopedSocialConstruction",
+  "definition_ids": [
+    "52bf39ca-ca7e-434f-be0c-2900952839c3",
+    "4f377045-355c-500f-b159-1f8e9e9fa863"
+  ]
+}

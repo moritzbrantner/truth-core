@@ -1,0 +1,10 @@
+{
+  "id": "fdd06612-3e84-4711-8a14-afe458507066",
+  "label": "Assertions of the denial of all beliefs are sincere",
+  "paraphrase": "OPEN analyst sincerity bridge: every supplied agent asserting the denial of all beliefs believes that very proposition. Attribution deferred.",
+  "lean_declaration": "TruthCore.Logic.AssertionRetorsion.NoBeliefsAssertionIsSincere",
+  "definition_ids": [
+    "a5bbb67a-853e-4b1b-b5c9-9cfc8fa3a9a9",
+    "72d257cd-1203-4b32-bd70-bddefccfd63e"
+  ]
+}

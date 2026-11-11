@@ -1,0 +1,12 @@
+{
+  "id": "51d4a8cf-8f5b-48fc-82eb-071d12bdad88",
+  "label": "PRIOR_DEMONSTRATION_1 requires an earlier certificate for every knowledge case",
+  "paraphrase": "OPEN analyst reading. Every agent who knows a content has a supplied prior demonstration certificate for it. The supplied certificate predicate carries the interpretation of timing and correctness.",
+  "lean_declaration": "TruthCore.Logic.EpistemicUnderminers.WeakPriorDemonstration",
+  "definition_ids": [
+    "72b2f936-34ec-4982-b120-b5c5ffd1f8b8"
+  ],
+  "disambiguation_ids": [
+    "478d0c3a-dcde-4d8d-ad71-e88150ce772f"
+  ]
+}
