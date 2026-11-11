@@ -319,3 +319,171 @@ The computed frontier-diff against d6694c799cbf8c84aa8156f75d4bfa12d9cdbc2a
 reports 402 open reaching-root premises before/after and zero added support
 alternatives: no change. The new certificate is a disconnected conditional
 semantic result with the explicit unbuilt connection plan above.
+
+## Local authority reassessment (#1398 continuation, proposed 2026-11-11)
+
+This section is a proposed semantic/warrant analysis, **not a new certified
+result**. It extends the accepted 556c85f scope and therefore needs the master's
+independent challenge. All old Challenges, types and certificates are unchanged.
+The following formulae are explicit analyst definitions for this comparison;
+they do not introduce established corpus propositions or historical attributions.
+
+### Issued instruction and derived consequence can coexist
+
+Fix an outcome carrier X and an issued-content family I. Define, in prose
+mathematical notation, `Derived(I,q) := exists p, I(p) and forall x, p(x) -> q(x)`.
+This is one-premise consequence closure, not a closure of arbitrary jointly
+issued contents under conjunction. It leaves `ExactDuty I q := I(q)` unchanged.
+It respects equivalent presentations, admits issued contents by identity, and
+is monotone: composing p -> q with q -> r supplies p -> r. These are ordinary
+logical derivations given the definition, not additional Lean certificates.
+
+For the existing issuedMail witness, Derived(I,q) iff q(mail): the forward
+direction evaluates the issued predicate at mail; the reverse uses mail itself
+as the issued witness. Thus mail-or-burn is derived but not issued, and burn
+alone is neither derived nor issued. Compliance with the issued mail instruction
+still requires mail. Burn satisfies the derived disjunction and fails the issued
+instruction. A new derived obligation therefore never licenses replacing the
+original instruction in an adequacy test. This directly repairs the earlier
+suggestion that the exact-content rival must sacrifice *all* useful consequence
+inference: it sacrifices closure of **issuance**, while permitting a separate
+closed consequence family. The old theorem about ExactDuty remains correct.
+
+A useful derived instruction is a reminder to bring the key when the issued
+instruction is to bring both key and pass. Its usefulness does not make bringing
+only the key adequate compliance with the original. A merely disjunctive message
+can similarly be true yet poor advice. No authorization family, practical Can
+or legitimate authority follows from either content relation.
+
+Failure controls: if no p is issued, nothing is Derived, including tautologies.
+If an impossible predicate is issued, every q is Derived. A nonempty extension
+for each issued predicate excludes that individual failure but does not ensure
+joint consistency: separately issued mail and burn are individually satisfiable
+on this carrier and jointly unsatisfiable. Using their conjunction as an issued
+base would require an additional aggregation policy and a joint-compliance
+witness. These distinctions prevent a hidden vacuity or an unnoticed move from
+single-instruction closure to an entire moral code.
+
+### One fixed killing case and a genuinely local rule
+
+Fix exactly `HardCaseTyped.Solution.facts`, agent offender, context killing,
+action kill, victim victim. Here and below Solution abbreviates
+`TruthCore.Results.Ethics.HardCaseTyped`; it is not a new Lean namespace.
+The existing witness supplies deliberate killing, innocence, nonthreateningness,
+feasibility, the offender's indifference, benefit and expected impunity. It does
+not supply actual human psychology or truth of these facts outside the model.
+
+Let K be the conjunction of those **same local factual instances**. Supply an
+analyst institutional rule J: when K holds, issue this prohibition to this agent
+in this context. Its rationale is a public protective rule: preventing deliberate
+lethal attacks on nonthreatening innocents protects each member's security without
+making protection depend on an offender's enthusiasm. J is stipulated for the
+comparison; that rationale is a defeasible justification, not a derivation from
+Facts. Let F be `Verdict.forbidden killing kill`, and R be
+`Verdict.reasonAgainst offender killing kill`. Use a separate local consequence
+rule L: this issued prohibition yields F. L concerns a normative verdict, not
+practical feasibility or strong permission. Neither J nor L mentions R.
+
+The previous yes/withoutReason verdicts already have identical F and opposite R.
+Extending both interpretations with the same issuance under J and the same L
+therefore preserves this pair: K, issuance and F agree; categorical R differs.
+This is a transparent model-extension argument, **not a newly certified Lean
+extension** of HardOmission. The old certificate quantified independent verdicts;
+it did not quantify J or prove any particular institution authoritative. It also
+does not show that either interpretation satisfies a richer moral theory.
+
+Given this explicit base, a sufficient *local* authority premise A is
+`issued(this prohibition) -> R`. With the issued instance, A entails R; without
+A the pair survives. Conversely R entails A in this fixed base, since an
+implication to the already true R is immediate. This equivalence is relative to
+the issued base, not an absolute equivalence of authority and reasons. It shows
+why merely postulating A gives no independent warrant. It needs no universal
+claim about every issuer, norm, action or agent. The no-issuance control prevents
+inferring R from A alone. The withoutReason extension is the omission control
+for A. No minimum or exhaustive account of normative grounds is claimed.
+
+### Descending into a positive rationale and its rival
+
+A substantive proposed rationale for A is victim-centered: the victim has a
+non-instrumental interest in continued life; knowingly destroying it supplies
+the offender a pro-tanto reason against this act independently of the offender's
+goals. A local bridge B from this interest and this deliberate lethal damage to
+R is sufficient even if institutional issuance is absent. Thus moral reason may
+justify an issued prohibition rather than issuance generating moral reason.
+This avoids turning institutional membership into a disguised proof of authority.
+Interest, damage and B remain explicit normative/application commitments; the
+HardCaseGoods certificate establishes only a stipulated good/damage assignment.
+
+The strongest alternative examined here accepts the victim's interest, protective
+institutions and public condemnation but indexes reasons to the holder's ends:
+the victim has reason to resist; others have reason to protect; an indifferent,
+benefiting, unpunished offender need have no goal-relative reason against acting.
+This is a positive practical account, not permission to kill, and not a claim
+that anti-realism requires indifference. Its price is rejecting B's transfer
+from another person's non-instrumental interest to this offender's categorical
+reason. The victim-centered account's burden is defending that transfer rather
+than assuming that recognition of an interest already entails it.
+
+AgencyNeutrality's diagonal/full controls sharpen this dispute without deciding
+it. Joint relabeling and self-protection reasons allow the diagonal relation and
+therefore do not imply offender-to-victim reasons. Adding its universal transfer
+would be needlessly strong for the present case. B is local, but remains
+substantive. The existing integer comparison only contrasts private advantage
+with equal-sum outcomes; it does not establish interpersonal aggregation or the
+normative authority of the lower-total-harm option.
+
+A genuine problem case for an unrestricted damage rationale is emergency
+amputation: deliberate bodily damage can preserve the same person's life.
+Consent, necessity and the life-saving effect matter. Consequently a rule
+'damages a recognized good -> all-things-considered forbidden' overreaches.
+Even retaining a pro-tanto reason against damage requires distinguishing that
+reason from decisive prohibition; justified treatment need not erase the loss.
+A second problem case is diverting a lethal threat from several innocents onto
+one nonthreatening innocent. The thin facts innocence/nonthreateningness alone
+do not settle permissibility, intention versus foresight, priority or aggregation.
+K includes deliberateness, but those fields do not encode the rescue alternatives
+or a doctrine of double effect. No actual rescue verdict follows from this model.
+These cases do not refute the local B; they block generalizing B into a universal
+priority rule or treating its pro-tanto conclusion as decisive prohibition.
+
+### Complete proposed judgment and reassessment
+
+The local logical gap is now more precise: exact issued guidance and useful
+derived obligations are compatible; the earlier inference cost applies to
+issuance closure alone. For the same killing case, institutional issuance and
+its verdict consequence still leave categorical authority open. Victim-centered
+B can supply R conditionally without appealing to issuance, while the
+interest-relative alternative can protect and condemn without conceding B.
+Neither has been defeated by the existing structural certificates. Provisional
+assessment: the two-layer content refinement answers the specific Ross guidance
+objection; categorical bindingness remains underdetermined by the examined
+facts, issued rule and consequence rule. This is a scoped judgment about these
+premises, not equal overall warrant for every moral theory.
+
+Rejected approaches: reusing modal overlap as an authority proof; calling A a
+new explanation; deriving beneficiary-fixed neutrality from relabeling;
+identifying derived disjunction with adequate compliance; using damage alone
+as decisive priority. The stronger positive rationales and problem cases above
+supply reasons for these rejections, not a failed proof search.
+
+This is a substantive branch reassessment: extending the finite model again
+would reproduce the same independent R slot. The next materially different
+question is whether victim-centered B follows from a defended account of
+non-instrumental interests and reason-holder applicability, with the rescue
+controls kept explicit. It requires selecting and investigating that normative
+argument, rather than adding another independently assignable reason flag.
+Master allocation is appropriate because it enters the #699 authority family
+and its shared applicability obligations. The current result can be used only
+conditionally. A derivation of B, an interest-relative counterexample satisfying
+its defended premises, or a successful rescue-sensitive local rule would revise
+this assessment. A certified two-layer consequence extension would strengthen
+the formal evidence boundary without itself supplying warrant for B.
+
+Root connection remains unbuilt: #699's bindingness question and #1035's identical
+dated-duty application are intended uses, not root-route statements. Context
+reports no root route for the Ross or HardCaseTyped result. No new proposition,
+definition, source claim, certificate, or premise closure is asserted by this
+section. Exact frontier-diff remains 402 -> 402 open premises and 288 -> 288
+verified support alternatives. Existing proof evidence is reused unchanged;
+this extension has prose derivations/model-extension reasoning only. The master
+must challenge this complete added judgment before treating it as reviewed.
