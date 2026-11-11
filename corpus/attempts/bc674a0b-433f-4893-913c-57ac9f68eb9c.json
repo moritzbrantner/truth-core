@@ -1,0 +1,22 @@
+{
+  "id": "bc674a0b-433f-4893-913c-57ac9f68eb9c",
+  "label": "Stage-one warrant: temporal non-presence versus source existence, and world-independent modality",
+  "date": "2026-11-12",
+  "kind": "reading",
+  "outcome": "succeeded",
+  "statement_ids": [
+    "395cb0f6-0352-47b1-8996-918468cc716a",
+    "62b4a40a-919e-5da4-998c-131c386b7361",
+    "1b1462e6-c285-448c-87e2-3053bc05a341",
+    "b19ffd92-01bd-5c0b-9643-e7407137ea5e"
+  ],
+  "summary": "Bounded semantic/warrant audit in docs/notes/modal-spine.md. A2 (EmptinessStaysEmpty) is classically equivalent to backward temporal population: any concrete occupant at t requires a concrete occupant at every earlier s. The exact derivation uses earlier presence, not causal production. History.IsAt and ontic.ExistsAt are distinct, with only presence-to-existence. Hand-inspected (not Lean-certified) two-world interpretation: source exists at both worlds but is present at no time; creature exists only at actual and is present at time 1, not 0; universal access, both concrete. A1, A3, F1, F2 hold, A2 fails, yet NecessaryConcreteAt holds because of source. Adding an edge from source to creature is only a stipulation until causation is interpreted. Therefore the ordinary slogan that nonexistents cannot cause does not, on its own, justify universal A2; it requires a temporal-presence bridge or a stronger causal-temporal closure package excluding atemporal, simultaneous and newly appearing producers as well as nonproductive arrivals. Excluding only atemporal producers is insufficient. This is not a refutation of the A2 conditional or a demonstrated metaphysically possible atemporal creation. F2 has a positive case if metaphysical possibility is admissibility in a world-independent space of complete alternatives, with stable cross-world identity; actual reflexivity and Euclidean access then follow. Its existing origin-tolerance model is an exact structural alternative, but the rival must justify why more distant origins are genuinely impossible for the same individual, while the absolute account owes its own admissibility/identity justification. Separate verified ActualEuclidean arrival theorems use the selected-world F2' while the original arrivals retain global F2 in their signatures. No premise, statement, theorem or closure status changed; the inquiry identifies exact next tests, not a verdict on actual reality.",
+  "evidence": [
+    "bb9a11b1-d0f1-4b78-a009-b1f0dfee3e32",
+    "b0585787-ad9b-4af8-a4f6-55bf721e436c",
+    "8544b7a9-3f37-4b05-96d9-27b67a897686",
+    "468cbe86-1bba-4a0c-9484-5feb910a22e6",
+    "7c839c5e-2b39-4c7e-af38-99bfc46c48b5"
+  ],
+  "blocker": "A2 needs a defended relation between existing causes and their temporal presence in all histories; a hand-inspected assignment is not a Lean model certificate. F2' needs independently warranted absolute-world or origin-dependent modal admissibility and cross-world identity; no metaphysical profile has been certified true. New source/semantic predicates, a replacement route and any premise discharge are deferred pending these exact tests."
+}
