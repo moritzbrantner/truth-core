@@ -108,7 +108,9 @@ This follow-up tests the existential-foundation obligation
 `82cfaf26-fc86-54ab-8328-9a7b2bdbbe21` and its weaker sufficient alternative
 `5c898d24-d1f7-5087-b09e-3287a723e787` (whole-roster nontrapping). The parent is
 argument `df542c04-6033-5d7d-b681-b81263dc1245`, conclusion
-`0bdcf366-29c7-5d45-b603-5c929dcad976`, the actual #487 necessary-concrete route.
+`0bdcf366-29c7-5d45-b603-5c929dcad976`, the CROSS-WORLD
+necessary-concrete-underived conclusion on the #487 route. This is stronger
+than the selected-world actual root supplied by `actualRootExists`.
 The selected question is whether a positively specified constitutive account
 can explain an actual entity's existence without being an instrument routing
 another independently actual supplier's efficacy. It is not whether every
@@ -267,8 +269,8 @@ not just a coherent graph, and address why the entire configuration obtains.
 The inspected finite and source cases supply no such infinite-realization
 warrant. A globally irreducible concrete whole whose intrinsic constitution
 supports its parts could instead be a root of the selected relation; it would
-not by itself defeat one-source existence. Schaffer's inspected framework
-actually assumes foundational priority and restricts its material domain;
+not by itself defeat one-source existence. The previously recorded Schaffer
+framework assumes foundational priority and restricts its material domain;
 it is not independent evidence for source-free infinitism. An everywhere
 constituted order is the relevant rival only if no independent actual concrete
 supporter remains in the admitted roster. A global explaining fact is not
@@ -281,10 +283,11 @@ The positive gain is a sharper interpretation test. A constitutive account can
 answer a local composite-existence question without its explanation taking the
 form of instrumental transmission; the inspected evidence does not establish
 that all existential support must be routing. Neither does it establish an
-actual source-free constitutive order. The present assessment is therefore
-underdetermined on **one actual underived source**, with more explicit reasons
-for refusing both the universal routing inference and an infinite-constitution
-victory. This refines the prior audit; it does not overturn its judgment.
+actual source-free constitutive order. This inspected constitutive-versus-routing
+defense leaves the existence of one actual underived source underdetermined.
+It supplies more explicit reasons for refusing both the universal routing
+inference and an infinite-constitution victory. This refines the prior audit;
+it does not overturn its judgment.
 
 The exact missing bridge is from independently specified, actually obtaining
 full constitutive grounds to the SAME world-local `m.grounds` existential-support
