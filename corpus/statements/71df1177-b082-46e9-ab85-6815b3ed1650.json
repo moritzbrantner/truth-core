@@ -1,0 +1,14 @@
+{
+  "id": "71df1177-b082-46e9-ab85-6815b3ed1650",
+  "label": "A concrete thing that begins to be present has a concrete ground present at its absence or later",
+  "paraphrase": "OPEN analyst premise, attribution deferred: in every history of the model, a concrete individual that is absent at a moment s and present at a strictly later moment has some concrete individual as a ground under that history's grounding relation that is present in that history at s or at some moment strictly after s. Existential: other grounds, including remote ones that ceased before s, are unconstrained. The ground need not be a sufficient or deterministic cause, and its existence in the history is not asserted (presence-to-existence is a separate premise). Things present from the earliest moment of their history, and things never present, are unconstrained. Intended sense of ground: the proximate ground of the thing's coming to be, per se or per accidens; the derivation holds for any relation.",
+  "lean_declaration": "TruthCore.Causality.GroundedBeginnings.BeginningsHaveLastingGround",
+  "definition_ids": [
+    "1f4f5228-45e8-4e5d-beda-e918c5808ec0",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e"
+  ],
+  "disambiguation_ids": [
+    "81c233d4-01b4-528c-8bbd-7da228443ffe",
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
+  ]
+}

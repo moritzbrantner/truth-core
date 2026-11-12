@@ -1,0 +1,9 @@
+{
+ "id": "df576785-ff88-45d7-97cf-9177957af935",
+ "label": "Beginnings of concrete things have concrete grounds",
+ "term": "grounded beginning",
+ "definition": "BeginningsGrounded h Concrete grounds holds when, in every history v, a concrete individual x that is not present at a moment s and is present at a strictly later moment t has some concrete individual y with grounds v y x. In ordinary language: whatever concrete thing begins to be present has a concrete ground under v's grounding relation; nothing is said about whether that ground exists or is present in v. A thing present from the earliest moment of its history, or never present, is unconstrained. Used only in GroundedBeginnings.controls (control 2): without a presence condition on the ground it does not give inert emptiness.",
+ "basis": "stipulative",
+ "lean_declaration": "TruthCore.Causality.GroundedBeginnings.BeginningsGrounded",
+ "note": "Analyst formulation; attribution deferred. The grounding relation is a supplied world-relative relation of the same shape as BruteFoundationBoundary.Profile.grounds. It was a premise of the first version of PR #1478; after the semantic challenge it is kept only to state control 2, where every beginning has a concrete ground, the only ground ceased before an empty moment, and inert emptiness fails. The premise now used is BeginningsHaveLastingGround. Distinct from EveryContingentGroundedAt and from the principle of sufficient reason. Applicability OPEN."
+}

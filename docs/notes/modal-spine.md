@@ -33,8 +33,87 @@ There are two verified arrivals. They share the two frame premises.
 | | Premise | Status | Rival |
 |---|---|---|---|
 | A1 | Whatever is present at some time of a history exists in that history. `STMT-COUNT-TEMPORAL-HISTORY-PRESENCE-ACTUAL` | open | recorded; see the rival table |
-| A2 | Inert emptiness: a moment with nothing concrete present is followed only by such moments. | open | recorded: a beginning out of nothing |
+| A2 | Inert emptiness: a moment with nothing concrete present is followed only by such moments. | open; one derivation, below | recorded: a beginning out of nothing (a model only; no substantive objection identified, see the audit below) |
 | A3 | Possibly, contingent concrete things are absent at a moment and present at a later one. | open | recorded: the initial-state view, on which contingent things are present from the earliest moment of every possible history |
+
+A2 now has a derivation (2026-11-12, spec `specs/modal-spine-grounded-beginnings.toml`,
+attempt [`67abe57d`](../../corpus/attempts/67abe57d-090b-46f2-9769-e941149e6d9b.json)).
+`GroundedBeginnings.inertOfGroundedBeginnings` derives it from two premises,
+through a traced form of "from nothing, nothing comes". The premises use a
+supplied grounding relation, read as the proximate ground of a thing's coming
+to be, per se or per accidens (`DISAMB-CAUSAL-SERIES`). The version first
+proposed was repaired after the independent semantic challenge.
+
+| | Premise | Status | Rival |
+|---|---|---|---|
+| A2ab | Lasting ground: a concrete thing absent at a moment `s` and present later has *some* concrete ground present at `s` or later (`71df1177`) | open | a ground-free beginning (control 1); a beginning whose only ground ceased before an empty moment (control 2); undercutting objection to its inductive warrant, below |
+| A2c | Post-absence well-founded grounding: for each history and moment `s`, grounding among concrete things absent at `s` and present later is well-founded (`bf18a0d0`) | open | an endless series of grounds compressed after one moment at which all its members are absent: descending in time towards it (`BegunComingToBe.Control.zeno`, control 3), or all present at one later moment (unchecked). Independent justification on file: none beyond an open extension of Aquinas's grant, below |
+
+The traced form (`e6a1ac3c`: whatever concrete thing is present traces back, by
+a finite chain of grounds, to something concrete present at each earlier
+moment) strictly strengthens A2 (registered `strengthens` relation; control 5).
+The bundle carries **no modal content**: it holds in
+`InertEmptiness.Control.initialState`, where no concrete individual is necessary
+at any world (control 4). This differs from the founded-past grounding bundle,
+which already contains possible necessary being. In Arrival A necessity arises
+from A2 jointly with A3, A1 and the frame premises. None of these suffices
+without A2 (`exNihilo`). The derivation makes A2's warrant explicit. It does not
+show that the two premises are better warranted than A2.
+
+Two first-version premises were dropped, each for a substantive objection:
+
+- *Well-founded grounding among all present concreta* (`81c39a34`, now the
+  registered strong version of A2c). An endless per accidens past of
+  generations violates it. Aquinas grants that such a series is not impossible
+  (ST I q.46 a.2 ad 7, `STMT-INFINITE-REGRESS-IMPOSSIBLE-ONLY-IN-PER-SE-SERIES`).
+  Control 7 shows the same past satisfies A2ab, A2c and A2.
+- *No ground of a beginning ceased before the absence* (universal). Remote
+  grounds violate it: a grandparent who died in 1950 grounds a grandchild born
+  in 2000, with `s` = 1980. A2ab asks only for *some* ground.
+
+**Objection and warrant audit of A2** (Substantive Objection Standard):
+
+- *Recorded rival.* The beginning out of nothing is model-witnessed only
+  (`exNihilo`). No independent justification is on file, so it is not a
+  substantive objection. The model shows A2 is needed.
+- *Quantum-cosmological "creation from nothing".* Hartle–Hawking (claim
+  `e6300451`, read): a wave function from a sum over compact Euclidean
+  four-geometries. The claim as recorded contains no time-ordered pair of a
+  concrete-empty moment and a later populated one. The proposal supplies a
+  quantum state and an action. On an analyst gloss, its Euclidean regime has no
+  Lorentzian time in which a zero three-geometry would come first. So it bears
+  on A3 (the initial-state question), not on A2. Vilenkin 1982 is an *unread
+  lead* and gets no weight.
+  Quantum vacuum (*unread lead*): under the adopted esse-in-re sense of concrete
+  (`DISAMB-CONCRETE-ABSTRACT-CRITERIA`) it is OPEN whether a vacuum field state
+  is a concrete individual. If it is, A2 is untouched. If it is not, a vacuum
+  moment followed by particles would bear on A2 only with an account of that
+  moment, and none is on file.
+- *FLRW.* The initial singularity is not a point of the manifold, so A2 is
+  silent. Adjoining an empty `t = 0` would make a populated FLRW history an
+  instance of A2's rival, so A2ab or A2c would fail. *Which* one fails depends
+  on the individuals, presence predicate and grounding relation supplied. That
+  is untested for FLRW. The controls classify only the integer-indexed zeno
+  interpretation with predecessor grounds, where A2ab holds and A2c fails; with
+  no grounds A2ab fails instead (control 1). No justification for adjoining
+  `t = 0` is on file.
+- *Result.* No rebutting objection to A2, A2ab or A2c is identified. The two
+  substantive objections found by the challenge targeted first-version
+  premises, which are now dropped (above). A2c's standing rival is the
+  compressed endless series. Its only possible support is an extension of
+  Aquinas's grant from an eternal past to a series compressed after one moment;
+  that extension is unread and open. One undercutting objection applies to an
+  inductive warrant for A2 and A2ab. It comes by parity from the
+  contingent-natural restriction rival recorded for B2. Ordinary caused
+  beginnings always have an available bearer, so the inductive base supports
+  "beginnings within a populated history have grounds" as well as A2ab. That
+  restricted principle is silent exactly where A2 is needed. The objection is
+  not evidence of an ungrounded beginning. A non-inductive ex nihilo warrant
+  would not face it, but none is on file.
+- *Warrant.* Before this work no independent warrant for A2 was on file. Now
+  A2 has one derivation from open, unsourced premises. Its universal scope over
+  every possible history, including one with an empty moment, remains the
+  crux of Arrival A.
 
 A3 is itself derived (`ContingentComingToBe.possibleContingentFreePast`,
 spec `specs/modal-spine-coming-to-be.toml`) from one open possibility premise:
@@ -534,7 +613,7 @@ the join and the root and act-of-being premises in
 | F2 Euclidean frame | Possibility is relative and not transitive: reflexive, but two possibilities need not see each other | survives | `InertEmptiness.necessaryConcrete` |
 | F2′ Euclidean at the actual world (`1b1462e6`, weaker than F2 by `euclideanAtOfEuclidean`) | Symmetric reflexive non-Euclidean access at the actual world (`ToleranceOriginRival`; structural surrogate for origin tolerance) | The structural omission model survives. `OriginToleranceIdentity` supplies a nonvacuous 5-world, 2-individual countermodel for its encoded origin commitments; the separate restored 3-offset assignment satisfies the conclusion. Metaphysical applicability remains OPEN; deletion scopes are distinguished below. | `ActualEuclidean.inertNecessaryConcrete` |
 | A1 presence gives existence | Presentism: to exist is to be present now, and something earlier has ceased | survives | `InertEmptiness.necessaryConcrete` |
-| A2 inert emptiness | A beginning out of nothing | survives | `InertEmptiness.necessaryConcrete` |
+| A2 inert emptiness | A beginning out of nothing | survives as a model; no substantive objection identified. **Excluded under the open premises** A2ab (lasting ground) and A2c (post-absence well-founded grounding) by `GroundedBeginnings.inertOfGroundedBeginnings`; each is needed (`GroundedBeginnings.controls` 1–3). Standing rivals: for A2ab, a beginning whose only ground ceased before the absence (control 2); for A2c, an endless series of grounds compressed after an empty moment (control 3). An endless per accidens past is compatible with both (control 7) | `InertEmptiness.necessaryConcrete`, `inertOfGroundedBeginnings` |
 | A3 possible contingent-free past (derived) | Initial-state view: no possible history has contingent things absent, then present | survives | `InertEmptiness.necessaryConcrete` |
 | A3′ possible founded coming-to-be | The same initial-state view | **excluded** by `ContingentComingToBe.possibleContingentFreePast`; survives only with a non-well-founded (endless or dense) populated past (H2) or a never-generated contingent thing (H1) | the premise itself |
 | A3′a founded populated pasts (H2 denied) | A beginningless succession of contingent things, each preceded and grounded by an earlier one; or a dense past with a first moment | **excluded under the open bridges** `9c314355` (state-causal finitism) and `20e6c7df` (precedence to causation), by `populatedPastsFoundedOfStateFinitism`; and **excluded under the open Reaper premises** (local pieces, patchwork) by `GrimReaperPatchwork.populatedPastsFoundedOfPatchwork`. Survives finitism alone, the precedence bridge alone, earlier grounding, Reaper patchwork alone and Reaper pieces alone (`ComingToBeHorns.controls` 1–3, `GrimReaperPatchwork.controls` 1–2). Dense time with a first moment survives the old Reaper assembly bridge and the joint finitism/precedence bundle, and is excluded by the two unrestricted Reaper premises together (`ComingToBeHorns.controls` 8, `GrimReaperPatchwork.controls` 3): that exclusion is a cost of the unrestricted premises, avoided by the coinitial ones | `populatedPastsFoundedOfStateFinitism`, `populatedPastsFoundedOfPatchwork` |
@@ -953,3 +1032,19 @@ conditional investigations, not a mandatory first gate:
    grades of being. The
    sixteen formal-alternative rows need a read source before they carry any
    weight; until then they show only where each premise is needed.
+5. A2's warrant (2026-11-12, see the A2 derivation under Arrival A). A2 now has
+   a derivation from two open grounding principles (A2ab, A2c). Next: state and
+   test a non-inductive ex nihilo warrant for A2ab. The one standing objection,
+   by parity from the restriction rival, undercuts only an inductive warrant.
+   By the same parity it also undercuts an inductive warrant for A2c: ordinary
+   comings-to-be never start from an empty moment, which is exactly where A2c
+   is needed; no warrant for A2c is on file either way.
+   Read ST I q.46 a.2 ad 7 in context to test whether Aquinas's grant of
+   infinite per accidens series extends to a series compressed after one moment
+   (A2c's standing rival). Check the simultaneous-regress shape of that rival
+   with a model. Read a classical source into a pinned claim only if that
+   becomes the selected question. Read Vilenkin 1982 if the quantum-cosmological
+   lead is selected, and check whether its "nothing" is a moment of the time
+   order and whether its laws and state count as concrete. Test whether A2c can
+   be replaced by a condition on time (founded intervals above the empty
+   moment), and compare the prices.
