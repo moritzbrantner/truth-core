@@ -1,0 +1,15 @@
+{
+  "id": "349668d0-4618-40b4-8598-1f8a9b3ef21e",
+  "label": "Controls for the grounded perfection-transfer derivation",
+  "paraphrase": "Closed controls on explicit interpretations (respects Bool, false = esse, true = skill; everything in act): (1) in the existing four-role concurrent interpretation with its full TransferModelBackground, universal-scope transfer holds and nothing causes its own esse, while nonuniversal transfer fails (the particular supporter causes the recipient's esse but not its skill) and unrestricted transfer fails; (2) a single being causing only its own esse satisfies universal-scope and nonuniversal transfer, causes its own esse, and falsifies both unrestricted transfer and the residual, so nonuniversal transfer does not entail the residual; (3) with two beings, a source causing the other's esse but not its skill falsifies universal-scope and unrestricted transfer while nonuniversal transfer and no self-causation of esse hold; (4) in a four-role interpretation where the source causes every other being and the nonuniversal supporter causes the recipient in every respect, all three nonlogical premises and unrestricted transfer hold, with an actual nonuniversal esse edge. Statements about these interpretations only; excluded middle is not varied.",
+  "lean_declaration": "TruthCore.Causality.PerfectionTransferGrounding.Control.Controls",
+  "definition_ids": [
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "c19faf56-0908-5e6e-8c39-ccba40dce5d1",
+    "76db8656-b660-52f0-9e54-347cacf1b205"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
+  ]
+}

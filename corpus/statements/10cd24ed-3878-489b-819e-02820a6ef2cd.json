@@ -1,0 +1,17 @@
+{
+  "id": "10cd24ed-3878-489b-819e-02820a6ef2cd",
+  "label": "A nonuniversal CAUSE_2 of a thing's esse causes each of its actual perfections",
+  "paraphrase": "Open premise, analyst formulation, unattributed: if c causes x's esse (CausesIn c x esse) and c is not a cause of the esse of every other actual being (not CausesAllInGenus at esse), then for every respect r in which x is in act, c causes x's being in act in r. Exactly the first conjunct of STMT-RESIDUAL-PERFECTION-TRANSFER; it drops the residual's self-effect conjunct. Strictly weaker than the residual (Control.Controls part 2: a single being causing only its own esse satisfies it and falsifies the residual); given STMT-NOTHING-CAUSES-ITS-OWN-BEING it says the same as the residual. It is the part of the unrestricted transfer principle that neither universal-scope transfer nor the absence of self-causation of esse supplies. No source states it: the q.4 a.2 and q.6 a.2 support claims on the unrestricted principle concern God as first cause or as subsistent being, not particular causes. 'Cause' is CAUSE_2 at esse (CausesIn, effective causal responsibility for the effect's being, not mere coming to be).",
+  "lean_declaration": "TruthCore.Causality.PerfectionTransferGrounding.NonuniversalPerfectionTransfer",
+  "definition_ids": [
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1",
+    "c19faf56-0908-5e6e-8c39-ccba40dce5d1"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
+  ]
+}
