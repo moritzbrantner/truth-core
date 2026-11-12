@@ -1100,3 +1100,151 @@ lowest expanded-route cost 16 → 16, distinct verified support alternatives
 303 → 303, added alternatives 0, **no change**. These are computed root effects,
 not a hand-reconstructed premise reduction. The new interpretation is a
 comparison/control, not an additional root-support route or premise defense.
+
+## #1554: what coverage must warrant (complete worker proposal, 2026-11-12)
+
+Baseline: `80dbecadccaaef2b5d6333fb4af1470c5a0a5806`, after fetching main
+and fast-forwarding the supplied clean checkout `7bc0bae9998d2bdc4672b760658370aeb2c5001b`.
+Reuse the merged #1571 spine map. This section owns transport, not #1553's
+CCR warrant, #484's compactness, or draft #1575's CCR decomposition. Shared
+conventions sourceRevision: `15f348b072188255da837578eaafc8a98f12fdf0`.
+This is a proposed semantic/warrant outcome for the parent's independent
+challenge, not a new certified result or reviewed coordinator judgment.
+
+### Exact target and scope audit
+
+The target is `0bdcf366-29c7-5d45-b603-5c929dcad976`, serving the existing
+stage-one routes toward `8626f8a5` (GOD_4 exists). Result
+`1a2669d8-5008-470f-a7b8-b4ea14bfeff3`, argument
+`f62e68f6-e245-4bfa-86e9-ce3cbf7e4f44`, binds
+`ClosedGroundingRoots.underivedOfCoverageClosed`. Its complete inputs are
+population `56f68b40`, CCR `aca3baa1`, actual contingent grounding `c71c068c`,
+EM `ee4ab504`, and coverage `df42581f`. No J1, J2, reflexivity, edge identity
+or union WF occurs in that type. The proof first obtains ONE necessary actual
+root and uses coverage to contradict any incoming support of that SAME target.
+The other closed-collection coverage routes `e099de52` and `f8661716` replace
+the population/contingent-grounding package by necessary population plus full
+J1 `dd41c165` or actual J1 `84751fc2`; this does not defend coverage.
+
+Selected meanings remain CONCRETE_6, NECESSARY_2 (existence at worlds accessible
+from the selected world), and the selected direct existential grounding relation.
+No passage to necessity by one's own essence, efficient production or divine
+attributes follows. Critically, BOTH coverage and the underived endpoint
+quantify support over ALL carrier worlds, including inaccessible ones, without
+requiring target existence at the edge's witness world. This is already explicit
+in `df42581f`'s paraphrase. A motivation about metaphysically possible situations
+cannot silently warrant this larger quantifier domain. Universal-access controls
+do not test that gap. Either defend that application domain or separately ask
+for an accessible-world endpoint and an explicit bridge to the current target;
+this proposal does not silently weaken a registered statement.
+
+### Discriminating reduction: target dependence, not supporter identity
+
+For exposition only, let I(v,b) abbreviate existence of a concrete, locally
+existing direct supporter of b at v. Fix concrete b necessary from w. Coverage
+says `(exists v, I(v,b)) -> I(w,b)`. It entails
+`not I(w,b) -> forall v, not I(v,b)` constructively. Conversely that persistence
+of absence entails coverage classically: if I(v,b) and not I(w,b), persistence
+contradicts I(v,b); EM on I(w,b) supplies its positive existential witness.
+This is a prose derivation from the displayed definitions, not a registered
+Lean theorem. It assumes no frame axiom and no identity of supporters. Do not
+read I as mere generic causation or add target-presence guards to it.
+
+Thus universal root persistence for necessary targets would re-express coverage
+in the route's classical setting rather than independently defend it. Weakening
+the application to ONE already obtained necessary actual root can suffice for
+that witness. Merely assuming that some such root persists, however, supplies
+the contested endpoint itself once its actual existence and necessity are
+included. It is a weaker sufficient condition, not progress in warrant. There
+is no uniquely weakest substantive bridge without fixing permitted independent
+premises. A new predicate called 'essential independence' would have the same
+problem unless supported by a separate account of THIS target's dependence.
+
+This locates the positive argument's remaining step precisely: if dependence
+is a standing mode of the target, it cannot switch from self-standing at w to
+supported elsewhere. The premise needed concerns the modal stability of having
+ANY existential support; essentiality of one particular source is stronger and
+unnecessary. Conversely necessary existence alone constrains presence, not this
+standing mode. The current formal definitions do not identify the two.
+
+### Positive rivals and descent into their commitments
+
+1. **Necessary bearers, variable dependence.** The existing rotating-triangle
+   certificate in `NecessarySupportCoverage` has universal access, all candidates
+   necessary, every world's grounding WF, full J1 and no cross-world reversed
+   pair, but no globally underived candidate. Each world has genuine local roots
+   in the stipulated relation; the positive account allows their dependence roles
+   to change. Its price is a cross-world ancestry overlay cycle, not local
+   circular explanation. To reject it, justify why modal role changes are
+   forbidden for existential support, or why the overlay must be founded. Local
+   asymmetry cannot supply that ban. The rooted-pair certificate conversely keeps
+   one global root while allowing an overlay cycle elsewhere, so a blanket union
+   ban would exclude more than needed for the existential target.
+2. **Contingent realization of a necessary target.** `lateSupport` in
+   `NecessarySupportActualScope` allows an actual necessary root to receive
+   contingent support elsewhere while actual J1, J2 and local foundation hold.
+   The earlier NecessaryWholeReplacement certificate strengthens the replacement
+   story with local grounding of the contingents and a fixed supported candidate.
+   A positive interpretation distinguishes necessity of realization from necessity
+   of any realizer. Its outstanding debts remain numerical identity, complete
+   existential adequacy and independent coverage of realizations, as detailed
+   above. Necessary realization does not by itself discharge those debts, but
+   neither does their openness establish full J1 or coverage. Actual J1 tests only
+   actual edges; strengthening it to full J1 excludes this rival but still leaves
+   the rotating necessary-only rival.
+3. **Essential origin.** The strongest relevant origin argument holds that THIS
+   individual could not originate from another origin. Even granted, it constrains
+   originating production. The selected relation is present existential support.
+   To infer coverage one still needs an origin-to-sustaining-dependence bridge and
+   exclusion of an unoriginated individual receiving support elsewhere. A history
+   with an essential origin is not evidence that every present sustaining source
+   is essential. Reclassifying origins as sustaining grounds would change the
+   question; no source claim or historical origin doctrine is asserted here.
+
+These are not three exclusive worldviews. A rival can combine essential origin
+with variable sustaining realization. Nor is the mathematical consistency of a
+selected relational model a metaphysical possibility result. No accepted floor
+item or independent identity criterion inspected here refutes those combinations.
+
+### Proposed assessment, next test and work status
+
+For the current exact join, support is **underdetermined at transport**, even
+conditional on granting the actual necessary-root package. Coverage is a useful,
+weaker alternative to invariance/full J1 plus union WF; its sufficient role is
+already certified. Calling it a standing dependence principle does not supply
+independent warrant. The positive modal-stability argument and the replacement
+account remain live; the existing controls discriminate their consequences but
+cannot adjudicate intended metaphysical applicability. This does not retract the
+weaker necessary-ACTUAL-root route or establish/refute GOD_4 existence.
+
+Next discriminating test: take a downstream SAME-witness candidate and specify
+an independent criterion of its numerical identity AND what counts as complete
+present existential support. Ask whether that criterion permits an actually
+unsupported target to acquire such support at another admissible situation
+while remaining the same necessary individual. Require a reason for stability
+of support-status, not merely stability of existence or origin. Separately audit
+whether all carrier worlds are intended alternatives and whether target-absent
+support arrows are excluded. A candidate-level answer could justify a restricted
+bridge; no such independent criterion is supplied by the present profile or CCR.
+This missing semantic/application evidence is the concrete reassessment blocker,
+not a failure to derive another actual root. Compactness stays with #484.
+
+Persisted outcome: exact scope discrimination and warrant diagnosis; no new
+vocabulary, proof, source attribution, statement, closure or premise change.
+The release binary is absent here; Python context/related/dossiers were used.
+The service accepted the canonical workspace binding at the baseline but rejected
+a shortened UUID; retry/CLI uses full identities. Shared preview imports were
+not reconciled, so no Lean preview evidence is claimed. Existing certificates
+above are reused on unchanged Lean inputs; new prose deductions remain uncertified.
+Parent semantic challenge and delivered-head CI remain required before integration.
+
+Offline corpus validation passed with existing warnings; attribution-check found
+no changed stating claims; whitespace check passed. Claim/type self-sweep covered
+the five f62e68f6 inputs, both J1 variants, the all-carrier-world scope, concrete
+support restriction and the exact limits of the reused controls. No new formal
+certificate is claimed for the prose equivalence. Computed Python `frontier-diff`
+against the baseline: 479 → 479 open root-reaching premises (340 bare, 93
+supported, 46 stated), support alternatives 373 → 373, added 0, diagnostic cost
+16 → 16; no change. This reuses the CLI's underlying corpus semantics with a
+disk-backed task-specific TMPDIR. No Lean input changed, so existing proof evidence
+is reused; final CI is pending on the reviewable draft.
