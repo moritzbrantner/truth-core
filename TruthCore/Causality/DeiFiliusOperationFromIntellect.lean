@@ -25,7 +25,12 @@ living, and composes them with the pure act that the sixth of the nine already i
   capacities whose exercise is an effect in another (see below);
 * `ExercisedUnderstandingIsImmanentOperation`: whatever has the capacity to
   understand and is actually understanding has an immanent operation (q.18 a.3
-  ad 1: understanding is an action that remains in the agent).
+  ad 1: understanding is an action that remains in the agent). `InAct` is the
+  nine's shared act predicate, read formally or virtually (`DEF-UNIVERSALLY-PERFECT`,
+  `DISAMB-IN-ACT`); the capacity condition does not exclude virtual act. On the
+  inclusive reading this premise therefore also carries an explicit bridge: a
+  being capable of understanding that is in act in understanding only virtually
+  has an immanent operation. That bridge is part of the open premise.
 
 From these, every pure act with intellect operates (`IntellectualPureActOperates`,
 an intellect-restricted middle version between `STMT-PURE-ACT-OPERATES` and

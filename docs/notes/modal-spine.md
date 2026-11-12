@@ -947,8 +947,14 @@ premises added; open premises reaching the root 446 to 448.
 
 Where the weight now rests, stated plainly. Premise (1) is close to the meaning
 of HAS_INTELLECT_1 (intellectual cognition, whose exercise is understanding).
-Premise (3) is a classification: definition `7acc985a` already names
-understanding as an example of immanent operation. Premise (2) carries the
+Premise (3) is a classification on the formal reading of `InAct`: definition
+`7acc985a` already names understanding as an example of immanent operation. But
+`InAct` is the nine's shared predicate, which `DEF-UNIVERSALLY-PERFECT` reads as
+formal or virtual act, and having the capacity does not exclude virtual act. On
+that inclusive reading, (3) also carries an explicit open bridge: a being capable
+of understanding that is in act in understanding only virtually has an immanent
+operation. That bridge is part of the premise, not supplied by the capacity
+condition (review of PR #1481). Premise (2) carries the
 act/potency content. Under the adopted sense of potency (capable and not
 actually), (2) is excluded middle for "actually understanding" at a capable
 being (`exercisedOrInPotencyOfDecidable`, not registered). In that sense a pure
@@ -976,9 +982,9 @@ distinct from its act (q.14 a.4). This does not target (1): `CanBe` requires no
 distinct faculty and holds of whatever actually understands. No substantive
 objection to the restricted premises is identified. Not tried: a perfection
 route through `IsPerfect`. Some being actually understands, so a universally
-perfect being is in act in understanding. Its act may be eminent, though, so
-premise (3) would need the formal sense. That is left to the perfection-transfer
-lane.
+perfect being is in act in understanding. Its act may be only eminent, though,
+so that route would lean entirely on the virtual-act bridge inside (3) on its
+inclusive reading. That is left to the perfection-transfer lane.
 
 On the full-list reading the warrant gap of the sufficiency premise is an exact
 list. In general it is the field interpretation, seven new bridges and the
