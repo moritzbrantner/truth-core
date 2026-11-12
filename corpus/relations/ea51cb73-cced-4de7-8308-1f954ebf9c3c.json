@@ -1,0 +1,11 @@
+{
+  "id": "ea51cb73-cced-4de7-8308-1f954ebf9c3c",
+  "label": "Causal principle at every world strengthens selected-world causal coverage",
+  "subject_kind": "statement",
+  "subject_id": "ef69a630-2277-56be-86ca-f05f8193093a",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "d8a1fb16-ce20-542f-9e3b-d9350468e331",
+  "verification_result_id": "9e56b65f-3c57-5412-aa54-c4e2ce98fd73",
+  "note": "Strength registration (2026-11-12 audit): Same contingent individuals and cause relation; the weak version keeps only the selected world and drops distinctness. The backing result is an assembly transcription."
+}

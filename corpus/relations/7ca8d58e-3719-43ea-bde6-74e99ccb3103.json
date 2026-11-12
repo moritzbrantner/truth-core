@@ -1,0 +1,11 @@
+{
+  "id": "7ca8d58e-3719-43ea-bde6-74e99ccb3103",
+  "label": "Johannine-Matthean independence strengthens John 20 commission independence",
+  "subject_kind": "statement",
+  "subject_id": "a8365742-e60c-51e8-8e1b-881e7adbf2fe",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "e2dfc958-eccf-549a-897e-fbb85b5b1b67",
+  "verification_result_id": "3d56fa55-dc86-529c-9f18-d13a37ba7f33",
+  "note": "Strength registration (2026-11-12 audit): The weak version is the instance the commission argument uses (John 20.21-23 against Matthew 18.17-18 or 16.18-19) under the fixed strand table."
+}

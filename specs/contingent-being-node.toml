@@ -111,7 +111,7 @@ theorem = "inhabits"
 premises = ["STMT-SOME-ACTUAL-CONTINGENT"]
 conclusion = "STMT-COGITO-INHABITED-CONCRETE-WORLD"
 rule = "Existential elimination and introduction, conjunction elimination"
-meaning = "Assembly (a weakening, not a substantive derivation): the contingency node's witness is concrete and exists at w, so the route's population node holds. It puts the node on the root path as an alternative derivation of STMT-COGITO-INHABITED-CONCRETE-WORLD; as an assembly it closes that node only if the contingency node is closed (invariant 16 fixpoint). It is deliberately not registered as a strengthens relation: a registration's backing argument is set aside by the reaching-root walk, so the node would stay off the root path. The converse fails (CONTINGENT-NODE-CONTROLS: on the one-world frame the world is inhabited and no being is contingent)."
+meaning = "Assembly (a weakening, not a substantive derivation): the contingency node's witness is concrete and exists at w, so the route's population node holds. It puts the node on the root path as an alternative derivation of STMT-COGITO-INHABITED-CONCRETE-WORLD; as an assembly it closes that node only if the contingency node is closed (invariant 16 fixpoint). It is registered as a strengthens relation (strong: the contingency node; weak: the population node); since 2026-11-12 a registration still counts for reach, so the node stays on the root path, while closure sets the argument aside and closes the weak version only by strength-order propagation. The converse fails (CONTINGENT-NODE-CONTROLS: on the one-world frame the world is inhabited and no being is contingent)."
 transcription = "assembly"
 
 [[argument]]
@@ -242,3 +242,13 @@ predicate = "refutes"
 object_kind = "statement"
 object_id = "STMT-NECESSARY-ACT-YIELDS-ALL"
 note = "Backed by the verified SIMPLICITY-COLLAPSE-CORE. Conditional on the OPEN node STMT-SOME-ACTUAL-CONTINGENT, so it does not count for closure while the node is open."
+
+[[relation]]
+id = "Actual contingent concrete being strengthens an inhabited concrete world"
+subject_kind = "statement"
+subject_id = "STMT-SOME-ACTUAL-CONTINGENT"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "STMT-COGITO-INHABITED-CONCRETE-WORLD"
+verification_result_id = "CONTINGENT-NODE-INHABITS"
+note = "Same witness and world; the weak version drops only contingency. Strict: CONTINGENT-NODE-CONTROLS (on the one-world frame the world is inhabited and no being is contingent). The backing result is an assembly transcription."

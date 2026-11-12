@@ -1,0 +1,11 @@
+{
+  "id": "4375f4fe-fcff-4d9e-a5da-ce4a40f3ee95",
+  "label": "Maximum in a genus causes all in it strengthens its instance at being",
+  "subject_kind": "statement",
+  "subject_id": "d9fad785-40ab-555a-a1c1-5e39c9d50497",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "da09703b-0b1e-5dca-9dd7-6c0c8d1610d7",
+  "verification_result_id": "646c0764-1bff-505f-bda4-e86f10d74130",
+  "note": "Strength registration (2026-11-12 audit): Same causal principle; the weak version is its instance at the genus being (MAXIME_1)."
+}

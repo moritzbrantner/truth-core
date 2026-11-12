@@ -21,4 +21,8 @@ identical. A new optional argument field, `weakening: true`, declares that a
 one-premise argument derives a weaker version of its premise; `check` warns
 about a verified argument that declares it, or that is the implication evidence
 of a `strength_comparison`, without a `strengthens` relation for the pair. Proof, binding, source and closure rules
-are unchanged. The current contract is in `docs/corpus-model.md`, "Strength order".
+are unchanged. An audit of the 209 verified one-premise results without a
+registration registered 20 genuine strength orders, including the declined one,
+and left equivalences, projections and consequences with new content
+unregistered with reasons (`docs/notes/strength-order-audit.md`). The current
+contract is in `docs/corpus-model.md`, "Strength order".

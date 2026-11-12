@@ -1,0 +1,11 @@
+{
+  "id": "cc06eec9-e3c2-4b50-8a47-e8aec0fd8ac4",
+  "label": "Actual contingent concrete being strengthens an inhabited concrete world",
+  "subject_kind": "statement",
+  "subject_id": "c94b5446-e7e7-5b36-9bed-288959725526",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "56f68b40-9737-59a0-8cac-5610980a1547",
+  "verification_result_id": "207805c8-fc0b-53e9-bcc5-611e0b9bbe5f",
+  "note": "Same witness and world; the weak version drops only contingency. Strict: CONTINGENT-NODE-CONTROLS (on the one-world frame the world is inhabited and no being is contingent). The backing result is an assembly transcription."
+}
