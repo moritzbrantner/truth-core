@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 
-export type ProgressEntry = { id: string; title: string; search: string; established: boolean; hasComparison: boolean };
+export type ProgressEntry = { id: string; title: string; search: string; established: boolean };
 export function ProgressSearch({ entries }: { entries: ProgressEntry[] }) {
   const [query, setQuery] = useState("");
   const [status, setStatus] = useState("all");
