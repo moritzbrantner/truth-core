@@ -1,0 +1,12 @@
+{
+  "id": "b6fa2a70-e07b-4b0b-91a1-e40d04f011f5",
+  "label": "Graded necessary support, from J2 (inference)",
+  "input_statement_ids": [
+    "d149d238-2eeb-5c8b-a136-f95d7aa5c721"
+  ],
+  "output_statement_id": "9181f1f0-e510-42c6-8008-46a57df8e861",
+  "rule": "Take the grade to be the cross-world union itself; well-foundedness lifts from the concrete subtype",
+  "meaning": "Converse of the graded J2 route: J2 already yields some rigid comparison with no infinite ascent that support between necessary concreta ascends. With unionWFOfAscent the two are equivalent when the grade may be chosen freely. The rigid-grade premise is therefore not weaker than J2; what it adds is that the grade is the one of being shared with the grades-to-maximum route.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

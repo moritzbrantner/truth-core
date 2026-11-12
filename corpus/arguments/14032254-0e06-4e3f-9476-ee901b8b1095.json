@@ -1,0 +1,15 @@
+{
+  "id": "14032254-0e06-4e3f-9476-ee901b8b1095",
+  "label": "Graded-foundation controls, checked",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "00af6089-7b07-43bf-aed5-c086b000d6c8",
+  "inference_ids": [
+    "e3277f30-74fa-47e7-8d92-e3264df2a692"
+  ],
+  "meaning": "Controls for the graded batch. The joint witness shows all new premises, the reused grade premises and the cause principle are jointly satisfiable with a nonempty grounding edge, grade and cause, so no derivation is vacuous on that ground. The descending grade shows that well-founded grounding and a well-founded grade do not give ascent: the ascent premise is a substantive addition. Off-world ascent shows that the rigid ascent premises with no infinite ascent imply neither coverage nor the one-way no-novel-edge condition. The rival controls show the rotating triangle and rooted pair admit no rigid well-founded grade ascended by necessary support, while the rooted pair still satisfies the join's endpoint. Model-witnessed only; no interpretation is claimed metaphysically possible.",
+  "definition_ids": [
+    "2873d86b-7d15-41c5-8b93-362a117cb4cf",
+    "32606882-e6e0-43b5-8c81-3b2afd3473e0",
+    "d2bba112-0652-47a3-bd64-df651447b40f"
+  ]
+}

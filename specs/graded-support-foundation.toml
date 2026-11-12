@@ -1,0 +1,249 @@
+# Graded foundation of the join (#310, #1485). Analyst formulations,
+# attribution deferred. Tests whether the two foundation commitments of the
+# modal spine, well-founded actual grounding (AGWF) and J2, rest on one rigid,
+# well-founded grade of being that support ascends: the same MoreIn esse whose
+# well-foundedness (no infinite ascent in being) also yields the Fourth Way's
+# grade maximum. Gives AGWF a non-numeric route, J2 an alternative to the
+# no-novel-edge condition, and a cause-principle route to the ascent premise.
+
+[batch]
+vocab = "TruthCore.Causality.GradedSupportFoundation"
+results = "TruthCore.Results.Causality.GradedSupportFoundation"
+
+# ---------------------------------------------------------------- statements
+
+[[statement]]
+id = "Support between NECESSARY_2 concreta at any admitted world ascends in esse"
+lean = "NecessarySupportAscendsInEsse"
+paraphrase = "Open premise, analyst formulation, unattributed: for every admitted world v (accessible from w or not) and concrete candidates a and b that both exist at every world accessible from w, if a exists at v and stands to b in the selected relation at v, then a is more in esse than b. The comparison MoreIn esse is the same supplied comparative as in the Fourth Way premises and takes no world argument, so it is one grade for every world. It does not require support edges to persist between worlds, supporters to be necessary, or b to exist at v."
+definitions = ["Ascent in esse of support between necessary concreta", "DEF-MORE-IN", "DEF-ESSE", "DEF-CONCRETE-SUPPORT-RESTRICTION", "DEF-KANT-MODAL-NECESSITY", "DEF-PRESENT-ESSE-SUPPORT"]
+disambiguations = ["DISAMB-BEING-UNIVOCITY", "DISAMB-EXISTENCE-ESSE-SUPPORT", "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"]
+
+[[statement]]
+id = "Concrete support at every admitted world ascends in esse"
+lean = "SupportAscendsInEsseEverywhere"
+paraphrase = "Open premise, analyst formulation, unattributed: for every admitted world v and concrete candidates a and b, if a exists at v and stands to b in the selected relation at v, then a is more in esse than b, in the same supplied comparative. No necessity restriction and no selected world. Strictly a strengthening of both the actual-grounding ascent premise at each world and the ascent premise between necessary concreta."
+definitions = ["Ascent in esse of support at every world", "DEF-MORE-IN", "DEF-ESSE", "DEF-PRESENT-ESSE-SUPPORT"]
+disambiguations = ["DISAMB-BEING-UNIVOCITY", "DISAMB-EXISTENCE-ESSE-SUPPORT"]
+
+[[statement]]
+id = "An actual concrete ground of an actual concretum is a distinct CAUSE_2 of its esse"
+lean = "ActualGroundIsDistinctEsseCause"
+paraphrase = "Open bridge, analyst formulation, unattributed: at the selected world w, if an actual concretum a stands to an actual concretum b in the selected relation at w, then a is distinct from b and a is a cause of b's being in the supplied cause-of-a-perfection dictionary at esse. Only the ground-to-cause direction; the converse is STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND."
+definitions = ["Actual ground as distinct cause of being", "DEF-ESSE"]
+disambiguations = ["DISAMB-CAUSE", "DISAMB-EXISTENCE-ESSE-SUPPORT"]
+
+[[statement]]
+id = "A concrete ground at any admitted world is a distinct CAUSE_2 of its esse"
+lean = "SupportIsDistinctEsseCauseEverywhere"
+paraphrase = "Open bridge, analyst formulation, unattributed: at every admitted world v, if a concrete candidate a exists at v and stands to a concrete candidate b in the selected relation at v, then a is distinct from b and a is a cause of b's being in the supplied cause-of-a-perfection dictionary at esse. The dictionary takes no world argument, so support at any world makes the supporter a cause of the supported thing's being simpliciter. Strengthens the selected-world bridge from actual grounds."
+definitions = ["Actual ground as distinct cause of being", "DEF-ESSE", "DEF-PRESENT-ESSE-SUPPORT"]
+disambiguations = ["DISAMB-CAUSE", "DISAMB-EXISTENCE-ESSE-SUPPORT"]
+
+[[statement]]
+id = "No infinite ascent in esse among actual concreta"
+lean = "NoInfiniteAscentAmongActualConcreta"
+paraphrase = "Open premise, analyst formulation, unattributed: there is no infinite sequence of concreta existing at w each more in esse than the one before, in the supplied comparative. The weak version of STMT-NO-INFINITE-ASCENT-IN-BEING, which forbids such ascent among all candidates, merely possible ones included."
+definitions = ["DEF-NO-INFINITE-ASCENT-IN-BEING", "DEF-MORE-IN", "DEF-ESSE"]
+disambiguations = ["DISAMB-BEING-UNIVOCITY"]
+
+[[statement]]
+id = "No infinite ascent in esse among NECESSARY_2 concreta"
+lean = "NoInfiniteAscentAmongNecessaryConcreta"
+paraphrase = "Open premise, analyst formulation, unattributed: there is no infinite sequence of concreta, each existing at every world accessible from w, each more in esse than the one before, in the supplied comparative. A weak version of STMT-NO-INFINITE-ASCENT-IN-BEING restricted to necessary concreta."
+definitions = ["DEF-NO-INFINITE-ASCENT-IN-BEING", "DEF-MORE-IN", "DEF-ESSE", "DEF-KANT-MODAL-NECESSITY"]
+disambiguations = ["DISAMB-BEING-UNIVOCITY", "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"]
+
+[[statement]]
+id = "Some rigid grade with no infinite ascent is ascended by actual concrete grounding"
+lean = "GradedActualGrounding"
+paraphrase = "There is a comparison on candidates, at a single respect and with no world argument, that has no infinite ascent and that every actual concrete grounding edge at w ascends (the ground is above what it grounds). The comparison is existentially chosen; nothing identifies it with the Fourth Way's more in esse."
+definitions = ["DEF-MORE-IN", "DEF-NO-INFINITE-ASCENT-IN-BEING"]
+
+[[statement]]
+id = "Some rigid grade with no infinite ascent is ascended by support between NECESSARY_2 concreta"
+lean = "GradedNecessarySupport"
+paraphrase = "There is a comparison on candidates, at a single respect and with no world argument, that has no infinite ascent and that every support edge between concreta necessary from w, at any admitted world where the supporter exists, ascends. The comparison is existentially chosen; nothing identifies it with the Fourth Way's more in esse."
+definitions = ["Ascent in esse of support between necessary concreta", "DEF-NO-INFINITE-ASCENT-IN-BEING", "DEF-KANT-MODAL-NECESSITY", "DEF-CONCRETE-SUPPORT-RESTRICTION"]
+disambiguations = ["DISAMB-EXISTENCE-ESSE-SUPPORT", "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"]
+
+[[statement]]
+id = "Graded-foundation controls: joint witness, descending grade, off-world ascent, gradeless rivals"
+lean = "Control.Controls"
+paraphrase = "Closed controls on finite interpretations. (1) Joint witness: in the two-world profile where the necessary root false grounds the contingent true at the actual world false, with false more in esse than true and false a cause of true's being, every ascent premise, the actual ground-cause bridge, the unrestricted Aristotelian cause principle, no infinite ascent, both foundation conditions and the existing joint premises hold, with a nonempty edge, grade and cause. (2) Descending grade: in the same profile with the reversed grade (the grounded true is more in esse than its ground), actual grounding is well-founded and the grade has no infinite ascent, but the ground is not more in esse than what it grounds. (3) Off-world ascent: with two necessary concreta and a single support edge at the non-actual world only, support ascends the grade at every world and the grade has no infinite ascent, while coverage and the one-way no-novel-edge condition fail. (4) In the rotating triangle (at t0) and the rooted pair (at false), for no respect type, comparison and respect does support between necessary concreta ascend a comparison with no infinite ascent; and in the rooted pair a necessary concretum is underived at every admitted world. Statements about these interpretations only."
+definitions = ["Ascent in esse of support between necessary concreta", "Ascent in esse of support at every world", "Actual ground as distinct cause of being"]
+
+# ---------------------------------------------------------------- arguments
+
+[[argument]]
+id = "Actual grounding well-founded, from ascent in esse and no infinite ascent"
+theorem = "actualGroundingWFOfAscent"
+sense_bridges = [
+  { term = "NECESSARY", from = "8c881fa6-2b9f-44be-a32a-c8ef29c13643", to = "7af298fb-a2c4-4239-919b-7685f2e1f67a", statement_id = "STMT-ACTUAL-GROUNDING-WF", role = "conclusion" },
+  { term = "WELL_FOUNDEDNESS_AND_ANTI_BRUTE_ROOT", from = "9232f675-db0a-474c-9f00-d8e5aba69ef7", to = "556515c9-1fcc-4ea0-b85d-2a4cad7eff79", statement_id = "STMT-ACTUAL-GROUNDING-WF", role = "conclusion" },
+  { term = "WELL_FOUNDEDNESS_OF_THE_SELECTED_RELATION", from = "2f42c0e7-46ae-4e2b-9ac4-95dcb865da61", to = "f4609d52-a878-4d09-9af3-083b1945770c", statement_id = "STMT-ACTUAL-GROUNDING-WF", role = "conclusion" },
+  { term = "NONNECESSARY_VERSUS_CONTINGENT_ROOT", from = "cf6a8bb9-2a70-4e90-86bd-06f69106da2f", to = "9f9108e2-3cc3-45dd-be1d-d8fdaaced708", statement_id = "STMT-ACTUAL-GROUNDING-WF", role = "conclusion" },
+]
+premises = ["STMT-ACTUAL-GROUND-IS-MORE-IN-ESSE", "No infinite ascent in esse among actual concreta"]
+conclusion = "STMT-ACTUAL-GROUNDING-WF"
+axioms = []
+rule = "Subrelation of the inverse image of a well-founded relation: Subrelation.wf with InvImage.wf along Subtype.val"
+meaning = "A second, non-numeric derivation of well-founded actual grounding (AGWF). If every actual concrete ground at w is more in esse than the actual concretum it grounds, and the same comparative MoreIn esse admits no infinite ascent among concreta existing at w, then a descending chain of actual concrete grounds would be such an ascent; so actual concrete grounding at w is well-founded. Both premises take the comparative and the respect esse as the same explicit parameters; no world, number or potential is used. Conditional consequence only; neither premise is established."
+
+[[argument]]
+id = "Well-founded necessary support union, from rigid ascent in esse and no infinite ascent"
+theorem = "unionWFOfAscent"
+premises = ["Support between NECESSARY_2 concreta at any admitted world ascends in esse", "No infinite ascent in esse among NECESSARY_2 concreta"]
+conclusion = "STMT-CONCRETE-NECESSARY-UNION-WF"
+axioms = []
+rule = "Subrelation of the inverse image of a well-founded relation: each cross-world union edge is one ascent step"
+meaning = "Derives J2 of the join without the one-way no-novel-edge condition, actual well-founded grounding or reflexive access. Every edge of the cross-world union of support among necessary concreta is, by the rigid ascent premise, a step up in the one world-invariant comparative MoreIn esse, which has no infinite ascent among necessary concreta. Because the grade takes no world argument, edges at different worlds are measured by one order, which is what the world-varying rivals deny. Not comparable in strength with the no-novel-edge route: Control.OffWorldAscent satisfies the ascent premise and no infinite ascent while no-novel-edge fails; and with a freely chosen grade, J2 itself yields such a grade (gradedOfUnionWF). Conditional consequence only; no premise is established."
+
+[[argument]]
+id = "No mutual necessary support, from rigid ascent in esse and no infinite ascent"
+theorem = "mutualSupportExcludedByGrade"
+premises = ["Support between NECESSARY_2 concreta at any admitted world ascends in esse", "No infinite ascent in esse among NECESSARY_2 concreta"]
+conclusion = "No two NECESSARY_2 concreta support each other, each at some admitted world"
+axioms = []
+rule = "Composition of unionWFOfAscent with the existing mutualSupport_excludes"
+meaning = "Prices the mutual-support rival of J2 by a different premise from no-novel-edge: if support between necessary concreta, at any admitted world, ascends one rigid comparative with no infinite ascent, two necessary concreta cannot support each other at two worlds, since each would be more in esse than the other. A holder of the rival must deny that support between necessary beings tracks one world-invariant grade of being with no infinite ascent. A conditional exclusion; neither the premises nor the rival is established or refuted."
+
+[[argument.research_comparisons]]
+target_statement_id = "STMT-CONCRETE-NECESSARY-UNION-WF"
+rival_statement_id = "Two necessary concreta support each other, each at some admitted world"
+sense_definition_id = "Ascent in esse of support between necessary concreta"
+outcome = "excluded"
+conditions = "mutualSupportExcludedByGrade: NecessarySupportAscendsInEsse m w MoreIn esse and NoInfiniteAscentAmongNecessaryConcreta m w MoreIn esse give the negation of NecessaryConcretaMutualSupport m w."
+scope = "Same Profile, selected relation and selected world as the premise and the rival; any worlds, carrier, respect type, comparative and respect."
+coverage = "All interpretations satisfying the two listed premises."
+exclusivity = "The exclusion holds only under the rigid ascent premise, which is open; without it the rival survives (NecessarySupportCoverage Control.mutualPair, Control.rootedPair). In the rooted pair and the rotating triangle no comparison at all satisfies both premises (Control.NoGradeForRivals)."
+next_step = "Assess the warrant of rigid ascent between necessary beings: the cause-is-more principle (STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH) and its limits for equivocal and instrumental causes, and whether a necessary being's grade of being can differ between worlds."
+
+[[argument]]
+id = "No infinite ascent among actual concreta, from no infinite ascent in being"
+theorem = "actualAscentWFOfGlobal"
+premises = ["STMT-NO-INFINITE-ASCENT-IN-BEING"]
+conclusion = "No infinite ascent in esse among actual concreta"
+axioms = []
+rule = "Subrelation of a well-founded relation"
+meaning = "The global no-infinite-ascent premise, which also yields the Fourth Way's grade maximum (STMT-GRADES-TO-MAXIMUM-AT-BEING), implies its restriction to actual concreta. Registered as a strength order."
+
+[[argument]]
+id = "No infinite ascent among necessary concreta, from no infinite ascent in being"
+theorem = "necessaryAscentWFOfGlobal"
+premises = ["STMT-NO-INFINITE-ASCENT-IN-BEING"]
+conclusion = "No infinite ascent in esse among NECESSARY_2 concreta"
+axioms = []
+rule = "Subrelation of a well-founded relation"
+meaning = "The global no-infinite-ascent premise implies its restriction to concreta necessary from the selected world. Registered as a strength order. With the two restrictions, one global premise about the grade of being serves AGWF, J2 and the grades-to-maximum route."
+
+[[argument]]
+id = "Actual ground more in esse, from the cause-is-more principle and ground-cause bridge"
+theorem = "groundMoreInEsseOfCause"
+premises = ["STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH", "An actual concrete ground of an actual concretum is a distinct CAUSE_2 of its esse"]
+conclusion = "STMT-ACTUAL-GROUND-IS-MORE-IN-ESSE"
+axioms = []
+rule = "Instantiation of the cause-is-more principle at esse along the ground-to-cause bridge"
+meaning = "A first derivation of the ascent premise STMT-ACTUAL-GROUND-IS-MORE-IN-ESSE. The unrestricted Aristotelian principle says a distinct cause of a quality in another is more such than it; the open bridge says an actual concrete ground at w of an actual concretum is distinct from it and a cause of its being. So the ground is more in esse. Both premises use the same supplied cause dictionary and comparative. The principle is the strengthening of Metaphysics II.1 that drops its synonymy condition; applying it to being needs independent justification (DISAMB-BEING-UNIVOCITY). Conditional consequence only."
+
+[[argument]]
+id = "Ascent at every world, from the cause-is-more principle and the every-world bridge"
+theorem = "everywhereAscentOfCause"
+premises = ["STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH", "A concrete ground at any admitted world is a distinct CAUSE_2 of its esse"]
+conclusion = "Concrete support at every admitted world ascends in esse"
+axioms = []
+rule = "Instantiation of the cause-is-more principle at esse along the every-world ground-cause bridge"
+meaning = "Derives the every-world ascent premise, and through it both the J2 ascent premise and the actual-grounding ascent premise, from the unrestricted Aristotelian cause principle and the every-world bridge from support to causing being. Because neither the cause dictionary nor the comparative takes a world argument, the bridge is where rigidity enters: whoever supports a thing's being at any world is a cause of its being, hence more in esse, at every world. Conditional consequence only; the bridge and the principle remain open."
+
+[[argument]]
+id = "Ascent between necessary concreta, from ascent at every world"
+theorem = "necessaryAscentOfEverywhere"
+premises = ["Concrete support at every admitted world ascends in esse"]
+conclusion = "Support between NECESSARY_2 concreta at any admitted world ascends in esse"
+axioms = []
+rule = "Restriction of the quantifier to necessary concreta"
+meaning = "The unrestricted every-world ascent premise implies the ascent premise between necessary concreta, for any selected world. Registered as a strength order."
+
+[[argument]]
+id = "Actual ground more in esse, from ascent at every world"
+theorem = "actualAscentOfEverywhere"
+premises = ["Concrete support at every admitted world ascends in esse"]
+conclusion = "STMT-ACTUAL-GROUND-IS-MORE-IN-ESSE"
+axioms = []
+rule = "Instantiation at the selected world"
+meaning = "The unrestricted every-world ascent premise implies the actual-grounding ascent premise at each world. With no infinite ascent in being, this one premise thus yields both AGWF and J2 through the two derivations above. Registered as a strength order."
+
+[[argument]]
+id = "Graded actual grounding, from its well-foundedness"
+theorem = "gradedOfActualGroundingWF"
+sense_bridges = [
+  { term = "NECESSARY", from = "8c881fa6-2b9f-44be-a32a-c8ef29c13643", to = "7af298fb-a2c4-4239-919b-7685f2e1f67a", statement_id = "STMT-ACTUAL-GROUNDING-WF" },
+  { term = "WELL_FOUNDEDNESS_AND_ANTI_BRUTE_ROOT", from = "9232f675-db0a-474c-9f00-d8e5aba69ef7", to = "556515c9-1fcc-4ea0-b85d-2a4cad7eff79", statement_id = "STMT-ACTUAL-GROUNDING-WF" },
+  { term = "WELL_FOUNDEDNESS_OF_THE_SELECTED_RELATION", from = "2f42c0e7-46ae-4e2b-9ac4-95dcb865da61", to = "f4609d52-a878-4d09-9af3-083b1945770c", statement_id = "STMT-ACTUAL-GROUNDING-WF" },
+  { term = "NONNECESSARY_VERSUS_CONTINGENT_ROOT", from = "cf6a8bb9-2a70-4e90-86bd-06f69106da2f", to = "9f9108e2-3cc3-45dd-be1d-d8fdaaced708", statement_id = "STMT-ACTUAL-GROUNDING-WF" },
+]
+premises = ["STMT-ACTUAL-GROUNDING-WF"]
+conclusion = "Some rigid grade with no infinite ascent is ascended by actual concrete grounding"
+axioms = []
+rule = "Take the grade to be actual concrete grounding at w itself; well-foundedness lifts from the subtype"
+meaning = "Converse of the graded route: well-founded actual grounding already yields some rigid comparison with no infinite ascent that actual grounding ascends. With actualGroundingWFOfAscent the two are equivalent when the grade may be chosen freely. So the graded formulation is not a weaker commitment than AGWF; its additional content is the identification of the grade with the Fourth Way's more in esse, which STMT-GRADES-TO-MAXIMUM-AT-BEING also uses."
+
+[[argument]]
+id = "Graded necessary support, from J2"
+theorem = "gradedOfUnionWF"
+premises = ["STMT-CONCRETE-NECESSARY-UNION-WF"]
+conclusion = "Some rigid grade with no infinite ascent is ascended by support between NECESSARY_2 concreta"
+axioms = []
+rule = "Take the grade to be the cross-world union itself; well-foundedness lifts from the concrete subtype"
+meaning = "Converse of the graded J2 route: J2 already yields some rigid comparison with no infinite ascent that support between necessary concreta ascends. With unionWFOfAscent the two are equivalent when the grade may be chosen freely. The rigid-grade premise is therefore not weaker than J2; what it adds is that the grade is the one of being shared with the grades-to-maximum route."
+
+[[argument]]
+id = "Graded-foundation controls, checked"
+theorem = "controls"
+premises = []
+conclusion = "Graded-foundation controls: joint witness, descending grade, off-world ascent, gradeless rivals"
+axioms = []
+rule = "Explicit finite interpretations, checked by case analysis and accessibility induction"
+meaning = "Controls for the graded batch. The joint witness shows all new premises, the reused grade premises and the cause principle are jointly satisfiable with a nonempty grounding edge, grade and cause, so no derivation is vacuous on that ground. The descending grade shows that well-founded grounding and a well-founded grade do not give ascent: the ascent premise is a substantive addition. Off-world ascent shows that the rigid ascent premises with no infinite ascent imply neither coverage nor the one-way no-novel-edge condition. The rival controls show the rotating triangle and rooted pair admit no rigid well-founded grade ascended by necessary support, while the rooted pair still satisfies the join's endpoint. Model-witnessed only; no interpretation is claimed metaphysically possible."
+
+# ---------------------------------------------------------------- relations
+
+[[relation]]
+id = "Ascent at every world strengthens ascent between necessary concreta"
+subject_kind = "statement"
+subject_id = "Concrete support at every admitted world ascends in esse"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "Support between NECESSARY_2 concreta at any admitted world ascends in esse"
+verification_result_id = "Ascent between necessary concreta, from ascent at every world"
+note = "Same Profile, selected relation and comparative. The weaker version restricts supporter and target to concreta necessary from the selected world. Strictness is not certified here."
+
+[[relation]]
+id = "Ascent at every world strengthens actual-ground ascent in esse"
+subject_kind = "statement"
+subject_id = "Concrete support at every admitted world ascends in esse"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "STMT-ACTUAL-GROUND-IS-MORE-IN-ESSE"
+verification_result_id = "Actual ground more in esse, from ascent at every world"
+note = "Same Profile, selected relation and comparative. The weaker version constrains only actual concreta at the selected world. Strictness is not certified here."
+
+[[relation]]
+id = "No infinite ascent in being strengthens its restriction to actual concreta"
+subject_kind = "statement"
+subject_id = "STMT-NO-INFINITE-ASCENT-IN-BEING"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "No infinite ascent in esse among actual concreta"
+verification_result_id = "No infinite ascent among actual concreta, from no infinite ascent in being"
+note = "Same comparative and respect. The weak version constrains only concreta existing at the selected world. Strictness is not certified here."
+
+[[relation]]
+id = "No infinite ascent in being strengthens its restriction to necessary concreta"
+subject_kind = "statement"
+subject_id = "STMT-NO-INFINITE-ASCENT-IN-BEING"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "No infinite ascent in esse among NECESSARY_2 concreta"
+verification_result_id = "No infinite ascent among necessary concreta, from no infinite ascent in being"
+note = "Same comparative and respect. The weak version constrains only concreta necessary from the selected world. Strictness is not certified here."

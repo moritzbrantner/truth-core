@@ -1,0 +1,13 @@
+{
+  "id": "d7b195bf-3603-47c0-b239-28be7fce39e5",
+  "label": "Actual ground more in esse, from the cause-is-more principle and ground-cause bridge (inference)",
+  "input_statement_ids": [
+    "d5a94eb1-72d2-53e0-9a52-9787b5b61a8d",
+    "98efaa9e-1c91-4e52-8c0d-faf03d4f8372"
+  ],
+  "output_statement_id": "d96105fb-8c4d-5e56-b3c7-2cb77a447c2b",
+  "rule": "Instantiation of the cause-is-more principle at esse along the ground-to-cause bridge",
+  "meaning": "A first derivation of the ascent premise STMT-ACTUAL-GROUND-IS-MORE-IN-ESSE. The unrestricted Aristotelian principle says a distinct cause of a quality in another is more such than it; the open bridge says an actual concrete ground at w of an actual concretum is distinct from it and a cause of its being. So the ground is more in esse. Both premises use the same supplied cause dictionary and comparative. The principle is the strengthening of Metaphysics II.1 that drops its synonymy condition; applying it to being needs independent justification (DISAMB-BEING-UNIVOCITY). Conditional consequence only.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

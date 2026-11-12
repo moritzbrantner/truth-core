@@ -1,0 +1,16 @@
+{
+  "id": "78945dde-2e6b-4e40-9383-ecb615208930",
+  "label": "No infinite ascent in esse among NECESSARY_2 concreta",
+  "paraphrase": "Open premise, analyst formulation, unattributed: there is no infinite sequence of concreta, each existing at every world accessible from w, each more in esse than the one before, in the supplied comparative. A weak version of STMT-NO-INFINITE-ASCENT-IN-BEING restricted to necessary concreta.",
+  "lean_declaration": "TruthCore.Causality.GradedSupportFoundation.NoInfiniteAscentAmongNecessaryConcreta",
+  "definition_ids": [
+    "2100cf9a-27ed-57e9-9daa-4b94b6780fe7",
+    "5766de66-8a37-5b04-aa65-9eec53319f50",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1"
+  ],
+  "disambiguation_ids": [
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58",
+    "5d15d8f2-1080-53c9-886f-cee2a4ff23a9"
+  ]
+}

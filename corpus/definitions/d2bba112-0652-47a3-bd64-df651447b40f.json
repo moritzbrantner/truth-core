@@ -1,0 +1,9 @@
+{
+  "id": "d2bba112-0652-47a3-bd64-df651447b40f",
+  "label": "Ascent in esse of support at every world",
+  "term": "ascent in esse of support at every world",
+  "definition": "SupportAscendsInEsseEverywhere m MoreIn esse holds when, for every admitted world v and concrete candidates a and b, if a exists at v and stands to b in the selected relation at v, then MoreIn esse a b. Ordinary meaning: every concrete sustainer of a concrete thing's being, at any world, has more of being than what it sustains. It drops the necessity restriction of the ascent condition between necessary concreta and is not relative to a selected world.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.GradedSupportFoundation.SupportAscendsInEsseEverywhere",
+  "note": "Analyst framework definition, attribution deferred; an open premise, not established. It implies both STMT-ACTUAL-GROUND-IS-MORE-IN-ESSE at every world and the ascent condition between necessary concreta (verified in the GradedSupportFoundation batch), so with STMT-NO-INFINITE-ASCENT-IN-BEING it yields both STMT-ACTUAL-GROUNDING-WF and J2 at every world. Structural properties as for the necessary-concreta version. Its contingent instances face the instrumental-cause limit (a lesser instrument can sustain a greater effect's being only by the power of a principal cause), which is why the weaker restricted versions are kept as siblings."
+}

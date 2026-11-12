@@ -1,0 +1,11 @@
+{
+  "id": "cee506e3-e871-4e53-bf5b-f3b0ef7a1c65",
+  "label": "No infinite ascent among necessary concreta, from no infinite ascent in being",
+  "argument_id": "f9c83596-b743-421a-8ea5-05518fa70653",
+  "challenge_module": "TruthCore.Results.Causality.GradedSupportFoundation.Challenge",
+  "solution_module": "TruthCore.Results.Causality.GradedSupportFoundation.Solution",
+  "theorem": "TruthCore.Results.Causality.GradedSupportFoundation.necessaryAscentWFOfGlobal",
+  "comparator_config": "results/cee506e3-e871-4e53-bf5b-f3b0ef7a1c65/comparator.json",
+  "status": "solution-present",
+  "description": "The global no-infinite-ascent premise implies its restriction to concreta necessary from the selected world. Registered as a strength order. With the two restrictions, one global premise about the grade of being serves AGWF, J2 and the grades-to-maximum route."
+}
