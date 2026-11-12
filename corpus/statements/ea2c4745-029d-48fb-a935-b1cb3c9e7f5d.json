@@ -1,0 +1,14 @@
+{
+  "id": "ea2c4745-029d-48fb-a935-b1cb3c9e7f5d",
+  "label": "The esse of every CREATURE_1 is received in some principle, sense-fixed",
+  "paraphrase": "Open premise, analyst generalization of ST I q.7 a.2 co., unattributed: the esse of every CREATURE_1 (whatever a cause of the being of every other being in act causes in its being, IsCreatureOfUniversalCause) is received in some principle. Sense-fixed sibling of 'The esse of every CREATURE_1 is received in some principle' (29e71e43-1d34-5008-8811-897fbddda209), which takes Creature as a parameter: same content at CREATURE_1, derived from it by instantiation (creature1EsseIsReceivedAtCreature1), but its Lean declaration names the CREATURE_1 constant, so it cannot be instantiated at CREATURE_2. The passage says it of a subsistent created form; the generalization to every CREATURE_1 is the analyst's. It does not say the principle is the thing's own essence.",
+  "lean_declaration": "TruthCore.Causality.CreatureSenses.Creature1EsseIsReceived",
+  "definition_ids": [
+    "afcdd2c5-1167-5a73-97d7-cb99a6ad5817",
+    "4433942e-aaf6-55a9-b777-66e55638103d"
+  ],
+  "disambiguation_ids": [
+    "c49de1e9-c34f-424f-b144-b80c885974ca",
+    "5921354b-51e6-5da3-8d8c-e9041840fd9f"
+  ]
+}

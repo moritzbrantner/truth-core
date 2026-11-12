@@ -22,6 +22,20 @@ definitions = ["DEF-CAUSE-OF-PERFECTION", "DEF-ESSE"]
 disambiguations = ["DISAMB-CAUSE"]
 
 [[statement]]
+id = "Whatever is CREATURE_2 is CREATURE_1, sense-fixed"
+lean = "CausedInBeingByAnotherIsCreature1"
+paraphrase = "Open sense bridge, analyst formulation, unattributed: for every x, if x is CREATURE_2 (some other being causes x's being, IsCausedInBeingByAnother) then x is CREATURE_1 (some being that causes the being of every other being in act causes x's being, IsCreatureOfUniversalCause). Sense-fixed sibling of 'Whatever is CREATURE_2 (caused in being by another) is CREATURE_1' (b7d4eede-ab50-5522-8902-f33238fa234d): same content, but its Lean declaration names both sense constants instead of taking Creature as a parameter, so a statement bound to it cannot be instantiated at another sense. It gives b7d4eede by instantiation (causedInBeingByAnotherIsCreatureAtCreature1). SCOPE CONDITION (definition 80dea550): the divine processions are no instances of CausesIn c x esse with c distinct from x."
+definitions = ["DEF-CREATURE", "fdfbbc59-1f33-4fab-a96f-b41f37974af5", "DEF-CAUSE-OF-PERFECTION", "DEF-ESSE", "80dea550-60c1-447a-83bf-d3f27ea0b2a8"]
+disambiguations = ["c49de1e9-c34f-424f-b144-b80c885974ca", "DISAMB-CAUSE"]
+
+[[statement]]
+id = "The esse of every CREATURE_1 is received in some principle, sense-fixed"
+lean = "Creature1EsseIsReceived"
+paraphrase = "Open premise, analyst generalization of ST I q.7 a.2 co., unattributed: the esse of every CREATURE_1 (whatever a cause of the being of every other being in act causes in its being, IsCreatureOfUniversalCause) is received in some principle. Sense-fixed sibling of 'The esse of every CREATURE_1 is received in some principle' (29e71e43-1d34-5008-8811-897fbddda209), which takes Creature as a parameter: same content at CREATURE_1, derived from it by instantiation (creature1EsseIsReceivedAtCreature1), but its Lean declaration names the CREATURE_1 constant, so it cannot be instantiated at CREATURE_2. The passage says it of a subsistent created form; the generalization to every CREATURE_1 is the analyst's. It does not say the principle is the thing's own essence."
+definitions = ["DEF-CREATURE", "DEF-ESSE-RECEIVED-IN"]
+disambiguations = ["c49de1e9-c34f-424f-b144-b80c885974ca", "DISAMB-ESSE-RECEPTION"]
+
+[[statement]]
 id = "Controls for the CREATURE_1 and CREATURE_2 senses"
 lean = "Control.Controls"
 paraphrase = "Closed controls on three explicit finite interpretations; statements about these interpretations only. (1) Three beings, all in act as to being, a causes b's being and nothing else is caused: b is CREATURE_2 and not CREATURE_1, so 'Whatever is CREATURE_2 is CREATURE_1' fails there, while 'Whatever has its being caused is in act as to being' holds and the Fourth-Way consequence (a maximum that causes the being of every other being and has no distinct cause of its being) fails. (2) Three beings, only a in act, b causes c's being: the Fourth-Way consequence holds (a is maximal, causes the being of every other being in act, vacuously, and is uncaused), 'Whatever has its being caused is in act as to being' fails and so does the CREATURE_2 to CREATURE_1 bridge. (3) Two beings, both in act, true causes false's being and false's esse is received: the Fourth-Way consequence, the weak premise, the bridge, 'The esse of every CREATURE_1 is received in some principle' and 'Whatever has its being caused by another has its esse received in some principle' all hold, and some being is caused (nonvacuity)."
@@ -43,25 +57,52 @@ meaning = "Sole-premise projection: if every caused perfection is had by its eff
 id = "Whatever is CREATURE_2 is CREATURE_1, from the Fourth-Way maximum"
 theorem = "causedInBeingByAnotherIsCreature1"
 premises = ["0e242e29-7670-55f8-bf8e-f5800b9890c7", "Whatever has its being caused is in act as to being"]
-conclusion = "b7d4eede-ab50-5522-8902-f33238fa234d"
+conclusion = "Whatever is CREATURE_2 is CREATURE_1, sense-fixed"
 sense_bridges = [
-  { term = "CREATURE", from = "cbae26cb-418c-41db-9446-9974791d8e9b", to = "a900760c-6f85-483c-b90e-e67b32387568", statement_id = "b7d4eede-ab50-5522-8902-f33238fa234d", role = "conclusion" },
+  { term = "CREATURE", from = "cbae26cb-418c-41db-9446-9974791d8e9b", to = "a900760c-6f85-483c-b90e-e67b32387568", statement_id = "Whatever is CREATURE_2 is CREATURE_1, sense-fixed", role = "conclusion" },
 ]
+senses = { CREATURE = "CREATURE_1" }
 axioms = []
 rule = "Existential elimination on the maximum, reductio on its identity with the effect, then universal instantiation of its universal causation"
-meaning = "Let c, distinct from x, cause x's being (x is CREATURE_2). The proved Fourth-Way consequence gives some m, maximal in being, that causes the being of every other being in act and whose being no being distinct from it causes. x is not m: otherwise c, distinct from m, would cause m's being. By the weak premise x is in act as to being, so m causes x's being. Hence x is CREATURE_1, with m as the universal cause it is ordered to. The CREATURE sense bridge is the conclusion (role conclusion); the premises use neither sense. Its weight sits in the Fourth-Way consequence, whose own premises (the four quarta via readings and the Metaphysics II.1 causal comparison) stay as they are: in particular the reading that the maximum causes the being of every other being in act, a thing caused by a secondary cause included. Conditional consequence; no premise is established. The controls show that the bridge fails without the Fourth-Way consequence (model 1) and without the weak premise (model 2)."
+meaning = "Let c, distinct from x, cause x's being (x is CREATURE_2). The proved Fourth-Way consequence gives some m, maximal in being, that causes the being of every other being in act and whose being no being distinct from it causes. x is not m: otherwise c, distinct from m, would cause m's being. By the weak premise x is in act as to being, so m causes x's being. Hence x is CREATURE_1, with m as the universal cause it is ordered to. The CREATURE sense bridge, at its sense-fixed declaration naming both sense constants, is the conclusion (role conclusion); the premises use neither sense. The Creature-parametric legacy statement b7d4eede follows by instantiation. Its weight sits in the Fourth-Way consequence, whose own premises (the four quarta via readings and the Metaphysics II.1 causal comparison) stay as they are: in particular the reading that the maximum causes the being of every other being in act, a thing caused by a secondary cause included. Conditional consequence; no premise is established. The controls show that the bridge fails without the Fourth-Way consequence (model 1) and without the weak premise (model 2)."
+
+[[argument]]
+id = "Whatever is CREATURE_2 is CREATURE_1, legacy statement by instantiation"
+theorem = "causedInBeingByAnotherIsCreatureAtCreature1"
+premises = ["Whatever is CREATURE_2 is CREATURE_1, sense-fixed"]
+conclusion = "b7d4eede-ab50-5522-8902-f33238fa234d"
+sense_bridges = [
+  { term = "CREATURE", from = "cbae26cb-418c-41db-9446-9974791d8e9b", to = "a900760c-6f85-483c-b90e-e67b32387568", statement_id = "Whatever is CREATURE_2 is CREATURE_1, sense-fixed" },
+]
+senses = { CREATURE = "CREATURE_1" }
+transcription = "instantiation"
+axioms = []
+rule = "Instantiation of the Creature parameter at CREATURE_1 and re-presentation of the antecedent"
+meaning = "Transcription by instantiation: the sense-fixed bridge gives the Creature-parametric legacy statement 'Whatever is CREATURE_2 (caused in being by another) is CREATURE_1' with Creature instantiated at the CREATURE_1 constant (the two say the same; causedInBeingByAnotherIsCreature_iff). It lets the registered Round 2 chain, which binds the legacy statement, rest on the derived bridge. It adds no content and is not progress on its own; the legacy statement closes exactly when the sense-fixed bridge does."
+
+[[argument]]
+id = "The esse of every CREATURE_1 is received, sense-fixed, by instantiation"
+theorem = "creature1EsseIsReceivedAtCreature1"
+premises = ["29e71e43-1d34-5008-8811-897fbddda209"]
+conclusion = "The esse of every CREATURE_1 is received in some principle, sense-fixed"
+senses = { CREATURE = "CREATURE_1" }
+transcription = "instantiation"
+axioms = []
+rule = "Instantiation of the Creature parameter at CREATURE_1"
+meaning = "Transcription by instantiation: the Creature-parametric q.7 a.2 reading 'The esse of every CREATURE_1 is received in some principle', instantiated at the CREATURE_1 constant, is its sense-fixed sibling. It adds no content and is not progress on its own; the sense-fixed statement stays exactly as open as the legacy one."
 
 [[argument]]
 id = "Whatever has its being caused by another has received esse, through CREATURE_1"
 theorem = "causedEsseIsReceivedThroughCreature1"
-premises = ["b7d4eede-ab50-5522-8902-f33238fa234d", "29e71e43-1d34-5008-8811-897fbddda209"]
+premises = ["Whatever is CREATURE_2 is CREATURE_1, sense-fixed", "The esse of every CREATURE_1 is received in some principle, sense-fixed"]
 conclusion = "da72ae93-5c8d-4717-8c17-97eeb8037317"
 sense_bridges = [
-  { term = "CREATURE", from = "cbae26cb-418c-41db-9446-9974791d8e9b", to = "a900760c-6f85-483c-b90e-e67b32387568", statement_id = "b7d4eede-ab50-5522-8902-f33238fa234d" },
+  { term = "CREATURE", from = "cbae26cb-418c-41db-9446-9974791d8e9b", to = "a900760c-6f85-483c-b90e-e67b32387568", statement_id = "Whatever is CREATURE_2 is CREATURE_1, sense-fixed" },
 ]
+senses = { CREATURE = "CREATURE_1" }
 axioms = []
 rule = "Chain: CREATURE_2 to CREATURE_1 by the sense bridge, then the q.7 a.2 reading at CREATURE_1"
-meaning = "Let c, distinct from x, cause x's being. By the sense bridge 'Whatever is CREATURE_2 is CREATURE_1' x is CREATURE_1 (caused in its being by a universal cause of being). By 'The esse of every CREATURE_1 is received in some principle', read at CREATURE_1 as q.7 a.2 speaks of things made by God, x's esse is received in some principle. The passage between the senses is the one listed sense bridge, not an identification of the senses, and both premises bind the same typed CREATURE_1 predicate, so the equivocation of the rejected first draft of #1494 does not recur. With the derivation of the bridge, 'Whatever has its being caused by another has its esse received in some principle' rests on the proved Fourth-Way consequence, the weak premise that whatever has its being caused is in act as to being, and the q.7 a.2 reading at CREATURE_1. Conditional consequence; no premise is established."
+meaning = "Let c, distinct from x, cause x's being. By the sense-fixed bridge 'Whatever is CREATURE_2 is CREATURE_1' x is CREATURE_1 (caused in its being by a universal cause of being). By the sense-fixed q.7 a.2 reading 'The esse of every CREATURE_1 is received in some principle', as q.7 a.2 speaks of things made by God, x's esse is received in some principle. The passage between the senses is the one listed sense bridge, not an identification of the senses. Both premises are bound to declarations that name the CREATURE_1 constant itself (CausedInBeingByAnotherIsCreature1, Creature1EsseIsReceived), not a Creature parameter, so an instantiation at CREATURE_2 would not bind: the equivocation of the rejected first draft of #1494 is a binding error, not only a record mismatch. With the derivation of the bridge, 'Whatever has its being caused by another has its esse received in some principle' rests on the proved Fourth-Way consequence, the weak premise that whatever has its being caused is in act as to being, and the q.7 a.2 reading at CREATURE_1. Conditional consequence; no premise is established."
 
 [[argument]]
 id = "Controls for the CREATURE_1 and CREATURE_2 senses, checked"
@@ -82,3 +123,12 @@ object_kind = "statement"
 object_id = "Whatever has its being caused is in act as to being"
 verification_result_id = "Whatever has its being caused is in act as to being, from caused perfection is had"
 note = "Sole-premise verified projection at the respect esse; strictness is not claimed."
+
+[[relation]]
+id = "Q.7 a.1-2 unlimited-esse claim supports the sense-fixed CREATURE_1 reception premise"
+subject_kind = "claim"
+subject_id = "153eef01-d362-5aa5-862f-e12f3cae6b52"
+predicate = "supports"
+object_kind = "statement"
+object_id = "The esse of every CREATURE_1 is received in some principle, sense-fixed"
+note = "Same support and same gap as for its Creature-parametric sibling 'The esse of every CREATURE_1 is received in some principle' (relation 904404f7): the claim's interpretation records that q.7 a.2 co. denies infinity simpliciter to a subsistent created form because its esse is received and contracted to a determinate nature. That bears on the premise for subsistent created forms; that the esse of every CREATURE_1 is received in some principle is the analyst's generalization."

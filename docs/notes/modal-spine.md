@@ -962,16 +962,27 @@ generalization from what God causes to whatever is caused in being now rests on
 the universal causation of being that the Fourth Way already asserts on the root
 routes. The open q.7 a.2 reading `29e71e43` still carries two things: reception
 itself, and the generalization from a subsistent created form (what q.7 a.2
-speaks of) to every CREATURE_1. Computed against `78e5ed2e`: `b7d4eede` and
-`da72ae93` move from bare to closed (not established), `2f2f5bd2` is added bare,
-and open premises reaching the root fall from 464 to 463. `0e242e29` itself
-newly reaches the root through this route; its own premises already did.
-`STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES`, read at CREATURE_1, now carries the
-existence of a universal cause of being. That is close to the conclusion of the
-attribution genus-principle argument that uses it, a warrant burden on that
-premise rather than a proof gap. The three Creature-parametric statements are
-kept apart from CREATURE_2 by their records, not by the kernel. Bind-check
-matches by head constant, and the disambiguation records this gap. Existential inertia targets sustaining causation of being,
+speaks of) to every CREATURE_1.
+
+The legacy statements `b7d4eede`, `29e71e43` and `612078bf` take `Creature` as a
+Lean parameter. Bind-check matches by head constant, so on its own it cannot keep
+them at CREATURE_1. The new arguments therefore bind sense-fixed siblings whose
+own declarations name the sense constants:
+`CausedInBeingByAnotherIsCreature1` (`5969873b`, the derived bridge) and
+`Creature1EsseIsReceived` (`ea2c4745`, supported like `29e71e43`). The new
+arguments declare `term_senses` CREATURE_1, so bind-check rejects a CREATURE_2
+instantiation; a checked negative test was rejected. Two instantiation
+transcriptions tie the siblings to the legacy statements. Only the merged legacy
+arguments still rely on records for the sense.
+
+Computed against `78e5ed2e`: `b7d4eede` and `da72ae93` move from bare to closed
+(not established). `2f2f5bd2` is added bare and `ea2c4745` is added supported.
+Open premises reaching the root stay at 464 (bare 325 to 324, supported 93 to
+94). `0e242e29` itself newly reaches the root through this route; its own
+premises already did. `STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES`, read at
+CREATURE_1, now carries the existence of a universal cause of being. That is
+close to the conclusion of the attribution genus-principle argument that uses
+it, a warrant burden on that premise rather than a proof gap. Existential inertia targets sustaining causation of being,
 which `#1493` types as CAUSE_OF_BEING_2. The step here uses the atemporal cause
 of being and no persistence claim. The esse-essence tradition of Scotus, Ockham
 and Suárez is an unread lead. It would now target the reception premises, the

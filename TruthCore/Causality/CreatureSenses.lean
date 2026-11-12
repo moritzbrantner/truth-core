@@ -29,7 +29,11 @@ This module gives each sense its own Lean declaration:
 With `Creature := IsCreatureOfUniversalCause`, the existing statement
 `CausedInBeingByAnotherIsCreature` says exactly: whatever is CREATURE_2 is
 CREATURE_1 (`causedInBeingByAnotherIsCreature_iff`). That is the passage between
-the senses. It is no longer bare: the results module derives it from the
+the senses. Because that legacy declaration (like `CreatureEsseIsReceived`) takes
+`Creature` as a parameter, the new arguments bind sense-fixed wrappers whose own
+declarations name the sense constants (`CausedInBeingByAnotherIsCreature1`,
+`Creature1EsseIsReceived`), tied to the legacy statements by instantiation. The
+bridge is no longer bare: the results module derives it from the
 existing proved Fourth-Way consequence `MaximalCauseWithNoDistinctEsseCause`
 (some maximum in being causes the being of every other being in act, and no
 being distinct from it causes its being) and one weak premise
@@ -77,6 +81,22 @@ esse: whatever has its being caused (by anything) is in act as to being. Open
 premise, analyst formulation. -/
 def CausedEsseIsHad (CausesIn : B → B → R → Prop) (InAct : B → R → Prop) (esse : R) : Prop :=
   ∀ c x, CausesIn c x esse → InAct x esse
+
+/-- Sense-fixed wrapper of the CREATURE sense bridge: whatever is CREATURE_2 is
+CREATURE_1. Its own declaration names both sense constants, so a statement bound
+to it cannot be instantiated at another sense (unlike the Creature-parametric
+`CausedInBeingByAnotherIsCreature`). Open premise, analyst formulation. -/
+def CausedInBeingByAnotherIsCreature1 (InAct : B → R → Prop) (CausesIn : B → B → R → Prop)
+    (esse : R) : Prop :=
+  ∀ x, IsCausedInBeingByAnother CausesIn esse x → IsCreatureOfUniversalCause InAct CausesIn esse x
+
+/-- Sense-fixed wrapper of the q.7 a.2 reading at CREATURE_1: the esse of every
+CREATURE_1 is received in some principle. Its declaration fixes CREATURE_1, unlike
+the Creature-parametric `CreatureEsseIsReceived`. Open premise, analyst
+formulation. -/
+def Creature1EsseIsReceived (InAct : B → R → Prop) (CausesIn : B → B → R → Prop) (esse : R)
+    (EsseReceivedIn : B → P → Prop) : Prop :=
+  ∀ x, IsCreatureOfUniversalCause InAct CausesIn esse x → ∃ z, EsseReceivedIn x z
 
 /-- Read at CREATURE_1, the existing premise `CausedInBeingByAnotherIsCreature`
 is exactly the passage from CREATURE_2 to CREATURE_1. A presentation lemma; it

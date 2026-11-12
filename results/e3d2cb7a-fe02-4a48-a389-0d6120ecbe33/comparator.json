@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.CreatureSenses.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CreatureSenses.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.CreatureSenses.creature1EsseIsReceivedAtCreature1"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
