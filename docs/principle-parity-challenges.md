@@ -89,6 +89,83 @@ criticism; a justified difference that survives equal application would
 defeat that particular parity inference without establishing a general
 causal prohibition.
 
+## Second worked audit: where the rival earns its difference
+
+**Scope (2026-11-12).** This is a comparative research audit, not a verdict on
+atheism in general. It tests several *different* positive proposals rather than
+joining incompatible naturalist positions into one supposed opponent. The
+distinction between defining a model, showing it is internally coherent,
+establishing it is physically possible, and giving reason to think it is
+actual is essential. Source links below are read research locators; they do
+not create new corpus claims or change the existing pinned claims.
+
+| Proposal and primary witness | Concrete explanatory machinery, not just a name | Exact remaining warrant / parity challenge | Provisional result |
+| --- | --- | --- | --- |
+| **PP-01: reciprocal-origin universe**. Quentin Smith 1999 as examined by Newman, [*Causal Loops and Direct Self-Causation*](https://www.cambridge.org/core/journals/journal-of-the-american-philosophical-association/article/causal-loops-and-direct-selfcausation/5B4DE9F9DEA48B8B58D923665700EA14), §§3–5, especially §4 P2/P3 and Smith quotation. | Mutually productive, simultaneous constituent states, each stipulated to be *caused to begin to exist*, plus part-to-whole causal principles; Newman argues a complete loop itself is directly self-caused. | Justify the **productive beginning** of the loop, rather than assuming constituent production in the example. Justify P2/P3 over the whole without assuming that a whole's existence is an event its components can cause. A different agent-task sense of self-origin is not automatically equivalent. | A substantive metaphysical proposal, not a demonstrated origin of actual reality, an actual omnipotent agent, or a clear instance of non-loopy self-production. Oppy's no-self-causation position below is a *different* naturalist model, not a contradiction within one author's commitments. |
+| **PP-01: physical self-origin by time loops**. Gott and Li, [*Can the Universe Create Itself?*](https://arxiv.org/abs/astro-ph/9712344) (1998). | Closed timelike curves and self-consistent relativistic toy spacetimes; possible baby-universe return/identification. | An internally consistent CTC solution does not select that global topology, identify the baby universe with our actual universe, or establish generation of a causal totality from nonbeing. It may describe no **first** causal point rather than a produced first existence. | A genuine constructive alternative, but *actuality* and the metaphysical bridge from loop to origination remain open. Do not dismiss it solely for being unusual. |
+| **PP-03: natural causal closure and necessary natural initial state**. Oppy, [*The Universe Does Not Have a Cause*](https://catalogimages.wiley.com/images/db/pdf/9781119028451.excerpt.pdf) (2020), §§I–VII, pp.13–22 (the [existing pinned passage](../corpus/passages/oppy-universe-no-cause.json)), and [*O'Connor's Cosmological Argument*](https://philpapers.org/archive/OPPOCA-2.pdf), §§6–7. | Defines *causal reality* as all causal relata, proposes that every cause in it is natural, and compares a natural initial uncaused cause, an infinite natural regress, and a necessary natural initial state/aspect with creator cases. He proposes restricted worlds sharing actual laws/initial history, and assesses simplicity plus causal explanatory reach. | (i) The tautological impossibility of a cause *outside all causal relata* is not yet a reason that **natural** reality exhausts causal reality: this is the substantive disputed identity. (ii) The bridge from `necessary(p)` to `causally independent(p)` (§VI) needs its own account of dependence; co-necessary relata can be related asymmetrically in an unexcluded relation. (iii) Equal *number of initial causes* does not entail equal explanation of which contingent actual structure obtains. (iv) The modal policy excluding different initial histories and the cost parity of primitive natural/divine necessity require justification beyond their stipulated definitions. | Real comparative argument, not merely terminological. Its equal-depth result is **conditional on restricting** explanatory questions to general causal considerations and on its cost/necessity criteria; this does not establish the broader parity claim for contingent-world selection. Equally, divine agency does not automatically explain why this world is chosen. Existing [#735/#737](notes/ultimate-explanation-and-knowledge-737.md) and [#468/#537](notes/ultimate-adequacy-integration-735.md) already own adjacent formal controls. |
+| **PP-03: exception for first natural reality**. Oppy, [*Uncaused Beginnings*](https://place.asburyseminary.edu/faithandphilosophy/vol27/iss1/4/) (2010), abstract, pp.61–71. | An initial state of total reality lacks a preceding *internal* causal history; ordinary later/nonoverlapping events occur in an established causal order. Oppy argues it may be impossible for the latter to lack causes while the former can be contingently uncaused. | Justify why the *causal-order difference* bears on the universal principle asserted by an opponent, rather than merely repeating that a first event has no **earlier natural** cause. It is a meaningful candidate discriminator: no counterexample may simply assume all beginnings have the same prior temporal conditions. | Genuine scoped exception proposed, **not** an established metaphysical permissibility result or an explanation of why that particular first state obtains. Need engage the paper's complete argument before declaring its independent warrant defeated; abstract alone is insufficient for that verdict. |
+| **PP-01/03: quantum creation**. Vilenkin, [*Creation of Universes from Nothing*](https://doi.org/10.1016/0370-2693(82)90866-8) (1982); Hartle–Hawking, [*Wave Function of the Universe*](https://doi.org/10.1103/PhysRevD.28.2960) (1983); Guth–Vilenkin, [*On quantum creation of a toroidal universe*](https://arxiv.org/abs/2508.08747) (2025), §§1, 5. | Quantum-cosmological wavefunction, Hamiltonian constraint and a proposed tunneling/no-boundary condition, with detailed model-specific predictions. “Nothing” in the physicists' technical sense is *no classical space, time or matter*, not absence of mathematical laws/boundary rule. | What justifies the quantum theory and particular boundary condition's **application to the actual universe**? Why that law rather than a rival condition? Guth–Vilenkin themselves report that a specific proposed toroidal creation cannot be supported by semiclassical quantum gravity; that result is **not** a refutation of all spherical/no-boundary models. | More than a slogan: a scientific modeling program. It does not by itself discharge the metaphysical actuality/why-this-law task, and a theistic proposal must likewise justify its causal powers and contingent choices. |
+| **PP-05: necessary brute moral facts**. Wielenberg, [*In Defense of Non-Natural, Non-Theistic Moral Realism*](https://philpapers.org/archive/WIEIDO.pdf) (2009), §§2–3, 5, especially pp.25–28 and 37–40; [*Divine Commands Are Unnecessary for Moral Obligation*](https://www.jesp.org/paper/36346f73-90e0-8140-a3a3-fbb6c3e65eee) (2022). | Necessarily obtaining basic moral facts; nonmoral properties metaphysically necessitate particular ethical properties; contingent wrongness follows when ordinary circumstances instantiate the relevant nonmoral base. He **explicitly concedes** that some necessary supervenience principles are brute, rather than proposing that facts anticipate every human act. | Challenge whether bare necessity explains why *these* natural-to-normative connections hold, and why reasons bind agents; also ask whether divine authorship/nature adds a positive authority bridge. But Wielenberg identifies the reciprocal theistic burden: a normative principle validating divine commands and goodness cannot be defended just by naming God or defining Him as worship-worthy. | Substantive primitive-normative account with an acknowledged explanatory stop. A classical-theistic account could unify source, goodness and authority, but must **show** how, including selection/uniqueness and norm-to-duty; merely counting a God instead of ethical axioms does not settle comparative cost. See [#1508](https://github.com/moritzbrantner/truth-core/issues/1508). |
+
+### The strongest new discriminator: reasons for choosing an explanatory stop
+
+Suppose two accounts each put one purportedly necessary source at the base:
+`N` is an impersonal natural initial structure and `G` is a necessary personal
+source. This pair shares a *formal stopping position*, but three discriminators
+are still open and **not equivalent**:
+
+1. **Actuality/necessity:** What warrants the metaphysical necessity of this
+   *bearer*, as opposed to mere necessity of there being *some* initial state?
+   Oppy's permitted-world restriction is a positive proposal; merely declaring
+   the actual initial singularity necessary is not an argument for that
+   restriction. A claim that God is necessary likewise needs more than the word
+   `God`. Compare the de re/description controls already under #468/#537.
+2. **Selection/actual contingent detail:** Does the source genuinely account
+   for why this contingent history and its laws obtain, or simply precede it
+   in the model? Oppy counts a single natural and a single supernatural cause
+   as equal on *general causal explanation*; that comparison leaves this
+   stronger explanatory demand untested. A divine choice introduces purpose
+   and intention but then owes the connection from purpose to **this** choice;
+   a necessarily given source need not necessitate its contingent effects.
+3. **Causal category and self-application:** Does a purported ability to
+   originate require an already actual power-bearing subject? If yes, apply
+   this to the first constituent event of a self-originating loop **and** to an
+   act of divine creation; the latter does not purport to bring the already
+   existent divine subject into being. If no, identify the actual originating
+   relation rather than substituting counterfactual dependence, mutual
+   event-causation or a global fixed point for productive existence.
+
+**A concrete logical warning.** `□P` alone does **not** entail `¬Caused(P)`:
+consider two admissible worlds, both with `P` and `Q` obtaining, and in both
+an irreflexive causal/grounding arrow `Q → P`. One may deny this model by
+adopting a definition of causation requiring modal variation in the effect;
+that is the *additional bridge* to defend. Oppy's §VI inference from necessary
+obtaining to causal independence must not be adopted as a logical axiom just
+because it appears in a source. Conversely this counterexample does not
+establish any **real** causal relation among necessities.
+
+**Priority investigation, not a finding of defeat.** The strongest direct
+target is the claim of *equal explanatory breadth/depth* under Oppy's
+theoretical-virtue comparison. Ask specifically whether the same model
+answers (a) why anything exists, (b) why these contingent laws/conditions
+obtain, and (c) why the source has productive power, with the same standards
+in both natural and divine branches. The second target is Wielenberg's
+explicitly brute necessary moral supervenience versus a positive,
+nondefinitional theistic account of authority. No global naturalist/theistic
+refutation or new corpus closure follows from this audit.
+
+**Do not combine incompatible rescue moves.** Oppy's 2020 account explicitly
+rejects self-causes and causal circles; Newman argues that some causal loops
+are directly self-caused. They are individually assessable alternatives, **not**
+two premises a single naturalist can invoke together without revision. In a
+debate, preserve each opponent's chosen causal theory, modal accessibility,
+source type and explanatory criterion across the entire branch. Switching
+theories to meet successive challenges is an *alternative-model search*;
+the union of its individually successful replies is not one demonstrated
+coherent and adequate explanation. The same discipline applies to shifting
+among different theistic theories of causation, freedom and divine necessity.
+
 ## Integration rule
 
 Promote an item only when it has a meaning-audited canonical statement, an
