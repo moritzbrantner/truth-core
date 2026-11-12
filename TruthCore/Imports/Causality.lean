@@ -54,6 +54,7 @@ public import TruthCore.Causality.CountCauseTimeNecessity
 public import TruthCore.Causality.CountTemporalNecessity
 public import TruthCore.Causality.DefinitionDictionaryConnections
 public import TruthCore.Causality.DeiFiliusAttributeField
+public import TruthCore.Causality.DeiFiliusImmenseIncomprehensible
 public import TruthCore.Causality.DeiFiliusLivingNineScope
 public import TruthCore.Causality.DeiFiliusLivingSelfOperation
 public import TruthCore.Causality.DeiFiliusLordBlessed

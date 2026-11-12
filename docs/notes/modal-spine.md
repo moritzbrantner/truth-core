@@ -800,8 +800,8 @@ attributes are confessed.
 | Dominus | primitive `IsLord` (LORD_1); typed sibling LORD_2, `IsLordByCauseAndGovernment`: causes the being of and governs everything else (below) | open bridge: creator of all is lord (q.13 a.7); or (second route) LORD_2, derived from the nine with one new directing bridge (q.22 a.2) and the q.103 a.3 reading, plus a weaker sense bridge LORD_2 → LORD_1 | same two routes |
 | omnipotens | `IsAlmighty` (active power; no clash with immutability, which excludes passive potency) | from infinity by the existing `STMT-INFINITE-ACT-HAS-INFINITE-POWER` (itself derived from three open premises) | same |
 | aeternus | `Eternal` | one of the nine | one of the nine |
-| immensus | primitive `Immense` | open bridge: creator of all is immense (q.8 a.1-2) | same bridge |
-| incomprehensibilis | primitive `Incomprehensible` | open bridge: the infinite is incomprehensible (q.12 a.7) | same bridge |
+| immensus | primitive `Immense` (IMMENSE_1); typed sibling IMMENSE_2, `IsImmenseAsInfiniteCauseOfAll`: infinite and causes the being of everything else (below) | open bridge: creator of all is immense (q.8 a.1-2); or (second route) IMMENSE_2, contained in the nine with no premise, plus a weaker sense bridge IMMENSE_2 → IMMENSE_1 that carries all the substantive content | same two routes |
+| incomprehensibilis | primitive `Incomprehensible` (INCOMPREHENSIBLE_1); typed sibling INCOMPREHENSIBLE_2, `IsIncomprehensibleToCausedIntellects`: infinite and comprehended by no caused intellect, with a new primitive relation `Comprehends` (below) | open bridge: the infinite is incomprehensible (q.12 a.7); or (second route) INCOMPREHENSIBLE_2, derived from the nine with two new bridges (q.7 a.2, q.12 a.7), plus a weaker, nearly analytic sense bridge INCOMPREHENSIBLE_2 → INCOMPREHENSIBLE_1 | same two routes |
 | intellectu ac voluntate omnique perfectione infinitus | `HasIntellect`, `HasWill`, `IsPerfect`, `Infinite` (weaker: infinity of intellect and will as such untyped) | four of the nine | four of the nine |
 | simplex omnino, incommutabilis | `IsSimple`, `IsImmutable` | two of the nine | two of the nine |
 | substantia spiritualis | `IsSpiritual`: not matter-form composed (weaker: substance untyped; alone it fits prime matter or an accident) | derived: simplicity and the q.3 a.7 matter-form clause | derived: the root excludes matter-form composition |
@@ -847,6 +847,53 @@ whole premise bundle is unresolved. Computed
 delta: three support alternatives added (LORD_2 and BLESSED_2 from the nine, and
 the restated sufficiency through them) and three bare premises added (the
 directing bridge and the two sense bridges).
+
+**Immense and incomprehensible** (`DeiFiliusImmenseIncomprehensible`, spec
+`specs/dei-filius-immense-incomprehensible.toml`, attempt `76bad0cb`). The
+primitives stay; typed siblings are added and not identified with them
+(disambiguations `3fc3ee02` IMMENSE, `d63d0696` INCOMPREHENSIBLE). IMMENSE_2 is
+being INFINITE_1 and causing the being of everything else (q.7 a.1). It types
+causing being, which q.8 a.3 gives as the ground of presence by essence, not
+presence itself. `CausesIn … esse` is tenseless, so originating and sustaining
+causation are not distinguished. IMMENSE_2 is a typed proxy for Aquinas's grounds,
+not a sense in which Dei Filius calls God immense. At a being with the nine it
+holds with no premise: infinity is one of the nine, and the creator conjunct is
+contained by definition in supreme goodness. So the whole substantive content of
+immensity sits in the sense bridge IMMENSE_2 → IMMENSE_1 (`8bf775e9`): place,
+containment and measure; presence by power and by knowledge (the other modes of
+q.8 a.3); the q.8 a.1 contact principle (an agent is joined to that on which it
+acts); sustaining as against merely originating causation (q.104 a.1); and
+immediacy. Its antecedent does not include incorporeality, so "contained by no
+place" rests on infinity alone there. INCOMPREHENSIBLE_2 is being INFINITE_1 and
+comprehended by no caused intellect (an intellect whose being another causes). It
+needs one new explicitly primitive relation, `Comprehension.Comprehends` (knowing
+as perfectly as knowable, q.12 a.7, definition `4afe4ab4`); the corpus had no
+relation between a knower and a known being. It is derived from the infinity of
+the nine with two new bridges: what is caused as to being is not INFINITE_1
+(`18ca6f9d`, q.7 a.2 and ad 1), and a finite intellect does not comprehend an
+INFINITE_1 being (`bbac932e`, q.12 a.7). The sense bridge INCOMPREHENSIBLE_2 →
+INCOMPREHENSIBLE_1 (`0042dd05`) is close to analytic given the glosses, so the
+warrant sits in those two bridges. Each sense bridge alone is strictly weaker than
+the old bridge (registered strengthens relations). But given infinity, the two
+incomprehensibility bridges and its sense bridge jointly entail the old bridge
+again. So that route splits the old commitment into finer premises; it is not a
+weaker total commitment. `18ca6f9d` carries an explicit scope condition: beings
+are individuated by their act of being, so the divine persons (one numerically
+identical esse) are one element and cannot be represented as distinct elements.
+Objection audit. Existential inertia (Schmid 2021, read in the corpus) is a
+substantive objection to the immensity sense bridge if `CausesIn` is
+originating: what once caused everything need not now be present to anything.
+It is a rival framework, not an established counterexample, and on the sustaining
+reading the dispute moves to conservation (q.104 a.1), which stays open. No
+other substantive objection was identified. The spatial-presence lead
+against omnipresence targets a reading of presence the bridge does not use. The
+lead that finite minds grasp quantitative infinities through finite definitions
+has no shown relevance to INFINITE_1. Both incomprehensibility senses negate
+comprehension only (by the form of their definitions), so neither conflicts with
+the knowability of God (DS 3004). Joint satisfiability of each new route's whole
+premise bundle is unresolved; these routes keep the old lord and blessed bridges.
+Computed delta: three support alternatives added and four bare premises added (two
+bridges, two sense bridges); no pre-existing premise is closed.
 
 For *vivus* the corpus already has a typed, time-indexed route
 (`SelfOperationLife`, result `PURE-ACT-LIVES-FROM-SELF-OPERATION`: life as

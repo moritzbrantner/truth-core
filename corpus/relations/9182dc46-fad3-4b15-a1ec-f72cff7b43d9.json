@@ -1,0 +1,12 @@
+{
+  "id": "9182dc46-fad3-4b15-a1ec-f72cff7b43d9",
+  "label": "Creator of all being IMMENSE_1 strengthens IMMENSE_2 being IMMENSE_1",
+  "subject_kind": "statement",
+  "subject_id": "c7c32f20-2637-4497-8053-f259d02aa922",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "8bf775e9-34e0-48e5-bdd8-f48edd1040f7",
+  "verification_result_id": "f80bbd9e-7039-471a-93fe-f42814001243",
+  "strictness_result_id": "ccba9330-f025-4a69-af2d-82f7c50ab01c",
+  "note": "Same InAct, CausesIn, esse and Immense. The strong version gives IMMENSE_1 to every cause of the being of all; the weak one only to such a cause that is also INFINITE_1. Control part 2: a cause of the being of all that is not infinite satisfies the weak version and falsifies the strong one."
+}

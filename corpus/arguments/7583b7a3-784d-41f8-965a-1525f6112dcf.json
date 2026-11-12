@@ -1,0 +1,32 @@
+{
+  "id": "7583b7a3-784d-41f8-965a-1525f6112dcf",
+  "label": "Creator of all being IMMENSE_1 gives IMMENSE_2 being IMMENSE_1",
+  "premise_statement_ids": [
+    "c7c32f20-2637-4497-8053-f259d02aa922"
+  ],
+  "conclusion_statement_id": "8bf775e9-34e0-48e5-bdd8-f48edd1040f7",
+  "inference_ids": [
+    "aca7ec7c-4256-4107-a8a7-780eac15403d"
+  ],
+  "meaning": "Strength order registration: the old bridge (whatever causes the being of everything else is IMMENSE_1) entails the new sense bridge, since whatever is IMMENSE_2 causes the being of everything else. Projection and application only; it establishes neither.",
+  "definition_ids": [
+    "641c767b-4289-4d92-b900-da7ad603d282",
+    "92c03350-6809-497d-b123-2ffb11c0e0c1",
+    "1d8890c0-afe2-5cdb-a400-0bbd4b79053d",
+    "bf2f30d1-609f-4b23-b819-786d877b949c"
+  ],
+  "disambiguation_ids": [
+    "3fc3ee02-c3cc-4a61-9724-914d9d07b0dd",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "587c53cf-c2a8-51f6-b8c1-013e67756dc6"
+  ],
+  "sense_bridges": [
+    {
+      "term": "IMMENSE",
+      "from": "f9a7bc6c-f847-4f4c-9cf8-9f8d1cdcc5bf",
+      "to": "1bf8b401-ddd3-459a-bc15-67083eb8d2f1",
+      "statement_id": "8bf775e9-34e0-48e5-bdd8-f48edd1040f7",
+      "role": "conclusion"
+    }
+  ]
+}

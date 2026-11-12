@@ -1,0 +1,9 @@
+{
+  "id": "4afe4ab4-f8cc-4120-b284-f1f0140e76c1",
+  "label": "Comprehends: a primitive relation, knowing a being as perfectly as it is knowable",
+  "term": "comprehend (comprehendere, ST I q.12 a.7; Lean `Comprehension.Comprehends`)",
+  "definition": "PRIMITIVE. Comprehends x y: x knows y as perfectly as y is knowable. After ST I q.12 a.7, where to comprehend is to know a thing perfectly, that is, as much as it is knowable. Example: a mathematician who knows a theorem by its demonstration comprehends it (the example of q.12 a.7, as against holding it as probable on authority). Counterexample: a person who knows truly that the theorem holds without knowing it by demonstration knows it but does not comprehend it. Distinguished from knowing y (truly, but not perfectly) and from attaining or seeing y, which q.12 a.7 ad 1 grants to the blessed with respect to God without comprehension; distinguished also from the propositional Knows of the veracity vocabulary (NamingVeracityBatch1: a being holds a proposition as known), which relates a knower to a proposition, not to a being.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.DeiFiliusImmenseIncomprehensible.Comprehension.Comprehends",
+  "note": "Explicitly identified primitive (Encode first), introduced because the corpus has no relation between a knower and a known being. Open semantic obligation: a typed measure of knowability (q.12 a.1: a thing is knowable insofar as it is in act) and of an intellect's power of knowing, from which comprehension could be defined and the bridge 'No intellect that is not INFINITE_1 comprehends an INFINITE_1 being' derived or refuted. That bridge is the only constraint placed on it. Structural properties: none built in (not assumed reflexive, transitive or asymmetric; control part 1 of DeiFiliusImmenseIncomprehensible has a being that comprehends itself)."
+}
