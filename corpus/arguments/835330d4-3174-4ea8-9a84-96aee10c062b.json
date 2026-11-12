@@ -1,0 +1,26 @@
+{
+  "id": "835330d4-3174-4ea8-9a84-96aee10c062b",
+  "label": "The sustaining reading entails its restriction to causes of another's being",
+  "premise_statement_ids": [
+    "23e04ae5-98ed-4464-8f9b-dc0dfbad0caa"
+  ],
+  "conclusion_statement_id": "ce55210c-d3b5-4720-bd83-a3f63c5dc884",
+  "inference_ids": [
+    "bd03763d-23ac-401c-b8d9-77b1cac13ea2"
+  ],
+  "meaning": "Strength order registration: the sustaining reading 23e04ae5 (every cause of a thing's being sustains it) entails its restriction to causes distinct from their effect. Application only; it establishes neither. Strictness is witnessed by Control part 5 (a self-cause that gives nothing).",
+  "term_senses": {
+    "CAUSE_OF_BEING": "5acddd28-aca0-410d-96d2-ef9386b8dc27"
+  },
+  "definition_ids": [
+    "158301bc-9585-4145-be60-34f08c9f922c",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "56989bd0-a232-56ea-9093-c89350effff4",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e",
+    "ed47a5a7-fa84-43cb-950b-2552b33b99ff"
+  ],
+  "disambiguation_ids": [
+    "88a8fba7-f1a1-4340-8a7f-41dd39bbbe7d",
+    "c3c01e92-520e-5358-a58f-0cc7e9c9e6fa"
+  ]
+}

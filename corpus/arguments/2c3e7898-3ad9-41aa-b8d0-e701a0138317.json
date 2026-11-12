@@ -1,0 +1,37 @@
+{
+  "id": "2c3e7898-3ad9-41aa-b8d0-e701a0138317",
+  "label": "IMMENSE_2 is present to all whenever they are, from weak sustaining and contact",
+  "premise_statement_ids": [
+    "ce55210c-d3b5-4720-bd83-a3f63c5dc884",
+    "140544c4-3152-4543-9590-9567acf874a2",
+    "c4661518-33cc-4a53-ae55-cb986be9c2b5"
+  ],
+  "conclusion_statement_id": "9469ab62-19a6-4053-9d22-540e5d4152bf",
+  "inference_ids": [
+    "3472247b-4595-4d1b-9d0e-c68415624964"
+  ],
+  "meaning": "New non-transcription conditional derivation of the immensity presence step 9469ab62 with the weak sustaining reading in place of 23e04ae5. Let g be IMMENSE_2 and x, other than g, present at t in history v. x is in act as to being (presence-in-act), so g causes x's being (creator conjunct, which concerns beings other than g); by the weak sustaining reading g gives x being at t; by the contact principle g is present at t. The infinity conjunct is not used. Each premise is needed in a checked interpretation: the weak sustaining reading (Control part 1, existential inertia), contact and presence-in-act (part 6); all hold nonvacuously (part 7). Composed with the derivation of the weak reading from concurrent actualization, the immensity presence step rests on the reception bridge, concurrent actualization, concurrence of causes of being, presence-in-act and contact, all OPEN. No premise is established.",
+  "term_senses": {
+    "CAUSE_OF_BEING": "5acddd28-aca0-410d-96d2-ef9386b8dc27",
+    "IMMENSE": "f9a7bc6c-f847-4f4c-9cf8-9f8d1cdcc5bf"
+  },
+  "definition_ids": [
+    "1335688a-d3f2-492e-9b71-c8062280fe16",
+    "158301bc-9585-4145-be60-34f08c9f922c",
+    "641c767b-4289-4d92-b900-da7ad603d282",
+    "92c03350-6809-497d-b123-2ffb11c0e0c1",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "1d8890c0-afe2-5cdb-a400-0bbd4b79053d",
+    "56989bd0-a232-56ea-9093-c89350effff4",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e",
+    "ed47a5a7-fa84-43cb-950b-2552b33b99ff"
+  ],
+  "disambiguation_ids": [
+    "3fc3ee02-c3cc-4a61-9724-914d9d07b0dd",
+    "88a8fba7-f1a1-4340-8a7f-41dd39bbbe7d",
+    "c3c01e92-520e-5358-a58f-0cc7e9c9e6fa",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "587c53cf-c2a8-51f6-b8c1-013e67756dc6"
+  ]
+}

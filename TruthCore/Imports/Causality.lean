@@ -41,6 +41,7 @@ public import TruthCore.Causality.ComposerTemporalDefinitionFork
 public import TruthCore.Causality.ConceivableGreatness
 public import TruthCore.Causality.ConceptualExistenceBoundary
 public import TruthCore.Causality.ConcreteExistentialSupply
+public import TruthCore.Causality.ConcurrentActualization
 public import TruthCore.Causality.ConstitutiveConfiguration
 public import TruthCore.Causality.ConstitutiveNatureUniqueness
 public import TruthCore.Causality.ContingentAncestry

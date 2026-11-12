@@ -1,0 +1,12 @@
+{
+  "id": "bd03763d-23ac-401c-b8d9-77b1cac13ea2",
+  "label": "The sustaining reading entails its restriction to causes of another's being (inference)",
+  "input_statement_ids": [
+    "23e04ae5-98ed-4464-8f9b-dc0dfbad0caa"
+  ],
+  "output_statement_id": "ce55210c-d3b5-4720-bd83-a3f63c5dc884",
+  "rule": "Instantiate the sustaining reading; the distinctness hypothesis is unused",
+  "meaning": "Strength order registration: the sustaining reading 23e04ae5 (every cause of a thing's being sustains it) entails its restriction to causes distinct from their effect. Application only; it establishes neither. Strictness is witnessed by Control part 5 (a self-cause that gives nothing).",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
