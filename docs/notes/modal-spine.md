@@ -897,9 +897,10 @@ itself, but that last step is a declared single-application transcription, so
 `8bf775e9` stays open until all its premises close. `8bf775e9` entails the
 narrowed bridge (strictness unchecked), so this is a finer split, not a weaker
 total commitment. This route reads `GivesAt` strictly (esse-giving), and
-`23e04ae5` is the cross-term sense bridge CAUSING_AN_EFFECT_3 →
-CAUSE_OF_BEING_2, named in prose only (term senses cannot record it: the
-CAUSING_AN_EFFECT_3 declaration does not occur in these theorems). The existential-inertia objection now targets exactly
+`23e04ae5` is the sense bridge CAUSING_AN_EFFECT_3 → CAUSING_AN_EFFECT_5
+(the sustaining sense, also CAUSE_OF_BEING_2), declared in `sense_bridges` since
+#1501 together with its weak form `ce55210c` and the concurrence premise
+`d7f5a528` (disambiguation `c3c01e92`). The existential-inertia objection now targets exactly
 `23e04ae5`: in its typed shape (control 1) every cause of being originates, contact
 holds, and an IMMENSE_2 being is not present to what persists. Feser 2021 (read)
 answers that past existence is relevant but not sufficient and that constituents

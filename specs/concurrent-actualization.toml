@@ -60,7 +60,11 @@ id = "Causes of another's being are CAUSE_OF_BEING_2 sustaining, from concurrent
 theorem = "sustainingOfConcurrentActualization"
 premises = ["da72ae93-5c8d-4717-8c17-97eeb8037317", "Whatever has received esse is given being by something whenever it is present", "d7f5a528-6e11-44a1-a12a-438c88a46cbf"]
 conclusion = "ce55210c-d3b5-4720-bd83-a3f63c5dc884"
-senses = {CAUSE_OF_BEING = "CAUSE_OF_BEING_2"}
+senses = {CAUSE_OF_BEING = "CAUSE_OF_BEING_2", CAUSING_AN_EFFECT = "CAUSING_AN_EFFECT_5"}
+sense_bridges = [
+  { term = "CAUSING_AN_EFFECT", from = "CAUSING_AN_EFFECT_3", to = "CAUSING_AN_EFFECT_5", statement_id = "d7f5a528-6e11-44a1-a12a-438c88a46cbf" },
+  { term = "CAUSING_AN_EFFECT", from = "CAUSING_AN_EFFECT_3", to = "CAUSING_AN_EFFECT_5", statement_id = "ce55210c-d3b5-4720-bd83-a3f63c5dc884", role = "conclusion" },
+]
 axioms = []
 rule = "Reception bridge, then concurrent actualization at the moment, then concurrence of causes of being"
 meaning = "New non-transcription conditional derivation of the weak sustaining reading. Let c, distinct from x, cause x's being, and let x be present at t in history v. By the reception bridge da72ae93 (what has its being caused by another has its esse received in some principle) x's esse is received in some principle; by concurrent actualization something gives x being at t; by concurrence of causes of being c gives x being at t. So c gives x being at every moment at which x is present (CAUSE_OF_BEING_2). Each premise is needed in a checked interpretation: without concurrent actualization (existential inertia, Control part 1), without concurrence (intrinsic persistence power, part 2; relay, part 3, where even the strong concurrent actualization holds), without the reception bridge (part 4); all hold nonvacuously with the conclusion (part 7). The distinctness of the giver is not used. Of the three premises, existential inertia rejects only concurrent actualization (part 1), so the dispute over the sustaining reading now sits exactly there. All premises stay OPEN; the reception bridge inherits the scope condition of definition 80dea550. No premise is established."
@@ -79,7 +83,11 @@ id = "The sustaining reading entails its restriction to causes of another's bein
 theorem = "anothersSustainingOfSustaining"
 premises = ["23e04ae5-98ed-4464-8f9b-dc0dfbad0caa"]
 conclusion = "ce55210c-d3b5-4720-bd83-a3f63c5dc884"
-senses = {CAUSE_OF_BEING = "CAUSE_OF_BEING_2"}
+senses = {CAUSE_OF_BEING = "CAUSE_OF_BEING_2", CAUSING_AN_EFFECT = "CAUSING_AN_EFFECT_5"}
+sense_bridges = [
+  { term = "CAUSING_AN_EFFECT", from = "CAUSING_AN_EFFECT_3", to = "CAUSING_AN_EFFECT_5", statement_id = "23e04ae5-98ed-4464-8f9b-dc0dfbad0caa" },
+  { term = "CAUSING_AN_EFFECT", from = "CAUSING_AN_EFFECT_3", to = "CAUSING_AN_EFFECT_5", statement_id = "ce55210c-d3b5-4720-bd83-a3f63c5dc884", role = "conclusion" },
+]
 axioms = []
 rule = "Instantiate the sustaining reading; the distinctness hypothesis is unused"
 meaning = "Strength order registration: the sustaining reading 23e04ae5 (every cause of a thing's being sustains it) entails its restriction to causes distinct from their effect. Application only; it establishes neither. Strictness is witnessed by Control part 5 (a self-cause that gives nothing)."
@@ -89,7 +97,10 @@ id = "IMMENSE_2 is present to all whenever they are, from weak sustaining and co
 theorem = "immense2PresentToAllOfAnothers"
 premises = ["ce55210c-d3b5-4720-bd83-a3f63c5dc884", "140544c4-3152-4543-9590-9567acf874a2", "c4661518-33cc-4a53-ae55-cb986be9c2b5"]
 conclusion = "9469ab62-19a6-4053-9d22-540e5d4152bf"
-senses = {CAUSE_OF_BEING = "CAUSE_OF_BEING_2", IMMENSE = "IMMENSE_2"}
+senses = {CAUSE_OF_BEING = "CAUSE_OF_BEING_2", CAUSING_AN_EFFECT = "CAUSING_AN_EFFECT_5", IMMENSE = "IMMENSE_2"}
+sense_bridges = [
+  { term = "CAUSING_AN_EFFECT", from = "CAUSING_AN_EFFECT_3", to = "CAUSING_AN_EFFECT_5", statement_id = "ce55210c-d3b5-4720-bd83-a3f63c5dc884" },
+]
 axioms = []
 rule = "Creator conjunct of IMMENSE_2 at each other present thing, through presence-in-act; weak sustaining reading; contact"
 meaning = "New non-transcription conditional derivation of the immensity presence step 9469ab62 with the weak sustaining reading in place of 23e04ae5. Let g be IMMENSE_2 and x, other than g, present at t in history v. x is in act as to being (presence-in-act), so g causes x's being (creator conjunct, which concerns beings other than g); by the weak sustaining reading g gives x being at t; by the contact principle g is present at t. The infinity conjunct is not used. Each premise is needed in a checked interpretation: the weak sustaining reading (Control part 1, existential inertia), contact and presence-in-act (part 6); all hold nonvacuously (part 7). Composed with the derivation of the weak reading from concurrent actualization, the immensity presence step rests on the reception bridge, concurrent actualization, concurrence of causes of being, presence-in-act and contact, all OPEN. No premise is established."
@@ -99,10 +110,11 @@ id = "IMMENSE_2 is IMMENSE_1, from weak sustaining, contact and the narrowed sen
 theorem = "immenseSenseBridgeOfAnothersSustaining"
 premises = ["ce55210c-d3b5-4720-bd83-a3f63c5dc884", "140544c4-3152-4543-9590-9567acf874a2", "c4661518-33cc-4a53-ae55-cb986be9c2b5", "a3913182-5557-4e8b-80d1-3771a57c3a03"]
 conclusion = "8bf775e9-34e0-48e5-bdd8-f48edd1040f7"
-senses = {CAUSE_OF_BEING = "CAUSE_OF_BEING_2"}
+senses = {CAUSE_OF_BEING = "CAUSE_OF_BEING_2", CAUSING_AN_EFFECT = "CAUSING_AN_EFFECT_5"}
 sense_bridges = [
   { term = "IMMENSE", from = "f9a7bc6c-f847-4f4c-9cf8-9f8d1cdcc5bf", to = "1bf8b401-ddd3-459a-bc15-67083eb8d2f1", statement_id = "a3913182-5557-4e8b-80d1-3771a57c3a03" },
   { term = "IMMENSE", from = "f9a7bc6c-f847-4f4c-9cf8-9f8d1cdcc5bf", to = "1bf8b401-ddd3-459a-bc15-67083eb8d2f1", statement_id = "8bf775e9-34e0-48e5-bdd8-f48edd1040f7", role = "conclusion" },
+  { term = "CAUSING_AN_EFFECT", from = "CAUSING_AN_EFFECT_3", to = "CAUSING_AN_EFFECT_5", statement_id = "ce55210c-d3b5-4720-bd83-a3f63c5dc884" },
 ]
 axioms = []
 rule = "Derive presence to all from IMMENSE_2 in every history (immense2PresentToAllOfAnothers), then apply the narrowed sense bridge"
