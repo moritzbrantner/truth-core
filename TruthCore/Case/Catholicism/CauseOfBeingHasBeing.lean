@@ -245,12 +245,12 @@ def Controls : Prop :=
   (CauseOfBeingInActAsToBeing (fun _ r => r = esse) causesAll esse ∧
     ¬ TruthCore.Causality.CausalMapsBatch1.CauseOfBeingHasWhatItGives causesAll
       (fun _ r => r = esse) esse) ∧
-  -- (16) strictness: a cause of another perfection, of nobody's being, lacks what it gives
+  -- (15) strictness: a cause of another perfection, of nobody's being, lacks what it gives
   (TruthCore.Causality.CausalMapsBatch1.CauseOfBeingHasWhatItGives
       (fun c x r => c = false ∧ x = true ∧ r = true) (fun _ _ => False) esse ∧
     ¬ TruthCore.Causality.CausalMapsBatch1.CauseHasWhatItGives
       (fun c x r => c = false ∧ x = true ∧ r = true) (fun (_ : Bool) (_ : Bool) => False)) ∧
-  -- (15) nonvacuity: everything exists, is concrete and in act; `false` causes, and
+  -- (16) nonvacuity: everything exists, is concrete and in act; `false` causes, and
   -- grounds, the being of `true`, on which `true` depends
   (ExistingInActAt (prof (fun _ => True) (fun _ => True) (fun c x => c = false ∧ x = true)).ontic
       (fun _ _ => True) esse () ∧

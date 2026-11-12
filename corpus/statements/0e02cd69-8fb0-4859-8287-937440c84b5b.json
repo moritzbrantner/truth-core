@@ -1,7 +1,7 @@
 {
   "id": "0e02cd69-8fb0-4859-8287-937440c84b5b",
   "label": "Every existent at the selected world is CONCRETE_6",
-  "paraphrase": "At the selected world w, every candidate that exists at w satisfies the profile's concreteness predicate (CogitoEsse.EveryExistentConcreteAt on the profile's Ontic and concrete). It does not classify candidates absent from w and does not exclude abstract candidates from the carrier; it says that none of them exists at w in the profile's sense of existence, which the existence-to-act contract reads as existence in re. It contradicts the recorded rival 'Some actual concretum has a distinct existing cause of its esse that is not CONCRETE_6', whose cause exists at w and is not concrete.",
+  "paraphrase": "At the selected world w, every candidate that exists at w satisfies the profile's concreteness predicate (CogitoEsse.EveryExistentConcreteAt on the profile's Ontic and concrete). It does not classify candidates absent from w and does not exclude abstract candidates from the carrier; it says that none of them exists at w in the profile's sense of existence, which the existence-to-act contract reads as existence in re. It contradicts the recorded rival 'Some actual concretum has a distinct existing cause of its esse that is not CONCRETE_6', whose cause exists at w and is not concrete. Since only esse-in-re to concrete is assumed, the conclusion also holds for a trivially broad concrete predicate; excluding abstracta from m.concrete needs the unstated converse.",
   "lean_declaration": "TruthCore.Logic.CogitoEsse.EveryExistentConcreteAt",
   "definition_ids": [
     "008cb21a-256c-5a90-822c-acd4591d699a",
