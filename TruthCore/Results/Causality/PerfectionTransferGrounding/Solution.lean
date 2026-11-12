@@ -38,6 +38,28 @@ theorem causeOfBeingCausesEveryPerfectionGrounded {Being Respect : Type}
   · exact hUniv c hAll x r hDistinct hEsse hAct
   · exact hNon c hNot x r hEsse hAct
 
+/-- Unregistered companion: the residual entails nonuniversal transfer (its first
+conjunct). Do not register this as an argument: a verified proof of
+`NonuniversalPerfectionTransfer` from the residual would recreate an ungrounded
+support cycle under the #1480 rule. -/
+theorem nonuniversalOfResidual {Being Respect : Type}
+    (InAct : Being → Respect → Prop)
+    (CausesIn : Being → Being → Respect → Prop) (esse : Respect)
+    (h : ResidualPerfectionTransfer InAct CausesIn esse) :
+    NonuniversalPerfectionTransfer InAct CausesIn esse :=
+  h.1
+
+/-- Unregistered companion: given that nothing causes its own esse, the residual
+and nonuniversal transfer are equivalent (the residual's self-effect conjunct is
+vacuous). Not registered, for the same reason. -/
+theorem residualIffNonuniversal {Being Respect : Type}
+    (InAct : Being → Respect → Prop)
+    (CausesIn : Being → Being → Respect → Prop) (esse : Respect)
+    (hOwn : NothingCausesItsOwnBeing CausesIn esse) :
+    ResidualPerfectionTransfer InAct CausesIn esse ↔
+      NonuniversalPerfectionTransfer InAct CausesIn esse :=
+  ⟨fun h => h.1, fun h => ⟨h, fun c _ hc _ => absurd hc (hOwn c)⟩⟩
+
 attribute [local instance] transferFourForallDecidable
 
 theorem controls : Control.Controls := by
