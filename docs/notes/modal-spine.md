@@ -700,7 +700,7 @@ attributes are confessed.
 | Dei Filius | Typed as | At any being with the nine (`nineGiveDeiFilius`) | At the spine's root (`deiFiliusRoot`) |
 |---|---|---|---|
 | unus, una singularis | `IsTheOneGod` | one of the nine | one of the nine |
-| vivus | primitive `Lives` (LIVING_1, timeless) | open bridge: whatever has intellect lives (q.18 a.3) | same bridge |
+| vivus | primitive `Lives` (LIVING_1, timeless) | open bridge: whatever has intellect lives (q.18 a.3); or (second route) from pure act, one of the nine, through LIVING_2 and a restricted sense bridge (below) | same two routes |
 | creator caeli et terrae | `IsCreatorOfAll`: causes the being of everything else (weaker: no creation from nothing) | contained by definition in the goodness conjunct | same |
 | Dominus | primitive `IsLord` | open bridge: creator of all is lord (q.13 a.7) | same bridge |
 | omnipotens | `IsAlmighty` (active power; no clash with immutability, which excludes passive potency) | from infinity by the existing `STMT-INFINITE-ACT-HAS-INFINITE-POWER` (itself derived from three open premises) | same |
@@ -719,10 +719,63 @@ For *vivus* the corpus already has a typed, time-indexed route
 (`SelfOperationLife`, result `PURE-ACT-LIVES-FROM-SELF-OPERATION`: life as
 self-operation, derived for pure act as life present at some time of a duration
 frame). It is recorded as the sibling reading LIVING_2 (`LivesSomeTime`,
-disambiguation `1f2d3b9b`), not reused. Reusing it would add a duration frame and
-a primitive `Operates` to the attribute vocabulary, and identifying it with the
-timeless LIVING_1 would merge senses; composing the two needs an explicit
-bridge.
+disambiguation `1f2d3b9b`). The attribute structure keeps the timeless LIVING_1,
+and the two senses are not identified.
+
+Since 2026-11-12 a second route gives LIVING_1 from pure act
+(`DeiFiliusLivingSelfOperation`, spec
+`specs/dei-filius-living-self-operation.toml`, attempt `6683acc4`), both for any
+being with the nine (`nineGiveDeiFiliusLivingFromPureAct`, a second bundle for
+the restated sufficiency, the place where the living bridge reaches the root in
+the computed frontier) and at the root (`deiFiliusRootLivingFromPureAct`). Each
+composes the registered theorem (`nineGiveDeiFilius`, `deiFiliusRoot`) without
+the intellect bridge and takes pure act from the `immutable` conjunct. It then
+applies `STMT-PURE-ACT-LIVES` (LIVING_2, itself
+derived from three open premises) and crosses to LIVING_1 by one explicit sense
+bridge restricted to pure act (`ad49ea00`: whatever is in potency in no respect
+and lives at some time lives). The restriction carries part of the motivation.
+The open premise `STMT-LIFE-BOUNDARY-REQUIRES-POTENCY` says that without
+potency in the subject, life can neither begin nor end. Q.10 a.1 supports it only
+in the weaker form "not altogether immutable", and q.9 a.1 does not cover
+beginning or ceasing to live, since creation is not properly a change. That
+premise motivates only the step from some time to every time of the frame. The
+step from every time to the timeless LIVING_1 (sempiternal versus eternal,
+#979) rests on the bridge alone. The unrestricted bridge can fail for a being
+that lived once. The controls show that without the bridge a pure act can be
+LIVING_2 and not LIVING_1. They also show that the new route does not formally
+presuppose the intellect bridge. `LivesSomeTime` is a reducible definition, so
+LIVING_2 differs from a raw existential over `LivesAt` only nominally.
+
+The route does not reduce the open premises (computed: one support alternative
+added for the restated sufficiency; one bare premise added). One bare bridge
+(intellect gives life) is replaced by one bare sense bridge plus
+`STMT-PURE-ACT-LIVES`, which the eternity routes already use. What changes is
+the formal connection: living now follows from the derived pure act, not from
+the intellect conjunct. The independence from the intellect bridge is formal
+only. Q.18 a.3 grounds God's life in his being his own understanding, and
+`STMT-PURE-ACT-OPERATES` generalizes from God to every pure act, so the source
+warrant still runs through intellect.
+
+Objection audit for this route:
+
+- **Main warrant gap.** The generalization in `STMT-PURE-ACT-OPERATES` from God
+  (who is his own understanding, q.18 a.3 ad 2) to every pure act.
+- **Abstracta scope point.** An immutable, causally inert being (an abstract
+  object, if the domain has one) would have no potency and no operation. The
+  basis is the usual platonist view; no source is on file. A restriction to
+  concrete beings would suffice only for the root endpoint (`c0f4a346`), whose
+  witness is actual and concrete. That endpoint has no computed path to the
+  root. The route that reaches the root is the sufficiency bundle
+  (`5fbea2f5`), which quantifies over any being with the nine and assumes no
+  concreteness. There the premise would need restricting to beings with the
+  nine, or to beings with intellect. An intellect restriction would make the
+  route lean on intellect again and weaken its independence from the intellect
+  bridge.
+- **Plotinus.** The One as source of life (*Enn.* VI.7) is an unread lead that
+  would need a sense bridge like the one for intellect.
+
+No claim states any premise of the route; q.18 a.3 supports three of them by
+relations.
 
 On the full-list reading the warrant gap of the sufficiency premise is an exact
 list. In general it is the field interpretation, seven new bridges and the
@@ -892,8 +945,9 @@ conditional investigations, not a mandatory first gate:
    seven named bridges (five at the root) plus existing premises. That
    warrant gap holds on the full-list reading of the field; on the nine-reading
    that `Root.lean` documents, the premise is close to analytic. Next for it:
-   typed content for the five primitives (life without change, or a bridge from
-   the time-indexed LIVING_2; dominion; presence and place; created intellects
+   typed content for the five primitives (life without change, under which the
+   restricted bridge from LIVING_2, attempt `6683acc4`, could be derived or
+   fail; dominion; presence and place; created intellects
    and knowability; beatitude); a world term for non-identity with the world
    (the anti-pantheist content); and whether the respects of `InAct` separate
    grades of being. The

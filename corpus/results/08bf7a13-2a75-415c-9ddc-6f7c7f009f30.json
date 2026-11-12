@@ -1,0 +1,11 @@
+{
+  "id": "08bf7a13-2a75-415c-9ddc-6f7c7f009f30",
+  "label": "The nine give every typed Dei Filius attribute, LIVING_1 from no POTENCY_1",
+  "argument_id": "4da3e7db-9ebc-4e9e-b249-9a08c83e80c7",
+  "challenge_module": "TruthCore.Results.Causality.DeiFiliusLivingSelfOperation.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DeiFiliusLivingSelfOperation.Solution",
+  "theorem": "TruthCore.Results.Causality.DeiFiliusLivingSelfOperation.nineGiveDeiFiliusLivingFromPureAct",
+  "comparator_config": "results/08bf7a13-2a75-415c-9ddc-6f7c7f009f30/comparator.json",
+  "status": "solution-present",
+  "description": "At any being g with the nine, the registered nineGiveDeiFilius is applied with every one of its inputs except 'Whatever HAS_INTELLECT_1 is LIVING_1', on the primitives that agree with the given ones except that their Lives is HasIntellect; that bridge then holds trivially and nothing about the given Lives is used. Every conjunct except living is carried over. Among the nine is altogether immutability, whose body is that g is in potency in no respect (pure act). STMT-PURE-ACT-LIVES (derived in result PURE-ACT-LIVES-FROM-SELF-OPERATION from three open premises) gives g life at some time of the duration frame (LIVING_2), and the restricted sense bridge gives g LIVING_1, the living conjunct of the typed Dei Filius attributes. The two senses are not identified: the passage is the one listed bridge premise, restricted to pure act. Against nineGiveDeiFilius this route removes the intellect-gives-life bridge and adds STMT-PURE-ACT-LIVES and the new sense bridge. Conditional consequence only; no premise is established."
+}
