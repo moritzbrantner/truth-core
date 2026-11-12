@@ -1,0 +1,18 @@
+{
+  "id": "e6d48136-9310-488e-b020-1beecc23ae21",
+  "label": "Concurrent-actualization controls: inertia, persistence power, relay, omissions and nonvacuity",
+  "paraphrase": "Closed controls on interpretations with one world and natural-number times; statements about these interpretations only. (1) Extrinsic existential inertia (Schmid's no-change account): two individuals, true causes false's being and gives it being at time 1 only, false (alone with received esse) persists from time 1 on. The reception bridge, concurrence of causes of being, presence-in-act and the contact principle hold and true is IMMENSE_2; concurrent actualization (weak) fails, the weak sustaining reading fails, and true is not present to all whenever they are. (2) Intrinsic persistence power: the same history, with false giving itself being from time 1 on. The reception bridge, the weak concurrent actualization and contact hold; the strong version, concurrence and the weak sustaining reading fail. (3) Relay, three individuals: 0 causes 1's being and gives it being at time 1; a later sustainer 2 gives 1 being from time 2 on. The reception bridge, the strong concurrent actualization and contact hold; concurrence and the weak sustaining reading fail. (4) No received esse, inertia history: both versions of concurrent actualization (vacuously) and concurrence hold; the reception bridge and the weak sustaining reading fail. (5) Every thing causes its own being only, no giving: the weak sustaining reading holds and the sustaining reading 23e04ae5 fails. (6) An absent giver: the weak sustaining reading and presence-in-act hold, contact and presence to all fail; nothing in act and no causes: the weak sustaining reading and contact hold, presence-in-act and presence to all fail. (7) true present always, false from time 1 with received esse, true giving it being from time 1 on: the reception bridge, both versions of concurrent actualization, concurrence, both sustaining readings, presence-in-act and contact hold, true is IMMENSE_2 and present to all whenever they are.",
+  "lean_declaration": "TruthCore.Causality.ConcurrentActualization.Control.Certificate",
+  "definition_ids": [
+    "4433942e-aaf6-55a9-b777-66e55638103d",
+    "158301bc-9585-4145-be60-34f08c9f922c",
+    "ed47a5a7-fa84-43cb-950b-2552b33b99ff",
+    "1335688a-d3f2-492e-9b71-c8062280fe16",
+    "641c767b-4289-4d92-b900-da7ad603d282",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e"
+  ],
+  "disambiguation_ids": [
+    "88a8fba7-f1a1-4340-8a7f-41dd39bbbe7d",
+    "3fc3ee02-c3cc-4a61-9724-914d9d07b0dd"
+  ]
+}

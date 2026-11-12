@@ -1,0 +1,11 @@
+{
+  "id": "0ed3a583-260a-4c04-a0f7-37528f6635ef",
+  "label": "IMMENSE_2 is present to all whenever they are, from weak sustaining and contact",
+  "argument_id": "2c3e7898-3ad9-41aa-b8d0-e701a0138317",
+  "challenge_module": "TruthCore.Results.Causality.ConcurrentActualization.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ConcurrentActualization.Solution",
+  "theorem": "TruthCore.Results.Causality.ConcurrentActualization.immense2PresentToAllOfAnothers",
+  "comparator_config": "results/0ed3a583-260a-4c04-a0f7-37528f6635ef/comparator.json",
+  "status": "solution-present",
+  "description": "New non-transcription conditional derivation of the immensity presence step 9469ab62 with the weak sustaining reading in place of 23e04ae5. Let g be IMMENSE_2 and x, other than g, present at t in history v. x is in act as to being (presence-in-act), so g causes x's being (creator conjunct, which concerns beings other than g); by the weak sustaining reading g gives x being at t; by the contact principle g is present at t. The infinity conjunct is not used. Each premise is needed in a checked interpretation: the weak sustaining reading (Control part 1, existential inertia), contact and presence-in-act (part 6); all hold nonvacuously (part 7). Composed with the derivation of the weak reading from concurrent actualization, the immensity presence step rests on the reception bridge, concurrent actualization, concurrence of causes of being, presence-in-act and contact, all OPEN. No premise is established."
+}

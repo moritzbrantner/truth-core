@@ -800,7 +800,7 @@ attributes are confessed.
 | Dominus | primitive `IsLord` (LORD_1); typed sibling LORD_2, `IsLordByCauseAndGovernment`: causes the being of and governs everything else (below) | open bridge: creator of all is lord (q.13 a.7); or (second route) LORD_2, derived from the nine with one new directing bridge (q.22 a.2) and the q.103 a.3 reading, plus a weaker sense bridge LORD_2 → LORD_1 | same two routes |
 | omnipotens | `IsAlmighty` (active power; no clash with immutability, which excludes passive potency) | from infinity by the existing `STMT-INFINITE-ACT-HAS-INFINITE-POWER` (itself derived from three open premises) | same |
 | aeternus | `Eternal` | one of the nine | one of the nine |
-| immensus | primitive `Immense` (IMMENSE_1); typed sibling IMMENSE_2, `IsImmenseAsInfiniteCauseOfAll`: infinite and causes the being of everything else (below) | open bridge: creator of all is immense (q.8 a.1-2); or (second route) IMMENSE_2, contained in the nine with no premise, plus a weaker sense bridge IMMENSE_2 → IMMENSE_1 that carries all the substantive content | same two routes |
+| immensus | primitive `Immense` (IMMENSE_1); typed sibling IMMENSE_2, `IsImmenseAsInfiniteCauseOfAll`: infinite and causes the being of everything else (below) | open bridge: creator of all is immense (q.8 a.1-2); or (second route) IMMENSE_2, contained in the nine with no premise, plus a weaker sense bridge IMMENSE_2 → IMMENSE_1 that carries all the substantive content; that bridge is itself derived (declared single-application transcription) from a typed presence step and a narrowed bridge, the presence step resting either on the sustaining reading `23e04ae5` or on its weak version `ce55210c` (causes of another's being), which is derived from concurrent actualization `40a97664`, concurrence of causes of being `d7f5a528` and the reception bridge `da72ae93` (below; `da72ae93` is now itself derived through the CREATURE senses) | same two routes |
 | incomprehensibilis | primitive `Incomprehensible` (INCOMPREHENSIBLE_1); typed sibling INCOMPREHENSIBLE_2, `IsIncomprehensibleToCausedIntellects`: infinite and comprehended by no caused intellect, with a new primitive relation `Comprehends` (below) | open bridge: the infinite is incomprehensible (q.12 a.7); or (second route) INCOMPREHENSIBLE_2, derived from the nine with two new bridges (q.7 a.2, q.12 a.7; the q.7 a.2 bridge `18ca6f9d` is itself derived from one caused-esse-is-received bridge and two reception-limitation premises, and that bridge from the CREATURE_2 → CREATURE_1 sense bridge and the q.7 a.2 reading at CREATURE_1, the sense bridge in turn from the proved Fourth-Way maximum; see the unified route and CREATURE senses below), plus a weaker, nearly analytic sense bridge INCOMPREHENSIBLE_2 → INCOMPREHENSIBLE_1 | same two routes |
 | intellectu ac voluntate omnique perfectione infinitus | `HasIntellect`, `HasWill`, `IsPerfect`, `Infinite` (weaker: infinity of intellect and will as such untyped) | four of the nine | four of the nine |
 | simplex omnino, incommutabilis | `IsSimple`, `IsImmutable` | two of the nine | two of the nine |
@@ -905,7 +905,44 @@ holds, and an IMMENSE_2 being is not present to what persists. Feser 2021 (read)
 answers that past existence is relevant but not sufficient and that constituents
 are only potentially the whole at the later time; that reply needs a
 concurrent-actualization premise (remaining in act needs an actual actualizer at
-the time), the untyped point where the two sides divide. No
+the time), the point where the two sides divide.
+*Concurrent actualization typed* (`ConcurrentActualization`, spec
+`specs/concurrent-actualization.toml`, attempt `05bc2722`). The premise is
+`40a97664`: whatever has its esse received in some principle (DEF-ESSE-RECEIVED-IN)
+is given being by something at every moment at which it is present (strong
+version `76d2cc96`: by something distinct from it). The adopted `InPotency` is not
+used: DEF-POTENCY makes potency exclude act in the same respect, which would make
+the premise vacuous under presence-in-act. Concurrent actualization alone does not
+give the sustaining reading: it requires some giver at each moment, not one
+giver at every moment, and a relay of givers satisfies even the strong version
+(control 3). With the reception bridge `da72ae93` (already on the unified route)
+and one further open premise, concurrence of causes of being (`d7f5a528`:
+whatever causes another's being gives it being whenever anything does), it
+derives the weak sustaining reading `ce55210c`: every cause of *another* thing's
+being is CAUSE_OF_BEING_2. That is all the presence step uses, and `23e04ae5`
+strengthens it (registered, strict). The weak reading composes to `9469ab62` and,
+through the narrowed bridge (single-application transcription), to `8bf775e9`.
+Existential inertia satisfies the reception bridge and concurrence and falsifies
+only concurrent actualization (control 1). An intrinsic persistence power and a
+relay falsify concurrence. Each premise is needed and all hold together. Audit
+under the Standard (attempt `05bc2722`). Schmid's no-change explanation is a
+substantive undercutting objection: persistence follows from earlier existence,
+no destroyer and "a change occurs only if some factor causally induces it", with
+no concurrent giver. That defeats the explanatory-need warrant for concurrent
+actualization, but it does not show the premise false. Feser's composition
+argument independently motivates that nothing intrinsic secures persistence, but
+its step to "a factor active at t" is concurrent actualization itself; against
+the extrinsic account it presupposes the premise. His circularity and essence
+arguments are independently justified only against intrinsic and necessity
+versions of inertia. So the existential-inertia dispute with the extrinsic
+(Schmid) version now rests at `40a97664`: whether continuing in received act is
+an actualization at each moment. On the material read, neither side discharges
+its burden there. The persistence-power version satisfies the weak premise and
+rests at concurrence `d7f5a528` instead (control 2), answered provisionally by
+Feser's circularity argument. This route to immensity also rests on concurrence
+itself, for which no warrant is on file (q.105 a.5 unread). `GivesAt` is read
+strictly (esse-giving) throughout, and illumination is an analogy for the time
+profile only. Nothing is established. No
 other substantive objection was identified. The spatial-presence lead
 against omnipresence targets a reading of presence the bridge does not use. The
 lead that finite minds grasp quantitative infinities through finite definitions

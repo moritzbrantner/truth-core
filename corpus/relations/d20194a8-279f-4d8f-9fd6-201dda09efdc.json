@@ -1,0 +1,11 @@
+{
+  "id": "d20194a8-279f-4d8f-9fd6-201dda09efdc",
+  "label": "Concurrent actualization by another strengthens concurrent actualization",
+  "subject_kind": "statement",
+  "subject_id": "76d2cc96-14a0-48bc-bd0b-a5c0ca853265",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "40a97664-e481-42d7-8458-78374a61aa26",
+  "verification_result_id": "9ef030cf-d983-4084-97e1-50b0a9a1dcc6",
+  "note": "Same history, giving relation and reception predicate; the strong version adds that the giver is distinct from the thing. Strict: Control part 2 (intrinsic persistence power)."
+}

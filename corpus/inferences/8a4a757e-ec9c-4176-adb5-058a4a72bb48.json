@@ -1,0 +1,10 @@
+{
+  "id": "8a4a757e-ec9c-4176-adb5-058a4a72bb48",
+  "label": "Concurrent-actualization controls checked (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "e6d48136-9310-488e-b020-1beecc23ae21",
+  "rule": "Explicit one-world interpretations over natural-number times, two or three individuals, checked by case analysis and linear arithmetic",
+  "meaning": "Existential inertia (the extrinsic no-change account) falsifies concurrent actualization and satisfies the other premises of the derivation; an intrinsic persistence power and a relay of givers falsify concurrence; without received esse the reception bridge fails; each premise of the derivation and of the immensity composition is needed in one interpretation; the weak sustaining reading and the weak concurrent actualization are strictly weaker than their strong versions; all premises hold together with both conclusions in one interpretation. A finite countermodel shows a premise is needed in that interpretation, not that it is false. Model claims concern these interpretations only.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -75,6 +75,7 @@ public import TruthCore.Results.Causality.ConceptualExistenceBoundary.Solution
 public import TruthCore.Results.Causality.ConcreteActualCoverNecessaryBeing.Solution
 public import TruthCore.Results.Causality.ConcreteAtomisticNecessaryBeing.Solution
 public import TruthCore.Results.Causality.ConcreteExistentialSupply.Solution
+public import TruthCore.Results.Causality.ConcurrentActualization.Solution
 public import TruthCore.Results.Causality.ConstitutiveConfiguration.Solution
 public import TruthCore.Results.Causality.ConstitutiveNatureUniqueness.Solution
 public import TruthCore.Results.Causality.ContingentAncestry.Solution
