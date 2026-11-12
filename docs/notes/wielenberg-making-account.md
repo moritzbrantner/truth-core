@@ -93,7 +93,8 @@ The actual features plus that substantive norm supply a pro-tanto reason;
 a decisive prohibition additionally needs the relevant priority/defeater rule.
 Pain's badness for the patient alone does not quantify over agents' duties.
 Pleasure, anesthesia and justified treatment variations test applicability,
-not a change from necessary norms to contingent norms. This is conditional token entailment and a candidate explanation under the
+not a change from necessary norms to contingent norms. This is conditional
+token entailment and a candidate explanation under the
 instantiation account; explanatory direction and relevance remain OPEN. It
 does not derive the norm from pain's purely descriptive character.
 
@@ -141,7 +142,8 @@ of these three packages wins merely by having fewer named primitives.
 Proposed overall provisional assessment: the positive necessary-norm package
 supplies conditional token entailment from substantive norms and accurate
 case facts, and a candidate explanation under the instantiation account. It
-has not answered the explanatory objection: direction and relevance remain OPEN. Existing mapping controls do not defeat it. Comparative
+has not answered the explanatory objection: direction and relevance remain
+OPEN. Existing mapping controls do not defeat it. Comparative
 superiority remains underdetermined: no independently warranted bridge here
 shows that the theistic source explains the responsibility/priority content
 better or that the realist stopping point is illegitimate. This judgment is
@@ -199,6 +201,19 @@ attributed theories:
   their content or jurisdiction. A rule selecting biological parents still
   needs separate defense. This tests the proposed bridge rather than claiming
   that theism cannot furnish one.
+
+A prima facie rationale for the selected responsibility principle is that
+voluntarily eliciting reliance changes the patient's practical alternatives:
+Mira and the other adults arranged care around Ada's assurances. Abandoning
+that arrangement exposes Mira to harm Ada could avert by fulfilling it or
+securing a substitute. This gives the principle content beyond mere kinship
+and a reason to distinguish Ada from Sol. The normative step remains explicit:
+that control over induced vulnerability warrants a special duty. It is a
+candidate primitive supported by this rationale, not a demand for an endlessly
+prior proof. No substantive objection to that bounded principle is established
+here. Uninvited reliance is a proposed scope test, not adverse evidence; the
+antecedent requires voluntary inducement. This rationale supports relevance
+without settling how strong the duty is in a competing rescue.
 
 Thus each expanded package derives the same *pro-tanto* Ada/Mira responsibility
 conditionally on its stated normative premises. This agreement is not three
@@ -282,10 +297,42 @@ No premise change. Existing proof evidence is reused; no new Lean verification
 claimed. Offline corpus validation and diff hygiene check this research record;
 final consequential semantic challenge remains with the parent.
 
-Validation of the draft: `python3 scripts/corpus.py check` passed (existing
-allowlisted sense warnings); `git diff --check` passed. Both requested
-frontier-diff attempts (against fetched main and HEAD) failed during temporary
-archive extraction with `OSError: [Errno 122] Disk quota exceeded`. No computed
-frontier delta is claimed. Only note/attempt records changed; the structural
-premise graph is untouched. The missing Rust binary was handled through the
-existing Python related/context/dossier commands, without a cold Rust build.
+## Repair evidence and publication status
+
+Continued from `d0fd83858752b2f785d83ecf369bb089395decab`; the complete
+revised outcome above awaits the parent's independent challenge, with no review
+delegation by this worker. Prior passed unchanged review scope is identified
+above. Publication is as a draft review artifact, not reviewed support.
+
+Quota diagnosis: provider event log
+`events.9bfe6c7b-7b13-4f40-b8a1-028a87dbf06c.log` records the failed
+`python3 scripts/corpus.py frontier-diff --base HEAD > /tmp/meta-head-diff`
+and traceback through `frontier_report_at_revision`, temporary archive
+`tar.extractall`, and `tarfile.makefile` raising errno 122 while writing.
+The shell's subsequent tail masked the failing command's exit status. This
+was temporary archive extraction, not a Lean or Rust build failure. `/tmp`
+was a separate tmpfs; the home disk had 111 GiB available at diagnosis.
+A single retry using task-specific
+`TMPDIR=/home/moenarch/.cache/truth-core-1505-tmp` completed against the
+previously fetched main. That comparison includes unrelated main changes;
+it is not this PR's premise delta. No cleanup or cold build was performed.
+The delivered comparison uses the fresh merged main as base instead.
+
+Delivered input checks: offline corpus check passed after merging main
+`d98066db300d5b02c2062c2a55d622a237ace49b` (existing allowlisted sense
+warnings); attribution-check reports no new or changed stating claim. Generated
+imports/docs regeneration left no changes. Diff hygiene passed. No Lean
+verification rerun for these note/attempt changes; final CI remains required.
+
+Computed `TMPDIR=/home/moenarch/.cache/truth-core-1505-tmp python3
+scripts/worker_env.py -- python3 scripts/corpus.py frontier-diff --base
+origin/main` on those inputs:
+
+```text
+premise delta for Catholicism is true: the Catholic Church is a teaching authority founded by GOD_4, and every… [53964cbe]: origin/main -> working tree
+open premises reaching the root: 479 (340 bare, 93 supported, 46 stated) -> 479 (340 bare, 93 supported, 46 stated)
+expanded-route diagnostic (lowest cost): Catholicism is true: the Catholic Church is a…, from Fork node: the intended reading of… and 7 more [8df2faad] (cost 16) -> Catholicism is true: the Catholic Church is a…, from Fork node: the intended reading of… and 7 more [8df2faad] (cost 16)
+distinct verified support alternatives: 373 -> 373
+verified support alternatives added: 0
+no change
+```
