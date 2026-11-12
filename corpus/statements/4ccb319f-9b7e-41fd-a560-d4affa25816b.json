@@ -1,0 +1,15 @@
+{
+  "id": "4ccb319f-9b7e-41fd-a560-d4affa25816b",
+  "label": "Whatever causes the being of anything is itself in act as to being",
+  "paraphrase": "OPEN analyst premise, attribution deferred: whatever causes the being of anything (CausesIn c x esse, CAUSE_2 at esse) is itself in act as to being (InAct c esse, formally or eminently in the shared InAct of DISAMB-IN-ACT). It is the esse rung of 'nothing gives what it does not have': entailed by the cause-of-being restriction STMT-CAUSE-OF-BEING-HAS-WHAT-IT-GIVES (registered strength order), and derived from agency in act plus the sourced q.4 a.1 ad 3 premise STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING without any transfer principle. It constrains causes of the being of any candidate, actual or not. CausesIn at esse is read for extrinsic (efficient) causes, as for agency in act (the prime-matter lead recorded there applies here too). No independent warrant is recorded for it beyond its derivations from open premises.",
+  "lean_declaration": "TruthCore.Case.Catholicism.CauseOfBeingHasBeing.CauseOfBeingInActAsToBeing",
+  "definition_ids": [
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
+  ]
+}

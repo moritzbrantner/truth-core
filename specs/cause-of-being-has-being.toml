@@ -1,0 +1,198 @@
+# Modal spine, stage two: decomposing the esse-cause bridge
+# STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND [cb1cdea9], which feeds eight of the ten
+# attribute and naming steps of the composition from the join's underived individual
+# (result 57213a13). Its only derivation took two analyst leaves for its first two
+# clauses (causes of esse are concrete; causes of the esse of an actual concretum exist
+# at w). This batch derives both from more basic premises: the CONCRETE_6 calibration
+# of the profile's concrete predicate with the existence-to-act contract, and the maxim
+# "nothing gives being that it does not have" with the act-to-existence converse. It
+# also registers the strength ladder of "nothing gives what it does not have" from the
+# unrestricted principle 376d6a5a down to the esse rung, and an agency route to that
+# rung that uses no transfer principle. Analyst formulations, attribution deferred.
+# No premise is established.
+#
+# Do not register CauseOfBeingInActAsToBeing => CauseOfBeingIsInAct (lemma inActOfHasBeing):
+# with causeOfBeingHasBeingOfAgency it would close an ungrounded support cycle.
+
+[batch]
+vocab = "TruthCore.Case.Catholicism.CauseOfBeingHasBeing"
+results = "TruthCore.Results.Case.Catholicism.CauseOfBeingHasBeing"
+
+# ---------------------------------------------------------------- statements
+
+[[statement]]
+id = "Whatever has esse in re is CONCRETE_6 in the profile"
+lean = "EsseInReIsConcrete"
+paraphrase = "OPEN interpretation premise, analyst formulation: one direction of the CONCRETE_6 calibration of the profile's free concreteness predicate. Whatever has esse in re (HasEsseInRe InAct esse, InAct x esse: being in the first way of De ente c.1, DEF-CONCRETE-ESSE-IN-RE) satisfies m.concrete. HasEsseInRe reads the shared InAct inclusively (formally or eminently, DISAMB-IN-ACT), here and wherever this batch uses it. It is the left-to-right half of the concreteIsEsse field of CausalPowerConcreteness.EsseIntendedProfile (owner-adopted sense of concrete, #1103), stated for the Profile and InAct of the stage-two composition, where the statements on m.concrete already link CONCRETE_6. The converse (concrete things have esse in re) is not stated or used. With the existence-to-act contract STMT-EXISTING-IN-ACT-AT it commits the profile to reading existence at w as existence in re: nothing non-concrete exists at w. A theorist who counts a Form, set or law as existing at w without esse in re rejects that contract or this calibration, not a causal premise. Under the causal-criterion sense CONCRETE_5 the stage-two concreteness clauses would mean something else; this premise fixes CONCRETE_6. No independent warrant is recorded for it beyond the owner-adopted sense."
+definitions = ["008cb21a-256c-5a90-822c-acd4591d699a", "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72", "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168", "beb654a7-e204-5f4c-a7b4-45e886ba7109"]
+disambiguations = ["623ddbf6-9683-5361-bae4-e348a00ec680", "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"]
+
+[[statement]]
+id = "Every existent at the selected world is CONCRETE_6"
+lean = "TruthCore.Logic.CogitoEsse.EveryExistentConcreteAt"
+paraphrase = "At the selected world w, every candidate that exists at w satisfies the profile's concreteness predicate (CogitoEsse.EveryExistentConcreteAt on the profile's Ontic and concrete). It does not classify candidates absent from w and does not exclude abstract candidates from the carrier; it says that none of them exists at w in the profile's sense of existence, which the existence-to-act contract reads as existence in re. It contradicts the recorded rival 'Some actual concretum has a distinct existing cause of its esse that is not CONCRETE_6', whose cause exists at w and is not concrete. Since only esse-in-re to concrete is assumed, the conclusion also holds for a trivially broad concrete predicate; excluding abstracta from m.concrete needs the unstated converse."
+definitions = ["008cb21a-256c-5a90-822c-acd4591d699a", "beb654a7-e204-5f4c-a7b4-45e886ba7109"]
+disambiguations = ["623ddbf6-9683-5361-bae4-e348a00ec680", "6f1d1395-7c1d-5bd5-a45d-03380857aed6"]
+
+[[statement]]
+id = "Whatever causes the being of something is in act in some respect"
+lean = "CauseOfBeingIsInAct"
+paraphrase = "OPEN analyst premise, attribution deferred (agency in act, restricted to causes of being): whatever causes the being of something (CausesIn c x esse, CAUSE_2 at esse) is in act in some respect (InAct c r for some r). It is the sibling, for the tenseless CausesIn at esse, of STMT-AQUINAS-OPERATION-ONLY-OF-BEING-IN-ACT (every cause along an Ontic.Causes edge is in act in some respect, after q.75 a.2 co. 'non enim est operari nisi entis in actu', claim f4b1c499) and of q.25 a.1 co. ('unumquodque, secundum quod est actu et perfectum, secundum hoc est principium activum', claim a5d11a9e); those claims are not attributed this CausesIn statement. Meaning: a cause of being that is in act in no respect would be nothing and could do nothing. It is weaker than 'Whatever causes the being of anything is itself in act as to being' (it names no respect), which entails it (lemma inActOfHasBeing, not registered, to avoid a support cycle). CausesIn at esse is read here for extrinsic (efficient) causes of being, after the paradigm of DEF-CAUSE-OF-PERFECTION (fire causing heat); intrinsic principles are not CausesIn edges on this reading. DEF-CAUSE-OF-PERFECTION itself does not state that restriction: if CausesIn counted prime matter as a material cause of the composite's being (in act in no respect), this premise would fail for it; an unread lead, recorded with no weight. No independent warrant is recorded for it."
+definitions = ["211a6432-8b8f-53ed-85e3-75173bb15b24", "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72", "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168"]
+disambiguations = ["00e0d443-eb39-56a3-9179-9c8852ca4a2b", "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"]
+
+[[statement]]
+id = "Whatever causes the being of anything is itself in act as to being"
+lean = "CauseOfBeingInActAsToBeing"
+paraphrase = "OPEN analyst premise, attribution deferred: whatever causes the being of anything (CausesIn c x esse, CAUSE_2 at esse) is itself in act as to being (InAct c esse, formally or eminently in the shared InAct of DISAMB-IN-ACT). It is the esse rung of 'nothing gives what it does not have': entailed by the cause-of-being restriction STMT-CAUSE-OF-BEING-HAS-WHAT-IT-GIVES (registered strength order), and derived from agency in act plus the sourced q.4 a.1 ad 3 premise STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING without any transfer principle. It constrains causes of the being of any candidate, actual or not. CausesIn at esse is read for extrinsic (efficient) causes, as for agency in act (the prime-matter lead recorded there applies here too). No independent warrant is recorded for it beyond its derivations from open premises."
+definitions = ["211a6432-8b8f-53ed-85e3-75173bb15b24", "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72", "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168"]
+disambiguations = ["00e0d443-eb39-56a3-9179-9c8852ca4a2b", "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"]
+
+[[statement]]
+id = "Nothing gives being that it does not have"
+lean = "CauseOfABeingHasBeing"
+paraphrase = "OPEN analyst premise, attribution deferred: whatever causes the being of something that is in act as to being is itself in act as to being (CausesIn c x esse and InAct x esse imply InAct c esse). The esse instance of q.4 a.2 preexistence (STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE at r = esse), and the bottom rung of the 'nothing gives what it does not have' ladder: entailed by preexistence and by 'Whatever causes the being of anything is itself in act as to being' (both registered strength orders), strictly weaker than each (controls 12 and 13). 'Has' is the shared InAct, formally or eminently. A giver of being 'beyond being' (the Plotinian One read as lacking esse in every mode) would deny it; no claim on file states that reading for this InAct, so it is an unread lead with no weight; next test: read Enneads V.2.1 and check whether beyond being fails even the inclusive (eminent) InAct. CausesIn at esse is read for extrinsic (efficient) causes (prime-matter lead recorded on agency in act). No independent warrant is recorded for the maxim beyond its derivations from open premises."
+definitions = ["211a6432-8b8f-53ed-85e3-75173bb15b24", "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72", "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168"]
+disambiguations = ["00e0d443-eb39-56a3-9179-9c8852ca4a2b", "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"]
+
+[[statement]]
+id = "Controls for the giver of being and the esse-cause bridge"
+lean = "Control.Controls"
+paraphrase = "Closed controls on one-world interpretations over Bool (respect false is esse); statements about these interpretations only. (1) Without the existence-to-act contract, the calibration holds and an existent is not concrete. (2) Without the calibration, the contract holds and an existent is not concrete. (3) Without the maxim 'nothing gives being that it does not have', the contract and act-to-existence hold and the cause of the being of an actual concretum is absent. (4) Without the contract, the maxim and act-to-existence hold and that cause is absent. (5) Without act-to-existence, the maxim and contract hold and that cause is absent. (6)-(9) The esse-cause bridge fails when exactly one of cause existence, existent concreteness, effect dependence and dependence-to-grounding fails and the other three hold. (10) Agency holds without act-only-insofar-as-being and the cause lacks being; (11) the converse case. (12) The maxim holds where q.4 a.2 preexistence fails; (13) the maxim holds where its unscoped version fails; (14) the unscoped version holds where the cause-of-being restriction of 'nothing gives what it does not have' fails; (15) that restriction holds where the unrestricted principle fails. (16) Every premise of the batch and the esse-cause bridge hold together with an actual esse edge between distinct actual concreta."
+definitions = ["211a6432-8b8f-53ed-85e3-75173bb15b24", "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72", "008cb21a-256c-5a90-822c-acd4591d699a", "beb654a7-e204-5f4c-a7b4-45e886ba7109"]
+disambiguations = ["00e0d443-eb39-56a3-9179-9c8852ca4a2b", "623ddbf6-9683-5361-bae4-e348a00ec680"]
+
+# ---------------------------------------------------------------- arguments
+
+[[argument]]
+id = "Every existent at w is CONCRETE_6, from contract and calibration"
+theorem = "everyExistentConcreteOfCalibration"
+premises = ["STMT-EXISTING-IN-ACT-AT", "Whatever has esse in re is CONCRETE_6 in the profile"]
+conclusion = "Every existent at the selected world is CONCRETE_6"
+disambiguations = ["623ddbf6-9683-5361-bae4-e348a00ec680"]
+axioms = []
+rule = "Existence to act as to being, then esse in re to concreteness"
+meaning = "Let x exist at w. By the existence-to-act contract x is in act as to being; by the CONCRETE_6 calibration what has esse in re is concrete; so x is concrete. No causal premise is used. Each premise is needed in a checked interpretation (controls 1 and 2). It refutes, conditionally on both open premises, the recorded rival that some actual concretum has an existing non-concrete cause of its esse: that rival's cause exists at w. This relocates the Platonist rival; it does not defeat it. Under CONCRETE_6 (having one's own act of existence in reality) a separately existing Form or mind-independent set is CONCRETE_6, so the rival 4c9908ba is not the Platonist's thesis. A Platonist or Lewisian must (i) deny the existence-to-act contract, (ii) read concrete other than as CONCRETE_6, or (iii) accept that the Form has esse in re and is CONCRETE_6; on (iii) the bridge counts the Form as an actual concrete ground, and the dispute moves to the downstream uniqueness, identity and simplicity steps. Conditional consequence only; no premise is established."
+
+[[argument]]
+id = "Causes of being of actual concreta exist at w, from the giver of being"
+theorem = "esseCausesExistOfCauseHasBeing"
+premises = ["Nothing gives being that it does not have", "STMT-EXISTING-IN-ACT-AT", "STMT-ACT-OF-ESSE-SUFFICES-FOR-EXISTENCE-AT"]
+conclusion = "STMT-ESSE-CAUSES-EXIST-AT"
+axioms = []
+rule = "Existence of the effect to its act of being; the giver of being has being; act of being to existence at w"
+meaning = "New non-transcription derivation of the analyst leaf STMT-ESSE-CAUSES-EXIST-AT. Let x be an actual concretum at w and c cause x's being. x exists at w, so it is in act as to being (existence-to-act contract); nothing gives being that it does not have, so c is in act as to being; whatever is in act as to being exists at w (the open act-to-existence converse, which reads the timeless InAct relative to the selected world), so c exists at w. Each premise is needed in a checked interpretation (controls 3, 4 and 5). The open content of the old leaf divides into the classical maxim at being and the actualist reading of esse at the reading world. No premise is established."
+
+[[argument]]
+id = "The esse-cause bridge from existent concreteness, via dependence"
+theorem = "esseCauseGroundOfExistentConcreteness"
+premises = ["STMT-ESSE-CAUSES-EXIST-AT", "Every existent at the selected world is CONCRETE_6", "STMT-ESSE-EFFECT-DEPENDS-ON-ITS-CAUSE", "STMT-ACTUAL-DEPENDENCE-IS-GROUNDING"]
+conclusion = "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND"
+axioms = []
+rule = "Cause exists at w; existents are concrete; dependence of the effect; dependence between actual concreta is grounding"
+meaning = "Second derivation of the esse-cause bridge, beside Round2Grounding.esseCauseGroundViaDependence. Let c, distinct from x, cause the being of the actual concretum x. c exists at w; every existent at w is concrete, so c is concrete; x depends for its being on c; dependence between actual concreta is grounding, so c grounds x. It replaces the unscoped leaf STMT-ESSE-CAUSES-ARE-CONCRETE by the concreteness of existents, which is derived from the existence-to-act contract (already a premise of the stage-two composition) and the CONCRETE_6 calibration. Each premise is needed in a checked interpretation (controls 6 to 9). Conditional consequence only; no premise is established."
+
+[[argument]]
+id = "A cause of being has being, from agency in act"
+theorem = "causeOfBeingHasBeingOfAgency"
+premises = ["Whatever causes the being of something is in act in some respect", "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING"]
+conclusion = "Whatever causes the being of anything is itself in act as to being"
+axioms = []
+rule = "Agency in some respect, then act in any respect implies act as to being"
+meaning = "A cause of being is in act in some respect (agency in act, after q.75 a.2); whatever is in act in some respect is in act as to being (q.4 a.1 ad 3, sourced); so a cause of being is in act as to being. This reaches the esse rung of 'nothing gives what it does not have' with no transfer principle; it does not rest on preexistence, so a strong-emergence rival extended to esse must deny agency in act or q.4 a.1 ad 3. The scope objections to the unrestricted principle (instruments of making) do not bear on it directly. Each premise is needed in a checked interpretation (controls 10 and 11). No premise is established."
+
+[[argument]]
+id = "The unscoped giver of being entails the giver of a being's being"
+theorem = "causeOfABeingHasBeingOfHasBeing"
+premises = ["Whatever causes the being of anything is itself in act as to being"]
+conclusion = "Nothing gives being that it does not have"
+axioms = []
+rule = "Drop the hypothesis that the effect is in act as to being"
+meaning = "Strength order registration. Application only; it establishes neither. Strictness: control 13."
+
+[[argument]]
+id = "Q.4 a.2 preexistence entails nothing gives being it lacks"
+theorem = "causeOfABeingHasBeingOfPreexistence"
+premises = ["STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE"]
+conclusion = "Nothing gives being that it does not have"
+axioms = []
+rule = "Instantiate preexistence at the respect esse"
+meaning = "Strength order registration: the esse instance of q.4 a.2 preexistence. Application only; it establishes neither. Strictness: control 12."
+
+[[argument]]
+id = "A cause of being that has what it gives has being"
+theorem = "causeOfBeingHasBeingOfGives"
+premises = ["STMT-CAUSE-OF-BEING-HAS-WHAT-IT-GIVES"]
+conclusion = "Whatever causes the being of anything is itself in act as to being"
+axioms = []
+rule = "Instantiate at the perfection esse, which the cause of being causes"
+meaning = "Strength order registration: a cause of x's being has every perfection it causes in x, and it causes x's being, so it has being. Application only; it establishes neither. Strictness: control 14."
+
+[[argument]]
+id = "Nothing gives what it lacks entails its cause-of-being restriction"
+theorem = "causeOfBeingGivesOfCauseGives"
+premises = ["STMT-CAUSE-HAS-WHAT-IT-GIVES"]
+conclusion = "STMT-CAUSE-OF-BEING-HAS-WHAT-IT-GIVES"
+axioms = []
+rule = "Restrict to causes of the effect's being; the causing hypothesis is unused"
+meaning = "Strength order registration: the unrestricted principle (every cause of any perfection in a thing has it) entails its restriction to causes of the thing's being. Application only; it establishes neither. Strictness: control 15 (a cause of another perfection of a thing whose being it does not cause)."
+
+[[argument]]
+id = "Giver-of-being controls, checked"
+theorem = "controls"
+premises = []
+conclusion = "Controls for the giver of being and the esse-cause bridge"
+axioms = []
+rule = "Explicit one-world interpretations over Bool, checked by decision"
+meaning = "Omission, strictness and nonvacuity controls listed in the conclusion's paraphrase. A finite countermodel shows a premise is needed in that interpretation, not that it is false."
+
+# ---------------------------------------------------------------- relations
+
+[[relation]]
+id = "Existent concreteness refutes a non-concrete existing esse cause"
+subject_kind = "argument"
+subject_id = "Every existent at w is CONCRETE_6, from contract and calibration"
+predicate = "refutes"
+object_kind = "statement"
+object_id = "4c9908ba-d2e6-455a-a3ea-0e0354ca2eed"
+note = "Same Profile and world: the rival's cause exists at w and is not concrete, which the conclusion excludes (also lake-checked as notSomeEsseCauseNonConcrete). Conditional on two open premises (the existence-to-act contract and the CONCRETE_6 calibration), so it does not count for closure."
+
+[[relation]]
+id = "The unscoped giver of being strengthens the giver of a being's being"
+subject_kind = "statement"
+subject_id = "Whatever causes the being of anything is itself in act as to being"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "Nothing gives being that it does not have"
+verification_result_id = "The unscoped giver of being entails the giver of a being's being"
+note = "Same InAct, CausesIn and esse; the weak version adds that the effect is in act as to being. Strict: control 13."
+
+[[relation]]
+id = "Q.4 a.2 preexistence strengthens nothing gives being it lacks"
+subject_kind = "statement"
+subject_id = "STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "Nothing gives being that it does not have"
+verification_result_id = "Q.4 a.2 preexistence entails nothing gives being it lacks"
+note = "Same InAct, CausesIn and esse; the weak version is the instance at the respect esse. Strict: control 12."
+
+[[relation]]
+id = "Cause of being has what it gives strengthens cause of being has being"
+subject_kind = "statement"
+subject_id = "STMT-CAUSE-OF-BEING-HAS-WHAT-IT-GIVES"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "Whatever causes the being of anything is itself in act as to being"
+verification_result_id = "A cause of being that has what it gives has being"
+note = "Same InAct, CausesIn and esse; the weak version keeps only the perfection esse. Strict: control 14."
+
+[[relation]]
+id = "Nothing gives what it lacks strengthens its cause-of-being restriction"
+subject_kind = "statement"
+subject_id = "STMT-CAUSE-HAS-WHAT-IT-GIVES"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "STMT-CAUSE-OF-BEING-HAS-WHAT-IT-GIVES"
+verification_result_id = "Nothing gives what it lacks entails its cause-of-being restriction"
+note = "Same InAct and CausesIn; the weak version restricts to causes of the effect's being. Strict: control 15."

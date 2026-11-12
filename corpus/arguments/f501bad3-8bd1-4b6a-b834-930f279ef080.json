@@ -1,0 +1,46 @@
+{
+  "id": "f501bad3-8bd1-4b6a-b834-930f279ef080",
+  "label": "The esse-cause bridge from existent concreteness, via dependence",
+  "premise_statement_ids": [
+    "c99f9d23-3f05-5c3c-9279-44a59e445a14",
+    "0e02cd69-8fb0-4859-8287-937440c84b5b",
+    "2068f91c-1eeb-5dbb-a71a-f7b6a12bb495",
+    "2e248016-f8bf-5d8a-931e-7f9ebbb13e42"
+  ],
+  "conclusion_statement_id": "cb1cdea9-eb6c-578c-8008-84e0d4107fd3",
+  "inference_ids": [
+    "042472f6-df43-4c1d-8b71-5c6ba21f7e8d"
+  ],
+  "meaning": "Second derivation of the esse-cause bridge, beside Round2Grounding.esseCauseGroundViaDependence. Let c, distinct from x, cause the being of the actual concretum x. c exists at w; every existent at w is concrete, so c is concrete; x depends for its being on c; dependence between actual concreta is grounding, so c grounds x. It replaces the unscoped leaf STMT-ESSE-CAUSES-ARE-CONCRETE by the concreteness of existents, which is derived from the existence-to-act contract (already a premise of the stage-two composition) and the CONCRETE_6 calibration. Each premise is needed in a checked interpretation (controls 6 to 9). Conditional consequence only; no premise is established.",
+  "definition_ids": [
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "bf26b9b2-41ed-55b0-9557-dae90ab9b81f",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "9969dfc2-1f2e-50be-b5e6-1f9cd402c7a6",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "a1b2e330-388f-4120-bc5c-969642317792"
+  ],
+  "disambiguation_ids": [
+    "6e92c6e3-edf0-5d7e-b2b3-788b24b8b768",
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58",
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "9403807f-f7d4-5ce8-a8ba-ca53ed932959",
+    "42948082-5c8f-5dfb-b762-5feb8e6a6fb4",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "79644a0a-db5b-5497-bb47-9f96d14cdae7",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e",
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "b9adce48-6b86-5f58-b2ea-b25f51c70cbd",
+    "1795a62e-f78b-5f5b-94e7-9e7490824811",
+    "002f42cb-3015-5644-80b3-d408538394e6",
+    "be54be36-3ce8-53f9-8168-50d1114e6c76",
+    "34ddfede-ff4d-59ad-9882-4bcb490df9bb",
+    "92df85d7-aae7-57ac-b84e-3780ade842f1",
+    "c529e8d3-43e3-53a8-a82f-3955e9815265"
+  ]
+}
