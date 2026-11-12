@@ -322,9 +322,10 @@ export function computeGraphView(
     ...highlightedStatements,
   ]);
   if (state.view === "dispute") {
+    const disputeAnchor = state.node || state.sel || state.target || graph.defaultTarget;
     for (const [left, right] of recordedNegationPairs(graph)) {
-      if (left === state.node) explicitlyShown.add(right);
-      if (right === state.node) explicitlyShown.add(left);
+      if (left === disputeAnchor) explicitlyShown.add(right);
+      if (right === disputeAnchor) explicitlyShown.add(left);
     }
   }
   const matches = (id: string) => {

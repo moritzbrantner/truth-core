@@ -167,3 +167,19 @@ test("a saved pre-#987 frontier-sourced closure filter selects both supported an
     "frontier-bare",
   ]);
 });
+
+
+test("filtered dispute deep links retain the recorded denial with a fallback anchor", () => {
+  const withDenial = {
+    ...graph,
+    statements: graph.statements.map((node) => node.id === "P1" ? { ...node, denialStatementId: "ALT" } : node),
+  };
+  for (const anchor of [{ sel: "P1" }, { target: "P1" }]) {
+    const view = computeGraphView(withDenial, {
+      ...DEFAULT_STATE, ...anchor, view: "dispute", hops: 0, q: "no-match", hide: true,
+    });
+    expect(view.nodes.some((node) => node.id === "P1")).toBe(true);
+    expect(view.nodes.some((node) => node.id === "ALT")).toBe(true);
+    expect(view.edges.some((edge) => edge.kind === "opposition")).toBe(true);
+  }
+});
