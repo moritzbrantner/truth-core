@@ -1,0 +1,25 @@
+{
+  "id": "88a8fba7-f1a1-4340-8a7f-41dd39bbbe7d",
+  "label": "Cause of being: originating versus sustaining, time-indexed",
+  "term": "cause of being (time-indexed)",
+  "term_label": "CAUSE_OF_BEING",
+  "sense_definition_ids": [
+    "142e451d-a24f-4aa1-b38b-344e5f235e72",
+    "ed47a5a7-fa84-43cb-950b-2552b33b99ff"
+  ],
+  "resolution": "CAUSE_OF_BEING_1 (OriginatesBeing) gives a thing being at a first moment of its presence and may then cease; CAUSE_OF_BEING_2 (SustainsBeing) gives it being at every moment at which it is present. Both are defined from the primitive BeingGiving.GivesAt over a TemporalHistory and differ in the moments at which giving is required. They overlap (a sustaining cause of a thing with a first moment of presence is also originating, originatesOfSustains) and are not exhaustive (preventing corruption, counterfactual dependence and the tenseless CausesIn are other relations). They are time-indexed refinements of the tenseless CAUSING_AN_EFFECT_3 (CausesIn c x esse, disambiguation c3c01e92), which leaves the choice open; passage from CausesIn to either sense is an explicit open bridge (CausingBeingIsSustaining, or CausingBeingIsOriginating in the controls). Neither sense is the sourced direct per se conservation of esse (definition 56989bd0, q.104 a.1): CAUSE_OF_BEING_2 is its time-indexed image without the dependence clause. Uses: the presence step of the immensity sense bridge (8bf775e9) needs CAUSE_OF_BEING_2; the originating reading fails it (SustainingCausation Control part 1, existential inertia). The lasting-ground premise A2ab (71df1177) has a route through each sense: the sustaining route needs no condition on time; the originating route needs linear time and no return after absence (Control part 6). No argument passes between the senses without one of these named statements.",
+  "senses": [
+    {
+      "id": "aafb928f-42dc-43c3-94de-137f2e48dee9",
+      "label": "CAUSE_OF_BEING_1",
+      "definition_id": "142e451d-a24f-4aa1-b38b-344e5f235e72",
+      "lean_declaration": "TruthCore.Causality.SustainingCausation.OriginatesBeing"
+    },
+    {
+      "id": "5acddd28-aca0-410d-96d2-ef9386b8dc27",
+      "label": "CAUSE_OF_BEING_2",
+      "definition_id": "ed47a5a7-fa84-43cb-950b-2552b33b99ff",
+      "lean_declaration": "TruthCore.Causality.SustainingCausation.SustainsBeing"
+    }
+  ]
+}

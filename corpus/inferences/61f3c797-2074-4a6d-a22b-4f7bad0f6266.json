@@ -1,0 +1,15 @@
+{
+  "id": "61f3c797-2074-4a6d-a22b-4f7bad0f6266",
+  "label": "IMMENSE_2 is IMMENSE_1, from typed presence and the narrowed sense bridge (inference)",
+  "input_statement_ids": [
+    "23e04ae5-98ed-4464-8f9b-dc0dfbad0caa",
+    "140544c4-3152-4543-9590-9567acf874a2",
+    "c4661518-33cc-4a53-ae55-cb986be9c2b5",
+    "a3913182-5557-4e8b-80d1-3771a57c3a03"
+  ],
+  "output_statement_id": "8bf775e9-34e0-48e5-bdd8-f48edd1040f7",
+  "rule": "Derive presence to all from IMMENSE_2 in every history (immense2PresentToAll), then apply the narrowed sense bridge",
+  "meaning": "New conditional support option for the immensity sense bridge 8bf775e9 on the Dei Filius routes. Let g be IMMENSE_2. In every history of the model, g is present by giving being to every other thing whenever it is (immense2PresentToAll, from the sustaining reading, presence-in-act and the contact principle). The narrowed sense bridge then gives IMMENSE_1. This splits 8bf775e9 into the typed presence step (three open premises) and a remainder (place, containment, measure, the other modes of presence, immediacy) that no longer carries sustaining causation or contact. It is a finer decomposition, not a weaker total commitment: 8bf775e9 entails the narrowed bridge (registered strength order). The existential-inertia objection to 8bf775e9 now targets exactly one premise, the sustaining reading. All premises stay OPEN; the history and giving relation are parameters, so any one interpretation satisfying the premises gives the bridge. No premise is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

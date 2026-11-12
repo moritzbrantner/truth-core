@@ -1,0 +1,53 @@
+{
+  "id": "0681f64a-769f-4b99-a9a7-5c86237f7f90",
+  "label": "IMMENSE_2 is IMMENSE_1, from typed presence and the narrowed sense bridge",
+  "premise_statement_ids": [
+    "23e04ae5-98ed-4464-8f9b-dc0dfbad0caa",
+    "140544c4-3152-4543-9590-9567acf874a2",
+    "c4661518-33cc-4a53-ae55-cb986be9c2b5",
+    "a3913182-5557-4e8b-80d1-3771a57c3a03"
+  ],
+  "conclusion_statement_id": "8bf775e9-34e0-48e5-bdd8-f48edd1040f7",
+  "inference_ids": [
+    "61f3c797-2074-4a6d-a22b-4f7bad0f6266"
+  ],
+  "meaning": "New conditional support option for the immensity sense bridge 8bf775e9 on the Dei Filius routes. Let g be IMMENSE_2. In every history of the model, g is present by giving being to every other thing whenever it is (immense2PresentToAll, from the sustaining reading, presence-in-act and the contact principle). The narrowed sense bridge then gives IMMENSE_1. This splits 8bf775e9 into the typed presence step (three open premises) and a remainder (place, containment, measure, the other modes of presence, immediacy) that no longer carries sustaining causation or contact. It is a finer decomposition, not a weaker total commitment: 8bf775e9 entails the narrowed bridge (registered strength order). The existential-inertia objection to 8bf775e9 now targets exactly one premise, the sustaining reading. All premises stay OPEN; the history and giving relation are parameters, so any one interpretation satisfying the premises gives the bridge. No premise is established.",
+  "term_senses": {
+    "CAUSE_OF_BEING": "5acddd28-aca0-410d-96d2-ef9386b8dc27"
+  },
+  "definition_ids": [
+    "1335688a-d3f2-492e-9b71-c8062280fe16",
+    "158301bc-9585-4145-be60-34f08c9f922c",
+    "641c767b-4289-4d92-b900-da7ad603d282",
+    "92c03350-6809-497d-b123-2ffb11c0e0c1",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "1d8890c0-afe2-5cdb-a400-0bbd4b79053d",
+    "56989bd0-a232-56ea-9093-c89350effff4",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e",
+    "bf2f30d1-609f-4b23-b819-786d877b949c",
+    "ed47a5a7-fa84-43cb-950b-2552b33b99ff"
+  ],
+  "disambiguation_ids": [
+    "3fc3ee02-c3cc-4a61-9724-914d9d07b0dd",
+    "88a8fba7-f1a1-4340-8a7f-41dd39bbbe7d",
+    "c3c01e92-520e-5358-a58f-0cc7e9c9e6fa",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "587c53cf-c2a8-51f6-b8c1-013e67756dc6"
+  ],
+  "sense_bridges": [
+    {
+      "term": "IMMENSE",
+      "from": "f9a7bc6c-f847-4f4c-9cf8-9f8d1cdcc5bf",
+      "to": "1bf8b401-ddd3-459a-bc15-67083eb8d2f1",
+      "statement_id": "a3913182-5557-4e8b-80d1-3771a57c3a03"
+    },
+    {
+      "term": "IMMENSE",
+      "from": "f9a7bc6c-f847-4f4c-9cf8-9f8d1cdcc5bf",
+      "to": "1bf8b401-ddd3-459a-bc15-67083eb8d2f1",
+      "statement_id": "8bf775e9-34e0-48e5-bdd8-f48edd1040f7",
+      "role": "conclusion"
+    }
+  ]
+}

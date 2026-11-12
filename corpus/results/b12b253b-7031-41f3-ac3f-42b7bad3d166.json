@@ -1,0 +1,11 @@
+{
+  "id": "b12b253b-7031-41f3-ac3f-42b7bad3d166",
+  "label": "Sustaining-causation controls checked",
+  "argument_id": "fd44cd0c-5670-4952-9121-33c096786663",
+  "challenge_module": "TruthCore.Results.Causality.SustainingCausation.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SustainingCausation.Solution",
+  "theorem": "TruthCore.Results.Causality.SustainingCausation.controls",
+  "comparator_config": "results/b12b253b-7031-41f3-ac3f-42b7bad3d166/comparator.json",
+  "status": "solution-present",
+  "description": "The originating reading of the cause of being (existential inertia) does not give presence to all, while it is compatible with A2ab through the originating route; each premise of the presence route and of both lasting-ground routes is needed in one interpretation; all premises hold together with the conclusions in one interpretation. A finite countermodel shows a premise is needed in that interpretation, not that it is false. Model claims concern these interpretations only."
+}

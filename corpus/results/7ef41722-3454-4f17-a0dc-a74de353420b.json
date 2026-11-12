@@ -1,0 +1,11 @@
+{
+  "id": "7ef41722-3454-4f17-a0dc-a74de353420b",
+  "label": "IMMENSE_2 is IMMENSE_1, from typed presence and the narrowed sense bridge",
+  "argument_id": "0681f64a-769f-4b99-a9a7-5c86237f7f90",
+  "challenge_module": "TruthCore.Results.Causality.SustainingCausation.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SustainingCausation.Solution",
+  "theorem": "TruthCore.Results.Causality.SustainingCausation.immenseSenseBridgeOfSustainingPresence",
+  "comparator_config": "results/7ef41722-3454-4f17-a0dc-a74de353420b/comparator.json",
+  "status": "solution-present",
+  "description": "New conditional support option for the immensity sense bridge 8bf775e9 on the Dei Filius routes. Let g be IMMENSE_2. In every history of the model, g is present by giving being to every other thing whenever it is (immense2PresentToAll, from the sustaining reading, presence-in-act and the contact principle). The narrowed sense bridge then gives IMMENSE_1. This splits 8bf775e9 into the typed presence step (three open premises) and a remainder (place, containment, measure, the other modes of presence, immediacy) that no longer carries sustaining causation or contact. It is a finer decomposition, not a weaker total commitment: 8bf775e9 entails the narrowed bridge (registered strength order). The existential-inertia objection to 8bf775e9 now targets exactly one premise, the sustaining reading. All premises stay OPEN; the history and giving relation are parameters, so any one interpretation satisfying the premises gives the bridge. No premise is established."
+}

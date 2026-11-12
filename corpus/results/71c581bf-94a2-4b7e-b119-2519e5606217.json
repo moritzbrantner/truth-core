@@ -1,0 +1,11 @@
+{
+  "id": "71c581bf-94a2-4b7e-b119-2519e5606217",
+  "label": "Lasting ground (A2ab) from CAUSE_OF_BEING_1 originating causes, contact and no return",
+  "argument_id": "3e0aa725-5ded-4c60-9353-3847cd112782",
+  "challenge_module": "TruthCore.Results.Causality.SustainingCausation.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SustainingCausation.Solution",
+  "theorem": "TruthCore.Results.Causality.SustainingCausation.lastingGroundOfOriginatingCauses",
+  "comparator_config": "results/71c581bf-94a2-4b7e-b119-2519e5606217/comparator.json",
+  "status": "solution-present",
+  "description": "New non-transcription conditional support option for premise A2ab (lasting ground) of Arrival A, valid for linearly ordered times only (a LinearOrder on times; the target premise is stated for any preorder, so this route covers the linear case). Let a concrete x be absent at s and present at t > s. It has a concrete originating cause g (CAUSE_OF_BEING_1): x has a first moment b of presence and g gives it being at b, so by contact g is present at b. b is not s (x is absent at s); b is not before s, since x would then be present at b and t and absent at s between them, against convexity; so b is after s, and g is a ground of x present after s. No sustaining causation is used: this route is open to an existential-inertia theorist who grants originating causes, contact and no return. The originating premise requires a first moment of presence for every beginning thing. Convexity is needed: intermittent presence satisfies the other premises and falsifies A2ab (Control part 6); all premises hold nonvacuously with A2ab (parts 1 and 7). All premises stay OPEN. No premise is established."
+}

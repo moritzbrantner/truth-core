@@ -1,0 +1,14 @@
+{
+  "id": "1d4d9b13-9be3-403b-bce2-35102ab1bd34",
+  "label": "Every CAUSE_OF_BEING_2 sustaining cause of a thing is a ground of it",
+  "paraphrase": "OPEN analyst bridge, attribution deferred: in every history of the model, whatever sustains a thing's being (CAUSE_OF_BEING_2) is a ground of it under the supplied grounding relation of the lasting-ground premise A2ab. That relation's intended reading is the proximate ground of a thing's coming to be, per se or per accidens (DISAMB-CAUSAL-SERIES); a sustaining cause of being is a per se cause of being, so counting it among the grounds of a coming to be widens or reads that relation. Holds by definition if the grounding relation is taken to include sustaining causation.",
+  "lean_declaration": "TruthCore.Causality.SustainingCausation.SustainersAreGrounds",
+  "definition_ids": [
+    "ed47a5a7-fa84-43cb-950b-2552b33b99ff",
+    "1f4f5228-45e8-4e5d-beda-e918c5808ec0"
+  ],
+  "disambiguation_ids": [
+    "88a8fba7-f1a1-4340-8a7f-41dd39bbbe7d",
+    "81c233d4-01b4-528c-8bbd-7da228443ffe"
+  ]
+}

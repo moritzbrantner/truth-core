@@ -1,0 +1,11 @@
+{
+  "id": "fa201d28-c870-4ad3-ba6f-b454ba12aa6a",
+  "label": "A CAUSE_OF_BEING_2 sustainer of all is present to all, from the contact principle",
+  "argument_id": "665d4017-54b6-400e-82d1-2384a5a4bcff",
+  "challenge_module": "TruthCore.Results.Causality.SustainingCausation.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SustainingCausation.Solution",
+  "theorem": "TruthCore.Results.Causality.SustainingCausation.sustainerOfAllIsPresentToAll",
+  "comparator_config": "results/fa201d28-c870-4ad3-ba6f-b454ba12aa6a/comparator.json",
+  "status": "solution-present",
+  "description": "Let g sustain (CAUSE_OF_BEING_2) every other thing present at some moment of history v, and let x, other than g, be present at t. Since x is present at some moment, g sustains x, so g gives x being at t; by the contact principle g is present at t. Hence g is present, and giving x being, whenever x is. A short derivation from one open premise; with an originating cause in place of a sustaining one the conclusion fails (Control part 1), and without the contact principle it fails (part 2). No premise is established."
+}

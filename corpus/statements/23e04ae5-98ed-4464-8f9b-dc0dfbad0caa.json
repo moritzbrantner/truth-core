@@ -1,0 +1,17 @@
+{
+  "id": "23e04ae5-98ed-4464-8f9b-dc0dfbad0caa",
+  "label": "Every cause of a thing's being is a CAUSE_OF_BEING_2 sustaining cause of it",
+  "paraphrase": "OPEN analyst bridge, attribution deferred (sustaining reading of the tenseless cause of being): in every history of the model, if c causes x's being (CausesIn c x esse, CAUSING_AN_EFFECT_3) and x is present at some moment, then c gives x being at every moment at which x is present (CAUSE_OF_BEING_2). The time-indexed image of q.104 a.1 (direct per se conservation of esse, definition 56989bd0; the air is not lit 'even for a moment' when the sun ceases), without its dependence clause. Contested by existential inertia (Schmid 2021, read): persisting things need no concurrent sustaining cause. Its rival reading, that every cause of being is CAUSE_OF_BEING_1 originating, holds in Control part 1.",
+  "lean_declaration": "TruthCore.Causality.SustainingCausation.CausingBeingIsSustaining",
+  "definition_ids": [
+    "ed47a5a7-fa84-43cb-950b-2552b33b99ff",
+    "158301bc-9585-4145-be60-34f08c9f922c",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "56989bd0-a232-56ea-9093-c89350effff4",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e"
+  ],
+  "disambiguation_ids": [
+    "88a8fba7-f1a1-4340-8a7f-41dd39bbbe7d",
+    "c3c01e92-520e-5358-a58f-0cc7e9c9e6fa"
+  ]
+}

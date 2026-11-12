@@ -1,0 +1,15 @@
+{
+  "id": "b90c4dd1-88d9-4afe-8455-4152d7836c99",
+  "label": "A concrete thing that begins to be present has a concrete CAUSE_OF_BEING_1 originating cause",
+  "paraphrase": "OPEN analyst premise, attribution deferred: in every history of the model, a concrete thing absent at a moment s and present at a strictly later moment t has some concrete CAUSE_OF_BEING_1 originating cause: the thing has a first moment b of presence and the cause gives it being at b. It therefore requires such a first moment (it is false for a thing present on an open interval of dense time). Nothing is required of the cause after b, so it is compatible with existential inertia (Schmid 2021 grants that a change occurs only if some factor causally induces it).",
+  "lean_declaration": "TruthCore.Causality.SustainingCausation.BeginningsHaveOriginatingCause",
+  "definition_ids": [
+    "142e451d-a24f-4aa1-b38b-344e5f235e72",
+    "158301bc-9585-4145-be60-34f08c9f922c",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e"
+  ],
+  "disambiguation_ids": [
+    "88a8fba7-f1a1-4340-8a7f-41dd39bbbe7d",
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
+  ]
+}

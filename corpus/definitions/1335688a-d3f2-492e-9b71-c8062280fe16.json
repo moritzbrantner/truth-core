@@ -1,0 +1,9 @@
+{
+  "id": "1335688a-d3f2-492e-9b71-c8062280fe16",
+  "label": "Present to all whenever they are: present and giving being to every other thing at each moment it is",
+  "term": "present by giving being to everything else whenever it is (Lean `PresentToAllWheneverTheyAre`)",
+  "definition": "PresentToAllWheneverTheyAre h G v g: for every x other than g and every moment t at which x is present in history v, g is present at t and gives x being at t. The typed presence of ST I q.8 a.1 ('as an agent is present to that upon which it works'): presence by acting on the thing, at the moment the thing is. Example: the sustained control of SustainingCausation, where one being is present at every moment and gives the other being whenever it is. Counterexample: an originating cause that has ceased while its effect persists (Control.inertia). Distinguished from IMMENSE_1 (the primitive Primitives.Immense): it types no place, containment or measure, no presence by power or by knowledge (the other modes of q.8 a.3), and no immediacy. Distinguished from spatial presence: nothing about location.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.SustainingCausation.PresentToAllWheneverTheyAre",
+  "note": "Analyst reading, attribution deferred: q.8 a.1-3 motivate it; no claim states it. 'Present at t' is TemporalHistory presence (DEF-TEMPORAL-HISTORY-NOW-SLICE), read for a timeless agent as co-presence to the moment rather than temporal location. It is the presence step that the immensity sense bridge 8bf775e9 carried untyped."
+}
