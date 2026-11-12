@@ -1,0 +1,13 @@
+{
+  "id": "8319a7ec-0987-45a5-a270-ffe4b9f8eb57",
+  "label": "No originating cause originates itself, from productive-exercise priority (inference)",
+  "input_statement_ids": [
+    "be90bb15-c2ce-44cd-ae2d-5ec6dc4c24c9",
+    "8550ca62-92d1-5ef0-af17-9de5bf272262"
+  ],
+  "output_statement_id": "b241b5ca-e790-5145-bc9a-4154e266bb55",
+  "rule": "Apply the existing no-self-production result to the witness supplied by an arbitrary CausesOrigin x x edge; its bearer equals x, contradicting production of its own bearer",
+  "meaning": "Non-transcription conditional derivation composed with the EXISTING independently certified NoSelfProduction argument. The new OPEN origin-to-exercise bridge makes an arbitrary self-origin edge CausesOrigin x x supply an occurring exercise a with bearer a = x and produces a x. The separately recorded NoSelfProduction statement excludes that conjunction; it itself has a non-transcription support route from four open mixed-token priority premises (TruthCore.Results.Causality.ExistentialSelfActualization.noSelf), reused in the unregistered composition theorem noSelfOriginFromExercise. The conclusion concerns only the CAUSE_4 reading, not all causal senses. No temporal precedence, self-maintenance prohibition, necessary-being uniqueness or independent warrant follows. This creates an explicit two-layer root-reaching support option; the five underlying commitments remain open, so there is no premise establishment.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

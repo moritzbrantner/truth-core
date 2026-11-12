@@ -1,0 +1,13 @@
+{
+  "id": "be90bb15-c2ce-44cd-ae2d-5ec6dc4c24c9",
+  "label": "Every originating cause operates through its own existentially productive exercise",
+  "paraphrase": "OPEN analyst bridge: for every CAUSE_4 originating-cause edge CausesOrigin c x, an occurring exercise a borne by c produces x's existence. This maps a source/target edge into the existing bearer/exercise/product vocabulary, without building causal priority or irreflexivity into CausesOrigin. It does not assert that anything originates, nor that every sort of cause is an originating cause. Attribution deferred; the application to reality is not established.",
+  "lean_declaration": "TruthCore.Causality.OriginExerciseBridge.OriginHasProductiveExercise",
+  "definition_ids": [
+    "9022c4bf-78d2-4c4b-98b3-38eb705990d2",
+    "05dc1385-d245-5137-bf8b-dbdb1d3d9a7a"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
+  ]
+}
