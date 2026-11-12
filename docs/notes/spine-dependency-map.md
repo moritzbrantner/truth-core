@@ -116,14 +116,37 @@ every verified derivation. Other statements lose derivations too.
 | esse cause is actual concrete ground | 7/10 | classical root |
 | contingent grounding | 7/10 | none |
 | population, whole roster not trapped | 6/10 (cogito/roster routes lost) | none |
-| act simply prior to potency, God names the fully described principle | 2/10 (ed7c588a, beec1dc1) | classical root |
+| God names the fully described principle | 2/10 (ed7c588a, beec1dc1) | classical root |
+| act simply prior to potency with its independent-parameter copy (3b2d2d46) | 9/10 (classical-root route lost); 2/10 before the first-being composition route ([act priority](modal-spine.md#act-priority-over-potency-2026-11-12)) | classical root |
 | `STMT-CAUSE-HAS-WHAT-IT-GIVES` (376d6a5a) | 1/10 (prima via only) | classical root |
 
 Reading (structural only): the disputed modal premises and the join are
 bypassable for the working root. Removing all of them together (F1, F2, J1,
 J1@w, J2, no-novel-edge, coverage, same-supporter presence, NCAT, join, AGWF and
 finite rank) still leaves all ten root arguments. Perfection transfer ("nothing
-gives what it does not have"), act-priority and the naming premise are
-structurally indispensable on most routes outside the prima via. The bypassing
+gives what it does not have") and the naming premise are structurally
+indispensable on most routes outside the prima via; act priority was too
+until its first-being composition route (2026-11-12). The bypassing
 routes carry their own open premises, so this ranks where support concentrates,
 not which premises are philosophically weakest.
+
+## Workloop state (coordinator handoff, updated 2026-11-12)
+
+Merged on main:
+- #1514: the classical-root projection to `STMT-GOD-EXISTS` and this map.
+- #1515: graded foundation. Actual well-founded grounding and J2 follow from support ascending a rigid `MoreIn esse` grade together with no infinite ascent. With a freely chosen grade this is equivalent to AGWF and J2, so it relocates the regress question and does not shrink it. See "Graded foundation" in [the spine note](modal-spine.md).
+- #1516: esse-cause bridge. The strength ladder runs `376d6a5a` ⇒ `d0fc96b7` ⇒ `4ccb319f` ⇒ `4a5a43a5`. The Platonist rival is relocated downstream, not defeated.
+
+Open:
+- #1518: preexistence without transfer.
+  - The bottleneck behind `376d6a5a` is "more such" (`d5a94eb1`), which is interderivable with distinct-cause transfer. Granting it restores all ten routes.
+  - A new root route (`5d2b7c6e`) survives removal of `376d6a5a`, through `cffad050`.
+  - Granting distinct-cause transfer (`2c0b9bd7`), which is strictly weaker than `376d6a5a`, restores all 11 routes. It is the smallest sufficient commitment found at this bottleneck. Granting the cause-of-being restriction `d0fc96b7` adds route 92ab7c94.
+  - Follow-ups: #1517 (preexistence consumers) and #1519 (consumers of `d5a94eb1`, and re-routing the four CONCRETE_6 routes through grades-at-being).
+- Act priority over potency (`a4d3261a`; only 2/10 routes survive its removal): in progress in a separate PR.
+
+Next bridges, by computed impact:
+1. Re-route the CONCRETE_6 routes through grades-at-being (#1519).
+2. Act priority (`a4d3261a`) and the naming premise (`STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE`), each 2/10.
+3. A root-restricted ground for `d0fc96b7`, which would lift route 92ab7c94.
+4. #310: the independent warrant for no infinite ascent along grounding chains, on which the graded foundation rests.
