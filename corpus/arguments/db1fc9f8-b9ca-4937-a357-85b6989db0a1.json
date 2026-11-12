@@ -1,0 +1,21 @@
+{
+  "id": "db1fc9f8-b9ca-4937-a357-85b6989db0a1",
+  "label": "Controls for the typed LORD_2 and BLESSED_2 readings, checked",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "a87d62ca-9412-4bc7-a545-0ba8a090c6c7",
+  "inference_ids": [
+    "2e9b5891-4dce-46ec-a48b-4b2a9c319c80"
+  ],
+  "meaning": "Nonvacuity: the directing bridge and the q.103 a.3 reading hold and a being has the nine, LORD_2 and BLESSED_2. Strictness: each new sense bridge holds where the old bridge it weakens fails (a cause of the being of all that governs nothing is not LORD_1; a perfect intellectual being not in act in understanding is not BLESSED_1). Necessity in these models: without directing, a being with the nine is not LORD_2; without act in understanding, it is not BLESSED_2. Sense mixing fails without the sense bridges: a being with the nine can be LORD_2 and BLESSED_2 and neither LORD_1 nor BLESSED_1. Model-witnessed facts about these interpretations only; they show where each premise is needed, not that any premise is false.",
+  "definition_ids": [
+    "5068b909-d6b0-458b-a3d7-30fd2f7088a8",
+    "59350e3b-1b76-45cd-b9fd-548f3f4658b5",
+    "c8e458bd-3b8a-4e10-8e2d-43d1c1912c63",
+    "d0b7b32b-9dc1-426a-9949-92c0b43da663"
+  ],
+  "disambiguation_ids": [
+    "70f4f510-d488-445f-86cf-03b889507372",
+    "aa1de96a-e0d2-4739-a34f-9b98f1034a34"
+  ],
+  "sense_mixing_control": true
+}

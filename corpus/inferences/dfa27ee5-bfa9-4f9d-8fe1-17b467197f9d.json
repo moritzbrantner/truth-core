@@ -1,0 +1,23 @@
+{
+  "id": "dfa27ee5-bfa9-4f9d-8fe1-17b467197f9d",
+  "label": "The nine give every typed Dei Filius attribute, LORD_1, BLESSED_1 via LORD_2, BLESSED_2 (inference)",
+  "input_statement_ids": [
+    "1063da3d-098d-49b3-9346-74d7edbb6e6c",
+    "8f24379f-c48d-43cf-beae-c0ad89a92cb4",
+    "eb6611a5-f8a7-44f6-9bf1-2f65eb80b3cb",
+    "a23dd1ac-1e5b-4842-bf82-385a36607a77",
+    "8d2ac441-9b89-45ee-b8f6-db3522e0bafa",
+    "5ea1069d-84cd-5850-a8b0-adbce332296e",
+    "c7c32f20-2637-4497-8053-f259d02aa922",
+    "fa3f08a8-aa2f-4385-8c72-4343eb5409c0",
+    "e919fe2e-2563-44bb-9eba-16c8199fa477",
+    "8d73ef90-8260-4c45-b2ed-577630c760a7",
+    "00e962ae-f109-55f7-a7fd-f107ce0dea6b",
+    "d7741cdc-881b-5bda-85ce-d70223162f78"
+  ],
+  "output_statement_id": "5fbea2f5-0446-4852-9bd4-74fd0878755f",
+  "rule": "Composition of the registered nineGiveDeiFilius without its lord and most-blessed bridges, on primitives whose IsLord is creator of all and whose MostBlessed is perfection with intellect, then LORD_2, BLESSED_2 and the two sense bridges at the same being",
+  "meaning": "At any being g with the nine, the registered nineGiveDeiFilius (result of argument 1fa790f2) is applied with every input except 'Whatever causes the being of everything else is LORD_1 of everything else' and 'Whatever is PERFECT_2 and HAS_INTELLECT_1 is BLESSED_1', on the primitives that agree with the given ones except that their IsLord is IsCreatorOfAll and their MostBlessed is perfection with intellect; those two bridges then hold trivially and nothing about the given IsLord and MostBlessed is used, and every conjunct except lord and blessed is carried over. g is LORD_2 and BLESSED_2 (the two nine-statements), so the sense bridges give g LORD_1 and BLESSED_1. The senses are not identified: each passage is one listed bridge premise. Joint satisfiability of the whole premise bundle is not checked (unresolved): the controls witness the new premises together with the nine, not every premise of this route at once. Conditional consequence only; no premise is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

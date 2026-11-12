@@ -1,6 +1,6 @@
 {
   "id": "bb3d4417-b2f6-4310-9433-21ff2e386780",
-  "label": "Whatever causes the being of everything else is lord of everything else",
+  "label": "Whatever causes the being of everything else is LORD_1 of everything else",
   "paraphrase": "Open bridge, analyst formulation, unattributed: whatever causes the being of everything else that is in act as to being has dominion over everything else. After ST I q.13 a.7, where 'Lord' is said of God relative to creatures, which are subject to him as their cause.",
   "lean_declaration": "TruthCore.Causality.DeiFiliusAttributeField.CreatorOfAllIsLord",
   "definition_ids": [
@@ -8,6 +8,7 @@
     "59350e3b-1b76-45cd-b9fd-548f3f4658b5"
   ],
   "disambiguation_ids": [
-    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "aa1de96a-e0d2-4739-a34f-9b98f1034a34"
   ]
 }

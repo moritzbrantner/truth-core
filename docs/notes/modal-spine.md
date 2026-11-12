@@ -797,7 +797,7 @@ attributes are confessed.
 | unus, una singularis | `IsTheOneGod` | one of the nine | one of the nine |
 | vivus | primitive `Lives` (LIVING_1, timeless) | open bridge: whatever has intellect lives (q.18 a.3); or (second route) from pure act, one of the nine, through LIVING_2 and a restricted sense bridge (below) | same two routes |
 | creator caeli et terrae | `IsCreatorOfAll`: causes the being of everything else (weaker: no creation from nothing) | contained by definition in the goodness conjunct | same |
-| Dominus | primitive `IsLord` | open bridge: creator of all is lord (q.13 a.7) | same bridge |
+| Dominus | primitive `IsLord` (LORD_1); typed sibling LORD_2, `IsLordByCauseAndGovernment`: causes the being of and governs everything else (below) | open bridge: creator of all is lord (q.13 a.7); or (second route) LORD_2, derived from the nine with one new directing bridge (q.22 a.2) and the q.103 a.3 reading, plus a weaker sense bridge LORD_2 → LORD_1 | same two routes |
 | omnipotens | `IsAlmighty` (active power; no clash with immutability, which excludes passive potency) | from infinity by the existing `STMT-INFINITE-ACT-HAS-INFINITE-POWER` (itself derived from three open premises) | same |
 | aeternus | `Eternal` | one of the nine | one of the nine |
 | immensus | primitive `Immense` (IMMENSE_1); typed sibling IMMENSE_2, `IsImmenseAsInfiniteCauseOfAll`: infinite and causes the being of everything else (below) | open bridge: creator of all is immense (q.8 a.1-2); or (second route) IMMENSE_2, contained in the nine with no premise, plus a weaker sense bridge IMMENSE_2 → IMMENSE_1 that carries all the substantive content | same two routes |
@@ -806,9 +806,47 @@ attributes are confessed.
 | simplex omnino, incommutabilis | `IsSimple`, `IsImmutable` | two of the nine | two of the nine |
 | substantia spiritualis | `IsSpiritual`: not matter-form composed (weaker: substance untyped; alone it fits prime matter or an accident) | derived: simplicity and the q.3 a.7 matter-form clause | derived: the root excludes matter-form composition |
 | re et essentia a mundo distinctus | DIFFERENT reading: `RemoteFromAll`; incomparable with the text, whose anti-pantheist content (DS 3001, canons DS 3023–3024) is untyped; a Spinozist God satisfies `RemoteFromAll` | open bridge: creator of all is a component of nothing (q.3 a.8) | derived: the root is remote from all |
-| beatissimus | primitive `MostBlessed` | open bridge: the perfect intellectual is most blessed (q.26 a.1) | same bridge |
+| beatissimus | primitive `MostBlessed` (BLESSED_1); typed sibling BLESSED_2, `IsBlessedByUnderstanding`: intellect, perfection, goodness as to being, act in understanding (below) | open bridge: the perfect intellectual is most blessed (q.26 a.1); or (second route) BLESSED_2, derived from the nine with two existing intellect premises of #1481 and no new bridge, plus a weaker sense bridge BLESSED_2 → BLESSED_1 | same two routes |
 | super omnia excelsus | `IsMaximumIn` at being (weaker: not exceeded, rather than exceeding all) | goodness-is-actuality plus open bridge: excess in being is excess in act (q.4 a.2) | derived: the root is maximal in being |
 | bonitate sua (DS 3002) | STRONGER: `IsSupremelyGood`, which also includes causing every perfection of everything else; DS 3002 names goodness as the motive of creation | one of the nine | one of the nine |
+
+**Lord and most blessed** (`DeiFiliusLordBlessed`, spec
+`specs/dei-filius-lord-blessed.toml`, attempt `28296836`). The primitives stay;
+typed siblings are added and not identified with them (disambiguations
+`aa1de96a` LORD, `70f4f510` BLESSED). LORD_2 is causing the being of everything
+else and governing everything else (q.103 `Governs`). At a being with the nine
+its creator conjunct is contained by definition in supreme goodness, and
+governance comes from one new bridge: whatever has intellect, has will and
+causes the being of all directs every other being to an end (after q.22 a.2),
+with the sourced q.103 a.3 reading that directing is governing. The bridge's
+antecedent lists the three as separate conjuncts. Q.22 a.2's reason presupposes
+voluntary agency, so the bridge also carries the step that such a being causes
+through its intellect and will; necessary emanation by an intellect is the
+relevant alternative (no justification on file). Conservation is not a separate
+conjunct: `CausesIn … esse` is timeless. BLESSED_2 is intellect, universal
+perfection, goodness as to being and act in the respect of understanding
+(`39f50105`). At a being with the nine it follows from two existing premises of
+#1481 (`9c2a5dfe`, `4728d5f4`) and pure act, with no new bridge. Each passage to
+the primitive is one sense bridge (LORD_2 → LORD_1, BLESSED_2 → BLESSED_1),
+strictly weaker than the old bridge (registered strengthens relations). Each
+bridge carries what the typed sense leaves out. For lord, that is authority to
+dispose: the same power-to-authority step as the old bridge, which is not
+weakened. For blessed (BLESSED_1 read the Thomist way, beatitude formally in the
+intellect), it is *ex se*, knowledge of one's own sufficiency and formal (not
+merely virtual) understanding. A Scotist sense, with beatitude in the will's
+enjoyment, would be a further sense. Objection audit: no substantive objection
+identified to the directing bridge or to either sense bridge. The side effects
+on file involve a particular cause, and their mechanism is causes concurring
+unordered by it (q.22 a.2 ad 1, attributed and unpinned). That mechanism is
+absent when one cause gives being to everything else. Avicenna affirms
+providence, and the bridge says nothing about the mode of cognition. His view
+bears only on a stronger reading that requires cognition of particulars as
+particulars. The usurper and parent counterexamples to "power is not authority"
+lack the cause-of-being conjunct. Joint satisfiability of each second route's
+whole premise bundle is unresolved. Computed
+delta: three support alternatives added (LORD_2 and BLESSED_2 from the nine, and
+the restated sufficiency through them) and three bare premises added (the
+directing bridge and the two sense bridges).
 
 **Immense and incomprehensible** (`DeiFiliusImmenseIncomprehensible`, spec
 `specs/dei-filius-immense-incomprehensible.toml`, attempt `76bad0cb`). The
