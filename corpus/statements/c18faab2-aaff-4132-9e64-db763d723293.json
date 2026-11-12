@@ -1,0 +1,14 @@
+{
+  "id": "c18faab2-aaff-4132-9e64-db763d723293",
+  "label": "No infinite ascent in esse among actual concreta",
+  "paraphrase": "Open premise, analyst formulation, unattributed: the supplied comparative restricted to concreta existing at w is well-founded (hence there is no infinite sequence of such concreta each more in esse than the one before). The weak version of STMT-NO-INFINITE-ASCENT-IN-BEING, which forbids such ascent among all candidates, merely possible ones included.",
+  "lean_declaration": "TruthCore.Causality.GradedSupportFoundation.NoInfiniteAscentAmongActualConcreta",
+  "definition_ids": [
+    "2100cf9a-27ed-57e9-9daa-4b94b6780fe7",
+    "5766de66-8a37-5b04-aa65-9eec53319f50",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
+  ],
+  "disambiguation_ids": [
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58"
+  ]
+}

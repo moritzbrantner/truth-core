@@ -1,0 +1,11 @@
+{
+  "id": "de819771-4641-41f2-8c90-cd0c39673b90",
+  "label": "Ascent at every world strengthens actual-ground ascent in esse",
+  "subject_kind": "statement",
+  "subject_id": "406f0cbe-49ce-4de6-9a7d-e1b10a55ed72",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "d96105fb-8c4d-5e56-b3c7-2cb77a447c2b",
+  "verification_result_id": "0cbb90b2-8367-4d9a-8929-894ce1d67f9e",
+  "note": "Same Profile, selected relation and comparative. The weaker version constrains only actual concreta at the selected world. Strictness is not certified here."
+}

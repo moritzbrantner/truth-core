@@ -1,0 +1,11 @@
+{
+  "id": "a653aa91-e25a-4332-96fd-f0d3397d00dc",
+  "label": "Ascent at every world strengthens ascent between necessary concreta",
+  "subject_kind": "statement",
+  "subject_id": "406f0cbe-49ce-4de6-9a7d-e1b10a55ed72",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "40ce286d-b26d-4773-8a92-0a68da477414",
+  "verification_result_id": "07b89e3c-6b54-4160-aad7-27abeee2d361",
+  "note": "Same Profile, selected relation and comparative. The weaker version restricts supporter and target to concreta necessary from the selected world. Strictness is not certified here."
+}

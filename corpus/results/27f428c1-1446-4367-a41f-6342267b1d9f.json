@@ -1,0 +1,11 @@
+{
+  "id": "27f428c1-1446-4367-a41f-6342267b1d9f",
+  "label": "Ascent at every world, from the cause-is-more principle and the every-world bridge",
+  "argument_id": "815d22c8-4570-41e8-a8b2-1f7a593ebf99",
+  "challenge_module": "TruthCore.Results.Causality.GradedSupportFoundation.Challenge",
+  "solution_module": "TruthCore.Results.Causality.GradedSupportFoundation.Solution",
+  "theorem": "TruthCore.Results.Causality.GradedSupportFoundation.everywhereAscentOfCause",
+  "comparator_config": "results/27f428c1-1446-4367-a41f-6342267b1d9f/comparator.json",
+  "status": "solution-present",
+  "description": "Derives the every-world ascent premise, and through it both the J2 ascent premise and the actual-grounding ascent premise, from the unrestricted Aristotelian cause principle and the every-world bridge from support to causing being. Because neither the cause dictionary nor the comparative takes a world argument, the bridge is where rigidity enters: whoever supports a thing's being at any world is a cause of its being, hence more in esse, at every world. Conditional consequence only; the bridge and the principle remain open."
+}
