@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Case.Catholicism.PreexistenceWithoutTransfer.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.PreexistenceWithoutTransfer.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Case.Catholicism.PreexistenceWithoutTransfer.moreInBeingOfMoreSuch"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

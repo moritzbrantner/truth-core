@@ -1,0 +1,27 @@
+{
+  "id": "9e7de16d-23d9-46bc-a9cc-ce724a7a0274",
+  "label": "More such carries distinct-cause transfer",
+  "premise_statement_ids": [
+    "d5a94eb1-72d2-53e0-9a52-9787b5b61a8d",
+    "c11369aa-7c3d-5dea-8421-535d5b4b3104"
+  ],
+  "conclusion_statement_id": "2c0b9bd7-9dad-4837-bf7e-4cbeff35729c",
+  "inference_ids": [
+    "396f2461-16f6-4ad2-a6e8-25e840bc1a8f"
+  ],
+  "meaning": "A distinct cause of r in x is more r than x, and whatever is more r than something is r, so it is in act in r. Any route using 'more such' at an arbitrary perfection together with c11369aa is committed to distinct-cause transfer; conversely transfer with the reception bundle suffices for 'more such'. Each premise is needed in a checked interpretation (omission models). Conditional consequence only; no premise is established.",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5766de66-8a37-5b04-aa65-9eec53319f50"
+  ],
+  "disambiguation_ids": [
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "1795a62e-f78b-5f5b-94e7-9e7490824811"
+  ],
+  "strong_version_needed": {
+    "d5a94eb1-72d2-53e0-9a52-9787b5b61a8d": "The conclusion concerns a distinct cause of any perfection; the instance at esse gives the cause's having only the perfection esse."
+  }
+}

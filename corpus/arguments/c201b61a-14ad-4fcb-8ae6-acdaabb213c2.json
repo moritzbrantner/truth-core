@@ -1,0 +1,29 @@
+{
+  "id": "c201b61a-14ad-4fcb-8ae6-acdaabb213c2",
+  "label": "Grades maximum from distinct causal possession",
+  "premise_statement_ids": [
+    "c11369aa-7c3d-5dea-8421-535d5b4b3104",
+    "2c0b9bd7-9dad-4837-bf7e-4cbeff35729c",
+    "f29a6b53-475f-5a28-9224-8ca5d7484366",
+    "5cda1946-b22e-52dc-9524-a3611c63585c",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
+  ],
+  "conclusion_statement_id": "6c27657f-a2bf-5c1d-963c-c154b66bfa85",
+  "inference_ids": [
+    "b9410abc-9e41-4480-8970-14d52753387c"
+  ],
+  "meaning": "Analyst formulation, attribution deferred. The initial exceeding bearer has r by the retained more-such-bearer premise. At each exceeded bearer, exceeded-is-caused gives a distinct cause; possession alone supplies its actuality for induction. Well-foundedness and excluded middle yield a weak maximal bearer, without uniqueness, greatestness or causality of that maximum. Supports the quarta via root-route node under explicit premises; no premise warrant or global minimality is claimed.",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "d8e2ed12-8089-5202-ae51-e807cf611c76",
+    "ad844320-77ce-5786-96d7-4b02f874269d",
+    "5766de66-8a37-5b04-aa65-9eec53319f50",
+    "931f204c-01a4-57b8-a887-8ca38a872b17"
+  ],
+  "disambiguation_ids": [
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
+  ]
+}
