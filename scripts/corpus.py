@@ -205,9 +205,10 @@ SCHEMA_INSTANCE_PREDICATE = "instance_of_schema"
 # strong version as its only premise and the weak version as its conclusion.
 # In `frontier` an established strong version establishes the weak one, and a
 # refuted weak version refutes the strong one; never the reverse. The backing
-# argument is a registration for closure: it closes nothing by rules (a) or
-# (d) (see `strength_order`). Reachability and route expansion still treat it
-# as an ordinary verified derivation (2026-11-12).
+# argument closes the weak version by rule (a), or (d) for a transcription,
+# once the strong version is closed, except inside a support cycle (owner
+# decision 2026-11-12; see `frontier_report`). Reachability and route
+# expansion treat it as an ordinary verified derivation.
 STRENGTHENS_PREDICATE = "strengthens"
 # Designated route (argument → statement; owner decision on #143, 2026-10-24):
 # the headline route for reporting and comparisons (`frontier --routes` marks
@@ -997,13 +998,15 @@ def frontier_report(
     Strength order (#1017): for each `strengthens` relation an established
     strong version establishes (and closes) the weak one, and a refuted weak
     version refutes the strong one, inside the same least fixpoint; never the
-    reverse. The backing argument of a registration is set aside before
-    closure is computed: it would otherwise close the weak version from
-    an open strong sibling by rule (a) or (d), circularly where the weak
-    version is also a premise of a proof of the strong one. Reachability
+    reverse. The backing argument of a registration closes the weak version
+    by rule (a), or by rule (d) when it is a transcription, once the strong
+    version is closed: a closed strong version composes with the verified
+    entailment (owner decision 2026-11-12). Unlike an ordinary step it never
+    fires from an open strong leaf, and it is set aside when the strong
+    version cannot close or when its closure would run through the weak one
+    (a support cycle), since circular support is no derivation. Reachability
     (the upward walks, `reaching_root_statements`, support bundles) and route
-    expansion treat it as an ordinary verified derivation (2026-11-12), so
-    registering an implication never removes a route to the root."""
+    expansion treat it as an ordinary verified derivation (2026-11-12)."""
     original_arguments, original_results = arguments, results
     order = strength_order(relations, results, arguments)
     registration_arguments = {entry["argument_id"] for entry in order}
@@ -1011,11 +1014,13 @@ def frontier_report(
         arguments = [argument for argument in arguments if argument["id"] not in registration_arguments]
         results = [result for result in results if result["argument_id"] not in registration_arguments]
     statement_by_id = {statement["id"]: statement for statement in statements}
-    # Lookup over every argument, registrations included: closure reads only
-    # the filtered `results` and steps below, while reachability and route
-    # expansion also follow registrations (2026-11-12).
+    # Lookup over every argument, registrations included: closure takes
+    # registrations only through `registration_steps` below, while
+    # reachability and route expansion follow them as ordinary derivations.
     argument_by_id = {argument["id"]: argument for argument in original_arguments}
-    verified_arguments = {result["argument_id"] for result in results}
+    # Every verified argument, registrations included: a refutation whose
+    # argument is a registration still counts (2026-11-12).
+    verified_arguments = {result["argument_id"] for result in original_results}
     # Invariant 16: a transcription closes no frontier node. A conclusion is
     # closed by rule (a) only by a verified result that is not a transcription:
     # neither declared one in its record nor found by the Lean heuristics.
@@ -1274,7 +1279,39 @@ def frontier_report(
     # Rules (a) and (d) never close a member set aside; only `established`
     # (which is independent of `closed`) may.
     sound_steps = [argument_by_id[argument_id] for argument_id in sorted(sound_arguments)]
-    concluded = verified_conclusions | transcription_only_conclusions
+    # Strength registrations as closure steps (owner decision 2026-11-12): a
+    # registration concludes its weak version and fires only from a closed
+    # strong version, by rule (a) or, for a transcription, by rule (d). It is
+    # set aside (its weak version again a leaf it does not conclude) when the
+    # strong version is concluded by nothing, becomes an ungrounded cycle
+    # member, or lies in one bottom cycle with the weak version.
+    registration_steps = sorted(
+        (result["id"], argument_by_id[result["argument_id"]], result["id"] in transcription_results)
+        for result in original_results
+        if result["argument_id"] in registration_arguments and result["argument_id"] in argument_by_id
+    )
+    base_concluded = verified_conclusions | transcription_only_conclusions
+    active_registrations = {result_id for result_id, _, _ in registration_steps}
+
+    def registration_concluded() -> set[str]:
+        return {
+            argument["conclusion_statement_id"]
+            for result_id, argument, _ in registration_steps
+            if result_id in active_registrations
+        }
+
+    # Set aside, to a fixpoint, registrations whose strong version nothing
+    # concludes (registrations themselves included, for chains).
+    while True:
+        concluded = base_concluded | registration_concluded()
+        unconcluded = {
+            result_id
+            for result_id, argument, _ in registration_steps
+            if result_id in active_registrations and argument["premise_statement_ids"][0] not in concluded
+        }
+        if not unconcluded:
+            break
+        active_registrations -= unconcluded
     proved: set[str] = set()
     ungrounded: set[str] = set()
     while True:
@@ -1334,7 +1371,24 @@ def frontier_report(
                         proved.add(conclusion)
                         proving = True
                         changed = True
-            for result_id, argument in transcription_steps:
+                for result_id, argument, transcribed in registration_steps:
+                    conclusion = argument["conclusion_statement_id"]
+                    # An already-closed weak version keeps its label (for
+                    # example via_strength from an established strong one).
+                    if (transcribed or result_id not in active_registrations
+                            or conclusion in closed or conclusion in ungrounded):
+                        continue
+                    if argument["premise_statement_ids"][0] in closed:
+                        closed.add(conclusion)
+                        proved.add(conclusion)
+                        proving = True
+                        changed = True
+            registration_transcriptions = [
+                (result_id, argument)
+                for result_id, argument, transcribed in registration_steps
+                if transcribed and result_id in active_registrations
+            ]
+            for result_id, argument in sorted([*transcription_steps, *registration_transcriptions]):
                 conclusion = argument["conclusion_statement_id"]
                 if conclusion in closed or conclusion in ungrounded:
                     continue
@@ -1348,12 +1402,23 @@ def frontier_report(
                         "premise_statement_ids": sorted(set(premises)),
                     }
                     changed = True
+        # A registration whose strong version can no longer close is set aside.
+        stuck = {
+            result_id
+            for result_id, argument, _ in registration_steps
+            if result_id in active_registrations and argument["premise_statement_ids"][0] in ungrounded
+        }
+        if stuck:
+            active_registrations -= stuck
+            concluded = base_concluded | registration_concluded()
+            continue
         # Conclusions still waiting: each could close only through another.
         pending = {statement for statement in concluded if statement not in closed and statement not in ungrounded}
         if not pending:
             break
         dependencies: dict[str, set[str]] = {statement: set() for statement in pending}
-        for argument in [*sound_steps, *(argument for _, argument in transcription_steps)]:
+        active_steps = [argument for result_id, argument, _ in registration_steps if result_id in active_registrations]
+        for argument in [*sound_steps, *(argument for _, argument in transcription_steps), *active_steps]:
             conclusion = argument["conclusion_statement_id"]
             if conclusion in dependencies:
                 dependencies[conclusion].update(
@@ -1370,9 +1435,21 @@ def frontier_report(
                     stack.extend(dependencies[node])
             reach[seed] = reached
         # Bottom components: everything a member reaches reaches it back.
-        ungrounded |= {
-            statement for statement in pending if all(statement in reach[other] for other in reach[statement])
+        bottom = {statement for statement in pending if all(statement in reach[other] for other in reach[statement])}
+        # A registration inside a bottom cycle with its strong version would
+        # close the weak version circularly: set it aside and resume first.
+        cyclic = {
+            result_id
+            for result_id, argument, _ in registration_steps
+            if result_id in active_registrations
+            and argument["conclusion_statement_id"] in bottom
+            and argument["premise_statement_ids"][0] in reach[argument["conclusion_statement_id"]]
         }
+        if cyclic:
+            active_registrations -= cyclic
+            concluded = base_concluded | registration_concluded()
+            continue
+        ungrounded |= bottom
     # A proved conclusion is reported under rule (a), not (d).
     for statement in proved:
         closed_via_transcription.pop(statement, None)
