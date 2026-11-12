@@ -1,0 +1,39 @@
+{
+  "id": "af758407-f405-4972-9f34-2cf6bf14a1a2",
+  "label": "The narrowed immensity sense bridge from the immensity sense bridge",
+  "premise_statement_ids": [
+    "8bf775e9-34e0-48e5-bdd8-f48edd1040f7"
+  ],
+  "conclusion_statement_id": "a3913182-5557-4e8b-80d1-3771a57c3a03",
+  "inference_ids": [
+    "ce2e2854-facd-4379-bcb9-11daa84a3b2b"
+  ],
+  "meaning": "Strength order registration: the immensity sense bridge 8bf775e9 entails its narrowed form, whose antecedent adds presence to all whenever they are. Application only; it establishes neither.",
+  "definition_ids": [
+    "1335688a-d3f2-492e-9b71-c8062280fe16",
+    "641c767b-4289-4d92-b900-da7ad603d282",
+    "92c03350-6809-497d-b123-2ffb11c0e0c1",
+    "1d8890c0-afe2-5cdb-a400-0bbd4b79053d",
+    "bf2f30d1-609f-4b23-b819-786d877b949c"
+  ],
+  "disambiguation_ids": [
+    "3fc3ee02-c3cc-4a61-9724-914d9d07b0dd",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "587c53cf-c2a8-51f6-b8c1-013e67756dc6"
+  ],
+  "sense_bridges": [
+    {
+      "term": "IMMENSE",
+      "from": "f9a7bc6c-f847-4f4c-9cf8-9f8d1cdcc5bf",
+      "to": "1bf8b401-ddd3-459a-bc15-67083eb8d2f1",
+      "statement_id": "8bf775e9-34e0-48e5-bdd8-f48edd1040f7"
+    },
+    {
+      "term": "IMMENSE",
+      "from": "f9a7bc6c-f847-4f4c-9cf8-9f8d1cdcc5bf",
+      "to": "1bf8b401-ddd3-459a-bc15-67083eb8d2f1",
+      "statement_id": "a3913182-5557-4e8b-80d1-3771a57c3a03",
+      "role": "conclusion"
+    }
+  ]
+}

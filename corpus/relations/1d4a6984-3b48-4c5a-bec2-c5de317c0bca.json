@@ -1,0 +1,11 @@
+{
+  "id": "1d4a6984-3b48-4c5a-bec2-c5de317c0bca",
+  "label": "Nothing gives what it lacks strengthens its cause-of-being restriction",
+  "subject_kind": "statement",
+  "subject_id": "376d6a5a-c179-5090-b57c-f9a371222899",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "d0fc96b7-fd2d-504e-912f-925de3b1e6ed",
+  "verification_result_id": "0afc45a7-dc99-4f07-985d-c57e19b0ab39",
+  "note": "Same InAct and CausesIn; the weak version restricts to causes of the effect's being. Strict: control 15."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "402cf70f-66ff-415e-a9e2-2e1f288956d8",
+  "label": "A concrete ground at any admitted world is a distinct CAUSE_2 of its esse",
+  "paraphrase": "Open bridge, analyst formulation, unattributed: at every admitted world v, if a concrete candidate a exists at v and stands to a concrete candidate b in the selected relation at v, then a is distinct from b and a is a cause of b's being in the supplied cause-of-a-perfection dictionary at esse. The dictionary takes no world argument, so support at any world makes the supporter a cause of the supported thing's being simpliciter. Strengthens the selected-world bridge from actual grounds.",
+  "lean_declaration": "TruthCore.Causality.GradedSupportFoundation.SupportIsDistinctEsseCauseEverywhere",
+  "definition_ids": [
+    "32606882-e6e0-43b5-8c81-3b2afd3473e0",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "b242943a-34cc-582d-8c38-c1203b9d2c91"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6"
+  ]
+}

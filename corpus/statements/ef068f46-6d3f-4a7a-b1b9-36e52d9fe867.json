@@ -1,0 +1,15 @@
+{
+  "id": "ef068f46-6d3f-4a7a-b1b9-36e52d9fe867",
+  "label": "Whatever causes the being of something is in act in some respect",
+  "paraphrase": "OPEN analyst premise, attribution deferred (agency in act, restricted to causes of being): whatever causes the being of something (CausesIn c x esse, CAUSE_2 at esse) is in act in some respect (InAct c r for some r). It is the sibling, for the tenseless CausesIn at esse, of STMT-AQUINAS-OPERATION-ONLY-OF-BEING-IN-ACT (every cause along an Ontic.Causes edge is in act in some respect, after q.75 a.2 co. 'non enim est operari nisi entis in actu', claim f4b1c499) and of q.25 a.1 co. ('unumquodque, secundum quod est actu et perfectum, secundum hoc est principium activum', claim a5d11a9e); those claims are not attributed this CausesIn statement. Meaning: a cause of being that is in act in no respect would be nothing and could do nothing. It is weaker than 'Whatever causes the being of anything is itself in act as to being' (it names no respect), which entails it (lemma inActOfHasBeing, not registered, to avoid a support cycle). CausesIn at esse is read here for extrinsic (efficient) causes of being, after the paradigm of DEF-CAUSE-OF-PERFECTION (fire causing heat); intrinsic principles are not CausesIn edges on this reading. DEF-CAUSE-OF-PERFECTION itself does not state that restriction: if CausesIn counted prime matter as a material cause of the composite's being (in act in no respect), this premise would fail for it; an unread lead, recorded with no weight. No independent warrant is recorded for it.",
+  "lean_declaration": "TruthCore.Case.Catholicism.CauseOfBeingHasBeing.CauseOfBeingIsInAct",
+  "definition_ids": [
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
+  ]
+}

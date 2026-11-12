@@ -1,0 +1,49 @@
+{
+  "id": "366a6ea3-604f-4485-9fdf-2f58a094df84",
+  "label": "Causes of another's being are CAUSE_OF_BEING_2 sustaining, from concurrent actualization",
+  "premise_statement_ids": [
+    "da72ae93-5c8d-4717-8c17-97eeb8037317",
+    "40a97664-e481-42d7-8458-78374a61aa26",
+    "d7f5a528-6e11-44a1-a12a-438c88a46cbf"
+  ],
+  "conclusion_statement_id": "ce55210c-d3b5-4720-bd83-a3f63c5dc884",
+  "inference_ids": [
+    "f3cc0e5e-a47e-4258-918f-dbd2c02298f6"
+  ],
+  "meaning": "New non-transcription conditional derivation of the weak sustaining reading. Let c, distinct from x, cause x's being, and let x be present at t in history v. By the reception bridge da72ae93 (what has its being caused by another has its esse received in some principle) x's esse is received in some principle; by concurrent actualization something gives x being at t; by concurrence of causes of being c gives x being at t. So c gives x being at every moment at which x is present (CAUSE_OF_BEING_2). Each premise is needed in a checked interpretation: without concurrent actualization (existential inertia, Control part 1), without concurrence (intrinsic persistence power, part 2; relay, part 3, where even the strong concurrent actualization holds), without the reception bridge (part 4); all hold nonvacuously with the conclusion (part 7). The distinctness of the giver is not used. Of the three premises, existential inertia rejects only concurrent actualization (part 1), so the dispute over the sustaining reading now sits exactly there. All premises stay OPEN; the reception bridge inherits the scope condition of definition 80dea550. No premise is established.",
+  "term_senses": {
+    "CAUSE_OF_BEING": "5acddd28-aca0-410d-96d2-ef9386b8dc27",
+    "CAUSING_AN_EFFECT": "871078ad-b041-4030-bb85-7ec2eed5d079"
+  },
+  "definition_ids": [
+    "158301bc-9585-4145-be60-34f08c9f922c",
+    "80dea550-60c1-447a-83bf-d3f27ea0b2a8",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "4433942e-aaf6-55a9-b777-66e55638103d",
+    "56989bd0-a232-56ea-9093-c89350effff4",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e",
+    "ed47a5a7-fa84-43cb-950b-2552b33b99ff"
+  ],
+  "disambiguation_ids": [
+    "88a8fba7-f1a1-4340-8a7f-41dd39bbbe7d",
+    "c3c01e92-520e-5358-a58f-0cc7e9c9e6fa",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "5921354b-51e6-5da3-8d8c-e9041840fd9f"
+  ],
+  "sense_bridges": [
+    {
+      "term": "CAUSING_AN_EFFECT",
+      "from": "39f64183-5038-4348-ad9f-5b64674f65f8",
+      "to": "871078ad-b041-4030-bb85-7ec2eed5d079",
+      "statement_id": "d7f5a528-6e11-44a1-a12a-438c88a46cbf"
+    },
+    {
+      "term": "CAUSING_AN_EFFECT",
+      "from": "39f64183-5038-4348-ad9f-5b64674f65f8",
+      "to": "871078ad-b041-4030-bb85-7ec2eed5d079",
+      "statement_id": "ce55210c-d3b5-4720-bd83-a3f63c5dc884",
+      "role": "conclusion"
+    }
+  ]
+}

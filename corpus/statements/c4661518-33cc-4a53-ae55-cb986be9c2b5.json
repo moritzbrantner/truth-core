@@ -1,0 +1,10 @@
+{
+  "id": "c4661518-33cc-4a53-ae55-cb986be9c2b5",
+  "label": "Whatever gives a thing being at a moment is present at that moment",
+  "paraphrase": "OPEN analyst premise, attribution deferred (time-indexed contact principle): in every history of the model, whatever gives a thing being at a moment (the primitive GivesAt) is present at that moment. After ST I q.8 a.1: an agent must be joined to that wherein it acts immediately. It excludes giving being across a temporal gap. 'Present at t' is History.IsAt, the same predicate as spine premises A1-A3 and A2ab, under the one inclusive reading adopted for all of them (attempt c94eed5b): actual in the history and bearing on t, by location at t (a temporal thing) or co-presence to t (a non-temporal agent). Nothing is said about spatial location, and the agent's being in time is not asserted.",
+  "lean_declaration": "TruthCore.Causality.SustainingCausation.GiverPresentWhenGiving",
+  "definition_ids": [
+    "158301bc-9585-4145-be60-34f08c9f922c",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "9874a88f-59d2-4982-8b5f-c71aa83b1e96",
+  "label": "Giver-of-being controls, checked",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "f579f062-1da6-4614-92fa-46f5bdf6e23a",
+  "inference_ids": [
+    "9d373710-68bc-4ca2-bbf7-56d47bab8853"
+  ],
+  "meaning": "Omission, strictness and nonvacuity controls listed in the conclusion's paraphrase. A finite countermodel shows a premise is needed in that interpretation, not that it is false.",
+  "definition_ids": [
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
+  ]
+}

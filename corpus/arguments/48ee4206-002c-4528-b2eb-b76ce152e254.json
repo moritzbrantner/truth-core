@@ -1,0 +1,23 @@
+{
+  "id": "48ee4206-002c-4528-b2eb-b76ce152e254",
+  "label": "Non-INFINITE_1 intellects have non-maximal power, from non-maximal act bounding knowing",
+  "premise_statement_ids": [
+    "ea1c35a5-6c8b-41f4-8029-aea2166d74cf",
+    "7db53cde-911c-48ec-ab4f-054a00288148"
+  ],
+  "conclusion_statement_id": "195ce36e-eb0a-463e-b08c-13e45b832316",
+  "inference_ids": [
+    "33505179-fb9f-47d0-acb8-3bf4643e24dc"
+  ],
+  "meaning": "Let x have intellect and not be INFINITE_1. Its degree of act is not maximal (first premise) and bounds every degree at which it knows anything (second premise), so it is a non-maximal bound of x's power of knowing. Intellect is not used. Conditional consequence; both premises stay open.",
+  "definition_ids": [
+    "431287d4-f1b4-4e18-ad6e-555f49f1e39a",
+    "5b196f1c-210d-450e-b3f1-33e214f9f45d",
+    "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4",
+    "1d8890c0-afe2-5cdb-a400-0bbd4b79053d"
+  ],
+  "disambiguation_ids": [
+    "587c53cf-c2a8-51f6-b8c1-013e67756dc6",
+    "c0fda0ee-3508-5101-94ba-043e3eb28b0e"
+  ]
+}

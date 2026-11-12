@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.DeiFiliusUnifiedRoute.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DeiFiliusUnifiedRoute.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.DeiFiliusUnifiedRoute.nineGiveDeiFiliusUnified"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -15,6 +15,7 @@ public import TruthCore.Results.Case.Catholicism.AdoptedPotency.FromQuartaViaWit
 public import TruthCore.Results.Case.Catholicism.AdoptedPotency.FromQuartaViaWithoutTruthBridge.Solution
 public import TruthCore.Results.Case.Catholicism.AdoptedPotency.NecessaryClassicalGodCase.Solution
 public import TruthCore.Results.Case.Catholicism.CausalFinitism.Solution
+public import TruthCore.Results.Case.Catholicism.CauseOfBeingHasBeing.Solution
 public import TruthCore.Results.Case.Catholicism.ClassicalAttributesJointWitness.Solution
 public import TruthCore.Results.Case.Catholicism.FirstUnmovedMoverExistsOrNotFromEm.Solution
 public import TruthCore.Results.Case.Catholicism.FirstUnmovedMoversIdenticalOrDistinctFromEm.Solution

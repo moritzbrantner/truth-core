@@ -3,6 +3,7 @@ module
 
 public import TruthCore.Causality.A10PreferentialExpectation
 public import TruthCore.Causality.AccidentalFeatureOrigin
+public import TruthCore.Causality.ActPriorityAtFirst
 public import TruthCore.Causality.ActualCommonRoot
 public import TruthCore.Causality.ActualCoverNecessaryBeing
 public import TruthCore.Causality.ActualCoverStrictness
@@ -38,9 +39,11 @@ public import TruthCore.Causality.CommonPriority
 public import TruthCore.Causality.CompleteCauseContributorCover
 public import TruthCore.Causality.ComponentFirstness
 public import TruthCore.Causality.ComposerTemporalDefinitionFork
+public import TruthCore.Causality.ComprehensionByMeasure
 public import TruthCore.Causality.ConceivableGreatness
 public import TruthCore.Causality.ConceptualExistenceBoundary
 public import TruthCore.Causality.ConcreteExistentialSupply
+public import TruthCore.Causality.ConcurrentActualization
 public import TruthCore.Causality.ConstitutiveConfiguration
 public import TruthCore.Causality.ConstitutiveNatureUniqueness
 public import TruthCore.Causality.ContingentAncestry
@@ -52,6 +55,7 @@ public import TruthCore.Causality.ContractiveBorrowedPower
 public import TruthCore.Causality.ConvergentSchedule
 public import TruthCore.Causality.CountCauseTimeNecessity
 public import TruthCore.Causality.CountTemporalNecessity
+public import TruthCore.Causality.CreatureSenses
 public import TruthCore.Causality.DefinitionDictionaryConnections
 public import TruthCore.Causality.DeiFiliusAttributeField
 public import TruthCore.Causality.DeiFiliusImmenseIncomprehensible
@@ -59,6 +63,7 @@ public import TruthCore.Causality.DeiFiliusLivingNineScope
 public import TruthCore.Causality.DeiFiliusLivingSelfOperation
 public import TruthCore.Causality.DeiFiliusLordBlessed
 public import TruthCore.Causality.DeiFiliusOperationFromIntellect
+public import TruthCore.Causality.DeiFiliusUnifiedRoute
 public import TruthCore.Causality.DerivativeJointPower
 public import TruthCore.Causality.DirectEsseGenusOmissionControl
 public import TruthCore.Causality.DirectEsseRootGoodnessOmission
@@ -85,6 +90,7 @@ public import TruthCore.Causality.FiniteNecessaryUnion
 public import TruthCore.Causality.FiniteRestriction
 public import TruthCore.Causality.FullFirstCause
 public import TruthCore.Causality.GodMaximalCausal
+public import TruthCore.Causality.GradedSupportFoundation
 public import TruthCore.Causality.GreatestDegreeRootRoute
 public import TruthCore.Causality.GrimReaper
 public import TruthCore.Causality.GrimReaperFiniteTests
@@ -203,6 +209,7 @@ public import TruthCore.Causality.SurveyCapabilityProfiles
 public import TruthCore.Causality.SurveyExternalCause
 public import TruthCore.Causality.SurveyProductiveSource
 public import TruthCore.Causality.SurveySourceEndpointControls
+public import TruthCore.Causality.SustainingCausation
 public import TruthCore.Causality.TeleologyFirstMover
 public import TruthCore.Causality.TemporalActualization
 public import TruthCore.Causality.TemporalCoverageEternity

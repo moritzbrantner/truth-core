@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.ActPriorityAtFirst.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ActPriorityAtFirst.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.ActPriorityAtFirst.weakOfComposition"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

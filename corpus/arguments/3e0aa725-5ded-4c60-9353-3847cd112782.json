@@ -1,0 +1,31 @@
+{
+  "id": "3e0aa725-5ded-4c60-9353-3847cd112782",
+  "label": "Lasting ground (A2ab) from CAUSE_OF_BEING_1 originating causes, contact and no return",
+  "premise_statement_ids": [
+    "b90c4dd1-88d9-4afe-8455-4152d7836c99",
+    "97150a94-c2cd-4020-87ed-825b7c19e124",
+    "c4661518-33cc-4a53-ae55-cb986be9c2b5",
+    "7a41ea33-cbc1-4b74-9437-5d222ed9b633",
+    "800dc845-0a7a-4b7e-a4c3-12849c937812"
+  ],
+  "conclusion_statement_id": "71df1177-b082-46e9-ab85-6815b3ed1650",
+  "inference_ids": [
+    "672a3712-e444-41f8-9b73-51906c289134"
+  ],
+  "meaning": "New non-transcription conditional support option for premise A2ab (lasting ground) of Arrival A. Comparability of moments (linear time) is an explicit open premise, not a type-class restriction, so the route covers every model in which it holds. Let a concrete x be absent at s and present at t > s. It has a concrete originating cause g (CAUSE_OF_BEING_1): x has a first moment b of presence and g gives it being at b, so by contact g is present at b. By comparability b is before s, equal to s or after s. b is not s (x is absent at s); b is not before s, since x would then be present at b and t and absent at s between them, against convexity; so b is after s, and g is a ground of x present after s. No sustaining causation is used. On the inclusive reading of GivesAt (causing coming to be counts) this route is open to an existential-inertia theorist who grants originating causes, contact and no return; on the strict esse-giving reading that is not shown. On this formulation convexity and comparability enter because the originating cause acts at the first moment of presence overall; an originating premise tied to the first moment after the absence would need only contact and grounds (not formalized). The originating premise requires a first moment of presence for every beginning thing. Convexity is needed: intermittent presence satisfies the other premises and falsifies A2ab (Control part 6); all premises hold nonvacuously with A2ab (part 7). Whether comparability is needed is not checked. All premises stay OPEN. No premise is established.",
+  "term_senses": {
+    "CAUSE_OF_BEING": "aafb928f-42dc-43c3-94de-137f2e48dee9",
+    "CAUSING_AN_EFFECT": "ba797c7f-285e-4378-b97a-23baf30bcc64"
+  },
+  "definition_ids": [
+    "142e451d-a24f-4aa1-b38b-344e5f235e72",
+    "158301bc-9585-4145-be60-34f08c9f922c",
+    "1f4f5228-45e8-4e5d-beda-e918c5808ec0",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e"
+  ],
+  "disambiguation_ids": [
+    "88a8fba7-f1a1-4340-8a7f-41dd39bbbe7d",
+    "81c233d4-01b4-528c-8bbd-7da228443ffe",
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
+  ]
+}

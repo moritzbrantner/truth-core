@@ -1,0 +1,16 @@
+{
+  "id": "f579f062-1da6-4614-92fa-46f5bdf6e23a",
+  "label": "Controls for the giver of being and the esse-cause bridge",
+  "paraphrase": "Closed controls on one-world interpretations over Bool (respect false is esse); statements about these interpretations only. (1) Without the existence-to-act contract, the calibration holds and an existent is not concrete. (2) Without the calibration, the contract holds and an existent is not concrete. (3) Without the maxim 'nothing gives being that it does not have', the contract and act-to-existence hold and the cause of the being of an actual concretum is absent. (4) Without the contract, the maxim and act-to-existence hold and that cause is absent. (5) Without act-to-existence, the maxim and contract hold and that cause is absent. (6)-(9) The esse-cause bridge fails when exactly one of cause existence, existent concreteness, effect dependence and dependence-to-grounding fails and the other three hold. (10) Agency holds without act-only-insofar-as-being and the cause lacks being; (11) the converse case. (12) The maxim holds where q.4 a.2 preexistence fails; (13) the maxim holds where its unscoped version fails; (14) the unscoped version holds where the cause-of-being restriction of 'nothing gives what it does not have' fails; (15) that restriction holds where the unrestricted principle fails. (16) Every premise of the batch and the esse-cause bridge hold together with an actual esse edge between distinct actual concreta.",
+  "lean_declaration": "TruthCore.Case.Catholicism.CauseOfBeingHasBeing.Control.Controls",
+  "definition_ids": [
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "a1f4a411-42a4-4740-913a-a1852540d5bd",
+  "label": "GOD_4 exists from an actual root without contingent dependence, grades at being (inference)",
+  "input_statement_ids": [
+    "56f68b40-9737-59a0-8cac-5610980a1547",
+    "5c898d24-d1f7-5087-b09e-3287a723e787",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "86efed1a-f353-5b5d-9431-df7fc643ace1",
+    "d9fad785-40ab-555a-a1c1-5e39c9d50497",
+    "0436de86-6579-53f2-9ff5-2111ba44ebae",
+    "cb1cdea9-eb6c-578c-8008-84e0d4107fd3",
+    "e4e6b0cd-f61a-5605-a302-573c67cf063a",
+    "7067553d-cad9-5d79-b6b2-912e35051530",
+    "b26c10a0-983d-5a88-aa03-cc601bc1ddc6",
+    "09c6d5f0-d412-5038-85f9-75fffb935727",
+    "1ec205ed-b2a6-5384-bb5f-2565a9d325bf"
+  ],
+  "output_statement_id": "8626f8a5-9531-5da7-9ebd-f901e74b1129",
+  "rule": "Reuse the existing route composition, with the maximum lemma instantiated at the one-point esse respect type",
+  "meaning": "Sibling of the twelve-input direct-esse route 5e8e6054 with STMT-GRADES-HAVE-A-MAXIMUM (6c27657f, every respect) replaced by its fixed-esse instance STMT-GRADES-TO-MAXIMUM-AT-BEING (e4e6b0cd); every other premise is the same statement. The old route applies grades only at esse, inside actualCore. actualRootExists gives an actual root n from population, whole-roster nontrapping and excluded middle, without contingent dependence; the priority correspondence gives firstness; ExistingInActAt gives n esse; the existing maximumExistsOfExistingRoot at the one-point esse respect type gives a maximum in esse; maximumEqualsRoot and reducedDescription name n as God. No modal necessity is used or concluded. No premise is discharged; the old route is unchanged. Sense bridges: NECESSARY 11 to 2, NONNECESSARY 1 to 2 and WELL_FOUNDEDNESS 1 to 2 (all citing 5c898d24) are bookkeeping, not content bridges: no NecessaryAt, NonnecessaryRootAt, ContingentAt or GroundAncestor occurs in any hypothesis or step, so no passage between these senses happens. truth check requires the bridges only because 5c898d24's definition_ids link both senses of each term, which its Lean type does not use (#1524). INTRINSIC 1 to 2 (5c898d24) is carried by 5c898d24's type, which instantiates Trap's generic intrinsic parameter with the graph Source predicate, the application commitment that distinguishes ActualConcreteSupply from Supply; neither Supply constant itself occurs.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

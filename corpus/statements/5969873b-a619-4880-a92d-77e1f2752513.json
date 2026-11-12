@@ -1,0 +1,17 @@
+{
+  "id": "5969873b-a619-4880-a92d-77e1f2752513",
+  "label": "Whatever is CREATURE_2 is CREATURE_1, sense-fixed",
+  "paraphrase": "Open sense bridge, analyst formulation, unattributed: for every x, if x is CREATURE_2 (some other being causes x's being, IsCausedInBeingByAnother) then x is CREATURE_1 (some being that causes the being of every other being in act causes x's being, IsCreatureOfUniversalCause). Sense-fixed sibling of 'Whatever is CREATURE_2 (caused in being by another) is CREATURE_1' (b7d4eede-ab50-5522-8902-f33238fa234d): same content, but its Lean declaration names both sense constants instead of taking Creature as a parameter, so a statement bound to it cannot be instantiated at another sense. It gives b7d4eede by instantiation (causedInBeingByAnotherIsCreatureAtCreature1). SCOPE CONDITION (definition 80dea550): the divine processions are no instances of CausesIn c x esse with c distinct from x.",
+  "lean_declaration": "TruthCore.Causality.CreatureSenses.CausedInBeingByAnotherIsCreature1",
+  "definition_ids": [
+    "afcdd2c5-1167-5a73-97d7-cb99a6ad5817",
+    "fdfbbc59-1f33-4fab-a96f-b41f37974af5",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "80dea550-60c1-447a-83bf-d3f27ea0b2a8"
+  ],
+  "disambiguation_ids": [
+    "c49de1e9-c34f-424f-b144-b80c885974ca",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "da801c49-ef33-4b1a-84db-2ab675c0a9f9",
+  "label": "No component is the first being, from act priority at a first being (inference)",
+  "input_statement_ids": [
+    "86f10ec3-3068-5066-8ba1-3c85baeb1a22",
+    "61ad11f3-476f-411d-9720-d9f05cbc22fc",
+    "c6d6379b-6a9b-55b5-a701-3df289dfcca4",
+    "2b25a78c-abad-50d9-abb9-31a753409192",
+    "e078f07b-a4b8-595e-a3ee-02dd83474450"
+  ],
+  "output_statement_id": "09c6d5f0-d412-5038-85f9-75fffb935727",
+  "rule": "Case split on the kind of component; act priority is applied only to the component supposed first",
+  "meaning": "The existing ComponentFirstness.noComponentFirst with act's simple priority replaced by its first-being instance. A component supposed first is in potency in some respect or participated. If in potency, act priority at a first being gives a being in act in that respect simply prior to it; firstness makes that being the component itself, against non-overlap. If participated, it has a distinct cause of its being, which is prior to it as efficient cause, against firstness. As in the existing noComponentFirst, one CausesIn parameter feeds both STMT-PARTICIPATED-HAS-OTHER-CAUSE and STMT-EFFICIENT-CAUSE-IS-PRIOR-TO-EFFECT; adding STMT-PERFECTION-CAUSING-IN-ANOTHER-IS-EFFICIENT does not bridge it, because the participation record links the external-esse-cause sense of 'causing an effect' while its type uses the plain CausesIn, and relinking it breaks the existing argument's links (recorded defect, follow-up). The proof used the strong reading only at the supposed first component, so the weak version suffices. Conditional consequence only; no premise is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,11 @@
+{
+  "id": "6c83ec86-e007-4780-a25d-d6d68061c449",
+  "label": "Act is SIMPLY_PRIOR_1 to POTENCY_2 at a first being, from composition",
+  "argument_id": "15fce38f-7b91-4c0b-a201-b83139147419",
+  "challenge_module": "TruthCore.Results.Causality.ActPriorityAtFirst.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ActPriorityAtFirst.Solution",
+  "theorem": "TruthCore.Results.Causality.ActPriorityAtFirst.weakOfComposition",
+  "comparator_config": "results/6c83ec86-e007-4780-a25d-d6d68061c449/comparator.json",
+  "status": "solution-present",
+  "description": "The first-being version of act priority from the same five premises: by firstBeingNoPotencyOfComposition a first being is in potency in no respect, so the first-being version holds vacuously. Each of the five premises is needed (Control.CompositionOmissions). The proof applies each premise only at a supposed first being; no premise says that an idle potency of a being other than a first one has a prior being in act. Conditional consequence only; no premise is established."
+}

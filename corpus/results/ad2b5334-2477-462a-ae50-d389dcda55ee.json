@@ -1,0 +1,11 @@
+{
+  "id": "ad2b5334-2477-462a-ae50-d389dcda55ee",
+  "label": "Controls for the CREATURE_1 and CREATURE_2 senses, checked",
+  "argument_id": "f2bac465-2763-4e64-b0c5-c08bda12df59",
+  "challenge_module": "TruthCore.Results.Causality.CreatureSenses.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CreatureSenses.Solution",
+  "theorem": "TruthCore.Results.Causality.CreatureSenses.controls",
+  "comparator_config": "results/ad2b5334-2477-462a-ae50-d389dcda55ee/comparator.json",
+  "status": "solution-present",
+  "description": "Model 1 separates the senses: a being caused by another that no universal cause causes is CREATURE_2 and not CREATURE_1, so the bridge does not hold by definition. Model 1 also shows the Fourth-Way consequence is needed for the bridge, and model 2 that the weak premise is. Model 3 satisfies every premise of both new derivations together with a caused being. Model-witnessed facts about these interpretations only: they show the premises are needed in these interpretations and that the bundle is jointly satisfiable, not that any premise is true or false."
+}

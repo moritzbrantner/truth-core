@@ -1,0 +1,12 @@
+{
+  "id": "ce2e2854-facd-4379-bcb9-11daa84a3b2b",
+  "label": "The narrowed immensity sense bridge from the immensity sense bridge (inference)",
+  "input_statement_ids": [
+    "8bf775e9-34e0-48e5-bdd8-f48edd1040f7"
+  ],
+  "output_statement_id": "a3913182-5557-4e8b-80d1-3771a57c3a03",
+  "rule": "Weakening of the antecedent: drop the presence hypothesis",
+  "meaning": "Strength order registration: the immensity sense bridge 8bf775e9 entails its narrowed form, whose antecedent adds presence to all whenever they are. Application only; it establishes neither.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

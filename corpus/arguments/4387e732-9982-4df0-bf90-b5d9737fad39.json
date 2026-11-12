@@ -1,0 +1,24 @@
+{
+  "id": "4387e732-9982-4df0-bf90-b5d9737fad39",
+  "label": "Graded necessary support, from J2",
+  "premise_statement_ids": [
+    "d149d238-2eeb-5c8b-a136-f95d7aa5c721"
+  ],
+  "conclusion_statement_id": "9181f1f0-e510-42c6-8008-46a57df8e861",
+  "inference_ids": [
+    "b6fa2a70-e07b-4b0b-91a1-e40d04f011f5"
+  ],
+  "meaning": "Converse of the graded J2 route: J2 already yields some rigid comparison with no infinite ascent that support between necessary concreta ascends. With unionWFOfAscent the two are equivalent when the grade may be chosen freely. The rigid-grade premise is therefore not weaker than J2; what it adds is that the grade is the one of being shared with the grades-to-maximum route.",
+  "definition_ids": [
+    "2873d86b-7d15-41c5-8b93-362a117cb4cf",
+    "bb3af92a-7060-5e08-a82a-59a1337f8492",
+    "9146789d-5b36-572f-baa1-7eef28967793",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "2100cf9a-27ed-57e9-9daa-4b94b6780fe7",
+    "b242943a-34cc-582d-8c38-c1203b9d2c91"
+  ],
+  "disambiguation_ids": [
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "5d15d8f2-1080-53c9-886f-cee2a4ff23a9"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "3d99779b-b44a-4daa-a873-8ccdd3c034ae",
+  "label": "Whatever is in act in some respect and in POTENCY_2 in some respect is composite",
+  "paraphrase": "Open premise, analyst formulation, unattributed: whatever is in act in some respect and in potency in some respect is composite. InPotency is the free POTENCY_2 parameter and presupposes real passive potency; Composite is the inclusive SIMPLE_4 sense (without composition of any kind), so that STMT-COMPOSITE-HAS-A-UNITING-CAUSE covers act-potency composition. The thought: a being whose actual being leaves a capacity unrealized has two principles, what it actually is and what it can be but is not. ST I q.3 a.7 co., fourth reason, states the converse (every composite has potency and act), not this direction. The restriction to beings in act in some respect keeps pure potency out: prime matter, in potency and in act in no respect, is not composite. This is where the dipolar rival presses: it grants the composition and denies that such a composite needs a cause.",
+  "lean_declaration": "TruthCore.Causality.ActPriorityAtFirst.ActAndPotencyMakeComposite",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "3ea2762f-1a85-5059-b4e7-d29f192b16b6",
+    "85f7f569-ab4d-514b-aa2c-cf75171ad105"
+  ]
+}
