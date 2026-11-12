@@ -1,8 +1,19 @@
 # Strength-order audit (2026-11-12)
 
-Audit of the verified results whose argument has exactly one premise and no commitments and that no `strengthens` relation registered at main `1587e8313`: 209 results. A pair is registered only when the conclusion is a weaker version *of the same proposition* as the premise (dropped qualifier, restricted domain or quantifier scope, an instance the argument uses, or a weaker order relation on the same relata), per [corpus model, Strength order](../corpus-model.md). Instantiations that change subject matter, consequences with new content, restatements and equivalences are not registered. The rule change and its reasons are in [the decision](../decisions/2026-11-12-03-strength-registrations-reach.md). Argument ids are shown by their first eight characters; `truth context <id>` expands them.
+Audit of the verified results whose argument has exactly one premise and no commitments and that no `strengthens` relation registered at main `1587e8313`: 209 results. Argument ids are shown by their first eight characters; `truth context <id>` expands them. The rule change is in [the decision](../decisions/2026-11-12-03-strength-registrations-reach.md); the contract is in [corpus model, Strength order](../corpus-model.md).
 
-## Registered (20)
+## Criterion
+
+A pair is registered when, checked against the Lean types, the conclusion comes from the premise **in the same vocabulary only by weakening steps**: dropping a conjunct (also inside the same existential witness) or one direction of a biconditional; restricting a universal's domain, a relation to a subrelation, or instantiating a universal at the case the argument uses; generalizing an existential (a fixed case to some case, including a named-case disjunction); ∃∀ to ∀∃; ¬∀ over a narrower to ¬∀ over a wider condition; or a weaker relation on the same relata (< to ≤ or ≠). The converse must not be classically provable. Not registered:
+
+- equivalences (proved in both directions, definitional or intuitionistic restatements), recorded as `logically_equivalent_to` where both directions are verified;
+- the backing argument of a `refutes` relation: its conclusion denies a recorded rival, and since closure sets a registration's backing argument aside, registering it would drop a counted defeat (`test_no_registration_backs_a_refutation` enforces this);
+- a countercase step ∃x ¬P x to ¬∀x P x (or ∃x P x to ¬∀x ¬P x) on the same P, which is classically an equivalence, or a step to the denial of a different proposition;
+- instantiations of a logical law (excluded middle, non-contradiction) into new subject matter, and consequences that use further reasoning or add content.
+
+## Registered (42)
+
+20 in the first pass, 22 after review (marked †).
 
 | argument | strong version | weak version |
 |---|---|---|
@@ -26,39 +37,72 @@ Audit of the verified results whose argument has exactly one premise and no comm
 | `f5b624bf` | Any two bearers of the selected perfection have comparable represented degrees | Each pair of selected-perfection bearers has a bearer at least as high in degree as both |
 | `2feb91b4` | Stipulated mathematical configuration component, not an attributed source reading: Some fi | Stipulated mathematical configuration component, not an attributed source reading: Every s |
 | `68ab085d` | Stipulated mathematical configuration component, not an attributed source reading: Some su | Stipulated mathematical configuration component, not an attributed source reading: Every m |
+| † `08e939d6` | Anything that comes to be has some distinct CAUSE_2 | Every generated thing that causes itself has a CAUSE_2 distinct from itself; that alternat |
+| † `f74369e3` | Some bearer of the selected perfection is at its greatest represented degree | Each pair of selected-perfection bearers has a bearer at least as high in degree as both |
+| † `9df4ccfb` | There exists an actual concrete root n of the profile selected relation at w, n exists at  | Some concrete individual exists at w and at every world accessible from w: the same rigid… |
+| † `6d38a20b` | There are an accessible history v and the SAME concrete individual c with a count-one caus | At least one individual exists at the selected world and at every world accessible from it |
+| † `20c5e9de` | What the restricted doctrine concedes: outside its domain it is not the case that whatever | The unrestricted measure doctrine fails: not everything that seems so to someone is true f |
+| † `b4eccbb4` | A being is being moved in a respect exactly when it is potentially so and that POTENCY_1,  | Nothing is moved except insofar as it is in POTENCY_1 to that toward which it is moved |
+| † `63a8deb7` | A being is in POTENCY_1 in a respect exactly when it is able to be so and is not actually  | Nothing is simultaneously in act and in POTENCY_1 in the same respect, though it may be so |
+| † `1bd97b66` | Being different, unequal, or a non-being does not by itself necessitate being in motion | Motion is not identical with difference, inequality, or non-being |
+| † `b7ed5289` | Every proposition is the object of some act of thought that affirms or denies it | Every object of thought is affirmed or denied: whatever is the object of some thought is t |
+| † `ea3f7bd5` | Every world has no nonempty directed present-support loop on the fixed necessary subtype | No world witnesses every edge of any nonempty union loop on the necessary subtype |
+| † `81094ad1` | Global normative reason nihilism | The view supplies no internal reason to adopt it of any represented kind |
+| † `53412308` | Reasons of a selected kind are absent | The view supplies no internal reason to adopt it of a selected kind |
+| † `56f129f6` | The profile's selected relation at w, restricted to candidates that are CONCRETE_6 and exi | The selected grounds relation restricted to the subtype of all actual CONCRETE_6 ancestors |
+| † `92ab7c94` | There exists ONE SAME selected actual concrete necessary root n retaining the PerfectRootA | GOD_4 exists: there is something that is GOD_4, in the sense of the GOD_4 of classical the |
+| † `b773170a` | There exists ONE SAME selected actual concrete necessary root n retaining the PerfectRootA | There is one and the same being that is God, is the only being to which the skeleton's IsG |
+| † `a9aefdc5` | There is an intelligent first mover moved by none that directs every natural body to an en | There is a first mover moved by none: something that moves another and is itself moved in  |
+| † `fccc5a79` | A candidate edge to the selected whole exists but no causer of that whole exists at the se | Exact negation of the existing UniverseHasExistingCause at the SAME Ontic/world/whole |
+| † `179378e2` | A relevant supplied mathematical fact lacks esse in re and productively causes its outcome | Disjunction of the explicit set, Form or mathematical selected-world productive/no-esse co |
+| † `faa38eda` | A selected-world no-esse capacity/productive countercase exists but none of the named prod | At the selected world one candidate lacks esse in re and either possesses causal power or… |
+| † `70a8a65e` | A selected-world productive cause is a supplied Form and lacks esse in re | Disjunction of the explicit set, Form or mathematical selected-world productive/no-esse co |
+| † `573a635d` | A selected-world productive cause is a supplied set and lacks esse in re | Disjunction of the explicit set, Form or mathematical selected-world productive/no-esse co |
+| † `86d41602` | The separately specified METAPHYSICAL_GROUNDING_2 relation is asymmetric | For the specified bearer, Form and quality, exemplification and participation do not groun |
 
-Effect on closure (computed on the corpus at the change): reach and the established and refuted sets are unchanged. Six weak versions that were closed by a proof from a merely closed strong sibling are open again, because closure sets a registration aside: the quinta via existential reading, the secunda via relevant-respect reading, the residual perfection transfer, John 20 commission independence, and the two NecessaryIndividual components (de dicto, individual contingency). Hume's no-mutual-cause maxim (weak version of the no-loops pair), previously closed `via_transcription`, is open again too. Each closes again by strength-order propagation once its strong version is established. Two strong versions (unique existence; strict order) now close, because the support cycle through their weak versions no longer forms.
+Effect on closure, computed against the tooling change (#1527) on the corpus at the change: reach, established and refuted sets are unchanged. Fourteen statements whose only closing proof was a backing argument from a closed but not established strong version are open again (they close by `via_strength` once the strong version is established), and three strong versions close because the support cycle through their weak versions no longer forms (distinct-cause principle, unique existence, strict order). The PR body has the computed `frontier-diff`.
 
-## Not registered: equivalent or restatement (9)
+## Not registered: equivalences (14)
 
 | argument | premise | conclusion | reason |
 |---|---|---|---|
-| `b7946610` | Necessary-being node, possibilist K reading: there is an actual root n that is God, the on | Necessary-being node, actualist K reading: there is an actual root n that is God, the one  | the reverse strengthens (actualist K to possibilist K) is already registered, so the pair is proved equivalent: record it with logically_equivalent_to, not strengthens |
-| `47a957e3` | An OPEN framework presentation of union well-foundedness: one world-independent map into a | The union of every admitted world's direct existential-support edges among fixed de re nec | converse of 1fb5fbc1 below: the two statements are proved equivalent |
-| `1fb5fbc1` | The union of every admitted world's direct existential-support edges among fixed de re nec | An OPEN framework presentation of union well-foundedness: one world-independent map into a | converse of 47a957e3: proved equivalent |
+| `b7946610` | Necessary-being node, possibilist K reading: there is an actual root n that is God, the on | Necessary-being node, actualist K reading: there is an actual root n that is God, the one  | proved in both directions (the reverse is registered as strengthens a436e461); now recorded as logically_equivalent_to |
+| `47a957e3` | An OPEN framework presentation of union well-foundedness: one world-independent map into a | The union of every admitted world's direct existential-support edges among fixed de re nec | converse of 1fb5fbc1; the pair is recorded as logically_equivalent_to |
+| `1fb5fbc1` | The union of every admitted world's direct existential-support edges among fixed de re nec | An OPEN framework presentation of union well-foundedness: one world-independent map into a | converse of 47a957e3; recorded as logically_equivalent_to |
 | `c5c9ff49` | Inside Lean logic, ¬. A logical theorem, not a philosophical independence thesis | Inside Lean logic, ∃ P: Prop, P. This asserts only a proof inhabiting some proposition; it | converse of ec000eff: two trivially true Lean-logic pilot statements, proved equivalent |
 | `ec000eff` | Inside Lean logic, ∃ P: Prop, P. This asserts only a proof inhabiting some proposition; it | Inside Lean logic, ¬. A logical theorem, not a philosophical independence thesis | converse of c5c9ff49: proved equivalent |
+| `57da203d` | Inside Lean logic, ¬. A logical theorem, not a philosophical independence thesis | Inside Lean logic, ∧ ¬. A bounded conjunction of the pilot witness and its logical consequ | P to P ∧ (a consequence of P): equivalent |
 | `20920247` | Open premise, the fuller nominal profile under the adopted component-remoteness reading: t | Sense bridge GOD_1 to GOD_4: what meets the full description is the God of classical theis | converse of b7e2768a: proved equivalent |
 | `b7e2768a` | Sense bridge GOD_1 to GOD_4: what meets the full description is the God of classical theis | Open premise, the fuller nominal profile under the adopted component-remoteness reading: t | converse of 20920247: proved equivalent |
-| `0ff5d4a7` | The esse of every CREATURE_1 is received in some principle | The esse of every CREATURE_1 is received in some principle, sense-fixed | sense-fixed restatement of the same proposition (an equivalence or sense bridge, not a weakening) |
-| `efb88bdf` | Whatever is CREATURE_2 is CREATURE_1, sense-fixed | Whatever is CREATURE_2 (caused in being by another) is CREATURE_1 | sense-fixed restatement of the same proposition (an equivalence or sense bridge, not a weakening) |
+| `5d8b78ad` | Negation of the Scotist rival act and POTENCY_1 in same respect on the same InAct and InPo | Nothing is simultaneously in act and in POTENCY_1 in the same respect, though it may be so | ¬∃(A ∧ B) to ∀¬(A ∧ B): intuitionistically equivalent |
+| `e014720d` | No candidate changes in the SAME general Changes sense used by F3: no characteristic, qual | Exact negation of F3 SomethingChangesReading under the SAME general Changes dictionary | ∀¬P to ¬∃P: intuitionistically equivalent |
+| `7f236407` | Ash'arite occasionalist rival: things are moved to new states without being in POTENCY_1 t | Some actual moved tuple is not in POTENCY_1 in the SAME respect under the supplied… | definitionally equal declarations |
+| `da9890fc` | GOD_4 exists: there is something that is GOD_4, in the sense of the GOD_4 of classical the | The Catholic pilot affirms the existing skeleton’s GodExists predicate | definitionally equal declarations |
+| `f60704c5` | For each effect, any two incoming complete causes coincide | Each graph node has at most one immediate upstream predecessor | definitionally equal (left-uniqueness) |
+| `0ff50c59` | Some object is a source of the selected graph relation: it has no incoming cause-edge | The selected graph has at least one graph-relative source | definitionally equal (graph source) |
 
-## Doubtful, left unregistered (8)
+## Not registered: refutation arguments (3)
 
-Each could be argued a weakening; each fails the same-proposition test for the stated reason. Reopen one when a strength fork of the premise's thesis is recorded that the conclusion is a version of.
+Each is a weakening by the steps above, but its argument is a counted or countable refutation.
 
 | argument | premise | conclusion | reason |
 |---|---|---|---|
-| `6d38a20b` | There are an accessible history v and the SAME concrete individual c with a count-one caus | At least one individual exists at the selected world and at every world accessible from it | projection: forgets concreteness, accessible-history necessity and the cause role of a composite count-cause witness; the weak statement is a component, not a weaker version of the count-cause thesis |
-| `9df4ccfb` | There exists an actual concrete root n of the profile selected relation at w, n exists at  | Some concrete individual exists at w and at every world accessible from w: the same rigid… | projection: forgets selected-rootness and uniqueness of a unique necessary root; the weak statement is a component claim rather than a weaker version of the uniqueness thesis |
-| `a9aefdc5` | There is an intelligent first mover moved by none that directs every natural body to an en | There is a first mover moved by none: something that moves another and is itself moved in  | drops intelligence and direction (Fifth Way content) to reach the First Way conclusion; a cross-argument identification rather than a strength fork of one thesis |
-| `10d955b0` | Witness-local Fifth Way bundle | There is a first mover moved by none: something that moves another and is itself moved in  | from a composite Fifth Way bundle to the First Way conclusion; different thesis |
-| `f74369e3` | Some bearer of the selected perfection is at its greatest represented degree | Each pair of selected-perfection bearers has a bearer at least as high in degree as both | existence of a greatest bearer and directedness are different order properties, not versions of one proposition (contrast the comparability pair `f5b624bf`, registered) |
-| `a161fd71` | One actual concrete root at w directly grounds every other actual concretum in the SAME se | Some actual concrete root of the selected grounding relation exists at w, and every actual | common direct grounding to uniqueness of the root is a derived consequence with new content (uniqueness), not a weakening of one claim |
-| `0ff50c59` | Some object is a source of the selected graph relation: it has no incoming cause-edge | The selected graph has at least one graph-relative source | restatement of graph sourcehood in graph-relative vocabulary; likely equivalent rather than strictly weaker |
-| `c1ab1c3b` | Accidental mover coverage supplies a per-se mover | The finite mover fork supplies a per-se mover | from one branch's coverage to the soundness of a three-branch fork: a case-analysis consequence |
+| `61d691f0` | A being is being moved in a respect exactly when it is potentially so and that POTENCY_1,  | Negation of the Ash'arite rival moved without POTENCY_1 on the same MovedIn and InPotency: | backs the refutes relation against the Ash'arite rival (c2307406) |
+| `ac0ca8ad` | A being is in POTENCY_1 in a respect exactly when it is able to be so and is not actually  | Negation of the Scotist rival act and POTENCY_1 in same respect on the same InAct and InPo | backs the refutes relation against the Scotist rival (3ea60632) |
+| `fe175c53` | There are epistemic reasons: some agent has an epistemic reason to believe some content | Global normative reason denial fails in the given profile | backs the refutes relation against global normative nihilism (2fcbd634); registering it removed that counted refutation |
 
-## Not registered: Excluded-middle instances: the conclusion is a disjunction on new subject matter, an instantiation that changes subject matter (60)
+## Doubtful, left unregistered (6)
+
+| argument | premise | conclusion | reason |
+|---|---|---|---|
+| `a161fd71` | One actual concrete root at w directly grounds every other actual concretum in the SAME se | Some actual concrete root of the selected grounding relation exists at w, and every actual | common direct grounding to uniqueness of the root: the conclusion adds uniqueness derived from coverage, new content |
+| `10d955b0` | Witness-local Fifth Way bundle | There is a first mover moved by none: something that moves another and is itself moved in  | from a composite Fifth Way bundle to the First Way conclusion only through the bundle's internal implications |
+| `c1ab1c3b` | Accidental mover coverage supplies a per-se mover | The finite mover fork supplies a per-se mover | from one branch's coverage to the soundness of a three-branch fork: a case-analysis consequence |
+| `fbf6b3fe` | The fixed selected conjunction actually holds and fails at some accessible world | Some f belongs to S and satisfies the existing Contingent A w f: it holds actually and fai | joint contingency of a set to contingency of some member: needs reasoning about the set, not a weakening of one claim |
+| `0ff5d4a7` | The esse of every CREATURE_1 is received in some principle | The esse of every CREATURE_1 is received in some principle, sense-fixed | different predicates (creature to CREATURE_1-of-universal-cause): a sense bridge, not a weakening |
+| `efb88bdf` | Whatever is CREATURE_2 is CREATURE_1, sense-fixed | Whatever is CREATURE_2 (caused in being by another) is CREATURE_1 | different predicates (CREATURE_2 to CREATURE_1, sense-fixed): a sense bridge, not a weakening |
+
+## Not registered: excluded-middle instances into new subject matter (60)
 
 | argument | premise | conclusion |
 |---|---|---|
@@ -123,102 +167,79 @@ Each could be argued a weakening; each fails the same-proposition test for the s
 | `19d7b5a4` | Excluded middle as a general principle: every proposition either holds or does not hold | Either there is a first mover moved by none or there is none |
 | `06cd10d9` | Excluded middle as a general principle: every proposition either holds or does not hold | Logical rule template: for two indexed families of premise propositions and a common concl |
 
-## Not registered: Exact-negation or exact-failure restatements of a countercase: equivalent formulations of the same countercase, not weaker versions (15)
+## Not registered: countercase steps (classically equivalent) or denials of a different proposition (34)
 
 | argument | premise | conclusion |
 |---|---|---|
+| `e1d0d14b` | Some actual CONCRETE_AND_ABSTRACT_6 being is CONTINGENT_1 | Not every actual concrete being is NECESSARY_2 |
 | `5758bd1a` | A candidate edge to the selected whole exists but no causer of that whole exists at the se | Exact negation of the selected-whole-causer actuality policy |
+| `ba2e49db` | A natural-knowability move answers to shared reason and another natural-knowability move d | Both uniform interpretations fail: not every natural-knowability move is shared, and it is |
 | `e91ac9e8` | A selected-world no-esse capacity/productive countercase exists but none of the named prod | Exact negation of the explicit named-case coverage hypothesis, not an unspecified claim th |
 | `5c6e8ef2` | A substantive descriptive-role objection: an actual selected religious sentence does not r | Exact failure of the supplied local content/assertion/fact/truth characterization |
+| `a0230833` | A supplied method answers opposite truths correctly | Blanket formation insensitivity fails for the supplied states |
+| `31be64a6` | An actual defined move is endorsed by the practice own standards and another actual define | Both uniform endorsement profiles fail: not all defined moves are endorsed and it is not t |
 | `50c3aee7` | An actual selected religious sentence has the same apparent content assigned in both disco | Exact negation of the stronger analyst local-plus-invariant profile, on the same… |
 | `1ed3a9ca` | An actual selected religious sentence has the same apparent content assigned in both disco | Exact negation of matched-content religious truth invariance on the same supplied profile |
+| `24c24419` | An actual supplied union/communication/same-act tuple fails canonical reception for the SA | The universal same-act communication-to-canonical-reception transfer fails in this profile |
+| `e393076d` | An in-scope cognitively meaningless content has a negation that does not entail some obser | V2 fails to calibrate the supplied cognitive-meaning predicate on the supplied scope |
 | `4a87de05` | Each being can not-be, yet common absence is not possible under the SAME supplied semantic | Exact negation of the original AllCanNotBeThenNothingPossibleReading on the SAME profile |
 | `ecc4dc17` | Exact failure of the supplied local content/assertion/fact/truth characterization | Exact negation of the two-profile local comparison menu, not of all philosophical… |
 | `9dcd13c2` | Jesus gave or promised none of the powers in the unchanged governing table | Exact negation of commission reports go back to jesus on the same Commissioning: not both… |
-| `e014720d` | No candidate changes in the SAME general Changes sense used by F3: no characteristic, qual | Exact negation of F3 SomethingChangesReading under the SAME general Changes dictionary |
+| `6731cbe4` | Some POTENCY_3 capacity is retained while exercised | Not everything in act in a respect lacks the POTENCY_3 capacity for it |
 | `cba6df93` | Some actual moved tuple is not in POTENCY_1 in the SAME respect under the supplied… | Exact negation of the original moved-only-as-in-POTENCY_1 universal in the SAME dictionary |
 | `25f9d224` | Some actual opiner of a supplied content is not moved in the SAME asOpinion respect demand | Exact negation of the old OpiningIsBeingMovedReading under the SAME MovedIn, Opines and as |
+| `2212f5d4` | Some being before which nothing is in time is in POTENCY_1 in some respect, as in the Nigh | The temporal branch fails: it is not the case that whatever is in POTENCY_1 in a respect h |
 | `34cc3a4b` | Some candidate accepted by the supplied judgment is false at the designated arrangement | Exact negation of the old CompleteRequiresSelection on the SAME arrangement and supplied a |
 | `de596c5f` | Some candidate accepted by the supplied judgment is false at the designated arrangement | Exact negation of the accepted-candidate truthfulness policy under the SAME arrangement an |
-| `d516346b` | At the same designated arrangement a and supplied complete-explanation judgment, some acce | Exact negation of the old CompleteRequiresSelection on the SAME arrangement and supplied a |
-| `fccc5a79` | A candidate edge to the selected whole exists but no causer of that whole exists at the se | Exact negation of the existing UniverseHasExistingCause at the SAME Ontic/world/whole |
-
-## Not registered: A countercase or rival refutes a universal or uniform thesis: the conclusion denies a different proposition (24)
-
-| argument | premise | conclusion |
-|---|---|---|
-| `61d691f0` | A being is being moved in a respect exactly when it is potentially so and that POTENCY_1,  | Negation of the Ash'arite rival moved without POTENCY_1 on the same MovedIn and InPotency: |
-| `ac0ca8ad` | A being is in POTENCY_1 in a respect exactly when it is able to be so and is not actually  | Negation of the Scotist rival act and POTENCY_1 in same respect on the same InAct and InPo |
-| `ba2e49db` | A natural-knowability move answers to shared reason and another natural-knowability move d | Both uniform interpretations fail: not every natural-knowability move is shared, and it is |
-| `a0230833` | A supplied method answers opposite truths correctly | Blanket formation insensitivity fails for the supplied states |
-| `31be64a6` | An actual defined move is endorsed by the practice own standards and another actual define | Both uniform endorsement profiles fail: not all defined moves are endorsed and it is not t |
-| `24c24419` | An actual supplied union/communication/same-act tuple fails canonical reception for the SA | The universal same-act communication-to-canonical-reception transfer fails in this profile |
-| `e393076d` | An in-scope cognitively meaningless content has a negation that does not entail some obser | V2 fails to calibrate the supplied cognitive-meaning predicate on the supplied scope |
-| `2212f5d4` | Some being before which nothing is in time is in POTENCY_1 in some respect, as in the Nigh | The temporal branch fails: it is not the case that whatever is in POTENCY_1 in a respect h |
 | `7bdd5abb` | Some noncognitive member broadly tends to an end while no knowing intelligent member direc | The existing universal noncognitive-tending-needs-knowing-director principle fails under t |
 | `1d2e3da4` | Some single admitted quality has n pairwise numerically distinct Forms for every natural n | Numerical uniqueness of the Form for each admitted quality fails in this interpretation |
 | `7107a1f5` | Some subject causes a perfection in itself, as a subject causes its proper accidents from  | The perfection branch fails: it is not the case that nothing causes a perfection in itself |
 | `a78824b0` | Some supplied reasoning method clears the finite benchmark | Blanket finite benchmark unreliability fails |
 | `0a86321b` | Something changes, in the general sense of CHANGE_2: some thing changes in some characteri | McTaggart's bundle on change does not hold: it is not the case both that no event changes  |
 | `6b221edc` | Strong version: for every sentence, if it is meaningful, so is its negation | For any frame and meaningfulness predicate closed under negation, the V3 package fails |
-| `fbf6b3fe` | The fixed selected conjunction actually holds and fails at some accessible world | Some f belongs to S and satisfies the existing Contingent A w f: it holds actually and fai |
 | `4c359d1d` | The interpretation of the designated logical sentence holds under every endorsement profil | The strong global profile-variation thesis fails for the supplied interpretation |
-| `fe175c53` | There are epistemic reasons: some agent has an epistemic reason to believe some content | Global normative reason denial fails in the given profile |
 | `8e216377` | There are epistemic reasons: some agent has an epistemic reason to believe some content | Thin global epistemic nihilism fails |
 | `32b3030e` | Weak version: for every sentence, if its negation is meaningful, so is its double negation | For any frame and meaningfulness predicate closed under negation, the V1 package fails |
-| `20c5e9de` | What the restricted doctrine concedes: outside its domain it is not the case that whatever | The unrestricted measure doctrine fails: not everything that seems so to someone is true f |
 | `13f3a07e` | Über Gewißheit §341: whenever something is doubted, some sentence is exempt from doubt | Universal doubt does not hold: whoever wanted to doubt everything would not get as far as  |
+| `d516346b` | At the same designated arrangement a and supplied complete-explanation judgment, some acce | Exact negation of the old CompleteRequiresSelection on the SAME arrangement and supplied a |
 | `29a12596` | No meaningful content is about God or the higher under one supplied semantic profile | The exact meaningful-divine-arguability proposition fails under this same semantic/argumen |
 | `6a48955d` | The account offers its habit forecast as epistemically entitled | The blanket entitlement-denying reconstruction fails under the explicit premises of the re |
 | `26471216` | Half an altering or growing agent may cause no alteration or growth at all: in some case t | No proportional effect of half an altering or growing agent is guaranteed: it is not the c |
 
-## Not registered: Consequences with new content: the conclusion is a different proposition derived from the premise (definitions to principles, structural facts to corollaries, a bridge to its application) (73)
+## Not registered: consequences with further reasoning or new content (50)
 
 | argument | premise | conclusion |
 |---|---|---|
-| `b4eccbb4` | A being is being moved in a respect exactly when it is potentially so and that POTENCY_1,  | Nothing is moved except insofar as it is in POTENCY_1 to that toward which it is moved |
-| `63a8deb7` | A being is in POTENCY_1 in a respect exactly when it is able to be so and is not actually  | Nothing is simultaneously in act and in POTENCY_1 in the same respect, though it may be so |
 | `ff07829e` | A society counts as founded by GOD_4 as a teaching authority exactly when the supplied… | In the supplied profile, the existing envoy-founding bridge is equivalent to each Jesus-en |
 | `c0be361f` | Any two distinct things are comparable in being | A MAXIME_1 (maximal) being is MAXIME_3 (strictly greatest) in being |
-| `08e939d6` | Anything that comes to be has some distinct CAUSE_2 | Every generated thing that causes itself has a CAUSE_2 distinct from itself; that alternat |
 | `36a3a382` | At every world modally accessible from actuality, knowledge of the selected Moore conjunct | The selected Moore conjunction cannot be known at any world modally accessible from actual |
-| `1bd97b66` | Being different, unequal, or a non-being does not by itself necessitate being in motion | Motion is not identical with difference, inequality, or non-being |
 | `1fe8fd6f` | Being more in any perfection is asymmetric | A MAXIME_3 (strictly greatest) being is MAXIME_1 (maximal) in being |
 | `4271912d` | Each graph node has at most one immediate upstream predecessor | Any two finite upstream paths starting at one node can be extended upstream to a common no |
 | `b71e8264` | Every in-scope target has the explicit OBSERVATION_INDISTINGUISHABILITY_BARRIER_6 | No target in the independently supplied scope has a finite satisfiable observation proof |
 | `7651bcd6` | Every located set representative has a located representative of an actual strict member… | Every right-summand pure-set representative is unlocated in the supplied frame |
 | `857ce9c1` | Every performed doubt whether thought occurs is realized by an occurring thought episode | Every performed doubt that any thought occurs makes its doubted content false |
-| `b7ed5289` | Every proposition is the object of some act of thought that affirms or denies it | Every object of thought is affirmed or denied: whatever is the object of some thought is t |
-| `ea3f7bd5` | Every world has no nonempty directed present-support loop on the fixed necessary subtype | No world witnesses every edge of any nonempty union loop on the necessary subtype |
 | `afb096de` | For every x,y in the supplied fixed partial order, when y is not part of x an exact remain | Whenever x is not part of y, some part of x is disjoint from y, in the same supplied Mathl |
 | `45f01fbb` | For every x,y in the supplied fixed partial order, when y is not part of x an exact remain | For every nonempty family and every candidate u, Mathlib IsLUB family u iff the existing S |
 | `74c5fd65` | For the supplied family of Ontic interpretations, selected standpoint in each and arbitrar | The supplied arbitrary measure assigns equal values to the event that a bare NecessaryBein |
-| `81094ad1` | Global normative reason nihilism | The view supplies no internal reason to adopt it of any represented kind |
 | `3b5b2cc4` | Ground edges strictly increase a natural-number rank | No explanatory Ground edge has its reverse |
 | `abdb4f08` | Grounding stability bridge | Grounding candidate entails intervention candidate |
 | `820b7701` | If y is SIMPLY_PRIOR_1 to x, then x depends for its being on y and y does not so depend on | Nothing is prior to itself |
-| `57da203d` | Inside Lean logic, ¬. A logical theorem, not a philosophical independence thesis | Inside Lean logic, ∧ ¬. A bounded conjunction of the pilot witness and its logical consequ |
 | `468b4523` | Inside each world, the existing individuals with that world's Causes edges form an acyclic | Every actual individual in each world has a finite upstream path to an existing source or  |
 | `d5dc4a7f` | Inside each world, the existing individuals with that world's Causes edges form an acyclic | In every world with a finite actual carrier, each actual individual has its own finite ups |
 | `cea31899` | Joint model for the stated local theory | Joint theory does not entail falsum |
 | `16b2cead` | Moral statements have no truth value: they are not the kind of sentence that can be true o | No moral disagreement is a genuine contradiction: no one accepts and another rejects a mor |
 | `f9d6b089` | Moral statements have no truth value: they are not the kind of sentence that can be true o | No one is ever in error about a moral matter: no one accepts a moral sentence that has a t |
 | `4a020329` | N1, EXISTENCE_NATURALISM_1: at the selected world, everything that exists satisfies the th | Under occupant N1 in the explicitly constructed immanent-location frame, every existing… |
-| `5d8b78ad` | Negation of the Scotist rival act and POTENCY_1 in same respect on the same InAct and InPo | Nothing is simultaneously in act and in POTENCY_1 in the same respect, though it may be so |
 | `1563063f` | No predicate both holds and fails of the same being in the same respect | In the adopted sense POTENCY_1 to a respect is capacity for that respect without actually  |
 | `48d5e591` | Part-mediated event has a local patient-lifting bridge | Part-mediated internal motion has a distinct whole mover under lifting |
 | `17a1ceab` | Possibly, every contingent concrete thing comes to be in a history whose past has a beginn | Possibly, contingent concrete things are absent at a moment and present at a later one |
 | `43543f14` | Possibly, every contingent concrete thing comes to be in a history with a founded past | Possibly, contingent concrete things are absent at a moment and present at a later one |
-| `53412308` | Reasons of a selected kind are absent | The view supplies no internal reason to adopt it of a selected kind |
-| `6731cbe4` | Some POTENCY_3 capacity is retained while exercised | Some actual thing has the POTENCY_3 capacity for its act |
 | `bbbbdfc6` | Some actual CONCRETE_AND_ABSTRACT_6 being is CONTINGENT_1 | No act done at every accessible world strictly yields every actual concrete being |
 | `65880bb6` | Some actual CONCRETE_AND_ABSTRACT_6 being is CONTINGENT_1 | The route's world is not modally collapsed (some truth there is not NECESSARY_2) |
-| `e1d0d14b` | Some actual CONCRETE_AND_ABSTRACT_6 being is CONTINGENT_1 | Not every actual concrete being is NECESSARY_2 |
 | `d9df15d3` | Some occurring intense suffering could be prevented by any omniscient omnipotent being wit | In the supplied Rowe frame, existence of an omniscient, omnipotent, wholly good being woul |
 | `9f2b1c6c` | The existing Escape cut principle holds for the recorded actual-CONCRETE_6 existential-gro | The nonempty whole actual CONCRETE_AND_ABSTRACT_6 roster is not a borrowing trap |
 | `4387e732` | The existing union of selected world-local existential-support arrows between necessary co | Some rigid grade with no infinite ascent is ascended by support between NECESSARY_2 concre |
 | `676f4cc7` | The profile's selected relation at w, restricted to candidates that are CONCRETE_6 and exi | Some rigid grade with no infinite ascent is ascended by actual concrete grounding |
-| `56f129f6` | The profile's selected relation at w, restricted to candidates that are CONCRETE_6 and exi | The selected grounds relation restricted to the subtype of all actual CONCRETE_6 ancestors |
 | `beea9a72` | The rigidly necessary subtype is finite and nonempty; no actuality of this background is a | The union restricted to necessary individuals has a source or a nonempty directed TransGen |
 | `aeef6604` | The selected governing predicate on the existing nine powers matches the unchanged fixed… | The original fixed narrow institutional bridge holds iff the selected-criterion bridge hol |
 | `fb9440bd` | The selected governing predicate on the nine-power carrier includes the power to teach | The selected governing predicate does not coextend with the fixed narrow table |
@@ -231,18 +252,8 @@ Each could be argued a weakening; each fails the same-proposition test for the s
 | `87f32a9c` | Whatever is more a being than m has a higher represented degree of being | A MAXIME_2 (greatest-degree) being is MAXIME_1 (maximal) in being |
 | `edd8651b` | Whenever an actual concretum a grounds an actual concretum b at w, a is more in esse than  | For actual concreta a,b at the selected world, if b is maximal in the SAME supplied esse… |
 | `93cfbafa` | Whenever x is not part of y, some part of x is disjoint from y, in the same supplied Mathl | For every family and candidate in this fixed partial order, the existing Sum2 Fusion predi |
-| `f60704c5` | For each effect, any two incoming complete causes coincide | Each graph node has at most one immediate upstream predecessor |
-| `92ab7c94` | There exists ONE SAME selected actual concrete necessary root n retaining the PerfectRootA | GOD_4 exists: there is something that is GOD_4, in the sense of the GOD_4 of classical the |
-| `b773170a` | There exists ONE SAME selected actual concrete necessary root n retaining the PerfectRootA | There is one and the same being that is God, is the only being to which the skeleton's IsG |
-| `179378e2` | A relevant supplied mathematical fact lacks esse in re and productively causes its outcome | Disjunction of the explicit set, Form or mathematical selected-world productive/no-esse co |
-| `faa38eda` | A selected-world no-esse capacity/productive countercase exists but none of the named prod | At the selected world one candidate lacks esse in re and either possesses causal power or… |
-| `70a8a65e` | A selected-world productive cause is a supplied Form and lacks esse in re | Disjunction of the explicit set, Form or mathematical selected-world productive/no-esse co |
-| `573a635d` | A selected-world productive cause is a supplied set and lacks esse in re | Disjunction of the explicit set, Form or mathematical selected-world productive/no-esse co |
-| `7f236407` | Ash'arite occasionalist rival: things are moved to new states without being in POTENCY_1 t | Some actual moved tuple is not in POTENCY_1 in the SAME respect under the supplied… |
 | `5cc78212` | Disjunction of the explicit set, Form or mathematical selected-world productive/no-esse co | At the selected world one candidate lacks esse in re and either possesses causal power or… |
-| `da9890fc` | GOD_4 exists: there is something that is GOD_4, in the sense of the GOD_4 of classical the | The Catholic pilot affirms the existing skeleton’s GodExists predicate |
 | `392cb64b` | Intuitionism: excluded middle is not a law of logic. p ∨ ¬p may be asserted only when a pr | The supplied stage-indexed assertion policy does not assert every excluded-middle instance |
-| `86d41602` | The separately specified METAPHYSICAL_GROUNDING_2 relation is asymmetric | For the specified bearer, Form and quality, exemplification and participation do not groun |
 | `08dba28f` | What comes to be anew takes its origin from some INNOVATING_CAUSE_4 other than itself, sin | Anything that comes to be has some distinct CAUSE_2 |
 | `91a56014` | Any proposed first divisible interval of changing contains a proper subinterval in which c | There is no first extended time in which changing begins |
 | `fafc7d2c` | Any proposed first interval of coming to rest is self-defeating: if divisible, cessation a | There is no first extended interval in which coming to rest begins |

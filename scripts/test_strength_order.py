@@ -305,6 +305,15 @@ class StrengthValidationTest(unittest.TestCase):
         self.assertEqual(corpus.unregistered_weakening_warnings(arguments, RESULTS, relations, order), [])
         self.assertEqual(corpus.unregistered_weakening_warnings(ARGUMENTS, RESULTS, [], []), [])
 
+    def test_delta_forward_of_a_comparison_is_flagged(self) -> None:
+        later = {**relation("statement", "BASE", "strength_comparison", "STRONG"),
+                 "id": "REL-Z", "evidence_result_ids": {"delta_forward": "ARG-STRONG"}}
+        earlier = {**later, "id": "REL-A"}
+        warnings = corpus.unregistered_weakening_warnings(ARGUMENTS, RESULTS, [later, earlier], [])
+        # The lowest relation id is named, as in Rust.
+        self.assertEqual(len(warnings), 1)
+        self.assertIn("ARG-STRONG: is the delta_forward of strength_comparison REL-A from BASE to STRONG", warnings[0])
+
 
 class StrengthCorpusTest(unittest.TestCase):
     def test_registered_pairs_resolve(self) -> None:
@@ -319,6 +328,19 @@ class StrengthCorpusTest(unittest.TestCase):
             (legacy_uuid("statement", "STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-STRONG"), legacy_uuid("statement", "STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-WEAK")),
             pairs,
         )
+
+    def test_no_registration_backs_a_refutation(self) -> None:
+        # Closure sets a registration's backing argument aside, so registering
+        # the argument of a `refutes` relation would silently drop a counted
+        # defeat. A refutation concludes the denial of a recorded rival, not a
+        # weaker version of its premise; the 2026-11-12 audit leaves such
+        # arguments unregistered (docs/notes/strength-order-audit.md).
+        relations = [record for _, record in corpus.load_dir("relations")]
+        results = [record for _, record in corpus.load_dir("results")]
+        arguments = [record for _, record in corpus.load_dir("arguments")]
+        registrations = {entry["argument_id"] for entry in corpus.strength_order(relations, results, arguments)}
+        refutations = {relation["subject_id"] for relation in relations if relation["predicate"] == "refutes"}
+        self.assertEqual(sorted(registrations & refutations), [])
 
 
 if __name__ == "__main__":

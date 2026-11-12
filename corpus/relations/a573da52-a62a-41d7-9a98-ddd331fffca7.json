@@ -1,0 +1,11 @@
+{
+  "id": "a573da52-a62a-41d7-9a98-ddd331fffca7",
+  "label": "Other countercase strengthens the selected countercase",
+  "subject_kind": "statement",
+  "subject_id": "a94a02e3-5e86-59f6-aa17-ad7f7914c914",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "fd141661-3c09-55a2-a76a-f56b426ef839",
+  "verification_result_id": "4b01a06d-e8d4-57cd-bae3-93bd6e088030",
+  "note": "Strength registration (2026-11-12 audit): Same frame: drop the conjunct that no named case holds."
+}

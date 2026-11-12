@@ -7,5 +7,5 @@
   "object_kind": "statement",
   "object_id": "56f68b40-9737-59a0-8cac-5610980a1547",
   "verification_result_id": "207805c8-fc0b-53e9-bcc5-611e0b9bbe5f",
-  "note": "Same witness and world; the weak version drops only contingency. Strict: CONTINGENT-NODE-CONTROLS (on the one-world frame the world is inhabited and no being is contingent). The backing result is an assembly transcription."
+  "note": "Same witness and world; the weak version drops only contingency. No strictness result: CONTINGENT-NODE-CONTROLS states that no being is contingent on the one-world frame but not that its world is inhabited. The backing result is an assembly transcription."
 }

@@ -2240,6 +2240,111 @@ fn strength_matches(argument: Option<&&Obj>, strong: &str, weak: &str) -> bool {
     })
 }
 
+/// Python `unregistered_weakening_warnings` (2026-11-12): a verified
+/// one-premise argument that declares itself a weakening, or is the
+/// `implication` or `delta_forward` evidence of a `strength_comparison`,
+/// without a `strengthens` relation for its pair.
+fn unregistered_weakening_warnings<'a>(
+    arguments: &[&'a Obj],
+    results: &[&'a Obj],
+    relations: &[&'a Obj],
+) -> Vec<String> {
+    let all_arguments: HashMap<&str, &Obj> =
+        arguments.iter().map(|a| (text(a, "id"), *a)).collect();
+    let all_results: HashMap<&str, &Obj> = results.iter().map(|r| (text(r, "id"), *r)).collect();
+    let mut warnings = Vec::new();
+    let registered: HashSet<(&str, &str)> = relations
+        .iter()
+        .filter(|r| text(r, "predicate") == "strengthens")
+        .filter(|relation| {
+            let argument = string(relation, "verification_result_id")
+                .and_then(|id| all_results.get(id))
+                .and_then(|result| all_arguments.get(text(result, "argument_id")));
+            strength_matches(
+                argument,
+                text(relation, "subject_id"),
+                text(relation, "object_id"),
+            )
+        })
+        .map(|r| (text(r, "subject_id"), text(r, "object_id")))
+        .collect();
+    let verified_arguments: HashSet<&str> =
+        results.iter().map(|r| text(r, "argument_id")).collect();
+    // Python `STRENGTH_WEAKENING_ROLES`; the lowest relation id is named.
+    let mut comparisons: Vec<&Obj> = relations
+        .iter()
+        .copied()
+        .filter(|r| text(r, "predicate") == "strength_comparison")
+        .collect();
+    comparisons.sort_by_key(|r| text(r, "id"));
+    let mut compared: HashMap<&str, String> = HashMap::new();
+    for relation in comparisons {
+        for role in ["implication", "delta_forward"] {
+            let evidence = relation
+                .get("evidence_result_ids")
+                .and_then(|ids| ids.get(role))
+                .and_then(Value::as_str)
+                .and_then(|id| all_results.get(id));
+            if let Some(result) = evidence {
+                compared
+                    .entry(text(result, "argument_id"))
+                    .or_insert_with(|| {
+                        format!("the {role} of strength_comparison {}", text(relation, "id"))
+                    });
+            }
+        }
+    }
+    let mut weakening_arguments: Vec<&Obj> = arguments.to_vec();
+    weakening_arguments.sort_by_key(|a| text(a, "id"));
+    for argument in weakening_arguments {
+        let premises = strings(argument, "premise_statement_ids");
+        let id = text(argument, "id");
+        if !verified_arguments.contains(id)
+            || premises.len() != 1
+            || truthy(argument.get("commitment_statement_ids"))
+        {
+            continue;
+        }
+        let (strong, weak) = (premises[0], text(argument, "conclusion_statement_id"));
+        if registered.contains(&(strong, weak)) {
+            continue;
+        }
+        let why = if argument.get("weakening") == Some(&Value::Bool(true)) {
+            "declares weakening".to_owned()
+        } else if let Some(relation) = compared.get(id) {
+            format!("is {relation}")
+        } else {
+            continue;
+        };
+        warnings.push(format!(
+            "{id}: {why} from {strong} to {weak}, but no strengthens relation registers the pair; add one backed by this argument's result (#1017)"
+        ));
+    }
+
+    warnings
+}
+
+/// Python `validate_weakening`: `weakening: true` only on an argument with
+/// exactly one premise and no commitments.
+fn validate_weakening(path: &str, fields: &Obj) -> Result<(), String> {
+    let Some(weakening) = get(fields, "weakening") else {
+        return Ok(());
+    };
+    let premises = fields
+        .get("premise_statement_ids")
+        .and_then(Value::as_array)
+        .map_or(0, Vec::len);
+    if weakening != &Value::Bool(true)
+        || premises != 1
+        || truthy(get(fields, "commitment_statement_ids"))
+    {
+        return Err(format!(
+            "{path}: weakening must be true on an argument with exactly one premise and no commitments"
+        ));
+    }
+    Ok(())
+}
+
 /// The records `check_warnings` reads again.
 struct Loaded {
     statements: Vec<Record>,
@@ -2904,20 +3009,7 @@ fn validate(
     for argument in &arguments {
         let (path, fields) = (argument.path.as_str(), &argument.fields);
         // `weakening: true` declares a one-premise weakening (2026-11-12).
-        if let Some(weakening) = get(fields, "weakening") {
-            let premises = fields
-                .get("premise_statement_ids")
-                .and_then(Value::as_array)
-                .map_or(0, Vec::len);
-            if weakening != &Value::Bool(true)
-                || premises != 1
-                || truthy(get(fields, "commitment_statement_ids"))
-            {
-                return Err(format!(
-                    "{path}: weakening must be true on an argument with exactly one premise and no commitments"
-                ));
-            }
-        }
+        validate_weakening(path, fields)?;
         let Some(needed) = get(fields, "strong_version_needed") else {
             continue;
         };
@@ -3295,71 +3387,11 @@ fn check_warnings(root: &Path, loaded: &Loaded, files: &[(Vec<String>, PathBuf)]
         ));
     }
 
-    // unregistered_weakening_warnings (2026-11-12): a verified one-premise
-    // argument that declares itself a weakening, or is the implication of a
-    // strength_comparison, without a strengthens relation for the pair.
-    let registered: HashSet<(&str, &str)> = relations
-        .iter()
-        .filter(|r| text(r, "predicate") == "strengthens")
-        .filter(|relation| {
-            let argument = string(relation, "verification_result_id")
-                .and_then(|id| all_results.get(id))
-                .and_then(|result| all_arguments.get(text(result, "argument_id")));
-            strength_matches(
-                argument,
-                text(relation, "subject_id"),
-                text(relation, "object_id"),
-            )
-        })
-        .map(|r| (text(r, "subject_id"), text(r, "object_id")))
-        .collect();
-    let verified_arguments: HashSet<&str> = records
-        .results
-        .iter()
-        .map(|r| text(r, "argument_id"))
-        .collect();
-    let mut compared: HashMap<&str, &str> = HashMap::new();
-    for relation in relations
-        .iter()
-        .filter(|r| text(r, "predicate") == "strength_comparison")
-    {
-        let implication = relation
-            .get("evidence_result_ids")
-            .and_then(|ids| ids.get("implication"))
-            .and_then(Value::as_str)
-            .and_then(|id| all_results.get(id));
-        if let Some(result) = implication {
-            compared
-                .entry(text(result, "argument_id"))
-                .or_insert(text(relation, "id"));
-        }
-    }
-    let mut weakening_arguments: Vec<&Obj> = records.arguments.clone();
-    weakening_arguments.sort_by_key(|a| text(a, "id"));
-    for argument in weakening_arguments {
-        let premises = strings(argument, "premise_statement_ids");
-        let id = text(argument, "id");
-        if !verified_arguments.contains(id)
-            || premises.len() != 1
-            || truthy(argument.get("commitment_statement_ids"))
-        {
-            continue;
-        }
-        let (strong, weak) = (premises[0], text(argument, "conclusion_statement_id"));
-        if registered.contains(&(strong, weak)) {
-            continue;
-        }
-        let why = if argument.get("weakening") == Some(&Value::Bool(true)) {
-            "declares weakening".to_owned()
-        } else if let Some(relation) = compared.get(id) {
-            format!("is the implication of strength_comparison {relation}")
-        } else {
-            continue;
-        };
-        warnings.push(format!(
-            "{id}: {why} from {strong} to {weak}, but no strengthens relation registers the pair; add one backed by this argument's result (#1017)"
-        ));
-    }
+    warnings.extend(unregistered_weakening_warnings(
+        &records.arguments,
+        &records.results,
+        &records.relations,
+    ));
 
     // Unmet floor markings (Python `floor_reasons`).
     let claim_statement: HashMap<&str, &str> = records
@@ -4129,5 +4161,81 @@ mod tests {
         assert!(!profile_type("Nat 2"));
         assert!(lean_term("Foo.bar.0"));
         assert!(!lean_term("0.Foo"));
+    }
+    fn refs(v: &[Obj]) -> Vec<&Obj> {
+        v.iter().collect()
+    }
+
+    fn obj(value: serde_json::Value) -> Obj {
+        value.as_object().cloned().unwrap_or_default()
+    }
+
+    #[test]
+    fn weakening_needs_exactly_one_premise_and_no_commitments() {
+        let ok = obj(serde_json::json!({"premise_statement_ids": ["S"], "weakening": true}));
+        assert!(validate_weakening("a.json", &ok).is_ok());
+        let unmarked = obj(serde_json::json!({"premise_statement_ids": ["S", "T"]}));
+        assert!(validate_weakening("a.json", &unmarked).is_ok());
+        for bad in [
+            serde_json::json!({"premise_statement_ids": ["S"], "weakening": false}),
+            serde_json::json!({"premise_statement_ids": ["S", "T"], "weakening": true}),
+            serde_json::json!({"premise_statement_ids": ["S"], "weakening": true,
+                               "commitment_statement_ids": ["C"]}),
+        ] {
+            assert!(validate_weakening("a.json", &obj(bad)).is_err());
+        }
+    }
+
+    #[test]
+    fn unregistered_weakenings_are_flagged_from_explicit_fields() {
+        let arguments: Vec<Obj> = [
+            serde_json::json!({"id": "ARG-D", "premise_statement_ids": ["S"],
+                               "conclusion_statement_id": "W", "weakening": true}),
+            serde_json::json!({"id": "ARG-I", "premise_statement_ids": ["S"],
+                               "conclusion_statement_id": "V"}),
+            serde_json::json!({"id": "ARG-F", "premise_statement_ids": ["S"],
+                               "conclusion_statement_id": "DELTA"}),
+            serde_json::json!({"id": "ARG-PLAIN", "premise_statement_ids": ["S"],
+                               "conclusion_statement_id": "X"}),
+        ]
+        .into_iter()
+        .map(obj)
+        .collect();
+        let results: Vec<Obj> = ["D", "I", "F", "PLAIN"]
+            .iter()
+            .map(|k| obj(serde_json::json!({"id": format!("RES-{k}"), "argument_id": format!("ARG-{k}")})))
+            .collect();
+        let comparison = |id: &str| {
+            obj(
+                serde_json::json!({"id": id, "predicate": "strength_comparison",
+                "evidence_result_ids": {"implication": "RES-I", "delta_forward": "RES-F"}}),
+            )
+        };
+        let mut relations = vec![comparison("REL-Z"), comparison("REL-A")];
+        let warnings =
+            unregistered_weakening_warnings(&refs(&arguments), &refs(&results), &refs(&relations));
+        assert_eq!(warnings.len(), 3, "{warnings:?}");
+        assert!(warnings[0].starts_with("ARG-D: declares weakening from S to W"));
+        // The lowest relation id is named, as in Python.
+        assert!(warnings[1].starts_with(
+            "ARG-F: is the delta_forward of strength_comparison REL-A from S to DELTA"
+        ));
+        assert!(
+            warnings[2]
+                .starts_with("ARG-I: is the implication of strength_comparison REL-A from S to V")
+        );
+        // Registering a pair clears its warning; an unmarked argument never warns.
+        relations.push(obj(
+            serde_json::json!({"id": "REL-S", "predicate": "strengthens",
+            "subject_id": "S", "object_id": "W", "verification_result_id": "RES-D"}),
+        ));
+        let warnings =
+            unregistered_weakening_warnings(&refs(&arguments), &refs(&results), &refs(&relations));
+        assert_eq!(warnings.len(), 2);
+        assert!(
+            warnings
+                .iter()
+                .all(|w| !w.starts_with("ARG-D") && !w.starts_with("ARG-PLAIN"))
+        );
     }
 }
