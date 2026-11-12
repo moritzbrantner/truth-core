@@ -733,28 +733,49 @@ the intellect bridge and takes pure act from the `immutable` conjunct. It then
 applies `STMT-PURE-ACT-LIVES` (LIVING_2, itself
 derived from three open premises) and crosses to LIVING_1 by one explicit sense
 bridge restricted to pure act (`ad49ea00`: whatever is in potency in no respect
-and lives at some time lives). The restriction carries the motivation: without
-potency, life can neither begin nor end (q.9 a.1,
-`STMT-LIFE-BOUNDARY-REQUIRES-POTENCY`). The unrestricted bridge can fail for a
-being that lived once. The controls show that without the bridge a pure act can
-be LIVING_2 and not LIVING_1, and that the new route does not presuppose the
-intellect bridge.
+and lives at some time lives). The restriction carries part of the motivation.
+The open premise `STMT-LIFE-BOUNDARY-REQUIRES-POTENCY` says that without
+potency in the subject, life can neither begin nor end. Q.10 a.1 supports it only
+in the weaker form "not altogether immutable", and q.9 a.1 does not cover
+beginning or ceasing to live, since creation is not properly a change. That
+premise motivates only the step from some time to every time of the frame. The
+step from every time to the timeless LIVING_1 (sempiternal versus eternal,
+#979) rests on the bridge alone. The unrestricted bridge can fail for a being
+that lived once. The controls show that without the bridge a pure act can be
+LIVING_2 and not LIVING_1. They also show that the new route does not formally
+presuppose the intellect bridge. `LivesSomeTime` is a reducible definition, so
+LIVING_2 differs from a raw existential over `LivesAt` only nominally.
 
 The route does not reduce the open premises (computed: one support alternative
-added for the restated sufficiency; one bare premise added): one bare bridge (intellect gives
-life) is replaced by one bare sense bridge plus `STMT-PURE-ACT-LIVES`, which the
-eternity routes already use. What changes is the connection: living now rests on
-the root's derived pure act and q.18 a.3's account of life, not on an unanalysed
-step from intellect.
+added for the restated sufficiency; one bare premise added). One bare bridge
+(intellect gives life) is replaced by one bare sense bridge plus
+`STMT-PURE-ACT-LIVES`, which the eternity routes already use. What changes is
+the formal connection: living now follows from the derived pure act, not from
+the intellect conjunct. The independence from the intellect bridge is formal
+only. Q.18 a.3 grounds God's life in his being his own understanding, and
+`STMT-PURE-ACT-OPERATES` generalizes from God to every pure act, so the source
+warrant still runs through intellect.
 
-Objection audit for this route: no substantive objection identified to the
-instances used at the root. One scope point bears on the universal
-`STMT-PURE-ACT-OPERATES`: an immutable, causally inert being (an abstract
-object, if the domain has one) would have no potency and no operation. It does
-not reach the root, whose witness is actual and concrete; a concrete-restricted
-premise would suffice. Plotinus (the One as source of life, *Enn.* VI.7) is an
-unread lead that would need a sense bridge like the one for intellect. No claim
-states any premise of the route; q.18 a.3 supports three of them by relations.
+Objection audit for this route:
+
+- **Main warrant gap.** The generalization in `STMT-PURE-ACT-OPERATES` from God
+  (who is his own understanding, q.18 a.3 ad 2) to every pure act.
+- **Abstracta scope point.** An immutable, causally inert being (an abstract
+  object, if the domain has one) would have no potency and no operation. The
+  basis is the usual platonist view; no source is on file. A restriction to
+  concrete beings would suffice only for the root endpoint (`c0f4a346`), whose
+  witness is actual and concrete. That endpoint has no computed path to the
+  root. The route that reaches the root is the sufficiency bundle
+  (`5fbea2f5`), which quantifies over any being with the nine and assumes no
+  concreteness. There the premise would need restricting to beings with the
+  nine, or to beings with intellect. An intellect restriction would make the
+  route lean on intellect again and weaken its independence from the intellect
+  bridge.
+- **Plotinus.** The One as source of life (*Enn.* VI.7) is an unread lead that
+  would need a sense bridge like the one for intellect.
+
+No claim states any premise of the route; q.18 a.3 supports three of them by
+relations.
 
 On the full-list reading the warrant gap of the sufficiency premise is an exact
 list. In general it is the field interpretation, seven new bridges and the

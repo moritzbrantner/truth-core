@@ -20,11 +20,16 @@ passage from LIVING_2 to LIVING_1 is one explicit, open sense bridge, restricted
 to pure act: `PureActLifeAtSomeTimeIsLiving`. The restriction is what makes it
 a modest bridge. For a being that is in potency in some respect, life present
 at one time need not be its life without a time index (it may begin or cease).
-For a being in potency in no respect, a beginning or end of its life would be a
-change, which needs potency (q.9 a.1, and the corpus premise
-`STMT-LIFE-BOUNDARY-REQUIRES-POTENCY`), so its life at some time is not a
-temporary episode. That is the motivation, not a derivation: `Primitives.Lives`
-stays primitive and only this bridge constrains it here. The unrestricted
+For a being in potency in no respect, the open premise
+`STMT-LIFE-BOUNDARY-REQUIRES-POTENCY` (whatever begins or ceases to live is in
+potency in itself; q.10 a.1 co. supports only the weaker "is not altogether
+immutable", and q.9 a.1 does not cover beginning or ceasing to live) would make
+its life at some time not a temporary episode. That motivation covers only the
+step from some time to every time of the frame; the further step from life at
+every time to the timeless LIVING_1 (sempiternal versus eternal, #979) is not
+motivated by it and is carried by the bridge alone. `Primitives.Lives` stays
+primitive. `LivesSomeTime` is a reducible definition, so LIVING_2 is
+distinguished from a raw `∃ t, LivesAt g t` only nominally. The unrestricted
 version `LifeAtSomeTimeIsLiving` is recorded for comparison and is not used.
 
 Analyst formulations, attribution deferred. -/
@@ -38,8 +43,9 @@ open TruthCore.Causality.DeiFiliusAttributeField
 
 /-- Open sense bridge LIVING_2 → LIVING_1, restricted to pure act: whatever is in
 potency in no respect and lives at some time of the duration frame lives
-(timeless `Primitives.Lives`). Motivated by the impossibility of a beginning or
-end of life without potency; not derived. -/
+(timeless `Primitives.Lives`). Partly motivated by the open premise
+`STMT-LIFE-BOUNDARY-REQUIRES-POTENCY` (no beginning or end of life without
+potency), which covers only some time to every time; not derived. -/
 def PureActLifeAtSomeTimeIsLiving {Being Respect Time : Type}
     (InPotency : Being → Respect → Prop) (LivesAt : Being → Time → Prop)
     (D : Primitives Being) : Prop :=
