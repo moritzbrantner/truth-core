@@ -37,6 +37,7 @@ meaning = "New non-transcription conditional support option for stage one of the
 
 [[argument]]
 id = "Necessary concrete external cause, Euclidean at the selected world"
+definitions = ["5f4f8c56-51f8-43e2-8862-6e3152609c3c", "DEF-ACTUAL-MODAL-REFLEXIVITY", "DEF-CONTINGENCY-TOTALITY-EXTERNAL-CANDIDATE", "DEF-KANT-MODAL-CONTINGENCY", "DEF-KANT-MODAL-NECESSITY", "DEF-KANT-ONTOLOGICAL-MODEL", "DEF-MODAL-FIXTURE-FRAME", "DEF-NECESSARY-IF-EXISTENT-PROFILE", "DEF-NECESSARY-INDIVIDUAL-DOMAIN", "DEF-POSSIBLE-CAUSAL-OPPORTUNITY", "DEF-SCENARIO-NECESSARY-CONCRETE-AT"]
 theorem = "externalNecessaryConcrete"
 premises = ["Any two successors of the selected world are mutually accessible", "STMT-ACTUAL-MODAL-REFLEXIVITY", "8ea0321d-293e-5767-9ab6-dc270457ef52", "df89f0d2-c051-5859-aa80-5898ec5c0a65"]
 conclusion = "679eb3f7-b81c-5c0f-8072-29294269c162"

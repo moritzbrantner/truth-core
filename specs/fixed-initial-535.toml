@@ -6,6 +6,7 @@ results = "TruthCore.Results.Modal.FixedInitial535"
 [[statement]]
 id = "Fixed initial 535 joint controls"
 lean = "Controls"
+definitions = ["9f7c8d83-3d48-4c57-b5bb-625b01bedc51"]
 paraphrase = "Analyst finite joint tests on one Bool-world, Bool×Bool rigid roster: a populated rigid initial root coexists with later Boolean variation and constant description; a rotating initial root retains constant description and conditional origin preservation without any necessary bearer; changing the description removes qualitative sameness; a rigid initial root can have an existing distinct incoming ground at every world. No chance, complete metaphysical possibility, naturalness or root bridge is inferred."
 
 [[argument]]
@@ -20,6 +21,7 @@ meaning = "Joint nonvacuity and omission controls for issue 535; all conclusions
 [[statement]]
 id = "Fixed initial 535 rigid variable later branch"
 lean = "RigidBranch"
+definitions = ["9f7c8d83-3d48-4c57-b5bb-625b01bedc51"]
 paraphrase = "The explicit profile false false false jointly has a populated initial roster, sound distinct grounding endpoints, conditional origin preservation, rigid initial preservation, constant initial description and varied later states, with the SAME initial bearer (false,false) necessary. Existential grounding is empty in this profile; naturalness is an open interpretation, not an additional certified predicate."
 
 [[argument]]
@@ -34,6 +36,7 @@ meaning = "Exact joint finite branch for configuration comparison; no metaphysic
 [[statement]]
 id = "Fixed initial 535 propagation schema"
 lean = "Propagation"
+definitions = ["9f7c8d83-3d48-4c57-b5bb-625b01bedc51"]
 paraphrase = "For arbitrary supplied typed histories and accessibility, a populated sound rigidly preserved initial roster yields the SAME actual initial witness necessarily present. This elementary witness propagation is transcription, not independent warrant for modal inventory."
 
 [[argument]]
