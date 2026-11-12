@@ -1,0 +1,43 @@
+{
+  "id": "3f84f7c6-a41c-4bf6-9fc7-96c337cd0ef7",
+  "label": "Whatever has the nine is LIVING_2, from self-operation of what is moved in no respect",
+  "premise_statement_ids": [
+    "8f93d9cc-989e-4b96-9e6c-e7e819f28545",
+    "38aa1327-b28a-5ac8-b70d-6b2fdbedf554",
+    "4be9a4ac-699a-5adc-88d4-bbd958fa1576"
+  ],
+  "conclusion_statement_id": "280770e3-a40e-4611-a96d-9d65fec5b945",
+  "inference_ids": [
+    "4fda6d7a-b1db-458b-b96e-a4340945d539"
+  ],
+  "meaning": "A being g with the nine operates from itself (the weak operation premise). It is altogether immutable, so in potency in no respect; since nothing is moved except insofar as it is in potency (the Prima Via premise), it is moved in no respect. What operates from itself and is moved in no respect lives at some time of the duration frame (STMT-SELF-OPERATING-UNMOVED-LIVES, after q.18 a.3 co.). So g is LIVING_2. In Lean the registered pureActLives is applied on the beings with the nine, where its operation premise follows from the weak one. Operation is immanent operation, not motion (DISAMB-MOTION). Conditional consequence; all three premises stay open.",
+  "definition_ids": [
+    "885a98f3-cd54-41c5-89bc-25c341415890",
+    "1291944d-a8b2-54eb-899d-66bd5f8b4762",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4",
+    "7c64b499-6dba-5e03-bdf3-5acea95d8836",
+    "da5c0716-718e-5aaa-abec-95c9e93cac00",
+    "1d8890c0-afe2-5cdb-a400-0bbd4b79053d",
+    "42635e18-7288-5194-88b7-02dda6aa0477",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "d980bbd2-1a96-564c-bc0d-4065d7786715",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "a49e4cf1-ca4f-5519-9724-892af257cedb",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1",
+    "85f7f569-ab4d-514b-aa2c-cf75171ad105",
+    "58e0de99-6199-5851-8e03-381bca0d44f0",
+    "5f851204-5991-5e16-87f1-e8b3ed729708"
+  ],
+  "disambiguation_ids": [
+    "1f2d3b9b-0b6b-459c-8871-3f136ad6d78a",
+    "f561d4e4-ab8f-5d20-9926-d63a74df3b4e",
+    "205a39c3-915d-5fe4-8076-a9ff91329e08",
+    "9b16c72e-e8dc-5d69-88bf-0daf61ab2f9b",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "587c53cf-c2a8-51f6-b8c1-013e67756dc6",
+    "c0fda0ee-3508-5101-94ba-043e3eb28b0e",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "508617ab-cf24-5f3b-a387-64b3991359ec"
+  ]
+}

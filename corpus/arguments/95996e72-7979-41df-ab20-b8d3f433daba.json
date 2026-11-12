@@ -1,0 +1,35 @@
+{
+  "id": "95996e72-7979-41df-ab20-b8d3f433daba",
+  "label": "Whatever has the nine operates from itself, from every POTENCY_1-free being operating",
+  "premise_statement_ids": [
+    "45030701-91da-588f-b602-dca6c15e761a"
+  ],
+  "conclusion_statement_id": "8f93d9cc-989e-4b96-9e6c-e7e819f28545",
+  "inference_ids": [
+    "83cdaccc-df56-4a87-93e5-d617dcab61f1"
+  ],
+  "meaning": "Strength order registration: STMT-PURE-ACT-OPERATES (every pure act operates from itself) entails its nine-restricted version, since the altogether-immutable conjunct of the nine is by definition being in potency in no respect. Projection and application only; it establishes neither version.",
+  "definition_ids": [
+    "1291944d-a8b2-54eb-899d-66bd5f8b4762",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4",
+    "7c64b499-6dba-5e03-bdf3-5acea95d8836",
+    "da5c0716-718e-5aaa-abec-95c9e93cac00",
+    "1d8890c0-afe2-5cdb-a400-0bbd4b79053d",
+    "d980bbd2-1a96-564c-bc0d-4065d7786715",
+    "a49e4cf1-ca4f-5519-9724-892af257cedb",
+    "85f7f569-ab4d-514b-aa2c-cf75171ad105",
+    "58e0de99-6199-5851-8e03-381bca0d44f0",
+    "5f851204-5991-5e16-87f1-e8b3ed729708"
+  ],
+  "disambiguation_ids": [
+    "f561d4e4-ab8f-5d20-9926-d63a74df3b4e",
+    "205a39c3-915d-5fe4-8076-a9ff91329e08",
+    "9b16c72e-e8dc-5d69-88bf-0daf61ab2f9b",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "587c53cf-c2a8-51f6-b8c1-013e67756dc6",
+    "c0fda0ee-3508-5101-94ba-043e3eb28b0e",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "508617ab-cf24-5f3b-a387-64b3991359ec"
+  ]
+}

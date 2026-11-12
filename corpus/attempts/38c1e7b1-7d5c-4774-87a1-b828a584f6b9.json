@@ -1,0 +1,26 @@
+{
+  "id": "38c1e7b1-7d5c-4774-87a1-b828a584f6b9",
+  "label": "Weakest self-operation premises for the Dei Filius living route: restriction to beings with the nine",
+  "date": "2026-11-12",
+  "statement_ids": [
+    "45030701-91da-588f-b602-dca6c15e761a",
+    "1773079b-236a-5f7d-b1e9-fb8f23202341",
+    "8f93d9cc-989e-4b96-9e6c-e7e819f28545",
+    "280770e3-a40e-4611-a96d-9d65fec5b945",
+    "5fbea2f5-0446-4852-9bd4-74fd0878755f",
+    "c0f4a346-b265-4091-9d38-69c69582ea95",
+    "8d2ac441-9b89-45ee-b8f6-db3522e0bafa"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Follow-up to attempt 6683acc4 (PR #1477). Question: the weakest versions of STMT-PURE-ACT-OPERATES (every pure act operates from itself) and STMT-PURE-ACT-LIVES (every pure act is LIVING_2) that the root-reaching living route (result 08bf7a13 -> restated sufficiency 5fbea2f5) needs. That route uses them only at a being with the nine (NineSufficeForDeiFilius quantifies over exactly those), so the restriction chosen is to the nine (specs/dei-filius-living-nine-scope.toml, TruthCore/Causality/DeiFiliusLivingNineScope.lean, zero axioms). Registered weak siblings: 'Whatever has the nine operates from itself' (8f93d9cc, NineOperate) and 'Whatever has the nine is LIVING_2' (280770e3, NineLiveSomeTime), each with a strengthens relation backed by a sole-premise projection (e506a21c, 10fa2a80; the immutability conjunct is pure act) and strictness result 64165d34 (an inert pure act with no intellect, so without the nine, satisfies both weak versions and falsifies both strong ones). Derived: the weak life premise from the weak operation premise, STMT-SELF-OPERATING-UNMOVED-LIVES and the Prima Via motion premise (d3283aad, composing the registered pureActLives on the subtype of beings with the nine); the restated sufficiency from the weak life premise, the restricted sense bridge ad49ea00 and the other inputs of 08bf7a13 (bb1fc65d); and the Dei Filius root endpoint c0f4a346 likewise (78acb308; the root has the nine by projection, nineOfDeiFilius). strong_version_needed recorded on PURE-ACT-LIVES-FROM-SELF-OPERATION and the two eternity arguments (their conclusions quantify over every pure act). The 08bf7a13 and a159ecaf routes keep the strong version; corpus.py check warns about them, correctly. COST: the nine include HAS_INTELLECT_1, so the weak versions speak only of beings with intellect; the route no longer covers non-intellectual pure acts and its warrant runs through intellect as before. Formal independence from the intellect bridge 8d2ac441 is retained and slightly strengthened: controls part 4 makes the weak life premise and the sense bridge true where an intellectual pure act is not LIVING_1, so the route does not presuppose 8d2ac441 even restricted to pure acts. Sense mixing: controls part 5 (a being with the nine LIVING_2 and not LIVING_1). PREMISE COMPARISON (computed frontier-diff against origin/main 82fe6db73): two verified support alternatives added (280770e3 from three premises; 5fbea2f5 from the weak life premise); one bare premise added (8f93d9cc); open premises reaching the root 443 -> 444 because STMT-PURE-ACT-LIVES still reaches the root through the eternity routes. OBJECTION AUDIT (substantive objection standard): the abstract-object scope point against the strong version has no target in the weak versions (an abstract object lacks intellect and will). No substantive objection to either weak version identified. WARRANT AUDIT: no claim states either weak version and no supports relation is recorded for them; q.18 a.3 (claim 611be1f0) supports the strong versions by relations (God is his own understanding and his own living), and the weak operation premise is closer to that text. Attributed motivation only. No premise is established.",
+  "evidence": [
+    "e506a21c-751b-4053-ba4f-a6c7798b35c3",
+    "10fa2a80-f447-454b-9e88-0338e5c71aed",
+    "d3283aad-18eb-4a5c-b5de-26e055f097aa",
+    "bb1fc65d-25aa-4473-bba4-fb7d268b1da5",
+    "78acb308-db0d-4823-a26a-8eabb0bf9b15",
+    "64165d34-9103-4fbf-8d6a-0421768baf91"
+  ],
+  "blocker": "Not blocked. Next tests: an intellect-restricted middle version ('every pure act with intellect operates', weaker than the strong, stronger than the nine version) if the warrant through q.18 a.3 becomes the selected question; derive the weak operation premise from a typed account of intellect in act without potency (an intellect in potency in no respect is always actually understanding, and understanding is immanent operation, q.18 a.3 ad 1); a typed LIVING_1 under which the sense bridge could be derived or fail."
+}

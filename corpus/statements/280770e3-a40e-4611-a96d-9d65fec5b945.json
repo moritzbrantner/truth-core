@@ -1,0 +1,31 @@
+{
+  "id": "280770e3-a40e-4611-a96d-9d65fec5b945",
+  "label": "Whatever has the nine SIMPLE_4, PERFECT_2, INFINITE_1 attributes is LIVING_2",
+  "paraphrase": "Open premise, analyst formulation, unattributed; the weak version of STMT-PURE-ACT-LIVES. Whatever is simple, universally perfect, supremely good, the one GOD_4, infinite, altogether immutable (pure act), eternal, and has intellect and will lives at some time of the duration frame (LIVING_2, LivesSomeTime: its life is present at some time). Not LIVING_1: the passage to the timeless primitive Primitives.Lives is the separate restricted sense bridge 'Whatever is in POTENCY_1 in no respect and is LIVING_2 is LIVING_1'. Scoped exactly to what the restated sufficiency NineSufficeForDeiFilius quantifies over; strictly weaker than STMT-PURE-ACT-LIVES (Control.Controls part 2). Derived (nineLiveFromSelfOperation) from the weak operation premise, STMT-SELF-OPERATING-UNMOVED-LIVES and the Prima Via premise that nothing is moved except as in potency.",
+  "lean_declaration": "TruthCore.Causality.DeiFiliusLivingNineScope.NineLiveSomeTime",
+  "definition_ids": [
+    "85f7f569-ab4d-514b-aa2c-cf75171ad105",
+    "5f851204-5991-5e16-87f1-e8b3ed729708",
+    "58e0de99-6199-5851-8e03-381bca0d44f0",
+    "d980bbd2-1a96-564c-bc0d-4065d7786715",
+    "1d8890c0-afe2-5cdb-a400-0bbd4b79053d",
+    "da5c0716-718e-5aaa-abec-95c9e93cac00",
+    "1291944d-a8b2-54eb-899d-66bd5f8b4762",
+    "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4",
+    "7c64b499-6dba-5e03-bdf3-5acea95d8836",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "a49e4cf1-ca4f-5519-9724-892af257cedb",
+    "885a98f3-cd54-41c5-89bc-25c341415890",
+    "42635e18-7288-5194-88b7-02dda6aa0477"
+  ],
+  "disambiguation_ids": [
+    "205a39c3-915d-5fe4-8076-a9ff91329e08",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "587c53cf-c2a8-51f6-b8c1-013e67756dc6",
+    "f561d4e4-ab8f-5d20-9926-d63a74df3b4e",
+    "9b16c72e-e8dc-5d69-88bf-0daf61ab2f9b",
+    "c0fda0ee-3508-5101-94ba-043e3eb28b0e",
+    "508617ab-cf24-5f3b-a387-64b3991359ec",
+    "1f2d3b9b-0b6b-459c-8871-3f136ad6d78a"
+  ]
+}

@@ -92,6 +92,7 @@ public import TruthCore.Results.Causality.CountTemporalControls.Solution
 public import TruthCore.Results.Causality.CountTemporalNecessity.Solution
 public import TruthCore.Results.Causality.DefinitionDictionaryConnections.Solution
 public import TruthCore.Results.Causality.DeiFiliusAttributeField.Solution
+public import TruthCore.Results.Causality.DeiFiliusLivingNineScope.Solution
 public import TruthCore.Results.Causality.DeiFiliusLivingSelfOperation.Solution
 public import TruthCore.Results.Causality.DerivativeJointPower.Solution
 public import TruthCore.Results.Causality.DirectEsseGenusOmissionControl.Solution

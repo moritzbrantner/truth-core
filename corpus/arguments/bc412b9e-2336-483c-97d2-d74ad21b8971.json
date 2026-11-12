@@ -1,0 +1,20 @@
+{
+  "id": "bc412b9e-2336-483c-97d2-d74ad21b8971",
+  "label": "Controls for the nine-restricted self-operation premises, checked",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "a63f9def-b5e6-4c93-9120-9aa126ec923e",
+  "inference_ids": [
+    "1520b3ee-1570-4584-bd8e-934c54755e24"
+  ],
+  "meaning": "Strictness: an inert pure act without intellect (and so without the nine) satisfies both nine-restricted premises and falsifies STMT-PURE-ACT-OPERATES and STMT-PURE-ACT-LIVES, so the weak versions do not entail the strong ones. Nonvacuity: some being has the nine and lives at some time. Independence from the intellect bridge: the nine-restricted life premise and the restricted sense bridge hold where an intellectual pure act is not LIVING_1, so the route does not formally presuppose 'Whatever HAS_INTELLECT_1 lives', not even restricted to pure acts. Sense mixing fails without the bridge: a being with the nine can be LIVING_2 and not LIVING_1, so the weak life premise alone does not give the living conjunct. Model-witnessed facts about these interpretations only; the inert pure act shows where each strong version is needed, not that any being is such a pure act.",
+  "definition_ids": [
+    "885a98f3-cd54-41c5-89bc-25c341415890",
+    "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4",
+    "a49e4cf1-ca4f-5519-9724-892af257cedb",
+    "f91f5056-8a32-416b-b234-d0e78cd16ce8"
+  ],
+  "disambiguation_ids": [
+    "1f2d3b9b-0b6b-459c-8871-3f136ad6d78a"
+  ],
+  "sense_mixing_control": true
+}

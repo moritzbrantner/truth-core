@@ -849,12 +849,59 @@ Objection audit for this route:
   concreteness. There the premise would need restricting to beings with the
   nine, or to beings with intellect. An intellect restriction would make the
   route lean on intellect again and weaken its independence from the intellect
-  bridge.
+  bridge. Taken up below (weak versions): the restriction to the nine is used,
+  and its cost is stated there.
 - **Plotinus.** The One as source of life (*Enn.* VI.7) is an unread lead that
   would need a sense bridge like the one for intellect.
 
 No claim states any premise of the route; q.18 a.3 supports three of them by
 relations.
+
+**Weak versions (2026-11-12, `DeiFiliusLivingNineScope`, spec
+`specs/dei-filius-living-nine-scope.toml`, attempt `38c1e7b1`).** The
+root-reaching route uses its life premise at one kind of being only: a being
+with the nine. So the scope point is settled by restriction to the nine, the
+weakest version that suffices. Two weak siblings are registered under the
+strength order: whatever has the nine operates from itself (`8f93d9cc`, weak
+version of `STMT-PURE-ACT-OPERATES`), and whatever has the nine is LIVING_2
+(`280770e3`, weak version of `STMT-PURE-ACT-LIVES`). Each is entailed by its
+strong version, since the immutability conjunct is pure act. The converse fails:
+in the controls an inert pure act without intellect satisfies both weak versions
+and falsifies both strong ones. The weak life premise is derived from the weak
+operation premise, `STMT-SELF-OPERATING-UNMOVED-LIVES` and the Prima Via motion
+premise (`nineLiveFromSelfOperation`, which composes `pureActLives` on the beings
+with the nine). Both living routes are re-derived from it:
+`nineGiveDeiFiliusLivingFromNine` (a third bundle for `5fbea2f5`) and
+`deiFiliusRootLivingFromNine` (for `c0f4a346`; the root has the nine by
+projection). The abstract-object worry does not touch the weak versions, since
+such an object would lack the nine (intellect, will, causing every perfection
+of other things). Computed: one support alternative added for `5fbea2f5`; one
+bare premise added (the weak operation premise); open premises reaching the root
+443 to 444, because `STMT-PURE-ACT-LIVES` still reaches the root through the
+eternity routes, which need its universal form (`strong_version_needed` is
+recorded there and on `PURE-ACT-LIVES-FROM-SELF-OPERATION`). The `5fbea2f5`
+and `c0f4a346` routes of `6683acc4` stay registered with the strong version;
+`corpus.py check` warns about them, correctly, since the weak version suffices.
+
+The cost is that the nine include HAS_INTELLECT_1. The weak versions speak only
+of beings with intellect, so the route no longer covers non-intellectual pure
+acts. Its warrant runs through intellect, as before. The formal independence
+from the intellect bridge `8d2ac441` remains, and becomes slightly stronger: the
+controls make the weak life premise and the sense bridge true where an
+intellectual pure act is not LIVING_1. So the route does not presuppose the
+intellect bridge, not even restricted to pure acts.
+
+Objection audit of the weak versions: no substantive objection identified. The
+scope point against the strong version (an inert abstract pure act) has no
+target here, since an abstract object lacks intellect and will. No other
+mechanism by which a being with the nine could fail to operate from itself is
+on file, and none is supplied here. Warrant audit: no claim states either weak
+version, and no `supports` relation is recorded for them. Q.18 a.3 (claim
+`611be1f0`) supports the strong versions by relations: it says God is his own
+understanding and his own living. The weak operation premise is closer to that
+text than the strong one, since it is restricted to an intellectual first
+being. That is attributed motivation; the premise is not established. Unread
+lead: Aristotle, *Met.* XII.7 1072b26-30.
 
 On the full-list reading the warrant gap of the sufficiency premise is an exact
 list. In general it is the field interpretation, seven new bridges and the
