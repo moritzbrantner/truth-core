@@ -1,0 +1,16 @@
+{
+  "id": "3998da95-edf4-4c24-a6b8-5eb82c9582b7",
+  "label": "Underived NECESSARY_2 concretum, from necessity, closed collections, J1 and coverage (inference)",
+  "input_statement_ids": [
+    "b19ffd92-01bd-5c0b-9643-e7407137ea5e",
+    "aca3baa1-9be6-4720-a53d-22050e638561",
+    "dd41c165-129a-59d3-84ce-bd13c0944901",
+    "df42581f-5fff-4b5f-8b40-6e16d2b890f2",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
+  ],
+  "output_statement_id": "0bdcf366-29c7-5d45-b603-5c929dcad976",
+  "rule": "Reductio with excluded middle: the actual necessary concreta form a nonempty collection, closed under actual grounds by J1; a root among them would be underived at every admitted world by coverage",
+  "meaning": "The join's endpoint from a necessary concretum, the closed-collection condition, J1, coverage and excluded middle, without AGWF, J2 or reflexive access. The witness may differ from the given necessary concretum. Conditional consequence only.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

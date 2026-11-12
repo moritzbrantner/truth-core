@@ -37,6 +37,7 @@ meaning = "J1 (every concrete supporter, at any carrier world, of a concretum ne
 [[argument]]
 id = "Underived necessary concretum, from necessity, actual no contingent support and coverage"
 theorem = "underivedFromNecessityOfActualCoverage"
+strong_version_needed = { "STMT-ACTUAL-GROUNDING-WF" = "Not needed for this endpoint. This interface is retained for comparison with its original proof path; the weak version, the closed-collection condition (registered strengthens, strict by ClosedGroundingRoots Control.limitGrounder), suffices: ClosedGroundingRoots.underivedFromNecessityOfActualCoverageClosed proves the same endpoint from the same premises with it in place of well-founded actual grounding. That reduction establishes none of the remaining premises." }
 premises = ["STMT-NECESSARY-CONCRETE-AT", "STMT-ACTUAL-GROUNDING-WF", "Existing concrete supporters at the selected world of NECESSARY_2 concreta are NECESSARY_2", "A NECESSARY_2 concretum supported anywhere is supported by an actual concretum", "STMT-EXCLUDED-MIDDLE"]
 sense_bridges = [
   { term = "NECESSARY", from = "8c881fa6-2b9f-44be-a32a-c8ef29c13643", to = "7af298fb-a2c4-4239-919b-7685f2e1f67a", statement_id = "STMT-NECESSARY-CONCRETE-AT" },

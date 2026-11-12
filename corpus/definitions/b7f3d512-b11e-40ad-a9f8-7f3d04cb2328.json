@@ -1,0 +1,9 @@
+{
+  "id": "b7f3d512-b11e-40ad-a9f8-7f3d04cb2328",
+  "label": "Actual suppliers of actual concreta are concrete",
+  "term": "concreta supplied only by concreta",
+  "definition": "ActualSuppliersOfConcretaConcrete m w holds when every candidate existing at w that grounds an actual concretum at w in the selected relation is concrete. Ordinary meaning: within the selected direct relation, the being of actual concrete things is supplied only by concrete things. Example: a flame sustained by fuel. Counterexample (formal): Control.abstractSupplier, where an abstract item grounds every concretum. Distinguished from the stronger claim that concreta have no abstract explanation of any kind: grounds outside the selected relation are not constrained.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.ClosedGroundingRoots.ActualSuppliersOfConcretaConcrete",
+  "note": "Analyst bridge, attribution deferred (#310). It is the bridge under which the borrowed-reality principle yields closed-collection rootedness (closedRootedOfBorrowed). Rejected by views on which abstract items (forms, numbers, laws) sustain concreta; open premise."
+}
