@@ -4,6 +4,10 @@ Linked from [the modal spine handoff](modal-spine.md). Working root:
 `STMT-GOD-EXISTS` (8626f8a5). Nothing here establishes a premise; it records
 which registered solution-present arguments need which premises.
 
+The later [exact God-existence support formula](god-existence-support-formula.md)
+records the 2026-11-13 snapshot, its complete immediate disjunction and recursive
+support calculation. The dated audit below remains a historical snapshot.
+
 Audited main: `d98066db300d5b02c2062c2a55d622a237ace49b` (includes #1534
 and #1499). This is a dependency refresh, with no Lean edits or new source
 attributions. #1468 is outside this assignment. Shared conventions resolved at
