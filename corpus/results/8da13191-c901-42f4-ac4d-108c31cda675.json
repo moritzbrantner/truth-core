@@ -7,5 +7,5 @@
   "theorem": "TruthCore.Results.Causality.MetricBeginningArrival.possiblyFiniteDurationOfFirstMoment",
   "comparator_config": "results/8da13191-c901-42f4-ac4d-108c31cda675/comparator.json",
   "status": "solution-present",
-  "description": "Strength order between the two senses of B1 (linear time, any real clock): a possible beginning at a first moment is a possible beginning a finite time ago, because in linear time a past with a first moment has finite duration. The converse fails: MetricBeginningArrival control 2 (positive real times) satisfies B1 in sense BEGINS_2 and not in sense BEGINS_1. This is the only passage between the senses; it runs from BEGINS_1 to BEGINS_2. No premise is established."
+  "description": "Strength order between the two senses of B1 (linear time, any real clock): a possible populated history in which the time before every populated moment has a first moment is one in which that time is of finite duration, because in linear time a past with a first moment has finite duration. The converse fails: MetricBeginningArrival control 2 (positive real times) satisfies B1 in sense BEGINS_2 and not in sense BEGINS_1. This is the only passage between the senses; it runs from BEGINS_1 to BEGINS_2. No premise is established."
 }

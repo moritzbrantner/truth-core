@@ -22,34 +22,42 @@ fixes no sense of beginning, and the arrival's validity does not depend on one;
 the content of B1 and of the causal-opportunity premise B2 depends on the
 predicate supplied.
 
-**Two senses (disambiguation BEGINS).** Over a `History` with an order of
-moments, contingent concrete reality *begins* in history `v` when some
-contingent concrete individual is present at some moment of `v` and
+**Two typed senses (disambiguation BEGINS).** Both constrain the *time* before
+the populated moments of a history, not contingent reality itself. History `v`
+has a populated moment (some contingent concrete individual present) and
 
-* BEGINS_1 (`FirstMomentBeginningAt`): every moment at which a contingent
-  concrete individual is present in `v` has a past with a first moment
-  (`BegunComingToBe.BegunAt`); or
-* BEGINS_2 (`FiniteDurationBeginningAt`): every such moment has a past of
-  finite duration on the supplied clock (`MetricGrimReaper.MetricallyFinitePast`),
-  read with the physically privileged clock CLOCK_1: contingent concrete
-  reality began a finite time ago.
+* BEGINS_1 (`FirstMomentBeginningAt`): the time before every populated moment
+  of `v` has a first moment (`BegunComingToBe.BegunAt`); or
+* BEGINS_2 (`FiniteDurationBeginningAt`): the time before every populated
+  moment of `v` is of finite duration on the supplied clock
+  (`MetricGrimReaper.MetricallyFinitePast`); the intended clock is CLOCK_1.
+  With a bounded clock every past is finite and BEGINS_2 reduces to population.
 
 Examples. Discrete or continuous time with a first moment satisfies both. A
 populated history whose time is open below and of finite duration (the order
 and metric shape of standard FLRW cosmic time: the initial singularity is not a
 moment) satisfies BEGINS_2 and not BEGINS_1 (`Control.Certificate` 2). An
-endless succession of days satisfies neither (`Control.Certificate` 1).
-In linear time BEGINS_1 gives BEGINS_2 (`possiblyFiniteDurationOfFirstMoment`).
-Neither is the individual coming-to-be of `TemporalHistory.BeginsAt` (one
-individual present at `t` and absent before), nor an empty first state:
-BEGINS_2 says nothing about any empty moment.
+endless succession of populated days satisfies neither (`Control.Certificate`
+1). Non-examples showing that these are senses about time, not about the
+beginning of contingent reality: integer time, empty before `0` and populated
+from `0` on, satisfies neither, although contingent reality began a finite time
+ago; non-negative real time, empty at `0` and populated after it, satisfies
+BEGINS_1 although there is no first populated moment. A third sense, a first
+populated moment after emptiness (related to premise A3 of Arrival A), is not
+formalized here. In linear time BEGINS_1 gives BEGINS_2
+(`possiblyFiniteDurationOfFirstMoment`). Neither is the individual coming-to-be
+of `TemporalHistory.BeginsAt`, nor an empty first state.
 
 **The metric Scenario.** `finiteDurationScenario` instantiates the Scenario's
-beginning predicate with BEGINS_2; the possibility of a BEGINS_2 beginning
-(`PossiblyBeginsFiniteDuration`, B1 in sense BEGINS_2) and the causal
-opportunity for it (`FiniteDurationCausalOpportunity`, B2 in sense BEGINS_2)
-are separate statements from the parameter-sense B1 and B2, so the two senses
-cannot be exchanged silently.
+beginning predicate with BEGINS_2 and leaves its totality-cause relation a
+parameter. B1 in sense BEGINS_2 (`PossiblyBeginsFiniteDuration`) and B2 in
+sense BEGINS_2 (`FiniteDurationCausalOpportunity`) are separate statements from
+the parameter-sense B1 and B2, so the senses cannot be exchanged silently.
+Because the cause relation is unconstrained, B2 for any relation gives B2 for
+the relation that always holds (`trivialCauseOpportunity` in the results),
+and the arrival needs only the latter: the content B2 contributes is that,
+given B1, possibly a BEGINS_2 history contains an existing concrete individual
+outside the contingent totality. The cause conjunct does no logical work.
 
 Applicability of every definition below to reality remains OPEN.
 -/
@@ -66,27 +74,29 @@ open TruthCore.Causality.MetricGrimReaper
 open TruthCore.Causality.PossibleCauseOfContingency
 
 /-- BEGINS_1: in history `v` some contingent concrete individual is present at
-some moment, and every moment at which one is present has a past with a first
-moment. -/
+some moment, and the time before every moment at which one is present has a
+first moment. A constraint on time, not on when contingent reality began. -/
 def FirstMomentBeginningAt {W B T : Type} [Preorder T] (h : History W B T)
     (Concrete : B → Prop) (v : W) : Prop :=
   (∃ t, PopulatedAt h Concrete v t) ∧ ∀ t, PopulatedAt h Concrete v t → BegunAt t
 
 /-- BEGINS_2: in history `v` some contingent concrete individual is present at
-some moment, and every moment at which one is present has a past of finite
-duration on the clock `k`. -/
+some moment, and the time before every moment at which one is present is of
+finite duration on the clock `k`. A constraint on time, not on when contingent
+reality began. -/
 def FiniteDurationBeginningAt {W B T : Type} [Preorder T] (h : History W B T)
     (Concrete : B → Prop) (k : TimeClock T) (v : W) : Prop :=
   (∃ t, PopulatedAt h Concrete v t) ∧
     ∀ t, PopulatedAt h Concrete v t → MetricallyFinitePast k t
 
-/-- Possibly, contingent concrete reality begins in sense BEGINS_1. -/
+/-- B1 in sense BEGINS_1: possibly, a populated history in which the time
+before every populated moment has a first moment. -/
 def PossiblyBeginsFirstMoment {W B T : Type} [Preorder T] (h : History W B T)
     (Concrete : B → Prop) (w : W) : Prop :=
   ∃ v, h.ontic.frame.access w v ∧ FirstMomentBeginningAt h Concrete v
 
-/-- B1 in sense BEGINS_2: possibly, contingent concrete reality began a finite
-time ago. -/
+/-- B1 in sense BEGINS_2: possibly, a populated history in which the time
+before every populated moment is of finite duration on the clock `k`. -/
 def PossiblyBeginsFiniteDuration {W B T : Type} [Preorder T] (h : History W B T)
     (Concrete : B → Prop) (k : TimeClock T) (w : W) : Prop :=
   ∃ v, h.ontic.frame.access w v ∧ FiniteDurationBeginningAt h Concrete k v
@@ -108,10 +118,11 @@ def finiteDurationScenario {W B T : Type} [Preorder T] (h : History W B T)
   beginsContingency := FiniteDurationBeginningAt h Concrete k
   causesContingencyTotality := causes
 
-/-- B2 in sense BEGINS_2: if contingent concrete reality can begin a finite
-time ago, then in some accessible history it does so and some existing
-concrete individual, distinct from every contingent concrete individual there,
-stands in the supplied totality-cause relation there. -/
+/-- B2 in sense BEGINS_2: if some accessible history is a BEGINS_2 history with
+a contingent concrete individual, then some accessible history is one in which,
+moreover, some existing concrete individual, distinct from every contingent
+concrete individual there, stands in the supplied totality-cause relation. The
+relation is an unconstrained parameter: nothing makes it causal. -/
 def FiniteDurationCausalOpportunity {W B T : Type} [Preorder T] (h : History W B T)
     (Concrete : B → Prop) (k : TimeClock T) (causes : W → B → Prop) (w : W) : Prop :=
   CausalOpportunityAt (finiteDurationScenario h Concrete k causes) w
@@ -140,16 +151,19 @@ def openBelowSource : History Bool (Option Int) PosReal where
 (1) in the beginningless integer history `pivot` (identity clock) contingent
 concrete things are possibly present, and no accessible history begins in
 sense BEGINS_2;
-(2) in `openBelow` (positive real times, identity clock): B1 holds in sense
-BEGINS_2 and fails in sense BEGINS_1, the causal opportunity premise in sense
-BEGINS_2 fails for the empty totality-cause relation, and for every grounding
-relation no concrete individual is necessary at either world;
+(2) in `openBelow` (positive real times, identity clock): Euclidean access and
+reflexivity at `true` hold, B1 holds in sense BEGINS_2 and fails in sense
+BEGINS_1, the causal opportunity premise in sense BEGINS_2 fails for the empty
+totality-cause relation, and for every grounding relation no concrete
+individual is necessary at either world;
 (3) in `openBelowSource`, with `none` the totality cause at world `true`, B1
 and B2 in sense BEGINS_2, Euclidean access and reflexivity at `true` all hold,
 together with a necessary concrete individual at `true`. -/
 def Certificate : Prop :=
   (PossiblyPopulated pivot all 1 ∧ ¬ PossiblyBeginsFiniteDuration pivot all intClock 1) ∧
-  (PossiblyBeginsFiniteDuration openBelow all posClock true ∧
+  (ActualEuclidean.EuclideanAt openBelow.ontic.frame true ∧
+    NecessarilyUnderived.ActualReflexive openBelow.ontic true ∧
+    PossiblyBeginsFiniteDuration openBelow all posClock true ∧
     ¬ PossiblyBeginsFirstMoment openBelow all true ∧
     ¬ FiniteDurationCausalOpportunity openBelow all posClock (fun _ _ => False) true ∧
     (∀ G v, ¬ BruteFoundationBoundary.NecessaryConcreteAt ⟨openBelow.ontic, all, G⟩ v)) ∧

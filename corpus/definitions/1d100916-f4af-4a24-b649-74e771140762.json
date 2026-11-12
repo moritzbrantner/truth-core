@@ -1,6 +1,6 @@
 {
  "id": "1d100916-f4af-4a24-b649-74e771140762",
- "label": "BEGINS_3: a beginning of contingent concrete reality as a supplied, uninterpreted world predicate",
+ "label": "BEGINS_3: schematic placeholder, a supplied uninterpreted world predicate that fixes no sense",
  "term": "contingent concrete reality begins (supplied predicate)",
  "definition": "BEGINS_3. In PossibleCauseOfContingency, ContingencyBeginsAt s v holds when the Scenario's supplied predicate beginsContingency holds at the complete history v and some contingent concrete individual exists there. beginsContingency : World -> Prop is a field of the Scenario with no constraint: the Scenario has no times, so no first moment, duration, transition or earlier absence is part of the predicate. Every theorem stated over an arbitrary Scenario holds for every choice of it, including the constant True (used by the bruteOnly and mixed controls), BEGINS_1 or BEGINS_2 supplied over a history.",
  "basis": "stipulative",

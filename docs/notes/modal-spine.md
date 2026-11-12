@@ -289,17 +289,37 @@ its `beginsContingency` is an uninterpreted world predicate, which the existing
 controls set to `True`. The arrival holds for every predicate. Before this
 work, Arrival B concluded the Scenario statement `679eb3f7`, not
 `STMT-NECESSARY-CONCRETE-AT`, so B1 and B2 did not reach the root. The
-disambiguation BEGINS (`dc40914a`) separates three senses: BEGINS_1, every
-populated moment of the history has a past with a first moment; BEGINS_2, every
-populated moment has a past of finite duration, read with CLOCK_1 (an
-open-below FLRW-shaped past satisfies it and not BEGINS_1); BEGINS_3, the
-supplied Scenario predicate that B1 and B2 use as typed.
+disambiguation BEGINS (`dc40914a`) records three typed senses and names a
+fourth:
+
+- BEGINS_1: the time before every populated moment of the history has a first
+  moment.
+- BEGINS_2: that time is of finite duration on the supplied clock, CLOCK_1
+  intended. An open-below FLRW-shaped past satisfies it and not BEGINS_1; with a
+  bounded clock it reduces to population.
+- BEGINS_3: a schematic placeholder that fixes no sense, the Scenario predicate
+  B1 and B2 use as typed.
+- Not formalized: a first populated moment after emptiness, related to A3.
+
+BEGINS_1 and BEGINS_2 constrain *time*, not when contingent reality began.
+Integer time empty before 0 and populated from 0 on has contingent reality
+beginning a finite time ago, yet satisfies neither. Non-negative real time
+empty at 0 and populated after it satisfies BEGINS_1 with no first populated
+moment.
 
 | | Premises | Theorem | Status |
 |---|---|---|---|
-| B1 in sense BEGINS_2 (`951a2235`) | Metrically finite populated pasts (`4365c3c5`, the metric Reaper conclusion) and possible population (`faa1ff28`: some accessible history has a contingent concrete thing present at some moment) | `MetricBeginningArrival.possiblyBeginsFiniteDurationOfMetricallyFinite` | derivation; the possibility premise is OPEN and alone does not suffice (control 1) |
-| Stage-one conclusion | Euclidean access at the actual world (`1b1462e6`), F1, B1 and B2 in sense BEGINS_2 (`256b5bab`) | `necessaryConcreteOfFiniteDurationBeginning` | instantiation of `ActualEuclidean.externalNecessaryConcrete` at the Scenario whose predicate is BEGINS_2; B2 is needed (control 2: B1 and the frame hold, B2 and the conclusion fail); the bundle is satisfiable (control 3) |
-| Possibly a necessary concrete being (`d2d7cf61`) | B1 and B2 in sense BEGINS_2 | `possiblyNecessaryOfFiniteDurationOpportunity` | instantiation of `ExternalCandidateNecessity`; no frame premise |
+| B1 in sense BEGINS_2 (`951a2235`) | Metrically finite populated pasts (`4365c3c5`, the metric Reaper conclusion) and possible population (`faa1ff28`: some accessible history has a contingent concrete thing present at some moment) | `MetricBeginningArrival.possiblyBeginsFiniteDurationOfMetricallyFinite` (result `22dbb73a`) | derivation; the possibility premise is OPEN and alone does not suffice (control 1) |
+| Stage-one conclusion | Euclidean access at the actual world (`1b1462e6`), F1, B1 and B2 in sense BEGINS_2 (`256b5bab`) | `necessaryConcreteOfFiniteDurationBeginning` (`8f77abb0`) | instantiation of `ActualEuclidean.externalNecessaryConcrete` at the Scenario whose predicate is BEGINS_2; B2 is needed (control 2: the frame premises and B1 hold, B2 and the conclusion fail); the bundle is satisfiable (control 3) |
+| Possibly a necessary concrete being (`d2d7cf61`) | B1 and B2 in sense BEGINS_2 | `possiblyNecessaryOfFiniteDurationOpportunity` (`54bf1664`) | instantiation of `ExternalCandidateNecessity`; no frame premise |
+
+Controls: `controls` (`ebf324e3`); strength order: `8da13191`. B2's
+totality-cause relation is an unconstrained parameter. B2 for any relation
+gives B2 for the relation that always holds (`trivialCauseOpportunity`), and the
+arrival uses only that. So the content B2 adds to B1 is "possibly a BEGINS_2
+history contains an existing concrete individual outside the contingent
+totality". That is close to stipulating the possibility of the target. The
+label of `256b5bab` therefore names no cause.
 
 B1 in sense BEGINS_1 (`b58d1aac`) strengthens B1 in sense BEGINS_2 in linear
 time (`possiblyFiniteDurationOfFirstMoment`; strict by control 2). That is the
@@ -315,25 +335,48 @@ premise. Given the metric conclusion, every accessible populated history is a
 BEGINS_2 history (an analyst observation from the definitions, not
 registered). Under L, which the FLRW objection to begun pasts itself uses, a
 possible populated FLRW history gives B1 in sense BEGINS_2 with no Reaper
-premise (not formalized). The Reaper's contribution is interpretive: it makes
-the possible populated histories beginnings in a definite metric sense, the one
-in which a causal-opportunity principle for beginnings would apply to them.
+premise (not formalized). The Reaper's contribution is interpretive. It makes
+the possible populated histories BEGINS_2 histories, the sense in which a
+causal-opportunity principle for beginnings would apply to them if one were
+granted for BEGINS_2 histories. No warrant for such a principle is on file.
 
 Objection and warrant audit (Substantive Objection Standard):
 
 - **B1 in sense BEGINS_2.** No substantive objection identified: no recorded
-  argument says every possible populated history has a metrically infinite past.
-  The open Misner-type objection targets the clock choice (CLOCK_1), not this
-  step. The Reaper route inherits the undercutting objection to spaced
-  patchwork.
+  argument says that in every possible populated history the time before some
+  populated moment is metrically infinite. The open Misner-type objection
+  targets the clock choice (CLOCK_1), not this step. The Reaper route inherits
+  the undercutting objection to spaced patchwork.
 - **Possible population.** No substantive objection identified.
-- **B2 in sense BEGINS_2.** No positive warrant is on file. Attempt `169b007b`
-  records that ordinary causal aptitude and recombination of contingent
-  producers do not supply an external producer. Objection: an open-below past
-  has no first state to be caused. It has no target in the typed premise,
-  because the totality-cause relation has no temporal constraint. No
-  substantive objection is identified. The brute-beginning rival survives as a
-  model (control 2); that shows B2 is needed, not that it is false.
+- **B2 in sense BEGINS_2.** No positive warrant is on file. The reviewed
+  2026-11-11 audit of the parameter-sense premise applies unchanged
+  ([positive modal causal opportunity](causal-temporal-rival-coverage.md#positive-modal-causal-opportunity-independent-warrant-audit-2026-11-11),
+  attempt `169b007b`):
+  - *Causal marker and beginning predicate do no work.* By
+    ExternalCandidateNecessity, calling the external candidate a cause supplies
+    no reason why it is possible. Here the cause relation is an unconstrained
+    parameter (`trivialCauseOpportunity`).
+  - *Source-availability defeater against the warrant.* Causal uniformity from
+    ordinary caused beginnings preserves the effect's intrinsic character, but
+    not a producer, once every contingent producer is removed from the
+    prehistory. A necessary producer would solve this, but its admissibility is
+    the question at issue.
+  - *Contingent-natural restriction rival, with motivation.* Ordinary causal
+    generalization is restricted to histories where bearers and conditions are
+    available. That restriction is motivated by the difference between
+    producing within an inventory and producing the first inventory. Its price
+    is an explanatory stop at an initial contingent inventory, or an intrinsic
+    account of it still to be specified.
+  - *First-instant objection to the warrant* (Grünbaum-type, analyst
+    formulation, not read from a source). An open-below finite past has no
+    instant at which contingent reality comes to be. A uniformity argument from
+    ordinary beginnings, which come to be at an instant after an earlier state,
+    therefore has no matching instance among BEGINS_2 histories that are open
+    below. This targets B2's warrant, not the typed premise, whose cause
+    relation has no temporal constraint.
+
+  The brute-beginning rival survives as a model (control 2). That shows B2 is
+  needed, not that it is false.
 
 **Known weak points of stage one**
 
@@ -498,7 +541,7 @@ the join and the root and act-of-being premises in
 | A3′b possible earlier-grounded history (H1 priced) | A never-generated contingent thing whose ground has no earlier presence | **excluded under the open premise A3′a** by `possiblyFoundedOfEarlierGrounds`. Survives when some ground is not earlier: simultaneous with a necessary ground; without a necessary being, only under non-well-founded grounding, whether simultaneous or later (`ComingToBeHorns.controls` 4, 5, 7). A3′a with A3′b already entails possible necessary being (`possiblyNecessaryOfEarlierGrounds`) | `possiblyFoundedOfEarlierGrounds` |
 | A3′w possible begun coming-to-be (weak version) | The same initial-state view | **excluded** by `BegunComingToBe.possibleContingentFreePast`; survives only if every accessible history containing a present contingent thing has a never-generated contingent thing or a beginningless past at every populated moment (histories without contingent things satisfy the rival trivially) | the premise itself |
 | Begun populated pasts (begun H2 denied) | A beginningless past at every populated moment: metrically infinite (endless days), or metrically finite and open below (no first moment, like `(0, t]`), as in standard FLRW cosmology; also empty beginningless time before a first event | **excluded under the open premises** coinitial Reaper pieces, coinitial Reaper patchwork and countable coinitiality, by `GrimReaperPatchwork.populatedPastsBegunOfPatchwork`; with A3′b this gives A3′w (`possiblyBegunOfEarlierGrounds`) without carrying the possibility of a necessary being (`GrimReaperPatchwork.controls` 3). Kept objections to the typed premises (order-theoretic, so blind to metric finitude): a populated FLRW history, which physical theory treats as possible, is excluded by them (a cost of these necessity claims, not of A3′w); and given the possibility of populated continuous time with a first moment, the Benardete parity makes them doubtful for open-below finite pasts. The metric case alone (an endless succession of days) is **excluded under the open spaced Reaper premises** by `MetricGrimReaper.populatedPastsMetricallyFiniteOfPatchwork`, which leave open-below finite pasts and continuous time with a first moment untouched (`MetricGrimReaper.controls` 2, 3); read with the privileged clock CLOCK_1; kept against them: an undercutting objection to their warrant (duration-blind recombination supports the refuted coinitial and unrestricted instances equally; answered only by duplication recombination, room permitting), the open Misner-type objection to the clock choice, and a rebutting objection conditional on L (law-consistent populated models with an infinite past, like the FLRW row). Metric finiteness reaches A3′w only through the open bridge from metrically finite to begun pasts, which FLRW denies. All premises remain OPEN | `populatedPastsBegunOfPatchwork`, `populatedPastsMetricallyFiniteOfPatchwork` |
-| B1 possible beginning | Contingent reality is beginningless in every possible history | survives in the typed (BEGINS_3) sense, where "begins" is an uninterpreted predicate. In sense BEGINS_2 (finite duration, CLOCK_1) the metric version of the rival (every possible populated history is metrically infinite) is **excluded under** the open spaced Reaper premises and possible population, by `MetricBeginningArrival.possiblyBeginsFiniteDurationOfMetricallyFinite` with `populatedPastsMetricallyFiniteOfPatchwork`. Its open-below finite version (FLRW) does not oppose BEGINS_2, only BEGINS_1 | `LocalFramePossibleExternalCause.necessaryConcrete`, `necessaryConcreteOfFiniteDurationBeginning` |
+| B1 possible beginning | Contingent reality is beginningless in every possible history | survives in the typed sense, where "begins" is the schematic placeholder BEGINS_3. BEGINS_1 and BEGINS_2 concern the time before populated moments, not the beginning of contingent reality, so the rival as stated is not their negation: a history empty for infinitely long and then populated has a beginningless time but not beginningless contingent reality. The negation of B1 in sense BEGINS_2 is: in every possible populated history the time before some populated moment is metrically infinite (CLOCK_1). That is **excluded under** the open spaced Reaper premises and possible population, by `MetricBeginningArrival.possiblyBeginsFiniteDurationOfMetricallyFinite` with `populatedPastsMetricallyFiniteOfPatchwork`. An open-below finite past (FLRW) satisfies BEGINS_2 and fails BEGINS_1. The sense "first populated moment after emptiness" is not formalized | `LocalFramePossibleExternalCause.necessaryConcrete`, `necessaryConcreteOfFiniteDurationBeginning` |
 | B2 causal opportunity | Beginnings are possible and always brute | survives, in every sense of "begins": in sense BEGINS_2 it is satisfied by the FLRW-shaped `MetricBeginningArrival.controls` 2. B2 with B1 contains the possibility of a necessary concrete being (`possiblyNecessaryOfFiniteDurationOpportunity`). No positive warrant is on file | `LocalFramePossibleExternalCause.necessaryConcrete`, `necessaryConcreteOfFiniteDurationBeginning` |
 | J1 supporters of the necessary are necessary | A necessary thing is supported somewhere by a contingent thing (replaceable support: a necessary whole sustained by constituents that might not have existed). The recorded models (sustained whole, `NecessaryWholeReplacement`) put the contingent support at the actual world. Two shapes: a necessary whole whose numerical identity survives replacement of its sustaining constituents, or a necessary concretum with a fixed essential supporter plus additional contingent (partial or redundant) contributors. No independent justification is recorded for either shape (`underived-essence-identity.md`, Replaceable support, items 2–3), so it is not a substantive objection | model survives against `checks` (shows J1 is needed there, not that J1 is doubtful). Against J1@w (weak version): compatible when the contingent support is only at other worlds (`Control.offWorldContingent`, with the join's conclusion); conflicts only in its actual-world form | `NecessaryConcreteUnderived.checks`; `NecessarySupportActualScope` |
 | J2 support among necessary things is well-founded | Two necessary things support each other. Two shapes: support in both directions within one world, or a direction that varies between worlds. A formal alternative only: no independent justification for its mechanism is recorded, so it is not a substantive objection (see Next investigations, item 2) | model survives against `checks` (shows J2 is needed there, not that J2 is doubtful); **excluded** with F1 and actual well-founded grounding by the no-novel-edge premise (`mutualSupportExcluded`). Compatible with the join's conclusion (`Control.rootedPair`), so, given the regress premises, it defeats that conclusion only when the actual necessary root is itself supported elsewhere, which denies coverage (a holder may instead reject a regress premise). The weaker discriminators (well-founded support at every world, no reversed pair) fail (`Control.rotatingTriangle`) | `NecessaryConcreteUnderived.checks`; `NecessarySupportCoverage` |

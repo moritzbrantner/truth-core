@@ -516,17 +516,24 @@ Built instead (2026-11-12): a connection to Arrival B, the possible-cause
 arrival (`MetricBeginningArrival`, spec
 `specs/modal-spine-metric-beginning-arrival.toml`). Its premise B1, "possibly,
 contingent concrete reality begins", fixes no sense of beginning as typed (an
-uninterpreted Scenario predicate). The disambiguation BEGINS separates a
-first-moment sense (BEGINS_1) from a finite-duration sense (BEGINS_2, read with
-CLOCK_1), which an open-below FLRW past satisfies. The metric conclusion with
-possible population gives B1 in sense BEGINS_2
+uninterpreted Scenario predicate, a schematic placeholder). The disambiguation
+BEGINS separates two senses that constrain the time before populated moments,
+not when contingent reality began: a first moment of that time (BEGINS_1), and
+finite duration of that time on the supplied clock, CLOCK_1 intended
+(BEGINS_2). An open-below FLRW past satisfies BEGINS_2. The metric conclusion
+with possible population gives B1 in sense BEGINS_2
 (`possiblyBeginsFiniteDurationOfMetricallyFinite`). Arrival B in that sense then
-gives the stage-one conclusion (`necessaryConcreteOfFiniteDurationBeginning`),
-so the metric Reaper reaches the root, with no bridge to begun pasts and no
-FLRW cost. The price is moved, not removed: the decisive premise is the
-causal-opportunity premise B2. With B1 it already contains the possibility of
-a necessary concrete being (`possiblyNecessaryOfFiniteDurationOpportunity`),
-and no positive warrant for it is on file. See
+gives the stage-one conclusion (`necessaryConcreteOfFiniteDurationBeginning`).
+So the metric Reaper reaches the root, with no bridge to begun pasts and no
+FLRW cost. B1 in sense BEGINS_2 is the cheap premise: under L (solutions of
+accepted laws are possible), the principle the FLRW objection itself uses, a
+possible populated FLRW history gives it without the Reaper (not formalized).
+The weight is carried by the causal-opportunity premise B2. Its cause relation
+is an unconstrained parameter, so with B1 it amounts to "possibly a BEGINS_2
+history contains an existing concrete being outside the contingent totality".
+That already gives the possibility of a necessary concrete being
+(`possiblyNecessaryOfFiniteDurationOpportunity`), and no positive warrant for B2
+is on file. See
 [the modal spine](notes/modal-spine.md) and attempt
 [`9d141c6c`](../corpus/attempts/9d141c6c-7979-4d8b-a1b4-7b35ebc9fb21.json).
 

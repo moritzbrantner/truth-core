@@ -1,7 +1,7 @@
 {
   "id": "b58d1aac-eff7-48c4-8cbe-7d310e386dd3",
-  "label": "Possibly, contingent reality began at a first moment (BEGINS_1)",
-  "paraphrase": "OPEN analyst premise B1 in sense BEGINS_1, attribution deferred: some history accessible from the selected world has a moment at which a contingent concrete individual is present, and in that history every moment at which a contingent concrete individual is present has a past with a first moment (some moment at or before it has no earlier moment). The first moment need not be populated; nothing is said about what is present at it or about a cause. 'Concrete' is the supplied Concrete parameter.",
+  "label": "Possibly, the time before every populated moment has a first moment (BEGINS_1)",
+  "paraphrase": "OPEN analyst premise B1 in sense BEGINS_1, attribution deferred: some history accessible from the selected world has a moment at which a contingent concrete individual is present, and in that history the time before every moment at which a contingent concrete individual is present has a first moment (some moment at or before it has no earlier moment). It constrains time, not when contingent reality began: integer time empty before 0 and populated from 0 on fails it, and non-negative real time empty at 0 and populated after it satisfies it with no first populated moment. The first moment need not be populated; nothing is said about what is present at it or about a cause. 'Concrete' is the supplied Concrete parameter.",
   "lean_declaration": "TruthCore.Causality.MetricBeginningArrival.PossiblyBeginsFirstMoment",
   "definition_ids": [
     "816c7ad5-354c-4b80-88f7-1b5ba3e5f446",

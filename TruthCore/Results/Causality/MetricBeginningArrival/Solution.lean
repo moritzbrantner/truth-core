@@ -51,6 +51,17 @@ theorem possiblyBeginsAtOfFiniteDuration {W B T : Type} [Preorder T]
   obtain ⟨⟨_, x, hx, hCont, _⟩, _⟩ := id hB
   exact ⟨v, hwv, hB, x, hx, hCont⟩
 
+/-- The totality-cause relation does no logical work: causal opportunity for
+any relation gives it for the relation that always holds. -/
+theorem trivialCauseOpportunity {W B T : Type} [Preorder T]
+    (h : History W B T) (Concrete : B → Prop) (k : TimeClock T)
+    (causes : W → B → Prop) (w : W)
+    (hOpportunity : FiniteDurationCausalOpportunity h Concrete k causes w) :
+    FiniteDurationCausalOpportunity h Concrete k (fun _ _ => True) w := by
+  intro hBegins
+  obtain ⟨v, hwv, hB, c, hc, he, _, hOutside⟩ := hOpportunity hBegins
+  exact ⟨v, hwv, hB, c, hc, he, trivial, hOutside⟩
+
 /-- Arrival B in sense BEGINS_2, with Euclidean access at the selected world
 only. Reuses `ActualEuclidean.externalNecessaryConcrete` on the metric
 Scenario; the grounding field of the conclusion's profile is an arbitrary
@@ -109,7 +120,8 @@ theorem openBelowSourceContingent (n : Int) :
 
 /-- Independence, nonvacuity and sense controls. -/
 theorem controls : Certificate := by
-  refine ⟨⟨⟨1, trivial, 0, pivotPopulated⟩, ?_⟩, ⟨?_, ?_, ?_, ?_⟩, ⟨?_, ?_, ?_, ?_, ?_⟩⟩
+  refine ⟨⟨⟨1, trivial, 0, pivotPopulated⟩, ?_⟩,
+    ⟨fun _ _ _ _ => trivial, trivial, ?_, ?_, ?_, ?_⟩, ⟨?_, ?_, ?_, ?_, ?_⟩⟩
   · rintro ⟨v, _, ⟨t, hPop⟩, hAll⟩
     exact intNotFinite t (hAll t hPop)
   · exact ⟨true, trivial, ⟨⟨1, one_pos⟩, 0, trivial, openBelowContingent 0, rfl⟩,
