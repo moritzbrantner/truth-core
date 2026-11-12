@@ -224,6 +224,17 @@ not erased by the fact that he has never undertaken care. In particular, a
 causal-responsibility norm might apply to his role in creating dependency, but
 the case does not stipulate that role merely from biological relatedness.
 
+**OPEN care-to-rescue applicability.** Collecting and feeding do not by
+themselves show that the threatened rescue harm concerns an interest entrusted
+to Ada. The packages therefore yield the stated reliance duties without yet
+yielding the same rescue reason. Hold reliance and urgency fixed and compare
+harm to an entrusted interest with an unrelated emergency; establish each
+package's scope before comparing rescue priority.
+
+The following urgency comparison is conditional on an additional shared
+applicability assumption: the rescue protects an interest within the undertaken
+care under each package. That assumption is not derived here.
+
 Now vary urgency. R, N and T as specified contain no conflict-resolution rule.
 In E, Ada's special duty and the equal impartial reasons do not alone entail a
 decisive choice; a rule giving the special duty tie-breaking force is additional.
