@@ -133,20 +133,30 @@ not which premises are philosophically weakest.
 ## Workloop state (coordinator handoff, updated 2026-11-12)
 
 Merged on main:
-- #1514: the classical-root projection to `STMT-GOD-EXISTS` and this map.
-- #1515: graded foundation. Actual well-founded grounding and J2 follow from support ascending a rigid `MoreIn esse` grade together with no infinite ascent. With a freely chosen grade this is equivalent to AGWF and J2, so it relocates the regress question and does not shrink it. See "Graded foundation" in [the spine note](modal-spine.md).
-- #1516: esse-cause bridge. The strength ladder runs `376d6a5a` ⇒ `d0fc96b7` ⇒ `4ccb319f` ⇒ `4a5a43a5`. The Platonist rival is relocated downstream, not defeated.
+- #1514: the classical-root projection to `STMT-GOD-EXISTS`, and this map.
+- #1515: graded foundation. Actual well-founded grounding and J2 follow from support ascending a rigid `MoreIn esse` grade together with no infinite ascent. With a freely chosen grade this is equivalent to AGWF and J2, so it relocates the regress question rather than shrinking it.
+- #1516: the esse-cause bridge and the strength ladder `376d6a5a` ⇒ `d0fc96b7` ⇒ `4ccb319f` ⇒ `4a5a43a5`. The Platonist rival is relocated, not defeated.
+- #1521: act priority is needed only at a first being. `FirstBeingActPriority` (61ad11f3) is derived from five premises: 8288ff1e, 3d99779b, ca07cae9, the bridge e0088de9 and e078f07b. With a4d3261a and 3b2d2d46 removed, 9 of 10 routes survive (2 of 10 before).
 
 Open:
 - #1518: preexistence without transfer.
-  - The bottleneck behind `376d6a5a` is "more such" (`d5a94eb1`), which is interderivable with distinct-cause transfer. Granting it restores all ten routes.
-  - A new root route (`5d2b7c6e`) survives removal of `376d6a5a`, through `cffad050`.
-  - Granting distinct-cause transfer (`2c0b9bd7`), which is strictly weaker than `376d6a5a`, restores all 11 routes. It is the smallest sufficient commitment found at this bottleneck. Granting the cause-of-being restriction `d0fc96b7` adds route 92ab7c94.
-  - Follow-ups: #1517 (preexistence consumers) and #1519 (consumers of `d5a94eb1`, and re-routing the four CONCRETE_6 routes through grades-at-being).
-- Act priority over potency (`a4d3261a`; only 2/10 routes survive its removal): in progress in a separate PR.
+  - "More such" (`d5a94eb1`) is interderivable with distinct-cause transfer (`2c0b9bd7`), given `c11369aa` and the reception bundle.
+  - Granting `2c0b9bd7`, which is strictly weaker than `376d6a5a`, restores all 11 routes.
+  - New route `5d2b7c6e`.
+  - Blocked by a reproducible progress-page browser test failure, under repair.
+- #1522: grades-at-being siblings of routes 72391d4d and 5e8e6054. With `376d6a5a` removed, 3 of 12 routes survive. Under semantic challenge.
+- In progress:
+  - the classical-root sibling that uses weak act priority;
+  - strength-order persistence (registrations count for reach, not closure; audit of 209 unregistered single-premise results);
+  - the warrant for act priority (Metaphysics Θ.8, including the eternity argument at 1050b);
+  - the warrant for no infinite ascent along grounding chains (#310).
 
-Next bridges, by computed impact:
-1. Re-route the CONCRETE_6 routes through grades-at-being (#1519).
-2. Act priority (`a4d3261a`) and the naming premise (`STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE`), each 2/10.
-3. A root-restricted ground for `d0fc96b7`, which would lift route 92ab7c94.
-4. #310: the independent warrant for no infinite ascent along grounding chains, on which the graded foundation rests.
+Warrant list (premises carrying most routes, ordered by structural impact; none has an independent warrant on file):
+1. `e078f07b` (an efficient cause is prior to its effect): removing it leaves 0 of 10 routes.
+2. `e0088de9` (causing a perfection in another is efficient causing): removing it leaves 1 of 10 routes on main.
+3. `2c0b9bd7` (distinct-cause transfer): granting it alone restores every route that `376d6a5a` carries.
+4. `8288ff1e` and `3d99779b` (a first being is in act; act plus potency makes a composite): 9 of 10 routes go through them once act priority is removed.
+5. No infinite ascent along grounding chains (#310): the graded foundation, the join and J2 rest on it.
+6. `STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE`: removing it leaves 2 of 10 routes.
+
+Follow-ups: #1517 and #1519 (consumers needing `strong_version_needed` or re-routing), the sense links of a4d3261a, c6d6379b and 2b25a78c, and the 1c154f2f sibling, which is blocked on an honest NECESSARY sense bridge.
