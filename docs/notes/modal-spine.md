@@ -130,6 +130,25 @@ finite past with no first moment exactly as they cover an infinite one.
 Founded populated pasts strictly strengthen begun ones (`populatedPastsBegunOfFounded`,
 converse fails in `zeno`).
 
+**The metric Reaper** (spec `specs/modal-spine-metric-grim-reaper.toml`,
+attempt [`5f4e157a`](../../corpus/attempts/5f4e157a-c495-4cf8-ae58-dcd321a3b5a6.json)).
+A real time clock (strictly increasing along the order) measures durations;
+*spaced* descents have every slot at least some fixed `δ > 0` long, and exist
+(in linear time) exactly below metrically infinite pasts.
+
+| | Premises | Theorem | Status |
+|---|---|---|---|
+| Metrically finite populated pasts | Spaced local pieces, spaced patchwork (linear time, one real clock for the frame) | `MetricGrimReaper.populatedPastsMetricallyFiniteOfPatchwork` | derivation; both OPEN. No separate countable-coinitiality premise: given a real clock (whose existence absorbs countable coinitiality), a metrically infinite past has a spaced descent by a theorem. Read with the privileged clock CLOCK_1. The spaced premises are weaker than the coinitial ones (strictly for local pieces and for the two premises jointly; patchwork alone not checked), and the conclusion strictly weaker than begun populated pasts (`spacedPiecesOfCoinitial`, `spacedPatchworkOfCoinitial`, `populatedPastsMetricallyFiniteOfBegun`; strictness by `MetricGrimReaper.controls` 2) |
+
+Reach: the conclusion is *no populated past is metrically infinite*, not *every
+populated past is begun*. For every register frame the spaced premises hold in a
+populated open-below finite past (positive real times, the FLRW shape) and in
+continuous time with a first moment (`MetricGrimReaper.controls` 2, 3), so, read
+with CLOCK_1, the FLRW and Benardete objections have no target in them; their
+warrant is a separate question (below). In control 2, metric
+finiteness and A3′b hold while A3′w fails, so the metric version reaches A3′w
+only through a further open bridge (below).
+
 **Objection audit (Substantive Objection Standard).** What would have to differ
 for the Reaper not to reach an arbitrary beginningless populated past? By the
 theorem, one of three things: (a) the past has no coinitial descent, which
@@ -166,21 +185,58 @@ patchwork premise is equivalent to "adjacent pieces are not all co-possible
 along any populated descent", so its warrant must come from the general
 recombination principle it instantiates; the registers carry no existential
 import, and the bridge from recombining concrete stations to the typed
-premises is not built. For a philosophical reading with no Lean counterpart yet
-(concrete stations duplicated with their rules, descents with slots of
-bounded-below length, so a *metrically infinite* past only), no substantive
-objection is identified: the parity transfers only under the diagnosis that
-gluing fails for every infinite descending arrangement, for which no
-independent reason is recorded; the global-compatibility reply of the #367
-audit has one acyclic candidate (given C, the accumulating Benardete chain) but
-none for non-accumulating descents; the unsatisfiable-pair diagnosis is a
-reading lead with no recorded mechanism. The earlier description of the Reaper
-as "one special case" that might not generalize named no difference and is
-withdrawn. Both Reaper premises remain OPEN: the pieces' possibility and their
-gluing are the disputed metaphysics, the arrangement's impossibility is
-mathematics. A metric version (stations in slots of at least a fixed length),
-whose conclusion would be "no populated metrically infinite past", is the next
-test. See [the Grim Reaper note](../causal-regress-and-grim-reapers.md#objection-audit-for-the-temporal-reaper-2026-11-12).
+premises is not built. The earlier description of the Reaper as "one special
+case" that might not generalize named no difference and is withdrawn. Both
+Reaper premises remain OPEN: the pieces' possibility and their gluing are the
+disputed metaphysics, the arrangement's impossibility is mathematics. See
+[the Grim Reaper note](../causal-regress-and-grim-reapers.md#objection-audit-for-the-temporal-reaper-2026-11-12).
+
+**Objection audit of the metric (spaced) premises.** Metric finiteness depends
+on the clock: `arctan` makes integer pasts finite, `ln t` makes FLRW pasts
+infinite. The disambiguation `CLOCK` (`725f3417`) separates CLOCK_1 (the
+physically privileged duration, cosmic or proper time) from CLOCK_2 (any
+order-preserving coordinate). The theorems hold for every clock, and the
+statements and verdicts are read with CLOCK_1. A real clock exists only for
+orders embedding in `ℝ`, so countable coinitiality is absorbed into the clock's
+existence, not eliminated.
+
+- **FLRW and the Benardete parity: no target, read with CLOCK_1** (controls 2,
+  3). The typed premises' scope excludes metrically finite pasts.
+- **Undercutting objection to the warrant of spaced patchwork: kept,
+  conditional on L or C.** Here L is the principle that solutions of accepted
+  laws are metaphysically possible. The only warrant on file is recombination,
+  and recombination is blind to durations: spaced and accumulating descents hold
+  the same pieces in order-isomorphic positions. So it warrants the coinitial
+  and unrestricted instances equally, and those exclude a populated FLRW past
+  and, given C, first-moment continua. The objection is answered only by a
+  duration-sensitive principle: recombination of duplicates of one possible
+  patch, room permitting, the spatiotemporal route of the #367 audit. That
+  principle warrants spaced arrangements only, and only in proper time. Its
+  countable generalization is not derived, and its bridge to the typed premise
+  is not built.
+- **Misner-type logarithmic time: kept as an objection to the clock choice,
+  open.** It is a lead recorded from memory, not read. Under `ln t` the FLRW
+  objection returns. The reply is that proper time is what the duplication route
+  needs.
+- **Rebutting objection: kept, conditional on L.** Accepted theories have
+  populated solutions with a metrically infinite past (the Einstein static
+  universe; eternal Newtonian motion). It is labelled like the FLRW row, which
+  rests on the same principle. It names no failing piece or gluing step.
+- **Unchanged:** the global-compatibility fork, the unsatisfiable-pair
+  diagnosis (no mechanism), and the parity's transfer to infinite pasts (an
+  unsupported suggestion).
+
+See [the metric Reaper](../causal-regress-and-grim-reapers.md#the-metric-reaper-2026-11-12).
+
+**Connection of the metric Reaper to the arrival (open).** Two plans, neither
+built: (1) a named bridge, *in every possible history a populated moment with a
+metrically finite past has a begun past*, which with the metric conclusion
+gives begun populated pasts and so A3′w with A3′b; this bridge is exactly what
+the FLRW objection denies, so the FLRW cost is isolated there rather than
+removed; (2) a metric arrival replacing the empty-moment step (A2 with A3) by a
+premise about histories whose populated past has finite duration; blocked
+because an open-below finite populated past has no empty moment, and no such
+premise has been formulated.
 
 Under A3′a, an H1 thing would be present at a moment with nothing earlier, so
 no ground of it can have been present before it. Rejecting A3′b's "before"
@@ -384,7 +440,7 @@ the join and the root and act-of-being premises in
 | A3′a founded populated pasts (H2 denied) | A beginningless succession of contingent things, each preceded and grounded by an earlier one; or a dense past with a first moment | **excluded under the open bridges** `9c314355` (state-causal finitism) and `20e6c7df` (precedence to causation), by `populatedPastsFoundedOfStateFinitism`; and **excluded under the open Reaper premises** (local pieces, patchwork) by `GrimReaperPatchwork.populatedPastsFoundedOfPatchwork`. Survives finitism alone, the precedence bridge alone, earlier grounding, Reaper patchwork alone and Reaper pieces alone (`ComingToBeHorns.controls` 1–3, `GrimReaperPatchwork.controls` 1–2). Dense time with a first moment survives the old Reaper assembly bridge and the joint finitism/precedence bundle, and is excluded by the two unrestricted Reaper premises together (`ComingToBeHorns.controls` 8, `GrimReaperPatchwork.controls` 3): that exclusion is a cost of the unrestricted premises, avoided by the coinitial ones | `populatedPastsFoundedOfStateFinitism`, `populatedPastsFoundedOfPatchwork` |
 | A3′b possible earlier-grounded history (H1 priced) | A never-generated contingent thing whose ground has no earlier presence | **excluded under the open premise A3′a** by `possiblyFoundedOfEarlierGrounds`. Survives when some ground is not earlier: simultaneous with a necessary ground; without a necessary being, only under non-well-founded grounding, whether simultaneous or later (`ComingToBeHorns.controls` 4, 5, 7). A3′a with A3′b already entails possible necessary being (`possiblyNecessaryOfEarlierGrounds`) | `possiblyFoundedOfEarlierGrounds` |
 | A3′w possible begun coming-to-be (weak version) | The same initial-state view | **excluded** by `BegunComingToBe.possibleContingentFreePast`; survives only if every accessible history containing a present contingent thing has a never-generated contingent thing or a beginningless past at every populated moment (histories without contingent things satisfy the rival trivially) | the premise itself |
-| Begun populated pasts (begun H2 denied) | A beginningless past at every populated moment: metrically infinite (endless days), or metrically finite and open below (no first moment, like `(0, t]`), as in standard FLRW cosmology; also empty beginningless time before a first event | **excluded under the open premises** coinitial Reaper pieces, coinitial Reaper patchwork and countable coinitiality, by `GrimReaperPatchwork.populatedPastsBegunOfPatchwork`; with A3′b this gives A3′w (`possiblyBegunOfEarlierGrounds`) without carrying the possibility of a necessary being (`GrimReaperPatchwork.controls` 3). Kept objections to the typed premises (order-theoretic, so blind to metric finitude): a populated FLRW history, which physical theory treats as possible, is excluded by them (a cost of these necessity claims, not of A3′w); and given the possibility of populated continuous time with a first moment, the Benardete parity makes them doubtful for open-below finite pasts. For a metrically restricted philosophical reading, with no Lean counterpart yet, no substantive objection is identified against a metrically infinite past. All premises remain OPEN | `populatedPastsBegunOfPatchwork` |
+| Begun populated pasts (begun H2 denied) | A beginningless past at every populated moment: metrically infinite (endless days), or metrically finite and open below (no first moment, like `(0, t]`), as in standard FLRW cosmology; also empty beginningless time before a first event | **excluded under the open premises** coinitial Reaper pieces, coinitial Reaper patchwork and countable coinitiality, by `GrimReaperPatchwork.populatedPastsBegunOfPatchwork`; with A3′b this gives A3′w (`possiblyBegunOfEarlierGrounds`) without carrying the possibility of a necessary being (`GrimReaperPatchwork.controls` 3). Kept objections to the typed premises (order-theoretic, so blind to metric finitude): a populated FLRW history, which physical theory treats as possible, is excluded by them (a cost of these necessity claims, not of A3′w); and given the possibility of populated continuous time with a first moment, the Benardete parity makes them doubtful for open-below finite pasts. The metric case alone (an endless succession of days) is **excluded under the open spaced Reaper premises** by `MetricGrimReaper.populatedPastsMetricallyFiniteOfPatchwork`, which leave open-below finite pasts and continuous time with a first moment untouched (`MetricGrimReaper.controls` 2, 3); read with the privileged clock CLOCK_1; kept against them: an undercutting objection to their warrant (duration-blind recombination supports the refuted coinitial and unrestricted instances equally; answered only by duplication recombination, room permitting), the open Misner-type objection to the clock choice, and a rebutting objection conditional on L (law-consistent populated models with an infinite past, like the FLRW row). Metric finiteness reaches A3′w only through the open bridge from metrically finite to begun pasts, which FLRW denies. All premises remain OPEN | `populatedPastsBegunOfPatchwork`, `populatedPastsMetricallyFiniteOfPatchwork` |
 | B1 possible beginning | Contingent reality is beginningless in every possible history | survives | `LocalFramePossibleExternalCause.necessaryConcrete` |
 | B2 causal opportunity | Beginnings are possible and always brute | survives | `LocalFramePossibleExternalCause.necessaryConcrete` |
 | J1 supporters of the necessary are necessary | A necessary thing is supported somewhere by a contingent thing (replaceable support: a necessary whole sustained by constituents that might not have existed). The recorded models (sustained whole, `NecessaryWholeReplacement`) put the contingent support at the actual world. Two shapes: a necessary whole whose numerical identity survives replacement of its sustaining constituents, or a necessary concretum with a fixed essential supporter plus additional contingent (partial or redundant) contributors. No independent justification is recorded for either shape (`underived-essence-identity.md`, Replaceable support, items 2–3), so it is not a substantive objection | model survives against `checks` (shows J1 is needed there, not that J1 is doubtful). Against J1@w (weak version): compatible when the contingent support is only at other worlds (`Control.offWorldContingent`, with the join's conclusion); conflicts only in its actual-world form | `NecessaryConcreteUnderived.checks`; `NecessarySupportActualScope` |
@@ -600,11 +656,15 @@ conditional investigations, not a mandatory first gate:
    bridge to "some earlier state". Done (2026-11-12): a patchwork vocabulary
    over accessible worlds (`GrimReaperPatchwork`) gives the Reaper genuine
    derivations of founded and begun populated pasts, and an H1 price for A3′w
-   that does not entail possible necessary being. Next for the Reaper: a metric
-   version (stations in slots of at least a fixed length) to separate
-   metrically infinite pasts from open-below finite ones, and a begun-past
-   counterpart of state-causal finitism. Try `BoundedPastResource.noUniformGrowth`
-   as an independent price on H2.
+   that does not entail possible necessary being. Done (2026-11-12): the metric
+   version (`MetricGrimReaper`) separates metrically infinite pasts from
+   open-below finite ones; it concludes metric finiteness, not begun pasts.
+   Next for the Reaper: read and record the duplication (room-permitting) recombination principle and Misner's logarithmic-time argument; weigh the bridge from metrically finite to begun
+   populated pasts against the FLRW objection, or formulate a metric arrival
+   that needs no empty moment; compare the warrant of law-consistency as a
+   guide to possibility with recombination (the recorded rebutting objection);
+   a begun-past counterpart of state-causal finitism. Try
+   `BoundedPastResource.noUniformGrowth` as an independent price on H2.
 2. For the rows marked "survives", look for commitments the rival's holder
    accepts that conflict with it. The join models depend on the support relation
    reversing direction between worlds, so an invariance premise is the first

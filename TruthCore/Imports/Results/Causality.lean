@@ -173,6 +173,7 @@ public import TruthCore.Results.Causality.MaximumDefinitions.Coverage.Solution
 public import TruthCore.Results.Causality.MaximumDefinitions.DirectedBridge.Solution
 public import TruthCore.Results.Causality.MaximumDefinitions.NamedElimination.Solution
 public import TruthCore.Results.Causality.MeinongianActuality.Solution
+public import TruthCore.Results.Causality.MetricGrimReaper.Solution
 public import TruthCore.Results.Causality.ModalNecessaryBeingActuality.Solution
 public import TruthCore.Results.Causality.ModalSenseSupport.Solution
 public import TruthCore.Results.Causality.MotionMapsBatch1.Solution

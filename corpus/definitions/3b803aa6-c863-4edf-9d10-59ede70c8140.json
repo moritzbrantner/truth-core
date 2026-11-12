@@ -1,0 +1,9 @@
+{
+ "id": "3b803aa6-c863-4edf-9d10-59ede70c8140",
+ "label": "Metrically finite populated pasts in every accessible history",
+ "term": "metrically finite populated past",
+ "definition": "PopulatedPastsMetricallyFinite h Concrete k w holds when, in every history v accessible from w, every moment t at which some contingent concrete individual is present has a metrically finite past on the clock k (the readings of moments at or before t are bounded below). In ordinary language: wherever a contingent thing is present in a possible history, only a finite duration of time lies before it. It allows a past with no first moment (open below, as in standard FLRW cosmology) and continuous time with a first moment; it excludes an endless succession of days before a populated moment.",
+ "basis": "stipulative",
+ "lean_declaration": "TruthCore.Causality.MetricGrimReaper.PopulatedPastsMetricallyFinite",
+ "note": "Analyst framework definition; attribution deferred. OPEN. Weak version of begun populated pasts in linear time (populatedPastsMetricallyFiniteOfBegun); the converse fails in an open-below finite past (MetricGrimReaper control 2). It does not give a moment with nothing earlier, so it does not by itself feed the A3 prime w derivation."
+}
