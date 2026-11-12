@@ -139,6 +139,7 @@ Open:
 - #1518: preexistence without transfer.
   - The bottleneck behind `376d6a5a` is "more such" (`d5a94eb1`), which is interderivable with distinct-cause transfer. Granting it restores all ten routes.
   - A new root route (`5d2b7c6e`) survives removal of `376d6a5a`, through `cffad050`.
+  - Granting distinct-cause transfer (`2c0b9bd7`), which is strictly weaker than `376d6a5a`, restores all 11 routes. It is the smallest sufficient commitment found at this bottleneck. Granting the cause-of-being restriction `d0fc96b7` adds route 92ab7c94.
   - Follow-ups: #1517 (preexistence consumers) and #1519 (consumers of `d5a94eb1`, and re-routing the four CONCRETE_6 routes through grades-at-being).
 - Act priority over potency (`a4d3261a`; only 2/10 routes survive its removal): in progress in a separate PR.
 
