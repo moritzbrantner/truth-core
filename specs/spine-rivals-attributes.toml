@@ -259,7 +259,7 @@ subject_id = "Rival: some caused thing has a perfection that no cause of its bei
 predicate = "alternative_to"
 object_kind = "statement"
 object_id = "STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE"
-note = "Same InAct, CausesIn and esse. The rival is strictly stronger than the premise's negation. Model-witnessed alongside the other premise of causeOfBeingHasWhatItGives; neither is established and no refutation is recorded."
+note = "Same InAct, CausesIn and esse. The rival is strictly stronger than the premise's negation. Model-witnessed alongside the other premise of causeOfBeingHasWhatItGives; neither is established and no refutation is recorded. Objection audit 2026-11-12 (attempt b6384b6b-ef1a-405e-8237-0c2127d86b5f): formal alternative; no independent justification on file (lead: Broad 1925, unpinned), and the premise allows eminent possession."
 
 [[relation]]
 id = "Actuality without goodness is an alternative to goodness as actuality"
@@ -268,7 +268,7 @@ subject_id = "Rival: being GOOD_1 in a perfection requires having it, but some h
 predicate = "alternative_to"
 object_kind = "statement"
 object_id = "STMT-GOODNESS-IS-ACTUALITY"
-note = "Same GoodIn and InAct. The rival keeps the direction from goodness to actuality and denies the converse, so it is strictly stronger than the premise's negation. Model-witnessed alongside the other premises of godIsSupremelyGood; neither is established and no refutation is recorded."
+note = "Same GoodIn and InAct. The rival keeps the direction from goodness to actuality and denies the converse, so it is strictly stronger than the premise's negation. Model-witnessed alongside the other premises of godIsSupremelyGood; neither is established and no refutation is recorded. Objection audit 2026-11-12 (attempt b6384b6b-ef1a-405e-8237-0c2127d86b5f): misdirected for the cited motivation, which concerns moral good, not GOOD_1; otherwise a formal alternative."
 
 [[relation]]
 id = "An uncaused composite is an alternative to the uniting cause of composites"
@@ -277,7 +277,7 @@ subject_id = "Rival: some composite has no cause of its being at all (brute or n
 predicate = "alternative_to"
 object_kind = "statement"
 object_id = "STMT-COMPOSITE-HAS-A-UNITING-CAUSE"
-note = "Same Composite, CausesIn and esse. The rival is strictly stronger than the premise's negation. Model-witnessed alongside the other premises of godIsSimple; neither is established and no refutation is recorded."
+note = "Same Composite, CausesIn and esse. The rival is strictly stronger than the premise's negation. Model-witnessed alongside the other premises of godIsSimple; neither is established and no refutation is recorded. Objection audit 2026-11-12 (attempt b6384b6b-ef1a-405e-8237-0c2127d86b5f): substantive, partial: Schaffer's basic composite whole (read) contests the q.3 a.7 reason; ungrounded is not shown to be uncaused in being."
 
 [[relation]]
 id = "Esse-essence difference without composition is an alternative to its being composition"
@@ -286,7 +286,7 @@ subject_id = "Rival: matter-form composition composes, but some esse other than 
 predicate = "alternative_to"
 object_kind = "statement"
 object_id = "STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS"
-note = "Same predicates and essenceOf/esseOf maps. The rival keeps the matter-form inclusion and denies the esse-essence one, so it is strictly stronger than the premise's negation. Model-witnessed alongside the other premises of firstMoverSimple; neither is established and no refutation is recorded."
+note = "Same predicates and essenceOf/esseOf maps. The rival keeps the matter-form inclusion and denies the esse-essence one, so it is strictly stronger than the premise's negation. Model-witnessed alongside the other premises of firstMoverSimple; neither is established and no refutation is recorded. Objection audit 2026-11-12 (attempt b6384b6b-ef1a-405e-8237-0c2127d86b5f): formal alternative; no independent justification on file (unread lead: Scotus's formal distinction)."
 
 [[relation]]
 id = "A first being that is a component is an alternative to no component being first"
@@ -295,7 +295,7 @@ subject_id = "Rival: some first being is a component of something other than its
 predicate = "alternative_to"
 object_kind = "statement"
 object_id = "STMT-NO-COMPONENT-IS-FIRST-BEING"
-note = "Same ComponentOf and PriorSimply. The rival requires a distinct whole, so it is strictly stronger than the premise's negation. Model-witnessed alongside the other premises of attributesFromFirst; neither is established and no refutation is recorded."
+note = "Same ComponentOf and PriorSimply. The rival requires a distinct whole, so it is strictly stronger than the premise's negation. Model-witnessed alongside the other premises of attributesFromFirst; neither is established and no refutation is recorded. Objection audit 2026-11-12 (attempt b6384b6b-ef1a-405e-8237-0c2127d86b5f): formal alternative; the positions are attested only through Aquinas's report in q.3 a.8, without their reasons."
 
 [[relation]]
 id = "Intellect only in material things is an alternative to immateriality as the ground of intellect"
@@ -304,7 +304,7 @@ subject_id = "Rival: whatever HAS_INTELLECT_1 is material, and something is ALTO
 predicate = "alternative_to"
 object_kind = "statement"
 object_id = "STMT-IMMATERIAL-IS-INTELLECTUAL"
-note = "Same ComposedOfMatterAndForm, HasIntellect and ComponentOf. The rival is strictly stronger than the premise's negation. Model-witnessed alongside the other premises of godHasIntellect; neither is established and no refutation is recorded."
+note = "Same ComposedOfMatterAndForm, HasIntellect and ComponentOf. The rival is strictly stronger than the premise's negation. Model-witnessed alongside the other premises of godHasIntellect; neither is established and no refutation is recorded. Objection audit 2026-11-12 (attempt b6384b6b-ef1a-405e-8237-0c2127d86b5f): partial: Papineau's causal-power physicalism, with the bridge from physical to matter-form composite open. A stronger objection on file is not this rival: Plotinus V.4.2 argues that intellect is two, so the absolutely simple first is not intellect."
 
 [[relation]]
 id = "Intellect without will is an alternative to will following intellect"
@@ -313,7 +313,7 @@ subject_id = "Rival: something HAS_INTELLECT_1 without HAS_WILL_1 (purely contem
 predicate = "alternative_to"
 object_kind = "statement"
 object_id = "STMT-WILL-FOLLOWS-INTELLECT"
-note = "Same HasIntellect and HasWill. The rival is the exact negation of the premise; its replacement account (procession by necessity of nature) is not formalized. Model-witnessed alongside the other premises of godHasWill; neither is established and no refutation is recorded."
+note = "Same HasIntellect and HasWill. The rival is the exact negation of the premise; its replacement account (procession by necessity of nature) is not formalized. Model-witnessed alongside the other premises of godHasWill; neither is established and no refutation is recorded. Objection audit 2026-11-12 (attempt b6384b6b-ef1a-405e-8237-0c2127d86b5f): formal alternative; no independent justification on file, so no typed replacement account is added."
 
 [[relation]]
 id = "A finite subsistent being is an alternative to subsistent being as infinite"
@@ -322,7 +322,7 @@ subject_id = "Rival: something is its own subsistent being and is not INFINITE_1
 predicate = "alternative_to"
 object_kind = "statement"
 object_id = "STMT-SUBSISTENT-BEING-IS-INFINITE"
-note = "Same essenceOf/esseOf and Infinite. The rival is the exact negation of the premise; its replacement account (limitation from what a thing is) is not formalized. Model-witnessed alongside the other non-logical premises of firstMoverPerfectionFromInfinity; neither is established and no refutation is recorded."
+note = "Same essenceOf/esseOf and Infinite. The rival is the exact negation of the premise; its replacement account (limitation from what a thing is) is not formalized. Model-witnessed alongside the other non-logical premises of firstMoverPerfectionFromInfinity; neither is established and no refutation is recorded. Objection audit 2026-11-12 (attempt b6384b6b-ef1a-405e-8237-0c2127d86b5f): formal alternative; no independent justification on file, so no typed replacement account is added; the dispute lies at STMT-ESSE-LIMITED-ONLY-THROUGH-RECEPTION."
 
 [[relation]]
 id = "An immutable being in time is an alternative to immutability entailing eternity"
@@ -331,7 +331,7 @@ subject_id = "Rival: something altogether IMMUTABLE_1 is not ETERNAL_1 (everlast
 predicate = "alternative_to"
 object_kind = "statement"
 object_id = "STMT-IMMUTABLE-IS-ETERNAL"
-note = "Same InPotency and primitive Eternal. The rival is the exact negation of the premise; its replacement account (everlasting duration in time) is not formalized on this carrier. Model-witnessed alongside the other premises of godIsEternal; neither is established and no refutation is recorded."
+note = "Same InPotency and primitive Eternal. The rival is the exact negation of the premise; its replacement account (everlasting duration in time) is not formalized on this carrier. Model-witnessed alongside the other premises of godIsEternal; neither is established and no refutation is recorded. Objection audit 2026-11-12 (attempt b6384b6b-ef1a-405e-8237-0c2127d86b5f): formal alternative; no independent justification on file, so no typed replacement account is added (unread lead: time without change)."
 
 [[relation]]
 id = "The nine attributes falling short is an alternative to their sufficiency"
@@ -340,4 +340,4 @@ subject_id = "Rival: some being with the nine listed attributes lacks the classi
 predicate = "alternative_to"
 object_kind = "statement"
 object_id = "STMT-CLASSICAL-ATTRIBUTES-SUFFICE"
-note = "Same Signature and nine predicates. The rival is the exact negation of the premise; which further attribute is missing is not formalized. Model-witnessed alongside the other non-logical premises of godHasClassicalAttributes; neither is established and no refutation is recorded."
+note = "Same Signature and nine predicates. The rival is the exact negation of the premise; which further attribute is missing is not formalized. Model-witnessed alongside the other non-logical premises of godHasClassicalAttributes; neither is established and no refutation is recorded. Objection audit 2026-11-12 (attempt b6384b6b-ef1a-405e-8237-0c2127d86b5f): substantive, internal: the premise is a stipulated bridge to a primitive field, and Dei Filius ch. 1 lists members not derived from the nine; the next step is to define the field, not to type a rival."

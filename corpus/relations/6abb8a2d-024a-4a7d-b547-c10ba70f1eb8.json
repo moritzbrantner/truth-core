@@ -6,5 +6,5 @@
   "predicate": "alternative_to",
   "object_kind": "statement",
   "object_id": "00e962ae-f109-55f7-a7fd-f107ce0dea6b",
-  "note": "Same GoodIn and InAct. The rival keeps the direction from goodness to actuality and denies the converse, so it is strictly stronger than the premise's negation. Model-witnessed alongside the other premises of godIsSupremelyGood; neither is established and no refutation is recorded."
+  "note": "Same GoodIn and InAct. The rival keeps the direction from goodness to actuality and denies the converse, so it is strictly stronger than the premise's negation. Model-witnessed alongside the other premises of godIsSupremelyGood; neither is established and no refutation is recorded. Objection audit 2026-11-12 (attempt b6384b6b-ef1a-405e-8237-0c2127d86b5f): misdirected for the cited motivation, which concerns moral good, not GOOD_1; otherwise a formal alternative."
 }

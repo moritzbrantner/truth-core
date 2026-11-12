@@ -1,7 +1,7 @@
 {
   "id": "ee1fc469-42d7-4b5b-bedc-aaacfb4df275",
   "label": "Some actual CONCRETE_6 individual is contingent and has no actual CONCRETE_6 ground",
-  "paraphrase": "Rival framework commitment, unattributed (motivated by brute-fact views of contingent reality and existential inertia): some concrete candidate exists at w, has no concrete ground existing at w under the selected relation at w, and is absent from some world accessible from w. An abstract, absent or unmodelled explanation is not excluded.",
+  "paraphrase": "Rival framework commitment, unattributed (motivated by brute-fact views of contingent reality; existential inertia, as Schmid states it, denies concurrent sustenance and is not this rival): some concrete candidate exists at w, has no concrete ground existing at w under the selected relation at w, and is absent from some world accessible from w. An abstract, absent or unmodelled explanation is not excluded.",
   "lean_declaration": "TruthCore.Causality.NecessaryRootFork.ContingentRootAt",
   "definition_ids": [
     "d517c074-02d2-4daf-8fc0-2c13c4c8de14",
