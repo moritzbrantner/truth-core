@@ -1655,3 +1655,12 @@ challenge must examine this entire new section, especially the fiduciary
 rationale, emergency/demand distinction and comparative judgment, before those
 findings are relied on as reviewed support. The earlier scoped pass cannot
 be inherited by this extension.
+
+
+Continuation validation: offline corpus check and attribution check passed on
+the changed note/attempt inputs; generated root imports/docs had no changes
+after merging main `bceaed960`. Diff hygiene passed. No Lean or claim/type
+inputs changed, so unchanged proof checks are reused. The first fresh frontier
+comparison failed with a temporary-directory disk quota; disk-backed retry
+is recorded in the PR. Final CI and parent challenge of the new findings
+remain pending. This is a draft checkpoint, not reviewed substantive publication.
