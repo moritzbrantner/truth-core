@@ -727,3 +727,121 @@ database. [The PP-01 exploration map](../explorations/principle-parity-self-orig
 tracks its first concrete comparison as a **mapped, uncertified rival**, not
 an implication from parity to the no-self-origin conclusion. No new root
 premise is marked established by this inventory.
+
+## Same-proponent audit: a scope concession is not selective inconsistency
+
+**Proposed outcome for coordinator semantic challenge (2026-11-12).** Baseline
+main `80dbecadccaaef2b5d6333fb4af1470c5a0a5806`; existing intake head
+`bd364ddf2902937683ad975edac96f9037f96f53`. This audit reuses existing
+formalizations; it introduces no vocabulary, attribution or proof. Its distinct
+rival family is **restricted epistemic demarcation (PP-06)**, rather than
+metaphysical origination or moral authority. Shared conventions resolved at
+`15f348b072188255da837578eaafc8a98f12fdf0`.
+
+### What would establish the alleged selective treatment?
+
+Fix one proponent, one evaluation setting and one standard. The relevant
+commitment is not merely accepting case `x` while rejecting case `y`. It is
+endorsing a rule covering both, accepting that its antecedents hold of `y`,
+and withholding its consequence there. A contradiction is conditional on those
+joint commitments. A bridge asserting the desired two verdicts equivalent
+would suffice logically but needs independent warrant; it must not replace
+an account of their relevant conditions. A demand to justify a difference is
+not itself evidence that no relevant difference exists.
+
+The following readings must remain separate:
+
+| Audited cell | Positive rival response | Exact parity result and missing evidence |
+| --- | --- | --- |
+| PP-01 universe origin / candidate divine self-origin | Simultaneous constituent production and part-to-whole causation, rather than an act borne by the whole; alternatively a necessary being with no first existence. | No same-proponent inconsistency shown. Smith/Newman's loop proposal cannot be combined with Oppy's contrary causal constraints as one person's commitments. Transfer to an agent-task ability and identity of productive origin remain OPEN. #1526's productive-exercise bridge is read-only conditional evidence, not an exclusion already accepted by the loop defender. |
+| PP-02 moral / epistemic reasons | Moral-only denial, with epistemic standards construed functionally; alternatively categorical epistemic reasons without a universal rejection of categorical reasons. | Accepting a genus instance in inquiry while rejecting a different moral instance is consistent without a cross-domain bridge. Draft #1502 (`a14ca664`, supplied semantic-pass checkpoint) leaves categorical warrant open. Its same-force framework does not supply a named proponent's universal denial. #1500 retains ownership. |
+| PP-05 realist reasons / divine authority | Basic rights and obligations as normative inputs, versus governance with standing to command; making, reliance responsibility and rescue can be further morally relevant relations. | Merged #1572 leaves making viable; draft #1574 (`17306d99`, supplied semantic-pass checkpoint) leaves richer realist rights versus governance warrant open. Neither establishes that one proponent exempts an inferentially identical authority bridge. Distinguish a request for a truth-maker from a request for directed authority and from a demand for an epistemic justification. #1508 retains ownership. |
+| PP-06 empirical establishment / the demarcation rule | Limit the empirical-establishment requirement to an independently specified domain and allow nonempirical warrant for the domain policy. | Existing populated model shows consistency of this restriction, not its warrant. A named defender's scope, self-application and warrant commitments are still missing; see attempt `277e1140-e4bc-5ca6-a5a4-31cd8d6d8bf9`. |
+
+The draft dependency checkpoints above are supplied review metadata, not fresh
+verification or source readings. No findings in their implementation packages
+are extended here. Nor does this table claim that a restricted domain has
+already been justified merely because one can specify it.
+
+### PP-06: walk the surviving account one step further
+
+Use `TruthCore.Logic.Scientism` exactly: `established` and
+`empiricallyEstablished` are independent predicates. `SCIENTISM_1` requires
+empirical establishment for established claims in scope; `SCIENTISM_2`
+restricts that requirement by `D.inDomain`. This concerns **epistemic warrant**,
+not moral obligation, truth, or cognitive meaningfulness.
+
+The existing result `15a56614-c3f3-59f6-ae7b-52ff9c0f7134`,
+[`weakScientismConsistent`](../TruthCore/Results/Logic/Scientism/WeakConsistent/Solution.lean),
+has two claims, `false` and `true`. Both are established and in the outer
+scope. Only `false` is empirically established and inside the restricted
+domain; the policy formulation is `true`. The restricted rule holds, the
+policy fails the empirical standard, and the empirical domain is populated.
+Thus exclusion of the policy is not a vacuous empty-domain escape. The model
+is a predicate interpretation, not a theory of how any real belief acquires
+warrant or evidence that a philosopher accepts these predicates.
+
+The positive philosophical replacement is a division of epistemic labor:
+empirical methods govern the selected subject matter, while a methodological
+policy can receive a different kind of justification. To defend it, the rival
+must give a criterion for that subject matter and an account of the policy's
+warrant. These are further burdens, not premises discharged by the model.
+The strongest parity reply asks whether the purported nonempirical warrant
+also qualifies the excluded claim under that very account. It cannot simply
+reinstate universal empirical exclusivity, which this rival has surrendered.
+
+Three concrete tests distinguish the branches without another theorem:
+
+1. If the policy lies inside `D`, the existing second-order theorem
+   `TruthCore.Results.Logic.Scientism.WeakDemarcation.weakScientismDemarcation`
+   applies under its stated outer-scope and nonempirical premises: holding
+   the policy excludes its establishment. An author must additionally claim
+   establishment before this becomes a clash among endorsed commitments.
+2. If the policy lies outside `D` and is established nonempirically, the same
+   theorem yields a concession of some nonempirically established claim and
+   failure of the stronger scoped rule. That is a genuine commitment of this
+   restricted branch, not a refutation of it. No contradiction follows from
+   endorsing the restricted rule alone.
+3. If the rule is held true but unestablished, the strong dilemma does not
+   entail its falsity. Whether it can rationally regulate another belief then
+   needs a separate warrant/use premise; the corpus proof does not supply it.
+
+Reject the shortcut from “this policy is nonempirical” to “it refutes itself.”
+Also reject the opposite shortcut from the Bool model to “the proposed
+restriction is justified.” Verificationist meaning criteria have a different
+acceptance predicate and their own analytic/verifiable and scope premises;
+`STMT-VERIFICATIONIST-DILEMMA` cannot silently substitute for this warrant test.
+
+### Root connection, remaining blocker and next test
+
+The actual PP-01 root-route target remains
+`STMT-NOTHING-ORIGINATES-ITSELF` (`b241b5ca-e790-5145-bc9a-4154e266bb55`),
+through argument `045f0eda-28c6-5329-b08a-59c296cf3593` and downstream routes.
+This audit establishes neither that premise nor its negation. PP-06 is a
+calibration case for the parity objection, **not an existing route to the
+Catholicism root**. A future root-facing use would need an explicit argument
+from an actually endorsed demarcation policy to the warrant of a named premise
+on that route; neither that application bridge nor its attribution is present.
+No library is extended and no new graph connection is claimed.
+
+**Proposed assessment:** unrestricted accusations of selective inconsistency
+are underdetermined in these cells. There is a precise conditional conflict
+when the same proponent endorses the inclusive rule, its application conditions
+and a contrary verdict. The existing PP-06 model defeats an overbroad formal
+objection to restriction; it leaves domain and policy warrant unresolved.
+This assessment does not defeat naturalism, scientism, moral realism or theism.
+
+**Next discriminating test:** recover one defender's already-held demarcation
+criterion, its exact self-application verdict and the reason offered for the
+policy's warrant. Compare one excluded claim against that same reason, holding
+subject matter and evidential conditions fixed. The existing scientism witness
+candidate/attempt owns that missing attribution; no fresh author assertion is
+made here. Reopen the inconsistency assessment only on evidence of those joint
+commitments, or revise it toward a justified difference if the criterion and
+warrant account discriminate the cases independently. Further author-specific
+conclusions are blocked by that evidence gap, not by failed proof search.
+
+The note is the existing #1532 handoff. Formal consequences and model boundaries
+above reuse unchanged artifacts; no fresh Lean certification is claimed. Parent
+semantic challenge of this complete proposed outcome and final-head CI remain
+required before treating the new synthesis as reviewed support.
