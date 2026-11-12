@@ -50,6 +50,18 @@ theorem causedIsNotInfiniteFromReception {B R P : Type}
   obtain ⟨z, hz⟩ := hReceived x (hCreature c x hne hc)
   exact hUnlimited x hInf (hLimited x z hz)
 
+/-- Within the unified root bundle: the root's infinity premise (esse equal to
+essence suffices for INFINITE_1) and `CausedIsNotInfinite` together give that
+whatever has its being caused by another being distinct from it has (represented)
+esse distinct from its essence. A checked lemma, deliberately not registered as a
+corpus argument. -/
+theorem causedHasDistinctEsse {B P R : Type} (CausesIn : B → B → R → Prop) (esse : R)
+    (essenceOf esseOf : B → P) (Infinite : B → Prop)
+    (hInfinity : SubsistentBeingIsInfiniteReading essenceOf esseOf Infinite)
+    (hCaused : CausedIsNotInfinite CausesIn esse Infinite) :
+    ∀ c x, c ≠ x → CausesIn c x esse → esseOf x ≠ essenceOf x :=
+  fun c x hne hc hEq => hCaused x ⟨c, hne, hc⟩ (hInfinity x hEq)
+
 /-- The primitives that agree with `D` except that each of the five is replaced
 by the antecedent of its old bridge, so that the five old bridges hold
 trivially and nothing about the given primitives is used. -/

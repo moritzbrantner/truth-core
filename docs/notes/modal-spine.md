@@ -917,11 +917,19 @@ the old intellect-living bridge fails there. Given excluded middle, the root
 bundle holds in the spine's full25 fixture with every essence mapped to `source`.
 The unchanged fixture is not a model: its caused `supporter` has esse equal to
 essence, so the root's infinity premise makes it INFINITE_1. Within the root
-bundle the infinity premise and `18ca6f9d` together entail that whatever is
-caused as to being has esse distinct from essence. The root model is degenerate
-in one respect: on its all-true act dictionary every role is pure act. The
-weight of `18ca6f9d` now rests mainly on `29e71e43`, the general esse-essence
-composition of creatures. Computed: `18ca6f9d` moves bare to closed; open
+bundle the infinity premise and `18ca6f9d` together entail that whatever has its
+being caused by another being distinct from it has esse distinct from essence
+(lake-checked lemma `causedHasDistinctEsse`, not registered). The root model is
+degenerate in one respect: on its all-true act dictionary every role is pure act
+and universally perfect, and every creature's esse is received in the divine
+essence, so limited esse is not tied to imperfection there. The weight of
+`18ca6f9d` now rests mainly on `29e71e43`, the general reception of creaturely
+esse in a receiving principle. It does not say the principle is the thing's own
+essence (that is `STMT-ESSE-RECEIVED-IN-OWN-ESSENCE`), and `DEF-ESSE-RECEIVED-IN`
+leaves its real constitution open. `b7d4eede` reads `Creature` broadly (ordered to
+some cause of its being), while the q.7 a.2 support of `29e71e43` covers only the
+narrower sense of things made by God. Computed: `18ca6f9d` moves bare to closed
+(closed by a verified derivation from four open premises; not established); open
 premises reaching the root 455 to 454; no bare premise added.
 
 For *vivus* the corpus already has a typed, time-indexed route

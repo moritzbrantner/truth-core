@@ -2,7 +2,7 @@
   "id": "29e71e43-1d34-5008-8811-897fbddda209",
   "label": "The esse of every creature is received in some principle",
   "legacy_id": "STMT-CREATURE-ESSE-IS-RECEIVED",
-  "paraphrase": "OPEN analyst generalization of ST I q.7 a.2 co.: the esse of every creature is received in some principle. The passage says it of a subsistent created form, whose esse is 'receptum et contractum'; the generalization to every creature is the analyst's.",
+  "paraphrase": "OPEN analyst generalization of ST I q.7 a.2 co.: the esse of every creature is received in some principle. The passage says it of a subsistent created form, whose esse is 'receptum et contractum'; the generalization to every creature is the analyst's. Read with the broad extension of Creature that 'Whatever has its being caused by something distinct from it is a creature' uses (ordered to some cause of its being, secondary causes included), it needs that every such thing has received esse; the q.7 a.2 support covers only the narrower sense (things made by God, DEF-CREATURE). It says only that the esse is received in SOME principle; reception in the thing's own essence is the separate STMT-ESSE-RECEIVED-IN-OWN-ESSENCE, and DEF-ESSE-RECEIVED-IN leaves the real constitution of the receiving principle open.",
   "lean_declaration": "TruthCore.Causality.Round2PerfectionPrimacy.CreatureEsseIsReceived",
   "definition_ids": [
     "afcdd2c5-1167-5a73-97d7-cb99a6ad5817",
