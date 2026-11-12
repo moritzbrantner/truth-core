@@ -1,0 +1,16 @@
+{
+  "id": "ff9c1d0d-515b-424a-acc8-502d10b52a9a",
+  "label": "Self-origination assessed through the existing existential-production proof",
+  "statement_ids": [
+    "b241b5ca-e790-5145-bc9a-4154e266bb55",
+    "8550ca62-92d1-5ef0-af17-9de5bf272262"
+  ],
+  "date": "2026-11-12",
+  "kind": "reading",
+  "outcome": "succeeded",
+  "summary": "Warrant assessment of the bare STMT-NOTHING-ORIGINATES-ITSELF (not a new proof or premise discharge). The sourced DEF-CAUSE-OF-ORIGIN already paraphrases an originating cause as 'other than the thing itself', but that wording must not be used to smuggle the contested self-causation exclusion into the primitive CausesOrigin field; the Lean type does not enforce distinctness. An independently structured argument is available in the pre-existing verified result TruthCore.Results.Causality.ExistentialSelfActualization.noSelf: (1) an actually occurring productive exercise presupposes the existential actuality of its bearer, (2) an exercise genuinely producing a thing's existence is explanatorily prior to that existential actuality, and (3) those two priority steps inhabit one transitive, irreflexive relation. If the exercise produced its own bearer's existence, the bearer would be prior to the exercise and the exercise prior to the same bearer, contradicting strict priority. No temporal 'before the first instant' assumption is needed. A possible scoped support route for CausesOrigin uses a new explicit origin-to-exercise bridge: every CausesOrigin c x edge represents some occurring exercise a with bearer(a)=c that produces the existence of x. Together with the four already recorded existential-priority premises and noSelf, this would derive NothingOriginatesItself for that sense. Ordinary self-repair, feedback after existence, and an intrinsic nonproductive reason for a necessary being are not counterexamples because they do not produce their own bearer's existence. The strongest distinct rival is a simultaneous/non-well-founded origin mechanism in which either the bearer-to-act or the act-to-product priority requirement does not hold. The existing unique-feedback Boolean control shows formal consistency of a feedback constraint, but does not provide an actual existential-origin mechanism or independently justify such a denial. Current provisional judgment: strongly justified for exercise-mediated productive origination under the explicit priority conditions; the universal primitive CausesOrigin statement remains open until the bridge and its real-world applicability are defended and registered. No source attribution or claimed refutation of a rival is added.",
+  "blocker": "Establish the scoped CausesOrigin-to-occurring-bearer-exercise/existential-production bridge, defend common transitive irreflexive priority for that kind of causation, and distinguish the rival's actual origination mechanism from a merely consistent feedback constraint. Reuse the existing noSelf certificate; a formal application would need its own frozen Challenge, proof and corpus binding.",
+  "evidence": [
+    "e60831c7-14fd-5225-9471-060dffa50386"
+  ]
+}
