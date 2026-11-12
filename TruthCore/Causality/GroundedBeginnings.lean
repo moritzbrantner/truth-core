@@ -69,8 +69,9 @@ empty moment; and an endless chain of grounds descending towards an empty first
 moment (`BegunComingToBe.Control.zeno`, times `WithBot ℤ`). That last shape is
 the strongest formal rival compatible with the first two principles: everything
 that begins has a present concrete ground, yet a populated stretch follows an
-empty moment. It needs an empty moment that is a moment of the history
-followed by moments with no earliest one.
+empty moment. Its endless chain of grounds may descend in time towards the
+empty moment, as in `zeno`, or (not checked here) be an endless regress of
+grounds all present at one later moment.
 
 **No re-import of the conclusion.** The three principles and the traced form
 hold in `InertEmptiness.Control.initialState` with no grounding at all, where

@@ -45,7 +45,7 @@ supplied grounding relation, through a traced form of "from nothing, nothing com
 |---|---|---|---|
 | A2a | Grounded beginnings: a concrete thing absent at a moment and present later has a concrete ground (`c7580712`) | open | a ground-free beginning (control 1); undercutting objection to its inductive warrant, below |
 | A2b | Grounds not ceased: each such ground is present at the moment of absence or later (`e61dbc22`); weaker than temporal locality | open | a ground that ceased before an empty moment (control 2); no substantive objection identified |
-| A2c | Well-founded grounding among concrete things present in each history (`81c39a34`) | open | an endless chain of present grounds descending to an empty first moment (`BegunComingToBe.Control.zeno`, control 3); no substantive objection identified |
+| A2c | Well-founded grounding among concrete things present in each history (`81c39a34`) | open | an endless chain of present grounds after an empty moment, descending in time towards it (`BegunComingToBe.Control.zeno`, control 3) or all present at one later moment (unchecked); no substantive objection identified |
 
 The traced form (`e6a1ac3c`: whatever concrete thing is present traces back, by
 a finite chain of grounds, to something concrete present at each earlier
