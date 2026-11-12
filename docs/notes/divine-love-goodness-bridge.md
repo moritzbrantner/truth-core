@@ -194,3 +194,129 @@ it against the necessary-emanation rival and the surviving `HasWill`-without-
 recipient-directed-volition model. A new source claim should wait for a
 pinned witness and exact attribution review; this note is a navigation and
 interpretation record only.
+
+
+## Intentional-creation reassessment for #1459 (proposed, 2026-11-12)
+
+This is a complete proposed bounded assessment for the coordinator's independent
+semantic challenge, not an accepted challenge review or a new formal result.
+Baseline: `8ff62893c42e3dfc6fc72559318bd099f34c71a8`. PR #1458 is merged
+(merge `9699a826229aa8b77a1abe4e834278789d5af3d3`); its declarations and controls
+are present unchanged. The #1571 warning still applies: no statement binds
+`CausalExistenceWilling`, and no separate creative-goodness note is present.
+Reuse this note and the existing module, not hypothetical branch records.
+No source was acquired or newly attributed in this reassessment.
+
+### Exact reuse and connection boundary
+
+The existing capacity argument is `13338e9c-3e2f-56ee-8400-7523d47fe46c`
+(`CATHOLICISM-STAGE2-GOD-HAS-WILL`). It concludes
+`66aecdd7-ea4e-55c6-9377-10db08893854`, not any exercise relation.
+Its `WillFollowsIntellectReading` premise has the type
+`∀ x, HasIntellect x → HasWill x`. Definition `7c64b499-6dba-5e03-bdf3-5acea95d8836`
+(`corpus/definitions/will.json`) explicitly calls `HasWill` primitive and denies
+that this implication defines intellectual appetite internally. Thus the richer
+prose about appetite is an interpretation obligation, not an elimination rule
+for producing any `WillsGoodFor g x esse`.
+
+Causal goodness has the existing alternatives
+`279e9475-5b86-5190-8664-a6604dc4e1af` (stage-2 goodness) and
+`0011703b-aac5-533b-88ef-a6140dc343f9` (restricted perfection transfer).
+Neither conclusion mentions willing. The immediate candidate consumer remains
+`divineWillsGoodForAllExisting`, then `godLovesAllExisting` in the module above;
+neither is a registered corpus argument. Root connection remains a plan:
+actual recipient-directed willing → appropriate love/good-will bridge →
+root-connected normative or hiddenness node. In particular, veracity argument
+`ab3f4165-87f2-574b-8eef-2a63df5fcbbc` consumes
+`7cffee54-a87d-504e-80d1-81ada7387696`, a cognitive/assertoric bridge, not this
+love conclusion. Hiddenness argument `0a722d94-3332-420b-b07a-95cc9e842230`
+projects global perfect love `0edc0b38-46b0-567a-9f72-64e16b30c77b` to actual
+love `5e5aa271-d500-41c7-a470-32969b00a5af`; supplying only actual some-good
+willing cannot reverse that implication or supply its interpersonal meaning.
+These are explicit downstream blockers, not established new routes.
+
+### Why the three candidate routes do not yet discriminate
+
+The following are analyst tests of the routes already summarized above, not
+fresh historical claims about q.19 a.4.
+
+- Teleological priority can motivate a prior intellect directing natural ends.
+  Even granting that director, an object-specific practical determination must
+  connect it to each effect and to the recipient's good. A first intellect that
+  determines a productive nature while willing only its own good is not excluded
+  by a capacity conclusion. The missing test is whether the director thesis
+  requires intending the effect, rather than merely explaining its order.
+- Diversity of finite effects does not distinguish choice from a necessarily
+  structured productive nature: a fixed rule can produce several unequal
+  effects, and conditional responses to different inputs need not be choices.
+  Excluding this account needs a substantive restriction on what that nature
+  can determine, not merely the assertion that its effects are diverse.
+  Even actual contingency would exclude necessary emission only with fixed
+  background and transport conditions; it would not exclude nonintentional
+  contingent production. No such modal test is encoded by Bool/Unit controls.
+- Intellectual exemplars distinguish represented effects from blind production,
+  but representation alone does not distinguish practical adoption from
+  theoretical cognition or foreseen byproducts. The discriminating commitment
+  is that actual production is governed by adoption of the represented effect
+  as an end or means. To obtain the existing bridge, one must additionally show
+  that this adoption wills existence as a good of the recipient. That last step
+  does not require ultimate, noninstrumental concern for the recipient, but it
+  cannot be replaced by a mere benefit accidentally resulting from production.
+
+The third route isolates the most direct next logical test, without yet earning
+higher independent warrant. Introduce no generic claim that every knower
+intends every known effect. First inspect practical-versus-theoretical cognition
+and causal governance at the same agent, effect, respect and actual frame.
+If practical adoption is independently defended, factor the inference into
+representation, actual governance by adoption, and recipient-good application;
+retain each as a visible premise. A predicate defined simply as
+`CausesIn → WillsGoodFor` would relocate the target without explanatory gain.
+
+### Strongest standing rival and its commitments
+
+The local rival grants actual source and creature, causal production of the
+creature's being, goodness/actuality, intellect, possession of will, and willing
+of the source's own good. It supplies a positive replacement: the source's
+productive nature determines the effect, without adoption of that effect as
+recipient-directed good. Necessary emanation is one stronger variant; necessary
+production and intentional production are not contradictories. One could will
+necessarily, or produce nonintentionally without necessity. The existing
+`omitCausalWill` control represents only the local intentional omission, not
+this richer productive nature or any necessity claim.
+
+This rival conflicts with `CausalExistenceWilling` when instantiated at the
+actual distinct effect, but the target itself is not independent evidence
+against it. It conflicts with a universal practical-adoption/application bundle
+only if that bundle is supplied. It does not conflict with the exact goodness,
+capacity, own-good-willing or love-meaning inputs preserved by `LoveControls`.
+The broader `IntellectWithoutWillReading` in `SpineRivalsAttributes` instead
+conflicts with `WillFollowsIntellectReading` at its witness. Refuting that broader
+rival would leave the local rival untouched. Likewise the newer
+`DeiFiliusOperationFromIntellect.IntellectualPureActOperates` concludes unary
+immanent operation; it does not specify an external effect or its recipient.
+
+### Weaker-premise test and proposed assessment
+
+The existing consumer needs only some actual good willed for each recipient,
+not necessarily willing of existence itself. A candidate weaker input for
+*distinct* actual recipients is therefore: for each God and distinct actual x,
+there is some respect r with `GoodIn x r ∧ WillsGoodFor g x r`. Together with
+the existing own-good and love-meaning inputs this is sufficient in informal
+reasoning for the existing love consumer. It is a proposed formula, not a new
+Lean-checked theorem or registered strength relation. Its independent warrant
+is no better merely because it is weaker; in isolation it largely restates the
+distinct-recipient part of the desired conclusion. Do not register this as a
+new explanation or attribute it to an unread text.
+
+Proposed assessment: the inspected evidence underdetermines intentional
+creation. Retain the conditional support option and the natural-diffusion rival;
+withdraw no theorem and claim no God-existence or root establishment. Reopen
+this assessment on an independently supported object-specific governance rule,
+a faithful richer model violating such a rule, or an actual downstream bridge.
+Next concrete test: formalize practical adoption with an independently stated
+causal-governance premise; compare a knower who merely foresees the effect with
+a practical adopter while keeping actual production and self-willing fixed.
+Then test recipient-good application separately. A modal necessity claim needs
+a separate world-indexed encoding. This checkpoint contains no new proof or
+source verification; the coordinator must challenge this complete draft before
+using its judgments as reviewed support.
