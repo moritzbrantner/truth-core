@@ -212,7 +212,8 @@ pub struct Frontier<'a> {
     result_by_id: HashMap<&'a str, &'a Record>,
     verified_arguments: HashSet<&'a str>,
     /// Verified non-transcription arguments: the reaching-root walk enters a
-    /// routed conclusion through any of them (owner decision 2026-11-07).
+    /// routed conclusion through any of them (owner decision 2026-11-07),
+    /// strength registrations included (2026-11-12).
     sound_arguments: HashSet<&'a str>,
     kinds: BTreeMap<&'a str, (Value, bool)>,
     transcription_results: HashSet<&'a str>,
@@ -277,7 +278,11 @@ impl<'a> Frontier<'a> {
             .iter()
             .map(|statement| (text(statement, "id"), *statement))
             .collect();
-        let argument_by_id: HashMap<&str, &Record> = arguments
+        // Lookup over every argument, registrations included: closure reads
+        // only the filtered `results` and steps below, while reachability and
+        // route expansion also follow registrations (2026-11-12).
+        let argument_by_id: HashMap<&str, &Record> = records
+            .arguments
             .iter()
             .map(|argument| (text(argument, "id"), *argument))
             .collect();
@@ -334,8 +339,11 @@ impl<'a> Frontier<'a> {
             .copied()
             .collect();
 
+        // Reachability: a registration is an ordinary verified derivation of
+        // the weak version from the strong one, so the strong version is a
+        // premise that the upward walk follows.
         let mut dependents: BTreeMap<&str, BTreeSet<&str>> = BTreeMap::new();
-        for argument in &arguments {
+        for argument in &records.arguments {
             for premise in list(argument, "premise_statement_ids") {
                 dependents
                     .entry(premise)
@@ -431,6 +439,16 @@ impl<'a> Frontier<'a> {
             .collect();
         sound_steps.sort_by_key(|argument| text(argument, "id"));
         sound_steps.dedup_by_key(|argument| text(argument, "id"));
+        // From here `sound_arguments` serves the walks only: a registration
+        // with a non-transcription result enters a routed conclusion like any
+        // other verified derivation. The rule (a) steps are fixed above.
+        for result in &records.results {
+            if registration.contains(text(result, "argument_id"))
+                && !transcription_results.contains(text(result, "id"))
+            {
+                sound_arguments.insert(text(result, "argument_id"));
+            }
+        }
         Self {
             root,
             records,
@@ -886,15 +904,17 @@ impl<'a> Frontier<'a> {
 
     /// Python `root_routes`: per-route open-premise leaves (#391).
     fn root_routes(&self, closure: &Closure<'a>) -> (Option<&'a str>, Vec<Route<'a>>) {
+        // Route expansion follows registrations like any verified derivation;
+        // `closure` (which never uses them) still decides what is established.
         let mut results_by_argument: HashMap<&str, Vec<&str>> = HashMap::new();
-        for result in &self.results {
+        for result in &self.records.results {
             results_by_argument
                 .entry(text(result, "argument_id"))
                 .or_default()
                 .push(text(result, "id"));
         }
         let mut statement_ids: HashSet<&str> = self.statement_by_id.keys().copied().collect();
-        for argument in &self.arguments {
+        for argument in &self.records.arguments {
             statement_ids.extend(Self::premises(argument));
             statement_ids.insert(text(argument, "conclusion_statement_id"));
         }
@@ -1374,7 +1394,7 @@ impl<'a> Frontier<'a> {
         let mut reaching_root: BTreeSet<&str> = BTreeSet::new();
         if self.statement_by_id.contains_key(self.root) {
             let mut concluding: HashMap<&str, Vec<&str>> = HashMap::new();
-            for argument in &self.arguments {
+            for argument in &self.records.arguments {
                 concluding
                     .entry(text(argument, "conclusion_statement_id"))
                     .or_default()
@@ -1402,7 +1422,7 @@ impl<'a> Frontier<'a> {
         }
         // Distinct conditional obligation sets, retaining every witness.
         let mut bundles: SupportBundles<'_> = BTreeMap::new();
-        for result in &self.results {
+        for result in &self.records.results {
             if self.transcription_results.contains(text(result, "id")) {
                 continue;
             }
@@ -1838,7 +1858,7 @@ impl<'a> Frontier<'a> {
 
         // Every ID a route leaf can be, with the corpus lifetime the probe needs.
         let mut known: HashSet<&'a str> = self.statement_by_id.keys().copied().collect();
-        for argument in &self.arguments {
+        for argument in &self.records.arguments {
             known.extend(Self::premises(argument));
             known.insert(text(argument, "conclusion_statement_id"));
         }
@@ -3398,6 +3418,104 @@ mod tests {
         );
         // Establishing S alone drops the route cost by one.
         assert_eq!(frontier.probe("S")["ARG-ROOT"], 1);
+    }
+
+    /// ROOT <- W; S strengthens W through ARG-REG; optionally the weak
+    /// version and X prove the strong one (the mandate-scope shape).
+    fn strength_fixture(cyclic: bool) -> Fixture {
+        let mut arguments = vec![
+            argument("ARG-ROOT", &["W"], "ROOT"),
+            argument("ARG-REG", &["S"], "W"),
+        ];
+        let mut results = vec![
+            json!({"id": "RES-ROOT", "argument_id": "ARG-ROOT"}),
+            json!({"id": "RES-REG", "argument_id": "ARG-REG"}),
+        ];
+        if cyclic {
+            arguments.push(argument("ARG-S", &["W", "X"], "S"));
+            results.push(json!({"id": "RES-S", "argument_id": "ARG-S"}));
+        }
+        let mut strengthens = relation("REL-STRENGTH", "S", "strengthens", "W");
+        strengthens["verification_result_id"] = json!("RES-REG");
+        strengthens["note"] = json!("S entails W");
+        Fixture {
+            statements: records(
+                ["ROOT", "W", "S", "X"]
+                    .iter()
+                    .map(|id| json!({"id": id}))
+                    .collect(),
+            ),
+            arguments: records(arguments),
+            results: records(results),
+            relations: records(vec![strengthens]),
+            claims: Vec::new(),
+        }
+    }
+
+    #[test]
+    fn strength_registration_reaches_the_root_without_closing() {
+        let fixture = strength_fixture(false);
+        let records = fixture.records();
+        let report = Frontier::new("ROOT", &records, &[]).report(false);
+        // Closure sets the registration aside: W is not proved from the open
+        // strong version, and the strength order propagates nothing.
+        assert!(report["closed_statements"].get("W").is_none());
+        assert_eq!(report["established_statements"], json!([]));
+        assert_eq!(report["strength_order"][0]["argument_id"], "ARG-REG");
+        // Reach and route expansion follow it like any verified derivation.
+        assert_eq!(
+            report["reaching_root_statements"],
+            json!(["ROOT", "S", "W"])
+        );
+        let item = report["items"]
+            .as_array()
+            .unwrap()
+            .iter()
+            .find(|item| item["statement_id"] == "S")
+            .cloned()
+            .unwrap_or(Value::Null);
+        assert_eq!(
+            item["path_to_root"],
+            json!(["S", "ARG-REG", "W", "ARG-ROOT", "ROOT"])
+        );
+        let route = &report["routes"]["routes"][0];
+        assert_eq!(route["open_premise_statement_ids"], json!(["S"]));
+        assert_eq!(route["cost"], 1);
+        let bundles = &report["support_options"]["items"];
+        assert!(
+            bundles
+                .as_array()
+                .unwrap()
+                .iter()
+                .any(|item| item["statement_id"] == "W"
+                    && item["verified_alternative_bundles"][0]["argument_ids"]
+                        == json!(["ARG-REG"]))
+        );
+
+        // The same argument without the registration is an ordinary proof,
+        // which does close W (rule (a), from the open leaf S).
+        let mut plain = strength_fixture(false);
+        plain.relations.clear();
+        let records = plain.records();
+        let report = Frontier::new("ROOT", &records, &[]).report(false);
+        assert_eq!(report["closed_statements"]["W"], "proved");
+    }
+
+    #[test]
+    fn cyclic_strength_registration_stays_closure_neutral() {
+        // W and X prove S; S strengthens W. W must not close circularly.
+        let fixture = strength_fixture(true);
+        let records = fixture.records();
+        let report = Frontier::new("ROOT", &records, &[]).report(false);
+        assert!(report["closed_statements"].get("W").is_none());
+        assert_eq!(report["closed_statements"]["S"], "proved");
+        assert_eq!(
+            report["reaching_root_statements"],
+            json!(["ROOT", "S", "W", "X"])
+        );
+        // The support cycle {W, S} falls back to single leaves; W keeps its own.
+        let route = &report["routes"]["routes"][0];
+        assert_eq!(route["open_premise_statement_ids"], json!(["W"]));
     }
 
     /// #1476: support cycles. U1 <-> U2 has no grounded entry; G1 <-> G2 is

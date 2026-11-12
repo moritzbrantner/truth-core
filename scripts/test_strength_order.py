@@ -101,8 +101,17 @@ class StrengthPropagationTest(unittest.TestCase):
         self.assertIn("STRONG", rep["closed_statements"])
         self.assertNotIn("WEAK", rep["closed_statements"])
         self.assertIn("WEAK", [item["statement_id"] for item in rep["items"]])
-        # The registration does not make STRONG reach the root either.
-        self.assertNotIn("STRONG", rep["reaching_root_statements"])
+        # Reach and route expansion follow the registration like any verified
+        # derivation (2026-11-12): STRONG reaches the root, and the route
+        # expands WEAK through STRONG to STRONG's own open premise BASE.
+        self.assertIn("STRONG", rep["reaching_root_statements"])
+        self.assertEqual(rep["routes"]["routes"][0]["open_premise_statement_ids"], ["BASE", "OTHER"])
+        # The same argument without the registration is an ordinary proof and
+        # closes WEAK by rule (a); the registration only keeps that closure out.
+        plain = report()
+        self.assertIn("WEAK", plain["closed_statements"])
+        for field in ["reaching_root_statements", "routes"]:
+            self.assertEqual(rep[field], plain[field], field)
 
     def test_excluded_registration_preserves_declared_display_over_heuristic(self) -> None:
         results = [{**entry, "transcription": "assembly"} if entry["id"] == "ARG-S-W" else entry for entry in RESULTS]
@@ -116,7 +125,9 @@ class StrengthPropagationTest(unittest.TestCase):
         # STRONG is closed from open BASE, so that would wrongly close WEAK.
         self.assertIn("STRONG", rep["closed_statements"])
         self.assertNotIn("WEAK", rep["closed_statements"])
-        self.assertNotIn("STRONG", rep["reaching_root_statements"])
+        # A transcription registration is walked but, like every
+        # transcription, never expands a route leaf.
+        self.assertIn("STRONG", rep["reaching_root_statements"])
         self.assertEqual(rep["routes"]["routes"][0]["open_premise_statement_ids"], ["OTHER", "WEAK"])
 
     def test_excluded_registration_without_heuristic_retains_declared_kind(self) -> None:
@@ -126,7 +137,8 @@ class StrengthPropagationTest(unittest.TestCase):
                 actual = report(results=results, relations=[strengthens("STRONG", "WEAK")])
                 baseline = report(relations=[strengthens("STRONG", "WEAK")])
                 self.assertEqual(actual["transcription_results"]["ARG-S-W"], {"kind": kind, "declared": True})
-                for field in ["closed_statements", "established_statements", "routes", "strength_order", "items", "reaching_root_statements"]:
+                # Routes differ: a transcription registration expands nothing.
+                for field in ["closed_statements", "established_statements", "strength_order", "items", "reaching_root_statements"]:
                     self.assertEqual(actual[field], baseline[field], field)
                 established = report(with_floor("STRONG"), results=results, relations=[strengthens("STRONG", "WEAK")])
                 self.assertEqual(established["closed_statements"]["WEAK"], "via_strength")
@@ -267,6 +279,31 @@ class StrengthValidationTest(unittest.TestCase):
         self.assertIn("ARG-A", warning)
         self.assertNotIn("ARG-B", warning)
         self.assertNotIn("ARG-S-W", warning)
+
+    def test_weakening_field_needs_one_premise(self) -> None:
+        path = corpus.ROOT / "corpus/arguments/test.json"
+        corpus.validate_weakening(path, argument("ARG", ["STRONG"], "WEAK", weakening=True))
+        corpus.validate_weakening(path, argument("ARG", ["STRONG", "OTHER"], "WEAK"))
+        for bad in (argument("ARG", ["STRONG"], "WEAK", weakening=False),
+                    argument("ARG", ["STRONG", "OTHER"], "WEAK", weakening=True)):
+            with self.subTest(bad=bad), self.assertRaises(corpus.CorpusError):
+                corpus.validate_weakening(path, bad)
+
+    def test_unregistered_weakening_is_flagged_from_explicit_fields(self) -> None:
+        declared = {**REGISTRATION, "weakening": True}
+        comparison = {**relation("statement", "BASE", "strength_comparison", "STRONG"),
+                      "evidence_result_ids": {"implication": "ARG-STRONG"}}
+        arguments = [declared, *ARGUMENTS[1:]]
+        # Neither registered: the declared weakening and the comparison's implication are flagged.
+        warnings = corpus.unregistered_weakening_warnings(arguments, RESULTS, [comparison], [])
+        self.assertEqual(len(warnings), 2)
+        self.assertIn("ARG-S-W: declares weakening from STRONG to WEAK", warnings[0])
+        self.assertIn("ARG-STRONG: is the implication of strength_comparison", warnings[1])
+        # Registering the pairs clears them; an unmarked one-premise argument is never flagged.
+        relations = [comparison, strengthens("STRONG", "WEAK"), strengthens("BASE", "STRONG", result_id="ARG-STRONG")]
+        order = corpus.strength_order(relations, RESULTS, arguments)
+        self.assertEqual(corpus.unregistered_weakening_warnings(arguments, RESULTS, relations, order), [])
+        self.assertEqual(corpus.unregistered_weakening_warnings(ARGUMENTS, RESULTS, [], []), [])
 
 
 class StrengthCorpusTest(unittest.TestCase):

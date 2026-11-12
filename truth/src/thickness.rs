@@ -692,10 +692,15 @@ mod tests {
         let fixture = Fixture::new();
         let records = fixture.records();
         let frontier = frontier_inputs("ROOT", &records, &[]);
-        // E enters only through an undesignated transcription route; S only
-        // through the strength registration, which is set aside.
+        // E enters only through an undesignated transcription route, so it
+        // stays out. S enters through the strength registration, which the
+        // walk follows like any verified derivation (2026-11-12) although
+        // closure sets it aside.
         let reached: Vec<&str> = frontier.reaching_root.iter().map(String::as_str).collect();
-        assert_eq!(reached, ["A", "B", "C", "D", "ROOT", "W"]);
+        assert_eq!(reached, ["A", "B", "C", "D", "ROOT", "S", "W"]);
+        assert_eq!(frontier.premise_dependent_arguments["S"], 3);
+        assert!(frontier.registration_arguments.contains("ARG-STRENGTH"));
+        assert!(!frontier.established.contains("W"));
         assert_eq!(frontier.statement_depths["D"], "stated");
         assert_eq!(frontier.statement_depths["B"], "supported");
         assert_eq!(frontier.statement_depths["C"], "bare");
@@ -727,7 +732,7 @@ mod tests {
         let records = fixture.records();
         let frontier = frontier_inputs("ROOT", &records, &[]);
         let report = thickness_report(&frontier, &records);
-        assert_eq!(report["statement_count"], 6);
+        assert_eq!(report["statement_count"], 7);
         assert_eq!(report["derivations"]["A"], json!(["ARG-A"]));
         // The strength registration is still a verified derivation of W here,
         // as in Python, which counts over all records.
@@ -740,16 +745,17 @@ mod tests {
             .map(|entry| entry["statement_id"].as_str().unwrap_or_default())
             .collect();
         // Unexamined first, then by dependents descending, then by ID.
-        assert_eq!(order, ["C", "D", "B"]);
-        assert_eq!(queue[2]["examined"], true);
-        assert_eq!(queue[2]["attempts"][0]["id"], "ATT-1");
+        // S, the strong version, reaches the root through its registration.
+        assert_eq!(order, ["S", "C", "D", "B"]);
+        assert_eq!(queue[3]["examined"], true);
+        assert_eq!(queue[3]["attempts"][0]["id"], "ATT-1");
         assert_eq!(
-            queue[2]["arguments"],
+            queue[3]["arguments"],
             json!([{"argument_id": "ARG-B", "status": "no result"}])
         );
-        assert_eq!(queue[2]["supports"][0]["relation_id"], "REL-SUPPORT");
+        assert_eq!(queue[3]["supports"][0]["relation_id"], "REL-SUPPORT");
         assert_eq!(
-            queue[0]["rivals"],
+            queue[1]["rivals"],
             json!([{"statement_id": "R", "refutations": [
                 {"argument_id": "ARG-REFUTE-R", "counted": true}]}])
         );

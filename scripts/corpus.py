@@ -205,8 +205,9 @@ SCHEMA_INSTANCE_PREDICATE = "instance_of_schema"
 # strong version as its only premise and the weak version as its conclusion.
 # In `frontier` an established strong version establishes the weak one, and a
 # refuted weak version refutes the strong one; never the reverse. The backing
-# argument is a registration, not a route step: it closes nothing by rules
-# (a) or (d) and is not walked (see `strength_order`).
+# argument is a registration for closure: it closes nothing by rules (a) or
+# (d) (see `strength_order`). Reachability and route expansion still treat it
+# as an ordinary verified derivation (2026-11-12).
 STRENGTHENS_PREDICATE = "strengthens"
 # Designated route (argument → statement; owner decision on #143, 2026-10-24):
 # the headline route for reporting and comparisons (`frontier --routes` marks
@@ -595,6 +596,61 @@ def validate_strong_version_needed(
             raise CorpusError(f"{where}: strong_version_needed reason for {statement_id} must be nonempty text")
 
 
+def validate_weakening(path: Path, argument: dict[str, Any]) -> None:
+    """`weakening: true` declares that a one-premise argument derives a weaker
+    version of its premise, so a `strengthens` relation should register it
+    (2026-11-12; `unregistered_weakening_warnings`)."""
+    if "weakening" not in argument:
+        return
+    if (argument["weakening"] is not True or len(argument["premise_statement_ids"]) != 1
+            or argument.get("commitment_statement_ids")):
+        raise CorpusError(
+            f"{path.relative_to(ROOT)}: weakening must be true on an argument with exactly one premise "
+            "and no commitments"
+        )
+
+
+def unregistered_weakening_warnings(
+    arguments: list[dict[str, Any]],
+    results: list[dict[str, Any]],
+    relations: list[dict[str, Any]],
+    order: list[dict[str, Any]],
+) -> list[str]:
+    """Advisory (2026-11-12): a verified one-premise argument that declares
+    itself a weakening (`weakening: true`), or that is the implication
+    evidence of a `strength_comparison` from its premise to its conclusion,
+    without a `strengthens` relation registering that pair."""
+    verified = {result["argument_id"] for result in results}
+    argument_of_result = {result["id"]: result["argument_id"] for result in results}
+    registered = {(entry["strong_statement_id"], entry["weak_statement_id"]) for entry in order}
+    compared: dict[str, str] = {}
+    for relation in sorted(relations, key=lambda relation: relation["id"]):
+        if relation.get("predicate") != "strength_comparison":
+            continue
+        implication = (relation.get("evidence_result_ids") or {}).get("implication")
+        if implication in argument_of_result:
+            compared.setdefault(argument_of_result[implication], relation["id"])
+    warnings = []
+    for argument in sorted(arguments, key=lambda argument: argument["id"]):
+        premises = argument["premise_statement_ids"]
+        if argument["id"] not in verified or len(premises) != 1 or argument.get("commitment_statement_ids"):
+            continue
+        strong, weak = premises[0], argument["conclusion_statement_id"]
+        if (strong, weak) in registered:
+            continue
+        if argument.get("weakening") is True:
+            why = "declares weakening"
+        elif argument["id"] in compared:
+            why = f"is the implication of strength_comparison {compared[argument['id']]}"
+        else:
+            continue
+        warnings.append(
+            f"{argument['id']}: {why} from {strong} to {weak}, but no strengthens relation registers "
+            "the pair; add one backed by this argument's result (#1017)"
+        )
+    return warnings
+
+
 def strength_use_warnings(
     arguments: list[dict[str, Any]],
     order: list[dict[str, Any]],
@@ -934,9 +990,12 @@ def frontier_report(
     strong version establishes (and closes) the weak one, and a refuted weak
     version refutes the strong one, inside the same least fixpoint; never the
     reverse. The backing argument of a registration is set aside before
-    closure and route semantics are computed: it would otherwise close the weak version from
+    closure is computed: it would otherwise close the weak version from
     an open strong sibling by rule (a) or (d), circularly where the weak
-    version is also a premise of a proof of the strong one."""
+    version is also a premise of a proof of the strong one. Reachability
+    (the upward walks, `reaching_root_statements`, support bundles) and route
+    expansion treat it as an ordinary verified derivation (2026-11-12), so
+    registering an implication never removes a route to the root."""
     original_arguments, original_results = arguments, results
     order = strength_order(relations, results, arguments)
     registration_arguments = {entry["argument_id"] for entry in order}
@@ -944,7 +1003,10 @@ def frontier_report(
         arguments = [argument for argument in arguments if argument["id"] not in registration_arguments]
         results = [result for result in results if result["argument_id"] not in registration_arguments]
     statement_by_id = {statement["id"]: statement for statement in statements}
-    argument_by_id = {argument["id"]: argument for argument in arguments}
+    # Lookup over every argument, registrations included: closure reads only
+    # the filtered `results` and steps below, while reachability and route
+    # expansion also follow registrations (2026-11-12).
+    argument_by_id = {argument["id"]: argument for argument in original_arguments}
     verified_arguments = {result["argument_id"] for result in results}
     # Invariant 16: a transcription closes no frontier node. A conclusion is
     # closed by rule (a) only by a verified result that is not a transcription:
@@ -973,9 +1035,17 @@ def frontier_report(
         for result in results
         if result["argument_id"] in argument_by_id
     } - verified_conclusions
+    # The walks (not closure) treat a strength registration as an ordinary
+    # verified derivation: it enters a routed conclusion when its result is
+    # not a transcription, and its strong version is a premise walked upward.
+    walk_arguments = sound_arguments | {
+        result["argument_id"]
+        for result in original_results
+        if result["argument_id"] in registration_arguments and result["id"] not in transcription_results
+    }
 
     dependents: dict[str, set[str]] = {}
-    for argument in arguments:
+    for argument in original_arguments:
         for premise in argument["premise_statement_ids"]:
             dependents.setdefault(premise, set()).add(argument["id"])
 
@@ -1027,7 +1097,7 @@ def frontier_report(
                     seen_arguments.append(argument_id)
                 # root_route: a routed conclusion is entered through its
                 # designated arguments or any verified non-transcription one.
-                if conclusion in routes and argument_id not in routes[conclusion] and argument_id not in sound_arguments:
+                if conclusion in routes and argument_id not in routes[conclusion] and argument_id not in walk_arguments:
                     continue
                 if conclusion not in visited_statements:
                     visited_statements.add(conclusion)
@@ -1302,7 +1372,7 @@ def frontier_report(
     if _hypothesis is not None:
         probe_sourced = {claim["statement_id"] for claim in claims or []} | set(support)
         return root_routes(
-            root, statement_by_id, argument_by_id, results, transcription_results,
+            root, statement_by_id, argument_by_id, original_results, transcription_results,
             closed, established,
             lambda sid: sid in probe_sourced,
             routes.get(root or "", set()),
@@ -1394,7 +1464,7 @@ def frontier_report(
         root,
         statement_by_id,
         argument_by_id,
-        results,
+        original_results,
         transcription_results,
         closed,
         established,
@@ -1487,14 +1557,14 @@ def frontier_report(
     reaching_root: set[str] = set()
     if root is not None and root in statement_by_id:
         concluding: dict[str, list[str]] = {}
-        for argument in arguments:
+        for argument in original_arguments:
             concluding.setdefault(argument["conclusion_statement_id"], []).append(argument["id"])
         reaching_root.add(root)
         pending = [root]
         while pending:
             conclusion = pending.pop()
             for argument_id in concluding.get(conclusion, ()):
-                if conclusion in routes and argument_id not in routes[conclusion] and argument_id not in sound_arguments:
+                if conclusion in routes and argument_id not in routes[conclusion] and argument_id not in walk_arguments:
                     continue
                 for premise in argument_by_id[argument_id]["premise_statement_ids"]:
                     if premise not in reaching_root:
@@ -1507,7 +1577,7 @@ def frontier_report(
     # with the same obligations. Unlike route cost this measure cannot worsen
     # merely because an extra derivation was registered.
     support_bundles: dict[str, dict[tuple[str, ...], dict[str, set[str]]]] = {}
-    for result in results:
+    for result in original_results:
         if result["id"] in transcription_results:
             continue
         argument = argument_by_id.get(result["argument_id"])
@@ -1561,6 +1631,7 @@ def frontier_report(
         {statement_id for statement_id in statement_by_id if defended(statement_id)},
         {item["statement_id"] for item in items},
         upward,
+        set(dependents),
     )
     report = {
         "root": root,
@@ -1618,6 +1689,7 @@ def statement_view(
     defended: set[str],
     open_premises: set[str],
     upward: Callable[[str], tuple[list[str], list[str], list[str] | None]],
+    walked_premises: set[str] | None = None,
 ) -> dict[str, Any]:
     """Per-statement projections for views such as the explorer (#507), so no
     view recomputes them. `statement_statuses` gives one display status per
@@ -1712,7 +1784,11 @@ def statement_view(
     # The route-aware upward walk of every argument premise, closed or open:
     # the walk that gives an open item its transitive dependents.
     premise_dependents: dict[str, dict[str, list[str]]] = {}
-    for statement_id in sorted({premise for argument in arguments for premise in argument["premise_statement_ids"]}):
+    # `walked_premises` also holds the strong versions of strength
+    # registrations, which `arguments` (closure's) leaves out.
+    if walked_premises is None:
+        walked_premises = {premise for argument in arguments for premise in argument["premise_statement_ids"]}
+    for statement_id in sorted(walked_premises):
         dependent_arguments, dependent_statements, _ = upward(statement_id)
         premise_dependents[statement_id] = {"arguments": dependent_arguments, "statements": dependent_statements}
     return {
@@ -3114,6 +3190,7 @@ def validate() -> dict[str, int]:
     }
     for path, argument in arguments:
         validate_strong_version_needed(path, argument, strong_versions)
+        validate_weakening(path, argument)
 
     unused = sorted(definition_ids - used_definitions)
     if unused:
@@ -3300,7 +3377,9 @@ def check_warnings() -> list[str]:
     warnings.extend(supports_gap_warnings(relations))
     warnings.extend(identity_warnings(ROOT))
     warnings.extend(trivial_category_warnings())
-    warnings.extend(strength_use_warnings(arguments, strength_order(relations, results, arguments)))
+    order = strength_order(relations, results, arguments)
+    warnings.extend(strength_use_warnings(arguments, order))
+    warnings.extend(unregistered_weakening_warnings(arguments, results, relations, order))
     for entry in report["floor"]:
         if not entry["met"]:
             warnings.append(
