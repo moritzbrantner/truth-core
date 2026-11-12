@@ -802,6 +802,14 @@ All new premises are open analyst formulations; nothing is closed.
   - removing any one of premises 1–3 gives 2/10;
   - removing e0088de9 gives 1/10, as it already does alone on main;
   - removing e078f07b gives 0/10.
+- **Classical-root sibling** (`specs/necessary-classical-god-root-at-first.toml`,
+  `NecessaryClassicalGodRootAtFirst.derive`, argument 69affa96,
+  [attempt](../../corpus/attempts/e432c07c-19d6-4282-a945-d0fabdbec137.json)).
+  It is 8f956c81 with 61ad11f3 in place of 3b2d2d46, all other premises and
+  parameters unchanged; the root's pure actuality comes from
+  `ActPriorityAtFirst.facts` item 2 with non-overlap. Removing a4d3261a and
+  3b2d2d46 together now leaves 10/10 (92ab7c94 restored); the counts above
+  with one composition premise also removed are unchanged.
 
 Provisional judgment: the routes need only that a first being has no potency.
 The strong reading's universal scope buys nothing on them. On the grounding
