@@ -1,0 +1,17 @@
+{
+  "id": "32385744-15af-42a9-9c53-c7f1e6402bbe",
+  "label": "CCR decomposes into borrowed reality and localized bridge classically",
+  "premise_statement_ids": [
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
+  ],
+  "conclusion_statement_id": "b9a475ed-8251-4d57-b1ba-cbb379398f13",
+  "inference_ids": [
+    "41bdb523-5e81-4534-87a3-e755319634f2"
+  ],
+  "meaning": "CCR decomposes into borrowed reality and localized bridge classically. Conditional structural consequence only; no independent warrant or rival defeat. Excluded middle is explicit where listed.",
+  "definition_ids": [
+    "38b9012a-472b-4544-a271-16d22b25c9ac",
+    "d8e2ed12-8089-5202-ae51-e807cf611c76",
+    "ea94e8dd-6f08-4099-9032-d302dd799a4e"
+  ]
+}

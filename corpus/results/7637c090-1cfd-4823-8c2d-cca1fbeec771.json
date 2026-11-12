@@ -1,0 +1,11 @@
+{
+  "id": "7637c090-1cfd-4823-8c2d-cca1fbeec771",
+  "label": "CCR implies finite root access classically",
+  "argument_id": "602cc1c3-4575-4a99-a3a0-fe6fc1b40a35",
+  "challenge_module": "TruthCore.Results.Causality.ConcreteRootAccess.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ConcreteRootAccess.Solution",
+  "theorem": "TruthCore.Results.Causality.ConcreteRootAccess.accessOfClosed",
+  "comparator_config": "results/7637c090-1cfd-4823-8c2d-cca1fbeec771/comparator.json",
+  "status": "solution-present",
+  "description": "CCR implies finite root access classically. Conditional structural consequence only; no independent warrant or rival defeat. Excluded middle is explicit where listed."
+}
