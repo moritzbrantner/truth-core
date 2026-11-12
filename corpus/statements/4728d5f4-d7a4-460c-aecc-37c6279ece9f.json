@@ -1,0 +1,14 @@
+{
+  "id": "4728d5f4-d7a4-460c-aecc-37c6279ece9f",
+  "label": "Whatever has the capacity to understand understands or is in potency to understanding",
+  "paraphrase": "Open premise, analyst formulation, unattributed. Whatever is able to be actually understanding (CanBe, POTENCY_3) is actually understanding (InAct x understanding) or in potency to understanding (InPotency x understanding, the same potency predicate whose absence in every respect is pure act and altogether immutability). Restricted to the one respect of understanding, an operation that remains in the agent. Classically it is the right-to-left direction of the Metaphysics IX.6 analysis (STMT-POTENCY-IS-UNACTUALIZED-CAPACITY: potency is unactualized capacity) at this respect; constructively it is stronger, so no argument from that statement is registered (it would need excluded middle). Under the adopted sense of potency (AdoptedPotency.InPotency: capable and not actually), it is the instance of excluded middle for actually understanding at a capable being (exercisedOrInPotencyOfDecidable, not registered): in that sense a pure act is a being none of whose capacities is unexercised. The general version over every respect is not used: a pure act would then exercise every capacity it has, including any capacity to produce an effect it does not produce, which the classical position (ST I q.25 a.5, attribution deferred) denies puts an agent in potency. Control part 2: without it, a being with the nine is capable of understanding, in act in no respect, and does not operate.",
+  "lean_declaration": "TruthCore.Causality.DeiFiliusOperationFromIntellect.UnderstandingCapacityExercisedOrInPotency",
+  "definition_ids": [
+    "00ab0133-e353-5a2e-a231-b24a5c85107a",
+    "39f50105-c889-4c30-b841-ce458ec8109d"
+  ],
+  "disambiguation_ids": [
+    "508617ab-cf24-5f3b-a387-64b3991359ec",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
+  ]
+}

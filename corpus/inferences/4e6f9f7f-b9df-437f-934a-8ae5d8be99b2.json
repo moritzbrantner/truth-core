@@ -1,0 +1,14 @@
+{
+  "id": "4e6f9f7f-b9df-437f-934a-8ae5d8be99b2",
+  "label": "Intellectual PURE_ACT_5 beings operate, from intellect as an exercised capacity (inference)",
+  "input_statement_ids": [
+    "9c2a5dfe-f2f9-4d8b-9235-6a01fd108161",
+    "4728d5f4-d7a4-460c-aecc-37c6279ece9f",
+    "021aaa19-7789-46da-a38b-e6a0e0dbdcd9"
+  ],
+  "output_statement_id": "e9d4901f-a71e-47a5-9c01-df842ccc76e5",
+  "rule": "Disjunction elimination: the potency branch contradicts pure act at the respect of understanding",
+  "meaning": "Let x be in potency in no respect and have intellect. Its intellect is a capacity to understand (first premise). That capacity is exercised or a potency to understanding (second premise); x is in potency in no respect, so not in potency to understanding, and so it is actually understanding. Whatever is capable of understanding and actually understands has an immanent operation (third premise), so x operates. No premise mentions life, time or being unmoved; the capacity, act and potency predicates are the same throughout (one respect, one InAct, one InPotency). Conditional consequence; all three premises stay open.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

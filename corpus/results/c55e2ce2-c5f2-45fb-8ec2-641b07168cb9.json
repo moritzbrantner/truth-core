@@ -1,0 +1,11 @@
+{
+  "id": "c55e2ce2-c5f2-45fb-8ec2-641b07168cb9",
+  "label": "Intellectual PURE_ACT_5 beings operate, from intellect as an exercised capacity",
+  "argument_id": "1715e54d-1673-4a99-8da6-8ae46bfcc157",
+  "challenge_module": "TruthCore.Results.Causality.DeiFiliusOperationFromIntellect.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DeiFiliusOperationFromIntellect.Solution",
+  "theorem": "TruthCore.Results.Causality.DeiFiliusOperationFromIntellect.intellectualPureActOperatesFromCapacity",
+  "comparator_config": "results/c55e2ce2-c5f2-45fb-8ec2-641b07168cb9/comparator.json",
+  "status": "solution-present",
+  "description": "Let x be in potency in no respect and have intellect. Its intellect is a capacity to understand (first premise). That capacity is exercised or a potency to understanding (second premise); x is in potency in no respect, so not in potency to understanding, and so it is actually understanding. Whatever is capable of understanding and actually understands has an immanent operation (third premise), so x operates. No premise mentions life, time or being unmoved; the capacity, act and potency predicates are the same throughout (one respect, one InAct, one InPotency). Conditional consequence; all three premises stay open."
+}

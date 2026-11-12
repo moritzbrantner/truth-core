@@ -1,0 +1,15 @@
+{
+  "id": "021aaa19-7789-46da-a38b-e6a0e0dbdcd9",
+  "label": "Whatever is capable of understanding and actually understands has an immanent operation",
+  "paraphrase": "Open premise, analyst formulation, unattributed. Whatever is able to be actually understanding (CanBe, POTENCY_3) and is actually understanding (InAct x understanding) has an immanent operation (Operates, definition 7acc985a: an operation that remains in the agent, not motion, not including being unmoved). Motivated by ST I q.18 a.3 ad 1 (understanding is an action that remains in the agent; no claim on file). A classification of understanding among immanent operations; it says nothing about life or unmovedness. The capacity condition restricts it to a being's exercise of its own capacity to understand (formal act), so a cause that contains an understander's perfection only virtually is not in its scope. Control part 3: without it, a being with the nine capable of and in act in understanding does not operate.",
+  "lean_declaration": "TruthCore.Causality.DeiFiliusOperationFromIntellect.ExercisedUnderstandingIsImmanentOperation",
+  "definition_ids": [
+    "00ab0133-e353-5a2e-a231-b24a5c85107a",
+    "39f50105-c889-4c30-b841-ce458ec8109d",
+    "7acc985a-ea60-4538-9c9e-6b18ddecf3a9"
+  ],
+  "disambiguation_ids": [
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
+  ]
+}
