@@ -6,5 +6,5 @@
   "predicate": "alternative_to",
   "object_kind": "statement",
   "object_id": "56f68b40-9737-59a0-8cac-5610980a1547",
-  "note": "Same Ontic model, concrete predicate and world. Stronger than the negation: adds that something exists. Recorded so the premise can later be defended or refuted; neither is established."
+  "note": "Same Ontic model, concrete predicate and world. Stronger than the negation: adds that something exists. Recorded so the premise can later be defended or refuted; neither is established. Objection audit 2026-11-12 (attempt b6384b6b-ef1a-405e-8237-0c2127d86b5f): formal alternative; the model shows the premise is needed, and no independent justification for the rival is on file."
 }

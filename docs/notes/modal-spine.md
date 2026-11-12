@@ -408,13 +408,17 @@ reply to A3 and B1.
 
 ## Rival table (run of 2026-11-10)
 
-Every open premise of the spine now has a recorded rival with a replacement
-account and one Lean-verified test. "Survives" means: one finite interpretation
+Every open premise of the spine now has a recorded rival and one Lean-verified
+test. "Survives" means **needed in a model**: one finite interpretation
 satisfies the rival together with the other premises of the named consuming
 theorem while that theorem's conclusion fails. It shows the premise is needed
-there and that the rest does not exclude the rival. It refutes nothing, and it
-does not test the rival against the whole route. "Excluded" names a checked
-incompatibility. No rival is refuted and no premise is established.
+there and that the rest does not exclude the rival. It is an established fact
+about one formal interpretation, not a judgment that the premise is doubtful
+and not evidence against it (substantive objection standard, AGENTS.md). It
+refutes nothing, and it does not test the rival against the whole route.
+"Excluded" names a checked incompatibility. No rival is refuted and no premise
+is established. Whether a rival is a substantive objection is a separate
+question, recorded for stage two in its own column below.
 
 Batches: stage one in `specs/modal-spine-inert-emptiness.toml`,
 `specs/modal-spine-coming-to-be.toml` and `specs/spine-rivals-stage-one.toml`;
@@ -485,59 +489,103 @@ coverage of serious rivals nor that the weakening lacks dialectical value.
 A defended rival interpretation or independently warranted persistence/deletion
 bridge would reopen this assessment. No premise is established by it.
 
+### Stage two: objection audit (2026-11-12)
+
+The stage-two rows predate the substantive objection standard. Each was audited
+against it ([audit attempt](../../corpus/attempts/b6384b6b-ef1a-405e-8237-0c2127d86b5f.json))
+and then challenged and repaired.
+Columns:
+
+- **Model**: the rival survives in the named consuming theorem, so the premise
+  is needed there (see the semantics above). Every stage-two row has this.
+- **Objection status**: *substantive* when the rival names the premise, gives a
+  mechanism and has independent justification on file (a sourced claim or a
+  read source), and the mechanism bears on the premise as formalized;
+  *partial* when such support is on file but a named bridge between it and the
+  premise is open; *formal alternative* when only the model is on file (no
+  substantive objection identified); *misdirected* when the motivation cited for
+  the rival bears on another sense or another premise. Leads named for formal
+  alternatives are unread and carry no weight, and no inference is drawn from
+  them. No row is fully substantive, and no row has an established
+  counterexample.
+- **Warrant on file**: sourced claims stating the premise, and verified
+  derivations of it from other premises that are themselves open. A sourced
+  claim attributes the premise and its reason to a text; it does not establish
+  the premise. No stage-two premise is established.
+
 ### Stage two: the root and the act of being
 
-| Premise | Rival (replacement account) | Result | Tested against |
-|---|---|---|---|
-| Something concrete exists | Only non-concrete things exist | survives | `NecessaryRootFork.necessaryRootTrilemma` |
-| The whole roster is not a borrowing trap | Every concrete thing has a concrete ground, without end | survives | `WholeRosterFoundation.necessaryConcrete` |
-| Every contingent concrete thing has a ground | Some contingent concrete thing is ungrounded (a brute fact) | survives | `ActualRootNecessityUpgrade.upgrade` |
-| The maximum in being causes all other being | The maximum is idle: a third thing causes another's being | survives | `TermSenseForks3.maximeEnsCausesAllMaximal` |
-| What exists is in act as to being | Thin existence: something exists with no act of being | survives | `Round2ExistenceAct.intellectualExerciseRequiresActFromExistence` |
-| A cause of a thing's being is its concrete ground | A non-concrete cause of being (a law or abstract object) | survives | `Round2Grounding.contingentGroundedViaParticipation` |
-| Grades of being imply a maximum | Unbounded grades: everything is exceeded | survives | `SelectedAncestryUnique.uniqueRoot` |
-| A universal cause of being causes the effect's perfections | Mere conservation: a secondary cause supplies a perfection | survives | `CausalPerfectionTransfer.reconstruction` |
-| What is simply prior is a concrete ground | Something non-concrete is simply prior to a concrete thing | survives | `NecessaryFirstBeing.necessaryFirst` |
-| Whatever is God is maximal in being | A god exceeded in being by something not God | survives | `StageTwo.GodIsSimple.godIsSimple` |
+| Premise | Rival | Model (consuming theorem) | Objection status | Warrant on file |
+|---|---|---|---|---|
+| Something concrete exists | Only non-concrete things exist | `NecessaryRootFork.necessaryRootTrilemma` | Formal alternative. No independent justification on file. Its holder must deny that the bearer of an occurring thought is concrete. | No claim. Seven Cogito derivations from open premises. A foundational-warrant target. |
+| The whole roster is not a borrowing trap | Every concrete thing has a concrete ground, without end or in a circle | `WholeRosterFoundation.necessaryConcrete` | Partial. Welchance 2026 (read, passage `WELCHANCE-INFINITISM-1-3`, [note](unique-feedback-explanation-311.md)) argues that an unexplained chain loses no more explanatory value than an unexplained foundation, and claims a uniformity virtue for infinitism. Open bridges: his relata are facts under "in virtue of", not concrete grounds of beings, and he concludes parity, not truth or possibility. | No claim. Three derivations from open premises. |
+| Every contingent concrete thing has a ground | Some contingent concrete thing is ungrounded (a brute fact) | `ActualRootNecessityUpgrade.upgrade` | Partial. Schmid's existential inertia (read, [eternity note](../eternity-dependence-connection.md)) gives a mechanism: a thing's persistence is explained by its earlier existence and the absence of a destroying cause, with no concurrent sustainer. Open bridge: whether grounding under `m.grounds` is concurrent sustenance by a distinct ground; if an earlier existent can be the ground, Schmid does not contest the premise. Hume (claim `HUME-TREATISE-I-3-3-NARROW-A`) argues only that the causal maxim is not demonstrable from ideas: a limit on one kind of warrant, not evidence of an ungrounded thing. Oppy 2020 (read) is support neither way: every possible world shares the actual initial history (claim `OPPY-2020-SHARED-LAWS-INITIAL-HISTORY`), but the claim and `DEF-OPPY-CAUSAL-MODAL-COMPARISON` withhold numerical identity of one bearer across worlds, so whether his uncaused initial state is a necessary individual (allowed by the premise) or a contingent ungrounded one (the rival) is an unresolved bearer-identity bridge. | No claim. Three derivations from open premises. |
+| The maximum in being causes all other being | The maximum is idle: a third thing causes another's being | `TermSenseForks3.maximeEnsCausesAllMaximal` | Formal alternative. Lead, unread for this purpose: a first mover that is a final cause only (Aristotle, Met. XII.7). | No claim. Four derivations from open premises. |
+| What exists is in act as to being | Thin existence: something exists with no act of being | `Round2ExistenceAct.intellectualExerciseRequiresActFromExistence` | Formal alternative. The rival's sense is fixed by its definition (`f5345c9c`, thin existence: things exist, but existing is not an actuality they have). The stage-two bundle shares one `InAct` and one esse respect, so a thin theorist contests the bundle of existence-to-act, perfection transfer and infinity together, not another sense. No sourced justification for the thin view is on file. | No claim. Three derivations from open premises, two through the sourced q.4 a.1 ad 3 premise. |
+| A cause of a thing's being is its concrete ground | A non-concrete cause of being (a law or abstract object) | `Round2Grounding.contingentGroundedViaParticipation` | Partial, on an analyst construction. Phaedo 100d–e (claim `PLATO-PHAEDO-100D-PARTICIPATION-EXPLANATORY`) makes a Form explain a thing's being so; explaining being so is not shown to be causing esse. Rosen reports, without endorsing, that on Lewis's account events are sets (claim `SEP-ABSTRACT-OBJECTS-32-LEWIS-EVENTS-ARE-SETS`); two stacked bridges are open: causing events is not causing esse, and impure sets are not shown non-concrete in the adopted sense ([boundary note](causal-concrete-rival-boundary.md)). Only the analyst's construction connects Lewis to the premise. Aristotle's sourced critique (Met. I.9) is on file against the Phaedo account. | No claim. One derivation from four open premises. |
+| Grades of being imply a maximum | Unbounded grades: everything is exceeded | `SelectedAncestryUnique.uniqueRoot` | Formal alternative. Comparatives without a maximum are established (the natural numbers under <), but they bear only on a general rule for "more and less", which nothing on the route uses: both derivations are specific to being. They show that a general more-and-less warrant would not suffice. No case of unbounded grades of being is on file. | No claim. Two derivations from open premises (no infinite ascent; approach to a primary). |
+| A universal cause of being causes the effect's perfections | Mere conservation: a secondary cause supplies a perfection | `CausalPerfectionTransfer.reconstruction` | Formal alternative. Lead, unread: medieval mere conservationism (Durandus). | No claim. Two derivations from open premises. |
+| What is simply prior is a concrete ground | Something non-concrete is simply prior to a concrete thing | `NecessaryFirstBeing.necessaryFirst` | Formal alternative. The Phaedo claim says nothing about priority; reading its explanation of being so as simple priority would be an unsupported bridge. | No claim. Two derivations from open premises. |
+| Whatever is God is maximal in being | A god exceeded in being by something not God | `StageTwo.GodIsSimple.godIsSimple` | Misdirected. Finite and demiurgic gods use another sense of "god". GOD_4 is a primitive field (`DEF-GOD-OF-CLASSICAL-THEISM`) whose content is fixed only by open premises, here the attribute premise `STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES` (infinite, perfect); the misdirection holds only given that premise. Which being deserves the name is the naming premise's question. | No claim. Two derivations from open premises. |
 
 ### Stage two: the attributes and the name
 
-All fourteen tests are conjuncts of `SpineRivalsAttributes.controls`.
+All fourteen models are conjuncts of `SpineRivalsAttributes.controls`.
 
-| Premise | Rival (replacement account) | Result | Tested against |
-|---|---|---|---|
-| Nothing has actuality except insofar as it is | Actuality without being (Meinongian) | survives | `existingInActAtFromSomeAct` |
-| An effect's perfections preexist in its cause | Strong emergence | survives | `causeOfBeingHasWhatItGives` |
-| Goodness is actuality | Actuality is not sufficient for goodness | survives | `godIsSupremelyGood` |
-| Every composite has a uniting cause | Uncaused composition | survives | `godIsSimple` |
-| Matter-form and essence-existence differences are compositions | A real difference without composition | survives | `firstMoverSimple` |
-| No component is the first being | A first being that is a component of something | survives | `attributesFromFirst` |
-| The immaterial is intellectual | Intellect only in material composites | survives | `godHasIntellect` |
-| Will follows intellect | Intellect without will | survives | `godHasWill` |
-| Act is simply prior to potency | Potency prior to act | survives | `firstBeingNoPotency` |
-| Nothing is in act and potency in the same respect | Act and potency in the same respect | survives | `firstBeingNoPotency` |
-| Subsistent being is infinite | A finite subsistent being | survives | `firstMoverPerfectionFromInfinity` |
-| The immutable is eternal | Immutable without eternity | survives | `godIsEternal` |
-| "God" names the fully described principle | The full nominal naming fails | survives | `properDescriptionExcluded` |
-| The nine attributes suffice for the classical attributes | The nine attributes fall short | survives | `ClassicalAttributes.godHasClassicalAttributes` |
+| Premise | Rival | Model (consuming theorem) | Objection status | Warrant on file |
+|---|---|---|---|---|
+| Nothing has actuality except insofar as it is | Actuality without being (Meinongian) | `existingInActAtFromSomeAct` | Formal alternative. Lead: Meinong's independence of so-being from being (candidate `MEINONG-GEGENSTANDSTHEORIE-3`, unread); reading "in act in a respect" as so-being would be an analyst bridge. The recorded conditional refutation rests on two open premises. | Aquinas q.3 a.4, q.4 a.1 ad 3. Two derivations. |
+| An effect's perfections preexist in its cause | Strong emergence | `causeOfBeingHasWhatItGives` | Formal alternative. Lead: Broad 1925 (candidate `BROAD-MIND-AND-ITS-PLACE-CH2`, unpinned). Relevance depends on `DISAMB-IN-ACT`: the premise allows eminent possession. | Aquinas q.4 a.2. One derivation. |
+| Goodness is actuality | Actuality is not sufficient for goodness | `godIsSupremelyGood` | Formal alternative. Leads, unread: Hume's is/ought and Moore's open question (the rival's cited motivation), and positive-evil objections to privation theory. Whether the first two concern GOOD_1 at all is not checked. | Aquinas q.5 a.1. Two derivations. |
+| Every composite has a uniting cause | Uncaused composition | `godIsSimple` | Partial, against the premise's reason. Schaffer (claim `SCHAFFER-14-BASIC-WHOLE`, read) makes the cosmos a basic composite whose parts depend on it, so no prior diverse parts are brought together. Open bridge: basic means ungrounded, not without an efficient cause of being; Schaffer offers no explanation of cosmic existence. | Aquinas q.3 a.7. Five derivations from open premises. |
+| Matter-form and essence-existence differences are compositions | A real difference without composition | `firstMoverSimple` | Formal alternative. Lead, unread and unverified: Scotus's formal distinction. | Aquinas q.3 a.7. One derivation. |
+| No component is the first being | A first being that is a component of something (world-soul) | `attributesFromFirst` | Formal alternative. The positions are attested only through Aquinas's own report in q.3 a.8; their reasons are not on file. Lead: Spinoza (source registered, no claim). | Aquinas q.3 a.8. One derivation. |
+| The immaterial is intellectual | Intellect only in material composites, and something altogether immaterial | `godHasIntellect` | Partial. The recorded rival has two conjuncts. Papineau (claim `PAPINEAU-RISE-CAUSAL-POWERS-PHYSICAL`) supports at most the first, that intellect requires the physical; the bridge from physical to composed of matter and form is open, and nothing on file supports the second, that some altogether immaterial thing exists without intellect. A further partial objection on file is not the recorded rival: Plotinus V.4.2 (claim `PLOTINUS-V4-INTELLECT-NOT-FIRST`, read) argues that intellect is two, thinking and intelligible, so the absolutely simple first is not intellect. Open sense bridge: the claim's intellect is the Plotinian thinking/intelligible structure (`DISAMB-PLOTINIAN-PRIORITY-UNITY`, `DEF-PLOTINIAN-INTELLECT-DUALITY`), which the corpus distinguishes from every account of cognition; nothing shows that stage two's primitive `HasIntellect` entails that duality or a composition in stage two's sense. Only with that bridge would it bear on the joint simplicity and intellect conclusions. It is an argument, not an established case. | Aquinas q.14 a.1. Four derivations. |
+| Will follows intellect | Intellect without will | `godHasWill` | Formal alternative. No independent justification on file. Leads, unread: Aristotle's self-thinking first mover (Met. XII.9); Plotinian procession by necessity. | Aquinas q.19 a.1. One derivation. |
+| Act is simply prior to potency | Potency prior to act | `firstBeingNoPotency` | Partial. Aristotle states the aporia (claim `ARIST-MET-1071B-POTENCY-PRIOR-A`): whatever acts is able, but not whatever is able acts. Its grounds constrain only ability and act, not simple priority (`ATTEMPT-NIGHT-COSMOGONY-BUNDLE-ELIMINATION`); the claim reaches simple priority only through an analyst reading step, so the bridge from ability to simple priority is open. The Night-generation bundle is excluded by a zero-axiom core Γ of three open premises, without the target; the bare rival survives that core in `MODEL-NIGHT-COSMOGONY-RESIDUAL`. Aristotle rejects the aporia in the same passage. | Aquinas q.3 a.1, q.4 a.1 ad 2; SCG I.16. Four derivations. |
+| Nothing is in act and potency in the same respect | Act and potency in the same respect | `firstBeingNoPotency` | Formal alternative. Lead: Scotus, Quaest. Metaph. IX q.14 (candidate `SCOTUS-QQ-METAPH-IX-Q14`, no witness): virtual act with formal potency. On the virtual reading of `DISAMB-IN-ACT` it dissolves rather than rivals (`ATTEMPT-RIVAL-TRIAGE-497`). | Aristotle, Phys. III.1; Aquinas q.2 a.3. Two derivations. |
+| Subsistent being is infinite | A finite subsistent being | `firstMoverPerfectionFromInfinity` | Formal alternative. No justification on file. The dispute lies upstream, at `STMT-ESSE-LIMITED-ONLY-THROUGH-RECEPTION`, which both derivations use. | Aquinas q.7 a.1. Two derivations. |
+| The immutable is eternal | Immutable without eternity | `godIsEternal` | Formal alternative. Leads, unread and unverified: Shoemaker on time without change; the everlasting-God view (Wolterstorff). | Aquinas q.10 a.2. One derivation. |
+| "God" names the fully described principle | The full nominal naming fails | `properDescriptionExcluded` | Partial. The rival is derived (verified, argument `a9b8530b`) from the practice-use thesis WF-P1 plus two further open premises (proper application preserved by practice reference; a satisfier of the full description exists). WF-P1 is an unattributed reconstruction that Phillips's reported remark supports but does not state (claim `SEP-RELIGIOUS-LANGUAGE-4-1-PHILLIPS-NO-OBJECT-A`, secondhand). | No claim. Four arguments: one from the reduced-description premise alone, two through GOD_2 and GOD_3 bridges, and a GOD_1 transcription. |
+| The nine attributes suffice for the classical attributes | The nine attributes fall short | `ClassicalAttributes.godHasClassicalAttributes` | No substantive objection identified. Warrant gap: the premise is a stipulated bridge to the primitive `HasClassicalAttributes` field with no derivation. Dei Filius ch. 1 (claim `VATICAN-I-DEI-FILIUS-CH1-ONE-TRUE-LIVING-GOD`) motivates the premise; that the corpus has not derived its further members (almighty, immense, incomprehensible) from the nine is not evidence that they fail. | No claim states it; motivated by Dei Filius ch. 1. No derivation. |
 
-Four attribute rivals (will, infinity, eternity, sufficiency) are bare negations
-in Lean, with the replacement account in prose only: the premise's carrier has
-no predicate in which to state it.
+**Where stage two is contested.** Of the 24 rows, none has a fully substantive
+objection. Seven have partial support on file, each with a named open bridge:
+whole-roster nontrapping (Welchance), contingent grounding (Schmid), the
+esse-cause bridge (Phaedo, Lewis), the uniting cause (Schaffer), the
+immaterial-intellect premise (Papineau; Plotinus through a rival not yet
+recorded as such), act's priority (Aristotle's aporia) and naming (Phillips).
+One is misdirected (God's maximality, given the attribute premise). Sixteen are
+formal alternatives with no substantive objection identified; for sufficiency
+the open question is warrant, not objection. The Plotinian objection would be
+the most consequential if its sense bridge held, since it would then target the
+joint conclusion of simplicity and intellect, not one bridge. On the warrant
+side, no root or act-of-being premise is stated by a sourced claim. Twelve of
+the fourteen attribute premises are, and every stage-two premise except
+sufficiency has at least one derivation from other open premises.
+
+The four bare-negation rivals (will, infinity, eternity, sufficiency) get no
+typed vocabulary. For will, infinity and eternity no replacement account with
+independent justification is on file, so typing one would add a placeholder.
+For sufficiency the gap is the undefined field, and the next step is to define
+it, not to type a rival.
 
 ### Foundational-warrant targets
 
-These premises have no source claim and no derivation in the corpus. They are
-targets for investigating foundational warrant, not established premises or
-choices the owner must settle before research can proceed:
+These premises have no source claim, and no derivation from premises that are
+not themselves open (the concrete-population premise has seven Cogito
+derivations, all from open premises). They are targets for investigating
+foundational warrant, not established premises or choices the owner must settle
+before research can proceed:
 
 - F1 actual reflexivity. Fix the intended sense of possibility and test whether each recorded rival contests that claim or instead uses another accessibility relation.
 - A1 presence gives existence. Compare the proposed non-presentist reading of existence with the presentist rival and test its applicability to the intended histories.
 - Something concrete exists at the actual world. Make the intended sense of concrete explicit and assess its support and strongest objections.
 
 The other unsupported premises (F2, A2, A3′, B1, B2, J1, J2, and the root and
-act-of-being bridges) remain contested positions to investigate under explicit
-assumptions. For each selected target, record the exact scope and applicability,
+act-of-being bridges) remain open positions to investigate under explicit
+assumptions; for stage two, the objection audit above records which of them a
+substantive objection on file actually contests. For each selected target, record the exact scope and applicability,
 support, strongest objections and replies, and a reasoned provisional judgment
 under the [systematic research loop](../systematic-corpus-loop.md). Such a judgment
 can guide priorities and qualified reports without changing computed closure;
@@ -628,3 +676,16 @@ conditional investigations, not a mandatory first gate:
    because their intermediate statements and the act-priority record (POTENCY_1
    on a generic `InPotency` parameter) still link several senses. Cleaning those
    records, or splitting the compound disambiguations, would clear more of them.
+4. Stage-two warrant work, ordered by the objection audit (2026-11-12). First,
+   state the sense bridge between the Plotinian intellect
+   (`DEF-PLOTINIAN-INTELLECT-DUALITY`) and stage two's `HasIntellect`, or record
+   that none is warranted; only if it holds, record the Plotinian objection as a
+   typed rival of the immaterial-intellect premise, tested jointly against the
+   simplicity and intellect conclusions. Second, the bridges that decide
+   whether the read sources bear on their premises: facts and grounds of beings
+   (Welchance), ungrounded and uncaused (Schaffer), concurrent sustenance and
+   `m.grounds` (Schmid), and ability and simple priority (Aristotle's aporia).
+   Third, define the classical-attributes field from Dei Filius ch. 1, so that
+   sufficiency has a warrant beyond stipulation or can fail by derivation. The
+   sixteen formal-alternative rows need a read source before they carry any
+   weight; until then they show only where each premise is needed.
