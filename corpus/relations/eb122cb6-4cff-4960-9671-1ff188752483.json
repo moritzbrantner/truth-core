@@ -1,0 +1,12 @@
+{
+  "id": "eb122cb6-4cff-4960-9671-1ff188752483",
+  "label": "PERFECT_2 intellect being BLESSED_1 strengthens BLESSED_2 being BLESSED_1",
+  "subject_kind": "statement",
+  "subject_id": "dc3ec456-9fd1-4e1a-8690-c529fe831ee2",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "a23dd1ac-1e5b-4842-bf82-385a36607a77",
+  "verification_result_id": "da1b1b34-eb45-4767-b701-e181577b6f0a",
+  "strictness_result_id": "8306684c-ca33-474b-b212-fd7013c3783a",
+  "note": "Same InAct, HasIntellect and MostBlessed. The strong version gives BLESSED_1 to every perfect being with intellect; the weak one only to such a being that is also good as to being and in act in understanding. Control part 3: a perfect intellectual being not in act in understanding satisfies the weak version and falsifies the strong one."
+}

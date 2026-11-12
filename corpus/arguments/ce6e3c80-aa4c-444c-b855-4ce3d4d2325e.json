@@ -1,0 +1,38 @@
+{
+  "id": "ce6e3c80-aa4c-444c-b855-4ce3d4d2325e",
+  "label": "Whatever has the nine is LORD_2, from directing by the universal intellectual cause",
+  "premise_statement_ids": [
+    "123d394b-11ce-449a-a8b6-7fda5a254a6d",
+    "4f36f332-40e6-5c63-a0c2-64caf012d1c8"
+  ],
+  "conclusion_statement_id": "1063da3d-098d-49b3-9346-74d7edbb6e6c",
+  "inference_ids": [
+    "facee514-c474-4096-94a0-3d49c3c62ca9"
+  ],
+  "meaning": "Let g have the nine. Its supreme goodness includes causing every perfection of every other being, so in particular the being of every other being in act as to being: g is creator of all (contained by definition, not independently derived). g has intellect and will (two of the nine), so the directing bridge gives, for each other being x in act as to being, an end to which g directs x; whoever directs a thing to an end governs it (q.103 a.3 reading), so g governs x. Hence g is LORD_2. Conditional consequence; both premises stay open, and the conclusion is LORD_2, not LORD_1.",
+  "definition_ids": [
+    "92c03350-6809-497d-b123-2ffb11c0e0c1",
+    "1291944d-a8b2-54eb-899d-66bd5f8b4762",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "c53b5fbe-121a-5d59-8e29-0f9f7eea85b1",
+    "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4",
+    "7c64b499-6dba-5e03-bdf3-5acea95d8836",
+    "da5c0716-718e-5aaa-abec-95c9e93cac00",
+    "1d8890c0-afe2-5cdb-a400-0bbd4b79053d",
+    "d980bbd2-1a96-564c-bc0d-4065d7786715",
+    "85f7f569-ab4d-514b-aa2c-cf75171ad105",
+    "58e0de99-6199-5851-8e03-381bca0d44f0",
+    "5f851204-5991-5e16-87f1-e8b3ed729708",
+    "c8e458bd-3b8a-4e10-8e2d-43d1c1912c63"
+  ],
+  "disambiguation_ids": [
+    "f561d4e4-ab8f-5d20-9926-d63a74df3b4e",
+    "205a39c3-915d-5fe4-8076-a9ff91329e08",
+    "9b16c72e-e8dc-5d69-88bf-0daf61ab2f9b",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "587c53cf-c2a8-51f6-b8c1-013e67756dc6",
+    "c0fda0ee-3508-5101-94ba-043e3eb28b0e",
+    "508617ab-cf24-5f3b-a387-64b3991359ec",
+    "aa1de96a-e0d2-4739-a34f-9b98f1034a34"
+  ]
+}

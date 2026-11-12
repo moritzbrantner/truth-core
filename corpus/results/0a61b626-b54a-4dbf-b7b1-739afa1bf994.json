@@ -1,0 +1,11 @@
+{
+  "id": "0a61b626-b54a-4dbf-b7b1-739afa1bf994",
+  "label": "Whatever has the nine is LORD_2, from directing by the universal intellectual cause",
+  "argument_id": "ce6e3c80-aa4c-444c-b855-4ce3d4d2325e",
+  "challenge_module": "TruthCore.Results.Causality.DeiFiliusLordBlessed.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DeiFiliusLordBlessed.Solution",
+  "theorem": "TruthCore.Results.Causality.DeiFiliusLordBlessed.nineAreLordByCauseAndGovernment",
+  "comparator_config": "results/0a61b626-b54a-4dbf-b7b1-739afa1bf994/comparator.json",
+  "status": "solution-present",
+  "description": "Let g have the nine. Its supreme goodness includes causing every perfection of every other being, so in particular the being of every other being in act as to being: g is creator of all (contained by definition, not independently derived). g has intellect and will (two of the nine), so the directing bridge gives, for each other being x in act as to being, an end to which g directs x; whoever directs a thing to an end governs it (q.103 a.3 reading), so g governs x. Hence g is LORD_2. Conditional consequence; both premises stay open, and the conclusion is LORD_2, not LORD_1."
+}
