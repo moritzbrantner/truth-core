@@ -1,0 +1,11 @@
+{
+  "id": "2da7db60-6dbc-43c1-be0b-71a60b0195a9",
+  "label": "Inert emptiness from two grounding principles",
+  "argument_id": "6f691227-2c49-4dcd-80dd-0e33a9be926e",
+  "challenge_module": "TruthCore.Results.Causality.GroundedBeginnings.Challenge",
+  "solution_module": "TruthCore.Results.Causality.GroundedBeginnings.Solution",
+  "theorem": "TruthCore.Results.Causality.GroundedBeginnings.inertOfGroundedBeginnings",
+  "comparator_config": "results/2da7db60-6dbc-43c1-be0b-71a60b0195a9/comparator.json",
+  "status": "solution-present",
+  "description": "New non-transcription conditional support option for premise A2 (inert emptiness) of Arrival A, composed from nothingFromNothing and inertOfNothingFromNothing. In a history with a concrete-empty moment s and a concrete thing x present at a later t, x is absent at s, so it began and has a concrete ground present at s or later; following such grounds through things that come to be after s, along a well-founded chain, ends at a concrete thing present at s, contradicting emptiness. Both premises are OPEN framework inputs about every history of the model; each is needed (controls 1 to 3). Together they carry no modal content (control 4); in Arrival A, necessity arises from A2 jointly with the possible contingent-free past, presence-to-existence and the frame premises. The premises are not shown to be better warranted than A2; they make its warrant explicit as a causal principle for beginnings with a presence clause and a well-foundedness condition confined to what comes to be after one moment. Nothing is attributed to a source. No premise truth is established."
+}

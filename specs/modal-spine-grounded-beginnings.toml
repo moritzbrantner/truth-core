@@ -1,46 +1,51 @@
 [batch]
 vocab = "TruthCore.Causality.GroundedBeginnings"
 results = "TruthCore.Results.Causality.GroundedBeginnings"
-definitions = ["Beginnings of concrete things have concrete grounds", "Grounds of a beginning have not ceased before the absence", "Grounding among present concrete things of a history is well-founded", "Traced nothing from nothing: what is present traces back to something present earlier", "DEF-TEMPORAL-HISTORY-NOW-SLICE"]
+definitions = ["Beginnings have a concrete ground present at the absence or later", "Grounding among concrete things that come to be after a moment is well-founded", "Traced nothing from nothing: what is present traces back to something present earlier", "DEF-TEMPORAL-HISTORY-NOW-SLICE"]
+disambiguations = ["DISAMB-CAUSAL-SERIES", "623ddbf6-9683-5361-bae4-e348a00ec680"]
 
 [[statement]]
-id = "Every concrete thing that begins to be present has a concrete ground"
-lean = "BeginningsGrounded"
-paraphrase = "OPEN analyst premise, attribution deferred: in every history of the model, a concrete individual that is absent at a moment and present at a strictly later moment has some concrete individual as a ground in that history, under the supplied world-relative grounding relation. Things present from the earliest moment of their history, and things never present, are unconstrained. The ground need not be a sufficient or deterministic cause, and nothing is said about its time of presence."
-definitions = ["Beginnings of concrete things have concrete grounds", "DEF-TEMPORAL-HISTORY-NOW-SLICE"]
+id = "A concrete thing that begins to be present has a concrete ground present at its absence or later"
+lean = "BeginningsHaveLastingGround"
+paraphrase = "OPEN analyst premise, attribution deferred: in every history of the model, a concrete individual that is absent at a moment s and present at a strictly later moment has some concrete individual as a ground under that history's grounding relation that is present in that history at s or at some moment strictly after s. Existential: other grounds, including remote ones that ceased before s, are unconstrained. The ground need not be a sufficient or deterministic cause, and its existence in the history is not asserted (presence-to-existence is a separate premise). Things present from the earliest moment of their history, and things never present, are unconstrained. Intended sense of ground: the proximate ground of the thing's coming to be, per se or per accidens; the derivation holds for any relation."
+definitions = ["Beginnings have a concrete ground present at the absence or later", "DEF-TEMPORAL-HISTORY-NOW-SLICE"]
+disambiguations = ["DISAMB-CAUSAL-SERIES", "623ddbf6-9683-5361-bae4-e348a00ec680"]
 
 [[statement]]
-id = "A ground of a concrete beginning has not wholly ceased before the absence"
-lean = "GroundsNotCeasedBeforeAbsence"
-paraphrase = "OPEN analyst premise, attribution deferred: in every history of the model, if a concrete individual is absent at a moment s and present at a strictly later moment, then every ground of it is present at s or at some moment strictly after s. It forbids a ground that was present only before s and produced the thing across s. It allows a ground simultaneous with or later than the thing."
-definitions = ["Grounds of a beginning have not ceased before the absence", "DEF-TEMPORAL-HISTORY-NOW-SLICE"]
+id = "In every history, grounding among concrete things that come to be after a moment is well-founded"
+lean = "PostAbsenceGroundingWellFounded"
+paraphrase = "OPEN analyst premise, attribution deferred: in every history of the model and for every moment s, there is no endless descending chain of grounds among concrete individuals each absent at s and present at some moment strictly after s. An endless past of grounds whose members are not all absent at one moment (an endless past of generations) is not excluded. Per se and per accidens grounds are treated alike; transitivity and asymmetry of grounding are not assumed."
+definitions = ["Grounding among concrete things that come to be after a moment is well-founded", "DEF-TEMPORAL-HISTORY-NOW-SLICE"]
+disambiguations = ["DISAMB-CAUSAL-SERIES", "623ddbf6-9683-5361-bae4-e348a00ec680"]
 
 [[statement]]
 id = "In every history, grounding among concrete things present at some moment is well-founded"
 lean = "PresentGroundingWellFounded"
-paraphrase = "OPEN analyst premise, attribution deferred: in every history of the model, there is no endless descending chain of grounds among concrete individuals each present at some moment of that history. Chains through abstract, absent or never-present candidates are unconstrained; transitivity and asymmetry of grounding are not assumed."
+paraphrase = "Analyst formulation, attribution deferred, recorded as the strong version: in every history of the model, there is no endless descending chain of grounds among concrete individuals each present at some moment of that history. It excludes an endless per accidens past of generations, which Aquinas grants is not impossible (ST I q.46 a.2 ad 7). Not used by the derivation of inert emptiness, which needs only the post-absence version. Chains through abstract, absent or never-present candidates are unconstrained; transitivity and asymmetry of grounding are not assumed."
 definitions = ["Grounding among present concrete things of a history is well-founded", "DEF-TEMPORAL-HISTORY-NOW-SLICE"]
+disambiguations = ["DISAMB-CAUSAL-SERIES", "623ddbf6-9683-5361-bae4-e348a00ec680"]
 
 [[statement]]
 id = "Whatever concrete thing is present traces back to something concrete present at each earlier moment"
 lean = "NothingFromNothing"
 paraphrase = "OPEN analyst premise, attribution deferred (a traced form of 'from nothing, nothing comes'): in every history of the model, for every concrete individual present at a moment t and every strictly earlier moment s, some concrete individual present at s is the same individual or is linked to it by a finite chain of grounding links. Intermediate links need not be concrete or present. Nothing is said about a first state with no earlier moment."
 definitions = ["Traced nothing from nothing: what is present traces back to something present earlier", "DEF-TEMPORAL-HISTORY-NOW-SLICE"]
+disambiguations = ["DISAMB-CAUSAL-SERIES", "623ddbf6-9683-5361-bae4-e348a00ec680"]
 
 [[statement]]
 id = "Grounded-beginnings omission, strictness, no-re-import and nonvacuity controls"
 lean = "Control.Certificate"
-paraphrase = "Closed mathematical controls, every individual counted concrete, two mutually accessible worlds. (1) Natural-number times, one individual present only at time 1 of the selected world, no grounds: grounds-not-ceased and well-founded grounding hold; grounded beginnings and inert emptiness fail. (2) Natural-number times, individual false present only at time 0 and individual true only at time 2 of the selected world, false grounding true: grounded beginnings and well-founded grounding hold; grounds-not-ceased and inert emptiness fail. (3) Times WithBot Int, integer individual n present at every integer time from n on at the selected world, nothing present at the first moment, each individual grounded by its predecessor: grounded beginnings and grounds-not-ceased hold; well-founded grounding and inert emptiness fail. (4) One individual present at every time of the selected world and existing only there, no grounds: the three principles and the traced form hold, and no concrete individual exists at both worlds. (5) Individual false present at every time of both worlds, individual true present only at time 1 of the selected world, no grounds: inert emptiness holds and the traced form fails. (6) The same history with false grounding true: the three principles, presence-to-existence and the possible contingent-free past hold, and some concrete individual exists at the selected world and at every world accessible from it. These are statements about these finite interpretations only."
-definitions = ["Beginnings of concrete things have concrete grounds", "Grounds of a beginning have not ceased before the absence", "Grounding among present concrete things of a history is well-founded", "Traced nothing from nothing: what is present traces back to something present earlier", "Inert emptiness: a concrete-empty moment is followed only by concrete-empty moments", "Contingent concrete things absent at a moment and present at a later one", "DEF-COUNT-TEMPORAL-HISTORY-PRESENCE", "DEF-KANT-MODAL-CONTINGENCY"]
+paraphrase = "Closed mathematical controls, every individual counted concrete, two mutually accessible worlds. (1) Natural-number times, one individual present only at time 1 of the selected world, no grounds: post-absence well-founded grounding holds; the lasting-ground premise and inert emptiness fail. (2) Natural-number times, individual false present only at time 0 and individual true only at time 2 of the selected world, false grounding true: every beginning has a concrete ground and post-absence well-founded grounding holds; the lasting-ground premise and inert emptiness fail. (3) Times WithBot Int, integer individual n present at every integer time from n on at the selected world, nothing present at the first moment, each individual grounded by its predecessor: the lasting-ground premise holds; post-absence well-founded grounding and inert emptiness fail. (4) One individual present at every time of the selected world and existing only there, no grounds: both premises and the traced form hold, and no concrete individual exists at both worlds. (5) Individual false present at every time of both worlds, individual true present only at time 1 of the selected world, no grounds: inert emptiness holds and the traced form fails. (6) The same history with false grounding true: both premises, presence-to-existence and the possible contingent-free past hold, and some concrete individual exists at the selected world and at every world accessible from it. (7) Integer times and individuals, individual n present at every time from n on at the selected world, each grounded by its predecessor: both premises and inert emptiness hold, while well-founded grounding among all present concrete things fails. These are statements about these interpretations only."
+definitions = ["Beginnings of concrete things have concrete grounds", "Beginnings have a concrete ground present at the absence or later", "Grounding among concrete things that come to be after a moment is well-founded", "Grounding among present concrete things of a history is well-founded", "Traced nothing from nothing: what is present traces back to something present earlier", "Inert emptiness: a concrete-empty moment is followed only by concrete-empty moments", "Contingent concrete things absent at a moment and present at a later one", "DEF-COUNT-TEMPORAL-HISTORY-PRESENCE", "DEF-KANT-MODAL-CONTINGENCY"]
 
 [[argument]]
-id = "Traced nothing-from-nothing from three grounding principles"
+id = "Traced nothing-from-nothing from two grounding principles"
 theorem = "nothingFromNothing"
-premises = ["Every concrete thing that begins to be present has a concrete ground", "A ground of a concrete beginning has not wholly ceased before the absence", "In every history, grounding among concrete things present at some moment is well-founded"]
+premises = ["A concrete thing that begins to be present has a concrete ground present at its absence or later", "In every history, grounding among concrete things that come to be after a moment is well-founded"]
 conclusion = "Whatever concrete thing is present traces back to something concrete present at each earlier moment"
 axioms = ["propext", "Classical.choice", "Quot.sound"]
-rule = "Well-founded induction on grounds among present concrete things, with a case split on presence at the earlier moment"
-meaning = "New non-transcription conditional support option for premise A2 (inert emptiness) of Arrival A in the modal spine to God's existence. Fix a history v and an earlier moment s. For a concrete thing x present at t later than s: if x is present at s the chain is empty. Otherwise x began to be present, so it has a concrete ground g; g has not wholly ceased before s, so it is present at s (one link) or at some u later than s, and since g and x are concrete things present at some moment, the induction hypothesis on g along well-founded grounding gives a concrete thing present at s with a chain to g, extended by the link to x. No frame condition, contingency, presence-to-existence or necessity is used or concluded. All three premises are OPEN framework inputs about every history of the model; omitting any one permits a populated moment after an empty one (controls 1 to 3). The three premises and the conclusion hold in a model with no necessary individual (control 4), so this bundle does not contain the possibility of a necessary concrete being. Nothing is attributed to a source. No premise truth is established."
+rule = "Well-founded induction on grounds among things that come to be after the earlier moment, with case splits on presence at that moment"
+meaning = "New non-transcription conditional support option for premise A2 (inert emptiness) of Arrival A in the modal spine to God's existence. Fix a history v and an earlier moment s. For a concrete thing x present at t later than s: if x is present at s the chain is empty. Otherwise x began, so it has a concrete ground g present at s or later. If g is present at s, one link suffices. Otherwise g is absent at s and present after s, so g and x both come to be after s, and the induction hypothesis on g along post-absence well-founded grounding gives a concrete thing present at s with a chain to g, extended by the link to x. No frame condition, contingency, presence-to-existence or necessity is used or concluded. Both premises are OPEN framework inputs about every history of the model; omitting either permits a populated moment after an empty one (controls 1 to 3). Both premises and the conclusion hold in a model with no necessary individual (control 4): the bundle has no modal content. Nothing is attributed to a source. No premise truth is established."
 
 [[argument]]
 id = "Inert emptiness from traced nothing-from-nothing"
@@ -52,13 +57,22 @@ rule = "Keep only that some concrete thing is present at the earlier moment"
 meaning = "Strength order between two statements over the same History carrier, Concrete predicate and preorder of times: the traced form puts a concrete thing at every moment strictly earlier than a populated moment, which contradicts concrete-emptiness there. The grounding parameter is dropped. The converse fails in control 5. Registered as a strength order, so the frontier does not count it as a support route; the composed derivation below carries the support. No premise is established."
 
 [[argument]]
-id = "Inert emptiness from three grounding principles"
+id = "Inert emptiness from two grounding principles"
 theorem = "inertOfGroundedBeginnings"
-premises = ["Every concrete thing that begins to be present has a concrete ground", "A ground of a concrete beginning has not wholly ceased before the absence", "In every history, grounding among concrete things present at some moment is well-founded"]
+premises = ["A concrete thing that begins to be present has a concrete ground present at its absence or later", "In every history, grounding among concrete things that come to be after a moment is well-founded"]
 conclusion = "A concrete-empty moment is followed only by concrete-empty moments"
 axioms = ["propext", "Classical.choice", "Quot.sound"]
 rule = "Compose the traced nothing-from-nothing derivation with its strength order over inert emptiness"
-meaning = "New non-transcription conditional support option for premise A2 (inert emptiness) of Arrival A, composed from nothingFromNothing and inertOfNothingFromNothing. In a history with a concrete-empty moment s and a concrete thing x present at a later t, x has not been present at s, so it began and has a concrete ground; that ground has not wholly ceased before s; following grounds down a well-founded chain of present concrete things ends at a concrete thing present at s, contradicting emptiness. All three premises are OPEN framework inputs about every history of the model; each is needed (controls 1 to 3), and together they do not contain the possibility of a necessary concrete being (control 4). In Arrival A, necessity still comes from the possible contingent-free past, presence-to-existence and the frame premises. The three premises are not shown to be better warranted than A2; they make its warrant explicit as a causal principle for beginnings, a no-gap condition on grounds and well-founded grounding. Nothing is attributed to a source. No premise truth is established."
+meaning = "New non-transcription conditional support option for premise A2 (inert emptiness) of Arrival A, composed from nothingFromNothing and inertOfNothingFromNothing. In a history with a concrete-empty moment s and a concrete thing x present at a later t, x is absent at s, so it began and has a concrete ground present at s or later; following such grounds through things that come to be after s, along a well-founded chain, ends at a concrete thing present at s, contradicting emptiness. Both premises are OPEN framework inputs about every history of the model; each is needed (controls 1 to 3). Together they carry no modal content (control 4); in Arrival A, necessity arises from A2 jointly with the possible contingent-free past, presence-to-existence and the frame premises. The premises are not shown to be better warranted than A2; they make its warrant explicit as a causal principle for beginnings with a presence clause and a well-foundedness condition confined to what comes to be after one moment. Nothing is attributed to a source. No premise truth is established."
+
+[[argument]]
+id = "Post-absence well-founded grounding from well-founded grounding among present things"
+theorem = "postAbsenceOfPresent"
+premises = ["In every history, grounding among concrete things present at some moment is well-founded"]
+conclusion = "In every history, grounding among concrete things that come to be after a moment is well-founded"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "A subrelation of a well-founded relation is well-founded"
+meaning = "Strength order between two versions of the well-foundedness premise over the same history, Concrete predicate and grounding relation: things that come to be after a moment are present at some moment. The converse fails in control 7 (an endless past of grounds with no empty moment). The derivation of inert emptiness uses only the weak version. No premise is established."
 
 [[argument]]
 id = "Grounded-beginnings controls checked"
@@ -66,8 +80,8 @@ theorem = "controls"
 premises = []
 conclusion = "Grounded-beginnings omission, strictness, no-re-import and nonvacuity controls"
 axioms = ["propext", "Classical.choice", "Quot.sound"]
-rule = "Explicit finite and WithBot Int interpretations, checked by case analysis and a minimal-element argument; facts about the reused InertEmptiness and BegunComingToBe controls are taken from their verified controls theorems"
-meaning = "Each of the three grounding principles is needed for inert emptiness in one interpretation where the other two hold: a ground-free beginning out of nothing; a ground that ceased before an empty moment; and an endless chain of present concrete grounds descending towards an empty first moment, with no earliest moment after it. The three principles and the traced form hold together with no necessary individual at either world, so they do not re-import the possibility of a necessary concrete being. Inert emptiness holds while the traced form fails, so the traced form strictly strengthens it. The three principles hold together with presence-to-existence and the possible contingent-free past in a model where the conclusion of Arrival A holds, so the bundle is nonvacuous with the rest of the route. Model claims concern these interpretations only."
+rule = "Explicit finite, integer and WithBot Int interpretations, checked by case analysis, a minimal-element argument and an integer measure; facts about the reused InertEmptiness and BegunComingToBe controls are taken from their verified controls theorems"
+meaning = "Each of the two grounding premises is needed for inert emptiness in an interpretation where the other holds: a ground-free beginning out of nothing; a beginning whose only ground ceased before an empty moment (a concrete ground alone does not suffice); and an endless chain of present concrete grounds coming to be after an empty first moment, with no earliest moment after it. Both premises and the traced form hold with no necessary individual at either world, so they carry no modal content. Inert emptiness holds while the traced form fails, so the traced form strictly strengthens it. Both premises hold with presence-to-existence and the possible contingent-free past in a model where the conclusion of Arrival A holds. An endless past of predecessor grounds satisfies both premises and inert emptiness while violating well-founded grounding among all present things, so the weak well-foundedness premise is strictly weaker. Model claims concern these interpretations only."
 
 [[relation]]
 id = "Traced nothing from nothing strengthens inert emptiness"
@@ -78,3 +92,13 @@ object_kind = "statement"
 object_id = "A concrete-empty moment is followed only by concrete-empty moments"
 verification_result_id = "Inert emptiness from traced nothing-from-nothing"
 note = "Same History carrier, Concrete predicate and preorder of times; the traced form adds the grounding chain. InertEmptiness.Control.rooted without grounds (GroundedBeginnings control 5) witnesses failure of the converse."
+
+[[relation]]
+id = "Well-founded present grounding strengthens post-absence well-founded grounding"
+subject_kind = "statement"
+subject_id = "In every history, grounding among concrete things present at some moment is well-founded"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "In every history, grounding among concrete things that come to be after a moment is well-founded"
+verification_result_id = "Post-absence well-founded grounding from well-founded grounding among present things"
+note = "Same history, Concrete predicate and grounding relation; the weak version restricts the relation to things that come to be after one moment. GroundedBeginnings.Control.beginningless (control 7) witnesses failure of the converse."

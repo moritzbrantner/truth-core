@@ -1,0 +1,11 @@
+{
+  "id": "b10f9d23-bcb5-474c-95b7-c7dac7747323",
+  "label": "Well-founded present grounding strengthens post-absence well-founded grounding",
+  "subject_kind": "statement",
+  "subject_id": "81c39a34-8188-4df5-b433-256a249630ca",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "bf18a0d0-f43c-49a6-9876-0dbdf5c5f98a",
+  "verification_result_id": "a788d424-1898-45d9-95a9-bed7efee8c9d",
+  "note": "Same history, Concrete predicate and grounding relation; the weak version restricts the relation to things that come to be after one moment. GroundedBeginnings.Control.beginningless (control 7) witnesses failure of the converse."
+}

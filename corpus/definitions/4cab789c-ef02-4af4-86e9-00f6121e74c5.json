@@ -1,9 +1,0 @@
-{
- "id": "4cab789c-ef02-4af4-86e9-00f6121e74c5",
- "label": "Grounds of a beginning have not ceased before the absence",
- "term": "grounds not ceased before the absence",
- "definition": "GroundsNotCeasedBeforeAbsence h Concrete grounds holds when, in every history v, if a concrete individual x is not present at s and is present at a strictly later t, then every y with grounds v y x is present at s or at some moment strictly after s. In ordinary language: a ground of something that begins after s has not wholly ceased before s. The match present just before ignition satisfies it; so does a simultaneous or a later ground. It is violated by a ground present only before s that produces x across s (temporal action at a distance across a gap), for example a ground present only at time 0 of a thing present only at time 2, with time 1 empty (GroundedBeginnings.Control.ceased).",
- "basis": "stipulative",
- "lean_declaration": "TruthCore.Causality.GroundedBeginnings.GroundsNotCeasedBeforeAbsence",
- "note": "Analyst formulation; attribution deferred. It bounds the ground's presence from below (not entirely before the absence). ComingToBeHorns.GroundsPrecedeAt bounds it from above (before each moment of the grounded thing's presence); the endless descent of BegunComingToBe.Control.zeno satisfies both, so neither bound alone gives inert emptiness. Weaker than temporal locality (presence at some moment from s up to t), which is the natural reading of 'causes do not act across a temporal gap'; the weaker form is all the derivation uses. It constrains every ground, not just one. Applicability OPEN."
-}
