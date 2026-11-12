@@ -9,7 +9,7 @@
   "inference_ids": [
     "de2f9eaa-b9ee-4390-8b69-0ad016539f48"
   ],
-  "meaning": "Let g have the nine; g is INFINITE_1 (one of the nine). Let x be an intellect whose being some other being causes. By the first premise x is not INFINITE_1; by the second, an intellect that is not INFINITE_1 does not comprehend the INFINITE_1 being g. Hence no caused intellect comprehends g, and g is INCOMPREHENSIBLE_2. Conditional consequence; both premises stay open, and the conclusion is INCOMPREHENSIBLE_2, not INCOMPREHENSIBLE_1.",
+  "meaning": "Let g have the nine; g is INFINITE_1 (one of the nine). Let x be an intellect whose being some other being causes. By the first premise x is not INFINITE_1; by the second, an intellect that is not INFINITE_1 does not comprehend the INFINITE_1 being g. Hence no caused intellect comprehends g, and g is INCOMPREHENSIBLE_2. Only the infinity conjunct of the nine is used. Conditional consequence; both premises stay open, and the conclusion is INCOMPREHENSIBLE_2, not INCOMPREHENSIBLE_1. Why two premises rather than the single weaker one the step needs (no caused intellect comprehends an INFINITE_1 being): the split separates two independently assessable claims with different warrants and different rivals (caused being is not unreceived being, q.7 a.2; finite power cannot know the infinite as much as it is knowable, q.12 a.7), so each can be derived or refuted on its own; the single weaker premise follows from the two.",
   "definition_ids": [
     "4afe4ab4-f8cc-4120-b284-f1f0140e76c1",
     "80dea550-60c1-447a-83bf-d3f27ea0b2a8",

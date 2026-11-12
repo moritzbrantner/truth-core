@@ -16,16 +16,20 @@ contained by no place and present to everything that is, after ST I q.8).
 IMMENSE_2, `IsImmenseAsInfiniteCauseOfAll`, types the two grounds the Summa gives
 that existing vocabulary can express: g is infinite (INFINITE_1, q.7 a.1:
 unreceived subsistent being, limited by no receiver) and g causes the being of
-everything else (`IsCreatorOfAll`; q.8 a.1: God is in all things as an agent is
-present to that on which it acts, and he causes their being; q.8 a.3: present
-*by essence* as the cause of their being). At a being with the nine both
-conjuncts are contained in the nine: infinity is one of them, and the creator
-conjunct is contained BY DEFINITION in supreme goodness (as in
+everything else (`IsCreatorOfAll`). IMMENSE_2 types causing being, which q.8 a.3
+gives as the GROUND of presence by essence; it does not type presence itself.
+`CausesIn … esse` is tenseless and leaves open whether the causing originates or
+sustains being (`DEF-CAUSE-OF-PERFECTION`). It is a typed proxy for Aquinas's
+grounds, not a sense in which Dei Filius calls God immense. At a being with the
+nine both conjuncts are contained in the nine: infinity is one of them, and the
+creator conjunct is contained BY DEFINITION in supreme goodness (as in
 `DeiFiliusLordBlessed`), so no bridge is needed and nothing is independently
 derived. Not typed, and carried by the sense bridge: place and containment
-("not contained by place", q.8 a.2, a.4), presence *by power* and *by presence*
-(knowledge) of q.8 a.3, and immediacy of presence (q.8 a.1: God's power is
-present to every effect without intermediary; `CausesIn` does not distinguish
+("not contained by place", q.8 a.2, a.4); presence *by power* and *by presence*
+(knowledge) of q.8 a.3; the q.8 a.1 contact principle (an agent is joined to
+that on which it acts), which turns causing into being present; sustaining as
+against merely originating causation (conservation, q.104 a.1), which makes the
+presence present now; and immediacy of presence (`CausesIn` does not distinguish
 mediate from immediate causing).
 
 **Incomprehensible.** INCOMPREHENSIBLE_1 is the primitive
@@ -40,9 +44,13 @@ a knower to a known being (the `Veracity.Knows` of `NamingVeracityBatch1` is
 propositional). At a being with the nine INCOMPREHENSIBLE_2 follows from two new
 open bridges: what is caused as to being by another is not INFINITE_1 (after
 q.7 a.2) and a finite (non-INFINITE_1) intellect does not comprehend an
-INFINITE_1 being (the q.12 a.7 mechanism). INCOMPREHENSIBLE_2 is not
-unknowability: it negates comprehension only, and a being may comprehend itself
-(control part 1).
+INFINITE_1 being (the q.12 a.7 mechanism). The derivation uses only the
+infinity conjunct of the nine. Given infinity, these two bridges and the sense
+bridge below jointly entail the old bridge `InfiniteIsIncomprehensible`, so the
+new route splits the old commitment into finer premises; it is not a weaker total
+commitment. INCOMPREHENSIBLE_2 is not unknowability, by the form of its
+definition: it negates only `Comprehends`, and no knowing relation is typed.
+Control part 1 shows only that self-comprehension is allowed.
 
 The senses are not identified (invariant 7). Each passage from the typed sense
 to the primitive is one explicit sense bridge
@@ -64,10 +72,13 @@ open TruthCore.Causality.DeiFiliusLivingNineScope (HasTheNine)
 /-! ## Immense -/
 
 /-- IMMENSE_2, *immensus* read through its typed grounds: g is infinite
-(INFINITE_1) and causes the being of every other being in act as to being. After
-ST I q.7 a.1 and q.8 a.1, a.3 (present to all things *by essence*, as the cause of
-their being). Not typed: place and containment, presence by power and by
-knowledge, immediacy (see the module docstring). -/
+(INFINITE_1) and causes the being of every other being in act as to being
+(tenselessly: originating or sustaining is left open). After ST I q.7 a.1 and
+q.8 a.3, which gives causing being as the ground of presence *by essence*; presence
+itself is not typed. A typed proxy for Aquinas's grounds, not a sense in which Dei
+Filius calls God immense. Not typed: place and containment, presence by power and
+by knowledge, the contact principle, sustaining causation, immediacy (see the
+module docstring). -/
 def IsImmenseAsInfiniteCauseOfAll {Being Respect : Type} (InAct : Being → Respect → Prop)
     (CausesIn : Being → Being → Respect → Prop) (esse : Respect) (Infinite : Being → Prop)
     (g : Being) : Prop :=
@@ -86,8 +97,10 @@ def NineAreImmenseAsInfiniteCauseOfAll {Being Respect : Type}
 /-- Open sense bridge IMMENSE_2 → IMMENSE_1: whatever is infinite and causes the
 being of everything else is immense (measured or contained by no place and present
 to everything that is). After q.8 a.1–3. It carries what IMMENSE_2 leaves untyped:
-place and containment, presence by power and by knowledge, and immediacy. Its
-antecedent does not say that the being is incorporeal, so "contained by no
+place and containment, presence by power and by knowledge, the q.8 a.1 contact
+principle (an agent is joined to that on which it acts), sustaining as against
+merely originating causation (q.104 a.1; contested by existential inertia, Schmid
+2021), and immediacy. Its antecedent does not say that the being is incorporeal, so "contained by no
 place" rests on infinity alone in this bridge. Strictly
 weaker than `CreatorOfAllIsImmense` (its antecedent adds infinity;
 `Control.Controls` part 2). -/
@@ -121,19 +134,29 @@ def IsCausedIntellect {Being Respect : Type} (CausesIn : Being → Being → Res
   HasIntellect x ∧ ∃ c, c ≠ x ∧ CausesIn c x esse
 
 /-- INCOMPREHENSIBLE_2, *incomprehensibilis* read after ST I q.12 a.7: g is
-infinite (INFINITE_1), and no caused intellect comprehends g. Not unknowability:
-only comprehension is negated, and a being may comprehend itself. -/
+infinite (INFINITE_1), and no caused intellect comprehends g. Not unknowability,
+by the form of this definition: it negates only `Comprehends`, and no knowing
+relation is typed. The infinity conjunct records the q.12 a.7 ground; it also
+makes the old bridge entail the new sense bridge (a convenience for the strength
+order). -/
 def IsIncomprehensibleToCausedIntellects {Being Respect : Type}
     (CausesIn : Being → Being → Respect → Prop) (esse : Respect)
     (Infinite HasIntellect : Being → Prop) (C : Comprehension Being) (g : Being) : Prop :=
   Infinite g ∧ ∀ x, IsCausedIntellect CausesIn esse HasIntellect x → ¬ C.Comprehends x g
 
 /-- Open bridge: whatever has its being caused by another being is not
-INFINITE_1. After ST I q.7 a.2: nothing besides God is infinite absolutely
-(*simpliciter*), because anything else has its being received and so limited.
-`CausesIn … esse` is the efficient causing of a distinct effect's being; the
-domain individuates beings by their being, so the divine processions (one being,
-q.33 a.1 ad 1: "principle", not "cause") are not instances. -/
+INFINITE_1. After ST I q.7 a.2 and its ad 1 (it is against the nature of a made
+thing to be absolutely infinite): anything besides God has its being received
+into a distinct receiving potency, and so limited.
+
+SCOPE CONDITION (a domain stipulation binding every premise that shares this
+`Being` and `CausesIn`): elements of `Being` are individuated by their act of
+being, so things numerically one in esse are one element. The divine persons,
+who share one numerically identical esse, are therefore not distinct elements and
+cannot be represented as such; the Son's being from the Father is no instance of
+`CausesIn c x esse` with `c ≠ x`, and its esse is not received into a distinct
+receiving potency. (That q.33 a.1 ad 1 prefers "principle" to "cause" is only a
+terminological aside: it notes that the Greeks say "cause".) -/
 def CausedIsNotInfinite {Being Respect : Type} (CausesIn : Being → Being → Respect → Prop)
     (esse : Respect) (Infinite : Being → Prop) : Prop :=
   ∀ x, (∃ c, c ≠ x ∧ CausesIn c x esse) → ¬ Infinite x
@@ -205,8 +228,9 @@ nothing is in potency):
 
 1. nonvacuity: with `true` alone infinite and comprehending everything (itself
    included), both bridges hold, and `true` has the nine, IMMENSE_2 and
-   INCOMPREHENSIBLE_2 while comprehending itself (INCOMPREHENSIBLE_2 is not
-   self-incomprehensibility or unknowability);
+   INCOMPREHENSIBLE_2 while comprehending itself (so INCOMPREHENSIBLE_2 allows
+   self-comprehension; that it is not unknowability follows from the definition's
+   form, not from this model);
 2. strictness for immense: nothing is infinite or IMMENSE_1. The new sense bridge
    holds and `CreatorOfAllIsImmense` fails (a cause of the being of all that is
    not infinite is not immense);

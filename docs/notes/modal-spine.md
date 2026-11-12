@@ -852,33 +852,48 @@ directing bridge and the two sense bridges).
 `specs/dei-filius-immense-incomprehensible.toml`, attempt `76bad0cb`). The
 primitives stay; typed siblings are added and not identified with them
 (disambiguations `3fc3ee02` IMMENSE, `d63d0696` INCOMPREHENSIBLE). IMMENSE_2 is
-being INFINITE_1 and causing the being of everything else (q.7 a.1; q.8 a.1, a.3,
-presence by essence as cause of being). At a being with the nine it holds with no
-premise: infinity is one of the nine, and the creator conjunct is contained by
-definition in supreme goodness. So the whole substantive content of immensity sits
-in the sense bridge IMMENSE_2 → IMMENSE_1 (`8bf775e9`): place, containment and
-measure, presence by power and by knowledge (the other modes of q.8 a.3), and
+being INFINITE_1 and causing the being of everything else (q.7 a.1). It types
+causing being, which q.8 a.3 gives as the ground of presence by essence, not
+presence itself. `CausesIn … esse` is tenseless, so originating and sustaining
+causation are not distinguished. IMMENSE_2 is a typed proxy for Aquinas's grounds,
+not a sense in which Dei Filius calls God immense. At a being with the nine it
+holds with no premise: infinity is one of the nine, and the creator conjunct is
+contained by definition in supreme goodness. So the whole substantive content of
+immensity sits in the sense bridge IMMENSE_2 → IMMENSE_1 (`8bf775e9`): place,
+containment and measure; presence by power and by knowledge (the other modes of
+q.8 a.3); the q.8 a.1 contact principle (an agent is joined to that on which it
+acts); sustaining as against merely originating causation (q.104 a.1); and
 immediacy. Its antecedent does not include incorporeality, so "contained by no
 place" rests on infinity alone there. INCOMPREHENSIBLE_2 is being INFINITE_1 and
 comprehended by no caused intellect (an intellect whose being another causes). It
 needs one new explicitly primitive relation, `Comprehension.Comprehends` (knowing
 as perfectly as knowable, q.12 a.7, definition `4afe4ab4`); the corpus had no
-relation between a knower and a known being. At a being with the nine it follows
-from two new bridges: what is caused as to being is not INFINITE_1 (`18ca6f9d`,
-q.7 a.2), and a finite intellect does not comprehend an INFINITE_1 being
-(`bbac932e`, q.12 a.7). The sense bridge INCOMPREHENSIBLE_2 → INCOMPREHENSIBLE_1
-(`0042dd05`) is close to analytic given the glosses, so the warrant sits in those
-two bridges. Each sense bridge is strictly weaker than the old bridge (registered
-strengthens relations). Objection audit: no substantive objection identified. The
-spatial-presence lead against omnipresence targets a reading of presence the
-bridge does not use. The Trinitarian processions are outside `CausesIn … esse`
-(one divine being; q.33 a.1 ad 1). The lead that finite minds grasp quantitative
-infinities through finite definitions has no shown relevance to INFINITE_1. Both
-incomprehensibility senses negate comprehension only, so neither conflicts with
+relation between a knower and a known being. It is derived from the infinity of
+the nine with two new bridges: what is caused as to being is not INFINITE_1
+(`18ca6f9d`, q.7 a.2 and ad 1), and a finite intellect does not comprehend an
+INFINITE_1 being (`bbac932e`, q.12 a.7). The sense bridge INCOMPREHENSIBLE_2 →
+INCOMPREHENSIBLE_1 (`0042dd05`) is close to analytic given the glosses, so the
+warrant sits in those two bridges. Each sense bridge alone is strictly weaker than
+the old bridge (registered strengthens relations). But given infinity, the two
+incomprehensibility bridges and its sense bridge jointly entail the old bridge
+again. So that route splits the old commitment into finer premises; it is not a
+weaker total commitment. `18ca6f9d` carries an explicit scope condition: beings
+are individuated by their act of being, so the divine persons (one numerically
+identical esse) are one element and cannot be represented as distinct elements.
+Objection audit. Existential inertia (Schmid 2021, read in the corpus) is a
+substantive objection to the immensity sense bridge if `CausesIn` is
+originating: what once caused everything need not now be present to anything.
+It is a rival framework, not an established counterexample, and on the sustaining
+reading the dispute moves to conservation (q.104 a.1), which stays open. No
+other substantive objection was identified. The spatial-presence lead
+against omnipresence targets a reading of presence the bridge does not use. The
+lead that finite minds grasp quantitative infinities through finite definitions
+has no shown relevance to INFINITE_1. Both incomprehensibility senses negate
+comprehension only (by the form of their definitions), so neither conflicts with
 the knowability of God (DS 3004). Joint satisfiability of each new route's whole
 premise bundle is unresolved; these routes keep the old lord and blessed bridges.
 Computed delta: three support alternatives added and four bare premises added (two
-bridges, two sense bridges).
+bridges, two sense bridges); no pre-existing premise is closed.
 
 For *vivus* the corpus already has a typed, time-indexed route
 (`SelfOperationLife`, result `PURE-ACT-LIVES-FROM-SELF-OPERATION`: life as
