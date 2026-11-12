@@ -1,9 +1,9 @@
 {
   "id": "c4cf79f1-60a9-498a-944b-aeb7dfb56573",
-  "label": "Incomprehensible: a primitive predicate for being known by no created intellect as fully as knowable",
+  "label": "INCOMPREHENSIBLE_1: primitive, known by no created intellect as fully as knowable",
   "term": "incomprehensible (incomprehensibilis; Lean `Primitives.Incomprehensible`)",
   "definition": "PRIMITIVE. Incomprehensible g: no created intellect knows g as perfectly as g is knowable. After ST I q.12 a.7 (to comprehend is to know a thing as perfectly as it is knowable; God is infinitely knowable and a created intellect knows finitely). Not 'unknowable': a thing can be known truly without being comprehended. Counterexample: a theorem fully understood by a mathematician.",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Causality.DeiFiliusAttributeField.Primitives.Incomprehensible",
-  "note": "Explicitly identified primitive (Encode first). Open semantic obligation: typed created intellects and a measure of knowability. The only constraint placed on it is the open bridge 'Whatever is INFINITE_1 is incomprehensible'."
+  "note": "Explicitly identified primitive (Encode first). Open semantic obligation: typed created intellects and a measure of knowability. Two open bridges constrain it, each giving a sufficient condition: 'Whatever is INFINITE_1 is INCOMPREHENSIBLE_1' and the weaker sense bridge 'Whatever is INCOMPREHENSIBLE_2 is INCOMPREHENSIBLE_1', from the typed sibling INCOMPREHENSIBLE_2 (94ebe0d2: infinite and comprehended by no caused intellect, with the primitive relation Comprehends, 4afe4ab4; disambiguation d63d0696). INCOMPREHENSIBLE_2 types the quantifier structure and the ground; a measure of knowability, from which Comprehends could be defined, remains open."
 }

@@ -1,0 +1,13 @@
+{
+  "id": "de2f9eaa-b9ee-4390-8b69-0ad016539f48",
+  "label": "Whatever has the nine is INCOMPREHENSIBLE_2, from finite caused intellects (inference)",
+  "input_statement_ids": [
+    "18ca6f9d-b443-441c-8554-58d75eb021f2",
+    "bbac932e-033c-4008-92ce-176f94e3e039"
+  ],
+  "output_statement_id": "de92711c-a871-4d4e-a9a3-64e160632006",
+  "rule": "Projection of the infinity conjunct, then the two bridges at each caused intellect",
+  "meaning": "Let g have the nine; g is INFINITE_1 (one of the nine). Let x be an intellect whose being some other being causes. By the first premise x is not INFINITE_1; by the second, an intellect that is not INFINITE_1 does not comprehend the INFINITE_1 being g. Hence no caused intellect comprehends g, and g is INCOMPREHENSIBLE_2. Conditional consequence; both premises stay open, and the conclusion is INCOMPREHENSIBLE_2, not INCOMPREHENSIBLE_1.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

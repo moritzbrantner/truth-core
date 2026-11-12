@@ -1,0 +1,11 @@
+{
+  "id": "c4c581f1-c21d-43dd-aca3-0b60ad8bb0cf",
+  "label": "Whatever has the nine is INCOMPREHENSIBLE_2, from finite caused intellects",
+  "argument_id": "550f32d2-8ef7-4bb6-a7e9-3e2e2109500e",
+  "challenge_module": "TruthCore.Results.Causality.DeiFiliusImmenseIncomprehensible.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DeiFiliusImmenseIncomprehensible.Solution",
+  "theorem": "TruthCore.Results.Causality.DeiFiliusImmenseIncomprehensible.nineAreIncomprehensibleToCausedIntellects",
+  "comparator_config": "results/c4c581f1-c21d-43dd-aca3-0b60ad8bb0cf/comparator.json",
+  "status": "solution-present",
+  "description": "Let g have the nine; g is INFINITE_1 (one of the nine). Let x be an intellect whose being some other being causes. By the first premise x is not INFINITE_1; by the second, an intellect that is not INFINITE_1 does not comprehend the INFINITE_1 being g. Hence no caused intellect comprehends g, and g is INCOMPREHENSIBLE_2. Conditional consequence; both premises stay open, and the conclusion is INCOMPREHENSIBLE_2, not INCOMPREHENSIBLE_1."
+}

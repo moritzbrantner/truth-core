@@ -1,0 +1,11 @@
+{
+  "id": "ea4906dc-2a3c-41fd-b385-c0fbf52a93cd",
+  "label": "NECESSARY_2 GOD_4 root has the Dei Filius attributes via IMMENSE_2, INCOMPREHENSIBLE_2",
+  "argument_id": "1a6363fe-910e-4960-9893-e05f8f7b11a3",
+  "challenge_module": "TruthCore.Results.Causality.DeiFiliusImmenseIncomprehensible.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DeiFiliusImmenseIncomprehensible.Solution",
+  "theorem": "TruthCore.Results.Causality.DeiFiliusImmenseIncomprehensible.deiFiliusRootImmenseIncomprehensibleTyped",
+  "comparator_config": "results/ea4906dc-2a3c-41fd-b385-c0fbf52a93cd/comparator.json",
+  "status": "solution-present",
+  "description": "The registered Dei Filius root composition (deiFiliusRoot, argument 334e8640) is applied with every input except 'Whatever causes the being of everything else is IMMENSE_1' and 'Whatever is INFINITE_1 is INCOMPREHENSIBLE_1', on the primitives that agree with the given ones except that their Immense is IsCreatorOfAll and their Incomprehensible is Infinite; those two bridges then hold trivially and nothing about the given Immense and Incomprehensible is used. Its root n is the same witness. n has the nine (nineOfDeiFilius, a projection; none of the nine is a primitive), so n is IMMENSE_2 and INCOMPREHENSIBLE_2, and the sense bridges give n IMMENSE_1 and INCOMPREHENSIBLE_1. Every other conjunct is carried over. Uniqueness is among actual roots at w. Joint satisfiability of the whole premise bundle is not checked (unresolved). Conditional consequence only; no premise is established."
+}

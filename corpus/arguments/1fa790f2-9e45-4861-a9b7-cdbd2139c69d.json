@@ -55,5 +55,9 @@
     "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
     "587c53cf-c2a8-51f6-b8c1-013e67756dc6",
     "c0fda0ee-3508-5101-94ba-043e3eb28b0e"
-  ]
+  ],
+  "strong_version_needed": {
+    "c7c32f20-2637-4497-8053-f259d02aa922": "The weak version 'Whatever is IMMENSE_2 is IMMENSE_1' needs its antecedent IMMENSE_2 and the sense passage from IMMENSE_2; this route was registered before that sense and its frozen Challenge takes the strong version (its infinity conjunct is available here, so the strong version is not needed in substance). The route through IMMENSE_2 is the DeiFiliusImmenseIncomprehensible batch (specs/dei-filius-immense-incomprehensible.toml).",
+    "fa3f08a8-aa2f-4385-8c72-4343eb5409c0": "The weak version 'Whatever is INCOMPREHENSIBLE_2 is INCOMPREHENSIBLE_1' needs its antecedent INCOMPREHENSIBLE_2 (no caused intellect comprehends the being); this route does not derive that, so it uses the strong version. The route through INCOMPREHENSIBLE_2 is the DeiFiliusImmenseIncomprehensible batch (specs/dei-filius-immense-incomprehensible.toml)."
+  }
 }

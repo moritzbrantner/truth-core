@@ -800,8 +800,8 @@ attributes are confessed.
 | Dominus | primitive `IsLord` | open bridge: creator of all is lord (q.13 a.7) | same bridge |
 | omnipotens | `IsAlmighty` (active power; no clash with immutability, which excludes passive potency) | from infinity by the existing `STMT-INFINITE-ACT-HAS-INFINITE-POWER` (itself derived from three open premises) | same |
 | aeternus | `Eternal` | one of the nine | one of the nine |
-| immensus | primitive `Immense` | open bridge: creator of all is immense (q.8 a.1-2) | same bridge |
-| incomprehensibilis | primitive `Incomprehensible` | open bridge: the infinite is incomprehensible (q.12 a.7) | same bridge |
+| immensus | primitive `Immense` (IMMENSE_1); typed sibling IMMENSE_2, `IsImmenseAsInfiniteCauseOfAll`: infinite and causes the being of everything else (below) | open bridge: creator of all is immense (q.8 a.1-2); or (second route) IMMENSE_2, contained in the nine with no premise, plus a weaker sense bridge IMMENSE_2 → IMMENSE_1 that carries all the substantive content | same two routes |
+| incomprehensibilis | primitive `Incomprehensible` (INCOMPREHENSIBLE_1); typed sibling INCOMPREHENSIBLE_2, `IsIncomprehensibleToCausedIntellects`: infinite and comprehended by no caused intellect, with a new primitive relation `Comprehends` (below) | open bridge: the infinite is incomprehensible (q.12 a.7); or (second route) INCOMPREHENSIBLE_2, derived from the nine with two new bridges (q.7 a.2, q.12 a.7), plus a weaker, nearly analytic sense bridge INCOMPREHENSIBLE_2 → INCOMPREHENSIBLE_1 | same two routes |
 | intellectu ac voluntate omnique perfectione infinitus | `HasIntellect`, `HasWill`, `IsPerfect`, `Infinite` (weaker: infinity of intellect and will as such untyped) | four of the nine | four of the nine |
 | simplex omnino, incommutabilis | `IsSimple`, `IsImmutable` | two of the nine | two of the nine |
 | substantia spiritualis | `IsSpiritual`: not matter-form composed (weaker: substance untyped; alone it fits prime matter or an accident) | derived: simplicity and the q.3 a.7 matter-form clause | derived: the root excludes matter-form composition |
@@ -809,6 +809,38 @@ attributes are confessed.
 | beatissimus | primitive `MostBlessed` | open bridge: the perfect intellectual is most blessed (q.26 a.1) | same bridge |
 | super omnia excelsus | `IsMaximumIn` at being (weaker: not exceeded, rather than exceeding all) | goodness-is-actuality plus open bridge: excess in being is excess in act (q.4 a.2) | derived: the root is maximal in being |
 | bonitate sua (DS 3002) | STRONGER: `IsSupremelyGood`, which also includes causing every perfection of everything else; DS 3002 names goodness as the motive of creation | one of the nine | one of the nine |
+
+**Immense and incomprehensible** (`DeiFiliusImmenseIncomprehensible`, spec
+`specs/dei-filius-immense-incomprehensible.toml`, attempt `76bad0cb`). The
+primitives stay; typed siblings are added and not identified with them
+(disambiguations `3fc3ee02` IMMENSE, `d63d0696` INCOMPREHENSIBLE). IMMENSE_2 is
+being INFINITE_1 and causing the being of everything else (q.7 a.1; q.8 a.1, a.3,
+presence by essence as cause of being). At a being with the nine it holds with no
+premise: infinity is one of the nine, and the creator conjunct is contained by
+definition in supreme goodness. So the whole substantive content of immensity sits
+in the sense bridge IMMENSE_2 → IMMENSE_1 (`8bf775e9`): place, containment and
+measure, presence by power and by knowledge (the other modes of q.8 a.3), and
+immediacy. Its antecedent does not include incorporeality, so "contained by no
+place" rests on infinity alone there. INCOMPREHENSIBLE_2 is being INFINITE_1 and
+comprehended by no caused intellect (an intellect whose being another causes). It
+needs one new explicitly primitive relation, `Comprehension.Comprehends` (knowing
+as perfectly as knowable, q.12 a.7, definition `4afe4ab4`); the corpus had no
+relation between a knower and a known being. At a being with the nine it follows
+from two new bridges: what is caused as to being is not INFINITE_1 (`18ca6f9d`,
+q.7 a.2), and a finite intellect does not comprehend an INFINITE_1 being
+(`bbac932e`, q.12 a.7). The sense bridge INCOMPREHENSIBLE_2 → INCOMPREHENSIBLE_1
+(`0042dd05`) is close to analytic given the glosses, so the warrant sits in those
+two bridges. Each sense bridge is strictly weaker than the old bridge (registered
+strengthens relations). Objection audit: no substantive objection identified. The
+spatial-presence lead against omnipresence targets a reading of presence the
+bridge does not use. The Trinitarian processions are outside `CausesIn … esse`
+(one divine being; q.33 a.1 ad 1). The lead that finite minds grasp quantitative
+infinities through finite definitions has no shown relevance to INFINITE_1. Both
+incomprehensibility senses negate comprehension only, so neither conflicts with
+the knowability of God (DS 3004). Joint satisfiability of each new route's whole
+premise bundle is unresolved; these routes keep the old lord and blessed bridges.
+Computed delta: three support alternatives added and four bare premises added (two
+bridges, two sense bridges).
 
 For *vivus* the corpus already has a typed, time-indexed route
 (`SelfOperationLife`, result `PURE-ACT-LIVES-FROM-SELF-OPERATION`: life as

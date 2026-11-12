@@ -1,0 +1,9 @@
+{
+  "id": "80dea550-60c1-447a-83bf-d3f27ea0b2a8",
+  "label": "Caused intellect: an intellect whose being some other being causes",
+  "term": "created intellect, weakest typed reading (intellectus creatus; Lean `IsCausedIntellect`)",
+  "definition": "IsCausedIntellect CausesIn esse HasIntellect x: x has intellect (HAS_INTELLECT_1) and some being c other than x causes x's being (CausesIn c x esse). The typed reading of 'created intellect' in ST I q.12 a.7. Example: on the stage-two route, any other intellectual being, whose being the being with the nine causes (IsCreatorOfAll). Counterexample: a being with intellect whose being nothing other than it causes. Weaker than created in the Dei Filius sense: creation from no presupposed subject, freedom and a beginning are not encoded (as in IsCreatorOfAll, definition 92c03350). CausesIn c x esse is the efficient causing of a distinct effect's being; the domain individuates beings by their being, so the divine processions (one being; q.33 a.1 ad 1, 'principle' rather than 'cause') are not instances.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.DeiFiliusImmenseIncomprehensible.IsCausedIntellect",
+  "note": "Analyst reading, attribution deferred. Used in INCOMPREHENSIBLE_2 (definition 94ebe0d2). Structural properties: none built in."
+}

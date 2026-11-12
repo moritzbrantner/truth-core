@@ -1,0 +1,12 @@
+{
+  "id": "499fdd58-39bd-42b5-a7c8-01d04213bc83",
+  "label": "INFINITE_1 being INCOMPREHENSIBLE_1 strengthens INCOMPREHENSIBLE_2 being INCOMPREHENSIBLE_1",
+  "subject_kind": "statement",
+  "subject_id": "fa3f08a8-aa2f-4385-8c72-4343eb5409c0",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "0042dd05-7788-4d77-884d-32f868f9620f",
+  "verification_result_id": "05eaa56a-f5a8-42e7-a1a0-89a5afbcbcf8",
+  "strictness_result_id": "ccba9330-f025-4a69-af2d-82f7c50ab01c",
+  "note": "Same Infinite and Incomprehensible. The strong version gives INCOMPREHENSIBLE_1 to every INFINITE_1 being; the weak one only to such a being that no caused intellect comprehends. Control part 3: an infinite being comprehended by a caused intellect satisfies the weak version and falsifies the strong one."
+}

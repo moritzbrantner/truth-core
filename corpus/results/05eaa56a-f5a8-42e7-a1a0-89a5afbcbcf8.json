@@ -1,0 +1,11 @@
+{
+  "id": "05eaa56a-f5a8-42e7-a1a0-89a5afbcbcf8",
+  "label": "INFINITE_1 being INCOMPREHENSIBLE_1 gives INCOMPREHENSIBLE_2 being INCOMPREHENSIBLE_1",
+  "argument_id": "dcf9cdd3-a0d1-4d8f-b609-9674db2beefa",
+  "challenge_module": "TruthCore.Results.Causality.DeiFiliusImmenseIncomprehensible.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DeiFiliusImmenseIncomprehensible.Solution",
+  "theorem": "TruthCore.Results.Causality.DeiFiliusImmenseIncomprehensible.incomprehensibleSenseBridgeOfInfinite",
+  "comparator_config": "results/05eaa56a-f5a8-42e7-a1a0-89a5afbcbcf8/comparator.json",
+  "status": "solution-present",
+  "description": "Strength order registration: the old bridge (whatever is INFINITE_1 is INCOMPREHENSIBLE_1) entails the new sense bridge, since whatever is INCOMPREHENSIBLE_2 is INFINITE_1. Projection and application only; it establishes neither."
+}

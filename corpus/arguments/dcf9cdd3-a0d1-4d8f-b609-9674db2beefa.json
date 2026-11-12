@@ -1,0 +1,32 @@
+{
+  "id": "dcf9cdd3-a0d1-4d8f-b609-9674db2beefa",
+  "label": "INFINITE_1 being INCOMPREHENSIBLE_1 gives INCOMPREHENSIBLE_2 being INCOMPREHENSIBLE_1",
+  "premise_statement_ids": [
+    "fa3f08a8-aa2f-4385-8c72-4343eb5409c0"
+  ],
+  "conclusion_statement_id": "0042dd05-7788-4d77-884d-32f868f9620f",
+  "inference_ids": [
+    "4d777c97-e533-48a2-b3bc-7d8a6bd14915"
+  ],
+  "meaning": "Strength order registration: the old bridge (whatever is INFINITE_1 is INCOMPREHENSIBLE_1) entails the new sense bridge, since whatever is INCOMPREHENSIBLE_2 is INFINITE_1. Projection and application only; it establishes neither.",
+  "definition_ids": [
+    "4afe4ab4-f8cc-4120-b284-f1f0140e76c1",
+    "80dea550-60c1-447a-83bf-d3f27ea0b2a8",
+    "94ebe0d2-7cf9-4360-87ce-61c598b4e666",
+    "1d8890c0-afe2-5cdb-a400-0bbd4b79053d",
+    "c4cf79f1-60a9-498a-944b-aeb7dfb56573"
+  ],
+  "disambiguation_ids": [
+    "587c53cf-c2a8-51f6-b8c1-013e67756dc6",
+    "d63d0696-e5fb-4c85-932e-812989c83b29"
+  ],
+  "sense_bridges": [
+    {
+      "term": "INCOMPREHENSIBLE",
+      "from": "be092edb-1ed5-41be-b097-d2dbf4be6a7b",
+      "to": "cb367167-c649-4645-b2a5-d3f20b6b5d1e",
+      "statement_id": "0042dd05-7788-4d77-884d-32f868f9620f",
+      "role": "conclusion"
+    }
+  ]
+}
