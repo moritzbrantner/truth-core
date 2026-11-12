@@ -1,0 +1,32 @@
+# PP-01: application parity for self-originating universes and beings.
+# Intake only; no proposed edge is a verified result or an established claim.
+target = "STMT-NOTHING-ORIGINATES-ITSELF"
+
+[[node]]
+id = "STMT-NOTHING-ORIGINATES-ITSELF"
+
+[[node]]
+id = "PP01-SIMULTANEOUS-UNIVERSE-ORIGIN"
+new = true
+text = "Candidate: a universe's simultaneous mutually originating constituents suffice for the universe to cause its own coming-to-be."
+
+[[node]]
+id = "PP01-SAME-ORIGIN-STANDARD"
+new = true
+text = "Candidate parity challenge: the same originating-cause sense and relevant causal conditions are used for the universe and a candidate omnipotent being."
+
+[[node]]
+id = "PP01-RELEVANT-DIFFERENCE"
+new = true
+text = "Open discriminator: constituent versus bearer agency, contingent beginning versus necessary existence, or other causally relevant properties."
+
+[[edge]]
+premises = ["PP01-SIMULTANEOUS-UNIVERSE-ORIGIN"]
+conclusion = "STMT-NOTHING-ORIGINATES-ITSELF"
+kind = "rival"
+status = "mapped"
+note = "Smith/Newman's proposed universe self-origin opposes the target on a broad CAUSE_4 reading. This is an explicit positive candidate, not a proved counterexample, physical observation or certified formal refutation."
+
+# PP-01's same-standard/discriminator candidates are deliberately not connected
+# by an inference to the no-self-origin target. An audit of selective standards
+# does not prove the underlying prohibition.
