@@ -1,0 +1,21 @@
+{
+  "id": "11f49549-6983-4aca-8bd1-ce396e5ae99b",
+  "label": "Nothing gives what it lacks entails its cause-of-being restriction",
+  "premise_statement_ids": [
+    "376d6a5a-c179-5090-b57c-f9a371222899"
+  ],
+  "conclusion_statement_id": "d0fc96b7-fd2d-504e-912f-925de3b1e6ed",
+  "inference_ids": [
+    "400ef285-ccf3-409a-a652-41c232bd19e1"
+  ],
+  "meaning": "Strength order registration: the unrestricted principle (every cause of any perfection in a thing has it) entails its restriction to causes of the thing's being. Application only; it establishes neither. Strictness: control 15 (a cause of another perfection of a thing whose being it does not cause).",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
+  ]
+}

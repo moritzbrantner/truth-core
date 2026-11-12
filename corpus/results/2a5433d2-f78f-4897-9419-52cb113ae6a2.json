@@ -1,0 +1,11 @@
+{
+  "id": "2a5433d2-f78f-4897-9419-52cb113ae6a2",
+  "label": "No non-INFINITE_1 intellect COMPREHEND_2s an INFINITE_1 being, by transitivity",
+  "argument_id": "839faa6f-0b93-481a-bcb5-12f12cb8375e",
+  "challenge_module": "TruthCore.Results.Causality.ComprehensionByMeasure.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ComprehensionByMeasure.Solution",
+  "theorem": "TruthCore.Results.Causality.ComprehensionByMeasure.finiteIntellectDoesNotComprehend2Infinite",
+  "comparator_config": "results/2a5433d2-f78f-4897-9419-52cb113ae6a2/comparator.json",
+  "status": "solution-present",
+  "description": "Let g be INFINITE_1 and x an intellect that is not INFINITE_1, and suppose x knows g at a degree d that reaches g's knowability. Let p be x's non-maximal bound (second premise), so d is at most p. Every degree is at most g's knowability (first premise), which is at most d, which is at most p; so p is maximal, a contradiction. Hence x does not COMPREHEND_2 g. A derivation that could fail: on a scale where the knowability of g is not maximal, or where the bound may be maximal, the conclusion fails (Control parts 2-5). Conditional consequence; both premises are derived from open premises."
+}

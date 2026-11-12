@@ -1,0 +1,9 @@
+{
+  "id": "2c9a963f-4c4a-402a-bd0c-f017e25ec413",
+  "label": "One-being controls for the Dei Filius sufficiency bridges",
+  "paraphrase": "Closed controls on one-being interpretations whose single being is God, with Unit respects and principles: (1) every premise of nineGiveDeiFilius holds and the being has the nine and every Dei Filius attribute; (2) for each of nine of its ten premises (all but goodness-is-actuality: living, lord, almighty, immense, incomprehensible, blessed, no component, excess in act, matter-form composition) an interpretation where every other premise holds and the being has the nine but not every Dei Filius attribute; (3) an interpretation where the field interpretation holds while STMT-CLASSICAL-ATTRIBUTES-SUFFICE fails. Statements about these interpretations only.",
+  "lean_declaration": "TruthCore.Causality.DeiFiliusAttributeField.Control.Controls",
+  "definition_ids": [
+    "a82e5be5-be22-4504-8f0f-fd0732884d83"
+  ]
+}

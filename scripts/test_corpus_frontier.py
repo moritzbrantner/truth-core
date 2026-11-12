@@ -154,6 +154,50 @@ class FrontierReportTest(unittest.TestCase):
             corpus.format_frontier(report),
         )
 
+    def test_support_cycles_close_only_from_a_grounded_entry(self) -> None:
+        # #1476: U1 <-> U2 has no grounded entry, so both stay open leaves and
+        # D, proved from U1, closes as proved from an open premise. G1 <-> G2
+        # is entered from the bare premise L and closes. X <-> Y cycles through
+        # a transcription (Y from X) and stays open.
+        statements = [*STATEMENTS, *(statement(sid) for sid in ["U1", "U2", "G1", "G2", "L", "X", "Y", "D"])]
+        cycle_arguments = [
+            argument("ARG-U1", ["U2"], "U1"),
+            argument("ARG-U2", ["U1"], "U2"),
+            argument("ARG-G1", ["G2"], "G1"),
+            argument("ARG-G2", ["G1"], "G2"),
+            argument("ARG-G1-L", ["L"], "G1"),
+            argument("ARG-X", ["Y"], "X"),
+            argument("ARG-Y", ["X"], "Y"),
+            argument("ARG-D", ["U1"], "D"),
+        ]
+        results = [
+            *RESULTS,
+            *({"id": f"RES-{a['id']}", "argument_id": a["id"]} for a in cycle_arguments if a["id"] != "ARG-Y"),
+            {"id": "RES-ARG-Y", "argument_id": "ARG-Y", "transcription": "assembly"},
+        ]
+        report = corpus.frontier_report(statements, [*ARGUMENTS, *cycle_arguments], results, [], root="ROOT")
+        ids = self.ids(report)
+        closed = report["closed_statements"]
+        for sid in ["U1", "U2", "X", "Y"]:
+            self.assertNotIn(sid, closed)
+            self.assertIn(sid, ids)
+        items = {item["statement_id"]: item for item in report["items"]}
+        self.assertTrue(items["U1"]["ungrounded_cycle"])
+        self.assertTrue(items["X"]["ungrounded_cycle"])
+        self.assertFalse(items["Y"]["ungrounded_cycle"])
+        self.assertTrue(items["Y"]["transcription_only"])
+        self.assertEqual((closed["G1"], closed["G2"], closed["D"]), ("proved", "proved", "proved"))
+        self.assertIn("L", ids)
+        self.assertEqual(report["closed_via_transcription"], [])
+        self.assertIn("rests on an ungrounded support cycle", corpus.format_frontier(report))
+        # A grounded entry into U1 <-> U2 (U1 proved from L) closes both.
+        grounded = corpus.frontier_report(
+            statements, [*ARGUMENTS, *cycle_arguments, argument("ARG-U1-L", ["L"], "U1")],
+            [*results, {"id": "RES-ARG-U1-L", "argument_id": "ARG-U1-L"}], [], root="ROOT",
+        )
+        self.assertEqual((grounded["closed_statements"]["U1"], grounded["closed_statements"]["U2"]),
+                         ("proved", "proved"))
+
     def test_root_route_admits_only_the_designated_argument(self) -> None:
         # #143, 2026-10-24: a second argument for ROOT from SIDE gives SIDE a
         # path to the root, until a root_route designates ARG-ROOT alone.

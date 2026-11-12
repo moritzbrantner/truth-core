@@ -221,6 +221,28 @@ ad hoc without an independent independence principle does not settle this
 remaining dispute. Conversely, the paradox alone does not prove that the
 compatibility restriction is the correct metaphysics.
 
+*Audit under the Substantive Objection Standard (2026-11-12).* The
+compatibility reply names its target (countable patchwork) and its mechanism
+(global constraints on joint realizability). It is located as a precise fork.
+Witnesses for adjacent Reaper pieces cannot agree on the register contents they
+share (`GrimReaperPatchwork.overlapAgreeingWitnessesImpossible`). (i) If
+gluing requires overlapping patches to agree on contents, as recombination of
+value-like patches does, the Reaper's local premise fails along every descent
+as mathematics, and the argument does not get started. (ii) If gluing
+duplicates stations with their rules, contents depending on context (the
+intrinsic-powers reading above), the reply must supply a case where such
+patches fail to glue along an acyclic chain. Cyclic failures (a ring of
+inverting stations) do not apply to a descent. One acyclic candidate exists:
+given the possibility of populated continuous time with a first moment, pieces
+or gluing fail on the accumulating chain `t, t/2, …` in `[0, t]` (Benardete);
+it is a gluing failure only if those pieces are possible. For non-accumulating
+descents (slots of bounded-below length) none is recorded, so for that
+philosophical reading the reply is an unsupported suggestion with no evidential
+weight against patchwork; patchwork itself stays OPEN. The typed Lean premises
+are order-theoretic and do not have that metric restriction; two objections to
+them are kept (FLRW cosmology, and the Benardete open-below parity). See
+[the Reaper objection audit](../causal-regress-and-grim-reapers.md#objection-audit-for-the-temporal-reaper-2026-11-12).
+
 The signal revision (pp.19–20) addresses a different issue: particles might
 vanish between placements. Koons replaces their persistence with intrinsic
 active/passive capacities to send and receive a predecessor signal, and uses

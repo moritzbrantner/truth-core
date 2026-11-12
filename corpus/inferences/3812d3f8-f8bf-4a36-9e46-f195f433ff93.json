@@ -1,0 +1,14 @@
+{
+  "id": "3812d3f8-f8bf-4a36-9e46-f195f433ff93",
+  "label": "Well-founded necessary support union, from actual well-foundedness and no novel edge (inference)",
+  "input_statement_ids": [
+    "2b20b5af-d653-56ba-8001-35903fb3d1ea",
+    "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21",
+    "bd983df2-058a-5503-89a1-bbebe87f958b"
+  ],
+  "output_statement_id": "d149d238-2eeb-5c8b-a136-f95d7aa5c721",
+  "rule": "Composition: present support is well-founded by actual grounding well-foundedness; union_wellFounded_of_actual_wellFounded",
+  "meaning": "Derives J2 of the join, well-foundedness of the cross-world union of support among necessary concreta, from three premises: the selected world accesses itself; the selected relation at w restricted to concreta existing at w is well-founded; and the existing one-way no-novel-edge condition on the concrete subtype (a support edge between necessary concreta at any world where the supporter exists also holds at w). The first two are already premises of the join. Composes the existing union_wellFounded_of_actual_wellFounded with a new lemma that actual grounding well-foundedness makes present support well-founded. The no-novel-edge condition is strictly stronger than J2 given the other two: in the uncovered-edge control J2 and the other two hold while the condition fails. Reflexive access is the sense bridge from frame accessibility (NECESSARY_11) to necessity from w (NECESSARY_2), as in the existing join. Conditional consequence only; no premise is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

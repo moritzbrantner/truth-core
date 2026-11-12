@@ -118,6 +118,53 @@ class SenseForkGenerationTest(unittest.TestCase):
                 self.assertEqual(argument_batch.build_records(spec, False), [])
 
 
+class IdempotenceTest(unittest.TestCase):
+    """#1484: regenerating a committed spec writes nothing."""
+
+    def test_relabelled_result_and_escaped_json_are_not_regenerated(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            corpus = root / "corpus"
+            for kind in ("statements", "definitions", "disambiguations"):
+                (corpus / kind).mkdir(parents=True)
+            spec = {
+                "batch": {"vocab": "TruthCore.Test", "results": "TruthCore.Results.Test"},
+                "statement": [{"id": "A test proposition…", "paraphrase": "A…", "lean": "A"}],
+                "argument": [{"id": "A test argument", "theorem": "main", "premises": [],
+                              "conclusion": "A test proposition…", "rule": "identity", "meaning": "A",
+                              "description": "A, described", "comparator_theorems": ["helper"]}],
+                "relation": [{"id": "A test relation", "subject_kind": "statement",
+                              "subject_id": "A test proposition…", "predicate": "strengthens",
+                              "object_kind": "statement", "object_id": "A test proposition…",
+                              "verification_result_id": "A test argument"}],
+            }
+            spec_path = root / "spec.toml"
+            with patch.object(argument_batch, "ROOT", root), patch.object(argument_batch, "CORPUS", corpus):
+                self.assertTrue(argument_batch.build_records(spec, True))
+                result_path = next((corpus / "results").glob("*.json"))
+                result = json.loads(result_path.read_text())
+                self.assertEqual(result["description"], "A, described")
+                comparator = json.loads((root / result["comparator_config"]).read_text())
+                self.assertEqual(comparator["theorem_names"],
+                                 ["TruthCore.Results.Test.main", "TruthCore.Results.Test.helper"])
+                # A later hand relabel of the result, and an ASCII-escaped statement file.
+                result["label"] = "A relabelled result"
+                result_path.write_text(json.dumps(result, indent=2) + "\n")
+                spec["argument"][0]["label"] = "A relabelled result"
+                statement_path = next((corpus / "statements").glob("*.json"))
+                statement_path.write_text(json.dumps(json.loads(statement_path.read_text()), indent=2) + "\n")
+                self.assertIn("\\u2026", statement_path.read_text())
+                self.assertEqual(argument_batch.build_records(spec, False), [])
+                spec_path.write_text('[batch]\nvocab = "TruthCore.Test"\nresults = "TruthCore.Results.Test"\n'
+                                     '[[statement]]\nid = "A test proposition…"\nparaphrase = "A…"\nlean = "A"\n')
+                try:
+                    self.assertEqual(argument_batch.check_specs([spec_path]), 0)
+                    spec_path.write_text(spec_path.read_text().replace('"A…"', '"B"'))
+                    self.assertEqual(argument_batch.check_specs([spec_path]), 1)
+                finally:
+                    argument_batch.READ_CACHE = None
+
+
 class CommandSmokeTests(unittest.TestCase):
     def test_empty_map(self):
         with tempfile.TemporaryDirectory() as directory:

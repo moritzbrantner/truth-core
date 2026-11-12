@@ -1,0 +1,15 @@
+{
+  "id": "a63f9def-b5e6-4c93-9120-9aa126ec923e",
+  "label": "Controls for the nine-restricted self-operation premises",
+  "paraphrase": "Closed controls on one interpretation family with two beings (Bool), one respect and one time, where nothing is in potency, everything is in act and causes everything, nothing is composite and only true is GOD_4: (1) true has the nine and operates, false is a pure act with no intellect and no immanent operation (it lacks the nine through intellect and through uniqueness of GOD_4); the nine-restricted operation premise holds and STMT-PURE-ACT-OPERATES fails; (2) with life only at true, the nine-restricted life premise holds and STMT-PURE-ACT-LIVES fails; (3) some being has the nine and lives at some time (nonvacuity); (4) with both beings intellectual and only true LIVING_1, the nine-restricted life premise and the restricted sense bridge hold while false is an intellectual pure act that is not LIVING_1, so 'Whatever HAS_INTELLECT_1 lives' fails, as does its restriction to pure acts (only these two premises of the route are checked in this model, not the rest of its bundle); (5) sense-mixing control: with nothing LIVING_1, the nine-restricted life premise holds and true has the nine and is LIVING_2 without being LIVING_1. Statements about these interpretations only.",
+  "lean_declaration": "TruthCore.Causality.DeiFiliusLivingNineScope.Control.Controls",
+  "definition_ids": [
+    "f91f5056-8a32-416b-b234-d0e78cd16ce8",
+    "885a98f3-cd54-41c5-89bc-25c341415890",
+    "a49e4cf1-ca4f-5519-9724-892af257cedb",
+    "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4"
+  ],
+  "disambiguation_ids": [
+    "1f2d3b9b-0b6b-459c-8871-3f136ad6d78a"
+  ]
+}

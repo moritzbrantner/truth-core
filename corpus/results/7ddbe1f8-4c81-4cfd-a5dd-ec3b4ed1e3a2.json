@@ -1,0 +1,11 @@
+{
+  "id": "7ddbe1f8-4c81-4cfd-a5dd-ec3b4ed1e3a2",
+  "label": "Founded populated pasts give begun populated pasts",
+  "argument_id": "afb68bc5-7e52-4650-856b-5dd5c069013f",
+  "challenge_module": "TruthCore.Results.Causality.GrimReaperPatchwork.Challenge",
+  "solution_module": "TruthCore.Results.Causality.GrimReaperPatchwork.Solution",
+  "theorem": "TruthCore.Results.Causality.GrimReaperPatchwork.populatedPastsBegunOfFounded",
+  "comparator_config": "results/7ddbe1f8-4c81-4cfd-a5dd-ec3b4ed1e3a2/comparator.json",
+  "status": "solution-present",
+  "description": "Strength order between the founded and begun denials of horn H2: same histories, same populated moments, Acc replaced by a moment at or before with nothing earlier (begunOfAcc). The converse fails in BegunComingToBe.Control.zeno (control 3). No premise is established."
+}

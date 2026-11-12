@@ -1,0 +1,12 @@
+{
+  "id": "d9f4d3b4-8469-48c9-aa0e-e67e437d7926",
+  "label": "Whatever is CREATURE_2 is CREATURE_1, legacy statement by instantiation",
+  "argument_id": "efb88bdf-6f08-42a1-925e-90e591f3100d",
+  "challenge_module": "TruthCore.Results.Causality.CreatureSenses.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CreatureSenses.Solution",
+  "theorem": "TruthCore.Results.Causality.CreatureSenses.causedInBeingByAnotherIsCreatureAtCreature1",
+  "comparator_config": "results/d9f4d3b4-8469-48c9-aa0e-e67e437d7926/comparator.json",
+  "status": "solution-present",
+  "description": "Transcription by instantiation: the sense-fixed bridge gives the Creature-parametric legacy statement 'Whatever is CREATURE_2 (caused in being by another) is CREATURE_1' with Creature instantiated at the CREATURE_1 constant (the two say the same; causedInBeingByAnotherIsCreature_iff). It lets the registered Round 2 chain, which binds the legacy statement, rest on the derived bridge. It adds no content and is not progress on its own; the legacy statement closes exactly when the sense-fixed bridge does.",
+  "transcription": "instantiation"
+}

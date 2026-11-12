@@ -1,0 +1,13 @@
+{
+  "id": "2f2f5bd2-9b6a-4251-8b93-885996ae08e2",
+  "label": "Whatever has its being caused is in act as to being",
+  "paraphrase": "Open premise, analyst formulation, unattributed. For all c and x: if c causes x's being (CausesIn c x esse), then x is in act as to being (InAct x esse). The weak version, restricted to esse, of STMT-CAUSED-PERFECTION-IS-HAD-BY-EFFECT (a caused perfection, in any respect, is had by its effect), which strengthens it (verified projection). It says that an effect of a cause of being has the being caused in it; it says nothing about how long, whether the cause sustains it, or whether the cause is distinct from x.",
+  "lean_declaration": "TruthCore.Causality.CreatureSenses.CausedEsseIsHad",
+  "definition_ids": [
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
+  ]
+}

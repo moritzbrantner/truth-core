@@ -1,0 +1,11 @@
+{
+  "id": "d7c9cadd-9086-444d-a84e-b568303730a1",
+  "label": "A cause of being has being, from agency in act",
+  "argument_id": "9355c3db-ee32-4220-b5bf-6597c3eeeadb",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.CauseOfBeingHasBeing.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.CauseOfBeingHasBeing.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.CauseOfBeingHasBeing.causeOfBeingHasBeingOfAgency",
+  "comparator_config": "results/d7c9cadd-9086-444d-a84e-b568303730a1/comparator.json",
+  "status": "solution-present",
+  "description": "A cause of being is in act in some respect (agency in act, after q.75 a.2); whatever is in act in some respect is in act as to being (q.4 a.1 ad 3, sourced); so a cause of being is in act as to being. This reaches the esse rung of 'nothing gives what it does not have' with no transfer principle; it does not rest on preexistence, so a strong-emergence rival extended to esse must deny agency in act or q.4 a.1 ad 3. The scope objections to the unrestricted principle (instruments of making) do not bear on it directly. Each premise is needed in a checked interpretation (controls 10 and 11). No premise is established."
+}

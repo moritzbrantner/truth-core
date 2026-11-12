@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.ComprehensionByMeasure.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ComprehensionByMeasure.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.ComprehensionByMeasure.finiteIntellectDoesNotComprehend2Infinite"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

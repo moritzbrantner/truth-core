@@ -1,0 +1,11 @@
+{
+  "id": "e506a21c-751b-4053-ba4f-a6c7798b35c3",
+  "label": "Whatever has the nine operates from itself, from every POTENCY_1-free being operating",
+  "argument_id": "95996e72-7979-41df-ab20-b8d3f433daba",
+  "challenge_module": "TruthCore.Results.Causality.DeiFiliusLivingNineScope.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DeiFiliusLivingNineScope.Solution",
+  "theorem": "TruthCore.Results.Causality.DeiFiliusLivingNineScope.nineOperateOfPureActOperates",
+  "comparator_config": "results/e506a21c-751b-4053-ba4f-a6c7798b35c3/comparator.json",
+  "status": "solution-present",
+  "description": "Strength order registration: STMT-PURE-ACT-OPERATES (every pure act operates from itself) entails its nine-restricted version, since the altogether-immutable conjunct of the nine is by definition being in potency in no respect. Projection and application only; it establishes neither version."
+}

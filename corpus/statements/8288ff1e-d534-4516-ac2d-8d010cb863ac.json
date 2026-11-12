@@ -1,0 +1,11 @@
+{
+  "id": "8288ff1e-d534-4516-ac2d-8d010cb863ac",
+  "label": "Every first being is in act in some respect",
+  "paraphrase": "Open premise, analyst formulation, unattributed: whatever first being (no being other than it is simply prior to it) is in act in some respect. Its denial is a first principle in act in nothing, the shape of the potency-first cosmologies (Night, the seed) that ST I q.4 a.1 ad 2 answers.",
+  "lean_declaration": "TruthCore.Causality.ActPriorityAtFirst.FirstBeingIsInSomeAct",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "25e19d5a-5cdf-5916-a888-f6a0ce970f11",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8"
+  ]
+}

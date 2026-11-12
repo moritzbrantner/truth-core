@@ -1,0 +1,31 @@
+{
+  "id": "4c4dfa21-ca48-4dd4-9557-9ad48821609b",
+  "label": "Cause of being causes every perfection, from universal and nonuniversal transfer",
+  "premise_statement_ids": [
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "b26c10a0-983d-5a88-aa03-cc601bc1ddc6",
+    "10cd24ed-3878-489b-819e-02820a6ef2cd",
+    "b62a64ab-ac11-569a-b8e8-de51a74b058f"
+  ],
+  "conclusion_statement_id": "f8ba2429-b4f1-5712-a4d3-798213963d34",
+  "inference_ids": [
+    "b9267800-4f4b-49ad-aaef-f4a662025388"
+  ],
+  "meaning": "Suppose c causes x's esse and x is in act in r. x is not c, since nothing causes its own esse (CausesIn x x esse never holds). By excluded middle c either causes the esse of every other actual being or does not. If it does, universal-scope transfer, applied to the distinct effect x, gives that c causes x's being in act in r; if it does not, nonuniversal transfer gives the same. So the cause of a thing's being causes each of its perfections. This is a grounded entry into the support cycle between this principle and the residual: no premise rests on either cycle member (universal-scope transfer is also projected from the unrestricted principle, but that projection is a transcription; its grounded derivation is from total causation, result UNIVERSAL-CAUSE-TRANSFERS-FROM-TOTAL-CAUSATION). The open content moves to nonuniversal transfer; universal-scope transfer and no self-causation of esse stay open, and excluded middle is the existing self-evident logical premise. The self-effect conjunct of the residual is not assumed but excluded. Conditional consequence only; no premise is established. Control.Controls parts 1 to 3 show that each nonlogical premise is needed in the interpretations given there. 'Cause of being' throughout is BECOMING-BEING-CAUSE_3 (CausesIn c x esse, DISAMB-BECOMING-BEING-CAUSE), not a cause of becoming; whether a source's q.104 a.1 cause of being falls under it is that disambiguation's open bridge.",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "d8e2ed12-8089-5202-ae51-e807cf611c76",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1",
+    "c19faf56-0908-5e6e-8c39-ccba40dce5d1"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "57f80020-fa6f-5b69-be58-b4cf95b7226f"
+  ],
+  "strong_version_needed": {
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410": "The case split is on whether an arbitrary cause is universal at esse, for an arbitrary Being domain; the registered weak version (classical-attributes actual-bearer local logic) decides only identity with a God bearer and that bearer's esse/essence identity, not this proposition."
+  }
+}

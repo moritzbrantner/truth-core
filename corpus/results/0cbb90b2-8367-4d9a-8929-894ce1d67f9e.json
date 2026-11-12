@@ -1,0 +1,11 @@
+{
+  "id": "0cbb90b2-8367-4d9a-8929-894ce1d67f9e",
+  "label": "Actual ground more in esse, from ascent at every world",
+  "argument_id": "4c43a8ec-edb7-45e8-bc6e-a5a9c1af87ba",
+  "challenge_module": "TruthCore.Results.Causality.GradedSupportFoundation.Challenge",
+  "solution_module": "TruthCore.Results.Causality.GradedSupportFoundation.Solution",
+  "theorem": "TruthCore.Results.Causality.GradedSupportFoundation.actualAscentOfEverywhere",
+  "comparator_config": "results/0cbb90b2-8367-4d9a-8929-894ce1d67f9e/comparator.json",
+  "status": "solution-present",
+  "description": "The unrestricted every-world ascent premise implies the actual-grounding ascent premise at each world. With no infinite ascent in being, this one premise thus yields both AGWF and J2 through the two derivations above. Registered as a strength order."
+}

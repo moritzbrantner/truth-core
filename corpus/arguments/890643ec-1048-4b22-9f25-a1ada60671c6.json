@@ -1,0 +1,21 @@
+{
+  "id": "890643ec-1048-4b22-9f25-a1ada60671c6",
+  "label": "Concurrent actualization by another entails concurrent actualization",
+  "premise_statement_ids": [
+    "76d2cc96-14a0-48bc-bd0b-a5c0ca853265"
+  ],
+  "conclusion_statement_id": "40a97664-e481-42d7-8458-78374a61aa26",
+  "inference_ids": [
+    "f6de4e07-6099-4702-9e52-b71573169766"
+  ],
+  "meaning": "Strength order registration: if, whenever a received-esse thing is present, something distinct from it gives it being, then something gives it being. Application only; it establishes neither. Strictness is witnessed by Control part 2 (an intrinsic persistence power satisfies the weak version and falsifies the strong one).",
+  "definition_ids": [
+    "158301bc-9585-4145-be60-34f08c9f922c",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "4433942e-aaf6-55a9-b777-66e55638103d",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e"
+  ],
+  "disambiguation_ids": [
+    "5921354b-51e6-5da3-8d8c-e9041840fd9f"
+  ]
+}

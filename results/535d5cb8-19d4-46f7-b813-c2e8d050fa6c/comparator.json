@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.MetricGrimReaper.Challenge",
+  "solution_module": "TruthCore.Results.Causality.MetricGrimReaper.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.MetricGrimReaper.spacedPiecesOfCoinitial"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

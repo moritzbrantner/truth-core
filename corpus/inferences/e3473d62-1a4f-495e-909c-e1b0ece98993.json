@@ -1,0 +1,16 @@
+{
+  "id": "e3473d62-1a4f-495e-909c-e1b0ece98993",
+  "label": "Act is SIMPLY_PRIOR_1 to POTENCY_2 at a first being, from composition (inference)",
+  "input_statement_ids": [
+    "8288ff1e-d534-4516-ac2d-8d010cb863ac",
+    "3d99779b-b44a-4daa-a873-8ccdd3c034ae",
+    "ca07cae9-6102-564e-a7fd-efb013744b3d",
+    "e0088de9-28eb-533c-a1e7-662f780cc0e2",
+    "e078f07b-a4b8-595e-a3ee-02dd83474450"
+  ],
+  "output_statement_id": "61ad11f3-476f-411d-9720-d9f05cbc22fc",
+  "rule": "Reductio at the supposed first being, as in firstBeingNoPotencyOfComposition; the first-being version then holds vacuously",
+  "meaning": "The first-being version of act priority from the same five premises: by firstBeingNoPotencyOfComposition a first being is in potency in no respect, so the first-being version holds vacuously. Each of the five premises is needed (Control.CompositionOmissions). The proof applies each premise only at a supposed first being; no premise says that an idle potency of a being other than a first one has a prior being in act. Conditional consequence only; no premise is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

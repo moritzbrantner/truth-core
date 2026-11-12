@@ -1,0 +1,29 @@
+{
+  "id": "db7bbdbd-11d0-4b81-bd01-be9d2c9de559",
+  "label": "Lasting ground (A2ab) from CAUSE_OF_BEING_2 sustaining causes and contact",
+  "premise_statement_ids": [
+    "16828262-4ec0-46e8-b5cb-3f6b7ed2186d",
+    "1d4d9b13-9be3-403b-bce2-35102ab1bd34",
+    "c4661518-33cc-4a53-ae55-cb986be9c2b5"
+  ],
+  "conclusion_statement_id": "71df1177-b082-46e9-ab85-6815b3ed1650",
+  "inference_ids": [
+    "2955d7e0-0c71-4ed1-bbee-a9627524d38a"
+  ],
+  "meaning": "New non-transcription conditional support option for premise A2ab (lasting ground) of Arrival A. Let a concrete x be absent at s and present at t > s in history v. It has a concrete sustaining cause g (CAUSE_OF_BEING_2), which gives x being at every moment x is present, in particular at t; by the contact principle g is present at t, which is after s; and g is a ground of x. No condition on the order of time (any preorder), on first moments or on convexity is used. Each premise is needed in a checked interpretation: without the sustaining-cause premise (Control part 3), without sustainers-are-grounds (part 5), without the contact principle (part 2); all hold nonvacuously with A2ab (part 7). Existential inertia rejects the sustaining-cause premise; it need not reject A2ab, which also has the originating route. All premises stay OPEN. No premise is established.",
+  "term_senses": {
+    "CAUSE_OF_BEING": "5acddd28-aca0-410d-96d2-ef9386b8dc27",
+    "CAUSING_AN_EFFECT": "871078ad-b041-4030-bb85-7ec2eed5d079"
+  },
+  "definition_ids": [
+    "158301bc-9585-4145-be60-34f08c9f922c",
+    "1f4f5228-45e8-4e5d-beda-e918c5808ec0",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e",
+    "ed47a5a7-fa84-43cb-950b-2552b33b99ff"
+  ],
+  "disambiguation_ids": [
+    "88a8fba7-f1a1-4340-8a7f-41dd39bbbe7d",
+    "81c233d4-01b4-528c-8bbd-7da228443ffe",
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
+  ]
+}

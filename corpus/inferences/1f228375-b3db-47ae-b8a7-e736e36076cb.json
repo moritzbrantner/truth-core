@@ -1,0 +1,10 @@
+{
+  "id": "1f228375-b3db-47ae-b8a7-e736e36076cb",
+  "label": "Controls for the grounded perfection-transfer derivation, checked (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "349668d0-4618-40b4-8598-1f8a9b3ef21e",
+  "rule": "Explicit finite interpretations, checked by decision or case analysis",
+  "meaning": "Omission: in the concurrent interpretation (full shared background) only nonuniversal transfer fails and unrestricted transfer fails; with one self-causing being only no self-causation of esse fails and unrestricted transfer and the residual fail; with a source that does not transfer skill only universal-scope transfer fails and unrestricted transfer fails. Strictness: nonuniversal transfer holds where the residual fails. Nonvacuity: all premises and the conclusion hold where a nonuniversal cause actually causes another's esse. Model-witnessed facts about these interpretations only; they show where each premise is needed, not that any premise is false.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

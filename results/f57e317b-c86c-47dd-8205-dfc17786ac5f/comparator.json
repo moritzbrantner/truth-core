@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.SustainingCausation.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SustainingCausation.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.SustainingCausation.immense2PresentToAll"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

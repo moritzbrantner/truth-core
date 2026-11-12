@@ -1,0 +1,11 @@
+{
+  "id": "a788d424-1898-45d9-95a9-bed7efee8c9d",
+  "label": "Post-absence well-founded grounding from well-founded grounding among present things",
+  "argument_id": "a4ad484a-50d6-4ac7-96af-4b96def2f2e3",
+  "challenge_module": "TruthCore.Results.Causality.GroundedBeginnings.Challenge",
+  "solution_module": "TruthCore.Results.Causality.GroundedBeginnings.Solution",
+  "theorem": "TruthCore.Results.Causality.GroundedBeginnings.postAbsenceOfPresent",
+  "comparator_config": "results/a788d424-1898-45d9-95a9-bed7efee8c9d/comparator.json",
+  "status": "solution-present",
+  "description": "Strength order between two versions of the well-foundedness premise over the same history, Concrete predicate and grounding relation: things that come to be after a moment are present at some moment. The converse fails in control 7 (an endless past of grounds with no empty moment). The derivation of inert emptiness uses only the weak version. No premise is established."
+}

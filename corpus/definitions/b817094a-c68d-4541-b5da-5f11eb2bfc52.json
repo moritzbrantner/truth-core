@@ -1,0 +1,9 @@
+{
+ "id": "b817094a-c68d-4541-b5da-5f11eb2bfc52",
+ "label": "Local Reaper pieces co-possible along every populated descent",
+ "term": "possible local Reaper pieces",
+ "definition": "ReaperPiecesPossible R h Concrete w holds when, in every history v accessible from w, along every strictly descending sequence of moments c whose first moment c 0 has some contingent concrete individual present in v, every two adjacent local pieces (at n and at n + 1) are realized together in some world accessible from v. In ordinary language: below any populated moment of any possible history there is room for a possible Grim Reaper trio at any three consecutive members of any descent.",
+ "basis": "stipulative",
+ "lean_declaration": "TruthCore.Causality.GrimReaperPatchwork.ReaperPiecesPossible",
+ "note": "Analyst premise in the style of Koons's possible Placer trio (PPT) placed in the slots of an alleged infinite past (HIP), as reconstructed in docs/notes/causal-finitism-367.md; attribution deferred. Because it ranges over every descent, it places pieces in the shrinking slots of t, t/2, t/4, ... in dense time too (Benardete's original setting). It holds in the beginningless pivot control without patchwork. OPEN."
+}

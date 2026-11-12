@@ -1,0 +1,9 @@
+{
+ "id": "f764ff99-5fa6-438b-a4b7-ccc9f87477aa",
+ "label": "Earlier states are causal ancestors of populated states",
+ "term": "precedence-to-state-causation bridge",
+ "definition": "PrecedenceIsStateCausation h Concrete stateCause w holds when, in every history v accessible from w, whenever a contingent concrete individual is present at moment t and s is strictly earlier than t, there is a chain of one or more stateCause v edges from s to t. In ordinary language: the state of a possible history at any earlier moment lies in the causal history of its state at each moment where a contingent thing is present.",
+ "basis": "stipulative",
+ "lean_declaration": "TruthCore.Causality.ComingToBeHorns.PrecedenceIsStateCausation",
+ "note": "Explicit analyst bridge from mere temporal precedence to causation; attribution deferred. It is the step an endless past of mere succession need not take: a history whose earlier states are causally idle with respect to later ones rejects it. It is the strong, global form (every earlier moment, not only some); it is restricted to populated later moments. Applicability OPEN."
+}

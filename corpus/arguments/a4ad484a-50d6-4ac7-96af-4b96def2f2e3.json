@@ -1,0 +1,23 @@
+{
+  "id": "a4ad484a-50d6-4ac7-96af-4b96def2f2e3",
+  "label": "Post-absence well-founded grounding from well-founded grounding among present things",
+  "premise_statement_ids": [
+    "81c39a34-8188-4df5-b433-256a249630ca"
+  ],
+  "conclusion_statement_id": "bf18a0d0-f43c-49a6-9876-0dbdf5c5f98a",
+  "inference_ids": [
+    "f3c6bef9-2635-4ce1-9548-81619c26fdce"
+  ],
+  "meaning": "Strength order between two versions of the well-foundedness premise over the same history, Concrete predicate and grounding relation: things that come to be after a moment are present at some moment. The converse fails in control 7 (an endless past of grounds with no empty moment). The derivation of inert emptiness uses only the weak version. No premise is established.",
+  "definition_ids": [
+    "1103f0c4-ce72-42fb-a131-c33d951b1fee",
+    "1f4f5228-45e8-4e5d-beda-e918c5808ec0",
+    "8d6ba7f7-5db7-417e-a32e-69383a615519",
+    "9c097ca8-c5e0-4cdf-90e6-8f84058afd74",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e"
+  ],
+  "disambiguation_ids": [
+    "81c233d4-01b4-528c-8bbd-7da228443ffe",
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "45890c84-1d33-4273-b0ea-0f75bfd67a33",
+  "label": "No supply-closed collection of actual CONCRETE_6 is wholly borrowed",
+  "paraphrase": "Open premise, analyst formulation, unattributed: at the selected world w, every collection of actual concreta that contains every candidate existing at w that grounds a member at w (concrete or not), and each of whose members is grounded by some candidate existing at w, is empty. The collection form of the borrowed-reality principle over all modelled actual suppliers of the selected direct relation; suppliers outside that relation are not modelled.",
+  "lean_declaration": "TruthCore.Causality.ClosedGroundingRoots.NoWhollyBorrowedCollection",
+  "definition_ids": [
+    "432451a4-cde1-4386-9015-95bb1176dfd0",
+    "008cb21a-256c-5a90-822c-acd4591d699a"
+  ],
+  "disambiguation_ids": [
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
+  ]
+}

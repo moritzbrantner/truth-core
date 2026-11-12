@@ -1,0 +1,11 @@
+{
+  "id": "86ee4407-7337-442c-b8ec-cfe243d3ef07",
+  "label": "Every intellectual PURE_ACT_5 being operates, from every POTENCY_1-free being operating",
+  "argument_id": "cfc5a3b4-f721-4b82-9dfe-b9693b9e1649",
+  "challenge_module": "TruthCore.Results.Causality.DeiFiliusOperationFromIntellect.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DeiFiliusOperationFromIntellect.Solution",
+  "theorem": "TruthCore.Results.Causality.DeiFiliusOperationFromIntellect.intellectualPureActOperatesOfPureActOperates",
+  "comparator_config": "results/86ee4407-7337-442c-b8ec-cfe243d3ef07/comparator.json",
+  "status": "solution-present",
+  "description": "Strength order registration: if every pure act operates, every pure act with intellect operates. Projection only; it establishes neither version."
+}

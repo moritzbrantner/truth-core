@@ -1,0 +1,11 @@
+{
+  "id": "524a763b-e3da-4248-bda0-b4f2293c7579",
+  "label": "Whatever has the nine operates from itself, from intellect as an exercised capacity",
+  "argument_id": "6e939a75-3554-4faf-a600-871cc03cc198",
+  "challenge_module": "TruthCore.Results.Causality.DeiFiliusOperationFromIntellect.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DeiFiliusOperationFromIntellect.Solution",
+  "theorem": "TruthCore.Results.Causality.DeiFiliusOperationFromIntellect.nineOperateFromCapacity",
+  "comparator_config": "results/524a763b-e3da-4248-bda0-b4f2293c7579/comparator.json",
+  "status": "solution-present",
+  "description": "A being g with the nine has intellect and is altogether immutable, which is being in potency in no respect. Its intellect is a capacity to understand (first premise); that capacity is exercised or a potency to understanding (second premise); g is not in potency to understanding, so it actually understands; an exercised capacity to understand is an immanent operation (third premise), so g operates. The act predicate is the nine's own InAct (the one of perfection and supreme goodness) and the potency predicate is the nine's own InPotency (POTENCY_2); the passage from capacity (POTENCY_3) to it is the listed sense bridge, the second premise. No premise mentions life, time or being unmoved; living still needs the route's further steps. Conditional consequence; all three premises stay open, and this replaces the bare restriction by a derivation, it establishes nothing."
+}

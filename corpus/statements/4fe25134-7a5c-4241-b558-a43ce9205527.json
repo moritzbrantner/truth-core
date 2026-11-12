@@ -1,0 +1,10 @@
+{
+  "id": "4fe25134-7a5c-4241-b558-a43ce9205527",
+  "label": "Some rigid grade with no infinite ascent is ascended by actual concrete grounding",
+  "paraphrase": "There is a comparison on candidates, at a single respect and with no world argument, that has no infinite ascent and that every actual concrete grounding edge at w ascends (the ground is above what it grounds). The comparison is existentially chosen; nothing identifies it with the Fourth Way's more in esse.",
+  "lean_declaration": "TruthCore.Causality.GradedSupportFoundation.GradedActualGrounding",
+  "definition_ids": [
+    "5766de66-8a37-5b04-aa65-9eec53319f50",
+    "2100cf9a-27ed-57e9-9daa-4b94b6780fe7"
+  ]
+}

@@ -1,4 +1,4 @@
-import { afterAll, beforeAll, expect, test } from "bun:test";
+import { afterAll, beforeAll, beforeEach, expect, test } from "bun:test";
 import { chromium, type Browser } from "playwright";
 import path from "node:path";
 
@@ -31,6 +31,15 @@ beforeAll(async () => {
   browser = await chromium.launch({ headless: true });
 }, 30000);
 
+// A test that exceeds its timeout has its spawned processes killed by bun,
+// including the shared browser. Relaunch it so one timeout is reported once,
+// not again as "browser has been closed" in every later test (#1377).
+beforeEach(async () => {
+  if (!browser.isConnected()) {
+    browser = await chromium.launch({ headless: true });
+  }
+});
+
 afterAll(async () => {
   await browser?.close();
   server?.stop();
@@ -47,8 +56,11 @@ test("static frontier: queue ↔ graph, goal/global, reload, expansion, focus re
   const queue = page.getByRole("complementary", {
     name: "Research obligations",
   });
-  const globalCount = await queue.locator("ol > li").count();
+  // The queue lists a window of its obligations; its heading counts all of them.
+  const obligationCount = async () => Number((await queue.locator('[aria-live="polite"]').innerText()).match(/^(\d+) obligations$/)![1]);
+  const globalCount = await obligationCount();
   expect(globalCount).toBeGreaterThan(50);
+  expect(await queue.locator("ol > li").count()).toBe(Math.min(globalCount, 100));
   await queue.locator(".research-select").first().click();
   await page.waitForURL((url) => url.searchParams.has("obligation") && url.searchParams.has("sel"));
   const selected = new URL(page.url()).searchParams.get("sel")!;
@@ -60,10 +72,10 @@ test("static frontier: queue ↔ graph, goal/global, reload, expansion, focus re
   expect(new URL(page.url()).searchParams.get("obligation")).toBe(obligation);
   await page.getByRole("button", { name: "Selected goal frontier", exact: true }).click();
   await page.waitForURL((url) => url.searchParams.get("scope") === "goal");
-  expect(await queue.locator("ol > li").count()).toBeLessThan(globalCount);
+  expect(await obligationCount()).toBeLessThan(globalCount);
   await page.getByRole("button", { name: "Global frontier", exact: true }).click();
   await page.waitForURL((url) => !url.searchParams.has("scope"));
-  expect(await queue.locator("ol > li").count()).toBe(globalCount);
+  expect(await obligationCount()).toBe(globalCount);
   // Selecting the graph changes the queue's related-node highlights.
   await queue.locator(".research-select").first().click();
   await page.locator(`[data-id="${selected}"]`).click();
@@ -104,6 +116,9 @@ test("static frontier: queue ↔ graph, goal/global, reload, expansion, focus re
   await page.setViewportSize({ width: 390, height: 844 });
   await page.getByRole("button", { name: "Global frontier", exact: true }).click();
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1)).toBe(true);
+  // "Show all" lists every obligation the heading counts.
+  await queue.getByRole("button", { name: `Show all ${globalCount} obligations`, exact: true }).click();
+  expect(await queue.locator("ol > li").count()).toBe(globalCount);
   expect(errors).toEqual([]);
   await page.close();
 }, 60000);

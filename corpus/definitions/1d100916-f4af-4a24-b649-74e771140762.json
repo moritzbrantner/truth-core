@@ -1,0 +1,9 @@
+{
+ "id": "1d100916-f4af-4a24-b649-74e771140762",
+ "label": "BEGINS_3: schematic placeholder, a supplied uninterpreted world predicate that fixes no sense",
+ "term": "contingent concrete reality begins (supplied predicate)",
+ "definition": "BEGINS_3. In PossibleCauseOfContingency, ContingencyBeginsAt s v holds when the Scenario's supplied predicate beginsContingency holds at the complete history v and some contingent concrete individual exists there. beginsContingency : World -> Prop is a field of the Scenario with no constraint: the Scenario has no times, so no first moment, duration, transition or earlier absence is part of the predicate. Every theorem stated over an arbitrary Scenario holds for every choice of it, including the constant True (used by the bruteOnly and mixed controls), BEGINS_1 or BEGINS_2 supplied over a history.",
+ "basis": "stipulative",
+ "lean_declaration": "TruthCore.Causality.PossibleCauseOfContingency.ContingencyBeginsAt",
+ "note": "Records what the existing Arrival B premises B1 (STMT-SCENARIO-POSSIBLY-BEGINS) and B2 (STMT-SCENARIO-CAUSAL-OPPORTUNITY) mean as typed. The prose of DEF-POSSIBLE-CAUSAL-OPPORTUNITY calls it a 'stipulated first obtaining'; the Lean type does not enforce a first-moment reading. An instance of the predicate is not a passage between senses: an argument that supplies BEGINS_2 for it (MetricBeginningArrival.finiteDurationScenario) uses BEGINS_2 throughout, and its premises are separate statements."
+}

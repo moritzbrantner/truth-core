@@ -1,0 +1,11 @@
+{
+  "id": "9bbb4949-0e19-40cf-b302-fa3be87d4bca",
+  "label": "Whatever has the nine is IMMENSE_2, by unfolding the nine",
+  "argument_id": "63ea66fb-9011-4c2f-a8e4-9d1175e4356e",
+  "challenge_module": "TruthCore.Results.Causality.DeiFiliusImmenseIncomprehensible.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DeiFiliusImmenseIncomprehensible.Solution",
+  "theorem": "TruthCore.Results.Causality.DeiFiliusImmenseIncomprehensible.nineAreImmenseAsInfiniteCauseOfAll",
+  "comparator_config": "results/9bbb4949-0e19-40cf-b302-fa3be87d4bca/comparator.json",
+  "status": "solution-present",
+  "description": "Let g have the nine. g is INFINITE_1 (one of the nine). Its supreme goodness includes causing every perfection of every other being, so in particular the being of every other being in act as to being: g is creator of all (contained by definition, not independently derived). Hence g is IMMENSE_2. A definitional unfolding with no premise; the conclusion is IMMENSE_2, not IMMENSE_1."
+}

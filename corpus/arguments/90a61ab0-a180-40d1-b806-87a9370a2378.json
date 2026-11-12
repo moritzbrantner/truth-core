@@ -1,0 +1,20 @@
+{
+  "id": "90a61ab0-a180-40d1-b806-87a9370a2378",
+  "label": "INFINITE_1 is maximally knowable, from maximal act and knowability insofar as in act",
+  "premise_statement_ids": [
+    "af79c4ee-6bd1-4e6c-85b0-734a8b6975c4",
+    "7921f9c8-81f4-4af5-b945-d98787d12f42"
+  ],
+  "conclusion_statement_id": "8ccbf947-098a-416e-b2f5-b2de17761006",
+  "inference_ids": [
+    "9d9c58c7-7797-4cce-aaef-5c4fe2e97b19"
+  ],
+  "meaning": "Let g be INFINITE_1 and b any degree. By the first premise b is at most g's degree of act; by the second, g's degree of act is at most its knowability. Hence b is at most g's knowability, which is therefore maximal. Conditional consequence; both premises stay open.",
+  "definition_ids": [
+    "5b196f1c-210d-450e-b3f1-33e214f9f45d",
+    "1d8890c0-afe2-5cdb-a400-0bbd4b79053d"
+  ],
+  "disambiguation_ids": [
+    "587c53cf-c2a8-51f6-b8c1-013e67756dc6"
+  ]
+}

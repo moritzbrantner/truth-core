@@ -26,8 +26,9 @@ thing is present, and in it every contingent concrete thing comes to be (was
 absent at some earlier moment whenever it is present).
 
 Examples. Discrete time with a first moment, and continuous time with a first
-moment (the standard picture of a universe with a beginning), both give every
-moment a begun past. Continuous time with a first moment does not give a founded
+moment, both give every moment a begun past. Standard FLRW cosmology, whose
+time is open below (the initial singularity is not a moment), gives no moment
+a begun past. Continuous time with a first moment does not give a founded
 past: below any later moment `t` lies the endless descent `t, t/2, t/4, …`
 (checked for non-negative rationals in `Control.Certificate`).
 An endless discrete past and an open-below continuous past (no first moment)

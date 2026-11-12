@@ -1,0 +1,12 @@
+{
+  "id": "aa0f7ebd-252a-4eed-83c9-54f89dfe6e52",
+  "label": "Same-supporter presence strengthens coverage of support of necessary concreta",
+  "subject_kind": "statement",
+  "subject_id": "1f61f12c-2b5c-5871-bf56-03c65844ae30",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "df42581f-5fff-4b5f-8b40-6e16d2b890f2",
+  "verification_result_id": "a2495b44-2d0c-4bf4-8924-333a3c8cf2c9",
+  "strictness_result_id": "38963a9d-3db2-4d60-8b78-949e53693acd",
+  "note": "Same Profile, selected relation and selected world. Presence keeps the very supporter at w for any candidates; coverage asks only for some concrete supporter at w, for concrete supporters and targets. Control.rootedPair satisfies coverage while presence fails."
+}

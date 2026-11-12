@@ -1,0 +1,11 @@
+{
+  "id": "d07a68d0-5ad2-4a7e-b560-b5d1c5a97edb",
+  "label": "The sustaining reading strengthens its restriction to causes of another's being",
+  "subject_kind": "statement",
+  "subject_id": "23e04ae5-98ed-4464-8f9b-dc0dfbad0caa",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "ce55210c-d3b5-4720-bd83-a3f63c5dc884",
+  "verification_result_id": "8e76893e-c095-4145-a8d8-88c966ea6395",
+  "note": "Same history, giving relation and cause of being; the weak version adds the hypothesis that the cause is distinct from its effect. Strict: Control part 5 (a self-cause that gives nothing)."
+}

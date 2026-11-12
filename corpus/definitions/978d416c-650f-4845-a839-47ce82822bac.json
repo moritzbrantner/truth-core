@@ -1,0 +1,9 @@
+{
+ "id": "978d416c-650f-4845-a839-47ce82822bac",
+ "label": "Possibly, some contingent concrete individual is present at some moment",
+ "term": "possibly populated history",
+ "definition": "PossiblyPopulated h Concrete w holds when some history v accessible from w has a moment t at which some contingent concrete individual is present (GrimReaperPatchwork.PopulatedAt h Concrete v t: Concrete x, ContingentAt h.ontic v x and h.IsAt v x t). No beginning, duration, emptiness or cause is mentioned. Example: given actual reflexivity, the actual presence of one contingent concrete thing. Non-example: a frame whose accessible histories contain no contingent concrete thing present at any moment.",
+ "basis": "stipulative",
+ "lean_declaration": "TruthCore.Causality.MetricBeginningArrival.PossiblyPopulated",
+ "note": "Analyst possibility condition, attribution deferred. It is implied by the possibility premises A3 (0cb07f05) and A3 prime b (6dd276f0) as well as by actual contingent presence under actual reflexivity; those implications are not registered as results."
+}

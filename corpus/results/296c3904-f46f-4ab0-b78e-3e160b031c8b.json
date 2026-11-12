@@ -1,0 +1,11 @@
+{
+  "id": "296c3904-f46f-4ab0-b78e-3e160b031c8b",
+  "label": "Coinitial Grim Reaper patchwork gives spaced Grim Reaper patchwork",
+  "argument_id": "a0d2f1b9-c35b-489e-a866-005d8dcb2b11",
+  "challenge_module": "TruthCore.Results.Causality.MetricGrimReaper.Challenge",
+  "solution_module": "TruthCore.Results.Causality.MetricGrimReaper.Solution",
+  "theorem": "TruthCore.Results.Causality.MetricGrimReaper.spacedPatchworkOfCoinitial",
+  "comparator_config": "results/296c3904-f46f-4ab0-b78e-3e160b031c8b/comparator.json",
+  "status": "solution-present",
+  "description": "Strength order (linear time, any real clock): the gluing premise over coinitial populated descents gives it over spaced populated descents. Strictness of this order alone is not checked: control 2 separates only the conjunction (both spaced premises hold for every register frame while the two coinitial premises do not both hold). No premise is established."
+}

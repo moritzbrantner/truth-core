@@ -42,6 +42,47 @@ campaigns are selected methods, not universal prerequisites. This policy
 supersedes older route-cost, bare-premise-first and assent-only floor priorities;
 it changes no proof, source, schema or computed closure rule.
 
+## Argument breadth and cumulative warrant (owner direction, 2026-11-12)
+
+Treat the breadth of relevant propositions, interpretations, argument families,
+and rival accounts as positive research progress when it adds meaningful coverage
+or genuine support options. A proposition can be considered directly on its
+prima facie merits **and** supported conditionally by arguments from other
+propositions. Keep both options visible; adding a derivation must not remove its
+direct-assumption option or be penalized because it introduces further open
+premises, shares dependencies, or raises expanded-route cost. Counts describe
+corpus scale, not philosophical merit; do not repeatedly present growth in
+proposition/argument counts or unchanged frontier totals as a weakness.
+
+Do **not** demand an independent argument for every premise, nor treat reasons
+as worthless once they connect to the same web. Evaluate a proposition's
+available warrant together: prima facie plausibility, direct experience,
+successful inquiry, conceptual or practical preconditions, explicit arguments,
+network coherence, explanatory performance, and substantive defeats of rivals.
+Some commitments are candidate primitives or necessary conditions of the very
+reasoning by which premises are assessed; recording their content, scope and
+defeaters can be an appropriate stopping point without an endlessly prior proof.
+Examine whether support adds discriminating information and whether it begs the
+question; mere mutual implication or a closed proof cycle adds no warrant by
+itself. Shared dependencies must remain visible, but are not a penalty or a
+requirement to find disjoint proof trees.
+
+Distinguish strict self-refutation, epistemic self-undermining, lack of internal
+reasons to adopt a view, and contradiction of necessary inquiry preconditions.
+These are different kinds of comparative evidence: a view failing a substantive
+test loses standing; one surviving a serious test may gain *relative* standing,
+without thereby becoming deductively true. The mere absence of a discovered
+objection is not itself a proof. Do not manufacture hypothetical objections or
+require another argument merely because a proposition is presently primitive.
+
+In progress assessments, lead with what was clarified, connected, supported,
+tested, or compared, including useful breadth and alternative support bundles.
+Use formal establishment, open-leaf counts, independence analysis and route
+cost only for their specific diagnostic questions. Keep overall provisional
+warrant distinct from Lean consequence and the existing computed closure rules;
+this policy changes no schema or proof gate. See the
+[systematic loop](docs/systematic-corpus-loop.md#cumulative-warrant-and-support-options).
+
 ## Fresh subagents for issue work (owner direction, 2026-11-08)
 
 During a workloop, the coordinator delegates each issue or bounded investigation
@@ -240,6 +281,61 @@ for the attempt format and reference boundaries.
 - Ask a focused owner question only when a concrete next action actually requires an exclusive commitment that cannot responsibly be carried as explicit alternatives. An instruction to investigate all options is a complete methodological decision: persist it and proceed without reopening a forced winner question.
 - Example: the whole-series explanation standards of PR #1297 are retained as rival standards; the topic-specific research judgment lives in attempt `a5958e25-0904-46cb-a9e8-62ca5f3f5286`.
 
+## Substantive Objection Standard (owner direction, 2026-11-12)
+
+Do not introduce speculative, nebulous, or merely conceivable
+objections as if they carry evidential weight.
+
+An objection must:
+
+1. Identify a specific premise, inference, or assumption it challenges.
+2. Explain the concrete mechanism by which the argument could fail.
+3. Provide independent justification for that mechanism.
+4. Explain why the objection is relevant to the actual argument.
+5. Distinguish established counterexamples from hypothetical possibilities.
+
+Here "independent justification" means positive support for the proposed
+failure mechanism beyond merely asserting that failure is conceivable or
+restating the desired objection. It does **not** require evidential isolation
+from the rest of the graph or an endlessly prior proof of every supporting
+premise. Apply the same non-question-begging test to supporting arguments.
+
+When claiming that an argument does not generalize, identify the
+specific relevant difference and justify why it matters.
+
+Do not invent contrived alternatives merely to maintain artificial
+balance between competing positions.
+
+The burden of defending an objection rests with its proponent.
+An unspecified possibility of error is not evidence of error.
+
+If no substantive objection is available, say so plainly.
+Do not manufacture uncertainty to fill the gap.
+
+Apply these standards equally to arguments supporting and opposing
+theism, naturalism, and every other worldview.
+
+Application in this repository:
+
+- **Rival tables and attempts.** A recorded rival or objection names its target
+  premise or inference, its mechanism, and the independent justification for that
+  mechanism. A finite countermodel is an established fact about one stated formal
+  interpretation; it shows a premise is needed there, not that the premise is
+  false or doubtful. Do not present it as evidence against the premise without
+  that justification. Where none is available, record "no substantive objection
+  identified" rather than a placeholder rival.
+- **Non-generalization claims.** "This case is special", "this may not extend" or
+  "dropping assumptions may dissolve it" must name the specific difference between
+  the case and the target and say why that difference matters to the inference.
+  Otherwise remove the claim or record it as an unsupported suggestion with no
+  evidential weight.
+- **Boundaries stay.** This standard governs objections. It does not relax proof,
+  binding, source or closure rules: an open premise stays open, and a conditional
+  theorem still establishes only its conclusion under its premises.
+- **Review.** Reviewers apply the standard to objections in a diff exactly as to
+  supporting claims; an objection failing it is a P1 when the diff presents it as
+  evidence.
+
 ## Systematic sense and rival comparison
 
 Use this workflow when a sense/rival comparison is the selected question; it is
@@ -369,7 +465,7 @@ Truth Core retains its purpose: investigate the case for Catholicism and the str
 - **Explore the configuration space.** Compose checked results, seek multiple routes to the same conclusion, minimize sufficient assumption bundles, derive incompatible cores, and construct joint models of surviving branches. Compare changes when consequential commitments are added, removed or reversed. Keep the logic and semantic profile fixed for each comparison, or mark the required bridge.
 - **Classify outcomes precisely.** Record conditional entailment, contradiction under stated assumptions, a model-witnessed alternative, or unresolved search. A failed proof search is not a refutation; an inconsistent background cannot support a nonvacuous victory. An abstract model witnesses only the stated formal interpretation.
 - **Count conditional progress.** A new implication, weaker sufficient premise set, incompatibility, countermodel or distinguished alternative is genuine research progress even when no philosophical premise is independently defended. Report configuration/derivation progress separately from the existing root-frontier closure status; do not silently claim that a conditional theorem establishes a premise or the root as true.
-- **Avoid recursive premise-defense by default.** Investigate independent warrant, source interpretation or real-world applicability when that is the selected research question, when it discriminates serious surviving alternatives, or when an unconditional truth claim is being made. Otherwise keep the assumption open and continue exploring configurations. Do not automatically spawn a new source task for every open primitive.
+- **Avoid recursive premise-defense by default.** Investigate the actual warrant for an assumption, source interpretation or real-world applicability when that is the selected research question, when it discriminates serious surviving alternatives, or when an unconditional truth claim is being made. Such warrant may be prima facie, practice-based, cumulative or inferential; it need not be a disconnected proof tree. Otherwise keep the assumption open and continue exploring configurations. Do not automatically spawn a new source task for every open primitive.
 
 Existing Challenge/Solution boundaries, source fidelity, exact premise reporting, no-smuggling rules, and root-closure criteria remain in force. This direction governs research priorities and the interpretation of progress; it does not declare any particular framework's assumptions true.
 

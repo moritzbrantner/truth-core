@@ -46,6 +46,8 @@ premises = []
 conclusion = "Ancestral attitude exclusion implies direct exclusion"
 rule = "Explicit construction and projection"
 meaning = "Every immediate edge is a nonempty ancestry path. Constitutive-support interpretation remains stipulated."
+description = "Every immediate edge is a nonempty ancestry path. Constitutive-support interpretation remains stipulated. Its Comparator config additionally checks the frozen joint helper calibrationTruth of the same Challenge module (a case-split lemma over MIND_INDEPENDENT_3 or _4, not a registered corpus argument)."
+comparator_theorems = ["calibrationTruth"]
 
 [[argument]]
 id = "Moral intervention and grounding finite comparisons"

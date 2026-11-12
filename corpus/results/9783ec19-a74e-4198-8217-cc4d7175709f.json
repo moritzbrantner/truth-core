@@ -1,0 +1,11 @@
+{
+  "id": "9783ec19-a74e-4198-8217-cc4d7175709f",
+  "label": "The esse-cause bridge from existent concreteness, via dependence",
+  "argument_id": "f501bad3-8bd1-4b6a-b834-930f279ef080",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.CauseOfBeingHasBeing.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.CauseOfBeingHasBeing.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.CauseOfBeingHasBeing.esseCauseGroundOfExistentConcreteness",
+  "comparator_config": "results/9783ec19-a74e-4198-8217-cc4d7175709f/comparator.json",
+  "status": "solution-present",
+  "description": "Second derivation of the esse-cause bridge, beside Round2Grounding.esseCauseGroundViaDependence. Let c, distinct from x, cause the being of the actual concretum x. c exists at w; every existent at w is concrete, so c is concrete; x depends for its being on c; dependence between actual concreta is grounding, so c grounds x. It replaces the unscoped leaf STMT-ESSE-CAUSES-ARE-CONCRETE by the concreteness of existents, which is derived from the existence-to-act contract (already a premise of the stage-two composition) and the CONCRETE_6 calibration. Each premise is needed in a checked interpretation (controls 6 to 9). Conditional consequence only; no premise is established."
+}

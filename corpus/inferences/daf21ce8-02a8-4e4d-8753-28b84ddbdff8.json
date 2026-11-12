@@ -1,0 +1,13 @@
+{
+  "id": "daf21ce8-02a8-4e4d-8753-28b84ddbdff8",
+  "label": "No mutual necessary support, from rigid ascent in esse and no infinite ascent (inference)",
+  "input_statement_ids": [
+    "40ce286d-b26d-4773-8a92-0a68da477414",
+    "78945dde-2e6b-4e40-9383-ecb615208930"
+  ],
+  "output_statement_id": "47a34ac9-5496-43de-a9ac-61f688790148",
+  "rule": "Composition of unionWFOfAscent with the existing mutualSupport_excludes",
+  "meaning": "Prices the mutual-support rival of J2 by a different premise from no-novel-edge: if support between necessary concreta, at any admitted world, ascends one rigid comparative with no infinite ascent, two necessary concreta cannot support each other at two worlds, since each would be more in esse than the other. A holder of the rival must deny that support between necessary beings tracks one world-invariant grade of being with no infinite ascent. A conditional exclusion; neither the premises nor the rival is established or refuted.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

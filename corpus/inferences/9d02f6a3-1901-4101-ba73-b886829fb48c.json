@@ -1,0 +1,12 @@
+{
+  "id": "9d02f6a3-1901-4101-ba73-b886829fb48c",
+  "label": "Every intellectual PURE_ACT_5 being operates, from every POTENCY_1-free being operating (inference)",
+  "input_statement_ids": [
+    "45030701-91da-588f-b602-dca6c15e761a"
+  ],
+  "output_statement_id": "e9d4901f-a71e-47a5-9c01-df842ccc76e5",
+  "rule": "Weakening the antecedent of a universal premise by an added condition (intellect)",
+  "meaning": "Strength order registration: if every pure act operates, every pure act with intellect operates. Projection only; it establishes neither version.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

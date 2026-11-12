@@ -1,0 +1,25 @@
+{
+  "id": "3ce3b9c0-d8c7-43a4-b14c-1ff7adb16dfa",
+  "label": "Off-world contingent support and late support controls, checked",
+  "argument_id": "73c22885-9f4d-47b5-863d-8cbff46e3198",
+  "challenge_module": "TruthCore.Results.Causality.NecessarySupportActualScope.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessarySupportActualScope.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessarySupportActualScope.controls",
+  "comparator_config": "results/3ce3b9c0-d8c7-43a4-b14c-1ff7adb16dfa/comparator.json",
+  "status": "solution-present",
+  "description": "Controls for the world scope of J1. Off-world contingent support witnesses that J1 is strictly stronger than its selected-world instance, and that the recorded replaceable-support rival (contingent support of a necessary concretum at some admitted world) is compatible with the instance, with every premise of the new coverage route and with the join's endpoint. Late support shows that the instance cannot replace J1 in NecessaryConcreteUnderived.checks, in NecessaryConcreteUnderivedFromNecessity.underived or in coverageOfNoContingentNoNovel: with the instance in place of J1 all their other premises hold, while J1, coverage and the endpoint fail. Model-witnessed only; no interpretation is claimed metaphysically possible. Excluded middle is supplied by Lean's classical axioms.",
+  "research_comparisons": [
+    {
+      "target_statement_id": "84751fc2-0179-49ce-b96a-04d95781d8bc",
+      "rival_statement_id": "501d1915-8f2a-461c-970e-ef2f68e57968",
+      "sense_definition_id": "bfe1f490-ad43-4edb-b9c2-6b64e4b6d1f5",
+      "outcome": "model-witnessed",
+      "conditions": "Control.offWorldContingent at world false: the selected-world instance of J1, the rival SomeNecessaryConcretumContingentlySupported, a necessary concretum, ActualGroundingWF, coverage and excluded middle hold; J1 fails; NecessaryConcreteUnderivedAt holds.",
+      "scope": "Same Profile, selected relation and selected world as J1 and the rival; two mutually accessible worlds, three concrete candidates.",
+      "coverage": "One explicitly populated interpretation; it shows compatibility of the rival as recorded (contingent support at some admitted world) with the weakened premise, not survival of either.",
+      "exclusivity": "The rival implies the negation of J1 (existing SpineRivalsRootEsse result); it conflicts with the selected-world instance only in its actual-world form, a contingent concretum supporting a necessary concretum at w itself.",
+      "witness": "Control.offWorldContingent in Control.OffWorldContingentControl; controls proves the listed conjuncts.",
+      "next_step": "Assess the actual-world form of the replaceable-support rival: it needs a concrete necessary whole actually sustained by constituents that might not have existed, with a defended identity criterion (docs/notes/underived-essence-identity.md, Replaceable support). No independent justification for it, and no independent warrant for the selected-world instance, is recorded."
+    }
+  ]
+}

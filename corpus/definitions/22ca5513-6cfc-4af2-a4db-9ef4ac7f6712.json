@@ -1,0 +1,9 @@
+{
+ "id": "22ca5513-6cfc-4af2-a4db-9ef4ac7f6712",
+ "label": "Founded populated pasts in every accessible history",
+ "term": "founded populated past",
+ "definition": "PopulatedPastsFounded h Concrete w holds when, in every history v accessible from w, every moment t at which some contingent concrete individual is present has a founded past: Acc of the strict order at t, so no strictly descending sequence of moments lies below t. In ordinary language: wherever a contingent thing is present in a possible history, the moments before it cannot be descended without end. A history with natural-number times satisfies it. A history with integer times and a contingent thing present at some moment does not. Nor does a history with dense time, even one with a first moment, if a contingent thing is present at any later moment: below a positive rational time t lie t/2, t/4, and so on. Histories in which no contingent concrete thing is ever present are unconstrained.",
+ "basis": "stipulative",
+ "lean_declaration": "TruthCore.Causality.ComingToBeHorns.PopulatedPastsFounded",
+ "note": "Analyst framework definition; attribution deferred. It denies horn H2 (a non-well-founded populated past) for every accessible history with a contingent concrete thing present at some moment. H2 includes both an endless past and a dense past with a first moment, so this premise carries an anti-continuum commitment: no possible history has a contingent concrete thing present at a non-initial moment of dense (for example rational or real) time (ComingToBeHorns control 8). The founded-past condition of A3 prime (FoundedComingToBeAt) has the same feature. A founded past is not a metric finitude claim. Moving foundedness to discrete events or states instead of moments is an untested alternative. Whether every possible populated past is founded remains OPEN. It is derived here from state-causal finitism with the precedence bridge; the Reaper assembly bridge only reformulates it."
+}

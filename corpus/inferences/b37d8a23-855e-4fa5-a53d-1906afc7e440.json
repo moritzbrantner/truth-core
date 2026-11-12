@@ -1,0 +1,13 @@
+{
+  "id": "b37d8a23-855e-4fa5-a53d-1906afc7e440",
+  "label": "A cause of being has being, from agency in act (inference)",
+  "input_statement_ids": [
+    "ef068f46-6d3f-4a7a-b1b9-36e52d9fe867",
+    "7067553d-cad9-5d79-b6b2-912e35051530"
+  ],
+  "output_statement_id": "4ccb319f-9b7e-41fd-a560-d4affa25816b",
+  "rule": "Agency in some respect, then act in any respect implies act as to being",
+  "meaning": "A cause of being is in act in some respect (agency in act, after q.75 a.2); whatever is in act in some respect is in act as to being (q.4 a.1 ad 3, sourced); so a cause of being is in act as to being. This reaches the esse rung of 'nothing gives what it does not have' with no transfer principle; it does not rest on preexistence, so a strong-emergence rival extended to esse must deny agency in act or q.4 a.1 ad 3. The scope objections to the unrestricted principle (instruments of making) do not bear on it directly. Each premise is needed in a checked interpretation (controls 10 and 11). No premise is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

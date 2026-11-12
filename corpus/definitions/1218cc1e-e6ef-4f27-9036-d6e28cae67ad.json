@@ -1,0 +1,9 @@
+{
+  "id": "1218cc1e-e6ef-4f27-9036-d6e28cae67ad",
+  "label": "COMPREHEND_2: knowing a being at a degree that reaches its degree of knowability",
+  "term": "comprehend (comprehendere by measure, ST I q.12 a.7; Lean `ComprehensionByMeasure.ComprehendsByMeasure`)",
+  "definition": "ComprehendsByMeasure M x y: for some degree d, x knows y at d (KnowsAt x y d) and y's knowability is at most d (definition 5b196f1c). Defined from the primitive measures, not primitive. After ST I q.12 a.7: to comprehend is to know a thing perfectly, that is, as much as it is knowable. Example: a mathematician who knows a theorem by its demonstration (degree of knowing reaching the theorem's knowability). Counterexample: one who knows truly that the theorem holds, on authority, at a degree below its knowability, knows it without comprehending it; likewise the blessed attain God without comprehending him (q.12 a.7 ad 1). Distinguished from knowing y at all (some KnowsAt x y d), from knowing everything about y, and from COMPREHEND_1, the primitive Comprehension.Comprehends (definition 4afe4ab4).",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.ComprehensionByMeasure.ComprehendsByMeasure",
+  "note": "Analyst definition, attribution deferred (q.12 a.7 motivates it; no claim states it). Sibling of COMPREHEND_1 (disambiguation e151d506). Structural properties: not assumed reflexive or transitive; under the four premises of ComprehensionByMeasure, if x COMPREHEND_2s y then y's degree of act is at most x's (actDegree y <= knowability y <= d <= actDegree x), so nothing COMPREHEND_2s what is more in act than itself. An INFINITE_1 being may COMPREHEND_2 itself (Control part 1)."
+}

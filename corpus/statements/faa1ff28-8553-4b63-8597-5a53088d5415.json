@@ -1,0 +1,12 @@
+{
+  "id": "faa1ff28-8553-4b63-8597-5a53088d5415",
+  "label": "Possibly, some contingent thing is present at some moment",
+  "paraphrase": "OPEN analyst possibility premise, attribution deferred: some history accessible from the selected world has a moment at which some contingent concrete individual is present. No beginning, duration, emptiness or cause is mentioned. It is implied, among others, by actual contingent presence under actual reflexivity and by the possibility premises A3 and A3 prime b; those implications are not registered here. 'Concrete' is the supplied Concrete parameter; the Lean type does not enforce the esse reading.",
+  "lean_declaration": "TruthCore.Causality.MetricBeginningArrival.PossiblyPopulated",
+  "definition_ids": [
+    "978d416c-650f-4845-a839-47ce82822bac",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e",
+    "008cb21a-256c-5a90-822c-acd4591d699a"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "9de79a41-ec67-44a8-9729-de862c1c5f66",
+  "label": "Underived necessary concretum, from necessity, no contingent support and coverage",
+  "premise_statement_ids": [
+    "b19ffd92-01bd-5c0b-9643-e7407137ea5e",
+    "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21",
+    "dd41c165-129a-59d3-84ce-bd13c0944901",
+    "df42581f-5fff-4b5f-8b40-6e16d2b890f2",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
+  ],
+  "conclusion_statement_id": "0bdcf366-29c7-5d45-b603-5c929dcad976",
+  "inference_ids": [
+    "210fb796-ae8b-4b45-bf3b-a8639af8cb54"
+  ],
+  "meaning": "An alternative to the stage-one join NecessaryConcreteUnderivedFromNecessity.underived that replaces reflexive access and J2 (well-founded cross-world union) by well-founded actual grounding at w and coverage. From a necessary concretum, descend actual grounding among concreta existing at w and necessary from w: a supporter of such a concretum at any admitted world gives, by coverage, a concrete supporter existing at w, which J1 (used only at w) makes necessary, so a minimal one has no existing concrete supporter at any admitted world. The witness may differ from the given necessary concretum. Conditional consequence only; no premise is established.",
+  "definition_ids": [
+    "7266f604-f0bc-4aac-89b9-0f4cc7be5f33",
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "58fee8ed-9b44-5399-95c8-5d239bea898d",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "9146789d-5b36-572f-baa1-7eef28967793",
+    "d8e2ed12-8089-5202-ae51-e807cf611c76",
+    "1b8baf77-84fa-5513-a138-7fa14840dd87",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "75c193e1-bab0-5ec2-890b-9ff608b05aa7",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "baddf770-36bf-542f-bb3c-2297342d5452",
+    "47033c70-0aca-565d-9473-8399577fea54",
+    "7ac7fea6-5b3a-5e97-b687-c76569c58429",
+    "b242943a-34cc-582d-8c38-c1203b9d2c91"
+  ],
+  "disambiguation_ids": [
+    "6e92c6e3-edf0-5d7e-b2b3-788b24b8b768",
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "5d15d8f2-1080-53c9-886f-cee2a4ff23a9",
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "b9adce48-6b86-5f58-b2ea-b25f51c70cbd",
+    "c529e8d3-43e3-53a8-a82f-3955e9815265",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
+  ],
+  "sense_bridges": [
+    {
+      "term": "NECESSARY",
+      "from": "8c881fa6-2b9f-44be-a32a-c8ef29c13643",
+      "to": "7af298fb-a2c4-4239-919b-7685f2e1f67a",
+      "statement_id": "b19ffd92-01bd-5c0b-9643-e7407137ea5e"
+    },
+    {
+      "term": "WORLD_RELATIVE_EXISTENCE_METAPHYSICAL_ESSE_NECESSITY",
+      "from": "2e064a7b-b29f-4f0b-8978-782674012d86",
+      "to": "57356a7a-ed0a-478f-abfc-2d47dd631135",
+      "statement_id": "df42581f-5fff-4b5f-8b40-6e16d2b890f2"
+    },
+    {
+      "term": "WELL_FOUNDEDNESS_AND_ANTI_BRUTE_ROOT",
+      "from": "9232f675-db0a-474c-9f00-d8e5aba69ef7",
+      "to": "556515c9-1fcc-4ea0-b85d-2a4cad7eff79",
+      "statement_id": "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21"
+    },
+    {
+      "term": "WELL_FOUNDEDNESS_OF_THE_SELECTED_RELATION",
+      "from": "2f42c0e7-46ae-4e2b-9ac4-95dcb865da61",
+      "to": "f4609d52-a878-4d09-9af3-083b1945770c",
+      "statement_id": "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21"
+    },
+    {
+      "term": "NONNECESSARY_VERSUS_CONTINGENT_ROOT",
+      "from": "cf6a8bb9-2a70-4e90-86bd-06f69106da2f",
+      "to": "9f9108e2-3cc3-45dd-be1d-d8fdaaced708",
+      "statement_id": "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21"
+    }
+  ],
+  "strong_version_needed": {
+    "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21": "Not needed for this endpoint. This interface is retained for comparison with its original proof path; the weak version, the closed-collection condition (registered strengthens, strict by ClosedGroundingRoots Control.limitGrounder), suffices: ClosedGroundingRoots.underivedFromNecessityOfCoverageClosed proves the same endpoint from the same premises with it in place of well-founded actual grounding. That reduction establishes none of the remaining premises."
+  }
+}

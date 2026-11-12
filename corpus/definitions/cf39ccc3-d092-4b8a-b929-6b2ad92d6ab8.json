@@ -1,0 +1,9 @@
+{
+ "id": "cf39ccc3-d092-4b8a-b929-6b2ad92d6ab8",
+ "label": "CLOCK_1: the physically privileged duration, cosmic or proper time",
+ "term": "privileged clock",
+ "definition": "CLOCK_1, the physically privileged duration. A PrivilegedClock is a real time coordinate (a TimeClock) declared to measure the intrinsic duration of processes in the frame: cosmic time in an FLRW model (proper time along comoving worldlines), Newtonian absolute time, or more generally proper time along the worldlines on which the relevant stations would sit. In ordinary language: how much time really elapses, as an ideal clock carried along would record it. Examples: in standard FLRW cosmology the cosmic time since the initial singularity is finite. Non-examples: arctan of that time, or Misner's logarithmic time ln t, which are order-preserving coordinates but not this duration.",
+ "basis": "stipulative",
+ "lean_declaration": "TruthCore.Causality.MetricGrimReaper.PrivilegedClock",
+ "note": "Analyst framework definition, explicitly primitive; attribution deferred. Lean encodes only the coordinate: PrivilegedClock wraps a TimeClock, and its privilege is an OPEN commitment that nothing constrains. Reason offered for privileging it in the metric Reaper: the spaced premises are meant to instantiate recombination of duplicates of one possible station patch, room permitting, and a duplicate preserves intrinsic duration, which is proper time. Whether proper time is the duration relevant to the possibility of infinitely many events near a singularity is disputed (Misner-style logarithmic time; recorded as a lead in the metric Reaper audit)."
+}

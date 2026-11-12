@@ -1,0 +1,11 @@
+{
+  "id": "07f546df-953c-4fd9-be08-2a1f1da84c4d",
+  "label": "What is caused by another is not INFINITE_1, from reception limitation",
+  "argument_id": "2a388160-73ff-4709-b9a5-5e4a7956303b",
+  "challenge_module": "TruthCore.Results.Causality.DeiFiliusUnifiedRoute.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DeiFiliusUnifiedRoute.Solution",
+  "theorem": "TruthCore.Results.Causality.DeiFiliusUnifiedRoute.causedIsNotInfiniteFromReception",
+  "comparator_config": "results/07f546df-953c-4fd9-be08-2a1f1da84c4d/comparator.json",
+  "status": "solution-present",
+  "description": "Let x have its being caused by some c other than x. By the first premise x's esse is received in some principle z; by the second its esse is limited; by the third an INFINITE_1 being's esse is not limited, so x is not INFINITE_1. The step from having an external cause of esse to having received esse (kept apart in DISAMB-ESSE-RECEPTION) is the one explicit bridge premise, not an identification of the two senses, and this derivation does not pass through Creature. An earlier draft of #1494 chained STMT-CAUSED-IN-BEING-BY-ANOTHER-IS-CREATURE and STMT-CREATURE-ESSE-IS-RECEIVED through one untyped Creature predicate and equivocated; since the CREATURE disambiguation (c49de1e9-c34f-424f-b144-b80c885974ca, specs/creature-senses.toml) that chain is sense-consistent, and the bridge is itself derived (causedEsseIsReceivedThroughCreature1) from the CREATURE_2 to CREATURE_1 sense bridge, derived from the proved Fourth-Way consequence STMT-MAXIMAL-CAUSE-WITHOUT-DISTINCT-ESSE-CAUSE and a weak premise, and from the q.7 a.2 reading at CREATURE_1. The scope condition of the conclusion binds the first premise in the same way (definition 80dea550). Conditional consequence; the bridge is closed by that derivation and the other two premises stay open (supported by q.7 a.1-2 readings); none is established."
+}
