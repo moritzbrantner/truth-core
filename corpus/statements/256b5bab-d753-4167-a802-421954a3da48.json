@@ -1,0 +1,15 @@
+{
+  "id": "256b5bab-d753-4167-a802-421954a3da48",
+  "label": "If BEGINS_2 is possible, possibly with a being outside the contingents (supplied clock and cause)",
+  "paraphrase": "OPEN analyst premise B2 in sense BEGINS_2, attribution deferred: if some history accessible from the selected world is a BEGINS_2 history (the time before every populated moment is of finite duration on the supplied clock) with a contingent concrete individual existing there, then some accessible history is a BEGINS_2 history with a contingent concrete individual and an existing concrete individual, numerically distinct from every contingent concrete individual there, that stands in the supplied totality-cause relation there. That relation is an unconstrained parameter, not Ontic.Causes between individuals: nothing in the type makes it causal, and the premise for any relation implies it for the relation that always holds (trivialCauseOpportunity), which is all the arrival uses. So its content, given B1 in the same sense, is that possibly a BEGINS_2 history contains an existing concrete individual outside the contingent totality; under rigid identity and classical accessibility that individual is necessary in its history (ExternalCandidateNecessity), so the premise contains the possibility of a necessary concrete individual, close to stipulating the target's possibility. Nothing requires that individual to be earlier than anything or present at any moment. Duration is read on the supplied clock, CLOCK_1 intended. 'Concrete' is the supplied Concrete parameter.",
+  "lean_declaration": "TruthCore.Causality.MetricBeginningArrival.FiniteDurationCausalOpportunity",
+  "definition_ids": [
+    "77254d4d-c318-40a3-b2a1-5c922632f011",
+    "1972f626-2de1-4d89-b1d0-46645eabe884",
+    "cc57aee5-58b7-531d-bcd6-60105efe5c79",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "375676b0-a295-4a17-a9e4-3db23319d517",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e"
+  ]
+}

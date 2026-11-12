@@ -1,0 +1,47 @@
+{
+  "id": "ea5a729c-60d5-4eea-ba93-6b04d7605545",
+  "label": "Stage-one conclusion from B1 and B2 in sense BEGINS_2",
+  "premise_statement_ids": [
+    "1b1462e6-c285-448c-87e2-3053bc05a341",
+    "2b20b5af-d653-56ba-8001-35903fb3d1ea",
+    "951a2235-14e5-432e-8365-0efce1b8659d",
+    "256b5bab-d753-4167-a802-421954a3da48"
+  ],
+  "conclusion_statement_id": "b19ffd92-01bd-5c0b-9643-e7407137ea5e",
+  "inference_ids": [
+    "bbd6509e-9b1f-48ee-8ea0-73547773f74f"
+  ],
+  "meaning": "Instantiation of the verified Arrival B (ActualEuclidean.externalNecessaryConcrete, Euclidean access at the selected world only) at the Scenario built from the history with beginning predicate BEGINS_2; the Scenario's concrete individual necessary at w is the conclusion's, with the profile's grounding relation an arbitrary parameter. A BEGINS_2 history with a contingent concrete individual present satisfies the Scenario's beginning predicate; the opportunity premise gives an accessible history with an existing concrete individual outside the contingent totality (standing in the supplied, unconstrained totality-cause relation, which does no logical work), necessary there by ExternalCandidateNecessity, and carried to w by Euclidean access and reflexivity at w. It puts Arrival B in a definite sense on the route to STMT-NECESSARY-CONCRETE-AT, with B1 in that sense derivable from the metric Grim Reaper. B2 in sense BEGINS_2 does the decisive work: with B1 it already gives the possibility of a necessary concrete individual (possiblyNecessaryOfFiniteDurationOpportunity), and the Reaper premises with B1 do not reach the conclusion without it (control 2). All four premises are OPEN; no premise truth, uniqueness, causal role at w or divine attribute is established.",
+  "definition_ids": [
+    "1972f626-2de1-4d89-b1d0-46645eabe884",
+    "375676b0-a295-4a17-a9e4-3db23319d517",
+    "5f4f8c56-51f8-43e2-8862-6e3152609c3c",
+    "77254d4d-c318-40a3-b2a1-5c922632f011",
+    "7c05f92b-907d-4c9b-b219-fc4054c9912b",
+    "735d59a6-61de-5e43-bcf6-4ff64bceb90d",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "cc57aee5-58b7-531d-bcd6-60105efe5c79",
+    "1b8baf77-84fa-5513-a138-7fa14840dd87",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "baddf770-36bf-542f-bb3c-2297342d5452",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e"
+  ],
+  "disambiguation_ids": [
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "dc40914a-48c9-48a2-941e-40b96d847a71",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
+  ],
+  "sense_bridges": [
+    {
+      "term": "NECESSARY",
+      "from": "8c881fa6-2b9f-44be-a32a-c8ef29c13643",
+      "to": "7af298fb-a2c4-4239-919b-7685f2e1f67a",
+      "statement_id": "b19ffd92-01bd-5c0b-9643-e7407137ea5e",
+      "role": "conclusion"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+ "id": "77254d4d-c318-40a3-b2a1-5c922632f011",
+ "label": "Causal opportunity for a finite-duration beginning of contingent concrete reality",
+ "term": "causal opportunity for a finite-duration beginning",
+ "definition": "FiniteDurationCausalOpportunity h Concrete k causes w is CausalOpportunityAt of the Scenario finiteDurationScenario h Concrete k causes, whose ontic and concreteness are those of the history and whose beginning predicate is BEGINS_2 (FiniteDurationBeginningAt h Concrete k). It says: if some history accessible from w began a finite time ago (with a contingent concrete individual existing there), then some accessible history v began a finite time ago, has a contingent concrete individual, and has an existing concrete individual c, numerically distinct from every contingent concrete individual of v, with causes v c. The totality-cause relation causes is a supplied parameter, not Ontic.Causes between individuals; nothing requires c to be temporally earlier than anything or present at any moment.",
+ "basis": "stipulative",
+ "lean_declaration": "TruthCore.Causality.MetricBeginningArrival.FiniteDurationCausalOpportunity",
+ "note": "Analyst instance of DEF-POSSIBLE-CAUSAL-OPPORTUNITY in sense BEGINS_2; attribution deferred. By ExternalCandidateNecessity the external candidate is necessary at v (possiblyNecessaryOfFiniteDurationOpportunity), so together with B1 in sense BEGINS_2 it contains the possibility of a necessary concrete individual, whatever the causes relation."
+}
