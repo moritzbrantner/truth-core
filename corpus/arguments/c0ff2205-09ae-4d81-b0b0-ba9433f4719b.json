@@ -1,0 +1,33 @@
+{
+  "id": "c0ff2205-09ae-4d81-b0b0-ba9433f4719b",
+  "label": "No non-INFINITE_1 intellect comprehends an INFINITE_1 being, via COMPREHEND_2",
+  "premise_statement_ids": [
+    "231820b4-2085-4435-a9bb-639db0ba0007",
+    "76997ac8-6d14-4e62-af85-eb648fc83861"
+  ],
+  "conclusion_statement_id": "bbac932e-033c-4008-92ce-176f94e3e039",
+  "inference_ids": [
+    "17969990-4f67-4b30-a6d2-c69425269058"
+  ],
+  "meaning": "Let g be INFINITE_1 and x an intellect that is not INFINITE_1. If x stood in the primitive comprehension relation (COMPREHEND_1) to g, then by the sense bridge x would COMPREHEND_2 g, which the first premise excludes. Hence x does not COMPREHEND_1 g: the bridge 'No intellect that is not INFINITE_1 comprehends an INFINITE_1 being' (bbac932e). The senses are not identified; the only passage is the listed sense bridge. Conditional consequence; the sense bridge stays open, and the first premise is derived from four open premises.",
+  "definition_ids": [
+    "1218cc1e-e6ef-4f27-9036-d6e28cae67ad",
+    "4afe4ab4-f8cc-4120-b284-f1f0140e76c1",
+    "5b196f1c-210d-450e-b3f1-33e214f9f45d",
+    "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4",
+    "1d8890c0-afe2-5cdb-a400-0bbd4b79053d"
+  ],
+  "disambiguation_ids": [
+    "587c53cf-c2a8-51f6-b8c1-013e67756dc6",
+    "c0fda0ee-3508-5101-94ba-043e3eb28b0e",
+    "e151d506-c074-4e5d-a0f9-e9c51f1a73d7"
+  ],
+  "sense_bridges": [
+    {
+      "term": "COMPREHEND",
+      "from": "54438bd2-9c69-480b-94ce-889370211279",
+      "to": "0b0402f3-e7f2-4790-95e2-72a025a0ac38",
+      "statement_id": "76997ac8-6d14-4e62-af85-eb648fc83861"
+    }
+  ]
+}

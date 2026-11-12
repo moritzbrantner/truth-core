@@ -1,0 +1,13 @@
+{
+  "id": "17969990-4f67-4b30-a6d2-c69425269058",
+  "label": "No non-INFINITE_1 intellect comprehends an INFINITE_1 being, via COMPREHEND_2 (inference)",
+  "input_statement_ids": [
+    "231820b4-2085-4435-a9bb-639db0ba0007",
+    "76997ac8-6d14-4e62-af85-eb648fc83861"
+  ],
+  "output_statement_id": "bbac932e-033c-4008-92ce-176f94e3e039",
+  "rule": "Contraposition through the sense bridge",
+  "meaning": "Let g be INFINITE_1 and x an intellect that is not INFINITE_1. If x stood in the primitive comprehension relation (COMPREHEND_1) to g, then by the sense bridge x would COMPREHEND_2 g, which the first premise excludes. Hence x does not COMPREHEND_1 g: the bridge 'No intellect that is not INFINITE_1 comprehends an INFINITE_1 being' (bbac932e). The senses are not identified; the only passage is the listed sense bridge. Conditional consequence; the sense bridge stays open, and the first premise is derived from four open premises.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

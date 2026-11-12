@@ -1,0 +1,10 @@
+{
+  "id": "efb5baf1-ad42-4fee-8e9f-0f3aa6a01e23",
+  "label": "Controls for comprehension by degrees of act, knowability and knowing, checked (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "505a81bb-bbc7-4787-9974-ed6079b5f7ff",
+  "rule": "Explicit two-being interpretations on the degree scale Bool, checked by case analysis; the scale-commitment part by Mathlib exists_gt",
+  "meaning": "Nonvacuity: all premises and the sense bridge hold together with the bridge bbac932e, an INFINITE_1 being comprehends itself in both senses, and a finite intellect COMPREHEND_2s a finite being. Each of the four premises is needed: omitting it, the other three hold and a non-INFINITE_1 intellect COMPREHEND_2s the INFINITE_1 being. The sense bridge is needed (the COMPREHEND_2 bridge holds while the COMPREHEND_1 bridge fails), and its converse is not assumed (sense mixing fails without it). On a scale with no maximum, 'Whatever is INFINITE_1 has a maximal degree of act' entails that nothing is INFINITE_1. A finite countermodel shows a premise is needed in that interpretation, not that it is false.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
