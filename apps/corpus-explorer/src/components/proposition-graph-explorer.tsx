@@ -399,6 +399,12 @@ export function PropositionGraphExplorer({
         source: edge.source,
         target: edge.target,
         type: compact || research ? "straight" : "smoothstep",
+        // Edges carry no action: the dots are the focusable, described elements.
+        // Without the 20px hit path and a tab stop per edge, a mount of the
+        // global map creates one SVG element per edge fewer (#1377).
+        focusable: false,
+        selectable: false,
+        interactionWidth: 0,
         label: compact ? undefined : edge.label,
         style: {
           ...edgeStyle[edge.kind],
@@ -919,6 +925,7 @@ export function PropositionGraphExplorer({
               onNodeMouseEnter={state.view === "local" && compact ? (_event, node) => setHoveredId(node.id) : undefined}
               onNodeMouseLeave={state.view === "local" && compact ? () => setHoveredId("") : undefined}
               onlyRenderVisibleElements
+              edgesFocusable={false}
             >
               <SelectionLocator state={state} compact={compact} />
               <Controls showInteractive={false} />
@@ -928,7 +935,7 @@ export function PropositionGraphExplorer({
         </div>
         <div className="frontier-sidebar">
           {state.sel ? <DetailPanel graph={graph} index={index} state={state} update={update} network={network} /> : null}
-          <ResearchQueue items={queue} selected={activeObligation} state={state} select={selectObligation} update={update} />
+          <ResearchQueue items={queue} selected={activeObligation} state={state} select={selectObligation} update={update} keep={lemmaObligation ? [lemmaObligation.id] : []} />
         </div>
       </div>
       <ProofExplorationControls graph={graph} target={proofTarget} state={state} start={(next) => update(next)} hide={() => update({ explore: false })} />

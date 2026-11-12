@@ -1,0 +1,21 @@
+{
+  "id": "feb28c90-3efc-4dda-9c1e-5c1480ea1112",
+  "label": "Closed grounding collections rooted, from attenuated per se reception of esse",
+  "premise_statement_ids": [
+    "f3158145-f376-4790-ac0f-5ebb9b8522a1"
+  ],
+  "conclusion_statement_id": "aca3baa1-9be6-4720-a53d-22050e638561",
+  "inference_ids": [
+    "55c3e5e3-9fad-48a0-877a-007201a91db2"
+  ],
+  "meaning": "A per se argument for the closed-collection condition that can fail: if being is received only along actual grounding, each reception passes on at most a fixed fraction q < 1, all amounts share a common bound, every actual concretum has positive being and only roots have being of their own, then every ground-closed collection is rooted. The network analogues binaryFixed and halfFixed show that the weighted-network theorem fails without uniform loss or without the bound; no Profile-level control is given. Uses Mathlib real analysis; conditional consequence only, with no calibration of the quantities.",
+  "definition_ids": [
+    "14e3be39-e587-4d9a-a48e-c48885ecd260",
+    "38b9012a-472b-4544-a271-16d22b25c9ac",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
+  ],
+  "disambiguation_ids": [
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
+  ]
+}
