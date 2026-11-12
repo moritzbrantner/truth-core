@@ -950,7 +950,8 @@ that `STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES` and
 carried the same unflagged equivocation, is now sense-consistent. The bridge is
 derived (`causedInBeingByAnotherIsCreature1`) from the proved Fourth-Way
 consequence `STMT-MAXIMAL-CAUSE-WITHOUT-DISTINCT-ESSE-CAUSE` and one
-near-analytic weak premise `2f2f5bd2`. That consequence says that a maximum in
+weak premise `2f2f5bd2`, near-analytic under the atemporal reading of the cause of
+being. That consequence says that a maximum in
 being causes the being of every other being in act and has no distinct cause of
 its being. The weak premise says that whatever has its being caused is in act
 as to being, and it is the esse version of
@@ -959,14 +960,24 @@ as to being, and it is the esse version of
 at CREATURE_1, the scope of things made by God. This is not a mere re-split. The
 generalization from what God causes to whatever is caused in being now rests on
 the universal causation of being that the Fourth Way already asserts on the root
-routes. The open q.7 a.2 reading carries only reception. Computed against
-`78e5ed2e`: `b7d4eede` and `da72ae93` move from bare to closed (not
-established), `2f2f5bd2` is added bare, and open premises reaching the root fall
-from 464 to 463. Existential inertia targets sustaining causation of being,
+routes. The open q.7 a.2 reading `29e71e43` still carries two things: reception
+itself, and the generalization from a subsistent created form (what q.7 a.2
+speaks of) to every CREATURE_1. Computed against `78e5ed2e`: `b7d4eede` and
+`da72ae93` move from bare to closed (not established), `2f2f5bd2` is added bare,
+and open premises reaching the root fall from 464 to 463. `0e242e29` itself
+newly reaches the root through this route; its own premises already did.
+`STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES`, read at CREATURE_1, now carries the
+existence of a universal cause of being. That is close to the conclusion of the
+attribution genus-principle argument that uses it, a warrant burden on that
+premise rather than a proof gap. The three Creature-parametric statements are
+kept apart from CREATURE_2 by their records, not by the kernel. Bind-check
+matches by head constant, and the disambiguation records this gap. Existential inertia targets sustaining causation of being,
 which `#1493` types as CAUSE_OF_BEING_2. The step here uses the atemporal cause
 of being and no persistence claim. The esse-essence tradition of Scotus, Ockham
-and Suárez is an unread lead. It would now target only the q.7 a.2 reading, and
-only on a really-distinct reading of the receiving principle. Joint satisfiability is no
+and Suárez is an unread lead. It would now target the reception premises, the
+q.7 a.2 reading `29e71e43` and the reception-limitation premise `7de89edb`, not
+the sense bridge. It would do so only on a really-distinct reading of the
+receiving principle. Joint satisfiability is no
 longer unresolved for these two routes. A two-being model satisfies the whole
 sufficiency bundle and every open leaf under its nine-statements; its being with
 the nine is a cause of the being of a composite, potential, caused intellect, and

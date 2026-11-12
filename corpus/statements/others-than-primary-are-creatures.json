@@ -4,8 +4,11 @@
   "legacy_id": "STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES",
   "paraphrase": "Everything other than the primary is a creature.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.OthersAreCreaturesReading",
-  "note": "Open premise with no attributing claim. ST I q.13 a.5 co. (AQUINAS-ST-I-Q13-A5-ORDO-AD-CAUSAM-A) speaks of the order of creatures to God; it does not say that everything other than God is a creature. It is load-bearing in QUARTA-VIA-ATTRIBUTION-GENUS-PRINCIPLE-AT-BEING (omission countermodel withoutOthersAreCreaturesFails). ST I q.44 a.1 co. ('necesse est dicere omne ens quod quocumque modo est, a Deo esse'; passage AQUINAS-ST-I-Q44-A1, claim AQUINAS-ST-I-Q44-A1-PARTICIPATED-ESSE-CAUSE reads only the participation step) is where a source might be found; no claim on that sentence is made here.",
+  "note": "Open premise with no attributing claim. ST I q.13 a.5 co. (AQUINAS-ST-I-Q13-A5-ORDO-AD-CAUSAM-A) speaks of the order of creatures to God; it does not say that everything other than God is a creature. It is load-bearing in QUARTA-VIA-ATTRIBUTION-GENUS-PRINCIPLE-AT-BEING (omission countermodel withoutOthersAreCreaturesFails). ST I q.44 a.1 co. ('necesse est dicere omne ens quod quocumque modo est, a Deo esse'; passage AQUINAS-ST-I-Q44-A1, claim AQUINAS-ST-I-Q44-A1-PARTICIPATED-ESSE-CAUSE reads only the participation step) is where a source might be found; no claim on that sentence is made here. WARRANT BURDEN (since the CREATURE disambiguation c49de1e9-c34f-424f-b144-b80c885974ca, 2026-11-12): read at CREATURE_1 (IsCreatureOfUniversalCause), it says that for each x other than the primary some being that causes the being of every other being in act causes x's being. So it carries the existence of a universal cause of being, which is close to what QUARTA-VIA-ATTRIBUTION-GENUS-PRINCIPLE-AT-BEING concludes (the genus principle at being). This is a warrant burden on the premise, not a gap in that proof: the Lean argument is valid, but whoever accepts this premise at CREATURE_1 has already accepted that a universal cause of being exists.",
   "definition_ids": [
     "afcdd2c5-1167-5a73-97d7-cb99a6ad5817"
+  ],
+  "disambiguation_ids": [
+    "c49de1e9-c34f-424f-b144-b80c885974ca"
   ]
 }
