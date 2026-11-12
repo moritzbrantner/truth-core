@@ -1,0 +1,17 @@
+{
+  "id": "ed8b7814-91bc-40d7-9333-ccd0cda27cfc",
+  "label": "CCR and universal finite root access are equivalent classically",
+  "premise_statement_ids": [
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
+  ],
+  "conclusion_statement_id": "0c9e0382-34c1-486a-8e1e-73d5a03a84fd",
+  "inference_ids": [
+    "db5d88e5-c88a-419d-bc67-3e688c517a4e"
+  ],
+  "meaning": "CCR and universal finite root access are equivalent classically. Conditional structural consequence only; no independent warrant or rival defeat. Excluded middle is explicit where listed.",
+  "definition_ids": [
+    "38b9012a-472b-4544-a271-16d22b25c9ac",
+    "d8e2ed12-8089-5202-ae51-e807cf611c76",
+    "ea94e8dd-6f08-4099-9032-d302dd799a4e"
+  ]
+}

@@ -175,3 +175,157 @@ preview HEAD; an explicit canonical-workspace dossier request returned this
 note's baseline HEAD. Lean preview was not used. No theorem, claim, Challenge,
 closure rule, transfer spec or metaethics record changes; required proof gates
 remain unchanged for any later proof implementation.
+
+## Mixed-supplier follow-up: complete proposed outcome for parent challenge
+
+At canonical baseline `07ef9812984b85bc07b1030a322f0eff33db081f`, preserving
+parent repairs in attempt 4da08bd8 and definition 38b9012a, the following finite
+experiments separate the commitments. All candidates exist in one world;
+0 and 1 are concrete and 2 is abstract. Edges are supplier → recipient.
+
+| Edges | CCR | Borrowed reality | Supplier concreteness |
+|---|---|---|---|
+| 0 → 1, 2 → 1 | true | true | false |
+| 0 → 1, 2 → 0, 2 → 1 | true | true | false |
+| 0 → 1, 1 → 0, 2 → 0, 2 → 1 | false | true | false |
+
+The first profile contains a concrete root supplying a concrete recipient with
+an abstract co-ground. The second shows that even the concrete root may have an
+abstract supplier: ActualRoot means no actual *concrete* supplier. In both,
+any ground-closed nonempty concrete collection contains 0, whereas any
+supply-closed concrete collection containing an abstract-supplied recipient is
+impossible. These witnesses do not establish metaphysical acceptability or
+sufficiency of any individual supplier. The third profile demonstrates the
+remaining failure mode with abstract supply and a concrete cycle.
+
+**Candidate weaker bridge (not a registered premise):** every actual concrete
+recipient with any actual abstract supplier has a finite path of actual concrete
+grounds from an ActualRoot. A path of length zero is allowed. This permits
+abstract co-grounds on both root and nonroot concreta. Blanket supplier
+concreteness implies it vacuously; the first two profiles satisfy it while
+violating that blanket bridge. The third fails it.
+
+Proposed general deduction, pending Lean certification and semantic challenge:
+with borrowed reality this path bridge implies CCR. Take a nonempty rootless
+ground-closed concrete collection S. If a member has an abstract supplier,
+follow its finite root path backwards; ground closure puts the root in S,
+a contradiction. Otherwise every actual supplier of every member is concrete,
+so S is supply-closed. Each member has an actual concrete supplier because
+it is not an ActualRoot (classical logic); borrowed reality then empties S.
+No population, contingency or modal premise enters this argument. This bridge
+is a structural localization of the disputed requirement, not independent
+warrant for it. A concrete root may itself remain abstractly supplied, so the
+result does not establish an absolutely unborrowed source.
+
+Finite evidence: all 4,164 one-world profiles on 1–3 actual candidates, every
+concreteness assignment and every directed relation (including loops), satisfied
+both (supplier concreteness ⇒ (CCR ↔ borrowed reality)) and
+((borrowed reality ∧ candidate path bridge) ⇒ CCR). This is exhaustive only for
+that finite scope. Infinite profiles, absent candidates and general equivalence
+are not certified by enumeration. No corpus result or premise status changes.
+The exact reproducible Python experiment follows; it is evidence in this note,
+not a second status registry.
+
+```python
+from itertools import product
+
+def evaluate(n,C,E):
+ def grounds(y,x): return (y,x) in E
+ roots={x for x in C if not any(grounds(y,x) for y in C)}
+ reach=set(roots)
+ while True:
+  nxt=reach|{x for x in C if any(grounds(y,x) for y in reach)}
+  if nxt==reach: break
+  reach=nxt
+ subsets=[{i for i in range(n) if mask>>i&1} for mask in range(1<<n)]
+ gc=lambda S:S<=C and all(y in S for x in S for y in C if grounds(y,x))
+ sc=lambda S:S<=C and all(y in S for x in S for y in range(n) if grounds(y,x))
+ ccr=not any(S and gc(S) and not S&roots for S in subsets)
+ br=not any(S and sc(S) and all(any(grounds(y,x) for y in range(n)) for x in S) for S in subsets)
+ conc=all(y in C for x in C for y in range(n) if grounds(y,x))
+ repair=all(x in reach for x in C if any(grounds(y,x) for y in range(n) if y not in C))
+ return ccr,br,conc,repair
+count=0
+for n in range(1,4):
+ for cm in range(1<<n):
+  C={x for x in range(n) if cm>>x&1}
+  for em in range(1<<(n*n)):
+   E={(y,x) for y in range(n) for x in range(n) if em>>(y*n+x)&1}
+   ccr,br,conc,repair=evaluate(n,C,E)
+   assert not conc or ccr==br
+   assert not (br and repair) or ccr
+   count+=1
+print('Profiles checked:',count)
+for label,C,E in [('mixed-root',{0,1},{(0,1),(2,1)}),('abstract-root',{0,1},{(0,1),(2,0),(2,1)}),('abstract-cycle',{0,1},{(0,1),(1,0),(2,0),(2,1)})]:
+ print(label,evaluate(3,C,E))
+```
+
+Proposed assessment: the blanket bridge is stronger than these mixed examples
+need. The localized bridge improves compatibility with abstract co-grounds but
+still requires a defended concrete-root condition. The rootless primitive or
+globally constrained rival survives; satisfying structural constraints alone is
+not sufficient existential explanation. No accepted floor item refutes it here.
+Premise warrant remains independent of both the finite results and the proposed
+equivalence. Next: coordinator challenges this complete proposed outcome, then
+certify the general equivalence and localized bridge in a new sibling batch
+without modifying frozen Challenges. General deductions here remain uncertified;
+no new consequential finding is represented as independently reviewed.
+
+### Independent challenge: dependency of the localized bridge
+
+The localized bridge does not independently warrant rootedness. At one fixed
+profile, world and selected relation, classical inspection suggests CCR is
+equivalent to every actual concretum having a finite concrete-ground path from
+an ActualRoot. The set of concrete candidates unreachable from roots is
+ground-closed and rootless; conversely, closure propagates a finite root path
+back into a collection. CCR also implies borrowed reality without blanket
+supplier concreteness. These proposed deductions together give
+`CCR ↔ (borrowed reality ∧ localized bridge)`. All general equivalences remain
+uncertified. The decomposition permits mixed co-grounds but relocates, rather
+than discharges, the rootedness burden for abstract-supplied recipients.
+
+The independently reproduced enumeration covers one world, one to three
+candidates, all candidates actual, every concreteness assignment, directed
+relation including loops, and subset. It includes empty concrete populations,
+but not an empty candidate type or nonactual candidates. It supplies no general
+Lean theorem or metaphysical warrant. The next semantic test needs a positive
+mixed rootless realization account, distinguishing partial co-grounding from
+sufficient existential support; further enumeration cannot settle that warrant.
+
+## General certification draft and realization test
+
+The sibling `ConcreteRootAccess` vocabulary and batch now draft the general
+obligations at one fixed profile, world and relation. `RootAccess` starts at an
+ActualRoot (zero edges allowed) and takes finitely many supplier-to-recipient
+steps through actual concrete endpoints. There is no finiteness, inhabitedness,
+actuality-of-all-candidates or uniform length assumption. The proposed results
+are CCR iff universal access (explicit excluded middle), CCR implies borrowed
+reality (constructively, without supplier concreteness), CCR implies the
+localized bridge (explicit excluded middle), borrowed reality plus the localized
+bridge implies CCR (explicit excluded middle), and their equivalence. Blanket
+supplier concreteness separately gives CCR iff borrowed reality constructively.
+These are logical decompositions; CCR itself entails the localized bridge.
+They add support options without independently warranting CCR.
+
+A sharper positive mixed rival uses two concrete recipients a,b and abstract
+structure L, with a supplying b, b supplying a, and L supplying both. Distinguish
+partial constraints `a=b` from a sufficient realization rule `L implies a and b`:
+the former admits both the all-zero and all-one Boolean assignments and does
+not select existence; the latter selects the positive assignment, conditional
+on L, without any concrete root. L's reality and the sufficient rule are open
+commitments, not explained by the equality constraints. Interpreting the edges
+as partial co-grounds permits this account; interpreting every edge as a
+separately sufficient existential supplier is a different, stronger account.
+Neither interpretation follows from Profile.grounds alone.
+
+An attempted exclusion by choosing the least fixed point of the equations
+selects zero, but that selects generative semantics rather than deriving it.
+Intervention tests on lamps test activity under external boundary conditions;
+they do not distinguish these accounts of existence as such. No independent
+exclusion has therefore been found within the accepted interpretation. The
+precise next discriminator is a defended sufficient-realization law or a
+substantive reason why existential support must be generated from concrete
+roots. No floor conflict or rival defeat is asserted. This is the complete
+new proposed outcome for the parent's semantic challenge; the earlier finite
+challenge is reused only for its unchanged finite scope. Final gate status is
+reported in the PR/handoff, not inferred from these proofs' presence.

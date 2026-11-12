@@ -1,0 +1,106 @@
+[batch]
+vocab = "TruthCore.Causality.ConcreteRootAccess"
+results = "TruthCore.Results.Causality.ConcreteRootAccess"
+definitions = ["ea94e8dd-6f08-4099-9032-d302dd799a4e", "38b9012a-472b-4544-a271-16d22b25c9ac"]
+
+[[statement]]
+id = "Universal finite concrete root access"
+lean = "UniversalRootAccess"
+paraphrase = "Analyst formulation, attribution deferred: Every actual concretum has a finite path from an actual concrete root, through actual concrete endpoints at the same world and selected relation."
+definitions = ["ea94e8dd-6f08-4099-9032-d302dd799a4e", "38b9012a-472b-4544-a271-16d22b25c9ac"]
+
+[[statement]]
+id = "Localized root access for abstract-supplied CONCRETE_6 recipients"
+lean = "LocalizedBridge"
+paraphrase = "Analyst formulation, attribution deferred: Every actual concretum with any actual nonconcrete supplier has finite concrete root access. This is a structural bridge, not independent warrant."
+definitions = ["ea94e8dd-6f08-4099-9032-d302dd799a4e", "38b9012a-472b-4544-a271-16d22b25c9ac"]
+
+[[statement]]
+id = "CCR is equivalent to universal finite concrete root access"
+lean = "RootAccessEquivalence"
+paraphrase = "Analyst formulation, attribution deferred: At the same profile and world, CCR if and only if universal finite concrete root access."
+definitions = ["ea94e8dd-6f08-4099-9032-d302dd799a4e", "38b9012a-472b-4544-a271-16d22b25c9ac"]
+
+[[statement]]
+id = "CCR is equivalent to borrowed reality and localized root access"
+lean = "BorrowedDecomposition"
+paraphrase = "Analyst formulation, attribution deferred: At the same profile and world, CCR if and only if both borrowed reality and localized root access for abstract-supplied concrete recipients."
+definitions = ["ea94e8dd-6f08-4099-9032-d302dd799a4e", "38b9012a-472b-4544-a271-16d22b25c9ac"]
+
+[[statement]]
+id = "CCR is equivalent to borrowed reality at the fixed profile"
+lean = "BlanketEquivalence"
+paraphrase = "Analyst formulation, attribution deferred: At the same profile and world, CCR if and only if borrowed reality. The registered deduction explicitly assumes supplier concreteness."
+definitions = ["ea94e8dd-6f08-4099-9032-d302dd799a4e", "38b9012a-472b-4544-a271-16d22b25c9ac"]
+
+[[argument]]
+id = "Finite root access implies CCR"
+theorem = "closedOfAccess"
+premises = ["Universal finite concrete root access"]
+conclusion = "aca3baa1-9be6-4720-a53d-22050e638561"
+axioms = []
+rule = "Predicate closure and finite path induction at a fixed profile, world and relation"
+meaning = "Finite root access implies CCR. Conditional structural consequence only; no independent warrant or rival defeat. Excluded middle is explicit where listed."
+
+[[argument]]
+id = "CCR implies finite root access classically"
+theorem = "accessOfClosed"
+premises = ["aca3baa1-9be6-4720-a53d-22050e638561", "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"]
+conclusion = "Universal finite concrete root access"
+axioms = []
+rule = "Predicate closure and finite path induction at a fixed profile, world and relation"
+meaning = "CCR implies finite root access classically. Conditional structural consequence only; no independent warrant or rival defeat. Excluded middle is explicit where listed."
+
+[[argument]]
+id = "CCR implies borrowed reality without supplier concreteness"
+theorem = "borrowedOfClosed"
+premises = ["aca3baa1-9be6-4720-a53d-22050e638561"]
+conclusion = "45890c84-1d33-4273-b0ea-0f75bfd67a33"
+axioms = []
+rule = "Predicate closure and finite path induction at a fixed profile, world and relation"
+meaning = "CCR implies borrowed reality without supplier concreteness. Conditional structural consequence only; no independent warrant or rival defeat. Excluded middle is explicit where listed."
+
+[[argument]]
+id = "CCR implies the localized bridge classically"
+theorem = "localizedOfClosed"
+premises = ["aca3baa1-9be6-4720-a53d-22050e638561", "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"]
+conclusion = "Localized root access for abstract-supplied CONCRETE_6 recipients"
+axioms = []
+rule = "Predicate closure and finite path induction at a fixed profile, world and relation"
+meaning = "CCR implies the localized bridge classically. Conditional structural consequence only; no independent warrant or rival defeat. Excluded middle is explicit where listed."
+
+[[argument]]
+id = "Borrowed reality and localized root access imply CCR"
+theorem = "closedOfLocalized"
+premises = ["45890c84-1d33-4273-b0ea-0f75bfd67a33", "Localized root access for abstract-supplied CONCRETE_6 recipients", "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"]
+conclusion = "aca3baa1-9be6-4720-a53d-22050e638561"
+axioms = []
+rule = "Predicate closure and finite path induction at a fixed profile, world and relation"
+meaning = "Borrowed reality and localized root access imply CCR. Conditional structural consequence only; no independent warrant or rival defeat. Excluded middle is explicit where listed."
+
+[[argument]]
+id = "CCR and universal finite root access are equivalent classically"
+theorem = "rootAccessEquivalence"
+premises = ["ee4ab504-c8fe-59bc-bc96-7cbeefed6410"]
+conclusion = "CCR is equivalent to universal finite concrete root access"
+axioms = []
+rule = "Predicate closure and finite path induction at a fixed profile, world and relation"
+meaning = "CCR and universal finite root access are equivalent classically. Conditional structural consequence only; no independent warrant or rival defeat. Excluded middle is explicit where listed."
+
+[[argument]]
+id = "CCR decomposes into borrowed reality and localized bridge classically"
+theorem = "borrowedDecomposition"
+premises = ["ee4ab504-c8fe-59bc-bc96-7cbeefed6410"]
+conclusion = "CCR is equivalent to borrowed reality and localized root access"
+axioms = []
+rule = "Predicate closure and finite path induction at a fixed profile, world and relation"
+meaning = "CCR decomposes into borrowed reality and localized bridge classically. Conditional structural consequence only; no independent warrant or rival defeat. Excluded middle is explicit where listed."
+
+[[argument]]
+id = "Blanket supplier concreteness makes CCR equivalent to borrowed reality"
+theorem = "blanketEquivalence"
+premises = ["b28f3a70-fbb4-4c61-b9ac-099d97477f4d"]
+conclusion = "CCR is equivalent to borrowed reality at the fixed profile"
+axioms = []
+rule = "Predicate closure and finite path induction at a fixed profile, world and relation"
+meaning = "Blanket supplier concreteness makes CCR equivalent to borrowed reality. Conditional structural consequence only; no independent warrant or rival defeat. Excluded middle is explicit where listed."
