@@ -34,6 +34,6 @@
     "83264cf5-01fe-52fc-9a00-eeb024f6496e"
   ],
   "strong_version_needed": {
-    "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21": "Well-foundedness, not mere asymmetry, is needed: the proof extracts an actual root (a minimal element) of the selected relation, which asymmetry does not supply (an infinite descending chain of actual concreta is asymmetric and rootless). Recorded when ACTUAL-GROUNDING-ASYMMETRIC-FROM-WF registered the strength order (round 2 grounding)."
+    "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21": "Not needed for this endpoint. Asymmetry alone does not suffice (an infinite descending chain of actual concreta is asymmetric and rootless), but the weaker closed-collection condition does (registered strengthens, strict by ClosedGroundingRoots Control.limitGrounder): ClosedGroundingRoots.necessaryConcreteOfClosedRooted proves the same endpoint from the same premises with it in place of well-founded actual grounding. This interface is retained for comparison with its original proof path; the reduction establishes none of the remaining premises."
   }
 }

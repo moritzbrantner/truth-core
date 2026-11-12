@@ -1,0 +1,20 @@
+{
+  "id": "e212b0a0-21ac-4634-8f44-93ca4a10f5f2",
+  "label": "No infinite ascent among actual concreta, from no infinite ascent in being",
+  "premise_statement_ids": [
+    "7dfa068a-9974-5fcd-ba23-fac4dee2fc70"
+  ],
+  "conclusion_statement_id": "c18faab2-aaff-4132-9e64-db763d723293",
+  "inference_ids": [
+    "81cc2323-3e6a-4782-96cc-0a77414adf99"
+  ],
+  "meaning": "The global no-infinite-ascent premise, which also yields the Fourth Way's grade maximum (STMT-GRADES-TO-MAXIMUM-AT-BEING), implies its restriction to actual concreta. Registered as a strength order.",
+  "definition_ids": [
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "5766de66-8a37-5b04-aa65-9eec53319f50",
+    "2100cf9a-27ed-57e9-9daa-4b94b6780fe7"
+  ],
+  "disambiguation_ids": [
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "33ccca00-4389-4738-9b3a-7917dd001865",
+  "label": "The unscoped giver of being strengthens the giver of a being's being",
+  "subject_kind": "statement",
+  "subject_id": "4ccb319f-9b7e-41fd-a560-d4affa25816b",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "4a5a43a5-bb4d-4a87-828a-d913a1f0422e",
+  "verification_result_id": "19569d8b-b93a-4aad-b022-e8955922bc12",
+  "note": "Same InAct, CausesIn and esse; the weak version adds that the effect is in act as to being. Strict: control 13."
+}

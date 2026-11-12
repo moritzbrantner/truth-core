@@ -1,16 +1,18 @@
 {
   "id": "b7d4eede-ab50-5522-8902-f33238fa234d",
-  "label": "Whatever has its being caused by something distinct from it is a creature",
+  "label": "Whatever is CREATURE_2 (caused in being by another) is CREATURE_1",
   "legacy_id": "STMT-CAUSED-IN-BEING-BY-ANOTHER-IS-CREATURE",
-  "paraphrase": "OPEN analyst premise: whatever has its being caused by something distinct from it is a creature (DEF-CREATURE read as: ordered to a cause of its being). It counts a thing caused in being by a secondary cause as a creature too. SCOPE CONDITION (definition 80dea550, the same domain stipulation as 'Whatever has its being caused by another is not INFINITE_1'): elements of Being are individuated by their act of being, so the divine persons, one in numerically identical esse, are one element; the Son's being from the Father is no instance of CausesIn c x esse with c distinct from x. Read without this stipulation, with the processions as instances, the premise would make the Son a creature, contrary to the case's Nicene commitment.",
+  "paraphrase": "Open analyst premise, the sense bridge of DISAMB c49de1e9-c34f-424f-b144-b80c885974ca: whatever has its being caused by something distinct from it (CREATURE_2) is a creature in the sense of DEF-CREATURE (CREATURE_1: ordered, as to principle and cause, to a being that causes the being of every other being, and caused in its being by it). It counts a thing caused in being by a secondary cause as a creature too: such a thing is also caused in being by the universal cause. Its consequent is the same Creature predicate as in 'Everything other than the primary is CREATURE_1' and 'The esse of every CREATURE_1 is received in some principle'; an earlier paraphrase glossed it broadly (ordered to some cause of its being), which made those chains equivocate. Read at CREATURE_1 it follows by instantiation (specs/creature-senses.toml, causedInBeingByAnotherIsCreatureAtCreature1) from its sense-fixed sibling (Lean CausedInBeingByAnotherIsCreature1, naming both sense constants), which is derived (causedInBeingByAnotherIsCreature1) from the proved Fourth-Way consequence STMT-MAXIMAL-CAUSE-WITHOUT-DISTINCT-ESSE-CAUSE (some maximum in being causes the being of every other being in act and has no distinct cause of its being) and the weak premise that whatever has its being caused is in act as to being; its weight then rests on the universal-causation reading of the Fourth Way. STATEMENT IDENTITY: this reread is a borderline case of keeping one statement id across a change of reading (invariant 6); it is kept because the Lean declaration is unchanged, every registered argument already used the consequent in the sense of DEF-CREATURE (CREATURE_1), the change is documented here and in attempt b682aeff-dcd0-40ae-87c6-7eaadfc43657, and nothing in the corpus consumes the analytic reading (consequent CREATURE_2). SCOPE CONDITION (definition 80dea550, the same domain stipulation as 'Whatever has its being caused by another is not INFINITE_1'): elements of Being are individuated by their act of being, so the divine persons, one in numerically identical esse, are one element; the Son's being from the Father is no instance of CausesIn c x esse with c distinct from x. Read without this stipulation, with the processions as instances, the premise would make the Son a creature, contrary to the case's Nicene commitment.",
   "lean_declaration": "TruthCore.Causality.Round2PerfectionPrimacy.CausedInBeingByAnotherIsCreature",
   "definition_ids": [
     "afcdd2c5-1167-5a73-97d7-cb99a6ad5817",
+    "fdfbbc59-1f33-4fab-a96f-b41f37974af5",
     "211a6432-8b8f-53ed-85e3-75173bb15b24",
     "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
     "80dea550-60c1-447a-83bf-d3f27ea0b2a8"
   ],
   "disambiguation_ids": [
-    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "c49de1e9-c34f-424f-b144-b80c885974ca"
   ]
 }

@@ -1,0 +1,25 @@
+{
+  "id": "e151d506-c074-4e5d-a0f9-e9c51f1a73d7",
+  "label": "Comprehend: primitive relation versus knowing at a degree that reaches knowability",
+  "term": "comprehend",
+  "term_label": "COMPREHEND",
+  "sense_definition_ids": [
+    "4afe4ab4-f8cc-4120-b284-f1f0140e76c1",
+    "1218cc1e-e6ef-4f27-9036-d6e28cae67ad"
+  ],
+  "resolution": "INCOMPREHENSIBLE_2 (IsIncomprehensibleToCausedIntellects), the bridge 'No intellect that is not INFINITE_1 comprehends an INFINITE_1 being' and the INCOMPREHENSIBLE sense bridge use COMPREHEND_1, the primitive Comprehension.Comprehends (knowing a being as perfectly as it is knowable, glossed but not typed). COMPREHEND_2 (ComprehendsByMeasure) types that gloss: knowing a being at a degree that reaches its degree of knowability, on one Preorder scale with a degree of act and a degree of knowing (definition 5b196f1c). They are not identified and neither is defined from the other. One statement relates them: the open sense bridge 'Whatever COMPREHEND_1s a being COMPREHEND_2s it', which carries that the primitive's gloss is measured on that scale. Only the argument that derives the q.12 a.7 bridge for COMPREHEND_1 from its COMPREHEND_2 version lists it in sense_bridges. The converse is not assumed: the controls of ComprehensionByMeasure have a model in which the sense bridge holds and something COMPREHEND_2s a being it does not COMPREHEND_1 (part 7), and one in which the COMPREHEND_2 version of the bridge holds and the COMPREHEND_1 version fails without the sense bridge (part 6). Neither sense is knowing simply: both are compatible with knowing a being truly without comprehending it.",
+  "senses": [
+    {
+      "id": "54438bd2-9c69-480b-94ce-889370211279",
+      "label": "COMPREHEND_1",
+      "definition_id": "4afe4ab4-f8cc-4120-b284-f1f0140e76c1",
+      "lean_declaration": "TruthCore.Causality.DeiFiliusImmenseIncomprehensible.Comprehension.Comprehends"
+    },
+    {
+      "id": "0b0402f3-e7f2-4790-95e2-72a025a0ac38",
+      "label": "COMPREHEND_2",
+      "definition_id": "1218cc1e-e6ef-4f27-9036-d6e28cae67ad",
+      "lean_declaration": "TruthCore.Causality.ComprehensionByMeasure.ComprehendsByMeasure"
+    }
+  ]
+}

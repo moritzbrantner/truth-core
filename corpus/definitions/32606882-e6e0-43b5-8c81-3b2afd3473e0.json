@@ -1,0 +1,9 @@
+{
+  "id": "32606882-e6e0-43b5-8c81-3b2afd3473e0",
+  "label": "Actual ground as distinct cause of being",
+  "term": "actual ground as distinct cause of being",
+  "definition": "ActualGroundIsDistinctEsseCause m w CausesIn esse holds when, for actual concreta a and b at w, if a stands to b in the selected relation at w, then a is distinct from b and CausesIn a b esse: a is a cause of b's being (CAUSE_2 at esse). Ordinary meaning: what sustains another's being here and now is a cause of that thing's being, and nothing sustains itself. Only this direction is stated; the converse (a distinct esse cause is an actual concrete ground) is the existing STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.GradedSupportFoundation.ActualGroundIsDistinctEsseCause",
+  "note": "Analyst framework definition, attribution deferred; an open bridge from the profile's selected support relation (DEF-PRESENT-ESSE-SUPPORT, world-local) to the cause-of-a-perfection dictionary CausesIn at esse (CAUSE_2 of DISAMB-CAUSE, which is not world-indexed). It identifies no generic efficient cause with grounding and asserts nothing about other respects. Structural properties: it makes actual grounding irreflexive and imposes no order law. With the Aristotelian STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH (open, unrestricted, Posterior Analytics I.2 reading) at the same CausesIn and MoreIn, it yields STMT-ACTUAL-GROUND-IS-MORE-IN-ESSE."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "cd075a84-bb64-4c05-a592-21072621d30f",
+  "label": "Giver-of-being controls, checked",
+  "argument_id": "9874a88f-59d2-4982-8b5f-c71aa83b1e96",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.CauseOfBeingHasBeing.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.CauseOfBeingHasBeing.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.CauseOfBeingHasBeing.controls",
+  "comparator_config": "results/cd075a84-bb64-4c05-a592-21072621d30f/comparator.json",
+  "status": "solution-present",
+  "description": "Omission, strictness and nonvacuity controls listed in the conclusion's paraphrase. A finite countermodel shows a premise is needed in that interpretation, not that it is false."
+}

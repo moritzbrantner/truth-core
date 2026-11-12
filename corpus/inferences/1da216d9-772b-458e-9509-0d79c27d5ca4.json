@@ -1,0 +1,13 @@
+{
+  "id": "1da216d9-772b-458e-9509-0d79c27d5ca4",
+  "label": "Actual grounding well-founded, from ascent in esse and no infinite ascent (inference)",
+  "input_statement_ids": [
+    "d96105fb-8c4d-5e56-b3c7-2cb77a447c2b",
+    "c18faab2-aaff-4132-9e64-db763d723293"
+  ],
+  "output_statement_id": "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21",
+  "rule": "Subrelation of the inverse image of a well-founded relation: Subrelation.wf with InvImage.wf along Subtype.val",
+  "meaning": "A second, non-numeric derivation of well-founded actual grounding (AGWF). If every actual concrete ground at w is more in esse than the actual concretum it grounds, and the same comparative MoreIn esse admits no infinite ascent among concreta existing at w, then a descending chain of actual concrete grounds would be such an ascent; so actual concrete grounding at w is well-founded. Both premises take the comparative and the respect esse as the same explicit parameters; no world, number or potential is used. Conditional consequence only; neither premise is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

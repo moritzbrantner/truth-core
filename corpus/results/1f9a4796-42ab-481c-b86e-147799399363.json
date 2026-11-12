@@ -1,0 +1,11 @@
+{
+  "id": "1f9a4796-42ab-481c-b86e-147799399363",
+  "label": "A first being is in POTENCY_2 in no respect, from composition",
+  "argument_id": "d6df283b-632c-4a00-bb8d-f70b758ce3ed",
+  "challenge_module": "TruthCore.Results.Causality.ActPriorityAtFirst.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ActPriorityAtFirst.Solution",
+  "theorem": "TruthCore.Results.Causality.ActPriorityAtFirst.firstBeingNoPotencyOfComposition",
+  "comparator_config": "results/1f9a4796-42ab-481c-b86e-147799399363/comparator.json",
+  "status": "solution-present",
+  "description": "A route to the first being's pure actuality that bypasses act priority and non-overlap. A first being is in act in some respect; if it were in potency in some respect it would be composite (act and potency make composite), so it would have a cause of its being other than itself (ST I q.3 a.7 reading), which by the bridge from causing another's perfection to efficient causing causes it efficiently, and so is simply prior to it (ST I q.2 a.3 reading), against firstness. The proof applies each premise only at a supposed first being; three premises are stated universally, so first-being instances would suffice. It uses no claim that idle potencies of other beings have prior beings in act, and no reduction or grounding premise. It relocates the question to whether a first being can be an uncaused composite (the existing uncaused-composite rival). Conditional consequence only; no premise is established."
+}

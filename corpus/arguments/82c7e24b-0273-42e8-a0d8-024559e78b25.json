@@ -1,0 +1,22 @@
+{
+  "id": "82c7e24b-0273-42e8-a0d8-024559e78b25",
+  "label": "Q.4 a.2 preexistence entails nothing gives being it lacks",
+  "premise_statement_ids": [
+    "64498e7e-7f10-54a0-9ec0-c65e6076de1f"
+  ],
+  "conclusion_statement_id": "4a5a43a5-bb4d-4a87-828a-d913a1f0422e",
+  "inference_ids": [
+    "891b78b2-cdcf-4bf9-a65f-b5441129b48e"
+  ],
+  "meaning": "Strength order registration: the esse instance of q.4 a.2 preexistence. Application only; it establishes neither. Strictness: control 12.",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
+  ]
+}

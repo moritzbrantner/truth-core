@@ -1,0 +1,12 @@
+{
+  "id": "0e92155e-b99c-4b45-9485-5e67236427c2",
+  "label": "Act priority for the independent potency parameter strengthens its first-being instance",
+  "subject_kind": "statement",
+  "subject_id": "3b2d2d46-baa6-4772-a2db-bb3daeb092fc",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "61ad11f3-476f-411d-9720-d9f05cbc22fc",
+  "verification_result_id": "9671c53a-37e9-49a6-8c58-168b54a805b7",
+  "strictness_result_id": "28d5d266-80d7-412e-9b4e-7bc1a58510bc",
+  "note": "Same InAct, InPotency and PriorSimply parameters. The strong reading constrains every potency bearer; the weak one only first beings. Control.ColdStone satisfies the weak version while the strong one fails for a stone with a simply prior ground and nothing in act in heat."
+}

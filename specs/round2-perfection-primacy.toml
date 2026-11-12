@@ -100,18 +100,18 @@ disambiguations = ["DISAMB-THOMISTIC-ESSE-PARTICIPATION"]
 [[statement]]
 id = "STMT-CAUSED-IN-BEING-BY-ANOTHER-IS-CREATURE"
 lean = "CausedInBeingByAnotherIsCreature"
-paraphrase = "OPEN analyst premise: whatever has its being caused by something distinct from it is a creature (DEF-CREATURE read as: ordered to a cause of its being). It counts a thing caused in being by a secondary cause as a creature too. SCOPE CONDITION (definition 80dea550, the same domain stipulation as 'Whatever has its being caused by another is not INFINITE_1'): elements of Being are individuated by their act of being, so the divine persons, one in numerically identical esse, are one element; the Son's being from the Father is no instance of CausesIn c x esse with c distinct from x. Read without this stipulation, with the processions as instances, the premise would make the Son a creature, contrary to the case's Nicene commitment."
-definitions = ["DEF-CREATURE", "DEF-CAUSE-OF-PERFECTION", "DEF-ESSE", "80dea550-60c1-447a-83bf-d3f27ea0b2a8"]
-disambiguations = ["DISAMB-CAUSE"]
+paraphrase = "Open analyst premise, the sense bridge of DISAMB c49de1e9-c34f-424f-b144-b80c885974ca: whatever has its being caused by something distinct from it (CREATURE_2) is a creature in the sense of DEF-CREATURE (CREATURE_1: ordered, as to principle and cause, to a being that causes the being of every other being, and caused in its being by it). It counts a thing caused in being by a secondary cause as a creature too: such a thing is also caused in being by the universal cause. Its consequent is the same Creature predicate as in 'Everything other than the primary is CREATURE_1' and 'The esse of every CREATURE_1 is received in some principle'; an earlier paraphrase glossed it broadly (ordered to some cause of its being), which made those chains equivocate. Read at CREATURE_1 it follows by instantiation (specs/creature-senses.toml, causedInBeingByAnotherIsCreatureAtCreature1) from its sense-fixed sibling (Lean CausedInBeingByAnotherIsCreature1, naming both sense constants), which is derived (causedInBeingByAnotherIsCreature1) from the proved Fourth-Way consequence STMT-MAXIMAL-CAUSE-WITHOUT-DISTINCT-ESSE-CAUSE (some maximum in being causes the being of every other being in act and has no distinct cause of its being) and the weak premise that whatever has its being caused is in act as to being; its weight then rests on the universal-causation reading of the Fourth Way. STATEMENT IDENTITY: this reread is a borderline case of keeping one statement id across a change of reading (invariant 6); it is kept because the Lean declaration is unchanged, every registered argument already used the consequent in the sense of DEF-CREATURE (CREATURE_1), the change is documented here and in attempt b682aeff-dcd0-40ae-87c6-7eaadfc43657, and nothing in the corpus consumes the analytic reading (consequent CREATURE_2). SCOPE CONDITION (definition 80dea550, the same domain stipulation as 'Whatever has its being caused by another is not INFINITE_1'): elements of Being are individuated by their act of being, so the divine persons, one in numerically identical esse, are one element; the Son's being from the Father is no instance of CausesIn c x esse with c distinct from x. Read without this stipulation, with the processions as instances, the premise would make the Son a creature, contrary to the case's Nicene commitment."
+definitions = ["DEF-CREATURE", "fdfbbc59-1f33-4fab-a96f-b41f37974af5", "DEF-CAUSE-OF-PERFECTION", "DEF-ESSE", "80dea550-60c1-447a-83bf-d3f27ea0b2a8"]
+disambiguations = ["DISAMB-CAUSE", "c49de1e9-c34f-424f-b144-b80c885974ca"]
 
 # ---- Target 7: nothing else reaches the primary ----
 
 [[statement]]
 id = "STMT-CREATURE-ESSE-IS-RECEIVED"
 lean = "CreatureEsseIsReceived"
-paraphrase = "OPEN analyst generalization of ST I q.7 a.2 co.: the esse of every creature is received in some principle. The passage says it of a subsistent created form, whose esse is 'receptum et contractum'; the generalization to every creature is the analyst's. It says only that the esse is received in SOME principle; reception in the thing's own essence is the separate STMT-ESSE-RECEIVED-IN-OWN-ESSENCE, and DEF-ESSE-RECEIVED-IN leaves the real constitution of the receiving principle open."
+paraphrase = "OPEN analyst generalization of ST I q.7 a.2 co.: the esse of every creature (CREATURE_1, DEF-CREATURE: whatever a cause of the being of every other being causes in its being) is received in some principle. The passage says it of a subsistent created form, whose esse is 'receptum et contractum'; the generalization to every creature is the analyst's. It is not read at CREATURE_2 (whatever any other being causes in its being): that generalization is the separate bridge 'Whatever has its being caused by another has its esse received in some principle'. It says only that the esse is received in SOME principle; reception in the thing's own essence is the separate STMT-ESSE-RECEIVED-IN-OWN-ESSENCE, and DEF-ESSE-RECEIVED-IN leaves the real constitution of the receiving principle open."
 definitions = ["DEF-CREATURE", "DEF-ESSE-RECEIVED-IN"]
-disambiguations = ["DISAMB-ESSE-RECEPTION"]
+disambiguations = ["DISAMB-ESSE-RECEPTION", "c49de1e9-c34f-424f-b144-b80c885974ca"]
 
 [[statement]]
 id = "STMT-PRIMARY-ESSE-UNRECEIVED"
@@ -204,8 +204,11 @@ id = "OTHERS-ARE-CREATURES-FROM-PARTICIPATION"
 theorem = "othersAreCreatures"
 premises = ["STMT-OTHERS-THAN-PRIMARY-PARTICIPATE-ESSE", "STMT-PARTICIPATED-HAS-OTHER-CAUSE", "STMT-CAUSED-IN-BEING-BY-ANOTHER-IS-CREATURE"]
 conclusion = "STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES"
+sense_bridges = [
+  { term = "CREATURE", from = "cbae26cb-418c-41db-9446-9974791d8e9b", to = "a900760c-6f85-483c-b90e-e67b32387568", statement_id = "b7d4eede-ab50-5522-8902-f33238fa234d" },
+]
 rule = "Universal instantiation, existential elimination and modus ponens"
-meaning = "Derives that everything other than the primary is a creature: each other thing has participated being (OPEN reading of q.44 a.1 co.), what has participated being has a distinct cause of its being (q.44 a.1 ad 1, STMT-PARTICIPATED-HAS-OTHER-CAUSE), and what has its being caused by another is a creature (OPEN reading of DEF-CREATURE)."
+meaning = "Derives that everything other than the primary is a creature: each other thing has participated being (OPEN reading of q.44 a.1 co.), what has participated being has a distinct cause of its being (q.44 a.1 ad 1, STMT-PARTICIPATED-HAS-OTHER-CAUSE), and what has its being caused by another (CREATURE_2) is CREATURE_1 (the CREATURE sense bridge, derived in specs/creature-senses.toml)."
 
 [[argument]]
 id = "STRICT-PRIMACY-FROM-RECEPTION-LIMITS"

@@ -1,0 +1,12 @@
+{
+  "id": "400ef285-ccf3-409a-a652-41c232bd19e1",
+  "label": "Nothing gives what it lacks entails its cause-of-being restriction (inference)",
+  "input_statement_ids": [
+    "376d6a5a-c179-5090-b57c-f9a371222899"
+  ],
+  "output_statement_id": "d0fc96b7-fd2d-504e-912f-925de3b1e6ed",
+  "rule": "Restrict to causes of the effect's being; the causing hypothesis is unused",
+  "meaning": "Strength order registration: the unrestricted principle (every cause of any perfection in a thing has it) entails its restriction to causes of the thing's being. Application only; it establishes neither. Strictness: control 15 (a cause of another perfection of a thing whose being it does not cause).",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

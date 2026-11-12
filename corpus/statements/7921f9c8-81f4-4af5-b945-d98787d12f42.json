@@ -1,0 +1,9 @@
+{
+  "id": "7921f9c8-81f4-4af5-b945-d98787d12f42",
+  "label": "Everything is knowable at least to the degree it is in act",
+  "paraphrase": "OPEN analyst premise, attribution deferred. For every y, y's degree of act is at most its degree of knowability (definition 5b196f1c; knowability in itself, not to us). After ST I q.12 a.1 (a thing is knowable insofar as it is in act) and q.16 a.3, whose pinned claim 191c4ad9 reads 'unumquodque inquantum habet de esse, intantum est cognoscibile'; no claim states this premise, and that claim specifies no scale. Only the direction 'at least' is used. Needed: without it, a non-INFINITE_1 intellect COMPREHEND_2s an INFINITE_1 being in a model of the other three premises (Control part 3).",
+  "lean_declaration": "TruthCore.Causality.ComprehensionByMeasure.KnowableInsofarAsInAct",
+  "definition_ids": [
+    "5b196f1c-210d-450e-b3f1-33e214f9f45d"
+  ]
+}

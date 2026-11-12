@@ -5,6 +5,9 @@ Owner direction, 2026-11-09: until it closes, the working root is **God exists**
 modal contingency argument. Stages 3 to 6 of the Catholic case are deferred, and
 their historical premises will later be argued by inference to the best explanation.
 
+The [critical-spine dependency map](spine-dependency-map.md) (2026-11-12) records which
+routes to the working root need which spine premises.
+
 Report against the working root with
 `python3 scripts/corpus.py frontier --routes --root STMT-GOD-EXISTS`.
 
@@ -46,7 +49,7 @@ proposed was repaired after the independent semantic challenge.
 
 | | Premise | Status | Rival |
 |---|---|---|---|
-| A2ab | Lasting ground: a concrete thing absent at a moment `s` and present later has *some* concrete ground present at `s` or later (`71df1177`) | open | a ground-free beginning (control 1); a beginning whose only ground ceased before an empty moment (control 2); undercutting objection to its inductive warrant, below |
+| A2ab | Lasting ground: a concrete thing absent at a moment `s` and present later has *some* concrete ground present at `s` or later (`71df1177`) | open; two further derivations (`SustainingCausation`, spec `specs/sustaining-causation.toml`, attempt `c94eed5b`): from a concrete CAUSE_OF_BEING_2 sustaining cause of every beginning thing, sustainers-as-grounds and the time-indexed contact principle (any order of time); or from a concrete CAUSE_OF_BEING_1 originating cause, originators-as-grounds, contact, no return after absence and comparability of moments (an explicit linear-time premise; the originating premise needs first moments of presence). Existential inertia (Schmid 2021) rejects the sustaining premise. On the inclusive reading of `GivesAt` (causing coming to be counts; q.104 a.1 co. makes the builder a cause of the house's becoming, not of its being) the originating route uses causes an inertialist can grant, so on this formulation the A2ab dispute does not sit in sustaining causation but in contact (no giving across a temporal gap), convexity, comparability of moments and first moments; on the strict esse-giving reading that is not shown. Convexity and comparability enter only because the originating premise ties the cause to the first moment of presence overall; one tied to the first moment after the absence would need only contact and grounds (not formalized). Sustainers- and originators-as-grounds widen A2ab's grounds relation, so composed with the A2 derivation A2c must hold for the widened relation (and excludes a self-sustaining persistence power, which would make a thing its own ground). `IsAt` is read inclusively here and in A1–A3 (location at, or co-presence to, the moment; check in attempt `c94eed5b`) | a ground-free beginning (control 1); a beginning whose only ground ceased before an empty moment (control 2); undercutting objection to its inductive warrant, below; intermittent presence breaks the originating route (`SustainingCausation` control 6); unread lead: corruptionist accounts of bodily resurrection are intermittent existence within the case's own framework, against convexity unless restricted |
 | A2c | Post-absence well-founded grounding: for each history and moment `s`, grounding among concrete things absent at `s` and present later is well-founded (`bf18a0d0`) | open | an endless series of grounds compressed after one moment at which all its members are absent: descending in time towards it (`BegunComingToBe.Control.zeno`, control 3), or all present at one later moment (unchecked). Independent justification on file: none beyond an open extension of Aquinas's grant, below |
 
 The traced form (`e6a1ac3c`: whatever concrete thing is present traces back, by
@@ -482,7 +485,7 @@ supporter of its being, under F1, excluded middle and two further open premises:
 | | Premise | Status | Rival |
 |---|---|---|---|
 | J1 | Whatever concrete thing supports the being of a necessary concrete thing is itself necessary. | open; strengthens its selected-world instance J1@w (`84751fc2`, only actual supporters and actual support edges), strictly (`NecessarySupportActualScope`). J1@w suffices on the coverage route from necessity; it does not suffice on `checks`, its from-necessity assembly or the coverage bridge from no-novel-edge (below), and whether an intermediate scope does is untested | recorded; see the rival table |
-| J2 | Support of being among necessary concrete things is well-founded: no endless descent. | open; derived (`NecessarySupportCoverage.unionWFOfNoNovel`) from F1, actual well-founded grounding and the open one-way no-novel-edge premise, and bypassed by two coverage routes (below) | recorded; see the rival table |
+| J2 | Support of being among necessary concrete things is well-founded: no endless descent. | open; derived (`NecessarySupportCoverage.unionWFOfNoNovel`) from F1, actual well-founded grounding and the open one-way no-novel-edge premise; derived without F1, AGWF or no-novel-edge (`GradedSupportFoundation.unionWFOfAscent`) from rigid ascent in esse and no infinite ascent among necessary concreta (see "Graded foundation" below); bypassed by two coverage routes (below) | recorded; see the rival table |
 
 J2 is a global condition on support across all worlds. The batch
 `specs/necessary-support-coverage.toml` offers an alternative, **coverage**, an
@@ -524,6 +527,94 @@ suffice there, not that J1's full all-world scope is needed: an intermediate
 scope (supporters at accessible or admitted worlds only) is untested.
 `underivedOfCoverage` uses no form of J1. See the
 [J1 attempt](../../corpus/attempts/b7e250b6-39f2-4e16-8da4-0a1f7a21d83a.json).
+
+**Graded foundation** (2026-11-12, `specs/graded-support-foundation.toml`).
+Before this batch, actual well-founded grounding (AGWF) had only the
+uncalibrated numeric potential route (through finite rank). Four routes to the
+join use AGWF directly; the fifth uses J2 instead, but J2's only derivation
+used AGWF and no-novel-edge, so every route depended on AGWF. The direct routes use instead the grade maximum, from no infinite
+ascent in being. The batch tests whether one grade of being underlies all of
+them. All new premises are open analyst premises; nothing is closed.
+
+- `actualGroundingWFOfAscent`: AGWF from `STMT-ACTUAL-GROUND-IS-MORE-IN-ESSE`
+  and no infinite ascent in esse among actual concreta, the weak restriction of
+  `STMT-NO-INFINITE-ASCENT-IN-BEING`. Both bind the same primitive `MoreIn esse`
+  (one comparative, `DISAMB-ORDER-OF-BEING`), so no sense bridge is needed.
+  This is a second, non-numeric route.
+- `unionWFOfAscent`: J2 from rigid ascent (support between necessary concreta at
+  any admitted world goes up the same world-invariant grade) and no infinite
+  ascent among necessary concreta. It needs no reflexivity, AGWF or
+  no-novel-edge. `mutualSupportExcludedByGrade` excludes the mutual-support
+  rival from the same two premises.
+- `groundMoreInEsseOfCause` and `everywhereAscentOfCause` derive the ascent
+  premises from the Aristotelian cause-is-more principle (already derived from
+  the reception-limitation premises) and an open bridge: an actual ground, or
+  a ground at any world, is a distinct cause of being. Ascent at every world
+  implies both ascent premises, and the global no-infinite-ascent premise
+  implies both restrictions (registered strength orders). So, with every-world
+  ascent, one premise about the grade of being, global no infinite ascent,
+  serves AGWF, J2 and the grade maximum.
+- How strong the bundle is. Global no infinite ascent alone is not compared
+  with AGWF and does not give it (`DescendingGrade`). The bundle of ascent and
+  restricted no infinite ascent, with the grade chosen existentially, is
+  equivalent to AGWF (resp. J2): `gradedOfActualGroundingWF` and
+  `gradedOfUnionWF` give the converse. With the fixed `MoreIn esse` the bundle
+  implies AGWF (resp. J2); strictness is not certified. The extra content is
+  the identification of the grade with the Fourth Way's more in esse.
+- Controls (`Control.Controls`): a joint witness of all new premises with
+  nonempty edge, grade and cause (the restricted no-ascent premises follow from
+  the global one by `actualAscentWFOfGlobal` and `necessaryAscentWFOfGlobal`). `DescendingGrade`: well-founded grounding and grade without ascent,
+  so ascent is a substantive premise. `OffWorldAscent`: the grade premises
+  hold while coverage and no-novel-edge fail, so a rigid grade yields neither.
+  Conversely, with a freely chosen grade the no-novel-edge bundle implies the
+  graded form (`unionWFOfNoNovel` then `gradedOfUnionWF`); for the fixed
+  `MoreIn esse` that direction is not certified. `NoGradeForRivals`: the
+  rotating triangle and the rooted pair admit no comparison at all that meets
+  rigid ascent and no infinite ascent, while the rooted pair keeps the join's
+  endpoint. Asymmetry and whole-roster nontrapping need no new theorem: AGWF
+  already yields asymmetry (`16539528`), which feeds the roster routes.
+
+Warrant (analyst assessment; literature names are unread leads; [attempt](../../corpus/attempts/259de206-63df-48c3-bad1-b77755b21a5a.json)):
+
+- **Ascent and its limits.** The cause-is-more principle supports ascent only for
+  principal, simultaneous sustaining of being. The synonymy-restricted reading
+  of *Metaphysics* II.1 gives univocal causes "at least as such", not "more".
+  Equivocal causes are not a limit: eminent possession gives ascent a fortiori
+  (an analyst claim). Instrumental causes violate it.
+  So the bridge must read the selected relation as principal sustaining, and
+  `DescendingGrade` is the formal shape of its failure.
+- **Per se and per accidens.** Ascent marks the relevant difference. In
+  historical succession the earlier cause does not sustain the later one and
+  need not be more in being, so an infinite per accidens series involves no
+  ascent and is not excluded.
+- **No new warrant for no infinite ascent.** Given ascent, the restriction to
+  actual concreta is equivalent to AGWF up to the choice of grade, so along
+  grounding chains its warrant is the #310 actuality argument. For the fixed
+  `MoreIn esse` it also forbids ascending chains that are not grounding chains,
+  which that argument does not cover. A weaker "no infinite ascent along
+  grounding chains" would suffice; given ascent it coincides with AGWF, so it is
+  recorded as the next test, not certified. A dense convergent grade
+  (each sustainer strictly more, the grades approaching a limit) shows the
+  premise is a real commitment, also under the order by approach to a primary.
+  No motivation for such actual sustainers is recorded; this is prose only.
+- **Strongest standing rival.** Compositional (gunk) infinitism targets ascent,
+  not no infinite ascent: a proper part is not more in being than its whole.
+  It is relevant only if compositional dependence counts as the selected support
+  relation and the parts are actual. Its price is actual gunky matter on whose
+  actual parts composites depend for existence.
+- **J2's rivals.** Conditional on the unread texts, coherentist and
+  interdependence accounts, as recalled, concern identity or nature dependence,
+  not principal sustaining of necessary concreta. Against rigid ascent their
+  holder must claim either that a necessary being's grade of being varies
+  between worlds, or that support between necessary beings runs between equals
+  or from the lesser. The latter conflicts only with the unrestricted
+  cause-is-more principle (`d5a94eb1`), not with cause-has-what-it-gives. No
+  established counterexample is on file. The warrant offered for strict ascent
+  among univocal (equal) necessary sustainers depends on the open unrestricted
+  cause-is-more principle.
+
+Provisional judgment: the route relocates the regress question; it does not
+remove it. See the [derivation attempt](../../corpus/attempts/7b8e8975-150f-410b-bc87-6b79352273c8.json).
 
 Through that argument stage one already reaches `STMT-GOD-EXISTS` in the
 computed frontier. It reaches it by the necessary-concrete routes with 15 bare
@@ -584,6 +675,147 @@ excluded middle, those two premises yield a necessary
 root without any modal step, so the corpus reaches the node a third way. The
 regress results are also the tool against the "endless chain explains itself"
 reply to A3 and B1.
+
+### Act priority over potency (2026-11-12)
+
+Target: `STMT-ACT-SIMPLY-PRIOR-TO-POTENCY` (a4d3261a). Batch
+`specs/act-priority-at-first.toml`, module `TruthCore.Causality.ActPriorityAtFirst`,
+[attempt](../../corpus/attempts/712ea899-f58e-4bfa-a977-ead95a600518.json).
+All new premises are open analyst formulations; nothing is closed.
+
+- **Map (strict expansion).** No leaf is shared by all four verified
+  derivations. The minimal cuts of size 3 are the twelve sets
+  {9226c6af} × {6b9fedc2, 6ca87431, 010988b9, excluded middle} ×
+  {8a1d7012, bf374f2e, a4606a6b}: the substance-to-simple bridge (shared by
+  the substance and sense-fork derivations), one motion-fork leaf and one
+  ground-route leaf. No-self-motion (079b53bf) has nine verified derivations
+  and is not a leaf; cutting through it gives at least 120 further minimal
+  cuts of size 4. The idle case is carried either by a premise that restates
+  the target for idle potency (010988b9) or by extending the reduction reason
+  from reducers to grounds (bf374f2e).
+- **3b2d2d46** has the same Lean body as a4d3261a: `IndependentPriority` is a
+  transparent wrapper over the freely supplied `InPotency` (POTENCY_2).
+  a4d3261a links adopted POTENCY_1 although its type uses the same free
+  parameter. This is a recorded sense-link defect. It is not fixed here,
+  because adopted-potency specializations consume a4d3261a and a relink needs
+  its own check. 3b2d2d46 has no derivation and eight earlier consumers: the
+  classical-attributes skeleton 6c6549ae, the join-to-root composition 8f956c81
+  and six Dei Filius routes. Removing one of the pair without the other tests nothing, so the
+  graph below removes both.
+- **Where the routes use it.** `noComponentFirst`, the only derivation of "no
+  component is the first being" (09c6d5f0), applies act priority only to a
+  supposed first component. At base, every root-route loss on removing
+  a4d3261a ran through 09c6d5f0, the classical-root route included; the
+  endpoint loss through 3b2d2d46 appears only when both are removed.
+  `firstBeingNoPotency` applies it in the same way, but it is unbypassable
+  only inside the classical-root Lean proof, not at corpus level.
+- **Weak version.** `FirstBeingActPriority` (61ad11f3): a first being in potency
+  in a respect is simply posterior to something in act in that respect. Since
+  nothing other than a first being is simply prior to it, the witness is the
+  first being itself. The statement therefore says that a first being's
+  potencies are in act in the same respect and carries no priority over other
+  beings. It is not an independent act-priority principle. 3b2d2d46
+  strengthens it strictly (`Control.ColdStone`). Given non-overlap it is
+  equivalent to the q.3 a.1 conclusion that a first being is in no way in
+  potency (`Control.Facts`). `noComponentFirstOfWeak` rederives 09c6d5f0 from it.
+- **Senses.** The routes use PRIOR_1 throughout. The temporal and substance
+  senses enter only through the existing explicit coverage premise and the
+  substance-to-simple bridge. Receptive potency has a different Lean type, so
+  no unbridged passage between it and potency type-checks. 86f10ec3 now links
+  POTENCY_2, the parameter its type uses. c6d6379b's label still says POTENCY_1
+  while it links POTENCY_2 (follow-up). On the composition route PRIOR_1 is
+  constrained only by e078f07b and `IsFirstBeing`.
+  The causal passage is bridged. The cause of being in the q.3 a.7 premise
+  (`CausesIn`) and the efficient cause of the priority premise are separate
+  parameters, joined by `STMT-PERFECTION-CAUSING-IN-ANOTHER-IS-EFFICIENT`
+  (e0088de9). `noComponentFirstOfWeak` keeps the existing `noComponentFirst`
+  pattern: one `CausesIn` feeds participation (2b25a78c) and efficient-cause
+  priority. The bridge cannot be added there, because 2b25a78c links the
+  external-esse-cause sense while its type uses the plain `CausesIn`, and
+  relinking it breaks the existing argument's links (recorded defect,
+  follow-up).
+  The grounding sense matters for the strong reading. On the stage-two routes,
+  PRIOR_1 between distinct beings is bridged by 86efed1a to the profile's
+  selected relation. By `Control.Facts` item 4, the strong reading with
+  non-overlap and that bridge gives every being in potency in a respect a
+  distinct concrete predecessor, existing at w, in the profile's selected
+  relation, which is in act in that respect. The weak version carries no such
+  commitment.
+- **Aquinas's reason does not reach it.** Nothing moves a first being, since
+  its mover would be prior to it, so its potencies are idle. "Reduced to act
+  only by a being in act" speaks of reduction, and it is vacuous exactly where
+  the routes apply act priority (`ActPriorFromMotionFacts`, item 5).
+- **Positive tree.** `firstBeingNoPotencyOfComposition` proves the q.3 a.1
+  conclusion directly, without act priority or non-overlap.
+  `weakOfComposition` gives the weak version from the same premises.
+  `Control.CompositionOmissions` shows each premise is needed. The premises:
+  1. Every first being is in act in some respect (8288ff1e). Its denial is a
+     potency-first principle (Night, the seed).
+  2. Whatever is in act in one respect and in potency in another is composite
+     (3d99779b). This is an analyst converse of q.3 a.7 co., fourth reason.
+     `InPotency` is the free POTENCY_2, presupposing real passive potency.
+     `Composite` is the inclusive SIMPLE_4 sense. The restriction keeps out
+     prime matter, which is in act in nothing and, if counted among the
+     beings, would falsify an unrestricted "whatever is in potency is
+     composite".
+  3. Every composite has a distinct cause of its being (the q.3 a.7 reading,
+     ca07cae9).
+  4. Causing another's perfection is efficiently causing it (e0088de9).
+  5. An efficient cause is prior to its effect (the q.2 a.3 reading, e078f07b).
+
+  The proof applies each premise only at a supposed first being. 3d99779b,
+  ca07cae9 and e078f07b are stated universally, so first-being instances would
+  suffice. No premise says that an idle potency of a being other than a first
+  one has a prior being in act. The question becomes whether a first being can
+  be an uncaused composite.
+- **Objections** (substantive objection standard).
+  - Strongest standing rival: an existentially first being whose accidental
+    states are actualized by others or by its own evolution. Candidates are
+    dipolar theism (Hartshorne) and a necessary initial cosmic state; both are
+    unread leads recalled from memory. It targets premise 2 or 3. Its mechanism
+    is that dependence for being and dependence for an accidental actuality
+    are distinct relations. Its independent justification is that ordinary
+    distinction; its positive account is unread. Its price is an uncaused
+    composite first being (denying 3, the existing uncaused-composite rival)
+    or a simple being in act and in potency (denying 2). It is not an
+    established counterexample.
+  - Never-actualized potencies: a price, not an established objection. On the
+    grounding routes, the strong reading with 86efed1a requires a
+    selected-relation predecessor in act for every potency. With formal act
+    this is an actually hot predecessor of a cold stone. With virtual act it
+    is eminent containment, which the routes already assume in a related form
+    (376d6a5a). No independent case that the commitment is false is recorded.
+  - Quantum indeterminism targets the reduction reading (6b9fedc2) taken as
+    universal. Its mechanism, a transition with no being in act in the target
+    respect, depends on interpretation: the prior state and the dynamics are
+    actual, and indeterminism concerns which outcome occurs. The tree does not
+    use reduction, so it gives no objection to the weak version.
+  - Aristotle's aporia bears on premise 1 only through the open bridge from
+    ability to simple priority (see the rival table).
+  - No independent warrant is recorded for premises 1 and 2. Premise 3 has its
+    q.3 a.7 reading and its recorded rival.
+- **Graph** (strict expansion, ten root arguments at `STMT-GOD-EXISTS`). Before
+  this batch, removing a4d3261a, with or without 3b2d2d46, left 2/10; removing
+  3b2d2d46 alone left 10/10. Now removing both leaves 9/10. The classical-root
+  projection 92ab7c94 is lost, because 8f956c81 consumes 3b2d2d46 directly.
+  With both removed:
+  - removing any one of premises 1–3 gives 2/10;
+  - removing e0088de9 gives 1/10, as it already does alone on main;
+  - removing e078f07b gives 0/10.
+- **Classical-root sibling** (`specs/necessary-classical-god-root-at-first.toml`,
+  `NecessaryClassicalGodRootAtFirst.derive`, argument 69affa96,
+  [attempt](../../corpus/attempts/e432c07c-19d6-4282-a945-d0fabdbec137.json)).
+  It is 8f956c81 with 61ad11f3 in place of 3b2d2d46, all other premises and
+  parameters unchanged; the root's pure actuality comes from
+  `ActPriorityAtFirst.facts` item 2 with non-overlap. Removing a4d3261a and
+  3b2d2d46 together now leaves 10/10 (92ab7c94 restored); the counts above
+  with one composition premise also removed are unchanged.
+
+Provisional judgment: the routes need only that a first being has no potency.
+The strong reading's universal scope buys nothing on them. On the grounding
+routes it has a price: a selected-relation predecessor in act for every
+potency, which no recorded case shows to be false. The live question moves to
+premises 2 and 3 at a first being, with premise 1's warrant also open.
 
 ## Rival table (run of 2026-11-10)
 
@@ -701,12 +933,88 @@ Columns:
 | Every contingent concrete thing has a ground | Some contingent concrete thing is ungrounded (a brute fact) | `ActualRootNecessityUpgrade.upgrade` | Partial. Schmid's existential inertia (read, [eternity note](../eternity-dependence-connection.md)) gives a mechanism: a thing's persistence is explained by its earlier existence and the absence of a destroying cause, with no concurrent sustainer. Open bridge: whether grounding under `m.grounds` is concurrent sustenance by a distinct ground; if an earlier existent can be the ground, Schmid does not contest the premise. Hume (claim `HUME-TREATISE-I-3-3-NARROW-A`) argues only that the causal maxim is not demonstrable from ideas: a limit on one kind of warrant, not evidence of an ungrounded thing. Oppy 2020 (read) is support neither way: every possible world shares the actual initial history (claim `OPPY-2020-SHARED-LAWS-INITIAL-HISTORY`), but the claim and `DEF-OPPY-CAUSAL-MODAL-COMPARISON` withhold numerical identity of one bearer across worlds, so whether his uncaused initial state is a necessary individual (allowed by the premise) or a contingent ungrounded one (the rival) is an unresolved bearer-identity bridge. | No claim. Three derivations from open premises. |
 | The maximum in being causes all other being | The maximum is idle: a third thing causes another's being | `TermSenseForks3.maximeEnsCausesAllMaximal` | Formal alternative. Lead, unread for this purpose: a first mover that is a final cause only (Aristotle, Met. XII.7). | No claim. Four derivations from open premises. |
 | What exists is in act as to being | Thin existence: something exists with no act of being | `Round2ExistenceAct.intellectualExerciseRequiresActFromExistence` | Formal alternative. The rival's sense is fixed by its definition (`f5345c9c`, thin existence: things exist, but existing is not an actuality they have). The stage-two bundle shares one `InAct` and one esse respect, so a thin theorist contests the bundle of existence-to-act, perfection transfer and infinity together, not another sense. No sourced justification for the thin view is on file. | No claim. Three derivations from open premises, two through the sourced q.4 a.1 ad 3 premise. |
-| A cause of a thing's being is its concrete ground | A non-concrete cause of being (a law or abstract object) | `Round2Grounding.contingentGroundedViaParticipation` | Partial, on an analyst construction. Phaedo 100d–e (claim `PLATO-PHAEDO-100D-PARTICIPATION-EXPLANATORY`) makes a Form explain a thing's being so; explaining being so is not shown to be causing esse. Rosen reports, without endorsing, that on Lewis's account events are sets (claim `SEP-ABSTRACT-OBJECTS-32-LEWIS-EVENTS-ARE-SETS`); two stacked bridges are open: causing events is not causing esse, and impure sets are not shown non-concrete in the adopted sense ([boundary note](causal-concrete-rival-boundary.md)). Only the analyst's construction connects Lewis to the premise. Aristotle's sourced critique (Met. I.9) is on file against the Phaedo account. | No claim. One derivation from four open premises. |
+| A cause of a thing's being is its concrete ground | A non-concrete cause of being (a law or abstract object) | `Round2Grounding.contingentGroundedViaParticipation` | Partial, on an analyst construction, now relocated, not defeated (2026-11-12, below): the typed rival is conditionally refuted by the existence-to-act contract and the CONCRETE_6 calibration, but a separately existing Form is CONCRETE_6, so the typed rival is not the Platonist's thesis; the Platonist must deny the contract, read concrete otherwise, or accept the Form as an actual concrete ground and contest the downstream uniqueness, identity and simplicity steps. Phaedo 100d–e (claim `PLATO-PHAEDO-100D-PARTICIPATION-EXPLANATORY`) makes a Form explain a thing's being so; explaining being so is not shown to be causing esse. Rosen reports, without endorsing, that on Lewis's account events are sets (claim `SEP-ABSTRACT-OBJECTS-32-LEWIS-EVENTS-ARE-SETS`); two stacked bridges are open: causing events is not causing esse, and impure sets are not shown non-concrete in the adopted sense ([boundary note](causal-concrete-rival-boundary.md)). Only the analyst's construction connects Lewis to the premise. Aristotle's sourced critique (Met. I.9) is on file against the Phaedo account. | No claim. One derivation from four open premises. A second derivation (below) from the contract, the calibration, the maxim "nothing gives being that it does not have", act-to-existence and the two dependence premises. |
 | Grades of being imply a maximum | Unbounded grades: everything is exceeded | `SelectedAncestryUnique.uniqueRoot` | Formal alternative. Comparatives without a maximum are established (the natural numbers under <), but they bear only on a general rule for "more and less", which nothing on the route uses: both derivations are specific to being. They show that a general more-and-less warrant would not suffice. No case of unbounded grades of being is on file. | No claim. Two derivations from open premises (no infinite ascent; approach to a primary). |
 | A universal cause of being causes the effect's perfections | Mere conservation: a secondary cause supplies a perfection | `CausalPerfectionTransfer.reconstruction` | Formal alternative. Lead, unread: medieval mere conservationism (Durandus). | No claim. Two derivations from open premises. |
 | A nonuniversal cause of a thing's being causes its perfections (`10cd24ed`, 2026-11-12) | A particular sustainer of a thing's esse that does not cause a perfection another agent causes | `PerfectionTransferGrounding.causeOfBeingCausesEveryPerfectionGrounded` (`Control.Controls` part 1, the concurrent model) | Formal alternative; no substantive objection established. Lead, with two open steps: q.104 a.1 co. (read) makes heavenly bodies causes of the being, not only the becoming, of what they generate. If they are nonuniversal causes of esse (an open bridge of `DISAMB-BECOMING-BEING-CAUSE`), the premise applies to them and requires them to cause every perfection of those effects, intellectual ones included (q.115 a.4, unread). The "continuous supply" example in the transfer note is enablement, not causing esse, and carries no weight. No positive warrant on file either: the strongest positive case (participation plus concurrence, q.105 a.5) rests on the source being the universal first agent, which a nonuniversal cause by definition is not. That is an absence of warrant, not evidence against the premise. | No claim, no derivation. |
 | What is simply prior is a concrete ground | Something non-concrete is simply prior to a concrete thing | `NecessaryFirstBeing.necessaryFirst` | Formal alternative. The Phaedo claim says nothing about priority; reading its explanation of being so as simple priority would be an unsupported bridge. | No claim. Two derivations from open premises. |
 | Whatever is God is maximal in being | A god exceeded in being by something not God | `StageTwo.GodIsSimple.godIsSimple` | Misdirected. Finite and demiurgic gods use another sense of "god". GOD_4 is a primitive field (`DEF-GOD-OF-CLASSICAL-THEISM`) whose content is fixed only by open premises, here the attribute premise `STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES` (infinite, perfect); the misdirection holds only given that premise. Which being deserves the name is the naming premise's question. | No claim. Two derivations from open premises. |
+
+**The esse-cause bridge and the giver of being (2026-11-12, [attempt](../../corpus/attempts/c0c90cee-39f6-4650-aee9-d42e42f3cd48.json), `specs/cause-of-being-has-being.toml`).**
+Ranking (computed from the Lean proof of the composition, result `57213a13`, and
+strict expansion of each premise to statements with no derivation): the
+esse-cause bridge `cb1cdea9` feeds eight of the ten attribute and naming steps
+(root uniqueness, the maximum's identity with the root, and simplicity, hence
+identity of esse and essence, infinity, intellect and will). Only the join's own
+inputs feed more; next are simple priority `86efed1a` (five steps) and the
+uniting cause (four). Two of the bridge's four leaves now have more basic
+derivations. Concreteness: the existence-to-act contract (already a premise of
+the composition) and one direction of the CONCRETE_6 calibration of the
+profile's `concrete` (`2d9807a5`) give that every existent at `w` is concrete
+(`0e02cd69`), and with it a second derivation of the bridge that does not use
+the unscoped leaf `82eeeb3c`. No causal premise enters. Since only esse-in-re to concrete is assumed, the
+conclusion also holds for a trivially broad `concrete`; excluding abstracta
+needs the unstated converse. Consequence: the typed rival "an existing
+non-concrete cause of esse" (`4c9908ba`) is conditionally refuted (the
+registered result concludes that every existent is concrete; the last step to
+the rival's negation is the lake-checked, unregistered lemma
+`notSomeEsseCauseNonConcrete`). The refutation of `4c9908ba` relocates the
+Platonist rival; it does not defeat it. Under CONCRETE_6 (having one's own act
+of existence in reality) a separately existing Form or mind-independent set is
+CONCRETE_6, so `4c9908ba` is not the Platonist's thesis. A Platonist or
+Lewisian must (i) deny the contract (the thin-existence row above), (ii) read
+`concrete` other than as CONCRETE_6, or (iii) accept that the Form has esse in
+re and is CONCRETE_6. On (iii) the bridge counts the Form as an actual concrete
+ground, and the dispute moves to the downstream uniqueness, identity and
+simplicity steps. Existence of the
+cause: the maxim "nothing gives being that it does not have" (`4a5a43a5`: a
+cause of the being of something in act as to being is in act as to being), the
+contract and act-to-existence `546975ef` derive `STMT-ESSE-CAUSES-EXIST-AT`
+(moved to closed under rule (a): the obligation now sits on its open leaves). The maxim is the bottom rung of a
+registered ladder: unrestricted "nothing gives what it does not have" `376d6a5a`
+⇒ its cause-of-being restriction `d0fc96b7` ⇒ "a cause of being has being"
+`4ccb319f` ⇒ the maxim, with q.4 a.2 preexistence ⇒ the maxim as a second
+entry; each step is strict in a checked control. "A cause of being has being"
+also follows from agency in act (`ef068f46`: a cause of being is in act in some
+respect, after q.75 a.2) and the sourced q.4 a.1 ad 3 premise, with no transfer
+principle. The maxim stays a bare leaf in the computed frontier, since a
+strength-order entry closes nothing while the strong version is open.
+`CausesIn` at esse is read throughout for extrinsic (efficient) causes of
+being; DEF-CAUSE-OF-PERFECTION does not itself say so, and if it counted prime
+matter as a material cause of the composite's being (in act in no respect),
+agency in act, "a cause of being has being" and the maxim would fail for it (an
+unread lead). Objections: no substantive objection to the maxim, the
+calibration or agency in act identified, and no independent warrant for any of
+them is recorded either. The Plotinian "giver beyond being" is an unread lead
+with no weight; next test: read Enneads V.2.1 and check whether "beyond being"
+fails even the inclusive (eminent) `InAct`.
+
+**Where `376d6a5a` is load-bearing.** Its only consumer other than the strength-order registration is
+`causeOfQualityMoreSuch` (the Metaphysics α "more such" premise), which needs
+the unrestricted scope (now recorded as `strong_version_needed`). Q.4 a.2
+preexistence is derived only through that premise, which is why strict
+expansion makes `376d6a5a` indispensable on nine of ten routes even though
+preexistence has its own sourced claim. In the composition it enters through
+preexistence (the perfection attribute) and `STMT-GOD-IS-MAXIMAL-IN-BEING` (the
+unity step), not through the esse-cause bridge, which needs only the bottom
+rung. Meaning forks and their status. *Containment*: read formally (IN_ACT_1),
+and if CAUSE_2 at a respect r counts a maker as a cause of x's being r (an open
+bridge of `DISAMB-BECOMING-BEING-CAUSE`), the principle meets a counterexample:
+an artisan causes a shape he has only as art, not formally. Q.4 a.2 (claim
+`AQUINAS-ST-I-Q4-A2-PERFECTION-IN-CAUSE-A`) places the effect's perfection in
+the effective cause either by the same ratio, if univocal, or in a more eminent
+way, so the formal reading is not the source's and the shared `InAct` must be
+read inclusively (IN_ACT_3). That moves the burden to the consumers that use the
+same `InAct`: whether unlimited eminent possession exceeds limited formal
+possession (`STMT-UNLIMITED-POSSESSION-EXCEEDS-LIMITED`) and whether eminent
+possession counts for perfection. *Scope*: instruments (a chisel causes a shape
+it has neither formally nor as art) are a substantive objection to the
+unrestricted scope if `CausesIn` (CAUSE_2) counts instrumental causes; the reply
+that an instrument acts by the principal agent's power is an unread lead
+(q.62 a.4, De potentia q.3 a.7). The restriction to causes of being `d0fc96b7`
+is not touched by instruments of making, which are causes of becoming (open
+bridge of `DISAMB-BECOMING-BEING-CAUSE`). No principal-cause sibling is typed
+yet.
 
 **Perfection-transfer cycle (2026-11-12, [attempt](../../corpus/attempts/3de52780-6816-4638-bdba-92598aff14cc.json)).**
 PR #1480 found that unrestricted transfer (`f8ba2429`) and the residual
@@ -800,8 +1108,8 @@ attributes are confessed.
 | Dominus | primitive `IsLord` (LORD_1); typed sibling LORD_2, `IsLordByCauseAndGovernment`: causes the being of and governs everything else (below) | open bridge: creator of all is lord (q.13 a.7); or (second route) LORD_2, derived from the nine with one new directing bridge (q.22 a.2) and the q.103 a.3 reading, plus a weaker sense bridge LORD_2 → LORD_1 | same two routes |
 | omnipotens | `IsAlmighty` (active power; no clash with immutability, which excludes passive potency) | from infinity by the existing `STMT-INFINITE-ACT-HAS-INFINITE-POWER` (itself derived from three open premises) | same |
 | aeternus | `Eternal` | one of the nine | one of the nine |
-| immensus | primitive `Immense` (IMMENSE_1); typed sibling IMMENSE_2, `IsImmenseAsInfiniteCauseOfAll`: infinite and causes the being of everything else (below) | open bridge: creator of all is immense (q.8 a.1-2); or (second route) IMMENSE_2, contained in the nine with no premise, plus a weaker sense bridge IMMENSE_2 → IMMENSE_1 that carries all the substantive content | same two routes |
-| incomprehensibilis | primitive `Incomprehensible` (INCOMPREHENSIBLE_1); typed sibling INCOMPREHENSIBLE_2, `IsIncomprehensibleToCausedIntellects`: infinite and comprehended by no caused intellect, with a new primitive relation `Comprehends` (below) | open bridge: the infinite is incomprehensible (q.12 a.7); or (second route) INCOMPREHENSIBLE_2, derived from the nine with two new bridges (q.7 a.2, q.12 a.7; the q.7 a.2 bridge `18ca6f9d` is itself derived from one caused-esse-is-received bridge and two reception-limitation premises, see the unified route below), plus a weaker, nearly analytic sense bridge INCOMPREHENSIBLE_2 → INCOMPREHENSIBLE_1 | same two routes |
+| immensus | primitive `Immense` (IMMENSE_1); typed sibling IMMENSE_2, `IsImmenseAsInfiniteCauseOfAll`: infinite and causes the being of everything else (below) | open bridge: creator of all is immense (q.8 a.1-2); or (second route) IMMENSE_2, contained in the nine with no premise, plus a weaker sense bridge IMMENSE_2 → IMMENSE_1 that carries all the substantive content; that bridge is itself derived (declared single-application transcription) from a typed presence step and a narrowed bridge, the presence step resting either on the sustaining reading `23e04ae5` or on its weak version `ce55210c` (causes of another's being), which is derived from concurrent actualization `40a97664`, concurrence of causes of being `d7f5a528` and the reception bridge `da72ae93` (below; `da72ae93` is now itself derived through the CREATURE senses) | same two routes |
+| incomprehensibilis | primitive `Incomprehensible` (INCOMPREHENSIBLE_1); typed sibling INCOMPREHENSIBLE_2, `IsIncomprehensibleToCausedIntellects`: infinite and comprehended by no caused intellect, with a new primitive relation `Comprehends` (COMPREHEND_1; typed sibling COMPREHEND_2, knowing at a degree that reaches knowability, below) | open bridge: the infinite is incomprehensible (q.12 a.7); or (second route) INCOMPREHENSIBLE_2, derived from the nine with two bridges (q.7 a.2, q.12 a.7; the q.7 a.2 bridge `18ca6f9d` is itself derived from one caused-esse-is-received bridge and two reception-limitation premises, and that bridge from the CREATURE_2 → CREATURE_1 sense bridge and the q.7 a.2 reading at CREATURE_1, the sense bridge in turn from the proved Fourth-Way maximum; see the unified route and CREATURE senses below; the q.12 a.7 bridge `bbac932e` is derived from four premises on degrees of act, knowability and knowing and one COMPREHEND sense bridge, see comprehension by measure below), plus a weaker, nearly analytic sense bridge INCOMPREHENSIBLE_2 → INCOMPREHENSIBLE_1 | same two routes |
 | intellectu ac voluntate omnique perfectione infinitus | `HasIntellect`, `HasWill`, `IsPerfect`, `Infinite` (weaker: infinity of intellect and will as such untyped) | four of the nine | four of the nine |
 | simplex omnino, incommutabilis | `IsSimple`, `IsImmutable` | two of the nine | two of the nine |
 | substantia spiritualis | `IsSpiritual`: not matter-form composed (weaker: substance untyped; alone it fits prime matter or an accident) | derived: simplicity and the q.3 a.7 matter-form clause | derived: the root excludes matter-form composition |
@@ -884,7 +1192,66 @@ Objection audit. Existential inertia (Schmid 2021, read in the corpus) is a
 substantive objection to the immensity sense bridge if `CausesIn` is
 originating: what once caused everything need not now be present to anything.
 It is a rival framework, not an established counterexample, and on the sustaining
-reading the dispute moves to conservation (q.104 a.1), which stays open. No
+reading the dispute moves to conservation (q.104 a.1), which stays open.
+*Sustaining typed* (`SustainingCausation`, spec `specs/sustaining-causation.toml`,
+attempt `c94eed5b`, disambiguation `88a8fba7` CAUSE_OF_BEING: originating vs
+sustaining over a primitive time-indexed `GivesAt`). The presence step is now a
+derivation: whatever is IMMENSE_2 is present by giving being to everything else
+whenever it is (`9469ab62`), from three open premises, the sustaining reading of
+`CausesIn` (`23e04ae5`), presence-in-act (`140544c4`) and the time-indexed contact
+principle (`c4661518`). With a narrowed sense bridge (`a3913182`: place,
+containment, measure, the other modes of presence, immediacy) it gives `8bf775e9`
+itself, but that last step is a declared single-application transcription, so
+`8bf775e9` stays open until all its premises close. `8bf775e9` entails the
+narrowed bridge (strictness unchecked), so this is a finer split, not a weaker
+total commitment. This route reads `GivesAt` strictly (esse-giving), and
+`23e04ae5` is the sense bridge CAUSING_AN_EFFECT_3 → CAUSING_AN_EFFECT_5
+(the sustaining sense, also CAUSE_OF_BEING_2), declared in `sense_bridges` since
+#1501 together with its weak form `ce55210c` and the concurrence premise
+`d7f5a528` (disambiguation `c3c01e92`). The existential-inertia objection now targets exactly
+`23e04ae5`: in its typed shape (control 1) every cause of being originates, contact
+holds, and an IMMENSE_2 being is not present to what persists. Feser 2021 (read)
+answers that past existence is relevant but not sufficient and that constituents
+are only potentially the whole at the later time; that reply needs a
+concurrent-actualization premise (remaining in act needs an actual actualizer at
+the time), the point where the two sides divide.
+*Concurrent actualization typed* (`ConcurrentActualization`, spec
+`specs/concurrent-actualization.toml`, attempt `05bc2722`). The premise is
+`40a97664`: whatever has its esse received in some principle (DEF-ESSE-RECEIVED-IN)
+is given being by something at every moment at which it is present (strong
+version `76d2cc96`: by something distinct from it). The adopted `InPotency` is not
+used: DEF-POTENCY makes potency exclude act in the same respect, which would make
+the premise vacuous under presence-in-act. Concurrent actualization alone does not
+give the sustaining reading: it requires some giver at each moment, not one
+giver at every moment, and a relay of givers satisfies even the strong version
+(control 3). With the reception bridge `da72ae93` (already on the unified route)
+and one further open premise, concurrence of causes of being (`d7f5a528`:
+whatever causes another's being gives it being whenever anything does), it
+derives the weak sustaining reading `ce55210c`: every cause of *another* thing's
+being is CAUSE_OF_BEING_2. That is all the presence step uses, and `23e04ae5`
+strengthens it (registered, strict). The weak reading composes to `9469ab62` and,
+through the narrowed bridge (single-application transcription), to `8bf775e9`.
+Existential inertia satisfies the reception bridge and concurrence and falsifies
+only concurrent actualization (control 1). An intrinsic persistence power and a
+relay falsify concurrence. Each premise is needed and all hold together. Audit
+under the Standard (attempt `05bc2722`). Schmid's no-change explanation is a
+substantive undercutting objection: persistence follows from earlier existence,
+no destroyer and "a change occurs only if some factor causally induces it", with
+no concurrent giver. That defeats the explanatory-need warrant for concurrent
+actualization, but it does not show the premise false. Feser's composition
+argument independently motivates that nothing intrinsic secures persistence, but
+its step to "a factor active at t" is concurrent actualization itself; against
+the extrinsic account it presupposes the premise. His circularity and essence
+arguments are independently justified only against intrinsic and necessity
+versions of inertia. So the existential-inertia dispute with the extrinsic
+(Schmid) version now rests at `40a97664`: whether continuing in received act is
+an actualization at each moment. On the material read, neither side discharges
+its burden there. The persistence-power version satisfies the weak premise and
+rests at concurrence `d7f5a528` instead (control 2), answered provisionally by
+Feser's circularity argument. This route to immensity also rests on concurrence
+itself, for which no warrant is on file (q.105 a.5 unread). `GivesAt` is read
+strictly (esse-giving) throughout, and illumination is an analogy for the time
+profile only. Nothing is established. No
 other substantive objection was identified. The spatial-presence lead
 against omnipresence targets a reading of presence the bridge does not use. The
 lead that finite minds grasp quantitative infinities through finite definitions
@@ -894,6 +1261,62 @@ the knowability of God (DS 3004). Joint satisfiability of each new route's whole
 premise bundle is unresolved; these routes keep the old lord and blessed bridges.
 Computed delta: three support alternatives added and four bare premises added (two
 bridges, two sense bridges); no pre-existing premise is closed.
+
+**Comprehension by measure** (`ComprehensionByMeasure`, spec
+`specs/comprehension-by-measure.toml`, attempt `206c2982`). The finite-intellect
+bridge `bbac932e` is now derived, not assumed. The primitive `Comprehends` is
+COMPREHEND_1 (disambiguation `e151d506`). Its typed sibling COMPREHEND_2
+(`ComprehendsByMeasure`, definition `1218cc1e`) is knowing a being at a degree
+that reaches its degree of knowability. It uses three explicitly primitive
+measures on one Mathlib `Preorder` scale (definition `5b196f1c`): degree of act,
+knowability in itself, and degree of knowing. "Maximal" means greatest
+(`IsTop`: every degree is at most it), not merely `IsMax`. Four open premises
+carry what the bridge left unstated:
+
+- the INFINITE_1 has the greatest degree of act (`af79c4ee`, q.7 a.1);
+- everything is knowable at least as far as it is in act (`7921f9c8`, q.12 a.1,
+  q.16 a.3);
+- what is not INFINITE_1 does not have the greatest degree of act (`ea1c35a5`,
+  q.7 a.2; weakest form, met even by an incomparable degree);
+- nothing knows anything above its own degree of act (`7db53cde`, q.12 a.4 and
+  a.7; that degree includes the light of glory).
+
+The first two derive "infinitely knowable" (maximal knowability). The last two
+derive a non-maximal bound on every non-INFINITE_1 intellect's power of knowing,
+the weakest form of "knows finitely". Transitivity then excludes COMPREHEND_2
+(`231820b4`). The open sense bridge COMPREHEND_1 → COMPREHEND_2 (`76997ac8`)
+gives `bbac932e`. That bridge carries the knowing–knowability comparison for
+COMPREHEND_1 pairs and requires every COMPREHEND_1 to show up as some degree of
+knowing; its converse is not assumed. Commensurability (one scale for act,
+knowability and knowing) is the main open warrant gap, and it is imposed by four
+premises, not only the bridge: `7921f9c8`, `7db53cde`, `af79c4ee` (through
+`IsTop`, every degree is at most the INFINITE_1's act) and `76997ac8`. The first
+and third premises together make INFINITE_1 equivalent to the greatest degree of
+act, close to a degree reading of DEF-INFINITE, so the warrant load lies on
+`7921f9c8`, `7db53cde` and `76997ac8`.
+
+The controls show four things. Each premise and the sense bridge is needed.
+God's self-comprehension remains possible. On any scale with no maximum, the
+maximal-act premise entails that nothing is INFINITE_1. That is a commitment of
+its form, not an objection.
+
+Audit under the Standard: no substantive objection was identified.
+
+- The Cantor lead (no greatest cardinal) has not been shown to bear on intensive
+  degrees of act.
+- The natural-numbers lead has no bearing: ℕ is not INFINITE_1.
+- The beatific vision through the divine essence (q.12 a.2) is a scope point
+  internal to the case. Q.12 a.7 resolves it by the finite light of glory, which
+  `7db53cde` types.
+- The apophatic lead has no independent justification on file.
+- The commensurability lead (q.13 a.5: analogy, not univocity) targets all four
+  scale-imposing premises; no argument on file shows that it makes these
+  comparisons fail, and none establishes them either.
+
+Computed: `bbac932e` moves from bare to closed (a verified derivation from open
+premises; not established), and five bare premises are added. Open premises
+reaching the root go from 466 to 470. This is a stronger, more articulated
+commitment, not a weaker one.
 
 **Unified route** (`DeiFiliusUnifiedRoute`, spec
 `specs/dei-filius-unified-route.toml`, attempt `170d6a5e`). One route to the
@@ -908,12 +1331,66 @@ bridge `18ca6f9d` is now derived (`causedIsNotInfiniteFromReception`) from one
 new open bridge and two existing open premises: what has its being caused by
 another has its esse received in some principle (`da72ae93`, the bridge), received
 esse is limited, and an INFINITE_1 being's esse is not limited. The step from
-external cause to received esse is that one named bridge. It does not pass through
-`Creature`: `STMT-CAUSED-IN-BEING-BY-ANOTHER-IS-CREATURE` reads `Creature` broadly
-(ordered to some cause of its being), while `DEF-CREATURE` and the q.7 a.2 support
-of `STMT-CREATURE-ESSE-IS-RECEIVED` use the narrower sense (ordered to God), so a
-chain through both would equivocate. The individuation-by-esse scope condition
-binds the bridge in the same way. Joint satisfiability is no
+external cause to received esse is that one named bridge. Its first draft passed
+through `Creature` and equivocated: `STMT-CAUSED-IN-BEING-BY-ANOTHER-IS-CREATURE`
+glossed `Creature` broadly (ordered to some cause of its being), while
+`DEF-CREATURE` and the q.7 a.2 support of `STMT-CREATURE-ESSE-IS-RECEIVED` use
+the narrower sense (ordered to God). The individuation-by-esse scope condition
+binds the bridge in the same way.
+
+**CREATURE senses** (`CreatureSenses`, spec `specs/creature-senses.toml`, attempt
+`b682aeff`). The disambiguation `c49de1e9` now types both senses. CREATURE_1
+(`DEF-CREATURE`, `IsCreatureOfUniversalCause`) means caused in one's being by a
+being that causes the being of every other being in act. It reads q.13 a.5's
+"God" by the Fourth-Way description and does not build in uniqueness. CREATURE_2
+(`IsCausedInBeingByAnother`) means caused in one's being by some other being.
+CREATURE_1 entails CREATURE_2 by definition. A control separates them. The
+premise `STMT-CAUSED-IN-BEING-BY-ANOTHER-IS-CREATURE` is reread as the sense
+bridge: whatever is CREATURE_2 is CREATURE_1. Its consequent is the predicate
+that `STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES` and
+`STMT-CREATURE-ESSE-IS-RECEIVED` use, so the Round 2 chain through it, which
+carried the same unflagged equivocation, is now sense-consistent. The bridge is
+derived (`causedInBeingByAnotherIsCreature1`) from the proved Fourth-Way
+consequence `STMT-MAXIMAL-CAUSE-WITHOUT-DISTINCT-ESSE-CAUSE` and one
+weak premise `2f2f5bd2`, near-analytic under the atemporal reading of the cause of
+being. That consequence says that a maximum in
+being causes the being of every other being in act and has no distinct cause of
+its being. The weak premise says that whatever has its being caused is in act
+as to being, and it is the esse version of
+`STMT-CAUSED-PERFECTION-IS-HAD-BY-EFFECT`. With the bridge, `da72ae93` is derived
+(`causedEsseIsReceivedThroughCreature1`) from that bridge and the q.7 a.2 reading
+at CREATURE_1, the scope of things made by God. This is not a mere re-split. The
+generalization from what God causes to whatever is caused in being now rests on
+the universal causation of being that the Fourth Way already asserts on the root
+routes. The open q.7 a.2 reading `29e71e43` still carries two things: reception
+itself, and the generalization from a subsistent created form (what q.7 a.2
+speaks of) to every CREATURE_1.
+
+The legacy statements `b7d4eede`, `29e71e43` and `612078bf` take `Creature` as a
+Lean parameter. Bind-check matches by head constant, so on its own it cannot keep
+them at CREATURE_1. The new arguments therefore bind sense-fixed siblings whose
+own declarations name the sense constants:
+`CausedInBeingByAnotherIsCreature1` (`5969873b`, the derived bridge) and
+`Creature1EsseIsReceived` (`ea2c4745`, supported like `29e71e43`). The new
+arguments declare `term_senses` CREATURE_1, so bind-check rejects a CREATURE_2
+instantiation; a checked negative test was rejected. Two instantiation
+transcriptions tie the siblings to the legacy statements. Only the merged legacy
+arguments still rely on records for the sense.
+
+Computed against `78e5ed2e`: `b7d4eede` and `da72ae93` move from bare to closed
+(not established). `2f2f5bd2` is added bare and `ea2c4745` is added supported.
+Open premises reaching the root stay at 464 (bare 325 to 324, supported 93 to
+94). `0e242e29` itself newly reaches the root through this route; its own
+premises already did. `STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES`, read at
+CREATURE_1, now carries the existence of a universal cause of being. That is
+close to the conclusion of the attribution genus-principle argument that uses
+it, a warrant burden on that premise rather than a proof gap. Existential inertia targets sustaining causation of being,
+which `#1493` types as CAUSE_OF_BEING_2. The step here uses the atemporal cause
+of being and no persistence claim. The esse-essence tradition of Scotus, Ockham
+and Suárez is an unread lead. It would now target the reception premises, the
+q.7 a.2 reading `29e71e43` and the reception-limitation premise `7de89edb`, not
+the sense bridge. It would do so only on a really-distinct reading of the
+receiving principle. Joint satisfiability is no
 longer unresolved for these two routes. A two-being model satisfies the whole
 sufficiency bundle and every open leaf under its nine-statements; its being with
 the nine is a cause of the being of a composite, potential, caused intellect, and
@@ -1247,11 +1724,23 @@ conditional investigations, not a mandatory first gate:
    essence-based account of dependence between necessary beings might give no
    novel edge (as sketched it is a two-way invariance, stronger than no novel
    edge), and with F1 and J1 coverage; the rival's world-varying shape simply
-   denies such an account.
+   denies such an account. Done (2026-11-12, "Graded foundation"): a
+   analyst-motivated discriminator now exists. If support between
+   necessary beings ascends one world-invariant grade of being with no
+   infinite ascent, J2 follows and the rival is excluded
+   (`unionWFOfAscent`, `mutualSupportExcludedByGrade`). This uses neither
+   no-novel-edge nor AGWF. The motivation is the cause-is-more principle, read
+   at every world. The rival's price is a necessary being whose grade varies
+   between worlds, or support from an equal or a lesser being. No established
+   counterexample; the warrant offered for strict ascent among univocal (equal)
+   necessary sustainers depends on the open unrestricted cause-is-more
+   principle. The rigid grade does not yield coverage (`OffWorldAscent`).
    Objection status (substantive objection standard, 2026-11-12): no substantive
-   objection to J2, to no-novel-edge or to coverage is recorded, and no
-   independent warrant for coverage or no-novel-edge is recorded either; their
-   motivation is open. The
+   objection to J2, to no-novel-edge or to coverage is recorded; for rigid
+   ascent no established counterexample is recorded, with the univocal-equals
+   point above open. No independent warrant for coverage or no-novel-edge is recorded;
+   their motivation is open. Rigid ascent has the analyst motivation above,
+   whose limits are univocal and instrumental causes. The
    mutual-support rival names J2 and a definite mechanism (a cross-world cycle in
    the union of support edges), but the corpus supplies no independent
    justification that support between necessary concrete beings ever runs in a
@@ -1315,6 +1804,15 @@ conditional investigations, not a mandatory first gate:
    grades of being. The
    sixteen formal-alternative rows need a read source before they carry any
    weight; until then they show only where each premise is needed.
+   Next for the esse-cause bridge and "nothing gives what it does not have"
+   (2026-11-12, above): a derivation of preexistence that avoids `376d6a5a`
+   (for example from unrestricted transfer `f8ba2429` and a cause-of-being
+   restriction grounded without preexistence), which would lift the nine-route
+   bottleneck; a principal-cause sibling of `376d6a5a` with
+   `causeOfQualityMoreSuch` restated for principal causes; warrant for
+   act-to-existence `546975ef` (the actualist reading of esse at the reading
+   world); and the remaining bridge leaves, effect dependence and
+   dependence-to-grounding.
 5. A2's warrant (2026-11-12, see the A2 derivation under Arrival A). A2 now has
    a derivation from two open grounding principles (A2ab, A2c). Next: state and
    test a non-inductive ex nihilo warrant for A2ab. The one standing objection,
@@ -1331,3 +1829,9 @@ conditional investigations, not a mandatory first gate:
    order and whether its laws and state count as concrete. Test whether A2c can
    be replaced by a condition on time (founded intervals above the empty
    moment), and compare the prices.
+6. Act priority (2026-11-12, [above](#act-priority-over-potency-2026-11-12)):
+   test premises 2 and 3 at a first being (an uncaused composite) against a
+   read dipolar or initial-state account. Find warrant for premises 1 and 2.
+   Rewire the eight earlier consumers of 3b2d2d46, which now warn without
+   `strong_version_needed`, to the first-being version. Fix the sense links
+   of a4d3261a, c6d6379b and 2b25a78c.

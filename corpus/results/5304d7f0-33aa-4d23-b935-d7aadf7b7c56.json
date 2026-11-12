@@ -1,0 +1,11 @@
+{
+  "id": "5304d7f0-33aa-4d23-b935-d7aadf7b7c56",
+  "label": "Q.4 a.2 preexistence entails nothing gives being it lacks",
+  "argument_id": "82c7e24b-0273-42e8-a0d8-024559e78b25",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.CauseOfBeingHasBeing.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.CauseOfBeingHasBeing.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.CauseOfBeingHasBeing.causeOfABeingHasBeingOfPreexistence",
+  "comparator_config": "results/5304d7f0-33aa-4d23-b935-d7aadf7b7c56/comparator.json",
+  "status": "solution-present",
+  "description": "Strength order registration: the esse instance of q.4 a.2 preexistence. Application only; it establishes neither. Strictness: control 12."
+}

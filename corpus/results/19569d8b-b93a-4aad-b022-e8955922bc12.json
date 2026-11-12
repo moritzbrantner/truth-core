@@ -1,0 +1,11 @@
+{
+  "id": "19569d8b-b93a-4aad-b022-e8955922bc12",
+  "label": "The unscoped giver of being entails the giver of a being's being",
+  "argument_id": "c5775355-7106-4fbc-96bb-af77bbc016e6",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.CauseOfBeingHasBeing.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.CauseOfBeingHasBeing.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.CauseOfBeingHasBeing.causeOfABeingHasBeingOfHasBeing",
+  "comparator_config": "results/19569d8b-b93a-4aad-b022-e8955922bc12/comparator.json",
+  "status": "solution-present",
+  "description": "Strength order registration. Application only; it establishes neither. Strictness: control 13."
+}

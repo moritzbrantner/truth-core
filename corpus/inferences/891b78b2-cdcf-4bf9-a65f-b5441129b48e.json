@@ -1,0 +1,12 @@
+{
+  "id": "891b78b2-cdcf-4bf9-a65f-b5441129b48e",
+  "label": "Q.4 a.2 preexistence entails nothing gives being it lacks (inference)",
+  "input_statement_ids": [
+    "64498e7e-7f10-54a0-9ec0-c65e6076de1f"
+  ],
+  "output_statement_id": "4a5a43a5-bb4d-4a87-828a-d913a1f0422e",
+  "rule": "Instantiate preexistence at the respect esse",
+  "meaning": "Strength order registration: the esse instance of q.4 a.2 preexistence. Application only; it establishes neither. Strictness: control 12.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

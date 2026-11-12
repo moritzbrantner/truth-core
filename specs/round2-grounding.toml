@@ -15,7 +15,7 @@ results = "TruthCore.Results.Causality.Round2Grounding"
 id = "STMT-ESSE-CAUSES-EXIST-AT"
 lean = "EsseCausesExistAt"
 paraphrase = "OPEN analyst premise: at the reading world w, whatever causes the esse of an actual concretum exists at w. Only causes of esse of things that are concrete and exist at w are constrained; no temporal reading of 'exists at w' is implied."
-definitions = ["DEF-CAUSE-OF-PERFECTION", "DEF-ESSE", "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY", "DEF-KANT-ONTOLOGICAL-MODEL"]
+definitions = ["DEF-CAUSE-OF-PERFECTION", "DEF-ESSE", "DEF-KANT-ONTOLOGICAL-MODEL"]
 disambiguations = ["DISAMB-CAUSE"]
 
 [[statement]]
@@ -36,7 +36,7 @@ disambiguations = ["DISAMB-CAUSE"]
 id = "STMT-ACTUAL-DEPENDENCE-IS-GROUNDING"
 lean = "ActualDependenceIsGrounding"
 paraphrase = "OPEN analyst bridge: if an actual concretum x depends for its being on an actual concretum c, then c grounds x under the selected relation at w. One direction only: grounding is not claimed to be dependence, and dependence on absent or abstract things is not constrained."
-definitions = ["DEF-DEPENDS-FOR-BEING", "DEF-BRUTE-ROOT-RELATIVE-GROUNDING", "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY", "DEF-CONCRETE-ESSE-IN-RE"]
+definitions = ["DEF-DEPENDS-FOR-BEING", "DEF-BRUTE-ROOT-RELATIVE-GROUNDING", "DEF-CONCRETE-ESSE-IN-RE"]
 disambiguations = ["DISAMB-CAUSAL-POWER-GROUNDING", "DISAMB-CONCRETE-ABSTRACT-CRITERIA"]
 
 # ---- Simple priority and causes of necessity ----
@@ -125,7 +125,7 @@ definitions = ["DEF-DEPENDS-FOR-BEING"]
 id = "STMT-ACTUAL-GROUND-IS-MORE-IN-ESSE"
 lean = "ActualGroundIsMoreInEsse"
 paraphrase = "OPEN analyst bridge: whenever an actual concretum a grounds an actual concretum b at w, a is more in esse than b (MoreIn esse a b, the quarta via's grades). Equal-grade grounding would falsify it."
-definitions = ["DEF-MORE-IN", "DEF-ESSE", "DEF-BRUTE-ROOT-RELATIVE-GROUNDING", "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY"]
+definitions = ["DEF-MORE-IN", "DEF-ESSE"]
 disambiguations = ["DISAMB-BEING-UNIVOCITY"]
 
 [[statement]]

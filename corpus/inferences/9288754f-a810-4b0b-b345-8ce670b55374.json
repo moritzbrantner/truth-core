@@ -1,0 +1,12 @@
+{
+  "id": "9288754f-a810-4b0b-b345-8ce670b55374",
+  "label": "No infinite ascent among necessary concreta, from no infinite ascent in being (inference)",
+  "input_statement_ids": [
+    "7dfa068a-9974-5fcd-ba23-fac4dee2fc70"
+  ],
+  "output_statement_id": "78945dde-2e6b-4e40-9383-ecb615208930",
+  "rule": "Subrelation of a well-founded relation",
+  "meaning": "The global no-infinite-ascent premise implies its restriction to concreta necessary from the selected world. Registered as a strength order. With the two restrictions and every-world ascent, one global premise about the grade of being serves AGWF, J2 and the grades-to-maximum route.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

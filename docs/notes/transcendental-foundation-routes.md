@@ -7,6 +7,14 @@ Formal home: `TruthCore/Logic/TranscendentalPractice.lean` and the two
 `TruthCore/Results/Logic/TranscendentalPractice/` certificates. The starting
 revision was `c0f23be` (after PR #924 and the explorer improvements).
 
+**Method clarification (2026-11-12):** An actual, suitably interpreted
+practice can provide prima facie or constitutive warrant for its genuine
+necessary preconditions. Do not demand an indefinitely prior, independent
+argument for each such condition. Test whether the alleged precondition is
+really necessary in that same practice and whether a stronger ontic or
+categorical conclusion needs a distinct bridge. This clarification does not
+upgrade the conditional results below into claims about actual performance.
+
 ## The thesis and the decisive fork
 
 Transcendental arguments have the form: **activity/commitment A occurs or is

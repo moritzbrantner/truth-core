@@ -1,0 +1,12 @@
+{
+  "id": "2ef3b97e-a85c-4495-8494-ce951d112013",
+  "label": "Act is SIMPLY_PRIOR_1 to POTENCY_2 at a first being, from independent act priority (inference)",
+  "input_statement_ids": [
+    "3b2d2d46-baa6-4772-a2db-bb3daeb092fc"
+  ],
+  "output_statement_id": "61ad11f3-476f-411d-9720-d9f05cbc22fc",
+  "rule": "Instantiation: the potency bearer is taken to be a first being",
+  "meaning": "Act's simple priority over every potency of the independently supplied potency parameter (IndependentPriority, the transparent wrapper of the STMT-ACT-SIMPLY-PRIOR-TO-POTENCY body) gives it for the potencies of first beings. Registered as a strength order (the strong reading strengthens its first-being instance); strictness is witnessed by Control.ColdStone. An instance, not a new derivation; no premise is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

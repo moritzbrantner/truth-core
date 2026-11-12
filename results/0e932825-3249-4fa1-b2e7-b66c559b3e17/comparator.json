@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.NecessaryClassicalGodRootGodExists.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessaryClassicalGodRootGodExists.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.NecessaryClassicalGodRootGodExists.godExists"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

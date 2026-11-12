@@ -1,0 +1,9 @@
+{
+  "id": "432451a4-cde1-4386-9015-95bb1176dfd0",
+  "label": "No wholly borrowed collection of actual concreta",
+  "term": "no wholly borrowed collection",
+  "definition": "Over the #505 Profile, a collection S is supply-closed at w (SupplyClosedActual m w S) when every member is an actual concretum at w and every candidate existing at w that grounds a member at w, concrete or not, is in S. NoWhollyBorrowedCollection m w holds when every supply-closed collection each of whose members has some actual supplier (Lean: is not such that no existing candidate grounds it) is empty. Ordinary meaning: no collection of actual concrete things can contain every actual supplier of each of its members while each member has its being from some supplier; borrowed being needs a lender that does not borrow. Orientation example (not warrant): a ring of debtors, each lending only what another lent, with no creditor outside. Counterexamples (formal): a pure regress (n+1 grounds n). Non-counterexample: an abstract supplier outside the concreta (Control.abstractSupplier) makes every concrete-only collection non-closed, so the principle holds there while the closed-collection condition fails. Distinguished from closed-collection rootedness, which closes only over actual concrete grounds.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.ClosedGroundingRoots.NoWhollyBorrowedCollection",
+  "note": "Analyst framework definition, attribution deferred (#310). The collection form of the dependence-transmission ('borrowed reality') argument, restricted to the profile's selected direct relation: suppliers outside that relation are not modelled. Offered by its proponents as a necessary conceptual principle; a possible wholly borrowed collection would defeat it as a necessary truth. Open premise."
+}
