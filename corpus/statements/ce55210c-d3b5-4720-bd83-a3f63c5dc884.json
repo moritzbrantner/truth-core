@@ -1,0 +1,17 @@
+{
+  "id": "ce55210c-d3b5-4720-bd83-a3f63c5dc884",
+  "label": "Every cause of another thing's being is a CAUSE_OF_BEING_2 sustaining cause of it",
+  "paraphrase": "OPEN analyst bridge, attribution deferred (weak sustaining reading of the tenseless cause of being): in every history of the model, if c, distinct from x, causes x's being (CausesIn c x esse, CAUSING_AN_EFFECT_3) and x is present at some moment, then c gives x being at every moment at which x is present (CAUSE_OF_BEING_2, SustainsBeing). The restriction of 'Every cause of a thing's being is a CAUSE_OF_BEING_2 sustaining cause of it' (23e04ae5) to causes distinct from their effect: entailed by it (registered strength order), strictly weaker (Control part 5: a self-cause that gives nothing). It is all the immensity presence step uses, since the creator conjunct of IMMENSE_2 concerns every other being. Derived from concurrent actualization (weak), the reception bridge da72ae93 and concurrence of causes of being. Contested by existential inertia (Schmid 2021, read) through the concurrent-actualization premise.",
+  "lean_declaration": "TruthCore.Causality.ConcurrentActualization.CausingAnothersBeingIsSustaining",
+  "definition_ids": [
+    "ed47a5a7-fa84-43cb-950b-2552b33b99ff",
+    "158301bc-9585-4145-be60-34f08c9f922c",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "56989bd0-a232-56ea-9093-c89350effff4",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e"
+  ],
+  "disambiguation_ids": [
+    "88a8fba7-f1a1-4340-8a7f-41dd39bbbe7d",
+    "c3c01e92-520e-5358-a58f-0cc7e9c9e6fa"
+  ]
+}

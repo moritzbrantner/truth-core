@@ -1,0 +1,12 @@
+{
+  "id": "40826286-2dbe-4df6-a17c-63b4bbea75fe",
+  "label": "IMMENSE_2 is IMMENSE_1, from weak sustaining, contact and the narrowed sense bridge",
+  "argument_id": "150d634d-b9a0-4260-ac6d-a0971faa7c76",
+  "challenge_module": "TruthCore.Results.Causality.ConcurrentActualization.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ConcurrentActualization.Solution",
+  "theorem": "TruthCore.Results.Causality.ConcurrentActualization.immenseSenseBridgeOfAnothersSustaining",
+  "comparator_config": "results/40826286-2dbe-4df6-a17c-63b4bbea75fe/comparator.json",
+  "status": "solution-present",
+  "description": "Transcription (single application, invariant 16) of the narrowed sense bridge a3913182 after a non-transcription presence derivation, as in the registered route through the strong sustaining reading (argument 0681f64a), with the weak sustaining reading in its place. Let g be IMMENSE_2. In every history of the model g is present by giving being to every other thing whenever it is (immense2PresentToAllOfAnothers, from the weak sustaining reading, presence-in-act and contact); the narrowed bridge then gives IMMENSE_1. 8bf775e9 stays open until every premise here is closed. Its point is to connect the derivation of the weak sustaining reading from concurrent actualization to the root route through 8bf775e9: on this route the existential-inertia dispute over immensity sits in the concurrent-actualization premise. All premises stay OPEN. No premise is established.",
+  "transcription": "single_application"
+}

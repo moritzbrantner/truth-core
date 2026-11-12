@@ -1,0 +1,140 @@
+# Concurrent actualization: the typed crux of the existential-inertia dispute
+# over the immensity presence step. SustainingCausation (#1493) located the
+# dispute at the sustaining reading of the tenseless cause of being (23e04ae5);
+# its attempt c94eed5b records that Feser's reply needs an untyped premise,
+# that remaining in act needs an actual actualizer at that time. This batch
+# types that premise over the received-esse vocabulary (DEF-ESSE-RECEIVED-IN)
+# and the #1493 primitive GivesAt, derives the weak sustaining reading (causes
+# of another's being) from it with the existing reception bridge da72ae93 and
+# one further premise (concurrence of causes of being), and composes the weak
+# reading into the immensity presence step 9469ab62. Analyst formulations,
+# attribution deferred; the Feser/Schmid audit is in attempt 05bc2722.
+
+[batch]
+vocab = "TruthCore.Causality.ConcurrentActualization"
+results = "TruthCore.Results.Causality.ConcurrentActualization"
+
+# ---------------------------------------------------------------- statements
+
+[[statement]]
+id = "Whatever has received esse is given being by something whenever it is present"
+lean = "ConcurrentlyActualized"
+paraphrase = "OPEN analyst premise, attribution deferred (concurrent actualization, weak version): in every history of the model, whatever has its esse received in some principle (EsseReceivedIn x z, DEF-ESSE-RECEIVED-IN: a principle standing to it as receiving potency to received act; the act/potency sense of 'not its own being') is, at every moment t at which it is present, given being at t by something (GivesAt v g x t for some g, the primitive of definition 158301bc). Meaning: remaining in received act at a moment is itself an actualization at that moment and needs an actual actualizer then; it combines the actualization principle (a potency is brought to act only by something in act) with the contested thesis that continuing in received act is, at each moment, a potency being actualized; the premise does not type them separately. Examples: the illumination of the air, which lasts only while the sun acts (ST I q.104 a.1 co.); a stone held aloft (time profile only). Counterexamples the inertialist offers (a persisting rock, the water in a glass) are the rival account, not established cases. Structure: per moment (for each t some giver), not one giver at every moment; the giver need not be a tenseless cause of being, and may be the thing itself (the strong version excludes that). The adopted InPotency is not used, since DEF-POTENCY makes potency exclude act in the same respect, which would empty the premise under presence-in-act. The target of existential inertia (Schmid 2021, read): in its typed shape (Control part 1) a received-esse thing persists with nothing giving it being. Entailed by its strong version (registered strength order)."
+definitions = ["DEF-ESSE-RECEIVED-IN", "158301bc-9585-4145-be60-34f08c9f922c", "DEF-TEMPORAL-HISTORY-NOW-SLICE", "DEF-ESSE"]
+disambiguations = ["DISAMB-ESSE-RECEPTION"]
+
+[[statement]]
+id = "Whatever has received esse is given being by another whenever it is present"
+lean = "ConcurrentlyActualizedByAnother"
+paraphrase = "OPEN analyst premise, attribution deferred (concurrent actualization, strong version): in every history of the model, whatever has its esse received in some principle (DEF-ESSE-RECEIVED-IN) is, at every moment t at which it is present, given being at t (GivesAt, definition 158301bc) by something distinct from it. The distinctness clause excludes the thing's own persistence power as the factor, the form of the reply attributed to Feser 2021 (read; paragraph beginning 'But this simply ignores': if the additional factor is some other part of the thing itself, the circularity problem returns); no claim attributes this premise to him. It is not used by the derivation, which needs only the weak version; it is satisfied with different givers at different moments (Control part 3, relay), so it does not by itself give a sustaining cause. Strengthens 'Whatever has received esse is given being by something whenever it is present' (registered); an intrinsic persistence power satisfies the weak version and falsifies this one (Control part 2)."
+definitions = ["DEF-ESSE-RECEIVED-IN", "158301bc-9585-4145-be60-34f08c9f922c", "DEF-TEMPORAL-HISTORY-NOW-SLICE", "DEF-ESSE"]
+disambiguations = ["DISAMB-ESSE-RECEPTION"]
+
+[[statement]]
+id = "Whatever causes another's being gives it being whenever anything gives it being"
+lean = "CausesOfBeingConcur"
+paraphrase = "OPEN analyst premise, attribution deferred (concurrence of causes of being): in every history of the model, if c, distinct from x, causes x's being (CausesIn c x esse, the tenseless CAUSING_AN_EFFECT_3) and something gives x being at moment t (GivesAt v g x t), then c gives x being at t. A per se ordering of the givers of a thing's being: a cause of x's being is acting on x whenever any giver of x's being is. It supplies the step from 'some giver at each moment' to 'this cause at each moment' (the quantifier swap and the identification). It constrains only moments at which something gives x being, so the existential-inertia interpretation satisfies it (Control part 1). Lead, not an established counterexample to the esse case: in illumination a room lit by a lamp can then be lit by daylight with the lamp off (a relay of sources, Control part 3 is the typed shape); whether causes of being admit such a relay is open; the immensity route needs this premise only for a cause of the being of everything else, and a restriction to such causes would avoid the relay lead (not formalized)."
+definitions = ["158301bc-9585-4145-be60-34f08c9f922c", "DEF-CAUSE-OF-PERFECTION", "DEF-TEMPORAL-HISTORY-NOW-SLICE"]
+disambiguations = ["DISAMB-BECOMING-BEING-CAUSE"]
+
+[[statement]]
+id = "Every cause of another thing's being is a CAUSE_OF_BEING_2 sustaining cause of it"
+lean = "CausingAnothersBeingIsSustaining"
+paraphrase = "OPEN analyst bridge, attribution deferred (weak sustaining reading of the tenseless cause of being): in every history of the model, if c, distinct from x, causes x's being (CausesIn c x esse, CAUSING_AN_EFFECT_3) and x is present at some moment, then c gives x being at every moment at which x is present (CAUSE_OF_BEING_2, SustainsBeing). The restriction of 'Every cause of a thing's being is a CAUSE_OF_BEING_2 sustaining cause of it' (23e04ae5) to causes distinct from their effect: entailed by it (registered strength order), strictly weaker (Control part 5: a self-cause that gives nothing). It is all the immensity presence step uses, since the creator conjunct of IMMENSE_2 concerns every other being. Derived from concurrent actualization (weak), the reception bridge da72ae93 and concurrence of causes of being. Contested by existential inertia (Schmid 2021, read) through the concurrent-actualization premise."
+definitions = ["ed47a5a7-fa84-43cb-950b-2552b33b99ff", "158301bc-9585-4145-be60-34f08c9f922c", "DEF-CAUSE-OF-PERFECTION", "56989bd0-a232-56ea-9093-c89350effff4", "DEF-TEMPORAL-HISTORY-NOW-SLICE"]
+disambiguations = ["88a8fba7-f1a1-4340-8a7f-41dd39bbbe7d", "DISAMB-BECOMING-BEING-CAUSE"]
+
+[[statement]]
+id = "Concurrent-actualization controls: inertia, persistence power, relay, omissions and nonvacuity"
+lean = "Control.Certificate"
+paraphrase = "Closed controls on interpretations with one world and natural-number times; statements about these interpretations only. (1) Extrinsic existential inertia (Schmid's no-change account): two individuals, true causes false's being and gives it being at time 1 only, false (alone with received esse) persists from time 1 on. The reception bridge, concurrence of causes of being, presence-in-act and the contact principle hold and true is IMMENSE_2; concurrent actualization (weak) fails, the weak sustaining reading fails, and true is not present to all whenever they are. (2) Intrinsic persistence power: the same history, with false giving itself being from time 1 on. The reception bridge, the weak concurrent actualization and contact hold; the strong version, concurrence and the weak sustaining reading fail. (3) Relay, three individuals: 0 causes 1's being and gives it being at time 1; a later sustainer 2 gives 1 being from time 2 on. The reception bridge, the strong concurrent actualization and contact hold; concurrence and the weak sustaining reading fail. (4) No received esse, inertia history: both versions of concurrent actualization (vacuously) and concurrence hold; the reception bridge and the weak sustaining reading fail. (5) Every thing causes its own being only, no giving: the weak sustaining reading holds and the sustaining reading 23e04ae5 fails. (6) An absent giver: the weak sustaining reading and presence-in-act hold, contact and presence to all fail; nothing in act and no causes: the weak sustaining reading and contact hold, presence-in-act and presence to all fail. (7) true present always, false from time 1 with received esse, true giving it being from time 1 on: the reception bridge, both versions of concurrent actualization, concurrence, both sustaining readings, presence-in-act and contact hold, true is IMMENSE_2 and present to all whenever they are."
+definitions = ["DEF-ESSE-RECEIVED-IN", "158301bc-9585-4145-be60-34f08c9f922c", "ed47a5a7-fa84-43cb-950b-2552b33b99ff", "1335688a-d3f2-492e-9b71-c8062280fe16", "641c767b-4289-4d92-b900-da7ad603d282", "DEF-TEMPORAL-HISTORY-NOW-SLICE"]
+disambiguations = ["88a8fba7-f1a1-4340-8a7f-41dd39bbbe7d", "3fc3ee02-c3cc-4a61-9724-914d9d07b0dd"]
+
+# ---------------------------------------------------------------- arguments
+
+[[argument]]
+id = "Causes of another's being are CAUSE_OF_BEING_2 sustaining, from concurrent actualization"
+theorem = "sustainingOfConcurrentActualization"
+premises = ["da72ae93-5c8d-4717-8c17-97eeb8037317", "Whatever has received esse is given being by something whenever it is present", "Whatever causes another's being gives it being whenever anything gives it being"]
+conclusion = "Every cause of another thing's being is a CAUSE_OF_BEING_2 sustaining cause of it"
+senses = {CAUSE_OF_BEING = "CAUSE_OF_BEING_2"}
+axioms = []
+rule = "Reception bridge, then concurrent actualization at the moment, then concurrence of causes of being"
+meaning = "New non-transcription conditional derivation of the weak sustaining reading. Let c, distinct from x, cause x's being, and let x be present at t in history v. By the reception bridge da72ae93 (what has its being caused by another has its esse received in some principle) x's esse is received in some principle; by concurrent actualization something gives x being at t; by concurrence of causes of being c gives x being at t. So c gives x being at every moment at which x is present (CAUSE_OF_BEING_2). Each premise is needed in a checked interpretation: without concurrent actualization (existential inertia, Control part 1), without concurrence (intrinsic persistence power, part 2; relay, part 3, where even the strong concurrent actualization holds), without the reception bridge (part 4); all hold nonvacuously with the conclusion (part 7). The distinctness of the giver is not used. Of the three premises, existential inertia rejects only concurrent actualization (part 1), so the dispute over the sustaining reading now sits exactly there. All premises stay OPEN; the reception bridge inherits the scope condition of definition 80dea550. No premise is established."
+
+[[argument]]
+id = "Concurrent actualization by another entails concurrent actualization"
+theorem = "concurrentlyActualizedOfByAnother"
+premises = ["Whatever has received esse is given being by another whenever it is present"]
+conclusion = "Whatever has received esse is given being by something whenever it is present"
+axioms = []
+rule = "Drop the distinctness of the giver"
+meaning = "Strength order registration: if, whenever a received-esse thing is present, something distinct from it gives it being, then something gives it being. Application only; it establishes neither. Strictness is witnessed by Control part 2 (an intrinsic persistence power satisfies the weak version and falsifies the strong one)."
+
+[[argument]]
+id = "The sustaining reading entails its restriction to causes of another's being"
+theorem = "anothersSustainingOfSustaining"
+premises = ["23e04ae5-98ed-4464-8f9b-dc0dfbad0caa"]
+conclusion = "Every cause of another thing's being is a CAUSE_OF_BEING_2 sustaining cause of it"
+senses = {CAUSE_OF_BEING = "CAUSE_OF_BEING_2"}
+axioms = []
+rule = "Instantiate the sustaining reading; the distinctness hypothesis is unused"
+meaning = "Strength order registration: the sustaining reading 23e04ae5 (every cause of a thing's being sustains it) entails its restriction to causes distinct from their effect. Application only; it establishes neither. Strictness is witnessed by Control part 5 (a self-cause that gives nothing)."
+
+[[argument]]
+id = "IMMENSE_2 is present to all whenever they are, from weak sustaining and contact"
+theorem = "immense2PresentToAllOfAnothers"
+premises = ["Every cause of another thing's being is a CAUSE_OF_BEING_2 sustaining cause of it", "140544c4-3152-4543-9590-9567acf874a2", "c4661518-33cc-4a53-ae55-cb986be9c2b5"]
+conclusion = "9469ab62-19a6-4053-9d22-540e5d4152bf"
+senses = {CAUSE_OF_BEING = "CAUSE_OF_BEING_2", IMMENSE = "IMMENSE_2"}
+axioms = []
+rule = "Creator conjunct of IMMENSE_2 at each other present thing, through presence-in-act; weak sustaining reading; contact"
+meaning = "New non-transcription conditional derivation of the immensity presence step 9469ab62 with the weak sustaining reading in place of 23e04ae5. Let g be IMMENSE_2 and x, other than g, present at t in history v. x is in act as to being (presence-in-act), so g causes x's being (creator conjunct, which concerns beings other than g); by the weak sustaining reading g gives x being at t; by the contact principle g is present at t. The infinity conjunct is not used. Each premise is needed in a checked interpretation: the weak sustaining reading (Control part 1, existential inertia), contact and presence-in-act (part 6); all hold nonvacuously (part 7). Composed with the derivation of the weak reading from concurrent actualization, the immensity presence step rests on the reception bridge, concurrent actualization, concurrence of causes of being, presence-in-act and contact, all OPEN. No premise is established."
+
+[[argument]]
+id = "IMMENSE_2 is IMMENSE_1, from weak sustaining, contact and the narrowed sense bridge"
+theorem = "immenseSenseBridgeOfAnothersSustaining"
+premises = ["Every cause of another thing's being is a CAUSE_OF_BEING_2 sustaining cause of it", "140544c4-3152-4543-9590-9567acf874a2", "c4661518-33cc-4a53-ae55-cb986be9c2b5", "a3913182-5557-4e8b-80d1-3771a57c3a03"]
+conclusion = "8bf775e9-34e0-48e5-bdd8-f48edd1040f7"
+senses = {CAUSE_OF_BEING = "CAUSE_OF_BEING_2"}
+sense_bridges = [
+  { term = "IMMENSE", from = "f9a7bc6c-f847-4f4c-9cf8-9f8d1cdcc5bf", to = "1bf8b401-ddd3-459a-bc15-67083eb8d2f1", statement_id = "a3913182-5557-4e8b-80d1-3771a57c3a03" },
+  { term = "IMMENSE", from = "f9a7bc6c-f847-4f4c-9cf8-9f8d1cdcc5bf", to = "1bf8b401-ddd3-459a-bc15-67083eb8d2f1", statement_id = "8bf775e9-34e0-48e5-bdd8-f48edd1040f7", role = "conclusion" },
+]
+axioms = []
+rule = "Derive presence to all from IMMENSE_2 in every history (immense2PresentToAllOfAnothers), then apply the narrowed sense bridge"
+transcription = "single_application"
+meaning = "Transcription (single application, invariant 16) of the narrowed sense bridge a3913182 after a non-transcription presence derivation, as in the registered route through the strong sustaining reading (argument 0681f64a), with the weak sustaining reading in its place. Let g be IMMENSE_2. In every history of the model g is present by giving being to every other thing whenever it is (immense2PresentToAllOfAnothers, from the weak sustaining reading, presence-in-act and contact); the narrowed bridge then gives IMMENSE_1. 8bf775e9 stays open until every premise here is closed. Its point is to connect the derivation of the weak sustaining reading from concurrent actualization to the root route through 8bf775e9: on this route the existential-inertia dispute over immensity sits in the concurrent-actualization premise. All premises stay OPEN. No premise is established."
+
+[[argument]]
+id = "Concurrent-actualization controls checked"
+theorem = "controls"
+premises = []
+conclusion = "Concurrent-actualization controls: inertia, persistence power, relay, omissions and nonvacuity"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+sense_mixing_control = true
+rule = "Explicit one-world interpretations over natural-number times, two or three individuals, checked by case analysis and linear arithmetic"
+meaning = "Existential inertia (the extrinsic no-change account) falsifies concurrent actualization and satisfies the other premises of the derivation; an intrinsic persistence power and a relay of givers falsify concurrence; without received esse the reception bridge fails; each premise of the derivation and of the immensity composition is needed in one interpretation; the weak sustaining reading and the weak concurrent actualization are strictly weaker than their strong versions; all premises hold together with both conclusions in one interpretation. A finite countermodel shows a premise is needed in that interpretation, not that it is false. Model claims concern these interpretations only."
+
+# ---------------------------------------------------------------- relations
+
+[[relation]]
+id = "Concurrent actualization by another strengthens concurrent actualization"
+subject_kind = "statement"
+subject_id = "Whatever has received esse is given being by another whenever it is present"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "Whatever has received esse is given being by something whenever it is present"
+verification_result_id = "Concurrent actualization by another entails concurrent actualization"
+note = "Same history, giving relation and reception predicate; the strong version adds that the giver is distinct from the thing. Strict: Control part 2 (intrinsic persistence power)."
+
+[[relation]]
+id = "The sustaining reading strengthens its restriction to causes of another's being"
+subject_kind = "statement"
+subject_id = "23e04ae5-98ed-4464-8f9b-dc0dfbad0caa"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "Every cause of another thing's being is a CAUSE_OF_BEING_2 sustaining cause of it"
+verification_result_id = "The sustaining reading entails its restriction to causes of another's being"
+note = "Same history, giving relation and cause of being; the weak version adds the hypothesis that the cause is distinct from its effect. Strict: Control part 5 (a self-cause that gives nothing)."

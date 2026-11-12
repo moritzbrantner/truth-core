@@ -49,5 +49,8 @@
       "statement_id": "8bf775e9-34e0-48e5-bdd8-f48edd1040f7",
       "role": "conclusion"
     }
-  ]
+  ],
+  "strong_version_needed": {
+    "23e04ae5-98ed-4464-8f9b-dc0dfbad0caa": "Not needed in substance: the presence step uses the cause of being only for beings other than the IMMENSE_2 being, so the weak version 'Every cause of another thing's being is a CAUSE_OF_BEING_2 sustaining cause of it' suffices. This route keeps the strong version because its Challenge was frozen before the weak version existed; the route through the weak version is immenseSenseBridgeOfAnothersSustaining (specs/concurrent-actualization.toml)."
+  }
 }

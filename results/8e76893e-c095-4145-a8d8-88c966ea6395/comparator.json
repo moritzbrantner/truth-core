@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.ConcurrentActualization.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ConcurrentActualization.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.ConcurrentActualization.anothersSustainingOfSustaining"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

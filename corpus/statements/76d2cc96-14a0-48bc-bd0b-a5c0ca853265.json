@@ -1,0 +1,15 @@
+{
+  "id": "76d2cc96-14a0-48bc-bd0b-a5c0ca853265",
+  "label": "Whatever has received esse is given being by another whenever it is present",
+  "paraphrase": "OPEN analyst premise, attribution deferred (concurrent actualization, strong version): in every history of the model, whatever has its esse received in some principle (DEF-ESSE-RECEIVED-IN) is, at every moment t at which it is present, given being at t (GivesAt, definition 158301bc) by something distinct from it. The distinctness clause excludes the thing's own persistence power as the factor, the form of the reply attributed to Feser 2021 (read; paragraph beginning 'But this simply ignores': if the additional factor is some other part of the thing itself, the circularity problem returns); no claim attributes this premise to him. It is not used by the derivation, which needs only the weak version; it is satisfied with different givers at different moments (Control part 3, relay), so it does not by itself give a sustaining cause. Strengthens 'Whatever has received esse is given being by something whenever it is present' (registered); an intrinsic persistence power satisfies the weak version and falsifies this one (Control part 2).",
+  "lean_declaration": "TruthCore.Causality.ConcurrentActualization.ConcurrentlyActualizedByAnother",
+  "definition_ids": [
+    "4433942e-aaf6-55a9-b777-66e55638103d",
+    "158301bc-9585-4145-be60-34f08c9f922c",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
+  ],
+  "disambiguation_ids": [
+    "5921354b-51e6-5da3-8d8c-e9041840fd9f"
+  ]
+}

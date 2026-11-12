@@ -1,0 +1,14 @@
+{
+  "id": "d7f5a528-6e11-44a1-a12a-438c88a46cbf",
+  "label": "Whatever causes another's being gives it being whenever anything gives it being",
+  "paraphrase": "OPEN analyst premise, attribution deferred (concurrence of causes of being): in every history of the model, if c, distinct from x, causes x's being (CausesIn c x esse, the tenseless CAUSING_AN_EFFECT_3) and something gives x being at moment t (GivesAt v g x t), then c gives x being at t. A per se ordering of the givers of a thing's being: a cause of x's being is acting on x whenever any giver of x's being is. It supplies the step from 'some giver at each moment' to 'this cause at each moment' (the quantifier swap and the identification). It constrains only moments at which something gives x being, so the existential-inertia interpretation satisfies it (Control part 1). Lead, not an established counterexample to the esse case: in illumination a room lit by a lamp can then be lit by daylight with the lamp off (a relay of sources, Control part 3 is the typed shape); whether causes of being admit such a relay is open; the immensity route needs this premise only for a cause of the being of everything else, and a restriction to such causes would avoid the relay lead (not formalized).",
+  "lean_declaration": "TruthCore.Causality.ConcurrentActualization.CausesOfBeingConcur",
+  "definition_ids": [
+    "158301bc-9585-4145-be60-34f08c9f922c",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e"
+  ],
+  "disambiguation_ids": [
+    "c3c01e92-520e-5358-a58f-0cc7e9c9e6fa"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "5651df1e-0da8-415d-aeee-54fe48d3c8fd",
+  "label": "Causes of another's being are CAUSE_OF_BEING_2 sustaining, from concurrent actualization",
+  "argument_id": "366a6ea3-604f-4485-9fdf-2f58a094df84",
+  "challenge_module": "TruthCore.Results.Causality.ConcurrentActualization.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ConcurrentActualization.Solution",
+  "theorem": "TruthCore.Results.Causality.ConcurrentActualization.sustainingOfConcurrentActualization",
+  "comparator_config": "results/5651df1e-0da8-415d-aeee-54fe48d3c8fd/comparator.json",
+  "status": "solution-present",
+  "description": "New non-transcription conditional derivation of the weak sustaining reading. Let c, distinct from x, cause x's being, and let x be present at t in history v. By the reception bridge da72ae93 (what has its being caused by another has its esse received in some principle) x's esse is received in some principle; by concurrent actualization something gives x being at t; by concurrence of causes of being c gives x being at t. So c gives x being at every moment at which x is present (CAUSE_OF_BEING_2). Each premise is needed in a checked interpretation: without concurrent actualization (existential inertia, Control part 1), without concurrence (intrinsic persistence power, part 2; relay, part 3, where even the strong concurrent actualization holds), without the reception bridge (part 4); all hold nonvacuously with the conclusion (part 7). The distinctness of the giver is not used. Of the three premises, existential inertia rejects only concurrent actualization (part 1), so the dispute over the sustaining reading now sits exactly there. All premises stay OPEN; the reception bridge inherits the scope condition of definition 80dea550. No premise is established."
+}
