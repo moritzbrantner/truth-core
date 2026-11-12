@@ -36,6 +36,13 @@ describe("graph URL state", () => {
     // The serializer keeps its canonical parameter order.
     expect(parseGraphState(new URLSearchParams(serializeGraphState(state)))).toEqual(state);
   });
+
+  test("the dispute between P and its negation is a deep-linkable graph view", () => {
+    const query = "view=dispute&node=STMT-A&hops=1&sel=STMT-A";
+    const state = parseGraphState(new URLSearchParams(query));
+    expect(state.view).toBe("dispute");
+    expect(serializeGraphState(state)).toBe(query);
+  });
 });
 
 test("viewport restoration rejects malformed and unbounded URL values", () => {
