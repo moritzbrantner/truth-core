@@ -893,8 +893,10 @@ whenever it is (`9469ab62`), from three open premises, the sustaining reading of
 `CausesIn` (`23e04ae5`), presence-in-act (`140544c4`) and the time-indexed contact
 principle (`c4661518`). With a narrowed sense bridge (`a3913182`: place,
 containment, measure, the other modes of presence, immediacy) it gives `8bf775e9`
-itself; `8bf775e9` strengthens the narrowed bridge, so this is a finer split, not
-a weaker total commitment. The existential-inertia objection now targets exactly
+itself, but that last step is a declared single-application transcription, so
+`8bf775e9` stays open until all its premises close. `8bf775e9` entails the
+narrowed bridge (strictness unchecked), so this is a finer split, not a weaker
+total commitment. The existential-inertia objection now targets exactly
 `23e04ae5`: in its typed shape (control 1) every cause of being originates, contact
 holds, and an IMMENSE_2 being is not present to what persists. Feser 2021 (read)
 answers that past existence is relevant but not sufficient and that constituents

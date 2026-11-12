@@ -8,7 +8,7 @@
   "inference_ids": [
     "24c5861a-74e8-4d81-8290-72f668b0c347"
   ],
-  "meaning": "Let g sustain (CAUSE_OF_BEING_2) every other thing present at some moment of history v, and let x, other than g, be present at t. Since x is present at some moment, g sustains x, so g gives x being at t; by the contact principle g is present at t. Hence g is present, and giving x being, whenever x is. A short derivation from one open premise; with an originating cause in place of a sustaining one the conclusion fails (Control part 1), and without the contact principle it fails (part 2). No premise is established.",
+  "meaning": "Let g sustain (CAUSE_OF_BEING_2) every other thing present at some moment of history v, and let x, other than g, be present at t. Since x is present at some moment, g sustains x, so g gives x being at t; by the contact principle g is present at t. Hence g is present, and giving x being, whenever x is. A short derivation from one open premise. The controls do not check this statement directly; they check the composed IMMENSE_2 presence route, where the contact principle is needed (Control part 2) and an originating cause in place of a sustaining one does not suffice (part 1). No premise is established.",
   "term_senses": {
     "CAUSE_OF_BEING": "5acddd28-aca0-410d-96d2-ef9386b8dc27"
   },
