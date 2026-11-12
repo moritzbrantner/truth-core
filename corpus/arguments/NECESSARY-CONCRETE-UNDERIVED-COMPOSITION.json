@@ -47,6 +47,7 @@
     "83264cf5-01fe-52fc-9a00-eeb024f6496e"
   ],
   "strong_version_needed": {
-    "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21": "Well-foundedness, not mere asymmetry, is needed: the proof extracts an actual root (a minimal element) of the selected relation, which asymmetry does not supply (an infinite descending chain of actual concreta is asymmetric and rootless). Recorded when ACTUAL-GROUNDING-ASYMMETRIC-FROM-WF registered the strength order (round 2 grounding)."
+    "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21": "Well-foundedness, not mere asymmetry, is needed: the proof extracts an actual root (a minimal element) of the selected relation, which asymmetry does not supply (an infinite descending chain of actual concreta is asymmetric and rootless). Recorded when ACTUAL-GROUNDING-ASYMMETRIC-FROM-WF registered the strength order (round 2 grounding).",
+    "dd41c165-129a-59d3-84ce-bd13c0944901": "The all-world form is needed, not only its selected-world instance: the descent runs through the cross-world union of support, so a supporter found at another world must be necessary. In Control.lateSupport (result 3ce3b9c0-d8c7-43a4-b14c-1ff7adb16dfa) the selected-world instance holds with every other premise of this argument while J1 and the conclusion fail. The coverage routes reach the same conclusion without J1 (underivedOfCoverage) or with the instance (underivedFromNecessityOfActualCoverage). Recorded when the NecessarySupportActualScope batch registered the strength order."
   }
 }

@@ -1,0 +1,11 @@
+{
+  "id": "bb9fdc32-6cf2-4012-a1b5-7bb9655210c8",
+  "label": "Underived necessary concretum, from necessity, actual no contingent support and coverage",
+  "argument_id": "36c6b111-29bd-4649-beb8-3960900e57f5",
+  "challenge_module": "TruthCore.Results.Causality.NecessarySupportActualScope.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessarySupportActualScope.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessarySupportActualScope.underivedFromNecessityOfActualCoverage",
+  "comparator_config": "results/bb9fdc32-6cf2-4012-a1b5-7bb9655210c8/comparator.json",
+  "status": "solution-present",
+  "description": "The coverage route from necessity (underivedFromNecessityOfCoverage) with J1 replaced by its selected-world instance. From a concretum existing at w and necessary from w, well-founded actual grounding at w (which makes support among actual necessary concreta at w well-founded, by the existing presentSupportWF) and no contingent concrete support at w, the existing actual_source_not_not gives, double-negated, an actual necessary concretum with no concrete supporter existing at w; excluded middle removes the double negation; coverage then excludes a concrete supporter existing at any admitted world, since such a supporter would yield one at w. The witness may differ from the given necessary concretum. Underived means no existing concrete supporter at any admitted world, not absence of every explanation. Conditional consequence only; no premise is established."
+}

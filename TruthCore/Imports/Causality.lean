@@ -121,6 +121,7 @@ public import TruthCore.Causality.NecessaryRootFork
 public import TruthCore.Causality.NecessaryRootUniqueness
 public import TruthCore.Causality.NecessarySenseFork
 public import TruthCore.Causality.NecessarySimplePlurality
+public import TruthCore.Causality.NecessarySupportActualScope
 public import TruthCore.Causality.NecessarySupportCoverage
 public import TruthCore.Causality.NonlimitingConcreteExistence
 public import TruthCore.Causality.OccurrenceUnderivedEssence

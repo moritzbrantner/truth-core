@@ -1,0 +1,85 @@
+# J1 of the modal spine's join (no contingent concrete support of a necessary
+# concretum), weakened to its selected-world instance. Analyst formulations,
+# attribution deferred. Registers J1 -> J1@w as a strength order, gives the
+# coverage route from necessity with J1@w in place of J1, and certifies that
+# J1@w cannot replace J1 on the two J2 routes or in the coverage bridge.
+
+[batch]
+vocab = "TruthCore.Causality.NecessarySupportActualScope"
+results = "TruthCore.Results.Causality.NecessarySupportActualScope"
+
+# ---------------------------------------------------------------- statements
+
+[[statement]]
+id = "Existing concrete supporters at the selected world of NECESSARY_2 concreta are NECESSARY_2"
+lean = "ActualNoContingentConcreteSupport"
+paraphrase = "Open premise, analyst formulation, unattributed: every concrete candidate that exists at the selected world w and stands, at w, in the selected relation to a concrete candidate existing at every world accessible from w itself exists at every world accessible from w. Supporters existing only at other worlds, and support edges at other worlds, are not constrained. The selected-world instance of STMT-NO-CONTINGENT-CONCRETE-SUPPORT, which constrains supporters and edges at every carrier world; it is the existing selected-world condition STMT-ACTUAL-NO-CONTINGENT instantiated on the concrete subtype."
+definitions = ["No contingent concrete supporter of a necessary concretum at the selected world", "DEF-NO-CONTINGENT-CONCRETE-SUPPORT", "DEF-CONCRETE-SUPPORT-RESTRICTION", "DEF-KANT-MODAL-NECESSITY", "DEF-PRESENT-ESSE-SUPPORT"]
+disambiguations = ["DISAMB-EXISTENCE-ESSE-SUPPORT", "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"]
+
+[[statement]]
+id = "Off-world contingent support and late support: controls for the world scope of J1"
+lean = "Control.Controls"
+paraphrase = "Closed controls on two interpretations, both with worlds false and true, universal access, and three concrete candidates t0, t1, t2, where t0 and t1 exist at both worlds and t2 only at true; evaluated at false. (1) Off-world contingent support (at false t0 supports t1; at true t2 supports t1): no contingent concrete support holds at the selected world but fails at every world (t2 supports the necessary t1 at true and is absent at false); the recorded rival that some necessary concretum is supported somewhere by a concretum absent from an accessible world holds; a necessary concretum, concrete population, well-founded actual grounding, every actual contingent concretum grounded, reflexive access, the well-founded cross-world union of necessary support, coverage and excluded middle hold; and t0 is a necessary actual concretum with no existing concrete supporter at any world. (2) Late support (at false t0 supports t1; at true t2 supports t0): no contingent concrete support at the selected world, a necessary concretum, concrete population, well-founded actual grounding, every actual contingent concretum grounded, reflexive access, the well-founded union, excluded middle and the one-way no-novel-edge condition hold, while no contingent concrete support at every world, coverage and the join's endpoint fail. Statements about these interpretations only."
+definitions = ["Off-world contingent support and late support controls for the world scope of J1", "No contingent concrete supporter of a necessary concretum at the selected world", "Actual coverage of support of a necessary concretum"]
+
+# ---------------------------------------------------------------- arguments
+
+[[argument]]
+id = "J1 at the selected world, from J1"
+theorem = "actualOfNoContingent"
+premises = ["STMT-NO-CONTINGENT-CONCRETE-SUPPORT"]
+conclusion = "Existing concrete supporters at the selected world of NECESSARY_2 concreta are NECESSARY_2"
+axioms = []
+rule = "Instantiation: the support world of J1 is taken to be the selected world"
+meaning = "J1 (every concrete supporter, at any carrier world, of a concretum necessary from w is necessary from w) gives its selected-world instance by taking the support world to be w. Registered as a strength order (J1 strengthens its instance); strictness is witnessed by Control.offWorldContingent. An instantiation, not a new derivation; no premise is established."
+
+[[argument]]
+id = "Underived necessary concretum, from necessity, actual no contingent support and coverage"
+theorem = "underivedFromNecessityOfActualCoverage"
+premises = ["STMT-NECESSARY-CONCRETE-AT", "STMT-ACTUAL-GROUNDING-WF", "Existing concrete supporters at the selected world of NECESSARY_2 concreta are NECESSARY_2", "A NECESSARY_2 concretum supported anywhere is supported by an actual concretum", "STMT-EXCLUDED-MIDDLE"]
+sense_bridges = [
+  { term = "NECESSARY", from = "8c881fa6-2b9f-44be-a32a-c8ef29c13643", to = "7af298fb-a2c4-4239-919b-7685f2e1f67a", statement_id = "STMT-NECESSARY-CONCRETE-AT" },
+  { term = "WORLD_RELATIVE_EXISTENCE_METAPHYSICAL_ESSE_NECESSITY", from = "2e064a7b-b29f-4f0b-8978-782674012d86", to = "57356a7a-ed0a-478f-abfc-2d47dd631135", statement_id = "A NECESSARY_2 concretum supported anywhere is supported by an actual concretum" },
+  { term = "WELL_FOUNDEDNESS_AND_ANTI_BRUTE_ROOT", from = "9232f675-db0a-474c-9f00-d8e5aba69ef7", to = "556515c9-1fcc-4ea0-b85d-2a4cad7eff79", statement_id = "STMT-ACTUAL-GROUNDING-WF" },
+  { term = "WELL_FOUNDEDNESS_OF_THE_SELECTED_RELATION", from = "2f42c0e7-46ae-4e2b-9ac4-95dcb865da61", to = "f4609d52-a878-4d09-9af3-083b1945770c", statement_id = "STMT-ACTUAL-GROUNDING-WF" },
+  { term = "NONNECESSARY_VERSUS_CONTINGENT_ROOT", from = "cf6a8bb9-2a70-4e90-86bd-06f69106da2f", to = "9f9108e2-3cc3-45dd-be1d-d8fdaaced708", statement_id = "STMT-ACTUAL-GROUNDING-WF" },
+]
+conclusion = "STMT-NECESSARY-CONCRETE-UNDERIVED-AT"
+axioms = []
+rule = "Composition of actual_source_not_not on the concrete subtype with presentSupportWF, then excluded middle and coverage"
+meaning = "The coverage route from necessity (underivedFromNecessityOfCoverage) with J1 replaced by its selected-world instance. From a concretum existing at w and necessary from w, well-founded actual grounding at w (which makes support among actual necessary concreta at w well-founded, by the existing presentSupportWF) and no contingent concrete support at w, the existing actual_source_not_not gives, double-negated, an actual necessary concretum with no concrete supporter existing at w; excluded middle removes the double negation; coverage then excludes a concrete supporter existing at any admitted world, since such a supporter would yield one at w. The witness may differ from the given necessary concretum. Underived means no existing concrete supporter at any admitted world, not absence of every explanation. Conditional consequence only; no premise is established."
+
+[[argument]]
+id = "Off-world contingent support and late support controls, checked"
+theorem = "controls"
+premises = []
+conclusion = "Off-world contingent support and late support: controls for the world scope of J1"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Two explicit finite interpretations, checked by case analysis and a rank function"
+meaning = "Controls for the world scope of J1. Off-world contingent support witnesses that J1 is strictly stronger than its selected-world instance, and that the recorded replaceable-support rival (contingent support of a necessary concretum at some admitted world) is compatible with the instance, with every premise of the new coverage route and with the join's endpoint. Late support shows that the instance cannot replace J1 in NecessaryConcreteUnderived.checks, in NecessaryConcreteUnderivedFromNecessity.underived or in coverageOfNoContingentNoNovel: with the instance in place of J1 all their other premises hold, while J1, coverage and the endpoint fail. Model-witnessed only; no interpretation is claimed metaphysically possible. Excluded middle is supplied by Lean's classical axioms."
+
+[[argument.research_comparisons]]
+target_statement_id = "Existing concrete supporters at the selected world of NECESSARY_2 concreta are NECESSARY_2"
+rival_statement_id = "Some necessary concretum is supported somewhere by a concretum absent from an accessible world"
+sense_definition_id = "No contingent concrete supporter of a necessary concretum at the selected world"
+outcome = "model-witnessed"
+conditions = "Control.offWorldContingent at world false: the selected-world instance of J1, the rival SomeNecessaryConcretumContingentlySupported, a necessary concretum, ActualGroundingWF, coverage and excluded middle hold; J1 fails; NecessaryConcreteUnderivedAt holds."
+scope = "Same Profile, selected relation and selected world as J1 and the rival; two mutually accessible worlds, three concrete candidates."
+coverage = "One explicitly populated interpretation; it shows compatibility of the rival as recorded (contingent support at some admitted world) with the weakened premise, not survival of either."
+exclusivity = "The rival implies the negation of J1 (existing SpineRivalsRootEsse result); it conflicts with the selected-world instance only in its actual-world form, a contingent concretum supporting a necessary concretum at w itself."
+witness = "Control.offWorldContingent in Control.OffWorldContingentControl; controls proves the listed conjuncts."
+next_step = "Assess the actual-world form of the replaceable-support rival: it needs a concrete necessary whole actually sustained by constituents that might not have existed, with a defended identity criterion (docs/notes/underived-essence-identity.md, Replaceable support). No independent justification for it, and no independent warrant for the selected-world instance, is recorded."
+
+# ---------------------------------------------------------------- relations
+
+[[relation]]
+id = "J1 strengthens its selected-world instance"
+subject_kind = "statement"
+subject_id = "STMT-NO-CONTINGENT-CONCRETE-SUPPORT"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "Existing concrete supporters at the selected world of NECESSARY_2 concreta are NECESSARY_2"
+verification_result_id = "J1 at the selected world, from J1"
+strictness_result_id = "Off-world contingent support and late support controls, checked"
+note = "Same Profile, selected relation and selected world. J1 constrains concrete supporters of necessary concreta at every carrier world; the instance only those existing and supporting at w. Control.offWorldContingent satisfies the instance while J1 fails."
