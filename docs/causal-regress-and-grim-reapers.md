@@ -374,10 +374,19 @@ local rules relative to its predecessor, are co-possible) and **patchwork**
 (co-possible adjacent pieces along the descent glue into one possible world).
 `populatedPastsFoundedOfPatchwork` derives founded populated pasts from the
 unrestricted versions; `populatedPastsBegunOfPatchwork` derives begun populated
-pasts from the versions restricted to coinitial descents (one station per past
-day), plus countable coinitiality. Each premise holds without the other in a
-beginningless integer history, so neither restates the conclusion. This
-supersedes the near-transcription `ReaperAssembly`.
+pasts from the versions restricted to coinitial descents (descents running
+below every earlier moment, e.g. one station per past day where the past is
+metrically infinite), plus countable coinitiality. Each premise holds without
+the other in a beginningless integer history. But since no world realizes a
+whole arrangement (a theorem), the typed patchwork premise for a frame is
+equivalent to "adjacent pieces are not all co-possible along any populated
+descent", and the conclusion is equivalent to the two premises together; the
+split is informative through the premises' separate motivations, and the
+warrant for patchwork must come from the general recombination principle it
+instantiates. The registers carry no existential import (they are not tied to
+what exists or is present), and the bridge from recombining concrete stations
+to these typed premises is not built. This supersedes the near-transcription
+`ReaperAssembly`.
 
 Each objection or non-generalization claim in the Reaper records, checked
 against the [Substantive Objection Standard](../AGENTS.md#substantive-objection-standard-owner-direction-2026-11-12):
@@ -385,28 +394,31 @@ against the [Substantive Objection Standard](../AGENTS.md#substantive-objection-
 | Claim | Where | Verdict |
 |---|---|---|
 | "Dropping or weakening these assumptions may dissolve the contradiction" | §1 | Removed. The needed conditions are exact (the four local rules, each shown necessary by `IndexedSignalReaper.Controls`); whether real stations meet them is the local-pieces premise, stated openly |
-| Reaper is "supertask-style … with a specialized inhibition rule" | §2 | Reworded. For the *per se* target the named difference (temporal stations vs a possibly simultaneous chain) is a missing bridge, not evidence against the claim. For a beginningless past the arrangement is not a supertask: each station has its own day |
+| Reaper is "supertask-style … with a specialized inhibition rule" | §2 | Reworded. For the *per se* target the named difference (temporal stations vs a possibly simultaneous chain) is a missing bridge, not evidence against the claim. For a beginningless past the arrangement is not a supertask when the descent has slots of bounded-below length, which the typed premises do not require: a coinitial descent may accumulate metrically, as in `(0, t]` |
 | The Reaper is "one special case" we cannot say generalizes | an earlier agent report, not in the records | Withdrawn: no difference was named. See the next row for what a difference would have to be |
-| What would have to differ for the Reaper not to reach a beginningless past | new | By the theorem, one of: (a) no coinitial descent exists (uncountable coinitiality of time): a formal escape with no independent support from any model of time known to the corpus, so no objection; (b) local pieces fail along it; (c) gluing fails along it. Only the next row substantiates (b) or (c), and only for metrically finite pasts |
-| Benardete parity (dense time) | new | **Substantiated, conditional on a separate commitment C**: populated continuous time with a first moment is possible (some accessible history has such time and contingent things after its first moment). C is the standard picture of a universe with a beginning; A3′w permits it but does not assert it. Target: the unrestricted premises, and the coinitial premises on open-below finite pasts. Mechanism: in `[0, t]` the descent `t, t/2, …` carries pieces in shrinking slots; together the unrestricted premises exclude contingent presence after 0 (their theorem with `ComingToBeHorns.controls` 8; a `WithBot ℤ` analogue is `GrimReaperPatchwork.controls` 3). So, given C, local pieces or gluing fail for that arrangement. Relevance: in `(0, t]` (no first moment) the same descent is coinitial and its pieces sit in the very same slots; the arrangements differ only at an instant hosting no piece. Established: the formal facts. Analyst argument, not checked: the parity step. Consequence, given C: the coinitial argument gives no support against an open-below finite past that is independent of the first-moment case. Without C the parity has no force |
-| Does the parity reach a metrically infinite past (one station per day)? | new | Not shown. It transfers only if the first-moment failure is a failure of gluing for every infinite descending arrangement, rather than of pieces in slots shrinking to zero or of gluing for accumulating arrangements. No independent reason for the gluing-general diagnosis is recorded. Unsupported suggestion, no evidential weight |
-| Global-compatibility reply to patchwork (#367 audit) | `notes/causal-finitism-367.md` | **Located as a precise fork, not dismissed.** The local premise asks only that each adjacent pair be co-possible, possibly in different worlds. Those witnesses cannot agree on their shared registers: if they did, their values would satisfy every piece at once (`overlapAgreeingWitnessesImpossible`, a checked lemma in the Solution module); the pivot control's witnesses do disagree. So the pieces are duplicated as stations with their rules, not as register contents. (i) If gluing requires overlapping patches to agree on register contents, as recombination of categorical, value-like patches does, the local premise in that coherent form fails along every descent as mathematics: on that reading the Reaper argument does not get started and refutes nothing. (ii) If gluing duplicates stations as bearers of rules whose register contents depend on their context (the intrinsic-powers reading defended in the #367 audit), the compatibility reply must say why such patches fail to glue along a descent. No independently established case is recorded: the known local-to-global failures need cycles (a ring of inverting stations), which a descent lacks and which Koons excludes separately. Under (ii) the reply is an unsupported suggestion |
+| What would have to differ for the Reaper not to reach a beginningless past | new | By the theorem, one of: (a) no coinitial descent exists (uncountable coinitiality of time): a formal escape with no independent support from any model of time known to the corpus, so no objection; (b) local pieces fail along it; (c) gluing fails along it. The next two rows substantiate objections, both bearing on metrically finite pasts |
+| FLRW cosmology (open-below finite past) | new | **Kept, substantiated.** Target: the coinitial premises and their conclusion, begun populated pasts (and a fortiori founded populated pasts). Mechanism: the theorem; standard FLRW Big Bang models have time open below (the initial singularity is not a moment), so a populated FLRW history has no begun moment, while countable coinitiality holds there (`t / 2 ^ n`); so if such a history is accessible, the coinitial local-pieces or patchwork premise fails. Independent support: accepted physical theory treats these models as possible. Relevance: the premises are necessity claims over every accessible history. It does not bear on the possibility premise A3′w (possibly begun), which an FLRW-possible world leaves untouched. Established: the formal entailment; the possibility of FLRW histories is the physical input |
+| Benardete parity (dense time) | new | **Substantiated, conditional on a separate commitment C**: populated continuous time with a first moment is possible (some accessible history has such time and contingent things after its first moment). A3′w permits C but does not assert it. Target: the unrestricted premises, and the typed coinitial premises. Because `Coinitial` is order-theoretic and `(0, t]` is order-isomorphic to `(-∞, t]`, the typed coinitial premises cannot tell an open-below finite past from a metrically infinite one, so an objection for the former is an objection to the typed premises themselves. Mechanism: in `[0, t]` the descent `t, t/2, …` carries pieces in shrinking slots; together the unrestricted premises exclude contingent presence after 0 (their theorem with `ComingToBeHorns.controls` 8; a `WithBot ℤ` analogue is `GrimReaperPatchwork.controls` 3). So, given C, local pieces or gluing fail for that arrangement. Relevance: in `(0, t]` (no first moment) the same descent is coinitial and its pieces sit in the very same slots; the arrangements differ only at an instant hosting no piece. Established: the formal facts. Analyst argument, not checked: the parity step. The parity also turns on the admissibility clause, which excludes a code from a source outside the descent, such as one at `0` in `[0, t]`. Consequence, given C: the typed coinitial premises are doubtful for open-below finite pasts and give no support against them independent of the first-moment case. Without C the parity has no force |
+| Does the parity reach a metrically infinite past (one station per day)? | new | Not shown, and not expressible in the typed premises, which have no metric. For a philosophical, metrically restricted reading (slots of bounded-below length): It transfers only if the first-moment failure is a failure of gluing for every infinite descending arrangement, rather than of pieces in slots shrinking to zero or of gluing for accumulating arrangements. No independent reason for the gluing-general diagnosis is recorded. Unsupported suggestion, no evidential weight |
+| Global-compatibility reply to patchwork (#367 audit) | `notes/causal-finitism-367.md` | **Located as a precise fork, not dismissed.** The local premise asks only that each adjacent pair be co-possible, possibly in different worlds. Those witnesses cannot agree on their shared registers: if they did, their values would satisfy every piece at once (`overlapAgreeingWitnessesImpossible`, a checked lemma in the Solution module); the pivot control's witnesses do disagree. So the pieces are duplicated as stations with their rules, not as register contents. (i) If gluing requires overlapping patches to agree on register contents, as recombination of categorical, value-like patches does, the local premise in that coherent form fails along every descent as mathematics: on that reading the Reaper argument does not get started and refutes nothing. (ii) If gluing duplicates stations as bearers of rules whose register contents depend on their context (the intrinsic-powers reading defended in the #367 audit), the compatibility reply must say why such patches fail to glue along a descent. Known local-to-global failures with cycles (a ring of inverting stations) do not apply to a descent, which Koons excludes separately. One acyclic candidate is recorded: given C, by the Benardete row, pieces or gluing fail on the chain `t, t/2, …` in `[0, t]`. It is a candidate gluing failure only if the local pieces there are possible, and it involves metrically accumulating slots. For non-accumulating descents no independently established case is recorded, so under (ii) and a metric restriction the reply is an unsupported suggestion |
 | Unsatisfiable-pair diagnosis | §4 leads | No mechanism recorded. That the Reaper conditions are jointly unsatisfiable is common ground (it is `IndexedSignalReaper.impossible`); it does not by itself locate the failure in patchwork rather than in the beginningless past. No evidential weight until its argument is read and recorded |
 | Finite tests do not give a global schedule (`GrimReaperFiniteTests`) | #367 attempt | True mathematics about infinitary clauses; not an objection to patchwork, which is a modal premise about pieces of worlds, not a compactness claim |
 
-**Plain verdict.** The premises must be read with patches duplicated as
-stations with their rules, not as register contents (fork (ii) above); on the
-value-agreement reading the argument does not get started. On that reading,
-against a metrically infinite beginningless past, no substantive objection to
-the local-pieces or patchwork premise is identified. Both premises remain OPEN;
-their support is the defeasible recombination case recorded in the #367 audit.
-The pro side must not overclaim either: the theorems show only that whoever
-accepts the premises must accept begun (or, unrestricted, founded) populated
-pasts. Given commitment C, the two unrestricted premises cannot both hold (the
-first-moment dense arrangement), and the coinitial ones, by parity, add nothing
-independent against an open-below finite past. A metric
-version (slots of at least a fixed length), concluding that no populated past
-is metrically infinite, is the next test.
+**Plain verdict.** For the typed premises: two substantive objections are
+kept. The FLRW objection shows the coinitial premises, as necessity claims over
+every accessible history, exclude a populated open-below finite cosmology that
+physical theory treats as possible. The Benardete parity, given C, bears on the
+same order-theoretic premises. On the value-agreement reading of gluing the
+argument does not get started. For a philosophical reading not yet typed (pieces
+as concrete stations with their rules, gluing that duplicates them, descents
+with slots of bounded-below length, so a metrically infinite past only), no
+substantive objection is identified; it has no Lean counterpart until the
+metric version exists. All premises remain OPEN; the support for patchwork is
+the defeasible recombination case recorded in the #367 audit. The pro side must
+not overclaim either: the theorems show only that whoever accepts the premises
+must accept begun (or, unrestricted, founded) populated pasts. A metric version
+(slots of at least a fixed length), concluding that no populated past is
+metrically infinite, is the next test.
 
 
 ## Typed per-se / historical distinction (#1112)

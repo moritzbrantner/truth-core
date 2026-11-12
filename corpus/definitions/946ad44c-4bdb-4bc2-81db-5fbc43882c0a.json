@@ -2,7 +2,7 @@
  "id": "946ad44c-4bdb-4bc2-81db-5fbc43882c0a",
  "label": "Reaper patchwork along every coinitial populated descent",
  "term": "coinitial Reaper patchwork",
- "definition": "CoinitialReaperPatchwork R h Concrete w is ReaperPatchwork restricted to coinitial descents: in every history v accessible from w, along every strictly descending sequence c that runs below every moment earlier than its populated first moment, if every two adjacent local pieces are co-possible from v, some world accessible from v realizes them all. In ordinary language: Reaper pieces placed one per past day back through a beginningless past can be glued into one possible arrangement whenever each neighbouring pair can.",
+ "definition": "CoinitialReaperPatchwork R h Concrete w is ReaperPatchwork restricted to coinitial descents: in every history v accessible from w, along every strictly descending sequence c that runs below every moment earlier than its populated first moment, if every two adjacent local pieces are co-possible from v, some world accessible from v realizes them all. In ordinary language: Reaper pieces placed along a coinitial descent of a beginningless past (for example one per past day where the past is metrically infinite) can be glued into one possible arrangement whenever each neighbouring pair can.",
  "basis": "stipulative",
  "lean_declaration": "TruthCore.Causality.GrimReaperPatchwork.CoinitialReaperPatchwork",
  "note": "Weak version of ReaperPatchwork (coinitialPatchworkOfPatchwork). Anyone who accepts the unrestricted gluing premise accepts this one; the restriction needs no defense when the weak version is what an argument uses. Analyst formulation; attribution deferred. OPEN."

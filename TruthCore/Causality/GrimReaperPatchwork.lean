@@ -29,12 +29,18 @@ worlds of that history, and the premise has two independent parts:
 Neither part mentions foundedness, and each holds without the other in a
 beginningless history (`Control.Certificate`). The derivation translates a
 glued world's registers into a `Nat`-indexed signal system and composes the
-verified `IndexedSignalReaper.impossible`.
+verified `IndexedSignalReaper.impossible`. Because that impossibility is a
+theorem, the typed patchwork premise for a given frame says no more than "along
+every populated descent, adjacent pieces are not all co-possible", and founded
+populated pasts are equivalent to the two premises together (for any frame).
+The split is still informative: each part is motivated separately, and the
+warrant for patchwork must come from the general recombination principle it
+instantiates, not from this instance.
 
 **Vocabulary.** A `ReaperFrame` gives, at each world `u` and moment `t`, the
 code on the output register of the station at `t` (`out u t`, absent or a
 moment naming the issuing station) and whether that station issues
-(`issues u t`). The four local rules of station `n` of a descent `c`, whose
+(`issues u t`). The four rules of station `n` of a descent `c`, whose
 immediately upstream (earlier) station sits at `c (n + 1)`:
 
 1. positive trigger: no upstream code → the station issues;
@@ -43,24 +49,37 @@ immediately upstream (earlier) station sits at `c (n + 1)`:
 4. admissibility: every code on the station's output names a station of the
    same descent at or upstream of it (`c j` with `n ≤ j`).
 
+Rules 1–3 relate only the registers at `c n` and `c (n + 1)`. Rule 4 constrains
+only the register at `c n`, but refers to every upstream slot of the whole
+descent, so a piece is not local in the descent: it is the clause that excludes
+a code from a source outside the descent, for instance one at the accumulation
+point `0` of `t, t/2, …` in `[0, t]`, which is exactly where `[0, t]` and
+`(0, t]` differ.
+
 The registers are an extensional record of what the stations do in the world;
-the rules hold in that world. No counterfactual, causal power or intrinsicality
-is encoded: those are the reasons offered *for* the local and patchwork
-premises, not parts of their content.
+the rules hold in that world. They are not tied to the history's `ExistsAt` or
+`IsAt`, so a piece has no existential import (the controls realize a pair of
+pieces in a world where nothing exists). No counterfactual, causal power,
+intrinsicality or concrete station is encoded: those are the reasons offered
+*for* the local and patchwork premises, and the bridge from recombining
+concrete stations to these typed register premises is not built.
 
 **Two strengths.** The unrestricted premises range over every descent below a
 populated moment, and give founded populated pasts (`Acc`, A3′a). That also
 excludes contingent presence after the first moment of a dense past with a
-beginning (Benardete's original, first-moment version of the paradox), where
+beginning (the dense, first-moment setting of Benardete-style paradoxes), where
 `t, t/2, t/4, …` is a descent. The coinitial premises range only over descents
-that run below every earlier moment of the populated one (`Coinitial`), as
-stations in successive regions of an alleged infinite past do (one per past day,
-say). Such a descent exists only where the past
-has no beginning, so they give begun populated pasts (`BegunAt`) given that
-every beginningless populated past has a coinitial descent
-(`BeginninglessPastsCountablyCoinitial`: checked for integer times; rational
-and real times satisfy it by `t - n`).
-The unrestricted premises imply the coinitial ones.
+that run below every earlier moment of the populated one (`Coinitial`), e.g.
+one station per past day where the past is metrically infinite. Such a descent
+exists only where the past has no beginning, so they give begun populated pasts
+(`BegunAt`) given that every beginningless populated past has a coinitial
+descent (`BeginninglessPastsCountablyCoinitial`: checked for integer times;
+the full rational or real line by `t - n`, an open-below half-line such as
+`(0, ∞)` by `t / 2 ^ n`). `Coinitial` is purely order-theoretic: `(0, t]` and
+`(-∞, t]` are order-isomorphic, so a coinitial descent may accumulate
+metrically, and the coinitial premises apply equally to a metrically finite past
+with no first moment, such as that of standard FLRW cosmology (where the
+singularity is not a moment). The unrestricted premises imply the coinitial ones.
 
 Applicability of every definition below to reality remains OPEN.
 -/
@@ -93,9 +112,11 @@ def PopulatedAt {W B T : Type} (h : History W B T) (Concrete : B → Prop)
     (v : W) (t : T) : Prop :=
   ∃ x, Concrete x ∧ ContingentAt h.ontic v x ∧ h.IsAt v x t
 
-/-- The local piece of station `n` of descent `c` in world `u`: its positive
-trigger, emission, forwarding and admissibility rules, relative to the station
-at `c (n + 1)` immediately upstream. -/
+/-- The piece of station `n` of descent `c` in world `u`: its positive trigger,
+emission and forwarding rules, relative to the station at `c (n + 1)`
+immediately upstream, and its admissibility rule, which constrains only the
+register at `c n` but refers to every upstream slot `c j` (`n ≤ j`) of the
+descent. -/
 def PieceAt {W T : Type} (R : ReaperFrame W T) (u : W) (c : Nat → T) (n : Nat) :
     Prop :=
   (R.out u (c (n + 1)) = none → R.issues u (c n)) ∧

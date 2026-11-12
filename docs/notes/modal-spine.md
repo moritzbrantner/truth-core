@@ -52,9 +52,13 @@ earlier, so the weak version suffices
 matters: continuous time with a first moment gives every later moment a begun
 past but not a founded one (`t, t/2, t/4, …` descend endlessly; checked for
 non-negative rationals in `BegunComingToBe.controls`). So A3′ conflicts with
-every possible populated history having continuous time with a beginning, the
-standard picture of a universe with a beginning, and A3′w does not. Under A3′w
-the rival's second horn is a genuinely beginningless past. The control
+every possible populated history having continuous time with a first moment,
+and A3′w does not. Under A3′w the rival's second horn is a genuinely
+beginningless past (in the order sense). Note that standard FLRW Big Bang
+cosmology has no first moment (time is open below; the initial singularity is
+not a moment), so it is a beginningless populated past in that sense: neither
+A3′ nor A3′w is supported by it as such, though, being possibility premises,
+neither is contradicted by its possibility either. The control
 `BegunComingToBe.Control.zeno` (times `WithBot ℤ`: a first moment with no
 earliest moment after it) also shows that begun coming-to-be, together with an
 existing, earlier-present predecessor ground for every contingent thing, does
@@ -113,11 +117,14 @@ The Reaper argument is naturally an argument for a *begun* past, not a founded
 one: in the reconstruction of Koons's argument (#367 audit) the stations fill successive non-overlapping regions of an alleged infinite past, back through the whole of it. The
 coinitial premises restrict both Reaper premises to descents that run below
 every earlier moment of the populated one; they are implied by the unrestricted
-ones and are silent about pasts with a beginning.
+ones and are silent about pasts with a beginning. Coinitiality is purely
+order-theoretic: `(0, t]` and `(-∞, t]` are order-isomorphic, so a coinitial
+descent may accumulate metrically and the typed premises cover a metrically
+finite past with no first moment exactly as they cover an infinite one.
 
 | | Premises | Theorem | Status |
 |---|---|---|---|
-| Begun populated pasts | Coinitial local pieces, coinitial patchwork, and countable coinitiality of beginningless populated pasts (checked for integer times; rational and real times by `t - n`) | `populatedPastsBegunOfPatchwork` | derivation; all three OPEN |
+| Begun populated pasts | Coinitial local pieces, coinitial patchwork, and countable coinitiality of beginningless populated pasts (checked for integer times; the full rational or real line by `t - n`, an open-below half-line by `t / 2 ^ n`) | `populatedPastsBegunOfPatchwork` | derivation; all three OPEN |
 | A3′w | Begun populated pasts and A3′b (`6dd276f0`) | `possiblyBegunOfEarlierGrounds` | derivation. Unlike the founded version, this bundle does **not** carry the possibility of a necessary being: `BegunComingToBe.Control.zeno` satisfies it, the coinitial Reaper premises and countable coinitiality with no necessary individual (`GrimReaperPatchwork.controls` 3) |
 
 Founded populated pasts strictly strengthen begun ones (`populatedPastsBegunOfFounded`,
@@ -129,28 +136,45 @@ theorem, one of three things: (a) the past has no coinitial descent, which
 needs time of uncountable coinitiality; no model of physical time known to the
 corpus has it, so this is a formal escape, not an objection; (b) adjacent Reaper
 pieces cannot be placed at consecutive members of any coinitial descent; or
-(c) gluing fails along it. For (b) and (c) one specific difference is
-substantiated, and only for *metrically finite* beginningless pasts (open below,
-like `(0, t]`): a coinitial descent there accumulates toward the missing
-endpoint, slot for slot like Benardete's first-moment arrangement
-`t, t/2, t/4, …` in `[0, t]`, which differs only at an instant hosting no piece.
-Anyone who holds that continuous time with a first moment can contain
-contingent things after it (a separate commitment C: the standard picture of a
-universe with a beginning, which A3′w permits but does not assert) must reject
-local pieces or gluing for that first-moment arrangement, and by this parity for
-the open-below one too. So, given C, the coinitial argument gives no independent
-support against an open-below finite past. The pieces must also be read as
-stations with their rules, not as register contents: adjacent-pair witnesses
-cannot agree on their shared registers (`overlapAgreeingWitnessesImpossible`),
-so a patchwork that glues only value-agreeing patches gives the Reaper no
-start. On the rule-duplicating reading, for a *metrically infinite*
-beginningless past (every slot a full day, no bounded interval with infinitely
-many stations) no substantive objection is identified: the parity transfers only
-under the diagnosis that gluing fails for every infinite descending arrangement,
-for which no independent reason is recorded; the global-compatibility reply of
-the #367 audit names no independently established case of gluing failure for
-rule-duplicated pieces on an acyclic chain; the unsatisfiable-pair diagnosis is
-a reading lead with no recorded mechanism. The earlier description of the Reaper
+(c) gluing fails along it. Two objections to the typed premises are kept,
+both concerning *metrically finite* beginningless pasts (open below, like
+`(0, t]`), which the order-theoretic premises cannot distinguish from infinite
+ones:
+
+- **FLRW.** Standard FLRW Big Bang cosmology has time open below (the initial
+  singularity is not a moment). A populated FLRW history has no begun moment,
+  and countable coinitiality holds there (`t / 2 ^ n`), so by the theorem the
+  coinitial local-pieces or patchwork premise fails if such a history is
+  accessible; accepted physical theory treats these models as possible. This
+  is a cost of the necessity premises (and of begun populated pasts), not of
+  the possibility premise A3′w.
+- **Benardete parity, given a separate commitment C** (populated continuous
+  time with a first moment is possible; A3′w permits C but does not assert it).
+  A coinitial descent in `(0, t]` accumulates toward the missing endpoint, slot
+  for slot like `t, t/2, t/4, …` in `[0, t]`; the two differ only at an instant
+  hosting no piece, and that is where the admissibility clause (no code from a
+  source outside the descent) bites. Given C, local pieces or gluing fail for
+  the first-moment arrangement, and by parity for the open-below one, so the
+  typed coinitial premises are doubtful there. The parity step is an analyst
+  argument, not checked.
+
+The pieces must also be read as stations with their rules, not as register
+contents: adjacent-pair witnesses cannot agree on their shared registers
+(`overlapAgreeingWitnessesImpossible`), so a patchwork that glues only
+value-agreeing patches gives the Reaper no start. Given the theorem, the typed
+patchwork premise is equivalent to "adjacent pieces are not all co-possible
+along any populated descent", so its warrant must come from the general
+recombination principle it instantiates; the registers carry no existential
+import, and the bridge from recombining concrete stations to the typed
+premises is not built. For a philosophical reading with no Lean counterpart yet
+(concrete stations duplicated with their rules, descents with slots of
+bounded-below length, so a *metrically infinite* past only), no substantive
+objection is identified: the parity transfers only under the diagnosis that
+gluing fails for every infinite descending arrangement, for which no
+independent reason is recorded; the global-compatibility reply of the #367
+audit has one acyclic candidate (given C, the accumulating Benardete chain) but
+none for non-accumulating descents; the unsatisfiable-pair diagnosis is a
+reading lead with no recorded mechanism. The earlier description of the Reaper
 as "one special case" that might not generalize named no difference and is
 withdrawn. Both Reaper premises remain OPEN: the pieces' possibility and their
 gluing are the disputed metaphysics, the arrangement's impossibility is
@@ -336,7 +360,7 @@ the join and the root and act-of-being premises in
 | A3′a founded populated pasts (H2 denied) | A beginningless succession of contingent things, each preceded and grounded by an earlier one; or a dense past with a first moment | **excluded under the open bridges** `9c314355` (state-causal finitism) and `20e6c7df` (precedence to causation), by `populatedPastsFoundedOfStateFinitism`; and **excluded under the open Reaper premises** (local pieces, patchwork) by `GrimReaperPatchwork.populatedPastsFoundedOfPatchwork`. Survives finitism alone, the precedence bridge alone, earlier grounding, Reaper patchwork alone and Reaper pieces alone (`ComingToBeHorns.controls` 1–3, `GrimReaperPatchwork.controls` 1–2). Dense time with a first moment survives the old Reaper assembly bridge and the joint finitism/precedence bundle, and is excluded by the two unrestricted Reaper premises together (`ComingToBeHorns.controls` 8, `GrimReaperPatchwork.controls` 3): that exclusion is a cost of the unrestricted premises, avoided by the coinitial ones | `populatedPastsFoundedOfStateFinitism`, `populatedPastsFoundedOfPatchwork` |
 | A3′b possible earlier-grounded history (H1 priced) | A never-generated contingent thing whose ground has no earlier presence | **excluded under the open premise A3′a** by `possiblyFoundedOfEarlierGrounds`. Survives when some ground is not earlier: simultaneous with a necessary ground; without a necessary being, only under non-well-founded grounding, whether simultaneous or later (`ComingToBeHorns.controls` 4, 5, 7). A3′a with A3′b already entails possible necessary being (`possiblyNecessaryOfEarlierGrounds`) | `possiblyFoundedOfEarlierGrounds` |
 | A3′w possible begun coming-to-be (weak version) | The same initial-state view | **excluded** by `BegunComingToBe.possibleContingentFreePast`; survives only if every accessible history containing a present contingent thing has a never-generated contingent thing or a beginningless past at every populated moment (histories without contingent things satisfy the rival trivially) | the premise itself |
-| Begun populated pasts (begun H2 denied) | A beginningless past at every populated moment: metrically infinite (endless days), or metrically finite and open below (no first moment, like `(0, t]`) | **excluded under the open premises** coinitial Reaper pieces, coinitial Reaper patchwork and countable coinitiality, by `GrimReaperPatchwork.populatedPastsBegunOfPatchwork`; with A3′b this gives A3′w (`possiblyBegunOfEarlierGrounds`) without carrying the possibility of a necessary being (`GrimReaperPatchwork.controls` 3). Given the possibility of populated continuous time with a first moment, the Reaper premises have no support against the open-below finite past independent of the first-moment dense case (parity, see the objection audit above). With pieces read as stations with their rules, no substantive objection to either Reaper premise is identified against a metrically infinite past; both remain OPEN | `populatedPastsBegunOfPatchwork` |
+| Begun populated pasts (begun H2 denied) | A beginningless past at every populated moment: metrically infinite (endless days), or metrically finite and open below (no first moment, like `(0, t]`), as in standard FLRW cosmology; also empty beginningless time before a first event | **excluded under the open premises** coinitial Reaper pieces, coinitial Reaper patchwork and countable coinitiality, by `GrimReaperPatchwork.populatedPastsBegunOfPatchwork`; with A3′b this gives A3′w (`possiblyBegunOfEarlierGrounds`) without carrying the possibility of a necessary being (`GrimReaperPatchwork.controls` 3). Kept objections to the typed premises (order-theoretic, so blind to metric finitude): a populated FLRW history, which physical theory treats as possible, is excluded by them (a cost of these necessity claims, not of A3′w); and given the possibility of populated continuous time with a first moment, the Benardete parity makes them doubtful for open-below finite pasts. For a metrically restricted philosophical reading, with no Lean counterpart yet, no substantive objection is identified against a metrically infinite past. All premises remain OPEN | `populatedPastsBegunOfPatchwork` |
 | B1 possible beginning | Contingent reality is beginningless in every possible history | survives | `LocalFramePossibleExternalCause.necessaryConcrete` |
 | B2 causal opportunity | Beginnings are possible and always brute | survives | `LocalFramePossibleExternalCause.necessaryConcrete` |
 | J1 supporters of the necessary are necessary | A necessary thing is supported somewhere by a contingent thing | survives | `NecessaryConcreteUnderived.checks` |

@@ -231,12 +231,16 @@ value-like patches does, the Reaper's local premise fails along every descent
 as mathematics, and the argument does not get started. (ii) If gluing
 duplicates stations with their rules, contents depending on context (the
 intrinsic-powers reading above), the reply must supply a case where such
-patches fail to glue along an acyclic chain; none is recorded, and the known
-local-to-global failures need cycles. Under (ii) it is an unsupported suggestion
-with no evidential weight against patchwork; patchwork itself stays OPEN. One
-further limit is substantiated, conditional on the possibility of populated
-continuous time with a first moment: Benardete's first-moment arrangement and
-its open-below parity. See
+patches fail to glue along an acyclic chain. Cyclic failures (a ring of
+inverting stations) do not apply to a descent. One acyclic candidate exists:
+given the possibility of populated continuous time with a first moment, pieces
+or gluing fail on the accumulating chain `t, t/2, …` in `[0, t]` (Benardete);
+it is a gluing failure only if those pieces are possible. For non-accumulating
+descents (slots of bounded-below length) none is recorded, so for that
+philosophical reading the reply is an unsupported suggestion with no evidential
+weight against patchwork; patchwork itself stays OPEN. The typed Lean premises
+are order-theoretic and do not have that metric restriction; two objections to
+them are kept (FLRW cosmology, and the Benardete open-below parity). See
 [the Reaper objection audit](../causal-regress-and-grim-reapers.md#objection-audit-for-the-temporal-reaper-2026-11-12).
 
 The signal revision (pp.19–20) addresses a different issue: particles might

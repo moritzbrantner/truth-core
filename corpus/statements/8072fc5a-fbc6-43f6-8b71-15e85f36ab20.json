@@ -1,7 +1,7 @@
 {
   "id": "8072fc5a-fbc6-43f6-8b71-15e85f36ab20",
   "label": "Along every coinitial populated descent, adjacent Grim Reaper pieces are co-possible",
-  "paraphrase": "OPEN analyst premise, attribution deferred: the local-pieces premise restricted to coinitial descents, those that run below every moment earlier than their populated first moment (one station per past day, back through the whole past). Such a descent exists only below a moment whose past has no beginning, so the premise says nothing about a past with a beginning, dense or not. 'Concrete' is the supplied Concrete parameter; the Lean type does not enforce the esse reading.",
+  "paraphrase": "OPEN analyst premise, attribution deferred: the local-pieces premise restricted to coinitial descents, those that run below every moment earlier than their populated first moment (e.g. one station per past day where the past is metrically infinite). Such a descent exists only below a moment whose past has no beginning, so the premise says nothing about a past with a beginning, dense or not. Coinitiality is order-theoretic: a coinitial descent may accumulate metrically, as t/2^n does in the open-below past (0, t], so the premise also places pieces in shrinking slots of a metrically finite past with no first moment. 'Concrete' is the supplied Concrete parameter; the Lean type does not enforce the esse reading.",
   "lean_declaration": "TruthCore.Causality.GrimReaperPatchwork.CoinitialReaperPiecesPossible",
   "definition_ids": [
     "df6cd418-1a1e-44b5-be8a-6bd29cab48ea",
