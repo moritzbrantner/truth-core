@@ -268,7 +268,7 @@ subject_id = "Rival: being GOOD_1 in a perfection requires having it, but some h
 predicate = "alternative_to"
 object_kind = "statement"
 object_id = "STMT-GOODNESS-IS-ACTUALITY"
-note = "Same GoodIn and InAct. The rival keeps the direction from goodness to actuality and denies the converse, so it is strictly stronger than the premise's negation. Model-witnessed alongside the other premises of godIsSupremelyGood; neither is established and no refutation is recorded. Objection audit 2026-11-12 (attempt b6384b6b-ef1a-405e-8237-0c2127d86b5f): misdirected for the cited motivation, which concerns moral good, not GOOD_1; otherwise a formal alternative."
+note = "Same GoodIn and InAct. The rival keeps the direction from goodness to actuality and denies the converse, so it is strictly stronger than the premise's negation. Model-witnessed alongside the other premises of godIsSupremelyGood; neither is established and no refutation is recorded. Objection audit 2026-11-12 (attempt b6384b6b-ef1a-405e-8237-0c2127d86b5f): formal alternative; Hume's is/ought and Moore's open question are unread leads, and whether they concern GOOD_1 is not checked."
 
 [[relation]]
 id = "An uncaused composite is an alternative to the uniting cause of composites"
@@ -286,7 +286,7 @@ subject_id = "Rival: matter-form composition composes, but some esse other than 
 predicate = "alternative_to"
 object_kind = "statement"
 object_id = "STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS"
-note = "Same predicates and essenceOf/esseOf maps. The rival keeps the matter-form inclusion and denies the esse-essence one, so it is strictly stronger than the premise's negation. Model-witnessed alongside the other premises of firstMoverSimple; neither is established and no refutation is recorded. Objection audit 2026-11-12 (attempt b6384b6b-ef1a-405e-8237-0c2127d86b5f): formal alternative; no independent justification on file (unread lead: Scotus's formal distinction)."
+note = "Same predicates and essenceOf/esseOf maps. The rival keeps the matter-form inclusion and denies the esse-essence one, so it is strictly stronger than the premise's negation. Model-witnessed alongside the other premises of firstMoverSimple; neither is established and no refutation is recorded. Objection audit 2026-11-12 (attempt b6384b6b-ef1a-405e-8237-0c2127d86b5f): formal alternative; no independent justification on file (Scotus's formal distinction is an unread, unverified lead)."
 
 [[relation]]
 id = "A first being that is a component is an alternative to no component being first"
@@ -304,7 +304,7 @@ subject_id = "Rival: whatever HAS_INTELLECT_1 is material, and something is ALTO
 predicate = "alternative_to"
 object_kind = "statement"
 object_id = "STMT-IMMATERIAL-IS-INTELLECTUAL"
-note = "Same ComposedOfMatterAndForm, HasIntellect and ComponentOf. The rival is strictly stronger than the premise's negation. Model-witnessed alongside the other premises of godHasIntellect; neither is established and no refutation is recorded. Objection audit 2026-11-12 (attempt b6384b6b-ef1a-405e-8237-0c2127d86b5f): partial: Papineau's causal-power physicalism, with the bridge from physical to matter-form composite open. A further partial objection on file is not this rival: Plotinus V.4.2 argues that intellect is two, so the absolutely simple first is not intellect; the sense bridge from the Plotinian intellect (DEF-PLOTINIAN-INTELLECT-DUALITY) to HasIntellect is open."
+note = "Same ComposedOfMatterAndForm, HasIntellect and ComponentOf. The rival is strictly stronger than the premise's negation. Model-witnessed alongside the other premises of godHasIntellect; neither is established and no refutation is recorded. Objection audit 2026-11-12 (attempt b6384b6b-ef1a-405e-8237-0c2127d86b5f): partial: Papineau's causal-power physicalism supports at most 'intellect requires the physical', with the bridge from physical to matter-form composite open; nothing on file supports the second conjunct, an altogether immaterial thing without intellect. A further partial objection on file is not this rival: Plotinus V.4.2 argues that intellect is two, so the absolutely simple first is not intellect; the sense bridge from the Plotinian intellect (DEF-PLOTINIAN-INTELLECT-DUALITY) to HasIntellect is open."
 
 [[relation]]
 id = "Intellect without will is an alternative to will following intellect"
@@ -331,7 +331,7 @@ subject_id = "Rival: something altogether IMMUTABLE_1 is not ETERNAL_1 (everlast
 predicate = "alternative_to"
 object_kind = "statement"
 object_id = "STMT-IMMUTABLE-IS-ETERNAL"
-note = "Same InPotency and primitive Eternal. The rival is the exact negation of the premise; its replacement account (everlasting duration in time) is not formalized on this carrier. Model-witnessed alongside the other premises of godIsEternal; neither is established and no refutation is recorded. Objection audit 2026-11-12 (attempt b6384b6b-ef1a-405e-8237-0c2127d86b5f): formal alternative; no independent justification on file, so no typed replacement account is added (unread lead: time without change)."
+note = "Same InPotency and primitive Eternal. The rival is the exact negation of the premise; its replacement account (everlasting duration in time) is not formalized on this carrier. Model-witnessed alongside the other premises of godIsEternal; neither is established and no refutation is recorded. Objection audit 2026-11-12 (attempt b6384b6b-ef1a-405e-8237-0c2127d86b5f): formal alternative; no independent justification on file, so no typed replacement account is added (Shoemaker and Wolterstorff are unread, unverified leads)."
 
 [[relation]]
 id = "The nine attributes falling short is an alternative to their sufficiency"
@@ -340,4 +340,4 @@ subject_id = "Rival: some being with the nine listed attributes lacks the classi
 predicate = "alternative_to"
 object_kind = "statement"
 object_id = "STMT-CLASSICAL-ATTRIBUTES-SUFFICE"
-note = "Same Signature and nine predicates. The rival is the exact negation of the premise; which further attribute is missing is not formalized. Model-witnessed alongside the other non-logical premises of godHasClassicalAttributes; neither is established and no refutation is recorded. Objection audit 2026-11-12 (attempt b6384b6b-ef1a-405e-8237-0c2127d86b5f): substantive, internal: the premise is a stipulated bridge to a primitive field, and Dei Filius ch. 1 lists members not derived from the nine; the next step is to define the field, not to type a rival."
+note = "Same Signature and nine predicates. The rival is the exact negation of the premise; which further attribute is missing is not formalized. Model-witnessed alongside the other non-logical premises of godHasClassicalAttributes; neither is established and no refutation is recorded. Objection audit 2026-11-12 (attempt b6384b6b-ef1a-405e-8237-0c2127d86b5f): no substantive objection identified. Warrant gap: the premise is a stipulated bridge to the primitive HasClassicalAttributes field with no derivation; Dei Filius ch. 1 motivates it, and missing derivations of its further members are not evidence of failure."
