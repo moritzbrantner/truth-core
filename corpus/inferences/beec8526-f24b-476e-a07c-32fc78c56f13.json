@@ -1,0 +1,13 @@
+{
+  "id": "beec8526-f24b-476e-a07c-32fc78c56f13",
+  "label": "Well-founded necessary support union, from rigid ascent in esse and no infinite ascent (inference)",
+  "input_statement_ids": [
+    "40ce286d-b26d-4773-8a92-0a68da477414",
+    "78945dde-2e6b-4e40-9383-ecb615208930"
+  ],
+  "output_statement_id": "d149d238-2eeb-5c8b-a136-f95d7aa5c721",
+  "rule": "Subrelation of the inverse image of a well-founded relation: each cross-world union edge is one ascent step",
+  "meaning": "Derives J2 of the join without the one-way no-novel-edge condition, actual well-founded grounding or reflexive access. Every edge of the cross-world union of support among necessary concreta is, by the rigid ascent premise, a step up in the one world-invariant comparative MoreIn esse, which has no infinite ascent among necessary concreta. Because the grade takes no world argument, edges at different worlds are measured by one order, which is what the world-varying rivals deny. Relation to the no-novel-edge route: ascent with no infinite ascent does not imply no-novel-edge (Control.OffWorldAscent); with a freely chosen grade, the no-novel-edge bundle implies the graded form (unionWFOfNoNovel composed with gradedOfUnionWF); for the fixed MoreIn esse the other direction is not certified. Conditional consequence only; no premise is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -125,7 +125,7 @@ definitions = ["DEF-DEPENDS-FOR-BEING"]
 id = "STMT-ACTUAL-GROUND-IS-MORE-IN-ESSE"
 lean = "ActualGroundIsMoreInEsse"
 paraphrase = "OPEN analyst bridge: whenever an actual concretum a grounds an actual concretum b at w, a is more in esse than b (MoreIn esse a b, the quarta via's grades). Equal-grade grounding would falsify it."
-definitions = ["DEF-MORE-IN", "DEF-ESSE", "DEF-BRUTE-ROOT-RELATIVE-GROUNDING", "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY"]
+definitions = ["DEF-MORE-IN", "DEF-ESSE"]
 disambiguations = ["DISAMB-BEING-UNIVOCITY"]
 
 [[statement]]

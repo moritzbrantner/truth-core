@@ -1,0 +1,12 @@
+{
+  "id": "e4f81da1-0488-497a-800f-269c93cdcb26",
+  "label": "Ascent between necessary concreta, from ascent at every world (inference)",
+  "input_statement_ids": [
+    "406f0cbe-49ce-4de6-9a7d-e1b10a55ed72"
+  ],
+  "output_statement_id": "40ce286d-b26d-4773-8a92-0a68da477414",
+  "rule": "Restriction of the quantifier to necessary concreta",
+  "meaning": "The unrestricted every-world ascent premise implies the ascent premise between necessary concreta, for any selected world. Registered as a strength order.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

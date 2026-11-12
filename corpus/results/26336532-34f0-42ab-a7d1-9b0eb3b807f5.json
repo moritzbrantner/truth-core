@@ -1,0 +1,11 @@
+{
+  "id": "26336532-34f0-42ab-a7d1-9b0eb3b807f5",
+  "label": "Graded actual grounding, from its well-foundedness",
+  "argument_id": "676f4cc7-16ca-40d0-9386-1b4eec5b430d",
+  "challenge_module": "TruthCore.Results.Causality.GradedSupportFoundation.Challenge",
+  "solution_module": "TruthCore.Results.Causality.GradedSupportFoundation.Solution",
+  "theorem": "TruthCore.Results.Causality.GradedSupportFoundation.gradedOfActualGroundingWF",
+  "comparator_config": "results/26336532-34f0-42ab-a7d1-9b0eb3b807f5/comparator.json",
+  "status": "solution-present",
+  "description": "Converse of the graded route: well-founded actual grounding already yields some rigid comparison with no infinite ascent that actual grounding ascends. With actualGroundingWFOfAscent the two are equivalent when the grade may be chosen freely. So the graded formulation is not a weaker commitment than AGWF; its additional content is the identification of the grade with the Fourth Way's more in esse, which STMT-GRADES-TO-MAXIMUM-AT-BEING also uses."
+}

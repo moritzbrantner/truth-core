@@ -1,0 +1,11 @@
+{
+  "id": "07b89e3c-6b54-4160-aad7-27abeee2d361",
+  "label": "Ascent between necessary concreta, from ascent at every world",
+  "argument_id": "f9b43c45-6ffc-432c-8cff-a895670287c3",
+  "challenge_module": "TruthCore.Results.Causality.GradedSupportFoundation.Challenge",
+  "solution_module": "TruthCore.Results.Causality.GradedSupportFoundation.Solution",
+  "theorem": "TruthCore.Results.Causality.GradedSupportFoundation.necessaryAscentOfEverywhere",
+  "comparator_config": "results/07b89e3c-6b54-4160-aad7-27abeee2d361/comparator.json",
+  "status": "solution-present",
+  "description": "The unrestricted every-world ascent premise implies the ascent premise between necessary concreta, for any selected world. Registered as a strength order."
+}

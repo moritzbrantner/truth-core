@@ -1,0 +1,16 @@
+{
+  "id": "9181f1f0-e510-42c6-8008-46a57df8e861",
+  "label": "Some rigid grade with no infinite ascent is ascended by support between NECESSARY_2 concreta",
+  "paraphrase": "There is a comparison on candidates, at a single respect and with no world argument, that has no infinite ascent and that every support edge between concreta necessary from w, at any admitted world where the supporter exists, ascends. The comparison is existentially chosen; nothing identifies it with the Fourth Way's more in esse.",
+  "lean_declaration": "TruthCore.Causality.GradedSupportFoundation.GradedNecessarySupport",
+  "definition_ids": [
+    "2873d86b-7d15-41c5-8b93-362a117cb4cf",
+    "2100cf9a-27ed-57e9-9daa-4b94b6780fe7",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "9146789d-5b36-572f-baa1-7eef28967793"
+  ],
+  "disambiguation_ids": [
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "5d15d8f2-1080-53c9-886f-cee2a4ff23a9"
+  ]
+}
