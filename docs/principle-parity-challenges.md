@@ -169,6 +169,158 @@ explicitly brute necessary moral supervenience versus a positive,
 nondefinitional theistic account of authority. No global naturalist/theistic
 refutation or new corpus closure follows from this audit.
 
+## Third worked test: does the source select this contingent world? (PP-03)
+
+**Primary exchange and parent argument.** Timothy O'Connor, [*Is God's
+Necessity Necessary?*](https://toconnor.org/wp-content/uploads/2021/04/OConnor_IsGodsNecessity10.pdf)
+(2010), pp. 311–14, directly replies to Graham Oppy's [*The Shape of Causal
+Reality*](https://doi.org/10.5840/pc201012227) (2010). Oppy's later
+[*O'Connor's Cosmological Argument*](https://philpapers.org/archive/OPPOCA-2.pdf)
+(2011), §§6–7, pp. 10–16, gives the detailed positive naturalist rejoinder.
+These two authors disagree over **how a necessary source produces contingent
+contents**, not merely over whether it is called *natural* or *God*.
+The existing [whole-series adequacy investigation](notes/ultimate-adequacy-integration-735.md)
+and [#1297](https://github.com/moritzbrantner/truth-core/pull/1297) already
+distinguish necessary *bearer* from necessary *content* and sufficient from
+nonnecessitating selection; this section tests a new **value-sensitive
+comparison** within those open meanings. It certifies no new premise.
+
+### First fix the explanandum
+
+| Distinct question | What a serious explanation must provide | What it cannot obtain merely by a label |
+| --- | --- | --- |
+| **Existential**: Why is there any concrete contingent order? | An actual productive relation or an independently defended reason for denying the demand. | The word `necessary`, `nature`, `agent` or `brute`. |
+| **Feature**: Why does the actual order exhibit property `E`, e.g. life-permitting structure? | A mechanism, law, objective propensity or purposive reason that favors `E`, **specified independently** of the observed outcome. | Post-hoc assertion that the source favors exactly what we see. |
+| **Token contrast**: Why this exact complete order `W₁` instead of equally permissible `W₂`? | An appropriate selection account under a defended contrast standard, or an explicit account of irreducibly nonnecessitating choice/chance. | Reasons for a *class* of good worlds, when several members remain live. |
+
+The feature question is genuinely intermediate: a nonnecessitating reason can
+explain why a **kind** of world is favored without logically necessitating the
+unique token. Requiring a complete entailing contrast for every token would
+undermine contingent free choice and indeterministic natural production alike;
+the existing `HistorySelection`/`ExplanatoryAdequacy` results track this exact
+limitation. Conversely, relaxing that standard for one candidate alone is a
+real parity problem.
+
+### The strongest positive versions, tested on the same evidence
+
+| Source model | Positive route to this order | Specific remaining work |
+| --- | --- | --- |
+| **`N-fixed`: necessary impersonal source and invariant initial state/laws** | Oppy considers a modal theory in which every possible world shares the actual laws and an initial state, with later objective-chance divergences. A life-permitting initial configuration is then not an *accidental* initial selection within that modal domain. A **different REGRESS variant** additionally proposes an initial *multi-state segment* as necessary; Oppy discusses but does not himself endorse it. | Give independent reasons for **that modal domain** and the claimed necessity (whether primitive or intrinsic) of those exact laws/initial conditions. A stipulated modal restriction settles the formal modality of initial facts but does not by itself give an ontic explanation of their actuality. However, it is also not refuted by demanding a different initial state **within the very domain that excludes one**. |
+| **`N-generative`: necessary impersonal source with nonnecessitating physical production** | Actual laws, dynamical propensities, an ensemble-generating measure and observer-selection can favor life-permitting observations even when particular results vary. This is stronger than an idle impersonal `N` or brute unexplained law labels. | Justify the actual generating law, measure, observation reference class and which *additional* features it predicts. No abstract argument alone establishes low `P(E given N,O)`. |
+| **`G-reason`: necessary personal source with reason-guided contingent agency** | O'Connor's account has an agent recognize a purpose `P`, judge that contingent order `C` realizes `P`, form an intention for `C` *as agent*, and produce `C`. A goal valuing intelligent life can nonaccidentally favor a life-supporting **class** of worlds. This is a substantive possible explanatory advantage over a genuinely value-insensitive physical generator. | Defend the reality of this intentional source, why its purposes favor `E`, and why it actually exercises this power. Where several worlds meet `P`, a reason for `P` is not yet a unique `W₁` selector. Agent-causal production needs positive content, not an exemption from scrutiny. |
+| **`G-aesthetic`: a creator whose plan arises with the creative act** | McCann's spontaneous/aesthetic account, discussed by O'Connor (pp. 313–14), offers creativity not described as executing an antecedently fixed best-world calculation. | Show how alternative creatable worlds and their differences are grounded if possibility and the creative plan arise only **after** the actual choice. This is a specific proposed theistic rescue with its own warrant debt, not a property of all theism. |
+
+O'Connor's particularly useful challenge concerns the **separate REGRESS
+variant** of a **necessary initial segment with intrinsically changing
+successive states**, which Oppy surveys but explicitly does not endorse:
+if there are genuinely different property clusters `C₁ ... Cₙ`, what makes
+precisely that changing series necessary? Calling the *bearer* necessary need
+not make each varying state necessary. **But his further claim that necessity
+is only contingently joined to each cluster does not follow against Oppy's
+explicit restricted-world semantics** when it is extended to that variant:
+in those semantics every such initial state may be necessary, and a necessary
+earlier state may causally explain a later necessary state. The live objection
+is to the **warrant and content of the stronger modal restriction**, not a
+derivation of inconsistency from temporal change. **It does not apply as
+stated to a model requiring only one necessary initial state followed by
+chancy change.** This distinction prevents the critique from begging its
+conclusion or attributing the REGRESS view to Oppy as his own.
+
+### Controlled comparative argument: purpose versus propensity
+
+Let `O` be the information that an observer exists; `E` an observed physical
+feature **not already guaranteed by `O`**; `G` a reason-guided creative
+hypothesis; and `N` a specified impersonal generator. The proposed inference
+has the following transparent dependencies:
+
+1. A fully specified `G` supplies purposes and a production account that make
+   `P(E | G, O)` high, *on grounds other than merely having observed `E`*.
+2. A fully specified `N` supplies physical dynamics and a sampling rule that
+   make `P(E | N, O)` lower, *after* accounting for observer selection.
+3. With both likelihoods positive and comparable, `P(E | G, O) > P(E | N, O)`
+   means `E` favors `G` over `N` as **incremental** evidence given `O`. It does
+   not by itself establish a posterior preference, actual design, or the
+   existence of an omnipotent/necessary God.
+
+O'Connor (pp. 312–13) explicitly argues for the *epistemic* relevance of
+purpose-sensitive fine-tuning even if the necessary source, if real, exists
+with metaphysical probability one. That is a valid distinction between the
+probability of a hypothesis's *existence under itself* and an **evidence
+likelihood**. It does **not** supply the missing comparative likelihoods.
+In particular, if `N-fixed` **includes** the actual life-permitting initial
+conditions as a necessary axiom, it entails **that initial-condition feature** and assigns its
+conditional likelihood one (provided its probability model gives the
+conditioning event positive measure); this does not apply automatically to
+later stochastic features. The remaining comparison then concerns
+the independently warranted **selection of that highly specific natural
+theory** and its theoretical cost, not a low likelihood *within* it. A broad
+`N` that does not encode these conditions is a different hypothesis and may
+have a different likelihood. A similarly tailored `G` that builds the observed
+feature into its purposes must pay its own specification cost. Neither side
+may win by comparing its detailed post-hoc hypothesis against a deliberately
+unspecified version of the other.
+The project's [fine-tuning selection study](notes/fine-tuning-selection.md)
+has already shown both directions with controlled examples: a selected
+natural model can reverse a designer-favoring result, and an indifferent
+designer need not predict the evidence. Its observer-conditioned ratio,
+continuous-measure invariance and residual-evidence caveats are the formal
+authorities here. Re-running an uncalibrated likelihood comparison as a new
+proof would merely duplicate those results.
+
+**Oppy's strongest reply (2011, pp. 12–16)** is *not* simply that `G` is a
+different label. If the same necessary goals and beliefs leave multiple
+intentions possible, a contingent intention still occurs. He asks whether
+intentions have an objective-chance distribution; if yes, include that
+distribution in the explanatory cost and compare with chance-governed nature.
+If no, he offers a substantive **causal-control premise**: a producer must
+stand in either counterfactual dependence or an objective probabilistic link
+to its effect. Agent causation that admits neither would then lack the
+required link. The premise is **disputed rather than a proved dichotomy**:
+an agent-causal theorist may offer a third primitive relation, but owes an
+independently intelligible account of exercise and control. A critic cannot
+make that relation disappear by definition; a defender cannot make it real
+by saying `irreducibly agent-causal`.
+
+**Worked contrast.** Suppose `W₁` and `W₂` both permit intelligent life,
+but differ in contingent details. A creator's antecedent purpose of allowing
+intelligent life can explain why either was eligible, but, without further
+content, not why specifically `W₁` was chosen. Likewise a natural generator
+whose law favors observer-permitting worlds can explain their prevalence,
+but its realized stochastic draw may not explain why `W₁` specifically
+occurred rather than `W₂`. A strict token-discrimination standard defeats
+both on this setup; a nonnecessitating explanatory standard may admit both.
+**Where `G` could really gain ground** is a warranted, independently
+specified *value-sensitive discrimination among world-features* that `N`
+cannot match under the same evidence and observer reference class. That is
+not guaranteed by possessing a purpose, nor impossible for an impersonal
+natural process to mimic through a different generative route.
+
+### Provisional assessment and next discriminator (2026-11-12)
+
+**Assessment: a potentially substantive asymmetry, still unproved for actual
+reality.** Purpose-directed agency has a clearly articulated kind of
+feature-level explanatory resource that a **value-insensitive** impersonal
+generator lacks. Oppy's mere parity of source counts and general causal depth
+does not prove parity on this question; O'Connor's claim that life-permitting
+evidence actually favors purpose does not settle the physical or goal-likelihood
+premises. The strongest necessary-*natural* generator remains a live rival;
+the exact-token problem remains open for both sides. Neither hypothesis is
+disqualified by the word `necessary`, `natural`, `contingent` or `free`.
+
+The next **discriminating test** is to select a definite observed feature
+`E_res` beyond what observer existence guarantees, and compare (a) an
+**independently motivated reason**, specified without tailoring it to the
+observed `E_res`, why a creator would prefer that feature over
+life-permitting alternatives, with (b) an actual natural generator/selection
+model's predictions for `E_res`. The alternative is a philosophical defense
+of Oppy's causal-control dichotomy or of a substantive third agent-causal
+relation. A demonstrated higher conditional likelihood or an independently
+defended explanatory-role asymmetry strengthens the theistic preference;
+observer screening, an indifferent/contrary purpose, or a comparably
+value-sensitive natural mechanism weakens or reverses it. Keep the disputed
+selection rules and source-exercise bridge OPEN; no additional root premise
+is discharged, no corpus identity or prior judgment is silently changed.
+
 **Do not combine incompatible rescue moves.** Oppy's 2020 account explicitly
 rejects self-causes and causal circles; Newman argues that some causal loops
 are directly self-caused. They are individually assessable alternatives, **not**
