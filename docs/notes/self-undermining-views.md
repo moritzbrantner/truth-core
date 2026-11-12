@@ -1,11 +1,21 @@
 # Self-refuting and self-undermining views
 
-A consequence that conflicts with an independently warranted premise excludes
-the view that entails it, under the same interpretation and background. A
-specific rival follows deductively if the independently supported alternatives
-are exhaustive and the other options have been excluded. A conflict with an
-act of assertion, a loss of warrant for a belief, and the absence of a reason
-to adopt a view each require their own conditions and conclusions.
+A consequence that conflicts with a substantively warranted premise excludes
+the view that entails it, under the same interpretation and background. Warrant
+may be prima facie, based on an unavoidable inquiry precondition, or cumulative
+within a larger evidential network; it need not be a separate proof tree. A
+specific rival follows deductively only if the relevant alternatives are
+exhaustive and the other options have been excluded. A conflict with an act of
+assertion, a loss of warrant for a belief, and the absence of a reason to adopt
+a view each require their own conditions and conclusions.
+
+These tests also inform *comparative* assessments short of deduction: a view
+failing a well-supported self-refutation, self-undermining, internal-adoption or
+necessary-precondition test loses standing; a view surviving a serious test may
+gain relative standing. Neither logical consistency alone nor the mere absence
+of a discovered objection establishes truth, and an unsupported hypothetical
+objection carries no evidential weight. Keep these distinctions in the overall
+provisional judgment, not as automatic frontier closure.
 
 | # | Candidate | Corpus evidence and scope |
 | --- | --- | --- |
@@ -39,7 +49,7 @@ warrant, benchmark and prior-demonstration assumptions in more detail.
 
 The question is whether a view can admit a reason, of a specified kind, for an
 agent to adopt it. Here *internal* means admitted by the view's interpretation.
-The reason may come from independent evidence. The interpretation keeps the
+The reason may come from a larger shared network of evidence. The interpretation keeps the
 kind and target attitude fixed, such as a moral reason to adopt a stance in
 practice or an epistemic reason to believe that its claims are true.
 
@@ -56,7 +66,8 @@ reason relation and leaves its actual warrant open.
 Global reason denial removes reasons to adopt the view across every kind it
 covers, provided the view itself is among the targets. Its conflict with F6
 runs from an epistemic reason witness to the exclusion of the global denial.
-It supplies no independent warrant for F6. The separate
+It does not by itself supply a non-question-begging case for F6; prima facie,
+practice-based and cumulative grounds for F6 remain eligible. The separate
 [reflective-coherence analysis](reflective-coherence.md) treats the conditions
 under which a normative policy may require a worldview to be adopted.
 
