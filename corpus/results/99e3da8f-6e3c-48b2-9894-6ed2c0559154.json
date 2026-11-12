@@ -1,0 +1,11 @@
+{
+  "id": "99e3da8f-6e3c-48b2-9894-6ed2c0559154",
+  "label": "Act is SIMPLY_PRIOR_1 to POTENCY_2 at a first being, from Theta.8 incorruptibility",
+  "argument_id": "ae809bfd-f785-4f0f-9e64-987847f265f8",
+  "challenge_module": "TruthCore.Results.Causality.ActPriorityThetaEight.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ActPriorityThetaEight.Solution",
+  "theorem": "TruthCore.Results.Causality.ActPriorityThetaEight.weakOfThetaEight",
+  "comparator_config": "results/99e3da8f-6e3c-48b2-9894-6ed2c0559154/comparator.json",
+  "status": "solution-present",
+  "description": "First-being act priority for the independent POTENCY_2 parameter from the six premises of the Theta.8 route: by firstBeingNoPotencyOfThetaEight a first being is in potency in no respect, so the first-being version holds vacuously. Registered per route, not through the sense-neutral untimed q.3 a.1 conclusion, so that the POTENCY_1 act-priority route to that conclusion (a4d3261a) does not reach the POTENCY_2 first-being version without a sense bridge. Conditional consequence only; no premise is established."
+}

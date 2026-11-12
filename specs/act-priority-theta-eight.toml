@@ -2,13 +2,14 @@
 # reconstructions with attribution deferred. Asks which Theta.8 priority of act
 # (in definition, in time, in substance) gives the q.3 a.1 conclusion that a
 # first being is in potency in no respect, or the composition route's analyst
-# premises (8288ff1e, 3d99779b), and from what. Definition: no derivation (built
-# into the respect typing). Time: vacuous at idle potencies (earlier attempts).
-# Substance, the eternal (1050b6-19): gives 8288ff1e from first-being
-# incorruptibility, and with a composition premise restricted to act in being
-# the q.3 a.1 conclusion. Substance, potency for the sake of act (1050a4-b2),
-# with the tertia via's plenitude premise: the q.3 a.1 conclusion with no
-# composition premise. Controls: heavenly first being, contingent first being,
+# premises (8288ff1e, 3d99779b), and from what. Time: vacuous at idle
+# potencies (earlier attempts). Substance, the eternal (1050b6-19): gives
+# 8288ff1e from first-being incorruptibility, and with a composition premise
+# restricted to act in being the q.3 a.1 conclusion and first-being act
+# priority. Plenitude plus change-cause: definitional priority read as the open
+# bridge 'potency makes act possible', with the tertia via's plenitude premise,
+# gives no potency at a first being at the time now (time-indexed, not bound to
+# the untimed conclusion). Controls: heavenly first being, contingent first being,
 # restriction strictness, an idle uncaused composite first being surviving all
 # premises except the cause of composites and plenitude, omissions.
 
@@ -19,9 +20,10 @@ results = "TruthCore.Results.Causality.ActPriorityThetaEight"
 # ---------------------------------------------------------------- statements
 
 [[statement]]
-id = "Every first being is INCORRUPTIBLE_SIMPLY_1: it cannot fail to be in being"
+id = "ca55ed3a-8f7d-4e7c-8799-c61fdb4cce60"
+label = "Every first being is CORRUPTIBLE_INCORRUPTIBLE_1: it cannot fail to be in being"
 lean = "FirstBeingIsIncorruptibleSimply"
-paraphrase = "Open premise, analyst formulation, unattributed: every first being (no being other than it is simply prior to it) is simply incorruptible: it cannot fail to be in the respect of being (esse). Metaphysics Theta.8, 1050b16-19 (the eternal is prior in substance; the necessary beings are first) is orientation only. It says nothing about failing to be in a place, quantity or quality. Its denial is a contingent first being."
+paraphrase = "Open premise, analyst formulation, unattributed: every first being (no being other than it is simply prior to it) is simply incorruptible: it cannot fail to be in the respect of being (esse). Orientation only: Metaphysics Theta.8, 1050b16-19 (the eternal is prior in substance; the necessary beings are first); the pinned reading STMT-INCORRUPTIBLE-IS-IN-ACT-IN-SUBSTANCE covers 1050b16-18 and is not attributed this premise. It says nothing about failing to be in a place, quantity or quality. Its denial is a contingent first being."
 definitions = ["DEF-INCORRUPTIBLE-SIMPLY", "DEF-FIRST-BEING", "DEF-SIMPLE-PRIORITY", "DEF-RESPECT"]
 disambiguations = ["DISAMB-CORRUPTIBLE-SIMPLY-OR-IN-A-RESPECT"]
 
@@ -34,20 +36,27 @@ definitions = ["DEF-ACT", "DEF-INDEPENDENT-POTENCY", "DEF-SIMPLE", "DEF-RESPECT"
 [[statement]]
 id = "Whatever is in POTENCY_2 in a respect at some time can be in act in it"
 lean = "PotencyMakesActPossible"
-paraphrase = "Open premise, analyst formulation, unattributed: whatever is in potency in a respect at some time can be in act in that respect, that is, the condition on times 'x is in act in r' is possible in the supplied sense of the tertia via's plenitude reading (STMT-PLENITUDE-OVER-INFINITE-PAST). A potency is a potency for its act (Metaphysics Theta.3, 1047a24-26; Theta.8, 1049b12-17, orientation only). InPotencyAt is the free POTENCY_2 parameter at each time."
-definitions = ["DEF-ACT", "DEF-INDEPENDENT-POTENCY", "DEF-TEMPORAL-EXISTENCE-BEGINNING"]
+paraphrase = "Open premise, analyst formulation, unattributed: whatever is in potency in a respect at some time can be in act in that respect, that is, the condition on times 'x is in act in r' is possible in the supplied sense of the tertia via's plenitude reading (STMT-PLENITUDE-OVER-INFINITE-PAST): realizability at some time. It reads Theta.8's priority of act in definition (1049b12-17, a potency is a potency for its act; Theta.3, 1047a24-26), orientation only, as this explicit bridge. Under DISAMB-CAN-BE-MODAL-CAPACITY the step starts from POTENCY_2, not from the IX.6 capacity CanBe (ABLE_TO_BE_1), and yields the plenitude-reading possibility, which is not accessible-world ModalCapacity (ABLE_TO_BE_2) either; no identification with either sense is made. InPotencyAt is the free POTENCY_2 parameter at each time."
+definitions = ["DEF-ACT", "DEF-INDEPENDENT-POTENCY", "db0f415c-0b32-4f28-b550-e1da0fddc6a4"]
+disambiguations = ["DISAMB-CAN-BE-MODAL-CAPACITY"]
 
 [[statement]]
 id = "What was in act in a respect and later is in POTENCY_2 in it has another efficient cause"
 lean = "ActThenPotencyHasAnotherCause"
 paraphrase = "Open premise, analyst formulation, unattributed: whatever was in act in a respect at an earlier time and is in potency in that respect at a later time has an efficient cause other than itself, in some respect. With same-respect non-overlap the later potency is a loss of the act, a change, and the premise extends 'whatever is moved is moved by another' to that change; without non-overlap it also covers a being that keeps the act and gains the potency. Efficient causation is not time-indexed: c efficiently causes x in s at some time."
-definitions = ["DEF-ACT", "DEF-INDEPENDENT-POTENCY", "DEF-TEMPORAL-EXISTENCE-BEGINNING"]
+definitions = ["DEF-ACT", "DEF-INDEPENDENT-POTENCY"]
+
+[[statement]]
+id = "A first being is in POTENCY_2 in no respect at the time now"
+lean = "FirstBeingIsInNoWayInPotencyAt"
+paraphrase = "Time-indexed sibling of STMT-FIRST-BEING-IS-IN-NO-WAY-IN-POTENCY: whatever first being (no being other than it is simply prior to it, by nature, untimed) is in potency in no respect at the supplied time now, with InPotencyAt the free POTENCY_2 parameter at each time. It says nothing about other times, so it does not give immutability or eternity; it is not identified with the untimed statement, whose consumers pass from pure actuality to immutability and eternity."
+definitions = ["DEF-FIRST-BEING", "DEF-PURE-ACT", "DEF-INDEPENDENT-POTENCY", "DEF-SIMPLE-PRIORITY"]
 
 [[statement]]
 id = "Theta.8 controls: heavenly first, contingent first, idle uncaused composite"
 lean = "Control.Certificate"
 paraphrase = "Closed controls. (1) Heavenly first being: over Bool beings and Bool respects (true being, false a place), every potency of the contradictory, the simply incorruptible in act in substance, first beings simply incorruptible and in act in some respect, and non-overlap hold while a first being is in potency to a place, so act priority at a first being fails. (2) Contingent first being: every first being is in act in some respect while none is simply incorruptible. (3) A being in act in a place but not in being, in potency in being and simple, satisfies the restricted composition premise and falsifies both the unrestricted one and 'whatever is in act in some respect is in act in being'. (4) Idle uncaused composite first being: with Int times, now 0, one interpretation satisfies every premise of the three routes to the q.3 a.1 conclusion except the cause of composites and plenitude, with a first being composite, uncaused and in potency to a place at every time, never actualized. (5) Each of the six premises of the Theta.8 composition route and each of the five premises of the plenitude route is needed (omission models), and the plenitude route is not vacuous. (6) For every carrier: the composition premise gives its restriction to act in being; with STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING the restriction gives it back, and 'every first being is in act in some respect' gives that every first being is in act in being. Statements about these interpretations and implications only."
-definitions = ["DEF-ACT", "DEF-INDEPENDENT-POTENCY", "DEF-SIMPLE-PRIORITY", "DEF-FIRST-BEING", "DEF-SIMPLE", "DEF-INCORRUPTIBLE-SIMPLY", "DEF-TEMPORAL-EXISTENCE-BEGINNING"]
+definitions = ["DEF-ACT", "DEF-INDEPENDENT-POTENCY", "DEF-SIMPLE-PRIORITY", "DEF-FIRST-BEING", "DEF-SIMPLE", "DEF-INCORRUPTIBLE-SIMPLY", "db0f415c-0b32-4f28-b550-e1da0fddc6a4"]
 disambiguations = ["DISAMB-CORRUPTIBLE-SIMPLY-OR-IN-A-RESPECT"]
 
 # ---------------------------------------------------------------- arguments
@@ -55,7 +64,7 @@ disambiguations = ["DISAMB-CORRUPTIBLE-SIMPLY-OR-IN-A-RESPECT"]
 [[argument]]
 id = "Every first being is in act in some respect, from Theta.8 incorruptibility"
 theorem = "inActOfIncorruptible"
-premises = ["Every first being is INCORRUPTIBLE_SIMPLY_1: it cannot fail to be in being", "STMT-INCORRUPTIBLE-IS-IN-ACT-IN-SUBSTANCE"]
+premises = ["ca55ed3a-8f7d-4e7c-8799-c61fdb4cce60", "STMT-INCORRUPTIBLE-IS-IN-ACT-IN-SUBSTANCE"]
 conclusion = "Every first being is in act in some respect"
 axioms = []
 rule = "Instantiation at a first being, then existential introduction at the respect of being"
@@ -73,7 +82,7 @@ meaning = "The composition premise 3d99779b, instantiated at the respect of bein
 [[argument]]
 id = "A first being is in POTENCY_2 in no respect, from Theta.8 incorruptibility"
 theorem = "firstBeingNoPotencyOfThetaEight"
-premises = ["Every first being is INCORRUPTIBLE_SIMPLY_1: it cannot fail to be in being", "STMT-INCORRUPTIBLE-IS-IN-ACT-IN-SUBSTANCE", "Whatever is in act in being and in POTENCY_2 in some respect is composite", "STMT-COMPOSITE-HAS-A-UNITING-CAUSE", "STMT-PERFECTION-CAUSING-IN-ANOTHER-IS-EFFICIENT", "STMT-EFFICIENT-CAUSE-IS-PRIOR-TO-EFFECT"]
+premises = ["ca55ed3a-8f7d-4e7c-8799-c61fdb4cce60", "STMT-INCORRUPTIBLE-IS-IN-ACT-IN-SUBSTANCE", "Whatever is in act in being and in POTENCY_2 in some respect is composite", "STMT-COMPOSITE-HAS-A-UNITING-CAUSE", "STMT-PERFECTION-CAUSING-IN-ANOTHER-IS-EFFICIENT", "STMT-EFFICIENT-CAUSE-IS-PRIOR-TO-EFFECT"]
 sense_bridges = [
   { term = "UNITING_CAUSE_VERSUS_EFFICIENT_CAUSE", from = "2478812d-d2cd-4182-8ad0-d27a4bdb9ff2", to = "018d4f0a-2276-42a7-b20d-b0fe6c9c3714", statement_id = "STMT-PERFECTION-CAUSING-IN-ANOTHER-IS-EFFICIENT" },
 ]
@@ -83,22 +92,25 @@ rule = "Reductio at the supposed first being, composing firstBeingNoPotencyOfCom
 meaning = "A first being cannot fail to be, so (In Metaph. IX lect. 9 reading) it is in act in being; if it were in potency in some respect it would, being in act in being, be composite; so it would have a cause of its being other than itself (ST I q.3 a.7 reading), which by the bridge causes it efficiently and so is simply prior to it (ST I q.2 a.3 reading), against firstness. Composes the existing firstBeingNoPotencyOfComposition, with the act predicate read as act in being. Replaces 8288ff1e and 3d99779b by first-being incorruptibility, the sourced reading d017b6b0 and the weaker restricted composition premise; shares the other three premises. Each of the six premises is needed (Control.ThetaEightOmissions). The Theta.8 substance premises without a composition premise do not reach the weak version (Control.HeavenlyFirst). Conditional consequence only; no premise is established."
 
 [[argument]]
-id = "A first being is in POTENCY_2 in no respect now, from plenitude"
+id = "A first being is in POTENCY_2 in no respect at now, from plenitude plus change-cause"
 theorem = "firstBeingNoPotencyOfPlenitude"
 premises = ["STMT-PLENITUDE-OVER-INFINITE-PAST", "STMT-PAST-IS-INFINITE", "Whatever is in POTENCY_2 in a respect at some time can be in act in it", "What was in act in a respect and later is in POTENCY_2 in it has another efficient cause", "STMT-EFFICIENT-CAUSE-IS-PRIOR-TO-EFFECT"]
-conclusion = "STMT-FIRST-BEING-IS-IN-NO-WAY-IN-POTENCY"
+conclusion = "A first being is in POTENCY_2 in no respect at the time now"
 axioms = []
 rule = "Reductio at the supposed first being: potency now gives possible act, plenitude a past act, the change an external efficient cause, the cause priority, against firstness"
-meaning = "An analyst reconstruction of Theta.8's priority in substance of act as the end of potency (1050a4-b2), read with the tertia via's plenitude premise: a first being in potency in a respect now can be in act in it; given an infinite past, whatever is possible was realized at some earlier time, so the first being was once in act in that respect; whatever was in act in a respect and is later in potency in it has an efficient cause other than itself, which is simply prior to it (ST I q.2 a.3 reading), against firstness. The conclusion is the q.3 a.1 conclusion with potency taken at the time now. It uses no composition premise and no cause of composites; it shares only efficient-cause priority with the composition routes. Each of the five premises is needed and the route is not vacuous (Control.PlenitudeOmissions). Conditional consequence only; no premise is established."
+meaning = "Plenitude plus change-cause. Theta.8's priority of act in definition read as the open bridge that potency in a respect makes act in it possible (7371403f), with the tertia via's plenitude premise and an infinite past: a first being in potency in a respect now was in act in it at some earlier time; whatever was in act in a respect and is later in potency in it has an efficient cause other than itself (966c08c6), which is simply prior to it (ST I q.2 a.3 reading), against firstness. Theta.8's potency-for-the-sake-of-act passage (1050a4-b2) is orientation only. The conclusion is time-indexed: no potency at now. It is not bound to the untimed q.3 a.1 conclusion, whose consumers (69affa96, 358d8c6e via first-being act priority) pass to immutability and eternity. Connection plan: the untimed statement would follow, with potency read as potency at some time, from the five premises at every time (plenitude and an infinite past at every time), or through an open bridge from untimed potency to potency at now; neither is registered, so this route does not reach the root. It uses no composition premise and no cause of composites; it shares only efficient-cause priority with the composition routes. Each of the five premises is needed and the route is not vacuous (Control.PlenitudeOmissions). Conditional consequence only; no premise is established."
 
 [[argument]]
-id = "Act is SIMPLY_PRIOR_1 to POTENCY_2 at a first being, from pure actuality"
-theorem = "weakOfNoPotency"
-premises = ["STMT-FIRST-BEING-IS-IN-NO-WAY-IN-POTENCY"]
+id = "Act is SIMPLY_PRIOR_1 to POTENCY_2 at a first being, from Theta.8 incorruptibility"
+theorem = "weakOfThetaEight"
+premises = ["ca55ed3a-8f7d-4e7c-8799-c61fdb4cce60", "STMT-INCORRUPTIBLE-IS-IN-ACT-IN-SUBSTANCE", "Whatever is in act in being and in POTENCY_2 in some respect is composite", "STMT-COMPOSITE-HAS-A-UNITING-CAUSE", "STMT-PERFECTION-CAUSING-IN-ANOTHER-IS-EFFICIENT", "STMT-EFFICIENT-CAUSE-IS-PRIOR-TO-EFFECT"]
+sense_bridges = [
+  { term = "UNITING_CAUSE_VERSUS_EFFICIENT_CAUSE", from = "2478812d-d2cd-4182-8ad0-d27a4bdb9ff2", to = "018d4f0a-2276-42a7-b20d-b0fe6c9c3714", statement_id = "STMT-PERFECTION-CAUSING-IN-ANOTHER-IS-EFFICIENT" },
+]
 conclusion = "Act is SIMPLY_PRIOR_1 to POTENCY_2 at a first being"
 axioms = []
-rule = "A first being in potency in no respect satisfies first-being act priority vacuously"
-meaning = "If every first being is in potency in no respect, then whatever first being is in potency in a respect (none is) is simply posterior to a being in act in that respect. Registers the existing Control.Facts item 3 of ActPriorityAtFirst as an argument, so that every derivation of the q.3 a.1 conclusion (composition, Theta.8, plenitude, act priority) also supports the first-being version. Given non-overlap the two are equivalent. Conditional consequence only; no premise is established."
+rule = "Reductio at the supposed first being, as in firstBeingNoPotencyOfThetaEight; the first-being version then holds vacuously"
+meaning = "First-being act priority for the independent POTENCY_2 parameter from the six premises of the Theta.8 route: by firstBeingNoPotencyOfThetaEight a first being is in potency in no respect, so the first-being version holds vacuously. Registered per route, not through the sense-neutral untimed q.3 a.1 conclusion, so that the POTENCY_1 act-priority route to that conclusion (a4d3261a) does not reach the POTENCY_2 first-being version without a sense bridge. Conditional consequence only; no premise is established."
 
 [[argument]]
 id = "Theta.8 controls: heavenly first, contingent first, idle uncaused composite, checked"
@@ -107,7 +119,7 @@ premises = []
 conclusion = "Theta.8 controls: heavenly first, contingent first, idle uncaused composite"
 axioms = ["propext", "Classical.choice", "Quot.sound"]
 rule = "Explicit finite and Int-timed interpretations checked by case analysis, decide and omega, and general implications"
-meaning = "Controls for the Theta.8 routes. HeavenlyFirst: the Theta.8 substance premises leave a first being in potency to a place. ContingentFirst: 8288ff1e does not imply first-being incorruptibility. RestrictedStrict and Facts: the restricted composition premise is strictly weaker, and equivalent given STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING. IdleUncausedComposite: an interpretation satisfies every premise of the composition, Theta.8 and plenitude routes except the cause of composites and plenitude, with a composite, uncaused first being in potency to a place it never actualizes; so a rival who keeps a first being with an unactualized potency must reject at least the cause of composites (or a composition premise or first-being act) and at least one plenitude-route premise. ThetaEightOmissions and PlenitudeOmissions: each premise of both new routes is needed; the plenitude route has a nonvacuous witness. Model-witnessed and general implications only; no interpretation is claimed metaphysically possible."
+meaning = "Controls for the Theta.8 routes. HeavenlyFirst: the Theta.8 substance premises leave a first being in potency to a place. ContingentFirst: 8288ff1e does not imply first-being incorruptibility. RestrictedStrict and Facts: the restricted composition premise is strictly weaker, and equivalent given STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING. IdleUncausedComposite: an interpretation satisfies every premise of the composition, Theta.8 and plenitude-plus-change-cause routes except the cause of composites and plenitude, with a composite, uncaused first being in potency to a place it never actualizes; it shows only that rejecting {ca07cae9, plenitude} suffices. The minimal rejection sets for a first being in potency (one premise of each route; rejecting d8024a38 also rejects 3d99779b, which implies it) are: {e078f07b}; {x, y} with x one of ca07cae9, e0088de9, d8024a38 and y one of b9baf50d, d256e6d2, 7371403f, 966c08c6; {a, b, y} with a one of 8288ff1e, 3d99779b and b one of ca55ed3a, d017b6b0. Rejecting 3d99779b alone does not suffice, since the Theta.8 route survives through d8024a38. The strong act-priority readings are further routes not counted here. ThetaEightOmissions and PlenitudeOmissions: each premise of both new routes is needed; the plenitude route has a nonvacuous witness. Model-witnessed and general implications only; no interpretation is claimed metaphysically possible."
 
 # ---------------------------------------------------------------- relations
 

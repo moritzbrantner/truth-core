@@ -16,9 +16,11 @@ five open premises. This module asks which of the Θ.8 priorities of act
 the composition route's two analyst premises `FirstBeingIsInSomeAct` and
 `ActAndPotencyMakeComposite`, and from what.
 
-* **Definition (1049b12-17).** Potency is said by reference to its act. In this
-  vocabulary that is built into the typing: `InPotency x r` and `InAct y r`
-  share the respect `r`. It constrains no being, so it derives nothing here.
+* **Definition (1049b12-17).** Potency is said by reference to its act. The
+  shared respect index of `InPotency x r` and `InAct y r` records only that
+  much and constrains no being. Read more strongly, as "a potency in `r` makes
+  act in `r` possible", it is the open bridge `PotencyMakesActPossible`, which
+  the plenitude-plus-change-cause route below uses.
 * **Time (1049b17-1050a3).** What passes from potency to act does so by
   something in act; recorded attempts show it reaches only potencies being
   actualized, and is vacuous at a first being's idle potency.
@@ -29,13 +31,18 @@ the composition route's two analyst premises `FirstBeingIsInSomeAct` and
   and the sourced reading that incorruptible beings are in act in substance;
   with the composition premise restricted to beings in act in being
   (`ActInBeingAndPotencyMakeComposite`) it gives the q.3 a.1 conclusion.
-* **Substance, potency for the sake of act (1050a4-b2).** An unrealized
-  potency is for the sake of an act it never has. Read with the tertia via's
-  plenitude premise (a possibility never realized in an infinite past is no
-  possibility), a first being's potency was once actualized; its loss then
-  needs another efficient cause, which is prior to it. This route uses no
-  composition premise and no cause of composites (`PotencyMakesActPossible`,
-  `ActThenPotencyHasAnotherCause`).
+* **Plenitude plus change-cause.** Definitional priority read as
+  `PotencyMakesActPossible`, with the tertia via's plenitude premise (a
+  possibility never realized in an infinite past is no possibility) and
+  `ActThenPotencyHasAnotherCause`: a first being's potency now was once
+  actualized, and its later potency needs another efficient cause, which is
+  prior to it. Θ.8's potency-for-the-sake-of-act passage (1050a4-b2) is
+  orientation only. The route uses no composition premise and no cause of
+  composites. It concludes the time-indexed `FirstBeingIsInNoWayInPotencyAt`
+  (no potency at `now`), not the untimed q.3 a.1 conclusion: consumers that
+  pass from pure actuality to immutability or eternity need potency at every
+  time, so the untimed conclusion would need the premises at every time or a
+  bridge from untimed potency to potency at `now` (not registered).
 
 Time is a supplied carrier with a supplied `Before`; `InActAt t` and
 `InPotencyAt t` are the act and independent potency parameters at `t`. Simple
@@ -54,8 +61,9 @@ open TruthCore.Causality.ActPriorityAtFirst
 
 /-- OPEN, analyst formulation, unattributed: every first being is simply
 incorruptible, that is, cannot fail to be in the respect of being (`esse`).
-Θ.8, 1050b16-19 (*Met.*) holds that the eternal is prior in substance and that
-the necessary beings are first; read here only as the claim that a first being
+Orientation: Θ.8, 1050b16-19 (*Met.*), on the eternal as prior in substance and
+the necessary beings as first; the pinned reading `IncorruptibleIsInActReading`
+covers only 1050b16-18 and is not attributed this premise. Read here only as the claim that a first being
 cannot fail to be, not that it cannot be otherwise in any respect. Its denial is
 a contingent first being. -/
 def FirstBeingIsIncorruptibleSimply {B R : Type} (CanFailToBe : B → R → Prop) (esse : R)
@@ -71,12 +79,21 @@ def ActInBeingAndPotencyMakeComposite {B R : Type} (InAct InPotency : B → R �
     (Composite : B → Prop) : Prop :=
   ∀ x r, InAct x esse → InPotency x r → Composite x
 
+/-- The time-indexed q.3 a.1 conclusion: a first being is in potency in no
+respect at the time `now`. It says nothing about other times. -/
+def FirstBeingIsInNoWayInPotencyAt {B R T : Type} (InPotencyAt : T → B → R → Prop)
+    (PriorSimply : B → B → Prop) (now : T) : Prop :=
+  FirstBeingIsInNoWayInPotencyReading (InPotencyAt now) PriorSimply
+
 /-- OPEN, analyst formulation, unattributed: whatever is in potency in a respect
 at some time can be in act in that respect: the condition "being in act in that
 respect" on times is possible in the supplied `Possible` sense. *Met.* Θ.3,
 1047a24-26 and Θ.8, 1049b12-17 (a potency is a potency for its act) are
 orientation only. `Possible` is the predicate on time-conditions of the tertia
-via's plenitude reading. -/
+via's plenitude reading (a stipulative definition record), realizability at some
+time, not the capacity `CanBe` (ABLE_TO_BE_1) nor accessible-world
+`ModalCapacity` (ABLE_TO_BE_2) of `DISAMB-CAN-BE-MODAL-CAPACITY`; this premise
+is the explicit bridge from potency to that possibility. -/
 def PotencyMakesActPossible {B R T : Type} (InActAt InPotencyAt : T → B → R → Prop)
     (Possible : (T → Prop) → Prop) : Prop :=
   ∀ t x r, InPotencyAt t x r → Possible (fun t' => InActAt t' x r)
@@ -159,15 +176,26 @@ def placePotencyAt (_ : Int) (_ : Bool) (r : Bool) : Prop := r = false
 def allPossible (_ : Int → Prop) : Prop := True
 
 /-- Idle uncaused composite first being: one interpretation satisfies, at
-`now = 0`, every premise of the three routes to the q.3 a.1 conclusion except
-the cause of composites and plenitude: first beings in act in some respect and
+`now = 0`, every premise of the three routes to a first being's pure actuality
+(composition, Θ.8 incorruptibility, plenitude plus change-cause) except the
+cause of composites and plenitude: first beings in act in some respect and
 simply incorruptible; incorruptible beings in act in substance; every potency of
 the contradictory; act and potency make composite (both versions); causing
 another's perfection is efficient; efficient causes are prior; the past is
 infinite; potency makes act possible; act then potency has another cause;
 non-overlap. The cause of composites fails, plenitude fails, and a first being
 is composite, uncaused and in potency to a place at every time, which it never
-actualizes. -/
+actualizes. It shows only that rejecting {cause of composites, plenitude} is
+sufficient for such a first being. The minimal rejection sets (one premise of
+each route; rejecting the restricted composition premise also rejects the
+unrestricted one, which implies it) are: efficient-cause priority alone; or one
+of the cause of composites, the perfection-to-efficient bridge or the restricted
+composition premise, together with one plenitude-route premise (plenitude,
+infinite past, potency makes act possible, change-cause); or one of
+first-being act and the unrestricted composition premise, one of first-being
+incorruptibility and act of the incorruptible, and one plenitude-route premise.
+Rejecting the unrestricted composition premise alone does not suffice: the Θ.8
+route survives through the restricted one. -/
 def IdleUncausedComposite : Prop :=
   FirstBeingIsInSomeAct (esseActAt 0) noPrior ∧
   FirstBeingIsIncorruptibleSimply placeCanFail true noPrior ∧

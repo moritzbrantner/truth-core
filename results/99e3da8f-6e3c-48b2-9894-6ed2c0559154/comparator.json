@@ -2,7 +2,7 @@
   "challenge_module": "TruthCore.Results.Causality.ActPriorityThetaEight.Challenge",
   "solution_module": "TruthCore.Results.Causality.ActPriorityThetaEight.Solution",
   "theorem_names": [
-    "TruthCore.Results.Causality.ActPriorityThetaEight.weakOfNoPotency"
+    "TruthCore.Results.Causality.ActPriorityThetaEight.weakOfThetaEight"
   ],
   "permitted_axioms": [],
   "enable_nanoda": true

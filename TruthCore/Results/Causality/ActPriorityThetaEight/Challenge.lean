@@ -44,11 +44,12 @@ theorem firstBeingNoPotencyOfThetaEight {B R : Type}
     FirstBeingIsInNoWayInPotencyReading InPotency PriorSimply := by
   sorry
 
-/-- Θ.8, potency for the sake of act, with plenitude: a first being in potency
-in a respect now can be in act in it; by plenitude over an infinite past it was
-in act in it at some earlier time; so it has an efficient cause other than
-itself, which is prior to it, against firstness. Uses no composition premise and
-no cause of composites. Conditional on five OPEN premises. -/
+/-- Plenitude plus change-cause: a first being in potency in a respect now can
+be in act in it (definitional priority read as an open bridge); by plenitude
+over an infinite past it was in act in it at some earlier time; so it has an
+efficient cause other than itself, which is prior to it, against firstness.
+Concludes no potency at `now` only. Uses no composition premise and no cause of
+composites. Conditional on five OPEN premises. -/
 theorem firstBeingNoPotencyOfPlenitude {B R T : Type}
     (InActAt InPotencyAt : T → B → R → Prop) (PriorSimply : B → B → Prop)
     (EfficientlyCausesIn : B → B → R → Prop) (Before : T → T → Prop) (now : T)
@@ -58,14 +59,22 @@ theorem firstBeingNoPotencyOfPlenitude {B R T : Type}
     (hPossible : PotencyMakesActPossible InActAt InPotencyAt Possible)
     (hChange : ActThenPotencyHasAnotherCause Before InActAt InPotencyAt EfficientlyCausesIn)
     (hEfficient : EfficientCauseIsPriorToEffectReading EfficientlyCausesIn PriorSimply) :
-    FirstBeingIsInNoWayInPotencyReading (InPotencyAt now) PriorSimply := by
+    FirstBeingIsInNoWayInPotencyAt InPotencyAt PriorSimply now := by
   sorry
 
-/-- The q.3 a.1 conclusion gives act priority at a first being: a first being in
-potency in no respect satisfies it vacuously. -/
-theorem weakOfNoPotency {B R : Type} (InAct InPotency : B → R → Prop)
-    (PriorSimply : B → B → Prop)
-    (hNoPotency : FirstBeingIsInNoWayInPotencyReading InPotency PriorSimply) :
+/-- The weak version from the Θ.8 route: by `firstBeingNoPotencyOfThetaEight`
+a first being is in potency in no respect, so first-being act priority holds
+vacuously. Same six OPEN premises, all with the independent POTENCY_2
+parameter. -/
+theorem weakOfThetaEight {B R : Type}
+    (InAct InPotency CanFailToBe : B → R → Prop) (PriorSimply : B → B → Prop)
+    (Composite : B → Prop) (CausesIn EfficientlyCausesIn : B → B → R → Prop) (esse : R)
+    (hIncorruptible : FirstBeingIsIncorruptibleSimply CanFailToBe esse PriorSimply)
+    (hInAct : IncorruptibleIsInActReading InAct CanFailToBe esse)
+    (hComposite : ActInBeingAndPotencyMakeComposite InAct InPotency esse Composite)
+    (hCause : CompositeHasAUnitingCauseReading Composite CausesIn esse)
+    (hBridge : PerfectionCausingInAnotherIsEfficient CausesIn EfficientlyCausesIn)
+    (hEfficient : EfficientCauseIsPriorToEffectReading EfficientlyCausesIn PriorSimply) :
     FirstBeingActPriority InAct InPotency PriorSimply := by
   sorry
 
