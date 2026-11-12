@@ -816,23 +816,34 @@ typed siblings are added and not identified with them (disambiguations
 `aa1de96a` LORD, `70f4f510` BLESSED). LORD_2 is causing the being of everything
 else and governing everything else (q.103 `Governs`). At a being with the nine
 its creator conjunct is contained by definition in supreme goodness, and
-governance needs one new bridge: an intellectual, willing cause of the being of
-all directs every other being to an end (after q.22 a.2), with the sourced q.103
-a.3 reading that directing is governing. Conservation is not a separate
+governance comes from one new bridge: whatever has intellect, has will and
+causes the being of all directs every other being to an end (after q.22 a.2),
+with the sourced q.103 a.3 reading that directing is governing. The bridge's
+antecedent lists the three as separate conjuncts. Q.22 a.2's reason presupposes
+voluntary agency, so the bridge also carries the step that such a being causes
+through its intellect and will; necessary emanation by an intellect is the
+relevant alternative (no justification on file). Conservation is not a separate
 conjunct: `CausesIn … esse` is timeless. BLESSED_2 is intellect, universal
 perfection, goodness as to being and act in the respect of understanding
 (`39f50105`). At a being with the nine it follows from two existing premises of
 #1481 (`9c2a5dfe`, `4728d5f4`) and pure act, with no new bridge. Each passage to
 the primitive is one sense bridge (LORD_2 → LORD_1, BLESSED_2 → BLESSED_1),
 strictly weaker than the old bridge (registered strengthens relations). Each
-bridge carries what the typed sense leaves out: authority to dispose for lord;
-*ex se*, knowledge of one's own sufficiency and formal (not merely virtual)
-understanding for blessed. Objection audit: no substantive objection identified
-to the directing bridge or to either sense bridge. The side-effect class of
-counterexamples does not meet the directing bridge's universal-cause antecedent.
-The usurper and parent counterexamples to "power is not authority" lack the
-cause-of-being conjunct. Avicenna on particulars and Scotus on beatitude in the
-will are named alternatives with no independent justification on file. Computed
+bridge carries what the typed sense leaves out. For lord, that is authority to
+dispose: the same power-to-authority step as the old bridge, which is not
+weakened. For blessed (BLESSED_1 read the Thomist way, beatitude formally in the
+intellect), it is *ex se*, knowledge of one's own sufficiency and formal (not
+merely virtual) understanding. A Scotist sense, with beatitude in the will's
+enjoyment, would be a further sense. Objection audit: no substantive objection
+identified to the directing bridge or to either sense bridge. The side effects
+on file involve a particular cause, and their mechanism is causes concurring
+unordered by it (q.22 a.2 ad 1, attributed and unpinned). That mechanism is
+absent when one cause gives being to everything else. Avicenna affirms
+providence, and the bridge says nothing about the mode of cognition. His view
+bears only on a stronger reading that requires cognition of particulars as
+particulars. The usurper and parent counterexamples to "power is not authority"
+lack the cause-of-being conjunct. Joint satisfiability of each second route's
+whole premise bundle is unresolved. Computed
 delta: three support alternatives added (LORD_2 and BLESSED_2 from the nine, and
 the restated sufficiency through them) and three bare premises added (the
 directing bridge and the two sense bridges).

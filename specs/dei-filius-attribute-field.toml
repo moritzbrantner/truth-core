@@ -50,7 +50,7 @@ label = "Whatever causes the being of everything else is LORD_1 of everything el
 lean = "CreatorOfAllIsLord"
 paraphrase = "Open bridge, analyst formulation, unattributed: whatever causes the being of everything else that is in act as to being has dominion over everything else. After ST I q.13 a.7, where 'Lord' is said of God relative to creatures, which are subject to him as their cause."
 definitions = ["92c03350-6809-497d-b123-2ffb11c0e0c1", "59350e3b-1b76-45cd-b9fd-548f3f4658b5"]
-disambiguations = ["DISAMB-IN-ACT"]
+disambiguations = ["DISAMB-IN-ACT", "aa1de96a-e0d2-4739-a34f-9b98f1034a34"]
 
 [[statement]]
 id = "c7c32f20-2637-4497-8053-f259d02aa922"
@@ -74,7 +74,7 @@ label = "Whatever is PERFECT_2 and HAS_INTELLECT_1 is BLESSED_1"
 lean = "PerfectIntellectualIsMostBlessed"
 paraphrase = "Open bridge, analyst formulation, unattributed: whatever is universally perfect (in act in every respect in which anything is in act) and has intellect has, in itself, the perfect good of an intellectual nature. After ST I q.26 a.1."
 definitions = ["DEF-UNIVERSALLY-PERFECT", "DEF-HAS-INTELLECT", "5068b909-d6b0-458b-a3d7-30fd2f7088a8"]
-disambiguations = ["DISAMB-IN-ACT", "DISAMB-INTELLECT-AND-SENSE-COGNITION"]
+disambiguations = ["DISAMB-IN-ACT", "DISAMB-INTELLECT-AND-SENSE-COGNITION", "70f4f510-d488-445f-86cf-03b889507372"]
 
 [[statement]]
 id = "e919fe2e-2563-44bb-9eba-16c8199fa477"

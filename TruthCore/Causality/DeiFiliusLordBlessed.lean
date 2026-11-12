@@ -23,8 +23,8 @@ government is directing to an end, q.103 a.3). At a being with the nine:
   its being). That follows from how the case defines supreme goodness. It is not
   an independent derivation of creation;
 * the governance conjunct needs the open bridge
-  `UniversalIntellectualCauseDirectsAll` (an intellectual, willing cause of the
-  being of everything else directs each thing to some end; after q.22 a.2's
+  `UniversalIntellectualCauseDirectsAll` (whatever has intellect, has will and
+  causes the being of everything else directs each thing to some end; after q.22 a.2's
   reason that the ordering of effects to an end extends as far as the first
   agent's causality) and the existing source reading
   `DirectingToAnEndIsGoverningReading` (q.103 a.3).
@@ -47,10 +47,12 @@ nine, the first three are among (or inside) the nine, and the fourth follows fro
 two EXISTING open premises of that module (intellect is the capacity to
 understand; that capacity is exercised or in potency) with the nine's pure act:
 no new bridge. Not typed: *ex se* (the good is not received from another),
-knowing one's own sufficiency in the good possessed (self-knowledge, q.14 a.2),
-and enjoyment by the will. `InAct` is the nine's formal-or-virtual act (IN_ACT_3),
-so the fourth conjunct does not by itself exclude merely virtual understanding.
-These gaps are carried by the sense bridge.
+and knowing one's own sufficiency in the good possessed (self-knowledge, q.14
+a.2). `InAct` is the nine's formal-or-virtual act (IN_ACT_3), so the fourth
+conjunct does not by itself exclude merely virtual understanding. These three
+gaps are carried by the sense bridge. BLESSED_1 is read the Thomist way
+(beatitude formally in the intellect, q.26 a.2); a Scotist reading (beatitude
+formally in the will's enjoyment) would be a further sense, not typed here.
 
 The senses are not identified (invariant 7). Each passage from LORD_2 to LORD_1,
 or BLESSED_2 to BLESSED_1, is an explicit sense bridge
@@ -89,13 +91,20 @@ def IsLordByCauseAndGovernment {Being Respect : Type} (InAct : Being → Respect
     (Governs : Being → Being → Prop) (g : Being) : Prop :=
   IsCreatorOfAll InAct CausesIn esse g ∧ GovernsAllOthers InAct esse Governs g
 
-/-- Open bridge: an intellectual, willing cause of the being of everything else
-directs every other being in act as to being to some end. After ST I q.22 a.2:
-every agent acts for an end, and the ordering of effects to that end extends as
-far as the causality of the first agent extends. Restricted to a cause of the
-being of ALL others: for a particular cause, effects outside its intention arise
-from the concurrence of other causes (q.22 a.2 ad 1), which a cause of the being
-of everything else does not meet. -/
+/-- Open bridge: whatever has intellect, has will and causes the being of
+everything else directs every other being in act as to being to some end. The
+three are separate conjuncts; the antecedent does not say that the being causes
+THROUGH its intellect and will (freedom of the act is not encoded). After ST I
+q.22 a.2: every agent acts for an end, and the ordering of effects to that end
+extends as far as the causality of the first agent extends. That reason
+presupposes intellectual, voluntary agency (cf. q.19 a.4), so the bridge also
+carries the unstated step that such a being causes through its intellect and
+will; the relevant alternative is necessary emanation by an intellect (no
+justification on file). Restricted to a cause of the being of ALL others: the
+side effects on file involve a particular cause, and their mechanism (according
+to q.22 a.2 ad 1, attributed and unpinned: other causes concurring unordered by
+it) is absent when one cause gives being to everything else. Nothing is said
+about the mode of cognition. -/
 def UniversalIntellectualCauseDirectsAll {Being Respect End : Type}
     (InAct : Being → Respect → Prop) (CausesIn : Being → Being → Respect → Prop)
     (esse : Respect) (HasIntellect HasWill : Being → Prop)
@@ -115,8 +124,9 @@ def NineAreLordByCauseAndGovernment {Being Respect : Type}
 /-- Open sense bridge LORD_2 → LORD_1: whatever causes the being of everything else
 and governs everything else is lord (has dominion over everything else). After
 q.13 a.7: things are subject to God as to their cause. It carries what LORD_2
-leaves untyped (authority to dispose). Strictly weaker than `CreatorOfAllIsLord`
-(its antecedent adds governance; `Control.Controls` part 2). -/
+leaves untyped (authority to dispose); that power-to-authority step is the same
+as in the old bridge, only the antecedent is stronger. Strictly weaker than
+`CreatorOfAllIsLord` (its antecedent adds governance; `Control.Controls` part 2). -/
 def CauseAndGovernorOfAllIsLord {Being Respect : Type} (InAct : Being → Respect → Prop)
     (CausesIn : Being → Being → Respect → Prop) (esse : Respect)
     (Governs : Being → Being → Prop) (D : Primitives Being) : Prop :=
@@ -129,7 +139,8 @@ universally perfect (PERFECT_2: in act in every respect in which anything is in
 act, so no being has a perfection g lacks), is good as to being, and is in act in
 the respect of understanding (`InAct g understanding`, definition `39f50105`;
 IN_ACT_3, formal or virtual). Not typed: *ex se*, self-knowledge of one's own
-sufficiency, and enjoyment by the will. -/
+sufficiency, and formal (rather than merely virtual) understanding. Read on the
+Thomist sense of BLESSED_1 (beatitude formally in the intellect). -/
 def IsBlessedByUnderstanding {Being Respect : Type} (InAct GoodIn : Being → Respect → Prop)
     (esse understanding : Respect) (HasIntellect : Being → Prop) (g : Being) : Prop :=
   HasIntellect g ∧ IsPerfect InAct g ∧ GoodIn g esse ∧ InAct g understanding
