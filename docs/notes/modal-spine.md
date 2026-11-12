@@ -5,6 +5,9 @@ Owner direction, 2026-11-09: until it closes, the working root is **God exists**
 modal contingency argument. Stages 3 to 6 of the Catholic case are deferred, and
 their historical premises will later be argued by inference to the best explanation.
 
+The [critical-spine dependency map](spine-dependency-map.md) (2026-11-12) records which
+routes to the working root need which spine premises.
+
 Report against the working root with
 `python3 scripts/corpus.py frontier --routes --root STMT-GOD-EXISTS`.
 
