@@ -116,15 +116,17 @@ every verified derivation. Other statements lose derivations too.
 | esse cause is actual concrete ground | 7/10 | classical root |
 | contingent grounding | 7/10 | none |
 | population, whole roster not trapped | 6/10 (cogito/roster routes lost) | none |
-| act simply prior to potency, God names the fully described principle | 2/10 (ed7c588a, beec1dc1) | classical root |
+| God names the fully described principle | 2/10 (ed7c588a, beec1dc1) | classical root |
+| act simply prior to potency with its independent-parameter copy (3b2d2d46) | 9/10 (classical-root route lost); 2/10 before the first-being composition route ([act priority](modal-spine.md#act-priority-over-potency-2026-11-12)) | classical root |
 | `STMT-CAUSE-HAS-WHAT-IT-GIVES` (376d6a5a) | 1/10 (prima via only) | classical root |
 
 Reading (structural only): the disputed modal premises and the join are
 bypassable for the working root. Removing all of them together (F1, F2, J1,
 J1@w, J2, no-novel-edge, coverage, same-supporter presence, NCAT, join, AGWF and
 finite rank) still leaves all ten root arguments. Perfection transfer ("nothing
-gives what it does not have"), act-priority and the naming premise are
-structurally indispensable on most routes outside the prima via. The bypassing
+gives what it does not have") and the naming premise are structurally
+indispensable on most routes outside the prima via; act priority was too
+until its first-being composition route (2026-11-12). The bypassing
 routes carry their own open premises, so this ranks where support concentrates,
 not which premises are philosophically weakest.
 
