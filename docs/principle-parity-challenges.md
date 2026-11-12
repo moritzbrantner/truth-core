@@ -343,6 +343,75 @@ selection, neither gains that evidential advantage. If a feature remains
 unexplained by the natural policy but independently favored by a defensible
 divine purpose, that would create a genuine, revisable asymmetry.
 
+### The number of initial simples: the Gel–Schmid–Gel exchange
+
+This is a **conditional numerical-necessity challenge**, not a claim that
+Oppy asserts a known number of physically fundamental atoms. Enric F. Gel,
+[“How many and why?”](https://doi.org/10.1017/S0034412521000482)
+(2022), asks why a *plurality* of necessary natural simples would have exactly
+`N` members rather than `N + 1`. He develops **two routes**: how many items
+constitute an initial physical state, and how many simples constitute a
+necessary foundational layer. He also asks why there is **one rather than
+multiple first causes**. Gel's note 18 acknowledges uncertainty about
+whether Oppy actually endorses the plurality-of-simples formulation. Joseph C. Schmid,
+[“Naturalism, classical theism, and first causes”](https://doi.org/10.1017/S0034412522000051)
+(2023), replies that Oppy can propose **one initial whole or singularity**;
+Schmid's footnote 9 explicitly recognizes that one initial state might still
+have multiple constituents whose number has not been specified. Gel's
+[“There can be only one”](https://doi.org/10.1017/S0034412522000713)
+(2023) rejoinder defends a unique classical pure act and the challenge wherever
+there genuinely are multiple necessary first constituents. Neither response
+closes the debate about unique pure actuality or about fundamental composition.
+
+**Oppy's positive rationale matters.** In
+[“Ultimate Naturalistic Causal Explanations”](https://philarchive.org/archive/OPPUNC)
+(2013), §§1, 3, he argues for *theoretical frugality*: objective chance
+supports alternative outcomes without additionally postulating different
+laws or initial histories. He posits a **Necessary Initial Part**; if it has a
+specified inventory, that inventory is necessary *on this modal proposal*.
+In [“Leftow on God and Necessity”](https://www.philosophy-of-religion.eu/menuscript/index.php/ejpr/article/download/159/119/248)
+(2014), pp. 6–7, he relates possibility to the outcomes of actual causal
+powers and chances but calls this a plausible **metaphysical conjecture**.
+In [“O'Connor's Cosmological Argument”](https://philpapers.org/archive/OPPOCA-2.pdf)
+(2011), §4, manuscript pp. 5–6, he explicitly entertains a **mereologically
+simple natural initial state** with no elementary particles or fields initially;
+subsequent states include parts composed of particles and fields. He calls
+that scenario speculative, not an established
+scientific description of our universe.
+
+| Claim | What follows, and what does not |
+| --- | --- |
+| `□ Exists(S)` for the initial natural bearer | No fixed part count follows without essential-composition premises. The same necessary bearer can, in a structural comparison, have two proper parts at one world and three at another. This is a logical non-entailment witness, not a physical cosmology. |
+| Every possible world shares the **complete** initial history, including constituents | Its initial inventory is fixed **by the modal restriction**. The open question is the independent warrant that the restriction exhausts metaphysical possibility. |
+| Only a necessary **part/aspect** of the initial state | Other constituents and later outcomes need not be necessary. Oppy's 2020 §VI explicitly preserves this alternative. |
+| A **partless** necessary first state | Gel's *internal plurality* challenge does not apply directly, but **why exactly one such first root?** remains live, as do questions about its necessary powers, properties, existence and capacity for later diversity. |
+| `N` distinct necessary first simples | Asking why `N` rather than `N + 1` identifies a genuine explanatory target, but requires an independently warranted modal alternative or numerical explanatory principle to discriminate theories. |
+
+Schmid also offers an **atemporal necessary fundamental wavefunction** as a
+possible impersonal one-foundation model, not as confirmed physics. A single
+first *state* cannot, just by being called “one”, resolve the number of its
+constituents; conversely a genuinely partless root does not hide a plurality
+of necessary particles. Gel's pure-act uniqueness argument invokes identity,
+simplicity and perfection; Schmid contests the relevant individuation or
+Identity-of-Indiscernibles bridge, and Gel defends narrower uniqueness routes.
+Our existing [necessary-simple-plurality analysis](notes/necessary-simple-plurality.md)
+likewise distinguishes a formal **two-part-free-root** countermodel from
+two Gods or two instances of *pure esse*: the relevant common-nature/uniqueness
+bridge (Q11) is substantive and must remain explicit.
+
+**Sharper frontier.** Objective chance can generate some alternative histories;
+why should it generate **all metaphysically possible histories**? Compare the
+proposal with defended recombination/modal alternatives, rather than treating
+`N + 1` as possible merely because it can be described. Efird and Stoneham's
+[“Methodological Separatism, Modal Pluralism, and Metaphysical Nihilism”](https://eprints.whiterose.ac.uk/id/eprint/102901/1/Efird_Stoneham_Postprint.pdf)
+(2013), manuscript pp. 12–15, gives a developed opposing modal framework.
+The current result is a conditional explanatory advantage against **unexplained
+plural necessary simples**, plus a **uniqueness question** for any stipulated
+single first root, not a disproof of Oppy's **single partless**
+candidate. Do not infer a fixed number of atoms at later times: objective
+chance may produce differing later particle inventories. These are separate
+open warrants, not a new Lean proof or root-premise discharge.
+
 ### Provisional assessment and next discriminator (2026-11-12)
 
 **Assessment: a potentially substantive asymmetry, still unproved for actual
