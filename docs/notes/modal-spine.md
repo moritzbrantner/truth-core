@@ -982,6 +982,9 @@ conditional investigations, not a mandatory first gate:
    a derivation from two open grounding principles (A2ab, A2c). Next: state and
    test a non-inductive ex nihilo warrant for A2ab. The one standing objection,
    by parity from the restriction rival, undercuts only an inductive warrant.
+   By the same parity it also undercuts an inductive warrant for A2c: ordinary
+   comings-to-be never start from an empty moment, which is exactly where A2c
+   is needed; no warrant for A2c is on file either way.
    Read ST I q.46 a.2 ad 7 in context to test whether Aquinas's grant of
    infinite per accidens series extends to a series compressed after one moment
    (A2c's standing rival). Check the simultaneous-regress shape of that rival
