@@ -24,6 +24,61 @@ open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Case.Catholicism
 open TruthCore.Logic
 
+/-- The restated sufficiency (`NineSufficeForDeiFilius`) with its LIVING_1
+conjunct derived from pure act rather than from intellect. Among the nine is
+altogether immutability, whose body is `PureAct InPotency g`. The registered
+`nineGiveDeiFilius` is applied, without `IntellectualIsLiving`, to the
+primitives that agree with `D` except that their `Lives` is `HasIntellect`;
+`STMT-PURE-ACT-LIVES` gives `g` life at some time of the frame (LIVING_2), and
+the restricted sense bridge gives `D.Lives g` (LIVING_1). Every other conjunct
+is carried over unchanged. -/
+theorem nineGiveDeiFiliusLivingFromPureAct (σ : Signature) {Principle Respect Time : Type}
+    (InAct GoodIn InPotency : σ.Being → Respect → Prop)
+    (CausesIn : σ.Being → σ.Being → Respect → Prop) (esse : Respect)
+    (MoreIn : Respect → σ.Being → σ.Being → Prop) (ComponentOf : σ.Being → σ.Being → Prop)
+    (essenceOf esseOf : σ.Being → Principle)
+    (Composite MatterForm Infinite Eternal HasIntellect HasWill : σ.Being → Prop)
+    (P : Power σ) (D : Primitives σ.Being) (LivesAt : σ.Being → Time → Prop)
+    (hPureLives : PureActLivesReading InPotency LivesAt)
+    (hSense : PureActLifeAtSomeTimeIsLiving InPotency LivesAt D)
+    (hLord : CreatorOfAllIsLord InAct CausesIn esse D)
+    (hPower : InfiniteActHasInfinitePower σ Infinite P)
+    (hImmense : CreatorOfAllIsImmense InAct CausesIn esse D)
+    (hIncomprehensible : InfiniteIsIncomprehensible Infinite D)
+    (hBlessed : PerfectIntellectualIsMostBlessed InAct HasIntellect D)
+    (hNoComponent : CreatorOfAllIsNoComponent InAct CausesIn esse ComponentOf)
+    (hExcess : ExcessInBeingIsExcessInAct InAct MoreIn esse)
+    (hGoodness : GoodnessIsActualityReading GoodIn InAct)
+    (hKinds : MatterFormAndEsseEssenceAreCompositionsReading MatterForm Composite essenceOf esseOf) :
+    NineSufficeForDeiFilius σ InAct GoodIn InPotency CausesIn esse MoreIn ComponentOf
+      Composite MatterForm Infinite Eternal HasIntellect HasWill P D := by
+  intro g hNine
+  let D' : Primitives σ.Being := { D with Lives := HasIntellect }
+  have h := TruthCore.Results.Causality.DeiFiliusAttributeField.nineGiveDeiFilius σ InAct GoodIn
+    InPotency CausesIn esse MoreIn ComponentOf essenceOf esseOf Composite MatterForm Infinite
+    Eternal HasIntellect HasWill P D' (fun _ hx => hx) hLord hPower hImmense hIncomprehensible
+    hBlessed hNoComponent hExcess hGoodness hKinds g hNine
+  exact
+    { one := h.one
+      living := hSense g h.immutable (hPureLives g h.immutable)
+      creator := h.creator
+      lord := h.lord
+      almighty := h.almighty
+      eternal := h.eternal
+      immense := h.immense
+      incomprehensible := h.incomprehensible
+      intellect := h.intellect
+      will := h.will
+      perfect := h.perfect
+      infinite := h.infinite
+      simple := h.simple
+      immutable := h.immutable
+      spiritual := h.spiritual
+      distinct := h.distinct
+      blessed := h.blessed
+      exalted := h.exalted
+      good := h.good }
+
 /-- The spine's root has every typed Dei Filius attribute, with its LIVING_1
 conjunct derived from the root's pure act rather than from its intellect. The
 registered `deiFiliusRoot` is applied, without `IntellectualIsLiving`, to the
