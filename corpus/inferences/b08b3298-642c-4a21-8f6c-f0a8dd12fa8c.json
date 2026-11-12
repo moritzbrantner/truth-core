@@ -1,0 +1,12 @@
+{
+  "id": "b08b3298-642c-4a21-8f6c-f0a8dd12fa8c",
+  "label": "Whatever has the nine is LIVING_2, from every POTENCY_1-free being being LIVING_2 (inference)",
+  "input_statement_ids": [
+    "1773079b-236a-5f7d-b1e9-fb8f23202341"
+  ],
+  "output_statement_id": "280770e3-a40e-4611-a96d-9d65fec5b945",
+  "rule": "Restriction of a universal premise to a subclass of its antecedent: the sixth of the nine is pure act",
+  "meaning": "Strength order registration: STMT-PURE-ACT-LIVES (every pure act lives at some time of the duration frame) entails its nine-restricted version, since the altogether-immutable conjunct of the nine is by definition being in potency in no respect. Projection and application only; it establishes neither version.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,14 @@
+{
+  "id": "4fda6d7a-b1db-458b-b96e-a4340945d539",
+  "label": "Whatever has the nine is LIVING_2, from self-operation of what is moved in no respect (inference)",
+  "input_statement_ids": [
+    "8f93d9cc-989e-4b96-9e6c-e7e819f28545",
+    "38aa1327-b28a-5ac8-b70d-6b2fdbedf554",
+    "4be9a4ac-699a-5adc-88d4-bbd958fa1576"
+  ],
+  "output_statement_id": "280770e3-a40e-4611-a96d-9d65fec5b945",
+  "rule": "Composition of the registered pureActLives (PURE-ACT-LIVES-FROM-SELF-OPERATION) on the subtype of beings with the nine",
+  "meaning": "A being g with the nine has an immanent operation (the weak operation premise; definition 7acc985a, which does not include being unmoved). It is altogether immutable, so in potency in no respect; since nothing is moved except insofar as it is in potency (the Prima Via premise), it is moved in no respect. What operates from itself and is moved in no respect lives at some time of the duration frame (STMT-SELF-OPERATING-UNMOVED-LIVES, after q.18 a.3 co.). So g is LIVING_2. In Lean the registered pureActLives is applied on the beings with the nine, where its operation premise follows from the weak one. Operation is immanent operation, not motion (DISAMB-MOTION). Conditional consequence; all three premises stay open.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
