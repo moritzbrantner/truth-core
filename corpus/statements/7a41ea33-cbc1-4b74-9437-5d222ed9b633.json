@@ -1,7 +1,7 @@
 {
   "id": "7a41ea33-cbc1-4b74-9437-5d222ed9b633",
   "label": "A concrete thing present at two moments is present at every moment between them",
-  "paraphrase": "OPEN analyst premise, attribution deferred (no return after absence): in every history of the model, a concrete thing present at a moment a and at a later moment t is present at every moment s with a < s < t. It excludes intermittent existence, a thing that ceases and later is again (the same individual). Comparability of moments is not part of the premise; the route that uses it states it separately.",
+  "paraphrase": "OPEN analyst premise, attribution deferred (no return after absence): in every history of the model, a concrete thing present at a moment a and at a later moment t is present at every moment s with a < s < t. It excludes intermittent existence, a thing that ceases and later is again (the same individual). Unread lead under the Substantive Objection Standard, no evidential weight yet: corruptionist accounts of bodily resurrection hold that a human being ceases at death and exists again at the resurrection, which is intermittent existence within the case's own framework. If such an account is adopted, this premise fails for human beings unless restricted (for instance to the natural order); no corruptionist source is read in the corpus. Comparability of moments is not part of the premise; the route that uses it states it separately.",
   "lean_declaration": "TruthCore.Causality.SustainingCausation.ConcretePresenceConvex",
   "definition_ids": [
     "6e811e85-b983-5988-b20a-f4f3ee83c50e"

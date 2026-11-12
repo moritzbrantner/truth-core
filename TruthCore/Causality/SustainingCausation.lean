@@ -32,12 +32,27 @@ corruption (removing a destroyer, q.104 a.1 ad 3), and from the world-level
 (productive receipt by this same bearer, definition `56989bd0` note), and of the
 dependence that "required at every moment" adds to mere concurrence.
 
+**Two readings of `GivesAt`.** Every theorem below holds for any interpretation
+of the primitive; the readings matter only for what the premises say. *Strict*:
+`GivesAt` is esse-giving, the time-indexed counterpart of CAUSING_AN_EFFECT_3
+(`CausesIn c x esse`). *Inclusive*: it also covers causing a thing's coming to be
+(CAUSING_AN_EFFECT_1, `CausesOrigin`), which q.104 a.1 co. separates from causing
+being: "the builder causes the house in its 'becoming', but he is not the direct
+cause of its 'being'". The sustaining sense and the immensity route are meant
+strictly. The originating sense is stated for both; on the inclusive reading an
+originating cause is a time-indexed cause of coming to be acting at the first
+moment, but no formal bridge relates it to `CausesOrigin`. Self-giving
+(`GivesAt v x x t`) is not excluded by the type; the intended reading is a cause
+distinct from its effect, and that restriction is not typed.
+
 **The two senses** (disambiguation CAUSE_OF_BEING, both overlapping, neither
 exhaustive):
 
 * CAUSE_OF_BEING_1, *originating* (`OriginatesBeing`): `c` gives `x` being at
-  a first moment of `x`'s presence (`TemporalHistory.BeginsAt`). Nothing is required of
-  `c` afterwards. Example: the builder of a house; the parent of a child.
+  a first moment of `x`'s presence (`TemporalHistory.BeginsAt`). Nothing is
+  required of `c` afterwards. Example on the inclusive reading only: the builder
+  of a house (a cause of its becoming, not of its being, q.104 a.1 co.); a
+  parent of a child. On the strict reading the builder is no example.
 * CAUSE_OF_BEING_2, *sustaining* (`SustainsBeing`): `x` is present at some
   moment and `c` gives `x` being at every moment at which `x` is present.
   Examples: the sun lighting the air ("the air does not continue to be lit up,
@@ -53,9 +68,16 @@ beginning, not only in strength.
 
 **Contact principle** (`GiverPresentWhenGiving`, open): whatever gives a thing
 being at `t` is present at `t`. After q.8 a.1: an agent must be joined to that
-wherein it acts immediately. Read for a timeless agent as co-presence to the
-moment, not temporal location. It excludes action at a temporal distance; it
+wherein it acts immediately. It excludes action at a temporal distance; it
 says nothing about spatial location.
+
+**Presence at a moment.** `History.IsAt v x t` is the same predicate as in
+spine premises A1–A3 and A2ab; this module adopts one *inclusive* reading of it
+for all of them: x is actual in history `v` and bears on moment `t`, by being
+located at `t` (a temporal thing) or by being co-present to `t` (a non-temporal
+agent whose act bears on `t`). The reading is not typed; it is an explicit
+interpretation choice recorded in attempt `c94eed5b`, where A1–A3 are checked
+against it.
 
 **Structural properties.** `GivesAt` is not assumed transitive, asymmetric,
 irreflexive or functional; several sustainers of one thing are allowed. No

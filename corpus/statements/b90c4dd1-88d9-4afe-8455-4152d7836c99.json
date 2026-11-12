@@ -1,7 +1,7 @@
 {
   "id": "b90c4dd1-88d9-4afe-8455-4152d7836c99",
   "label": "A concrete thing that begins to be present has a concrete CAUSE_OF_BEING_1 originating cause",
-  "paraphrase": "OPEN analyst premise, attribution deferred: in every history of the model, a concrete thing absent at a moment s and present at a strictly later moment t has some concrete CAUSE_OF_BEING_1 originating cause: the thing has a first moment b of presence and the cause gives it being at b. It therefore requires such a first moment (it is false for a thing present on an open interval of dense time). Nothing is required of the cause after b, so it is compatible with existential inertia (Schmid 2021 grants that a change occurs only if some factor causally induces it).",
+  "paraphrase": "OPEN analyst premise, attribution deferred: in every history of the model, a concrete thing absent at a moment s and present at a strictly later moment t has some concrete CAUSE_OF_BEING_1 originating cause: the thing has a first moment b of presence and the cause gives it being at b. It therefore requires such a first moment (it is false for a thing present on an open interval of dense time). Nothing is required of the cause after b. On the inclusive reading of GivesAt (causing coming to be counts, as the builder causes the house's becoming, q.104 a.1 co.), it is compatible with existential inertia (Schmid 2021 grants that a change occurs only if some factor causally induces it); on the strict esse-giving reading that compatibility is not shown (provisional analyst judgment).",
   "lean_declaration": "TruthCore.Causality.SustainingCausation.BeginningsHaveOriginatingCause",
   "definition_ids": [
     "142e451d-a24f-4aa1-b38b-344e5f235e72",

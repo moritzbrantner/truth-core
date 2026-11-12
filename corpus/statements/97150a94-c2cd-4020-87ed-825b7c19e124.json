@@ -1,7 +1,7 @@
 {
   "id": "97150a94-c2cd-4020-87ed-825b7c19e124",
   "label": "Every CAUSE_OF_BEING_1 originating cause of a thing is a ground of it",
-  "paraphrase": "OPEN analyst bridge, attribution deferred: in every history of the model, whatever originates a thing's being (CAUSE_OF_BEING_1) is a ground of it under the supplied grounding relation of the lasting-ground premise A2ab. Close to that relation's intended reading (the proximate ground of a thing's coming to be, DISAMB-CAUSAL-SERIES), but not identical: an originating cause gives being at a first moment, a proximate ground of coming to be need not.",
+  "paraphrase": "OPEN analyst bridge, attribution deferred: in every history of the model, whatever originates a thing's being (CAUSE_OF_BEING_1) is a ground of it under the supplied grounding relation of the lasting-ground premise A2ab. Close to that relation's intended reading (the proximate ground of a thing's coming to be, DISAMB-CAUSAL-SERIES), but not identical: an originating cause gives being at a first moment, a proximate ground of coming to be need not. On the strict esse-giving reading it mildly widens the relation; composed with the A2 derivation, A2c (bf18a0d0) must then hold for the widened relation.",
   "lean_declaration": "TruthCore.Causality.SustainingCausation.OriginatorsAreGrounds",
   "definition_ids": [
     "142e451d-a24f-4aa1-b38b-344e5f235e72",
