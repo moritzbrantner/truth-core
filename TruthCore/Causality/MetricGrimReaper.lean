@@ -33,6 +33,26 @@ whose worlds carry different metrics needs a world-indexed clock, which is not
 built. No dynamics, curvature or proper time along particular worldlines is
 encoded.
 
+**Which clock (`CLOCK`).** Metric finiteness is not invariant under
+reparametrization: a bounded clock (`arctan`) makes every integer past finite,
+and a logarithmic clock (`ln t` on the positive reals) makes every open-below
+finite past infinite. `TimeClock` is any order-preserving real coordinate
+(CLOCK_2), and every theorem here holds for every such clock. The *intended*
+reading instantiates it with the physically privileged duration (CLOCK_1,
+`PrivilegedClock`: cosmic or proper time); the content of the premises, of the
+conclusion and of the objection audit is relative to that choice. The reason
+offered for privileging it: the spaced premises are meant to instantiate
+recombination of *duplicates* of one possible station patch, room permitting,
+and a duplicate keeps its intrinsic duration, which is proper time, not an
+arbitrary coordinate. Which clock is privileged is OPEN and is not encoded.
+
+**Scope of the clock.** A strictly monotone real clock exists only for time
+orders that embed in `ℝ`, so every past has a countable coinitial subset; the
+countable-coinitiality premise of `GrimReaperPatchwork` is not eliminated but
+absorbed into the clock's existence. Times with no real clock (reverse `ω₁`,
+the long line, lexicographic `ℝ × ℝ`) are outside the scope of every result
+here.
+
 **Spaced descent.** `SlotsAtLeast k c`: some `δ > 0` bounds every slot
 `reading (c n) - reading (c (n + 1))` from below (one station per past day,
 say). A spaced descent from `t` exists exactly when, in linear time, the past of
@@ -60,11 +80,22 @@ open TruthCore.Modal.TemporalHistory
 open TruthCore.Causality.BegunComingToBe
 open TruthCore.Causality.GrimReaperPatchwork
 
-/-- A real time coordinate strictly increasing along the order of moments.
-Durations are differences of readings. -/
+/-- CLOCK_2: a real time coordinate strictly increasing along the order of
+moments, any one. Durations are differences of readings. It exists only for
+orders that embed in `ℝ`. -/
 structure TimeClock (T : Type) [Preorder T] where
   reading : T → ℝ
   strictMono : StrictMono reading
+
+/-- CLOCK_1, primitive marker: a clock declared to be the physically privileged
+duration of the frame (cosmic time, or proper time along the relevant
+worldlines). Only the coordinate is encoded; its privilege is a primitive,
+OPEN commitment that nothing here constrains. It is distinguished from an
+arbitrary `TimeClock` by that intended interpretation alone, which is why the
+results are stated for every `TimeClock` and hold for the privileged one as an
+instance. -/
+structure PrivilegedClock (T : Type) [Preorder T] where
+  clock : TimeClock T
 
 /-- The past of `t` (the moments at or before it) has bounded-below readings:
 it has finite duration. -/
