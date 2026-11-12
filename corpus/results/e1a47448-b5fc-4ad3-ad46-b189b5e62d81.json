@@ -1,0 +1,11 @@
+{
+  "id": "e1a47448-b5fc-4ad3-ad46-b189b5e62d81",
+  "label": "The NECESSARY_2 GOD_4 root has the Dei Filius attributes via all five typed senses",
+  "argument_id": "669aca2b-fbcb-48b1-9905-46d615fd3500",
+  "challenge_module": "TruthCore.Results.Causality.DeiFiliusUnifiedRoute.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DeiFiliusUnifiedRoute.Solution",
+  "theorem": "TruthCore.Results.Causality.DeiFiliusUnifiedRoute.deiFiliusRootUnified",
+  "comparator_config": "results/e1a47448-b5fc-4ad3-ad46-b189b5e62d81/comparator.json",
+  "status": "solution-present",
+  "description": "The registered Dei Filius root composition (deiFiliusRoot, argument 334e8640) is applied with every input except the five old primitive bridges, on the primitives whose five fields are the antecedents of those bridges; those bridges then hold trivially and nothing about the given primitives is used. Its root n is the same witness. n has the nine (nineOfDeiFilius, a projection; none of the nine is a primitive), so the five nine-statements and the five sense bridges give n LIVING_1, LORD_1, BLESSED_1, IMMENSE_1 and INCOMPREHENSIBLE_1, as in the sufficiency route. Every other conjunct is carried over. Uniqueness is among actual roots at w. Only the weak version of each bridge is used. Joint satisfiability of this whole premise bundle, with the open leaves under its nine-statements, given excluded middle, is witnessed by the controls of this batch (model 2), whose root has the nine. Conditional consequence only; no premise is established."
+}

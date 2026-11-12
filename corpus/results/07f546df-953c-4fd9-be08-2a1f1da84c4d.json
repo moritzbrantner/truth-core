@@ -1,0 +1,11 @@
+{
+  "id": "07f546df-953c-4fd9-be08-2a1f1da84c4d",
+  "label": "What is caused by another is not INFINITE_1, from reception limitation",
+  "argument_id": "2a388160-73ff-4709-b9a5-5e4a7956303b",
+  "challenge_module": "TruthCore.Results.Causality.DeiFiliusUnifiedRoute.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DeiFiliusUnifiedRoute.Solution",
+  "theorem": "TruthCore.Results.Causality.DeiFiliusUnifiedRoute.causedIsNotInfiniteFromReception",
+  "comparator_config": "results/07f546df-953c-4fd9-be08-2a1f1da84c4d/comparator.json",
+  "status": "solution-present",
+  "description": "Let x have its being caused by some c other than x. By the first premise x is a creature; by the second its esse is received in some principle z; by the third its esse is limited; by the fourth an INFINITE_1 being's esse is not limited, so x is not INFINITE_1. The step from having an external cause of esse to having received esse (kept apart in DISAMB-ESSE-RECEPTION) is carried by two explicit premises, through Creature, not by identifying the two senses. The scope condition of the conclusion binds the first premise in the same way: elements of Being are individuated by their act of being (definition 80dea550), so the divine processions are no instances of CausesIn c x esse with c distinct from x; read with them as instances, the first premise would make the Son a creature. Conditional consequence; the four premises stay open (three supported by q.7 a.1-2 readings, the first bare)."
+}

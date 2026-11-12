@@ -1,0 +1,113 @@
+{
+  "id": "85fc8c5a-5aab-4c6d-b775-1848c069faef",
+  "label": "The nine give the Dei Filius attributes via all five typed senses",
+  "premise_statement_ids": [
+    "280770e3-a40e-4611-a96d-9d65fec5b945",
+    "ad49ea00-287e-4c7c-8ab6-fe222d16d493",
+    "1063da3d-098d-49b3-9346-74d7edbb6e6c",
+    "eb6611a5-f8a7-44f6-9bf1-2f65eb80b3cb",
+    "8f24379f-c48d-43cf-beae-c0ad89a92cb4",
+    "a23dd1ac-1e5b-4842-bf82-385a36607a77",
+    "15df9d91-5912-4a75-9427-97d4a82e7a27",
+    "8bf775e9-34e0-48e5-bdd8-f48edd1040f7",
+    "de92711c-a871-4d4e-a9a3-64e160632006",
+    "0042dd05-7788-4d77-884d-32f868f9620f",
+    "5ea1069d-84cd-5850-a8b0-adbce332296e",
+    "e919fe2e-2563-44bb-9eba-16c8199fa477",
+    "8d73ef90-8260-4c45-b2ed-577630c760a7",
+    "00e962ae-f109-55f7-a7fd-f107ce0dea6b",
+    "d7741cdc-881b-5bda-85ce-d70223162f78"
+  ],
+  "conclusion_statement_id": "5fbea2f5-0446-4852-9bd4-74fd0878755f",
+  "inference_ids": [
+    "02a1b931-debc-4821-89e8-db3ef3d80001"
+  ],
+  "meaning": "At any being g with the nine, the registered nineGiveDeiFilius (result of argument 1fa790f2) is applied with every input except the five old bridges 'Whatever HAS_INTELLECT_1 lives', 'Whatever causes the being of everything else is LORD_1 of everything else', 'Whatever is PERFECT_2 and HAS_INTELLECT_1 is BLESSED_1', 'Whatever causes the being of everything else is IMMENSE_1' and 'Whatever is INFINITE_1 is INCOMPREHENSIBLE_1', on the primitives whose living is intellect, whose lord and immense are creator of all, whose incomprehensible is infinity and whose most blessed is perfection with intellect; those five bridges then hold trivially and nothing about the given primitives is used. Every conjunct except the five primitives is carried over. g is LIVING_2 (the nine-restricted life premise) and pure act (its immutability conjunct), so the restricted sense bridge gives LIVING_1; g is LORD_2, BLESSED_2, IMMENSE_2 and INCOMPREHENSIBLE_2 (the four nine-statements), so their sense bridges give LORD_1, BLESSED_1, IMMENSE_1 and INCOMPREHENSIBLE_1. The senses are not identified: each passage is one listed sense-bridge premise, and only the weak version of each bridge is used. Joint satisfiability of this whole premise bundle, with the open leaves under its nine-statements and a being with the nine, is witnessed by the controls of this batch (model 1). Conditional consequence only; no premise is established.",
+  "definition_ids": [
+    "0d9dcc31-4d9c-45cc-93fe-fd0369fd9834",
+    "39f50105-c889-4c30-b841-ce458ec8109d",
+    "4afe4ab4-f8cc-4120-b284-f1f0140e76c1",
+    "4e0d3bdf-95b6-4b56-91f9-7026f591819d",
+    "5068b909-d6b0-458b-a3d7-30fd2f7088a8",
+    "59350e3b-1b76-45cd-b9fd-548f3f4658b5",
+    "641c767b-4289-4d92-b900-da7ad603d282",
+    "80dea550-60c1-447a-83bf-d3f27ea0b2a8",
+    "885a98f3-cd54-41c5-89bc-25c341415890",
+    "92c03350-6809-497d-b123-2ffb11c0e0c1",
+    "94ebe0d2-7cf9-4360-87ce-61c598b4e666",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "0525d8b9-f620-584f-a11f-beee6d8871a5",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "183b48d2-1753-583d-aef9-4199cff86231",
+    "1291944d-a8b2-54eb-899d-66bd5f8b4762",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "4c8f0e6b-7ef6-5be5-851c-cdf4f0301546",
+    "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4",
+    "7c64b499-6dba-5e03-bdf3-5acea95d8836",
+    "da5c0716-718e-5aaa-abec-95c9e93cac00",
+    "1d8890c0-afe2-5cdb-a400-0bbd4b79053d",
+    "42635e18-7288-5194-88b7-02dda6aa0477",
+    "a2a8de58-42e0-5481-b7fb-848ae8602036",
+    "d980bbd2-1a96-564c-bc0d-4065d7786715",
+    "a49e4cf1-ca4f-5519-9724-892af257cedb",
+    "53b02c11-a28b-57c2-8d2e-7e013893db7e",
+    "85f7f569-ab4d-514b-aa2c-cf75171ad105",
+    "58e0de99-6199-5851-8e03-381bca0d44f0",
+    "5f851204-5991-5e16-87f1-e8b3ed729708",
+    "bf2f30d1-609f-4b23-b819-786d877b949c",
+    "c4cf79f1-60a9-498a-944b-aeb7dfb56573",
+    "c8e458bd-3b8a-4e10-8e2d-43d1c1912c63",
+    "d0b7b32b-9dc1-426a-9949-92c0b43da663",
+    "edcfac86-6c19-4c82-9dfa-79bbf3287e6f",
+    "f91f5056-8a32-416b-b234-d0e78cd16ce8"
+  ],
+  "disambiguation_ids": [
+    "1f2d3b9b-0b6b-459c-8871-3f136ad6d78a",
+    "2cbf40b4-3ea9-47a3-b532-7085ba3b53fa",
+    "3fc3ee02-c3cc-4a61-9724-914d9d07b0dd",
+    "70f4f510-d488-445f-86cf-03b889507372",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "f561d4e4-ab8f-5d20-9926-d63a74df3b4e",
+    "205a39c3-915d-5fe4-8076-a9ff91329e08",
+    "9880c06b-e689-5294-b349-badb981abbf6",
+    "9b16c72e-e8dc-5d69-88bf-0daf61ab2f9b",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "587c53cf-c2a8-51f6-b8c1-013e67756dc6",
+    "c0fda0ee-3508-5101-94ba-043e3eb28b0e",
+    "508617ab-cf24-5f3b-a387-64b3991359ec",
+    "aa1de96a-e0d2-4739-a34f-9b98f1034a34",
+    "d63d0696-e5fb-4c85-932e-812989c83b29"
+  ],
+  "sense_bridges": [
+    {
+      "term": "LIVING",
+      "from": "8277a0a0-960c-487d-930d-5cd1fa8c3a4b",
+      "to": "f6fbb17c-6f36-4284-afed-93f1adc33501",
+      "statement_id": "ad49ea00-287e-4c7c-8ab6-fe222d16d493"
+    },
+    {
+      "term": "LORD",
+      "from": "ba3b77d5-8a47-4647-8426-240fd4b42c3b",
+      "to": "169d3077-17ed-4ced-aefc-8c4579db89c2",
+      "statement_id": "eb6611a5-f8a7-44f6-9bf1-2f65eb80b3cb"
+    },
+    {
+      "term": "BLESSED",
+      "from": "f9203557-e041-403e-b5e0-f3618b5a3828",
+      "to": "2ed78ade-a5c7-4c06-875a-9be127399741",
+      "statement_id": "a23dd1ac-1e5b-4842-bf82-385a36607a77"
+    },
+    {
+      "term": "IMMENSE",
+      "from": "f9a7bc6c-f847-4f4c-9cf8-9f8d1cdcc5bf",
+      "to": "1bf8b401-ddd3-459a-bc15-67083eb8d2f1",
+      "statement_id": "8bf775e9-34e0-48e5-bdd8-f48edd1040f7"
+    },
+    {
+      "term": "INCOMPREHENSIBLE",
+      "from": "be092edb-1ed5-41be-b097-d2dbf4be6a7b",
+      "to": "cb367167-c649-4645-b2a5-d3f20b6b5d1e",
+      "statement_id": "0042dd05-7788-4d77-884d-32f868f9620f"
+    }
+  ]
+}

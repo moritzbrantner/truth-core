@@ -1,0 +1,11 @@
+{
+  "id": "18a84746-fbd8-4c06-bd49-de4bab6416ee",
+  "label": "The nine give the Dei Filius attributes via all five typed senses",
+  "argument_id": "85fc8c5a-5aab-4c6d-b775-1848c069faef",
+  "challenge_module": "TruthCore.Results.Causality.DeiFiliusUnifiedRoute.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DeiFiliusUnifiedRoute.Solution",
+  "theorem": "TruthCore.Results.Causality.DeiFiliusUnifiedRoute.nineGiveDeiFiliusUnified",
+  "comparator_config": "results/18a84746-fbd8-4c06-bd49-de4bab6416ee/comparator.json",
+  "status": "solution-present",
+  "description": "At any being g with the nine, the registered nineGiveDeiFilius (result of argument 1fa790f2) is applied with every input except the five old bridges 'Whatever HAS_INTELLECT_1 lives', 'Whatever causes the being of everything else is LORD_1 of everything else', 'Whatever is PERFECT_2 and HAS_INTELLECT_1 is BLESSED_1', 'Whatever causes the being of everything else is IMMENSE_1' and 'Whatever is INFINITE_1 is INCOMPREHENSIBLE_1', on the primitives whose living is intellect, whose lord and immense are creator of all, whose incomprehensible is infinity and whose most blessed is perfection with intellect; those five bridges then hold trivially and nothing about the given primitives is used. Every conjunct except the five primitives is carried over. g is LIVING_2 (the nine-restricted life premise) and pure act (its immutability conjunct), so the restricted sense bridge gives LIVING_1; g is LORD_2, BLESSED_2, IMMENSE_2 and INCOMPREHENSIBLE_2 (the four nine-statements), so their sense bridges give LORD_1, BLESSED_1, IMMENSE_1 and INCOMPREHENSIBLE_1. The senses are not identified: each passage is one listed sense-bridge premise, and only the weak version of each bridge is used. Joint satisfiability of this whole premise bundle, with the open leaves under its nine-statements and a being with the nine, is witnessed by the controls of this batch (model 1). Conditional consequence only; no premise is established."
+}

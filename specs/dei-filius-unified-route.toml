@@ -1,0 +1,77 @@
+# Stage two of the modal spine: one route to the restated sufficiency (5fbea2f5)
+# and one to the Dei Filius root (c0f4a346) that pass all five Dei Filius
+# primitives through their typed senses at once (LIVING_2 from the nine through
+# the operation derivation, LORD_2, BLESSED_2, IMMENSE_2, INCOMPREHENSIBLE_2) and
+# their five sense bridges, with none of the old living, lord, blessed, immense
+# or incomprehensible bridges. The open bridge 'Whatever has its being caused by
+# another is not INFINITE_1' (18ca6f9d) is derived from four existing open
+# reception-limitation premises. Two finite models witness the joint
+# satisfiability of each unified route's whole premise bundle, with the open
+# leaves of its nine-statements' registered derivations, together with a being
+# that has the nine. Analyst formulations, attribution deferred.
+
+[batch]
+vocab = "TruthCore.Causality.DeiFiliusUnifiedRoute"
+results = "TruthCore.Results.Causality.DeiFiliusUnifiedRoute"
+
+# ---------------------------------------------------------------- statements
+
+[[statement]]
+id = "Joint-satisfiability models for the unified Dei Filius route"
+lean = "Control.Controls"
+paraphrase = "Closed controls on two explicit interpretations; statements about these interpretations only. (1) Sufficiency model, two beings: true has the nine; false is a caused intellect, composite (its esse is not its essence), in potency to understanding and moved in that respect, not INFINITE_1, a creature whose esse is received and limited; only true is LIVING_1, LORD_1, IMMENSE_1, INCOMPREHENSIBLE_1 and BLESSED_1. Every premise of the unified sufficiency route holds, as do the open leaves of the registered derivations of its nine-statements (intellect is the capacity to understand; that capacity is exercised or in potency; exercised understanding is an immanent operation; the self-operating unmoved lives; nothing is moved except as in potency; the directing bridge; directing is governing; the four reception premises; the finite-intellect bridge) and 'Whatever has its being caused by another is not INFINITE_1'. true has every Dei Filius attribute, and the old bridge 'Whatever HAS_INTELLECT_1 lives' fails (false has intellect and is not LIVING_1). (2) Root model, given excluded middle: the four roles of the full25 fixture of the spine root with its act, cause, grade, modal, part, priority, cognitive, potency and eternity dictionaries unchanged and one change, every essence is source, so every role other than source has esse distinct from essence, is composite and is not INFINITE_1. All twenty-two spine-root premises, the eleven Dei Filius premises of the unified root route and the same leaves hold, and the selected root source has every Dei Filius attribute. On the all-true act dictionary every role is pure act and universally perfect, so the recipient is also BLESSED_2 and LIVING_1; the model witnesses joint satisfiability only. (3) In the unchanged full25 fixture, whose INFINITE_1 is esse equal to essence, 'Whatever has its being caused by another is not INFINITE_1' fails: supporter is caused by source and has esse equal to essence. That is why model (2) changes the essence map."
+definitions = ["DEF-INFINITE", "80dea550-60c1-447a-83bf-d3f27ea0b2a8", "4433942e-aaf6-55a9-b777-66e55638103d", "6ced5205-e6a4-585e-950e-3b22e7c9ef01", "641c767b-4289-4d92-b900-da7ad603d282", "94ebe0d2-7cf9-4360-87ce-61c598b4e666", "4afe4ab4-f8cc-4120-b284-f1f0140e76c1"]
+disambiguations = ["DISAMB-INFINITY", "3fc3ee02-c3cc-4a61-9724-914d9d07b0dd", "d63d0696-e5fb-4c85-932e-812989c83b29", "aa1de96a-e0d2-4739-a34f-9b98f1034a34", "70f4f510-d488-445f-86cf-03b889507372", "1f2d3b9b-0b6b-459c-8871-3f136ad6d78a"]
+
+# ---------------------------------------------------------------- arguments
+
+[[argument]]
+id = "What is caused by another is not INFINITE_1, from reception limitation"
+theorem = "causedIsNotInfiniteFromReception"
+premises = ["STMT-CAUSED-IN-BEING-BY-ANOTHER-IS-CREATURE", "STMT-CREATURE-ESSE-IS-RECEIVED", "STMT-RECEIVED-ESSE-IS-LIMITED", "STMT-INFINITE-ESSE-IS-UNLIMITED"]
+conclusion = "18ca6f9d-b443-441c-8554-58d75eb021f2"
+axioms = []
+rule = "Chain: caused by another, so a creature; a creature's esse is received; received esse is limited; an INFINITE_1 being's esse is not limited"
+meaning = "Let x have its being caused by some c other than x. By the first premise x is a creature; by the second its esse is received in some principle z; by the third its esse is limited; by the fourth an INFINITE_1 being's esse is not limited, so x is not INFINITE_1. The step from having an external cause of esse to having received esse (kept apart in DISAMB-ESSE-RECEPTION) is carried by two explicit premises, through Creature, not by identifying the two senses. The scope condition of the conclusion binds the first premise in the same way: elements of Being are individuated by their act of being (definition 80dea550), so the divine processions are no instances of CausesIn c x esse with c distinct from x; read with them as instances, the first premise would make the Son a creature. Conditional consequence; the four premises stay open (three supported by q.7 a.1-2 readings, the first bare)."
+
+[[argument]]
+id = "The nine give the Dei Filius attributes via all five typed senses"
+theorem = "nineGiveDeiFiliusUnified"
+premises = ["280770e3-a40e-4611-a96d-9d65fec5b945", "ad49ea00-287e-4c7c-8ab6-fe222d16d493", "1063da3d-098d-49b3-9346-74d7edbb6e6c", "eb6611a5-f8a7-44f6-9bf1-2f65eb80b3cb", "8f24379f-c48d-43cf-beae-c0ad89a92cb4", "a23dd1ac-1e5b-4842-bf82-385a36607a77", "15df9d91-5912-4a75-9427-97d4a82e7a27", "8bf775e9-34e0-48e5-bdd8-f48edd1040f7", "de92711c-a871-4d4e-a9a3-64e160632006", "0042dd05-7788-4d77-884d-32f868f9620f", "STMT-INFINITE-ACT-HAS-INFINITE-POWER", "e919fe2e-2563-44bb-9eba-16c8199fa477", "8d73ef90-8260-4c45-b2ed-577630c760a7", "STMT-GOODNESS-IS-ACTUALITY", "STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS"]
+sense_bridges = [
+  { term = "LIVING", from = "8277a0a0-960c-487d-930d-5cd1fa8c3a4b", to = "f6fbb17c-6f36-4284-afed-93f1adc33501", statement_id = "ad49ea00-287e-4c7c-8ab6-fe222d16d493" },
+  { term = "LORD", from = "ba3b77d5-8a47-4647-8426-240fd4b42c3b", to = "169d3077-17ed-4ced-aefc-8c4579db89c2", statement_id = "eb6611a5-f8a7-44f6-9bf1-2f65eb80b3cb" },
+  { term = "BLESSED", from = "f9203557-e041-403e-b5e0-f3618b5a3828", to = "2ed78ade-a5c7-4c06-875a-9be127399741", statement_id = "a23dd1ac-1e5b-4842-bf82-385a36607a77" },
+  { term = "IMMENSE", from = "f9a7bc6c-f847-4f4c-9cf8-9f8d1cdcc5bf", to = "1bf8b401-ddd3-459a-bc15-67083eb8d2f1", statement_id = "8bf775e9-34e0-48e5-bdd8-f48edd1040f7" },
+  { term = "INCOMPREHENSIBLE", from = "be092edb-1ed5-41be-b097-d2dbf4be6a7b", to = "cb367167-c649-4645-b2a5-d3f20b6b5d1e", statement_id = "0042dd05-7788-4d77-884d-32f868f9620f" },
+]
+conclusion = "5fbea2f5-0446-4852-9bd4-74fd0878755f"
+axioms = []
+rule = "Composition of the registered nineGiveDeiFilius with none of its five primitive bridges, on primitives whose five fields are the antecedents of those bridges, then the five typed senses from the nine and their five sense bridges at the same being"
+meaning = "At any being g with the nine, the registered nineGiveDeiFilius (result of argument 1fa790f2) is applied with every input except the five old bridges 'Whatever HAS_INTELLECT_1 lives', 'Whatever causes the being of everything else is LORD_1 of everything else', 'Whatever is PERFECT_2 and HAS_INTELLECT_1 is BLESSED_1', 'Whatever causes the being of everything else is IMMENSE_1' and 'Whatever is INFINITE_1 is INCOMPREHENSIBLE_1', on the primitives whose living is intellect, whose lord and immense are creator of all, whose incomprehensible is infinity and whose most blessed is perfection with intellect; those five bridges then hold trivially and nothing about the given primitives is used. Every conjunct except the five primitives is carried over. g is LIVING_2 (the nine-restricted life premise) and pure act (its immutability conjunct), so the restricted sense bridge gives LIVING_1; g is LORD_2, BLESSED_2, IMMENSE_2 and INCOMPREHENSIBLE_2 (the four nine-statements), so their sense bridges give LORD_1, BLESSED_1, IMMENSE_1 and INCOMPREHENSIBLE_1. The senses are not identified: each passage is one listed sense-bridge premise, and only the weak version of each bridge is used. Joint satisfiability of this whole premise bundle, with the open leaves under its nine-statements and a being with the nine, is witnessed by the controls of this batch (model 1). Conditional consequence only; no premise is established."
+
+[[argument]]
+id = "The NECESSARY_2 GOD_4 root has the Dei Filius attributes via all five typed senses"
+theorem = "deiFiliusRootUnified"
+premises = ["0bdcf366-29c7-5d45-b603-5c929dcad976", "ee4ab504-c8fe-59bc-bc96-7cbeefed6410", "da09703b-0b1e-5dca-9dd7-6c0c8d1610d7", "0436de86-6579-53f2-9ff5-2111ba44ebae", "cb1cdea9-eb6c-578c-8008-84e0d4107fd3", "e4e6b0cd-f61a-5605-a302-573c67cf063a", "7067553d-cad9-5d79-b6b2-912e35051530", "64498e7e-7f10-54a0-9ec0-c65e6076de1f", "00e962ae-f109-55f7-a7fd-f107ce0dea6b", "b26c10a0-983d-5a88-aa03-cc601bc1ddc6", "ca07cae9-6102-564e-a7fd-efb013744b3d", "d7741cdc-881b-5bda-85ce-d70223162f78", "86efed1a-f353-5b5d-9431-df7fc643ace1", "09c6d5f0-d412-5038-85f9-75fffb935727", "180f5ad2-a421-541a-85c9-9bca578b4a43", "090be689-b77f-51a1-9d5d-caf339169e4b", "3b2d2d46-baa6-4772-a2db-bb3daeb092fc", "c6d6379b-6a9b-55b5-a701-3df289dfcca4", "75a37a91-732d-510c-9abc-b37c988c5c63", "0659227c-0979-579c-910b-03a1967f49c5", "1ec205ed-b2a6-5384-bb5f-2565a9d325bf", "4c79298d-ee09-5e99-9ced-1be92c19b4cc", "280770e3-a40e-4611-a96d-9d65fec5b945", "ad49ea00-287e-4c7c-8ab6-fe222d16d493", "1063da3d-098d-49b3-9346-74d7edbb6e6c", "eb6611a5-f8a7-44f6-9bf1-2f65eb80b3cb", "8f24379f-c48d-43cf-beae-c0ad89a92cb4", "a23dd1ac-1e5b-4842-bf82-385a36607a77", "15df9d91-5912-4a75-9427-97d4a82e7a27", "8bf775e9-34e0-48e5-bdd8-f48edd1040f7", "de92711c-a871-4d4e-a9a3-64e160632006", "0042dd05-7788-4d77-884d-32f868f9620f", "STMT-INFINITE-ACT-HAS-INFINITE-POWER"]
+sense_bridges = [
+  { term = "GOD", from = "295c9096-50b8-4ccd-960e-f833730a0774", to = "52c2ebac-0a71-4dd4-8a21-804c1dd0847a", statement_id = "1ec205ed-b2a6-5384-bb5f-2565a9d325bf" },
+  { term = "LIVING", from = "8277a0a0-960c-487d-930d-5cd1fa8c3a4b", to = "f6fbb17c-6f36-4284-afed-93f1adc33501", statement_id = "ad49ea00-287e-4c7c-8ab6-fe222d16d493" },
+  { term = "LORD", from = "ba3b77d5-8a47-4647-8426-240fd4b42c3b", to = "169d3077-17ed-4ced-aefc-8c4579db89c2", statement_id = "eb6611a5-f8a7-44f6-9bf1-2f65eb80b3cb" },
+  { term = "BLESSED", from = "f9203557-e041-403e-b5e0-f3618b5a3828", to = "2ed78ade-a5c7-4c06-875a-9be127399741", statement_id = "a23dd1ac-1e5b-4842-bf82-385a36607a77" },
+  { term = "IMMENSE", from = "f9a7bc6c-f847-4f4c-9cf8-9f8d1cdcc5bf", to = "1bf8b401-ddd3-459a-bc15-67083eb8d2f1", statement_id = "8bf775e9-34e0-48e5-bdd8-f48edd1040f7" },
+  { term = "INCOMPREHENSIBLE", from = "be092edb-1ed5-41be-b097-d2dbf4be6a7b", to = "cb367167-c649-4645-b2a5-d3f20b6b5d1e", statement_id = "0042dd05-7788-4d77-884d-32f868f9620f" },
+]
+conclusion = "c0f4a346-b265-4091-9d38-69c69582ea95"
+axioms = []
+rule = "Composition of the registered deiFiliusRoot with none of its five primitive bridges, on the same modified primitives, then the five typed senses from the nine and their five sense bridges at the same witness"
+meaning = "The registered Dei Filius root composition (deiFiliusRoot, argument 334e8640) is applied with every input except the five old primitive bridges, on the primitives whose five fields are the antecedents of those bridges; those bridges then hold trivially and nothing about the given primitives is used. Its root n is the same witness. n has the nine (nineOfDeiFilius, a projection; none of the nine is a primitive), so the five nine-statements and the five sense bridges give n LIVING_1, LORD_1, BLESSED_1, IMMENSE_1 and INCOMPREHENSIBLE_1, as in the sufficiency route. Every other conjunct is carried over. Uniqueness is among actual roots at w. Only the weak version of each bridge is used. Joint satisfiability of this whole premise bundle, with the open leaves under its nine-statements, given excluded middle, is witnessed by the controls of this batch (model 2), whose root has the nine. Conditional consequence only; no premise is established."
+
+[[argument]]
+id = "Joint-satisfiability models for the unified Dei Filius route, checked"
+theorem = "controls"
+premises = []
+conclusion = "Joint-satisfiability models for the unified Dei Filius route"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Two explicit interpretations, checked by case analysis on finite carriers"
+meaning = "Model 1 (two beings) satisfies every premise of the unified sufficiency route and the open leaves under its nine-statements, with a being that has the nine and therefore every Dei Filius attribute; the old intellect-living bridge fails there, so the bundle does not entail it in this model. Model 2 (the four roles of the spine root's full25 fixture, with every essence mapped to source) satisfies, given excluded middle, every premise of the unified root route and the same leaves; its selected root has every Dei Filius attribute. In the unchanged full25 fixture the caused-is-not-infinite bridge fails. Model 2 reuses the checked full25 fixture (NecessaryClassicalGodRootControl.checks, which depends on propext through Mathlib-importing modules), so this result permits the three Mathlib axioms; the two routes and the derivation of the caused-is-not-infinite bridge stay zero-axiom. Model-witnessed facts about these interpretations only: they show the bundles are jointly satisfiable in the stated formal semantics, not that any premise is true."

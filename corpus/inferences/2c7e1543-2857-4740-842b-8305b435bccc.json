@@ -1,0 +1,15 @@
+{
+  "id": "2c7e1543-2857-4740-842b-8305b435bccc",
+  "label": "What is caused by another is not INFINITE_1, from reception limitation (inference)",
+  "input_statement_ids": [
+    "b7d4eede-ab50-5522-8902-f33238fa234d",
+    "29e71e43-1d34-5008-8811-897fbddda209",
+    "7de89edb-e3a8-59ee-9740-8d0ce7c8ea24",
+    "965d0e26-c26c-5088-887b-7bfc54312b30"
+  ],
+  "output_statement_id": "18ca6f9d-b443-441c-8554-58d75eb021f2",
+  "rule": "Chain: caused by another, so a creature; a creature's esse is received; received esse is limited; an INFINITE_1 being's esse is not limited",
+  "meaning": "Let x have its being caused by some c other than x. By the first premise x is a creature; by the second its esse is received in some principle z; by the third its esse is limited; by the fourth an INFINITE_1 being's esse is not limited, so x is not INFINITE_1. The step from having an external cause of esse to having received esse (kept apart in DISAMB-ESSE-RECEPTION) is carried by two explicit premises, through Creature, not by identifying the two senses. The scope condition of the conclusion binds the first premise in the same way: elements of Being are individuated by their act of being (definition 80dea550), so the divine processions are no instances of CausesIn c x esse with c distinct from x; read with them as instances, the first premise would make the Son a creature. Conditional consequence; the four premises stay open (three supported by q.7 a.1-2 readings, the first bare).",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
