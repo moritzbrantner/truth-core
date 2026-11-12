@@ -131,6 +131,69 @@ Treat model selection as a role-specific experiment for research, synthesis and 
 
 Calibration and sampled audits are periodic work, not a requirement to benchmark models or repeat every review each cycle. For a bounded unattended batch, reserve independent audit capacity and record consequential errors that escaped review, human interventions and useful findings per elapsed time. Correct escaped errors and affected uses through the same repair procedure. Continue unattended research under the continuation rule and within the authorized scope; absence of a finding is not proof that no error remains. The owner receives periodic research syntheses and necessary decisions, while routine review and repair stay inside the loop.
 
+### GitHub research issue contract
+
+A research issue is a **scoped question for the work loop**, not a predetermined
+conclusion, exhaustive proof plan, duplicate corpus record or permanent activity
+log. Keep the current actionable brief easy to find. Author or reconcile it
+using these seven parts; link to canonical records for details rather than
+copying them into the issue:
+
+1. **Question and scope.** State the discriminating question, explanandum,
+   interpretation, domain and relevant logical background. Distinguish it
+   from adjacent questions; do not assume the desired answer.
+2. **Graph destination.** Name the existing statement/argument/root-route
+   target, or the *proposed* bridge to it and the substantive blocker. Mark
+   unbuilt connections **OPEN**. A useful rival analysis can connect through
+   a named incompatibility, prerequisite or explanatory comparison; do not
+   invent a verified edge just to make it look connected.
+3. **Reuse and current baseline.** Point to known statement, argument,
+   definition/sense, result, attempt, dossier and prior issue/PR IDs as
+   applicable. Search for reusable arguments and countermodels before adding
+   records. Refresh these pointers and the `main` revision at **dispatch**;
+   an issue written yesterday is not a frozen authority over today's corpus.
+4. **Rivals and decisive tests.** Represent the strongest relevant positive
+   alternatives explaining the **same** thing, with their actual commitments.
+   Say which differences or observations would favor one, weaken another or
+   expose an incompatibility. For a proposed symmetry-breaker, compare
+   like-for-like scope, background and explanatory criteria; do not assign
+   equal priors or declare defeat by stipulation. Objections must identify a
+   substantive premise, mechanism, counterexample or inference gap—not a
+   merely imaginable escape.
+5. **Research paths, not a mandated result.** Offer promising routes:
+   premise weakening, implications, competing interpretations, concrete
+   countermodels, warrants, positive rival mechanisms and type-correct
+   bridges. Let findings redirect the investigation. Preserve direct and
+   derived support options and consequential alternative senses; require
+   neither a fixed depth nor a complete argument tree upfront.
+6. **Expected useful outcome and checks.** Specify what would make one
+   coherent contribution: a verified conditional inference, meaningful new
+   support route, refined bridge, concrete model boundary, warranted rival
+   comparison, or a precise blocker with a next test. Identify relevant
+   Lean/Comparator/NanoDa, corpus, binding and semantic-review checks where
+   applicable. Conditional results retain their open premises; valid Lean
+   does not by itself establish fidelity, warrant or the intended graph edge.
+   Neither a proof nor an immediate improvement in root-frontier metrics is
+   compulsory.
+7. **Completion and next step.** After review, record exactly what landed
+   (records, theorem/model, PR and computed `truth frontier-diff` where
+   applicable), what remains **OPEN**, and the next distinct test or
+   reopening condition. Separate delivered work from philosophical
+   resolution. Close an issue only when **its stated scope** is delivered;
+   requeue genuine remaining research through the current handoff or a
+   distinct, linked issue, never a duplicate activity tracker.
+
+**Dispatch and reconciliation.** The coordinator selects one live uncertainty
+and its file/graph ownership from the issue for a worker brief, allowing the
+worker to follow substantive dependencies without a fixed work cap. On
+completion, reconcile the accepted findings against current `main`, update
+the existing issue's visible current status and links, and leave historical
+details in comments or canonical records. Do not treat issue closure, a PR,
+or an optional acceptance block as evidence that a premise is true. Apply
+[final outcome review](#final-outcome-review-and-repair), [revision boundaries](#revision-boundaries)
+and [worker handoff](../AGENTS.md#worker-brief-and-handoff)
+before relying on consequential new connections.
+
 ### Machine-checkable issue acceptance (#949)
 
 An issue can declare its completion evidence in **one** fenced block in its body
@@ -155,6 +218,16 @@ For statements, `closed` accepts any computed frontier closure, `proved`
 requires the non-transcription `proved` closure, and `sourced` requires an
 attributed source claim with a locator. Configuration and attempt IDs require
 records to exist; a failed attempt is **not** evidence of derivability.
+
+The commands below are **Python-only issue-reconciliation tooling**, not
+the primary corpus CLI. Use Rust `truth check`, `truth frontier`,
+`truth frontier-diff`, `truth related`, `truth dossier`, `truth context`
+and `truth orphans` for their migrated functions. Issue acceptance
+(`corpus.py issues`) and issue-linked dossiers (`dossier --issues-from`)
+are not yet in Rust; [#954](https://github.com/moritzbrantner/truth-core/issues/954)
+tracks the remaining migration. Rust `frontier-diff` may still use Python for
+an older base revision with different frontier rules. Do not create a second
+issue-status implementation.
 
 ```bash
 python3 scripts/corpus.py issues                        # read-only gh issue list
