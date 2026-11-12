@@ -2,6 +2,7 @@
 module
 
 public import TruthCore.Results.Causality.AccidentalFeatureOrigin.Solution
+public import TruthCore.Results.Causality.ActPriorityAtFirst.Solution
 public import TruthCore.Results.Causality.ActualCommonRoot.Solution
 public import TruthCore.Results.Causality.ActualCoverNecessaryBeing.Solution
 public import TruthCore.Results.Causality.ActualCoverStrictness.Solution
