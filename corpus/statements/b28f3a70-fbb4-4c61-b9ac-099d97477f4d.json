@@ -1,0 +1,13 @@
+{
+  "id": "b28f3a70-fbb4-4c61-b9ac-099d97477f4d",
+  "label": "Every actual supplier of an actual CONCRETE_6 thing is CONCRETE_6",
+  "paraphrase": "Open bridge, analyst formulation, unattributed: at the selected world w, every candidate existing at w that stands in the selected relation at w to an actual concretum is concrete. Grounds or explanations outside the selected relation are not constrained.",
+  "lean_declaration": "TruthCore.Causality.ClosedGroundingRoots.ActualSuppliersOfConcretaConcrete",
+  "definition_ids": [
+    "b7f3d512-b11e-40ad-a9f8-7f3d04cb2328",
+    "008cb21a-256c-5a90-822c-acd4591d699a"
+  ],
+  "disambiguation_ids": [
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
+  ]
+}

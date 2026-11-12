@@ -1,0 +1,11 @@
+{
+  "id": "3cc1a964-daf9-4ac9-bcc6-0a762c267b58",
+  "label": "A NECESSARY_2 concretum, from closed grounding collections and contingent grounding",
+  "argument_id": "29398f60-c320-4dc9-bfef-a5736df03fc4",
+  "challenge_module": "TruthCore.Results.Causality.ClosedGroundingRoots.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ClosedGroundingRoots.Solution",
+  "theorem": "TruthCore.Results.Causality.ClosedGroundingRoots.necessaryConcreteOfClosedRooted",
+  "comparator_config": "results/3cc1a964-daf9-4ac9-bcc6-0a762c267b58/comparator.json",
+  "status": "solution-present",
+  "description": "The AGWF-free form of NecessaryRootFork.necessaryConcreteOfActualGrounded: an inhabited world in which closed grounding collections are rooted and every actual contingent concretum has an actual concrete ground contains a concretum that exists at every world accessible from w. The witness is an actual root. Conditional consequence only."
+}
