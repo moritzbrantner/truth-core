@@ -51,6 +51,7 @@ of reasons.
 | **PP-04 — Epistemic peer demands** | [#1461](https://github.com/moritzbrantner/truth-core/issues/1461) and [global epistemic nihilism](../corpus/statements/global-epistemic-nihilism.json) | Does a rule requiring conciliation on disagreement apply to its advocate and to disagreement over the rule itself? | Genuine peerhood, evidence asymmetry, higher-order evidence and a restricted conciliation policy can make different updates rational. One-sided rhetoric is not automatically a contradiction in the policy. |
 | **PP-05 — Moral authority and grounding** | [#1508](https://github.com/moritzbrantner/truth-core/issues/1508) and [#1460](https://github.com/moritzbrantner/truth-core/issues/1460) | If divine authority needs a further norm to bind us, does a primitive non-theistic moral fact need a **parallel** bridge from fact to obligation? | Impersonal reasons and **standing to issue a directed command** may be distinct explanatory targets. Apply the same demand only where the inferential roles match. |
 | **PP-06 — Rules about acceptable belief** | [Verificationist dilemma](../corpus/statements/verificationist-dilemma.json), [weak-scientism survivor](../corpus/statements/weak-scientism-consistent.json) | Does a criterion of justified or meaningful assertions meet its own criterion? | A restricted-domain standard can exclude its own metatheoretic formulation without contradiction if it makes the concession explicit. The stronger unrestricted version may not survive. |
+| **PP-07 — Modal plenitude and actuality** | [Necessary-if-existent modal result](../TruthCore/Modal/NecessaryIfExistent.lean), [exact connectivity correspondence](../TruthCore/Modal/NecessaryIfConnectivity.lean), [fine-tuning selection](notes/fine-tuning-selection.md) | Does a claimed exhaustive universe ontology include metaphysical God-worlds, or only outputs of a physical generation mechanism? What connects a possible necessary God-world to our standpoint? | A physical generator's reachability is not metaphysical possibility; Lewisian actuality is indexical; S4 does not guarantee a return edge. The local return-edge route is conditional on divine possibility and necessity. |
 
 ## First worked test: universe versus omnipotent being (PP-01)
 
@@ -331,6 +332,267 @@ theories to meet successive challenges is an *alternative-model search*;
 the union of its individually successful replies is not one demonstrated
 coherent and adequate explanation. The same discipline applies to shifting
 among different theistic theories of causation, freedom and divine necessity.
+
+## Fourth worked test: multiverse plentitude and modal accountability (PP-07)
+
+**Question.** A rival appeals to *all possible universes* to explain why some
+universe exhibits a surprising feature. Does that commit the rival to God's
+actual existence if a necessarily existing God is possible? Only after fixing
+the meanings of *universe*, *possible*, *actual*, and *necessary*.
+
+The existing formal authority is
+[`NecessaryIfExistent`](../TruthCore/Modal/NecessaryIfExistent.lean), its
+[`Controls`](../TruthCore/Results/Modal/NecessaryIfExistent/Solution.lean),
+and [`NecessaryIfConnectivity`](../TruthCore/Modal/NecessaryIfConnectivity.lean)
+with its [verified correspondence](../TruthCore/Results/Modal/NecessaryIfConnectivity/Solution.lean).
+For an arbitrary proposition `G` expressing divine existence at a standpoint
+`w`, the latter uses `NecessaryIf F G w` = `□(G → □G)` and proves that
+`◇G → □G` holds for **all** `G` exactly when the successors of `w` satisfy
+the specified masked-path connectivity condition. It proves stronger
+sufficient conditions (Euclidean access; reflexive + symmetric access) and
+explicitly does **not** assert that S5 is the weakest logic. The S4 omission
+model in `NecessaryIfExistent.Controls` already shows the claimed conclusion
+can fail even with `□(G → □G)` and `◇G`.
+
+### An even smaller, local actuality bridge
+
+Let `wRv` mean that world `v` is accessible from our world `w`. Suppose:
+
+1. `wRv` and `G(v)` (a God-world is possible from here).
+2. `G(v) → □G(v)` (at that world God would exist necessarily), or instead
+   the existing rooted conditional `□(G → □G)` at `w`.
+3. **`vRw`** (the God-world can access our world).
+
+Then `G(w)` follows immediately by applying `□G(v)` to `vRw`. This does not
+need transitivity, a universal accessibility relation, or S5. Global symmetry
+(the B frame condition) supplies the back edge; one *locally warranted* back
+edge is weaker still. Reflexivity + symmetry (T+B) additionally supplies the
+existing root-level necessity propagation. The target is **actual existence**,
+not yet necessity across disconnected components or the identity of an
+individual in different worlds. When `G` describes a God-like individual, the
+individual/existence-domain and essence assumptions must remain explicit; the
+existing [`GOEDEL-1970-POSSIBLE-GOD-LIKE-NECESSARILY-EXISTS`](../TruthCore/Results/Isabelle/NotesOnGoedel/PossibleGodLikeNecessarilyExists/Solution.lean)
+uses positivity axioms, essence and necessary-existence definitions, and
+symmetry; it must not be quoted as
+proving God's metaphysical possibility.
+
+**Exact S4 survivor.** Take `W={w,v}`, accessibility
+`{(w,w),(w,v),(v,v)}`, `G(w)=false`, `G(v)=true`. The relation is reflexive
+and transitive (S4), with `wRv`, `G(v)` and `□G(v)`, but `¬G(w)` and `¬vRw`.
+It is even connected as an **undirected** graph. Thus the argument requires
+*return access* or stronger connectivity, not mere undirected connectedness.
+This is a real countermodel to the overstrong S4 inference, not an objection
+to the repaired local argument. **S4 + global B is S5 at frame level**;
+claiming it as a globally weaker system would be misleading. B alone or a
+single return edge is the useful weaker route.
+
+### Three different plenitude claims, not one opponent
+
+| Plenitude reading | What it commits to | Relevant comparison and open bridge |
+| --- | --- | --- |
+| **Metaphysical maximality:** every metaphysically possible world exists as a concrete reality. | A genuine global modal-ontology claim. In David Lewis's [*On the Plurality of Worlds*](https://www.wiley.com/en-us/on-the-plurality-of-worlds-p-9780631224969), ch. 1, actuality is indexical: every world is actual *at itself*, **not** every world actual *here*. | If a **necessarily** existing God is metaphysically possible under the same modality and an appropriate return-access/necessity principle holds, actual existence follows. The proponent can reject divine possibility or that bridge, but owes a positive account of the exclusion where they assert unrestricted plenitude. Do not infer `G(w)` solely from the claim that a *contingent* God occurs in some other real world. |
+| **Physical plenitude:** every reachable vacuum or universe allowed by a generator occurs. | A claim about the possibilities of that *specific physical dynamics*, not all metaphysical possibilities. Bousso–Polchinski's [quantized flux discretuum](https://arxiv.org/abs/hep-th/0004134) illustrates constrained allowed vacuum values rather than every freely combined set of constants. | Test derivation of the laws, correlated parameters, dynamical reachability and populated vacua. The exclusion of supernatural beings is **not** contradictory to a physical-only generative claim unless the proponent also asserts metaphysical completeness. It may still leave an explanatory stop. |
+| **Branching/ensemble:** many decohered outcomes, inflationary bubbles or universes are generated. | Multiple physical outcomes, not automatically different fundamental laws or all modal alternatives. An [eternal-inflation/landscape analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC11189337/) notes that inflation alone need not vary life-relevant parameters. | Demand the actual parameter-variation mechanism, observer/measure rule and discrimination beyond anthropic viability. Do not merge Everett-style branching, inflationary bubbles, landscape vacua and Lewisian worlds into one theory. |
+
+**The dialectical result.** An atheist *as such* does not have to endorse
+possible-world realism, S5, or a complete metaphysical theory before being
+permitted to disagree. But a particular rival who **uses** claims such as
+`all possible universes obtain`, `God is impossible`, `the actual laws are
+necessary`, or `a different causal origin was impossible` incurs a local
+**modal-accountability obligation**: specify the relevant modality,
+accessibility/domain, and a substantive warrant for the exclusions and
+identities that the inference employs. This applies symmetrically to theists
+who assert `◇G` without defending its compossibility with the proposed
+attributes. A requirement to **articulate** a live relevant difference is
+not a theorem that every naturalist owes a total modal ontology or that
+`◇G` is already established.
+
+**Bayesian connection, with a separate evidential role.** Let `D` be a
+specified purposive-design hypothesis, `N` a specified physical ensemble,
+`O` observer-existence/background information and `E` a measured residual
+feature not guaranteed by `O`. For positive denominators, the relevant
+posterior comparison is
+
+`P(D | E,O) / P(N | E,O) = [P(D | O) / P(N | O)] × [P(E | O,D) / P(E | O,N)]`.
+
+The exact [fine-tuning selection controls](notes/fine-tuning-selection.md)
+already show both how observer filtering can reverse a Bayes-factor direction
+and how an underjustified design-preference distribution can do so. A modal
+consistency failure may **eliminate a particular joint hypothesis** before
+comparison, but the mere possibility of God provides no numerical design
+likelihood, no equal 50:50 prior, and no empirical conclusion. Conversely, a
+physical multiverse must supply an actual generating distribution and a
+record-selection measure to make its advertised predictive comparison. The
+modal and probabilistic tests therefore accumulate *different conditional
+constraints* on one candidate theory; counting them as independent numerical
+evidence would double count unsupported bridges.
+
+**Provisional judgment (2026-11-12).** The local return-edge and the S4
+counterexample are sound, already supported by the project's frame work.
+This gives an important *conditional* challenge to unrestricted modal
+plentitude, not a general defeat of physical multiverse cosmology. The
+missing philosophical bridges are (i) actuality of the God-possibility
+premise, (ii) the necessary-if-existent reading of God rather than arbitrary
+contingent deities, (iii) the metaphysical modality governing both claims,
+and (iv) return-accessibility or an equivalent route to our standpoint.
+Reopen if a particular author's positive modal theory makes one of these
+bridges warranted or specifically excludes it; do not treat a mere refusal
+to use S5 as a refutation of the weaker back-edge proof.
+
+### Breadth program: 100 targeted research tests, not 100 certified defeats
+
+The user-requested *hundred-pronged defense* is a breadth goal: a large number
+of genuinely different ways to justify or challenge important propositions,
+without penalizing added subarguments or treating internal graph connections
+as failures of independence. The stable `WP-001`–`WP-100` strings below are
+**research intake identifiers**, not corpus IDs, new GitHub issues, a scored
+backlog, or 100 independent Bayesian observations. Each names a concrete
+candidate claim, cost or discriminator; only work that survives the ordinary
+research, semantic and proof standards becomes a canonical graph argument.
+Reuse the existing owners cited above, [fine-tuning controls](notes/fine-tuning-selection.md),
+and [whole-series comparison](notes/ultimate-adequacy-integration-735.md).
+
+**Modal scope and possibility (WP-001–010)**
+
+- WP-001: Fix whether an opponent's possibility claim is logical, metaphysical, physical or epistemic.
+- WP-002: Compare actualist and possibilist quantifier domains when asserting possible God-like beings.
+- WP-003: Reuse the exact S4 one-way-access God countermodel.
+- WP-004: Test a single return-access edge from the possible God-world to ours.
+- WP-005: Investigate the independent warrant of symmetry/B rather than assuming S5.
+- WP-006: Distinguish reflexivity/T from nonempty successor sets (seriality/D).
+- WP-007: Test S5's disconnected components against alleged frame-global conclusions.
+- WP-008: Audit transworld identity, counterpart theory and existential `G` as separate senses.
+- WP-009: Separate a possibility-of-God premise from Gödel-style positivity and essence axioms.
+- WP-010: Investigate a serious positive argument for `◇G` against explicit incompatible attributes.
+
+**Multiverse actuality and generation (WP-011–020)**
+
+- WP-011: Distinguish every metaphysically possible world from every physically generated region.
+- WP-012: Contrast Lewisian concrete reality with indexical actuality at our world.
+- WP-013: Determine whether branches share fundamental constants or genuinely scan them.
+- WP-014: Test physically constrained correlations against an assumed arbitrary combination of constants.
+- WP-015: Distinguish a mathematical landscape of allowed vacua from actual occupancy.
+- WP-016: Specify a real transition or nucleation mechanism that populates particular vacua.
+- WP-017: Account for physically possible vacua assigned zero production probability.
+- WP-018: Test whether the ensemble has a well-defined predictive measure rather than an infinity slogan.
+- WP-019: Distinguish a universe, connected spacetime region, possible world and complete causal order.
+- WP-020: Test why `multiverse` and `creator` are treated as exclusive hypotheses, if claimed.
+
+**Cosmic origin and causal principles (WP-021–030)**
+
+- WP-021: Separate quantum-field vacuum from metaphysical nonbeing in creation claims.
+- WP-022: Identify the actuality-warrant for a no-boundary wavefunction or tunneling law.
+- WP-023: Examine whether a proposed quantum transition presupposes a law-bearing framework.
+- WP-024: Specify what past incompleteness of inflation implies about origin, not merely geodesics.
+- WP-025: Test productive self-origin versus mutually causing preexisting constituent states.
+- WP-026: Test CTC self-consistency versus explanation of the entire loop's existence.
+- WP-027: Ask what bears the causal power attributed to an alleged first physical event.
+- WP-028: Check whether a theory bans divine self-origin but permits the same origin relation for nature.
+- WP-029: Test a positive infinite physical history with global constraints, not just a naked chain.
+- WP-030: Separate temporally prior efficient causation from dependence of existence.
+
+**Fine-tuning and observable features (WP-031–040)**
+
+- WP-031: Compare cosmological-constant predictions with the observer-compatible range.
+- WP-032: Separate electroweak/hierarchy naturalness from life-permitting fine-tuning.
+- WP-033: Investigate whether baryogenesis is predicted by either causal model.
+- WP-034: Check stellar and atomic stability under correlated variation of constants.
+- WP-035: Separate gravity-strength variation from simultaneous dimensional-unit changes.
+- WP-036: Test stellar nucleosynthesis and carbon-production parameter sensitivity.
+- WP-037: Compare initial low entropy with generic observer-compatibility selection.
+- WP-038: Test whether inflation itself relies on independently fine-tuned initial conditions.
+- WP-039: Identify features necessary for observers before claiming them as residual evidence.
+- WP-040: Select a measured `E_res` beyond observer viability with rival quantitative predictions.
+
+**Bayesian inference and selection (WP-041–050)**
+
+- WP-041: Distinguish an arbitrarily selected universe from observer-selected data.
+- WP-042: Specify the reference class: observers, records, civilizations or universes.
+- WP-043: Derive observer-conditional rather than unconditional design/nature Bayes factors.
+- WP-044: Detect repeated use of observer existence as both background and fresh evidence.
+- WP-045: Test the inverse-gambler challenge on the actual sampling protocol.
+- WP-046: Distinguish `some universe supports life` from `our observed universe supports life`.
+- WP-047: Handle old evidence without retrofitting priors to the discovered constants.
+- WP-048: Separate Bayes factor from posterior verdict when prior odds are disputed.
+- WP-049: Audit correlations among fine-tuning data before multiplying likelihoods.
+- WP-050: Test whether the direction survives all independently warranted priors/measures.
+
+**Ultimate explanation and necessity (WP-051–060)**
+
+- WP-051: Compare concrete brute roots with a defended defeasible explanatory-power policy.
+- WP-052: Distinguish necessity of some initial bearer from necessity of actual conditions.
+- WP-053: Test the extra bridge from modal necessity to causal independence.
+- WP-054: Compare explanation of every contingent member with explanation of their whole order.
+- WP-055: Test whether a selected stopping standard entails unintended modal collapse.
+- WP-056: Examine unique-global-solution infinite models, not only infinite regress slogans.
+- WP-057: Defend foundedness of existential dependence rather than importing temporal ordering.
+- WP-058: Test explanatory activity or exercise by a necessary source beyond existence alone.
+- WP-059: Determine why this physical generating law actually obtains.
+- WP-060: Compare explanatory complexity beyond merely counting kinds of causes.
+
+**Purposive creation and agency (WP-061–070)**
+
+- WP-061: Articulate a non-retrospective reason that a good creator would create at all.
+- WP-062: Test whether self-diffusive goodness or love motivates sharing creaturely goods.
+- WP-063: Distinguish a motive for contingent creation from its necessitation.
+- WP-064: Specify positive agent-causal production of an intention and world.
+- WP-065: Investigate rational choice among equally good permissible worlds.
+- WP-066: Test whether a no-best-world problem defeats a proposed selection policy.
+- WP-067: Compare a reason to make *some* good world with why this world was made.
+- WP-068: Investigate Oppy's counterfactual-or-objective-chance causal-control premise.
+- WP-069: Derive predictions for value-sensitive created features from actual purposes.
+- WP-070: Penalize purpose descriptions invented only after seeing the target evidence.
+
+**Necessary creator attributes and unity (WP-071–080)**
+
+- WP-071: Investigate whether one necessary source explains unity better than an ultimate plurality.
+- WP-072: Test a numerical-uniqueness bridge for a maximally fundamental bearer.
+- WP-073: Defend the possibility and scope of omnipotence without impossible-task inflation.
+- WP-074: Separate productive ultimate agency from the further inference to omniscience.
+- WP-075: Test God's intrinsic goodness against a merely stipulated good-source label.
+- WP-076: Explain atemporal intention without presupposing temporal change in God.
+- WP-077: Compare a necessary bearer with contingent volitional contents without modal collapse.
+- WP-078: Test whether divine simplicity is compatible with real contingent effects.
+- WP-079: Compare originating creation, conservation and continuous sustaining activity.
+- WP-080: Keep the bridge from a necessary producer to `GOD_4`/classical divine attributes explicit.
+
+**Moral and epistemic normativity (WP-081–090)**
+
+- WP-081: Explain the source of categorical epistemic reasons used in worldview comparisons.
+- WP-082: Test shared reason structure between epistemic and moral normativity.
+- WP-083: Distinguish objective good from legitimate standing to issue binding commands.
+- WP-084: Give a positive bridge from divine goodness/authorship to obligation.
+- WP-085: Challenge the warrant of primitive necessary moral supervenience laws.
+- WP-086: Investigate how agents can discover duties under non-theistic normative accounts.
+- WP-087: Compare institutional authority/practical governance with objective moral truth.
+- WP-088: Check whether practical agency requires action-guiding epistemic norms.
+- WP-089: Test whether a worldview supplies an internal reason to recommend adopting itself.
+- WP-090: Distinguish genuine self-refutation from rhetorical inconsistency in advocates' practice.
+
+**Cross-worldview synthesis and burden parity (WP-091–100)**
+
+- WP-091: Demand a concrete norm-relevant difference for any selective exemption.
+- WP-092: Apply causal, modal, epistemic and moral standards to both compared theories.
+- WP-093: Prevent switching among incompatible rival cosmologies inside one rebuttal.
+- WP-094: Compare brute contingency and brute necessity under the same explanatory virtues.
+- WP-095: Audit `natural` versus `supernatural` labels for actual causal-role differences.
+- WP-096: Distinguish probability-one *within a theory* from independently supported theory choice.
+- WP-097: Check joint consistency of each rival's physical and metaphysical possibility claims.
+- WP-098: Ask for empirical discriminators rather than new names for the actual outcome.
+- WP-099: Trace shared premises when assembling cumulative support across argument routes.
+- WP-100: Connect any provisional result to its exact root premise and OPEN identification bridges.
+
+**Execution priority, not a numerical quota.** Start by composing WP-004/005
+with the existing modal certificates and one **named** modal-plenitude theory;
+WP-013–018 with one actual inflation/landscape model and its measure;
+WP-040–050 with a residual feature and the existing Bayesian controls;
+and WP-061–070 with the purpose/selection discussion above. For each,
+retain the strongest positive rival mechanism, both branches of the
+conditional, precise potential defeaters, and the next meaningful experiment
+in the original owning issue/note. Do **not** open 100 issues or claim that
+100 questions are 100 independent reasons for God. The root-facing gain is
+sharper defensible premises and disclosed rival commitments, with no new
+frontier item marked closed merely for appearing in this map.
 
 ## Integration rule
 
