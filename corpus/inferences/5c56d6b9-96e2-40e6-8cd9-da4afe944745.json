@@ -1,0 +1,12 @@
+{
+  "id": "5c56d6b9-96e2-40e6-8cd9-da4afe944745",
+  "label": "PERFECT_2 intellect being BLESSED_1 gives BLESSED_2 being BLESSED_1 (inference)",
+  "input_statement_ids": [
+    "dc3ec456-9fd1-4e1a-8690-c529fe831ee2"
+  ],
+  "output_statement_id": "a23dd1ac-1e5b-4842-bf82-385a36607a77",
+  "rule": "Weakening of the antecedent: BLESSED_2 contains perfection and intellect as conjuncts",
+  "meaning": "Strength order registration: the old bridge (whatever is PERFECT_2 and has intellect is BLESSED_1) entails the new sense bridge, since whatever is BLESSED_2 is PERFECT_2 and has intellect. Projection and application only; it establishes neither.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

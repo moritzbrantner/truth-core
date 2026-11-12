@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.DeiFiliusLordBlessed.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DeiFiliusLordBlessed.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.DeiFiliusLordBlessed.nineAreBlessedByUnderstanding"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,168 @@
+# Stage two of the modal spine: typed sibling readings for two Dei Filius
+# primitives. LORD_2 (causes the being of and governs everything else) and
+# BLESSED_2 (has intellect, is universally perfect, good as to being and in act
+# in understanding) are derived for every being with the nine: LORD_2 from one new
+# bridge (an intellectual, willing cause of the being of all directs everything
+# else to an end, after q.22 a.2) and the existing q.103 a.3 reading; BLESSED_2
+# from two existing premises of DeiFiliusOperationFromIntellect with the nine's
+# pure act. Two sense bridges (LORD_2 -> LORD_1, BLESSED_2 -> BLESSED_1), each
+# strictly weaker than the old bridge it replaces, give the restated sufficiency
+# (5fbea2f5) and the Dei Filius root (c0f4a346) second routes for these two
+# conjuncts. Analyst formulations, attribution deferred.
+
+[batch]
+vocab = "TruthCore.Causality.DeiFiliusLordBlessed"
+results = "TruthCore.Results.Causality.DeiFiliusLordBlessed"
+
+# ---------------------------------------------------------------- statements
+
+[[statement]]
+id = "123d394b-11ce-449a-a8b6-7fda5a254a6d"
+label = "Whatever HAS_INTELLECT_1, HAS_WILL_1 and causes the being of all directs all else to an end"
+lean = "UniversalIntellectualCauseDirectsAll"
+paraphrase = "Open bridge, analyst formulation, unattributed. Whatever has intellect (HAS_INTELLECT_1), has will (HAS_WILL_1) and causes the being of every other being in act as to being (IsCreatorOfAll) directs each other being in act as to being to some end (Directs g x e, the quinta via / q.103 relation). The three are separate conjuncts: the antecedent does not say that the being causes THROUGH its intellect and will (definition 92c03350 leaves freedom of the act unencoded). After ST I q.22 a.2: every agent acts for an end, and the ordering of effects to that end extends as far as the causality of the first agent extends. That reason presupposes intellectual, voluntary agency (cf. q.19 a.4, God causes by will, not by necessity of nature), so the bridge also carries an unstated step: a being with intellect and will that causes the being of all does so through them. The relevant alternative is necessary emanation by an intellect (a first intellect from which everything else proceeds by necessity of its nature, not by choice); no independent justification for it is on file, and it is recorded as a named alternative, not as an objection. Restricted to a cause of the being of ALL others. The side effects on file (effects outside an intelligent agent's intention) all involve a particular cause, and their mechanism, according to q.22 a.2 ad 1 (attributed, unpinned), is the concurrence of other causes not ordered by that cause; that mechanism is absent when one cause gives being to everything else. This is a reason from the cited reply, not a logical consequence of the antecedent. It does not say how the direction is carried out (immediately or through intermediaries, q.103 a.6), what the being knows of each thing (it says nothing about the mode of cognition), nor that the end is the same for all. Control part 4: without it, a being with the nine directs and governs nothing and is not LORD_2."
+definitions = ["DEF-HAS-INTELLECT", "DEF-HAS-WILL", "92c03350-6809-497d-b123-2ffb11c0e0c1", "c53b5fbe-121a-5d59-8e29-0f9f7eea85b1"]
+disambiguations = ["DISAMB-IN-ACT", "DISAMB-INTELLECT-AND-SENSE-COGNITION"]
+
+[[statement]]
+id = "Whatever has the nine SIMPLE_4, PERFECT_2, INFINITE_1 attributes is LORD_2"
+lean = "NineAreLordByCauseAndGovernment"
+paraphrase = "Whatever is simple, universally perfect, supremely good, such that whatever is GOD_4 is it (IsTheOneGod: uniqueness only), infinite, altogether immutable, eternal, and has intellect and will is LORD_2: it causes the being of every other being in act as to being and governs every such being (Governs, q.103: directing to an end). Derived (nineAreLordByCauseAndGovernment) from the directing bridge and the q.103 a.3 reading; its creator conjunct is contained by definition in supreme goodness. LORD_2 is not LORD_1 (the primitive dominion of the Dei Filius attributes): authority to dispose and conservation as a separate conjunct are not typed."
+definitions = ["DEF-SIMPLE", "DEF-UNIVERSALLY-PERFECT", "DEF-SUPREMELY-GOOD", "DEF-ONE-GOD", "DEF-INFINITE", "DEF-IMMUTABLE", "DEF-ETERNAL", "DEF-HAS-INTELLECT", "DEF-HAS-WILL", "DEF-GOD-OF-CLASSICAL-THEISM", "c8e458bd-3b8a-4e10-8e2d-43d1c1912c63"]
+disambiguations = ["DISAMB-GOD", "DISAMB-IN-ACT", "DISAMB-INFINITY", "DISAMB-ETERNITY-AND-TEMPORAL-PERPETUITY", "DISAMB-IMMUTABLE-AND-CURRENTLY-UNCHANGING", "DISAMB-INTELLECT-AND-SENSE-COGNITION", "DISAMB-POTENCY", "aa1de96a-e0d2-4739-a34f-9b98f1034a34"]
+
+[[statement]]
+id = "Whatever is LORD_2 is LORD_1"
+lean = "CauseAndGovernorOfAllIsLord"
+paraphrase = "Open sense bridge, analyst formulation, unattributed. Whatever causes the being of every other being in act as to being and governs every such being (LORD_2) has dominion over everything else (LORD_1, the primitive Primitives.IsLord: authority to dispose of what is subject to it). After ST I q.13 a.7: things are subject to God as to their cause. It carries what LORD_2 leaves untyped: the passage from causal and directive power to authority. That step is the same in the old bridge, so it is not weakened here; only the antecedent is stronger. Strictly weaker than 'Whatever causes the being of everything else is LORD_1 of everything else' (its antecedent adds governance; Control part 2: a cause of the being of all that governs nothing satisfies this bridge vacuously and falsifies the old one)."
+definitions = ["c8e458bd-3b8a-4e10-8e2d-43d1c1912c63", "59350e3b-1b76-45cd-b9fd-548f3f4658b5"]
+disambiguations = ["aa1de96a-e0d2-4739-a34f-9b98f1034a34", "DISAMB-IN-ACT"]
+
+[[statement]]
+id = "Whatever has the nine SIMPLE_4, PERFECT_2, INFINITE_1 attributes is BLESSED_2"
+lean = "NineAreBlessedByUnderstanding"
+paraphrase = "Whatever is simple, universally perfect, supremely good, such that whatever is GOD_4 is it (uniqueness only), infinite, altogether immutable, eternal, and has intellect and will is BLESSED_2: it has intellect, is universally perfect, is good as to being and is IN_ACT_3 in the respect of understanding (InAct g understanding, definition 39f50105, formal or virtual). Derived (nineAreBlessedByUnderstanding) from two existing open premises of DeiFiliusOperationFromIntellect (intellect is the POTENCY_3 capacity to understand; that capacity is exercised or in POTENCY_2 to understanding) with the nine's pure act. BLESSED_2 is not BLESSED_1: ex se, self-knowledge of one's own sufficiency and formal (rather than merely virtual) understanding are not typed. BLESSED_1 is read the Thomist way (beatitude formally in the intellect, q.26 a.2); a Scotist reading (beatitude formally in the will's enjoyment) would be a further sense, not typed here."
+definitions = ["DEF-SIMPLE", "DEF-UNIVERSALLY-PERFECT", "DEF-SUPREMELY-GOOD", "DEF-ONE-GOD", "DEF-INFINITE", "DEF-IMMUTABLE", "DEF-ETERNAL", "DEF-HAS-INTELLECT", "DEF-HAS-WILL", "DEF-GOD-OF-CLASSICAL-THEISM", "39f50105-c889-4c30-b841-ce458ec8109d", "d0b7b32b-9dc1-426a-9949-92c0b43da663"]
+disambiguations = ["DISAMB-GOD", "DISAMB-IN-ACT", "DISAMB-INFINITY", "DISAMB-ETERNITY-AND-TEMPORAL-PERPETUITY", "DISAMB-IMMUTABLE-AND-CURRENTLY-UNCHANGING", "DISAMB-INTELLECT-AND-SENSE-COGNITION", "DISAMB-POTENCY", "70f4f510-d488-445f-86cf-03b889507372"]
+
+[[statement]]
+id = "Whatever is BLESSED_2 is BLESSED_1"
+lean = "UnderstandingPerfectIsMostBlessed"
+paraphrase = "Open sense bridge, analyst formulation, unattributed. Whatever has intellect, is universally perfect, is good as to being and is IN_ACT_3 in understanding (BLESSED_2) has, in and from itself, the perfect good of an intellectual nature (BLESSED_1, the primitive Primitives.MostBlessed). After ST I q.26 a.1-2. It carries what BLESSED_2 leaves untyped: ex se, knowing one's own sufficiency in the good possessed, and formal rather than merely virtual understanding. BLESSED_1 is read the Thomist way (beatitude formally in the intellect, q.26 a.2); a Scotist reading (beatitude formally in the will's enjoyment) would be a further sense, which this bridge does not reach. Strictly weaker than 'Whatever is PERFECT_2 and HAS_INTELLECT_1 is BLESSED_1' (its antecedent adds goodness and act in understanding; Control part 3: a perfect intellectual being not in act in understanding satisfies this bridge vacuously and falsifies the old one)."
+definitions = ["d0b7b32b-9dc1-426a-9949-92c0b43da663", "5068b909-d6b0-458b-a3d7-30fd2f7088a8"]
+disambiguations = ["70f4f510-d488-445f-86cf-03b889507372", "DISAMB-IN-ACT"]
+
+[[statement]]
+id = "Controls for the typed LORD_2 and BLESSED_2 readings"
+lean = "Control.Controls"
+paraphrase = "Closed controls on interpretations with two beings (Bool; only true is GOD_4 and has intellect), one end and no potency: (1) nonvacuity: the directing bridge and the q.103 a.3 reading hold, and true has the nine, LORD_2 and BLESSED_2; (2) only true causes, nothing governs, nothing is LORD_1: 'Whatever is LORD_2 is LORD_1' holds and 'Whatever causes the being of everything else is LORD_1 of everything else' fails; (3) with a respect of understanding in which nothing is in act and nothing BLESSED_1: 'Whatever is BLESSED_2 is BLESSED_1' holds and 'Whatever is PERFECT_2 and HAS_INTELLECT_1 is BLESSED_1' fails; (4) nothing directs or governs: the q.103 a.3 reading holds, true has the nine and is not LORD_2; (5) nothing is in act in understanding: true has the nine and is not BLESSED_2; (6) sense mixing: with nothing LORD_1 or BLESSED_1, true has the nine and is LORD_2 and BLESSED_2. Statements about these interpretations only."
+definitions = ["c8e458bd-3b8a-4e10-8e2d-43d1c1912c63", "d0b7b32b-9dc1-426a-9949-92c0b43da663", "59350e3b-1b76-45cd-b9fd-548f3f4658b5", "5068b909-d6b0-458b-a3d7-30fd2f7088a8"]
+disambiguations = ["aa1de96a-e0d2-4739-a34f-9b98f1034a34", "70f4f510-d488-445f-86cf-03b889507372"]
+
+# ---------------------------------------------------------------- arguments
+
+[[argument]]
+id = "Whatever has the nine is LORD_2, from directing by the universal intellectual cause"
+theorem = "nineAreLordByCauseAndGovernment"
+premises = ["123d394b-11ce-449a-a8b6-7fda5a254a6d", "STMT-DIRECTING-TO-AN-END-IS-GOVERNING"]
+conclusion = "Whatever has the nine SIMPLE_4, PERFECT_2, INFINITE_1 attributes is LORD_2"
+axioms = []
+rule = "Unfolding of supreme goodness at esse, then the directing bridge and the q.103 a.3 reading at each other being"
+meaning = "Let g have the nine. Its supreme goodness includes causing every perfection of every other being, so in particular the being of every other being in act as to being: g is creator of all (contained by definition, not independently derived). g has intellect and will (two of the nine), so the directing bridge gives, for each other being x in act as to being, an end to which g directs x; whoever directs a thing to an end governs it (q.103 a.3 reading), so g governs x. Hence g is LORD_2. Conditional consequence; both premises stay open, and the conclusion is LORD_2, not LORD_1."
+
+[[argument]]
+id = "Whatever has the nine is BLESSED_2, from intellect as an exercised capacity"
+theorem = "nineAreBlessedByUnderstanding"
+sense_bridges = [
+  { term = "POTENCY_CAPACITY_AND_POWER_ACROSS_ADOPTED", from = "02e3f1d0-4ba1-498f-b34d-40bdd348d8c4", to = "d0b17a2e-febf-45e8-9b9e-11a75b2ccbc6", statement_id = "4728d5f4-d7a4-460c-aecc-37c6279ece9f" },
+]
+premises = ["9c2a5dfe-f2f9-4d8b-9235-6a01fd108161", "4728d5f4-d7a4-460c-aecc-37c6279ece9f"]
+conclusion = "Whatever has the nine SIMPLE_4, PERFECT_2, INFINITE_1 attributes is BLESSED_2"
+axioms = []
+rule = "Projection of the nine, then the registered intellect-to-act derivation (intellectualPureActOperatesFromCapacity) with operating read as act in understanding"
+meaning = "Let g have the nine. Intellect and universal perfection are two of the nine; goodness as to being is the first conjunct of supreme goodness. g's intellect is a capacity to understand (first premise); that capacity is exercised or a potency to understanding (second premise, the listed POTENCY sense bridge); g is altogether immutable, in potency in no respect, so it is in act in understanding. In Lean the registered intellectualPureActOperatesFromCapacity is applied with its 'operates' read as 'is in act in understanding', so that its third premise holds trivially and is not used. Hence g is BLESSED_2. Conditional consequence; both premises stay open, and the conclusion is BLESSED_2, not BLESSED_1. Act in understanding is IN_ACT_3 (formal or virtual)."
+
+[[argument]]
+id = "Creator of all being LORD_1 gives LORD_2 being LORD_1"
+theorem = "lordSenseBridgeOfCreatorIsLord"
+premises = ["bb3d4417-b2f6-4310-9433-21ff2e386780"]
+conclusion = "Whatever is LORD_2 is LORD_1"
+sense_bridges = [
+  { term = "LORD", from = "ba3b77d5-8a47-4647-8426-240fd4b42c3b", to = "169d3077-17ed-4ced-aefc-8c4579db89c2", statement_id = "Whatever is LORD_2 is LORD_1", role = "conclusion" },
+]
+axioms = []
+rule = "Weakening of the antecedent: LORD_2 contains creator of all as a conjunct"
+meaning = "Strength order registration: the old bridge (whatever causes the being of everything else is LORD_1) entails the new sense bridge, since whatever is LORD_2 causes the being of everything else. Projection and application only; it establishes neither."
+
+[[argument]]
+id = "PERFECT_2 intellect being BLESSED_1 gives BLESSED_2 being BLESSED_1"
+theorem = "blessedSenseBridgeOfPerfectIntellectual"
+premises = ["dc3ec456-9fd1-4e1a-8690-c529fe831ee2"]
+conclusion = "Whatever is BLESSED_2 is BLESSED_1"
+sense_bridges = [
+  { term = "BLESSED", from = "f9203557-e041-403e-b5e0-f3618b5a3828", to = "2ed78ade-a5c7-4c06-875a-9be127399741", statement_id = "Whatever is BLESSED_2 is BLESSED_1", role = "conclusion" },
+]
+axioms = []
+rule = "Weakening of the antecedent: BLESSED_2 contains perfection and intellect as conjuncts"
+meaning = "Strength order registration: the old bridge (whatever is PERFECT_2 and has intellect is BLESSED_1) entails the new sense bridge, since whatever is BLESSED_2 is PERFECT_2 and has intellect. Projection and application only; it establishes neither."
+
+[[argument]]
+id = "The nine give every typed Dei Filius attribute, LORD_1, BLESSED_1 via LORD_2, BLESSED_2"
+theorem = "nineGiveDeiFiliusLordBlessedTyped"
+premises = ["Whatever has the nine SIMPLE_4, PERFECT_2, INFINITE_1 attributes is LORD_2", "Whatever has the nine SIMPLE_4, PERFECT_2, INFINITE_1 attributes is BLESSED_2", "Whatever is LORD_2 is LORD_1", "Whatever is BLESSED_2 is BLESSED_1", "8d2ac441-9b89-45ee-b8f6-db3522e0bafa", "STMT-INFINITE-ACT-HAS-INFINITE-POWER", "c7c32f20-2637-4497-8053-f259d02aa922", "fa3f08a8-aa2f-4385-8c72-4343eb5409c0", "e919fe2e-2563-44bb-9eba-16c8199fa477", "8d73ef90-8260-4c45-b2ed-577630c760a7", "STMT-GOODNESS-IS-ACTUALITY", "STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS"]
+sense_bridges = [
+  { term = "LORD", from = "ba3b77d5-8a47-4647-8426-240fd4b42c3b", to = "169d3077-17ed-4ced-aefc-8c4579db89c2", statement_id = "Whatever is LORD_2 is LORD_1" },
+  { term = "BLESSED", from = "f9203557-e041-403e-b5e0-f3618b5a3828", to = "2ed78ade-a5c7-4c06-875a-9be127399741", statement_id = "Whatever is BLESSED_2 is BLESSED_1" },
+]
+conclusion = "5fbea2f5-0446-4852-9bd4-74fd0878755f"
+axioms = []
+rule = "Composition of the registered nineGiveDeiFilius without its lord and most-blessed bridges, on primitives whose IsLord is creator of all and whose MostBlessed is perfection with intellect, then LORD_2, BLESSED_2 and the two sense bridges at the same being"
+meaning = "At any being g with the nine, the registered nineGiveDeiFilius (result of argument 1fa790f2) is applied with every input except 'Whatever causes the being of everything else is LORD_1 of everything else' and 'Whatever is PERFECT_2 and HAS_INTELLECT_1 is BLESSED_1', on the primitives that agree with the given ones except that their IsLord is IsCreatorOfAll and their MostBlessed is perfection with intellect; those two bridges then hold trivially and nothing about the given IsLord and MostBlessed is used, and every conjunct except lord and blessed is carried over. g is LORD_2 and BLESSED_2 (the two nine-statements), so the sense bridges give g LORD_1 and BLESSED_1. The senses are not identified: each passage is one listed bridge premise. Joint satisfiability of the whole premise bundle is not checked (unresolved): the controls witness the new premises together with the nine, not every premise of this route at once. Conditional consequence only; no premise is established."
+
+[[argument]]
+id = "The NECESSARY_2 GOD_4 root has the Dei Filius attributes via LORD_2, BLESSED_2"
+theorem = "deiFiliusRootLordBlessedTyped"
+premises = ["0bdcf366-29c7-5d45-b603-5c929dcad976", "ee4ab504-c8fe-59bc-bc96-7cbeefed6410", "da09703b-0b1e-5dca-9dd7-6c0c8d1610d7", "0436de86-6579-53f2-9ff5-2111ba44ebae", "cb1cdea9-eb6c-578c-8008-84e0d4107fd3", "e4e6b0cd-f61a-5605-a302-573c67cf063a", "7067553d-cad9-5d79-b6b2-912e35051530", "64498e7e-7f10-54a0-9ec0-c65e6076de1f", "00e962ae-f109-55f7-a7fd-f107ce0dea6b", "b26c10a0-983d-5a88-aa03-cc601bc1ddc6", "ca07cae9-6102-564e-a7fd-efb013744b3d", "d7741cdc-881b-5bda-85ce-d70223162f78", "86efed1a-f353-5b5d-9431-df7fc643ace1", "09c6d5f0-d412-5038-85f9-75fffb935727", "180f5ad2-a421-541a-85c9-9bca578b4a43", "090be689-b77f-51a1-9d5d-caf339169e4b", "3b2d2d46-baa6-4772-a2db-bb3daeb092fc", "c6d6379b-6a9b-55b5-a701-3df289dfcca4", "75a37a91-732d-510c-9abc-b37c988c5c63", "0659227c-0979-579c-910b-03a1967f49c5", "1ec205ed-b2a6-5384-bb5f-2565a9d325bf", "4c79298d-ee09-5e99-9ced-1be92c19b4cc", "Whatever has the nine SIMPLE_4, PERFECT_2, INFINITE_1 attributes is LORD_2", "Whatever has the nine SIMPLE_4, PERFECT_2, INFINITE_1 attributes is BLESSED_2", "Whatever is LORD_2 is LORD_1", "Whatever is BLESSED_2 is BLESSED_1", "8d2ac441-9b89-45ee-b8f6-db3522e0bafa", "STMT-INFINITE-ACT-HAS-INFINITE-POWER", "c7c32f20-2637-4497-8053-f259d02aa922", "fa3f08a8-aa2f-4385-8c72-4343eb5409c0"]
+sense_bridges = [
+  { term = "GOD", from = "295c9096-50b8-4ccd-960e-f833730a0774", to = "52c2ebac-0a71-4dd4-8a21-804c1dd0847a", statement_id = "1ec205ed-b2a6-5384-bb5f-2565a9d325bf" },
+  { term = "LORD", from = "ba3b77d5-8a47-4647-8426-240fd4b42c3b", to = "169d3077-17ed-4ced-aefc-8c4579db89c2", statement_id = "Whatever is LORD_2 is LORD_1" },
+  { term = "BLESSED", from = "f9203557-e041-403e-b5e0-f3618b5a3828", to = "2ed78ade-a5c7-4c06-875a-9be127399741", statement_id = "Whatever is BLESSED_2 is BLESSED_1" },
+]
+conclusion = "c0f4a346-b265-4091-9d38-69c69582ea95"
+axioms = []
+rule = "Composition of the registered deiFiliusRoot without its lord and most-blessed bridges, on the same modified primitives, then LORD_2, BLESSED_2 and the two sense bridges at the same witness"
+meaning = "The registered Dei Filius root composition (deiFiliusRoot, argument 334e8640) is applied with every input except 'Whatever causes the being of everything else is LORD_1 of everything else' and 'Whatever is PERFECT_2 and HAS_INTELLECT_1 is BLESSED_1', on the primitives that agree with the given ones except that their IsLord is IsCreatorOfAll and their MostBlessed is perfection with intellect; those two bridges then hold trivially and nothing about the given IsLord and MostBlessed is used. Its root n is the same witness. n has the nine (nineOfDeiFilius, a projection; none of the nine is a primitive), so n is LORD_2 and BLESSED_2, and the sense bridges give n LORD_1 and BLESSED_1. Every other conjunct is carried over. Uniqueness is among actual roots at w. Joint satisfiability of the whole premise bundle is not checked (unresolved). Conditional consequence only; no premise is established."
+
+[[argument]]
+id = "Controls for the typed LORD_2 and BLESSED_2 readings, checked"
+theorem = "controls"
+premises = []
+conclusion = "Controls for the typed LORD_2 and BLESSED_2 readings"
+axioms = []
+sense_mixing_control = true
+rule = "Explicit two-being interpretations, checked by unfolding"
+meaning = "Nonvacuity: the directing bridge and the q.103 a.3 reading hold and a being has the nine, LORD_2 and BLESSED_2. Strictness: each new sense bridge holds where the old bridge it weakens fails (a cause of the being of all that governs nothing is not LORD_1; a perfect intellectual being not in act in understanding is not BLESSED_1). Necessity in these models: without directing, a being with the nine is not LORD_2; without act in understanding, it is not BLESSED_2. Sense mixing fails without the sense bridges: a being with the nine can be LORD_2 and BLESSED_2 and neither LORD_1 nor BLESSED_1. Model-witnessed facts about these interpretations only; they show where each premise is needed, not that any premise is false."
+
+# ---------------------------------------------------------------- relations
+
+[[relation]]
+id = "Creator of all being LORD_1 strengthens LORD_2 being LORD_1"
+subject_kind = "statement"
+subject_id = "bb3d4417-b2f6-4310-9433-21ff2e386780"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "Whatever is LORD_2 is LORD_1"
+verification_result_id = "Creator of all being LORD_1 gives LORD_2 being LORD_1"
+strictness_result_id = "Controls for the typed LORD_2 and BLESSED_2 readings, checked"
+note = "Same InAct, CausesIn, esse and IsLord. The strong version gives LORD_1 to every cause of the being of all; the weak one only to such a cause that also governs everything else. Control part 2: a cause of the being of all that governs nothing satisfies the weak version and falsifies the strong one."
+
+[[relation]]
+id = "PERFECT_2 intellect being BLESSED_1 strengthens BLESSED_2 being BLESSED_1"
+subject_kind = "statement"
+subject_id = "dc3ec456-9fd1-4e1a-8690-c529fe831ee2"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "Whatever is BLESSED_2 is BLESSED_1"
+verification_result_id = "PERFECT_2 intellect being BLESSED_1 gives BLESSED_2 being BLESSED_1"
+strictness_result_id = "Controls for the typed LORD_2 and BLESSED_2 readings, checked"
+note = "Same InAct, HasIntellect and MostBlessed. The strong version gives BLESSED_1 to every perfect being with intellect; the weak one only to such a being that is also good as to being and in act in understanding. Control part 3: a perfect intellectual being not in act in understanding satisfies the weak version and falsifies the strong one."
