@@ -1,0 +1,10 @@
+{
+  "id": "b7c854a0-4838-4093-847a-0f9058b6a17b",
+  "label": "Q.7 a.1-2 unlimited-esse claim supports the sense-fixed CREATURE_1 reception premise",
+  "subject_kind": "claim",
+  "subject_id": "153eef01-d362-5aa5-862f-e12f3cae6b52",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "ea2c4745-029d-48fb-a935-b1cb3c9e7f5d",
+  "note": "Same support and same gap as for its Creature-parametric sibling 'The esse of every CREATURE_1 is received in some principle' (relation 904404f7): the claim's interpretation records that q.7 a.2 co. denies infinity simpliciter to a subsistent created form because its esse is received and contracted to a determinate nature. That bears on the premise for subsistent created forms; that the esse of every CREATURE_1 is received in some principle is the analyst's generalization."
+}

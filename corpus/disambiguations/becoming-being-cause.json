@@ -6,9 +6,11 @@
   "sense_definition_ids": [
     "e9630411-ffc6-534a-8509-bf357272dec9",
     "196be87e-b944-5924-b791-87406fbe48f6",
-    "211a6432-8b8f-53ed-85e3-75173bb15b24"
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "142e451d-a24f-4aa1-b38b-344e5f235e72",
+    "ed47a5a7-fa84-43cb-950b-2552b33b99ff"
   ],
-  "resolution": "Q.104 distinguishes causing an effect to come-to-be from directly causing its being as such. The existing CausesIn c x esse vocabulary says c causes x's being, but translating the source's direct conservation into that relation requires an explicit scoped interpretation. No identity with a builder's completed production, conservation as corruption-prevention, withdrawal power, or arbitrary modal power is assumed. Sense labels (docs/notes/load-bearing-terms.md, TruthCore.Causality.TermSenseForks2): BECOMING-BEING-CAUSE_1 cause of becoming (CausesOrigin), BECOMING-BEING-CAUSE_2 external efficient cause of esse (q.3 a.4 HasExternalEsseCause), BECOMING-BEING-CAUSE_3 cause of being (CausesIn c x esse). STMT-PARTICIPATED-HAS-OTHER-CAUSE is in sense 3. Sense 2 reaches it: PARTICIPATED-EXTERNAL-ESSE-CAUSE-BECOMING-BEING-CAUSE-2 derives the sense-2 statement from q.3 a.4 and an open bridge, and PARTICIPATED-HAS-OTHER-CAUSE-BECOMING-BEING-CAUSE-2 passes to sense 3 by the explicit sense bridge (an external cause of esse is another cause of being; strengthens). Sense 1 fails: the TERM-SENSE-FORKS-2-CONTROLS model has another cause of coming to be for every participated thing and no cause of being, as q.104's builder suggests.",
+  "resolution": "Q.104 distinguishes causing an effect to come-to-be from directly causing its being as such. The existing CausesIn c x esse vocabulary says c causes x's being, but translating the source's direct conservation into that relation requires an explicit scoped interpretation. No identity with a builder's completed production, conservation as corruption-prevention, withdrawal power, or arbitrary modal power is assumed. Sense labels (docs/notes/load-bearing-terms.md, TruthCore.Causality.TermSenseForks2): BECOMING-BEING-CAUSE_1 cause of becoming (CausesOrigin), BECOMING-BEING-CAUSE_2 external efficient cause of esse (q.3 a.4 HasExternalEsseCause), BECOMING-BEING-CAUSE_3 cause of being (CausesIn c x esse). STMT-PARTICIPATED-HAS-OTHER-CAUSE is in sense 3. Sense 2 reaches it: PARTICIPATED-EXTERNAL-ESSE-CAUSE-BECOMING-BEING-CAUSE-2 derives the sense-2 statement from q.3 a.4 and an open bridge, and PARTICIPATED-HAS-OTHER-CAUSE-BECOMING-BEING-CAUSE-2 passes to sense 3 by the explicit sense bridge (an external cause of esse is another cause of being; strengthens). Sense 1 fails: the TERM-SENSE-FORKS-2-CONTROLS model has another cause of coming to be for every participated thing and no cause of being, as q.104's builder suggests. CAUSING_AN_EFFECT_4 (OriginatesBeing, definition 142e451d) and CAUSING_AN_EFFECT_5 (SustainsBeing, definition ed47a5a7) are the time-indexed causes of being of disambiguation 88a8fba7 (CAUSE_OF_BEING_1 and _2, the same definitions), listed here so that passing from the tenseless sense 3 (CausesIn c x esse) to a time-indexed sense is a declared sense bridge, not prose: the sustaining reading 23e04ae5 (3 to 5, an open premise) and its restriction to causes of another's being ce55210c (3 to 5, derived: from the concurrence of causes of being d7f5a528, the only premise linking CausesIn to the time-indexed giving, in argument 366a6ea3, and from 23e04ae5 in 835330d4; role conclusion there). No statement passes from sense 3 to sense 4 (CausingBeingIsOriginating occurs only in the controls). Senses 4 and 5 overlap (a sustaining cause of a thing with a first moment of presence originates it, originatesOfSustains) and are defined from the primitive GivesAt (definition 158301bc), which has a strict esse-giving and an inclusive reading (also causing coming to be). Sense 5 is meant strictly. Sense 4 is stated for both readings: strictly it is a time-indexed sense 3; inclusively it is a time-indexed cause of coming to be, the counterpart of sense 1 (CausesOrigin). No formal bridge relates sense 4 to sense 1 or 3: CausesOrigin belongs to a separate untimed frame (BecomingBeingFrame), and the two readings of GivesAt are not distinct Lean declarations, so they are recorded as readings of one primitive, not as senses; a passage between them would be an explicit open premise. Bind-level limit: theorems stated over an abstract CausesIn parameter reach no sense-3 constant (its declaration is CausesAllInGenus), so their arguments declare term_senses sense 5 (or 4), whose constant they reach; the record-level rule, through the definition link DEF-CAUSE-OF-PERFECTION of their statements, is what requires the bridge.",
   "term_label": "CAUSING_AN_EFFECT",
   "senses": [
     {
@@ -28,6 +30,18 @@
       "label": "CAUSING_AN_EFFECT_3",
       "definition_id": "211a6432-8b8f-53ed-85e3-75173bb15b24",
       "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.CausesAllInGenus"
+    },
+    {
+      "id": "ba797c7f-285e-4378-b97a-23baf30bcc64",
+      "label": "CAUSING_AN_EFFECT_4",
+      "definition_id": "142e451d-a24f-4aa1-b38b-344e5f235e72",
+      "lean_declaration": "TruthCore.Causality.SustainingCausation.OriginatesBeing"
+    },
+    {
+      "id": "871078ad-b041-4030-bb85-7ec2eed5d079",
+      "label": "CAUSING_AN_EFFECT_5",
+      "definition_id": "ed47a5a7-fa84-43cb-950b-2552b33b99ff",
+      "lean_declaration": "TruthCore.Causality.SustainingCausation.SustainsBeing"
     }
   ]
 }

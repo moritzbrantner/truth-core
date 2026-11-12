@@ -13,7 +13,8 @@
   ],
   "meaning": "Transcription (single application, invariant 16) of the narrowed sense bridge a3913182 after a non-transcription presence derivation, as in the registered route through the strong sustaining reading (argument 0681f64a), with the weak sustaining reading in its place. Let g be IMMENSE_2. In every history of the model g is present by giving being to every other thing whenever it is (immense2PresentToAllOfAnothers, from the weak sustaining reading, presence-in-act and contact); the narrowed bridge then gives IMMENSE_1. 8bf775e9 stays open until every premise here is closed. Its point is to connect the derivation of the weak sustaining reading from concurrent actualization to the root route through 8bf775e9: on this route the existential-inertia dispute over immensity sits in the concurrent-actualization premise. All premises stay OPEN. No premise is established.",
   "term_senses": {
-    "CAUSE_OF_BEING": "5acddd28-aca0-410d-96d2-ef9386b8dc27"
+    "CAUSE_OF_BEING": "5acddd28-aca0-410d-96d2-ef9386b8dc27",
+    "CAUSING_AN_EFFECT": "871078ad-b041-4030-bb85-7ec2eed5d079"
   },
   "definition_ids": [
     "1335688a-d3f2-492e-9b71-c8062280fe16",
@@ -48,6 +49,12 @@
       "to": "1bf8b401-ddd3-459a-bc15-67083eb8d2f1",
       "statement_id": "8bf775e9-34e0-48e5-bdd8-f48edd1040f7",
       "role": "conclusion"
+    },
+    {
+      "term": "CAUSING_AN_EFFECT",
+      "from": "39f64183-5038-4348-ad9f-5b64674f65f8",
+      "to": "871078ad-b041-4030-bb85-7ec2eed5d079",
+      "statement_id": "ce55210c-d3b5-4720-bd83-a3f63c5dc884"
     }
   ]
 }
