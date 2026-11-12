@@ -1,0 +1,12 @@
+{
+  "id": "54bf1664-702d-435a-9377-93d80c800355",
+  "label": "Possibly a necessary being, from a finite-duration beginning and external cause",
+  "argument_id": "40623b4d-3cc1-4a53-bdfb-28740e6de31a",
+  "challenge_module": "TruthCore.Results.Causality.MetricBeginningArrival.Challenge",
+  "solution_module": "TruthCore.Results.Causality.MetricBeginningArrival.Solution",
+  "theorem": "TruthCore.Results.Causality.MetricBeginningArrival.possiblyNecessaryOfFiniteDurationOpportunity",
+  "comparator_config": "results/54bf1664-702d-435a-9377-93d80c800355/comparator.json",
+  "status": "solution-present",
+  "description": "Discloses what B1 and B2 in sense BEGINS_2 already carry, with no frame condition: causal opportunity applied to the possible beginning yields an accessible history v with an existing concrete individual distinct from every contingent concrete individual of v; under rigid identity and classical accessibility it is absent from no world accessible from v (ExternalCandidateNecessity), so possibly a necessary concrete individual exists (d2d7cf61). A rival who denies that a necessary concrete individual is possible therefore rejects B2 in this sense (given B1) outright; the arrival does not discriminate against that rival, as noted for the parameter-sense B2 and for A3 prime a with A3 prime b. Both premises are OPEN. No premise is established.",
+  "transcription": "instantiation"
+}

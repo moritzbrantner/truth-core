@@ -1,0 +1,11 @@
+{
+  "id": "22dbb73a-1d2f-4944-b198-f1e76ab26058",
+  "label": "Possible finite-duration beginning from metrically finite populated pasts",
+  "argument_id": "54e332e5-c831-4bda-8399-632a90519002",
+  "challenge_module": "TruthCore.Results.Causality.MetricBeginningArrival.Challenge",
+  "solution_module": "TruthCore.Results.Causality.MetricBeginningArrival.Solution",
+  "theorem": "TruthCore.Results.Causality.MetricBeginningArrival.possiblyBeginsFiniteDurationOfMetricallyFinite",
+  "comparator_config": "results/22dbb73a-1d2f-4944-b198-f1e76ab26058/comparator.json",
+  "status": "solution-present",
+  "description": "Non-transcription conditional support option for B1 in sense BEGINS_2, connecting the metric Grim Reaper to Arrival B. The possibility premise supplies an accessible history v and a moment at which a contingent concrete individual is present in v. Metrically finite populated pasts (4365c3c5, derived from the open spaced Reaper premises by MetricGrimReaper.populatedPastsMetricallyFiniteOfPatchwork) bound the past of every populated moment of every accessible history, in particular of v, so v began a finite time ago. Any preorder of moments and any real clock; the intended clock is CLOCK_1. The conclusion is NOT a first moment: in MetricBeginningArrival control 2 it holds with no begun populated moment. The possibility premise alone does not give it (control 1). Both premises are OPEN. Nothing is attributed to Koons or Pruss. No premise is established."
+}

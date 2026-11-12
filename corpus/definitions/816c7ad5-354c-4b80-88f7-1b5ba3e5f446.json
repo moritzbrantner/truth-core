@@ -1,0 +1,9 @@
+{
+ "id": "816c7ad5-354c-4b80-88f7-1b5ba3e5f446",
+ "label": "BEGINS_1: contingent concrete reality in a history begins at a first moment",
+ "term": "contingent concrete reality begins (first moment)",
+ "definition": "BEGINS_1. FirstMomentBeginningAt h Concrete v holds when some contingent concrete individual is present at some moment of history v, and every moment at which one is present has a past with a first moment (BegunComingToBe.BegunAt: some moment at or before it has no earlier moment). In ordinary language: contingent concrete reality began at a first instant. Examples: discrete time with a first moment; continuous time with a first moment, such as the non-negative reals. Non-examples: an endless succession of days; a populated past that is open below and of finite duration, as in standard FLRW cosmology, whose initial singularity is not a moment. The first moment need not be populated, and nothing is said about what, if anything, is present at it or about a cause.",
+ "basis": "stipulative",
+ "lean_declaration": "TruthCore.Causality.MetricBeginningArrival.FirstMomentBeginningAt",
+ "note": "Analyst order-theoretic sense of a beginning of the totality of contingent concrete reality; attribution deferred. It is the order notion of the A3 prime w premise (BegunAt), applied to every populated moment of one history. It is distinct from BEGINS_2 (finite duration, which an open-below past satisfies) and from the uninterpreted Scenario predicate BEGINS_3. In linear time it gives BEGINS_2 for every real clock (possiblyFiniteDurationOfFirstMoment); the converse fails (MetricBeginningArrival control 2)."
+}

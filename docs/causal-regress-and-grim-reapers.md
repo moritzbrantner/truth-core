@@ -512,6 +512,24 @@ built:
    moment (control 2 is populated at every moment), so A2/A3 cannot be reused;
    a new arrival premise would be needed and has not been formulated.
 
+Built instead (2026-11-12): a connection to Arrival B, the possible-cause
+arrival (`MetricBeginningArrival`, spec
+`specs/modal-spine-metric-beginning-arrival.toml`). Its premise B1, "possibly,
+contingent concrete reality begins", fixes no sense of beginning as typed (an
+uninterpreted Scenario predicate). The disambiguation BEGINS separates a
+first-moment sense (BEGINS_1) from a finite-duration sense (BEGINS_2, read with
+CLOCK_1), which an open-below FLRW past satisfies. The metric conclusion with
+possible population gives B1 in sense BEGINS_2
+(`possiblyBeginsFiniteDurationOfMetricallyFinite`). Arrival B in that sense then
+gives the stage-one conclusion (`necessaryConcreteOfFiniteDurationBeginning`),
+so the metric Reaper reaches the root, with no bridge to begun pasts and no
+FLRW cost. The price is moved, not removed: the decisive premise is the
+causal-opportunity premise B2. With B1 it already contains the possibility of
+a necessary concrete being (`possiblyNecessaryOfFiniteDurationOpportunity`),
+and no positive warrant for it is on file. See
+[the modal spine](notes/modal-spine.md) and attempt
+[`9d141c6c`](../corpus/attempts/9d141c6c-7979-4d8b-a1b4-7b35ebc9fb21.json).
+
 
 ## Typed per-se / historical distinction (#1112)
 

@@ -1,0 +1,32 @@
+{
+  "id": "dc40914a-48c9-48a2-941e-40b96d847a71",
+  "label": "Beginning of contingent concrete reality: first moment, finite duration, or supplied predicate",
+  "term": "contingent concrete reality begins",
+  "term_label": "BEGINS",
+  "sense_definition_ids": [
+    "816c7ad5-354c-4b80-88f7-1b5ba3e5f446",
+    "1972f626-2de1-4d89-b1d0-46645eabe884",
+    "1d100916-f4af-4a24-b649-74e771140762"
+  ],
+  "senses": [
+    {
+      "id": "11826ab1-fe07-4f77-b95b-f04d5af9b8f2",
+      "label": "BEGINS_1",
+      "definition_id": "816c7ad5-354c-4b80-88f7-1b5ba3e5f446",
+      "lean_declaration": "TruthCore.Causality.MetricBeginningArrival.FirstMomentBeginningAt"
+    },
+    {
+      "id": "2b0ac089-00e3-4a64-9247-edac34154de2",
+      "label": "BEGINS_2",
+      "definition_id": "1972f626-2de1-4d89-b1d0-46645eabe884",
+      "lean_declaration": "TruthCore.Causality.MetricBeginningArrival.FiniteDurationBeginningAt"
+    },
+    {
+      "id": "5e1f87d2-d678-4a49-a825-38226469df15",
+      "label": "BEGINS_3",
+      "definition_id": "1d100916-f4af-4a24-b649-74e771140762",
+      "lean_declaration": "TruthCore.Causality.PossibleCauseOfContingency.ContingencyBeginsAt"
+    }
+  ],
+  "resolution": "'Contingent concrete reality begins' is used in three senses. BEGINS_1: every populated moment of the history has a past with a first moment (an order notion). BEGINS_2: every populated moment has a past of finite duration on the clock, read with CLOCK_1 (a metric notion; an open-below, finite past as in standard FLRW cosmology satisfies it and not BEGINS_1). BEGINS_3: the uninterpreted Scenario predicate beginsContingency of PossibleCauseOfContingency, which the existing Arrival B premises B1 (STMT-SCENARIO-POSSIBLY-BEGINS) and B2 (STMT-SCENARIO-CAUSAL-OPPORTUNITY) use; the Scenario has no times, so as typed B1 and B2 fix no sense of beginning and the arrival is valid for every predicate. The metric Grim Reaper conclusion bears on BEGINS_2 only; it gives no first moment (MetricGrimReaper control 2). MetricBeginningArrival supplies BEGINS_2 for the Scenario predicate and states B1 and B2 in that sense as separate statements, so the Reaper reaches Arrival B without passing from BEGINS_2 to BEGINS_1 or BEGINS_3. The only passage between senses is the checked strength order BEGINS_1 to BEGINS_2 in linear time (possiblyFiniteDurationOfFirstMoment), whose converse fails (MetricBeginningArrival control 2). Neither BEGINS_1 nor BEGINS_2 is the coming-to-be of one individual (TemporalHistory.BeginsAt) or an empty first state (the A2/A3 arrival)."
+}

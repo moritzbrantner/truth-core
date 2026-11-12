@@ -1,0 +1,12 @@
+{
+  "id": "4a7a129f-daee-4c17-9e6e-532b72b5d487",
+  "label": "A possible first-moment beginning is a possible finite-duration beginning (inference)",
+  "input_statement_ids": [
+    "b58d1aac-eff7-48c4-8cbe-7d310e386dd3"
+  ],
+  "output_statement_id": "951a2235-14e5-432e-8365-0efce1b8659d",
+  "rule": "In linear time the first moment's clock reading bounds the past below (MetricGrimReaper.metricallyFiniteOfBegun)",
+  "meaning": "Strength order between the two senses of B1 (linear time, any real clock): a possible beginning at a first moment is a possible beginning a finite time ago, because in linear time a past with a first moment has finite duration. The converse fails: MetricBeginningArrival control 2 (positive real times) satisfies B1 in sense BEGINS_2 and not in sense BEGINS_1. This is the only passage between the senses; it runs from BEGINS_1 to BEGINS_2. No premise is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

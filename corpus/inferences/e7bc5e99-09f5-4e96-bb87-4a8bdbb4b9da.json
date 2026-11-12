@@ -1,0 +1,13 @@
+{
+  "id": "e7bc5e99-09f5-4e96-bb87-4a8bdbb4b9da",
+  "label": "Possibly a necessary being, from a finite-duration beginning and external cause (inference)",
+  "input_statement_ids": [
+    "951a2235-14e5-432e-8365-0efce1b8659d",
+    "256b5bab-d753-4167-a802-421954a3da48"
+  ],
+  "output_statement_id": "d2d7cf61-efd0-4bc0-93f6-2232402e8627",
+  "rule": "Apply causal opportunity to the possible beginning; the external candidate is necessary in its history (LocalFramePossibleExternalCause.necessaryOfExternalCandidate)",
+  "meaning": "Discloses what B1 and B2 in sense BEGINS_2 already carry, with no frame condition: causal opportunity applied to the possible beginning yields an accessible history v with an existing concrete individual distinct from every contingent concrete individual of v; under rigid identity and classical accessibility it is absent from no world accessible from v (ExternalCandidateNecessity), so possibly a necessary concrete individual exists (d2d7cf61). A rival who denies that a necessary concrete individual is possible therefore rejects B2 in this sense (given B1) outright; the arrival does not discriminate against that rival, as noted for the parameter-sense B2 and for A3 prime a with A3 prime b. Both premises are OPEN. No premise is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

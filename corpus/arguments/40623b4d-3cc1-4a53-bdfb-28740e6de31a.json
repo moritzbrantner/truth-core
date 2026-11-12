@@ -1,0 +1,29 @@
+{
+  "id": "40623b4d-3cc1-4a53-bdfb-28740e6de31a",
+  "label": "Possibly a necessary being, from a finite-duration beginning and external cause",
+  "premise_statement_ids": [
+    "951a2235-14e5-432e-8365-0efce1b8659d",
+    "256b5bab-d753-4167-a802-421954a3da48"
+  ],
+  "conclusion_statement_id": "d2d7cf61-efd0-4bc0-93f6-2232402e8627",
+  "inference_ids": [
+    "e7bc5e99-09f5-4e96-bb87-4a8bdbb4b9da"
+  ],
+  "meaning": "Discloses what B1 and B2 in sense BEGINS_2 already carry, with no frame condition: causal opportunity applied to the possible beginning yields an accessible history v with an existing concrete individual distinct from every contingent concrete individual of v; under rigid identity and classical accessibility it is absent from no world accessible from v (ExternalCandidateNecessity), so possibly a necessary concrete individual exists (d2d7cf61). A rival who denies that a necessary concrete individual is possible therefore rejects B2 in this sense (given B1) outright; the arrival does not discriminate against that rival, as noted for the parameter-sense B2 and for A3 prime a with A3 prime b. Both premises are OPEN. No premise is established.",
+  "definition_ids": [
+    "1972f626-2de1-4d89-b1d0-46645eabe884",
+    "375676b0-a295-4a17-a9e4-3db23319d517",
+    "77254d4d-c318-40a3-b2a1-5c922632f011",
+    "7c05f92b-907d-4c9b-b219-fc4054c9912b",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "cc57aee5-58b7-531d-bcd6-60105efe5c79",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "6343c7e8-8c65-5f32-8765-e52c0579fdbb",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e"
+  ],
+  "disambiguation_ids": [
+    "dc40914a-48c9-48a2-941e-40b96d847a71",
+    "725f3417-73d0-489f-b8ab-7b2628ff36b7"
+  ]
+}

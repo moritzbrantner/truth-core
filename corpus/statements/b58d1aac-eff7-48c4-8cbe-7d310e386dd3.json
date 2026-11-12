@@ -1,0 +1,12 @@
+{
+  "id": "b58d1aac-eff7-48c4-8cbe-7d310e386dd3",
+  "label": "Possibly, contingent reality began at a first moment (BEGINS_1)",
+  "paraphrase": "OPEN analyst premise B1 in sense BEGINS_1, attribution deferred: some history accessible from the selected world has a moment at which a contingent concrete individual is present, and in that history every moment at which a contingent concrete individual is present has a past with a first moment (some moment at or before it has no earlier moment). The first moment need not be populated; nothing is said about what is present at it or about a cause. 'Concrete' is the supplied Concrete parameter.",
+  "lean_declaration": "TruthCore.Causality.MetricBeginningArrival.PossiblyBeginsFirstMoment",
+  "definition_ids": [
+    "816c7ad5-354c-4b80-88f7-1b5ba3e5f446",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e",
+    "008cb21a-256c-5a90-822c-acd4591d699a"
+  ]
+}
