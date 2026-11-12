@@ -18,8 +18,10 @@ This module types both steps, so the bridge is derived and could have failed.
 explicitly identified primitive measures (`Measures`): a being's degree of act
 (`actDegree`), its degree of knowability (`knowability`, how far it is knowable
 in itself) and a three-place degree of knowing (`KnowsAt x y d`: x knows y with a
-knowing whose perfection is d). Maximality is Mathlib's `IsTop` (nothing on the
-scale exceeds the degree). Defined from them:
+knowing whose perfection is d). "Maximal" in the names below means GREATEST:
+Mathlib's `IsTop` (every degree on the scale is at most it), not `IsMax`
+(nothing strictly exceeds it), which is weaker on a non-total `Preorder`.
+Defined from them:
 
 * COMPREHEND_2, `ComprehendsByMeasure M x y`: x knows y at some degree that
   reaches y's knowability (q.12 a.7: to comprehend is to know a thing as
@@ -29,7 +31,7 @@ scale exceeds the degree). Defined from them:
 
 **Premises** (all open, analyst formulations, attribution deferred):
 
-* `InfiniteActIsMaximal`: whatever is INFINITE_1 has a maximal degree of act
+* `InfiniteActIsMaximal`: whatever is INFINITE_1 has the greatest degree of act
   (q.7 a.1: unreceived subsistent being is limited by nothing);
 * `KnowableInsofarAsInAct`: everything is knowable at least to the degree it is
   in act (q.12 a.1; q.16 a.3, pinned claim `191c4ad9`: *unumquodque inquantum
@@ -49,12 +51,21 @@ about COMPREHEND_1 then follows with one sense bridge,
 
 **Senses.** COMPREHEND_1 (the primitive) and COMPREHEND_2 (defined here) are not
 identified (invariant 7, disambiguation COMPREHEND). The only passage between
-them is the open sense bridge, which carries that the primitive's gloss
-"as perfectly as knowable" is measured on one scale with the degrees of knowing,
-so that the two can be compared. The converse is not assumed (controls).
+them is the open sense bridge, which carries the comparison between knowing and
+knowability for COMPREHEND_1 pairs, and requires every COMPREHEND_1 to show up as
+some `KnowsAt` degree. The converse is not assumed (controls).
+
+**Commensurability.** The one shared scale is a commitment spread over four
+premises, not only the sense bridge: `KnowableInsofarAsInAct` (act ≤
+knowability), `KnowingWithinKnowersAct` (knowing ≤ the knower's act),
+`InfiniteActIsMaximal` through `IsTop` (every degree of anything, act,
+knowability or knowing, is at most the INFINITE_1's act, and so comparable with
+it) and the sense bridge (knowability ≤ knowing for COMPREHEND_1 pairs). It is
+the main open warrant gap of this account. The `Preorder` leaves other degrees
+incomparable where no premise forces a comparison.
 
 **Scale commitment.** `InfiniteActIsMaximal` presupposes that the scale has a
-maximum wherever something is INFINITE_1: on any scale with no maximum (Mathlib
+greatest degree wherever something is INFINITE_1: on any scale with no maximum (Mathlib
 `NoMaxOrder`, such as ℕ) it entails that nothing is INFINITE_1 (control part 8).
 That is a fact about the premise's form, not an objection to it; whether degrees
 of act are cardinal-like sizes is the question an objection would have to argue.
@@ -107,10 +118,13 @@ bound on a power that the derivation needs. -/
 def PowerOfKnowingBoundedBy (M : Measures Being Deg) (x : Being) (p : Deg) : Prop :=
   ∀ y d, M.KnowsAt x y d → d ≤ p
 
-/-- OPEN premise: whatever is INFINITE_1 has a maximal degree of act (nothing on
-the scale exceeds it). After ST I q.7 a.1: esse not received in anything is
-limited by nothing. Presupposes a scale with a maximum wherever something is
-INFINITE_1 (control part 8). -/
+/-- OPEN premise: whatever is INFINITE_1 has the greatest degree of act (Mathlib
+`IsTop`: every degree on the scale is at most it; stronger than `IsMax`, nothing
+strictly exceeds it, on a non-total `Preorder`). After ST I q.7 a.1: esse not
+received in anything is limited by nothing. Consequence of `IsTop` on the one
+shared scale: every degree of act, knowability and knowing of every being is
+comparable with, and at most, the INFINITE_1's act. Presupposes a scale with a
+greatest degree wherever something is INFINITE_1 (control part 8). -/
 def InfiniteActIsMaximal (Infinite : Being → Prop) (M : Measures Being Deg) : Prop :=
   ∀ g, Infinite g → IsTop (M.actDegree g)
 
@@ -125,16 +139,21 @@ knowable. The q.12 a.7 premise "God is infinitely knowable". -/
 def InfiniteIsMaximallyKnowable (Infinite : Being → Prop) (M : Measures Being Deg) : Prop :=
   ∀ g, Infinite g → IsTop (M.knowability g)
 
-/-- OPEN premise: whatever is not INFINITE_1 does not have a maximal degree of
-act. After ST I q.7 a.2: what has received being is limited. -/
+/-- OPEN premise: whatever is not INFINITE_1 does not have the greatest degree of
+act (`¬ IsTop`). After ST I q.7 a.2: what has received being is limited. Weakest
+form: it is met as soon as some degree is not at most the being's act, even an
+incomparable one; the `IsMax` sibling (`¬ IsMax`: something strictly exceeds it)
+would be stronger and closer to "limited", and is not registered. -/
 def NonInfiniteActIsNotMaximal (Infinite : Being → Prop) (M : Measures Being Deg) : Prop :=
   ∀ x, ¬ Infinite x → ¬ IsTop (M.actDegree x)
 
 /-- OPEN premise: nothing knows anything at a degree above its own degree of
 act; a knower's degree of act bounds its power of knowing. After ST I q.12 a.4
 (knowledge is according to the mode of the knower) and a.7 (the created light of
-glory, by which the blessed see God, is finite). The degree of act is the
-knower's whole act, including any added perfection such as that light. -/
+glory, by which the blessed see God, is finite). The degree of act is meant as
+the knower's whole act, including an added perfection such as that light; the
+measures have no state index, so a knower before and after receiving the light
+is represented by reading the measures for one state at a time. -/
 def KnowingWithinKnowersAct (M : Measures Being Deg) : Prop :=
   ∀ x, PowerOfKnowingBoundedBy M x (M.actDegree x)
 

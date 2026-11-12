@@ -961,13 +961,15 @@ COMPREHEND_1 (disambiguation `e151d506`). Its typed sibling COMPREHEND_2
 (`ComprehendsByMeasure`, definition `1218cc1e`) is knowing a being at a degree
 that reaches its degree of knowability. It uses three explicitly primitive
 measures on one Mathlib `Preorder` scale (definition `5b196f1c`): degree of act,
-knowability in itself, and degree of knowing. Maximality is `IsTop`. Four open
-premises carry what the bridge left unstated:
+knowability in itself, and degree of knowing. "Maximal" means greatest
+(`IsTop`: every degree is at most it), not merely `IsMax`. Four open premises
+carry what the bridge left unstated:
 
-- the INFINITE_1 has a maximal degree of act (`af79c4ee`, q.7 a.1);
+- the INFINITE_1 has the greatest degree of act (`af79c4ee`, q.7 a.1);
 - everything is knowable at least as far as it is in act (`7921f9c8`, q.12 a.1,
   q.16 a.3);
-- what is not INFINITE_1 has a non-maximal degree of act (`ea1c35a5`, q.7 a.2);
+- what is not INFINITE_1 does not have the greatest degree of act (`ea1c35a5`,
+  q.7 a.2; weakest form, met even by an incomparable degree);
 - nothing knows anything above its own degree of act (`7db53cde`, q.12 a.4 and
   a.7; that degree includes the light of glory).
 
@@ -975,8 +977,15 @@ The first two derive "infinitely knowable" (maximal knowability). The last two
 derive a non-maximal bound on every non-INFINITE_1 intellect's power of knowing,
 the weakest form of "knows finitely". Transitivity then excludes COMPREHEND_2
 (`231820b4`). The open sense bridge COMPREHEND_1 → COMPREHEND_2 (`76997ac8`)
-gives `bbac932e`. That bridge carries the commensurability of degrees of knowing
-with knowability; its converse is not assumed.
+gives `bbac932e`. That bridge carries the knowing–knowability comparison for
+COMPREHEND_1 pairs and requires every COMPREHEND_1 to show up as some degree of
+knowing; its converse is not assumed. Commensurability (one scale for act,
+knowability and knowing) is the main open warrant gap, and it is imposed by four
+premises, not only the bridge: `7921f9c8`, `7db53cde`, `af79c4ee` (through
+`IsTop`, every degree is at most the INFINITE_1's act) and `76997ac8`. The first
+and third premises together make INFINITE_1 equivalent to the greatest degree of
+act, close to a degree reading of DEF-INFINITE, so the warrant load lies on
+`7921f9c8`, `7db53cde` and `76997ac8`.
 
 The controls show four things. Each premise and the sense bridge is needed.
 God's self-comprehension remains possible. On any scale with no maximum, the
@@ -991,13 +1000,15 @@ Audit under the Standard: no substantive objection was identified.
 - The beatific vision through the divine essence (q.12 a.2) is a scope point
   internal to the case. Q.12 a.7 resolves it by the finite light of glory, which
   `7db53cde` types.
-- The apophatic and commensurability leads have no independent justification on
-  file.
+- The apophatic lead has no independent justification on file.
+- The commensurability lead (q.13 a.5: analogy, not univocity) targets all four
+  scale-imposing premises; no argument on file shows that it makes these
+  comparisons fail, and none establishes them either.
 
 Computed: `bbac932e` moves from bare to closed (a verified derivation from open
 premises; not established), and five bare premises are added. Open premises
-reaching the root go from 466 to 470. This is a finer split, not a weaker total
-commitment.
+reaching the root go from 466 to 470. This is a stronger, more articulated
+commitment, not a weaker one.
 
 **Unified route** (`DeiFiliusUnifiedRoute`, spec
 `specs/dei-filius-unified-route.toml`, attempt `170d6a5e`). One route to the

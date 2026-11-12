@@ -1,7 +1,7 @@
 {
   "id": "8ccbf947-098a-416e-b2f5-b2de17761006",
   "label": "Whatever is INFINITE_1 is maximally knowable",
-  "paraphrase": "Derived conditional premise (its two premises remain open), analyst formulation, attribution deferred. For every g: if g is INFINITE_1, g's degree of knowability is maximal on the degree scale (IsTop). The q.12 a.7 premise 'God is infinitely knowable', read as maximal knowability on one scale. Derived (infiniteIsMaximallyKnowable) from 'Whatever is INFINITE_1 has a maximal degree of act' and 'Everything is knowable at least to the degree it is in act'.",
+  "paraphrase": "Derived conditional premise (its two premises remain open), analyst formulation, attribution deferred. For every g: if g is INFINITE_1, g's degree of knowability is the greatest on the degree scale (IsTop: every degree is at most it; 'maximal' in the label means greatest). The q.12 a.7 premise 'God is infinitely knowable', read as maximal knowability on one scale. Derived (infiniteIsMaximallyKnowable) from 'Whatever is INFINITE_1 has a maximal degree of act' and 'Everything is knowable at least to the degree it is in act'.",
   "lean_declaration": "TruthCore.Causality.ComprehensionByMeasure.InfiniteIsMaximallyKnowable",
   "definition_ids": [
     "1d8890c0-afe2-5cdb-a400-0bbd4b79053d",
