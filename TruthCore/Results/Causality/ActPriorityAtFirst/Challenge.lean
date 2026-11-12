@@ -6,6 +6,7 @@ namespace TruthCore.Results.Causality.ActPriorityAtFirst
 open TruthCore.Causality.ActPriorityAtFirst
 open TruthCore.Causality.ComponentFirstness
 open TruthCore.Latin.Aquinas.SummaTheologiae
+open TruthCore.Causality.Round2PerfectionPrimacy (PerfectionCausingInAnotherIsEfficient)
 
 /-- Strength order: act's simple priority over every potency of the
 independently supplied potency parameter (`IndependentPriority`, the transparent
@@ -22,7 +23,9 @@ theorem weakOfStrong {B R : Type} (InAct InPotency : B → R → Prop)
 potency, if first, would by the weak version have a prior being in act in that
 respect, which firstness makes the component itself, against non-overlap; a
 participated component has a distinct cause of its being, which is prior to it.
-Conditional on five OPEN premises. -/
+Conditional on five OPEN premises. As in `noComponentFirst`, one `CausesIn`
+feeds both the participation premise and efficient-cause priority; the records
+of that passage are a recorded defect (see the modal-spine note). -/
 theorem noComponentFirstOfWeak {B R : Type} (ComponentOf PriorSimply : B → B → Prop)
     (InAct InPotency : B → R → Prop) (Participated : B → Prop)
     (CausesIn : B → B → R → Prop) (esse : R)
@@ -34,17 +37,33 @@ theorem noComponentFirstOfWeak {B R : Type} (ComponentOf PriorSimply : B → B �
     NoComponentIsFirstBeingReading ComponentOf PriorSimply := by
   sorry
 
-/-- The weak version from composition: a first being is in act in some respect,
-so if it were in potency in another it would be composite, and so it would have
-a distinct cause of its being, which would be prior to it, against firstness.
-Conditional on four OPEN premises. -/
-theorem weakOfComposition {B R : Type} (InAct InPotency : B → R → Prop)
+/-- The q.3 a.1 conclusion from composition, without act priority or
+non-overlap: a first being is in act in some respect, so if it were in potency
+in another it would be composite, so it would have a distinct cause of its
+being, which by the bridge causes it efficiently and so is prior to it, against
+firstness. Conditional on five OPEN premises. -/
+theorem firstBeingNoPotencyOfComposition {B R : Type} (InAct InPotency : B → R → Prop)
     (PriorSimply : B → B → Prop) (Composite : B → Prop)
-    (CausesIn : B → B → R → Prop) (esse : R)
+    (CausesIn EfficientlyCausesIn : B → B → R → Prop) (esse : R)
     (hInAct : FirstBeingIsInSomeAct InAct PriorSimply)
     (hComposite : ActAndPotencyMakeComposite InAct InPotency Composite)
     (hCause : CompositeHasAUnitingCauseReading Composite CausesIn esse)
-    (hEfficient : EfficientCauseIsPriorToEffectReading CausesIn PriorSimply) :
+    (hBridge : PerfectionCausingInAnotherIsEfficient CausesIn EfficientlyCausesIn)
+    (hEfficient : EfficientCauseIsPriorToEffectReading EfficientlyCausesIn PriorSimply) :
+    FirstBeingIsInNoWayInPotencyReading InPotency PriorSimply := by
+  sorry
+
+/-- The weak version from composition, by `firstBeingNoPotencyOfComposition`:
+a first being is in potency in no respect, so the weak version holds
+vacuously. Conditional on the same five OPEN premises. -/
+theorem weakOfComposition {B R : Type} (InAct InPotency : B → R → Prop)
+    (PriorSimply : B → B → Prop) (Composite : B → Prop)
+    (CausesIn EfficientlyCausesIn : B → B → R → Prop) (esse : R)
+    (hInAct : FirstBeingIsInSomeAct InAct PriorSimply)
+    (hComposite : ActAndPotencyMakeComposite InAct InPotency Composite)
+    (hCause : CompositeHasAUnitingCauseReading Composite CausesIn esse)
+    (hBridge : PerfectionCausingInAnotherIsEfficient CausesIn EfficientlyCausesIn)
+    (hEfficient : EfficientCauseIsPriorToEffectReading EfficientlyCausesIn PriorSimply) :
     FirstBeingActPriority InAct InPotency PriorSimply := by
   sorry
 

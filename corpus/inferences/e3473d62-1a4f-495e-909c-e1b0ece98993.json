@@ -5,11 +5,12 @@
     "8288ff1e-d534-4516-ac2d-8d010cb863ac",
     "3d99779b-b44a-4daa-a873-8ccdd3c034ae",
     "ca07cae9-6102-564e-a7fd-efb013744b3d",
+    "e0088de9-28eb-533c-a1e7-662f780cc0e2",
     "e078f07b-a4b8-595e-a3ee-02dd83474450"
   ],
   "output_statement_id": "61ad11f3-476f-411d-9720-d9f05cbc22fc",
-  "rule": "Reductio at the supposed first being: act in some respect with potency in another gives composition, composition a distinct cause of being, the cause priority, against firstness",
-  "meaning": "A first being is in act in some respect; if it were in potency in some respect it would be composite (act and potency make composite), so it would have a cause of its being other than itself (ST I q.3 a.7 reading), which as efficient cause would be simply prior to it (ST I q.2 a.3 reading), against firstness; so no first being is in potency, and the first-being version holds vacuously. Each of the four premises is needed (Control.CompositionOmissions). It uses no claim that idle potencies of other beings have prior beings in act, and no reduction or grounding premise. It relocates the question to whether a first being can be an uncaused composite (the existing uncaused-composite rival). Conditional consequence only; no premise is established.",
+  "rule": "Reductio at the supposed first being, as in firstBeingNoPotencyOfComposition; the first-being version then holds vacuously",
+  "meaning": "The first-being version of act priority from the same five premises: by firstBeingNoPotencyOfComposition a first being is in potency in no respect, so the first-being version holds vacuously. Each of the five premises is needed (Control.CompositionOmissions). The proof applies each premise only at a supposed first being; no premise says that an idle potency of a being other than a first one has a prior being in act. Conditional consequence only; no premise is established.",
   "assumption_statement_ids": [],
   "discharged_statement_ids": []
 }

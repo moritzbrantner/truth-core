@@ -5,6 +5,7 @@ public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Articl
 public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article1
 public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3
 public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question2.Article3SecundaVia
+public import TruthCore.Causality.Round2PerfectionPrimacy
 
 /-! Act priority where the routes use it: at a first being
 
@@ -27,9 +28,13 @@ version, `FirstBeingActPriority`, and an independent way to it.
   formulations, unattributed): every first being is in act in some respect,
   and whatever is in act in one respect and in potency in another is
   composite. With the q.3 a.7 reading that every composite has a cause of its
-  being other than itself and the q.2 a.3 reading that an efficient cause is
-  prior to its effect, they give the weak version. No premise says that an
-  idle potency of a being other than a first one has a prior being in act.
+  being other than itself, the bridge that causing another's perfection is
+  efficiently causing it, and the q.2 a.3 reading that an efficient cause is
+  prior to its effect, they give the weak version, and directly the q.3 a.1
+  conclusion. The proof applies each premise only at a supposed first being;
+  three of them are stated universally, so first-being instances would
+  suffice. No premise says that an idle potency of a being other than a first
+  one has a prior being in act.
 
 `Composite`, `CausesIn`, `InAct`, `InPotency` and `PriorSimply` are the
 supplied parameters of the reused readings; nothing here defines them.
@@ -40,11 +45,14 @@ supplied parameters of the reused readings; nothing here defines them.
 namespace TruthCore.Causality.ActPriorityAtFirst
 
 open TruthCore.Latin.Aquinas.SummaTheologiae
+open TruthCore.Causality.Round2PerfectionPrimacy (PerfectionCausingInAnotherIsEfficient)
 
 /-- Weak version of act's simple priority, restricted to first beings (OPEN,
 analyst formulation): whatever first being is in potency in a respect is
-simply posterior to some being in act in that respect. It says nothing about a
-being to which another is simply prior, such as a stone in potency to heat. -/
+simply posterior to some being in act in that respect. Since nothing other than
+a first being is simply prior to it, the witness is the first being itself: the
+statement says that a first being's potencies are in act in the same respect,
+and carries no priority over other beings. -/
 def FirstBeingActPriority {B R : Type} (InAct InPotency : B → R → Prop)
     (PriorSimply : B → B → Prop) : Prop :=
   ∀ f, IsFirstBeing PriorSimply f → ∀ r, InPotency f r → ∃ y, InAct y r ∧ PriorSimply y f
@@ -52,8 +60,11 @@ def FirstBeingActPriority {B R : Type} (InAct InPotency : B → R → Prop)
 /-- OPEN, analyst formulation, unattributed: whatever is in act in some respect
 and in potency in some respect is composite. A being whose actual being leaves
 a capacity unrealized has two principles, what it actually is and what it can
-be but is not. ST I q.3 a.7 co. states the converse (*in omni composito oportet
-esse potentiam et actum*), not this direction. The restriction to beings in
+be but is not. ST I q.3 a.7 co., fourth reason, states the converse (every
+composite has potency and act), not this direction. `InPotency` is the free
+POTENCY_2 parameter, presupposing real passive potency; `Composite` is read in
+the inclusive SIMPLE_4 sense, so that the q.3 a.7 cause premise covers
+act-potency composition. The restriction to beings in
 act in some respect keeps pure potency out: prime matter, in potency and in act
 in no respect, is not composite, and would falsify the unrestricted
 "whatever is in potency is composite" if it is counted among the beings. -/
@@ -111,32 +122,38 @@ def ColdStone : Prop :=
   FirstBeingIsInSomeAct esseAct groundPrior ∧
   ActAndPotencyMakeComposite esseAct stonePotency stoneComposite ∧
   CompositeHasAUnitingCauseReading stoneComposite groundCauses true ∧
+  PerfectionCausingInAnotherIsEfficient groundCauses groundCauses ∧
   EfficientCauseIsPriorToEffectReading groundCauses groundPrior ∧
   IsFirstBeing groundPrior true ∧ stonePotency false false ∧
   ¬ ActSimplyPriorToPotencyReading esseAct stonePotency groundPrior
 
 /-- Each composition-route premise is needed: dropping one leaves the other
-three and non-overlap while the stone, first because nothing is prior to it,
+four and non-overlap while the stone, first because nothing is prior to it,
 is in potency to heat. (a) Without first-being act: nothing is in act (the
 potency-first shape). (b) Without act-and-potency composition: the stone is in
 act in esse, in potency to heat and simple. (c) Without composite-has-a-cause:
 the stone is an uncaused composite. (d) Without efficient-cause priority: the
-ground causes the composite stone, but nothing is simply prior. -/
+ground efficiently causes the composite stone, but nothing is simply prior.
+(e) Without the cause-to-efficient-cause bridge: the ground causes the
+composite stone, but not efficiently. -/
 def CompositionOmissions : Prop :=
   (ActAndPotencyMakeComposite noAct stonePotency noComposite ∧
     CompositeHasAUnitingCauseReading noComposite noCause true ∧
+    PerfectionCausingInAnotherIsEfficient noCause noCause ∧
     EfficientCauseIsPriorToEffectReading noCause noPrior ∧
     NotActAndPotencyInSameRespectReading noAct stonePotency ∧
     ¬ FirstBeingIsInSomeAct noAct noPrior ∧
     ¬ FirstBeingActPriority noAct stonePotency noPrior) ∧
   (FirstBeingIsInSomeAct esseAct noPrior ∧
     CompositeHasAUnitingCauseReading noComposite noCause true ∧
+    PerfectionCausingInAnotherIsEfficient noCause noCause ∧
     EfficientCauseIsPriorToEffectReading noCause noPrior ∧
     NotActAndPotencyInSameRespectReading esseAct stonePotency ∧
     ¬ ActAndPotencyMakeComposite esseAct stonePotency noComposite ∧
     ¬ FirstBeingActPriority esseAct stonePotency noPrior) ∧
   (FirstBeingIsInSomeAct esseAct noPrior ∧
     ActAndPotencyMakeComposite esseAct stonePotency stoneComposite ∧
+    PerfectionCausingInAnotherIsEfficient noCause noCause ∧
     EfficientCauseIsPriorToEffectReading noCause noPrior ∧
     NotActAndPotencyInSameRespectReading esseAct stonePotency ∧
     ¬ CompositeHasAUnitingCauseReading stoneComposite noCause true ∧
@@ -144,8 +161,16 @@ def CompositionOmissions : Prop :=
   (FirstBeingIsInSomeAct esseAct noPrior ∧
     ActAndPotencyMakeComposite esseAct stonePotency stoneComposite ∧
     CompositeHasAUnitingCauseReading stoneComposite groundCauses true ∧
+    PerfectionCausingInAnotherIsEfficient groundCauses groundCauses ∧
     NotActAndPotencyInSameRespectReading esseAct stonePotency ∧
     ¬ EfficientCauseIsPriorToEffectReading groundCauses noPrior ∧
+    ¬ FirstBeingActPriority esseAct stonePotency noPrior) ∧
+  (FirstBeingIsInSomeAct esseAct noPrior ∧
+    ActAndPotencyMakeComposite esseAct stonePotency stoneComposite ∧
+    CompositeHasAUnitingCauseReading stoneComposite groundCauses true ∧
+    EfficientCauseIsPriorToEffectReading noCause noPrior ∧
+    NotActAndPotencyInSameRespectReading esseAct stonePotency ∧
+    ¬ PerfectionCausingInAnotherIsEfficient groundCauses noCause ∧
     ¬ FirstBeingActPriority esseAct stonePotency noPrior)
 
 /-- Formal facts, over every carrier.

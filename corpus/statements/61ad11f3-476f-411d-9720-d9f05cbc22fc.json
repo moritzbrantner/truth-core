@@ -1,7 +1,7 @@
 {
   "id": "61ad11f3-476f-411d-9720-d9f05cbc22fc",
   "label": "Act is SIMPLY_PRIOR_1 to POTENCY_2 at a first being",
-  "paraphrase": "Open premise, analyst formulation, unattributed: whatever first being (no being other than it is simply prior to it) is in potency in a respect is simply posterior to some being in act in that respect. The instance at first beings of act priority for the independent potency parameter (the same body as STMT-ACT-SIMPLY-PRIOR-TO-POTENCY on the independently supplied InPotency). It says nothing about a being to which another is simply prior. Given same-respect non-overlap it is equivalent to STMT-FIRST-BEING-IS-IN-NO-WAY-IN-POTENCY.",
+  "paraphrase": "Open premise, analyst formulation, unattributed: whatever first being (no being other than it is simply prior to it) is in potency in a respect is simply posterior to some being in act in that respect. Since nothing other than a first being is simply prior to it, the witness is the first being itself: the statement says that a first being's potencies are in act in the same respect, and carries no priority over other beings. It is the instance at first beings of act priority for the independent potency parameter (the same body as STMT-ACT-SIMPLY-PRIOR-TO-POTENCY on the independently supplied InPotency). Given same-respect non-overlap it is equivalent to STMT-FIRST-BEING-IS-IN-NO-WAY-IN-POTENCY; it is not an independent act-priority principle.",
   "lean_declaration": "TruthCore.Causality.ActPriorityAtFirst.FirstBeingActPriority",
   "definition_ids": [
     "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",

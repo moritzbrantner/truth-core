@@ -10,6 +10,7 @@ namespace TruthCore.Results.Causality.ActPriorityAtFirst
 open TruthCore.Causality.ActPriorityAtFirst
 open TruthCore.Causality.ComponentFirstness
 open TruthCore.Latin.Aquinas.SummaTheologiae
+open TruthCore.Causality.Round2PerfectionPrimacy (PerfectionCausingInAnotherIsEfficient)
 
 /-- Strength order: act's simple priority over every potency of the
 independently supplied potency parameter (`IndependentPriority`, the transparent
@@ -26,7 +27,9 @@ theorem weakOfStrong {B R : Type} (InAct InPotency : B → R → Prop)
 potency, if first, would by the weak version have a prior being in act in that
 respect, which firstness makes the component itself, against non-overlap; a
 participated component has a distinct cause of its being, which is prior to it.
-Conditional on five OPEN premises. -/
+Conditional on five OPEN premises. As in `noComponentFirst`, one `CausesIn`
+feeds both the participation premise and efficient-cause priority; the records
+of that passage are a recorded defect (see the modal-spine note). -/
 theorem noComponentFirstOfWeak {B R : Type} (ComponentOf PriorSimply : B → B → Prop)
     (InAct InPotency : B → R → Prop) (Participated : B → Prop)
     (CausesIn : B → B → R → Prop) (esse : R)
@@ -45,28 +48,46 @@ theorem noComponentFirstOfWeak {B R : Type} (ComponentOf PriorSimply : B → B �
   · obtain ⟨c, hDistinct, hCause⟩ := hParticipated p hPart
     exact hDistinct (hFirst c (hEfficient c p esse hCause))
 
-/-- The weak version from composition: a first being is in act in some respect,
-so if it were in potency in another it would be composite, and so it would have
-a distinct cause of its being, which would be prior to it, against firstness.
-Conditional on four OPEN premises. -/
-theorem weakOfComposition {B R : Type} (InAct InPotency : B → R → Prop)
+/-- The q.3 a.1 conclusion from composition, without act priority or
+non-overlap: a first being is in act in some respect, so if it were in potency
+in another it would be composite, so it would have a distinct cause of its
+being, which by the bridge causes it efficiently and so is prior to it, against
+firstness. Conditional on five OPEN premises. -/
+theorem firstBeingNoPotencyOfComposition {B R : Type} (InAct InPotency : B → R → Prop)
     (PriorSimply : B → B → Prop) (Composite : B → Prop)
-    (CausesIn : B → B → R → Prop) (esse : R)
+    (CausesIn EfficientlyCausesIn : B → B → R → Prop) (esse : R)
     (hInAct : FirstBeingIsInSomeAct InAct PriorSimply)
     (hComposite : ActAndPotencyMakeComposite InAct InPotency Composite)
     (hCause : CompositeHasAUnitingCauseReading Composite CausesIn esse)
-    (hEfficient : EfficientCauseIsPriorToEffectReading CausesIn PriorSimply) :
-    FirstBeingActPriority InAct InPotency PriorSimply := by
+    (hBridge : PerfectionCausingInAnotherIsEfficient CausesIn EfficientlyCausesIn)
+    (hEfficient : EfficientCauseIsPriorToEffectReading EfficientlyCausesIn PriorSimply) :
+    FirstBeingIsInNoWayInPotencyReading InPotency PriorSimply := by
   intro f hFirst r hPot
   obtain ⟨s, hAct⟩ := hInAct f hFirst
   obtain ⟨c, hDistinct, hCauses⟩ := hCause f (hComposite f r s hAct hPot)
-  exact absurd (hFirst c (hEfficient c f esse hCauses)) hDistinct
+  exact hDistinct (hFirst c (hEfficient c f esse (hBridge c f esse hDistinct hCauses)))
+
+/-- The weak version from composition, by `firstBeingNoPotencyOfComposition`:
+a first being is in potency in no respect, so the weak version holds
+vacuously. Conditional on the same five OPEN premises. -/
+theorem weakOfComposition {B R : Type} (InAct InPotency : B → R → Prop)
+    (PriorSimply : B → B → Prop) (Composite : B → Prop)
+    (CausesIn EfficientlyCausesIn : B → B → R → Prop) (esse : R)
+    (hInAct : FirstBeingIsInSomeAct InAct PriorSimply)
+    (hComposite : ActAndPotencyMakeComposite InAct InPotency Composite)
+    (hCause : CompositeHasAUnitingCauseReading Composite CausesIn esse)
+    (hBridge : PerfectionCausingInAnotherIsEfficient CausesIn EfficientlyCausesIn)
+    (hEfficient : EfficientCauseIsPriorToEffectReading EfficientlyCausesIn PriorSimply) :
+    FirstBeingActPriority InAct InPotency PriorSimply := by
+  intro f hFirst r hPot
+  exact absurd hPot (firstBeingNoPotencyOfComposition InAct InPotency PriorSimply Composite
+    CausesIn EfficientlyCausesIn esse hInAct hComposite hCause hBridge hEfficient f hFirst r)
 
 section Controls
 open TruthCore.Causality.ActPriorityAtFirst.Control
 
 theorem coldStone : ColdStone := by
-  refine ⟨?_, ?_, ?_, ?_, ?_, ?_, ?_, ⟨rfl, rfl⟩, ?_⟩
+  refine ⟨?_, ?_, ?_, ?_, ?_, fun _ _ _ _ h => h, ?_, ?_, ⟨rfl, rfl⟩, ?_⟩
   · intro f hFirst r hPot
     cases f
     · exact Bool.noConfusion (hFirst true ⟨rfl, rfl⟩)
@@ -102,14 +123,18 @@ private theorem esseNotBoth : NotActAndPotencyInSameRespectReading esseAct stone
 
 theorem compositionOmissions : CompositionOmissions := by
   have hInAct : FirstBeingIsInSomeAct esseAct noPrior := fun _ _ => ⟨true, rfl⟩
-  refine ⟨⟨fun _ _ _ h => h.elim, fun _ h => h.elim, fun _ _ _ h => h.elim,
-      fun _ _ h => h.1.elim, ?_, weakFails noAct (fun _ h => h)⟩,
-    ⟨hInAct, fun _ h => h.elim, fun _ _ _ h => h.elim, esseNotBoth, ?_,
+  have hGround : CompositeHasAUnitingCauseReading stoneComposite groundCauses true :=
+    fun x hx => ⟨true, by rw [hx]; exact Bool.noConfusion, rfl, hx⟩
+  refine ⟨⟨fun _ _ _ h => h.elim, fun _ h => h.elim, fun _ _ _ _ h => h,
+      fun _ _ _ h => h.elim, fun _ _ h => h.1.elim, ?_, weakFails noAct (fun _ h => h)⟩,
+    ⟨hInAct, fun _ h => h.elim, fun _ _ _ _ h => h, fun _ _ _ h => h.elim, esseNotBoth, ?_,
       weakFails esseAct esseNoHeat⟩,
-    ⟨hInAct, fun _ _ _ _ h => h.1, fun _ _ _ h => h.elim, esseNotBoth, ?_,
+    ⟨hInAct, fun _ _ _ _ h => h.1, fun _ _ _ _ h => h, fun _ _ _ h => h.elim, esseNotBoth, ?_,
       weakFails esseAct esseNoHeat⟩,
-    ⟨hInAct, fun _ _ _ _ h => h.1, fun x hx => ⟨true, by rw [hx]; exact Bool.noConfusion, rfl, hx⟩,
-      esseNotBoth, ?_, weakFails esseAct esseNoHeat⟩⟩
+    ⟨hInAct, fun _ _ _ _ h => h.1, hGround, fun _ _ _ _ h => h, esseNotBoth, ?_,
+      weakFails esseAct esseNoHeat⟩,
+    ⟨hInAct, fun _ _ _ _ h => h.1, hGround, fun _ _ _ h => h.elim, esseNotBoth, ?_,
+      weakFails esseAct esseNoHeat⟩⟩
   · intro h
     obtain ⟨_, hAct⟩ := h true (fun _ h => h.elim)
     exact hAct
@@ -118,6 +143,7 @@ theorem compositionOmissions : CompositionOmissions := by
     obtain ⟨_, _, hc⟩ := h false rfl
     exact hc
   · intro h; exact h true false true ⟨rfl, rfl⟩
+  · intro h; exact h true false true Bool.noConfusion ⟨rfl, rfl⟩
 
 theorem facts : Facts := by
   refine ⟨?_, ?_, ?_, ?_, ?_⟩
