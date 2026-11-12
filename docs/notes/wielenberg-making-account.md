@@ -71,15 +71,17 @@ no further causal powers; there is no contradiction from causal impotence.
 No temporal process, energy transfer, asymmetry or well-foundedness is inferred
 merely from the word making. These remain OPEN interpretation/property burdens.
 
-Layer 3: distinguish explaining a token moral fact given a norm from defending
-the norm's content or explaining why it is fundamental. A true substantive
-necessary principle can explain a token by instantiation without explaining
-itself. Asking for the latter is a further explanatory standard, not exposing
-a missing step in the former. The strongest rival reply is that necessary
-ethical truths terminate explanation legitimately, while creatures contingently
-instantiate them; there is no random matching event needing a cosmic arranger.
-A comparative argument must justify rejecting that stopping point and apply
-the same standard to divine goodness, wisdom and legitimate authority.
+Layer 3: substantive norms plus accurate antecedent facts conditionally entail
+the token moral status. Under an instantiation account this is a candidate
+explanation, not yet an answer to the explanatory objection. Whether it has
+the required direction and relevance, rather than merely restating a true
+conditional, remains **OPEN**. Defending the norm's content or explaining why
+it is fundamental is a further question; separating these questions does not
+establish that the token explanation succeeds. The strongest rival reply takes
+necessary ethical truths as legitimate explanatory termini and contingent
+creatures as their instances, with no random matching event requiring an
+arranger. A comparative argument must justify rejecting that stopping point
+and apply the same standard to divine goodness, wisdom and legitimate authority.
 
 ## Two discriminating cases
 
@@ -91,9 +93,9 @@ The actual features plus that substantive norm supply a pro-tanto reason;
 a decisive prohibition additionally needs the relevant priority/defeater rule.
 Pain's badness for the patient alone does not quantify over agents' duties.
 Pleasure, anesthesia and justified treatment variations test applicability,
-not a change from necessary norms to contingent norms. This is a positive
-normative explanation conditional on the norm, not a derivation from pain's
-purely descriptive character.
+not a change from necessary norms to contingent norms. This is conditional token entailment and a candidate explanation under the
+instantiation account; explanatory direction and relevance remain OPEN. It
+does not derive the norm from pain's purely descriptive character.
 
 Parental duty: fix equal moral worth of two children, equal immediate need,
 one parent's established care responsibility for one child, ability to help,
@@ -137,35 +139,132 @@ incentive for the indifferent agent is not absence of moral obligation. None
 of these three packages wins merely by having fewer named primitives.
 
 Proposed overall provisional assessment: the positive necessary-norm package
-answers the token-application objection conditional on substantive norms and
-accurate case facts. Existing mapping controls do not defeat it. Comparative
+supplies conditional token entailment from substantive norms and accurate
+case facts, and a candidate explanation under the instantiation account. It
+has not answered the explanatory objection: direction and relevance remain OPEN. Existing mapping controls do not defeat it. Comparative
 superiority remains underdetermined: no independently warranted bridge here
 shows that the theistic source explains the responsibility/priority content
 better or that the realist stopping point is illegitimate. This judgment is
 for challenge, not approved support. Independent norms, case applicability,
 explanatory sufficiency and authority remain distinct open questions.
 
-## Exact next test and reassessment
+## Responsibility/urgency test: complete revised draft for challenge
 
-Hold pain's badness, equal patient worth, feasible help and impartial reasons
-fixed. Compare biological parent without undertaken care, adoptive responsible
-carer, and equally able stranger, first at equal urgency and then with the
-stranger's child facing greater preventable harm. Ask each package to defend
-one *independently motivated* responsibility principle and its defeat conditions
-without encoding the desired priority into goodness, making or divine wisdom.
-The discriminating result is either justified responsibility/priority from
-antecedently defended commitments, a principled divergence, or a precise shared
-unexplained principle. Agreement on verdicts alone is not explanatory victory.
-A scoped formal comparison becomes useful once that concrete principle is
-selected; instantiating an opaque Makes axiom now would only rename the gap.
+The earlier proposed test assumed an “adoptive responsible carer.” This test
+instead stipulates descriptive facts, without building moral responsibility
+into a person's title. These are analyst cases, not reports about actual people.
 
-Coordinator challenge should test whether this token/fundamental distinction
-understates the making claim, whether adoptive responsibility is fairly held
-fixed across packages, and whether any proposed comparative preference has an
-independent warrant. Further primary reading is needed for historical fidelity;
-it is not needed to retain this explicitly analyst test. Return for branch
-reassessment now because selecting a defended responsibility argument is the
-next substantive slice, while the complete proposed outcome awaits challenge.
+Mira and Noor are sentient children of equal moral worth. Beno is Mira's
+biological parent, but has never provided care or given assurances; nothing
+is stipulated about how Mira came to depend on others or Beno's past ability
+to intervene. Ada is unrelated biologically to either child, has voluntarily
+undertaken Mira's daily care, and has repeatedly assured Mira and the other
+adults that she will collect and feed her. Mira has consequently come to rely
+on Ada; adults who otherwise would collect her have made other arrangements.
+Sol has undertaken no such care and made no assurances to either child.
+In three separate rescue trials Beno, Ada or Sol is the sole adult present.
+Each can rescue either child at equal personal cost, with equal success, but
+cannot rescue both; no other help can arrive in time. In trial E the children's
+preventable harms are equal. In trial U only Noor's threatened harm increases
+substantially; ability, success, relationships, prior assurances and Mira's
+threatened harm stay fixed. These stipulations describe available alternatives;
+they do not supply permission, obligation, comparative desert or standing.
+
+Compare three explicit candidate packages, not exhaustive or historically
+attributed theories:
+
+- Robust normative realism R adds a substantive principle: voluntarily inducing
+  a vulnerable person's reliance through care and assurances gives the agent
+  a pro-tanto duty to secure that care or an adequate substitute. Impartial
+  concern supplies reasons to aid both children. Applying the responsibility
+  principle assigns Ada a special duty to Mira. Its antecedent is absent for
+  Beno and Sol; this is no derivation of their freedom from *other* duties.
+  A biological duty for Beno requires an additional principle. Necessity of R's
+  principle would make its applicability conditional, not the relationships
+  necessary. Fundamental normative truth is R's positive stopping point; warrant
+  and explanatory direction remain open.
+- A naturalistic interests package N identifies reliance, interrupted care and
+  avoidable vulnerability as harms to objective interests. This identifies
+  features relevant to Ada and Mira, but does not itself yield Ada's obligation.
+  Add explicitly a normative principle that agents ought to protect interests
+  they voluntarily lead vulnerable people to entrust to them. That principle
+  yields Ada's pro-tanto duty; Beno's biology alone again supplies no derivation
+  under this selected rule. The attempted reduction from a description of
+  reliance to an obligation fails at the missing normative inference. This is
+  a recorded gap of this reconstruction, not a refutation of all naturalism.
+- A theistic package T adds that legitimate divine direction requires agents
+  to protect vulnerable people whose reliance they voluntarily induce, and that
+  this direction binds them. Those are substantive premises in addition to a
+  wise creator. They yield Ada's pro-tanto duty; creation alone did not entail
+  their content or jurisdiction. A rule selecting biological parents still
+  needs separate defense. This tests the proposed bridge rather than claiming
+  that theism cannot furnish one.
+
+Thus each expanded package derives the same *pro-tanto* Ada/Mira responsibility
+conditionally on its stated normative premises. This agreement is not three
+independent warrants: all packages share the contested undertaking-to-duty
+content, presented in different explanatory settings. No theorem or general
+non-entailment certificate is claimed. Beno's prior obligations are unresolved,
+not erased by the fact that he has never undertaken care. In particular, a
+causal-responsibility norm might apply to his role in creating dependency, but
+the case does not stipulate that role merely from biological relatedness.
+
+Now vary urgency. R, N and T as specified contain no conflict-resolution rule.
+In E, Ada's special duty and the equal impartial reasons do not alone entail a
+decisive choice; a rule giving the special duty tie-breaking force is additional.
+For Beno and Sol even that selected tie-breaker has no demonstrated antecedent.
+In U, assigning Ada a special duty still does not decide whether to save Mira
+or Noor. This is the precise failure of the attempted duty-to-priority inference:
+pro-tanto content does not state its weight against the increased harm. Two
+conditional completions expose what a discriminating test would need:
+
+1. A defeasible priority rule favors the entrusted child at equal harm, but
+   requires rescuing the other child when the additional preventable harm is
+   sufficiently grave. Under that rule Ada chooses Mira in E and Noor in U
+   only if U satisfies the rule's independently specified threshold.
+2. A protected special-duty rule gives Ada's entrusted patient priority even
+   against that increase, within a specified domain of feasible rescue and
+   absent an independently stated defeating condition. Under this rival Ada
+   chooses Mira in E and in U within that domain.
+
+Neither completion is derived or preferred here. No numeric threshold is
+assumed, and “substantially greater” alone does not prove a defeater. Both retain
+Noor's equal worth and a reason to rescue her; the second owes an account of
+why the special duty withstands her greater harm. The first owes an account of
+why and where reliance can be overridden. These are burdens, not contradictions.
+Neither selection establishes standing to demand, blameworthiness or a total
+priority order. Removing Ada's assurances while retaining habitual care is a
+further discriminating case: the stated reliance principle might still apply
+if the care itself voluntarily induces reliance; without that condition its
+application remains open. A promise-only rule would require another antecedent.
+
+**Draft judgment and strongest rival.** The comparison locates two shared gaps:
+warrant for undertaking-to-duty content and a separately warranted conflict
+rule. It does not show the packages equivalent in explanatory resources or
+exclude a package-specific defense. The strongest standing robust-realist rival
+takes the reliance duty and a qualified priority principle as basic necessary
+norms, explaining cases by instantiation. Its price is accepting substantive
+normative termini and defending their content/application; primitive status
+alone is not a defect, and direction/relevance remain open. A theistic account
+could improve the comparison by independently deriving those contents from a
+defended account of divine goodness and authority. Relabeling the desired rule
+“wise” would not do so. The same prohibition on verdict-driven stipulation
+applies to naturalistic “objective interests” and realist “basic norms.” No
+winner or source attribution is certified.
+
+**Reassessment and next test.** Return this entire revised outcome, including
+the repaired layer 3 and assessment, to the coordinator for independent final
+semantic challenge. Reuse the prior challenge's passed unchanged boundaries:
+same-world StrongImpliesWeak, separation of patient good/reasons/duties/priority/
+standing, and absence of attributed/theorem/warrant/root discharge. New review
+scope is the conditional case derivations and two conflict-rule completions.
+The next substantive investigation is a defeasible argument from voluntarily
+induced reliance (including habitual care without assurances) to duty, challenged
+by uninvited or unreasonable reliance, and then a justification of its urgency
+defeater. No accepted floor or independently defended package-specific principle
+in this slice selects those disputed conditions. This is a precise shared
+warrant gap for coordinator allocation, not exhaustion of research or a forced
+metaphysical choice.
 
 ## Service experiment and verification boundary
 
