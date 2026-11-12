@@ -60,6 +60,85 @@ It supplies no independent warrant for F6. The separate
 [reflective-coherence analysis](reflective-coherence.md) treats the conditions
 under which a normative policy may require a worldview to be adopted.
 
+## The moral--epistemic parity bridge (research inventory, 2026-11-12)
+
+The next substantive connection is not an identity of moral and epistemic
+reasons. The two kinds can have different contents and targets while sharing
+the **same sort of favoring or authoritative relation**. A denial of *every*
+irreducibly normative favoring relation then reaches both domains, provided
+the epistemic instance really belongs to that sort. A denial restricted to
+moral reasons does not reach the epistemic domain by that inference alone.
+
+**Existing typed reuse.** F6 (`STMT-THERE-ARE-EPISTEMIC-REASONS`,
+`f56b2ee7-c69e-5e3b-85b0-e671d907ba58`) asserts a *thin* existential.
+`STMT-THERE-ARE-PREFERENCE-INDEPENDENT-EPISTEMIC-REASONS`
+(`2ca463c2-bd1f-5a13-a395-0e2c57a5ad8f`) concerns a reason that keeps
+pro tanto force across the represented preferences. `EpistemicAuthority`
+derives that stronger existential from **actual force plus belief
+answerability**; its goal-relative counterprofile accepts thin reasons but
+fails preference independence. `AdoptionReasons` already proves that denial
+of moral reasons can coexist with a reason of a separate epistemic kind to
+believe the moral denial, whereas global denial contradicts an F6 witness
+in the same reason profile. None of those results yet proves that
+preference-independent force is **irreducibly normative**, nor does the corpus
+currently bind a particular moral error theory to global denial.
+
+**Two distinct candidate arguments, not yet registered as proofs:**
+
+1. **Against global irreducible-reason denial:** If the error-theory package
+   denies *all* irreducibly normative reasons, and an actual epistemic reason
+   has that same irreducibly normative status, the package is inconsistent
+   with the epistemic witness. If it instead accepts only functional epistemic
+   reasons, it may retain a reason to believe the package without
+   inconsistency. Distinguish categorical independence from desire,
+   irreducibility to nonnormative facts, and all-things-considered practical
+   obligation; none is a synonym for the others.
+2. **Against moral-only error theory:** Showing that some genuinely epistemic
+   reasons exist, even irreducibly, does **not** alone supply a *moral* reason.
+   One also needs a positive moral instance (for example a warranted
+   harm/due-good-to-reason application) or an explicit cross-domain transfer
+   principle adequate to that instance. The genus of normative reasons can
+   be inhabited without each proposed species being inhabited. Do not infer
+   moral realism merely from the conceivability or possibility of epistemic
+   reasons.
+
+**The substantive surviving rival and its challenge.** Jonas Olson's
+functional account treats evidence as a reason insofar as basing a belief on
+it fulfills belief's truth-tracking/informational function, without positing
+irreducible normative authority. This offers a determinate replacement
+mechanism; the current two-kind model alone does not represent that mechanism.
+Alex Murphy argues that the error theorist's own explanation of apparent
+*moral* authority also applies to epistemic judgments, and that functional
+reasons are standards-based reasons whose apparent authority needs the same
+scrutiny. She also challenges the claim that morality cannot itself receive
+a functional explanation. This is a concrete test of Olson's **asymmetric
+reduction**, not a claim that an error theorist is incoherent simply for
+distinguishing the two types.
+
+**Belief--action feedback.** Beliefs guide investigations and other actions;
+those actions produce evidence that corrects beliefs. That interaction makes
+epistemic and practical reasons *jointly relevant* to one agent, but the
+descriptive feedback loop does not prove a categorical duty to investigate
+or the existence of moral reasons. A useful future comparison holds evidence,
+truth and investigative activity fixed while varying desire and the proposed
+source of normative force: objective favoring, belief-function standards, and
+practical aims. Test which can explain the person's reason to revise a
+comforting but false belief, and separately which can justify undertaking
+costly inquiry. See #930, #933, #1007 and the focused #1500 for the
+downstream routes.
+
+Primary-author research leads (read for this inventory; not new corpus
+stating-claim witnesses): Richard Rowland, *Moral Error Theory and the
+Argument from Epistemic Reasons* (2013),
+<https://www.jesp.org/paper/36346f73-90e0-815c-84b9-e23e5cf29446>;
+Jonas Olson, *Moral and Epistemic Error Theory: The Parity Premise Reconsidered*
+(2018), <https://www.diva-portal.org/smash/get/diva2%3A1278041/FULLTEXT01.pdf>;
+Alex Murphy, *Why Epistemic Reductionism Won't Save the Moral Error Theorist*
+(2020), <https://discovery.ucl.ac.uk/id/eprint/10141382/>.
+Their historical claims, a typed irreducibility/functional fork and the
+cross-domain implication remain unregistered; this section establishes no
+new Lean result, root-frontier change, premise truth or refutation.
+
 ## Follow-up investigations
 
 - [Putnam's brain-in-a-vat argument](https://github.com/moritzbrantner/truth-core/issues/1416)
