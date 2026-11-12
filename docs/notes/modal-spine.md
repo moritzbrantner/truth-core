@@ -167,7 +167,7 @@ supporter of its being, under F1, excluded middle and two further open premises:
 
 | | Premise | Status | Rival |
 |---|---|---|---|
-| J1 | Whatever concrete thing supports the being of a necessary concrete thing is itself necessary. | open; strengthens its selected-world instance J1@w (`84751fc2`, only actual supporters and actual support edges), strictly (`NecessarySupportActualScope`). J1@w suffices on the coverage route from necessity; J1 itself is needed on `checks`, its from-necessity assembly and the coverage bridge from no-novel-edge (below) | recorded; see the rival table |
+| J1 | Whatever concrete thing supports the being of a necessary concrete thing is itself necessary. | open; strengthens its selected-world instance J1@w (`84751fc2`, only actual supporters and actual support edges), strictly (`NecessarySupportActualScope`). J1@w suffices on the coverage route from necessity; it does not suffice on `checks`, its from-necessity assembly or the coverage bridge from no-novel-edge (below), and whether an intermediate scope does is untested | recorded; see the rival table |
 | J2 | Support of being among necessary concrete things is well-founded: no endless descent. | open; derived (`NecessarySupportCoverage.unionWFOfNoNovel`) from F1, actual well-founded grounding and the open one-way no-novel-edge premise, and bypassed by two coverage routes (below) | recorded; see the rival table |
 
 J2 is a global condition on support across all worlds. The batch
@@ -205,7 +205,10 @@ coverage route from necessity no longer needs J1. J1@w cannot replace J1 on the
 other routes: in `Control.lateSupport` J1@w holds with every other premise of
 `checks`, of its from-necessity assembly and of `coverageOfNoContingentNoNovel`,
 while J1, coverage and the conclusion fail (each of those arguments now records
-`strong_version_needed`). `underivedOfCoverage` uses no form of J1. See the
+`strong_version_needed`). This shows the selected-world instance does not
+suffice there, not that J1's full all-world scope is needed: an intermediate
+scope (supporters at accessible or admitted worlds only) is untested.
+`underivedOfCoverage` uses no form of J1. See the
 [J1 attempt](../../corpus/attempts/b7e250b6-39f2-4e16-8da4-0a1f7a21d83a.json).
 
 Through that argument stage one already reaches `STMT-GOD-EXISTS` in the
@@ -300,7 +303,7 @@ the join and the root and act-of-being premises in
 | A3′w possible begun coming-to-be (weak version) | The same initial-state view | **excluded** by `BegunComingToBe.possibleContingentFreePast`; survives only if every accessible history containing a present contingent thing has a never-generated contingent thing or a beginningless past at every populated moment (histories without contingent things satisfy the rival trivially) | the premise itself |
 | B1 possible beginning | Contingent reality is beginningless in every possible history | survives | `LocalFramePossibleExternalCause.necessaryConcrete` |
 | B2 causal opportunity | Beginnings are possible and always brute | survives | `LocalFramePossibleExternalCause.necessaryConcrete` |
-| J1 supporters of the necessary are necessary | A necessary thing is supported somewhere by a contingent thing (replaceable support: a necessary whole sustained by constituents that might not have existed). The recorded models (sustained whole, `NecessaryWholeReplacement`) put the contingent support at the actual world. No independent justification is recorded for a concrete necessary whole whose numerical identity survives replacement of its sustaining constituents (`underived-essence-identity.md`, Replaceable support), so it is not a substantive objection | model survives against `checks` (shows J1 is needed there, not that J1 is doubtful). Against J1@w (weak version): compatible when the contingent support is only at other worlds (`Control.offWorldContingent`, with the join's conclusion); conflicts only in its actual-world form | `NecessaryConcreteUnderived.checks`; `NecessarySupportActualScope` |
+| J1 supporters of the necessary are necessary | A necessary thing is supported somewhere by a contingent thing (replaceable support: a necessary whole sustained by constituents that might not have existed). The recorded models (sustained whole, `NecessaryWholeReplacement`) put the contingent support at the actual world. Two shapes: a necessary whole whose numerical identity survives replacement of its sustaining constituents, or a necessary concretum with a fixed essential supporter plus additional contingent (partial or redundant) contributors. No independent justification is recorded for either shape (`underived-essence-identity.md`, Replaceable support, items 2–3), so it is not a substantive objection | model survives against `checks` (shows J1 is needed there, not that J1 is doubtful). Against J1@w (weak version): compatible when the contingent support is only at other worlds (`Control.offWorldContingent`, with the join's conclusion); conflicts only in its actual-world form | `NecessaryConcreteUnderived.checks`; `NecessarySupportActualScope` |
 | J2 support among necessary things is well-founded | Two necessary things support each other. Two shapes: support in both directions within one world, or a direction that varies between worlds. A formal alternative only: no independent justification for its mechanism is recorded, so it is not a substantive objection (see Next investigations, item 2) | model survives against `checks` (shows J2 is needed there, not that J2 is doubtful); **excluded** with F1 and actual well-founded grounding by the no-novel-edge premise (`mutualSupportExcluded`). Compatible with the join's conclusion (`Control.rootedPair`), so, given the regress premises, it defeats that conclusion only when the actual necessary root is itself supported elsewhere, which denies coverage (a holder may instead reject a regress premise). The weaker discriminators (well-founded support at every world, no reversed pair) fail (`Control.rotatingTriangle`) | `NecessaryConcreteUnderived.checks`; `NecessarySupportCoverage` |
 
 #### Scope of the actual-world Euclidean comparison
@@ -457,8 +460,9 @@ conditional investigations, not a mandatory first gate:
    found, record that plainly.
    J1 is done for its scope (`specs/necessary-support-actual-scope.toml`): the
    coverage route from necessity needs only J1@w, the selected-world instance;
-   the J2 routes and the coverage bridge from no-novel-edge need J1 itself
-   (`Control.lateSupport`). Objection status (substantive objection standard):
+   on the J2 routes and the coverage bridge from no-novel-edge J1@w does not
+   suffice (`Control.lateSupport`); whether an intermediate scope suffices is
+   untested. Objection status (substantive objection standard):
    the replaceable-support rival names J1@w and a mechanism (bottom-up support
    of a necessary whole by contingent actual constituents), but no independent
    justification is recorded that any concrete whole exists necessarily while

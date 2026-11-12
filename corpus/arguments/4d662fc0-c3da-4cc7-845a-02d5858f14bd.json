@@ -34,6 +34,6 @@
     }
   ],
   "strong_version_needed": {
-    "dd41c165-129a-59d3-84ce-bd13c0944901": "The all-world form is needed, not only its selected-world instance: the supporter is found at another world and must be necessary to exist at w. In Control.lateSupport of the NecessarySupportActualScope batch the selected-world instance holds with reflexive access and no novel edge while J1 and coverage fail."
+    "dd41c165-129a-59d3-84ce-bd13c0944901": "The selected-world instance does not suffice (Control.lateSupport), and whether an intermediate scope (supporters at accessible or admitted worlds only) suffices is untested: the supporter is found at another world and must be necessary to exist at w. In Control.lateSupport of the NecessarySupportActualScope batch the selected-world instance holds with reflexive access and no novel edge while J1 and coverage fail."
   }
 }

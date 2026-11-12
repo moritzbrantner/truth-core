@@ -115,7 +115,7 @@ sense_bridges = [
   { term = "WORLD_RELATIVE_EXISTENCE_METAPHYSICAL_ESSE_NECESSITY", from = "2e064a7b-b29f-4f0b-8978-782674012d86", to = "57356a7a-ed0a-478f-abfc-2d47dd631135", statement_id = "STMT-ACTUAL-MODAL-REFLEXIVITY" },
 ]
 conclusion = "A NECESSARY_2 concretum supported anywhere is supported by an actual concretum"
-strong_version_needed = { "STMT-NO-CONTINGENT-CONCRETE-SUPPORT" = "The all-world form is needed, not only its selected-world instance: the supporter is found at another world and must be necessary to exist at w. In Control.lateSupport of the NecessarySupportActualScope batch the selected-world instance holds with reflexive access and no novel edge while J1 and coverage fail." }
+strong_version_needed = { "STMT-NO-CONTINGENT-CONCRETE-SUPPORT" = "The selected-world instance does not suffice (Control.lateSupport), and whether an intermediate scope (supporters at accessible or admitted worlds only) suffices is untested: the supporter is found at another world and must be necessary to exist at w. In Control.lateSupport of the NecessarySupportActualScope batch the selected-world instance holds with reflexive access and no novel edge while J1 and coverage fail." }
 axioms = []
 rule = "Direct: the supporter elsewhere is necessary by J1, exists at w by reflexive access, and its edge holds at w by no novel edge"
 meaning = "Coverage is no stronger than the package of reflexive access at w, no contingent concrete support (J1) and the one-way no-novel-edge condition on the concrete subtype: the same supporter covers the target at w. It is strictly weaker: in the rooted-pair control coverage holds while the no-novel-edge condition fails. Conditional consequence only."
