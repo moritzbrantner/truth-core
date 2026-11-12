@@ -177,6 +177,8 @@ struct Closure<'a> {
     closed: HashSet<&'a str>,
     refuted: HashSet<&'a str>,
     established: HashSet<&'a str>,
+    /// Closed by rule (a): a grounded verified non-transcription proof.
+    proved: HashSet<&'a str>,
     /// conclusion -> (result, argument, sorted distinct premises)
     via_transcription: BTreeMap<&'a str, (&'a str, &'a str, Vec<&'a str>)>,
     /// weak/strong statement -> index of the strength entry that propagated
@@ -230,6 +232,8 @@ pub struct Frontier<'a> {
     unavailable_claims: HashSet<&'a str>,
     transcription_steps: Vec<(&'a str, &'a Record)>,
     verified_steps: Vec<&'a Record>,
+    /// Arguments with a verified non-transcription result: rule (a) steps.
+    sound_steps: Vec<&'a Record>,
     upward_cache: RefCell<HashMap<&'a str, Upward<'a>>>,
 }
 
@@ -416,10 +420,17 @@ impl<'a> Frontier<'a> {
             })
             .collect();
         transcription_steps.sort_by_key(|(result_id, _)| *result_id);
-        let verified_steps = results
+        let verified_steps: Vec<&Record> = results
             .iter()
             .filter_map(|result| argument_by_id.get(text(result, "argument_id")).copied())
             .collect();
+        let mut sound_steps: Vec<&Record> = verified_steps
+            .iter()
+            .copied()
+            .filter(|argument| sound_arguments.contains(text(argument, "id")))
+            .collect();
+        sound_steps.sort_by_key(|argument| text(argument, "id"));
+        sound_steps.dedup_by_key(|argument| text(argument, "id"));
         Self {
             root,
             records,
@@ -450,6 +461,7 @@ impl<'a> Frontier<'a> {
             unavailable_claims,
             transcription_steps,
             verified_steps,
+            sound_steps,
             upward_cache: RefCell::new(HashMap::new()),
         }
     }
@@ -655,102 +667,196 @@ impl<'a> Frontier<'a> {
         })
     }
 
+    /// Whether some verified result (transcription or not) concludes it.
+    fn concludes(&self, statement: &str) -> bool {
+        self.verified_conclusions.contains(statement)
+            || self.transcription_only_conclusions.contains(statement)
+    }
+
     fn defended(&self, statement: &str, refuted: &HashSet<&str>) -> bool {
         self.alternatives.get(statement).is_some_and(|recorded| {
             !recorded.is_empty() && recorded.iter().all(|rival| refuted.contains(rival))
         })
     }
 
-    /// Rules (b)-(d) and the strength order, jointly to a least fixpoint, in
+    /// Rules (a)-(d) and the strength order, jointly to a least fixpoint, in
     /// the Python pass order (the order decides only which rule is recorded).
+    ///
+    /// Rule (a) is grounded (#1476): a proof closes its conclusion only when
+    /// each premise is closed or a genuine open leaf, one that no verified
+    /// result concludes or one set aside below. When the fixpoint stalls, the
+    /// conclusions still waiting on each other form ungrounded cycles; each
+    /// bottom cycle (a strongly connected component nothing outside it feeds)
+    /// is set aside as open leaves and the fixpoint resumes, so its dependents
+    /// close as proved from open premises while the cycle members stay open.
+    /// Rules (a) and (d) never close a member set aside; only `established`
+    /// (which is independent of `closed`) may.
     fn closure(&self, hypothesis: Option<&'a str>) -> Closure<'a> {
-        let mut closed = self.verified_conclusions.clone();
+        let mut closed: HashSet<&str> = HashSet::new();
         let mut refuted: HashSet<&str> = HashSet::new();
         let mut established: HashSet<&str> = HashSet::new();
         if let Some(hypothesis) = hypothesis {
             closed.insert(hypothesis);
             established.insert(hypothesis);
         }
+        let mut proved: HashSet<&str> = HashSet::new();
+        let mut ungrounded: HashSet<&str> = HashSet::new();
         let mut via_transcription = BTreeMap::new();
         let mut established_via_strength = HashMap::new();
         let mut refuted_via_strength = HashMap::new();
-        let mut changed = true;
-        while changed {
-            changed = false;
-            for &statement in self.floor_markings.keys() {
-                if !established.contains(statement)
-                    && self
-                        .floor_reasons(statement, &established, &refuted)
-                        .is_empty()
+        loop {
+            let mut changed = true;
+            while changed {
+                changed = false;
+                for &statement in self.floor_markings.keys() {
+                    if !established.contains(statement)
+                        && self
+                            .floor_reasons(statement, &established, &refuted)
+                            .is_empty()
+                    {
+                        closed.insert(statement);
+                        established.insert(statement);
+                        changed = true;
+                    }
+                }
+                for relation in &self.refutations {
+                    let object = text(relation, "object_id");
+                    if !refuted.contains(object) && self.refutation_counts(relation, &established) {
+                        refuted.insert(object);
+                        changed = true;
+                    }
+                }
+                for &statement in self.alternatives.keys() {
+                    if !established.contains(statement) && self.defended(statement, &refuted) {
+                        closed.insert(statement);
+                        established.insert(statement);
+                        changed = true;
+                    }
+                }
+                for argument in &self.verified_steps {
+                    let conclusion = text(argument, "conclusion_statement_id");
+                    if !established.contains(conclusion)
+                        && Self::premises(argument)
+                            .iter()
+                            .all(|premise| established.contains(premise))
+                    {
+                        established.insert(conclusion);
+                        changed = true;
+                    }
+                }
+                for (index, entry) in self.order.iter().enumerate() {
+                    if established.contains(entry.strong) && !established.contains(entry.weak) {
+                        established.insert(entry.weak);
+                        closed.insert(entry.weak);
+                        established_via_strength.insert(entry.weak, index);
+                        changed = true;
+                    }
+                    if refuted.contains(entry.weak) && !refuted.contains(entry.strong) {
+                        refuted.insert(entry.strong);
+                        refuted_via_strength.insert(entry.strong, index);
+                        changed = true;
+                    }
+                }
+                // Rule (a), to its own fixpoint before rule (d).
+                let mut proving = true;
+                while proving {
+                    proving = false;
+                    for argument in &self.sound_steps {
+                        let conclusion = text(argument, "conclusion_statement_id");
+                        // An already-established conclusion is still marked
+                        // proved, so the closure label keeps rule (a) first.
+                        if proved.contains(conclusion) || ungrounded.contains(conclusion) {
+                            continue;
+                        }
+                        if Self::premises(argument).iter().all(|premise| {
+                            closed.contains(premise)
+                                || ungrounded.contains(premise)
+                                || !self.concludes(premise)
+                        }) {
+                            closed.insert(conclusion);
+                            proved.insert(conclusion);
+                            proving = true;
+                            changed = true;
+                        }
+                    }
+                }
+                for (result_id, argument) in &self.transcription_steps {
+                    let conclusion = text(argument, "conclusion_statement_id");
+                    if closed.contains(conclusion) || ungrounded.contains(conclusion) {
+                        continue;
+                    }
+                    let premises = Self::premises(argument);
+                    if premises.iter().all(|premise| closed.contains(premise)) {
+                        closed.insert(conclusion);
+                        let distinct: BTreeSet<&str> = premises.into_iter().collect();
+                        via_transcription.insert(
+                            conclusion,
+                            (
+                                *result_id,
+                                text(argument, "id"),
+                                distinct.into_iter().collect(),
+                            ),
+                        );
+                        changed = true;
+                    }
+                }
+            }
+            // Conclusions still waiting: each could close only through another.
+            let pending: BTreeSet<&str> = self
+                .verified_conclusions
+                .iter()
+                .chain(&self.transcription_only_conclusions)
+                .copied()
+                .filter(|s| !closed.contains(s) && !ungrounded.contains(s))
+                .collect();
+            if pending.is_empty() {
+                break;
+            }
+            let mut dependencies: HashMap<&str, BTreeSet<&str>> =
+                pending.iter().map(|s| (*s, BTreeSet::new())).collect();
+            let steps = self.sound_steps.iter().copied().chain(
+                self.transcription_steps
+                    .iter()
+                    .map(|(_, argument)| *argument),
+            );
+            for argument in steps {
+                if let Some(entry) = dependencies.get_mut(text(argument, "conclusion_statement_id"))
                 {
-                    closed.insert(statement);
-                    established.insert(statement);
-                    changed = true;
-                }
-            }
-            for relation in &self.refutations {
-                let object = text(relation, "object_id");
-                if !refuted.contains(object) && self.refutation_counts(relation, &established) {
-                    refuted.insert(object);
-                    changed = true;
-                }
-            }
-            for &statement in self.alternatives.keys() {
-                if !established.contains(statement) && self.defended(statement, &refuted) {
-                    closed.insert(statement);
-                    established.insert(statement);
-                    changed = true;
-                }
-            }
-            for argument in &self.verified_steps {
-                let conclusion = text(argument, "conclusion_statement_id");
-                if !established.contains(conclusion)
-                    && Self::premises(argument)
-                        .iter()
-                        .all(|premise| established.contains(premise))
-                {
-                    established.insert(conclusion);
-                    changed = true;
-                }
-            }
-            for (index, entry) in self.order.iter().enumerate() {
-                if established.contains(entry.strong) && !established.contains(entry.weak) {
-                    established.insert(entry.weak);
-                    closed.insert(entry.weak);
-                    established_via_strength.insert(entry.weak, index);
-                    changed = true;
-                }
-                if refuted.contains(entry.weak) && !refuted.contains(entry.strong) {
-                    refuted.insert(entry.strong);
-                    refuted_via_strength.insert(entry.strong, index);
-                    changed = true;
-                }
-            }
-            for (result_id, argument) in &self.transcription_steps {
-                let conclusion = text(argument, "conclusion_statement_id");
-                if closed.contains(conclusion) {
-                    continue;
-                }
-                let premises = Self::premises(argument);
-                if premises.iter().all(|premise| closed.contains(premise)) {
-                    closed.insert(conclusion);
-                    let distinct: BTreeSet<&str> = premises.into_iter().collect();
-                    via_transcription.insert(
-                        conclusion,
-                        (
-                            *result_id,
-                            text(argument, "id"),
-                            distinct.into_iter().collect(),
-                        ),
+                    entry.extend(
+                        Self::premises(argument)
+                            .into_iter()
+                            .filter(|premise| pending.contains(premise)),
                     );
-                    changed = true;
                 }
             }
+            let reach: HashMap<&str, BTreeSet<&str>> = pending
+                .iter()
+                .map(|&seed| {
+                    let mut reached = BTreeSet::new();
+                    let mut stack = vec![seed];
+                    while let Some(node) = stack.pop() {
+                        if reached.insert(node) {
+                            stack.extend(dependencies[node].iter().copied());
+                        }
+                    }
+                    (seed, reached)
+                })
+                .collect();
+            // Bottom components: everything a member reaches reaches it back.
+            let bottom: Vec<&str> = pending
+                .iter()
+                .copied()
+                .filter(|s| reach[s].iter().all(|other| reach[other].contains(s)))
+                .collect();
+            ungrounded.extend(bottom);
         }
+        // A proved conclusion is reported under rule (a), not (d).
+        via_transcription.retain(|statement, _| !proved.contains(statement));
         Closure {
             closed,
             refuted,
             established,
+            proved,
             via_transcription,
             established_via_strength,
             refuted_via_strength,
@@ -1130,7 +1236,7 @@ impl<'a> Frontier<'a> {
         let mut sorted_closed: Vec<&str> = closed.iter().copied().collect();
         sorted_closed.sort_unstable();
         for statement in sorted_closed {
-            let reason = if self.verified_conclusions.contains(statement) {
+            let reason = if closure.proved.contains(statement) {
                 "proved"
             } else if floor_met.contains(statement) {
                 "self_evident"
@@ -1222,6 +1328,8 @@ impl<'a> Frontier<'a> {
                 "paraphrase": self.statement_by_id.get(statement)
                     .and_then(|record| record.get("paraphrase")).cloned().unwrap_or(json!("")),
                 "transcription_only": self.transcription_only_conclusions.contains(statement),
+                // #1476: proved, but only inside an ungrounded support cycle.
+                "ungrounded_cycle": self.verified_conclusions.contains(statement),
                 "dependent_arguments": dependent_arguments,
                 "transitive_dependent_arguments": all_arguments,
                 "transitive_dependent_statements": all_conclusions,
@@ -2189,6 +2297,12 @@ pub fn format_frontier(report: &Value) -> String {
         if item["transcription_only"] == true {
             lines.push(
                 "  open although proved: every verifying result is a transcription (invariant 16)"
+                    .into(),
+            );
+        }
+        if item["ungrounded_cycle"] == true {
+            lines.push(
+                "  open although proved: every verified proof rests on an ungrounded support cycle"
                     .into(),
             );
         }
@@ -3260,15 +3374,90 @@ mod tests {
         assert_eq!(route["cost"], 2);
         assert_eq!(route["open_premise_depths"]["S"], "stated");
         assert_eq!(report["routes"]["cheapest_argument_id"], "ARG-ROOT");
+        // #1476: the ungrounded cycle {A, C} closes neither member; both stay
+        // open items, marked as proved only inside the cycle.
+        assert!(report["closed_statements"].get("A").is_none());
+        assert!(report["closed_statements"].get("C").is_none());
+        let item = |id: &str| {
+            report["items"]
+                .as_array()
+                .unwrap()
+                .iter()
+                .find(|item| item["statement_id"] == id)
+                .cloned()
+                .unwrap_or(Value::Null)
+        };
+        assert_eq!(item("A")["ungrounded_cycle"], true);
+        assert_eq!(item("C")["ungrounded_cycle"], true);
+        assert_eq!(item("S")["ungrounded_cycle"], false);
         // S is open; its walk reaches the root through B.
-        let item = &report["items"][0];
-        assert_eq!(item["statement_id"], "S");
+        let item = item("S");
         assert_eq!(
             item["path_to_root"],
             json!(["S", "ARG-B", "B", "ARG-ROOT", "ROOT"])
         );
         // Establishing S alone drops the route cost by one.
         assert_eq!(frontier.probe("S")["ARG-ROOT"], 1);
+    }
+
+    /// #1476: support cycles. U1 <-> U2 has no grounded entry; G1 <-> G2 is
+    /// entered from the bare premise L; X (sound, from Y) <-> Y (a
+    /// transcription from X) cycles through a transcription; D is proved from
+    /// the ungrounded U1; the transcription T from the floor premise F keeps
+    /// closing as before.
+    #[test]
+    fn support_cycles_close_only_from_a_grounded_entry() {
+        let mut fixture = fixture();
+        for id in ["U1", "U2", "G1", "G2", "L", "X", "Y", "D"] {
+            fixture.statements.extend(records(vec![json!({"id": id})]));
+        }
+        fixture.arguments.extend(records(vec![
+            argument("ARG-U1", &["U2"], "U1"),
+            argument("ARG-U2", &["U1"], "U2"),
+            argument("ARG-G1", &["G2"], "G1"),
+            argument("ARG-G2", &["G1"], "G2"),
+            argument("ARG-G1-L", &["L"], "G1"),
+            argument("ARG-X", &["Y"], "X"),
+            argument("ARG-Y", &["X"], "Y"),
+            argument("ARG-D", &["U1"], "D"),
+        ]));
+        fixture.results.extend(records(vec![
+            json!({"id": "RES-U1", "argument_id": "ARG-U1"}),
+            json!({"id": "RES-U2", "argument_id": "ARG-U2"}),
+            json!({"id": "RES-G1", "argument_id": "ARG-G1"}),
+            json!({"id": "RES-G2", "argument_id": "ARG-G2"}),
+            json!({"id": "RES-G1-L", "argument_id": "ARG-G1-L"}),
+            json!({"id": "RES-X", "argument_id": "ARG-X"}),
+            json!({"id": "RES-Y", "argument_id": "ARG-Y", "transcription": "assembly"}),
+            json!({"id": "RES-D", "argument_id": "ARG-D"}),
+        ]));
+        let records = fixture.records();
+        let report = Frontier::new("ROOT", &records, &[]).report(false);
+        let closed = &report["closed_statements"];
+        let open: Vec<&str> = report["items"]
+            .as_array()
+            .unwrap()
+            .iter()
+            .map(|item| item["statement_id"].as_str().unwrap())
+            .collect();
+        for id in ["U1", "U2", "X", "Y", "A", "C"] {
+            assert!(closed.get(id).is_none(), "{id} closed");
+            assert!(open.contains(&id), "{id} not listed");
+        }
+        assert_eq!(closed["G1"], "proved");
+        assert_eq!(closed["G2"], "proved");
+        assert!(open.contains(&"L"));
+        assert_eq!(closed["D"], "proved");
+        assert_eq!(closed["T"], "via_transcription");
+        assert_eq!(
+            report["closed_via_transcription"]
+                .as_array()
+                .unwrap()
+                .iter()
+                .map(|entry| entry["statement_id"].as_str().unwrap())
+                .collect::<Vec<_>>(),
+            vec!["T"]
+        );
     }
 
     #[test]
