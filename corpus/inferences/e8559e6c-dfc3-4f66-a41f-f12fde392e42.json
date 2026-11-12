@@ -1,0 +1,14 @@
+{
+  "id": "e8559e6c-dfc3-4f66-a41f-f12fde392e42",
+  "label": "Inert emptiness from three grounding principles (inference)",
+  "input_statement_ids": [
+    "c7580712-3ec0-43e5-b07a-5ce068cd36e9",
+    "e61dbc22-28bd-4d69-8a58-4410954ecf15",
+    "81c39a34-8188-4df5-b433-256a249630ca"
+  ],
+  "output_statement_id": "395cb0f6-0352-47b1-8996-918468cc716a",
+  "rule": "Compose the traced nothing-from-nothing derivation with its strength order over inert emptiness",
+  "meaning": "New non-transcription conditional support option for premise A2 (inert emptiness) of Arrival A, composed from nothingFromNothing and inertOfNothingFromNothing. In a history with a concrete-empty moment s and a concrete thing x present at a later t, x has not been present at s, so it began and has a concrete ground; that ground has not wholly ceased before s; following grounds down a well-founded chain of present concrete things ends at a concrete thing present at s, contradicting emptiness. All three premises are OPEN framework inputs about every history of the model; each is needed (controls 1 to 3), and together they do not contain the possibility of a necessary concrete being (control 4). In Arrival A, necessity still comes from the possible contingent-free past, presence-to-existence and the frame premises. The three premises are not shown to be better warranted than A2; they make its warrant explicit as a causal principle for beginnings, a no-gap condition on grounds and well-founded grounding. Nothing is attributed to a source. No premise truth is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

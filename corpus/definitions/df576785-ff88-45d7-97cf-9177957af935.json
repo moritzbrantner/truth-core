@@ -1,0 +1,9 @@
+{
+ "id": "df576785-ff88-45d7-97cf-9177957af935",
+ "label": "Beginnings of concrete things have concrete grounds",
+ "term": "grounded beginning",
+ "definition": "BeginningsGrounded h Concrete grounds holds when, in every history v, a concrete individual x that is not present at a moment s and is present at a strictly later moment t has some concrete individual y with grounds v y x. In ordinary language: whatever concrete thing begins to be present (was absent at some earlier moment) has a concrete ground. A fire lit at noon, absent in the morning, with the match as its ground, satisfies it. A thing present from the earliest moment of its history, or never present, is unconstrained. A thing absent at one moment and present later with no ground, or with only non-concrete grounds, violates it.",
+ "basis": "stipulative",
+ "lean_declaration": "TruthCore.Causality.GroundedBeginnings.BeginningsGrounded",
+ "note": "Analyst formulation; attribution deferred. The grounding relation is a supplied world-relative relation of the same shape as BruteFoundationBoundary.Profile.grounds ('y is a concrete thing on which x depends'), not necessarily a deterministic or sufficient efficient cause, and not identified with the Causes field of the history's ontology. Distinct from EveryContingentGroundedAt: it covers every concrete thing that comes to be present, contingent or not, and no thing that never comes to be present. Distinct from the principle of sufficient reason: it requires grounds only for beginnings and only concrete ones. 'Begins' is read as 'absent at some strictly earlier moment of the same history', not as a first moment of existence. No structural property of grounds is assumed. Extension from ordinary caused beginnings to every possible history, including a beginning after a wholly empty moment, is an explicit OPEN bridge."
+}

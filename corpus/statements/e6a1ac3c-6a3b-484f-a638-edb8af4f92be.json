@@ -1,0 +1,10 @@
+{
+  "id": "e6a1ac3c-6a3b-484f-a638-edb8af4f92be",
+  "label": "Whatever concrete thing is present traces back to something concrete present at each earlier moment",
+  "paraphrase": "OPEN analyst premise, attribution deferred (a traced form of 'from nothing, nothing comes'): in every history of the model, for every concrete individual present at a moment t and every strictly earlier moment s, some concrete individual present at s is the same individual or is linked to it by a finite chain of grounding links. Intermediate links need not be concrete or present. Nothing is said about a first state with no earlier moment.",
+  "lean_declaration": "TruthCore.Causality.GroundedBeginnings.NothingFromNothing",
+  "definition_ids": [
+    "8d6ba7f7-5db7-417e-a32e-69383a615519",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e"
+  ]
+}

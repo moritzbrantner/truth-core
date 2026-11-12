@@ -1,0 +1,9 @@
+{
+ "id": "8d6ba7f7-5db7-417e-a32e-69383a615519",
+ "label": "Traced nothing from nothing: what is present traces back to something present earlier",
+ "term": "nothing from nothing (traced)",
+ "definition": "NothingFromNothing h Concrete grounds holds when, in every history v, for every concrete individual x present at t and every strictly earlier moment s, some concrete individual y is present at s with y = x or y linked to x by a finite chain of grounding links (Relation.ReflTransGen (grounds v) y x). In ordinary language: anything concrete now came, by persistence or by a finite chain of grounds, from something concrete present at any earlier moment. A history always populated by one unchanging stone satisfies it. It is violated by a beginning out of nothing (an empty moment followed by a populated one), and also by an ungrounded beginning after a populated moment (a thing appearing beside an unrelated stone).",
+ "basis": "stipulative",
+ "lean_declaration": "TruthCore.Causality.GroundedBeginnings.NothingFromNothing",
+ "note": "Analyst formulation of 'ex nihilo nihil fit' in a traced temporal form; attribution deferred. It strictly strengthens inert emptiness (InertEmptiness.EmptinessStaysEmpty): A2 follows by keeping only that something concrete is present at the earlier moment (GroundedBeginnings.inertOfNothingFromNothing), and InertEmptiness.Control.rooted without grounds satisfies A2 and violates it. Intermediate links of the chain need not be concrete or present. It says nothing about a first state with no earlier moment. Applicability OPEN."
+}

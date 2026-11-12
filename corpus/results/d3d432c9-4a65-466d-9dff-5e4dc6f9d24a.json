@@ -1,0 +1,11 @@
+{
+  "id": "d3d432c9-4a65-466d-9dff-5e4dc6f9d24a",
+  "label": "Grounded-beginnings controls checked",
+  "argument_id": "040252e1-f946-4254-9de0-6a4390191d70",
+  "challenge_module": "TruthCore.Results.Causality.GroundedBeginnings.Challenge",
+  "solution_module": "TruthCore.Results.Causality.GroundedBeginnings.Solution",
+  "theorem": "TruthCore.Results.Causality.GroundedBeginnings.controls",
+  "comparator_config": "results/d3d432c9-4a65-466d-9dff-5e4dc6f9d24a/comparator.json",
+  "status": "solution-present",
+  "description": "Each of the three grounding principles is needed for inert emptiness in one interpretation where the other two hold: a ground-free beginning out of nothing; a ground that ceased before an empty moment; and an endless chain of present concrete grounds descending towards an empty first moment, with no earliest moment after it. The three principles and the traced form hold together with no necessary individual at either world, so they do not re-import the possibility of a necessary concrete being. Inert emptiness holds while the traced form fails, so the traced form strictly strengthens it. The three principles hold together with presence-to-existence and the possible contingent-free past in a model where the conclusion of Arrival A holds, so the bundle is nonvacuous with the rest of the route. Model claims concern these interpretations only."
+}

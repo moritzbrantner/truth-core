@@ -1,0 +1,10 @@
+{
+  "id": "0c578f3c-35d9-4633-bd3d-7112755a450e",
+  "label": "Grounded-beginnings controls checked (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "7eae8e67-835f-4ea6-a6b8-8e875417fb25",
+  "rule": "Explicit finite and WithBot Int interpretations, checked by case analysis and a minimal-element argument; facts about the reused InertEmptiness and BegunComingToBe controls are taken from their verified controls theorems",
+  "meaning": "Each of the three grounding principles is needed for inert emptiness in one interpretation where the other two hold: a ground-free beginning out of nothing; a ground that ceased before an empty moment; and an endless chain of present concrete grounds descending towards an empty first moment, with no earliest moment after it. The three principles and the traced form hold together with no necessary individual at either world, so they do not re-import the possibility of a necessary concrete being. Inert emptiness holds while the traced form fails, so the traced form strictly strengthens it. The three principles hold together with presence-to-existence and the possible contingent-free past in a model where the conclusion of Arrival A holds, so the bundle is nonvacuous with the rest of the route. Model claims concern these interpretations only.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

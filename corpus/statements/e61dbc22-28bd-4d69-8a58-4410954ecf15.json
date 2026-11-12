@@ -1,0 +1,10 @@
+{
+  "id": "e61dbc22-28bd-4d69-8a58-4410954ecf15",
+  "label": "A ground of a concrete beginning has not wholly ceased before the absence",
+  "paraphrase": "OPEN analyst premise, attribution deferred: in every history of the model, if a concrete individual is absent at a moment s and present at a strictly later moment, then every ground of it is present at s or at some moment strictly after s. It forbids a ground that was present only before s and produced the thing across s. It allows a ground simultaneous with or later than the thing.",
+  "lean_declaration": "TruthCore.Causality.GroundedBeginnings.GroundsNotCeasedBeforeAbsence",
+  "definition_ids": [
+    "4cab789c-ef02-4af4-86e9-00f6121e74c5",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e"
+  ]
+}

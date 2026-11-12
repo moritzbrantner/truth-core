@@ -1,0 +1,9 @@
+{
+ "id": "1103f0c4-ce72-42fb-a131-c33d951b1fee",
+ "label": "Grounding among present concrete things of a history is well-founded",
+ "term": "well-founded grounding among present concreta",
+ "definition": "PresentGroundingWellFounded h Concrete grounds holds when, for every history v, the relation 'y and x are concrete and each present at some moment of v, and grounds v y x' is well-founded: there is no endless sequence x0, x1, x2, ... of such things with each x(n+1) grounding x(n). A finite chain of grounds satisfies it. An endless chain of integer-indexed things, each grounded by its predecessor (BegunComingToBe.Control.zeno with its predecessor grounds), violates it.",
+ "basis": "stipulative",
+ "lean_declaration": "TruthCore.Causality.GroundedBeginnings.PresentGroundingWellFounded",
+ "note": "Analyst formulation; attribution deferred. Restricted to concrete things present at some moment of the same history: descending chains through abstract, absent or never-present candidates are unconstrained. Not the selected-world ActualGroundingWF of NecessaryRootFork (that ranges over concrete things existing at one world; this ranges over concrete things present at some moment, in every history); neither entails the other without the presence-to-existence contract. Transitivity, asymmetry and irreflexivity are not assumed. Applicability OPEN."
+}
