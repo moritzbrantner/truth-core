@@ -1,0 +1,11 @@
+{
+  "id": "a1104225-ebc9-4a42-99d1-d88d9dac0d34",
+  "label": "Nothing gives what it lacks entails distinct-cause transfer",
+  "argument_id": "777d3b8d-b3ac-4bd6-9772-6618cba7c988",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.PreexistenceWithoutTransfer.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.PreexistenceWithoutTransfer.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.PreexistenceWithoutTransfer.distinctCauseGivesOfCauseGives",
+  "comparator_config": "results/a1104225-ebc9-4a42-99d1-d88d9dac0d34/comparator.json",
+  "status": "solution-present",
+  "description": "Strength order registration: the unrestricted principle entails its distinct-cause restriction. Application only; it establishes neither. Strictness: control 3."
+}

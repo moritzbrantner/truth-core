@@ -1,0 +1,11 @@
+{
+  "id": "77881eaf-8685-48f1-9086-69bdd6820ab5",
+  "label": "Controls for preexistence without transfer, checked",
+  "argument_id": "f50a16db-b0d9-4e01-97e4-a53f517e72c8",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.PreexistenceWithoutTransfer.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.PreexistenceWithoutTransfer.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.PreexistenceWithoutTransfer.controls",
+  "comparator_config": "results/77881eaf-8685-48f1-9086-69bdd6820ab5/comparator.json",
+  "status": "solution-present",
+  "description": "Strictness, nonvacuity, omission and joint-witness controls listed in the conclusion's paraphrase. A finite countermodel shows a premise is needed in that interpretation, not that it is false."
+}

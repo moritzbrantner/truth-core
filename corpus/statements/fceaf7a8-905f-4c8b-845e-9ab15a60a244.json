@@ -1,0 +1,16 @@
+{
+  "id": "fceaf7a8-905f-4c8b-845e-9ab15a60a244",
+  "label": "Controls for preexistence without transfer",
+  "paraphrase": "Closed finite interpretations; statements about these interpretations only. Strictness over Bool (respect false is esse): (1) the instance at esse holds where 'more such' fails; (2) one direction only: the cause-of-being restriction holds where distinct-cause transfer fails (a cause of another perfection of a thing whose being it does not cause); (3) distinct-cause transfer holds where the unrestricted principle fails (self-causation). Nonvacuity: (4) with false causing the being and the other perfection of true, these hold together: 'a cause of being has being', the five reception premises, the instance at esse, transfer, the cause-of-being restriction, preexistence, 'more such' and distinct-cause transfer; (5) 'God is maximal in being' from causing being holds with a God that causes another's being. For each premise of each registered derivation except excluded middle (which holds classically), a model found by scripts/countermodel.py in which the other premises hold and the conclusion fails, and a joint witness for each derivation. The joint witnesses for causeOfBeingMoreInBeing, distinctCauseGivesOfMoreSuch and godExistsFromMaximeEnsCausingAllByBeing are vacuous (Unit carrier, empty CausesIn) and show consistency only.",
+  "lean_declaration": "TruthCore.Case.Catholicism.PreexistenceWithoutTransfer.Control.Controls",
+  "definition_ids": [
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5766de66-8a37-5b04-aa65-9eec53319f50",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
+  ]
+}

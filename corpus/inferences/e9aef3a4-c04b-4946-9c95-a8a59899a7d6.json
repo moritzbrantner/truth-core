@@ -1,0 +1,10 @@
+{
+  "id": "e9aef3a4-c04b-4946-9c95-a8a59899a7d6",
+  "label": "Controls for preexistence without transfer, checked (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "fceaf7a8-905f-4c8b-845e-9ab15a60a244",
+  "rule": "Explicit finite interpretations over Bool and Unit, checked by decision",
+  "meaning": "Strictness, nonvacuity, omission and joint-witness controls listed in the conclusion's paraphrase. A finite countermodel shows a premise is needed in that interpretation, not that it is false.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

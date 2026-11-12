@@ -32,5 +32,8 @@
     "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
     "1795a62e-f78b-5f5b-94e7-9e7490824811",
     "aa925dce-cf10-535e-a9ef-a5a0f00a677f"
-  ]
+  ],
+  "strong_version_needed": {
+    "d5a94eb1-72d2-53e0-9a52-9787b5b61a8d": "The frozen proof applies causal comparison at arbitrary r, including the distinct part in its self-motion case, so the esse-only version does not supply those applications. This is current-proof scope, not a minimality claim: distinct-cause possession 2c0b9bd7 could replace the pair of causal comparison and bearer premises in a new sibling; that sibling remains unregistered and unchecked."
+  }
 }

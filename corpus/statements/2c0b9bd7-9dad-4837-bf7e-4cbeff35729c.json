@@ -1,0 +1,14 @@
+{
+  "id": "2c0b9bd7-9dad-4837-bf7e-4cbeff35729c",
+  "label": "Whatever causes a perfection in another thing has it",
+  "paraphrase": "Analyst formulation, attribution deferred (distinct-cause transfer): whatever, distinct from x, causes x's being r (CausesIn c x r) is itself in act as to r (InAct c r, formally or eminently, the inclusive InAct of DISAMB-IN-ACT). It is the unrestricted 'nothing gives what it does not have' STMT-CAUSE-HAS-WHAT-IT-GIVES without its self-causation case (registered strength order, strict in control 3). Two results of this batch relate it to the 'more such' premise: 'more such' with STMT-MORE-SUCH-HAS-THE-PERFECTION entails it, and it with the five-premise reception bundle entails 'more such'. Any route using 'more such' at an arbitrary perfection together with STMT-MORE-SUCH-HAS-THE-PERFECTION is committed to distinct-cause transfer; conversely transfer with the reception bundle suffices for 'more such'. It differs from the cause-of-being restriction STMT-CAUSE-OF-BEING-HAS-WHAT-IT-GIVES in scope (control 2): it covers causes of a perfection of a thing whose being they do not cause, so the instrument objection (a chisel causes a shape it has neither formally nor as art) and the artisan case (a maker causes a shape he has only as art) bear on it if CAUSE_2 counts instruments or makers, unless 'has' is read so that having r eminently includes having an art or a principal agent's power to produce r. No independent warrant is recorded for it.",
+  "lean_declaration": "TruthCore.Case.Catholicism.PreexistenceWithoutTransfer.DistinctCauseHasWhatItGives",
+  "definition_ids": [
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
+  ]
+}

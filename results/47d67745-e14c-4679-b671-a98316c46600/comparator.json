@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Case.Catholicism.PossessionConsumerReductions.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.PossessionConsumerReductions.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Case.Catholicism.PossessionConsumerReductions.gradesHaveAMaximum"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
