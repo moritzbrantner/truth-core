@@ -38,6 +38,12 @@ preserves the owner's 2026-10-26 exploratory question set with stable intake IDs
 explicit unverified status, and routes into existing proof/countermodel issues.
 Its intake IDs are not duplicate canonical statements or verified results.
 
+The [principle-parity challenge inventory](docs/principle-parity-challenges.md)
+groups investigations of selective standards and special pleading across
+causation, epistemic reasons, explanatory adequacy, moral authority and
+self-application. Its `PP-xx` identifiers are research intake labels, not
+new truth statuses, proof edges or canonical proposition identities.
+
 ## Why the corpus starts with the Greeks
 
 The seed corpus starts with Plato and Aristotle so later writers can reuse rather than reinvent earlier concepts and source references. In particular, later Aquinas work can point back to Aristotle and Plato through stable classical locators.
