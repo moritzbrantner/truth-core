@@ -801,7 +801,7 @@ attributes are confessed.
 | omnipotens | `IsAlmighty` (active power; no clash with immutability, which excludes passive potency) | from infinity by the existing `STMT-INFINITE-ACT-HAS-INFINITE-POWER` (itself derived from three open premises) | same |
 | aeternus | `Eternal` | one of the nine | one of the nine |
 | immensus | primitive `Immense` (IMMENSE_1); typed sibling IMMENSE_2, `IsImmenseAsInfiniteCauseOfAll`: infinite and causes the being of everything else (below) | open bridge: creator of all is immense (q.8 a.1-2); or (second route) IMMENSE_2, contained in the nine with no premise, plus a weaker sense bridge IMMENSE_2 → IMMENSE_1 that carries all the substantive content; that bridge is itself derived (declared single-application transcription) from a typed presence step and a narrowed bridge, the presence step resting either on the sustaining reading `23e04ae5` or on its weak version `ce55210c` (causes of another's being), which is derived from concurrent actualization `40a97664`, concurrence of causes of being `d7f5a528` and the reception bridge `da72ae93` (below) | same two routes |
-| incomprehensibilis | primitive `Incomprehensible` (INCOMPREHENSIBLE_1); typed sibling INCOMPREHENSIBLE_2, `IsIncomprehensibleToCausedIntellects`: infinite and comprehended by no caused intellect, with a new primitive relation `Comprehends` (below) | open bridge: the infinite is incomprehensible (q.12 a.7); or (second route) INCOMPREHENSIBLE_2, derived from the nine with two new bridges (q.7 a.2, q.12 a.7; the q.7 a.2 bridge `18ca6f9d` is itself derived from one caused-esse-is-received bridge and two reception-limitation premises, see the unified route below), plus a weaker, nearly analytic sense bridge INCOMPREHENSIBLE_2 → INCOMPREHENSIBLE_1 | same two routes |
+| incomprehensibilis | primitive `Incomprehensible` (INCOMPREHENSIBLE_1); typed sibling INCOMPREHENSIBLE_2, `IsIncomprehensibleToCausedIntellects`: infinite and comprehended by no caused intellect, with a new primitive relation `Comprehends` (COMPREHEND_1; typed sibling COMPREHEND_2, knowing at a degree that reaches knowability, below) | open bridge: the infinite is incomprehensible (q.12 a.7); or (second route) INCOMPREHENSIBLE_2, derived from the nine with two bridges (q.7 a.2, q.12 a.7; the q.7 a.2 bridge `18ca6f9d` is itself derived from one caused-esse-is-received bridge and two reception-limitation premises, see the unified route below; the q.12 a.7 bridge `bbac932e` is derived from four premises on degrees of act, knowability and knowing and one COMPREHEND sense bridge, see comprehension by measure below), plus a weaker, nearly analytic sense bridge INCOMPREHENSIBLE_2 → INCOMPREHENSIBLE_1 | same two routes |
 | intellectu ac voluntate omnique perfectione infinitus | `HasIntellect`, `HasWill`, `IsPerfect`, `Infinite` (weaker: infinity of intellect and will as such untyped) | four of the nine | four of the nine |
 | simplex omnino, incommutabilis | `IsSimple`, `IsImmutable` | two of the nine | two of the nine |
 | substantia spiritualis | `IsSpiritual`: not matter-form composed (weaker: substance untyped; alone it fits prime matter or an accident) | derived: simplicity and the q.3 a.7 matter-form clause | derived: the root excludes matter-form composition |
@@ -952,6 +952,51 @@ the knowability of God (DS 3004). Joint satisfiability of each new route's whole
 premise bundle is unresolved; these routes keep the old lord and blessed bridges.
 Computed delta: three support alternatives added and four bare premises added (two
 bridges, two sense bridges); no pre-existing premise is closed.
+
+**Comprehension by measure** (`ComprehensionByMeasure`, spec
+`specs/comprehension-by-measure.toml`, attempt `206c2982`). The finite-intellect
+bridge `bbac932e` is now derived, not assumed. The primitive `Comprehends` is
+COMPREHEND_1 (disambiguation `e151d506`). Its typed sibling COMPREHEND_2
+(`ComprehendsByMeasure`, definition `1218cc1e`) is knowing a being at a degree
+that reaches its degree of knowability. It uses three explicitly primitive
+measures on one Mathlib `Preorder` scale (definition `5b196f1c`): degree of act,
+knowability in itself, and degree of knowing. Maximality is `IsTop`. Four open
+premises carry what the bridge left unstated:
+
+- the INFINITE_1 has a maximal degree of act (`af79c4ee`, q.7 a.1);
+- everything is knowable at least as far as it is in act (`7921f9c8`, q.12 a.1,
+  q.16 a.3);
+- what is not INFINITE_1 has a non-maximal degree of act (`ea1c35a5`, q.7 a.2);
+- nothing knows anything above its own degree of act (`7db53cde`, q.12 a.4 and
+  a.7; that degree includes the light of glory).
+
+The first two derive "infinitely knowable" (maximal knowability). The last two
+derive a non-maximal bound on every non-INFINITE_1 intellect's power of knowing,
+the weakest form of "knows finitely". Transitivity then excludes COMPREHEND_2
+(`231820b4`). The open sense bridge COMPREHEND_1 → COMPREHEND_2 (`76997ac8`)
+gives `bbac932e`. That bridge carries the commensurability of degrees of knowing
+with knowability; its converse is not assumed.
+
+The controls show four things. Each premise and the sense bridge is needed.
+God's self-comprehension remains possible. On any scale with no maximum, the
+maximal-act premise entails that nothing is INFINITE_1. That is a commitment of
+its form, not an objection.
+
+Audit under the Standard: no substantive objection was identified.
+
+- The Cantor lead (no greatest cardinal) has not been shown to bear on intensive
+  degrees of act.
+- The natural-numbers lead has no bearing: ℕ is not INFINITE_1.
+- The beatific vision through the divine essence (q.12 a.2) is a scope point
+  internal to the case. Q.12 a.7 resolves it by the finite light of glory, which
+  `7db53cde` types.
+- The apophatic and commensurability leads have no independent justification on
+  file.
+
+Computed: `bbac932e` moves from bare to closed (a verified derivation from open
+premises; not established), and five bare premises are added. Open premises
+reaching the root go from 466 to 470. This is a finer split, not a weaker total
+commitment.
 
 **Unified route** (`DeiFiliusUnifiedRoute`, spec
 `specs/dei-filius-unified-route.toml`, attempt `170d6a5e`). One route to the

@@ -1,0 +1,13 @@
+{
+  "id": "ea1c35a5-6c8b-41f4-8029-aea2166d74cf",
+  "label": "Whatever is not INFINITE_1 has a non-maximal degree of act",
+  "paraphrase": "OPEN analyst premise, attribution deferred. For every x: if x is not INFINITE_1, x's degree of act is not maximal on the degree scale. After ST I q.7 a.2: what has received being is limited. Equivalently (contrapositive, classically): whatever has a maximal degree of act is INFINITE_1. It applies to every being, intellects included, and to an intellect raised by the light of glory, which q.12 a.7 calls created and finite. Needed: without it, a non-INFINITE_1 intellect COMPREHEND_2s an INFINITE_1 being in a model of the other three premises (Control part 4).",
+  "lean_declaration": "TruthCore.Causality.ComprehensionByMeasure.NonInfiniteActIsNotMaximal",
+  "definition_ids": [
+    "1d8890c0-afe2-5cdb-a400-0bbd4b79053d",
+    "5b196f1c-210d-450e-b3f1-33e214f9f45d"
+  ],
+  "disambiguation_ids": [
+    "587c53cf-c2a8-51f6-b8c1-013e67756dc6"
+  ]
+}

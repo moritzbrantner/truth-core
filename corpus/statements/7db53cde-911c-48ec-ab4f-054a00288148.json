@@ -1,0 +1,10 @@
+{
+  "id": "7db53cde-911c-48ec-ab4f-054a00288148",
+  "label": "Nothing knows anything at a degree above its own degree of act",
+  "paraphrase": "OPEN analyst premise, attribution deferred. For every x, x's degree of act bounds x's power of knowing (PowerOfKnowingBoundedBy, definition 431287d4): whenever x knows some y at a degree d, d is at most x's degree of act. After ST I q.12 a.4 (what is known is in the knower according to the mode of the knower) and a.7 (the created light of glory, by which the blessed see God, is finite). The knower's degree of act is its whole act, including any added perfection such as the light of glory, so the premise does not exclude the beatific vision; it bounds its degree. Needed: without it, a non-INFINITE_1 intellect COMPREHEND_2s an INFINITE_1 being in a model of the other three premises (Control part 5).",
+  "lean_declaration": "TruthCore.Causality.ComprehensionByMeasure.KnowingWithinKnowersAct",
+  "definition_ids": [
+    "5b196f1c-210d-450e-b3f1-33e214f9f45d",
+    "431287d4-f1b4-4e18-ad6e-555f49f1e39a"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "9d9c58c7-7797-4cce-aaef-5c4fe2e97b19",
+  "label": "INFINITE_1 is maximally knowable, from maximal act and knowability insofar as in act (inference)",
+  "input_statement_ids": [
+    "af79c4ee-6bd1-4e6c-85b0-734a8b6975c4",
+    "7921f9c8-81f4-4af5-b945-d98787d12f42"
+  ],
+  "output_statement_id": "8ccbf947-098a-416e-b2f5-b2de17761006",
+  "rule": "Transitivity of the preorder: every degree is at most the act of g, which is at most its knowability",
+  "meaning": "Let g be INFINITE_1 and b any degree. By the first premise b is at most g's degree of act; by the second, g's degree of act is at most its knowability. Hence b is at most g's knowability, which is therefore maximal. Conditional consequence; both premises stay open.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

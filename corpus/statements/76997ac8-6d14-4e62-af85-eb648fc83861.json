@@ -1,0 +1,14 @@
+{
+  "id": "76997ac8-6d14-4e62-af85-eb648fc83861",
+  "label": "Whatever COMPREHEND_1s a being COMPREHEND_2s it",
+  "paraphrase": "OPEN sense bridge, analyst formulation, attribution deferred. For every x and y: if x stands in the primitive comprehension relation to y (COMPREHEND_1, Comprehension.Comprehends, definition 4afe4ab4: glossed as knowing y as perfectly as y is knowable), then x knows y at some degree that reaches y's knowability (COMPREHEND_2, definition 1218cc1e). It carries that the primitive's gloss is measured on the one scale of definition 5b196f1c, so that the perfection of a knowing and the knowability of its object are comparable. Given that gloss it is close to analytic; its substantive content is the commensurability. The converse is not assumed (Control part 7). Needed: without it, the COMPREHEND_2 bridge holds and the COMPREHEND_1 bridge fails (Control part 6).",
+  "lean_declaration": "TruthCore.Causality.ComprehensionByMeasure.Comprehend1IsComprehend2",
+  "definition_ids": [
+    "4afe4ab4-f8cc-4120-b284-f1f0140e76c1",
+    "1218cc1e-e6ef-4f27-9036-d6e28cae67ad",
+    "5b196f1c-210d-450e-b3f1-33e214f9f45d"
+  ],
+  "disambiguation_ids": [
+    "e151d506-c074-4e5d-a0f9-e9c51f1a73d7"
+  ]
+}

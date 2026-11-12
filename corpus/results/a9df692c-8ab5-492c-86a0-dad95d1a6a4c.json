@@ -1,0 +1,11 @@
+{
+  "id": "a9df692c-8ab5-492c-86a0-dad95d1a6a4c",
+  "label": "INFINITE_1 is maximally knowable, from maximal act and knowability insofar as in act",
+  "argument_id": "90a61ab0-a180-40d1-b806-87a9370a2378",
+  "challenge_module": "TruthCore.Results.Causality.ComprehensionByMeasure.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ComprehensionByMeasure.Solution",
+  "theorem": "TruthCore.Results.Causality.ComprehensionByMeasure.infiniteIsMaximallyKnowable",
+  "comparator_config": "results/a9df692c-8ab5-492c-86a0-dad95d1a6a4c/comparator.json",
+  "status": "solution-present",
+  "description": "Let g be INFINITE_1 and b any degree. By the first premise b is at most g's degree of act; by the second, g's degree of act is at most its knowability. Hence b is at most g's knowability, which is therefore maximal. Conditional consequence; both premises stay open."
+}

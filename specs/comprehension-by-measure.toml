@@ -1,0 +1,129 @@
+# Comprehension by measure: the q.12 a.7 bridge bbac932e ("no intellect that
+# is not INFINITE_1 comprehends an INFINITE_1 being") derived instead of
+# assumed. The #1492 review judged it not near-definitional: it carried
+# "infinite act -> infinitely knowable" and "finite being -> finite power of
+# knowing" unstated. This batch types a degree of act, a degree of knowability
+# and a degree of knowing on one Mathlib Preorder scale, defines COMPREHEND_2
+# (knowing at a degree that reaches knowability), derives the two q.12 a.7
+# premises from four open premises, derives the COMPREHEND_2 version of the
+# bridge by transitivity, and the COMPREHEND_1 bridge with one sense bridge.
+# Analyst formulations, attribution deferred; audit in the attempt record.
+
+[batch]
+vocab = "TruthCore.Causality.ComprehensionByMeasure"
+results = "TruthCore.Results.Causality.ComprehensionByMeasure"
+
+# ---------------------------------------------------------------- statements
+
+[[statement]]
+id = "Whatever is INFINITE_1 has a maximal degree of act"
+lean = "InfiniteActIsMaximal"
+paraphrase = "OPEN analyst premise, attribution deferred. For every g: if g is INFINITE_1 (unreceived subsistent being, DEF-INFINITE), then g's degree of act (actDegree, the primitive measure of definition 5b196f1c) is maximal on the degree scale (Mathlib IsTop: every degree is at most it). After ST I q.7 a.1: esse not received in anything is limited by nothing. It reads 'unlimited act' as a maximal degree, not as a quantitative infinity (INFINITE_2). Commitment of its form: wherever something is INFINITE_1, the scale has a maximum; on a scale with no maximum (Mathlib NoMaxOrder, such as the natural numbers) it entails that nothing is INFINITE_1 (Control part 8). Needed: without it, a non-INFINITE_1 intellect COMPREHEND_2s an INFINITE_1 being in a model of the other three premises (Control part 2)."
+definitions = ["DEF-INFINITE", "5b196f1c-210d-450e-b3f1-33e214f9f45d"]
+disambiguations = ["DISAMB-INFINITY"]
+
+[[statement]]
+id = "Everything is knowable at least to the degree it is in act"
+lean = "KnowableInsofarAsInAct"
+paraphrase = "OPEN analyst premise, attribution deferred. For every y, y's degree of act is at most its degree of knowability (definition 5b196f1c; knowability in itself, not to us). After ST I q.12 a.1 (a thing is knowable insofar as it is in act) and q.16 a.3, whose pinned claim 191c4ad9 reads 'unumquodque inquantum habet de esse, intantum est cognoscibile'; no claim states this premise, and that claim specifies no scale. Only the direction 'at least' is used. Needed: without it, a non-INFINITE_1 intellect COMPREHEND_2s an INFINITE_1 being in a model of the other three premises (Control part 3)."
+definitions = ["5b196f1c-210d-450e-b3f1-33e214f9f45d"]
+
+[[statement]]
+id = "Whatever is INFINITE_1 is maximally knowable"
+lean = "InfiniteIsMaximallyKnowable"
+paraphrase = "Derived conditional premise (its two premises remain open), analyst formulation, attribution deferred. For every g: if g is INFINITE_1, g's degree of knowability is maximal on the degree scale (IsTop). The q.12 a.7 premise 'God is infinitely knowable', read as maximal knowability on one scale. Derived (infiniteIsMaximallyKnowable) from 'Whatever is INFINITE_1 has a maximal degree of act' and 'Everything is knowable at least to the degree it is in act'."
+definitions = ["DEF-INFINITE", "5b196f1c-210d-450e-b3f1-33e214f9f45d"]
+disambiguations = ["DISAMB-INFINITY"]
+
+[[statement]]
+id = "Whatever is not INFINITE_1 has a non-maximal degree of act"
+lean = "NonInfiniteActIsNotMaximal"
+paraphrase = "OPEN analyst premise, attribution deferred. For every x: if x is not INFINITE_1, x's degree of act is not maximal on the degree scale. After ST I q.7 a.2: what has received being is limited. Equivalently (contrapositive, classically): whatever has a maximal degree of act is INFINITE_1. It applies to every being, intellects included, and to an intellect raised by the light of glory, which q.12 a.7 calls created and finite. Needed: without it, a non-INFINITE_1 intellect COMPREHEND_2s an INFINITE_1 being in a model of the other three premises (Control part 4)."
+definitions = ["DEF-INFINITE", "5b196f1c-210d-450e-b3f1-33e214f9f45d"]
+disambiguations = ["DISAMB-INFINITY"]
+
+[[statement]]
+id = "Nothing knows anything at a degree above its own degree of act"
+lean = "KnowingWithinKnowersAct"
+paraphrase = "OPEN analyst premise, attribution deferred. For every x, x's degree of act bounds x's power of knowing (PowerOfKnowingBoundedBy, definition 431287d4): whenever x knows some y at a degree d, d is at most x's degree of act. After ST I q.12 a.4 (what is known is in the knower according to the mode of the knower) and a.7 (the created light of glory, by which the blessed see God, is finite). The knower's degree of act is its whole act, including any added perfection such as the light of glory, so the premise does not exclude the beatific vision; it bounds its degree. Needed: without it, a non-INFINITE_1 intellect COMPREHEND_2s an INFINITE_1 being in a model of the other three premises (Control part 5)."
+definitions = ["5b196f1c-210d-450e-b3f1-33e214f9f45d", "431287d4-f1b4-4e18-ad6e-555f49f1e39a"]
+
+[[statement]]
+id = "Every intellect that is not INFINITE_1 has a non-maximal power of knowing"
+lean = "NonInfiniteIntellectHasNonMaximalPower"
+paraphrase = "Derived conditional premise (its two premises remain open), analyst formulation, attribution deferred. For every x: if x has intellect (HAS_INTELLECT_1) and is not INFINITE_1, some non-maximal degree p bounds x's power of knowing (PowerOfKnowingBoundedBy, definition 431287d4: x knows nothing at a degree above p). The q.12 a.7 premise 'a created intellect's power of knowing is finite', in its weakest form: the bound is only non-maximal, not finite in a quantitative sense. Derived (nonInfiniteIntellectHasNonMaximalPower) from 'Whatever is not INFINITE_1 has a non-maximal degree of act' and 'Nothing knows anything at a degree above its own degree of act', with the knower's degree of act as the bound."
+definitions = ["DEF-INFINITE", "DEF-HAS-INTELLECT", "5b196f1c-210d-450e-b3f1-33e214f9f45d", "431287d4-f1b4-4e18-ad6e-555f49f1e39a"]
+disambiguations = ["DISAMB-INFINITY", "DISAMB-INTELLECT-AND-SENSE-COGNITION"]
+
+[[statement]]
+id = "No non-INFINITE_1 intellect COMPREHEND_2s an INFINITE_1 being"
+lean = "FiniteIntellectDoesNotComprehend2Infinite"
+paraphrase = "Derived conditional bridge (its premises remain open), analyst formulation, attribution deferred. For every g and x: if g is INFINITE_1, x has intellect (HAS_INTELLECT_1) and x is not INFINITE_1, then x does not COMPREHEND_2 g (ComprehendsByMeasure, definition 1218cc1e: x knows g at no degree that reaches g's knowability). The COMPREHEND_2 sibling of 'No intellect that is not INFINITE_1 comprehends an INFINITE_1 being' (COMPREHEND_1). Derived (finiteIntellectDoesNotComprehend2Infinite) from maximal knowability of the INFINITE_1 and the non-maximal power of non-INFINITE_1 intellects by transitivity of the order: from knowability g <= d <= p with knowability g maximal, p would be maximal. It says nothing about whether x knows g truly (q.12 a.7 ad 1) and allows g to COMPREHEND_2 itself (Control part 1)."
+definitions = ["DEF-INFINITE", "DEF-HAS-INTELLECT", "5b196f1c-210d-450e-b3f1-33e214f9f45d", "1218cc1e-e6ef-4f27-9036-d6e28cae67ad"]
+disambiguations = ["DISAMB-INFINITY", "DISAMB-INTELLECT-AND-SENSE-COGNITION", "e151d506-c074-4e5d-a0f9-e9c51f1a73d7"]
+
+[[statement]]
+id = "Whatever COMPREHEND_1s a being COMPREHEND_2s it"
+lean = "Comprehend1IsComprehend2"
+paraphrase = "OPEN sense bridge, analyst formulation, attribution deferred. For every x and y: if x stands in the primitive comprehension relation to y (COMPREHEND_1, Comprehension.Comprehends, definition 4afe4ab4: glossed as knowing y as perfectly as y is knowable), then x knows y at some degree that reaches y's knowability (COMPREHEND_2, definition 1218cc1e). It carries that the primitive's gloss is measured on the one scale of definition 5b196f1c, so that the perfection of a knowing and the knowability of its object are comparable. Given that gloss it is close to analytic; its substantive content is the commensurability. The converse is not assumed (Control part 7). Needed: without it, the COMPREHEND_2 bridge holds and the COMPREHEND_1 bridge fails (Control part 6)."
+definitions = ["4afe4ab4-f8cc-4120-b284-f1f0140e76c1", "1218cc1e-e6ef-4f27-9036-d6e28cae67ad", "5b196f1c-210d-450e-b3f1-33e214f9f45d"]
+disambiguations = ["e151d506-c074-4e5d-a0f9-e9c51f1a73d7"]
+
+[[statement]]
+id = "Controls for comprehension by degrees of act, knowability and knowing"
+lean = "Control.Controls"
+paraphrase = "Closed controls on interpretations with two beings (Bool; true alone INFINITE_1; both have intellect) and the degree scale Bool (false < true): (1) nonvacuity: all four premises and the sense bridge hold, the bridge 'No intellect that is not INFINITE_1 comprehends an INFINITE_1 being' holds, true comprehends itself in both senses and false COMPREHEND_2s itself; (2)-(5) each of the four premises omitted in turn, the other three hold and false (not INFINITE_1) COMPREHEND_2s true (INFINITE_1); parts 2 and 4 also show maximal knowability and the non-maximal-power premise each fail while the other holds; (6) with everything comprehending everything in the primitive sense, the COMPREHEND_2 bridge holds and the sense bridge and the COMPREHEND_1 bridge fail; (7) with nothing comprehending in the primitive sense, the sense bridge holds and its converse fails; (8) on any Preorder scale with no maximum, 'Whatever is INFINITE_1 has a maximal degree of act' entails that nothing is INFINITE_1. Statements about these interpretations only."
+definitions = ["5b196f1c-210d-450e-b3f1-33e214f9f45d", "431287d4-f1b4-4e18-ad6e-555f49f1e39a", "1218cc1e-e6ef-4f27-9036-d6e28cae67ad", "4afe4ab4-f8cc-4120-b284-f1f0140e76c1", "DEF-INFINITE"]
+disambiguations = ["e151d506-c074-4e5d-a0f9-e9c51f1a73d7"]
+
+# ---------------------------------------------------------------- arguments
+
+[[argument]]
+id = "INFINITE_1 is maximally knowable, from maximal act and knowability insofar as in act"
+theorem = "infiniteIsMaximallyKnowable"
+premises = ["Whatever is INFINITE_1 has a maximal degree of act", "Everything is knowable at least to the degree it is in act"]
+conclusion = "Whatever is INFINITE_1 is maximally knowable"
+axioms = []
+rule = "Transitivity of the preorder: every degree is at most the act of g, which is at most its knowability"
+meaning = "Let g be INFINITE_1 and b any degree. By the first premise b is at most g's degree of act; by the second, g's degree of act is at most its knowability. Hence b is at most g's knowability, which is therefore maximal. Conditional consequence; both premises stay open."
+
+[[argument]]
+id = "Non-INFINITE_1 intellects have non-maximal power, from non-maximal act bounding knowing"
+theorem = "nonInfiniteIntellectHasNonMaximalPower"
+premises = ["Whatever is not INFINITE_1 has a non-maximal degree of act", "Nothing knows anything at a degree above its own degree of act"]
+conclusion = "Every intellect that is not INFINITE_1 has a non-maximal power of knowing"
+axioms = []
+rule = "Witness the bound by the knower's own degree of act"
+meaning = "Let x have intellect and not be INFINITE_1. Its degree of act is not maximal (first premise) and bounds every degree at which it knows anything (second premise), so it is a non-maximal bound of x's power of knowing. Intellect is not used. Conditional consequence; both premises stay open."
+
+[[argument]]
+id = "No non-INFINITE_1 intellect COMPREHEND_2s an INFINITE_1 being, by transitivity"
+theorem = "finiteIntellectDoesNotComprehend2Infinite"
+premises = ["Whatever is INFINITE_1 is maximally knowable", "Every intellect that is not INFINITE_1 has a non-maximal power of knowing"]
+conclusion = "No non-INFINITE_1 intellect COMPREHEND_2s an INFINITE_1 being"
+senses = {COMPREHEND = "COMPREHEND_2"}
+axioms = []
+rule = "Transitivity of the preorder through the knowing degree, against the non-maximal bound"
+meaning = "Let g be INFINITE_1 and x an intellect that is not INFINITE_1, and suppose x knows g at a degree d that reaches g's knowability. Let p be x's non-maximal bound (second premise), so d is at most p. Every degree is at most g's knowability (first premise), which is at most d, which is at most p; so p is maximal, a contradiction. Hence x does not COMPREHEND_2 g. A derivation that could fail: on a scale where the knowability of g is not maximal, or where the bound may be maximal, the conclusion fails (Control parts 2-5). Conditional consequence; both premises are derived from open premises."
+
+[[argument]]
+id = "No non-INFINITE_1 intellect comprehends an INFINITE_1 being, via COMPREHEND_2"
+theorem = "finiteIntellectDoesNotComprehendInfiniteByMeasure"
+premises = ["No non-INFINITE_1 intellect COMPREHEND_2s an INFINITE_1 being", "Whatever COMPREHEND_1s a being COMPREHEND_2s it"]
+conclusion = "bbac932e-033c-4008-92ce-176f94e3e039"
+sense_bridges = [
+  { term = "COMPREHEND", from = "54438bd2-9c69-480b-94ce-889370211279", to = "0b0402f3-e7f2-4790-95e2-72a025a0ac38", statement_id = "Whatever COMPREHEND_1s a being COMPREHEND_2s it" },
+]
+axioms = []
+rule = "Contraposition through the sense bridge"
+meaning = "Let g be INFINITE_1 and x an intellect that is not INFINITE_1. If x stood in the primitive comprehension relation (COMPREHEND_1) to g, then by the sense bridge x would COMPREHEND_2 g, which the first premise excludes. Hence x does not COMPREHEND_1 g: the bridge 'No intellect that is not INFINITE_1 comprehends an INFINITE_1 being' (bbac932e). The senses are not identified; the only passage is the listed sense bridge. Conditional consequence; the sense bridge stays open, and the first premise is derived from four open premises."
+
+[[argument]]
+id = "Controls for comprehension by degrees of act, knowability and knowing, checked"
+theorem = "controls"
+premises = []
+conclusion = "Controls for comprehension by degrees of act, knowability and knowing"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+sense_mixing_control = true
+rule = "Explicit two-being interpretations on the degree scale Bool, checked by case analysis; the scale-commitment part by Mathlib exists_gt"
+meaning = "Nonvacuity: all premises and the sense bridge hold together with the bridge bbac932e, an INFINITE_1 being comprehends itself in both senses, and a finite intellect COMPREHEND_2s a finite being. Each of the four premises is needed: omitting it, the other three hold and a non-INFINITE_1 intellect COMPREHEND_2s the INFINITE_1 being. The sense bridge is needed (the COMPREHEND_2 bridge holds while the COMPREHEND_1 bridge fails), and its converse is not assumed (sense mixing fails without it). On a scale with no maximum, 'Whatever is INFINITE_1 has a maximal degree of act' entails that nothing is INFINITE_1. A finite countermodel shows a premise is needed in that interpretation, not that it is false."

@@ -1,0 +1,21 @@
+{
+  "id": "037b9e9b-4ee0-4337-894e-a25592a2aab1",
+  "label": "Controls for comprehension by degrees of act, knowability and knowing, checked",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "505a81bb-bbc7-4787-9974-ed6079b5f7ff",
+  "inference_ids": [
+    "efb5baf1-ad42-4fee-8e9f-0f3aa6a01e23"
+  ],
+  "meaning": "Nonvacuity: all premises and the sense bridge hold together with the bridge bbac932e, an INFINITE_1 being comprehends itself in both senses, and a finite intellect COMPREHEND_2s a finite being. Each of the four premises is needed: omitting it, the other three hold and a non-INFINITE_1 intellect COMPREHEND_2s the INFINITE_1 being. The sense bridge is needed (the COMPREHEND_2 bridge holds while the COMPREHEND_1 bridge fails), and its converse is not assumed (sense mixing fails without it). On a scale with no maximum, 'Whatever is INFINITE_1 has a maximal degree of act' entails that nothing is INFINITE_1. A finite countermodel shows a premise is needed in that interpretation, not that it is false.",
+  "definition_ids": [
+    "1218cc1e-e6ef-4f27-9036-d6e28cae67ad",
+    "431287d4-f1b4-4e18-ad6e-555f49f1e39a",
+    "4afe4ab4-f8cc-4120-b284-f1f0140e76c1",
+    "5b196f1c-210d-450e-b3f1-33e214f9f45d",
+    "1d8890c0-afe2-5cdb-a400-0bbd4b79053d"
+  ],
+  "disambiguation_ids": [
+    "e151d506-c074-4e5d-a0f9-e9c51f1a73d7"
+  ],
+  "sense_mixing_control": true
+}
