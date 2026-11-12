@@ -1,0 +1,9 @@
+{
+  "id": "a82e5be5-be22-4504-8f0f-fd0732884d83",
+  "label": "One-being controls for the Dei Filius sufficiency bridges",
+  "term": "one-being controls for the Dei Filius sufficiency bridges (Lean `Control.Controls`)",
+  "definition": "Control.Controls: on a one-being signature whose single being is God, with Unit respects and principles, the being in act, good and causing in every respect and in potency in none, and infinite, eternal, intellect and will true, (1) a full case in which every premise of nineGiveDeiFilius holds and the being has the nine and every Dei Filius attribute; (2) for each of the nine premises numbered 0–8 (living, lord, almighty, immense, incomprehensible, blessed, no component, excess in act, matter-form composition), a case changing one truth value in which every other premise holds and the being has the nine but not every Dei Filius attribute; (3) a case in which the field interpretation FieldFromDeiFilius holds while the old sufficiency premise ClassicalAttributesSuffice fails.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.DeiFiliusAttributeField.Control.Controls",
+  "note": "Statements about these finite interpretations only. They show that each premise is needed in nineGiveDeiFilius (nothing else among its premises supplies its conjunct) and that the old premise strictly strengthens the field interpretation. They are not evidence that any premise is false or doubtful (substantive objection standard, 2026-11-12)."
+}

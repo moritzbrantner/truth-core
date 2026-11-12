@@ -1,0 +1,11 @@
+{
+  "id": "ccba9330-f025-4a69-af2d-82f7c50ab01c",
+  "label": "Controls for the typed IMMENSE_2 and INCOMPREHENSIBLE_2 readings, checked",
+  "argument_id": "8076d938-74b2-46b3-8ba0-7c33b77f4c0b",
+  "challenge_module": "TruthCore.Results.Causality.DeiFiliusImmenseIncomprehensible.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DeiFiliusImmenseIncomprehensible.Solution",
+  "theorem": "TruthCore.Results.Causality.DeiFiliusImmenseIncomprehensible.controls",
+  "comparator_config": "results/ccba9330-f025-4a69-af2d-82f7c50ab01c/comparator.json",
+  "status": "solution-present",
+  "description": "Nonvacuity: both new bridges hold and a being has the nine, IMMENSE_2 and INCOMPREHENSIBLE_2 while comprehending itself (so INCOMPREHENSIBLE_2 allows self-comprehension; that it is not unknowability follows from the form of its definition, not from this model). Strictness: each new sense bridge holds where the old bridge it weakens fails (a cause of the being of all that is not infinite is not IMMENSE_1; an infinite being comprehended by a caused intellect is not INCOMPREHENSIBLE_1). Necessity in these models: without either new bridge, a being with the nine is not INCOMPREHENSIBLE_2. Sense mixing fails without the sense bridges: a being with the nine can be IMMENSE_2 and INCOMPREHENSIBLE_2 and neither IMMENSE_1 nor INCOMPREHENSIBLE_1. Model-witnessed facts about these interpretations only; they show where each premise is needed, not that any premise is false."
+}

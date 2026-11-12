@@ -1,0 +1,9 @@
+{
+  "id": "59350e3b-1b76-45cd-b9fd-548f3f4658b5",
+  "label": "LORD_1: a primitive predicate for dominion over everything else",
+  "term": "lord (Dominus caeli et terrae; Lean `Primitives.IsLord`)",
+  "definition": "PRIMITIVE. IsLord g: g has dominion over everything else, i.e. authority to dispose of it as subject to g. After ST I q.13 a.7, where 'Lord' is said of God relative to creatures, which are subject to him. Example: an owner of a field, with respect to the field (a limited dominion). Counterexample: a cause whose effect is not subject to its disposal (a parent of an adult, in the respect in which the adult is independent).",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.DeiFiliusAttributeField.Primitives.IsLord",
+  "note": "Explicitly identified primitive (Encode first). Open semantic obligation: a typed account of dominion (subjection, authority to dispose) that would let the bridge from causing the being of all to lordship be derived or fail. Two open bridges constrain it, each giving a sufficient condition: 'Whatever causes the being of everything else is LORD_1 of everything else' and the weaker sense bridge 'Whatever is LORD_2 is LORD_1' (eb6611a5), from the typed sibling LORD_2 (c8e458bd: causes the being of and governs everything else; disambiguation aa1de96a). LORD_2 types the grounds of dominion, not authority itself, so the typed account of authority remains open."
+}

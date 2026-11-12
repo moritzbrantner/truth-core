@@ -1,0 +1,9 @@
+{
+ "id": "036bb1b9-e472-4046-af06-6fa7bfcd7da4",
+ "label": "Modal causal finitism over momentary states of a history",
+ "term": "state-causal finitism",
+ "definition": "StateCausalFinitism h stateCause w holds when, in every history v accessible from w, the supplied state-causation relation stateCause v on moments has finite distinct ancestry (FiniteDistinctAncestry): for each moment t, the set of moments s from which a chain of one or more stateCause v edges leads to t is finite. stateCause v s t is read as: the momentary total state of history v at s is a direct cause of its state at t. In ordinary language: in every possible history, each momentary state has only finitely many states in its causal history.",
+ "basis": "stipulative",
+ "lean_declaration": "TruthCore.Causality.ComingToBeHorns.StateCausalFinitism",
+ "note": "Analyst formulation of a modal, event-based causal finitism (FINITE_CAUSAL_HISTORY_AND_PER_SE_1 applied to momentary states of each accessible history); attribution deferred, not a sourced identification with any author's principle. The relation is a separate supplied relation on moments; it is not identified with the Causes field of the history's ontology or with grounding between individuals. A history whose earlier states are causally idle satisfies it trivially, so it says nothing about the length of the past without a bridge from precedence to causation. Applicability OPEN."
+}

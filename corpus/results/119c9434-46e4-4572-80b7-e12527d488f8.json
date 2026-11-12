@@ -1,0 +1,11 @@
+{
+  "id": "119c9434-46e4-4572-80b7-e12527d488f8",
+  "label": "No non-INFINITE_1 intellect comprehends an INFINITE_1 being, via COMPREHEND_2",
+  "argument_id": "c0ff2205-09ae-4d81-b0b0-ba9433f4719b",
+  "challenge_module": "TruthCore.Results.Causality.ComprehensionByMeasure.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ComprehensionByMeasure.Solution",
+  "theorem": "TruthCore.Results.Causality.ComprehensionByMeasure.finiteIntellectDoesNotComprehendInfiniteByMeasure",
+  "comparator_config": "results/119c9434-46e4-4572-80b7-e12527d488f8/comparator.json",
+  "status": "solution-present",
+  "description": "Let g be INFINITE_1 and x an intellect that is not INFINITE_1. If x stood in the primitive comprehension relation (COMPREHEND_1) to g, then by the sense bridge x would COMPREHEND_2 g, which the first premise excludes. Hence x does not COMPREHEND_1 g: the bridge 'No intellect that is not INFINITE_1 comprehends an INFINITE_1 being' (bbac932e). The senses are not identified; the only passage is the listed sense bridge. Conditional consequence; the sense bridge stays open, and the first premise is derived from four open premises."
+}

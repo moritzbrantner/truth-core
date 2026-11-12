@@ -1,0 +1,37 @@
+{
+  "id": "5fbea2f5-0446-4852-9bd4-74fd0878755f",
+  "label": "The nine SIMPLE_4, PERFECT_2, INFINITE_1 attributes give every Dei Filius attribute",
+  "paraphrase": "Open premise, analyst formulation, unattributed: every being that is simple, perfect, supremely good, the one God, infinite, altogether immutable, eternal, and has intellect and will has every Dei Filius attribute in the typed reading of definition edcfac86 (DeiFiliusAttributes: one, living, creator of all, lord, almighty, eternal, immense, incomprehensible, intellect, will, perfect, infinite, simple, immutable, spiritual, remote from all, most blessed, maximal in being, supremely good). That reading is weaker than the text for some attributes, stronger for goodness, and a different reading for distinctness from the world. The sufficiency premise STMT-CLASSICAL-ATTRIBUTES-SUFFICE restated against the defined predicate instead of the primitive field. Ten conjuncts are among the nine or contained in them by definition; the others need open bridges (nineGiveDeiFilius). It supplies no existence witness and does not give that the being is God.",
+  "lean_declaration": "TruthCore.Causality.DeiFiliusAttributeField.NineSufficeForDeiFilius",
+  "definition_ids": [
+    "85f7f569-ab4d-514b-aa2c-cf75171ad105",
+    "5f851204-5991-5e16-87f1-e8b3ed729708",
+    "58e0de99-6199-5851-8e03-381bca0d44f0",
+    "d980bbd2-1a96-564c-bc0d-4065d7786715",
+    "1d8890c0-afe2-5cdb-a400-0bbd4b79053d",
+    "da5c0716-718e-5aaa-abec-95c9e93cac00",
+    "1291944d-a8b2-54eb-899d-66bd5f8b4762",
+    "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4",
+    "7c64b499-6dba-5e03-bdf3-5acea95d8836",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "edcfac86-6c19-4c82-9dfa-79bbf3287e6f",
+    "92c03350-6809-497d-b123-2ffb11c0e0c1",
+    "0d9dcc31-4d9c-45cc-93fe-fd0369fd9834",
+    "4e0d3bdf-95b6-4b56-91f9-7026f591819d",
+    "0525d8b9-f620-584f-a11f-beee6d8871a5",
+    "f91f5056-8a32-416b-b234-d0e78cd16ce8",
+    "53b02c11-a28b-57c2-8d2e-7e013893db7e",
+    "a2a8de58-42e0-5481-b7fb-848ae8602036"
+  ],
+  "disambiguation_ids": [
+    "205a39c3-915d-5fe4-8076-a9ff91329e08",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "587c53cf-c2a8-51f6-b8c1-013e67756dc6",
+    "f561d4e4-ab8f-5d20-9926-d63a74df3b4e",
+    "9b16c72e-e8dc-5d69-88bf-0daf61ab2f9b",
+    "c0fda0ee-3508-5101-94ba-043e3eb28b0e",
+    "508617ab-cf24-5f3b-a387-64b3991359ec",
+    "1f2d3b9b-0b6b-459c-8871-3f136ad6d78a",
+    "2cbf40b4-3ea9-47a3-b532-7085ba3b53fa"
+  ]
+}

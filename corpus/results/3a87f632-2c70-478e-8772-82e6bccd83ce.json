@@ -1,0 +1,24 @@
+{
+  "id": "3a87f632-2c70-478e-8772-82e6bccd83ce",
+  "label": "No mutual necessary support, from rigid ascent in esse and no infinite ascent",
+  "argument_id": "cf9e82cd-4758-47ec-ba61-ddeaa2671747",
+  "challenge_module": "TruthCore.Results.Causality.GradedSupportFoundation.Challenge",
+  "solution_module": "TruthCore.Results.Causality.GradedSupportFoundation.Solution",
+  "theorem": "TruthCore.Results.Causality.GradedSupportFoundation.mutualSupportExcludedByGrade",
+  "comparator_config": "results/3a87f632-2c70-478e-8772-82e6bccd83ce/comparator.json",
+  "status": "solution-present",
+  "description": "Prices the mutual-support rival of J2 by a different premise from no-novel-edge: if support between necessary concreta, at any admitted world, ascends one rigid comparative with no infinite ascent, two necessary concreta cannot support each other at two worlds, since each would be more in esse than the other. A holder of the rival must deny that support between necessary beings tracks one world-invariant grade of being with no infinite ascent. A conditional exclusion; neither the premises nor the rival is established or refuted.",
+  "research_comparisons": [
+    {
+      "target_statement_id": "d149d238-2eeb-5c8b-a136-f95d7aa5c721",
+      "rival_statement_id": "12a167a4-dd1d-4f04-92e5-c22325cbbd1a",
+      "sense_definition_id": "2873d86b-7d15-41c5-8b93-362a117cb4cf",
+      "outcome": "excluded",
+      "conditions": "mutualSupportExcludedByGrade: NecessarySupportAscendsInEsse m w MoreIn esse and NoInfiniteAscentAmongNecessaryConcreta m w MoreIn esse give the negation of NecessaryConcretaMutualSupport m w.",
+      "scope": "Same Profile, selected relation and selected world as the premise and the rival; any worlds, carrier, respect type, comparative and respect.",
+      "coverage": "All interpretations satisfying the two listed premises.",
+      "exclusivity": "The exclusion holds only under the rigid ascent premise, which is open; without it the rival survives (NecessarySupportCoverage Control.mutualPair, Control.rootedPair). In the rooted pair and the rotating triangle no comparison at all satisfies both premises (Control.NoGradeForRivals).",
+      "next_step": "Assess the warrant of rigid ascent between necessary beings: the cause-is-more principle (STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH) and its limits for equivocal and instrumental causes, and whether a necessary being's grade of being can differ between worlds."
+    }
+  ]
+}

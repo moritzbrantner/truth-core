@@ -3,6 +3,7 @@
 Challenge generated from a Solution module (owner decision 2026-11-07).
 
     python3 scripts/argument_batch.py records SPEC.toml [--write] [--fix]
+    python3 scripts/argument_batch.py records --check SPEC.toml...
     python3 scripts/argument_batch.py challenge SOLUTION.lean THEOREM... [--write]
     python3 scripts/argument_batch.py map MAP.toml [--mermaid]
 
@@ -32,6 +33,14 @@ of an argument default to the union of those of its premises and conclusion
 overwrite an existing record with a different body. `--fix` then runs
 `corpus.py check` and adds every disambiguation the check reports as missing
 from a spec argument, until the check passes or no such error remains.
+
+`records --check` writes nothing and fails when regenerating any given spec
+would change a file (CI runs it over `specs/*.toml`, #1484). A committed spec
+is the source of its records: carry a later edit of a generated record into
+the spec (pin uuid handles, `definitions`, `transcription`, `description`,
+`comparator_theorems`, ...) rather than editing the JSON alone. A result is
+found by its argument and theorem before its handle or label, and records that
+differ only in JSON spelling (e.g. `\\u` escapes) count as unchanged.
 
 `challenge` turns a Solution module into the ordinary (non-module) Challenge
 file next to it: `public import` becomes `import`, `module` and
@@ -63,7 +72,9 @@ The spec format:
     premises = ["STMT-..."]
     conclusion = "STMT-..."
     rule = "..."
-    meaning = "..."              # also the result description
+    meaning = "..."              # also the result description, unless
+    description = "..."          # (optional) gives the result its own
+    comparator_theorems = []     # (optional) further theorems its Comparator config checks
     senses = {PRIOR = "PRIOR_1"} # term_senses: one sense per disambiguated term
                                  # (TERM_n label or sense uuid; written as uuids)
 
@@ -117,7 +128,19 @@ CORPUS = ROOT / "corpus"
 UUID4 = re.compile(r"[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}")
 
 
+# Corpus reads shared across specs by `records --check`, which writes nothing.
+READ_CACHE: dict | None = None
+
+
 def load_ids(kind: str) -> dict[str, tuple[Path, dict]]:
+    if READ_CACHE is not None:
+        if kind not in READ_CACHE:
+            READ_CACHE[kind] = _load_ids(kind)
+        return READ_CACHE[kind]
+    return _load_ids(kind)
+
+
+def _load_ids(kind: str) -> dict[str, tuple[Path, dict]]:
     out = {}
     for path in sorted((CORPUS / kind).glob("*.json")):
         record = json.loads(path.read_text())
@@ -127,10 +150,11 @@ def load_ids(kind: str) -> dict[str, tuple[Path, dict]]:
 
 def dump(path: Path, record: dict, write: bool, planned: list[str]) -> None:
     text = json.dumps(record, indent=2, ensure_ascii=False) + "\n"
-    if path.exists() and path.read_text() == text:
-        return
     if path.exists():
         existing = json.loads(path.read_text())
+        # The same content in another JSON spelling (e.g. \u escapes) is no change.
+        if existing == record:
+            return
         if existing.get("id") != record.get("id"):
             raise SystemExit(f"refusing to overwrite {path}: it holds {existing.get('id')}")
     planned.append(str(path.relative_to(ROOT)))
@@ -202,7 +226,12 @@ class Handles:
     Readable handles are never ids."""
 
     def __init__(self) -> None:
-        self.aliases = Aliases.load(ROOT)
+        if READ_CACHE is None:
+            self.aliases = Aliases.load(ROOT)
+        else:
+            if "_aliases" not in READ_CACHE:
+                READ_CACHE["_aliases"] = Aliases.load(ROOT)
+            self.aliases = READ_CACHE["_aliases"]
         self.minted: dict[tuple[str, str], str] = {}
 
     def existing(self, kind: str, *tokens: str | None) -> str | None:
@@ -325,12 +354,20 @@ def build_records(spec: dict, write: bool) -> list[str]:
                 for bridge in a["sense_bridges"]]
         if aid in existing["arguments"]:
             argument = {**old_argument, **{k: v for k, v in argument.items() if k not in ("disambiguation_ids",)}}
+        # A result is bound to its argument and theorem: find it there first, so a
+        # relabelled result or argument is not minted again (#1484).
+        theorem = f"{batch['results']}.{a['theorem']}"
+        bound = [rid for rid, (_, record) in existing["results"].items()
+                 if record.get("argument_id") == aid and record.get("theorem") == theorem]
+        if bound:
+            handles.minted[("result", a["id"])] = bound[0]  # relations may name the result by this handle
         rid = handles.get("result", a["id"], label)
         result_identity = identity(rid, label, existing["results"])
         comparator = f"results/{result_identity.get('legacy_id', rid)}/comparator.json"
         result = {**result_identity, "argument_id": aid, "challenge_module": f"{batch['results']}.Challenge",
-                  "solution_module": f"{batch['results']}.Solution", "theorem": f"{batch['results']}.{a['theorem']}",
-                  "comparator_config": comparator, "status": "solution-present", "description": a["meaning"]}
+                  "solution_module": f"{batch['results']}.Solution", "theorem": theorem,
+                  "comparator_config": comparator, "status": "solution-present",
+                  "description": a.get("description", a["meaning"])}
         if a.get("label"):
             result["label"] = a["label"]
         if "research_comparisons" in a:
@@ -346,7 +383,9 @@ def build_records(spec: dict, write: bool) -> list[str]:
         dump(record_path(existing["results"], "results", rid), result, write, planned)
         dump(ROOT / comparator, {"challenge_module": result["challenge_module"],
                                  "solution_module": result["solution_module"],
-                                 "theorem_names": [result["theorem"]], "permitted_axioms": a.get("axioms", []),
+                                 "theorem_names": [result["theorem"]] + [
+                                     f"{batch['results']}.{name}" for name in a.get("comparator_theorems", [])],
+                                 "permitted_axioms": a.get("axioms", []),
                                  "enable_nanoda": True}, write, planned)
 
     for r in spec.get("relation", []):
@@ -362,6 +401,25 @@ def build_records(spec: dict, write: bool) -> list[str]:
             record["note"] = r["note"]
         dump(record_path(existing["relations"], "relations", rel_id), record, write, planned)
     return planned
+
+
+def check_specs(paths: list[Path]) -> int:
+    """`records --check`: every committed spec regenerates its records unchanged (#1484)."""
+    global READ_CACHE
+    READ_CACHE = {}
+    drifted = 0
+    for path in paths:
+        planned = build_records(tomllib.loads(path.read_text()), False)
+        if planned:
+            drifted += 1
+            print(f"{path}: regenerating would write {len(planned)} files")
+            for name in planned:
+                print(f"  {name}")
+    print(f"{len(paths) - drifted} of {len(paths)} specs regenerate unchanged")
+    if drifted:
+        print("Reconcile the spec with its records (pin uuids, carry hand edits into the spec); "
+              "`records SPEC` without --write shows what would change.")
+    return 1 if drifted else 0
 
 
 MISSING = re.compile(r"corpus error: (\S+): .*does not link ([0-9a-f-]{36})")
@@ -524,9 +582,11 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = parser.add_subparsers(dest="command", required=True)
     records = sub.add_parser("records")
-    records.add_argument("spec")
+    records.add_argument("spec", nargs="+")
     records.add_argument("--write", action="store_true")
     records.add_argument("--fix", action="store_true")
+    records.add_argument("--check", action="store_true",
+                         help="write nothing; fail if regenerating any given spec would change a file")
     challenge = sub.add_parser("challenge")
     challenge.add_argument("solution")
     challenge.add_argument("theorems", nargs="+")
@@ -539,8 +599,14 @@ def main() -> int:
     args = parser.parse_args()
     if args.command == "map":
         return check_map(Path(args.map), args.mermaid, allow_materialized_nodes=args.allow_materialized_nodes)
+    if args.command == "records" and args.check:
+        if args.write or args.fix:
+            parser.error("--check does not write")
+        return check_specs([Path(spec) for spec in args.spec])
     if args.command == "records":
-        spec = tomllib.loads(Path(args.spec).read_text())
+        if len(args.spec) != 1:
+            parser.error("records writes one spec at a time; --check takes several")
+        spec = tomllib.loads(Path(args.spec[0]).read_text())
         planned = build_records(spec, args.write)
         print(("wrote" if args.write else "would write") + f" {len(planned)} files")
         for path in planned:

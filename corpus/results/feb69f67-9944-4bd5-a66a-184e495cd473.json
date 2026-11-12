@@ -1,0 +1,11 @@
+{
+  "id": "feb69f67-9944-4bd5-a66a-184e495cd473",
+  "label": "Whatever is CREATURE_2 is CREATURE_1, from the Fourth-Way maximum",
+  "argument_id": "a9cd32b6-c7fa-4b4b-94dd-108ff52bcb60",
+  "challenge_module": "TruthCore.Results.Causality.CreatureSenses.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CreatureSenses.Solution",
+  "theorem": "TruthCore.Results.Causality.CreatureSenses.causedInBeingByAnotherIsCreature1",
+  "comparator_config": "results/feb69f67-9944-4bd5-a66a-184e495cd473/comparator.json",
+  "status": "solution-present",
+  "description": "Let c, distinct from x, cause x's being (x is CREATURE_2). The proved Fourth-Way consequence gives some m, maximal in being, that causes the being of every other being in act and whose being no being distinct from it causes. x is not m: otherwise c, distinct from m, would cause m's being. By the weak premise x is in act as to being, so m causes x's being. Hence x is CREATURE_1, with m as the universal cause it is ordered to. The CREATURE sense bridge, at its sense-fixed declaration naming both sense constants, is the conclusion (role conclusion); the premises use neither sense. The Creature-parametric legacy statement b7d4eede follows by instantiation. Its weight sits in the Fourth-Way consequence, whose own premises (the four quarta via readings and the Metaphysics II.1 causal comparison) stay as they are: in particular the reading that the maximum causes the being of every other being in act, a thing caused by a secondary cause included. Conditional consequence; no premise is established. The controls show that the bridge fails without the Fourth-Way consequence (model 1) and without the weak premise (model 2)."
+}

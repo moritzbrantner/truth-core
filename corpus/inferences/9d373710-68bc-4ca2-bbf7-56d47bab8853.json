@@ -1,0 +1,10 @@
+{
+  "id": "9d373710-68bc-4ca2-bbf7-56d47bab8853",
+  "label": "Giver-of-being controls, checked (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "f579f062-1da6-4614-92fa-46f5bdf6e23a",
+  "rule": "Explicit one-world interpretations over Bool, checked by decision",
+  "meaning": "Omission, strictness and nonvacuity controls listed in the conclusion's paraphrase. A finite countermodel shows a premise is needed in that interpretation, not that it is false.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

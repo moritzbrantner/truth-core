@@ -1,0 +1,11 @@
+{
+  "id": "63217847-cccc-486d-9009-982b48a9363b",
+  "label": "Founded populated pasts from Grim Reaper pieces and patchwork",
+  "argument_id": "e14a0511-4494-4518-8991-b9aac486c2c6",
+  "challenge_module": "TruthCore.Results.Causality.GrimReaperPatchwork.Challenge",
+  "solution_module": "TruthCore.Results.Causality.GrimReaperPatchwork.Solution",
+  "theorem": "TruthCore.Results.Causality.GrimReaperPatchwork.populatedPastsFoundedOfPatchwork",
+  "comparator_config": "results/63217847-cccc-486d-9009-982b48a9363b/comparator.json",
+  "status": "solution-present",
+  "description": "Non-transcription conditional support option for A3 prime a (founded populated pasts), replacing the near-transcription Reaper assembly route. Suppose a contingent concrete thing is present at t in an accessible history and t has no founded past; dependent choice gives a strictly descending sequence c from t. The local premise makes every two adjacent Reaper pieces along c co-possible; patchwork gives one accessible world u realizing all of them. Translating u's register codes into the indices of the stations they name (the descent is injective) yields a Nat-indexed signal and issuance satisfying index admissibility, positive trigger, emission and forwarding, which the verified IndexedSignalReaper.impossible refutes. Neither premise mentions foundedness, and each holds without the other in a beginningless integer history (controls 1 and 2). Because both premises range over every descent, they also exclude any populated history with a first moment followed by moments with no earliest one (control 3, on WithBot Int times), and with ComingToBeHorns control 8 contingent presence after the first moment of non-negative rational time: the unrestricted premises carry the same anti-continuum commitment as founded populated pasts. Both premises are OPEN; the arrangement's impossibility is mathematics, the possibility of the pieces and their gluing is the disputed metaphysics. Nothing is attributed to Koons or Pruss. No premise is established."
+}

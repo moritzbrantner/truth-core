@@ -1,0 +1,15 @@
+{
+  "id": "042472f6-df43-4c1d-8b71-5c6ba21f7e8d",
+  "label": "The esse-cause bridge from existent concreteness, via dependence (inference)",
+  "input_statement_ids": [
+    "c99f9d23-3f05-5c3c-9279-44a59e445a14",
+    "0e02cd69-8fb0-4859-8287-937440c84b5b",
+    "2068f91c-1eeb-5dbb-a71a-f7b6a12bb495",
+    "2e248016-f8bf-5d8a-931e-7f9ebbb13e42"
+  ],
+  "output_statement_id": "cb1cdea9-eb6c-578c-8008-84e0d4107fd3",
+  "rule": "Cause exists at w; existents are concrete; dependence of the effect; dependence between actual concreta is grounding",
+  "meaning": "Second derivation of the esse-cause bridge, beside Round2Grounding.esseCauseGroundViaDependence. Let c, distinct from x, cause the being of the actual concretum x. c exists at w; every existent at w is concrete, so c is concrete; x depends for its being on c; dependence between actual concreta is grounding, so c grounds x. It replaces the unscoped leaf STMT-ESSE-CAUSES-ARE-CONCRETE by the concreteness of existents, which is derived from the existence-to-act contract (already a premise of the stage-two composition) and the CONCRETE_6 calibration. Each premise is needed in a checked interpretation (controls 6 to 9). Conditional consequence only; no premise is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

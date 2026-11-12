@@ -1,0 +1,11 @@
+{
+  "id": "1e704047-dbb2-45a2-8a23-09ed515047cf",
+  "label": "Possible begun coming-to-be from begun populated pasts and possible earlier grounds",
+  "argument_id": "748b550b-ae1b-4014-b0a9-79ba36d63bd2",
+  "challenge_module": "TruthCore.Results.Causality.GrimReaperPatchwork.Challenge",
+  "solution_module": "TruthCore.Results.Causality.GrimReaperPatchwork.Solution",
+  "theorem": "TruthCore.Results.Causality.GrimReaperPatchwork.possiblyBegunOfEarlierGrounds",
+  "comparator_config": "results/1e704047-dbb2-45a2-8a23-09ed515047cf/comparator.json",
+  "status": "solution-present",
+  "description": "Non-transcription conditional support option for premise A3 prime w of the modal spine (possible begun coming-to-be), pricing horn H1 with the begun version of A3 prime a. Take the accessible history in which every contingent concrete thing has an existing concrete ground present before each moment of its presence. Suppose a contingent concrete thing x present at t was never absent earlier. The past of t has a beginning m, at or before t, with nothing earlier; x is present at m; its ground must be present strictly before m, which is impossible. So every contingent concrete thing of that history comes to be, and begun coming-to-be is possible. Unlike its founded counterpart possiblyFoundedOfEarlierGrounds, this bundle does not entail that a necessary concrete individual is possible: BegunComingToBe.Control.zeno satisfies both premises (and the coinitial Grim Reaper premises) with no necessary individual at either world (control 3). Both premises are OPEN. No premise is established."
+}

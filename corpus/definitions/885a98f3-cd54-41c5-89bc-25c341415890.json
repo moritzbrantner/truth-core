@@ -1,0 +1,9 @@
+{
+  "id": "885a98f3-cd54-41c5-89bc-25c341415890",
+  "label": "LIVING_2: life present at some time of a duration frame",
+  "term": "living, time-indexed (Lean `LivesSomeTime`)",
+  "definition": "LivesSomeTime LivesAt g: there is a time t of a duration frame at which g's life is present (∃ t, LivesAt g t; DEF-LIFE-PRESENT-AT). It is the conclusion shape of the existing typed route SelfOperationLife (result PURE-ACT-LIVES-FROM-SELF-OPERATION: whatever operates from itself and is moved in no respect lives at some time, with a primitive Operates and the q.18 a.3 reading), which derives it for pure act. For what is not in time, presence at t is read with q.10 a.2 ad 4 (eternity includes all times).",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.DeiFiliusAttributeField.LivesSomeTime",
+  "note": "Sibling reading of Dei Filius ch. 1's 'vivus', recorded so the existing typed route stays visible. Not a field of DeiFiliusAttributes: identifying it with the timeless LIVING_1 would merge two senses (invariant 7). The sense bridge 'Whatever is in POTENCY_1 in no respect and is LIVING_2 is LIVING_1' (ad49ea00-287e-4c7c-8ab6-fe222d16d493) is an explicit open premise restricted to pure act; with it and STMT-PURE-ACT-LIVES, the arguments nineGiveDeiFiliusLivingFromPureAct and deiFiliusRootLivingFromPureAct give LIVING_1 to any being with the nine and to the Dei Filius root without the intellect-gives-life bridge. The unrestricted bridge is not asserted."
+}

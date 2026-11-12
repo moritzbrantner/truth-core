@@ -1,0 +1,28 @@
+{
+  "id": "63404e7c-a104-4e3b-be3e-af0609ec061e",
+  "label": "Metric Grim Reaper controls checked",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "73535018-27a4-408c-a6a2-33320dababd6",
+  "inference_ids": [
+    "2aa60900-83cb-4414-8971-aeb2d99822ab"
+  ],
+  "meaning": "The spaced local-pieces and patchwork premises are independent and neither alone excludes a metrically infinite populated past (control 1). Both premises hold, for every register frame, in a populated past that is open below and metrically finite (control 2) and in continuous time with a first moment (control 3), so the metric version excludes neither shape, unlike the coinitial version (which control 2 refutes for every frame) and the unrestricted version (which control 3 refutes for every frame). With silent registers, control 2 also separates spaced from coinitial local pieces individually; for patchwork only the conjunction is separated. Control 2 also shows that the metric conclusion, together with the earlier-grounded possibility premise A3 prime b, does not give possible begun coming-to-be (A3 prime w): a further bridge from metrically finite to begun pasts would be needed. Control 3 shows the premises, the conclusion, begun populated pasts and possible begun coming-to-be together in continuous time. Model claims concern these interpretations only.",
+  "definition_ids": [
+    "0406b0e4-e869-4d3f-a4ca-9e7e86f7fea0",
+    "0a1dd099-ca32-4ad7-9237-291efbe54bcc",
+    "0e65cf83-c42e-4177-ae4c-7c1a12b0fd32",
+    "1548f15b-302b-403a-8aef-ebd66399849d",
+    "22ca5513-6cfc-4af2-a4db-9ef4ac7f6712",
+    "375676b0-a295-4a17-a9e4-3db23319d517",
+    "3b803aa6-c863-4edf-9d10-59ede70c8140",
+    "946ad44c-4bdb-4bc2-81db-5fbc43882c0a",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e",
+    "a146da2f-a670-48f9-9911-5037352fc22a",
+    "b817094a-c68d-4541-b5da-5f11eb2bfc52",
+    "d0abd99d-13d2-499a-9f1e-bf6d5ff60cdc",
+    "ddcc20b7-6dfc-46aa-aca5-690adb78709a",
+    "df6cd418-1a1e-44b5-be8a-6bd29cab48ea"
+  ]
+}

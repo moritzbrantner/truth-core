@@ -1,0 +1,11 @@
+{
+  "id": "8eb47d7a-bc24-4acd-a6b3-73ce84e24f11",
+  "label": "One-being controls for the Dei Filius sufficiency bridges, checked",
+  "argument_id": "b4ddbbbb-a750-42c6-ab59-a0f65625688d",
+  "challenge_module": "TruthCore.Results.Causality.DeiFiliusAttributeField.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DeiFiliusAttributeField.Solution",
+  "theorem": "TruthCore.Results.Causality.DeiFiliusAttributeField.controls",
+  "comparator_config": "results/8eb47d7a-bc24-4acd-a6b3-73ce84e24f11/comparator.json",
+  "status": "solution-present",
+  "description": "Nonvacuity: the premises of nineGiveDeiFilius are jointly satisfiable with a being that has the nine and every Dei Filius attribute. Necessity in that theorem: for each of its ten premises except goodness-is-actuality, a one-being interpretation satisfies all the others and the nine at the one being, while some Dei Filius attribute fails there; so none of those nine premises is supplied by the rest. Strictness: an interpretation where the field interpretation holds vacuously (no Dei Filius being) while the old sufficiency premise fails. Model-witnessed facts about these interpretations only; they show where each premise is needed, not that it is false or doubtful."
+}

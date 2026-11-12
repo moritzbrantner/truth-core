@@ -1,0 +1,12 @@
+{
+  "id": "df9e2402-d464-4494-8a6b-93e15819bd58",
+  "label": "Whatever is CREATURE_2 is CREATURE_1, legacy statement by instantiation (inference)",
+  "input_statement_ids": [
+    "5969873b-a619-4880-a92d-77e1f2752513"
+  ],
+  "output_statement_id": "b7d4eede-ab50-5522-8902-f33238fa234d",
+  "rule": "Instantiation of the Creature parameter at CREATURE_1 and re-presentation of the antecedent",
+  "meaning": "Transcription by instantiation: the sense-fixed bridge gives the Creature-parametric legacy statement 'Whatever is CREATURE_2 (caused in being by another) is CREATURE_1' with Creature instantiated at the CREATURE_1 constant (the two say the same; causedInBeingByAnotherIsCreature_iff). It lets the registered Round 2 chain, which binds the legacy statement, rest on the derived bridge. It adds no content and is not progress on its own; the legacy statement closes exactly when the sense-fixed bridge does.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,16 @@
+{
+  "id": "4728d5f4-d7a4-460c-aecc-37c6279ece9f",
+  "label": "Whatever has the POTENCY_3 capacity to understand is IN_ACT_3 understanding or in POTENCY_2 to it",
+  "paraphrase": "Open premise, analyst formulation, unattributed; a POTENCY sense bridge from POTENCY_3 to POTENCY_2 at one respect. Whatever is able to be actually understanding (CanBe, POTENCY_3, DEF-CAPACITY-TO-BE) is in act in understanding (InAct x understanding, IN_ACT_3, the nine's shared formal-or-virtual act) or in potency to understanding (InPotency x understanding, POTENCY_2: the generic independently supplied potency predicate, DEF-INDEPENDENT-POTENCY, the same predicate whose absence in every respect is pure act and altogether immutability among the nine). Restricted to the one respect of understanding. Under POTENCY_2 it is substantive: classically the right-to-left half of the Metaphysics IX.6 analysis (STMT-POTENCY-IS-UNACTUALIZED-CAPACITY: potency is unactualized capacity) at this respect; constructively it is stronger, so no argument from that statement is registered (it would need excluded middle). Unregistered alternative reading: under the adopted specialization (POTENCY_1, AdoptedPotency.InPotency: capable and not actually), it is only the instance of excluded middle for actually understanding at a capable being (exercisedOrInPotencyOfDecidable, not registered), and the act/potency weight moves into PureAct, which in that sense says that no capacity of the being is unexercised. Why only the respect of understanding, by cases. ST I q.25 a.5 (God can do what he does not do; attribution deferred) concerns active power, a capacity to produce an effect (q.25 a.1), while CanBe is an ability to be in a state. If producing an effect is not a CanBe respect, the general (every-respect) version does not face q.25 a.5 and that passage does not motivate the restriction. If it is a CanBe respect, then under POTENCY_1 PureAct (the sixth of the nine) already requires every such capacity to be exercised, so the q.25 a.5 point targets the nine's pure-act conjunct and restricting this premise does not escape it; only under POTENCY_2 does the restricted version avoid it while the general one would face it. No record yet carries the active/passive power distinction. Control part 2: without it, a being with the nine is capable of understanding, in act in no respect, and does not operate.",
+  "lean_declaration": "TruthCore.Causality.DeiFiliusOperationFromIntellect.UnderstandingCapacityExercisedOrInPotency",
+  "definition_ids": [
+    "00ab0133-e353-5a2e-a231-b24a5c85107a",
+    "3ea2762f-1a85-5059-b4e7-d29f192b16b6",
+    "115f23e3-2a19-5dcb-bc7f-96408004f110",
+    "39f50105-c889-4c30-b841-ce458ec8109d"
+  ],
+  "disambiguation_ids": [
+    "508617ab-cf24-5f3b-a387-64b3991359ec",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
+  ]
+}

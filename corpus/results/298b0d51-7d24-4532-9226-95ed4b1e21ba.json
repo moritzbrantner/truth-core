@@ -1,0 +1,11 @@
+{
+  "id": "298b0d51-7d24-4532-9226-95ed4b1e21ba",
+  "label": "The nine suffice for the field, from the Dei Filius restatement",
+  "argument_id": "37d529f4-68c5-457b-a1ce-3d7bfc392db7",
+  "challenge_module": "TruthCore.Results.Causality.DeiFiliusAttributeField.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DeiFiliusAttributeField.Solution",
+  "theorem": "TruthCore.Results.Causality.DeiFiliusAttributeField.classicalAttributesSufficeOfDeiFilius",
+  "comparator_config": "results/298b0d51-7d24-4532-9226-95ed4b1e21ba/comparator.json",
+  "status": "solution-present",
+  "description": "A being with the nine has every typed Dei Filius attribute by the restated sufficiency, and so the primitive field by the field interpretation. This gives STMT-CLASSICAL-ATTRIBUTES-SUFFICE its first derivation, but it relocates rather than discharges the warrant: part of it moves into the field interpretation, a stipulation about an undefined primitive. On the full-list reading of the field (CLASSICAL_FIELD_2) the warrant gap becomes the field interpretation plus the seven bridges of nineGiveDeiFilius (with three existing premises). On the nine-reading (CLASSICAL_FIELD_1, the one Root.lean documents) the old premise is close to analytic and the bridges do no work for it. Conditional consequence only; no premise is established."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "ebf324e3-ecbb-4d14-92dc-1bfa19702074",
+  "label": "Finite-duration Arrival B controls checked",
+  "argument_id": "e2af5a94-55cf-4228-8c12-f3481a8aafb4",
+  "challenge_module": "TruthCore.Results.Causality.MetricBeginningArrival.Challenge",
+  "solution_module": "TruthCore.Results.Causality.MetricBeginningArrival.Solution",
+  "theorem": "TruthCore.Results.Causality.MetricBeginningArrival.controls",
+  "comparator_config": "results/ebf324e3-ecbb-4d14-92dc-1bfa19702074/comparator.json",
+  "status": "solution-present",
+  "description": "Control 1: the possibility premise without metrically finite populated pasts does not give B1 in sense BEGINS_2. Control 2: on an open-below finite populated history (the order and metric shape of FLRW cosmic time) B1 holds in sense BEGINS_2 but not BEGINS_1, so the senses differ and the strength order is strict; there Euclidean access and reflexivity at the selected world hold, B2 in sense BEGINS_2 fails for the empty totality-cause relation and no concrete individual is necessary, so B1 with the frame premises does not give the conclusion without B2 (and, by MetricGrimReaper control 2, the spaced Reaper premises hold there for every register frame). Control 3: the full premise bundle of the finite-duration arrival is jointly satisfiable on an open-below finite history, with the conclusion. Model claims concern these interpretations only."
+}

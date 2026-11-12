@@ -1,0 +1,11 @@
+{
+  "id": "c758bec1-799a-47a7-a6a5-015ed2acec5d",
+  "label": "Inert emptiness from traced nothing-from-nothing",
+  "argument_id": "e06005f5-e384-4c3d-9a73-4be8f44e5e04",
+  "challenge_module": "TruthCore.Results.Causality.GroundedBeginnings.Challenge",
+  "solution_module": "TruthCore.Results.Causality.GroundedBeginnings.Solution",
+  "theorem": "TruthCore.Results.Causality.GroundedBeginnings.inertOfNothingFromNothing",
+  "comparator_config": "results/c758bec1-799a-47a7-a6a5-015ed2acec5d/comparator.json",
+  "status": "solution-present",
+  "description": "Strength order between two statements over the same History carrier, Concrete predicate and preorder of times: the traced form puts a concrete thing at every moment strictly earlier than a populated moment, which contradicts concrete-emptiness there. The grounding parameter is dropped. The converse fails in control 5. Registered as a strength order, so the frontier does not count it as a support route; the composed derivation below carries the support. No premise is established."
+}

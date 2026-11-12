@@ -1,0 +1,30 @@
+{
+  "id": "8f24379f-c48d-43cf-beae-c0ad89a92cb4",
+  "label": "Whatever has the nine SIMPLE_4, PERFECT_2, INFINITE_1 attributes is BLESSED_2",
+  "paraphrase": "Whatever is simple, universally perfect, supremely good, such that whatever is GOD_4 is it (uniqueness only), infinite, altogether immutable, eternal, and has intellect and will is BLESSED_2: it has intellect, is universally perfect, is good as to being and is IN_ACT_3 in the respect of understanding (InAct g understanding, definition 39f50105, formal or virtual). Derived (nineAreBlessedByUnderstanding) from two existing open premises of DeiFiliusOperationFromIntellect (intellect is the POTENCY_3 capacity to understand; that capacity is exercised or in POTENCY_2 to understanding) with the nine's pure act. BLESSED_2 is not BLESSED_1: ex se, self-knowledge of one's own sufficiency and formal (rather than merely virtual) understanding are not typed. BLESSED_1 is read the Thomist way (beatitude formally in the intellect, q.26 a.2); a Scotist reading (beatitude formally in the will's enjoyment) would be a further sense, not typed here.",
+  "lean_declaration": "TruthCore.Causality.DeiFiliusLordBlessed.NineAreBlessedByUnderstanding",
+  "definition_ids": [
+    "85f7f569-ab4d-514b-aa2c-cf75171ad105",
+    "5f851204-5991-5e16-87f1-e8b3ed729708",
+    "58e0de99-6199-5851-8e03-381bca0d44f0",
+    "d980bbd2-1a96-564c-bc0d-4065d7786715",
+    "1d8890c0-afe2-5cdb-a400-0bbd4b79053d",
+    "da5c0716-718e-5aaa-abec-95c9e93cac00",
+    "1291944d-a8b2-54eb-899d-66bd5f8b4762",
+    "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4",
+    "7c64b499-6dba-5e03-bdf3-5acea95d8836",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "39f50105-c889-4c30-b841-ce458ec8109d",
+    "d0b7b32b-9dc1-426a-9949-92c0b43da663"
+  ],
+  "disambiguation_ids": [
+    "205a39c3-915d-5fe4-8076-a9ff91329e08",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "587c53cf-c2a8-51f6-b8c1-013e67756dc6",
+    "f561d4e4-ab8f-5d20-9926-d63a74df3b4e",
+    "9b16c72e-e8dc-5d69-88bf-0daf61ab2f9b",
+    "c0fda0ee-3508-5101-94ba-043e3eb28b0e",
+    "508617ab-cf24-5f3b-a387-64b3991359ec",
+    "70f4f510-d488-445f-86cf-03b889507372"
+  ]
+}

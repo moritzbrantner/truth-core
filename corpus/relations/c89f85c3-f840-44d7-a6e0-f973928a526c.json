@@ -1,0 +1,11 @@
+{
+  "id": "c89f85c3-f840-44d7-a6e0-f973928a526c",
+  "label": "A possible first-moment beginning strengthens a possible finite-duration beginning",
+  "subject_kind": "statement",
+  "subject_id": "b58d1aac-eff7-48c4-8cbe-7d310e386dd3",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "951a2235-14e5-432e-8365-0efce1b8659d",
+  "verification_result_id": "8da13191-c901-42f4-ac4d-108c31cda675",
+  "note": "Linear time, any real clock. Strict: MetricBeginningArrival control 2 (positive reals) has a possible finite-duration beginning and no possible first-moment beginning."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "7eae8e67-835f-4ea6-a6b8-8e875417fb25",
+  "label": "Grounded-beginnings omission, strictness, no-re-import and nonvacuity controls",
+  "paraphrase": "Closed mathematical controls, every individual counted concrete, two mutually accessible worlds. (1) Natural-number times, one individual present only at time 1 of the selected world, no grounds: post-absence well-founded grounding holds; the lasting-ground premise and inert emptiness fail. (2) Natural-number times, individual false present only at time 0 and individual true only at time 2 of the selected world, false grounding true: every beginning has a concrete ground and post-absence well-founded grounding holds; the lasting-ground premise and inert emptiness fail. (3) Times WithBot Int, integer individual n present at every integer time from n on at the selected world, nothing present at the first moment, each individual grounded by its predecessor: the lasting-ground premise holds; post-absence well-founded grounding and inert emptiness fail. (4) One individual present at every time of the selected world and existing only there, no grounds: both premises and the traced form hold, and no concrete individual exists at both worlds. (5) Individual false present at every time of both worlds, individual true present only at time 1 of the selected world, no grounds: inert emptiness holds and the traced form fails. (6) The same history with false grounding true: both premises, presence-to-existence and the possible contingent-free past hold, and some concrete individual exists at the selected world and at every world accessible from it. (7) Integer times and individuals, individual n present at every time from n on at the selected world, each grounded by its predecessor: both premises and inert emptiness hold, while well-founded grounding among all present concrete things fails. These are statements about these interpretations only.",
+  "lean_declaration": "TruthCore.Causality.GroundedBeginnings.Control.Certificate",
+  "definition_ids": [
+    "df576785-ff88-45d7-97cf-9177957af935",
+    "1f4f5228-45e8-4e5d-beda-e918c5808ec0",
+    "9c097ca8-c5e0-4cdf-90e6-8f84058afd74",
+    "1103f0c4-ce72-42fb-a131-c33d951b1fee",
+    "8d6ba7f7-5db7-417e-a32e-69383a615519",
+    "4def9a83-f8e7-4675-84f8-532c7ef946f5",
+    "47ef16cb-6120-4d26-8798-e93d4cf23a8d",
+    "d487d4fb-82ae-5ec1-a669-8df201ea2bd7",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d"
+  ]
+}

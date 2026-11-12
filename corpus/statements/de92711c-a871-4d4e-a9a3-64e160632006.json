@@ -1,0 +1,31 @@
+{
+  "id": "de92711c-a871-4d4e-a9a3-64e160632006",
+  "label": "Whatever has the nine SIMPLE_4, PERFECT_2, INFINITE_1 attributes is INCOMPREHENSIBLE_2",
+  "paraphrase": "Whatever is simple, universally perfect, supremely good, such that whatever is GOD_4 is it (uniqueness only), infinite, altogether immutable, eternal, and has intellect and will is INCOMPREHENSIBLE_2: it is INFINITE_1, and no intellect whose being some other being causes comprehends it (the primitive relation Comprehends). Derived from the infinity of the nine (nineAreIncomprehensibleToCausedIntellects; no other of the nine is used) with the two open bridges 'Whatever has its being caused by another is not INFINITE_1' and 'No intellect that is not INFINITE_1 comprehends an INFINITE_1 being'. INCOMPREHENSIBLE_2 is not INCOMPREHENSIBLE_1: the identification of Comprehends with knowing as perfectly as knowable, and creation from nothing, are not typed. It is not unknowability, by the form of its definition: only Comprehends is negated, and no knowing relation is typed.",
+  "lean_declaration": "TruthCore.Causality.DeiFiliusImmenseIncomprehensible.NineAreIncomprehensibleToCausedIntellects",
+  "definition_ids": [
+    "85f7f569-ab4d-514b-aa2c-cf75171ad105",
+    "5f851204-5991-5e16-87f1-e8b3ed729708",
+    "58e0de99-6199-5851-8e03-381bca0d44f0",
+    "d980bbd2-1a96-564c-bc0d-4065d7786715",
+    "1d8890c0-afe2-5cdb-a400-0bbd4b79053d",
+    "da5c0716-718e-5aaa-abec-95c9e93cac00",
+    "1291944d-a8b2-54eb-899d-66bd5f8b4762",
+    "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4",
+    "7c64b499-6dba-5e03-bdf3-5acea95d8836",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "94ebe0d2-7cf9-4360-87ce-61c598b4e666",
+    "80dea550-60c1-447a-83bf-d3f27ea0b2a8",
+    "4afe4ab4-f8cc-4120-b284-f1f0140e76c1"
+  ],
+  "disambiguation_ids": [
+    "205a39c3-915d-5fe4-8076-a9ff91329e08",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "587c53cf-c2a8-51f6-b8c1-013e67756dc6",
+    "f561d4e4-ab8f-5d20-9926-d63a74df3b4e",
+    "9b16c72e-e8dc-5d69-88bf-0daf61ab2f9b",
+    "c0fda0ee-3508-5101-94ba-043e3eb28b0e",
+    "508617ab-cf24-5f3b-a387-64b3991359ec",
+    "d63d0696-e5fb-4c85-932e-812989c83b29"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "5982f902-3853-4b93-b784-cadbc44be01e",
+  "label": "Whatever has its being caused is in act as to being, from caused perfection is had (inference)",
+  "input_statement_ids": [
+    "67aa5b5c-694b-50a1-90e5-d843234db924"
+  ],
+  "output_statement_id": "2f2f5bd2-9b6a-4251-8b93-885996ae08e2",
+  "rule": "Universal instantiation at the respect esse",
+  "meaning": "Sole-premise projection: if every caused perfection is had by its effect, then in particular a caused being (the respect esse) is had by its effect. It registers the strength order between the general premise and its esse-restricted weak version; no converse or strictness is claimed.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

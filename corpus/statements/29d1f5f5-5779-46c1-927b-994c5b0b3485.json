@@ -1,0 +1,18 @@
+{
+  "id": "29d1f5f5-5779-46c1-927b-994c5b0b3485",
+  "label": "Controls for the nine's operation from intellect, capacity and PURE_ACT_5",
+  "paraphrase": "Closed controls on one interpretation family with two beings (Bool), one respect serving as esse and understanding, and one time, where nothing is in potency, nothing is composite, only true is GOD_4 and everything causes everything: (1)-(3) omission: dropping any one of the three capacity premises, the other two hold, true has the nine and nothing operates, so 'Whatever has the nine operates from itself' fails; (4) nonvacuity: all three premises hold and true has the nine; (5) there true has the nine and lives at no time of the frame and is not LIVING_1 on primitives with no life; this holds trivially, since Lives and LivesAt are unconstrained by the three premises, and shows only that no premise mentions life (the near-definitional worry is answered by the content audit of the premises, not by this part); (6) strictness of the intellect-restricted version against STMT-PURE-ACT-OPERATES; (7) strictness of the nine version against the intellect-restricted one. Statements about these interpretations only.",
+  "lean_declaration": "TruthCore.Causality.DeiFiliusOperationFromIntellect.Control.Controls",
+  "definition_ids": [
+    "39f50105-c889-4c30-b841-ce458ec8109d",
+    "00ab0133-e353-5a2e-a231-b24a5c85107a",
+    "7acc985a-ea60-4538-9c9e-6b18ddecf3a9",
+    "f91f5056-8a32-416b-b234-d0e78cd16ce8",
+    "885a98f3-cd54-41c5-89bc-25c341415890",
+    "a49e4cf1-ca4f-5519-9724-892af257cedb",
+    "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4"
+  ],
+  "disambiguation_ids": [
+    "1f2d3b9b-0b6b-459c-8871-3f136ad6d78a"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "a3c288ee-ca7c-4561-8dc7-0b28f7a2fcda",
+  "label": "Unrestricted Grim Reaper patchwork strengthens coinitial Grim Reaper patchwork",
+  "subject_kind": "statement",
+  "subject_id": "3c0c69a9-8076-4d85-9119-6ccbedaa6547",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "7d17a839-f29b-4d16-a70c-5e3d3bd77c25",
+  "verification_result_id": "8d6b90b9-7a1e-4e5c-ba9b-a001f82db731",
+  "note": "Same frame, histories and pieces; the quantifier over descents is restricted to coinitial ones."
+}

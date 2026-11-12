@@ -1046,7 +1046,7 @@ def frontier_report(
 
     # Private what-if probes use exactly this fixpoint; they never persist a floor
     # marking or change the actual report. Only next-work cost projections call it.
-    closed = set(verified_conclusions) | ({_hypothesis} if _hypothesis else set())
+    closed: set[str] = {_hypothesis} if _hypothesis else set()
     refuted: set[str] = set()
     established: set[str] = {_hypothesis} if _hypothesis else set()
 
@@ -1164,7 +1164,7 @@ def frontier_report(
         recorded = alternatives.get(statement_id, ())
         return bool(recorded) and all(alternative in refuted for alternative in recorded)
 
-    # Rules (b)-(d), jointly to a least fixpoint. A refutation counts only from
+    # Rules (a)-(d), jointly to a least fixpoint. A refutation counts only from
     # a premise-free argument or one whose premises are all *established*
     # (#391, #999): a refutation resting on an open premise, or on a premise
     # merely proved from open premises, defends nothing. A transcription
@@ -1186,58 +1186,118 @@ def frontier_report(
     verified_steps = [
         argument_by_id[result["argument_id"]] for result in results if result["argument_id"] in argument_by_id
     ]
-    changed = True
-    while changed:
-        changed = False
-        for statement_id in sorted(floor_markings):
-            if statement_id not in established and not floor_reasons(statement_id):
-                closed.add(statement_id)
-                established.add(statement_id)
-                changed = True
-        for relation in refutations:
-            if relation["object_id"] not in refuted and refutation_counts(relation):
-                refuted.add(relation["object_id"])
-                changed = True
-        for statement_id in alternatives:
-            if statement_id not in established and defended(statement_id):
-                closed.add(statement_id)
-                established.add(statement_id)
-                changed = True
-        for argument in verified_steps:
+    # Rule (a) is grounded (#1476): a proof closes its conclusion only when each
+    # premise is closed or a genuine open leaf, one that no verified result
+    # concludes or one set aside below. When the fixpoint stalls, the
+    # conclusions still waiting on each other form ungrounded cycles; each
+    # bottom cycle (a strongly connected component nothing outside it feeds)
+    # is set aside as open leaves and the fixpoint resumes, so its dependents
+    # close as proved from open premises while the cycle members stay open.
+    # Rules (a) and (d) never close a member set aside; only `established`
+    # (which is independent of `closed`) may.
+    sound_steps = [argument_by_id[argument_id] for argument_id in sorted(sound_arguments)]
+    concluded = verified_conclusions | transcription_only_conclusions
+    proved: set[str] = set()
+    ungrounded: set[str] = set()
+    while True:
+        changed = True
+        while changed:
+            changed = False
+            for statement_id in sorted(floor_markings):
+                if statement_id not in established and not floor_reasons(statement_id):
+                    closed.add(statement_id)
+                    established.add(statement_id)
+                    changed = True
+            for relation in refutations:
+                if relation["object_id"] not in refuted and refutation_counts(relation):
+                    refuted.add(relation["object_id"])
+                    changed = True
+            for statement_id in alternatives:
+                if statement_id not in established and defended(statement_id):
+                    closed.add(statement_id)
+                    established.add(statement_id)
+                    changed = True
+            for argument in verified_steps:
+                conclusion = argument["conclusion_statement_id"]
+                if conclusion not in established and all(
+                    premise in established for premise in argument["premise_statement_ids"]
+                ):
+                    established.add(conclusion)
+                    changed = True
+            # Strength order (#1017), through each registration's proved
+            # entailment: established strong -> established weak; refuted weak ->
+            # refuted strong (contraposition). Never the reverse.
+            for entry in order:
+                strong, weak = entry["strong_statement_id"], entry["weak_statement_id"]
+                if strong in established and weak not in established:
+                    established.add(weak)
+                    closed.add(weak)
+                    established_via_strength[weak] = entry
+                    changed = True
+                if weak in refuted and strong not in refuted:
+                    refuted.add(strong)
+                    refuted_via_strength[strong] = entry
+                    changed = True
+            # Rule (a), to its own fixpoint before rule (d). An already
+            # established conclusion is still marked proved, so the closure
+            # label keeps rule (a) first.
+            proving = True
+            while proving:
+                proving = False
+                for argument in sound_steps:
+                    conclusion = argument["conclusion_statement_id"]
+                    if conclusion in proved or conclusion in ungrounded:
+                        continue
+                    if all(
+                        premise in closed or premise in ungrounded or premise not in concluded
+                        for premise in argument["premise_statement_ids"]
+                    ):
+                        closed.add(conclusion)
+                        proved.add(conclusion)
+                        proving = True
+                        changed = True
+            for result_id, argument in transcription_steps:
+                conclusion = argument["conclusion_statement_id"]
+                if conclusion in closed or conclusion in ungrounded:
+                    continue
+                premises = argument["premise_statement_ids"]
+                if all(premise in closed for premise in premises):
+                    closed.add(conclusion)
+                    closed_via_transcription[conclusion] = {
+                        "statement_id": conclusion,
+                        "result_id": result_id,
+                        "argument_id": argument["id"],
+                        "premise_statement_ids": sorted(set(premises)),
+                    }
+                    changed = True
+        # Conclusions still waiting: each could close only through another.
+        pending = {statement for statement in concluded if statement not in closed and statement not in ungrounded}
+        if not pending:
+            break
+        dependencies: dict[str, set[str]] = {statement: set() for statement in pending}
+        for argument in [*sound_steps, *(argument for _, argument in transcription_steps)]:
             conclusion = argument["conclusion_statement_id"]
-            if conclusion not in established and all(
-                premise in established for premise in argument["premise_statement_ids"]
-            ):
-                established.add(conclusion)
-                changed = True
-        # Strength order (#1017), through each registration's proved
-        # entailment: established strong -> established weak; refuted weak ->
-        # refuted strong (contraposition). Never the reverse.
-        for entry in order:
-            strong, weak = entry["strong_statement_id"], entry["weak_statement_id"]
-            if strong in established and weak not in established:
-                established.add(weak)
-                closed.add(weak)
-                established_via_strength[weak] = entry
-                changed = True
-            if weak in refuted and strong not in refuted:
-                refuted.add(strong)
-                refuted_via_strength[strong] = entry
-                changed = True
-        for result_id, argument in transcription_steps:
-            conclusion = argument["conclusion_statement_id"]
-            if conclusion in closed:
-                continue
-            premises = argument["premise_statement_ids"]
-            if all(premise in closed for premise in premises):
-                closed.add(conclusion)
-                closed_via_transcription[conclusion] = {
-                    "statement_id": conclusion,
-                    "result_id": result_id,
-                    "argument_id": argument["id"],
-                    "premise_statement_ids": sorted(set(premises)),
-                }
-                changed = True
+            if conclusion in dependencies:
+                dependencies[conclusion].update(
+                    premise for premise in argument["premise_statement_ids"] if premise in pending
+                )
+        reach: dict[str, set[str]] = {}
+        for seed in pending:
+            reached: set[str] = set()
+            stack = [seed]
+            while stack:
+                node = stack.pop()
+                if node not in reached:
+                    reached.add(node)
+                    stack.extend(dependencies[node])
+            reach[seed] = reached
+        # Bottom components: everything a member reaches reaches it back.
+        ungrounded |= {
+            statement for statement in pending if all(statement in reach[other] for other in reach[statement])
+        }
+    # A proved conclusion is reported under rule (a), not (d).
+    for statement in proved:
+        closed_via_transcription.pop(statement, None)
 
     if _hypothesis is not None:
         probe_sourced = {claim["statement_id"] for claim in claims or []} | set(support)
@@ -1289,7 +1349,7 @@ def frontier_report(
 
     closed_statements: dict[str, str] = {}
     for statement_id in sorted(closed):
-        if statement_id in verified_conclusions:
+        if statement_id in proved:
             closed_statements[statement_id] = "proved"
         elif statement_id in floor_met:
             closed_statements[statement_id] = "self_evident"
@@ -1375,6 +1435,8 @@ def frontier_report(
                 "statement_id": statement_id,
                 "paraphrase": statement_by_id.get(statement_id, {}).get("paraphrase", ""),
                 "transcription_only": statement_id in transcription_only_conclusions,
+                # #1476: proved, but only inside an ungrounded support cycle.
+                "ungrounded_cycle": statement_id in verified_conclusions,
                 "dependent_arguments": sorted(dependents[statement_id]),
                 "transitive_dependent_arguments": all_arguments,
                 "transitive_dependent_statements": all_conclusions,
@@ -2042,6 +2104,8 @@ def format_frontier(report: dict[str, Any]) -> str:
             lines.append(f"  {item['paraphrase']}")
         if item.get("transcription_only"):
             lines.append("  open although proved: every verifying result is a transcription (invariant 16)")
+        if item.get("ungrounded_cycle"):
+            lines.append("  open although proved: every verified proof rests on an ungrounded support cycle")
         lines.append(
             f"  dependent arguments: {len(item['dependent_arguments'])} "
             f"({', '.join(item['dependent_arguments'])})"

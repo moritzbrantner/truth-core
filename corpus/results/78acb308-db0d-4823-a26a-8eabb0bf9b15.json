@@ -1,0 +1,11 @@
+{
+  "id": "78acb308-db0d-4823-a26a-8eabb0bf9b15",
+  "label": "The NECESSARY_2 GOD_4 root has the Dei Filius attributes, LIVING_1 from nine's LIVING_2",
+  "argument_id": "046e96c9-c97f-48d7-9889-c143e7e4604c",
+  "challenge_module": "TruthCore.Results.Causality.DeiFiliusLivingNineScope.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DeiFiliusLivingNineScope.Solution",
+  "theorem": "TruthCore.Results.Causality.DeiFiliusLivingNineScope.deiFiliusRootLivingFromNine",
+  "comparator_config": "results/78acb308-db0d-4823-a26a-8eabb0bf9b15/comparator.json",
+  "status": "solution-present",
+  "description": "As in result a159ecaf, the registered Dei Filius root composition (deiFiliusRoot) is applied with every input except 'Whatever HAS_INTELLECT_1 is LIVING_1', on the primitives that agree with the given ones except that their Lives is HasIntellect; that bridge then holds trivially and nothing about the given Lives is used. Its root n is the same witness. n has the nine (nineOfDeiFilius, a projection of its attribute conjuncts, none of which is Lives), so the nine-restricted life premise gives n life at some time of the duration frame (LIVING_2); n is pure act (its immutable conjunct), so the restricted sense bridge gives n LIVING_1. Every other conjunct is carried over. Against a159ecaf the universal STMT-PURE-ACT-LIVES is replaced by its weak version. Uniqueness is among actual roots at w. Conditional consequence only; no premise is established."
+}

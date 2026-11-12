@@ -3,7 +3,7 @@
   "label": "An incoming direct existential-support edge between necessary individuals from any world where the…",
   "legacy_id": "STMT-NO-NOVEL-NECESSARY-SUPPORT",
   "lean_declaration": "TruthCore.Causality.NecessarilyUnderived.NoNovelNecessarySupport",
-  "paraphrase": "An incoming direct existential-support edge between necessary individuals from any world where the source exists is already present in the actual world; the reverse direction is not required.",
+  "paraphrase": "An incoming direct existential-support edge between necessary individuals from any world where the source exists is already present in the actual world; the reverse direction is not required. Schematic in the Ontic model and support relation: results use it both generically and instantiated on the concrete subtype (concreteOntic, concreteSupport).",
   "definition_ids": [
     "a0763d0d-cd6b-5c08-a33a-f53ab8edd941",
     "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",

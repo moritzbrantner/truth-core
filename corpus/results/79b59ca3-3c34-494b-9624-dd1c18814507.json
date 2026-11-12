@@ -1,0 +1,11 @@
+{
+  "id": "79b59ca3-3c34-494b-9624-dd1c18814507",
+  "label": "J1 at the selected world, from J1",
+  "argument_id": "9758779c-62f2-40aa-8d7d-d2dd9c5d60f8",
+  "challenge_module": "TruthCore.Results.Causality.NecessarySupportActualScope.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessarySupportActualScope.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessarySupportActualScope.actualOfNoContingent",
+  "comparator_config": "results/79b59ca3-3c34-494b-9624-dd1c18814507/comparator.json",
+  "status": "solution-present",
+  "description": "J1 (every concrete supporter, at any carrier world, of a concretum necessary from w is necessary from w) gives its selected-world instance by taking the support world to be w. Registered as a strength order (J1 strengthens its instance); strictness is witnessed by Control.offWorldContingent. An instantiation, not a new derivation; no premise is established."
+}

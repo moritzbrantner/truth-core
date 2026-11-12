@@ -1,0 +1,12 @@
+{
+  "id": "acec50e1-79d5-4364-89b0-08a7690bab99",
+  "label": "Coverage, from same-supporter presence (inference)",
+  "input_statement_ids": [
+    "1f61f12c-2b5c-5871-bf56-03c65844ae30"
+  ],
+  "output_statement_id": "df42581f-5fff-4b5f-8b40-6e16d2b890f2",
+  "rule": "Direct: the supporter found elsewhere is itself present and supporting at w",
+  "meaning": "Coverage follows from the existing open premise that whatever supports a being necessary from w, at a world where it exists, also exists at w and supports it at w. Coverage is strictly weaker on its concrete domain: in the rooted-pair control coverage holds while same-supporter presence fails. Registered as a strength order (presence strengthens coverage); its existing consumer records why it needs the stronger premise. Conditional consequence only.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

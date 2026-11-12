@@ -1,0 +1,11 @@
+{
+  "id": "77fb864e-e9bb-4b52-9720-48b0c04e54d0",
+  "label": "Founded populated pasts strengthen begun populated pasts",
+  "subject_kind": "statement",
+  "subject_id": "fce4ac74-26df-4e97-909d-34865b6463dc",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "0158110b-12b7-402e-ae1f-0788a8dbfedc",
+  "verification_result_id": "7ddbe1f8-4c81-4cfd-a5dd-ec3b4ed1e3a2",
+  "note": "Same histories and populated moments; Acc replaced by a minimal moment at or below. BegunComingToBe.Control.zeno witnesses failure of the converse (GrimReaperPatchwork control 3)."
+}

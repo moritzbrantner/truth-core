@@ -164,6 +164,7 @@ meaning = "Divine veracity split in two: what a God with the classical attribute
 
 [[argument]]
 id = "NAMING-VERACITY-SINCERITY-FROM-ATTRIBUTES"
+definitions = ["DEF-GOD-OF-CLASSICAL-THEISM", "DEF-HAS-INTELLECT", "DEF-VERACITY-ASSERTION-VOCABULARY", "DEF-HAS-WILL"]
 theorem = "godAssertsOnlyWhatHeKnowsFromAttributes"
 premises = ["STMT-CLASSICAL-ATTRIBUTES-INCLUDE-PERFECT-INTELLECT-AND-GOOD-WILL"]
 conclusion = "STMT-GOD-ASSERTS-ONLY-WHAT-HE-KNOWS"

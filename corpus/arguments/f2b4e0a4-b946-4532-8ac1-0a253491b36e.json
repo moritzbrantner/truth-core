@@ -1,0 +1,48 @@
+{
+  "id": "f2b4e0a4-b946-4532-8ac1-0a253491b36e",
+  "label": "Whatever has the nine is BLESSED_2, from intellect as an exercised capacity",
+  "premise_statement_ids": [
+    "9c2a5dfe-f2f9-4d8b-9235-6a01fd108161",
+    "4728d5f4-d7a4-460c-aecc-37c6279ece9f"
+  ],
+  "conclusion_statement_id": "8f24379f-c48d-43cf-beae-c0ad89a92cb4",
+  "inference_ids": [
+    "0833d530-45b2-4c9c-bc9a-6564cd6f7034"
+  ],
+  "meaning": "Let g have the nine. Intellect and universal perfection are two of the nine; goodness as to being is the first conjunct of supreme goodness. g's intellect is a capacity to understand (first premise); that capacity is exercised or a potency to understanding (second premise, the listed POTENCY sense bridge); g is altogether immutable, in potency in no respect, so it is in act in understanding. In Lean the registered intellectualPureActOperatesFromCapacity is applied with its 'operates' read as 'is in act in understanding', so that its third premise holds trivially and is not used. Hence g is BLESSED_2. Conditional consequence; both premises stay open, and the conclusion is BLESSED_2, not BLESSED_1. Act in understanding is IN_ACT_3 (formal or virtual).",
+  "definition_ids": [
+    "39f50105-c889-4c30-b841-ce458ec8109d",
+    "00ab0133-e353-5a2e-a231-b24a5c85107a",
+    "1291944d-a8b2-54eb-899d-66bd5f8b4762",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4",
+    "7c64b499-6dba-5e03-bdf3-5acea95d8836",
+    "da5c0716-718e-5aaa-abec-95c9e93cac00",
+    "115f23e3-2a19-5dcb-bc7f-96408004f110",
+    "3ea2762f-1a85-5059-b4e7-d29f192b16b6",
+    "1d8890c0-afe2-5cdb-a400-0bbd4b79053d",
+    "d980bbd2-1a96-564c-bc0d-4065d7786715",
+    "85f7f569-ab4d-514b-aa2c-cf75171ad105",
+    "58e0de99-6199-5851-8e03-381bca0d44f0",
+    "5f851204-5991-5e16-87f1-e8b3ed729708",
+    "d0b7b32b-9dc1-426a-9949-92c0b43da663"
+  ],
+  "disambiguation_ids": [
+    "70f4f510-d488-445f-86cf-03b889507372",
+    "f561d4e4-ab8f-5d20-9926-d63a74df3b4e",
+    "205a39c3-915d-5fe4-8076-a9ff91329e08",
+    "9b16c72e-e8dc-5d69-88bf-0daf61ab2f9b",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "587c53cf-c2a8-51f6-b8c1-013e67756dc6",
+    "c0fda0ee-3508-5101-94ba-043e3eb28b0e",
+    "508617ab-cf24-5f3b-a387-64b3991359ec"
+  ],
+  "sense_bridges": [
+    {
+      "term": "POTENCY_CAPACITY_AND_POWER_ACROSS_ADOPTED",
+      "from": "02e3f1d0-4ba1-498f-b34d-40bdd348d8c4",
+      "to": "d0b17a2e-febf-45e8-9b9e-11a75b2ccbc6",
+      "statement_id": "4728d5f4-d7a4-460c-aecc-37c6279ece9f"
+    }
+  ]
+}

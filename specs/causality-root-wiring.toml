@@ -32,6 +32,7 @@ meaning = "Some concrete candidate exists at w, by the existing Round 4 capacity
 
 [[argument]]
 id = "ACTUALITY-ONLY-INSOFAR-AS-BEING-FROM-MEINONGIAN-REFUTATION"
+definitions = ["DEF-ACT", "DEF-ESSE", "DEF-SELF-EVIDENT-MARKING"]
 theorem = "actualityOnlyInsofarAsBeingFromRefutation"
 premises = ["STMT-EXCLUDED-MIDDLE", "STMT-NO-ACTUALITY-WITHOUT-BEING"]
 conclusion = "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING"
@@ -48,6 +49,7 @@ meaning = "Nothing is in act and in potency in the same respect (the Prima Via p
 
 [[argument]]
 id = "MOVED-ONLY-AS-IN-POTENCY-FROM-ASHARITE-REFUTATION"
+definitions = ["DEF-MOTION-AS-REDUCTION", "DEF-POTENCY", "DEF-RESPECT", "DEF-SELF-EVIDENT-MARKING"]
 theorem = "movedOnlyAsInPotencyFromAshariteRefutation"
 premises = ["STMT-EXCLUDED-MIDDLE", "STMT-NO-MOVED-WITHOUT-POTENCY"]
 conclusion = "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY"
@@ -56,6 +58,7 @@ meaning = "Whatever is moved in a respect is in potency in that respect, from th
 
 [[argument]]
 id = "MOVED-ONLY-AS-IN-POTENCY-FROM-COUNTERTUPLE-REFUTATION"
+definitions = ["DEF-MOTION-AS-REDUCTION", "DEF-POTENCY", "DEF-RESPECT", "DEF-SELF-EVIDENT-MARKING"]
 theorem = "movedOnlyAsInPotencyFromCountertupleRefutation"
 premises = ["STMT-EXCLUDED-MIDDLE", "STMT-NO-ACTUAL-MOVED-NOT-POTENT-COUNTERTUPLE"]
 conclusion = "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY"
@@ -64,6 +67,7 @@ meaning = "Whatever is moved in a respect is in potency in that respect, from th
 
 [[argument]]
 id = "PER-SE-MOVER-LINK-FROM-OCCASIONALIST-REFUTATION"
+definitions = ["DEF-PER-SE-EFFICIENT-CAUSE-LINK", "DEF-PER-SE-ORDERED-SERIES", "DEF-SELF-EVIDENT-MARKING"]
 theorem = "perSeMoverLinkFromOccasionalistRefutation"
 premises = ["STMT-EXCLUDED-MIDDLE", "STMT-NO-OCCASIONALIST-MOVER-LINK-WITHOUT-CAUSE"]
 conclusion = "STMT-PER-SE-MOVER-LINK-IS-PER-SE-CAUSE-LINK"
@@ -72,6 +76,7 @@ meaning = "Every per se mover link is a per se cause link, from the conclusion o
 
 [[argument]]
 id = "COGITO-THOUGHT-OCCURS-FROM-RETORSION"
+definitions = ["DEF-PERFORMED-DOUBT-OF-THOUGHT", "DEF-SELF-EVIDENT-MARKING", "DEF-THOUGHT-OCCURRENCE"]
 theorem = "thoughtOccursFromRetorsion"
 premises = ["STMT-EXCLUDED-MIDDLE", "STMT-COGITO-DOUBT-IS-PERFORMED", "STMT-COGITO-PERFORMED-DOUBT-OF-THOUGHT-SELF-REFUTING"]
 conclusion = "STMT-COGITO-THOUGHT-OCCURS"

@@ -1,0 +1,9 @@
+{
+  "id": "431287d4-f1b4-4e18-ad6e-555f49f1e39a",
+  "label": "Power of knowing bounded by a degree: the intellect knows nothing above that degree",
+  "term": "power of knowing bounded by (Lean `ComprehensionByMeasure.PowerOfKnowingBoundedBy`)",
+  "definition": "PowerOfKnowingBoundedBy M x p: for every y and degree d, if x knows y at d (KnowsAt, definition 5b196f1c) then d is at most p. Defined, not primitive. It bounds x's actual knowings; it is not modal (it does not quantify over what x could know), which is the weakest bound the derivation of 'No intellect that is not INFINITE_1 comprehends an INFINITE_1 being' needs. Example: in the nonvacuity model of ComprehensionByMeasure, each being's degree of act bounds its power of knowing. Counterexample: a being that knows something at the maximal degree has no non-maximal bound. 'Finite power of knowing' (q.12 a.7) is read in its weakest form, as a bound that is not maximal; a quantitative finiteness (fewer than infinitely many degrees) is not typed.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.ComprehensionByMeasure.PowerOfKnowingBoundedBy",
+  "note": "Analyst definition, attribution deferred. Q.12 a.7 speaks of the created intellect's power of knowing, raised by the light of glory, as finite; this definition types only that the knowing is bounded."
+}

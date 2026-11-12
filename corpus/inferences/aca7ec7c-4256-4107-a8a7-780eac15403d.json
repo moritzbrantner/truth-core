@@ -1,0 +1,12 @@
+{
+  "id": "aca7ec7c-4256-4107-a8a7-780eac15403d",
+  "label": "Creator of all being IMMENSE_1 gives IMMENSE_2 being IMMENSE_1 (inference)",
+  "input_statement_ids": [
+    "c7c32f20-2637-4497-8053-f259d02aa922"
+  ],
+  "output_statement_id": "8bf775e9-34e0-48e5-bdd8-f48edd1040f7",
+  "rule": "Weakening of the antecedent: IMMENSE_2 contains creator of all as a conjunct",
+  "meaning": "Strength order registration: the old bridge (whatever causes the being of everything else is IMMENSE_1) entails the new sense bridge, since whatever is IMMENSE_2 causes the being of everything else. Projection and application only; it establishes neither.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

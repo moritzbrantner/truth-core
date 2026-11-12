@@ -1,0 +1,14 @@
+{
+  "id": "4365c3c5-d39b-405c-97a9-a4f7e43c628f",
+  "label": "In every possible history, each moment with a contingent thing present has a metrically finite past",
+  "paraphrase": "OPEN analyst premise, attribution deferred: for the supplied real time clock, in every history accessible from the selected world, every moment at which some contingent concrete individual is present has a metrically finite past (the clock readings of the moments at or before it are bounded below). It denies the metrically infinite case of horn H2 (an endless succession of days before a populated moment) wherever a contingent concrete thing is present; histories with no contingent concrete thing present are unconstrained. It does NOT say the past has a beginning: a populated past that is metrically finite and open below, as in standard FLRW cosmology (the initial singularity is not a moment), satisfies it, and so does continuous time with a first moment. In linear time it is implied by begun populated pasts. Metric finiteness is read on the supplied clock: the Lean type allows any order-preserving real coordinate (CLOCK_2); the intended reading is the physically privileged duration (CLOCK_1), under which an FLRW past is finite. A real clock exists only for time orders embedding in the reals. One clock serves every world of the frame. It mentions no cause. 'Concrete' is the supplied Concrete parameter.",
+  "lean_declaration": "TruthCore.Causality.MetricGrimReaper.PopulatedPastsMetricallyFinite",
+  "definition_ids": [
+    "3b803aa6-c863-4edf-9d10-59ede70c8140",
+    "7c05f92b-907d-4c9b-b219-fc4054c9912b",
+    "375676b0-a295-4a17-a9e4-3db23319d517",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e",
+    "008cb21a-256c-5a90-822c-acd4591d699a"
+  ]
+}

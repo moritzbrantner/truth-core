@@ -1,0 +1,20 @@
+{
+  "id": "e06005f5-e384-4c3d-9a73-4be8f44e5e04",
+  "label": "Inert emptiness from traced nothing-from-nothing",
+  "premise_statement_ids": [
+    "e6a1ac3c-6a3b-484f-a638-edb8af4f92be"
+  ],
+  "conclusion_statement_id": "395cb0f6-0352-47b1-8996-918468cc716a",
+  "inference_ids": [
+    "cf37cc1b-b494-4cd4-bfb8-576133ae27ff"
+  ],
+  "meaning": "Strength order between two statements over the same History carrier, Concrete predicate and preorder of times: the traced form puts a concrete thing at every moment strictly earlier than a populated moment, which contradicts concrete-emptiness there. The grounding parameter is dropped. The converse fails in control 5. Registered as a strength order, so the frontier does not count it as a support route; the composed derivation below carries the support. No premise is established.",
+  "definition_ids": [
+    "1345e373-a92a-43ab-a6d0-84d7f8f0338e",
+    "1f4f5228-45e8-4e5d-beda-e918c5808ec0",
+    "4def9a83-f8e7-4675-84f8-532c7ef946f5",
+    "8d6ba7f7-5db7-417e-a32e-69383a615519",
+    "9c097ca8-c5e0-4cdf-90e6-8f84058afd74",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e"
+  ]
+}

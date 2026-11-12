@@ -1,0 +1,12 @@
+{
+  "id": "432d2cbd-6987-4b6e-9c0c-5fc531fae9a7",
+  "label": "Every pure act operating strengthens whatever has the nine operating",
+  "subject_kind": "statement",
+  "subject_id": "45030701-91da-588f-b602-dca6c15e761a",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "8f93d9cc-989e-4b96-9e6c-e7e819f28545",
+  "verification_result_id": "e506a21c-751b-4053-ba4f-a6c7798b35c3",
+  "strictness_result_id": "64165d34-9103-4fbf-8d6a-0421768baf91",
+  "note": "Same InPotency and Operates. The strong version constrains every pure act; the weak one only pure acts that also have the other eight of the nine (including intellect and will). Control.Controls part 1: an inert pure act without intellect satisfies the weak version and falsifies the strong one."
+}

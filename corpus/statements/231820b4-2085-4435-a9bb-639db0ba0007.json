@@ -1,0 +1,17 @@
+{
+  "id": "231820b4-2085-4435-a9bb-639db0ba0007",
+  "label": "No non-INFINITE_1 intellect COMPREHEND_2s an INFINITE_1 being",
+  "paraphrase": "Derived conditional bridge (its premises remain open), analyst formulation, attribution deferred. For every g and x: if g is INFINITE_1, x has intellect (HAS_INTELLECT_1) and x is not INFINITE_1, then x does not COMPREHEND_2 g (ComprehendsByMeasure, definition 1218cc1e: x knows g at no degree that reaches g's knowability). The COMPREHEND_2 sibling of 'No intellect that is not INFINITE_1 comprehends an INFINITE_1 being' (COMPREHEND_1). Derived (finiteIntellectDoesNotComprehend2Infinite) from maximal knowability of the INFINITE_1 and the non-maximal power of non-INFINITE_1 intellects by transitivity of the order: from knowability g <= d <= p with knowability g maximal, p would be maximal. It says nothing about whether x knows g truly (q.12 a.7 ad 1) and allows g to COMPREHEND_2 itself (Control part 1).",
+  "lean_declaration": "TruthCore.Causality.ComprehensionByMeasure.FiniteIntellectDoesNotComprehend2Infinite",
+  "definition_ids": [
+    "1d8890c0-afe2-5cdb-a400-0bbd4b79053d",
+    "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4",
+    "5b196f1c-210d-450e-b3f1-33e214f9f45d",
+    "1218cc1e-e6ef-4f27-9036-d6e28cae67ad"
+  ],
+  "disambiguation_ids": [
+    "587c53cf-c2a8-51f6-b8c1-013e67756dc6",
+    "c0fda0ee-3508-5101-94ba-043e3eb28b0e",
+    "e151d506-c074-4e5d-a0f9-e9c51f1a73d7"
+  ]
+}

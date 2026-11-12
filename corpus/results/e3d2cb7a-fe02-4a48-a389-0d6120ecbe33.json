@@ -1,0 +1,12 @@
+{
+  "id": "e3d2cb7a-fe02-4a48-a389-0d6120ecbe33",
+  "label": "The esse of every CREATURE_1 is received, sense-fixed, by instantiation",
+  "argument_id": "0ff5d4a7-9be2-4bc8-a873-dc36b8947a6b",
+  "challenge_module": "TruthCore.Results.Causality.CreatureSenses.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CreatureSenses.Solution",
+  "theorem": "TruthCore.Results.Causality.CreatureSenses.creature1EsseIsReceivedAtCreature1",
+  "comparator_config": "results/e3d2cb7a-fe02-4a48-a389-0d6120ecbe33/comparator.json",
+  "status": "solution-present",
+  "description": "Transcription by instantiation: the Creature-parametric q.7 a.2 reading 'The esse of every CREATURE_1 is received in some principle', instantiated at the CREATURE_1 constant, is its sense-fixed sibling. It adds no content and is not progress on its own; the sense-fixed statement stays exactly as open as the legacy one.",
+  "transcription": "instantiation"
+}

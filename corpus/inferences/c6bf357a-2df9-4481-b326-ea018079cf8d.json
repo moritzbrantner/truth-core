@@ -1,0 +1,12 @@
+{
+  "id": "c6bf357a-2df9-4481-b326-ea018079cf8d",
+  "label": "A cause of being that has what it gives has being (inference)",
+  "input_statement_ids": [
+    "d0fc96b7-fd2d-504e-912f-925de3b1e6ed"
+  ],
+  "output_statement_id": "4ccb319f-9b7e-41fd-a560-d4affa25816b",
+  "rule": "Instantiate at the perfection esse, which the cause of being causes",
+  "meaning": "Strength order registration: a cause of x's being has every perfection it causes in x, and it causes x's being, so it has being. Application only; it establishes neither. Strictness: control 14.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

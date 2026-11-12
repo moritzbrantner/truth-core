@@ -1,0 +1,9 @@
+{
+  "id": "08dbac03-1f78-4db0-a112-c831357704c8",
+  "label": "Well-founded present concrete support at every world",
+  "term": "well-founded present concrete support at every world",
+  "definition": "EveryWorldGroundingWF m holds when, at every world v, the selected relation at v restricted to concrete candidates existing at v is well-founded (ActualGroundingWF m v). Ordinary meaning: within any one possible world there is no circle and no endless descent of sustaining among the concrete things there. It says nothing about how support at one world relates to support at another.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.NecessarySupportCoverage.EveryWorldGroundingWF",
+  "note": "Analyst definition of a candidate discriminator for J2 (STMT-CONCRETE-NECESSARY-UNION-WF); attribution deferred. Used only in the controls of the NecessarySupportCoverage batch, which show that it does not yield J2 or the join's endpoint, even together with the negation of the mutual-support rival."
+}
