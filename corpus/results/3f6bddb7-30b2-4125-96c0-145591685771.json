@@ -1,0 +1,11 @@
+{
+  "id": "3f6bddb7-30b2-4125-96c0-145591685771",
+  "label": "Begun populated pasts give metrically finite populated pasts",
+  "argument_id": "f7c9ec74-95b2-4b6b-8ae8-b1ed5ed75dfa",
+  "challenge_module": "TruthCore.Results.Causality.MetricGrimReaper.Challenge",
+  "solution_module": "TruthCore.Results.Causality.MetricGrimReaper.Solution",
+  "theorem": "TruthCore.Results.Causality.MetricGrimReaper.populatedPastsMetricallyFiniteOfBegun",
+  "comparator_config": "results/3f6bddb7-30b2-4125-96c0-145591685771/comparator.json",
+  "status": "solution-present",
+  "description": "Strength order (linear time, any real clock): a past with a beginning is metrically finite, since in linear time the minimal moment lies at or before every moment and the clock is monotone. The converse fails in an open-below finite past (MetricGrimReaper control 2: positive real times, every populated past metrically finite, not every one begun). So founded, begun and metrically finite populated pasts form a strictly descending strength chain in linear time. No premise is established."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "c29f7ace-0612-42f3-80c3-c5f689002e67",
+  "label": "Begun populated pasts strengthen metrically finite populated pasts",
+  "subject_kind": "statement",
+  "subject_id": "0158110b-12b7-402e-ae1f-0788a8dbfedc",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "4365c3c5-d39b-405c-97a9-a4f7e43c628f",
+  "verification_result_id": "3f6bddb7-30b2-4125-96c0-145591685771",
+  "note": "Linear time, any real clock. Strict: MetricGrimReaper control 2 (positive reals) has metrically finite, beginningless populated pasts."
+}
