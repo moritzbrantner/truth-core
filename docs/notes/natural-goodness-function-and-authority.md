@@ -1294,7 +1294,10 @@ before treating this provisional synthesis as reviewed support.
 
 ## Reasons and standing: symmetric authority test (#1508, 2026-11-12)
 
-**Complete proposed outcome for parent semantic challenge; unreviewed.** Shared
+**Complete proposed outcome for parent semantic challenge.** The parent reports a
+scoped challenge pass on the earlier claimant-substitution comparison, with the
+patient/demander/addressee and representation repairs retained below. That pass
+does not cover the new guardian/stranger findings, which remain **unreviewed**. Shared
 semantic baseline: current fetched main
 `f9df3e2f7caf5fca6b31a465cbff5e655fedc394`. The assignment map in #1571
 was audited at `d98066db300d5b02c2062c2a55d622a237ace49b`; its #1508 brief
@@ -1402,7 +1405,7 @@ is feasible and harms nobody; no competing rescue or justificatory defense is
 present. These augmentations are stipulated for this test, not read out of
 `HardCases`. Hold the injury, benefit to the offender and normative reason
 against injury fixed. Compare the patient, an unappointed but perfectly informed
-adviser, a warranted representative of an incapable patient, and a purported
+adviser, a putative representative of an incapable patient, and a purported
 creator's messenger. These are prose comparisons, not certified finite models.
 
 The adviser's correctness supplies an epistemic reason to listen; it does not
@@ -1412,8 +1415,10 @@ project denies protection precisely to its bearer. That rationale favors
 patient-directed protection but needs the normative premise that such interests
 constrain another's agency. Competence alone is not enough: an infant's inability
 to demand cannot itself settle whether the infant has a right. Representation
-requires authorization or a justified protective role; loud protest or concern
-alone supplies neither. The messenger additionally needs a true commission and
+requires an account of authorization or a justified protective role. Specify
+appointment, competence, protective responsibility and emergency circumstances
+before deriving it. An unappointed stranger might have moral-community standing
+or emergency authority; lack of appointment excludes neither by itself. The messenger additionally needs a true commission and
 rightful source jurisdiction. Offender indifference changes none of these
 stipulated facts and supplies no refutation of their normative force.
 
@@ -1421,6 +1426,12 @@ The realist can supply a basic patient-right norm covering the infant; natural
 goodness can supply a due-care/justice norm; divine natural law can supply a
 participatory justice norm plus jurisdiction. Each can thereby offer the *same*
 patient-directed protection without agreement about its deeper explanation.
+That may mean performance is owed to the patient; it does not yet establish
+Darwall-style authority to demand accountability. Distinguish the beneficiary
+and claim-holder, the authorized demander (possibly acting on the patient's
+behalf), and the accountability addressee. Their roles are not equivalent by
+definition. The infant does not instantiate competent-victim proposition
+`681f5b58`; its claim and any representative authority need separate warrant.
 Conversely, a reasons-only account may affirm decisive abstention while leaving
 claimant identity undetermined. This is an explanatory omission only if the
 account advertises directed obligation, not a contradiction in its reasons.
@@ -1495,3 +1506,152 @@ distinct verified support alternatives: 373 -> 373
 verified support alternatives added: 0
 no change
 ```
+
+
+### Next discriminating test: conflicted guardian and protective stranger
+
+**New complete proposed outcome; awaiting independent parent challenge.** This
+continues the same #1508 question, not #1572 or grounding work. Everything in
+this section is an analyst reconstruction and defeasible warrant assessment;
+no historical attribution, formal countermodel or verified consequence is added.
+
+#### Descriptive control and exact objects of assessment
+
+Keep the same incapable infant P, informed adult offender O and threatened
+serious injury fixed. O intends the injury for amusement; P cannot understand,
+consent, waive or issue a demand. Abstention is feasible without cost or injury
+to anyone. O has not yet injured P. Neither P's incapacity nor the identity of
+the speaker changes the bodily loss at issue. The earlier stipulated normative
+reason against injury remains a controlled assumption, not a conclusion derived
+from these descriptive facts.
+
+G is recorded as P's guardian in the community's appointment procedure, which
+assigns care, speaking in proceedings, and decisions about treatment. This is
+an institutional fact, not the stipulation that the procedure is morally valid
+or that every act within its recorded scope is rightful. G understands the
+threat and can communicate a demand. O has promised G a substantial payment
+if G suppresses objection. G therefore tells O to proceed and purports to waive
+P's complaint. G's conflict means this specific financial incentive opposed
+to preventing P's injury; it does not mean incompetence or prior loss of office.
+
+S has no appointment, familial tie, commission or prior undertaking to P. S
+observes the threat accurately, understands the available options, and can
+communicate and safely interrupt it. The injury will occur before an ordinary
+hearing or a replacement guardian can arrive; immediate interruption prevents
+it without further injury. These are the emergency timing and competence facts.
+“Protective” describes S's intended interruption, not a warranted fiduciary
+office or demand entitlement. S says to O: stop injuring P. No law, majority
+agreement, divine direction or institution's moral legitimacy is assumed.
+
+Keep three roles apart: P is the candidate beneficiary/claim-holder; G or S
+is a candidate speaker demanding on P's behalf; O is the addressee being called
+to account. A second question concerns to whom O must later give an account
+(P through a speaker, a tribunal, the community, or God). Identifying O as the
+initial addressee does not settle that further forum or oblige O personally
+to answer every speaker. Nothing makes P an instance of the competent-victim
+statement `681f5b58-90e7-5379-bc29-8ca3b2d9feab`.
+
+Assess four separate matters: (a) P's right against O, (b) G's or S's authority
+to make an accountable demand on P's behalf, (c) power to waive or settle P's
+claim, and (d) permission/power to interrupt now or impose later enforcement.
+For (d), emergency prevention, restitution and punishment are separate acts.
+Being justified in preventing injury need not make one a judge or confer a
+power to extinguish another's claim. Agreement that O must abstain resolves
+none of (b)–(d) by itself.
+
+#### Positive reconstructions and their warrant burdens
+
+| Account | Patient right | Speaker's demand authority | Waiver and enforcement powers |
+|---|---|---|---|
+| Rights-enriched robust realism | A basic norm protects vulnerable patients against gratuitous injury regardless of their capacity to assert rights. Its proposed grounds are the seriousness of injury, equal consideration and the arbitrariness of making protection depend on articulacy. These support a prima facie claim; the norm remains substantive and contestable. | A further fiduciary norm can make appointment presumptive evidence of an office while limiting conflicted exercises; a general moral-community or emergency norm can authorize S to demand cessation for P. Neither follows merely from accuracy. The realist must specify whether S has representative authority or only general standing to protest. | G's office may cover treatment yet exclude sacrificing P for G's payment. A non-waivability or fiduciary-limit norm must defend that exclusion. A necessity/proportionality norm can permit S's harmless interruption without authorizing settlement, punishment or an unrestricted coercive jurisdiction. |
+| Natural goodness and justice | Infant vulnerability, dependence and bodily integrity supply the good to protect; a justice norm makes that good owed to P. Inability to deliberate does not remove membership in the protected human community on this reconstruction. A function account alone still does not establish the justice norm. | Care roles serve the dependent's good; G's incentive defeats the proposed rationale for this waiver. Practical justice can assign immediate protective responsibility to a capable observer when delay defeats care. Why this responsibility includes demand authority, rather than only a duty to assist, remains a separate burden. | A role ordered to care can constrain discretion by P's good, making self-enriching waiver defective under that principle. Rescue may be permitted without transferring guardianship or disposal of P's rights. The account must defend these role limits and the priority of P's good against G's contrary ends. |
+| Divine/authorial natural law | P's due good and dignity within wise creation propose a basis for protection. The account must connect those goods to O's duty and P's right; divine ownership is not a substitute for the connection. | Just governance may recognize care offices and emergency protective duties. Appointment's legitimacy, fiduciary limits, and the scope of any general commission require normative warrant. No revelation or messenger is stipulated in this case; a claimed commission supplies no shortcut. | Divine justice can limit human waiver and sanction self-serving guardians, and authorize proportionate protection. Why a human speaker may exercise each power, and before which forum O must answer, still requires specification. Creation, omnipotence or a general good purpose does not by itself allocate the human powers. |
+
+These are affirmative candidate replies, not established doctrines of every
+realist, natural-goodness theorist or theist. Each can locate these distinctions
+inside one richer basic normative package. No demand is made for an indefinitely
+prior proof of every norm. The warrant question concerns the package's actual
+content, supporting considerations and defeaters. For divine jurisdiction,
+“distinct justificatory burden” means a further claim requiring reasons to
+accept it; it does **not** mean a logically independent axiom or a normative
+foundation necessarily external to God. A constitutive account of divine
+justice may offer internal warrant. Its integration must still explain why
+the particular jurisdiction and delegation claims follow under that account.
+
+#### What discriminates, and what this test cannot decide
+
+The proposed fiduciary rationale is substantive: an office charged with caring
+for P is undermined in this exercise when its holder trades prevention of P's
+injury for personal payment. This gives a reason to reject G's particular
+waiver without assuming that all appointments are void, all conflicts remove
+office, or every unconflicted choice is correct. A procedural rival can insist
+that public settlement rules preserve G's legal power until removal, even
+where its exercise is morally wrongful. That reply preserves a distinction
+between institutional efficacy and moral permission; a rule making the waiver
+legally effective would not yet answer whether O is morally released. There
+is no asserted legal finding in this hypothetical.
+
+S's strongest case combines P's otherwise unprotected interest, accurate
+knowledge, safe feasible prevention and the impossibility of timely ordinary
+review. Under a protective-responsibility principle, requiring appointment
+before any interruption would sacrifice the very interest the procedure is
+proposed to protect. This is a positive reason for an emergency exception,
+not proof that beneficial consequences always override procedure. Its limit
+is the immediate threat and absence of another timely protector; it need not
+license later adjudication. A critic may accept S's permission or obligation
+to intervene while denying that O owes S an account. That is a surviving rival
+about demand authority, not indifference to P. A general moral-community norm
+could give S such authority even without the emergency; this case alone cannot
+choose between that broad basis and emergency-specific authorization.
+
+Hence the test pressures **appointment alone as an exhaustive moral criterion**
+for all four matters, under the stated fiduciary/protective principles. It does
+not refute appointment as a source of limited authority. Nor does it establish
+S as P's authorized demander by stipulation. G could retain authority to issue
+a valid protective demand despite the conflict while lacking permission for
+this waiver; S could lack representative authority while possessing a rescue
+permission. Those possibilities defeat any inference from “G is conflicted”
+to “all G's standing is gone” or from “S is right” to “all G's powers transfer.”
+The descriptive setup alone does not prove the normative judgments.
+
+**Provisional judgment for challenge:** the best-supported local direction is
+patient protection with power-specific fiduciary and emergency limits, rather
+than treating either appointment or accuracy as sufficient for the entire
+bundle. The reasons are the mismatch between self-enriching waiver and the
+care function, and the avoidable sacrifice caused by withholding immediate
+protection pending procedure. These are defeasible reasons conditional on
+protective justice, not an inference to the truth of a metaphysics. The strongest
+richer realist rival remains basic patient rights plus fiduciary, general
+standing and emergency norms. It offers a positive explanation of each power
+without a divine lawgiver; no accepted floor conflict has been identified.
+Natural-goodness and divine accounts can offer parallel limits with distinct
+deeper explanations. Shared abstention and protective verdicts therefore supply
+no standing-based discriminator between their metaphysical explanations.
+
+Reopening conditions: credible reasons that the appointment procedure confers
+morally effective waiver despite this conflict; an account distinguishing
+non-waivable protection from genuinely beneficial settlement; or a defense
+that S's directed demand creates an obligation of answerability beyond S's
+permission to rescue. These would change the relevant power assessment, not
+retroactively instantiate the competent-victim theorem.
+
+#### Next test and connection boundary
+
+The next discriminating question removes only the emergency: keep the same
+patient, offender, injury, speaker knowledge and guardian conflict, but provide
+a timely independent tribunal able to stop the injury. Ask whether S may still
+demand O's account personally, merely petition the tribunal for P, or intervene
+only if that process fails. This separates a general moral-community basis
+from an emergency-specific one while allowing institutional legitimacy and
+patient representation to be defended on their own merits. That further warrant
+investigation belongs to parent allocation; it is not answered by this case.
+
+The present slice resolves the requested controlled comparison as a complete
+conditional analysis and identifies the next contested inference. It does not
+resolve actual representative standing or register a new support edge. The
+#1460/#371 governance and GOD_4 identification bridges remain **OPEN**. No
+new theorem, sense, source claim or frontier discharge is asserted. Parent
+challenge must examine this entire new section, especially the fiduciary
+rationale, emergency/demand distinction and comparative judgment, before those
+findings are relied on as reviewed support. The earlier scoped pass cannot
+be inherited by this extension.
