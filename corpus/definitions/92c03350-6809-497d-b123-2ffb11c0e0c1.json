@@ -1,0 +1,9 @@
+{
+  "id": "92c03350-6809-497d-b123-2ffb11c0e0c1",
+  "label": "Creator of all, weakest reading: causes the being of everything else that is in act as to being",
+  "term": "creator of all (creator caeli et terrae; Lean `IsCreatorOfAll`)",
+  "definition": "IsCreatorOfAll InAct CausesIn esse g: for every x other than g that is in act as to being, g causes x's being (CausesIn g x esse). Example: on the stage-two route, the supremely good root (IsSupremelyGood includes causing every perfection of everything else). Counterexample: a craftsman, who causes a form in a material whose being he does not cause. Distinct from creation in the full sense, which adds production from no presupposed subject, freedom, and (for Dei Filius ch. 1's anathemas) a beginning; none of these is encoded.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.DeiFiliusAttributeField.IsCreatorOfAll",
+  "note": "Analyst reading, attribution deferred. 'Heaven and earth' is read as everything else in the Being domain. The predicate is the esse instance of CausesEveryPerfectionOfOthers, so it follows by definition from IsSupremelyGood; that is a consequence of how the case defines supreme goodness (DEF-SUPREMELY-GOOD), not an independent warrant for creation. Structural properties: no transitivity, asymmetry or uniqueness is built in."
+}

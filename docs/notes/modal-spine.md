@@ -491,7 +491,7 @@ All fourteen models are conjuncts of `SpineRivalsAttributes.controls`.
 | Subsistent being is infinite | A finite subsistent being | `firstMoverPerfectionFromInfinity` | Formal alternative. No justification on file. The dispute lies upstream, at `STMT-ESSE-LIMITED-ONLY-THROUGH-RECEPTION`, which both derivations use. | Aquinas q.7 a.1. Two derivations. |
 | The immutable is eternal | Immutable without eternity | `godIsEternal` | Formal alternative. Leads, unread and unverified: Shoemaker on time without change; the everlasting-God view (Wolterstorff). | Aquinas q.10 a.2. One derivation. |
 | "God" names the fully described principle | The full nominal naming fails | `properDescriptionExcluded` | Partial. The rival is derived (verified, argument `a9b8530b`) from the practice-use thesis WF-P1 plus two further open premises (proper application preserved by practice reference; a satisfier of the full description exists). WF-P1 is an unattributed reconstruction that Phillips's reported remark supports but does not state (claim `SEP-RELIGIOUS-LANGUAGE-4-1-PHILLIPS-NO-OBJECT-A`, secondhand). | No claim. Four arguments: one from the reduced-description premise alone, two through GOD_2 and GOD_3 bridges, and a GOD_1 transcription. |
-| The nine attributes suffice for the classical attributes | The nine attributes fall short | `ClassicalAttributes.godHasClassicalAttributes` | No substantive objection identified. Warrant gap: the premise is a stipulated bridge to the primitive `HasClassicalAttributes` field with no derivation. Dei Filius ch. 1 (claim `VATICAN-I-DEI-FILIUS-CH1-ONE-TRUE-LIVING-GOD`) motivates the premise; that the corpus has not derived its further members (almighty, immense, incomprehensible) from the nine is not evidence that they fail. | No claim states it; motivated by Dei Filius ch. 1. No derivation. |
+| The nine attributes suffice for the classical attributes | The nine attributes fall short | `ClassicalAttributes.godHasClassicalAttributes` | No substantive objection identified, to the premise or to the bridges that now derive it (one interpretation dependence, below). Since 2026-11-12 the premise is no longer a bare stipulation: the classical attributes are defined from Dei Filius ch. 1 (`DeiFiliusAttributes`, see [the Dei Filius attributes](#stage-two-the-dei-filius-attributes)) and the premise is derived from a field interpretation plus seven named bridges. | No claim states it or any of its bridges; motivated by Dei Filius ch. 1 (claim `VATICAN-I-DEI-FILIUS-CH1-ONE-TRUE-LIVING-GOD`). One derivation (`classicalAttributesSufficeOfDeiFilius`) from open premises. |
 
 **Where stage two is contested.** Of the 24 rows, none has a fully substantive
 objection. Seven have partial support on file, each with a named open bridge:
@@ -505,14 +505,66 @@ the open question is warrant, not objection. The Plotinian objection would be
 the most consequential if its sense bridge held, since it would then target the
 joint conclusion of simplicity and intellect, not one bridge. On the warrant
 side, no root or act-of-being premise is stated by a sourced claim. Twelve of
-the fourteen attribute premises are, and every stage-two premise except
-sufficiency has at least one derivation from other open premises.
+the fourteen attribute premises are, and every stage-two premise has at least
+one derivation from other open premises (sufficiency since 2026-11-12).
 
 The four bare-negation rivals (will, infinity, eternity, sufficiency) get no
 typed vocabulary. For will, infinity and eternity no replacement account with
 independent justification is on file, so typing one would add a placeholder.
-For sufficiency the gap is the undefined field, and the next step is to define
-it, not to type a rival.
+For sufficiency the gap was the undefined field; it is now defined (below), and
+the rival "the nine fall short" becomes, conjunct by conjunct, the denial of
+one named bridge.
+
+### Stage two: the Dei Filius attributes
+
+`TruthCore/Causality/DeiFiliusAttributeField.lean` defines the classical
+attributes as `DeiFiliusAttributes`, one field per attribute that Dei Filius
+ch. 1 confesses (DS 3001; goodness from DS 3002), as recorded in claim
+`VATICAN-I-DEI-FILIUS-CH1-ONE-TRUE-LIVING-GOD`. The primitive
+`Signature.HasClassicalAttributes` stays (the skeleton is frozen); the open
+**field interpretation** `FieldFromDeiFilius` says whatever has every Dei
+Filius attribute has the field. It is strictly weaker than the old sufficiency
+premise (`fieldOfSuffice`, checked but deliberately not registered, since as an
+argument it would close a support cycle; strictness by `Control.Controls`).
+Analyst readings, attribution deferred; weakenings are stated in the
+definition record (`edcfac86`). *Verus* is not an attribute: it is the
+`IsGod` predicate (GOD_4) of which the attributes are confessed.
+
+| Dei Filius | Typed as | At any being with the nine (`nineGiveDeiFilius`) | At the spine's root (`deiFiliusRoot`) |
+|---|---|---|---|
+| unus, una singularis | `IsTheOneGod` | one of the nine | one of the nine |
+| vivus | primitive `Lives` (DEF-LIVING) | open bridge: whatever has intellect lives (q.18 a.3) | same bridge |
+| creator caeli et terrae | `IsCreatorOfAll`: causes the being of everything else (no creation from nothing) | derived: unfolds supreme goodness | derived |
+| Dominus | primitive `IsLord` | open bridge: creator of all is lord (q.13 a.7) | same bridge |
+| omnipotens | `IsAlmighty` (Power vocabulary) | from infinity by the existing `STMT-INFINITE-ACT-HAS-INFINITE-POWER` (itself derived from three open premises) | same |
+| aeternus | `Eternal` | one of the nine | one of the nine |
+| immensus | primitive `Immense` | open bridge: creator of all is immense (q.8 a.1-2) | same bridge |
+| incomprehensibilis | primitive `Incomprehensible` | open bridge: the infinite is incomprehensible (q.12 a.7) | same bridge |
+| intellectu ac voluntate omnique perfectione infinitus | `HasIntellect`, `HasWill`, `IsPerfect`, `Infinite` (weaker: infinity of intellect and will as such untyped) | four of the nine | four of the nine |
+| simplex omnino, incommutabilis | `IsSimple`, `IsImmutable` | two of the nine | two of the nine |
+| substantia spiritualis | `IsSpiritual`: not matter-form composed (substance untyped) | derived: simplicity and the q.3 a.7 matter-form clause | derived: the root excludes matter-form composition |
+| re et essentia a mundo distinctus | `RemoteFromAll` (no non-identity with the world as a whole, no essential distinctness) | open bridge: creator of all is a component of nothing (q.3 a.8) | derived: the root is remote from all |
+| beatissimus | primitive `MostBlessed` | open bridge: the perfect intellectual is most blessed (q.26 a.1) | same bridge |
+| super omnia excelsus | `IsMaximumIn` at being (not exceeded; weaker than exceeding all) | goodness-is-actuality plus open bridge: excess in being is excess in act (q.4 a.2) | derived: the root is maximal in being |
+| bonitate sua (DS 3002) | `IsSupremelyGood` | one of the nine | one of the nine |
+
+So the warrant gap of the sufficiency premise is now an exact list: the field
+interpretation, seven new bridges and the existing infinite-power premise in
+general (goodness-is-actuality and the q.3 a.7 premise are already on the
+route), or five new bridges and the infinite-power premise at the root (where
+`classicalRootOfDeiFiliusRoot` recovers the old endpoint from the new one and
+the field interpretation). The controls show each of nine premises of
+`nineGiveDeiFilius` is needed there. Objection audit: none of the bridges or
+the field interpretation has a substantive objection on file. Against the
+no-component bridge, the world-soul or pantheist position has only the unread
+Spinoza lead already recorded for `STMT-NO-COMPONENT-IS-FIRST-BEING`. The
+excess-in-act bridge has an interpretation dependence from the quarta via's own
+picture of more and less in one perfection: with a binary `InAct` it holds only
+if respects separate grades. That bears on its reading, not its truth, and the
+bridge is not used at the root. Warrant audit: no claim states any bridge; each
+cites the Summa article giving its reason, unread into a pinned claim. The
+field interpretation is the field's documented intended meaning, a stipulation
+about a primitive. See the [attempt](../../corpus/attempts/b93ce632-5793-4bdf-a79f-b52fa1abc907.json).
 
 ### Foundational-warrant targets
 
@@ -626,6 +678,12 @@ conditional investigations, not a mandatory first gate:
    (Welchance), ungrounded and uncaused (Schaffer), concurrent sustenance and
    `m.grounds` (Schmid), and ability and simple priority (Aristotle's aporia).
    Third, define the classical-attributes field from Dei Filius ch. 1, so that
-   sufficiency has a warrant beyond stipulation or can fail by derivation. The
+   sufficiency has a warrant beyond stipulation or can fail by derivation. Done
+   (2026-11-12, [the Dei Filius attributes](#stage-two-the-dei-filius-attributes)):
+   sufficiency is derived from the field interpretation and seven named bridges
+   (five at the root) plus existing premises. Next for it: typed content for the five primitives (life
+   without change, dominion, presence and place, created intellects and
+   knowability, beatitude), a world term for non-identity with the world, and
+   whether the respects of `InAct` separate grades of being. The
    sixteen formal-alternative rows need a read source before they carry any
    weight; until then they show only where each premise is needed.

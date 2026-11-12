@@ -1,0 +1,11 @@
+{
+  "id": "5b9e5ba6-212f-4f4d-a9d5-a5555c7614af",
+  "label": "The NECESSARY_2 classical GOD_4 root, from the Dei Filius root and field",
+  "argument_id": "b288856d-bc66-4886-9a7c-338fb019f12d",
+  "challenge_module": "TruthCore.Results.Causality.DeiFiliusAttributeField.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DeiFiliusAttributeField.Solution",
+  "theorem": "TruthCore.Results.Causality.DeiFiliusAttributeField.classicalRootOfDeiFiliusRoot",
+  "comparator_config": "results/5b9e5ba6-212f-4f4d-a9d5-a5555c7614af/comparator.json",
+  "status": "solution-present",
+  "description": "The root of the Dei Filius endpoint has the nine (they are among its attributes) and, by the field interpretation, the primitive field: the old endpoint at the same witness. With deiFiliusRoot this gives a route to the old endpoint in which the sufficiency premise is replaced by the field interpretation, five new bridges and the existing infinite-power premise. Conditional consequence only."
+}

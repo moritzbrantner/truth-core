@@ -1,0 +1,13 @@
+{
+  "id": "37670ef2-9c50-4cdd-b0b3-c25b50a46dd2",
+  "label": "The nine suffice for the field, from the Dei Filius restatement (inference)",
+  "input_statement_ids": [
+    "5fbea2f5-0446-4852-9bd4-74fd0878755f",
+    "dfc3cbae-f00f-4861-a5f6-f5aecec4c157"
+  ],
+  "output_statement_id": "818a73cc-249d-5f9b-9c34-aee1f2cbf333",
+  "rule": "Composition of two one-way implications at each being",
+  "meaning": "A being with the nine has every Dei Filius attribute by the restated sufficiency, and so the primitive field by the field interpretation. This gives STMT-CLASSICAL-ATTRIBUTES-SUFFICE its first derivation: its warrant gap becomes the field interpretation plus the seven bridges of nineGiveDeiFilius (with three existing premises). Conditional consequence only; no premise is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

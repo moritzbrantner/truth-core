@@ -1,0 +1,31 @@
+{
+  "id": "b93ce632-5793-4bdf-a79f-b52fa1abc907",
+  "label": "Classical attributes defined from Dei Filius ch. 1, sufficiency derived from named bridges",
+  "date": "2026-11-12",
+  "statement_ids": [
+    "818a73cc-249d-5f9b-9c34-aee1f2cbf333",
+    "5fbea2f5-0446-4852-9bd4-74fd0878755f",
+    "dfc3cbae-f00f-4861-a5f6-f5aecec4c157",
+    "8d2ac441-9b89-45ee-b8f6-db3522e0bafa",
+    "bb3d4417-b2f6-4310-9433-21ff2e386780",
+    "c7c32f20-2637-4497-8053-f259d02aa922",
+    "fa3f08a8-aa2f-4385-8c72-4343eb5409c0",
+    "dc3ec456-9fd1-4e1a-8690-c529fe831ee2",
+    "e919fe2e-2563-44bb-9eba-16c8199fa477",
+    "8d73ef90-8260-4c45-b2ed-577630c760a7",
+    "c0f4a346-b265-4091-9d38-69c69582ea95",
+    "da3facd6-008e-5e76-92fa-677350c2dfdb"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Item 4 (third part) of the modal spine's next investigations: the stage-two sufficiency premise STMT-CLASSICAL-ATTRIBUTES-SUFFICE had no derivation and targeted the primitive signature field HasClassicalAttributes. The field stays primitive (changing the skeleton would break frozen Challenges); a DEFINED predicate DeiFiliusAttributes (TruthCore/Causality/DeiFiliusAttributeField.lean) now lists the attributes of Dei Filius ch. 1 as recorded in claim VATICAN-I-DEI-FILIUS-CH1-ONE-TRUE-LIVING-GOD (DS 3001, goodness from DS 3002), each as a typed predicate or an explicitly identified primitive with stated meaning and obligations. No source was newly read; the readings are analyst formulations, attribution deferred, with every weakening stated in the definition record (creator without creation from nothing; 'infinite in intellect and will' as the conjunction; substance untyped; distinctness from the world as entering into no composition, without non-identity with the world as a whole; exalted above all as not exceeded in being; 'true' kept as the IsGod predicate, not an attribute). Verified, zero axioms (specs/dei-filius-attribute-field.toml): (1) nineGiveDeiFilius: at an arbitrary being, the nine give every Dei Filius attribute from seven new open bridges (intellect gives life; causing the being of all gives lordship, immensity and being a component of nothing; infinity gives incomprehensibility; perfection with intellect gives beatitude; excess in being is excess in act) and three existing premises (infinite power STMT-INFINITE-ACT-HAS-INFINITE-POWER for almighty; goodness-is-actuality and the q.3 a.7 matter-form clause for exalted and spiritual). Ten conjuncts are the nine; 'creator of all' unfolds supreme goodness, which in this case already includes causing every perfection of everything else. (2) classicalAttributesSufficeOfDeiFilius: the old premise from the restated one plus the field interpretation FieldFromDeiFilius (whatever has every Dei Filius attribute has the primitive field), its first derivation. (3) deiFiliusRoot: the registered join-to-stage-two composition (result 57213a13) reused, without its sufficiency premise, on a signature whose field is trivial; the root then has every Dei Filius attribute from five of the new bridges plus the existing infinite-power premise (the no-component and excess-in-act bridges are not needed: the root already carries remoteness and the maximum in being). (4) classicalRootOfDeiFiliusRoot: the old endpoint from the new one plus the field interpretation. (5) controls: nonvacuity, and for each of nine premises of (1) a one-being interpretation where it alone fails, the nine hold and some Dei Filius attribute fails, so none is supplied by the others; the field interpretation holds while the old premise fails (strictness). The checked lemma fieldOfSuffice (old premise gives the field interpretation) is deliberately not registered: as an argument it would close a support cycle that hides the field interpretation from the frontier. OBJECTION AUDIT (substantive objection standard): no substantive objection identified to the field interpretation or to any of the seven bridges; the world-soul/pantheist position against the no-component bridge has only the unread Spinoza lead already recorded for STMT-NO-COMPONENT-IS-FIRST-BEING, so it is a formal alternative. One interpretation dependence is on file for the excess-in-act bridge, from the quarta via's own picture of more and less in one perfection: with a binary InAct the bridge holds only if respects separate grades; this bears on the bridge's reading, not its truth, and the bridge is not used at the spine root. WARRANT AUDIT: no claim states any new bridge or the field interpretation; each bridge cites the Summa article giving its reason (q.18 a.3, q.13 a.7, q.8 a.1-2, q.12 a.7, q.26 a.1, q.3 a.8, q.4 a.2) without a pinned reading; the field interpretation is the intended meaning in the field's own documentation, a stipulation about a primitive, now strictly weaker than the old premise. No premise is established; the warrant gap of the sufficiency premise is now the field interpretation plus seven named bridges (five at the root) and the existing infinite-power premise.",
+  "evidence": [
+    "6f64f591-2402-4c56-818e-2d77dd2542fa",
+    "298b0d51-7d24-4532-9226-95ed4b1e21ba",
+    "0c57f503-64a2-49fd-8aa2-59f62b99bdcb",
+    "5b9e5ba6-212f-4f4d-a9d5-a5555c7614af",
+    "8eb47d7a-bc24-4acd-a6b3-73ce84e24f11",
+    "3bb5f9eb-f30e-5acc-98da-80b7c246448c"
+  ],
+  "blocker": "Not blocked. Next tests: give typed content to the five primitives (life without change for an immutable being; dominion; presence to effects and place; created intellects and degrees of knowability; beatitude), so that their bridges can be derived or fail; type numerical non-identity with the world as a whole (a world term) and creation from nothing; decide whether the respects of InAct separate grades of being (DISAMB-IN-ACT), which settles the excess-in-act bridge's reading; read the cited Summa articles into pinned claims only if a bridge's warrant becomes the selected question."
+}

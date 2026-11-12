@@ -1,0 +1,9 @@
+{
+  "id": "0d9dcc31-4d9c-45cc-93fe-fd0369fd9834",
+  "label": "Spiritual, weakest reading: not composed of matter and form",
+  "term": "spiritual (spiritualis; Lean `IsSpiritual`)",
+  "definition": "IsSpiritual MatterForm g: g is not composed of matter and form (¬ MatterForm g; ST I q.3 a.2). Example: an angel on the Thomist account; counterexample: an animal. With RemoteFromAll (entering into the composition of nothing) it is the altogether-immaterial antecedent of the q.14 a.1 intellect premise (DEF-ALTOGETHER-IMMATERIAL).",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.DeiFiliusAttributeField.IsSpiritual",
+  "note": "Analyst reading of Dei Filius ch. 1's 'substantia spiritualis', attribution deferred. 'Substance' (subsisting rather than inhering in another) is not typed; the root endpoint's represented esse/essence identity is stronger than 'substance' and is not used for this conjunct. Incorporeal-but-composite readings are not separated here."
+}

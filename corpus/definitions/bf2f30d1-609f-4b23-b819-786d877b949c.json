@@ -1,0 +1,9 @@
+{
+  "id": "bf2f30d1-609f-4b23-b819-786d877b949c",
+  "label": "Immense: a primitive predicate for being contained by no place and present to everything",
+  "term": "immense (immensus; Lean `Primitives.Immense`)",
+  "definition": "PRIMITIVE. Immense g: g is measured or contained by no place and is present to everything that is. After ST I q.8 (God is in all things as an agent is present to what it acts on, and in every place by giving it being). Counterexample: a body, which is contained by its place and absent from other places.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.DeiFiliusAttributeField.Primitives.Immense",
+  "note": "Explicitly identified primitive (Encode first). Open semantic obligation: typed accounts of place and of an agent's presence to its effect. Distinct from INFINITE_2 (quantitative or spatial infinity of extent): immensity here is not having infinite extent. The only constraint placed on it is the open bridge 'Whatever causes the being of everything else is immense'."
+}

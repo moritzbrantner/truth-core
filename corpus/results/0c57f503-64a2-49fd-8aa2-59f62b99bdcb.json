@@ -1,0 +1,11 @@
+{
+  "id": "0c57f503-64a2-49fd-8aa2-59f62b99bdcb",
+  "label": "The NECESSARY_2 GOD_4 root has every Dei Filius attribute, from the join",
+  "argument_id": "334e8640-b53d-429d-8094-426cd01800cc",
+  "challenge_module": "TruthCore.Results.Causality.DeiFiliusAttributeField.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DeiFiliusAttributeField.Solution",
+  "theorem": "TruthCore.Results.Causality.DeiFiliusAttributeField.deiFiliusRoot",
+  "comparator_config": "results/0c57f503-64a2-49fd-8aa2-59f62b99bdcb/comparator.json",
+  "status": "solution-present",
+  "description": "The registered composition (result 57213a13) is applied with every one of its inputs except the sufficiency premise, on the signature that agrees with the given one except that its primitive field is everywhere true; its sufficiency premise then holds trivially there and nothing about the field is used. Its root n is the same witness: an actual root at w, the only one, NECESSARY_2, maximal in being and perfect, with esse/essence identity, firstness, no matter-form composition, remoteness from all, GOD_4 and the nine. At n, remote from all gives 'distinct from the world', no matter-form composition gives 'spiritual', the maximum in being gives 'exalted', supreme goodness gives 'creator of all', infinity gives 'almighty' through the existing infinite-power premise, and living, lord, immense, incomprehensible and most blessed take one open bridge each. At the root only these six premises (five new bridges and the existing infinite-power premise) are added to the composition's own inputs; the no-component and excess-in-act bridges of nineGiveDeiFilius are not needed. Uniqueness is among actual roots at w. Conditional consequence only; no premise is established."
+}

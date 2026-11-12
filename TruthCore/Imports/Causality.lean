@@ -53,6 +53,7 @@ public import TruthCore.Causality.ConvergentSchedule
 public import TruthCore.Causality.CountCauseTimeNecessity
 public import TruthCore.Causality.CountTemporalNecessity
 public import TruthCore.Causality.DefinitionDictionaryConnections
+public import TruthCore.Causality.DeiFiliusAttributeField
 public import TruthCore.Causality.DerivativeJointPower
 public import TruthCore.Causality.DirectEsseGenusOmissionControl
 public import TruthCore.Causality.DirectEsseRootGoodnessOmission
