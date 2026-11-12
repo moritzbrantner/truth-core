@@ -1,0 +1,22 @@
+{
+  "id": "e8b83fac-5511-4020-b00f-4b481f24ab4c",
+  "label": "Theta.8 controls: heavenly first, contingent first, idle uncaused composite, checked",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "3d885be0-fd5c-4d6e-b5a2-c6f86008f585",
+  "inference_ids": [
+    "d2963262-dd8f-4cfa-835e-55f208c21dfc"
+  ],
+  "meaning": "Controls for the Theta.8 routes. HeavenlyFirst: the Theta.8 substance premises leave a first being in potency to a place. ContingentFirst: 8288ff1e does not imply first-being incorruptibility. RestrictedStrict and Facts: the restricted composition premise is strictly weaker, and equivalent given STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING. IdleUncausedComposite: an interpretation satisfies every premise of the composition, Theta.8 and plenitude routes except the cause of composites and plenitude, with a composite, uncaused first being in potency to a place it never actualizes; so a rival who keeps a first being with an unactualized potency must reject at least the cause of composites (or a composition premise or first-being act) and at least one plenitude-route premise. ThetaEightOmissions and PlenitudeOmissions: each premise of both new routes is needed; the plenitude route has a nonvacuous witness. Model-witnessed and general implications only; no interpretation is claimed metaphysically possible.",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "25e19d5a-5cdf-5916-a888-f6a0ce970f11",
+    "051fe0e7-e842-5581-870a-e3bc00aeaf9c",
+    "3ea2762f-1a85-5059-b4e7-d29f192b16b6",
+    "85f7f569-ab4d-514b-aa2c-cf75171ad105",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8",
+    "de94687a-6789-5599-b38d-14bef31148fd"
+  ],
+  "disambiguation_ids": [
+    "ed4f1f3f-d0c2-57b7-8ce7-52245db29d79"
+  ]
+}

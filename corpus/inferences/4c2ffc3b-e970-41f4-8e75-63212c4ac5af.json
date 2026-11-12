@@ -1,0 +1,12 @@
+{
+  "id": "4c2ffc3b-e970-41f4-8e75-63212c4ac5af",
+  "label": "In act in being and in POTENCY_2 makes composite, from the unrestricted version (inference)",
+  "input_statement_ids": [
+    "3d99779b-b44a-4daa-a873-8ccdd3c034ae"
+  ],
+  "output_statement_id": "d8024a38-5d93-4c1d-8c21-fdbfa87a5cde",
+  "rule": "Instantiation of the act respect at being",
+  "meaning": "The composition premise 3d99779b, instantiated at the respect of being, gives its restriction to beings in act in being. Registered as a strength order; Control.RestrictedStrict makes it strict, in an interpretation that also falsifies STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING, and Control.Facts shows the two are equivalent given that premise. An instance, not a new derivation.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

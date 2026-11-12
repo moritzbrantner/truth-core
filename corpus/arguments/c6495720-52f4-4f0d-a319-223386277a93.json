@@ -1,0 +1,24 @@
+{
+  "id": "c6495720-52f4-4f0d-a319-223386277a93",
+  "label": "A first being is in POTENCY_2 in no respect now, from plenitude",
+  "premise_statement_ids": [
+    "b9baf50d-5e76-5eb6-86b5-ef888a241497",
+    "d256e6d2-7f6e-51f2-b2f7-632344f12f09",
+    "7371403f-53a7-4cbc-a235-609e92eec2bf",
+    "966c08c6-f5f0-4ff5-9ae6-536e71456943",
+    "e078f07b-a4b8-595e-a3ee-02dd83474450"
+  ],
+  "conclusion_statement_id": "0cf675c4-4099-5df9-b294-05f2cfef057d",
+  "inference_ids": [
+    "cb736c5d-9d97-462d-b4e5-273b73358180"
+  ],
+  "meaning": "An analyst reconstruction of Theta.8's priority in substance of act as the end of potency (1050a4-b2), read with the tertia via's plenitude premise: a first being in potency in a respect now can be in act in it; given an infinite past, whatever is possible was realized at some earlier time, so the first being was once in act in that respect; whatever was in act in a respect and is later in potency in it has an efficient cause other than itself, which is simply prior to it (ST I q.2 a.3 reading), against firstness. The conclusion is the q.3 a.1 conclusion with potency taken at the time now. It uses no composition premise and no cause of composites; it shares only efficient-cause priority with the composition routes. Each of the five premises is needed and the route is not vacuous (Control.PlenitudeOmissions). Conditional consequence only; no premise is established.",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "25e19d5a-5cdf-5916-a888-f6a0ce970f11",
+    "3ea2762f-1a85-5059-b4e7-d29f192b16b6",
+    "a49e4cf1-ca4f-5519-9724-892af257cedb",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8",
+    "de94687a-6789-5599-b38d-14bef31148fd"
+  ]
+}

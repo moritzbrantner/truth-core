@@ -1,0 +1,11 @@
+{
+  "id": "0e232fd9-d0e1-458a-a198-8d2aa7bc191d",
+  "label": "In act in being and in POTENCY_2 makes composite, from the unrestricted version",
+  "argument_id": "d5064f92-5d4e-4c29-8741-082202ffc3cd",
+  "challenge_module": "TruthCore.Results.Causality.ActPriorityThetaEight.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ActPriorityThetaEight.Solution",
+  "theorem": "TruthCore.Results.Causality.ActPriorityThetaEight.restrictedOfComposition",
+  "comparator_config": "results/0e232fd9-d0e1-458a-a198-8d2aa7bc191d/comparator.json",
+  "status": "solution-present",
+  "description": "The composition premise 3d99779b, instantiated at the respect of being, gives its restriction to beings in act in being. Registered as a strength order; Control.RestrictedStrict makes it strict, in an interpretation that also falsifies STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING, and Control.Facts shows the two are equivalent given that premise. An instance, not a new derivation."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "7371403f-53a7-4cbc-a235-609e92eec2bf",
+  "label": "Whatever is in POTENCY_2 in a respect at some time can be in act in it",
+  "paraphrase": "Open premise, analyst formulation, unattributed: whatever is in potency in a respect at some time can be in act in that respect, that is, the condition on times 'x is in act in r' is possible in the supplied sense of the tertia via's plenitude reading (STMT-PLENITUDE-OVER-INFINITE-PAST). A potency is a potency for its act (Metaphysics Theta.3, 1047a24-26; Theta.8, 1049b12-17, orientation only). InPotencyAt is the free POTENCY_2 parameter at each time.",
+  "lean_declaration": "TruthCore.Causality.ActPriorityThetaEight.PotencyMakesActPossible",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "3ea2762f-1a85-5059-b4e7-d29f192b16b6",
+    "de94687a-6789-5599-b38d-14bef31148fd"
+  ]
+}

@@ -67,6 +67,7 @@ premises = ["Every first being is in act in some respect", "Whatever is in act i
 sense_bridges = [
   { term = "UNITING_CAUSE_VERSUS_EFFICIENT_CAUSE", from = "2478812d-d2cd-4182-8ad0-d27a4bdb9ff2", to = "018d4f0a-2276-42a7-b20d-b0fe6c9c3714", statement_id = "STMT-PERFECTION-CAUSING-IN-ANOTHER-IS-EFFICIENT" },
 ]
+strong_version_needed = { "Whatever is in act in some respect and in POTENCY_2 in some respect is composite" = "The route takes act in some respect (STMT 8288ff1e), not act in being; the restriction to act in being suffices only with STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING or the Theta.8 incorruptibility premise, which this route does not assume (see firstBeingNoPotencyOfThetaEight)." }
 conclusion = "STMT-FIRST-BEING-IS-IN-NO-WAY-IN-POTENCY"
 axioms = []
 rule = "Reductio at the supposed first being: act in some respect with potency in another gives composition, composition a distinct cause of being, the bridge an efficient cause, the efficient cause priority, against firstness"
@@ -79,6 +80,7 @@ premises = ["Every first being is in act in some respect", "Whatever is in act i
 sense_bridges = [
   { term = "UNITING_CAUSE_VERSUS_EFFICIENT_CAUSE", from = "2478812d-d2cd-4182-8ad0-d27a4bdb9ff2", to = "018d4f0a-2276-42a7-b20d-b0fe6c9c3714", statement_id = "STMT-PERFECTION-CAUSING-IN-ANOTHER-IS-EFFICIENT" },
 ]
+strong_version_needed = { "Whatever is in act in some respect and in POTENCY_2 in some respect is composite" = "The route takes act in some respect (STMT 8288ff1e), not act in being; the restriction to act in being suffices only with STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING or the Theta.8 incorruptibility premise, which this route does not assume (see firstBeingNoPotencyOfThetaEight)." }
 conclusion = "Act is SIMPLY_PRIOR_1 to POTENCY_2 at a first being"
 axioms = []
 rule = "Reductio at the supposed first being, as in firstBeingNoPotencyOfComposition; the first-being version then holds vacuously"
