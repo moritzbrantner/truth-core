@@ -2,6 +2,7 @@
 module
 
 public import TruthCore.Results.Causality.AccidentalFeatureOrigin.Solution
+public import TruthCore.Results.Causality.ActPriorityAtFirst.Solution
 public import TruthCore.Results.Causality.ActualCommonRoot.Solution
 public import TruthCore.Results.Causality.ActualCoverNecessaryBeing.Solution
 public import TruthCore.Results.Causality.ActualCoverStrictness.Solution
@@ -151,6 +152,7 @@ public import TruthCore.Results.Causality.FiniteRestriction.Solution
 public import TruthCore.Results.Causality.FullFirstCause.Solution
 public import TruthCore.Results.Causality.GodMaximalCausal.Solution
 public import TruthCore.Results.Causality.GradedSupportFoundation.Solution
+public import TruthCore.Results.Causality.GradesAtBeingRoutes.Solution
 public import TruthCore.Results.Causality.GreatestDegreeRootRoute.Solution
 public import TruthCore.Results.Causality.GrimReaperFiniteTests.Solution
 public import TruthCore.Results.Causality.GrimReaperImpossible.Solution
@@ -200,6 +202,7 @@ public import TruthCore.Results.Causality.NecessaryBeingCountDescent.Solution
 public import TruthCore.Results.Causality.NecessaryBeingInAct.Solution
 public import TruthCore.Results.Causality.NecessaryClassicalGodCase.Solution
 public import TruthCore.Results.Causality.NecessaryClassicalGodRoot.Solution
+public import TruthCore.Results.Causality.NecessaryClassicalGodRootAtFirst.Solution
 public import TruthCore.Results.Causality.NecessaryClassicalGodRootControl.Solution
 public import TruthCore.Results.Causality.NecessaryClassicalGodRootFromAsymmetry.Solution
 public import TruthCore.Results.Causality.NecessaryClassicalGodRootFromUnderived.Registration.Solution

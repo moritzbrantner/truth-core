@@ -676,6 +676,147 @@ root without any modal step, so the corpus reaches the node a third way. The
 regress results are also the tool against the "endless chain explains itself"
 reply to A3 and B1.
 
+### Act priority over potency (2026-11-12)
+
+Target: `STMT-ACT-SIMPLY-PRIOR-TO-POTENCY` (a4d3261a). Batch
+`specs/act-priority-at-first.toml`, module `TruthCore.Causality.ActPriorityAtFirst`,
+[attempt](../../corpus/attempts/712ea899-f58e-4bfa-a977-ead95a600518.json).
+All new premises are open analyst formulations; nothing is closed.
+
+- **Map (strict expansion).** No leaf is shared by all four verified
+  derivations. The minimal cuts of size 3 are the twelve sets
+  {9226c6af} × {6b9fedc2, 6ca87431, 010988b9, excluded middle} ×
+  {8a1d7012, bf374f2e, a4606a6b}: the substance-to-simple bridge (shared by
+  the substance and sense-fork derivations), one motion-fork leaf and one
+  ground-route leaf. No-self-motion (079b53bf) has nine verified derivations
+  and is not a leaf; cutting through it gives at least 120 further minimal
+  cuts of size 4. The idle case is carried either by a premise that restates
+  the target for idle potency (010988b9) or by extending the reduction reason
+  from reducers to grounds (bf374f2e).
+- **3b2d2d46** has the same Lean body as a4d3261a: `IndependentPriority` is a
+  transparent wrapper over the freely supplied `InPotency` (POTENCY_2).
+  a4d3261a links adopted POTENCY_1 although its type uses the same free
+  parameter. This is a recorded sense-link defect. It is not fixed here,
+  because adopted-potency specializations consume a4d3261a and a relink needs
+  its own check. 3b2d2d46 has no derivation and eight earlier consumers: the
+  classical-attributes skeleton 6c6549ae, the join-to-root composition 8f956c81
+  and six Dei Filius routes. Removing one of the pair without the other tests nothing, so the
+  graph below removes both.
+- **Where the routes use it.** `noComponentFirst`, the only derivation of "no
+  component is the first being" (09c6d5f0), applies act priority only to a
+  supposed first component. At base, every root-route loss on removing
+  a4d3261a ran through 09c6d5f0, the classical-root route included; the
+  endpoint loss through 3b2d2d46 appears only when both are removed.
+  `firstBeingNoPotency` applies it in the same way, but it is unbypassable
+  only inside the classical-root Lean proof, not at corpus level.
+- **Weak version.** `FirstBeingActPriority` (61ad11f3): a first being in potency
+  in a respect is simply posterior to something in act in that respect. Since
+  nothing other than a first being is simply prior to it, the witness is the
+  first being itself. The statement therefore says that a first being's
+  potencies are in act in the same respect and carries no priority over other
+  beings. It is not an independent act-priority principle. 3b2d2d46
+  strengthens it strictly (`Control.ColdStone`). Given non-overlap it is
+  equivalent to the q.3 a.1 conclusion that a first being is in no way in
+  potency (`Control.Facts`). `noComponentFirstOfWeak` rederives 09c6d5f0 from it.
+- **Senses.** The routes use PRIOR_1 throughout. The temporal and substance
+  senses enter only through the existing explicit coverage premise and the
+  substance-to-simple bridge. Receptive potency has a different Lean type, so
+  no unbridged passage between it and potency type-checks. 86f10ec3 now links
+  POTENCY_2, the parameter its type uses. c6d6379b's label still says POTENCY_1
+  while it links POTENCY_2 (follow-up). On the composition route PRIOR_1 is
+  constrained only by e078f07b and `IsFirstBeing`.
+  The causal passage is bridged. The cause of being in the q.3 a.7 premise
+  (`CausesIn`) and the efficient cause of the priority premise are separate
+  parameters, joined by `STMT-PERFECTION-CAUSING-IN-ANOTHER-IS-EFFICIENT`
+  (e0088de9). `noComponentFirstOfWeak` keeps the existing `noComponentFirst`
+  pattern: one `CausesIn` feeds participation (2b25a78c) and efficient-cause
+  priority. The bridge cannot be added there, because 2b25a78c links the
+  external-esse-cause sense while its type uses the plain `CausesIn`, and
+  relinking it breaks the existing argument's links (recorded defect,
+  follow-up).
+  The grounding sense matters for the strong reading. On the stage-two routes,
+  PRIOR_1 between distinct beings is bridged by 86efed1a to the profile's
+  selected relation. By `Control.Facts` item 4, the strong reading with
+  non-overlap and that bridge gives every being in potency in a respect a
+  distinct concrete predecessor, existing at w, in the profile's selected
+  relation, which is in act in that respect. The weak version carries no such
+  commitment.
+- **Aquinas's reason does not reach it.** Nothing moves a first being, since
+  its mover would be prior to it, so its potencies are idle. "Reduced to act
+  only by a being in act" speaks of reduction, and it is vacuous exactly where
+  the routes apply act priority (`ActPriorFromMotionFacts`, item 5).
+- **Positive tree.** `firstBeingNoPotencyOfComposition` proves the q.3 a.1
+  conclusion directly, without act priority or non-overlap.
+  `weakOfComposition` gives the weak version from the same premises.
+  `Control.CompositionOmissions` shows each premise is needed. The premises:
+  1. Every first being is in act in some respect (8288ff1e). Its denial is a
+     potency-first principle (Night, the seed).
+  2. Whatever is in act in one respect and in potency in another is composite
+     (3d99779b). This is an analyst converse of q.3 a.7 co., fourth reason.
+     `InPotency` is the free POTENCY_2, presupposing real passive potency.
+     `Composite` is the inclusive SIMPLE_4 sense. The restriction keeps out
+     prime matter, which is in act in nothing and, if counted among the
+     beings, would falsify an unrestricted "whatever is in potency is
+     composite".
+  3. Every composite has a distinct cause of its being (the q.3 a.7 reading,
+     ca07cae9).
+  4. Causing another's perfection is efficiently causing it (e0088de9).
+  5. An efficient cause is prior to its effect (the q.2 a.3 reading, e078f07b).
+
+  The proof applies each premise only at a supposed first being. 3d99779b,
+  ca07cae9 and e078f07b are stated universally, so first-being instances would
+  suffice. No premise says that an idle potency of a being other than a first
+  one has a prior being in act. The question becomes whether a first being can
+  be an uncaused composite.
+- **Objections** (substantive objection standard).
+  - Strongest standing rival: an existentially first being whose accidental
+    states are actualized by others or by its own evolution. Candidates are
+    dipolar theism (Hartshorne) and a necessary initial cosmic state; both are
+    unread leads recalled from memory. It targets premise 2 or 3. Its mechanism
+    is that dependence for being and dependence for an accidental actuality
+    are distinct relations. Its independent justification is that ordinary
+    distinction; its positive account is unread. Its price is an uncaused
+    composite first being (denying 3, the existing uncaused-composite rival)
+    or a simple being in act and in potency (denying 2). It is not an
+    established counterexample.
+  - Never-actualized potencies: a price, not an established objection. On the
+    grounding routes, the strong reading with 86efed1a requires a
+    selected-relation predecessor in act for every potency. With formal act
+    this is an actually hot predecessor of a cold stone. With virtual act it
+    is eminent containment, which the routes already assume in a related form
+    (376d6a5a). No independent case that the commitment is false is recorded.
+  - Quantum indeterminism targets the reduction reading (6b9fedc2) taken as
+    universal. Its mechanism, a transition with no being in act in the target
+    respect, depends on interpretation: the prior state and the dynamics are
+    actual, and indeterminism concerns which outcome occurs. The tree does not
+    use reduction, so it gives no objection to the weak version.
+  - Aristotle's aporia bears on premise 1 only through the open bridge from
+    ability to simple priority (see the rival table).
+  - No independent warrant is recorded for premises 1 and 2. Premise 3 has its
+    q.3 a.7 reading and its recorded rival.
+- **Graph** (strict expansion, ten root arguments at `STMT-GOD-EXISTS`). Before
+  this batch, removing a4d3261a, with or without 3b2d2d46, left 2/10; removing
+  3b2d2d46 alone left 10/10. Now removing both leaves 9/10. The classical-root
+  projection 92ab7c94 is lost, because 8f956c81 consumes 3b2d2d46 directly.
+  With both removed:
+  - removing any one of premises 1–3 gives 2/10;
+  - removing e0088de9 gives 1/10, as it already does alone on main;
+  - removing e078f07b gives 0/10.
+- **Classical-root sibling** (`specs/necessary-classical-god-root-at-first.toml`,
+  `NecessaryClassicalGodRootAtFirst.derive`, argument 69affa96,
+  [attempt](../../corpus/attempts/e432c07c-19d6-4282-a945-d0fabdbec137.json)).
+  It is 8f956c81 with 61ad11f3 in place of 3b2d2d46, all other premises and
+  parameters unchanged; the root's pure actuality comes from
+  `ActPriorityAtFirst.facts` item 2 with non-overlap. Removing a4d3261a and
+  3b2d2d46 together now leaves 10/10 (92ab7c94 restored); the counts above
+  with one composition premise also removed are unchanged.
+
+Provisional judgment: the routes need only that a first being has no potency.
+The strong reading's universal scope buys nothing on them. On the grounding
+routes it has a price: a selected-relation predecessor in act for every
+potency, which no recorded case shows to be false. The live question moves to
+premises 2 and 3 at a first being, with premise 1's warrant also open.
+
 ## Rival table (run of 2026-11-10)
 
 Every open premise of the spine now has a recorded rival and one Lean-verified
@@ -1688,3 +1829,9 @@ conditional investigations, not a mandatory first gate:
    order and whether its laws and state count as concrete. Test whether A2c can
    be replaced by a condition on time (founded intervals above the empty
    moment), and compare the prices.
+6. Act priority (2026-11-12, [above](#act-priority-over-potency-2026-11-12)):
+   test premises 2 and 3 at a first being (an uncaused composite) against a
+   read dipolar or initial-state account. Find warrant for premises 1 and 2.
+   Rewire the eight earlier consumers of 3b2d2d46, which now warn without
+   `strong_version_needed`, to the first-being version. Fix the sense links
+   of a4d3261a, c6d6379b and 2b25a78c.

@@ -1,0 +1,45 @@
+[batch]
+vocab = "TruthCore.Causality.DirectEsseRootUniquenessAtBeing"
+results = "TruthCore.Results.Causality.GradesAtBeingRoutes"
+
+[[argument]]
+id = "Grades to a maximum in every respect give grades to a maximum at being"
+theorem = "gradesAtBeingOfGrades"
+premises = ["6c27657f-a2bf-5c1d-963c-c154b66bfa85"]
+conclusion = "e4e6b0cd-f61a-5605-a302-573c67cf063a"
+strong_version_needed = {"6c27657f-a2bf-5c1d-963c-c154b66bfa85" = "The all-respects version is the object of this strength comparison, not a route premise; only its instance at esse is consumed."}
+axioms = []
+sense_bridges = [{term = "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST", from = "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST_6", to = "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST_1", statement_id = "6c27657f-a2bf-5c1d-963c-c154b66bfa85"}]
+rule = "universal instantiation at the respect esse"
+meaning = "Strength registration (not a route step): grades-to-a-maximum in every respect (GradesByApproachToAMaximumReading), instantiated at the one respect esse, gives grades-to-a-maximum at being (GradesToMaximumAtBeing) for the same InAct and MoreIn. Reuses restrictGrades. No strictness countermodel is registered; that the converse fails when some other respect has comparisons without a maximum is not certified here."
+transcription = "instantiation"
+
+[[argument]]
+id = "GOD_4 exists from the direct-esse first root, grades to a maximum at being only"
+theorem = "directEsseRootGodExistsAtBeing"
+premises = ["56f68b40-9737-59a0-8cac-5610980a1547", "5c898d24-d1f7-5087-b09e-3287a723e787", "c71c068c-bbae-5ed5-a99d-70b155c8d239", "ee4ab504-c8fe-59bc-bc96-7cbeefed6410", "86efed1a-f353-5b5d-9431-df7fc643ace1", "d9fad785-40ab-555a-a1c1-5e39c9d50497", "0436de86-6579-53f2-9ff5-2111ba44ebae", "cb1cdea9-eb6c-578c-8008-84e0d4107fd3", "e4e6b0cd-f61a-5605-a302-573c67cf063a", "7067553d-cad9-5d79-b6b2-912e35051530", "b26c10a0-983d-5a88-aa03-cc601bc1ddc6", "09c6d5f0-d412-5038-85f9-75fffb935727", "1ec205ed-b2a6-5384-bb5f-2565a9d325bf"]
+conclusion = "8626f8a5-9531-5da7-9ebd-f901e74b1129"
+axioms = []
+sense_bridges = [{term = "GOD", from = "GOD_1", to = "GOD_4", statement_id = "1ec205ed-b2a6-5384-bb5f-2565a9d325bf"}, {term = "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST", from = "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST_6", to = "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST_1", statement_id = "d9fad785-40ab-555a-a1c1-5e39c9d50497"}, {term = "NECESSARY", from = "NECESSARY_11", to = "NECESSARY_2", statement_id = "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"}, {term = "NONNECESSARY_VERSUS_CONTINGENT_ROOT", from = "NONNECESSARY_VERSUS_CONTINGENT_ROOT_1", to = "NONNECESSARY_VERSUS_CONTINGENT_ROOT_2", statement_id = "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"}, {term = "WELL_FOUNDEDNESS_AND_ANTI_BRUTE_ROOT", from = "WELL_FOUNDEDNESS_AND_ANTI_BRUTE_ROOT_1", to = "WELL_FOUNDEDNESS_AND_ANTI_BRUTE_ROOT_2", statement_id = "5c898d24-d1f7-5087-b09e-3287a723e787"}, {term = "INTRINSIC_PRODUCTIVE_CONTRIBUTION_VERSUS_SOURCE_BACKED", from = "INTRINSIC_PRODUCTIVE_CONTRIBUTION_VERSUS_SOURCE_BACKED_1", to = "INTRINSIC_PRODUCTIVE_CONTRIBUTION_VERSUS_SOURCE_BACKED_2", statement_id = "5c898d24-d1f7-5087-b09e-3287a723e787"}]
+rule = "Reuse the existing route composition, with the maximum lemma instantiated at the one-point esse respect type"
+meaning = "Sibling of the thirteen-input direct-esse route 72391d4d with STMT-GRADES-HAVE-A-MAXIMUM (6c27657f, every respect) replaced by its fixed-esse instance STMT-GRADES-TO-MAXIMUM-AT-BEING (e4e6b0cd); every other premise is the same statement. The old route applies grades only at esse, inside actualCore. necessaryFirst gives the same actual first root n; ExistingInActAt gives n esse; the existing maximumExistsOfExistingRoot, instantiated at the one-point respect type whose only respect is esse, gives a maximum in esse; maximumEqualsRoot identifies every maximum with n and the existing reducedDescription theorem names n as God through actuality-to-being, universal-source transfer, firstness, no-component remoteness and the retained nominal bridge. No premise is discharged; the old route is unchanged. Sense bridges: NECESSARY 11 to 2 and NONNECESSARY 1 to 2 cite excluded middle (ee4ab504), which carries both passages: necessaryActualRoot splits on NecessaryAt of the root by excluded middle, and contingentRootOfNonnecessary turns the nonnecessary horn into a contingent root (an accessible world of the frame lacking it) only with that hypothesis, as the NONNECESSARY disambiguation states. WELL_FOUNDEDNESS 1 to 2 (5c898d24) is bookkeeping, not a content bridge: GroundAncestor occurs in no hypothesis or step; the bridge is required by truth check only because 5c898d24's definition_ids link that sense, which its Lean type does not use (#1524). INTRINSIC 1 to 2 (5c898d24) is carried by 5c898d24's type, which instantiates Trap's generic intrinsic parameter with the graph Source predicate, the application commitment that distinguishes ActualConcreteSupply from Supply; neither Supply constant itself occurs."
+
+[[argument]]
+id = "GOD_4 exists from an actual root without contingent dependence, grades at being"
+theorem = "existenceOnlyGodExistsAtBeing"
+premises = ["56f68b40-9737-59a0-8cac-5610980a1547", "5c898d24-d1f7-5087-b09e-3287a723e787", "ee4ab504-c8fe-59bc-bc96-7cbeefed6410", "86efed1a-f353-5b5d-9431-df7fc643ace1", "d9fad785-40ab-555a-a1c1-5e39c9d50497", "0436de86-6579-53f2-9ff5-2111ba44ebae", "cb1cdea9-eb6c-578c-8008-84e0d4107fd3", "e4e6b0cd-f61a-5605-a302-573c67cf063a", "7067553d-cad9-5d79-b6b2-912e35051530", "b26c10a0-983d-5a88-aa03-cc601bc1ddc6", "09c6d5f0-d412-5038-85f9-75fffb935727", "1ec205ed-b2a6-5384-bb5f-2565a9d325bf"]
+conclusion = "8626f8a5-9531-5da7-9ebd-f901e74b1129"
+axioms = []
+sense_bridges = [{term = "GOD", from = "GOD_1", to = "GOD_4", statement_id = "1ec205ed-b2a6-5384-bb5f-2565a9d325bf"}, {term = "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST", from = "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST_6", to = "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST_1", statement_id = "d9fad785-40ab-555a-a1c1-5e39c9d50497"}, {term = "NECESSARY", from = "NECESSARY_11", to = "NECESSARY_2", statement_id = "5c898d24-d1f7-5087-b09e-3287a723e787"}, {term = "NONNECESSARY_VERSUS_CONTINGENT_ROOT", from = "NONNECESSARY_VERSUS_CONTINGENT_ROOT_1", to = "NONNECESSARY_VERSUS_CONTINGENT_ROOT_2", statement_id = "5c898d24-d1f7-5087-b09e-3287a723e787"}, {term = "WELL_FOUNDEDNESS_AND_ANTI_BRUTE_ROOT", from = "WELL_FOUNDEDNESS_AND_ANTI_BRUTE_ROOT_1", to = "WELL_FOUNDEDNESS_AND_ANTI_BRUTE_ROOT_2", statement_id = "5c898d24-d1f7-5087-b09e-3287a723e787"}, {term = "INTRINSIC_PRODUCTIVE_CONTRIBUTION_VERSUS_SOURCE_BACKED", from = "INTRINSIC_PRODUCTIVE_CONTRIBUTION_VERSUS_SOURCE_BACKED_1", to = "INTRINSIC_PRODUCTIVE_CONTRIBUTION_VERSUS_SOURCE_BACKED_2", statement_id = "5c898d24-d1f7-5087-b09e-3287a723e787"}]
+rule = "Reuse the existing route composition, with the maximum lemma instantiated at the one-point esse respect type"
+meaning = "Sibling of the twelve-input direct-esse route 5e8e6054 with STMT-GRADES-HAVE-A-MAXIMUM (6c27657f, every respect) replaced by its fixed-esse instance STMT-GRADES-TO-MAXIMUM-AT-BEING (e4e6b0cd); every other premise is the same statement. The old route applies grades only at esse, inside actualCore. actualRootExists gives an actual root n from population, whole-roster nontrapping and excluded middle, without contingent dependence; the priority correspondence gives firstness; ExistingInActAt gives n esse; the existing maximumExistsOfExistingRoot at the one-point esse respect type gives a maximum in esse; maximumEqualsRoot and reducedDescription name n as God. No modal necessity is used or concluded. No premise is discharged; the old route is unchanged. Sense bridges: NECESSARY 11 to 2, NONNECESSARY 1 to 2 and WELL_FOUNDEDNESS 1 to 2 (all citing 5c898d24) are bookkeeping, not content bridges: no NecessaryAt, NonnecessaryRootAt, ContingentAt or GroundAncestor occurs in any hypothesis or step, so no passage between these senses happens. truth check requires the bridges only because 5c898d24's definition_ids link both senses of each term, which its Lean type does not use (#1524). INTRINSIC 1 to 2 (5c898d24) is carried by 5c898d24's type, which instantiates Trap's generic intrinsic parameter with the graph Source predicate, the application commitment that distinguishes ActualConcreteSupply from Supply; neither Supply constant itself occurs."
+
+[[relation]]
+id = "Grades to a maximum in every respect strengthen grades to a maximum at being"
+subject_kind = "statement"
+subject_id = "6c27657f-a2bf-5c1d-963c-c154b66bfa85"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "e4e6b0cd-f61a-5605-a302-573c67cf063a"
+verification_result_id = "Grades to a maximum in every respect give grades to a maximum at being"
+note = "Same InAct and MoreIn; instantiation at the one respect esse. No strictness countermodel is registered."
