@@ -700,7 +700,7 @@ attributes are confessed.
 | Dei Filius | Typed as | At any being with the nine (`nineGiveDeiFilius`) | At the spine's root (`deiFiliusRoot`) |
 |---|---|---|---|
 | unus, una singularis | `IsTheOneGod` | one of the nine | one of the nine |
-| vivus | primitive `Lives` (LIVING_1, timeless) | open bridge: whatever has intellect lives (q.18 a.3) | same bridge |
+| vivus | primitive `Lives` (LIVING_1, timeless) | open bridge: whatever has intellect lives (q.18 a.3) | same bridge; or (second route) from the root's pure act through LIVING_2 and a restricted sense bridge (below) |
 | creator caeli et terrae | `IsCreatorOfAll`: causes the being of everything else (weaker: no creation from nothing) | contained by definition in the goodness conjunct | same |
 | Dominus | primitive `IsLord` | open bridge: creator of all is lord (q.13 a.7) | same bridge |
 | omnipotens | `IsAlmighty` (active power; no clash with immutability, which excludes passive potency) | from infinity by the existing `STMT-INFINITE-ACT-HAS-INFINITE-POWER` (itself derived from three open premises) | same |
@@ -719,10 +719,37 @@ For *vivus* the corpus already has a typed, time-indexed route
 (`SelfOperationLife`, result `PURE-ACT-LIVES-FROM-SELF-OPERATION`: life as
 self-operation, derived for pure act as life present at some time of a duration
 frame). It is recorded as the sibling reading LIVING_2 (`LivesSomeTime`,
-disambiguation `1f2d3b9b`), not reused. Reusing it would add a duration frame and
-a primitive `Operates` to the attribute vocabulary, and identifying it with the
-timeless LIVING_1 would merge senses; composing the two needs an explicit
-bridge.
+disambiguation `1f2d3b9b`). The attribute structure keeps the timeless LIVING_1,
+and the two senses are not identified.
+
+Since 2026-11-12 a second route gives the root LIVING_1 from its pure act
+(`DeiFiliusLivingSelfOperation`, `deiFiliusRootLivingFromPureAct`, spec
+`specs/dei-filius-living-self-operation.toml`, attempt `6683acc4`). It composes
+`deiFiliusRoot` without the intellect bridge and takes pure act from the root's
+`immutable` conjunct. It then applies `STMT-PURE-ACT-LIVES` (LIVING_2, itself
+derived from three open premises) and crosses to LIVING_1 by one explicit sense
+bridge restricted to pure act (`ad49ea00`: whatever is in potency in no respect
+and lives at some time lives). The restriction carries the motivation: without
+potency, life can neither begin nor end (q.9 a.1,
+`STMT-LIFE-BOUNDARY-REQUIRES-POTENCY`). The unrestricted bridge can fail for a
+being that lived once. The controls show that without the bridge a pure act can
+be LIVING_2 and not LIVING_1, and that the new route does not presuppose the
+intellect bridge.
+
+The route does not reduce the open premises: one bare bridge (intellect gives
+life) is replaced by one bare sense bridge plus `STMT-PURE-ACT-LIVES`, which the
+eternity routes already use. What changes is the connection: living now rests on
+the root's derived pure act and q.18 a.3's account of life, not on an unanalysed
+step from intellect.
+
+Objection audit for this route: no substantive objection identified to the
+instances used at the root. One scope point bears on the universal
+`STMT-PURE-ACT-OPERATES`: an immutable, causally inert being (an abstract
+object, if the domain has one) would have no potency and no operation. It does
+not reach the root, whose witness is actual and concrete; a concrete-restricted
+premise would suffice. Plotinus (the One as source of life, *Enn.* VI.7) is an
+unread lead that would need a sense bridge like the one for intellect. No claim
+states any premise of the route; q.18 a.3 supports three of them by relations.
 
 On the full-list reading the warrant gap of the sufficiency premise is an exact
 list. In general it is the field interpretation, seven new bridges and the
@@ -892,8 +919,9 @@ conditional investigations, not a mandatory first gate:
    seven named bridges (five at the root) plus existing premises. That
    warrant gap holds on the full-list reading of the field; on the nine-reading
    that `Root.lean` documents, the premise is close to analytic. Next for it:
-   typed content for the five primitives (life without change, or a bridge from
-   the time-indexed LIVING_2; dominion; presence and place; created intellects
+   typed content for the five primitives (life without change, under which the
+   restricted bridge from LIVING_2, attempt `6683acc4`, could be derived or
+   fail; dominion; presence and place; created intellects
    and knowability; beatitude); a world term for non-identity with the world
    (the anti-pantheist content); and whether the respects of `InAct` separate
    grades of being. The

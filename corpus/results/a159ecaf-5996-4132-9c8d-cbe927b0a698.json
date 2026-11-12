@@ -1,0 +1,11 @@
+{
+  "id": "a159ecaf-5996-4132-9c8d-cbe927b0a698",
+  "label": "The NECESSARY_2 GOD_4 root has the Dei Filius attributes, LIVING_1 from no POTENCY_1",
+  "argument_id": "b074dfdd-c1d5-449f-8a03-7366e05a2d66",
+  "challenge_module": "TruthCore.Results.Causality.DeiFiliusLivingSelfOperation.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DeiFiliusLivingSelfOperation.Solution",
+  "theorem": "TruthCore.Results.Causality.DeiFiliusLivingSelfOperation.deiFiliusRootLivingFromPureAct",
+  "comparator_config": "results/a159ecaf-5996-4132-9c8d-cbe927b0a698/comparator.json",
+  "status": "solution-present",
+  "description": "The registered Dei Filius root composition (deiFiliusRoot) is applied with every one of its inputs except 'Whatever HAS_INTELLECT_1 is LIVING_1', on the primitives that agree with the given ones except that their Lives is HasIntellect; that bridge then holds trivially and nothing about the given Lives is used. Its root n is the same witness, and n is pure act: its immutable conjunct IsImmutable InPotency n has the body PureAct InPotency n. STMT-PURE-ACT-LIVES (derived in result PURE-ACT-LIVES-FROM-SELF-OPERATION from three open premises: pure act operates from itself, what operates from itself and is moved in no respect lives at some time, and nothing is moved except as in potency) gives n life at some time of the duration frame (LIVING_2). The restricted sense bridge gives n LIVING_1, the timeless living conjunct of the typed Dei Filius attributes; every other conjunct is carried over. The two senses are not identified: the passage is the one listed bridge premise, restricted to pure act. Against deiFiliusRoot this route removes the intellect-gives-life bridge and adds STMT-PURE-ACT-LIVES (already a premise of the eternity routes) and the new sense bridge; it uses the potency predicate InPotency of the immutability and eternity premises. Uniqueness is among actual roots at w. Conditional consequence only; no premise is established."
+}
