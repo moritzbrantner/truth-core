@@ -329,3 +329,27 @@ roots. No floor conflict or rival defeat is asserted. This is the complete
 new proposed outcome for the parent's semantic challenge; the earlier finite
 challenge is reused only for its unchanged finite scope. Final gate status is
 reported in the PR/handoff, not inferred from these proofs' presence.
+
+The earlier “no premise change” statements describe the notes-only and finite
+stages above. The sibling batch changes the computed diagnostic: five support
+alternatives are added; borrowed reality moves from bare to `closed` (proved
+from open premises), reducing reaching-root open leaves from 479 to 478, while
+the lowest-cost expanded route remains 16 and no bare premises are added.
+This is the repository's distinction between `closed` and `established`, not an
+independent warrant gain or root establishment. The exact computed delta is
+included in the PR. No closure rule is changed.
+
+Prose reconciliation for the parent: the older CCR statement/spec says it
+“imposes no … finite-path condition.” The general equivalence now shows that
+this can only mean no separately stipulated path clause or uniform length
+bound, not absence of finite access as a consequence. The sibling batch and
+updated definition give the precise meaning. The existing frozen theorem types
+are unchanged; the parent should reconcile the older spec's prose in its owned
+batch rather than read it as a counterclaim to this equivalence.
+
+Local verification of the final proof inputs: focused Solution build succeeds;
+8 exact theorem bindings match with zero mismatches; all 8 Comparator runs
+accept with empty permitted-axiom lists and independent NanoDa acceptance.
+Corpus, offline attribution, bundle audit, generated-spec and whitespace checks
+pass. The final PR's CI supplies broader integration coverage; the new parent
+semantic challenge and independent applicability/warrant remain pending.

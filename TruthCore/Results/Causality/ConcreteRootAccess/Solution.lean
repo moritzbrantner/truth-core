@@ -62,7 +62,7 @@ theorem closedOfLocalized {W B : Type} (m : Profile W B) (w : W)
     induction hz with
     | root hr => exact fun hs => hn _ hs hr
     | step hp hc hg ih => exact fun hs => ih (hS.2 _ _ hs hg)
-  apply hb S ⟨hS.1, ?_⟩
+  refine hb S ⟨hS.1, ?_⟩ ?_
   · intro x y hx he hg
     rcases em (m.concrete y) with hc | hc
     · exact hS.2 x y hx ⟨hc, he, hg⟩
