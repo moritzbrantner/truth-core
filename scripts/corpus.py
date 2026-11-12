@@ -610,6 +610,12 @@ def validate_weakening(path: Path, argument: dict[str, Any]) -> None:
         )
 
 
+# Evidence roles of a strength_comparison whose one-premise argument derives a
+# weaker version of its premise: the stronger principle entails the weaker one
+# (`implication`) and its delta (`delta_forward`).
+STRENGTH_WEAKENING_ROLES = ("implication", "delta_forward")
+
+
 def unregistered_weakening_warnings(
     arguments: list[dict[str, Any]],
     results: list[dict[str, Any]],
@@ -617,8 +623,9 @@ def unregistered_weakening_warnings(
     order: list[dict[str, Any]],
 ) -> list[str]:
     """Advisory (2026-11-12): a verified one-premise argument that declares
-    itself a weakening (`weakening: true`), or that is the implication
-    evidence of a `strength_comparison` from its premise to its conclusion,
+    itself a weakening (`weakening: true`), or that is the `implication` or
+    `delta_forward` evidence of a `strength_comparison` (each derives a weaker
+    version of its premise),
     without a `strengthens` relation registering that pair."""
     verified = {result["argument_id"] for result in results}
     argument_of_result = {result["id"]: result["argument_id"] for result in results}
@@ -627,9 +634,10 @@ def unregistered_weakening_warnings(
     for relation in sorted(relations, key=lambda relation: relation["id"]):
         if relation.get("predicate") != "strength_comparison":
             continue
-        implication = (relation.get("evidence_result_ids") or {}).get("implication")
-        if implication in argument_of_result:
-            compared.setdefault(argument_of_result[implication], relation["id"])
+        evidence = relation.get("evidence_result_ids") or {}
+        for role in STRENGTH_WEAKENING_ROLES:
+            if evidence.get(role) in argument_of_result:
+                compared.setdefault(argument_of_result[evidence[role]], f"the {role} of strength_comparison {relation['id']}")
     warnings = []
     for argument in sorted(arguments, key=lambda argument: argument["id"]):
         premises = argument["premise_statement_ids"]
@@ -641,7 +649,7 @@ def unregistered_weakening_warnings(
         if argument.get("weakening") is True:
             why = "declares weakening"
         elif argument["id"] in compared:
-            why = f"is the implication of strength_comparison {compared[argument['id']]}"
+            why = f"is {compared[argument['id']]}"
         else:
             continue
         warnings.append(

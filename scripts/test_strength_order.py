@@ -305,6 +305,15 @@ class StrengthValidationTest(unittest.TestCase):
         self.assertEqual(corpus.unregistered_weakening_warnings(arguments, RESULTS, relations, order), [])
         self.assertEqual(corpus.unregistered_weakening_warnings(ARGUMENTS, RESULTS, [], []), [])
 
+    def test_delta_forward_of_a_comparison_is_flagged(self) -> None:
+        later = {**relation("statement", "BASE", "strength_comparison", "STRONG"),
+                 "id": "REL-Z", "evidence_result_ids": {"delta_forward": "ARG-STRONG"}}
+        earlier = {**later, "id": "REL-A"}
+        warnings = corpus.unregistered_weakening_warnings(ARGUMENTS, RESULTS, [later, earlier], [])
+        # The lowest relation id is named, as in Rust.
+        self.assertEqual(len(warnings), 1)
+        self.assertIn("ARG-STRONG: is the delta_forward of strength_comparison REL-A from BASE to STRONG", warnings[0])
+
 
 class StrengthCorpusTest(unittest.TestCase):
     def test_registered_pairs_resolve(self) -> None:
