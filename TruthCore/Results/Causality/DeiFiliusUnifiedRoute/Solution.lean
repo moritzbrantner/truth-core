@@ -25,29 +25,26 @@ open TruthCore.Causality.DeiFiliusLivingNineScope (HasTheNine NineLiveSomeTime)
 open TruthCore.Causality.DeiFiliusLivingSelfOperation (PureActLifeAtSomeTimeIsLiving)
 open TruthCore.Causality.DeiFiliusLordBlessed
 open TruthCore.Causality.DeiFiliusImmenseIncomprehensible
-open TruthCore.Causality.Round2PerfectionPrimacy
-  (CausedInBeingByAnotherIsCreature CreatureEsseIsReceived)
+open TruthCore.Causality.DeiFiliusUnifiedRoute (CausedEsseIsReceived)
 open TruthCore.Causality.ReceptionLimitation (ReceivedEsseIsLimited InfiniteEsseIsUnlimited)
 open TruthCore.Causality.NamingVeracityBatch1 (Power InfiniteActHasInfinitePower)
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Case.Catholicism
 open TruthCore.Logic
 
-/-- What has its being caused by another is not INFINITE_1, from four existing
-open premises: x, caused in being by some c ≠ x, is a creature; a creature's esse
-is received in some principle; received esse is limited; an INFINITE_1 being's
-esse is not limited. The step from caused to received being runs through
-`Creature`. -/
+/-- What has its being caused by another is not INFINITE_1, from one explicit
+open bridge and two existing open premises: x, caused in being by some c ≠ x, has
+its esse received in some principle (the bridge); received esse is limited; an
+INFINITE_1 being's esse is not limited. -/
 theorem causedIsNotInfiniteFromReception {B R P : Type}
-    (CausesIn : B → B → R → Prop) (esse : R) (Infinite Creature EsseLimited : B → Prop)
+    (CausesIn : B → B → R → Prop) (esse : R) (Infinite EsseLimited : B → Prop)
     (EsseReceivedIn : B → P → Prop)
-    (hCreature : CausedInBeingByAnotherIsCreature CausesIn Creature esse)
-    (hReceived : CreatureEsseIsReceived Creature EsseReceivedIn)
+    (hReceived : CausedEsseIsReceived CausesIn esse EsseReceivedIn)
     (hLimited : ReceivedEsseIsLimited EsseLimited EsseReceivedIn)
     (hUnlimited : InfiniteEsseIsUnlimited EsseLimited Infinite) :
     CausedIsNotInfinite CausesIn esse Infinite := by
   intro x ⟨c, hne, hc⟩ hInf
-  obtain ⟨z, hz⟩ := hReceived x (hCreature c x hne hc)
+  obtain ⟨z, hz⟩ := hReceived c x hne hc
   exact hUnlimited x hInf (hLimited x z hz)
 
 /-- Within the unified root bundle: the root's infinity premise (esse equal to
@@ -259,7 +256,7 @@ private theorem sufficiencyBundle : SufficiencyBundle := by
   refine ⟨fun _ _ => ⟨(), trivial⟩, ?_, ?_, ?_, ?_, ?_, ?_, ?_, ?_, ?_, ?_,
     fun _ h => (creatorIsTrue _ h ▸ fun _ h => nomatch h), ?_, fun _ _ => Iff.rfl, ?_,
     fun _ _ => rfl, ?_, ?_, fun _ _ _ => ⟨(), trivial⟩, fun _ _ h => h, ?_,
-    fun _ _ _ h => h, ?_, ?_, ?_, ?_, ?_, ?_⟩
+    fun _ _ _ h => h, ?_, ?_, ?_, ?_, ?_⟩
   · intro g hPure _
     cases g with
     | true => rfl
@@ -323,9 +320,7 @@ private theorem sufficiencyBundle : SufficiencyBundle := by
     rw [hc.2] at hInf
     exact Bool.noConfusion hInf
   · intro _ _ _ hc
-    exact hc.2
-  · intro x hx
-    exact ⟨true, hx, rfl⟩
+    exact ⟨true, hc.2, rfl⟩
   · intro x _ h
     exact h.1
   · intro x hInf hLim
@@ -394,7 +389,7 @@ private theorem rootBundle (hEM : ExcludedMiddle) : RootBundle := by
     hGenus, hExisting, hEsse, hApproach, hBeing, hPreexist, hGoodness, hTransfer, ?_, ?_,
     hPrior, hNoComponent, hIntellect, hWill, hActPrior, hNotBoth, ?_, hEternity, hNaming,
     hMaximal, ?_, ?_, ?_, ?_, ?_, ?_, ?_, ?_, ?_, ?_, ?_, ?_, ?_, ?_, ?_, ?_, ?_, ?_, ?_, ?_,
-    ?_, ?_, ?_, ?_⟩
+    ?_, ?_, ?_⟩
   -- uniting cause
   · intro x hx
     exact ⟨.source, fun h => hx h.symm, rootSourceCausesOthers x hx⟩
@@ -476,14 +471,11 @@ private theorem rootBundle (hEM : ExcludedMiddle) : RootBundle := by
     change x = TransferRole.source at hInf
     subst hInf
     exact rootNoIncoming c hc
-  -- caused in being by another is a creature
-  · intro c x _ hc hx
-    change x = TransferRole.source at hx
+  -- caused esse is received
+  · intro c x _ hc
+    refine ⟨.source, fun hx => ?_, rfl⟩
     subst hx
     exact rootNoIncoming c hc
-  -- creature esse is received
-  · intro x hx
-    exact ⟨.source, hx, rfl⟩
   -- received esse is limited
   · intro x _ h
     exact h.1

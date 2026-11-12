@@ -21,24 +21,21 @@ open TruthCore.Causality.DeiFiliusLivingNineScope (HasTheNine NineLiveSomeTime)
 open TruthCore.Causality.DeiFiliusLivingSelfOperation (PureActLifeAtSomeTimeIsLiving)
 open TruthCore.Causality.DeiFiliusLordBlessed
 open TruthCore.Causality.DeiFiliusImmenseIncomprehensible
-open TruthCore.Causality.Round2PerfectionPrimacy
-  (CausedInBeingByAnotherIsCreature CreatureEsseIsReceived)
+open TruthCore.Causality.DeiFiliusUnifiedRoute (CausedEsseIsReceived)
 open TruthCore.Causality.ReceptionLimitation (ReceivedEsseIsLimited InfiniteEsseIsUnlimited)
 open TruthCore.Causality.NamingVeracityBatch1 (Power InfiniteActHasInfinitePower)
 open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Case.Catholicism
 open TruthCore.Logic
 
-/-- What has its being caused by another is not INFINITE_1, from four existing
-open premises: x, caused in being by some c ≠ x, is a creature; a creature's esse
-is received in some principle; received esse is limited; an INFINITE_1 being's
-esse is not limited. The step from caused to received being runs through
-`Creature`. -/
+/-- What has its being caused by another is not INFINITE_1, from one explicit
+open bridge and two existing open premises: x, caused in being by some c ≠ x, has
+its esse received in some principle (the bridge); received esse is limited; an
+INFINITE_1 being's esse is not limited. -/
 theorem causedIsNotInfiniteFromReception {B R P : Type}
-    (CausesIn : B → B → R → Prop) (esse : R) (Infinite Creature EsseLimited : B → Prop)
+    (CausesIn : B → B → R → Prop) (esse : R) (Infinite EsseLimited : B → Prop)
     (EsseReceivedIn : B → P → Prop)
-    (hCreature : CausedInBeingByAnotherIsCreature CausesIn Creature esse)
-    (hReceived : CreatureEsseIsReceived Creature EsseReceivedIn)
+    (hReceived : CausedEsseIsReceived CausesIn esse EsseReceivedIn)
     (hLimited : ReceivedEsseIsLimited EsseLimited EsseReceivedIn)
     (hUnlimited : InfiniteEsseIsUnlimited EsseLimited Infinite) :
     CausedIsNotInfinite CausesIn esse Infinite := by

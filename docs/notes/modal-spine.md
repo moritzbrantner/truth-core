@@ -801,7 +801,7 @@ attributes are confessed.
 | omnipotens | `IsAlmighty` (active power; no clash with immutability, which excludes passive potency) | from infinity by the existing `STMT-INFINITE-ACT-HAS-INFINITE-POWER` (itself derived from three open premises) | same |
 | aeternus | `Eternal` | one of the nine | one of the nine |
 | immensus | primitive `Immense` (IMMENSE_1); typed sibling IMMENSE_2, `IsImmenseAsInfiniteCauseOfAll`: infinite and causes the being of everything else (below) | open bridge: creator of all is immense (q.8 a.1-2); or (second route) IMMENSE_2, contained in the nine with no premise, plus a weaker sense bridge IMMENSE_2 → IMMENSE_1 that carries all the substantive content | same two routes |
-| incomprehensibilis | primitive `Incomprehensible` (INCOMPREHENSIBLE_1); typed sibling INCOMPREHENSIBLE_2, `IsIncomprehensibleToCausedIntellects`: infinite and comprehended by no caused intellect, with a new primitive relation `Comprehends` (below) | open bridge: the infinite is incomprehensible (q.12 a.7); or (second route) INCOMPREHENSIBLE_2, derived from the nine with two new bridges (q.7 a.2, q.12 a.7; the q.7 a.2 bridge `18ca6f9d` is itself derived from four reception-limitation premises, see the unified route below), plus a weaker, nearly analytic sense bridge INCOMPREHENSIBLE_2 → INCOMPREHENSIBLE_1 | same two routes |
+| incomprehensibilis | primitive `Incomprehensible` (INCOMPREHENSIBLE_1); typed sibling INCOMPREHENSIBLE_2, `IsIncomprehensibleToCausedIntellects`: infinite and comprehended by no caused intellect, with a new primitive relation `Comprehends` (below) | open bridge: the infinite is incomprehensible (q.12 a.7); or (second route) INCOMPREHENSIBLE_2, derived from the nine with two new bridges (q.7 a.2, q.12 a.7; the q.7 a.2 bridge `18ca6f9d` is itself derived from one caused-esse-is-received bridge and two reception-limitation premises, see the unified route below), plus a weaker, nearly analytic sense bridge INCOMPREHENSIBLE_2 → INCOMPREHENSIBLE_1 | same two routes |
 | intellectu ac voluntate omnique perfectione infinitus | `HasIntellect`, `HasWill`, `IsPerfect`, `Infinite` (weaker: infinity of intellect and will as such untyped) | four of the nine | four of the nine |
 | simplex omnino, incommutabilis | `IsSimple`, `IsImmutable` | two of the nine | two of the nine |
 | substantia spiritualis | `IsSpiritual`: not matter-form composed (weaker: substance untyped; alone it fits prime matter or an accident) | derived: simplicity and the q.3 a.7 matter-form clause | derived: the root excludes matter-form composition |
@@ -904,12 +904,16 @@ the operation derivation) with the restricted bridge `ad49ea00`, and LORD_2,
 BLESSED_2, IMMENSE_2 and INCOMPREHENSIBLE_2 with their sense bridges. Only weak
 versions are used. The sufficiency route has fifteen premises; the root route has
 the twenty-two spine-root premises and eleven Dei Filius premises. The q.7 a.2
-bridge `18ca6f9d` is now derived (`causedIsNotInfiniteFromReception`) from four
-existing open premises, with no new bridge: what is caused in being by another is
-a creature, a creature's esse is received in some principle, received esse is
-limited, and an INFINITE_1 being's esse is not limited. The step from external
-cause to received esse runs through `Creature`. The individuation-by-esse scope
-condition binds the first premise in the same way. Joint satisfiability is no
+bridge `18ca6f9d` is now derived (`causedIsNotInfiniteFromReception`) from one
+new open bridge and two existing open premises: what has its being caused by
+another has its esse received in some principle (`da72ae93`, the bridge), received
+esse is limited, and an INFINITE_1 being's esse is not limited. The step from
+external cause to received esse is that one named bridge. It does not pass through
+`Creature`: `STMT-CAUSED-IN-BEING-BY-ANOTHER-IS-CREATURE` reads `Creature` broadly
+(ordered to some cause of its being), while `DEF-CREATURE` and the q.7 a.2 support
+of `STMT-CREATURE-ESSE-IS-RECEIVED` use the narrower sense (ordered to God), so a
+chain through both would equivocate. The individuation-by-esse scope condition
+binds the bridge in the same way. Joint satisfiability is no
 longer unresolved for these two routes. A two-being model satisfies the whole
 sufficiency bundle and every open leaf under its nine-statements; its being with
 the nine is a cause of the being of a composite, potential, caused intellect, and
@@ -921,16 +925,14 @@ bundle the infinity premise and `18ca6f9d` together entail that whatever has its
 being caused by another being distinct from it has esse distinct from essence
 (lake-checked lemma `causedHasDistinctEsse`, not registered). The root model is
 degenerate in one respect: on its all-true act dictionary every role is pure act
-and universally perfect, and every creature's esse is received in the divine
+and universally perfect, and every caused role's esse is received in the divine
 essence, so limited esse is not tied to imperfection there. The weight of
-`18ca6f9d` now rests mainly on `29e71e43`, the general reception of creaturely
+`18ca6f9d` now rests mainly on the new bridge, the general reception of caused
 esse in a receiving principle. It does not say the principle is the thing's own
 essence (that is `STMT-ESSE-RECEIVED-IN-OWN-ESSENCE`), and `DEF-ESSE-RECEIVED-IN`
-leaves its real constitution open. `b7d4eede` reads `Creature` broadly (ordered to
-some cause of its being), while the q.7 a.2 support of `29e71e43` covers only the
-narrower sense of things made by God. Computed: `18ca6f9d` moves bare to closed
-(closed by a verified derivation from four open premises; not established); open
-premises reaching the root 455 to 454; no bare premise added.
+leaves its real constitution open. Computed: `18ca6f9d` moves bare to closed
+(closed by a verified derivation from three open premises; not established), the
+new bridge is added bare; open premises reaching the root stay at 455.
 
 For *vivus* the corpus already has a typed, time-indexed route
 (`SelfOperationLife`, result `PURE-ACT-LIVES-FROM-SELF-OPERATION`: life as

@@ -2,7 +2,7 @@ module
 
 public import TruthCore.Causality.DeiFiliusImmenseIncomprehensible
 public import TruthCore.Causality.DeiFiliusLordBlessed
-public import TruthCore.Causality.Round2PerfectionPrimacy
+public import TruthCore.Causality.ReceptionLimitation
 public import TruthCore.Causality.NecessaryClassicalGodRootControl
 public import TruthCore.Case.Catholicism.ClassicalAttributesLocalLogic
 
@@ -19,17 +19,17 @@ BLESSED_2, IMMENSE_2 and INCOMPREHENSIBLE_2 with their sense bridges. No old
 living, lord, blessed, immense or incomprehensible bridge is an input.
 
 It also derives the open bridge `CausedIsNotInfinite` (what has its being caused
-by another is not INFINITE_1, after ST I q.7 a.2 and ad 1) from four existing open
-premises of the reception-limitation vocabulary: what is caused in being by
-another is a creature (`Round2PerfectionPrimacy`), a creature's esse is received
-in some principle (q.7 a.2, generalized), received esse is limited (q.7 a.2,
-generalized) and an INFINITE_1 being's esse is not limited (q.7 a.1). The scope
-condition of `CausedIsNotInfinite` (elements of `Being` are individuated by their
-act of being; definition `80dea550`) binds the first of these in the same way:
-read with the divine processions as instances of `CausesIn c x esse` with
-`c ≠ x`, it would make the Son a creature.
+by another is not INFINITE_1, after ST I q.7 a.2 and ad 1) from one new explicit
+open bridge, `CausedEsseIsReceived` (what has its being caused by another has its
+esse received in some principle), and two existing open premises of the
+reception-limitation vocabulary: received esse is limited (q.7 a.2, generalized)
+and an INFINITE_1 being's esse is not limited (q.7 a.1). The step from an external
+cause of esse to received esse, which `DISAMB-ESSE-RECEPTION` keeps apart, is thus
+one named premise; it does not pass through `Creature`, whose definition
+(`DEF-CREATURE`: ordered to God as principle and cause) is narrower than the
+reading the existing premise `CausedInBeingByAnotherIsCreature` gives it.
 
-This module adds no philosophical vocabulary. It holds the two finite models
+This module adds that one bridge and no other philosophical vocabulary. It holds the two finite models
 (`Control`) that witness the joint satisfiability of each unified route's whole
 premise bundle, including the open leaves of the registered derivations of its
 nine-statements, together with a being that has the nine. Analyst formulations,
@@ -50,10 +50,24 @@ open TruthCore.Causality.DeiFiliusOperationFromIntellect
 open TruthCore.Causality.DeiFiliusLordBlessed
 open TruthCore.Causality.DeiFiliusImmenseIncomprehensible
 open TruthCore.Causality.SelfOperationLife (SelfOperatingUnmovedLives)
-open TruthCore.Causality.Round2PerfectionPrimacy
-  (CausedInBeingByAnotherIsCreature CreatureEsseIsReceived)
 open TruthCore.Causality.ReceptionLimitation (ReceivedEsseIsLimited InfiniteEsseIsUnlimited)
 open TruthCore.Causality.NamingVeracityBatch1 (Power InfiniteActHasInfinitePower)
+
+/-- Open bridge: whatever has its being caused by some being distinct from it has
+its esse received in some principle (`EsseReceivedIn`, DEF-ESSE-RECEIVED-IN: a
+principle standing to it as receiving potency to received act). After ST I q.7
+a.2 (the esse of a subsistent created form is received and contracted) and De
+ente c.4 (what has esse from another receives it), generalized to everything
+caused as to being. It joins the two notions DISAMB-ESSE-RECEPTION keeps apart,
+origin from another and reception in a principle, as one explicit premise. It
+does not say the principle is the thing's own essence, nor what the principle
+really is. SCOPE CONDITION (definition `80dea550`): elements of the domain are
+individuated by their act of being, so the divine processions are no instances of
+`CausesIn c x esse` with `c ≠ x`; read with them as instances, the bridge would
+give the Son received, and so (with `ReceivedEsseIsLimited`) limited, esse. -/
+def CausedEsseIsReceived {B R P : Type} (CausesIn : B → B → R → Prop) (esse : R)
+    (EsseReceivedIn : B → P → Prop) : Prop :=
+  ∀ c x, c ≠ x → CausesIn c x esse → ∃ z, EsseReceivedIn x z
 
 /-! ## Joint satisfiability models -/
 
@@ -63,7 +77,7 @@ namespace Control
 
 `true` has the nine; `false` is a caused intellect: composite (its esse is not its
 essence), in potency to understanding and moved in that respect, not infinite,
-a creature whose esse is received and limited. Respects: `false` is esse, `true`
+caused, with received and limited esse. Respects: `false` is esse, `true`
 is understanding. -/
 
 /-- Both beings exist; only `true` is in act in understanding. -/
@@ -141,7 +155,7 @@ def prims : Primitives Bool := ⟨isTrue, isTrue, isTrue, isTrue, isTrue⟩
 /-- The whole premise bundle of the unified sufficiency route at this
 interpretation: its fifteen premises, then the open leaves of the registered
 derivations of its nine-statements (operation and life, government,
-understanding, and the four reception premises and the finite-intellect bridge
+understanding, and the three reception premises and the finite-intellect bridge
 under incomprehensibility), and the derived `CausedIsNotInfinite` itself. -/
 def SufficiencyBundle : Prop :=
   NineLiveSomeTime inAct inAct potency causes false isTrue composite isTrue isTrue yes yes
@@ -173,8 +187,7 @@ def SufficiencyBundle : Prop :=
   UniversalIntellectualCauseDirectsAll inAct causes false yes yes directs ∧
   DirectingToAnEndIsGoverningReading directs governs ∧
   CausedIsNotInfinite causes false isTrue ∧
-  CausedInBeingByAnotherIsCreature causes isFalse false ∧
-  CreatureEsseIsReceived isFalse received ∧
+  CausedEsseIsReceived causes false received ∧
   ReceivedEsseIsLimited isFalse received ∧
   InfiniteEsseIsUnlimited isFalse isTrue ∧
   FiniteIntellectDoesNotComprehendInfinite isTrue yes selfComprehension
@@ -309,8 +322,7 @@ def RootBundle : Prop :=
     intellect will rootDirects ∧
   DirectingToAnEndIsGoverningReading rootDirects rootGoverns ∧
   CausedIsNotInfinite rootProfile.CausesIn rootProfile.esse rootInfinite ∧
-  CausedInBeingByAnotherIsCreature rootProfile.CausesIn notSource rootProfile.esse ∧
-  CreatureEsseIsReceived notSource rootReceived ∧
+  CausedEsseIsReceived rootProfile.CausesIn rootProfile.esse rootReceived ∧
   ReceivedEsseIsLimited notSource rootReceived ∧
   InfiniteEsseIsUnlimited notSource rootInfinite ∧
   FiniteIntellectDoesNotComprehendInfinite rootInfinite intellect rootComprehension
