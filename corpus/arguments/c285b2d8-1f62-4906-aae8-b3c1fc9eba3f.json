@@ -14,7 +14,7 @@
   "inference_ids": [
     "bd70d7eb-d63f-4a16-bc6e-80abee1d447c"
   ],
-  "meaning": "The checks route of the join with the closed-collection condition in place of AGWF. J2 stays a premise; its derivation from F1 and no-novel-edge still needs AGWF (Control.limitGrounder). Conditional consequence only.",
+  "meaning": "The checks route of the join with the closed-collection condition in place of AGWF. J2 stays a premise: the closed-collection condition cannot replace AGWF in unionWFOfNoNovel (Control.limitGrounder), and J2 also follows from rigid ascent and no infinite ascent among necessary concreta (unionWFOfAscent). Conditional consequence only.",
   "definition_ids": [
     "38b9012a-472b-4544-a271-16d22b25c9ac",
     "735d59a6-61de-5e43-bcf6-4ff64bceb90d",
@@ -31,16 +31,25 @@
     "75c193e1-bab0-5ec2-890b-9ff608b05aa7",
     "e1ff44df-ed97-5990-8424-1abd720f23ea",
     "47033c70-0aca-565d-9473-8399577fea54",
-    "b242943a-34cc-582d-8c38-c1203b9d2c91"
+    "b242943a-34cc-582d-8c38-c1203b9d2c91",
+    "7ac7fea6-5b3a-5e97-b687-c76569c58429"
   ],
   "disambiguation_ids": [
     "623ddbf6-9683-5361-bae4-e348a00ec680",
     "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
     "5d15d8f2-1080-53c9-886f-cee2a4ff23a9",
     "7507d645-874d-5434-add8-2f49c2801d36",
-    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e",
+    "c529e8d3-43e3-53a8-a82f-3955e9815265",
+    "b9adce48-6b86-5f58-b2ea-b25f51c70cbd"
   ],
   "sense_bridges": [
+    {
+      "term": "NONNECESSARY_VERSUS_CONTINGENT_ROOT",
+      "from": "cf6a8bb9-2a70-4e90-86bd-06f69106da2f",
+      "to": "9f9108e2-3cc3-45dd-be1d-d8fdaaced708",
+      "statement_id": "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
+    },
     {
       "term": "NECESSARY",
       "from": "8c881fa6-2b9f-44be-a32a-c8ef29c13643",

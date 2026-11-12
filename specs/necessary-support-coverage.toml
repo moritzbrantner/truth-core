@@ -35,7 +35,7 @@ definitions = ["Actual coverage of support of a necessary concretum", "Well-foun
 [[argument]]
 id = "Well-founded necessary support union, from actual well-foundedness and no novel edge"
 theorem = "unionWFOfNoNovel"
-strong_version_needed = { "STMT-ACTUAL-GROUNDING-WF" = "The closed-collection weak version does not suffice: in ClosedGroundingRoots Control.limitGrounder it holds with reflexive access and the one-way no-novel-edge condition while J2 fails (an endless descending chain of necessary concreta, each also grounded by one root). The proof needs well-founded present support, which only the strong version supplies here." }
+strong_version_needed = { "STMT-ACTUAL-GROUNDING-WF" = "The closed-collection weak version does not suffice: in ClosedGroundingRoots Control.limitGrounder (result 66b54b88-8c2f-4d4b-8efe-ed67ed9b1e8c, argument fdd9abd9-5e9a-43b3-b53d-5619071d3245) it holds with reflexive access and the one-way no-novel-edge condition while J2 fails (an endless descending chain of necessary concreta, each also directly grounded by one root). The proof needs well-founded present support, which only the strong version supplies here." }
 premises = ["STMT-ACTUAL-MODAL-REFLEXIVITY", "STMT-ACTUAL-GROUNDING-WF", "STMT-NO-NOVEL-NECESSARY-SUPPORT"]
 sense_bridges = [
   { term = "NECESSARY", from = "8c881fa6-2b9f-44be-a32a-c8ef29c13643", to = "7af298fb-a2c4-4239-919b-7685f2e1f67a", statement_id = "STMT-ACTUAL-MODAL-REFLEXIVITY" },
@@ -52,7 +52,7 @@ meaning = "Derives J2 of the join, well-foundedness of the cross-world union of 
 [[argument]]
 id = "No mutual necessary support, from actual well-foundedness and no novel edge"
 theorem = "mutualSupportExcluded"
-strong_version_needed = { "STMT-ACTUAL-GROUNDING-WF" = "The closed-collection weak version does not suffice: in ClosedGroundingRoots Control.rootedCycle it holds with reflexive access and the one-way no-novel-edge condition while two necessary concreta support each other (a cycle grounded by a root)." }
+strong_version_needed = { "STMT-ACTUAL-GROUNDING-WF" = "The closed-collection weak version does not suffice: in ClosedGroundingRoots Control.rootedCycle (result 66b54b88-8c2f-4d4b-8efe-ed67ed9b1e8c, argument fdd9abd9-5e9a-43b3-b53d-5619071d3245) it holds with reflexive access and the one-way no-novel-edge condition while two necessary concreta support each other (a cycle grounded by a root)." }
 premises = ["STMT-ACTUAL-MODAL-REFLEXIVITY", "STMT-ACTUAL-GROUNDING-WF", "STMT-NO-NOVEL-NECESSARY-SUPPORT"]
 sense_bridges = [
   { term = "NECESSARY", from = "8c881fa6-2b9f-44be-a32a-c8ef29c13643", to = "7af298fb-a2c4-4239-919b-7685f2e1f67a", statement_id = "STMT-ACTUAL-MODAL-REFLEXIVITY" },

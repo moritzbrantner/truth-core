@@ -26,11 +26,14 @@ excludes infinite descending chains and cycles that sit *above* a root.
   of its members, so that each member's being is supplied only from inside the
   collection, contains a member whose being is not supplied by any actual concretum.
 
-This is the formal shape of the dependence-transmission or "borrowed reality"
-argument. It is the condition of well-foundedness (every nonempty collection has a
+Its closure is over actual *concrete* grounds only: an actual root may have an
+abstract or unmodelled ground. The borrowed-reality principle over all modelled
+suppliers (`NoWhollyBorrowedCollection`) gives it only with the bridge that actual
+concreta are supplied only by concreta (`ActualSuppliersOfConcretaConcrete`;
+`closedRootedOfBorrowed`, and `Control.abstractSupplier` without the bridge). It is the condition of well-foundedness (every nonempty collection has a
 minimal element) restricted to ground-closed collections. AGWF implies it
 constructively (`closedRootedOfWF`); it does not imply AGWF (`Control.limitGrounder`:
-one root grounds every member of an infinite descending chain), nor grounding
+one root directly grounds every member of an infinite descending chain), nor grounding
 asymmetry (`Control.rootedCycle`).
 
 `AttenuatedEsseReception` is the quantitative per se bridge: every actual concretum
@@ -40,8 +43,9 @@ uniform loss (total incoming weight at most `q < 1`); and only a thing with no a
 concrete ground has esse of its own (intermediates contribute nothing of their own).
 Composed with the existing weighted-network theorem
 `QuantitativeTransferPaths.finitePath`, it gives the closed-collection condition.
-The existing controls of that batch show that neither the uniform loss nor the common
-bound can be dropped (`binaryFixed`, `halfFixed`).
+The network analogues in that batch (`binaryFixed`, `halfFixed`) show that the
+weighted-network theorem fails without uniform loss or without the common bound;
+no Profile-level control is given here.
 
 No premise here is established; the selected relation is not identified with
 efficient causing (`DEF-PRESENT-ESSE-SUPPORT`).
@@ -82,6 +86,28 @@ def ClosedGroundingCollectionsRooted (m : Profile W B) (w : W) : Prop :=
   ∀ S : B → Prop, GroundClosedActual m w S → (∀ x, S x → ¬ ActualRoot m w x) →
     ∀ x, ¬ S x
 
+/-- `S` is a collection of actual concreta at `w` that contains every candidate
+existing at `w` that grounds a member at `w`, concrete or not: closure under all
+modelled actual suppliers, not only concrete ones. -/
+def SupplyClosedActual (m : Profile W B) (w : W) (S : B → Prop) : Prop :=
+  (∀ x, S x → ActualConcrete m w x) ∧
+    ∀ x y, S x → m.ontic.ExistsAt w y → m.grounds w y x → S y
+
+/-- The borrowed-reality principle in its collection form, over every modelled
+actual supplier: no collection of actual concreta that contains every actual
+supplier of each member, concrete or not, is nonempty while each member has some
+actual supplier. Suppliers outside the profile's selected relation are not
+modelled. -/
+def NoWhollyBorrowedCollection (m : Profile W B) (w : W) : Prop :=
+  ∀ S : B → Prop, SupplyClosedActual m w S →
+    (∀ x, S x → ¬ ∀ y, ¬ (m.ontic.ExistsAt w y ∧ m.grounds w y x)) → ∀ x, ¬ S x
+
+/-- Every candidate existing at `w` that grounds an actual concretum at `w` is
+concrete: the being of actual concreta is supplied, within the selected relation,
+only by concreta. -/
+def ActualSuppliersOfConcretaConcrete (m : Profile W B) (w : W) : Prop :=
+  ∀ x y, ActualConcrete m w x → m.ontic.ExistsAt w y → m.grounds w y x → m.concrete y
+
 /-- Per se reception of esse with uniform loss, on the actual concreta at `w`:
 the actual concreta are countable; each has an amount `P` of esse, positive and at
 most a common bound `M`; it receives weight `wt v u ≥ 0` only from an actual
@@ -103,9 +129,11 @@ def AttenuatedEsseReception (m : Profile W B) (w : W) : Prop :=
 
 namespace Control
 
-/-- A limit grounder: one world; candidates `none` (the root) and `some n`;
-`some (n+1)` grounds `some n`, and `none` grounds every `some n`. The descending
-chain never reaches the root by its own steps, but the root grounds every member. -/
+/-- A direct root grounder (named `limitGrounder`): one world; candidates `none`
+(the root) and `some n`; `some (n+1)` grounds `some n`, and `none` DIRECTLY grounds
+every `some n`. The descending chain never reaches the root by its own steps, but
+the root directly grounds every member. A foundation reached only through
+intermediaries is a different model (`mediateFoundation`). -/
 def limitGrounder : Profile Unit (Option Nat) where
   ontic := {
     frame := { access := fun _ _ => True }
@@ -203,9 +231,47 @@ def point : Profile Unit Unit where
 /-- The attenuation bridge is satisfiable (a minimal, edgeless witness). -/
 def AttenuationSatisfiable : Prop := AttenuatedEsseReception point ()
 
+/-- Foundation through intermediaries only, under direct grounding: `some (n+1)`
+directly grounds `some n`, and the root `none` directly grounds nothing. Read
+with a mediate (transitive) relation, `none` would be a limit ground of the chain;
+the selected relation is direct support, so the chain is a rootless closed
+collection beside an isolated root. -/
+def mediateFoundation : Profile Unit (Option Nat) where
+  ontic := {
+    frame := { access := fun _ _ => True }
+    ExistsAt := fun _ _ => True
+    Causes := fun _ _ _ => False }
+  concrete := fun _ => True  -- category-constant: intended (all-concrete inventory: the model tests grounding structure, not the concrete/abstract line; a concrete conclusion here is no evidence that anything is concrete)
+  grounds := fun _ a b => ∃ n, a = some (n+1) ∧ b = some n
+
+/-- An abstract supplier: `none` is not concrete and grounds every `some n`;
+`some (n+1)` grounds `some n`. -/
+def abstractSupplier : Profile Unit (Option Nat) where
+  ontic := {
+    frame := { access := fun _ _ => True }
+    ExistsAt := fun _ _ => True
+    Causes := fun _ _ _ => False }
+  concrete := fun x => x ≠ none
+  grounds := fun _ a b => (a = none ∧ b ≠ none) ∨ ∃ n, a = some (n+1) ∧ b = some n
+
+/-- With foundation through intermediaries only, the closed-collection condition
+fails although an actual root exists. -/
+def MediateFoundationControl : Prop :=
+  ¬ ClosedGroundingCollectionsRooted mediateFoundation () ∧
+  ActualRoot mediateFoundation () none
+
+/-- With an abstract supplier, the borrowed-reality principle over all modelled
+suppliers holds while the concrete-supplier bridge and the closed-collection
+condition fail. -/
+def AbstractSupplierControl : Prop :=
+  NoWhollyBorrowedCollection abstractSupplier () ∧
+  ¬ ActualSuppliersOfConcretaConcrete abstractSupplier () ∧
+  ¬ ClosedGroundingCollectionsRooted abstractSupplier ()
+
 /-- All controls of the batch. -/
 def Controls : Prop :=
-  LimitGrounderControl ∧ PureRegressControl ∧ RootedCycleControl ∧ AttenuationSatisfiable
+  LimitGrounderControl ∧ PureRegressControl ∧ RootedCycleControl ∧ AttenuationSatisfiable ∧
+    MediateFoundationControl ∧ AbstractSupplierControl
 
 end Control
 

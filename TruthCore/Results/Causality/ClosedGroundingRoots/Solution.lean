@@ -158,7 +158,9 @@ theorem checksClosed {W B : Type} (m : Profile W B) (w : W)
   intro v a ha he hEdge
   exact hu v ⟨a, ha⟩ he hEdge
 
-/-- The per se attenuation bridge gives the closed-collection condition. From any
+/-- The per se attenuation bridge gives the closed-collection condition. The
+network analogues `binaryFixed` and `halfFixed` show that `finitePath` fails
+without uniform loss or without the common bound; no Profile-level control. From any
 member of a ground-closed collection, the weighted-network theorem `finitePath`
 finds a finite path of positive receptions to a thing with positive own esse;
 each reception is an actual grounding edge, so the path stays inside the
@@ -180,6 +182,19 @@ theorem closedRootedOfAttenuation {W B : Type} (m : Profile W B) (w : W)
     | @tail b c _ hbc ih =>
       exact hS.2 b.1 c.1 ih ⟨c.2.1, c.2.2, hEdge b c hbc⟩
   exact hNoRoot u.1 (stay u hpath) ⟨u.2, hOwn u hsu⟩
+
+/-- The borrowed-reality principle over all modelled suppliers gives the
+closed-collection condition, given that actual concreta are supplied only by
+concreta: a ground-closed rootless collection is then closed under all actual
+suppliers, and each member has one. -/
+theorem closedRootedOfBorrowed {W B : Type} (m : Profile W B) (w : W)
+    (hBR : NoWhollyBorrowedCollection m w)
+    (hConc : ActualSuppliersOfConcretaConcrete m w) :
+    ClosedGroundingCollectionsRooted m w := by
+  intro S hS hNoRoot
+  refine hBR S ⟨hS.1, fun x y hx hy hg => hS.2 x y hx ⟨hConc x y (hS.1 x hx) hy hg, hy, hg⟩⟩ ?_
+  intro x hx hall
+  exact hNoRoot x hx ⟨hS.1 x hx, fun y hy => hall y ⟨hy.2.1, hy.2.2⟩⟩
 
 /-! ## Controls -/
 
@@ -278,7 +293,39 @@ theorem attenuationSatisfiable : AttenuationSatisfiable := by
   · intro v u h; exact absurd h (lt_irrefl 0)
   · intro u _ y hy; exact hy.2.2
 
+theorem mediateFoundationControl : MediateFoundationControl := by
+  refine ⟨?_, ⟨trivial, trivial⟩, ?_⟩
+  · intro hC
+    refine hC (fun x => ∃ n, x = some n) ⟨fun _ _ => ⟨trivial, trivial⟩, ?_⟩ ?_ (some 0) ⟨0, rfl⟩
+    · rintro x y ⟨n, rfl⟩ ⟨-, -, k, rfl, -⟩
+      exact ⟨k+1, rfl⟩
+    · rintro x ⟨n, rfl⟩ hr
+      exact hr.2 (some (n+1)) ⟨trivial, trivial, n, rfl, rfl⟩
+  · rintro y ⟨-, -, n, -, h⟩
+    exact nomatch h
+
+theorem abstractSupplierControl : AbstractSupplierControl := by
+  refine ⟨?_, ?_, ?_⟩
+  · intro S hS _ x hx
+    cases x with
+    | none => exact (hS.1 none hx).1 rfl
+    | some n =>
+      have h0 := hS.2 (some n) none hx trivial (Or.inl ⟨rfl, nofun⟩)
+      exact (hS.1 none h0).1 rfl
+  · intro h
+    exact h (some 0) none ⟨nofun, trivial⟩ trivial (Or.inl ⟨rfl, nofun⟩) rfl
+  · intro hC
+    refine hC (fun x => ∃ n, x = some n) ⟨?_, ?_⟩ ?_ (some 0) ⟨0, rfl⟩
+    · rintro x ⟨n, rfl⟩
+      exact ⟨nofun, trivial⟩
+    · rintro x y ⟨n, rfl⟩ ⟨hy, -, h | ⟨k, rfl, -⟩⟩
+      · exact absurd h.1 hy
+      · exact ⟨k+1, rfl⟩
+    · rintro x ⟨n, rfl⟩ hr
+      exact hr.2 (some (n+1)) ⟨nofun, trivial, Or.inr ⟨n, rfl, rfl⟩⟩
+
 theorem controls : Controls :=
-  ⟨limitGrounderControl, pureRegressControl, rootedCycleControl, attenuationSatisfiable⟩
+  ⟨limitGrounderControl, pureRegressControl, rootedCycleControl, attenuationSatisfiable,
+    mediateFoundationControl, abstractSupplierControl⟩
 
 end TruthCore.Results.Causality.ClosedGroundingRoots

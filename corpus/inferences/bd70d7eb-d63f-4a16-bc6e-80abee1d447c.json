@@ -12,7 +12,7 @@
   ],
   "output_statement_id": "0bdcf366-29c7-5d45-b603-5c929dcad976",
   "rule": "Composition: a necessary concretum from the closed-collection condition, then the existing modal union route (PositiveUnion.checks)",
-  "meaning": "The checks route of the join with the closed-collection condition in place of AGWF. J2 stays a premise; its derivation from F1 and no-novel-edge still needs AGWF (Control.limitGrounder). Conditional consequence only.",
+  "meaning": "The checks route of the join with the closed-collection condition in place of AGWF. J2 stays a premise: the closed-collection condition cannot replace AGWF in unionWFOfNoNovel (Control.limitGrounder), and J2 also follows from rigid ascent and no infinite ascent among necessary concreta (unionWFOfAscent). Conditional consequence only.",
   "assumption_statement_ids": [],
   "discharged_statement_ids": []
 }

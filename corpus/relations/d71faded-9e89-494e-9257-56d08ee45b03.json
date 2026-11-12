@@ -8,5 +8,5 @@
   "object_id": "aca3baa1-9be6-4720-a53d-22050e638561",
   "verification_result_id": "02697d48-2106-4006-b6e7-3578e15b4a94",
   "strictness_result_id": "66b54b88-8c2f-4d4b-8efe-ed67ed9b1e8c",
-  "note": "Same Profile, selected relation and world. The weak version constrains only ground-closed collections: an endless descending chain or a cycle grounded by a root is allowed. Strict: in Control.limitGrounder the weak version holds and AGWF fails."
+  "note": "Same Profile, selected relation and world. The weak version constrains only ground-closed collections: an endless descending chain or a cycle directly grounded by a root is allowed. Strict: in Control.limitGrounder (a direct root grounder) the weak version holds and AGWF fails."
 }

@@ -895,39 +895,61 @@ grounding (AGWF, `STMT-ACTUAL-GROUNDING-WF`) used it only to find an actual root
 Given ascent in esse, "no infinite ascent along grounding chains" is AGWF itself, so
 it is not weaker. What the routes consume is **closed-collection rootedness**
 (`ClosedGroundingRoots.ClosedGroundingCollectionsRooted`): no collection of actual
-concreta containing every actual concrete ground of each member is both nonempty
+concreta containing every actual *concrete* ground of each member is both nonempty
 and rootless. It forbids only rootless closed collections (a pure endless descent,
-a pure cycle) and allows descent and cycles above a root.
+a pure cycle) and allows descent and cycles directly grounded by a root. An actual
+root may still have abstract or unmodelled grounds.
 
 - `closedRootedOfWF`: AGWF implies it, constructively; registered as a strength
-  order, strict by `Control.limitGrounder` (one root grounds every member of an
-  infinite descending chain).
+  order, strict by `Control.limitGrounder` (despite the name, one root *directly*
+  grounds every member of an infinite descending chain).
 - Reroutes with the other premises unchanged: `necessaryConcreteOfClosedRooted`,
   `underivedOfCoverageClosed`, `underivedFromNecessityOfCoverageClosed`,
   `underivedFromNecessityOfActualCoverageClosed`, `checksClosed`. The old AGWF
   arguments record `strong_version_needed` as not needed for the endpoint.
+  `checksClosed` still takes J2.
+- Borrowed reality: `closedRootedOfBorrowed` derives the condition from the
+  principle over all modelled actual suppliers (`NoWhollyBorrowedCollection`)
+  together with the open bridge that actual concreta are supplied only by concreta
+  (`ActualSuppliersOfConcretaConcrete`). `Control.abstractSupplier` shows the bridge
+  is needed: an abstract item grounds every member of a concrete regress.
 - Per se route: `closedRootedOfAttenuation` composes `QuantitativeTransferPaths.finitePath`
   (the #1379 model-4 library, which reached no root before): per se reception with
   uniform loss, a common bound and own esse only at roots gives the condition.
-  The existing controls show uniform loss and the bound are both needed.
-- Limits (`Control`): the limit grounder keeps reflexive access and no-novel-edge
-  while J2 fails, so J2's derivation still needs AGWF; it also has ascent along a
-  grade with a top element and infinite ascent, so a grade maximum does not give
-  no infinite ascent. `rootedCycle` keeps the condition, reflexive access and
-  no-novel-edge while asymmetry fails and two necessary concreta support each
-  other. `pureRegress` is the omission countermodel in both from-necessity
-  coverage routes.
+  Its network analogues (`binaryFixed`, `halfFixed`) show the weighted-network
+  theorem fails without uniform loss or without the bound; no Profile-level control.
+- Limits (`Control`):
+  - The direct root grounder keeps reflexive access and no-novel-edge while J2
+    fails. So the condition cannot replace AGWF in `unionWFOfNoNovel`; J2 also
+    follows from rigid ascent and no infinite ascent among necessary concreta
+    (`unionWFOfAscent`). The same model has ascent along a grade with a top
+    element and infinite ascent, so a grade maximum does not give no infinite
+    ascent.
+  - `mediateFoundation`: a foundation reached only through intermediaries (an
+    omega+1 order under direct grounding, no direct edge from the root to the
+    chain) violates the condition. A mediate or transitive reading of grounds
+    would need its own bridge.
+  - `rootedCycle` keeps the condition, reflexive access and no-novel-edge while
+    asymmetry fails and two necessary concreta support each other.
+  - `pureRegress` is the omission countermodel in both from-necessity coverage
+    routes.
 
-**Assessment.** The positive "borrowed reality" argument (wholly supplied being
-needs a supplier not itself supplied) is about collections, so it supports this
-condition and not AGWF's surplus. The quantitative per se argument is valid but
-rests on uniform loss, for which no independent justification is on file: lossless
-per se reception is satisfied by the pure regress. A limit grounder is a model of
-the condition, not a rival to it. The standing rivals are pure grounding infinitism
-and pure coherentism; each requires an actual closed collection of sustained beings
-whose being is supplied by nothing outside it. Neither is refuted. Rival records,
-prices and revision conditions: attempts
+**Assessment.** The "borrowed reality" argument (wholly supplied being needs a
+supplier not itself supplied) is about collections. It yields the condition under
+the concrete-supplier bridge, and it supports the condition rather than AGWF's
+surplus. The quantitative per se argument is valid but rests on uniform loss, for
+which no independent justification is on file: lossless per se reception is
+satisfied by the pure regress. A root that directly grounds a chain is a model of
+the condition, not a rival to it. The standing rivals are pure grounding
+infinitism, pure coherentism and foundation only through intermediaries (under
+direct grounding). Because (A) is offered as a necessary principle, a genuinely
+possible wholly borrowed collection would defeat its warrant. None of the rivals is
+refuted.
+
+Provisional judgment: support for the join's regress step is modestly higher on
+the coverage routes, for direct-foundation views. Rival records, prices and
+revision conditions are in attempts
 [`14fb7669`](../corpus/attempts/14fb7669-48c1-4d38-b702-7ecdce2565b8.json) and
 [`4da08bd8`](../corpus/attempts/4da08bd8-8375-40b7-b635-83012168ed6f.json).
-Open: siblings for the remaining root-only AGWF consumers, a cross-world closed-collection
-condition for J2, and asymmetry for the direct routes.
+Open: siblings for the remaining root-only AGWF consumers, a cross-world
+closed-collection condition for J2, and asymmetry for the direct routes.

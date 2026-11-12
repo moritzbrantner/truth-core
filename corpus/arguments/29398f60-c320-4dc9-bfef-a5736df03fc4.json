@@ -23,14 +23,23 @@
     "beb654a7-e204-5f4c-a7b4-45e886ba7109",
     "f8948e28-b13a-5244-95f1-41a05cd4fff2",
     "e1ff44df-ed97-5990-8424-1abd720f23ea",
-    "baddf770-36bf-542f-bb3c-2297342d5452"
+    "baddf770-36bf-542f-bb3c-2297342d5452",
+    "7ac7fea6-5b3a-5e97-b687-c76569c58429"
   ],
   "disambiguation_ids": [
     "623ddbf6-9683-5361-bae4-e348a00ec680",
     "7507d645-874d-5434-add8-2f49c2801d36",
-    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e",
+    "c529e8d3-43e3-53a8-a82f-3955e9815265",
+    "b9adce48-6b86-5f58-b2ea-b25f51c70cbd"
   ],
   "sense_bridges": [
+    {
+      "term": "NONNECESSARY_VERSUS_CONTINGENT_ROOT",
+      "from": "cf6a8bb9-2a70-4e90-86bd-06f69106da2f",
+      "to": "9f9108e2-3cc3-45dd-be1d-d8fdaaced708",
+      "statement_id": "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
+    },
     {
       "term": "NECESSARY",
       "from": "8c881fa6-2b9f-44be-a32a-c8ef29c13643",

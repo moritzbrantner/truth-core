@@ -81,13 +81,25 @@ theorem checksClosed {W B : Type} (m : Profile W B) (w : W)
     NecessaryConcreteUnderivedAt m w := by
   sorry
 
-/-- The per se attenuation bridge gives the closed-collection condition. From any
+/-- The per se attenuation bridge gives the closed-collection condition. The
+network analogues `binaryFixed` and `halfFixed` show that `finitePath` fails
+without uniform loss or without the common bound; no Profile-level control. From any
 member of a ground-closed collection, the weighted-network theorem `finitePath`
 finds a finite path of positive receptions to a thing with positive own esse;
 each reception is an actual grounding edge, so the path stays inside the
 collection, and its end is an actual root. -/
 theorem closedRootedOfAttenuation {W B : Type} (m : Profile W B) (w : W)
     (h : AttenuatedEsseReception m w) : ClosedGroundingCollectionsRooted m w := by
+  sorry
+
+/-- The borrowed-reality principle over all modelled suppliers gives the
+closed-collection condition, given that actual concreta are supplied only by
+concreta: a ground-closed rootless collection is then closed under all actual
+suppliers, and each member has one. -/
+theorem closedRootedOfBorrowed {W B : Type} (m : Profile W B) (w : W)
+    (hBR : NoWhollyBorrowedCollection m w)
+    (hConc : ActualSuppliersOfConcretaConcrete m w) :
+    ClosedGroundingCollectionsRooted m w := by
   sorry
 
 /-! ## Controls -/
