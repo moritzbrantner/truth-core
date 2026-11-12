@@ -1,0 +1,16 @@
+{
+  "id": "256ea3e2-8c8f-4680-86a1-249f0383f097",
+  "label": "Underived NECESSARY_2 concretum, from closed collections, the actual root and coverage (inference)",
+  "input_statement_ids": [
+    "56f68b40-9737-59a0-8cac-5610980a1547",
+    "aca3baa1-9be6-4720-a53d-22050e638561",
+    "c71c068c-bbae-5ed5-a99d-70b155c8d239",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "df42581f-5fff-4b5f-8b40-6e16d2b890f2"
+  ],
+  "output_statement_id": "0bdcf366-29c7-5d45-b603-5c929dcad976",
+  "rule": "Composition: necessary actual root from the closed-collection condition, then coverage transfers its rootedness to every admitted world",
+  "meaning": "The join's endpoint from inhabitedness, the closed-collection condition, grounding of every actual contingent concretum, excluded middle and coverage, without AGWF, J1, J2 or reflexive access. Same structure as NecessarySupportCoverage.underivedOfCoverage with the weak version of AGWF. Conditional consequence only; no premise is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

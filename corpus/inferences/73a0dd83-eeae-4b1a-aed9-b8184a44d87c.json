@@ -1,0 +1,16 @@
+{
+  "id": "73a0dd83-eeae-4b1a-aed9-b8184a44d87c",
+  "label": "Underived NECESSARY_2 concretum, from necessity, closed collections, J1 at w, coverage (inference)",
+  "input_statement_ids": [
+    "b19ffd92-01bd-5c0b-9643-e7407137ea5e",
+    "aca3baa1-9be6-4720-a53d-22050e638561",
+    "84751fc2-0179-49ce-b96a-04d95781d8bc",
+    "df42581f-5fff-4b5f-8b40-6e16d2b890f2",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
+  ],
+  "output_statement_id": "0bdcf366-29c7-5d45-b603-5c929dcad976",
+  "rule": "As the J1 form; closure of the actual necessary concreta under actual grounds needs only the actual-world instance J1@w",
+  "meaning": "The join's endpoint from a necessary concretum, the closed-collection condition, the actual-world instance J1@w of J1, coverage and excluded middle. Conditional consequence only.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
