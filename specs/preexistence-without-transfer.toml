@@ -1,0 +1,147 @@
+# Modal spine, stage two: where "nothing gives what it does not have" (376d6a5a) is
+# load-bearing. Under strict expansion, removing 376d6a5a left one of ten verified
+# routes to STMT-GOD-EXISTS. The computed bottleneck is the Metaphysics alpha "more such"
+# premise (d5a94eb1) on eight routes and q.4 a.2 preexistence (64498e7e) with "God is
+# maximal in being" on the composition route. This batch (i) derives the esse instance
+# of "more such" from "a cause of being has being" and the reception bundle, with no
+# transfer principle, and re-derives two consumers that use "more such" only at esse;
+# (ii) derives preexistence from transfer and the cause-of-being restriction (which with
+# the existing converse makes the two interderivable, a cycle, not a route); (iii) shows
+# that "more such" and distinct-cause transfer are interderivable given the reception
+# bundle and "what is more such has the perfection". Analyst formulations, attribution
+# deferred. No premise is established.
+
+[batch]
+vocab = "TruthCore.Case.Catholicism.PreexistenceWithoutTransfer"
+results = "TruthCore.Results.Case.Catholicism.PreexistenceWithoutTransfer"
+
+# ---------------------------------------------------------------- statements
+
+[[statement]]
+id = "A distinct cause of a thing's being is more in being than it"
+lean = "CauseOfBeingIsMoreInBeing"
+paraphrase = "Analyst formulation, attribution deferred: whatever, distinct from x, causes x's being (CausesIn c x esse, CAUSE_2 at esse) is more in being than x (MoreIn esse c x, the quarta via's grades). The esse instance of the Metaphysics alpha 'more such' premise STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH (registered strength order, strict in control 1: it says nothing about causes of perfections other than being). It is derived from 'Whatever causes the being of anything is itself in act as to being' and the reception bundle at esse, with no transfer principle, so it does not rest on 'nothing gives what it does not have' or q.4 a.2 preexistence. It constrains only distinct causes of being; instruments and causes of becoming are not causes of being on the reading of DISAMB-BECOMING-BEING-CAUSE and fall outside it. 'More in being' is the comparative of the shared InAct read inclusively (formally or eminently). An equal-grade cause of being (a cause of another's being that is not more in being than it) would falsify it; the univocal generation case (man begets man) is a cause of becoming on that reading, so it is not a counterexample unless parents are causes of being (open bridge). No independent warrant is recorded beyond its derivation from open premises."
+definitions = ["DEF-CAUSE-OF-PERFECTION", "DEF-MORE-IN", "DEF-ESSE"]
+disambiguations = ["DISAMB-CAUSE", "DISAMB-BEING-UNIVOCITY", "DISAMB-ORDER-OF-BEING"]
+
+[[statement]]
+id = "Whatever causes a perfection in another thing has it"
+lean = "DistinctCauseHasWhatItGives"
+paraphrase = "Analyst formulation, attribution deferred (distinct-cause transfer): whatever, distinct from x, causes x's being r (CausesIn c x r) is itself in act as to r (InAct c r, formally or eminently, the inclusive InAct of DISAMB-IN-ACT). It is the unrestricted 'nothing gives what it does not have' STMT-CAUSE-HAS-WHAT-IT-GIVES without its self-causation case (registered strength order, strict in control 3). It is interderivable with the 'more such' premise given 'what is more such has the perfection' and the reception bundle (two results of this batch), so every route that needs 'more such' at an arbitrary perfection needs this principle's content. It differs from the cause-of-being restriction STMT-CAUSE-OF-BEING-HAS-WHAT-IT-GIVES in scope (control 2): it covers causes of a perfection of a thing whose being they do not cause, so the instrument objection (a chisel causes a shape it has neither formally nor as art) and the artisan case (a maker causes a shape he has only as art) bear on it if CAUSE_2 counts instruments or makers, unless 'has' is read so that having r eminently includes having an art or a principal agent's power to produce r. No independent warrant is recorded for it."
+definitions = ["DEF-CAUSE-OF-PERFECTION", "DEF-ACT"]
+disambiguations = ["DISAMB-CAUSE", "DISAMB-IN-ACT"]
+
+[[statement]]
+id = "Controls for preexistence without transfer"
+lean = "Control.Controls"
+paraphrase = "Closed finite interpretations; statements about these interpretations only. Strictness over Bool (respect false is esse): (1) the esse instance of 'more such' holds where 'more such' fails; (2) the cause-of-being restriction holds where distinct-cause transfer fails (a cause of another perfection of a thing whose being it does not cause); (3) distinct-cause transfer holds where the unrestricted principle fails (self-causation). Nonvacuity: (4) every premise of the batch, preexistence, transfer, the cause-of-being restriction, 'more such' and distinct-cause transfer hold with false causing the being and the other perfection of true; (5) 'God is maximal in being' from causing being holds with a God that causes another's being. For each premise of each registered derivation except excluded middle (which holds classically), a model found by scripts/countermodel.py in which the other premises hold and the conclusion fails, and a joint witness for each derivation."
+definitions = ["DEF-CAUSE-OF-PERFECTION", "DEF-MORE-IN", "DEF-ESSE", "DEF-ACT"]
+disambiguations = ["DISAMB-CAUSE", "DISAMB-IN-ACT"]
+
+# ---------------------------------------------------------------- arguments
+
+[[argument]]
+id = "More in being than what it causes to be, from reception limits"
+theorem = "causeOfBeingMoreInBeing"
+premises = ["Whatever causes the being of anything is itself in act as to being", "STMT-PERFECTION-CAUSED-IN-ANOTHER-IS-RECEIVED-IN-IT", "STMT-RECEIVED-PERFECTION-IS-LIMITED-BY-RECIPIENT", "STMT-PERFECTION-LIMITED-ONLY-THROUGH-RECEPTION", "STMT-CAUSE-HAS-PERFECTION-NOT-AS-RECEIVED-IN-EFFECT", "STMT-UNLIMITED-POSSESSION-EXCEEDS-LIMITED"]
+conclusion = "A distinct cause of a thing's being is more in being than it"
+axioms = []
+rule = "Universal instantiation at esse, modus ponens and modus tollens"
+meaning = "Let c, distinct from x, cause x's being. A cause of being has being (derived elsewhere from agency in act and q.4 a.1 ad 3, with no transfer principle); x's being, caused by another, is received in x and so limited by x; c's being is not received in x, and limitation by x is only through reception in x, so c's being is not limited by x; an unlimited possessor exceeds a limited one, so c is more in being than x. The same steps as the derivation of 'more such' from 'nothing gives what it does not have', at the one perfection esse, with the esse rung of the ladder in place of the unrestricted principle. Each premise is needed in a checked interpretation (omission models). The reception premises are stated for every perfection and used only at esse. Conditional consequence only; no premise is established."
+
+[[argument]]
+id = "Whatever is GOD_4 is maximal in being, from causing being"
+theorem = "godMaximalFromCausingBeing"
+premises = ["STMT-EXCLUDED-MIDDLE", "STMT-GOD-CAUSES-BEING-OF-ALL-OTHERS", "A distinct cause of a thing's being is more in being than it", "STMT-MORE-SUCH-HAS-THE-PERFECTION", "STMT-MORE-IN-IS-ASYMMETRIC", "STMT-SOMETHING-OTHER-THAN-GOD-EXISTS"]
+conclusion = "STMT-GOD-IS-MAXIMAL-IN-BEING"
+axioms = []
+rule = "Existential elimination, case split by excluded middle, asymmetry"
+meaning = "Sibling of GOD-MAXIMAL-FROM-CAUSING with the esse instance of 'more such' in place of the unrestricted premise, which that proof uses only at esse. Let g be GOD_4 and y another being. g causes y's being, so g is more in being than y and so has being. If some z were more in being than g, then z = g contradicts asymmetry, and z distinct from g is caused to be by g, so g is more in being than z, again against asymmetry. Each premise except excluded middle is needed in a checked interpretation (omission models); control 5 is a model with a God that causes another's being. Conditional consequence only; no premise is established."
+
+[[argument]]
+id = "GOD_4 exists from a MAXIME_1 cause of all being, with more in being"
+theorem = "godExistsFromMaximeEnsCausingAllByBeing"
+premises = ["STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL", "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING", "A distinct cause of a thing's being is more in being than it", "STMT-EXCLUDED-MIDDLE", "STMT-CAUSE-OF-BEING-CAUSES-EVERY-PERFECTION", "STMT-NO-COMPONENT-IS-FIRST-BEING", "STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING", "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE"]
+conclusion = "STMT-GOD-EXISTS"
+axioms = []
+rule = "Existential elimination; uniqueness by excluded middle and the esse instance of more such; the fuller naming premise"
+sense_bridges = [{ term = "GOD", from = "295c9096-50b8-4ccd-960e-f833730a0774", to = "52c2ebac-0a71-4dd4-8a21-804c1dd0847a", statement_id = "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE" }]
+meaning = "Sibling of GOD-EXISTS-FROM-MAXIME-ENS-CAUSING-ALL with the esse instance of 'more such' in place of the unrestricted premise, which that proof uses only at esse. Some MAXIME_1 being m causes the being of every other being. Another maximum m' has being, so m causes its being and is more in being than it, contradicting the maximality of m'; excluded middle decides identity, so m is the only maximum. m causes every perfection of every other being (the cause of being causes every perfection; whatever is in act has being) and is remote from all (it is the first being, and no component is), so the fuller naming premise applies and GOD_4 exists. Each premise except excluded middle is needed in a checked interpretation (omission models). The esse instance is derived without 'nothing gives what it does not have', so this route survives its removal under strict expansion. Conditional consequence only; no premise is established."
+
+[[argument]]
+id = "Q.4 a.2 preexistence from transfer and the cause-of-being restriction"
+theorem = "preexistOfTransferAndRestriction"
+premises = ["STMT-CAUSE-OF-BEING-CAUSES-EVERY-PERFECTION", "STMT-CAUSE-OF-BEING-HAS-WHAT-IT-GIVES"]
+conclusion = "STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE"
+axioms = []
+strong_version_needed = {"STMT-CAUSE-OF-BEING-HAS-WHAT-IT-GIVES" = "Preexistence concerns every perfection of the effect; 'a cause of being has being' gives the cause only the perfection esse."}
+rule = "Transfer, then the cause-of-being restriction"
+meaning = "Let c cause x's being and x be in act in r. The cause of a thing's being causes each of its perfections, so c causes x's being r; a cause of a thing's being has every perfection it causes in that thing, so c is in act in r, formally or eminently. Each premise is needed in a checked interpretation (omission models). With the existing derivation of the restriction from preexistence and 'a caused perfection is had' (CausalMapsBatch1.causeOfBeingHasWhatItGives), preexistence and the restriction are interderivable given transfer and that premise. Neither has a derivation that avoids the other or the unrestricted principle, so under strict expansion this closes a cycle and lifts no route: a non-circular derivation of preexistence needs a ground for the cause-of-being restriction that is not preexistence. Conditional consequence only; no premise is established."
+
+[[argument]]
+id = "More such carries distinct-cause transfer"
+theorem = "distinctCauseGivesOfMoreSuch"
+premises = ["STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH", "STMT-MORE-SUCH-HAS-THE-PERFECTION"]
+conclusion = "Whatever causes a perfection in another thing has it"
+axioms = []
+strong_version_needed = {"STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH" = "The conclusion concerns a distinct cause of any perfection; the esse instance of more such gives the cause's having only the perfection esse."}
+rule = "Instantiate more such, then what is more such has the perfection"
+meaning = "A distinct cause of r in x is more r than x, and whatever is more r than something is r, so it is in act in r. This shows the cost of 'more such' at an arbitrary perfection: given that what is more such has the perfection (the quarta via's 'what is more such is such'), it entails distinct-cause transfer. Each premise is needed in a checked interpretation (omission models). Conditional consequence only; no premise is established."
+
+[[argument]]
+id = "More such from distinct-cause transfer and reception limits"
+theorem = "moreSuchOfDistinctCauseGives"
+premises = ["Whatever causes a perfection in another thing has it", "STMT-PERFECTION-CAUSED-IN-ANOTHER-IS-RECEIVED-IN-IT", "STMT-RECEIVED-PERFECTION-IS-LIMITED-BY-RECIPIENT", "STMT-PERFECTION-LIMITED-ONLY-THROUGH-RECEPTION", "STMT-CAUSE-HAS-PERFECTION-NOT-AS-RECEIVED-IN-EFFECT", "STMT-UNLIMITED-POSSESSION-EXCEEDS-LIMITED"]
+conclusion = "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH"
+axioms = []
+rule = "Universal instantiation, modus ponens and modus tollens"
+meaning = "Sibling of CAUSE-OF-QUALITY-MORE-SUCH-FROM-RECEPTION-LIMITS with distinct-cause transfer in place of the unrestricted principle, which that proof uses only for distinct causes. A distinct cause c of r in x has r; x has r received in x, so limited by x; c's r is not received in x, so not limited by x; hence c is more r than x. With the previous result, 'more such' and distinct-cause transfer are interderivable given the reception bundle and 'what is more such has the perfection'. Each premise is needed in a checked interpretation (omission models). Conditional consequence only; no premise is established."
+
+[[argument]]
+id = "More such entails its esse instance"
+theorem = "moreInBeingOfMoreSuch"
+premises = ["STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH"]
+conclusion = "A distinct cause of a thing's being is more in being than it"
+axioms = []
+rule = "Instantiate more such at the respect esse"
+meaning = "Strength order registration: the esse instance of 'more such'. Application only; it establishes neither. Strictness: control 1."
+
+[[argument]]
+id = "Nothing gives what it lacks entails distinct-cause transfer"
+theorem = "distinctCauseGivesOfCauseGives"
+premises = ["STMT-CAUSE-HAS-WHAT-IT-GIVES"]
+conclusion = "Whatever causes a perfection in another thing has it"
+axioms = []
+rule = "Drop the self-causation case"
+meaning = "Strength order registration: the unrestricted principle entails its distinct-cause restriction. Application only; it establishes neither. Strictness: control 3."
+
+[[argument]]
+id = "Controls for preexistence without transfer, checked"
+theorem = "controls"
+premises = []
+conclusion = "Controls for preexistence without transfer"
+axioms = []
+rule = "Explicit finite interpretations over Bool and Unit, checked by decision"
+meaning = "Strictness, nonvacuity, omission and joint-witness controls listed in the conclusion's paraphrase. A finite countermodel shows a premise is needed in that interpretation, not that it is false."
+
+# ---------------------------------------------------------------- relations
+
+[[relation]]
+id = "More such strengthens its esse instance"
+subject_kind = "statement"
+subject_id = "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "A distinct cause of a thing's being is more in being than it"
+verification_result_id = "More such entails its esse instance"
+note = "Same CausesIn and MoreIn; the weak version is the instance at the respect esse. Strict: control 1."
+
+[[relation]]
+id = "Nothing gives what it lacks strengthens distinct-cause transfer"
+subject_kind = "statement"
+subject_id = "STMT-CAUSE-HAS-WHAT-IT-GIVES"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "Whatever causes a perfection in another thing has it"
+verification_result_id = "Nothing gives what it lacks entails distinct-cause transfer"
+note = "Same CausesIn and InAct; the weak version drops self-causation. Strict: control 3."

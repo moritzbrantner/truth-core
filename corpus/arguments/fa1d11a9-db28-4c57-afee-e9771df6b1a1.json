@@ -1,0 +1,33 @@
+{
+  "id": "fa1d11a9-db28-4c57-afee-e9771df6b1a1",
+  "label": "More in being than what it causes to be, from reception limits",
+  "premise_statement_ids": [
+    "4ccb319f-9b7e-41fd-a560-d4affa25816b",
+    "a9036c3c-adc4-564e-b3ba-44a0c558c0ae",
+    "cdb79aa6-eaff-5fd8-b094-410d9df021c0",
+    "39a4c28c-4a75-5918-96bf-16a5acd8e783",
+    "d0b76fb9-5374-5cbf-93b6-2b5444dab441",
+    "7030af77-c1d4-5f67-bc0c-875048d1b55c"
+  ],
+  "conclusion_statement_id": "cffad050-e86d-48b8-b04b-be47fcc1352d",
+  "inference_ids": [
+    "d859fdfc-9325-443c-8b30-9820a1ce0ef2"
+  ],
+  "meaning": "Let c, distinct from x, cause x's being. A cause of being has being (derived elsewhere from agency in act and q.4 a.1 ad 3, with no transfer principle); x's being, caused by another, is received in x and so limited by x; c's being is not received in x, and limitation by x is only through reception in x, so c's being is not limited by x; an unlimited possessor exceeds a limited one, so c is more in being than x. The same steps as the derivation of 'more such' from 'nothing gives what it does not have', at the one perfection esse, with the esse rung of the ladder in place of the unrestricted principle. Each premise is needed in a checked interpretation (omission models). The reception premises are stated for every perfection and used only at esse. Conditional consequence only; no premise is established.",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "5766de66-8a37-5b04-aa65-9eec53319f50",
+    "245797e9-e5e9-5296-8d34-2138cc6b7ae6",
+    "cf4875cb-6baf-5bf5-8590-84a21777c66c"
+  ],
+  "disambiguation_ids": [
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "19190b6e-359f-590c-b434-4e6f5803da4f",
+    "5921354b-51e6-5da3-8d8c-e9041840fd9f",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "1795a62e-f78b-5f5b-94e7-9e7490824811"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "e8a3eb51-e190-4a4d-827f-5a08f168715c",
+  "label": "Q.4 a.2 preexistence from transfer and the cause-of-being restriction",
+  "premise_statement_ids": [
+    "f8ba2429-b4f1-5712-a4d3-798213963d34",
+    "d0fc96b7-fd2d-504e-912f-925de3b1e6ed"
+  ],
+  "conclusion_statement_id": "64498e7e-7f10-54a0-9ec0-c65e6076de1f",
+  "inference_ids": [
+    "d07aed44-85cb-44a1-9ecf-c88936c23eba"
+  ],
+  "meaning": "Let c cause x's being and x be in act in r. The cause of a thing's being causes each of its perfections, so c causes x's being r; a cause of a thing's being has every perfection it causes in that thing, so c is in act in r, formally or eminently. Each premise is needed in a checked interpretation (omission models). With the existing derivation of the restriction from preexistence and 'a caused perfection is had' (CausalMapsBatch1.causeOfBeingHasWhatItGives), preexistence and the restriction are interderivable given transfer and that premise. Neither has a derivation that avoids the other or the unrestricted principle, so under strict expansion this closes a cycle and lifts no route: a non-circular derivation of preexistence needs a ground for the cause-of-being restriction that is not preexistence. Conditional consequence only; no premise is established.",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
+  ],
+  "disambiguation_ids": [
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
+  ],
+  "strong_version_needed": {
+    "d0fc96b7-fd2d-504e-912f-925de3b1e6ed": "Preexistence concerns every perfection of the effect; 'a cause of being has being' gives the cause only the perfection esse."
+  }
+}

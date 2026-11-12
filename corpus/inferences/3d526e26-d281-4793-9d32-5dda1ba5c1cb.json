@@ -1,0 +1,19 @@
+{
+  "id": "3d526e26-d281-4793-9d32-5dda1ba5c1cb",
+  "label": "GOD_4 exists from a MAXIME_1 cause of all being, with more in being (inference)",
+  "input_statement_ids": [
+    "0881e859-c4c3-53ff-9bec-b61294e12d51",
+    "7067553d-cad9-5d79-b6b2-912e35051530",
+    "cffad050-e86d-48b8-b04b-be47fcc1352d",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "f8ba2429-b4f1-5712-a4d3-798213963d34",
+    "09c6d5f0-d412-5038-85f9-75fffb935727",
+    "eaa4c679-98a3-5e82-95ff-18bd1177ce74",
+    "1ec205ed-b2a6-5384-bb5f-2565a9d325bf"
+  ],
+  "output_statement_id": "8626f8a5-9531-5da7-9ebd-f901e74b1129",
+  "rule": "Existential elimination; uniqueness by excluded middle and the esse instance of more such; the fuller naming premise",
+  "meaning": "Sibling of GOD-EXISTS-FROM-MAXIME-ENS-CAUSING-ALL with the esse instance of 'more such' in place of the unrestricted premise, which that proof uses only at esse. Some MAXIME_1 being m causes the being of every other being. Another maximum m' has being, so m causes its being and is more in being than it, contradicting the maximality of m'; excluded middle decides identity, so m is the only maximum. m causes every perfection of every other being (the cause of being causes every perfection; whatever is in act has being) and is remote from all (it is the first being, and no component is), so the fuller naming premise applies and GOD_4 exists. Each premise except excluded middle is needed in a checked interpretation (omission models). The esse instance is derived without 'nothing gives what it does not have', so this route survives its removal under strict expansion. Conditional consequence only; no premise is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

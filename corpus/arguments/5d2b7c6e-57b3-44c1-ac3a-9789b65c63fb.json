@@ -1,0 +1,52 @@
+{
+  "id": "5d2b7c6e-57b3-44c1-ac3a-9789b65c63fb",
+  "label": "GOD_4 exists from a MAXIME_1 cause of all being, with more in being",
+  "premise_statement_ids": [
+    "0881e859-c4c3-53ff-9bec-b61294e12d51",
+    "7067553d-cad9-5d79-b6b2-912e35051530",
+    "cffad050-e86d-48b8-b04b-be47fcc1352d",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "f8ba2429-b4f1-5712-a4d3-798213963d34",
+    "09c6d5f0-d412-5038-85f9-75fffb935727",
+    "eaa4c679-98a3-5e82-95ff-18bd1177ce74",
+    "1ec205ed-b2a6-5384-bb5f-2565a9d325bf"
+  ],
+  "conclusion_statement_id": "8626f8a5-9531-5da7-9ebd-f901e74b1129",
+  "inference_ids": [
+    "3d526e26-d281-4793-9d32-5dda1ba5c1cb"
+  ],
+  "meaning": "Sibling of GOD-EXISTS-FROM-MAXIME-ENS-CAUSING-ALL with the esse instance of 'more such' in place of the unrestricted premise, which that proof uses only at esse. Some MAXIME_1 being m causes the being of every other being. Another maximum m' has being, so m causes its being and is more in being than it, contradicting the maximality of m'; excluded middle decides identity, so m is the only maximum. m causes every perfection of every other being (the cause of being causes every perfection; whatever is in act has being) and is remote from all (it is the first being, and no component is), so the fuller naming premise applies and GOD_4 exists. Each premise except excluded middle is needed in a checked interpretation (omission models). The esse instance is derived without 'nothing gives what it does not have', so this route survives its removal under strict expansion. Conditional consequence only; no premise is established.",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "d8e2ed12-8089-5202-ae51-e807cf611c76",
+    "25e19d5a-5cdf-5916-a888-f6a0ce970f11",
+    "18945900-2de0-5040-bdab-26268f257684",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "a2a8de58-42e0-5481-b7fb-848ae8602036",
+    "5766de66-8a37-5b04-aa65-9eec53319f50",
+    "16cf8319-84c7-5e24-9d18-5942b99c2e67",
+    "53b02c11-a28b-57c2-8d2e-7e013893db7e",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1",
+    "85f7f569-ab4d-514b-aa2c-cf75171ad105",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8"
+  ],
+  "disambiguation_ids": [
+    "3b0d67c5-59e4-5556-a728-26bd567f0fb1",
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "205a39c3-915d-5fe4-8076-a9ff91329e08",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282",
+    "1795a62e-f78b-5f5b-94e7-9e7490824811"
+  ],
+  "sense_bridges": [
+    {
+      "term": "GOD",
+      "from": "295c9096-50b8-4ccd-960e-f833730a0774",
+      "to": "52c2ebac-0a71-4dd4-8a21-804c1dd0847a",
+      "statement_id": "1ec205ed-b2a6-5384-bb5f-2565a9d325bf"
+    }
+  ]
+}

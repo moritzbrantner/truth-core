@@ -1,0 +1,11 @@
+{
+  "id": "d9958e2c-92fb-4b8e-b006-b0348faf803c",
+  "label": "More in being than what it causes to be, from reception limits",
+  "argument_id": "fa1d11a9-db28-4c57-afee-e9771df6b1a1",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.PreexistenceWithoutTransfer.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.PreexistenceWithoutTransfer.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.PreexistenceWithoutTransfer.causeOfBeingMoreInBeing",
+  "comparator_config": "results/d9958e2c-92fb-4b8e-b006-b0348faf803c/comparator.json",
+  "status": "solution-present",
+  "description": "Let c, distinct from x, cause x's being. A cause of being has being (derived elsewhere from agency in act and q.4 a.1 ad 3, with no transfer principle); x's being, caused by another, is received in x and so limited by x; c's being is not received in x, and limitation by x is only through reception in x, so c's being is not limited by x; an unlimited possessor exceeds a limited one, so c is more in being than x. The same steps as the derivation of 'more such' from 'nothing gives what it does not have', at the one perfection esse, with the esse rung of the ladder in place of the unrestricted principle. Each premise is needed in a checked interpretation (omission models). The reception premises are stated for every perfection and used only at esse. Conditional consequence only; no premise is established."
+}

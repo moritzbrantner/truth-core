@@ -1,0 +1,12 @@
+{
+  "id": "dc702368-37d1-412b-9f91-1aae284a3663",
+  "label": "Nothing gives what it lacks entails distinct-cause transfer (inference)",
+  "input_statement_ids": [
+    "376d6a5a-c179-5090-b57c-f9a371222899"
+  ],
+  "output_statement_id": "2c0b9bd7-9dad-4837-bf7e-4cbeff35729c",
+  "rule": "Drop the self-causation case",
+  "meaning": "Strength order registration: the unrestricted principle entails its distinct-cause restriction. Application only; it establishes neither. Strictness: control 3.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

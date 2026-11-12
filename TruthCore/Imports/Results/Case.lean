@@ -31,6 +31,7 @@ public import TruthCore.Results.Case.Catholicism.FromPrimaViaWithQ11Uniqueness.S
 public import TruthCore.Results.Case.Catholicism.FromQuartaViaWithClassicalAttributes.Solution
 public import TruthCore.Results.Case.Catholicism.FromQuartaViaWithoutTruthBridge.Solution
 public import TruthCore.Results.Case.Catholicism.MaximalBeingCauseExclusion.Solution
+public import TruthCore.Results.Case.Catholicism.PreexistenceWithoutTransfer.Solution
 public import TruthCore.Results.Case.Catholicism.Q11NatureUniqueness.Solution
 public import TruthCore.Results.Case.Catholicism.QuartaViaClassicalWitness.FromMaximeEns
 public import TruthCore.Results.Case.Catholicism.QuartaViaClassicalWitness.Solution

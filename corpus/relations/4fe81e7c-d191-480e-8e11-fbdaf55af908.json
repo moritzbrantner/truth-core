@@ -1,0 +1,11 @@
+{
+  "id": "4fe81e7c-d191-480e-8e11-fbdaf55af908",
+  "label": "More such strengthens its esse instance",
+  "subject_kind": "statement",
+  "subject_id": "d5a94eb1-72d2-53e0-9a52-9787b5b61a8d",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "cffad050-e86d-48b8-b04b-be47fcc1352d",
+  "verification_result_id": "fa89608b-6107-430c-a7cb-4e0c9e5170d9",
+  "note": "Same CausesIn and MoreIn; the weak version is the instance at the respect esse. Strict: control 1."
+}

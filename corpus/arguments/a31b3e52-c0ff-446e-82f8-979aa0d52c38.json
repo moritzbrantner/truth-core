@@ -1,0 +1,32 @@
+{
+  "id": "a31b3e52-c0ff-446e-82f8-979aa0d52c38",
+  "label": "More such from distinct-cause transfer and reception limits",
+  "premise_statement_ids": [
+    "2c0b9bd7-9dad-4837-bf7e-4cbeff35729c",
+    "a9036c3c-adc4-564e-b3ba-44a0c558c0ae",
+    "cdb79aa6-eaff-5fd8-b094-410d9df021c0",
+    "39a4c28c-4a75-5918-96bf-16a5acd8e783",
+    "d0b76fb9-5374-5cbf-93b6-2b5444dab441",
+    "7030af77-c1d4-5f67-bc0c-875048d1b55c"
+  ],
+  "conclusion_statement_id": "d5a94eb1-72d2-53e0-9a52-9787b5b61a8d",
+  "inference_ids": [
+    "5b937152-c4ed-464e-85c9-6593b3d75cef"
+  ],
+  "meaning": "Sibling of CAUSE-OF-QUALITY-MORE-SUCH-FROM-RECEPTION-LIMITS with distinct-cause transfer in place of the unrestricted principle, which that proof uses only for distinct causes. A distinct cause c of r in x has r; x has r received in x, so limited by x; c's r is not received in x, so not limited by x; hence c is more r than x. With the previous result, 'more such' and distinct-cause transfer are interderivable given the reception bundle and 'what is more such has the perfection'. Each premise is needed in a checked interpretation (omission models). Conditional consequence only; no premise is established.",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5766de66-8a37-5b04-aa65-9eec53319f50",
+    "245797e9-e5e9-5296-8d34-2138cc6b7ae6",
+    "cf4875cb-6baf-5bf5-8590-84a21777c66c"
+  ],
+  "disambiguation_ids": [
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "19190b6e-359f-590c-b434-4e6f5803da4f",
+    "5921354b-51e6-5da3-8d8c-e9041840fd9f",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "1795a62e-f78b-5f5b-94e7-9e7490824811"
+  ]
+}

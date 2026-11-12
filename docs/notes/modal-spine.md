@@ -848,16 +848,75 @@ them is recorded either. The Plotinian "giver beyond being" is an unread lead
 with no weight; next test: read Enneads V.2.1 and check whether "beyond being"
 fails even the inclusive (eminent) `InAct`.
 
-**Where `376d6a5a` is load-bearing.** Its only consumer other than the strength-order registration is
-`causeOfQualityMoreSuch` (the Metaphysics α "more such" premise), which needs
-the unrestricted scope (now recorded as `strong_version_needed`). Q.4 a.2
-preexistence is derived only through that premise, which is why strict
-expansion makes `376d6a5a` indispensable on nine of ten routes even though
-preexistence has its own sourced claim. In the composition it enters through
-preexistence (the perfection attribute) and `STMT-GOD-IS-MAXIMAL-IN-BEING` (the
-unity step), not through the esse-cause bridge, which needs only the bottom
-rung. Meaning forks and their status. *Containment*: read formally (IN_ACT_1),
-and if CAUSE_2 at a respect r counts a maker as a cause of x's being r (an open
+**Where `376d6a5a` is load-bearing (2026-11-12, [attempt](../../corpus/attempts/a4a689b4-3e90-491e-8875-478b891e87f4.json), `specs/preexistence-without-transfer.toml`).**
+Strict expansion here is the least fixpoint over verified arguments, with
+statements that have no verified derivation as leaves; strength-order results
+count as derivations (excluding them changes no count below). Its only direct
+consumer is `causeOfQualityMoreSuch`, which derives the Metaphysics α "more
+such" premise `d5a94eb1`. The computed bottleneck is that premise, not q.4 a.2
+preexistence alone. Granting preexistence, still only one of the ten routes
+survives. Granting "more such", all ten survive. The ten routes break down as
+follows. Four (`5e8e6054`, `1c154f2f`, `72391d4d`, `0a639ec4`) are blocked only by
+grades-to-a-maximum `6c27657f`, which uses "more such" at an arbitrary
+perfection. Three (`661ce61d`, `beec1dc1`, `fd1f7e75`) are blocked by that step,
+by "more such" directly and, for two, by moves-only-as-in-act `f296a694`. The
+route through the quarta via's conclusion (`678ff65f`) is blocked by "more such"
+directly. The composition (`92ab7c94`, via `da3facd6`) is blocked by
+preexistence and by "God is maximal in being".
+Results, all zero-axiom and Comparator-checked, with omission models for every
+premise except excluded middle. (1) The esse instance of "more such",
+"a distinct cause of a thing's being is more in being than it" (`cffad050`,
+registered weak version of `d5a94eb1`), follows from "a cause of being has
+being" `4ccb319f` and the reception bundle at esse, with no transfer principle.
+(2) Siblings of the two consumers that use "more such" only at esse: "God is
+maximal in being" (`4c79298d` is now available without `376d6a5a`), and GOD_4
+exists from a MAXIME_1 cause of all being (`5d2b7c6e`, a new root route). (3)
+Preexistence from transfer `f8ba2429` and the cause-of-being restriction
+`d0fc96b7`. With the existing derivation of `d0fc96b7` from preexistence and "a
+caused perfection is had", the two are interderivable given transfer. That
+closes a cycle, not a route: neither has a derivation that avoids the other or
+`376d6a5a`. (4) "More such" and distinct-cause transfer `2c0b9bd7` (whatever
+causes a perfection in another thing has it, the registered weak version of
+`376d6a5a` without self-causation) are interderivable, given the reception
+bundle and "what is more such has the perfection". The consumers that need "more
+such" at an arbitrary perfection therefore need distinct-cause transfer, and the
+cause-of-being restriction does not suffice for them. Survivors after this
+batch, with `376d6a5a` removed: the prima via `ed7c588a` and the new route
+`5d2b7c6e`. None of the old nine is lifted. Granting preexistence would add
+`92ab7c94`; granting grades-to-a-maximum would add the four CONCRETE_6 routes.
+Those four pass the premise to `maximumExistsOfNecessaryAt`, which applies it at
+esse; whether every use is at esse is unchecked. If so, re-routing them through
+the existing esse instance `STMT-GRADES-TO-MAXIMUM-AT-BEING` would lift them.
+*Warrant.* The route-lifting premise is "a cause of being has being". It is
+derived from agency in act (`ef068f46`, after q.75 a.2 *non enim est operari nisi
+entis in actu*, claim on file for operation edges only) and q.4 a.1 ad 3
+(sourced). Two premises of the reception bundle (`cdb79aa6`, `39a4c28c`)
+generalize q.7 aa.2 and 1 from esse to every perfection; (1) uses them only at
+esse, where they are the ungeneralized readings (received esse is limited by its
+recipient; esse is limited only by being received). The other three
+(`a9036c3c`, `d0b76fb9` and the exceeding step `7030af77`) have no source note.
+No independent warrant is recorded for them or for agency in act. For the cause-of-being
+restriction that preexistence needs, the only positive grounds in the tradition
+are the virtual preexistence of the effect in the agent's power (q.4 a.2 co.,
+which is the thesis itself), "every agent produces its like" (q.4 a.3, unread)
+and the subsistent-being proof (q.4 a.2, second proof; SCG I.28; De ente c.4;
+all unread). The last applies only to a cause that is its own esse, not to every
+cause of being. No independent warrant for `d0fc96b7` is recorded.
+*Objections.* Strong emergence (a base causes consciousness that it lacks) has
+a target, distinct-cause transfer read formally (IN_ACT_1), and a mechanism, a
+counterexample. Its independent justification, that strong emergence occurs, is
+an unread lead (Broad; O'Connor; Chalmers on consciousness). It is relevant to the
+cause-of-being restriction only through an open bridge: the emergence base
+would have to be an extrinsic efficient cause of the system's being, not its
+material constituent. It does not bear on (1), whose cause need only have
+being. So it does not yet meet the standard. It does force a choice on eminent
+containment (IN_ACT_3). If eminence is substantive, emergence would be a
+counterexample if it occurs. If having r eminently means only having power to
+produce r, transfer becomes nearly trivial, and the weight moves to the
+exceeding step and "what is more such has the perfection". The instrument and
+artisan cases, recorded below for the unrestricted principle, bear equally on
+distinct-cause transfer, which still counts instruments if CAUSE_2 does.
+Meaning forks and their status. *Containment*: read formally (IN_ACT_1), and if CAUSE_2 at a respect r counts a maker as a cause of x's being r (an open
 bridge of `DISAMB-BECOMING-BEING-CAUSE`), the principle meets a counterexample:
 an artisan causes a shape he has only as art, not formally. Q.4 a.2 (claim
 `AQUINAS-ST-I-Q4-A2-PERFECTION-IN-CAUSE-A`) places the effect's perfection in
@@ -871,9 +930,9 @@ it has neither formally nor as art) are a substantive objection to the
 unrestricted scope if `CausesIn` (CAUSE_2) counts instrumental causes; the reply
 that an instrument acts by the principal agent's power is an unread lead
 (q.62 a.4, De potentia q.3 a.7). The restriction to causes of being `d0fc96b7`
-is not touched by instruments of making, which are causes of becoming (open
-bridge of `DISAMB-BECOMING-BEING-CAUSE`). No principal-cause sibling is typed
-yet.
+and the esse instance `cffad050` are not touched by instruments of making, which
+are causes of becoming (open bridge of `DISAMB-BECOMING-BEING-CAUSE`). No
+principal-cause sibling is typed yet.
 
 **Perfection-transfer cycle (2026-11-12, [attempt](../../corpus/attempts/3de52780-6816-4638-bdba-92598aff14cc.json)).**
 PR #1480 found that unrestricted transfer (`f8ba2429`) and the residual
@@ -1664,11 +1723,16 @@ conditional investigations, not a mandatory first gate:
    sixteen formal-alternative rows need a read source before they carry any
    weight; until then they show only where each premise is needed.
    Next for the esse-cause bridge and "nothing gives what it does not have"
-   (2026-11-12, above): a derivation of preexistence that avoids `376d6a5a`
-   (for example from unrestricted transfer `f8ba2429` and a cause-of-being
-   restriction grounded without preexistence), which would lift the nine-route
-   bottleneck; a principal-cause sibling of `376d6a5a` with
-   `causeOfQualityMoreSuch` restated for principal causes; warrant for
+   (2026-11-12, above): re-route the four CONCRETE_6 routes through the esse
+   instance `STMT-GRADES-TO-MAXIMUM-AT-BEING` in place of grades-to-a-maximum
+   `6c27657f`, after checking that every use is at esse (computed effect: four
+   more routes survive the removal of `376d6a5a`); re-route the other consumers
+   of "more such" that use it only at esse through `cffad050` (`truth check`
+   lists sixty without `strong_version_needed`); a ground for the
+   cause-of-being restriction `d0fc96b7` that is not preexistence (candidates:
+   q.4 a.3 agent likeness, or the subsistent-being proof restricted to the
+   root, which would also lift the composition route); a principal-cause
+   sibling of distinct-cause transfer `2c0b9bd7`; warrant for
    act-to-existence `546975ef` (the actualist reading of esse at the reading
    world); and the remaining bridge leaves, effect dependence and
    dependence-to-grounding.
