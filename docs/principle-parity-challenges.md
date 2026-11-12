@@ -296,6 +296,53 @@ cannot match under the same evidence and observer reference class. That is
 not guaranteed by possessing a purpose, nor impossible for an impersonal
 natural process to mimic through a different generative route.
 
+### Named-source stress test: necessity, actuality and a positive motive
+
+Oppy's [*The Universe Does Not Have a Cause*](https://catalogimages.wiley.com/images/db/pdf/9781119028451.excerpt.pdf)
+(2020), §I, pp. 13–14 (also retained in the
+[pinned passage](../corpus/passages/oppy-universe-no-cause.json)), **explicitly**
+treats as possible only worlds with the actual laws and initial history,
+varying later objective-chance outcomes.
+This is a substantive *restricted modal policy*, not an implication of the
+word `natural`. It provides a coherent proposed way to keep initial facts
+fixed while explaining later contingent variation through chance. It also
+raises a *different*, exact research question: what supports treating a world
+with different laws or initial conditions as **metaphysically impossible**,
+rather than merely inaccessible to this physical history? His assertion of
+the restriction is not, by itself, its independent warrant. In the same
+paper's §VI, pp. 19–20, Oppy infers from an item's necessity to its independence
+from everything else. That requires a bridge from **modal invariance to lack
+of ontic/causal dependence**; the former alone does not logically imply the
+latter. A model with two necessary propositions and an asymmetric explanatory
+edge is a structural counterexample to the *unbridged* inference, not a
+physical example of necessary causation. The existing [#735 assessment](notes/ultimate-adequacy-integration-735.md)
+owns the stronger dependence research; do not duplicate its certificate.
+
+By comparison, Aquinas's [*Summa Theologiae* I, q.19, a.3](https://www.newadvent.org/summa/1019.htm)
+explicitly distinguishes God's necessary willing of divine goodness from
+non-necessary willing of creatures; [I, q.44, a.4](https://www.newadvent.org/summa/1044.htm)
+proposes **communication of goodness**, not acquisition of a missing benefit,
+as the end of creation. This is a specific *positive purposive account* of
+why the first cause could create a good contingent order; it is not merely
+the word `personal`. It does not entail a unique creative act, a particular
+physical constant, or the truth of divine existence. The linked research
+question is whether a necessary perfectly good will can nonnecessitatingly
+produce the actual contingent order while retaining the intended divine
+attributes. The existing [#1297 choice/contingency controls](https://github.com/moritzbrantner/truth-core/pull/1297)
+already formalize part of that problem.
+
+**Provisional symmetry-breaker.** Oppy's restricted modality can make actual
+initial conditions guaranteed **inside the stipulated model**, whereas
+Aquinas's goodness-based intention provides a reason for a **kind of good
+outcome** without necessitating its exact token. These are different
+explanatory advantages, not interchangeable probability estimates. Compare
+the independent warrant of the modal restriction with the independent
+warrant and predictive reach of the motive **under one declared explanandum**.
+If both are equally capable of predicting the chosen feature after observer
+selection, neither gains that evidential advantage. If a feature remains
+unexplained by the natural policy but independently favored by a defensible
+divine purpose, that would create a genuine, revisable asymmetry.
+
 ### Provisional assessment and next discriminator (2026-11-12)
 
 **Assessment: a potentially substantive asymmetry, still unproved for actual
@@ -438,6 +485,82 @@ and (iv) return-accessibility or an equivalent route to our standpoint.
 Reopen if a particular author's positive modal theory makes one of these
 bridges warranted or specifically excludes it; do not treat a mere refusal
 to use S5 as a refutation of the weaker back-edge proof.
+
+### Concrete multiverse stress test: causal-entropic selection
+
+Bousso, Harnik, Kribs and Perez, [*Predicting the Cosmological Constant from
+the Causal Entropic Principle*](https://arxiv.org/abs/hep-th/0702115) (2007),
+is an especially useful **positive rival** to stress-test: it predicts a
+favored positive cosmological constant under a proposed anthropic weighting,
+with the observed value in the favored range. It is not a mere assertion that
+`many universes explain anything`. Its introductory decomposition exposes
+three **separate** commitments required for that account:
+
+1. An underlying theory admits a sufficiently dense set of vacua/values.
+2. Physical dynamics actually populates the relevant alternatives.
+3. A sampling/observer measure makes the *observed* value comparatively likely.
+
+In this calculation the third gate is the **causal-entropic principle** (CEP):
+weight a causal diamond by entropy produced within it, with stellar radiation
+absorbed by dust providing the dominant modeled contribution. The paper's
+worked calculation varies **positive cosmological constant** with other
+low-energy parameters held fixed. Its result is therefore not a proof that
+every combination of physical laws and constants obtains, that every
+metaphysical possibility becomes physical, or that the whole ensemble has a
+well-founded actuality mechanism. It makes a more valuable, falsifiable-in-
+principle conditional proposal with explicit assumptions.
+
+**Exact observer-proxy gap (WP-040–045).** The motivating assertion that
+observation needs entropy production licenses, at most, a direction such as
+`O > 0 → ΔS > 0`. It does **not** by itself establish the stronger sampling
+rule `expected observation-records ∝ ΔS`. A two-candidate *mathematical
+surrogate*, not a cosmological counterobservation, proves the distinction:
+
+| Candidate | Prior | Entropy production `ΔS` | Observer records `O` |
+| --- | ---: | ---: | ---: |
+| A | 1/2 | 100 | 1 |
+| B | 1/2 | 10 | 10 |
+
+All four outcomes are positive, so both candidates satisfy the asserted
+necessary connection. Yet entropy weighting selects A with probability
+`100/(100+10) = 10/11`, while observer-record weighting selects A with
+probability `1/(1+10) = 1/11`. Thus even a fully specified *vacuum
+distribution* does not settle a first-person observation likelihood until
+the entropy-to-observer proxy is defended independently. The surrogate does
+not show that entropy is a bad empirical proxy in our actual cosmology; it
+isolates the exact missing implication.
+
+Phillips and Albrecht, [*Effects of Inhomogeneity on the Causal Entropic
+Prediction of Λ*](https://arxiv.org/abs/0903.1622) (2009), supply a
+**published physical sensitivity test**. Treating an inhomogeneous universe
+requires specifying an ensemble and measure over causal diamonds/worldlines;
+late entropy from black-hole evaporation can overwhelm stellar entropy under
+some choices. Their result makes the original prediction sensitive to a
+concrete measure and source-of-entropy choice; it does **not** demonstrate
+that no entropy-based or multiverse prediction could succeed. The next
+discriminator is whether a physically independently justified weighting
+retains the observed-Λ result after these contributions and observer-proxy
+assumptions are accounted for.
+
+Nor can we claim that multiverse proponents have *no* developed response to
+the measure problem. Khoury and Wong, [*Bayesian Reasoning in Eternal
+Inflation: A Solution to the Measure Problem*](https://doi.org/10.1103/PhysRevD.108.023506)
+(2023), derive model-relative comparisons by making ancestral-vacuum and
+nucleation-time priors explicit. That is progress on a **different** specified
+ensemble; it is not automatically the CEP observer proxy, and the two papers'
+assumptions must not be silently spliced together.
+
+**Discriminator and frontier movement.** Ask of each proposed multiverse:
+which candidate laws are admissible, why those values are *instantiated*
+rather than only mathematically available, what distribution governs them,
+what counts as an observation, and how its likelihood responds to alternative
+admissible weighting rules. Answering those questions with a concrete,
+supported theory genuinely advances the naturalistic case; merely declaring
+all combinations actual does not answer them. The symmetrical theistic
+comparison must articulate its independently motivated **creation goal and
+selection distribution**, condition on observer existence, and predict a
+residual feature the natural account does not already favor. Neither bare
+`God wanted life` nor bare `there is a multiverse` supplies a Bayes factor.
 
 ### Breadth program: 100 targeted research tests, not 100 certified defeats
 
