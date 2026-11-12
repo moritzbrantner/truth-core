@@ -1,0 +1,11 @@
+{
+  "id": "da1b1b34-eb45-4767-b701-e181577b6f0a",
+  "label": "PERFECT_2 intellect being BLESSED_1 gives BLESSED_2 being BLESSED_1",
+  "argument_id": "6d69de56-2872-4454-929a-88ef1d52581b",
+  "challenge_module": "TruthCore.Results.Causality.DeiFiliusLordBlessed.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DeiFiliusLordBlessed.Solution",
+  "theorem": "TruthCore.Results.Causality.DeiFiliusLordBlessed.blessedSenseBridgeOfPerfectIntellectual",
+  "comparator_config": "results/da1b1b34-eb45-4767-b701-e181577b6f0a/comparator.json",
+  "status": "solution-present",
+  "description": "Strength order registration: the old bridge (whatever is PERFECT_2 and has intellect is BLESSED_1) entails the new sense bridge, since whatever is BLESSED_2 is PERFECT_2 and has intellect. Projection and application only; it establishes neither."
+}

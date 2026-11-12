@@ -1,0 +1,11 @@
+{
+  "id": "c89edc63-a443-4aa3-85a5-0ad48e6b3413",
+  "label": "Creator of all being LORD_1 gives LORD_2 being LORD_1",
+  "argument_id": "f4c67cee-64e4-4c8d-a918-b11984de392e",
+  "challenge_module": "TruthCore.Results.Causality.DeiFiliusLordBlessed.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DeiFiliusLordBlessed.Solution",
+  "theorem": "TruthCore.Results.Causality.DeiFiliusLordBlessed.lordSenseBridgeOfCreatorIsLord",
+  "comparator_config": "results/c89edc63-a443-4aa3-85a5-0ad48e6b3413/comparator.json",
+  "status": "solution-present",
+  "description": "Strength order registration: the old bridge (whatever causes the being of everything else is LORD_1) entails the new sense bridge, since whatever is LORD_2 causes the being of everything else. Projection and application only; it establishes neither."
+}

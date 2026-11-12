@@ -56,6 +56,7 @@ public import TruthCore.Causality.DefinitionDictionaryConnections
 public import TruthCore.Causality.DeiFiliusAttributeField
 public import TruthCore.Causality.DeiFiliusLivingNineScope
 public import TruthCore.Causality.DeiFiliusLivingSelfOperation
+public import TruthCore.Causality.DeiFiliusLordBlessed
 public import TruthCore.Causality.DeiFiliusOperationFromIntellect
 public import TruthCore.Causality.DerivativeJointPower
 public import TruthCore.Causality.DirectEsseGenusOmissionControl

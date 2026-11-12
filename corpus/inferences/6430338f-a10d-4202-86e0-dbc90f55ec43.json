@@ -1,0 +1,12 @@
+{
+  "id": "6430338f-a10d-4202-86e0-dbc90f55ec43",
+  "label": "Creator of all being LORD_1 gives LORD_2 being LORD_1 (inference)",
+  "input_statement_ids": [
+    "bb3d4417-b2f6-4310-9433-21ff2e386780"
+  ],
+  "output_statement_id": "eb6611a5-f8a7-44f6-9bf1-2f65eb80b3cb",
+  "rule": "Weakening of the antecedent: LORD_2 contains creator of all as a conjunct",
+  "meaning": "Strength order registration: the old bridge (whatever causes the being of everything else is LORD_1) entails the new sense bridge, since whatever is LORD_2 causes the being of everything else. Projection and application only; it establishes neither.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
