@@ -13,7 +13,8 @@
   ],
   "meaning": "Transcription (single application, invariant 16) of the narrowed sense bridge, after a non-transcription presence derivation: the last step obtains IMMENSE_1 only by applying the narrowed bridge, whose consequent is the conclusion, so 8bf775e9 stays open until every premise here is closed. Let g be IMMENSE_2. In every history of the model, g is present by giving being to every other thing whenever it is (immense2PresentToAll, from the sustaining reading, presence-in-act and the contact principle). The narrowed sense bridge then gives IMMENSE_1. This splits 8bf775e9 into the typed presence step (three open premises) and a remainder (place, containment, measure, the other modes of presence, immediacy) that no longer carries sustaining causation or contact. It is a finer decomposition, not a weaker total commitment: 8bf775e9 entails the narrowed bridge (registered strength order). The existential-inertia objection to 8bf775e9 now targets exactly one premise, the sustaining reading. All premises stay OPEN; the history and giving relation are parameters, so any one interpretation satisfying the premises gives the bridge. No premise is established.",
   "term_senses": {
-    "CAUSE_OF_BEING": "5acddd28-aca0-410d-96d2-ef9386b8dc27"
+    "CAUSE_OF_BEING": "5acddd28-aca0-410d-96d2-ef9386b8dc27",
+    "CAUSING_AN_EFFECT": "871078ad-b041-4030-bb85-7ec2eed5d079"
   },
   "definition_ids": [
     "1335688a-d3f2-492e-9b71-c8062280fe16",
@@ -48,6 +49,12 @@
       "to": "1bf8b401-ddd3-459a-bc15-67083eb8d2f1",
       "statement_id": "8bf775e9-34e0-48e5-bdd8-f48edd1040f7",
       "role": "conclusion"
+    },
+    {
+      "term": "CAUSING_AN_EFFECT",
+      "from": "39f64183-5038-4348-ad9f-5b64674f65f8",
+      "to": "871078ad-b041-4030-bb85-7ec2eed5d079",
+      "statement_id": "23e04ae5-98ed-4464-8f9b-dc0dfbad0caa"
     }
   ],
   "strong_version_needed": {
