@@ -73,5 +73,8 @@
       "to": "9f9108e2-3cc3-45dd-be1d-d8fdaaced708",
       "statement_id": "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
     }
-  ]
+  ],
+  "strong_version_needed": {
+    "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21": "Not needed for this endpoint. This interface is retained for comparison with its original proof path; the weak version, the closed-collection condition (registered strengthens, strict by ClosedGroundingRoots Control.limitGrounder), suffices: ClosedGroundingRoots.underivedOfCoverageClosed proves the same endpoint from the same premises with it in place of well-founded actual grounding. That reduction establishes none of the remaining premises."
+  }
 }

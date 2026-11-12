@@ -1,0 +1,12 @@
+{
+  "id": "106fce52-cf00-4537-9a62-2d7ab5ae137e",
+  "label": "Grades to a maximum in every respect give grades to a maximum at being",
+  "argument_id": "5584b295-389e-41c4-b5d2-92d4808fecd2",
+  "challenge_module": "TruthCore.Results.Causality.GradesAtBeingRoutes.Challenge",
+  "solution_module": "TruthCore.Results.Causality.GradesAtBeingRoutes.Solution",
+  "theorem": "TruthCore.Results.Causality.GradesAtBeingRoutes.gradesAtBeingOfGrades",
+  "comparator_config": "results/106fce52-cf00-4537-9a62-2d7ab5ae137e/comparator.json",
+  "status": "solution-present",
+  "description": "Strength registration (not a route step): grades-to-a-maximum in every respect (GradesByApproachToAMaximumReading), instantiated at the one respect esse, gives grades-to-a-maximum at being (GradesToMaximumAtBeing) for the same InAct and MoreIn. Reuses restrictGrades. No strictness countermodel is registered; that the converse fails when some other respect has comparisons without a maximum is not certified here.",
+  "transcription": "instantiation"
+}

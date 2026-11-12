@@ -117,7 +117,7 @@ every verified derivation. Other statements lose derivations too.
 | contingent grounding | 7/10 | none |
 | population, whole roster not trapped | 6/10 (cogito/roster routes lost) | none |
 | God names the fully described principle | 2/10 (ed7c588a, beec1dc1) | classical root |
-| act simply prior to potency with its independent-parameter copy (3b2d2d46) | 9/10 (classical-root route lost); 2/10 before the first-being composition route ([act priority](modal-spine.md#act-priority-over-potency-2026-11-12)) | classical root |
+| act simply prior to potency with its independent-parameter copy (3b2d2d46) | 10/10 since the first-being classical-root sibling 69affa96; 9/10 (classical-root route lost) before it; 2/10 before the first-being composition route ([act priority](modal-spine.md#act-priority-over-potency-2026-11-12)) | none (classical root keeps 69affa96) |
 | `STMT-CAUSE-HAS-WHAT-IT-GIVES` (376d6a5a) | 1/10 (prima via only) | classical root |
 
 Reading (structural only): the disputed modal premises and the join are
