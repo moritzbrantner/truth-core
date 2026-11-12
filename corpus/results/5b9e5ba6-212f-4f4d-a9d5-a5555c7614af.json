@@ -7,5 +7,5 @@
   "theorem": "TruthCore.Results.Causality.DeiFiliusAttributeField.classicalRootOfDeiFiliusRoot",
   "comparator_config": "results/5b9e5ba6-212f-4f4d-a9d5-a5555c7614af/comparator.json",
   "status": "solution-present",
-  "description": "The root of the Dei Filius endpoint has the nine (they are among its attributes) and, by the field interpretation, the primitive field: the old endpoint at the same witness. With deiFiliusRoot this gives a route to the old endpoint in which the sufficiency premise is replaced by the field interpretation, five new bridges and the existing infinite-power premise. Conditional consequence only."
+  "description": "The root of the Dei Filius endpoint has the nine (they are among its attributes) and, by the field interpretation, the primitive field: the old endpoint at the same witness. With deiFiliusRoot this gives a route to the old endpoint in which the sufficiency premise is replaced by the field interpretation, five new bridges and the existing infinite-power premise. The field interpretation is a stipulation about the undefined primitive field (full-list reading CLASSICAL_FIELD_2). Conditional consequence only."
 }

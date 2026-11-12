@@ -7,7 +7,7 @@
   ],
   "output_statement_id": "818a73cc-249d-5f9b-9c34-aee1f2cbf333",
   "rule": "Composition of two one-way implications at each being",
-  "meaning": "A being with the nine has every Dei Filius attribute by the restated sufficiency, and so the primitive field by the field interpretation. This gives STMT-CLASSICAL-ATTRIBUTES-SUFFICE its first derivation: its warrant gap becomes the field interpretation plus the seven bridges of nineGiveDeiFilius (with three existing premises). Conditional consequence only; no premise is established.",
+  "meaning": "A being with the nine has every typed Dei Filius attribute by the restated sufficiency, and so the primitive field by the field interpretation. This gives STMT-CLASSICAL-ATTRIBUTES-SUFFICE its first derivation, but it relocates rather than discharges the warrant: part of it moves into the field interpretation, a stipulation about an undefined primitive. On the full-list reading of the field (CLASSICAL_FIELD_2) the warrant gap becomes the field interpretation plus the seven bridges of nineGiveDeiFilius (with three existing premises). On the nine-reading (CLASSICAL_FIELD_1, the one Root.lean documents) the old premise is close to analytic and the bridges do no work for it. Conditional consequence only; no premise is established.",
   "assumption_statement_ids": [],
   "discharged_statement_ids": []
 }

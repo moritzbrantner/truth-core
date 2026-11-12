@@ -20,9 +20,10 @@ open TruthCore.Latin.Aquinas.SummaTheologiae
 open TruthCore.Case.Catholicism
 open TruthCore.Logic
 
-/-- The nine stage-two attributes give every Dei Filius attribute, from seven
-open bridges and three existing premises. Ten conjuncts are the nine
-themselves; `creator` unfolds the goodness conjunct (supreme goodness includes
+/-- The nine stage-two attributes give every Dei Filius attribute in the typed
+reading of `DeiFiliusAttributes`, from seven open bridges and three existing
+premises. Ten conjuncts are the nine themselves; `creator` is contained by
+definition in the goodness conjunct (the case's supreme goodness includes
 causing every perfection of everything else, so in particular its being);
 `spiritual` uses the matter-form clause of the q.3 a.7 composition premise and
 simplicity; `exalted` uses goodness-is-actuality (for act as to being) and the
@@ -69,13 +70,14 @@ theorem classicalAttributesSufficeOfDeiFilius (σ : Signature) {Respect : Type}
 
 /-- The spine's root with the defined Dei Filius attributes, from the inputs of
 the registered join-to-stage-two composition (result 57213a13) WITHOUT the
-sufficiency premise, plus six open bridges. The registered composition is
+sufficiency premise, plus five open bridges and the existing infinite-power
+premise. The registered composition is
 reused on the signature that agrees with `σ` except that its primitive field is
 everywhere true (so its sufficiency premise holds trivially there, and nothing
 about the field is used); its root then has every Dei Filius attribute:
 `distinct`, `spiritual` and `exalted` come from the root's remoteness,
-matter-form exclusion and maximum in being, `creator` from its supreme
-goodness, `almighty` from infinity through the existing infinite-power premise,
+matter-form exclusion and maximum in being, `creator` is contained by
+definition in its supreme goodness, `almighty` from infinity through the existing infinite-power premise,
 and the five primitives from one bridge each. -/
 theorem deiFiliusRoot {W Principle Respect : Type} (σ : Signature)
     (m : Profile W σ.Being) (w : W)

@@ -1,0 +1,25 @@
+{
+  "id": "2cbf40b4-3ea9-47a3-b532-7085ba3b53fa",
+  "label": "Classical-attributes field content: the nine versus the full Dei Filius list",
+  "term": "classical-attributes field content",
+  "sense_definition_ids": [
+    "e86ef332-e32e-4714-b34e-2295d3cc4a21",
+    "edcfac86-6c19-4c82-9dfa-79bbf3287e6f"
+  ],
+  "resolution": "The primitive field Signature.HasClassicalAttributes is undefined; this records the fork in its intended content, not a definition. CLASSICAL_FIELD_1 (the nine, NineClassicalAttributes) is what Root.lean documents. CLASSICAL_FIELD_2 (the full Dei Filius list in the typed reading of definition edcfac86, DeiFiliusAttributes) is what Dei Filius ch. 1, cited by ClassicalAttributesSuffice's docstring, DEF-CLASSICAL-ATTRIBUTES-BUNDLE and claim VATICAN-I-DEI-FILIUS-CH1-ONE-TRUE-LIVING-GOD, motivates. The Dei Filius batch states its field interpretation FieldFromDeiFilius on CLASSICAL_FIELD_2 only. Under CLASSICAL_FIELD_1 the old sufficiency premise is close to analytic and the seven bridges do no work for it; under CLASSICAL_FIELD_2 the warrant gap of the old premise is the field interpretation plus the bridges. Neither reading is selected; the formal results hold under both, since they never use the field's content.",
+  "term_label": "CLASSICAL_FIELD",
+  "senses": [
+    {
+      "id": "2b3ccc42-b743-4e4a-8698-60ec0c656678",
+      "label": "CLASSICAL_FIELD_1",
+      "definition_id": "e86ef332-e32e-4714-b34e-2295d3cc4a21",
+      "lean_declaration": "TruthCore.Case.Catholicism.NineClassicalAttributes"
+    },
+    {
+      "id": "8b8e5e58-48b1-465a-a1c0-a38205c18ed2",
+      "label": "CLASSICAL_FIELD_2",
+      "definition_id": "edcfac86-6c19-4c82-9dfa-79bbf3287e6f",
+      "lean_declaration": "TruthCore.Causality.DeiFiliusAttributeField.DeiFiliusAttributes"
+    }
+  ]
+}

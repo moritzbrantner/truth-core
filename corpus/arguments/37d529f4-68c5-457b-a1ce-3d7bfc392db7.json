@@ -9,11 +9,12 @@
   "inference_ids": [
     "37670ef2-9c50-4cdd-b0b3-c25b50a46dd2"
   ],
-  "meaning": "A being with the nine has every Dei Filius attribute by the restated sufficiency, and so the primitive field by the field interpretation. This gives STMT-CLASSICAL-ATTRIBUTES-SUFFICE its first derivation: its warrant gap becomes the field interpretation plus the seven bridges of nineGiveDeiFilius (with three existing premises). Conditional consequence only; no premise is established.",
+  "meaning": "A being with the nine has every typed Dei Filius attribute by the restated sufficiency, and so the primitive field by the field interpretation. This gives STMT-CLASSICAL-ATTRIBUTES-SUFFICE its first derivation, but it relocates rather than discharges the warrant: part of it moves into the field interpretation, a stipulation about an undefined primitive. On the full-list reading of the field (CLASSICAL_FIELD_2) the warrant gap becomes the field interpretation plus the seven bridges of nineGiveDeiFilius (with three existing premises). On the nine-reading (CLASSICAL_FIELD_1, the one Root.lean documents) the old premise is close to analytic and the bridges do no work for it. Conditional consequence only; no premise is established.",
   "definition_ids": [
     "0d9dcc31-4d9c-45cc-93fe-fd0369fd9834",
     "4e0d3bdf-95b6-4b56-91f9-7026f591819d",
     "92c03350-6809-497d-b123-2ffb11c0e0c1",
+    "0525d8b9-f620-584f-a11f-beee6d8871a5",
     "c8f9c2fb-8c17-5fc8-b558-4a6fad659296",
     "1291944d-a8b2-54eb-899d-66bd5f8b4762",
     "88f9f6e8-997b-5f7d-afa1-c501954c3807",
@@ -27,7 +28,8 @@
     "85f7f569-ab4d-514b-aa2c-cf75171ad105",
     "58e0de99-6199-5851-8e03-381bca0d44f0",
     "5f851204-5991-5e16-87f1-e8b3ed729708",
-    "edcfac86-6c19-4c82-9dfa-79bbf3287e6f"
+    "edcfac86-6c19-4c82-9dfa-79bbf3287e6f",
+    "f91f5056-8a32-416b-b234-d0e78cd16ce8"
   ],
   "disambiguation_ids": [
     "f561d4e4-ab8f-5d20-9926-d63a74df3b4e",

@@ -1,0 +1,25 @@
+{
+  "id": "1f2d3b9b-0b6b-459c-8871-3f136ad6d78a",
+  "label": "Living: timeless versus present at some time of a duration frame",
+  "term": "living",
+  "sense_definition_ids": [
+    "f91f5056-8a32-416b-b234-d0e78cd16ce8",
+    "885a98f3-cd54-41c5-89bc-25c341415890"
+  ],
+  "resolution": "The Dei Filius attributes (living conjunct) and the bridge 'Whatever HAS_INTELLECT_1 is LIVING_1' use LIVING_1, the timeless primitive Primitives.Lives. LIVING_2 (LivesSomeTime: life present at some time of a duration frame) is the conclusion shape of the existing route SelfOperationLife and of STMT-PURE-ACT-LIVES; no argument of the Dei Filius batch uses it. Both readings take life as operating from oneself (q.18 a.3); they differ in the time index. No statement relates them, so no argument may pass from one to the other without an explicit bridge premise.",
+  "term_label": "LIVING",
+  "senses": [
+    {
+      "id": "f6fbb17c-6f36-4284-afed-93f1adc33501",
+      "label": "LIVING_1",
+      "definition_id": "f91f5056-8a32-416b-b234-d0e78cd16ce8",
+      "lean_declaration": "TruthCore.Causality.DeiFiliusAttributeField.Primitives.Lives"
+    },
+    {
+      "id": "8277a0a0-960c-487d-930d-5cd1fa8c3a4b",
+      "label": "LIVING_2",
+      "definition_id": "885a98f3-cd54-41c5-89bc-25c341415890",
+      "lean_declaration": "TruthCore.Causality.DeiFiliusAttributeField.LivesSomeTime"
+    }
+  ]
+}

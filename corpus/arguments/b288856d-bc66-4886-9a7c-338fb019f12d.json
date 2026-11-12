@@ -9,7 +9,7 @@
   "inference_ids": [
     "f847cb53-f1f0-49a1-9ba8-242198c55378"
   ],
-  "meaning": "The root of the Dei Filius endpoint has the nine (they are among its attributes) and, by the field interpretation, the primitive field: the old endpoint at the same witness. With deiFiliusRoot this gives a route to the old endpoint in which the sufficiency premise is replaced by the field interpretation, five new bridges and the existing infinite-power premise. Conditional consequence only.",
+  "meaning": "The root of the Dei Filius endpoint has the nine (they are among its attributes) and, by the field interpretation, the primitive field: the old endpoint at the same witness. With deiFiliusRoot this gives a route to the old endpoint in which the sufficiency premise is replaced by the field interpretation, five new bridges and the existing infinite-power premise. The field interpretation is a stipulation about the undefined primitive field (full-list reading CLASSICAL_FIELD_2). Conditional consequence only.",
   "definition_ids": [
     "0d9dcc31-4d9c-45cc-93fe-fd0369fd9834",
     "18f0cb4e-0a7e-41bd-af79-852194de490e",
@@ -18,6 +18,7 @@
     "59350e3b-1b76-45cd-b9fd-548f3f4658b5",
     "92c03350-6809-497d-b123-2ffb11c0e0c1",
     "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "0525d8b9-f620-584f-a11f-beee6d8871a5",
     "4f194c7b-c2f8-5701-b5e7-4c23d2d5a1a2",
     "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
     "211a6432-8b8f-53ed-85e3-75173bb15b24",
@@ -41,7 +42,6 @@
     "ff8bf1d7-0bf9-5dda-8038-7127e3d46ec8",
     "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
     "beb654a7-e204-5f4c-a7b4-45e886ba7109",
-    "b89f3234-195e-53ec-a60b-ea4dd11c65c1",
     "a2a8de58-42e0-5481-b7fb-848ae8602036",
     "5766de66-8a37-5b04-aa65-9eec53319f50",
     "0e3dd988-5ff3-5388-9bbf-5f87d0b0705f",
@@ -67,7 +67,8 @@
     "c2c8b139-fb8a-5ce2-8add-ec55a60d8b0b",
     "bf2f30d1-609f-4b23-b819-786d877b949c",
     "c4cf79f1-60a9-498a-944b-aeb7dfb56573",
-    "edcfac86-6c19-4c82-9dfa-79bbf3287e6f"
+    "edcfac86-6c19-4c82-9dfa-79bbf3287e6f",
+    "f91f5056-8a32-416b-b234-d0e78cd16ce8"
   ],
   "disambiguation_ids": [
     "6e92c6e3-edf0-5d7e-b2b3-788b24b8b768",

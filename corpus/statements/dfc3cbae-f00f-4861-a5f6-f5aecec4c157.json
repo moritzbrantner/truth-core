@@ -1,7 +1,7 @@
 {
   "id": "dfc3cbae-f00f-4861-a5f6-f5aecec4c157",
   "label": "Whatever has every Dei Filius attribute has the primitive classical-attributes field",
-  "paraphrase": "Open premise, analyst formulation: every being that has every Dei Filius attribute (DeiFiliusAttributes) has the skeleton's primitive field HasClassicalAttributes. The interpretation of the primitive field, stated one-way with no converse: the field's own documentation says it is intended to group the classical attributes after Dei Filius ch. 1, and this premise says that the full list recorded from that chapter suffices for it. It is strictly weaker than STMT-CLASSICAL-ATTRIBUTES-SUFFICE (fieldOfSuffice; Control.Controls part 3). It supplies no existence witness.",
+  "paraphrase": "Open premise, analyst formulation: every being that has every Dei Filius attribute in the typed reading of definition edcfac86 (DeiFiliusAttributes) has the skeleton's primitive field HasClassicalAttributes. The field interpretation on the full-list reading CLASSICAL_FIELD_2, stated one-way with no converse. It is not what Root.lean documents: there the field is 'intended to group simplicity, perfection, goodness, infinity, immutability, eternity, unity, intellect and will', the nine (CLASSICAL_FIELD_1), on which reading this premise follows at once. The Dei Filius motivation is in ClassicalAttributesSuffice's docstring, DEF-CLASSICAL-ATTRIBUTES-BUNDLE and the claim. It is strictly weaker than STMT-CLASSICAL-ATTRIBUTES-SUFFICE by the Lean lemma fieldOfSuffice (lake-checked; not a registered result, so not Comparator-verified) and Control.Controls part 3. It supplies no existence witness.",
   "lean_declaration": "TruthCore.Causality.DeiFiliusAttributeField.FieldFromDeiFilius",
   "definition_ids": [
     "edcfac86-6c19-4c82-9dfa-79bbf3287e6f",
@@ -14,6 +14,7 @@
     "587c53cf-c2a8-51f6-b8c1-013e67756dc6",
     "f561d4e4-ab8f-5d20-9926-d63a74df3b4e",
     "9b16c72e-e8dc-5d69-88bf-0daf61ab2f9b",
-    "c0fda0ee-3508-5101-94ba-043e3eb28b0e"
+    "c0fda0ee-3508-5101-94ba-043e3eb28b0e",
+    "2cbf40b4-3ea9-47a3-b532-7085ba3b53fa"
   ]
 }

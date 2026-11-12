@@ -1,7 +1,7 @@
 {
   "id": "e919fe2e-2563-44bb-9eba-16c8199fa477",
   "label": "Whatever causes the being of everything else enters into the composition of nothing",
-  "paraphrase": "Open bridge, analyst formulation, unattributed: whatever causes the being of everything else that is in act as to being is a component of nothing (RemoteFromAll). After ST I q.3 a.8's reason that the first efficient cause is not numerically one with the form or matter of what it makes. Gives Dei Filius's 'really distinct from the world' only in that reading.",
+  "paraphrase": "Open bridge, analyst formulation, unattributed: whatever causes the being of everything else that is in act as to being is a component of nothing (RemoteFromAll). After ST I q.3 a.8's first reason: the first efficient cause is not numerically one with the form or matter of what it makes. Q.3 a.8 itself reports three contrary positions (God as world-soul, via Augustine; God as the formal principle of all things, the Amalricians; God as prime matter, David of Dinant) and, in obj. 1, Dionysius' 'the being of all is the deity'. RemoteFromAll is a different reading of Dei Filius's 'really and essentially distinct from the world', not that attribute: the anti-pantheist content is untyped.",
   "lean_declaration": "TruthCore.Causality.DeiFiliusAttributeField.CreatorOfAllIsNoComponent",
   "definition_ids": [
     "92c03350-6809-497d-b123-2ffb11c0e0c1",

@@ -18,19 +18,35 @@ vocabulary where it exists. Two open premises connect it to the old premise
 * `NineSufficeForDeiFilius`: the nine stage-two predicates give every Dei Filius
   conjunct (the restated sufficiency, against the defined predicate);
 * `FieldFromDeiFilius`: whatever has every Dei Filius conjunct has the
-  primitive field (the interpretation of the field; strictly weaker than the
-  old premise).
+  primitive field (one reading of the field; strictly weaker than the old
+  premise).
+
+The primitive field itself stays undefined, and its intended content is an
+interpretation fork (`CLASSICAL_FIELD`). `Root.lean` documents it as "intended
+to group simplicity, perfection, goodness, infinity, immutability, eternity,
+unity, intellect and will", exactly the nine (CLASSICAL_FIELD_1); the Dei Filius
+motivation is in `ClassicalAttributesSuffice`'s docstring, in
+`DEF-CLASSICAL-ATTRIBUTES-BUNDLE` and in the claim. On the nine-reading the old
+premise is close to analytic, `FieldFromDeiFilius` follows at once and the
+bridges below do no work for sufficiency. On the full-list reading
+(CLASSICAL_FIELD_2, `DeiFiliusAttributes`) the bridges carry the warrant.
 
 Analyst formulations, attribution deferred (owner direction 2026-11-05): the
 claim motivates the list; no claim here states any bridge. Readings and their
 gaps (for example, "creator" is causing the being of everything else, not
 creation from nothing) are stated at each definition.
 
-Five attributes have no typed content in the corpus and are explicitly
-identified PRIMITIVES, bundled in `Primitives`: living, lord, immense,
-incomprehensible and most blessed. Each has a stated meaning and an open
-bridge from typed attributes, after the Summa's own reason for it; nothing
-constrains the primitive beyond that bridge. -/
+Five attributes are explicitly identified PRIMITIVES, bundled in `Primitives`:
+living, lord, immense, incomprehensible and most blessed. Each has a stated
+meaning and an open bridge from typed attributes, after the Summa's own reason
+for it; nothing constrains the primitive beyond that bridge. For living the
+corpus already has a typed, time-indexed route (`SelfOperationLife`: life as
+self-operation, derived for pure act as `∃ t, LivesAt x t` in a duration
+frame). It is kept as the sibling reading LIVING_2 (`LivesSomeTime`), not
+reused: it adds a duration frame and a primitive `Operates` to the attribute
+vocabulary, and identifying its time-indexed life with the timeless `Lives`
+would merge two senses (invariant 7). Composing the two needs an explicit
+bridge, not definitional identity. -/
 
 @[expose] public section
 
@@ -43,10 +59,11 @@ open TruthCore.Causality.NamingVeracityBatch1 (Power InfiniteActHasInfinitePower
 /-- Explicitly identified primitive attribute predicates (Encode first: a
 primitive must be named as such, with its meaning and open obligations).
 
-* `Lives g` — *vivus*: g lives, i.e. operates from itself and not as moved by
-  another (`DEF-LIVING`, ST I q.18 a.3). Timeless; distinct from life present
-  at a time (`DEF-LIFE-PRESENT-AT`). Open obligation: a typed account of
-  operating from oneself that applies to an immutable being.
+* `Lives g` — *vivus* (LIVING_1): g lives, i.e. operates from itself and not as
+  moved by another (`DEF-LIVING`, ST I q.18 a.3). Timeless; distinct from life
+  present at some time of a duration frame (LIVING_2, `LivesSomeTime`,
+  `DEF-LIFE-PRESENT-AT`). Open obligation: a typed account of operating from
+  oneself that applies to an immutable being.
 * `IsLord g` — *Dominus caeli et terrae*: g has dominion over everything else
   (ST I q.13 a.7: "Lord" is said of God relative to creatures). Open
   obligation: a typed account of dominion (authority to dispose of what is
@@ -70,6 +87,15 @@ structure Primitives (Being : Type) where
   Incomprehensible : Being → Prop
   MostBlessed : Being → Prop
 
+/-- LIVING_2, the sibling time-indexed reading of *vivus*: g's life is present at
+some time of a duration frame (`DEF-LIFE-PRESENT-AT`). This is the conclusion
+shape of the existing route `SelfOperationLife` (result
+`PURE-ACT-LIVES-FROM-SELF-OPERATION`, statement `STMT-PURE-ACT-LIVES`). It is
+not a field of `DeiFiliusAttributes`, and nothing here relates it to the timeless
+`Primitives.Lives` (LIVING_1). -/
+def LivesSomeTime {Being Time : Type} (LivesAt : Being → Time → Prop) (g : Being) : Prop :=
+  ∃ t, LivesAt g t
+
 /-- *Creator caeli et terrae*, weakest typed reading: g causes the being of
 everything other than g that is in act as to being. Not encoded: creation
 from nothing (no presupposed subject), freedom of the act, and a beginning.
@@ -87,18 +113,23 @@ def IsAlmighty (σ : Signature) (P : Power σ) (g : σ.Being) : Prop :=
 /-- *Spiritualis*, weakest typed reading: g is not composed of matter and form
 (ST I q.3 a.2). With `RemoteFromAll` (the distinctness conjunct) it is the
 existing altogether-immaterial antecedent (`DEF-ALTOGETHER-IMMATERIAL`).
-*Substantia* (subsisting rather than inhering) is not typed here. -/
+*Substantia* (subsisting rather than inhering) is not typed here: on its own
+`IsSpiritual` is also satisfied by prime matter or an accident (neither is
+composed of matter and form), which only the `distinct` conjunct excludes
+jointly. -/
 def IsSpiritual {Being : Type} (MatterForm : Being → Prop) (g : Being) : Prop :=
   ¬ MatterForm g
 
 /-- The attributes confessed of God in *Dei Filius* ch. 1 (DS 3001), with
-goodness from DS 3002 (*bonitate sua*), as one defined predicate of a being.
+goodness from DS 3002 (*bonitate sua*), as one defined predicate of a being, in
+the typed reading of definition `edcfac86`: some fields are weaker than the
+text, one is stronger (`good`) and one is a different reading (`distinct`).
 Each field is a typed predicate or an explicitly identified primitive:
 
 * `one` — *unus … una singularis*: `IsTheOneGod σ.IsGod` (`DEF-ONE-GOD`);
-* `living` — *vivus*: primitive `Lives`;
+* `living` — *vivus*: primitive `Lives` (LIVING_1);
 * `creator` — *creator caeli et terrae*: `IsCreatorOfAll` (no creation ex
-  nihilo);
+  nihilo); contained by definition in the `good` field;
 * `lord` — *Dominus*: primitive `IsLord`;
 * `almighty` — *omnipotens*: `IsAlmighty`;
 * `eternal` — *aeternus*: `Eternal` (ETERNAL_1);
@@ -111,16 +142,26 @@ Each field is a typed predicate or an explicitly identified primitive:
 * `simple` — *simplex omnino*: `IsSimple` (SIMPLE_4);
 * `immutable` — *incommutabilis*: `IsImmutable` (IMMUTABLE_1, pure act);
 * `spiritual` — *substantia spiritualis*: `IsSpiritual` (substance not typed);
-* `distinct` — *re et essentia a mundo distinctus*: `RemoteFromAll`
-  (`DEF-REMOTE-FROM-ALL`), g enters into the composition of nothing. Not
-  typed: numerical non-identity with the world as a whole (the signature has
-  no term for the world) and distinctness *in essence*;
+* `distinct` — *re et essentia a mundo distinctus*: a DIFFERENT reading,
+  `RemoteFromAll` (`DEF-REMOTE-FROM-ALL`), g enters into the composition of
+  nothing. The two are incomparable: the anti-pantheist content of DS 3001 and
+  canons DS 3023–3024 (numerical non-identity with the world as a whole, and
+  distinctness *in essence*) is not typed, since the signature has no term for
+  the world; and a Spinozist God, which is no part, matter or form of its
+  modes, satisfies `RemoteFromAll`;
 * `blessed` — *beatissimus*: primitive `MostBlessed`;
 * `exalted` — *super omnia … excelsus*: `IsMaximumIn InAct MoreIn esse`
   (MAXIME_ENS_1: in act as to being, and nothing is more in being). Weaker
   than exceeding everything else; *ineffabiliter* and "above all that can be
   conceived" are not typed;
-* `good` — *bonitate sua*: `IsSupremelyGood` (`DEF-SUPREMELY-GOOD`).
+* `good` — *bonitate sua*: `IsSupremelyGood` (`DEF-SUPREMELY-GOOD`). A
+  STRENGTHENING: DS 3002 names God's goodness as the motive of creation, while
+  `IsSupremelyGood` also includes causing every perfection of everything else
+  (q.6 a.2), which is why `creator` follows from it by definition.
+
+`almighty` is active power (`DEF-ACTIVE-POWER-TASK-VOCABULARY`); `immutable` is
+the absence of passive potency (`InPotency`, `DISAMB-POTENCY`). They use different
+notions, so having both is no sense clash.
 
 *Verus* (true God, as against false gods) is not a field: it is the predicate
 `σ.IsGod` of which the attributes are confessed, kept as its own conjunct
@@ -183,12 +224,16 @@ def NineSufficeForDeiFilius (σ : Signature) {Respect : Type}
     DeiFiliusAttributes σ InAct GoodIn InPotency CausesIn esse MoreIn ComponentOf
       Composite MatterForm Infinite Eternal HasIntellect HasWill P D g
 
-/-- The interpretation of the primitive field: whatever has every Dei Filius
-attribute has the skeleton's `HasClassicalAttributes`. Open premise. It is the
-meaning the field's doc comment intends (`Root.lean`: the field groups the
-classical attributes after Dei Filius ch. 1), stated one-way, with no converse;
-it is strictly weaker than the old sufficiency premise (the results module's
-`fieldOfSuffice`, and `Control.Controls` part 3). -/
+/-- The field interpretation on the full-list reading (CLASSICAL_FIELD_2): whatever
+has every Dei Filius attribute, as typed here, has the skeleton's
+`HasClassicalAttributes`. Open premise, one-way, with no converse. It is not
+what `Root.lean` documents: there the field is "intended to group simplicity,
+perfection, goodness, infinity, immutability, eternity, unity, intellect and
+will", the nine (CLASSICAL_FIELD_1); Dei Filius ch. 1 motivates
+`ClassicalAttributesSuffice` and `DEF-CLASSICAL-ATTRIBUTES-BUNDLE`. On the
+nine-reading this premise follows at once. It is strictly weaker than the old
+sufficiency premise: the results module's `fieldOfSuffice` (lake-checked, not a
+registered result, so not Comparator-verified) and `Control.Controls` part 3. -/
 def FieldFromDeiFilius (σ : Signature) {Respect : Type}
     (InAct GoodIn InPotency : σ.Being → Respect → Prop)
     (CausesIn : σ.Being → σ.Being → Respect → Prop) (esse : Respect)
@@ -244,7 +289,13 @@ def PerfectIntellectualIsMostBlessed {Being Respect : Type} (InAct : Being → R
 /-- Open bridge (*a mundo distinctus*, via q.3 a.8): whatever causes the being of
 everything else enters into the composition of nothing. After ST I q.3 a.8's
 reason that the first efficient cause is not numerically one with the form or
-matter of what it makes. -/
+matter of what it makes. Q.3 a.8 itself reports three contrary positions: God as
+world-soul (via Augustine, *De civ. Dei* VII), God as the formal principle of all
+things (the Amalricians) and God as prime matter (David of Dinant). Obj. 1 cites
+Dionysius: the being of all is the deity, and the being of all enters each
+composite. The Amalrician position and obj. 1 grant that God gives being and deny
+this consequent; Aquinas replies (ad 1) that deity is the being of all
+effectively and exemplarily, not by essence. -/
 def CreatorOfAllIsNoComponent {Being Respect : Type} (InAct : Being → Respect → Prop)
     (CausesIn : Being → Being → Respect → Prop) (esse : Respect)
     (ComponentOf : Being → Being → Prop) : Prop :=

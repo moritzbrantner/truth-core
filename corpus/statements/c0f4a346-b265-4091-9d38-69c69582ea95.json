@@ -1,7 +1,7 @@
 {
   "id": "c0f4a346-b265-4091-9d38-69c69582ea95",
   "label": "One selected NECESSARY_2 root is GOD_4 with every Dei Filius attribute",
-  "paraphrase": "There exists ONE SAME selected actual concrete necessary root n retaining the PerfectRootAt body (selected-root uniqueness, esse maximum and formal-or-eminent perfection), represented esse/essence identity, firstness, matter/form exclusion and remoteness; this same n satisfies the signature IsGod predicate (GOD_4) and has every Dei Filius attribute (DeiFiliusAttributes, which include the nine case predicates). STMT-NECESSARY-CLASSICAL-GOD-ROOT with the primitive HasClassicalAttributes field replaced by the defined attributes. No uniqueness of all necessary individuals is asserted.",
+  "paraphrase": "There exists ONE SAME selected actual concrete necessary root n retaining the PerfectRootAt body (selected-root uniqueness, esse maximum and formal-or-eminent perfection), represented esse/essence identity, firstness, matter/form exclusion and remoteness; this same n satisfies the signature IsGod predicate (GOD_4) and has every Dei Filius attribute in the typed reading of definition edcfac86 (DeiFiliusAttributes, which include the nine case predicates; weaker than the text for some attributes, stronger for goodness, a different reading for distinctness from the world). STMT-NECESSARY-CLASSICAL-GOD-ROOT with the primitive HasClassicalAttributes field replaced by the defined attributes. No uniqueness of all necessary individuals is asserted.",
   "lean_declaration": "TruthCore.Causality.DeiFiliusAttributeField.NecessaryDeiFiliusGodRootAt",
   "definition_ids": [
     "f1a17ff8-e477-5463-b669-d35a41246c12",
@@ -54,7 +54,8 @@
     "92c03350-6809-497d-b123-2ffb11c0e0c1",
     "0d9dcc31-4d9c-45cc-93fe-fd0369fd9834",
     "4e0d3bdf-95b6-4b56-91f9-7026f591819d",
-    "b89f3234-195e-53ec-a60b-ea4dd11c65c1",
+    "0525d8b9-f620-584f-a11f-beee6d8871a5",
+    "f91f5056-8a32-416b-b234-d0e78cd16ce8",
     "59350e3b-1b76-45cd-b9fd-548f3f4658b5",
     "bf2f30d1-609f-4b23-b819-786d877b949c",
     "c4cf79f1-60a9-498a-944b-aeb7dfb56573",
@@ -80,6 +81,9 @@
     "587c53cf-c2a8-51f6-b8c1-013e67756dc6",
     "f561d4e4-ab8f-5d20-9926-d63a74df3b4e",
     "9b16c72e-e8dc-5d69-88bf-0daf61ab2f9b",
-    "c0fda0ee-3508-5101-94ba-043e3eb28b0e"
+    "c0fda0ee-3508-5101-94ba-043e3eb28b0e",
+    "508617ab-cf24-5f3b-a387-64b3991359ec",
+    "1f2d3b9b-0b6b-459c-8871-3f136ad6d78a",
+    "2cbf40b4-3ea9-47a3-b532-7085ba3b53fa"
   ]
 }

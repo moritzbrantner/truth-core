@@ -1,13 +1,14 @@
 {
   "id": "8d2ac441-9b89-45ee-b8f6-db3522e0bafa",
   "label": "Whatever HAS_INTELLECT_1 lives",
-  "paraphrase": "Open bridge, analyst formulation, unattributed: whatever has intellect lives (operates from itself). After ST I q.18 a.3, where understanding is the highest grade of life and life is grounded in intellect. Not identified with STMT-PURE-ACT-LIVES (time-indexed, from the absence of potency) or STMT-THINKER-LIVES (bearers of occurring thoughts).",
+  "paraphrase": "Open bridge, analyst formulation, unattributed: whatever has intellect lives (LIVING_1: operates from itself, timelessly). After ST I q.18 a.3, where understanding is the highest grade of life and life is grounded in intellect. Not identified with STMT-PURE-ACT-LIVES or the route SelfOperationLife, which conclude LIVING_2 (life present at some time of a duration frame) from the absence of potency, nor with STMT-THINKER-LIVES (bearers of occurring thoughts).",
   "lean_declaration": "TruthCore.Causality.DeiFiliusAttributeField.IntellectualIsLiving",
   "definition_ids": [
-    "b89f3234-195e-53ec-a60b-ea4dd11c65c1",
+    "f91f5056-8a32-416b-b234-d0e78cd16ce8",
     "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4"
   ],
   "disambiguation_ids": [
-    "c0fda0ee-3508-5101-94ba-043e3eb28b0e"
+    "c0fda0ee-3508-5101-94ba-043e3eb28b0e",
+    "1f2d3b9b-0b6b-459c-8871-3f136ad6d78a"
   ]
 }
