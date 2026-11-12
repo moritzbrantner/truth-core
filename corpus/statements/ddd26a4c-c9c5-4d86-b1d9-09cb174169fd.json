@@ -1,0 +1,18 @@
+{
+  "id": "ddd26a4c-c9c5-4d86-b1d9-09cb174169fd",
+  "label": "Independence and nonvacuity controls for the Grim Reaper patchwork premises",
+  "paraphrase": "Closed mathematical controls, every individual counted concrete. (1) Integer worlds, individuals and times, every world accessible, every individual existing at every world but 0 and individual n present from time n on, with registers that are always empty and never issue: both patchwork premises hold, neither local-pieces premise holds, and populated pasts are neither founded nor begun. (2) The same history with pivot registers (world k: empty before k, issuing at k, code k from k on): both local-pieces premises hold, both patchwork premises fail, populated pasts are not begun, and beginningless populated pasts have coinitial descents. (3) The WithBot Int history of BegunComingToBe.Control.zeno (a first moment followed by moments with no earliest one) with empty registers: the coinitial local-pieces and patchwork premises, countable coinitiality, begun populated pasts and the earlier-grounded possibility premise all hold; begun coming-to-be is possible; no concrete individual is necessary at either world; populated pasts are not founded; and for every register frame the unrestricted local-pieces and patchwork premises do not both hold. These are statements about these interpretations only.",
+  "lean_declaration": "TruthCore.Causality.GrimReaperPatchwork.Control.Certificate",
+  "definition_ids": [
+    "a146da2f-a670-48f9-9911-5037352fc22a",
+    "b817094a-c68d-4541-b5da-5f11eb2bfc52",
+    "946ad44c-4bdb-4bc2-81db-5fbc43882c0a",
+    "df6cd418-1a1e-44b5-be8a-6bd29cab48ea",
+    "1548f15b-302b-403a-8aef-ebd66399849d",
+    "0406b0e4-e869-4d3f-a4ca-9e7e86f7fea0",
+    "22ca5513-6cfc-4af2-a4db-9ef4ac7f6712",
+    "d0abd99d-13d2-499a-9f1e-bf6d5ff60cdc",
+    "0a1dd099-ca32-4ad7-9237-291efbe54bcc",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d"
+  ]
+}

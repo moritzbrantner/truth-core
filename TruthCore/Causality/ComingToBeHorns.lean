@@ -42,10 +42,10 @@ anti-continuum price paid by this side, not by the rival. Two formulations:
   the sequence, the history or its moments, and the verified
   `IndexedSignalReaper.impossible` refutes it. So the bridge is equivalent to
   "no such descent exists": a reformulation of `PopulatedPastsFounded`, and
-  its result is recorded as a near-transcription. A genuine patchwork premise
-  would need a vocabulary for assembling worlds from local pieces, which the
-  corpus lacks. A finite-to-global form over `Nat` functions is already
-  refuted as mathematics (`GrimReaperFiniteTests`).
+  its result is recorded as a near-transcription. It is superseded by
+  `GrimReaperPatchwork`, which places the stations at the moments of the
+  descent in worlds of the history and splits the bridge into independent
+  local-pieces and patchwork premises.
 
 **H1 (a never-generated contingent thing).** `GroundsPrecedeAt` says that every
 ground of a contingent concrete thing is present at some moment strictly

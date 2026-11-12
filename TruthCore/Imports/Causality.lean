@@ -82,6 +82,7 @@ public import TruthCore.Causality.GodMaximalCausal
 public import TruthCore.Causality.GreatestDegreeRootRoute
 public import TruthCore.Causality.GrimReaper
 public import TruthCore.Causality.GrimReaperFiniteTests
+public import TruthCore.Causality.GrimReaperPatchwork
 public import TruthCore.Causality.GroundingIdentityProfile
 public import TruthCore.Causality.GroundingLimits
 public import TruthCore.Causality.GroundingRegress

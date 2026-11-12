@@ -1,0 +1,9 @@
+{
+ "id": "df6cd418-1a1e-44b5-be8a-6bd29cab48ea",
+ "label": "Local Reaper pieces co-possible along every coinitial populated descent",
+ "term": "possible local Reaper pieces along coinitial descents",
+ "definition": "CoinitialReaperPiecesPossible R h Concrete w is ReaperPiecesPossible restricted to coinitial descents: in every history v accessible from w, along every strictly descending sequence c that runs below every moment earlier than its populated first moment, every two adjacent local pieces are realized together in some world accessible from v. In ordinary language: if the past of a populated moment goes back without beginning, a possible Reaper trio fits at any three consecutive members of a sequence running back through it, for example one station per past day where the past is metrically infinite (a coinitial descent may also accumulate metrically, as t/2^n in (0, t]).",
+ "basis": "stipulative",
+ "lean_declaration": "TruthCore.Causality.GrimReaperPatchwork.CoinitialReaperPiecesPossible",
+ "note": "Weak version of ReaperPiecesPossible (coinitialPiecesOfPieces). It says nothing about a past with a beginning, so it is silent about dense time with a first moment. Analyst formulation; attribution deferred. OPEN."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "61344b75-9979-4897-87eb-3676e6c40886",
+  "label": "Begun populated pasts from coinitial Grim Reaper pieces and patchwork",
+  "argument_id": "1143573d-5d10-4da6-8b3f-a280fc8634d9",
+  "challenge_module": "TruthCore.Results.Causality.GrimReaperPatchwork.Challenge",
+  "solution_module": "TruthCore.Results.Causality.GrimReaperPatchwork.Solution",
+  "theorem": "TruthCore.Results.Causality.GrimReaperPatchwork.populatedPastsBegunOfPatchwork",
+  "comparator_config": "results/61344b75-9979-4897-87eb-3676e6c40886/comparator.json",
+  "status": "solution-present",
+  "description": "Non-transcription conditional support option for the begun version of A3 prime a, the faithful target of the Grim Reaper argument for a past with a beginning. Suppose a contingent concrete thing is present at t in an accessible history and the past of t has no beginning. Countable coinitiality gives some strictly descending sequence from t running below every earlier moment (e.g. one per past day where the past is metrically infinite; it may also accumulate metrically, as t/2^n in (0, t]). The coinitial local premise makes adjacent pieces co-possible, coinitial patchwork glues them into one accessible world, and the same register-to-signal translation as in the founded argument meets IndexedSignalReaper.impossible. The coinitial premises are implied by the unrestricted ones and are silent about pasts with a beginning, so its premises are satisfiable together with a first moment followed by moments with no earliest one (control 3, on WithBot Int times). Under its premises it does exclude contingent presence in an open-below past such as the positive reals, which is order-theoretically beginningless though metrically finite: in particular a populated standard FLRW cosmology, whose initial singularity is not a moment. That is a cost of these necessity premises (it does not touch the possibility premise A3 prime w). A metric restriction is untested. All three premises are OPEN. Nothing is attributed to Koons or Pruss. No premise is established."
+}

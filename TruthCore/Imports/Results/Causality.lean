@@ -143,6 +143,7 @@ public import TruthCore.Results.Causality.GodMaximalCausal.Solution
 public import TruthCore.Results.Causality.GreatestDegreeRootRoute.Solution
 public import TruthCore.Results.Causality.GrimReaperFiniteTests.Solution
 public import TruthCore.Results.Causality.GrimReaperImpossible.Solution
+public import TruthCore.Results.Causality.GrimReaperPatchwork.Solution
 public import TruthCore.Results.Causality.GroundingAllowsRegress.Solution
 public import TruthCore.Results.Causality.GroundingIdentityProfile.Solution
 public import TruthCore.Results.Causality.GroundingYieldsRegress.Solution

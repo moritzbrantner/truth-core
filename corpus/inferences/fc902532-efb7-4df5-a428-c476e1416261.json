@@ -1,0 +1,10 @@
+{
+  "id": "fc902532-efb7-4df5-a428-c476e1416261",
+  "label": "Grim Reaper patchwork controls checked (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "ddd26a4c-c9c5-4d86-b1d9-09cb174169fd",
+  "rule": "Explicit interpretations with integer and WithBot Int times, checked by case analysis and linear arithmetic, with the impossibility of a glued arrangement for the negative cases",
+  "meaning": "The local-pieces and patchwork premises are independent and neither alone excludes a beginningless past: in the beginningless integer history, silent registers satisfy both patchwork premises and neither local premise, and pivot registers satisfy both local premises and neither patchwork premise; populated pasts there are neither founded nor begun. So the conclusion is reached only through the derivation, not through either premise. In a history with a first moment followed by moments with no earliest one, the coinitial premises, countable coinitiality, begun populated pasts and the earlier-grounded possibility all hold together with possible begun coming-to-be and no necessary concrete individual, while no register frame satisfies both unrestricted premises: the unrestricted version excludes that history and the coinitial version does not. Model claims concern these interpretations only.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,14 @@
+{
+  "id": "92611646-cdd9-497c-998f-12f85f517278",
+  "label": "In every possible history, each beginningless populated past has a coinitial descent",
+  "paraphrase": "OPEN analyst structural premise about the order of time, attribution deferred: in every history accessible from the selected world, every moment at which a contingent concrete individual is present and whose past has no beginning starts a strictly descending sequence of moments that runs below every earlier moment. Integer times satisfy it (checked in control 2); the full rational or real line by t - n, and an open-below half-line such as (0, infinity) by t/2^n, not separately checked. In linear time it fails only where a beginningless past has uncountable coinitiality. 'Concrete' is the supplied Concrete parameter.",
+  "lean_declaration": "TruthCore.Causality.GrimReaperPatchwork.BeginninglessPastsCountablyCoinitial",
+  "definition_ids": [
+    "1548f15b-302b-403a-8aef-ebd66399849d",
+    "6afa7642-60ed-49a8-87e9-18674a7de21b",
+    "8aca16f2-088d-4566-8b99-2b8369ed929b",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e",
+    "008cb21a-256c-5a90-822c-acd4591d699a"
+  ]
+}
