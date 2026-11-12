@@ -100,7 +100,7 @@ theorem deiFiliusRootLivingFromPureAct {W Principle Respect Time : Type} (σ : S
   sorry
 
 open TruthCore.Causality.DeiFiliusLivingSelfOperation.Control in
-/-- The five interpretations of `Control.Controls`, checked by unfolding. -/
+/-- The interpretations and the general fact of `Control.Controls`, checked by unfolding. -/
 theorem controls : Controls := by
   sorry
 

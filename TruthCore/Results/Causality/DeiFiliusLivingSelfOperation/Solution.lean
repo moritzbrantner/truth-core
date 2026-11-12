@@ -156,7 +156,7 @@ theorem deiFiliusRootLivingFromPureAct {W Principle Respect Time : Type} (σ : S
       good := h.good }⟩
 
 open TruthCore.Causality.DeiFiliusLivingSelfOperation.Control in
-/-- The five interpretations of `Control.Controls`, checked by unfolding. -/
+/-- The interpretations and the general fact of `Control.Controls`, checked by unfolding. -/
 theorem controls : Controls :=
   ⟨⟨fun _ _ => ⟨(), trivial⟩, fun _ _ _ => trivial, ⟨true, fun _ h => h, trivial⟩⟩,
     ⟨fun _ _ => ⟨(), trivial⟩, fun h => h true (fun _ h => h) ⟨(), trivial⟩,
@@ -169,6 +169,7 @@ theorem controls : Controls :=
         cases g
         · exact (hp () rfl).elim
         · rfl,
-      fun h => Bool.false_ne_true (h false trivial)⟩⟩
+      fun h => Bool.false_ne_true (h false trivial)⟩,
+    fun _ _ _ _ _ _ h g _ hl => h g hl⟩
 
 end TruthCore.Results.Causality.DeiFiliusLivingSelfOperation

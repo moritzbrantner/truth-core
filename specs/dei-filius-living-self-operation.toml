@@ -5,8 +5,9 @@
 # place of the open bridge 'Whatever HAS_INTELLECT_1 is LIVING_1' (8d2ac441).
 # The senses are not identified (disambiguation 1f2d3b9b). Analyst
 # formulations, attribution deferred.
-# Registers: the Dei Filius root endpoint (c0f4a346) by a second route that
-# composes the registered deiFiliusRoot without its living bridge; controls on
+# Registers: second routes to the restated sufficiency (5fbea2f5) and to the Dei
+# Filius root endpoint (c0f4a346) that compose nineGiveDeiFilius and
+# deiFiliusRoot without their living bridge; controls on
 # two-being interpretations, including the sense-mixing control.
 
 [batch]
@@ -25,7 +26,7 @@ disambiguations = ["1f2d3b9b-0b6b-459c-8871-3f136ad6d78a"]
 [[statement]]
 id = "Controls for the LIVING_2-to-LIVING_1 route at the Dei Filius root"
 lean = "Control.Controls"
-paraphrase = "Closed controls on interpretations with two beings (Bool), one respect and one time: (1) the time-indexed premise STMT-PURE-ACT-LIVES and the restricted sense bridge hold together and a pure act lives (LIVING_1); (2) sense-mixing control: STMT-PURE-ACT-LIVES holds, the sense bridge fails, and a pure act lives at some time (LIVING_2) without living (LIVING_1); (3) the bridge holds while STMT-PURE-ACT-LIVES fails and a pure act does not live; (4) the restricted bridge holds while the unrestricted LifeAtSomeTimeIsLiving fails; (5) the restricted bridge and STMT-PURE-ACT-LIVES hold while 'Whatever HAS_INTELLECT_1 is LIVING_1' fails. Statements about these interpretations only."
+paraphrase = "Closed controls on interpretations with two beings (Bool), one respect and one time: (1) the time-indexed premise STMT-PURE-ACT-LIVES and the restricted sense bridge hold together and a pure act lives (LIVING_1); (2) sense-mixing control: STMT-PURE-ACT-LIVES holds, the sense bridge fails, and a pure act lives at some time (LIVING_2) without living (LIVING_1); (3) the bridge holds while STMT-PURE-ACT-LIVES fails and a pure act does not live; (4) the restricted bridge holds while the unrestricted LifeAtSomeTimeIsLiving fails; (5) the restricted bridge and STMT-PURE-ACT-LIVES hold while 'Whatever HAS_INTELLECT_1 is LIVING_1' fails; and (6) in general the unrestricted bridge implies the restricted one. Statements about these interpretations, plus that one general implication."
 definitions = ["f91f5056-8a32-416b-b234-d0e78cd16ce8", "885a98f3-cd54-41c5-89bc-25c341415890"]
 disambiguations = ["1f2d3b9b-0b6b-459c-8871-3f136ad6d78a"]
 
@@ -64,4 +65,4 @@ conclusion = "Controls for the LIVING_2-to-LIVING_1 route at the Dei Filius root
 axioms = []
 sense_mixing_control = true
 rule = "Explicit two-being interpretations, checked by unfolding"
-meaning = "Nonvacuity: STMT-PURE-ACT-LIVES and the restricted sense bridge are jointly satisfiable with a living pure act. Sense mixing fails without the bridge: a pure act can have life at some time (LIVING_2) and not LIVING_1, so STMT-PURE-ACT-LIVES alone does not give the living conjunct. The time-indexed premise is needed: with no life at any time the bridge holds and a pure act does not live. The restriction matters: the restricted bridge can hold where the unrestricted one fails. The new route does not presuppose the old intellect-gives-life bridge. Model-witnessed facts about these interpretations only; they show where each premise is needed, not that it is false or doubtful."
+meaning = "Nonvacuity: STMT-PURE-ACT-LIVES and the restricted sense bridge are jointly satisfiable with a living pure act. Sense mixing fails without the bridge: a pure act can have life at some time (LIVING_2) and not LIVING_1, so STMT-PURE-ACT-LIVES alone does not give the living conjunct. The time-indexed premise is needed: with no life at any time the bridge holds and a pure act does not live. The restriction matters: the unrestricted bridge implies the restricted one, which can hold where the unrestricted one fails. The new route does not presuppose the old intellect-gives-life bridge. Model-witnessed facts about these interpretations only; they show where each premise is needed, not that it is false or doubtful."

@@ -65,7 +65,8 @@ def allPotency (_ : Bool) (_ : Unit) : Prop := True
 def livesAlways (_ : Bool) (_ : Unit) : Prop := True
 def livesNever (_ : Bool) (_ : Unit) : Prop := False
 
-/-- Five interpretations on two beings (`Bool`), one respect and one time:
+/-- Five interpretations on two beings (`Bool`), one respect and one time, and
+one general fact:
 
 1. nonvacuity: no potency, life at every time, every being LIVING_1; both the
    time-indexed premise and the sense bridge hold, and a pure act lives;
@@ -79,7 +80,9 @@ def livesNever (_ : Bool) (_ : Unit) : Prop := False
 5. `false` alone in potency, life at every time, only `true` LIVING_1, both
    intellectual; the restricted bridge and the time-indexed premise hold while
    `IntellectualIsLiving` fails, so the new route does not presuppose the old
-   bridge. -/
+   bridge;
+6. in general, the unrestricted bridge implies the restricted one (with 4,
+   the restricted bridge is strictly weaker). -/
 def Controls : Prop :=
   (PureActLivesReading noPotency livesAlways ∧
     PureActLifeAtSomeTimeIsLiving noPotency livesAlways (prims fun _ => True) ∧
@@ -96,7 +99,10 @@ def Controls : Prop :=
   (PureActLivesReading (fun g (_ : Unit) => g = false) livesAlways ∧
     PureActLifeAtSomeTimeIsLiving (fun g (_ : Unit) => g = false) livesAlways
       (prims fun g => g = true) ∧
-    ¬ IntellectualIsLiving (fun _ => True) (prims fun g => g = true))
+    ¬ IntellectualIsLiving (fun _ => True) (prims fun g => g = true)) ∧
+  (∀ (Being Respect Time : Type) (InPotency : Being → Respect → Prop)
+      (LivesAt : Being → Time → Prop) (D : Primitives Being),
+    LifeAtSomeTimeIsLiving LivesAt D → PureActLifeAtSomeTimeIsLiving InPotency LivesAt D)
 
 end Control
 end TruthCore.Causality.DeiFiliusLivingSelfOperation

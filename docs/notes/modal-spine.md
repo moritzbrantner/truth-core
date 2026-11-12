@@ -700,7 +700,7 @@ attributes are confessed.
 | Dei Filius | Typed as | At any being with the nine (`nineGiveDeiFilius`) | At the spine's root (`deiFiliusRoot`) |
 |---|---|---|---|
 | unus, una singularis | `IsTheOneGod` | one of the nine | one of the nine |
-| vivus | primitive `Lives` (LIVING_1, timeless) | open bridge: whatever has intellect lives (q.18 a.3) | same bridge; or (second route) from the root's pure act through LIVING_2 and a restricted sense bridge (below) |
+| vivus | primitive `Lives` (LIVING_1, timeless) | open bridge: whatever has intellect lives (q.18 a.3); or (second route) from pure act, one of the nine, through LIVING_2 and a restricted sense bridge (below) | same two routes |
 | creator caeli et terrae | `IsCreatorOfAll`: causes the being of everything else (weaker: no creation from nothing) | contained by definition in the goodness conjunct | same |
 | Dominus | primitive `IsLord` | open bridge: creator of all is lord (q.13 a.7) | same bridge |
 | omnipotens | `IsAlmighty` (active power; no clash with immutability, which excludes passive potency) | from infinity by the existing `STMT-INFINITE-ACT-HAS-INFINITE-POWER` (itself derived from three open premises) | same |
@@ -722,11 +722,15 @@ frame). It is recorded as the sibling reading LIVING_2 (`LivesSomeTime`,
 disambiguation `1f2d3b9b`). The attribute structure keeps the timeless LIVING_1,
 and the two senses are not identified.
 
-Since 2026-11-12 a second route gives the root LIVING_1 from its pure act
-(`DeiFiliusLivingSelfOperation`, `deiFiliusRootLivingFromPureAct`, spec
-`specs/dei-filius-living-self-operation.toml`, attempt `6683acc4`). It composes
-`deiFiliusRoot` without the intellect bridge and takes pure act from the root's
-`immutable` conjunct. It then applies `STMT-PURE-ACT-LIVES` (LIVING_2, itself
+Since 2026-11-12 a second route gives LIVING_1 from pure act
+(`DeiFiliusLivingSelfOperation`, spec
+`specs/dei-filius-living-self-operation.toml`, attempt `6683acc4`), both for any
+being with the nine (`nineGiveDeiFiliusLivingFromPureAct`, a second bundle for
+the restated sufficiency, the place where the living bridge reaches the root in
+the computed frontier) and at the root (`deiFiliusRootLivingFromPureAct`). Each
+composes the registered theorem (`nineGiveDeiFilius`, `deiFiliusRoot`) without
+the intellect bridge and takes pure act from the `immutable` conjunct. It then
+applies `STMT-PURE-ACT-LIVES` (LIVING_2, itself
 derived from three open premises) and crosses to LIVING_1 by one explicit sense
 bridge restricted to pure act (`ad49ea00`: whatever is in potency in no respect
 and lives at some time lives). The restriction carries the motivation: without
@@ -736,7 +740,8 @@ being that lived once. The controls show that without the bridge a pure act can
 be LIVING_2 and not LIVING_1, and that the new route does not presuppose the
 intellect bridge.
 
-The route does not reduce the open premises: one bare bridge (intellect gives
+The route does not reduce the open premises (computed: one support alternative
+added for the restated sufficiency; one bare premise added): one bare bridge (intellect gives
 life) is replaced by one bare sense bridge plus `STMT-PURE-ACT-LIVES`, which the
 eternity routes already use. What changes is the connection: living now rests on
 the root's derived pure act and q.18 a.3's account of life, not on an unanalysed
