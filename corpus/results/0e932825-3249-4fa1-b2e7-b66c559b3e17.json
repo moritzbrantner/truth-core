@@ -1,0 +1,12 @@
+{
+  "id": "0e932825-3249-4fa1-b2e7-b66c559b3e17",
+  "label": "GOD_4 exists, projected from the NECESSARY_2 classical GOD_4 root",
+  "argument_id": "92ab7c94-80b1-4d05-bcaa-e59394ea55b2",
+  "challenge_module": "TruthCore.Results.Causality.NecessaryClassicalGodRootGodExists.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessaryClassicalGodRootGodExists.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessaryClassicalGodRootGodExists.godExists",
+  "comparator_config": "results/0e932825-3249-4fa1-b2e7-b66c559b3e17/comparator.json",
+  "status": "solution-present",
+  "description": "Assembly (a weakening, not a substantive derivation): the witness of NecessaryClassicalGodRootAt satisfies sigma.IsGod, so GodExists sigma.IsGod holds for the same signature and the same GOD_4 predicate. It puts the stage-two act-of-being and attribute composition (NecessaryClassicalGodRootFromUnderived and the other arguments concluding STMT-NECESSARY-CLASSICAL-GOD-ROOT) on a route to the working root STMT-GOD-EXISTS (owner direction 2026-11-09). As an assembly it closes the root only if its premise is closed (invariant 16 fixpoint); every upstream premise keeps its status. Necessity, uniqueness and the attributes are discarded; no converse is claimed.",
+  "transcription": "assembly"
+}
