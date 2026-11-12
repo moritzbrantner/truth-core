@@ -1,0 +1,11 @@
+{
+  "id": "adae8d59-5df7-407e-bdf1-25591700169d",
+  "label": "Potency as unactualized capacity strengthens the negated Scotist rival",
+  "subject_kind": "statement",
+  "subject_id": "c85e8ef5-3dc4-502d-90f8-da1429e33fd8",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "f6003a4c-fc27-5b0a-acf9-97515d131755",
+  "verification_result_id": "58c37565-01af-5b69-8c28-da708612b717",
+  "note": "Strength registration (2026-11-12 audit): Same InAct and InPotency: keep one direction and the non-actuality conjunct, stated as a negated existential. The argument also refutes the Scotist rival."
+}

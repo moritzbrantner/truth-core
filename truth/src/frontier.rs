@@ -235,6 +235,9 @@ pub struct Frontier<'a> {
     verified_steps: Vec<&'a Record>,
     /// Arguments with a verified non-transcription result: rule (a) steps.
     sound_steps: Vec<&'a Record>,
+    /// Python `registration_steps`: (result id, argument, transcription) of
+    /// each strength registration, by result id (owner decision 2026-11-12).
+    registration_steps: Vec<(&'a str, &'a Record, bool)>,
     upward_cache: RefCell<HashMap<&'a str, Upward<'a>>>,
 }
 
@@ -278,8 +281,8 @@ impl<'a> Frontier<'a> {
             .iter()
             .map(|statement| (text(statement, "id"), *statement))
             .collect();
-        // Lookup over every argument, registrations included: closure reads
-        // only the filtered `results` and steps below, while reachability and
+        // Lookup over every argument, registrations included: closure takes
+        // registrations only through `registration_steps`, while reachability and
         // route expansion also follow registrations (2026-11-12).
         let argument_by_id: HashMap<&str, &Record> = records
             .arguments
@@ -290,7 +293,10 @@ impl<'a> Frontier<'a> {
             .iter()
             .map(|result| (text(result, "id"), *result))
             .collect();
-        let verified_arguments = results
+        // Every verified argument, registrations included: a refutation whose
+        // argument is a registration still counts (2026-11-12).
+        let verified_arguments = records
+            .results
             .iter()
             .map(|result| text(result, "argument_id"))
             .collect();
@@ -439,6 +445,20 @@ impl<'a> Frontier<'a> {
             .collect();
         sound_steps.sort_by_key(|argument| text(argument, "id"));
         sound_steps.dedup_by_key(|argument| text(argument, "id"));
+        let mut registration_steps: Vec<(&str, &Record, bool)> = records
+            .results
+            .iter()
+            .filter(|result| registration.contains(text(result, "argument_id")))
+            .filter_map(|result| {
+                argument_by_id
+                    .get(text(result, "argument_id"))
+                    .map(|argument| {
+                        let id = text(result, "id");
+                        (id, *argument, transcription_results.contains(id))
+                    })
+            })
+            .collect();
+        registration_steps.sort_by_key(|(result_id, _, _)| *result_id);
         // From here `sound_arguments` serves the walks only: a registration
         // with a non-transcription result enters a routed conclusion like any
         // other verified derivation. The rule (a) steps are fixed above.
@@ -480,6 +500,7 @@ impl<'a> Frontier<'a> {
             transcription_steps,
             verified_steps,
             sound_steps,
+            registration_steps,
             upward_cache: RefCell::new(HashMap::new()),
         }
     }
@@ -685,12 +706,6 @@ impl<'a> Frontier<'a> {
         })
     }
 
-    /// Whether some verified result (transcription or not) concludes it.
-    fn concludes(&self, statement: &str) -> bool {
-        self.verified_conclusions.contains(statement)
-            || self.transcription_only_conclusions.contains(statement)
-    }
-
     fn defended(&self, statement: &str, refuted: &HashSet<&str>) -> bool {
         self.alternatives.get(statement).is_some_and(|recorded| {
             !recorded.is_empty() && recorded.iter().all(|rival| refuted.contains(rival))
@@ -722,6 +737,49 @@ impl<'a> Frontier<'a> {
         let mut via_transcription = BTreeMap::new();
         let mut established_via_strength = HashMap::new();
         let mut refuted_via_strength = HashMap::new();
+        // Python `registration_steps` / `active_registrations`: a registration
+        // concludes its weak version and fires only from a closed strong
+        // version; it is set aside when nothing concludes the strong version,
+        // when the strong version is an ungrounded cycle member, or when it
+        // lies in one bottom cycle with the weak version.
+        let strong_of = |argument: &'a Record| Self::premises(argument)[0];
+        let base: HashSet<&str> = self
+            .verified_conclusions
+            .iter()
+            .chain(&self.transcription_only_conclusions)
+            .copied()
+            .collect();
+        let mut active: HashSet<&str> = self
+            .registration_steps
+            .iter()
+            .map(|(id, _, _)| *id)
+            .collect();
+        let concluded_with = |active: &HashSet<&str>| -> HashSet<&'a str> {
+            let mut concluded = base.clone();
+            for (id, argument, _) in &self.registration_steps {
+                if active.contains(id) {
+                    concluded.insert(text(argument, "conclusion_statement_id"));
+                }
+            }
+            concluded
+        };
+        let mut concluded = loop {
+            let concluded = concluded_with(&active);
+            let unconcluded: Vec<&str> = self
+                .registration_steps
+                .iter()
+                .filter(|(id, argument, _)| {
+                    active.contains(id) && !concluded.contains(strong_of(argument))
+                })
+                .map(|(id, _, _)| *id)
+                .collect();
+            if unconcluded.is_empty() {
+                break concluded;
+            }
+            for id in unconcluded {
+                active.remove(id);
+            }
+        };
         loop {
             let mut changed = true;
             while changed {
@@ -789,7 +847,7 @@ impl<'a> Frontier<'a> {
                         if Self::premises(argument).iter().all(|premise| {
                             closed.contains(premise)
                                 || ungrounded.contains(premise)
-                                || !self.concludes(premise)
+                                || !concluded.contains(premise)
                         }) {
                             closed.insert(conclusion);
                             proved.insert(conclusion);
@@ -797,8 +855,34 @@ impl<'a> Frontier<'a> {
                             changed = true;
                         }
                     }
+                    for (id, argument, transcribed) in &self.registration_steps {
+                        let conclusion = text(argument, "conclusion_statement_id");
+                        // An already-closed weak version keeps its label.
+                        if *transcribed
+                            || !active.contains(id)
+                            || closed.contains(conclusion)
+                            || ungrounded.contains(conclusion)
+                        {
+                            continue;
+                        }
+                        if closed.contains(strong_of(argument)) {
+                            closed.insert(conclusion);
+                            proved.insert(conclusion);
+                            proving = true;
+                            changed = true;
+                        }
+                    }
                 }
-                for (result_id, argument) in &self.transcription_steps {
+                let mut transcription_steps: Vec<(&str, &Record)> =
+                    self.transcription_steps.clone();
+                transcription_steps.extend(
+                    self.registration_steps
+                        .iter()
+                        .filter(|(id, _, transcribed)| *transcribed && active.contains(id))
+                        .map(|(id, argument, _)| (*id, *argument)),
+                );
+                transcription_steps.sort_by_key(|(result_id, _)| *result_id);
+                for (result_id, argument) in &transcription_steps {
                     let conclusion = text(argument, "conclusion_statement_id");
                     if closed.contains(conclusion) || ungrounded.contains(conclusion) {
                         continue;
@@ -819,11 +903,25 @@ impl<'a> Frontier<'a> {
                     }
                 }
             }
-            // Conclusions still waiting: each could close only through another.
-            let pending: BTreeSet<&str> = self
-                .verified_conclusions
+            // A registration whose strong version can no longer close is set aside.
+            let stuck: Vec<&str> = self
+                .registration_steps
                 .iter()
-                .chain(&self.transcription_only_conclusions)
+                .filter(|(id, argument, _)| {
+                    active.contains(id) && ungrounded.contains(strong_of(argument))
+                })
+                .map(|(id, _, _)| *id)
+                .collect();
+            if !stuck.is_empty() {
+                for id in stuck {
+                    active.remove(id);
+                }
+                concluded = concluded_with(&active);
+                continue;
+            }
+            // Conclusions still waiting: each could close only through another.
+            let pending: BTreeSet<&str> = concluded
+                .iter()
                 .copied()
                 .filter(|s| !closed.contains(s) && !ungrounded.contains(s))
                 .collect();
@@ -832,11 +930,21 @@ impl<'a> Frontier<'a> {
             }
             let mut dependencies: HashMap<&str, BTreeSet<&str>> =
                 pending.iter().map(|s| (*s, BTreeSet::new())).collect();
-            let steps = self.sound_steps.iter().copied().chain(
-                self.transcription_steps
-                    .iter()
-                    .map(|(_, argument)| *argument),
-            );
+            let steps = self
+                .sound_steps
+                .iter()
+                .copied()
+                .chain(
+                    self.transcription_steps
+                        .iter()
+                        .map(|(_, argument)| *argument),
+                )
+                .chain(
+                    self.registration_steps
+                        .iter()
+                        .filter(|(id, _, _)| active.contains(id))
+                        .map(|(_, argument, _)| *argument),
+                );
             for argument in steps {
                 if let Some(entry) = dependencies.get_mut(text(argument, "conclusion_statement_id"))
                 {
@@ -861,11 +969,31 @@ impl<'a> Frontier<'a> {
                 })
                 .collect();
             // Bottom components: everything a member reaches reaches it back.
-            let bottom: Vec<&str> = pending
+            let bottom: HashSet<&str> = pending
                 .iter()
                 .copied()
                 .filter(|s| reach[s].iter().all(|other| reach[other].contains(s)))
                 .collect();
+            // A registration inside a bottom cycle with its strong version
+            // would close the weak version circularly: set it aside first.
+            let cyclic: Vec<&str> = self
+                .registration_steps
+                .iter()
+                .filter(|(id, argument, _)| {
+                    let weak = text(argument, "conclusion_statement_id");
+                    active.contains(id)
+                        && bottom.contains(weak)
+                        && reach[weak].contains(strong_of(argument))
+                })
+                .map(|(id, _, _)| *id)
+                .collect();
+            if !cyclic.is_empty() {
+                for id in cyclic {
+                    active.remove(id);
+                }
+                concluded = concluded_with(&active);
+                continue;
+            }
             ungrounded.extend(bottom);
         }
         // A proved conclusion is reported under rule (a), not (d).
@@ -905,7 +1033,7 @@ impl<'a> Frontier<'a> {
     /// Python `root_routes`: per-route open-premise leaves (#391).
     fn root_routes(&self, closure: &Closure<'a>) -> (Option<&'a str>, Vec<Route<'a>>) {
         // Route expansion follows registrations like any verified derivation;
-        // `closure` (which never uses them) still decides what is established.
+        // `closure` still decides what is closed and established.
         let mut results_by_argument: HashMap<&str, Vec<&str>> = HashMap::new();
         for result in &self.records.results {
             results_by_argument
@@ -3457,8 +3585,8 @@ mod tests {
         let fixture = strength_fixture(false);
         let records = fixture.records();
         let report = Frontier::new("ROOT", &records, &[]).report(false);
-        // Closure sets the registration aside: W is not proved from the open
-        // strong version, and the strength order propagates nothing.
+        // S is concluded by nothing (an open leaf): the registration never
+        // fires from it, and the strength order propagates nothing.
         assert!(report["closed_statements"].get("W").is_none());
         assert_eq!(report["established_statements"], json!([]));
         assert_eq!(report["strength_order"][0]["argument_id"], "ARG-REG");
@@ -3499,6 +3627,74 @@ mod tests {
         let records = plain.records();
         let report = Frontier::new("ROOT", &records, &[]).report(false);
         assert_eq!(report["closed_statements"]["W"], "proved");
+    }
+
+    #[test]
+    fn closed_strong_version_closes_its_weak_version_through_the_registration() {
+        // S is proved from the open leaf X (closed, not established); the
+        // registration composes with that proof and closes W by rule (a)
+        // (owner decision 2026-11-12), exactly as the plain argument would.
+        let mut fixture = strength_fixture(false);
+        fixture
+            .arguments
+            .extend(records(vec![argument("ARG-S", &["X"], "S")]));
+        fixture.results.extend(records(vec![
+            json!({"id": "RES-S", "argument_id": "ARG-S"}),
+        ]));
+        let records = fixture.records();
+        let report = Frontier::new("ROOT", &records, &[]).report(false);
+        assert_eq!(report["closed_statements"]["S"], "proved");
+        assert_eq!(report["closed_statements"]["W"], "proved");
+        assert_eq!(report["established_statements"], json!([]));
+        let mut plain = fixture;
+        plain.relations.clear();
+        let records = plain.records();
+        let plain = Frontier::new("ROOT", &records, &[]).report(false);
+        assert_eq!(report["closed_statements"], plain["closed_statements"]);
+    }
+
+    #[test]
+    fn registration_chains_and_refutations_follow_python() {
+        // BASE -> S1 by proof; S1 => S2 => W by registrations: all close.
+        // The second registration is also the refutation of R, an alternative
+        // to X; S1 has a premise-free proof, so it is established and the
+        // refutation counts.
+        let statements: Vec<Value> = ["ROOT", "S1", "S2", "W", "X", "R"]
+            .iter()
+            .map(|id| json!({"id": id}))
+            .collect();
+        let arguments = vec![
+            argument("ARG-ROOT", &["W", "X"], "ROOT"),
+            argument("ARG-S1", &[], "S1"),
+            argument("R1", &["S1"], "S2"),
+            argument("R2", &["S2"], "W"),
+        ];
+        let results: Vec<Value> = ["ARG-ROOT", "ARG-S1", "R1", "R2"]
+            .iter()
+            .map(|id| json!({"id": format!("RES-{id}"), "argument_id": id}))
+            .collect();
+        let mut first = relation("REL-1", "S1", "strengthens", "S2");
+        first["verification_result_id"] = json!("RES-R1");
+        let mut second = relation("REL-2", "S2", "strengthens", "W");
+        second["verification_result_id"] = json!("RES-R2");
+        let mut refutes = relation("REL-REF", "R2", "refutes", "R");
+        refutes["subject_kind"] = json!("argument");
+        let alternative = relation("REL-ALT", "R", "alternative_to", "X");
+        let fixture = Fixture {
+            statements: records(statements),
+            arguments: records(arguments),
+            results: records(results),
+            relations: records(vec![first, second, refutes, alternative]),
+            claims: Vec::new(),
+        };
+        let records = fixture.records();
+        let report = Frontier::new("ROOT", &records, &[]).report(false);
+        // S1 is established, so propagation closes S2 and W first.
+        assert_eq!(report["closed_statements"]["S1"], "proved");
+        assert_eq!(report["closed_statements"]["S2"], "via_strength");
+        assert_eq!(report["closed_statements"]["W"], "via_strength");
+        assert_eq!(report["refuted_statements"], json!(["R"]));
+        assert_eq!(report["closed_statements"]["X"], "alternatives_refuted");
     }
 
     #[test]

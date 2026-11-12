@@ -94,24 +94,47 @@ class StrengthPropagationTest(unittest.TestCase):
         self.assertFalse(entry["strong_refuted_via_strength"])
         self.assertIn("STRONG => WEAK (ARG-S-W) [weak established via strength]", corpus.format_frontier(rep))
 
-    def test_closed_but_unestablished_strong_does_not_close_weak(self) -> None:
+    def test_closed_but_unestablished_strong_closes_weak(self) -> None:
         # STRONG is proved from the open BASE: closed, not established. The
-        # registration argument does not close WEAK by rule (a).
+        # registration composes with that proof and closes WEAK by rule (a)
+        # (owner decision 2026-11-12); WEAK is not established.
         rep = report(relations=[strengthens("STRONG", "WEAK")])
-        self.assertIn("STRONG", rep["closed_statements"])
-        self.assertNotIn("WEAK", rep["closed_statements"])
-        self.assertIn("WEAK", [item["statement_id"] for item in rep["items"]])
+        self.assertEqual(rep["closed_statements"]["STRONG"], "proved")
+        self.assertEqual(rep["closed_statements"]["WEAK"], "proved")
+        self.assertEqual(rep["established_statements"], [])
         # Reach and route expansion follow the registration like any verified
         # derivation (2026-11-12): STRONG reaches the root, and the route
         # expands WEAK through STRONG to STRONG's own open premise BASE.
         self.assertIn("STRONG", rep["reaching_root_statements"])
         self.assertEqual(rep["routes"]["routes"][0]["open_premise_statement_ids"], ["BASE", "OTHER"])
-        # The same argument without the registration is an ordinary proof and
-        # closes WEAK by rule (a); the registration only keeps that closure out.
+        # Registering the argument changes nothing against the plain proof.
         plain = report()
-        self.assertIn("WEAK", plain["closed_statements"])
-        for field in ["reaching_root_statements", "routes"]:
+        for field in ["closed_statements", "established_statements", "reaching_root_statements", "routes"]:
             self.assertEqual(rep[field], plain[field], field)
+
+    def test_registration_never_fires_from_an_open_strong_leaf(self) -> None:
+        # STRONG is concluded by nothing: an ordinary step would close WEAK
+        # from that leaf, a registration does not.
+        arguments = [REGISTRATION, argument("ARG-ROOT", ["WEAK", "OTHER"], "ROOT")]
+        results = [result("ARG-S-W"), result("ARG-ROOT")]
+        rep = report(arguments=arguments, results=results, relations=[strengthens("STRONG", "WEAK")])
+        self.assertNotIn("WEAK", rep["closed_statements"])
+        self.assertIn("WEAK", [item["statement_id"] for item in rep["items"]])
+        self.assertEqual(rep["closed_statements"]["ROOT"], "proved")
+        plain = report(arguments=arguments, results=results)
+        self.assertEqual(plain["closed_statements"]["WEAK"], "proved")
+
+    def test_registration_backing_a_refutation_still_counts(self) -> None:
+        # The registration STRONG => WEAK is also the refutation of RIVAL;
+        # STRONG is established, so the refutation counts and defends OTHER.
+        relations = [
+            strengthens("STRONG", "WEAK"),
+            relation("argument", "ARG-S-W", "refutes", "ALT-OTHER"),
+            relation("statement", "ALT-OTHER", "alternative_to", "OTHER"),
+        ]
+        rep = report(with_floor("STRONG"), relations=relations)
+        self.assertIn("ALT-OTHER", rep["refuted_statements"])
+        self.assertEqual(rep["closed_statements"]["OTHER"], "alternatives_refuted")
 
     def test_excluded_registration_preserves_declared_display_over_heuristic(self) -> None:
         results = [{**entry, "transcription": "assembly"} if entry["id"] == "ARG-S-W" else entry for entry in RESULTS]
@@ -121,10 +144,10 @@ class StrengthPropagationTest(unittest.TestCase):
                                      root="ROOT", transcription=[flag])
         self.assertEqual(rep["transcription_results"]["ARG-S-W"], {"kind": "assembly", "declared": True})
         self.assertEqual(rep["transcription_flags"], [flag])
-        # Displaying the registration must not restore it as a rule-(d) proof:
-        # STRONG is closed from open BASE, so that would wrongly close WEAK.
-        self.assertIn("STRONG", rep["closed_statements"])
-        self.assertNotIn("WEAK", rep["closed_statements"])
+        # A transcription registration closes WEAK by rule (d) from the
+        # closed STRONG, never as a rule-(a) proof (invariant 16).
+        self.assertEqual(rep["closed_statements"]["STRONG"], "proved")
+        self.assertEqual(rep["closed_statements"]["WEAK"], "via_transcription")
         # A transcription registration is walked but, like every
         # transcription, never expands a route leaf.
         self.assertIn("STRONG", rep["reaching_root_statements"])
@@ -137,15 +160,20 @@ class StrengthPropagationTest(unittest.TestCase):
                 actual = report(results=results, relations=[strengthens("STRONG", "WEAK")])
                 baseline = report(relations=[strengthens("STRONG", "WEAK")])
                 self.assertEqual(actual["transcription_results"]["ARG-S-W"], {"kind": kind, "declared": True})
-                # Routes differ: a transcription registration expands nothing.
-                for field in ["closed_statements", "established_statements", "strength_order", "items", "reaching_root_statements"]:
+                # Routes differ: a transcription registration expands nothing;
+                # it closes WEAK by rule (d) rather than (a).
+                self.assertEqual(actual["closed_statements"]["WEAK"], "via_transcription")
+                self.assertEqual(baseline["closed_statements"]["WEAK"], "proved")
+                for field in ["established_statements", "strength_order", "reaching_root_statements"]:
                     self.assertEqual(actual[field], baseline[field], field)
                 established = report(with_floor("STRONG"), results=results, relations=[strengthens("STRONG", "WEAK")])
                 self.assertEqual(established["closed_statements"]["WEAK"], "via_strength")
 
     def test_sibling_cycle_closes_nothing(self) -> None:
         # The mandate-scope shape: STRONG is proved from WEAK (and OTHER),
-        # and WEAK is registered as entailed by STRONG. Neither closes the other.
+        # and WEAK is registered as entailed by STRONG. The registration lies in
+        # that cycle and is set aside: STRONG is proved from the open leaf WEAK,
+        # and WEAK stays open (circular support is no derivation).
         arguments = [REGISTRATION, argument("ARG-ROOT", ["STRONG"], "ROOT"), argument("ARG-STRONG", ["WEAK", "OTHER"], "STRONG")]
         rep = report(arguments=arguments, relations=[strengthens("STRONG", "WEAK")])
         self.assertIn("STRONG", rep["closed_statements"])
@@ -328,19 +356,6 @@ class StrengthCorpusTest(unittest.TestCase):
             (legacy_uuid("statement", "STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-STRONG"), legacy_uuid("statement", "STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-WEAK")),
             pairs,
         )
-
-    def test_no_registration_backs_a_refutation(self) -> None:
-        # Closure sets a registration's backing argument aside, so registering
-        # the argument of a `refutes` relation would silently drop a counted
-        # defeat. A refutation concludes the denial of a recorded rival, not a
-        # weaker version of its premise; the 2026-11-12 audit leaves such
-        # arguments unregistered (docs/notes/strength-order-audit.md).
-        relations = [record for _, record in corpus.load_dir("relations")]
-        results = [record for _, record in corpus.load_dir("results")]
-        arguments = [record for _, record in corpus.load_dir("arguments")]
-        registrations = {entry["argument_id"] for entry in corpus.strength_order(relations, results, arguments)}
-        refutations = {relation["subject_id"] for relation in relations if relation["predicate"] == "refutes"}
-        self.assertEqual(sorted(registrations & refutations), [])
 
 
 if __name__ == "__main__":

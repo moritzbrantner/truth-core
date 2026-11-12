@@ -4,16 +4,15 @@ Audit of the verified results whose argument has exactly one premise and no comm
 
 ## Criterion
 
-A pair is registered when, checked against the Lean types, the conclusion comes from the premise **in the same vocabulary only by weakening steps**: dropping a conjunct (also inside the same existential witness) or one direction of a biconditional; restricting a universal's domain, a relation to a subrelation, or instantiating a universal at the case the argument uses; generalizing an existential (a fixed case to some case, including a named-case disjunction); ∃∀ to ∀∃; ¬∀ over a narrower to ¬∀ over a wider condition; or a weaker relation on the same relata (< to ≤ or ≠). The converse must not be classically provable. Not registered:
+A pair is registered when, checked against the Lean types, the conclusion comes from the premise **in the same vocabulary only by weakening steps**: dropping a conjunct (also inside the same existential witness) or one direction of a biconditional; restricting a universal's domain, a relation to a subrelation, or instantiating a universal at the case the argument uses; generalizing an existential (a fixed case to some case, including a named-case disjunction); ∃∀ to ∀∃; ¬∀ over a narrower to ¬∀ over a wider condition; or a weaker relation on the same relata (< to ≤ or ≠). The converse must not be classically provable. A registration whose argument also backs a `refutes` relation is registered too: under the owner decision of 2026-11-12 its refutation still counts. Not registered:
 
 - equivalences (proved in both directions, definitional or intuitionistic restatements), recorded as `logically_equivalent_to` where both directions are verified;
-- the backing argument of a `refutes` relation: its conclusion denies a recorded rival, and since closure sets a registration's backing argument aside, registering it would drop a counted defeat (`test_no_registration_backs_a_refutation` enforces this);
 - a countercase step ∃x ¬P x to ¬∀x P x (or ∃x P x to ¬∀x ¬P x) on the same P, which is classically an equivalence, or a step to the denial of a different proposition;
 - instantiations of a logical law (excluded middle, non-contradiction) into new subject matter, and consequences that use further reasoning or add content.
 
-## Registered (42)
+## Registered (45)
 
-20 in the first pass, 22 after review (marked †).
+20 in the first pass, 22 after review (marked †), and 3 refutation arguments after the closure-rule decision (marked ‡; their refutations still count).
 
 | argument | strong version | weak version |
 |---|---|---|
@@ -59,14 +58,17 @@ A pair is registered when, checked against the Lean types, the conclusion comes 
 | † `70a8a65e` | A selected-world productive cause is a supplied Form and lacks esse in re | Disjunction of the explicit set, Form or mathematical selected-world productive/no-esse co |
 | † `573a635d` | A selected-world productive cause is a supplied set and lacks esse in re | Disjunction of the explicit set, Form or mathematical selected-world productive/no-esse co |
 | † `86d41602` | The separately specified METAPHYSICAL_GROUNDING_2 relation is asymmetric | For the specified bearer, Form and quality, exemplification and participation do not groun |
+| ‡ `61d691f0` | A being is being moved in a respect exactly when it is potentially so and that POTENCY_1,  | Negation of the Ash'arite rival moved without POTENCY_1 on the same MovedIn and InPotency: |
+| ‡ `ac0ca8ad` | A being is in POTENCY_1 in a respect exactly when it is able to be so and is not actually  | Negation of the Scotist rival act and POTENCY_1 in same respect on the same InAct and InPo |
+| ‡ `fe175c53` | There are epistemic reasons: some agent has an epistemic reason to believe some content | Global normative reason denial fails in the given profile |
 
-Effect on closure, computed against the tooling change (#1527) on the corpus at the change: reach, established and refuted sets are unchanged. Fourteen statements whose only closing proof was a backing argument from a closed but not established strong version are open again (they close by `via_strength` once the strong version is established), and three strong versions close because the support cycle through their weak versions no longer forms (distinct-cause principle, unique existence, strict order). The PR body has the computed `frontier-diff`.
+Effect on closure, computed against #1527 (which closes a weak version through its registration once the strong version is closed; owner decision 2026-11-12): reach, established and refuted sets are unchanged. Eleven weak versions that the plain one-premise arguments had closed from an **open strong leaf** are open again, because a registration never fires from an open leaf: in each case no verified result concludes the strong version (quinta via existential reading, secunda via relevant-respect reading, the measure-doctrine failure, the two NecessaryIndividual components, directed bearers, no internal adoption reason of any kind, motion not identical with alternative predicates, John 20 commission independence, object-of-thought affirmation, no single-world union cycle). Each closes once its strong version is closed. Three strong versions close because the support cycle through their weak versions no longer forms (distinct-cause principle, unique existence, strict order). The PR body has the computed `frontier-diff`.
 
 ## Not registered: equivalences (14)
 
 | argument | premise | conclusion | reason |
 |---|---|---|---|
-| `b7946610` | Necessary-being node, possibilist K reading: there is an actual root n that is God, the on | Necessary-being node, actualist K reading: there is an actual root n that is God, the one  | proved in both directions (the reverse is registered as strengthens a436e461); now recorded as logically_equivalent_to |
+| `b7946610` | Necessary-being node, possibilist K reading: there is an actual root n that is God, the on | Necessary-being node, actualist K reading: there is an actual root n that is God, the one  | proved in both directions; recorded as logically_equivalent_to, and the one-way strengthens a436e461 (actualist K to possibilist K) was removed |
 | `47a957e3` | An OPEN framework presentation of union well-foundedness: one world-independent map into a | The union of every admitted world's direct existential-support edges among fixed de re nec | converse of 1fb5fbc1; the pair is recorded as logically_equivalent_to |
 | `1fb5fbc1` | The union of every admitted world's direct existential-support edges among fixed de re nec | An OPEN framework presentation of union well-foundedness: one world-independent map into a | converse of 47a957e3; recorded as logically_equivalent_to |
 | `c5c9ff49` | Inside Lean logic, ¬. A logical theorem, not a philosophical independence thesis | Inside Lean logic, ∃ P: Prop, P. This asserts only a proof inhabiting some proposition; it | converse of ec000eff: two trivially true Lean-logic pilot statements, proved equivalent |
@@ -81,20 +83,11 @@ Effect on closure, computed against the tooling change (#1527) on the corpus at 
 | `f60704c5` | For each effect, any two incoming complete causes coincide | Each graph node has at most one immediate upstream predecessor | definitionally equal (left-uniqueness) |
 | `0ff50c59` | Some object is a source of the selected graph relation: it has no incoming cause-edge | The selected graph has at least one graph-relative source | definitionally equal (graph source) |
 
-## Not registered: refutation arguments (3)
-
-Each is a weakening by the steps above, but its argument is a counted or countable refutation.
+## Doubtful (7)
 
 | argument | premise | conclusion | reason |
 |---|---|---|---|
-| `61d691f0` | A being is being moved in a respect exactly when it is potentially so and that POTENCY_1,  | Negation of the Ash'arite rival moved without POTENCY_1 on the same MovedIn and InPotency: | backs the refutes relation against the Ash'arite rival (c2307406) |
-| `ac0ca8ad` | A being is in POTENCY_1 in a respect exactly when it is able to be so and is not actually  | Negation of the Scotist rival act and POTENCY_1 in same respect on the same InAct and InPo | backs the refutes relation against the Scotist rival (3ea60632) |
-| `fe175c53` | There are epistemic reasons: some agent has an epistemic reason to believe some content | Global normative reason denial fails in the given profile | backs the refutes relation against global normative nihilism (2fcbd634); registering it removed that counted refutation |
-
-## Doubtful, left unregistered (6)
-
-| argument | premise | conclusion | reason |
-|---|---|---|---|
+| `43fdb2ed` (existing registration `811c894c`) | Necessary-being node, possibilist K reading | NECESSARY_1-being node, tertia via reading | registered before this audit and left as it is: box existence of n gives 'n cannot not-be' with possibility read as the frame's diamond, and its note says the converse holds only classically, so the pair is classically equivalent, the shape this audit leaves unregistered for countercase steps |
 | `a161fd71` | One actual concrete root at w directly grounds every other actual concretum in the SAME se | Some actual concrete root of the selected grounding relation exists at w, and every actual | common direct grounding to uniqueness of the root: the conclusion adds uniqueness derived from coverage, new content |
 | `10d955b0` | Witness-local Fifth Way bundle | There is a first mover moved by none: something that moves another and is itself moved in  | from a composite Fifth Way bundle to the First Way conclusion only through the bundle's internal implications |
 | `c1ab1c3b` | Accidental mover coverage supplies a per-se mover | The finite mover fork supplies a per-se mover | from one branch's coverage to the soundness of a three-branch fork: a case-analysis consequence |

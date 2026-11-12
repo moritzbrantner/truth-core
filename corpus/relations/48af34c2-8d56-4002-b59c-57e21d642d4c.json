@@ -1,0 +1,11 @@
+{
+  "id": "48af34c2-8d56-4002-b59c-57e21d642d4c",
+  "label": "Epistemic reasons strengthen the exclusion of global normative nihilism",
+  "subject_kind": "statement",
+  "subject_id": "f56b2ee7-c69e-5e3b-85b0-e671d907ba58",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "b30a1925-dfa0-4ab2-bc3c-860982298091",
+  "verification_result_id": "0c32687e-0e0f-45a8-a85f-9c324bc10728",
+  "note": "Strength registration (2026-11-12 audit): Same reason relation: a reason of the epistemic kind gives that not every kind lacks reasons (existential generalization over kinds). The argument also refutes global normative nihilism."
+}
