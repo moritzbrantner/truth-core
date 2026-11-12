@@ -934,9 +934,15 @@ argument independently motivates that nothing intrinsic secures persistence, but
 its step to "a factor active at t" is concurrent actualization itself; against
 the extrinsic account it presupposes the premise. His circularity and essence
 arguments are independently justified only against intrinsic and necessity
-versions of inertia. So the immensity dispute now rests at `40a97664`: whether
-continuing in received act is an actualization at each moment. On the material
-read, neither side discharges its burden there; nothing is established. No
+versions of inertia. So the existential-inertia dispute with the extrinsic
+(Schmid) version now rests at `40a97664`: whether continuing in received act is
+an actualization at each moment. On the material read, neither side discharges
+its burden there. The persistence-power version satisfies the weak premise and
+rests at concurrence `d7f5a528` instead (control 2), answered provisionally by
+Feser's circularity argument. This route to immensity also rests on concurrence
+itself, for which no warrant is on file (q.105 a.5 unread). `GivesAt` is read
+strictly (esse-giving) throughout, and illumination is an analogy for the time
+profile only. Nothing is established. No
 other substantive objection was identified. The spatial-presence lead
 against omnipresence targets a reading of presence the bridge does not use. The
 lead that finite minds grasp quantitative infinities through finite definitions

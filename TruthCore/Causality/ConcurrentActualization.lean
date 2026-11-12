@@ -21,13 +21,18 @@ needs an untyped premise: remaining in act (continuing to exist) needs an
 actual actualizer at that time. This module types that premise and tests what
 it derives.
 
-**Concurrent actualization** (`ConcurrentActualization`, open). In every
+**Concurrent actualization** (`ConcurrentlyActualized`, open). In every
 history, whatever has its esse received in some principle (`EsseReceivedIn x z`,
 DEF-ESSE-RECEIVED-IN: a principle standing to it as receiving potency to
 received act) is, at every moment at which it is present, given being at that
-moment by something (`GivesAt v g x t`, the #1493 primitive). The antecedent is
-the act/potency notion "not its own being": its act of being is received in a
-potency. The adopted `InPotency x esse` is not used, because DEF-POTENCY makes
+moment by something (`GivesAt v g x t`, the #1493 primitive, on its STRICT
+esse-giving reading, definition `158301bc`; on the inclusive reading the premise
+would be weaker than the reply it types). The antecedent is the act/potency
+notion "not its own being": its act of being is received in a potency. It is
+slightly broader than Feser's "contingent thing" (received in *some* principle,
+not necessarily the thing's own essence), and says "present" rather than "in
+act" (connected by presence-in-act `140544c4`). The giver need not be God,
+unique, or non-temporal. The adopted `InPotency x esse` is not used, because DEF-POTENCY makes
 potency exclude act in the same respect (CanBe ∧ ¬ InAct), so "present, hence in
 act as to being, and in potency as to being" would be empty under
 presence-in-act (`140544c4`). The *strong* version (`ConcurrentlyActualizedByAnother`)
@@ -46,10 +51,13 @@ some factor causally induces it) and denies the second (persistence is no
 change). The typed premise does not split them: a primitive "actualized at t"
 would be an opaque atom that nothing constrains.
 
-*Examples.* The illumination of the air, which has no root in the air and lasts
-only while the sun acts (ST I q.104 a.1 co., read; claims `40aefb2e`,
-`da9c82ed`); a stone held aloft (a model of the time profile only: the stone's
-being held, not its being, is given). *Counterexamples the inertialist offers*:
+*Analogies, for the time profile only.* The illumination of the air, which has
+no root in the air and lasts only while the sun acts (ST I q.104 a.1 co., read;
+claims `40aefb2e`, `da9c82ed`); a stone held aloft (the stone's being held, not
+its being, is given). Light is not esse: carrying the profile from illumination
+to being presupposes the crux, as the rival's rock and relay do on the other
+side. No case is on file of a received-esse thing given being at a later moment
+either. *Counterexamples the inertialist offers*:
 the persisting rock, the water in the glass (Feser's own example, Schmid's S):
 on the inertialist account each persists through its earlier existence and the
 absence of any factor inducing its cessation, with nothing giving it being at
@@ -70,8 +78,11 @@ supplies the quantifier swap and the identification the derivation needs: from
 "some giver at t" to "this cause gives at t". It is the per se ordering of givers
 of being (a cause of the being of x acts on x whenever any giver of x's being
 does), after the first cause's concurrence in every action (q.105 a.5, unread
-here). The inertialist interpretation satisfies it (it constrains only moments
-at which something gives).
+here). The extrinsic inertialist interpretation satisfies it (it constrains only
+moments at which something gives); persistence-power inertia rejects it
+(`Control` part 2), answered provisionally by Feser's circularity argument
+(attempt `05bc2722`, section (b5)). It is the one premise here that links the
+tenseless `CausesIn` (CAUSING_AN_EFFECT_3) to time-indexed giving.
 
 **Weak sustaining reading** (`CausingAnothersBeingIsSustaining`). The
 sustaining reading `23e04ae5` restricted to causes distinct from their effect.
