@@ -87,7 +87,7 @@ The coordinator owns a bounded correction loop. Use the existing PR, case note a
 1. **Prepare the actual draft.** Give the challenger the proposed record/graph changes and the complete judgment, diagram and handoff text, with the evidence revision. Identify each consequential assertion by its existing record or a heading in the draft. Keep its assumptions, interpretation/scope, exact theorem/model/source locator, verification status and limitations together, either in the linked record or a compact draft table. An open interpretation bridge must remain visible in the summary. Run the existing reference and binding checks for changed records; a valid identifier does not establish that the cited definition or source is relevant.
 2. **Challenge the draft against the evidence.** A fresh reviewer reads the actual definitions, statements, proofs, model assignments and source passages needed for the claim, rather than accepting the author's or an earlier reviewer's verdict. Apply the [semantic checks](#independent-semantic-challenge) below. In particular, try existing countermodels against universal and only-if summaries; compare the original and strengthened assumption bundles; open definition links; and inspect the reasons for philosophical rankings or rival dismissals. A new deductive extension must have its own checked result to inherit formal-verification status. An unverified inference may remain explicitly provisional, with its reasoning reviewed and its dependencies retained.
 3. **Require substantiated findings.** Each objection identifies the exact draft assertion, evidence, concrete mismatch or missing inference, and the smallest necessary repair. Distinguish a demonstrated error from an unresolved philosophical objection; neither an unsupported criticism nor model agreement settles the question. A no-findings return is valid. Preserve the review's scope and evidence revision in the existing PR or handoff so a later wording change cannot silently inherit that review.
-4. **Repair within the cap.** The coordinator or originating researcher makes the repair; the challenger checks it. Default to at most two targeted review-and-repair passes after the initial challenge, while preserving the research continuation rule. Recheck only changed consequential assertions and affected dependencies; reuse unchanged evidence and reviews. At the cap, retain the accepted findings, withdraw or qualify the unsupported conclusions, record the disputed questions and affected uses as unresolved, and continue independent investigations. Routine repairs and philosophical disagreement do not require an owner decision. Escalate only an actual authorization, scope or budget choice needed to proceed.
+4. **Repair within the cap.** The originating researcher repairs its code and corpus records; the coordinator repairs its synthesis, and the challenger checks the affected assertions. Follow the [ownership contract](#worker-ownership-and-integration) for any transfer. Default to at most two targeted review-and-repair passes after the initial challenge, while preserving the research continuation rule. Recheck only changed consequential assertions and affected dependencies; reuse unchanged evidence and reviews. At the cap, retain the accepted findings, withdraw or qualify the unsupported conclusions, record the disputed questions and affected uses as unresolved, and continue independent investigations. Routine repairs and philosophical disagreement do not require an owner decision. Escalate only an actual authorization, scope or budget choice needed to proceed.
 5. **Publish the reviewed substance.** Use the reviewed wording and qualifications in the records, diagram and handoff. Do not add a stronger arrow, verdict or generalization while shortening the final report. A substantive change reopens review of that claim and its affected uses; formatting alone does not. An unresolved disposition reports the disagreement and withheld conclusion, rather than introducing a fresh resolution after the repair cap. A completed review accepts only the stated scope and status; it does not establish a premise or waive CI and merge requirements.
 
 Routine derivations with unchanged meanings reuse the existing checks and review evidence. The final check is on the changed consequential assertions and their synthesis, not a new full-repository review each cycle. Conditional exploration may continue while review is pending, with that limitation explicit.
@@ -241,6 +241,75 @@ A coarse GitHub issue names a coherent source objective and completion criteria;
 2. Proceed in source order. Record substantive readings and inferential steps, reuse existing identities, and preserve defensible alternatives. Skip filler; not one claim per sentence.
 3. Apply the atomic research/proof contract in `AGENTS.md`. Keep the same candidate and advance its locator after a partial batch; delete it only when its range is exhausted.
 
+## Worker ownership and integration
+
+Use the installed [work-loop](https://github.com/moritzbrantner/dotfiles/blob/main/skills/work-loop/SKILL.md)
+for ordinary execution and integration, with this repository's research policy
+as the specific exception: research priorities, two distinct targets and reserved
+challenge capacity, isolated warm clones, and continuation without a default
+work cap remain as defined here. Required semantic challenge is part of research;
+execution defaults neither presume a philosophical answer nor waive that review.
+
+- **One worker per slice through repair.** The originating researcher owns its
+  code and corpus changes, semantic repairs and CI repairs. The coordinator owns
+  priorities, shared instructions, synthesis and integration; it does not repeat
+  the research or edit alongside that worker. If replacement is necessary, end
+  the original ownership and transfer the current head, findings and check
+  evidence explicitly. Start unrelated slices with fresh workers; recursive
+  delegation requires explicit authorization. Handle structured status output
+  and short summaries in the coordinator rather than spawning agents for them.
+- **Scoped context.** Use `fork_turns="none"` or the runtime's isolated-context
+  equivalent; disclose an unavailable isolation mode once. Supply the
+  [research brief](../AGENTS.md#worker-brief-and-handoff), checkout/branch/base,
+  commit/push/PR authority, exact reuse and service setup, plus resolved policy
+  paths, `sourceRevision` and local exceptions. Read applicable files once;
+  resolve again when policy inputs change or a gate requires current evidence,
+  not merely at a handoff. Repairs receive the current PR/head, first failure,
+  relevant findings and existing check evidence, not the coordinator's transcript.
+- **Review the prepared outcome.** Complete the claim/type self-sweep and
+  [semantic challenge and repair](#final-outcome-review-and-repair), refresh
+  dependencies from `main` and regenerate shared files before requesting the
+  final required current-head PR review. Recheck consequential assertions
+  affected by that refresh. Later edits still require the applicable current-head
+  reviews and checks; reuse unaffected semantic reviews and local-check evidence.
+- **One owner per check.** Use focused diagnostics during development and the
+  required delivered-head CI. A coordinator handoff alone invalidates neither
+  check evidence nor a reviewed claim. Rerun affected checks for changed inputs,
+  concrete failures or a required gate; return failures to the same worker.
+  Keep evidence links and pending job identities in the existing handoff, not
+  full logs or duplicate verification runs.
+- **Coordinator-only integration and waiting.** Workers return their PR/head
+  and remain available for repairs; they do not merge, arm auto-merge, start
+  landing processes or register PR watches. The coordinator inspects the actual
+  diff, current head, mergeability, unresolved findings and checks, and uses
+  `workctl pr` / `workctl merge` under the current
+  [integration contract](https://github.com/moritzbrantner/dotfiles/blob/main/skills/work-loop/references/integration.md).
+  Every check on Truth Core's head must be green before merging, enqueueing or
+  arming auto-merge; required reviews and branch protection remain in force.
+  Use one runtime-owned wait: the T3 PR watch, or the supported `workctl` wait/land
+  outside T3, never both or a parallel local merge queue. Continue independent
+  research while external gates are pending.
+- **Retain prepared workspaces.** Designate reusable warm clones separately from
+  disposable task clones. Exclude retained clones from `workctl land --clone` cleanup,
+  which removes `target` after CI owns a PR and the clone after merge. Preserve
+  the Rust `truth` binary, compatible Lean build seed and prepared dependencies
+  under [worker startup](worker-startup.md); readiness remains distinct from
+  verification. Isolated ownership and existing heavy-job/service locks apply.
+
+### Observing the next ten investigations
+
+For the next ten scoped investigations after adopting this contract, keep the
+[work-loop efficiency record](https://github.com/moritzbrantner/dotfiles/blob/main/skills/work-loop/references/efficiency.md)
+in the existing coordinator handoff. Identify the investigation and parent issue,
+if any, and include blocked, unfinished, failed and no-result attempts. Record
+useful findings, worker/reviewer counts, repairs, elapsed waits, and available
+coordinator/child usage with source run IDs. Apply the guide's rules for partial
+coverage and counting each run once; shared overhead stays shared when attribution
+is unavailable. Missing telemetry is unknown, not zero. Compare like work and
+report quality outcomes before claiming savings. This is an observational sample,
+not a research cap, new tracker or delivery gate; the continuation policy governs
+work after the tenth observation too.
+
 ## PR boundary
 
 Ship one coherent verified argument cluster, a complete candidate range, or a reviewable part of it (about 5–10 claims at most, not a quota). Report premise effects and remaining gaps; persist substantive failed attempts before handoff. A PR boundary does not end the investigation.
@@ -251,7 +320,7 @@ When resources permit, start with **two concurrent investigations of distinct pr
 
 Before launch, record both target propositions, their parent questions and their root-route or named connection purposes, and explain why neither investigation requires the other's result. Shared stable definitions are permitted. Disjoint files, separate lemmas or two subquestions about the same disputed modal premise do not satisfy this research-breadth requirement: cycle 3's origin-tolerance and F2′-versus-F2 investigations were both within the same modal family. For example, a modal-origin investigation and an epistemic-warrant investigation with an explicit root connection plan can qualify; an origin countermodel and another arrival tested on that countermodel do not.
 
-The coordinator handles bounded repairs and integration with the challenger while preserving the two distinct research targets. A substantial repair may become a research assignment, but does not silently consume both research slots with one family. Record a reason for an explicit owner-focused exception, actual resource/dependency constraints or lack of a second useful target; do not invent peripheral work to fill a slot. If the second target needs a proposed bridge rather than an existing route, name the bridge and blocker and report the work as unconnected until that bridge is established.
+The coordinator routes bounded repairs to the originating researcher and owns synthesis and integration with the challenger while preserving the two distinct research targets. A substantial repair may become a research assignment, but does not silently consume both research slots with one family. Record a reason for an explicit owner-focused exception, actual resource/dependency constraints or lack of a second useful target; do not invent peripheral work to fill a slot. If the second target needs a proposed bridge rather than an existing route, name the bridge and blocker and report the work as unconnected until that bridge is established.
 
 Freeze a shared semantic baseline in the briefs: revision, selected definitions/senses and theorem dependencies. Shared definitions and bridges belong to explicit dependency tasks with a designated owner; the coordinator owns shared integration. If a definition changes, stop reusing affected semantic or verification evidence for the changed baseline until the meanings and dependencies are reconciled. Independent work on unchanged dependencies can continue.
 
