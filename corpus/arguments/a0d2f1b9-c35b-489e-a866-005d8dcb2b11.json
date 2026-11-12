@@ -8,7 +8,7 @@
   "inference_ids": [
     "8be292b7-c6a2-43ec-8667-e5e832e373ab"
   ],
-  "meaning": "Strength order (linear time, any real clock): the gluing premise over coinitial populated descents gives it over spaced populated descents. No premise is established.",
+  "meaning": "Strength order (linear time, any real clock): the gluing premise over coinitial populated descents gives it over spaced populated descents. Strictness of this order alone is not checked: control 2 separates only the conjunction (both spaced premises hold for every register frame while the two coinitial premises do not both hold). No premise is established.",
   "definition_ids": [
     "0e65cf83-c42e-4177-ae4c-7c1a12b0fd32",
     "375676b0-a295-4a17-a9e4-3db23319d517",

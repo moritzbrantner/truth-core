@@ -147,7 +147,10 @@ registers satisfy spaced local pieces but not spaced patchwork, and not every
 populated past is metrically finite;
 (2) in `openBelow` (positive real times), for every register frame both spaced
 premises hold and the coinitial local-pieces and patchwork premises do not both
-hold; every populated past is metrically finite and not every one is begun; beginningless
+hold; with silent registers the coinitial local-pieces premise fails (so spaced
+local pieces are strictly weaker than coinitial ones, while for patchwork only
+the conjunction is separated); every populated past is metrically finite and
+not every one is begun; beginningless
 populated pasts have coinitial descents; the earlier-grounded possibility
 premise holds; and begun coming-to-be is not possible;
 (3) in `firstMoment` (non-negative real times, nothing present at `0`), for
@@ -165,6 +168,7 @@ def Certificate : Prop :=
       SpacedReaperPatchwork R openBelow all posClock true ∧
       ¬ (CoinitialReaperPiecesPossible R openBelow all true ∧
         CoinitialReaperPatchwork R openBelow all true)) ∧
+    ¬ CoinitialReaperPiecesPossible (quietFrame Bool PosReal) openBelow all true ∧
     PopulatedPastsMetricallyFinite openBelow all posClock true ∧
     ¬ PopulatedPastsBegun openBelow all true ∧
     BeginninglessPastsCountablyCoinitial openBelow all true ∧

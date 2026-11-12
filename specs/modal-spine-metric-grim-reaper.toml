@@ -24,7 +24,7 @@ definitions = ["Metrically finite populated pasts in every accessible history", 
 [[statement]]
 id = "Independence, nonvacuity and reach controls for the metric Grim Reaper premises"
 lean = "Control.Certificate"
-paraphrase = "Closed mathematical controls, every individual counted concrete. (1) The beginningless integer history of GrimReaperPatchwork.Control.pivot with the identity clock: silent registers satisfy spaced patchwork but not spaced local pieces; pivot registers satisfy spaced local pieces but not spaced patchwork; not every populated past is metrically finite. (2) An open-below finite history: times the positive reals with the identity clock, worlds booleans, individuals integers, every individual existing and present at every moment of world true, nothing existing at world false. For every register frame both spaced premises hold while the coinitial local-pieces and patchwork premises do not both hold; every populated past is metrically finite and not every one is begun; beginningless populated pasts have coinitial descents; the earlier-grounded possibility premise holds (each individual n grounded by n - 1, present earlier); and begun coming-to-be is not possible. (3) Continuous time with a first moment: times the non-negative reals with the identity clock, one individual existing at world true and present there at every moment after 0, nothing at 0, nothing existing at world false. For every register frame both spaced premises hold while the unrestricted local-pieces and patchwork premises do not both hold; every populated past is metrically finite and begun, not every one founded; and begun coming-to-be is possible. These are statements about these interpretations only."
+paraphrase = "Closed mathematical controls, every individual counted concrete. (1) The beginningless integer history of GrimReaperPatchwork.Control.pivot with the identity clock: silent registers satisfy spaced patchwork but not spaced local pieces; pivot registers satisfy spaced local pieces but not spaced patchwork; not every populated past is metrically finite. (2) An open-below finite history: times the positive reals with the identity clock, worlds booleans, individuals integers, every individual existing and present at every moment of world true, nothing existing at world false. For every register frame both spaced premises hold while the coinitial local-pieces and patchwork premises do not both hold; with silent registers the coinitial local-pieces premise fails; every populated past is metrically finite and not every one is begun; beginningless populated pasts have coinitial descents; the earlier-grounded possibility premise holds (each individual n grounded by n - 1, present earlier); and begun coming-to-be is not possible. (3) Continuous time with a first moment: times the non-negative reals with the identity clock, one individual existing at world true and present there at every moment after 0, nothing at 0, nothing existing at world false. For every register frame both spaced premises hold while the unrestricted local-pieces and patchwork premises do not both hold; every populated past is metrically finite and begun, not every one founded; and begun coming-to-be is possible. These are statements about these interpretations only."
 definitions = ["Local Reaper pieces co-possible along every spaced populated descent", "Reaper patchwork along every spaced populated descent", "Metrically finite populated pasts in every accessible history", "Local Reaper pieces co-possible along every coinitial populated descent", "Reaper patchwork along every coinitial populated descent", "Local Reaper pieces co-possible along every populated descent", "Reaper patchwork along every populated descent", "Beginningless populated pasts have a coinitial descent", "Begun populated pasts in every accessible history", "Founded populated pasts in every accessible history", "Possibly, a populated history whose contingent things have earlier grounds", "History of begun coming-to-be", "DEF-KANT-MODAL-CONTINGENCY"]
 
 [[argument]]
@@ -43,7 +43,7 @@ premises = ["Along every coinitial populated descent, adjacent Grim Reaper piece
 conclusion = "Along every spaced populated descent, adjacent Grim Reaper pieces are co-possible"
 axioms = ["propext", "Classical.choice", "Quot.sound"]
 rule = "In linear time a spaced descent is coinitial: its clock readings fall below every real number"
-meaning = "Strength order (linear time, any real clock): the local-pieces premise over coinitial populated descents gives it over spaced populated descents, because a descent whose slots last at least delta runs below every earlier moment. The converse fails: in the positive reals the spaced premises hold for every register frame while the coinitial premises do not both hold (MetricGrimReaper control 2). No premise is established."
+meaning = "Strength order (linear time, any real clock): the local-pieces premise over coinitial populated descents gives it over spaced populated descents, because a descent whose slots last at least delta runs below every earlier moment. The converse fails: in the positive reals spaced local pieces hold for every register frame, while with silent registers coinitial local pieces fail (MetricGrimReaper control 2). No premise is established."
 
 [[argument]]
 id = "Coinitial Grim Reaper patchwork gives spaced Grim Reaper patchwork"
@@ -52,7 +52,7 @@ premises = ["Co-possible Grim Reaper pieces along a coinitial populated descent 
 conclusion = "Co-possible Grim Reaper pieces along a spaced populated descent glue into one world"
 axioms = ["propext", "Classical.choice", "Quot.sound"]
 rule = "In linear time a spaced descent is coinitial: its clock readings fall below every real number"
-meaning = "Strength order (linear time, any real clock): the gluing premise over coinitial populated descents gives it over spaced populated descents. No premise is established."
+meaning = "Strength order (linear time, any real clock): the gluing premise over coinitial populated descents gives it over spaced populated descents. Strictness of this order alone is not checked: control 2 separates only the conjunction (both spaced premises hold for every register frame while the two coinitial premises do not both hold). No premise is established."
 
 [[argument]]
 id = "Begun populated pasts give metrically finite populated pasts"
@@ -70,7 +70,7 @@ premises = []
 conclusion = "Independence, nonvacuity and reach controls for the metric Grim Reaper premises"
 axioms = ["propext", "Classical.choice", "Quot.sound"]
 rule = "Explicit interpretations with integer, positive real and non-negative real times and identity clocks, checked with the metric lemmas, the main theorem, and the GrimReaperPatchwork theorems for the negative cases"
-meaning = "The spaced local-pieces and patchwork premises are independent and neither alone excludes a metrically infinite populated past (control 1). Both premises hold, for every register frame, in a populated past that is open below and metrically finite (control 2) and in continuous time with a first moment (control 3), so the metric version excludes neither shape, unlike the coinitial version (which control 2 refutes for every frame) and the unrestricted version (which control 3 refutes for every frame). Control 2 also shows that the metric conclusion, together with the earlier-grounded possibility premise A3 prime b, does not give possible begun coming-to-be (A3 prime w): a further bridge from metrically finite to begun pasts would be needed. Control 3 shows the premises, the conclusion, begun populated pasts and possible begun coming-to-be together in continuous time. Model claims concern these interpretations only."
+meaning = "The spaced local-pieces and patchwork premises are independent and neither alone excludes a metrically infinite populated past (control 1). Both premises hold, for every register frame, in a populated past that is open below and metrically finite (control 2) and in continuous time with a first moment (control 3), so the metric version excludes neither shape, unlike the coinitial version (which control 2 refutes for every frame) and the unrestricted version (which control 3 refutes for every frame). With silent registers, control 2 also separates spaced from coinitial local pieces individually; for patchwork only the conjunction is separated. Control 2 also shows that the metric conclusion, together with the earlier-grounded possibility premise A3 prime b, does not give possible begun coming-to-be (A3 prime w): a further bridge from metrically finite to begun pasts would be needed. Control 3 shows the premises, the conclusion, begun populated pasts and possible begun coming-to-be together in continuous time. Model claims concern these interpretations only."
 
 [[relation]]
 id = "Coinitial Grim Reaper pieces strengthen spaced Grim Reaper pieces"
@@ -80,7 +80,7 @@ predicate = "strengthens"
 object_kind = "statement"
 object_id = "Along every spaced populated descent, adjacent Grim Reaper pieces are co-possible"
 verification_result_id = "Coinitial Grim Reaper pieces give spaced Grim Reaper pieces"
-note = "Linear time, any real clock: a spaced descent is coinitial. Strict: MetricGrimReaper control 2 (positive reals) satisfies the spaced premises for every register frame and not both coinitial premises."
+note = "Linear time, any real clock: a spaced descent is coinitial. Strict: in MetricGrimReaper control 2 (positive reals) spaced local pieces hold for every register frame, while with silent registers coinitial local pieces fail."
 
 [[relation]]
 id = "Coinitial Grim Reaper patchwork strengthens spaced Grim Reaper patchwork"
@@ -90,7 +90,7 @@ predicate = "strengthens"
 object_kind = "statement"
 object_id = "Co-possible Grim Reaper pieces along a spaced populated descent glue into one world"
 verification_result_id = "Coinitial Grim Reaper patchwork gives spaced Grim Reaper patchwork"
-note = "Linear time, any real clock: a spaced descent is coinitial."
+note = "Linear time, any real clock: a spaced descent is coinitial. Strictness of this order alone is not checked; control 2 separates only the conjunction of the two coinitial premises from that of the two spaced ones."
 
 [[relation]]
 id = "Begun populated pasts strengthen metrically finite populated pasts"

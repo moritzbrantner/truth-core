@@ -7,5 +7,5 @@
   "object_kind": "statement",
   "object_id": "37d4e072-212b-4b99-a4ff-bf10d94d5a52",
   "verification_result_id": "535d5cb8-19d4-46f7-b813-c2e8d050fa6c",
-  "note": "Linear time, any real clock: a spaced descent is coinitial. Strict: MetricGrimReaper control 2 (positive reals) satisfies the spaced premises for every register frame and not both coinitial premises."
+  "note": "Linear time, any real clock: a spaced descent is coinitial. Strict: in MetricGrimReaper control 2 (positive reals) spaced local pieces hold for every register frame, while with silent registers coinitial local pieces fail."
 }

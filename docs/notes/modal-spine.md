@@ -138,7 +138,7 @@ A real time clock (strictly increasing along the order) measures durations;
 
 | | Premises | Theorem | Status |
 |---|---|---|---|
-| Metrically finite populated pasts | Spaced local pieces, spaced patchwork (linear time, one real clock for the frame) | `MetricGrimReaper.populatedPastsMetricallyFiniteOfPatchwork` | derivation; both OPEN. No countable-coinitiality premise: a metrically infinite past has a spaced descent by a theorem. The spaced premises are strictly weaker than the coinitial ones, and the conclusion strictly weaker than begun populated pasts (`spacedPiecesOfCoinitial`, `spacedPatchworkOfCoinitial`, `populatedPastsMetricallyFiniteOfBegun`; strictness by `MetricGrimReaper.controls` 2) |
+| Metrically finite populated pasts | Spaced local pieces, spaced patchwork (linear time, one real clock for the frame) | `MetricGrimReaper.populatedPastsMetricallyFiniteOfPatchwork` | derivation; both OPEN. No countable-coinitiality premise: a metrically infinite past has a spaced descent by a theorem. The spaced premises are weaker than the coinitial ones (strictly for local pieces and for the two premises jointly; patchwork alone not checked), and the conclusion strictly weaker than begun populated pasts (`spacedPiecesOfCoinitial`, `spacedPatchworkOfCoinitial`, `populatedPastsMetricallyFiniteOfBegun`; strictness by `MetricGrimReaper.controls` 2) |
 
 Reach: the conclusion is *no populated past is metrically infinite*, not *every
 populated past is begun*. For every register frame the spaced premises hold in a

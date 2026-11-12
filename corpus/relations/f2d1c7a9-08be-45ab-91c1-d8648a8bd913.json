@@ -7,5 +7,5 @@
   "object_kind": "statement",
   "object_id": "bb7b476c-4774-4860-a31f-f068aa362f18",
   "verification_result_id": "296c3904-f46f-4ab0-b78e-3e160b031c8b",
-  "note": "Linear time, any real clock: a spaced descent is coinitial."
+  "note": "Linear time, any real clock: a spaced descent is coinitial. Strictness of this order alone is not checked; control 2 separates only the conjunction of the two coinitial premises from that of the two spaced ones."
 }

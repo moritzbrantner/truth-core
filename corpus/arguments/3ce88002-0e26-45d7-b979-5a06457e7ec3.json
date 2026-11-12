@@ -8,7 +8,7 @@
   "inference_ids": [
     "b8dcbd4b-ebd4-4e57-b550-33de6a7c0a53"
   ],
-  "meaning": "Strength order (linear time, any real clock): the local-pieces premise over coinitial populated descents gives it over spaced populated descents, because a descent whose slots last at least delta runs below every earlier moment. The converse fails: in the positive reals the spaced premises hold for every register frame while the coinitial premises do not both hold (MetricGrimReaper control 2). No premise is established.",
+  "meaning": "Strength order (linear time, any real clock): the local-pieces premise over coinitial populated descents gives it over spaced populated descents, because a descent whose slots last at least delta runs below every earlier moment. The converse fails: in the positive reals spaced local pieces hold for every register frame, while with silent registers coinitial local pieces fail (MetricGrimReaper control 2). No premise is established.",
   "definition_ids": [
     "375676b0-a295-4a17-a9e4-3db23319d517",
     "419d2bf5-8cea-47a4-bf64-3058a1f2489b",

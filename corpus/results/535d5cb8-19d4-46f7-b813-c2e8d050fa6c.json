@@ -7,5 +7,5 @@
   "theorem": "TruthCore.Results.Causality.MetricGrimReaper.spacedPiecesOfCoinitial",
   "comparator_config": "results/535d5cb8-19d4-46f7-b813-c2e8d050fa6c/comparator.json",
   "status": "solution-present",
-  "description": "Strength order (linear time, any real clock): the local-pieces premise over coinitial populated descents gives it over spaced populated descents, because a descent whose slots last at least delta runs below every earlier moment. The converse fails: in the positive reals the spaced premises hold for every register frame while the coinitial premises do not both hold (MetricGrimReaper control 2). No premise is established."
+  "description": "Strength order (linear time, any real clock): the local-pieces premise over coinitial populated descents gives it over spaced populated descents, because a descent whose slots last at least delta runs below every earlier moment. The converse fails: in the positive reals spaced local pieces hold for every register frame, while with silent registers coinitial local pieces fail (MetricGrimReaper control 2). No premise is established."
 }

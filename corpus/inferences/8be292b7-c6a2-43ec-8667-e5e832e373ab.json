@@ -6,7 +6,7 @@
   ],
   "output_statement_id": "bb7b476c-4774-4860-a31f-f068aa362f18",
   "rule": "In linear time a spaced descent is coinitial: its clock readings fall below every real number",
-  "meaning": "Strength order (linear time, any real clock): the gluing premise over coinitial populated descents gives it over spaced populated descents. No premise is established.",
+  "meaning": "Strength order (linear time, any real clock): the gluing premise over coinitial populated descents gives it over spaced populated descents. Strictness of this order alone is not checked: control 2 separates only the conjunction (both spaced premises hold for every register frame while the two coinitial premises do not both hold). No premise is established.",
   "assumption_statement_ids": [],
   "discharged_statement_ids": []
 }

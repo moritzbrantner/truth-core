@@ -233,7 +233,8 @@ theorem controls : TruthCore.Causality.MetricGrimReaper.Control.Certificate := b
       (TruthCore.Results.Causality.GrimReaperPatchwork.coinitialPiecesOfPieces _ _ _ _
         pivotPiecesPossible)
   refine ⟨⟨hQuietPatch, ?_, hPivotPieces, ?_, pivotNotFinite⟩,
-    ⟨?_, fun _ _ _ t _ _ _ => posFinite t, openBelowNotBegun, openBelowCoinitial, ?_, ?_⟩,
+    ⟨?_, ?_, fun _ _ _ t _ _ _ => posFinite t, openBelowNotBegun, openBelowCoinitial,
+      ?_, ?_⟩,
     ⟨?_, fun _ _ _ t _ _ _ => nnFinite t, firstMomentBegun, firstMomentNotFounded, ?_⟩⟩
   · intro hPieces
     exact pivotNotFinite (populatedPastsMetricallyFiniteOfPatchwork _ _ _ _ _
@@ -251,6 +252,12 @@ theorem controls : TruthCore.Causality.MetricGrimReaper.Control.Certificate := b
       exact openBelowNotBegun
         (TruthCore.Results.Causality.GrimReaperPatchwork.populatedPastsBegunOfPatchwork
           R openBelow all true hPieces hPatch openBelowCoinitial)
+  · intro hPieces
+    have hPop : PopulatedAt openBelow all true (halving ⟨1, one_pos⟩ 0) :=
+      ⟨0, trivial, openBelowContingent 0, rfl⟩
+    obtain ⟨_, _, hp, _⟩ := hPieces true trivial _ (halvingDescent _)
+      (halvingCoinitial _) hPop 0
+    exact quietNoPiece _ _ 0 hp
   · refine ⟨true, trivial, ⟨0, ⟨1, one_pos⟩, trivial, openBelowContingent 0, rfl⟩, ?_, ?_⟩
     · intro x _ _ _
       exact ⟨x - 1, trivial, rfl, rfl, rfl⟩
