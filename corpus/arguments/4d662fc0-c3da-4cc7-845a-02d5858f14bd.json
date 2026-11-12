@@ -1,0 +1,36 @@
+{
+  "id": "4d662fc0-c3da-4cc7-845a-02d5858f14bd",
+  "label": "Coverage, from reflexive access, no contingent support and no novel edge",
+  "premise_statement_ids": [
+    "2b20b5af-d653-56ba-8001-35903fb3d1ea",
+    "dd41c165-129a-59d3-84ce-bd13c0944901",
+    "bd983df2-058a-5503-89a1-bbebe87f958b"
+  ],
+  "conclusion_statement_id": "df42581f-5fff-4b5f-8b40-6e16d2b890f2",
+  "inference_ids": [
+    "361b657c-eaad-4b51-89d3-c46475b095d3"
+  ],
+  "meaning": "Coverage is no stronger than the package of reflexive access at w, no contingent concrete support (J1) and the one-way no-novel-edge condition on the concrete subtype: the same supporter covers the target at w. It is strictly weaker: in the rooted-pair control coverage holds while the no-novel-edge condition fails. Conditional consequence only.",
+  "definition_ids": [
+    "7266f604-f0bc-4aac-89b9-0f4cc7be5f33",
+    "735d59a6-61de-5e43-bcf6-4ff64bceb90d",
+    "9146789d-5b36-572f-baa1-7eef28967793",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "47033c70-0aca-565d-9473-8399577fea54",
+    "a0763d0d-cd6b-5c08-a33a-f53ab8edd941",
+    "b242943a-34cc-582d-8c38-c1203b9d2c91"
+  ],
+  "disambiguation_ids": [
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "5d15d8f2-1080-53c9-886f-cee2a4ff23a9"
+  ],
+  "sense_bridges": [
+    {
+      "term": "WORLD_RELATIVE_EXISTENCE_METAPHYSICAL_ESSE_NECESSITY",
+      "from": "2e064a7b-b29f-4f0b-8978-782674012d86",
+      "to": "57356a7a-ed0a-478f-abfc-2d47dd631135",
+      "statement_id": "2b20b5af-d653-56ba-8001-35903fb3d1ea"
+    }
+  ]
+}

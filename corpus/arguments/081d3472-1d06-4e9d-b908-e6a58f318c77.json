@@ -1,0 +1,15 @@
+{
+  "id": "081d3472-1d06-4e9d-b908-e6a58f318c77",
+  "label": "Rotating triangle, rooted pair and uncovered edge controls, checked",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "c94efe16-bdf8-40a1-938b-af48a0db6f8c",
+  "inference_ids": [
+    "c1d50ff5-0e19-464c-9b20-5ce2e35fbb09"
+  ],
+  "meaning": "Controls for J2 and its rival. The rotating triangle shows that well-founded support at every world together with the negation of the mutual-support rival yields neither J2 nor the join's endpoint: a three-step cross-world cycle survives. The rooted pair shows that the mutual-support rival is compatible with the join's endpoint, every other premise of NecessaryConcreteUnderived.checks and coverage, so J2, the no-novel-edge condition and same-supporter presence are each stronger than the endpoint needs. The uncovered edge shows that J1 and J2 with the other premises imply neither coverage nor the no-novel-edge condition. Model-witnessed only; no interpretation is claimed metaphysically possible. Excluded middle is supplied by Lean's classical axioms.",
+  "definition_ids": [
+    "08dbac03-1f78-4db0-a112-c831357704c8",
+    "7266f604-f0bc-4aac-89b9-0f4cc7be5f33",
+    "d39970e4-1ec3-4977-9a65-a36aa90fe5d6"
+  ]
+}

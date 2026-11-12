@@ -36,6 +36,7 @@
     "83264cf5-01fe-52fc-9a00-eeb024f6496e"
   ],
   "strong_version_needed": {
-    "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21": "Well-foundedness, not mere asymmetry, is needed: the proof extracts an actual root (a minimal element) of the selected relation, which asymmetry does not supply (an infinite descending chain of actual concreta is asymmetric and rootless). Recorded when ACTUAL-GROUNDING-ASYMMETRIC-FROM-WF registered the strength order (round 2 grounding)."
+    "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21": "Well-foundedness, not mere asymmetry, is needed: the proof extracts an actual root (a minimal element) of the selected relation, which asymmetry does not supply (an infinite descending chain of actual concreta is asymmetric and rootless). Recorded when ACTUAL-GROUNDING-ASYMMETRIC-FROM-WF registered the strength order (round 2 grounding).",
+    "1f61f12c-2b5c-5871-bf56-03c65844ae30": "Same-supporter presence, not coverage, is needed: the conclusion NecessarilyUnderived excludes supporters among all candidates, including non-concrete ones, while coverage speaks only of concrete supporters and targets; the proof keeps the very supporter at w and then makes it concrete with ActualSupportersConcrete. Recorded when the NecessarySupportCoverage batch registered presence strengthens coverage."
   }
 }
