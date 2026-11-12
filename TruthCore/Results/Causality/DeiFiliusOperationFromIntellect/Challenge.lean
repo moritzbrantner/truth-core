@@ -40,6 +40,22 @@ theorem nineOperateOfIntellectualPureActOperates {Being Respect : Type}
       HasIntellect HasWill Operates := by
   sorry
 
+/-- Whatever has the nine has an immanent operation, from the three capacity
+premises: a being with the nine has intellect (the eighth) and is pure act (the
+sixth, altogether immutability), so `intellectualPureActOperatesFromCapacity`
+applies to it. -/
+theorem nineOperateFromCapacity {Being Respect : Type}
+    (InAct GoodIn InPotency CanBe : Being → Respect → Prop)
+    (CausesIn : Being → Being → Respect → Prop) (esse understanding : Respect)
+    (IsGod Composite Infinite Eternal HasIntellect HasWill : Being → Prop)
+    (Operates : Being → Prop)
+    (hCapacity : IntellectIsCapacityToUnderstand HasIntellect CanBe understanding)
+    (hExercise : UnderstandingCapacityExercisedOrInPotency InAct InPotency CanBe understanding)
+    (hImmanent : ExercisedUnderstandingIsImmanentOperation InAct CanBe understanding Operates) :
+    NineOperate InAct GoodIn InPotency CausesIn esse IsGod Composite Infinite Eternal
+      HasIntellect HasWill Operates := by
+  sorry
+
 /-- Strength order: every pure act operates, so every pure act with intellect
 operates. -/
 theorem intellectualPureActOperatesOfPureActOperates {Being Respect : Type}

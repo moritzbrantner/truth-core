@@ -923,6 +923,63 @@ one, since it is restricted to beings with intellect (the nine include no
 "first"). That is attributed motivation; the premise is not established.
 Unread lead: Aristotle, *Met.* XII.7 1072b26-30.
 
+**The weak operation premise derived (2026-11-12,
+`DeiFiliusOperationFromIntellect`, spec
+`specs/dei-filius-operation-from-intellect.toml`, attempt `2663e73f`).**
+`8f93d9cc` is no longer bare on the route: `nineOperateFromCapacity` derives it
+from three open premises that do not mention life, time or being unmoved.
+(1) Whatever has intellect has the capacity to understand (`9c2a5dfe`;
+`CanBe`, POTENCY_3, `DEF-CAPACITY-TO-BE`, at the respect of understanding,
+definition `39f50105`). (2) Whatever has that capacity is actually understanding
+or in potency to understanding (`4728d5f4`), with the nine's own `InAct` and
+`InPotency`. (3) An exercised capacity to understand is an immanent operation
+(`021aaa19`, q.18 a.3 ad 1). A being with the nine has intellect and is pure act,
+so it is not in potency to understanding, so it understands, so it operates.
+The intellect-restricted middle version, every pure act with intellect operates
+(`29d1f5f5`), is registered between `STMT-PURE-ACT-OPERATES` and `8f93d9cc` in
+the strength order; both steps are strict in the controls. The controls also
+give an omission model for each premise (a being with the nine that does not
+operate) and nonvacuity. In the nonvacuity model the being with the nine operates
+and is neither LIVING_1 nor LIVING_2, so the derivation reaches operation only and
+does not carry life back in. Computed: one support alternative added
+(`8f93d9cc` from the three), `8f93d9cc` moves bare to closed, three bare
+premises added; open premises reaching the root 446 to 448.
+
+Where the weight now rests, stated plainly. Premise (1) is close to the meaning
+of HAS_INTELLECT_1 (intellectual cognition, whose exercise is understanding).
+Premise (3) is a classification: definition `7acc985a` already names
+understanding as an example of immanent operation. Premise (2) carries the
+act/potency content. Under the adopted sense of potency (capable and not
+actually), (2) is excluded middle for "actually understanding" at a capable
+being (`exercisedOrInPotencyOfDecidable`, not registered). In that sense a pure
+act is a being none of whose capacities is unexercised. So the living conjunct's
+operation step now rests on the nine's intellect and pure act, which the spine
+derives elsewhere, together with the Θ.6 analysis of potency at one respect.
+It no longer rests on a premise that nearly restates "lives". (2) is used only
+at the respect of understanding. The general version would make a pure act
+exercise every capacity it has, including any capacity to produce an effect it
+does not produce. The classical position (ST I q.25 a.5, attribution deferred)
+denies that such an unexercised power puts its agent in potency. That is a
+reason inside the framework against the general version, not against the
+restricted one.
+
+Objection audit. The timeless-agency objection holds that understanding requires
+succession. Its target is not the inference and not premises (1)-(3) as stated,
+since none is time-indexed. It targets the joint satisfiability of intellect with
+pure act. If every actual understanding involved passing to a further thought,
+an understander would be in potency in some respect. Then (1) and (2) make every
+intellectual being understand, and no pure act could have intellect, so the nine
+would be unsatisfiable and the route vacuous. No independent justification for
+the succession mechanism is on file. Pike, Swinburne and Lucas remain unread
+leads with no weight. A second point is that a divine intellect is not a faculty
+distinct from its act (q.14 a.4). This does not target (1): `CanBe` requires no
+distinct faculty and holds of whatever actually understands. No substantive
+objection to the restricted premises is identified. Not tried: a perfection
+route through `IsPerfect`. Some being actually understands, so a universally
+perfect being is in act in understanding. Its act may be eminent, though, so
+premise (3) would need the formal sense. That is left to the perfection-transfer
+lane.
+
 On the full-list reading the warrant gap of the sufficiency premise is an exact
 list. In general it is the field interpretation, seven new bridges and the
 existing infinite-power premise (goodness-is-actuality and the q.3 a.7 premise
