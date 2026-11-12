@@ -1,0 +1,84 @@
+# Stage two of the modal spine: the CREATURE disambiguation (CREATURE_1, the
+# q.13 a.5 sense, ordered to a universal cause of being; CREATURE_2, caused in
+# being by some other being), each its own Lean declaration. The passage between
+# them, 'Whatever is CREATURE_2 is CREATURE_1' (b7d4eede), is derived from the
+# proved Fourth-Way consequence STMT-MAXIMAL-CAUSE-WITHOUT-DISTINCT-ESSE-CAUSE and
+# a weak premise, and the bare bridge of the unified Dei Filius route, 'Whatever
+# has its being caused by another has its esse received in some principle'
+# (da72ae93), is derived through it and the q.7 a.2 reading at CREATURE_1.
+# Analyst formulations, attribution deferred.
+
+[batch]
+vocab = "TruthCore.Causality.CreatureSenses"
+results = "TruthCore.Results.Causality.CreatureSenses"
+
+# ---------------------------------------------------------------- statements
+
+[[statement]]
+id = "Whatever has its being caused is in act as to being"
+lean = "CausedEsseIsHad"
+paraphrase = "Open premise, analyst formulation, unattributed. For all c and x: if c causes x's being (CausesIn c x esse), then x is in act as to being (InAct x esse). The weak version, restricted to esse, of STMT-CAUSED-PERFECTION-IS-HAD-BY-EFFECT (a caused perfection, in any respect, is had by its effect), which strengthens it (verified projection). It says that an effect of a cause of being has the being caused in it; it says nothing about how long, whether the cause sustains it, or whether the cause is distinct from x."
+definitions = ["DEF-CAUSE-OF-PERFECTION", "DEF-ESSE"]
+disambiguations = ["DISAMB-CAUSE"]
+
+[[statement]]
+id = "Controls for the CREATURE_1 and CREATURE_2 senses"
+lean = "Control.Controls"
+paraphrase = "Closed controls on three explicit finite interpretations; statements about these interpretations only. (1) Three beings, all in act as to being, a causes b's being and nothing else is caused: b is CREATURE_2 and not CREATURE_1, so 'Whatever is CREATURE_2 is CREATURE_1' fails there, while 'Whatever has its being caused is in act as to being' holds and the Fourth-Way consequence (a maximum that causes the being of every other being and has no distinct cause of its being) fails. (2) Three beings, only a in act, b causes c's being: the Fourth-Way consequence holds (a is maximal, causes the being of every other being in act, vacuously, and is uncaused), 'Whatever has its being caused is in act as to being' fails and so does the CREATURE_2 to CREATURE_1 bridge. (3) Two beings, both in act, true causes false's being and false's esse is received: the Fourth-Way consequence, the weak premise, the bridge, 'The esse of every CREATURE_1 is received in some principle' and 'Whatever has its being caused by another has its esse received in some principle' all hold, and some being is caused (nonvacuity)."
+definitions = ["DEF-CREATURE", "fdfbbc59-1f33-4fab-a96f-b41f37974af5", "DEF-ESSE-RECEIVED-IN", "DEF-CAUSE-OF-PERFECTION", "DEF-ESSE"]
+disambiguations = ["c49de1e9-c34f-424f-b144-b80c885974ca", "DISAMB-CAUSE", "DISAMB-ESSE-RECEPTION"]
+
+# ---------------------------------------------------------------- arguments
+
+[[argument]]
+id = "Whatever has its being caused is in act as to being, from caused perfection is had"
+theorem = "causedEsseIsHadFromCausedPerfection"
+premises = ["67aa5b5c-694b-50a1-90e5-d843234db924"]
+conclusion = "Whatever has its being caused is in act as to being"
+axioms = []
+rule = "Universal instantiation at the respect esse"
+meaning = "Sole-premise projection: if every caused perfection is had by its effect, then in particular a caused being (the respect esse) is had by its effect. It registers the strength order between the general premise and its esse-restricted weak version; no converse or strictness is claimed."
+
+[[argument]]
+id = "Whatever is CREATURE_2 is CREATURE_1, from the Fourth-Way maximum"
+theorem = "causedInBeingByAnotherIsCreature1"
+premises = ["0e242e29-7670-55f8-bf8e-f5800b9890c7", "Whatever has its being caused is in act as to being"]
+conclusion = "b7d4eede-ab50-5522-8902-f33238fa234d"
+sense_bridges = [
+  { term = "CREATURE", from = "cbae26cb-418c-41db-9446-9974791d8e9b", to = "a900760c-6f85-483c-b90e-e67b32387568", statement_id = "b7d4eede-ab50-5522-8902-f33238fa234d", role = "conclusion" },
+]
+axioms = []
+rule = "Existential elimination on the maximum, reductio on its identity with the effect, then universal instantiation of its universal causation"
+meaning = "Let c, distinct from x, cause x's being (x is CREATURE_2). The proved Fourth-Way consequence gives some m, maximal in being, that causes the being of every other being in act and whose being no being distinct from it causes. x is not m: otherwise c, distinct from m, would cause m's being. By the weak premise x is in act as to being, so m causes x's being. Hence x is CREATURE_1, with m as the universal cause it is ordered to. The CREATURE sense bridge is the conclusion (role conclusion); the premises use neither sense. Its weight sits in the Fourth-Way consequence, whose own premises (the four quarta via readings and the Metaphysics II.1 causal comparison) stay as they are: in particular the reading that the maximum causes the being of every other being in act, a thing caused by a secondary cause included. Conditional consequence; no premise is established. The controls show that the bridge fails without the Fourth-Way consequence (model 1) and without the weak premise (model 2)."
+
+[[argument]]
+id = "Whatever has its being caused by another has received esse, through CREATURE_1"
+theorem = "causedEsseIsReceivedThroughCreature1"
+premises = ["b7d4eede-ab50-5522-8902-f33238fa234d", "29e71e43-1d34-5008-8811-897fbddda209"]
+conclusion = "da72ae93-5c8d-4717-8c17-97eeb8037317"
+sense_bridges = [
+  { term = "CREATURE", from = "cbae26cb-418c-41db-9446-9974791d8e9b", to = "a900760c-6f85-483c-b90e-e67b32387568", statement_id = "b7d4eede-ab50-5522-8902-f33238fa234d" },
+]
+axioms = []
+rule = "Chain: CREATURE_2 to CREATURE_1 by the sense bridge, then the q.7 a.2 reading at CREATURE_1"
+meaning = "Let c, distinct from x, cause x's being. By the sense bridge 'Whatever is CREATURE_2 is CREATURE_1' x is CREATURE_1 (caused in its being by a universal cause of being). By 'The esse of every CREATURE_1 is received in some principle', read at CREATURE_1 as q.7 a.2 speaks of things made by God, x's esse is received in some principle. The passage between the senses is the one listed sense bridge, not an identification of the senses, and both premises bind the same typed CREATURE_1 predicate, so the equivocation of the rejected first draft of #1494 does not recur. With the derivation of the bridge, 'Whatever has its being caused by another has its esse received in some principle' rests on the proved Fourth-Way consequence, the weak premise that whatever has its being caused is in act as to being, and the q.7 a.2 reading at CREATURE_1. Conditional consequence; no premise is established."
+
+[[argument]]
+id = "Controls for the CREATURE_1 and CREATURE_2 senses, checked"
+theorem = "controls"
+premises = []
+conclusion = "Controls for the CREATURE_1 and CREATURE_2 senses"
+sense_mixing_control = true
+axioms = []
+rule = "Three explicit interpretations, checked by case analysis on finite carriers"
+meaning = "Model 1 separates the senses: a being caused by another that no universal cause causes is CREATURE_2 and not CREATURE_1, so the bridge does not hold by definition. Model 1 also shows the Fourth-Way consequence is needed for the bridge, and model 2 that the weak premise is. Model 3 satisfies every premise of both new derivations together with a caused being. Model-witnessed facts about these interpretations only: they show the premises are needed in these interpretations and that the bundle is jointly satisfiable, not that any premise is true or false."
+
+[[relation]]
+id = "Caused perfection is had strengthens caused esse is had"
+subject_kind = "statement"
+subject_id = "67aa5b5c-694b-50a1-90e5-d843234db924"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "Whatever has its being caused is in act as to being"
+verification_result_id = "Whatever has its being caused is in act as to being, from caused perfection is had"
+note = "Sole-premise verified projection at the respect esse; strictness is not claimed."

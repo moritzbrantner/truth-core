@@ -1,0 +1,25 @@
+{
+  "id": "c49de1e9-c34f-424f-b144-b80c885974ca",
+  "label": "Creature: ordered to a universal cause of being versus caused in being by some other being",
+  "term": "creature",
+  "sense_definition_ids": [
+    "afcdd2c5-1167-5a73-97d7-cb99a6ad5817",
+    "fdfbbc59-1f33-4fab-a96f-b41f37974af5"
+  ],
+  "resolution": "CREATURE_1 (DEF-CREATURE, IsCreatureOfUniversalCause) is the q.13 a.5 sense: ordered to God as principle and cause, with God read as a cause of the being of every other being that causes x's being. CREATURE_2 (IsCausedInBeingByAnother) is the broad gloss: some other being, a secondary cause included, causes x's being. CREATURE_1 entails CREATURE_2 by definition. The converse is not definitional: the controls of specs/creature-senses.toml give a model in which a being is CREATURE_2 and not CREATURE_1. Every statement that speaks of creatures takes CREATURE_1: 'Everything other than the primary is CREATURE_1', 'Every creature having the selected perfection has it caused by the primary', 'The esse of every CREATURE_1 is received in some principle' (the q.7 a.2 reading, said of things made by God) and the formal facts of the Fourth-Way attribution readings. One statement passes between the senses: 'Whatever is CREATURE_2 is CREATURE_1' (b7d4eede-ab50-5522-8902-f33238fa234d; its antecedent is CREATURE_2 and its consequent CREATURE_1). Earlier its paraphrase glossed its consequent broadly, so that chaining it with the q.7 a.2 reading equivocated (the rejected first draft of #1494). It is now read with CREATURE_1 as consequent, so it is the substantive sense bridge, and it is derived (causedInBeingByAnotherIsCreature1) from the proved Fourth-Way consequence STMT-MAXIMAL-CAUSE-WITHOUT-DISTINCT-ESSE-CAUSE and the weak premise 'Whatever has its being caused is in act as to being'. Arguments that pass from CREATURE_2 to CREATURE_1 list it in sense_bridges: OTHERS-ARE-CREATURES-FROM-PARTICIPATION, its own derivation (role conclusion) and the derivation of 'Whatever has its being caused by another has its esse received in some principle'. SCOPE CONDITION (definition 80dea550) binds both senses: the divine processions are no instances of CausesIn c x esse with c distinct from x.",
+  "term_label": "CREATURE",
+  "senses": [
+    {
+      "id": "a900760c-6f85-483c-b90e-e67b32387568",
+      "label": "CREATURE_1",
+      "definition_id": "afcdd2c5-1167-5a73-97d7-cb99a6ad5817",
+      "lean_declaration": "TruthCore.Causality.CreatureSenses.IsCreatureOfUniversalCause"
+    },
+    {
+      "id": "cbae26cb-418c-41db-9446-9974791d8e9b",
+      "label": "CREATURE_2",
+      "definition_id": "fdfbbc59-1f33-4fab-a96f-b41f37974af5",
+      "lean_declaration": "TruthCore.Causality.CreatureSenses.IsCausedInBeingByAnother"
+    }
+  ]
+}

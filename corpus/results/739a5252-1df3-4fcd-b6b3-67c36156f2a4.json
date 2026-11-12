@@ -1,0 +1,11 @@
+{
+  "id": "739a5252-1df3-4fcd-b6b3-67c36156f2a4",
+  "label": "Whatever has its being caused by another has received esse, through CREATURE_1",
+  "argument_id": "b25dbaad-4f24-4eb7-8679-70e2a6ae1ad1",
+  "challenge_module": "TruthCore.Results.Causality.CreatureSenses.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CreatureSenses.Solution",
+  "theorem": "TruthCore.Results.Causality.CreatureSenses.causedEsseIsReceivedThroughCreature1",
+  "comparator_config": "results/739a5252-1df3-4fcd-b6b3-67c36156f2a4/comparator.json",
+  "status": "solution-present",
+  "description": "Let c, distinct from x, cause x's being. By the sense bridge 'Whatever is CREATURE_2 is CREATURE_1' x is CREATURE_1 (caused in its being by a universal cause of being). By 'The esse of every CREATURE_1 is received in some principle', read at CREATURE_1 as q.7 a.2 speaks of things made by God, x's esse is received in some principle. The passage between the senses is the one listed sense bridge, not an identification of the senses, and both premises bind the same typed CREATURE_1 predicate, so the equivocation of the rejected first draft of #1494 does not recur. With the derivation of the bridge, 'Whatever has its being caused by another has its esse received in some principle' rests on the proved Fourth-Way consequence, the weak premise that whatever has its being caused is in act as to being, and the q.7 a.2 reading at CREATURE_1. Conditional consequence; no premise is established."
+}

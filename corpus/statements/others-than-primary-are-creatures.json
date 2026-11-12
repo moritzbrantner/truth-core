@@ -1,6 +1,6 @@
 {
   "id": "612078bf-5a68-5542-8b7b-f862f816ece0",
-  "label": "Everything other than the primary is a creature",
+  "label": "Everything other than the primary is CREATURE_1",
   "legacy_id": "STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES",
   "paraphrase": "Everything other than the primary is a creature.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.OthersAreCreaturesReading",
