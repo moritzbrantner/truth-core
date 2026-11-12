@@ -11,15 +11,17 @@ argument is an AND over its premises; the arguments concluding one statement
 are its OR alternatives). Two readings of "P is unavailable":
 
 - **Strict expansion.** Only statements with no verified derivation may be
-  accepted as leaves; every other statement must be derived. P removed means P
-  is neither a leaf nor derivable. This answers "which derivations need P".
+  accepted as leaves; every other statement must be derived. Derivability is
+  the least fixpoint over verified arguments (the graph has cycles, so only
+  well-founded derivations count). Removing a set S of statements means no
+  member of S is a leaf or derivable. This answers "which derivations need P".
 - **Lenient.** Any statement may be accepted as an open premise. P removed
   blocks only arguments that list P directly; the derivations behind other
   premises are irrelevant.
 
-Under the lenient reading, a derivation that runs through P is *support lost*
-for its conclusion, not a refutation of it. Removing P never proves ¬P's
-consequences, and no row below is a claim that P is false. Shared usage and
+Under either reading, a derivation that runs through P is *support lost* for
+its conclusion, not a refutation of it. Removing P neither establishes ¬P nor
+refutes P's consequences, and no row below is a claim that P is false. Shared usage and
 node degree are not indispensability: the tables count surviving OR-alternatives.
 
 ## Stage-one join: AND/OR structure
@@ -40,8 +42,9 @@ node degree are not indispensability: the tables count surviving OR-alternatives
   escape (e27ea8e3), and borrowing escape itself derives only from finite rank,
   whose only derivation is the uncalibrated potential bundle (5adb2dc9,
   516c4fee, 838f7cca; `ActualGroundingPotentialRank`, no real-world calibration).
-- Strict expansion: AGWF and finite rank are the only indispensable spine
-  premises of the join. J1, J2, coverage, F1, no-novel-edge are each bypassable.
+- Strict expansion: the single indispensable premises of the join are AGWF,
+  finite rank, the three potential-bundle leaves and excluded middle
+  (`STMT-EXCLUDED-MIDDLE`). J1, J2, coverage, F1 and no-novel-edge are each bypassable.
 - Minimal two-premise cuts of the join without AGWF or finite rank (strict
   expansion): {F1, coverage}, {F1, same-supporter presence}, {J1, coverage},
   {J1, same-supporter presence}, {J2, coverage}, {no-novel-edge, coverage},
@@ -57,13 +60,18 @@ node degree are not indispensability: the tables count surviving OR-alternatives
 
 ## Direct actual-grounding routes
 
-The routes through `STMT-UNIQUE-NECESSARY-ACTUAL-ROOT` (91b085c4) and the
-asymmetric-grounding arguments to `STMT-NECESSARY-CLASSICAL-GOD-ROOT` (db2dead0,
-c63f3afa) bypass the join, J1, J2, coverage and F1. They use grounding
-*asymmetry* (39f7c63d, four derivations) and obtain a root from
-`STMT-GRADES-TO-MAXIMUM-AT-BEING` (e4e6b0cd), which derives from
-`STMT-NO-INFINITE-ASCENT-IN-BEING` (7dfa068a) or from approach-to-a-primary
-grading. Well-foundedness therefore re-enters as no infinite ascent in being.
+The arguments db2dead0 and c63f3afa reach `STMT-NECESSARY-CLASSICAL-GOD-ROOT`
+without the join, J1, J2, coverage or F1, and several derivations of
+`STMT-UNIQUE-NECESSARY-ACTUAL-ROOT` (91b085c4) do the same. db2dead0 uses
+grounding asymmetry (39f7c63d). That premise has four derivations, one of them
+from AGWF (16539528). c63f3afa uses asymmetry at a maximal target (bcf79e03),
+derived from 39f7c63d or from ground-is-more-in-esse (d96105fb). Both obtain the root from
+`STMT-GRADES-TO-MAXIMUM-AT-BEING` (e4e6b0cd). One derivation of that premise
+(f52deeb7) is from `STMT-NO-INFINITE-ASCENT-IN-BEING` (7dfa068a); the other
+(8eab5889) is from approach-to-a-primary grading. On the first,
+well-foundedness re-enters as no infinite ascent in being. Other derivations
+of 91b085c4 use pure-determination premises (c84c4a2a, 688e42fc) or a
+necessary root ancestor (6d64bcad, via 177b9b54, which is lost with AGWF).
 Whether both foundation commitments rest on one (a well-founded grade of being
 that grounding ascends) is under investigation.
 
@@ -82,31 +90,40 @@ the classical root. It closes nothing by itself (invariant 16). The new route
 
 ## Route impact at the working root (strict expansion)
 
-Root arguments: prima via ed7c588a; quarta via 678ff65f, 661ce61d, fd1f7e75,
-beec1dc1; cogito/roster routes 0a639ec4, 1c154f2f, 72391d4d, 5e8e6054; classical
-root 92ab7c94. Fifteen statements are indispensable to every route, all in the
-shared act/potency/efficient-cause/priority core (for example
+Root arguments: prima via ed7c588a; quarta via 678ff65f, 661ce61d; mixed
+routes consuming prima via premises fd1f7e75 (full description), beec1dc1
+(maxime ens); cogito/roster routes 0a639ec4, 1c154f2f, 72391d4d, 5e8e6054;
+classical root 92ab7c94. Fifteen statements are indispensable to every route:
+excluded middle and fourteen in the shared act/potency/efficient-cause/priority
+core (for example
 `STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT`,
 `STMT-EFFECT-DEPENDS-FOR-BEING-ON-EFFICIENT-CAUSE`,
 `STMT-DISTINCT-BEINGS-NOT-MUTUALLY-DEPENDENT`).
 
-| Removed premise | Root routes surviving | Derivations lost |
+Abbreviations: F1 `STMT-ACTUAL-MODAL-REFLEXIVITY`, F2 `STMT-EUCLIDEAN-FRAME`,
+NCAT `STMT-NECESSARY-CONCRETE-AT`, population `STMT-COGITO-INHABITED-CONCRETE-WORLD`,
+contingent grounding `STMT-EVERY-CONTINGENT-GROUNDED-AT`. "Derivations lost"
+lists only the named spine nodes in this table and the join section that lose
+every verified derivation. Other statements lose derivations too.
+
+| Removed premise | Root routes surviving | Derivations lost (named spine nodes) |
 |---|---|---|
 | F1, F2, J1, J2, no-novel-edge, coverage, NCAT, join | 10/10 | F1, no-novel-edge: J2 |
 | AGWF | 10/10 | J2, join |
-| finite rank | 10/10 | AGWF, J2, join |
+| finite rank | 10/10 | AGWF, borrowing escape, J2, join |
 | grounding asymmetry, classical-attributes sufficiency | 10/10 | none |
 | grades to maximum at being, maximum in being causes all, unreceived esse is own being, immaterial is intellectual, the classical root | 9/10 (classical-root route lost) | classical root |
 | esse cause is actual concrete ground | 7/10 | classical root |
 | contingent grounding | 7/10 | none |
 | population, whole roster not trapped | 6/10 (cogito/roster routes lost) | none |
-| act simply prior to potency, God names the fully described principle | 2/10 (prima via, maxime ens) | classical root |
+| act simply prior to potency, God names the fully described principle | 2/10 (ed7c588a, beec1dc1) | classical root |
 | `STMT-CAUSE-HAS-WHAT-IT-GIVES` (376d6a5a) | 1/10 (prima via only) | classical root |
 
-Reading: the disputed modal premises (F1, F2, J1, J2, coverage) and the join
-are bypassable for the working root. The consequential bridges are in stage
-two and the naming step: perfection transfer ("nothing gives what it does not
-have"), act-priority and the naming premise. These are AND-premises of almost
-every route outside the prima via. No single modal premise and no small set of
-them blocks the root, because the prima via and quarta via routes do not use
-the modal spine.
+Reading (structural only): the disputed modal premises and the join are
+bypassable for the working root. Removing all of them together (F1, F2, J1,
+J1@w, J2, no-novel-edge, coverage, same-supporter presence, NCAT, join, AGWF and
+finite rank) still leaves all ten root arguments. Perfection transfer ("nothing
+gives what it does not have"), act-priority and the naming premise are
+structurally indispensable on most routes outside the prima via. The bypassing
+routes carry their own open premises, so this ranks where support concentrates,
+not which premises are philosophically weakest.
