@@ -1004,7 +1004,8 @@ reported as current-main counts. #1522's two grades-at-being siblings, verum
 exception, and declined `1c154f2f` sense passage remain intact.
 
 **Exact immediate consumers.** `482f4ad2` and `678ff65f` use the comparative
-only at esse. Their existing replacements are respectively `a31b3e52` and
+only at esse. Their existing replacements are respectively `4d1efe91` (result `a1f73b1d`,
+`godMaximalFromCausingBeing`) and
 `5d2b7c6e`; their frozen originals now say explicitly that the strong version
 is unnecessary for the endpoint. The remaining premises and the latter's GOD
 bridge are retained. This is sufficiency, not proof of globally weakest inputs.

@@ -32,7 +32,7 @@ disambiguations = ["DISAMB-CAUSE"]
 
 [[argument]]
 id = "GOD-MAXIMAL-FROM-CAUSING"
-strong_version_needed = {"d5a94eb1-72d2-53e0-9a52-9787b5b61a8d" = "Not needed for this endpoint: the retained frozen proof uses the premise only at esse. The existing sibling a31b3e52-c0ff-446e-82f8-979aa0d52c38 uses cffad050-e86d-48b8-b04b-be47fcc1352d with the same remaining premises. The sibling establishes no input premise."}
+strong_version_needed = {"d5a94eb1-72d2-53e0-9a52-9787b5b61a8d" = "Not needed for this endpoint: the retained frozen proof uses the premise only at esse. The existing sibling 4d1efe91-9060-4e16-a8c5-42d28c5ba0a2 uses cffad050-e86d-48b8-b04b-be47fcc1352d with the same remaining premises. The sibling establishes no input premise."}
 definitions = ["DEF-ACT", "DEF-CAUSE-OF-PERFECTION", "DEF-ESSE", "DEF-GOD-OF-CLASSICAL-THEISM", "DEF-MAXIME-ENS", "DEF-MORE-IN", "DEF-SELF-EVIDENT-MARKING"]
 theorem = "godMaximalFromCausing"
 premises = ["STMT-EXCLUDED-MIDDLE", "STMT-GOD-CAUSES-BEING-OF-ALL-OTHERS", "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH", "STMT-MORE-SUCH-HAS-THE-PERFECTION", "STMT-MORE-IN-IS-ASYMMETRIC", "STMT-SOMETHING-OTHER-THAN-GOD-EXISTS"]
