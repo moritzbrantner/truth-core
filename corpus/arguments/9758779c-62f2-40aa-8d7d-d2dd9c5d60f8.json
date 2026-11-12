@@ -1,0 +1,23 @@
+{
+  "id": "9758779c-62f2-40aa-8d7d-d2dd9c5d60f8",
+  "label": "J1 at the selected world, from J1",
+  "premise_statement_ids": [
+    "dd41c165-129a-59d3-84ce-bd13c0944901"
+  ],
+  "conclusion_statement_id": "84751fc2-0179-49ce-b96a-04d95781d8bc",
+  "inference_ids": [
+    "350f09f2-87fd-4408-a7b3-315da626b6d4"
+  ],
+  "meaning": "J1 (every concrete supporter, at any carrier world, of a concretum necessary from w is necessary from w) gives its selected-world instance by taking the support world to be w. Registered as a strength order (J1 strengthens its instance); strictness is witnessed by Control.offWorldContingent. An instantiation, not a new derivation; no premise is established.",
+  "definition_ids": [
+    "9146789d-5b36-572f-baa1-7eef28967793",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "47033c70-0aca-565d-9473-8399577fea54",
+    "b242943a-34cc-582d-8c38-c1203b9d2c91",
+    "bfe1f490-ad43-4edb-b9c2-6b64e4b6d1f5"
+  ],
+  "disambiguation_ids": [
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "5d15d8f2-1080-53c9-886f-cee2a4ff23a9"
+  ]
+}

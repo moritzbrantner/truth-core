@@ -1,0 +1,10 @@
+{
+  "id": "b4164556-6593-48ce-a1c4-4e9ae8f73050",
+  "label": "Off-world contingent support and late support controls, checked (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "70d1b517-7918-43db-8b9a-5b7dc4e927bd",
+  "rule": "Two explicit finite interpretations, checked by case analysis and a rank function",
+  "meaning": "Controls for the world scope of J1. Off-world contingent support witnesses that J1 is strictly stronger than its selected-world instance, and that the recorded replaceable-support rival (contingent support of a necessary concretum at some admitted world) is compatible with the instance, with every premise of the new coverage route and with the join's endpoint. Late support shows that the instance cannot replace J1 in NecessaryConcreteUnderived.checks, in NecessaryConcreteUnderivedFromNecessity.underived or in coverageOfNoContingentNoNovel: with the instance in place of J1 all their other premises hold, while J1, coverage and the endpoint fail. Model-witnessed only; no interpretation is claimed metaphysically possible. Excluded middle is supplied by Lean's classical axioms.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
