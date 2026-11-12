@@ -129,3 +129,24 @@ indispensable on most routes outside the prima via; act priority was too
 until its first-being composition route (2026-11-12). The bypassing
 routes carry their own open premises, so this ranks where support concentrates,
 not which premises are philosophically weakest.
+
+## Workloop state (coordinator handoff, updated 2026-11-12)
+
+Merged on main:
+- #1514: the classical-root projection to `STMT-GOD-EXISTS` and this map.
+- #1515: graded foundation. Actual well-founded grounding and J2 follow from support ascending a rigid `MoreIn esse` grade together with no infinite ascent. With a freely chosen grade this is equivalent to AGWF and J2, so it relocates the regress question and does not shrink it. See "Graded foundation" in [the spine note](modal-spine.md).
+- #1516: esse-cause bridge. The strength ladder runs `376d6a5a` ⇒ `d0fc96b7` ⇒ `4ccb319f` ⇒ `4a5a43a5`. The Platonist rival is relocated downstream, not defeated.
+
+Open:
+- #1518: preexistence without transfer.
+  - The bottleneck behind `376d6a5a` is "more such" (`d5a94eb1`), which is interderivable with distinct-cause transfer. Granting it restores all ten routes.
+  - A new root route (`5d2b7c6e`) survives removal of `376d6a5a`, through `cffad050`.
+  - Granting distinct-cause transfer (`2c0b9bd7`), which is strictly weaker than `376d6a5a`, restores all 11 routes. It is the smallest sufficient commitment found at this bottleneck. Granting the cause-of-being restriction `d0fc96b7` adds route 92ab7c94.
+  - Follow-ups: #1517 (preexistence consumers) and #1519 (consumers of `d5a94eb1`, and re-routing the four CONCRETE_6 routes through grades-at-being).
+- Act priority over potency (`a4d3261a`; only 2/10 routes survive its removal): in progress in a separate PR.
+
+Next bridges, by computed impact:
+1. Re-route the CONCRETE_6 routes through grades-at-being (#1519).
+2. Act priority (`a4d3261a`) and the naming premise (`STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE`), each 2/10.
+3. A root-restricted ground for `d0fc96b7`, which would lift route 92ab7c94.
+4. #310: the independent warrant for no infinite ascent along grounding chains, on which the graded foundation rests.
