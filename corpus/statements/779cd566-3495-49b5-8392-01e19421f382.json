@@ -1,0 +1,19 @@
+{
+  "id": "779cd566-3495-49b5-8392-01e19421f382",
+  "label": "Sustaining-causation controls: rival reading, omissions and nonvacuity",
+  "paraphrase": "Closed controls on interpretations with one world, two individuals (Bool; true is the cause), times the natural numbers, every individual concrete, true alone infinite. (1) Existential inertia: true is present at times 0 and 1, false from time 1 on, and true gives false being at time 1 only. Every cause of being is CAUSE_OF_BEING_1 originating, everything present is in act, the contact principle holds and true is IMMENSE_2, but the sustaining reading fails and true is not present to all whenever they are; the originating-cause, originators-are-grounds and convexity premises and the lasting-ground premise A2ab all hold, while the sustaining-cause premise fails. (2) An absent giver: false present from time 1, true never present but giving false being at every time: the sustaining reading and presence-in-act hold and the contact principle and presence to all fail; the sustaining-cause and sustainers-are-grounds premises hold and A2ab fails. (3) true present always, false from time 1, no giving: the sustaining reading fails, presence-in-act and the contact principle hold and presence to all fails; with no grounds, sustainers-are-grounds and the contact principle hold, the sustaining-cause premise and A2ab fail. (4) The same history with nothing in act and no cause of being: the sustaining reading and the contact principle hold, true is IMMENSE_2 (vacuously creator), presence-in-act and presence to all fail. (5) The same history with true giving false being from time 1 on and no grounds: the sustaining-cause premise and the contact principle hold, sustainers-are-grounds and A2ab fail. (6) Intermittent presence: true present at time 0 only, false at times 0 and 2, giving at time 0: the originating-cause, originators-are-grounds, contact and comparability premises hold, convexity fails and A2ab fails. (7) The history of (5) with true grounding false: every premise of the presence route and of both lasting-ground routes (comparability included) holds, true is IMMENSE_2 and present to all, and A2ab holds. Statements about these interpretations only.",
+  "lean_declaration": "TruthCore.Causality.SustainingCausation.Control.Certificate",
+  "definition_ids": [
+    "158301bc-9585-4145-be60-34f08c9f922c",
+    "142e451d-a24f-4aa1-b38b-344e5f235e72",
+    "ed47a5a7-fa84-43cb-950b-2552b33b99ff",
+    "1335688a-d3f2-492e-9b71-c8062280fe16",
+    "641c767b-4289-4d92-b900-da7ad603d282",
+    "1f4f5228-45e8-4e5d-beda-e918c5808ec0",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e"
+  ],
+  "disambiguation_ids": [
+    "88a8fba7-f1a1-4340-8a7f-41dd39bbbe7d",
+    "3fc3ee02-c3cc-4a61-9724-914d9d07b0dd"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "665d4017-54b6-400e-82d1-2384a5a4bcff",
+  "label": "A CAUSE_OF_BEING_2 sustainer of all is present to all, from the contact principle",
+  "premise_statement_ids": [
+    "c4661518-33cc-4a53-ae55-cb986be9c2b5"
+  ],
+  "conclusion_statement_id": "c7de7537-3178-4c01-9f7e-65767f76f307",
+  "inference_ids": [
+    "24c5861a-74e8-4d81-8290-72f668b0c347"
+  ],
+  "meaning": "Let g sustain (CAUSE_OF_BEING_2) every other thing present at some moment of history v, and let x, other than g, be present at t. Since x is present at some moment, g sustains x, so g gives x being at t; by the contact principle g is present at t. Hence g is present, and giving x being, whenever x is. A short derivation from one open premise. The controls do not check this statement directly; they check the composed IMMENSE_2 presence route, where the contact principle is needed (Control part 2) and an originating cause in place of a sustaining one does not suffice (part 1). No premise is established.",
+  "term_senses": {
+    "CAUSE_OF_BEING": "5acddd28-aca0-410d-96d2-ef9386b8dc27"
+  },
+  "definition_ids": [
+    "1335688a-d3f2-492e-9b71-c8062280fe16",
+    "158301bc-9585-4145-be60-34f08c9f922c",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e",
+    "ed47a5a7-fa84-43cb-950b-2552b33b99ff"
+  ],
+  "disambiguation_ids": [
+    "88a8fba7-f1a1-4340-8a7f-41dd39bbbe7d"
+  ]
+}
