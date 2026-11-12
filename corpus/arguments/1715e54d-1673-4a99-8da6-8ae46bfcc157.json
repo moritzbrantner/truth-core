@@ -1,0 +1,37 @@
+{
+  "id": "1715e54d-1673-4a99-8da6-8ae46bfcc157",
+  "label": "Intellectual PURE_ACT_5 beings operate, from intellect as an exercised capacity",
+  "premise_statement_ids": [
+    "9c2a5dfe-f2f9-4d8b-9235-6a01fd108161",
+    "4728d5f4-d7a4-460c-aecc-37c6279ece9f",
+    "021aaa19-7789-46da-a38b-e6a0e0dbdcd9"
+  ],
+  "conclusion_statement_id": "e9d4901f-a71e-47a5-9c01-df842ccc76e5",
+  "inference_ids": [
+    "4e6f9f7f-b9df-437f-934a-8ae5d8be99b2"
+  ],
+  "meaning": "Let x be in potency in no respect and have intellect. Its intellect is a capacity to understand (first premise). That capacity is exercised or a potency to understanding (second premise); x is in potency in no respect, so not in potency to understanding, and so it is actually understanding. Whatever is POTENCY_3 capable of understanding and IN_ACT_3 understanding has an immanent operation (third premise), so x operates. No premise mentions life, time or being unmoved; the act and potency predicates are the same throughout (one respect, one InAct, one InPotency); the passage from capacity (POTENCY_3) to the potency of pure act (POTENCY_2) is the listed sense bridge, the second premise. Conditional consequence; all three premises stay open.",
+  "definition_ids": [
+    "39f50105-c889-4c30-b841-ce458ec8109d",
+    "7acc985a-ea60-4538-9c9e-6b18ddecf3a9",
+    "00ab0133-e353-5a2e-a231-b24a5c85107a",
+    "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4",
+    "115f23e3-2a19-5dcb-bc7f-96408004f110",
+    "3ea2762f-1a85-5059-b4e7-d29f192b16b6",
+    "a49e4cf1-ca4f-5519-9724-892af257cedb"
+  ],
+  "disambiguation_ids": [
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "c0fda0ee-3508-5101-94ba-043e3eb28b0e",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "508617ab-cf24-5f3b-a387-64b3991359ec"
+  ],
+  "sense_bridges": [
+    {
+      "term": "POTENCY_CAPACITY_AND_POWER_ACROSS_ADOPTED",
+      "from": "02e3f1d0-4ba1-498f-b34d-40bdd348d8c4",
+      "to": "d0b17a2e-febf-45e8-9b9e-11a75b2ccbc6",
+      "statement_id": "4728d5f4-d7a4-460c-aecc-37c6279ece9f"
+    }
+  ]
+}

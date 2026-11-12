@@ -1,0 +1,23 @@
+{
+  "id": "08aa4325-d859-471b-b9e3-dc70bf4a5b6e",
+  "label": "Controls for the nine's operation from intellect, capacity and PURE_ACT_5, checked",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "29d1f5f5-5779-46c1-927b-994c5b0b3485",
+  "inference_ids": [
+    "338eb6c8-05a9-4bc7-b7aa-69ea410b131a"
+  ],
+  "meaning": "Each of the three capacity premises is needed for the nine's operation in these interpretations (omission models with a being that has the nine); the three hold together with a being that has the nine (nonvacuity); in that model the being with the nine operates and does not live in either sense, which holds trivially (Lives and LivesAt are unconstrained) and shows only that no premise mentions life; and the strength order STMT-PURE-ACT-OPERATES, intellectual pure act operates, the nine operate is strict at each step. Model-witnessed facts about these interpretations only: an omission model shows where a premise is needed, not that it is false.",
+  "definition_ids": [
+    "39f50105-c889-4c30-b841-ce458ec8109d",
+    "7acc985a-ea60-4538-9c9e-6b18ddecf3a9",
+    "885a98f3-cd54-41c5-89bc-25c341415890",
+    "00ab0133-e353-5a2e-a231-b24a5c85107a",
+    "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4",
+    "a49e4cf1-ca4f-5519-9724-892af257cedb",
+    "f91f5056-8a32-416b-b234-d0e78cd16ce8"
+  ],
+  "disambiguation_ids": [
+    "1f2d3b9b-0b6b-459c-8871-3f136ad6d78a"
+  ],
+  "sense_mixing_control": true
+}

@@ -1,0 +1,16 @@
+{
+  "id": "021aaa19-7789-46da-a38b-e6a0e0dbdcd9",
+  "label": "Whatever is POTENCY_3 capable of understanding and IN_ACT_3 understanding has an immanent operation",
+  "paraphrase": "Open premise, analyst formulation, unattributed. Whatever is able to be actually understanding (CanBe, POTENCY_3) and is in act in the respect of understanding (InAct x understanding) has an immanent operation (Operates, definition 7acc985a: an operation that remains in the agent, not motion, not including being unmoved). Motivated by ST I q.18 a.3 ad 1 (understanding is an action that remains in the agent; no claim on file). It says nothing about life or unmovedness. InAct is the nine's shared act predicate, which DEF-UNIVERSALLY-PERFECT reads as formal-or-virtual act (DISAMB-IN-ACT); the capacity condition does NOT exclude virtual act, since a capable being could contain the perfection virtually without exercising it formally. So the premise has two contents, stated plainly. On the formal reading of InAct it is only the classification of actual understanding as an immanent operation. On the inclusive reading it also carries an explicit bridge: a being capable of understanding that is in act in understanding even only virtually has an immanent operation (in effect, capable virtual act of understanding is formal exercise). That bridge is part of this open premise, not supplied by the capacity guard, and it is not attributed. Control part 3: without it, a being with the nine capable of and in act in understanding does not operate.",
+  "lean_declaration": "TruthCore.Causality.DeiFiliusOperationFromIntellect.ExercisedUnderstandingIsImmanentOperation",
+  "definition_ids": [
+    "00ab0133-e353-5a2e-a231-b24a5c85107a",
+    "115f23e3-2a19-5dcb-bc7f-96408004f110",
+    "39f50105-c889-4c30-b841-ce458ec8109d",
+    "7acc985a-ea60-4538-9c9e-6b18ddecf3a9"
+  ],
+  "disambiguation_ids": [
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
+  ]
+}

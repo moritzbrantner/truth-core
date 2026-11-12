@@ -1,0 +1,127 @@
+# Stage two of the modal spine: the bare premise 'Whatever has the nine operates
+# from itself' (8f93d9cc, NineOperate) on the root-reaching living route (results
+# bb1fc65d, 78acb308) is derived from three commitments that do not mention life:
+# intellect is a capacity to understand; that capacity is exercised or a potency;
+# its exercise is an immanent operation. With pure act (the sixth of the nine) the
+# capacity is exercised. The intellect-restricted middle version 'every pure act
+# with intellect operates' is registered between STMT-PURE-ACT-OPERATES and
+# 8f93d9cc in the strength order. Analyst formulations, attribution deferred.
+
+[batch]
+vocab = "TruthCore.Causality.DeiFiliusOperationFromIntellect"
+results = "TruthCore.Results.Causality.DeiFiliusOperationFromIntellect"
+
+# ---------------------------------------------------------------- statements
+
+[[statement]]
+id = "Whatever HAS_INTELLECT_1 has the POTENCY_3 capacity to understand"
+lean = "IntellectIsCapacityToUnderstand"
+paraphrase = "Open premise, analyst formulation, unattributed. Whatever has intellect (HAS_INTELLECT_1) is able to be actually understanding: CapacityPotency CanBe x understanding, the CanBe (POTENCY_3, DEF-CAPACITY-TO-BE) of the Metaphysics IX.6 analysis at the respect of understanding (39f50105). It does not say the being is understanding, nor that it is in potency to understanding: a being actually understanding is also able to understand (the capacity is retained in exercise, DISAMB-POTENCY). Intellect is here a standing capacity whose exercise is understanding. Example: a sleeping geometer. Control part 1: the other two premises hold, a being has the nine, and the nine's operation fails without it."
+definitions = ["DEF-HAS-INTELLECT", "DEF-CAPACITY-TO-BE", "39f50105-c889-4c30-b841-ce458ec8109d"]
+disambiguations = ["DISAMB-INTELLECT-AND-SENSE-COGNITION", "DISAMB-POTENCY"]
+
+[[statement]]
+id = "Whatever has the POTENCY_3 capacity to understand is IN_ACT_3 understanding or in POTENCY_2 to it"
+lean = "UnderstandingCapacityExercisedOrInPotency"
+paraphrase = "Open premise, analyst formulation, unattributed; a POTENCY sense bridge from POTENCY_3 to POTENCY_2 at one respect. Whatever is able to be actually understanding (CanBe, POTENCY_3, DEF-CAPACITY-TO-BE) is in act in understanding (InAct x understanding, IN_ACT_3, the nine's shared formal-or-virtual act) or in potency to understanding (InPotency x understanding, POTENCY_2: the generic independently supplied potency predicate, DEF-INDEPENDENT-POTENCY, the same predicate whose absence in every respect is pure act and altogether immutability among the nine). Restricted to the one respect of understanding. Under POTENCY_2 it is substantive: classically the right-to-left half of the Metaphysics IX.6 analysis (STMT-POTENCY-IS-UNACTUALIZED-CAPACITY: potency is unactualized capacity) at this respect; constructively it is stronger, so no argument from that statement is registered (it would need excluded middle). Unregistered alternative reading: under the adopted specialization (POTENCY_1, AdoptedPotency.InPotency: capable and not actually), it is only the instance of excluded middle for actually understanding at a capable being (exercisedOrInPotencyOfDecidable, not registered), and the act/potency weight moves into PureAct, which in that sense says that no capacity of the being is unexercised. Why only the respect of understanding, by cases. ST I q.25 a.5 (God can do what he does not do; attribution deferred) concerns active power, a capacity to produce an effect (q.25 a.1), while CanBe is an ability to be in a state. If producing an effect is not a CanBe respect, the general (every-respect) version does not face q.25 a.5 and that passage does not motivate the restriction. If it is a CanBe respect, then under POTENCY_1 PureAct (the sixth of the nine) already requires every such capacity to be exercised, so the q.25 a.5 point targets the nine's pure-act conjunct and restricting this premise does not escape it; only under POTENCY_2 does the restricted version avoid it while the general one would face it. No record yet carries the active/passive power distinction. Control part 2: without it, a being with the nine is capable of understanding, in act in no respect, and does not operate."
+definitions = ["DEF-CAPACITY-TO-BE", "DEF-INDEPENDENT-POTENCY", "115f23e3-2a19-5dcb-bc7f-96408004f110", "39f50105-c889-4c30-b841-ce458ec8109d"]
+disambiguations = ["DISAMB-POTENCY", "DISAMB-IN-ACT"]
+
+[[statement]]
+id = "Whatever is POTENCY_3 capable of understanding and IN_ACT_3 understanding has an immanent operation"
+lean = "ExercisedUnderstandingIsImmanentOperation"
+paraphrase = "Open premise, analyst formulation, unattributed. Whatever is able to be actually understanding (CanBe, POTENCY_3) and is in act in the respect of understanding (InAct x understanding) has an immanent operation (Operates, definition 7acc985a: an operation that remains in the agent, not motion, not including being unmoved). Motivated by ST I q.18 a.3 ad 1 (understanding is an action that remains in the agent; no claim on file). It says nothing about life or unmovedness. InAct is the nine's shared act predicate, which DEF-UNIVERSALLY-PERFECT reads as formal-or-virtual act (DISAMB-IN-ACT); the capacity condition does NOT exclude virtual act, since a capable being could contain the perfection virtually without exercising it formally. So the premise has two contents, stated plainly. On the formal reading of InAct it is only the classification of actual understanding as an immanent operation. On the inclusive reading it also carries an explicit bridge: a being capable of understanding that is in act in understanding even only virtually has an immanent operation (in effect, capable virtual act of understanding is formal exercise). That bridge is part of this open premise, not supplied by the capacity guard, and it is not attributed. Control part 3: without it, a being with the nine capable of and in act in understanding does not operate."
+definitions = ["DEF-CAPACITY-TO-BE", "115f23e3-2a19-5dcb-bc7f-96408004f110", "39f50105-c889-4c30-b841-ce458ec8109d", "7acc985a-ea60-4538-9c9e-6b18ddecf3a9"]
+disambiguations = ["DISAMB-IN-ACT", "DISAMB-MOTION"]
+
+[[statement]]
+id = "Every PURE_ACT_5 being that HAS_INTELLECT_1 operates from itself"
+lean = "IntellectualPureActOperates"
+paraphrase = "Open premise, analyst formulation, unattributed; the intellect-restricted version of STMT-PURE-ACT-OPERATES. Whatever is in potency in no respect (PURE_ACT) and has intellect (HAS_INTELLECT_1) has an immanent operation (Operates, 7acc985a). Weaker than STMT-PURE-ACT-OPERATES (Control part 6: a pure act without intellect that does not operate) and stronger than 'Whatever has the nine operates from itself' (Control part 7: an intellectual pure act that lacks the nine and does not operate). Derived from the three capacity premises; it does not mention life. Its potency predicate is POTENCY_2 (DEF-INDEPENDENT-POTENCY), the generic InPotency of the nine."
+definitions = ["DEF-PURE-ACT", "DEF-INDEPENDENT-POTENCY", "DEF-HAS-INTELLECT", "7acc985a-ea60-4538-9c9e-6b18ddecf3a9"]
+disambiguations = ["DISAMB-POTENCY", "DISAMB-INTELLECT-AND-SENSE-COGNITION"]
+
+[[statement]]
+id = "Controls for the nine's operation from intellect, capacity and PURE_ACT_5"
+lean = "Control.Controls"
+paraphrase = "Closed controls on one interpretation family with two beings (Bool), one respect serving as esse and understanding, and one time, where nothing is in potency, nothing is composite, only true is GOD_4 and everything causes everything: (1)-(3) omission: dropping any one of the three capacity premises, the other two hold, true has the nine and nothing operates, so 'Whatever has the nine operates from itself' fails; (4) nonvacuity: all three premises hold and true has the nine; (5) there true has the nine and lives at no time of the frame and is not LIVING_1 on primitives with no life; this holds trivially, since Lives and LivesAt are unconstrained by the three premises, and shows only that no premise mentions life (the near-definitional worry is answered by the content audit of the premises, not by this part); (6) strictness of the intellect-restricted version against STMT-PURE-ACT-OPERATES; (7) strictness of the nine version against the intellect-restricted one. Statements about these interpretations only."
+definitions = ["39f50105-c889-4c30-b841-ce458ec8109d", "DEF-CAPACITY-TO-BE", "7acc985a-ea60-4538-9c9e-6b18ddecf3a9", "f91f5056-8a32-416b-b234-d0e78cd16ce8", "885a98f3-cd54-41c5-89bc-25c341415890", "DEF-PURE-ACT", "DEF-HAS-INTELLECT"]
+disambiguations = ["1f2d3b9b-0b6b-459c-8871-3f136ad6d78a"]
+
+# ---------------------------------------------------------------- arguments
+
+[[argument]]
+id = "Intellectual PURE_ACT_5 beings operate, from intellect as an exercised capacity"
+theorem = "intellectualPureActOperatesFromCapacity"
+sense_bridges = [
+  { term = "POTENCY_CAPACITY_AND_POWER_ACROSS_ADOPTED", from = "02e3f1d0-4ba1-498f-b34d-40bdd348d8c4", to = "d0b17a2e-febf-45e8-9b9e-11a75b2ccbc6", statement_id = "Whatever has the POTENCY_3 capacity to understand is IN_ACT_3 understanding or in POTENCY_2 to it" },
+]
+premises = ["Whatever HAS_INTELLECT_1 has the POTENCY_3 capacity to understand", "Whatever has the POTENCY_3 capacity to understand is IN_ACT_3 understanding or in POTENCY_2 to it", "Whatever is POTENCY_3 capable of understanding and IN_ACT_3 understanding has an immanent operation"]
+conclusion = "Every PURE_ACT_5 being that HAS_INTELLECT_1 operates from itself"
+axioms = []
+rule = "Disjunction elimination: the potency branch contradicts pure act at the respect of understanding"
+meaning = "Let x be in potency in no respect and have intellect. Its intellect is a capacity to understand (first premise). That capacity is exercised or a potency to understanding (second premise); x is in potency in no respect, so not in potency to understanding, and so it is actually understanding. Whatever is POTENCY_3 capable of understanding and IN_ACT_3 understanding has an immanent operation (third premise), so x operates. No premise mentions life, time or being unmoved; the act and potency predicates are the same throughout (one respect, one InAct, one InPotency); the passage from capacity (POTENCY_3) to the potency of pure act (POTENCY_2) is the listed sense bridge, the second premise. Conditional consequence; all three premises stay open."
+
+[[argument]]
+id = "Whatever has the nine operates from itself, from intellect as an exercised capacity"
+theorem = "nineOperateFromCapacity"
+sense_bridges = [
+  { term = "POTENCY_CAPACITY_AND_POWER_ACROSS_ADOPTED", from = "02e3f1d0-4ba1-498f-b34d-40bdd348d8c4", to = "d0b17a2e-febf-45e8-9b9e-11a75b2ccbc6", statement_id = "Whatever has the POTENCY_3 capacity to understand is IN_ACT_3 understanding or in POTENCY_2 to it" },
+]
+premises = ["Whatever HAS_INTELLECT_1 has the POTENCY_3 capacity to understand", "Whatever has the POTENCY_3 capacity to understand is IN_ACT_3 understanding or in POTENCY_2 to it", "Whatever is POTENCY_3 capable of understanding and IN_ACT_3 understanding has an immanent operation"]
+conclusion = "8f93d9cc-989e-4b96-9e6c-e7e819f28545"
+axioms = []
+rule = "Composition: the intellect-restricted derivation applied at a being with the nine, which has intellect (the eighth) and is pure act (the sixth)"
+meaning = "A being g with the nine has intellect and is altogether immutable, which is being in potency in no respect. Its intellect is a capacity to understand (first premise); that capacity is exercised or a potency to understanding (second premise); g is not in potency to understanding, so it actually understands; an exercised capacity to understand is an immanent operation (third premise), so g operates. The act predicate is the nine's own InAct (the one of perfection and supreme goodness) and the potency predicate is the nine's own InPotency (POTENCY_2); the passage from capacity (POTENCY_3) to it is the listed sense bridge, the second premise. No premise mentions life, time or being unmoved; living still needs the route's further steps. Conditional consequence; all three premises stay open, and this replaces the bare restriction by a derivation, it establishes nothing."
+
+[[argument]]
+id = "Whatever has the nine operates, from every intellectual PURE_ACT_5 being operating"
+theorem = "nineOperateOfIntellectualPureActOperates"
+premises = ["Every PURE_ACT_5 being that HAS_INTELLECT_1 operates from itself"]
+conclusion = "8f93d9cc-989e-4b96-9e6c-e7e819f28545"
+axioms = []
+rule = "Restriction of a universal premise to a subclass of its antecedent: the sixth of the nine is pure act and the eighth is intellect"
+meaning = "Strength order registration: every pure act with intellect operates, so whatever has the nine operates, since the nine include altogether immutability (by definition in potency in no respect) and intellect. Projection and application only; with the derivation above it gives the nine's operation from the three capacity premises."
+
+[[argument]]
+id = "Every intellectual PURE_ACT_5 being operates, from every POTENCY_1-free being operating"
+theorem = "intellectualPureActOperatesOfPureActOperates"
+premises = ["STMT-PURE-ACT-OPERATES"]
+conclusion = "Every PURE_ACT_5 being that HAS_INTELLECT_1 operates from itself"
+axioms = []
+rule = "Weakening the antecedent of a universal premise by an added condition (intellect)"
+meaning = "Strength order registration: if every pure act operates, every pure act with intellect operates. Projection only; it establishes neither version."
+
+[[argument]]
+id = "Controls for the nine's operation from intellect, capacity and PURE_ACT_5, checked"
+theorem = "controls"
+premises = []
+conclusion = "Controls for the nine's operation from intellect, capacity and PURE_ACT_5"
+axioms = []
+sense_mixing_control = true
+rule = "Explicit two-being interpretations, checked by unfolding"
+meaning = "Each of the three capacity premises is needed for the nine's operation in these interpretations (omission models with a being that has the nine); the three hold together with a being that has the nine (nonvacuity); in that model the being with the nine operates and does not live in either sense, which holds trivially (Lives and LivesAt are unconstrained) and shows only that no premise mentions life; and the strength order STMT-PURE-ACT-OPERATES, intellectual pure act operates, the nine operate is strict at each step. Model-witnessed facts about these interpretations only: an omission model shows where a premise is needed, not that it is false."
+
+# ---------------------------------------------------------------- relations
+
+[[relation]]
+id = "Every PURE_ACT_5 being operating strengthens every intellectual PURE_ACT_5 being operating"
+subject_kind = "statement"
+subject_id = "STMT-PURE-ACT-OPERATES"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "Every PURE_ACT_5 being that HAS_INTELLECT_1 operates from itself"
+verification_result_id = "Every intellectual PURE_ACT_5 being operates, from every POTENCY_1-free being operating"
+strictness_result_id = "Controls for the nine's operation from intellect, capacity and PURE_ACT_5, checked"
+note = "Same InPotency and Operates. Control part 6: a pure act without intellect that does not operate satisfies the weak version and falsifies the strong one."
+
+[[relation]]
+id = "Every intellectual PURE_ACT_5 being operating strengthens whatever has the nine operating"
+subject_kind = "statement"
+subject_id = "Every PURE_ACT_5 being that HAS_INTELLECT_1 operates from itself"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "8f93d9cc-989e-4b96-9e6c-e7e819f28545"
+verification_result_id = "Whatever has the nine operates, from every intellectual PURE_ACT_5 being operating"
+strictness_result_id = "Controls for the nine's operation from intellect, capacity and PURE_ACT_5, checked"
+note = "Same InPotency, HasIntellect and Operates. Control part 7: an intellectual pure act that lacks the nine (through uniqueness of GOD_4) and does not operate satisfies the weak version and falsifies the strong one."
