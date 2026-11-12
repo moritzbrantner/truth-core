@@ -1,0 +1,30 @@
+{
+  "id": "14fb7669-48c1-4d38-b702-7ecdce2565b8",
+  "label": "No infinite ascent along grounding chains: the join needs only closed-collection rootedness",
+  "date": "2026-11-12",
+  "statement_ids": [
+    "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21",
+    "aca3baa1-9be6-4720-a53d-22050e638561",
+    "f3158145-f376-4790-ac0f-5ebb9b8522a1",
+    "0bdcf366-29c7-5d45-b603-5c929dcad976",
+    "b19ffd92-01bd-5c0b-9643-e7407137ea5e",
+    "d149d238-2eeb-5c8b-a136-f95d7aa5c721",
+    "39f7c63d-b372-564c-b18a-ed09d02dda9a",
+    "7dfa068a-9974-5fcd-ba23-fac4dee2fc70",
+    "c18faab2-aaff-4132-9e64-db763d723293"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Question (#310; spine warrant list item 5): what is the weakest no-infinite-regress statement the necessary-being routes consume, after #1515 showed that ascent plus no infinite ascent is equivalent to AGWF when the grade is chosen freely? Inspection of every AGWF consumer (truth related, truth context): the four join routes (df542c04 checks, 9d8798ea, 9de79a41, 36c6b111) and the necessary-concretum step 52d36165 use AGWF only to find an actual root by well-founded induction (necessaryActualRootOfGrounded, or descent among actual necessary concreta). Given ascent, 'no infinite ascent along grounding chains' coincides with AGWF, so it is not weaker. The weaker statement actually consumed is closed-collection rootedness (CCR, ClosedGroundingCollectionsRooted): no collection of actual concreta that contains every actual concrete ground of each member is both nonempty and rootless. Verified (ClosedGroundingRoots batch, Comparator and NanoDa; constructive results zero-axiom): closedRootedOfWF, AGWF implies CCR without excluded middle, registered as a strength order; strict by Control.limitGrounder (one root grounds every member of an infinite descending chain: CCR holds, AGWF fails). Reroutes with CCR in place of AGWF and the other premises unchanged: necessaryConcreteOfClosedRooted, underivedOfCoverageClosed, underivedFromNecessityOfCoverageClosed, underivedFromNecessityOfActualCoverageClosed, checksClosed; the old arguments now record strong_version_needed as not needed for the endpoint. Per se route: closedRootedOfAttenuation composes the existing QuantitativeTransferPaths.finitePath (#1379, previously reaching no root): CCR from per se reception with uniform loss q < 1, a common bound, positive esse of every actual concretum and own esse only at roots (Mathlib axioms). Limits, certified in Control: the limit grounder satisfies CCR, reflexive access and no-novel-edge while J2 fails, so J2's derivation (fe4b5ec7) still needs AGWF; it also satisfies ascent along a grade with a top element while that grade has infinite ascent, so a grade maximum does not give no infinite ascent; Control.rootedCycle satisfies CCR, reflexive access and no-novel-edge while asymmetry and AGWF fail and two necessary concreta support each other, so the asymmetry derivation (16539528) and the mutual-support exclusion (a5e08c0c) still need more than CCR; Control.pureRegress (n+1 grounds n) is an omission countermodel for CCR in both from-necessity coverage routes (necessity, J1, J1@w, coverage and contingent grounding hold, the endpoint fails). scripts/countermodel.py does not support Profile parameters (unsupported), so these models are hand-built. Not attempted or not certified: siblings for the remaining AGWF consumers whose proofs also need only a root (a75adc9a necessaryOrNonnecessaryRoot, 6976180f necessarilyUnderivedOfGrounded, 0ae291ce, f53dd124; mechanical); the classical equivalence of CCR with every actual concretum having a root ancestor (prose only); whether CCR with rigid ascent gives J2 (the limit grounder suggests not; not certified).",
+  "evidence": [
+    "02697d48-2106-4006-b6e7-3578e15b4a94",
+    "3cc1a964-daf9-4ac9-bcc6-0a762c267b58",
+    "1a2669d8-5008-470f-a7b8-b4ea14bfeff3",
+    "6fcf3f6d-1d5a-4909-8a71-0f420240d3c4",
+    "434e4fcd-3b13-4326-8762-f4c17cc31a35",
+    "4bd0ba9f-7786-45dd-b1f7-69d127b04de5",
+    "4a3b131f-955f-463d-bd67-3e45a2b111d1",
+    "66b54b88-8c2f-4d4b-8efe-ed67ed9b1e8c"
+  ],
+  "blocker": "CCR, the attenuation bridge and every rerouted route's other premises remain open analyst premises. The checks route still needs J2, whose derivations need AGWF or no infinite ascent among necessary concreta; the direct routes db2dead0 and c63f3afa need asymmetry, which CCR does not give. Next: register the four mechanical siblings; test whether a cross-world closed-collection condition gives J2 in place of no-novel-edge; certify CCR iff root ancestry under excluded middle."
+}

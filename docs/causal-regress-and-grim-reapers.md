@@ -884,3 +884,50 @@ conditional contradiction would not. The known event-to-esse abstraction burden
 and separate loop exclusion would remain even after a successful assembly
 argument. These are substantive reassessment points for the coordinator, not
 claims that the whole philosophical question has been exhausted.
+
+## Closed grounding collections: the join's regress demand (2026-11-12)
+
+Batch `specs/closed-grounding-roots.toml` (#310, spine warrant item 5). Analyst
+formulations, attribution deferred; nothing here is established.
+
+**Weakest consumed statement.** Every join route that used well-founded actual
+grounding (AGWF, `STMT-ACTUAL-GROUNDING-WF`) used it only to find an actual root.
+Given ascent in esse, "no infinite ascent along grounding chains" is AGWF itself, so
+it is not weaker. What the routes consume is **closed-collection rootedness**
+(`ClosedGroundingRoots.ClosedGroundingCollectionsRooted`): no collection of actual
+concreta containing every actual concrete ground of each member is both nonempty
+and rootless. It forbids only rootless closed collections (a pure endless descent,
+a pure cycle) and allows descent and cycles above a root.
+
+- `closedRootedOfWF`: AGWF implies it, constructively; registered as a strength
+  order, strict by `Control.limitGrounder` (one root grounds every member of an
+  infinite descending chain).
+- Reroutes with the other premises unchanged: `necessaryConcreteOfClosedRooted`,
+  `underivedOfCoverageClosed`, `underivedFromNecessityOfCoverageClosed`,
+  `underivedFromNecessityOfActualCoverageClosed`, `checksClosed`. The old AGWF
+  arguments record `strong_version_needed` as not needed for the endpoint.
+- Per se route: `closedRootedOfAttenuation` composes `QuantitativeTransferPaths.finitePath`
+  (the #1379 model-4 library, which reached no root before): per se reception with
+  uniform loss, a common bound and own esse only at roots gives the condition.
+  The existing controls show uniform loss and the bound are both needed.
+- Limits (`Control`): the limit grounder keeps reflexive access and no-novel-edge
+  while J2 fails, so J2's derivation still needs AGWF; it also has ascent along a
+  grade with a top element and infinite ascent, so a grade maximum does not give
+  no infinite ascent. `rootedCycle` keeps the condition, reflexive access and
+  no-novel-edge while asymmetry fails and two necessary concreta support each
+  other. `pureRegress` is the omission countermodel in both from-necessity
+  coverage routes.
+
+**Assessment.** The positive "borrowed reality" argument (wholly supplied being
+needs a supplier not itself supplied) is about collections, so it supports this
+condition and not AGWF's surplus. The quantitative per se argument is valid but
+rests on uniform loss, for which no independent justification is on file: lossless
+per se reception is satisfied by the pure regress. A limit grounder is a model of
+the condition, not a rival to it. The standing rivals are pure grounding infinitism
+and pure coherentism; each requires an actual closed collection of sustained beings
+whose being is supplied by nothing outside it. Neither is refuted. Rival records,
+prices and revision conditions: attempts
+[`14fb7669`](../corpus/attempts/14fb7669-48c1-4d38-b702-7ecdce2565b8.json) and
+[`4da08bd8`](../corpus/attempts/4da08bd8-8375-40b7-b635-83012168ed6f.json).
+Open: siblings for the remaining root-only AGWF consumers, a cross-world closed-collection
+condition for J2, and asymmetry for the direct routes.
