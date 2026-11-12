@@ -88,24 +88,25 @@ theorem lastingGroundOfSustainingCauses {W B T : Type} [Preorder T] (h : History
   obtain ⟨g, hg, hSus⟩ := hCause v x s t hx hst hxs hxt
   exact ⟨g, hg, hGround v g x hSus, Or.inr ⟨t, hst, hContact v g x t (hSus.2 t hxt)⟩⟩
 
-/-- Lasting ground (A2ab) from originating causes, in linear time, given that
-concrete presence has no gaps. A concrete thing absent at `s` and present at
-`t > s` has a concrete originating cause, which gives it being at a first moment
-`b` of its presence and so (contact) is present at `b`. The moment `b` is not `s`
-(the thing is absent at `s`) and not before `s` (it would then be present at `b`
-and `t` and absent between them), so it is after `s`. -/
-theorem lastingGroundOfOriginatingCauses {W B T : Type} [LinearOrder T] (h : History W B T)
+/-- Lasting ground (A2ab) from originating causes, given that any two moments
+are comparable and concrete presence has no gaps. A concrete thing absent at `s`
+and present at `t > s` has a concrete originating cause, which gives it being at
+a first moment `b` of its presence and so (contact) is present at `b`. The moment
+`b` is not `s` (the thing is absent at `s`) and not before `s` (it would then be
+present at `b` and `t` and absent between them), so it is after `s`. -/
+theorem lastingGroundOfOriginatingCauses {W B T : Type} [Preorder T] (h : History W B T)
     (Concrete : B → Prop) (G : BeingGiving W B T) (grounds : W → B → B → Prop)
     (hCause : BeginningsHaveOriginatingCause h Concrete G)
     (hGround : OriginatorsAreGrounds h G grounds)
     (hContact : GiverPresentWhenGiving h G)
-    (hConvex : ConcretePresenceConvex h Concrete) :
+    (hConvex : ConcretePresenceConvex h Concrete)
+    (hTri : TimesTrichotomous T) :
     BeginningsHaveLastingGround h Concrete grounds := by
   intro v x s t hx hst hxs hxt
   obtain ⟨g, hg, hOrig⟩ := hCause v x s t hx hst hxs hxt
   obtain ⟨b, hb, hGive⟩ := hOrig
   refine ⟨g, hg, hGround v g x ⟨b, hb, hGive⟩, Or.inr ⟨b, ?_, hContact v g x b hGive⟩⟩
-  rcases lt_trichotomy b s with hbs | rfl | hsb
+  rcases hTri b s with hbs | rfl | hsb
   · exact absurd (hConvex v x b s t hx hbs hst hb.1 hxt) hxs
   · exact absurd hb.1 hxs
   · exact hsb
@@ -116,7 +117,7 @@ open TruthCore.Causality.SustainingCausation.Control
 theorem controls : Control.Certificate := by
   refine ⟨⟨?_, ?_, ?_, ?_, ?_, ?_, ?_, ?_, ?_, ?_, ?_⟩, ⟨?_, ?_, ?_, ?_, ?_, ?_, ?_⟩,
     ⟨?_, ?_, ?_, ?_, ?_, ?_, ?_⟩, ⟨?_, ?_, ?_, ?_, ?_⟩, ⟨?_, ?_, ?_, ?_⟩,
-    ⟨?_, ?_, ?_, ?_, ?_⟩, ⟨?_, ?_, ?_, ?_, ?_, ?_, ?_, ?_, ?_, ?_, ?_⟩⟩
+    ⟨?_, ?_, ?_, ?_, ?_, ?_⟩, ⟨?_, ?_, ?_, ?_, ?_, ?_, ?_, ?_, ?_, ?_, ?_, ?_⟩⟩
   -- (1) inertia
   · rintro v c x ⟨rfl, rfl⟩ _
     refine ⟨1, ⟨Or.inr ⟨rfl, le_refl 1⟩, ?_⟩, rfl, rfl, rfl⟩
@@ -251,6 +252,7 @@ theorem controls : Control.Certificate := by
     exact ⟨hg, hx⟩
   · rintro v c x t ⟨rfl, _, rfl⟩
     exact Or.inl ⟨rfl, rfl⟩
+  · exact fun a b => lt_trichotomy a b
   · intro hC
     have := hC () false 0 1 2 trivial (by decide) (by decide)
       (Or.inr ⟨rfl, Or.inl rfl⟩) (Or.inr ⟨rfl, Or.inr rfl⟩)
@@ -312,6 +314,7 @@ theorem controls : Control.Certificate := by
     rcases hxa with rfl | ⟨rfl, _⟩
     · exact Or.inl rfl
     · exact Or.inr ⟨rfl, by omega⟩
+  · exact fun a b => lt_trichotomy a b
   · intro v x s t _ hst hxs hxt
     rcases hxt with rfl | ⟨rfl, ht⟩
     · exact absurd (Or.inl rfl) hxs

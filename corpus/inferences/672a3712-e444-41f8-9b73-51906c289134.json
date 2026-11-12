@@ -5,11 +5,12 @@
     "b90c4dd1-88d9-4afe-8455-4152d7836c99",
     "97150a94-c2cd-4020-87ed-825b7c19e124",
     "c4661518-33cc-4a53-ae55-cb986be9c2b5",
-    "7a41ea33-cbc1-4b74-9437-5d222ed9b633"
+    "7a41ea33-cbc1-4b74-9437-5d222ed9b633",
+    "800dc845-0a7a-4b7e-a4c3-12849c937812"
   ],
   "output_statement_id": "71df1177-b082-46e9-ab85-6815b3ed1650",
   "rule": "Trichotomy of the first moment of presence against the absence, with convexity excluding an earlier first moment",
-  "meaning": "New non-transcription conditional support option for premise A2ab (lasting ground) of Arrival A, valid for linearly ordered times only (a LinearOrder on times; the target premise is stated for any preorder, so this route covers the linear case). Let a concrete x be absent at s and present at t > s. It has a concrete originating cause g (CAUSE_OF_BEING_1): x has a first moment b of presence and g gives it being at b, so by contact g is present at b. b is not s (x is absent at s); b is not before s, since x would then be present at b and t and absent at s between them, against convexity; so b is after s, and g is a ground of x present after s. No sustaining causation is used: this route is open to an existential-inertia theorist who grants originating causes, contact and no return. The originating premise requires a first moment of presence for every beginning thing. Convexity is needed: intermittent presence satisfies the other premises and falsifies A2ab (Control part 6); all premises hold nonvacuously with A2ab (parts 1 and 7). All premises stay OPEN. No premise is established.",
+  "meaning": "New non-transcription conditional support option for premise A2ab (lasting ground) of Arrival A. Comparability of moments (linear time) is an explicit open premise, not a type-class restriction, so the route covers every model in which it holds. Let a concrete x be absent at s and present at t > s. It has a concrete originating cause g (CAUSE_OF_BEING_1): x has a first moment b of presence and g gives it being at b, so by contact g is present at b. By comparability b is before s, equal to s or after s. b is not s (x is absent at s); b is not before s, since x would then be present at b and t and absent at s between them, against convexity; so b is after s, and g is a ground of x present after s. No sustaining causation is used: this route is open to an existential-inertia theorist who grants originating causes, contact and no return. The originating premise requires a first moment of presence for every beginning thing. Convexity is needed: intermittent presence satisfies the other premises and falsifies A2ab (Control part 6); all premises hold nonvacuously with A2ab (part 7). Whether comparability is needed is not checked. All premises stay OPEN. No premise is established.",
   "assumption_statement_ids": [],
   "discharged_statement_ids": []
 }

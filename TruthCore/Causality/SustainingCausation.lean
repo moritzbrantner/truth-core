@@ -59,8 +59,8 @@ says nothing about spatial location.
 
 **Structural properties.** `GivesAt` is not assumed transitive, asymmetric,
 irreflexive or functional; several sustainers of one thing are allowed. No
-linear order, first moment or density of time is assumed, except where a
-theorem states `LinearOrder`. `SustainsBeing` is not transitive by definition.
+linear order, first moment or density of time is assumed; comparability of
+moments is an explicit premise (`TimesTrichotomous`) where a route uses it. `SustainsBeing` is not transitive by definition.
 
 **Rival.** Existential inertia (Schmid 2021, read in the corpus; see
 `docs/eternity-dependence-connection.md`): a thing persists through its earlier
@@ -204,6 +204,13 @@ def ConcretePresenceConvex {W B T : Type} [Preorder T] (h : History W B T)
     (Concrete : B → Prop) : Prop :=
   ∀ v x a s t, Concrete x → a < s → s < t → h.IsAt v x a → h.IsAt v x t → h.IsAt v x s
 
+/-- Any two moments are comparable: one is strictly earlier, or they are the
+same. Stated for the supplied preorder of times, as a premise rather than a
+`LinearOrder` instance, so that a route using it covers every model in which it
+holds and lists it among its open premises. -/
+def TimesTrichotomous (T : Type) [Preorder T] : Prop :=
+  ∀ a b : T, a < b ∨ a = b ∨ b < a
+
 namespace Control
 
 /-- One world, accessible from itself. -/
@@ -291,9 +298,9 @@ premise fails and A2ab fails. (4) `sustained` with nothing in act: the sustainin
 reading and the contact principle hold, `true` is IMMENSE_2 (vacuously creator)
 and presence to all fails. (5) `sustained` with no grounds: the sustaining-cause
 premise and the contact principle hold and A2ab fails. (6) `intermittent`: the
-originating-cause, originators-are-grounds and contact premises hold, convexity
-fails and A2ab fails. (7) `sustained` with its giving: every premise of both
-routes holds, `true` is IMMENSE_2 and present to all, and A2ab holds. -/
+originating-cause, originators-are-grounds, contact and trichotomy premises hold,
+convexity fails and A2ab fails. (7) `sustained` with its giving: every premise of
+both routes holds (trichotomy included), `true` is IMMENSE_2 and present to all, and A2ab holds. -/
 def Certificate : Prop :=
   (CausingBeingIsOriginating inertia inertiaGiving trueCausesFalse () ∧
     ¬ CausingBeingIsSustaining inertia inertiaGiving trueCausesFalse () ∧
@@ -332,6 +339,7 @@ def Certificate : Prop :=
   (BeginningsHaveOriginatingCause intermittent allB intermittentGiving ∧
     OriginatorsAreGrounds intermittent intermittentGiving trueGroundsFalse ∧
     GiverPresentWhenGiving intermittent intermittentGiving ∧
+    TimesTrichotomous Nat ∧
     ¬ ConcretePresenceConvex intermittent allB ∧
     ¬ BeginningsHaveLastingGround intermittent allB trueGroundsFalse) ∧
   (CausingBeingIsSustaining sustained sustainedGiving trueCausesFalse () ∧
@@ -344,6 +352,7 @@ def Certificate : Prop :=
     BeginningsHaveOriginatingCause sustained allB sustainedGiving ∧
     OriginatorsAreGrounds sustained sustainedGiving trueGroundsFalse ∧
     ConcretePresenceConvex sustained allB ∧
+    TimesTrichotomous Nat ∧
     BeginningsHaveLastingGround sustained allB trueGroundsFalse)
 
 end Control

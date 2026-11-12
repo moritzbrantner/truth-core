@@ -67,18 +67,19 @@ theorem lastingGroundOfSustainingCauses {W B T : Type} [Preorder T] (h : History
     BeginningsHaveLastingGround h Concrete grounds := by
   sorry
 
-/-- Lasting ground (A2ab) from originating causes, in linear time, given that
-concrete presence has no gaps. A concrete thing absent at `s` and present at
-`t > s` has a concrete originating cause, which gives it being at a first moment
-`b` of its presence and so (contact) is present at `b`. The moment `b` is not `s`
-(the thing is absent at `s`) and not before `s` (it would then be present at `b`
-and `t` and absent between them), so it is after `s`. -/
-theorem lastingGroundOfOriginatingCauses {W B T : Type} [LinearOrder T] (h : History W B T)
+/-- Lasting ground (A2ab) from originating causes, given that any two moments
+are comparable and concrete presence has no gaps. A concrete thing absent at `s`
+and present at `t > s` has a concrete originating cause, which gives it being at
+a first moment `b` of its presence and so (contact) is present at `b`. The moment
+`b` is not `s` (the thing is absent at `s`) and not before `s` (it would then be
+present at `b` and `t` and absent between them), so it is after `s`. -/
+theorem lastingGroundOfOriginatingCauses {W B T : Type} [Preorder T] (h : History W B T)
     (Concrete : B → Prop) (G : BeingGiving W B T) (grounds : W → B → B → Prop)
     (hCause : BeginningsHaveOriginatingCause h Concrete G)
     (hGround : OriginatorsAreGrounds h G grounds)
     (hContact : GiverPresentWhenGiving h G)
-    (hConvex : ConcretePresenceConvex h Concrete) :
+    (hConvex : ConcretePresenceConvex h Concrete)
+    (hTri : TimesTrichotomous T) :
     BeginningsHaveLastingGround h Concrete grounds := by
   sorry
 
