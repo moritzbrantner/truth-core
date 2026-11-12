@@ -399,7 +399,7 @@ against the [Substantive Objection Standard](../AGENTS.md#substantive-objection-
 | What would have to differ for the Reaper not to reach a beginningless past | new | By the theorem, one of: (a) no coinitial descent exists (uncountable coinitiality of time): a formal escape with no independent support from any model of time known to the corpus, so no objection; (b) local pieces fail along it; (c) gluing fails along it. The next two rows substantiate objections, both bearing on metrically finite pasts |
 | FLRW cosmology (open-below finite past) | new | **Kept, substantiated.** Target: the coinitial premises and their conclusion, begun populated pasts (and a fortiori founded populated pasts). Mechanism: the theorem; standard FLRW Big Bang models have time open below (the initial singularity is not a moment), so a populated FLRW history has no begun moment, while countable coinitiality holds there (`t / 2 ^ n`); so if such a history is accessible, the coinitial local-pieces or patchwork premise fails. Independent support: accepted physical theory treats these models as possible. Relevance: the premises are necessity claims over every accessible history. It does not bear on the possibility premise A3′w (possibly begun), which an FLRW-possible world leaves untouched. Established: the formal entailment; the possibility of FLRW histories is the physical input |
 | Benardete parity (dense time) | new | **Substantiated, conditional on a separate commitment C**: populated continuous time with a first moment is possible (some accessible history has such time and contingent things after its first moment). A3′w permits C but does not assert it. Target: the unrestricted premises, and the typed coinitial premises. Because `Coinitial` is order-theoretic and `(0, t]` is order-isomorphic to `(-∞, t]`, the typed coinitial premises cannot tell an open-below finite past from a metrically infinite one, so an objection for the former is an objection to the typed premises themselves. Mechanism: in `[0, t]` the descent `t, t/2, …` carries pieces in shrinking slots; together the unrestricted premises exclude contingent presence after 0 (their theorem with `ComingToBeHorns.controls` 8; a `WithBot ℤ` analogue is `GrimReaperPatchwork.controls` 3). So, given C, local pieces or gluing fail for that arrangement. Relevance: in `(0, t]` (no first moment) the same descent is coinitial and its pieces sit in the very same slots; the arrangements differ only at an instant hosting no piece. Established: the formal facts. Analyst argument, not checked: the parity step. The parity also turns on the admissibility clause, which excludes a code from a source outside the descent, such as one at `0` in `[0, t]`. Consequence, given C: the typed coinitial premises are doubtful for open-below finite pasts and give no support against them independent of the first-moment case. Without C the parity has no force |
-| Does the parity reach a metrically infinite past (one station per day)? | new | Not shown, and not expressible in the typed premises, which have no metric. For a philosophical, metrically restricted reading (slots of bounded-below length): It transfers only if the first-moment failure is a failure of gluing for every infinite descending arrangement, rather than of pieces in slots shrinking to zero or of gluing for accumulating arrangements. No independent reason for the gluing-general diagnosis is recorded. Unsupported suggestion, no evidential weight |
+| Does the parity reach a metrically infinite past (one station per day)? | new | Not shown. The typed premises above have no metric; the metric version below (slots of at least a fixed length) is now typed, and its premises are silent about every metrically finite past. It transfers only if the first-moment failure is a failure of gluing for every infinite descending arrangement, rather than of pieces in slots shrinking to zero or of gluing for accumulating arrangements. No independent reason for the gluing-general diagnosis is recorded. Unsupported suggestion, no evidential weight |
 | Global-compatibility reply to patchwork (#367 audit) | `notes/causal-finitism-367.md` | **Located as a precise fork, not dismissed.** The local premise asks only that each adjacent pair be co-possible, possibly in different worlds. Those witnesses cannot agree on their shared registers: if they did, their values would satisfy every piece at once (`overlapAgreeingWitnessesImpossible`, a checked lemma in the Solution module); the pivot control's witnesses do disagree. So the pieces are duplicated as stations with their rules, not as register contents. (i) If gluing requires overlapping patches to agree on register contents, as recombination of categorical, value-like patches does, the local premise in that coherent form fails along every descent as mathematics: on that reading the Reaper argument does not get started and refutes nothing. (ii) If gluing duplicates stations as bearers of rules whose register contents depend on their context (the intrinsic-powers reading defended in the #367 audit), the compatibility reply must say why such patches fail to glue along a descent. Known local-to-global failures with cycles (a ring of inverting stations) do not apply to a descent, which Koons excludes separately. One acyclic candidate is recorded: given C, by the Benardete row, pieces or gluing fail on the chain `t, t/2, …` in `[0, t]`. It is a candidate gluing failure only if the local pieces there are possible, and it involves metrically accumulating slots. For non-accumulating descents no independently established case is recorded, so under (ii) and a metric restriction the reply is an unsupported suggestion |
 | Unsatisfiable-pair diagnosis | §4 leads | No mechanism recorded. That the Reaper conditions are jointly unsatisfiable is common ground (it is `IndexedSignalReaper.impossible`); it does not by itself locate the failure in patchwork rather than in the beginningless past. No evidential weight until its argument is read and recorded |
 | Finite tests do not give a global schedule (`GrimReaperFiniteTests`) | #367 attempt | True mathematics about infinitary clauses; not an objection to patchwork, which is a modal premise about pieces of worlds, not a compactness claim |
@@ -409,16 +409,77 @@ kept. The FLRW objection shows the coinitial premises, as necessity claims over
 every accessible history, exclude a populated open-below finite cosmology that
 physical theory treats as possible. The Benardete parity, given C, bears on the
 same order-theoretic premises. On the value-agreement reading of gluing the
-argument does not get started. For a philosophical reading not yet typed (pieces
-as concrete stations with their rules, gluing that duplicates them, descents
-with slots of bounded-below length, so a metrically infinite past only), no
-substantive objection is identified; it has no Lean counterpart until the
-metric version exists. All premises remain OPEN; the support for patchwork is
-the defeasible recombination case recorded in the #367 audit. The pro side must
-not overclaim either: the theorems show only that whoever accepts the premises
-must accept begun (or, unrestricted, founded) populated pasts. A metric version
-(slots of at least a fixed length), concluding that no populated past is
-metrically infinite, is the next test.
+argument does not get started. The metric reading (descents with slots of
+bounded-below length, so a metrically infinite past only) is now typed; its
+audit is in the next section. All premises remain OPEN; the support for
+patchwork is the defeasible recombination case recorded in the #367 audit. The
+pro side must not overclaim either: the theorems show only that whoever accepts
+the premises must accept begun (or, unrestricted, founded) populated pasts.
+
+## The metric Reaper (2026-11-12)
+
+**Formal state.** `TruthCore/Causality/MetricGrimReaper.lean` (spec
+`specs/modal-spine-metric-grim-reaper.toml`, attempt
+[`5f4e157a`](../corpus/attempts/5f4e157a-c495-4cf8-ae58-dcd321a3b5a6.json)) adds a
+metric: a `TimeClock` is a real time coordinate strictly increasing along the
+order of moments (Mathlib `StrictMono`); the past of `t` is *metrically finite*
+when the readings at or before `t` are bounded below (Mathlib `BddBelow`). A
+*spaced* descent has every slot at least some fixed `δ > 0` long. The spaced
+premises keep the four local rules and the gluing step of the order-theoretic
+version and restrict both to spaced descents below populated moments.
+
+| Result | Content |
+|---|---|
+| `populatedPastsMetricallyFiniteOfPatchwork` | In linear time, spaced local pieces and spaced patchwork give: in every accessible history, every populated moment has a metrically finite past. The proof extracts a descent with slots of more than one clock unit from a metrically infinite past (`spacedDescentOfUnbounded`, a theorem, so no countable-coinitiality premise is needed) and composes `GrimReaperPatchwork.arrangementImpossible`, hence `IndexedSignalReaper.impossible` |
+| `spacedPiecesOfCoinitial`, `spacedPatchworkOfCoinitial` | In linear time a spaced descent is coinitial, so the coinitial premises strengthen the spaced ones. Strict: control 2 |
+| `populatedPastsMetricallyFiniteOfBegun` | In linear time a begun past is metrically finite. Strict: control 2. So founded ⇒ begun ⇒ metrically finite populated pasts, each step strict |
+| `controls` | (1) In the beginningless integer history each spaced premise holds without the other and not every populated past is metrically finite. (2) Positive real times (open below, finite; the order and metric shape of FLRW cosmic time): for *every* register frame both spaced premises hold and the coinitial ones do not both hold; every populated past is metrically finite and not every one is begun; with the earlier-grounded possibility premise A3′b, begun coming-to-be (A3′w) is not possible. (3) Non-negative real times with nothing present at `0`: for every register frame both spaced premises hold and the unrestricted ones do not both hold; every populated past is begun, not every one founded; begun coming-to-be is possible |
+
+**Exact reach.** The conclusion is that no populated past of an accessible
+history is metrically infinite. It is not that populated pasts are begun: an
+open-below, metrically finite populated past satisfies the premises and the
+conclusion (control 2). Linear time and one clock shared by every world of the
+frame are assumptions of the encoding, not premise statements; a frame whose
+worlds carry different metrics needs a world-indexed clock, which is not built.
+
+**Objection audit for the spaced premises** (Substantive Objection Standard):
+
+| Claim | Verdict |
+|---|---|
+| FLRW cosmology (open-below finite past) | **No target.** A spaced descent exists only below a metrically infinite past (`unboundedOfSpaced`), so the spaced premises hold for every register frame in a populated open-below finite past (control 2). The objection still applies, unchanged, to begun populated pasts and to any bridge from metric finiteness to begun pasts (see the connection below) |
+| Benardete parity (dense time) | **No target.** The parity compared pieces in the shrinking slots of `t, t/2, …` in `[0, t]` and `(0, t]`; no spaced descent exists in either, and the spaced premises hold there for every frame (controls 2, 3). Its transfer to a metrically infinite past remains the unsupported suggestion recorded above |
+| Accepted physical theories have populated models with a metrically infinite past | **Recorded as a rebutting objection, conditional on a general principle.** Target: the conclusion, hence the spaced local-pieces or patchwork premise. Mechanism: contraposition of the theorem. Independent justification: the Einstein static universe (an exact solution of general relativity with dust and a cosmological constant, cosmic time unbounded in both directions) and eternal free motion in Newtonian mechanics are established solutions of accepted laws; if every solution of accepted laws is a metaphysically possible history, the conclusion is false. Relevance: the premises are necessity claims over every accessible history. Established: these are solutions. Not established: that being a solution suffices for metaphysical possibility, the same principle on which the FLRW row relies. The relevant difference from FLRW: FLRW was excluded as a side effect of order-theoretic blindness, against nothing in the Reaper's motivation; a metrically infinite past is the argument's intended target, so here two general modal principles (law-consistency as a guide to possibility; recombination of possible local pieces) conflict directly. The objection names no piece or gluing step that fails. Its weight is that comparison of principles, not resolved here |
+| Global-compatibility reply (value agreement) | Unchanged fork. `overlapAgreeingWitnessesImpossible` holds for every descent, spaced or not: on the value-agreement reading the local premise fails and the argument does not start. On the duplication reading, no acyclic gluing failure along a non-accumulating descent is recorded, so no substantive objection |
+| Unsatisfiable-pair diagnosis | Unchanged: no mechanism recorded, no evidential weight |
+| One clock, linear time | Scope of the encoding, not an objection: no mechanism is identified by which a world-relative metric or branching time would make the premises true and the conclusion false |
+
+**Plain verdict.** The FLRW and Benardete objections have no target in the
+spaced premises: the order-theoretic loophole is closed. No undercutting
+objection to the spaced premises is identified. One rebutting objection is
+recorded (law-consistent populated models with an infinite past), whose force
+rests on the principle that solutions of accepted laws are metaphysically
+possible. No independent warrant for spaced patchwork is on file beyond the
+general recombination principle it instantiates (the defeasible case of the
+#367 audit); the premises remain OPEN. The theorem shows only that whoever
+accepts them must deny that a populated past is metrically infinite.
+
+**Connection to the spine.** The A3′w derivation
+(`GrimReaperPatchwork.possiblyBegunOfEarlierGrounds`) needs begun populated
+pasts, and the metric conclusion does not supply them: control 2 satisfies the
+spaced premises, metric finiteness and A3′b while A3′w fails. Two plans, neither
+built:
+
+1. A named open bridge: in every possible history, a populated moment with a
+   metrically finite past has a begun past. With the metric conclusion it gives
+   begun populated pasts by a trivial composition (not registered, as it would
+   be a transcription step). The bridge is exactly what the FLRW objection
+   denies, so the FLRW cost is not removed but isolated in one premise, separate
+   from the Reaper premises.
+2. A metric arrival: replace the empty-moment step of arrival A (inert
+   emptiness A2 with A3) by a premise about histories whose populated past has
+   finite duration. Blocker: an open-below finite populated past has no empty
+   moment (control 2 is populated at every moment), so A2/A3 cannot be reused;
+   a new arrival premise would be needed and has not been formulated.
 
 
 ## Typed per-se / historical distinction (#1112)

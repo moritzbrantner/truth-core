@@ -1,0 +1,21 @@
+{
+  "id": "73535018-27a4-408c-a6a2-33320dababd6",
+  "label": "Independence, nonvacuity and reach controls for the metric Grim Reaper premises",
+  "paraphrase": "Closed mathematical controls, every individual counted concrete. (1) The beginningless integer history of GrimReaperPatchwork.Control.pivot with the identity clock: silent registers satisfy spaced patchwork but not spaced local pieces; pivot registers satisfy spaced local pieces but not spaced patchwork; not every populated past is metrically finite. (2) An open-below finite history: times the positive reals with the identity clock, worlds booleans, individuals integers, every individual existing and present at every moment of world true, nothing existing at world false. For every register frame both spaced premises hold while the coinitial local-pieces and patchwork premises do not both hold; every populated past is metrically finite and not every one is begun; beginningless populated pasts have coinitial descents; the earlier-grounded possibility premise holds (each individual n grounded by n - 1, present earlier); and begun coming-to-be is not possible. (3) Continuous time with a first moment: times the non-negative reals with the identity clock, one individual existing at world true and present there at every moment after 0, nothing at 0, nothing existing at world false. For every register frame both spaced premises hold while the unrestricted local-pieces and patchwork premises do not both hold; every populated past is metrically finite and begun, not every one founded; and begun coming-to-be is possible. These are statements about these interpretations only.",
+  "lean_declaration": "TruthCore.Causality.MetricGrimReaper.Control.Certificate",
+  "definition_ids": [
+    "ddcc20b7-6dfc-46aa-aca5-690adb78709a",
+    "0e65cf83-c42e-4177-ae4c-7c1a12b0fd32",
+    "3b803aa6-c863-4edf-9d10-59ede70c8140",
+    "df6cd418-1a1e-44b5-be8a-6bd29cab48ea",
+    "946ad44c-4bdb-4bc2-81db-5fbc43882c0a",
+    "b817094a-c68d-4541-b5da-5f11eb2bfc52",
+    "a146da2f-a670-48f9-9911-5037352fc22a",
+    "1548f15b-302b-403a-8aef-ebd66399849d",
+    "0406b0e4-e869-4d3f-a4ca-9e7e86f7fea0",
+    "22ca5513-6cfc-4af2-a4db-9ef4ac7f6712",
+    "d0abd99d-13d2-499a-9f1e-bf6d5ff60cdc",
+    "0a1dd099-ca32-4ad7-9237-291efbe54bcc",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d"
+  ]
+}

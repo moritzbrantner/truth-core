@@ -1,0 +1,12 @@
+{
+  "id": "b8dcbd4b-ebd4-4e57-b550-33de6a7c0a53",
+  "label": "Coinitial Grim Reaper pieces give spaced Grim Reaper pieces (inference)",
+  "input_statement_ids": [
+    "8072fc5a-fbc6-43f6-8b71-15e85f36ab20"
+  ],
+  "output_statement_id": "37d4e072-212b-4b99-a4ff-bf10d94d5a52",
+  "rule": "In linear time a spaced descent is coinitial: its clock readings fall below every real number",
+  "meaning": "Strength order (linear time, any real clock): the local-pieces premise over coinitial populated descents gives it over spaced populated descents, because a descent whose slots last at least delta runs below every earlier moment. The converse fails: in the positive reals the spaced premises hold for every register frame while the coinitial premises do not both hold (MetricGrimReaper control 2). No premise is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

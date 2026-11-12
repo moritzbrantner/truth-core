@@ -1,0 +1,12 @@
+{
+  "id": "8be292b7-c6a2-43ec-8667-e5e832e373ab",
+  "label": "Coinitial Grim Reaper patchwork gives spaced Grim Reaper patchwork (inference)",
+  "input_statement_ids": [
+    "7d17a839-f29b-4d16-a70c-5e3d3bd77c25"
+  ],
+  "output_statement_id": "bb7b476c-4774-4860-a31f-f068aa362f18",
+  "rule": "In linear time a spaced descent is coinitial: its clock readings fall below every real number",
+  "meaning": "Strength order (linear time, any real clock): the gluing premise over coinitial populated descents gives it over spaced populated descents. No premise is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

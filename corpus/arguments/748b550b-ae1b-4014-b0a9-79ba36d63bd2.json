@@ -29,5 +29,8 @@
     "623ddbf6-9683-5361-bae4-e348a00ec680",
     "bedfab81-905c-5d1a-b834-e20b8007b3da",
     "7507d645-874d-5434-add8-2f49c2801d36"
-  ]
+  ],
+  "strong_version_needed": {
+    "0158110b-12b7-402e-ae1f-0788a8dbfedc": "The derivation needs a moment with nothing earlier at or before the populated one; metrically finite populated pasts do not supply it (MetricGrimReaper control 2: metric finiteness and A3 prime b hold while begun coming-to-be is impossible)."
+  }
 }

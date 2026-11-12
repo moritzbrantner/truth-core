@@ -1,0 +1,9 @@
+{
+ "id": "5c098264-efad-4b83-b4ae-6d525a4721d3",
+ "label": "Descent with slots of at least a fixed positive length",
+ "term": "spaced descent",
+ "definition": "SlotsAtLeast k c holds when some real delta > 0 bounds every slot between consecutive members of the sequence from below: delta <= reading (c n) - reading (c (n + 1)) for all n. With Descent c it is a spaced descent: stations back in time, each slot lasting at least delta (for example one station per past day). Counterexample: t, t/2, t/4, ... is a descent whose slots shrink to zero, so it is not spaced. A spaced descent from t exists exactly when, in linear time, the past of t is metrically infinite (unboundedOfSpaced and spacedDescentOfUnbounded), and in linear time every spaced descent is coinitial (coinitialOfSpaced).",
+ "basis": "stipulative",
+ "lean_declaration": "TruthCore.Causality.MetricGrimReaper.SlotsAtLeast",
+ "note": "Analyst metric definition; attribution deferred. It is the metric restriction that the order-theoretic Coinitial lacks: coinitial descents may accumulate metrically (t/2^n in (0, t]), spaced ones may not. delta is existentially quantified per descent, not fixed in advance; the derivation uses only slots of length at least one clock unit."
+}

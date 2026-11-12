@@ -1,0 +1,20 @@
+{
+  "id": "37d4e072-212b-4b99-a4ff-bf10d94d5a52",
+  "label": "Along every spaced populated descent, adjacent Grim Reaper pieces are co-possible",
+  "paraphrase": "OPEN analyst premise, attribution deferred (Grim Reaper style, metric version): for the supplied station-register frame and real time clock, in every history v accessible from the selected world, along every strictly descending sequence of moments c whose first moment has a contingent concrete individual present in v and whose consecutive slots all last at least some fixed positive duration on the clock, for every n some world accessible from v realizes both the local piece of station n and that of station n + 1 (positive trigger, emission, forwarding and admissibility, as in GrimReaperPatchwork). Such a descent exists only below a moment whose past is metrically infinite, so the premise says nothing about any metrically finite past, with or without a first moment: no station is placed in a shrinking slot. One clock serves every world of the frame. Registers carry no existential import, and the bridge from recombining concrete stations to this typed premise is not built. It says nothing about gluing. 'Concrete' is the supplied Concrete parameter, read under the adopted esse criterion; the Lean type does not enforce that reading.",
+  "lean_declaration": "TruthCore.Causality.MetricGrimReaper.SpacedReaperPiecesPossible",
+  "definition_ids": [
+    "ddcc20b7-6dfc-46aa-aca5-690adb78709a",
+    "5c098264-efad-4b83-b4ae-6d525a4721d3",
+    "375676b0-a295-4a17-a9e4-3db23319d517",
+    "419d2bf5-8cea-47a4-bf64-3058a1f2489b",
+    "9b98dc5d-f132-45ac-84e5-719ccff22549",
+    "d48314be-aadb-5039-8ac5-38a1ca488375",
+    "5363be1b-9b13-55e1-a5e8-d4504b296218",
+    "2d3300c4-0a9b-5597-bc57-def472d76769",
+    "74e6880f-d90b-51ed-a710-5aace3f44cff",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e",
+    "008cb21a-256c-5a90-822c-acd4591d699a"
+  ]
+}

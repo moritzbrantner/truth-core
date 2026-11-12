@@ -1,0 +1,30 @@
+{
+  "id": "a8c2ef8c-3916-43ae-8d16-febf6f2d8a24",
+  "label": "Metrically finite populated pasts from spaced Grim Reaper pieces and patchwork",
+  "premise_statement_ids": [
+    "37d4e072-212b-4b99-a4ff-bf10d94d5a52",
+    "bb7b476c-4774-4860-a31f-f068aa362f18"
+  ],
+  "conclusion_statement_id": "4365c3c5-d39b-405c-97a9-a4f7e43c628f",
+  "inference_ids": [
+    "7fa30565-fc9c-49a1-b330-87e9f70e6353"
+  ],
+  "meaning": "Non-transcription conditional support option for the metric denial of horn H2: no populated past in an accessible history is metrically infinite. Time is linearly ordered (a type-class assumption of the theorem, not a premise statement) and measured by a supplied real clock strictly increasing along it. Suppose a contingent concrete thing is present at t in an accessible history and the clock readings of the moments at or before t are unbounded below; choice gives a strictly descending sequence from t whose slots each last more than one clock unit. The spaced local premise makes every two adjacent Reaper pieces along it co-possible; spaced patchwork gives one accessible world realizing all of them; the verified GrimReaperPatchwork.arrangementImpossible, which composes IndexedSignalReaper.impossible, refutes that world. Each premise holds without the other in a beginningless integer history (control 1). The premises are silent about every metrically finite past, so they are satisfiable, for every register frame, by a populated past that is open below and finite (positive real times, control 2) and by continuous time with a first moment (non-negative real times, control 3): neither the FLRW objection nor the Benardete parity objection to the order-theoretic GrimReaperPatchwork premises has a target here. The conclusion does NOT give a past with a beginning: control 2 satisfies both premises and the conclusion with no begun populated moment, and there, with the earlier-grounded possibility premise, begun coming-to-be (A3 prime w) is not possible. Both premises are OPEN. Nothing is attributed to Koons or Pruss. No premise is established.",
+  "definition_ids": [
+    "0e65cf83-c42e-4177-ae4c-7c1a12b0fd32",
+    "375676b0-a295-4a17-a9e4-3db23319d517",
+    "3b803aa6-c863-4edf-9d10-59ede70c8140",
+    "419d2bf5-8cea-47a4-bf64-3058a1f2489b",
+    "5c098264-efad-4b83-b4ae-6d525a4721d3",
+    "7c05f92b-907d-4c9b-b219-fc4054c9912b",
+    "9b98dc5d-f132-45ac-84e5-719ccff22549",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "5363be1b-9b13-55e1-a5e8-d4504b296218",
+    "2d3300c4-0a9b-5597-bc57-def472d76769",
+    "74e6880f-d90b-51ed-a710-5aace3f44cff",
+    "d48314be-aadb-5039-8ac5-38a1ca488375",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e",
+    "ddcc20b7-6dfc-46aa-aca5-690adb78709a"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+ "id": "375676b0-a295-4a17-a9e4-3db23319d517",
+ "label": "Real time clock strictly increasing along the order of moments",
+ "term": "time clock",
+ "definition": "A TimeClock on a preordered type of moments is a real-valued reading of the moments that strictly increases along their order (Mathlib StrictMono). The duration from a moment s to a later moment t is reading t - reading s. In ordinary language: a time coordinate that measures how long passes between moments. Examples: FLRW cosmic time; a Newtonian absolute time; the identity on the integers, the reals, the non-negative reals or the positive reals. Not a clock in this sense: a mere ordering with no durations, or a coordinate that runs backwards somewhere.",
+ "basis": "stipulative",
+ "lean_declaration": "TruthCore.Causality.MetricGrimReaper.TimeClock",
+ "note": "Analyst framework definition; attribution deferred. One clock serves the whole frame: every world of a History shares its order of moments and, in MetricGrimReaper, its clock. A frame whose worlds carry different metrics would need a world-indexed clock, which is not built. No dynamics, curvature or proper time along particular worldlines is encoded; the clock is a global time coordinate only."
+}

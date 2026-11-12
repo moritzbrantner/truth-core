@@ -1,0 +1,9 @@
+{
+ "id": "ddcc20b7-6dfc-46aa-aca5-690adb78709a",
+ "label": "Local Reaper pieces co-possible along every spaced populated descent",
+ "term": "possible local Reaper pieces along spaced descents",
+ "definition": "SpacedReaperPiecesPossible R h Concrete k w is ReaperPiecesPossible restricted to spaced descents: in every history v accessible from w, along every strictly descending sequence c of moments whose first moment has a contingent concrete individual present in v and whose slots all last at least some fixed positive duration on the clock k, every two adjacent local Reaper pieces (positive trigger, emission, forwarding, admissibility) are realized together in some world accessible from v. In ordinary language: if the past of a populated moment is metrically infinite, a possible Reaper trio fits at any three consecutive stations placed back through it at least delta apart, for example one per past day.",
+ "basis": "stipulative",
+ "lean_declaration": "TruthCore.Causality.MetricGrimReaper.SpacedReaperPiecesPossible",
+ "note": "Analyst formulation; attribution deferred. OPEN. Weak version of the coinitial local-pieces premise in linear time (spacedPiecesOfCoinitial). It places no station in a shrinking slot and says nothing about any metrically finite past, with or without a first moment, so in continuous time with a first moment and in an open-below finite past it holds for every register frame (MetricGrimReaper controls 2, 3). Registers carry no existential import, as in GrimReaperPatchwork."
+}
