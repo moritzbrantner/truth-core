@@ -1,0 +1,11 @@
+{
+  "id": "bb1fc65d-25aa-4473-bba4-fb7d268b1da5",
+  "label": "The nine give every typed Dei Filius attribute, LIVING_1 from the nine's LIVING_2",
+  "argument_id": "85e17d75-a872-4773-844b-0b3579adb1d5",
+  "challenge_module": "TruthCore.Results.Causality.DeiFiliusLivingNineScope.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DeiFiliusLivingNineScope.Solution",
+  "theorem": "TruthCore.Results.Causality.DeiFiliusLivingNineScope.nineGiveDeiFiliusLivingFromNine",
+  "comparator_config": "results/bb1fc65d-25aa-4473-bba4-fb7d268b1da5/comparator.json",
+  "status": "solution-present",
+  "description": "As in result 08bf7a13, at any being g with the nine the registered nineGiveDeiFilius is applied with every input except 'Whatever HAS_INTELLECT_1 is LIVING_1', on the primitives that agree with the given ones except that their Lives is HasIntellect; that bridge then holds trivially and nothing about the given Lives is used, and every conjunct except living is carried over. The nine-restricted life premise gives g life at some time of the duration frame (LIVING_2). Among the nine is altogether immutability, being in potency in no respect, so the restricted sense bridge gives g LIVING_1. Against 08bf7a13 the universal STMT-PURE-ACT-LIVES is replaced by its weak version, which says nothing of pure acts without the nine. The two senses of LIVING are not identified: the passage is the one listed bridge premise. Conditional consequence only; no premise is established."
+}

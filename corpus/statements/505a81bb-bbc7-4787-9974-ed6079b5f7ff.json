@@ -1,0 +1,16 @@
+{
+  "id": "505a81bb-bbc7-4787-9974-ed6079b5f7ff",
+  "label": "Controls for comprehension by degrees of act, knowability and knowing",
+  "paraphrase": "Closed controls on interpretations with two beings (Bool; true alone INFINITE_1; both have intellect) and the degree scale Bool (false < true): (1) nonvacuity: all four premises and the sense bridge hold, the bridge 'No intellect that is not INFINITE_1 comprehends an INFINITE_1 being' holds, true comprehends itself in both senses and false COMPREHEND_2s itself; (2)-(5) each of the four premises omitted in turn, the other three hold and false (not INFINITE_1) COMPREHEND_2s true (INFINITE_1); parts 2 and 4 also show maximal knowability and the non-maximal-power premise each fail while the other holds; (6) with everything comprehending everything in the primitive sense, the COMPREHEND_2 bridge holds and the sense bridge and the COMPREHEND_1 bridge fail; (7) with nothing comprehending in the primitive sense, the sense bridge holds and its converse fails; (8) on any Preorder scale with no maximum, 'Whatever is INFINITE_1 has a maximal degree of act' entails that nothing is INFINITE_1. Statements about these interpretations only.",
+  "lean_declaration": "TruthCore.Causality.ComprehensionByMeasure.Control.Controls",
+  "definition_ids": [
+    "5b196f1c-210d-450e-b3f1-33e214f9f45d",
+    "431287d4-f1b4-4e18-ad6e-555f49f1e39a",
+    "1218cc1e-e6ef-4f27-9036-d6e28cae67ad",
+    "4afe4ab4-f8cc-4120-b284-f1f0140e76c1",
+    "1d8890c0-afe2-5cdb-a400-0bbd4b79053d"
+  ],
+  "disambiguation_ids": [
+    "e151d506-c074-4e5d-a0f9-e9c51f1a73d7"
+  ]
+}

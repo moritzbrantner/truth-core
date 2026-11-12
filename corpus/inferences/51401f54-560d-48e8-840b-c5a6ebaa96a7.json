@@ -1,0 +1,13 @@
+{
+  "id": "51401f54-560d-48e8-840b-c5a6ebaa96a7",
+  "label": "No non-INFINITE_1 intellect COMPREHEND_2s an INFINITE_1 being, by transitivity (inference)",
+  "input_statement_ids": [
+    "8ccbf947-098a-416e-b2f5-b2de17761006",
+    "195ce36e-eb0a-463e-b08c-13e45b832316"
+  ],
+  "output_statement_id": "231820b4-2085-4435-a9bb-639db0ba0007",
+  "rule": "Transitivity of the preorder through the knowing degree, against the non-maximal bound",
+  "meaning": "Let g be INFINITE_1 and x an intellect that is not INFINITE_1, and suppose x knows g at a degree d that reaches g's knowability. Let p be x's non-maximal bound (second premise), so d is at most p. Every degree is at most g's knowability (first premise), which is at most d, which is at most p; so p is maximal, a contradiction. Hence x does not COMPREHEND_2 g. A derivation that could fail: on a scale where the knowability of g is not maximal, or where the bound may be maximal, the conclusion fails (Control parts 2-5). Conditional consequence; both premises are derived from open premises.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

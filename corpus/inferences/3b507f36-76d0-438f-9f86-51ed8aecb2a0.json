@@ -1,0 +1,12 @@
+{
+  "id": "3b507f36-76d0-438f-9f86-51ed8aecb2a0",
+  "label": "Actual ground more in esse, from ascent at every world (inference)",
+  "input_statement_ids": [
+    "406f0cbe-49ce-4de6-9a7d-e1b10a55ed72"
+  ],
+  "output_statement_id": "d96105fb-8c4d-5e56-b3c7-2cb77a447c2b",
+  "rule": "Instantiation at the selected world",
+  "meaning": "The unrestricted every-world ascent premise implies the actual-grounding ascent premise at each world. With no infinite ascent in being, this one premise thus yields both AGWF and J2 through the two derivations above. Registered as a strength order.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

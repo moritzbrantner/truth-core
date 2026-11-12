@@ -1,0 +1,21 @@
+{
+  "id": "c5775355-7106-4fbc-96bb-af77bbc016e6",
+  "label": "The unscoped giver of being entails the giver of a being's being",
+  "premise_statement_ids": [
+    "4ccb319f-9b7e-41fd-a560-d4affa25816b"
+  ],
+  "conclusion_statement_id": "4a5a43a5-bb4d-4a87-828a-d913a1f0422e",
+  "inference_ids": [
+    "e84d30c5-ba13-4f0e-a3d2-bc3ffaee2f5c"
+  ],
+  "meaning": "Strength order registration. Application only; it establishes neither. Strictness: control 13.",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
+  ]
+}

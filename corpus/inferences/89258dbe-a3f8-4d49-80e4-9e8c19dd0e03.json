@@ -1,0 +1,14 @@
+{
+  "id": "89258dbe-a3f8-4d49-80e4-9e8c19dd0e03",
+  "label": "IMMENSE_2 is present to all whenever they are, from sustaining causation and contact (inference)",
+  "input_statement_ids": [
+    "23e04ae5-98ed-4464-8f9b-dc0dfbad0caa",
+    "140544c4-3152-4543-9590-9567acf874a2",
+    "c4661518-33cc-4a53-ae55-cb986be9c2b5"
+  ],
+  "output_statement_id": "9469ab62-19a6-4053-9d22-540e5d4152bf",
+  "rule": "Creator conjunct of IMMENSE_2 at each present thing, through presence-in-act; sustaining reading; then the derived sustainer-presence step",
+  "meaning": "New non-transcription conditional derivation of the presence step that the immensity sense bridge 8bf775e9 carried untyped. Let g be IMMENSE_2 and x, other than g, present at t in history v. x is in act as to being (presence-in-act), so g causes x's being (creator conjunct); by the sustaining reading g gives x being at every moment x is present, so g sustains every other thing present at some moment; by the contact principle (through sustainerOfAllIsPresentToAll) g is present at t and gives x being then. The infinity conjunct is not used. Each premise is needed in a checked interpretation: with the originating reading in place of the sustaining one (existential inertia, Control part 1), without the contact principle (part 2), without the sustaining reading (part 3), without presence-in-act (part 4); all premises and the conclusion hold together nonvacuously (part 7). All three premises stay OPEN; the sustaining reading is where the existential-inertia dispute sits. No premise is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

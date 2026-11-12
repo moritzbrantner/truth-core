@@ -1,0 +1,13 @@
+{
+  "id": "af79c4ee-6bd1-4e6c-85b0-734a8b6975c4",
+  "label": "Whatever is INFINITE_1 has a maximal degree of act",
+  "paraphrase": "OPEN analyst premise, attribution deferred. For every g: if g is INFINITE_1 (unreceived subsistent being, DEF-INFINITE), then g's degree of act (actDegree, the primitive measure of definition 5b196f1c) is maximal in the sense of GREATEST on the degree scale (Mathlib IsTop: every degree is at most it; not merely IsMax, nothing strictly exceeds it, which is weaker on a non-total Preorder). After ST I q.7 a.1: esse not received in anything is limited by nothing. It reads 'unlimited act' as the greatest degree, not as a quantitative infinity (INFINITE_2). Consequence of IsTop on the one shared scale: every degree of act, knowability and knowing of every being is comparable with, and at most, the INFINITE_1's act; this is part of the commensurability commitment of the account. An IsMax variant would also derive the bridge (it would make this premise weaker and the non-INFINITE_1 premise stronger, 'something strictly exceeds it'); it is not registered. Commitment of its form: wherever something is INFINITE_1, the scale has a greatest degree; on a scale with no maximum (Mathlib NoMaxOrder, such as the natural numbers) it entails that nothing is INFINITE_1 (Control part 8). Needed: without it, a non-INFINITE_1 intellect COMPREHEND_2s an INFINITE_1 being in a model of the other three premises (Control part 2).",
+  "lean_declaration": "TruthCore.Causality.ComprehensionByMeasure.InfiniteActIsMaximal",
+  "definition_ids": [
+    "1d8890c0-afe2-5cdb-a400-0bbd4b79053d",
+    "5b196f1c-210d-450e-b3f1-33e214f9f45d"
+  ],
+  "disambiguation_ids": [
+    "587c53cf-c2a8-51f6-b8c1-013e67756dc6"
+  ]
+}

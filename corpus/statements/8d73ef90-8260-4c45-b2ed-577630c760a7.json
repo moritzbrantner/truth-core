@@ -1,0 +1,12 @@
+{
+  "id": "8d73ef90-8260-4c45-b2ed-577630c760a7",
+  "label": "What is more in being than another is in act in some respect the other is not",
+  "paraphrase": "Open bridge, analyst formulation, unattributed: whenever y is more in being than x, y is in act in some respect in which x is not. After the reading of grades of being as grades of act (ST I q.4 a.2; q.2 a.3, quarta via). Interpretation gap: with the binary InAct, things in act in the same respects cannot differ in being, so a reading on which grades are intensities of one act makes this bridge fail unless respects separate grades.",
+  "lean_declaration": "TruthCore.Causality.DeiFiliusAttributeField.ExcessInBeingIsExcessInAct",
+  "definition_ids": [
+    "a2a8de58-42e0-5481-b7fb-848ae8602036"
+  ],
+  "disambiguation_ids": [
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
+  ]
+}

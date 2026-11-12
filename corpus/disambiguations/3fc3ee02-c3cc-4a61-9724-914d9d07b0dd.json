@@ -1,0 +1,25 @@
+{
+  "id": "3fc3ee02-c3cc-4a61-9724-914d9d07b0dd",
+  "label": "Immense: primitive unmeasured presence to all versus infinite cause of the being of all",
+  "term": "immense",
+  "term_label": "IMMENSE",
+  "sense_definition_ids": [
+    "bf2f30d1-609f-4b23-b819-786d877b949c",
+    "641c767b-4289-4d92-b900-da7ad603d282"
+  ],
+  "resolution": "The Dei Filius attributes (immense conjunct) and the bridge 'Whatever causes the being of everything else is IMMENSE_1' use IMMENSE_1, the primitive Primitives.Immense (measured or contained by no place and present to everything that is). IMMENSE_2 (IsImmenseAsInfiniteCauseOfAll) types two grounds q.7 a.1 and q.8 a.3 give for it: g is INFINITE_1 and causes the being of everything else (tenselessly; q.8 a.3 gives causing being as the ground of presence by essence, and presence itself is not typed). IMMENSE_2 is a typed proxy for Aquinas's grounds, not a sense in which Dei Filius calls God immense. They differ in content, not only in strength: IMMENSE_1 concerns place, measure and presence in all three modes of q.8 a.3, IMMENSE_2 only infinity and causing being; neither is defined from the other and they are not identified. One statement relates them: the open sense bridge 'Whatever is IMMENSE_2 is IMMENSE_1'. Only an argument that lists it in sense_bridges passes from IMMENSE_2 to IMMENSE_1 (the routes nineGiveDeiFiliusImmenseIncomprehensibleTyped and deiFiliusRootImmenseIncomprehensibleTyped); the controls of DeiFiliusImmenseIncomprehensible show that without it a being with the nine can be IMMENSE_2 and not IMMENSE_1. Neither sense is INFINITE_2 (infinity of extent).",
+  "senses": [
+    {
+      "id": "1bf8b401-ddd3-459a-bc15-67083eb8d2f1",
+      "label": "IMMENSE_1",
+      "definition_id": "bf2f30d1-609f-4b23-b819-786d877b949c",
+      "lean_declaration": "TruthCore.Causality.DeiFiliusAttributeField.Primitives.Immense"
+    },
+    {
+      "id": "f9a7bc6c-f847-4f4c-9cf8-9f8d1cdcc5bf",
+      "label": "IMMENSE_2",
+      "definition_id": "641c767b-4289-4d92-b900-da7ad603d282",
+      "lean_declaration": "TruthCore.Causality.DeiFiliusImmenseIncomprehensible.IsImmenseAsInfiniteCauseOfAll"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "0afc45a7-dc99-4f07-985d-c57e19b0ab39",
+  "label": "Nothing gives what it lacks entails its cause-of-being restriction",
+  "argument_id": "11f49549-6983-4aca-8bd1-ce396e5ae99b",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.CauseOfBeingHasBeing.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.CauseOfBeingHasBeing.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.CauseOfBeingHasBeing.causeOfBeingGivesOfCauseGives",
+  "comparator_config": "results/0afc45a7-dc99-4f07-985d-c57e19b0ab39/comparator.json",
+  "status": "solution-present",
+  "description": "Strength order registration: the unrestricted principle (every cause of any perfection in a thing has it) entails its restriction to causes of the thing's being. Application only; it establishes neither. Strictness: control 15 (a cause of another perfection of a thing whose being it does not cause)."
+}

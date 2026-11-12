@@ -1,0 +1,11 @@
+{
+  "id": "d3d432c9-4a65-466d-9dff-5e4dc6f9d24a",
+  "label": "Grounded-beginnings controls checked",
+  "argument_id": "040252e1-f946-4254-9de0-6a4390191d70",
+  "challenge_module": "TruthCore.Results.Causality.GroundedBeginnings.Challenge",
+  "solution_module": "TruthCore.Results.Causality.GroundedBeginnings.Solution",
+  "theorem": "TruthCore.Results.Causality.GroundedBeginnings.controls",
+  "comparator_config": "results/d3d432c9-4a65-466d-9dff-5e4dc6f9d24a/comparator.json",
+  "status": "solution-present",
+  "description": "Each of the two grounding premises is needed for inert emptiness in an interpretation where the other holds: a ground-free beginning out of nothing; a beginning whose only ground ceased before an empty moment (a concrete ground alone does not suffice); and an endless chain of present concrete grounds coming to be after an empty first moment, with no earliest moment after it. Both premises and the traced form hold with no necessary individual at either world, so they carry no modal content. Inert emptiness holds while the traced form fails, so the traced form strictly strengthens it. Both premises hold with presence-to-existence and the possible contingent-free past in a model where the conclusion of Arrival A holds. An endless past of predecessor grounds satisfies both premises and inert emptiness while violating well-founded grounding among all present things, so the weak well-foundedness premise is strictly weaker. Model claims concern these interpretations only."
+}

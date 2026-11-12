@@ -130,6 +130,10 @@ jobs:
           fi
       - name: Check bounded migration coverage and review freshness
         run: python3 scripts/bundle_audit.py
+      # Every committed batch spec regenerates its records unchanged (#1484): a hand
+      # edit to a generated record is carried into its spec, not left to drift.
+      - name: Check that batch specs regenerate their records unchanged
+        run: python3 scripts/argument_batch.py records --check specs/*.toml
       - name: Bind argument records to result theorem types
         if: needs.comparator-plan.outputs.lean == 'true'
         run: python3 scripts/corpus.py bind-check

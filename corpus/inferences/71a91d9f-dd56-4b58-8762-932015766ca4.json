@@ -1,0 +1,12 @@
+{
+  "id": "71a91d9f-dd56-4b58-8762-932015766ca4",
+  "label": "Graded actual grounding, from its well-foundedness (inference)",
+  "input_statement_ids": [
+    "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21"
+  ],
+  "output_statement_id": "4fe25134-7a5c-4241-b558-a43ce9205527",
+  "rule": "Take the grade to be actual concrete grounding at w itself; well-foundedness lifts from the subtype",
+  "meaning": "Converse of the graded route: well-founded actual grounding already yields some rigid comparison with no infinite ascent that actual grounding ascends. With actualGroundingWFOfAscent the two are equivalent when the grade may be chosen freely. So the graded formulation is not a weaker commitment than AGWF; its additional content is the identification of the grade with the Fourth Way's more in esse, which STMT-GRADES-TO-MAXIMUM-AT-BEING also uses.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

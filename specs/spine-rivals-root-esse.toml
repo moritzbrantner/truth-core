@@ -25,7 +25,7 @@ disambiguations = ["DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF", "DISAMB-REGRESS-DOMAINS"
 [[statement]]
 id = "Some actual CONCRETE_6 individual is contingent and has no actual CONCRETE_6 ground"
 lean = "TruthCore.Causality.NecessaryRootFork.ContingentRootAt"
-paraphrase = "Rival framework commitment, unattributed (motivated by brute-fact views of contingent reality and existential inertia): some concrete candidate exists at w, has no concrete ground existing at w under the selected relation at w, and is absent from some world accessible from w. An abstract, absent or unmodelled explanation is not excluded."
+paraphrase = "Rival framework commitment, unattributed (motivated by brute-fact views of contingent reality; existential inertia, as Schmid states it, denies concurrent sustenance and may not be this rival; whether earlier existence counts as a ground under the selected relation is open): some concrete candidate exists at w, has no concrete ground existing at w under the selected relation at w, and is absent from some world accessible from w. An abstract, absent or unmodelled explanation is not excluded."
 definitions = ["Contingent actual root: a brute contingent foundation", "DEF-BRUTE-ROOT-RELATIVE-GROUNDING", "DEF-KANT-MODAL-CONTINGENCY", "DEF-KANT-ONTOLOGICAL-MODEL", "DEF-CONCRETE-ESSE-IN-RE"]
 disambiguations = ["DISAMB-NECESSARY-INDIVIDUAL-SCOPE", "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT", "DISAMB-CONCRETE-ABSTRACT-CRITERIA"]
 
@@ -428,7 +428,7 @@ subject_id = "Something exists at the selected world and nothing existing there 
 predicate = "alternative_to"
 object_kind = "statement"
 object_id = "STMT-COGITO-INHABITED-CONCRETE-WORLD"
-note = "Same Ontic model, concrete predicate and world. Stronger than the negation: adds that something exists. Recorded so the premise can later be defended or refuted; neither is established."
+note = "Same Ontic model, concrete predicate and world. Stronger than the negation: adds that something exists. Recorded so the premise can later be defended or refuted; neither is established. Objection audit 2026-11-12 (attempt b6384b6b-ef1a-405e-8237-0c2127d86b5f): formal alternative; the model shows the premise is needed, and no independent justification for the rival is on file."
 
 [[relation]]
 id = "Bottomless actual grounding is an alternative to whole-roster nontrapping"
@@ -437,7 +437,7 @@ subject_id = "The actual CONCRETE_6 roster is inhabited and every member has an 
 predicate = "alternative_to"
 object_kind = "statement"
 object_id = "STMT-WHOLE-ROSTER-NOT-TRAPPED"
-note = "Same Profile and world. The rival implies the negation of the premise (checked); the converse is not checked. Neither is established."
+note = "Same Profile and world. The rival implies the negation of the premise (checked); the converse is not checked. Neither is established. Objection audit 2026-11-12 (attempt b6384b6b-ef1a-405e-8237-0c2127d86b5f): substantive, partial: Welchance 2026 (read) argues explanatory parity of an unexplained chain; the bridge from facts in virtue of facts to concrete grounds is open."
 
 [[relation]]
 id = "A contingent actual root is an alternative to contingent dependence"
@@ -446,7 +446,7 @@ subject_id = "Some actual CONCRETE_6 individual is contingent and has no actual 
 predicate = "alternative_to"
 object_kind = "statement"
 object_id = "STMT-EVERY-CONTINGENT-GROUNDED-AT"
-note = "Same Profile and world. The rival asserts an instance the premise forbids; with excluded middle it is the premise's negation. Neither is established."
+note = "Same Profile and world. The rival asserts an instance the premise forbids; with excluded middle it is the premise's negation. Neither is established. Objection audit 2026-11-12 (attempt b6384b6b-ef1a-405e-8237-0c2127d86b5f): partial: Schmid's existential inertia (read) explains persistence by earlier existence with no concurrent sustainer; open bridge: whether grounding under m.grounds is concurrent sustenance by a distinct ground. Hume I.3.3 argues nondemonstrability only, and the read Oppy 2020 paper is support neither way (bearer identity across worlds is withheld)."
 
 [[relation]]
 id = "An idle maximum is an alternative to the genus principle at being"
@@ -455,7 +455,7 @@ subject_id = "Some maximum in being leaves the being of another being to a third
 predicate = "alternative_to"
 object_kind = "statement"
 object_id = "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS"
-note = "Same InAct, MoreIn, CausesIn and esse. Stronger than the negation: names a replacing cause. Neither is established."
+note = "Same InAct, MoreIn, CausesIn and esse. Stronger than the negation: names a replacing cause. Neither is established. Objection audit 2026-11-12 (attempt b6384b6b-ef1a-405e-8237-0c2127d86b5f): formal alternative; no independent justification on file (unread lead: a final-cause-only first mover)."
 
 [[relation]]
 id = "Thin existence is an alternative to the existence-to-act contract"
@@ -464,7 +464,7 @@ subject_id = "Something exists at the selected world and no existent there is in
 predicate = "alternative_to"
 object_kind = "statement"
 object_id = "STMT-EXISTING-IN-ACT-AT"
-note = "Same Ontic model, InAct, esse and world. Stronger than the negation: no existent of the world has the act. Neither is established."
+note = "Same Ontic model, InAct, esse and world. Stronger than the negation: no existent of the world has the act. Neither is established. Objection audit 2026-11-12 (attempt b6384b6b-ef1a-405e-8237-0c2127d86b5f): formal alternative; the rival's sense is fixed by its thin-existence definition, and with one shared InAct and esse respect it contests the bundle of existence-to-act, perfection transfer and infinity together. No sourced justification is on file."
 
 [[relation]]
 id = "A non-concrete esse cause is an alternative to the esse-cause bridge"
@@ -473,7 +473,7 @@ subject_id = "Some actual concretum has a distinct existing cause of its esse th
 predicate = "alternative_to"
 object_kind = "statement"
 object_id = "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND"
-note = "Same Profile, world, CausesIn and esse. Stronger than the negation: fixes that the concreteness clause fails. Neither is established."
+note = "Same Profile, world, CausesIn and esse. Stronger than the negation: fixes that the concreteness clause fails. Neither is established. Objection audit 2026-11-12 (attempt b6384b6b-ef1a-405e-8237-0c2127d86b5f): partial, on an analyst construction only: Phaedo 100d-e explains being so, not esse; Rosen reports, without endorsing, Lewis's events-as-sets, with two stacked open bridges (causing events vs causing esse; impure sets non-concrete in the adopted sense)."
 
 [[relation]]
 id = "Unbounded grades of being are an alternative to grades-to-maximum at being"
@@ -482,7 +482,7 @@ subject_id = "Some pair compares in esse and every individual in act in esse is 
 predicate = "alternative_to"
 object_kind = "statement"
 object_id = "STMT-GRADES-TO-MAXIMUM-AT-BEING"
-note = "Same InAct, MoreIn and esse. Stronger than the negation: the exceeding individual is itself in act. Neither is established."
+note = "Same InAct, MoreIn and esse. Stronger than the negation: the exceeding individual is itself in act. Neither is established. Objection audit 2026-11-12 (attempt b6384b6b-ef1a-405e-8237-0c2127d86b5f): formal alternative; comparatives without a maximum bear only on a general more-and-less rule that nothing on the route uses (both derivations are specific to being), so they show only that such a general warrant would not suffice."
 
 [[relation]]
 id = "Mere conservation is an alternative to universal perfection transfer"
@@ -491,7 +491,7 @@ subject_id = "Some universal cause of esse leaves an actual perfection of its ef
 predicate = "alternative_to"
 object_kind = "statement"
 object_id = "STMT-UNIVERSAL-CAUSE-TRANSFERS-PERFECTIONS"
-note = "Same InAct, CausesIn and esse. Stronger than the negation: names the secondary cause. Neither is established."
+note = "Same InAct, CausesIn and esse. Stronger than the negation: names the secondary cause. Neither is established. Objection audit 2026-11-12 (attempt b6384b6b-ef1a-405e-8237-0c2127d86b5f): formal alternative; no independent justification on file (unread lead: Durandus)."
 
 [[relation]]
 id = "Non-concrete simple priority is an alternative to the simple-priority bridge"
@@ -500,7 +500,7 @@ subject_id = "Something not CONCRETE_6 is SIMPLY_PRIOR_1 to a distinct actual co
 predicate = "alternative_to"
 object_kind = "statement"
 object_id = "STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND"
-note = "Same Profile, world and PriorSimply. Stronger than the negation: fixes that the concreteness clause fails. Neither is established."
+note = "Same Profile, world and PriorSimply. Stronger than the negation: fixes that the concreteness clause fails. Neither is established. Objection audit 2026-11-12 (attempt b6384b6b-ef1a-405e-8237-0c2127d86b5f): formal alternative; the Phaedo claim says nothing about priority, and reading it as simple priority would be an unsupported bridge."
 
 [[relation]]
 id = "An exceeded god is an alternative to God's maximality in being"
@@ -509,7 +509,7 @@ subject_id = "Something that is GOD_4 has being and is exceeded in being by some
 predicate = "alternative_to"
 object_kind = "statement"
 object_id = "STMT-GOD-IS-MAXIMAL-IN-BEING"
-note = "Same IsGod, InAct, MoreIn and esse. Stronger than the negation: the god has being and what exceeds it is not God. Neither is established."
+note = "Same IsGod, InAct, MoreIn and esse. Stronger than the negation: the god has being and what exceeds it is not God. Neither is established. Objection audit 2026-11-12 (attempt b6384b6b-ef1a-405e-8237-0c2127d86b5f): misdirected, given the open attribute premise that fixes GOD_4's content: finite gods use another sense than GOD_4, and no substantive objection in this sense is identified."
 
 [[relation]]
 id = "Contingent support of a necessary concretum is an alternative to its exclusion"

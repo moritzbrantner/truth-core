@@ -1,0 +1,30 @@
+{
+  "id": "f4c67cee-64e4-4c8d-a918-b11984de392e",
+  "label": "Creator of all being LORD_1 gives LORD_2 being LORD_1",
+  "premise_statement_ids": [
+    "bb3d4417-b2f6-4310-9433-21ff2e386780"
+  ],
+  "conclusion_statement_id": "eb6611a5-f8a7-44f6-9bf1-2f65eb80b3cb",
+  "inference_ids": [
+    "6430338f-a10d-4202-86e0-dbc90f55ec43"
+  ],
+  "meaning": "Strength order registration: the old bridge (whatever causes the being of everything else is LORD_1) entails the new sense bridge, since whatever is LORD_2 causes the being of everything else. Projection and application only; it establishes neither.",
+  "definition_ids": [
+    "59350e3b-1b76-45cd-b9fd-548f3f4658b5",
+    "92c03350-6809-497d-b123-2ffb11c0e0c1",
+    "c8e458bd-3b8a-4e10-8e2d-43d1c1912c63"
+  ],
+  "disambiguation_ids": [
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "aa1de96a-e0d2-4739-a34f-9b98f1034a34"
+  ],
+  "sense_bridges": [
+    {
+      "term": "LORD",
+      "from": "ba3b77d5-8a47-4647-8426-240fd4b42c3b",
+      "to": "169d3077-17ed-4ced-aefc-8c4579db89c2",
+      "statement_id": "eb6611a5-f8a7-44f6-9bf1-2f65eb80b3cb",
+      "role": "conclusion"
+    }
+  ]
+}

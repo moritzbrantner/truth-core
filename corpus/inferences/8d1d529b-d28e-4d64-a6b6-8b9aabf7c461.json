@@ -1,0 +1,12 @@
+{
+  "id": "8d1d529b-d28e-4d64-a6b6-8b9aabf7c461",
+  "label": "Unrestricted Grim Reaper patchwork gives coinitial Grim Reaper patchwork (inference)",
+  "input_statement_ids": [
+    "3c0c69a9-8076-4d85-9119-6ccbedaa6547"
+  ],
+  "output_statement_id": "7d17a839-f29b-4d16-a70c-5e3d3bd77c25",
+  "rule": "Restrict the quantifier over descents to coinitial ones",
+  "meaning": "Strength order: the gluing premise over every populated descent gives it over coinitial populated descents. No premise is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

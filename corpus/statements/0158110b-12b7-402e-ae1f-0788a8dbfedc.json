@@ -1,0 +1,12 @@
+{
+  "id": "0158110b-12b7-402e-ae1f-0788a8dbfedc",
+  "label": "In every possible history, each moment with a contingent concrete thing present has a begun past",
+  "paraphrase": "OPEN analyst premise, attribution deferred: in every history accessible from the selected world, every moment at which some contingent concrete individual is present has a past with a beginning (some moment at or before it has no earlier moment). It denies the begun version of horn H2 (a beginningless past at a populated moment) wherever a contingent concrete thing is present; histories with no contingent concrete thing present are unconstrained. Unlike founded populated pasts it allows continuous time with a first moment. Its cost: it excludes, in every accessible history, contingent presence in a past with no first moment even when that past is metrically finite. Standard FLRW Big Bang cosmology has such a past (time open below; the initial singularity is not a moment), so this premise denies that such a cosmology, populated, is possible. Because the beginning is a first moment of the shared time order, not of events, it also excludes empty beginningless time before a first event (creation in an absolute time with no first moment). In a branching order one minimal moment at or below a populated moment suffices, so other branches below it may be beginningless. It mentions no cause. 'Concrete' is the supplied Concrete parameter.",
+  "lean_declaration": "TruthCore.Causality.GrimReaperPatchwork.PopulatedPastsBegun",
+  "definition_ids": [
+    "0406b0e4-e869-4d3f-a4ca-9e7e86f7fea0",
+    "8aca16f2-088d-4566-8b99-2b8369ed929b",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "9eb83aff-fc7b-4def-8e74-a8c8ee61cc42",
+  "label": "Causes of being of actual concreta exist at w, from the giver of being",
+  "premise_statement_ids": [
+    "4a5a43a5-bb4d-4a87-828a-d913a1f0422e",
+    "0436de86-6579-53f2-9ff5-2111ba44ebae",
+    "546975ef-0614-5c0a-8f49-fab2cd2a2533"
+  ],
+  "conclusion_statement_id": "c99f9d23-3f05-5c3c-9279-44a59e445a14",
+  "inference_ids": [
+    "ca10ea47-b739-4e7b-8d09-f4894c8de3be"
+  ],
+  "meaning": "New non-transcription derivation of the analyst leaf STMT-ESSE-CAUSES-EXIST-AT. Let x be an actual concretum at w and c cause x's being. x exists at w, so it is in act as to being (existence-to-act contract); nothing gives being that it does not have, so c is in act as to being; whatever is in act as to being exists at w (the open act-to-existence converse, which reads the timeless InAct relative to the selected world), so c exists at w. Each premise is needed in a checked interpretation (controls 3, 4 and 5). The open content of the old leaf divides into the classical maxim at being and the actualist reading of esse at the reading world. No premise is established.",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "fc6f0e12-470f-5717-8c5b-ece7a450fe59",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
+  ]
+}

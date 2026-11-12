@@ -1,0 +1,11 @@
+{
+  "id": "10fa2a80-f447-454b-9e88-0338e5c71aed",
+  "label": "Whatever has the nine is LIVING_2, from every POTENCY_1-free being being LIVING_2",
+  "argument_id": "65dcdb08-b915-46df-9769-a9f176985685",
+  "challenge_module": "TruthCore.Results.Causality.DeiFiliusLivingNineScope.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DeiFiliusLivingNineScope.Solution",
+  "theorem": "TruthCore.Results.Causality.DeiFiliusLivingNineScope.nineLiveOfPureActLives",
+  "comparator_config": "results/10fa2a80-f447-454b-9e88-0338e5c71aed/comparator.json",
+  "status": "solution-present",
+  "description": "Strength order registration: STMT-PURE-ACT-LIVES (every pure act lives at some time of the duration frame) entails its nine-restricted version, since the altogether-immutable conjunct of the nine is by definition being in potency in no respect. Projection and application only; it establishes neither version."
+}

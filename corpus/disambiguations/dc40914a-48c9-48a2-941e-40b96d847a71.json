@@ -1,0 +1,32 @@
+{
+  "id": "dc40914a-48c9-48a2-941e-40b96d847a71",
+  "label": "Beginning in B1: first moment or finite duration of prior time, or a schematic placeholder",
+  "term": "contingent concrete reality begins",
+  "term_label": "BEGINS",
+  "sense_definition_ids": [
+    "816c7ad5-354c-4b80-88f7-1b5ba3e5f446",
+    "1972f626-2de1-4d89-b1d0-46645eabe884",
+    "1d100916-f4af-4a24-b649-74e771140762"
+  ],
+  "senses": [
+    {
+      "id": "11826ab1-fe07-4f77-b95b-f04d5af9b8f2",
+      "label": "BEGINS_1",
+      "definition_id": "816c7ad5-354c-4b80-88f7-1b5ba3e5f446",
+      "lean_declaration": "TruthCore.Causality.MetricBeginningArrival.FirstMomentBeginningAt"
+    },
+    {
+      "id": "2b0ac089-00e3-4a64-9247-edac34154de2",
+      "label": "BEGINS_2",
+      "definition_id": "1972f626-2de1-4d89-b1d0-46645eabe884",
+      "lean_declaration": "TruthCore.Causality.MetricBeginningArrival.FiniteDurationBeginningAt"
+    },
+    {
+      "id": "5e1f87d2-d678-4a49-a825-38226469df15",
+      "label": "BEGINS_3",
+      "definition_id": "1d100916-f4af-4a24-b649-74e771140762",
+      "lean_declaration": "TruthCore.Causality.PossibleCauseOfContingency.ContingencyBeginsAt"
+    }
+  ],
+  "resolution": "B1's 'contingent concrete reality begins' is read in three senses. BEGINS_1 and BEGINS_2 constrain the time before the populated moments of a history, not contingent reality itself. BEGINS_1: the time before every populated moment has a first moment (an order notion). BEGINS_2: the time before every populated moment is of finite duration on the supplied clock, CLOCK_1 intended (a metric notion; an open-below, finite past as in standard FLRW cosmology satisfies it and not BEGINS_1; with a bounded clock it reduces to population). Neither tracks the beginning of contingent reality: integer time empty before 0 and populated from 0 on has contingent reality beginning a finite time ago and satisfies neither; non-negative real time empty at 0 and populated after it satisfies BEGINS_1 with no first populated moment. A fourth sense, a first populated moment after emptiness (related to premise A3 of Arrival A, contingent things absent at a moment and present later), is named but not formalized here. BEGINS_3 is a schematic placeholder that fixes no sense: the uninterpreted Scenario predicate beginsContingency of PossibleCauseOfContingency, which the existing Arrival B premises B1 (STMT-SCENARIO-POSSIBLY-BEGINS) and B2 (STMT-SCENARIO-CAUSAL-OPPORTUNITY) use; the Scenario has no times, so the arrival is valid for every predicate. The metric Grim Reaper conclusion bears on BEGINS_2 only; it gives no first moment (MetricGrimReaper control 2). MetricBeginningArrival supplies BEGINS_2 for the placeholder and states B1 and B2 in that sense as separate statements; supplying a sense for the placeholder is instantiation, not a passage between senses. The only passage between senses is the checked strength order BEGINS_1 to BEGINS_2 in linear time (possiblyFiniteDurationOfFirstMoment), whose converse fails (MetricBeginningArrival control 2). Neither BEGINS_1 nor BEGINS_2 is the coming-to-be of one individual (TemporalHistory.BeginsAt)."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "f6de4e07-6099-4702-9e52-b71573169766",
+  "label": "Concurrent actualization by another entails concurrent actualization (inference)",
+  "input_statement_ids": [
+    "76d2cc96-14a0-48bc-bd0b-a5c0ca853265"
+  ],
+  "output_statement_id": "40a97664-e481-42d7-8458-78374a61aa26",
+  "rule": "Drop the distinctness of the giver",
+  "meaning": "Strength order registration: if, whenever a received-esse thing is present, something distinct from it gives it being, then something gives it being. Application only; it establishes neither. Strictness is witnessed by Control part 2 (an intrinsic persistence power satisfies the weak version and falsifies the strong one).",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,11 @@
+{
+  "id": "5785fe99-fabf-440f-b0c3-db146b9bb28c",
+  "label": "Controls for the nine's operation from intellect, capacity and PURE_ACT_5, checked",
+  "argument_id": "08aa4325-d859-471b-b9e3-dc70bf4a5b6e",
+  "challenge_module": "TruthCore.Results.Causality.DeiFiliusOperationFromIntellect.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DeiFiliusOperationFromIntellect.Solution",
+  "theorem": "TruthCore.Results.Causality.DeiFiliusOperationFromIntellect.controls",
+  "comparator_config": "results/5785fe99-fabf-440f-b0c3-db146b9bb28c/comparator.json",
+  "status": "solution-present",
+  "description": "Each of the three capacity premises is needed for the nine's operation in these interpretations (omission models with a being that has the nine); the three hold together with a being that has the nine (nonvacuity); in that model the being with the nine operates and does not live in either sense, which holds trivially (Lives and LivesAt are unconstrained) and shows only that no premise mentions life; and the strength order STMT-PURE-ACT-OPERATES, intellectual pure act operates, the nine operate is strict at each step. Model-witnessed facts about these interpretations only: an omission model shows where a premise is needed, not that it is false."
+}

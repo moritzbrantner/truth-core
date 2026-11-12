@@ -1,0 +1,11 @@
+{
+  "id": "36121a90-a0dc-4c30-9e40-d848a9b1f2ae",
+  "label": "The immensity sense bridge strengthens its narrowed form",
+  "subject_kind": "statement",
+  "subject_id": "8bf775e9-34e0-48e5-bdd8-f48edd1040f7",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "a3913182-5557-4e8b-80d1-3771a57c3a03",
+  "verification_result_id": "b81b832f-77ac-4190-90e6-3a8329266be8",
+  "note": "Same InAct, CausesIn, esse, Infinite and Immense; the narrowed form adds a history and giving relation and the antecedent that g is present to all whenever they are in every history. Strictness is not checked."
+}

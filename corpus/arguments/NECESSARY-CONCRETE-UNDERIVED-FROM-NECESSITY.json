@@ -34,5 +34,8 @@
     "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
     "5d15d8f2-1080-53c9-886f-cee2a4ff23a9",
     "83264cf5-01fe-52fc-9a00-eeb024f6496e"
-  ]
+  ],
+  "strong_version_needed": {
+    "dd41c165-129a-59d3-84ce-bd13c0944901": "The selected-world instance does not suffice (Control.lateSupport), and whether an intermediate scope (supporters at accessible or admitted worlds only) suffices is untested: the descent runs through the cross-world union of support, so a supporter found at another world must be necessary. In Control.lateSupport (result 3ce3b9c0-d8c7-43a4-b14c-1ff7adb16dfa) the selected-world instance holds with every other premise of this argument while J1 and the conclusion fail. Recorded when the NecessarySupportActualScope batch registered the strength order."
+  }
 }

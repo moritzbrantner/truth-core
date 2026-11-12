@@ -1,0 +1,41 @@
+{
+  "id": "a9cd32b6-c7fa-4b4b-94dd-108ff52bcb60",
+  "label": "Whatever is CREATURE_2 is CREATURE_1, from the Fourth-Way maximum",
+  "premise_statement_ids": [
+    "0e242e29-7670-55f8-bf8e-f5800b9890c7",
+    "2f2f5bd2-9b6a-4251-8b93-885996ae08e2"
+  ],
+  "conclusion_statement_id": "5969873b-a619-4880-a92d-77e1f2752513",
+  "inference_ids": [
+    "f2d12806-1fa3-4015-97e7-3bab53ab2501"
+  ],
+  "meaning": "Let c, distinct from x, cause x's being (x is CREATURE_2). The proved Fourth-Way consequence gives some m, maximal in being, that causes the being of every other being in act and whose being no being distinct from it causes. x is not m: otherwise c, distinct from m, would cause m's being. By the weak premise x is in act as to being, so m causes x's being. Hence x is CREATURE_1, with m as the universal cause it is ordered to. The CREATURE sense bridge, at its sense-fixed declaration naming both sense constants, is the conclusion (role conclusion); the premises use neither sense. The Creature-parametric legacy statement b7d4eede follows by instantiation. Its weight sits in the Fourth-Way consequence, whose own premises (the four quarta via readings and the Metaphysics II.1 causal comparison) stay as they are: in particular the reading that the maximum causes the being of every other being in act, a thing caused by a secondary cause included. Conditional consequence; no premise is established. The controls show that the bridge fails without the Fourth-Way consequence (model 1) and without the weak premise (model 2).",
+  "definition_ids": [
+    "80dea550-60c1-447a-83bf-d3f27ea0b2a8",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "afcdd2c5-1167-5a73-97d7-cb99a6ad5817",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "a2a8de58-42e0-5481-b7fb-848ae8602036",
+    "b412016a-43c1-5c4a-abb0-4e53d343d508",
+    "fdfbbc59-1f33-4fab-a96f-b41f37974af5"
+  ],
+  "disambiguation_ids": [
+    "3b0d67c5-59e4-5556-a728-26bd567f0fb1",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282",
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520",
+    "c49de1e9-c34f-424f-b144-b80c885974ca"
+  ],
+  "sense_bridges": [
+    {
+      "term": "CREATURE",
+      "from": "cbae26cb-418c-41db-9446-9974791d8e9b",
+      "to": "a900760c-6f85-483c-b90e-e67b32387568",
+      "statement_id": "5969873b-a619-4880-a92d-77e1f2752513",
+      "role": "conclusion"
+    }
+  ],
+  "term_senses": {
+    "CREATURE": "a900760c-6f85-483c-b90e-e67b32387568"
+  }
+}

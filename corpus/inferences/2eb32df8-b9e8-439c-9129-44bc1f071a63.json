@@ -1,0 +1,16 @@
+{
+  "id": "2eb32df8-b9e8-439c-9129-44bc1f071a63",
+  "label": "Underived necessary concretum, from necessity, actual no contingent support and coverage (inference)",
+  "input_statement_ids": [
+    "b19ffd92-01bd-5c0b-9643-e7407137ea5e",
+    "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21",
+    "84751fc2-0179-49ce-b96a-04d95781d8bc",
+    "df42581f-5fff-4b5f-8b40-6e16d2b890f2",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
+  ],
+  "output_statement_id": "0bdcf366-29c7-5d45-b603-5c929dcad976",
+  "rule": "Composition of actual_source_not_not on the concrete subtype with presentSupportWF, then excluded middle and coverage",
+  "meaning": "The coverage route from necessity (underivedFromNecessityOfCoverage) with J1 replaced by its selected-world instance. From a concretum existing at w and necessary from w, well-founded actual grounding at w (which makes support among actual necessary concreta at w well-founded, by the existing presentSupportWF) and no contingent concrete support at w, the existing actual_source_not_not gives, double-negated, an actual necessary concretum with no concrete supporter existing at w; excluded middle removes the double negation; coverage then excludes a concrete supporter existing at any admitted world, since such a supporter would yield one at w. The witness may differ from the given necessary concretum. Underived means no existing concrete supporter at any admitted world, not absence of every explanation. Conditional consequence only; no premise is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

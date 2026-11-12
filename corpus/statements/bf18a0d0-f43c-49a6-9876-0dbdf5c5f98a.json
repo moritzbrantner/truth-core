@@ -1,0 +1,14 @@
+{
+  "id": "bf18a0d0-f43c-49a6-9876-0dbdf5c5f98a",
+  "label": "In every history, grounding among concrete things that come to be after a moment is well-founded",
+  "paraphrase": "OPEN analyst premise, attribution deferred: in every history of the model and for every moment s, there is no endless descending chain of grounds among concrete individuals each absent at s and present at some moment strictly after s. An endless past of grounds whose members are not all absent at one moment (an endless past of generations) is not excluded. Per se and per accidens grounds are treated alike; transitivity and asymmetry of grounding are not assumed.",
+  "lean_declaration": "TruthCore.Causality.GroundedBeginnings.PostAbsenceGroundingWellFounded",
+  "definition_ids": [
+    "9c097ca8-c5e0-4cdf-90e6-8f84058afd74",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e"
+  ],
+  "disambiguation_ids": [
+    "81c233d4-01b4-528c-8bbd-7da228443ffe",
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
+  ]
+}

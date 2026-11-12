@@ -1,0 +1,32 @@
+{
+  "id": "6d69de56-2872-4454-929a-88ef1d52581b",
+  "label": "PERFECT_2 intellect being BLESSED_1 gives BLESSED_2 being BLESSED_1",
+  "premise_statement_ids": [
+    "dc3ec456-9fd1-4e1a-8690-c529fe831ee2"
+  ],
+  "conclusion_statement_id": "a23dd1ac-1e5b-4842-bf82-385a36607a77",
+  "inference_ids": [
+    "5c56d6b9-96e2-40e6-8cd9-da4afe944745"
+  ],
+  "meaning": "Strength order registration: the old bridge (whatever is PERFECT_2 and has intellect is BLESSED_1) entails the new sense bridge, since whatever is BLESSED_2 is PERFECT_2 and has intellect. Projection and application only; it establishes neither.",
+  "definition_ids": [
+    "5068b909-d6b0-458b-a3d7-30fd2f7088a8",
+    "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4",
+    "5f851204-5991-5e16-87f1-e8b3ed729708",
+    "d0b7b32b-9dc1-426a-9949-92c0b43da663"
+  ],
+  "disambiguation_ids": [
+    "70f4f510-d488-445f-86cf-03b889507372",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "c0fda0ee-3508-5101-94ba-043e3eb28b0e"
+  ],
+  "sense_bridges": [
+    {
+      "term": "BLESSED",
+      "from": "f9203557-e041-403e-b5e0-f3618b5a3828",
+      "to": "2ed78ade-a5c7-4c06-875a-9be127399741",
+      "statement_id": "a23dd1ac-1e5b-4842-bf82-385a36607a77",
+      "role": "conclusion"
+    }
+  ]
+}

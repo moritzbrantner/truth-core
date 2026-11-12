@@ -1,0 +1,14 @@
+{
+  "id": "98efaa9e-1c91-4e52-8c0d-faf03d4f8372",
+  "label": "An actual concrete ground of an actual concretum is a distinct CAUSE_2 of its esse",
+  "paraphrase": "Open bridge, analyst formulation, unattributed: at the selected world w, if an actual concretum a stands to an actual concretum b in the selected relation at w, then a is distinct from b and a is a cause of b's being in the supplied cause-of-a-perfection dictionary at esse. Only the ground-to-cause direction; the converse is STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND.",
+  "lean_declaration": "TruthCore.Causality.GradedSupportFoundation.ActualGroundIsDistinctEsseCause",
+  "definition_ids": [
+    "32606882-e6e0-43b5-8c81-3b2afd3473e0",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6"
+  ]
+}

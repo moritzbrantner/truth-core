@@ -1,0 +1,13 @@
+{
+  "id": "39628d48-e9b0-40f4-a2ad-aa983eeb1982",
+  "label": "Traced nothing-from-nothing from two grounding principles (inference)",
+  "input_statement_ids": [
+    "71df1177-b082-46e9-ab85-6815b3ed1650",
+    "bf18a0d0-f43c-49a6-9876-0dbdf5c5f98a"
+  ],
+  "output_statement_id": "e6a1ac3c-6a3b-484f-a638-edb8af4f92be",
+  "rule": "Well-founded induction on grounds among things that come to be after the earlier moment, with case splits on presence at that moment",
+  "meaning": "New non-transcription conditional support option for premise A2 (inert emptiness) of Arrival A in the modal spine to God's existence. Fix a history v and an earlier moment s. For a concrete thing x present at t later than s: if x is present at s the chain is empty. Otherwise x began, so it has a concrete ground g present at s or later. If g is present at s, one link suffices. Otherwise g is absent at s and present after s, so g and x both come to be after s, and the induction hypothesis on g along post-absence well-founded grounding gives a concrete thing present at s with a chain to g, extended by the link to x. No frame condition, contingency, presence-to-existence or necessity is used or concluded. Both premises are OPEN framework inputs about every history of the model; omitting either permits a populated moment after an empty one (controls 1 to 3). Both premises and the conclusion hold in a model with no necessary individual (control 4): the bundle has no modal content. Nothing is attributed to a source. No premise truth is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

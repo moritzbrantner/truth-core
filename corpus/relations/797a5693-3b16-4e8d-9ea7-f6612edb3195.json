@@ -6,5 +6,5 @@
   "predicate": "alternative_to",
   "object_kind": "statement",
   "object_id": "09c6d5f0-d412-5038-85f9-75fffb935727",
-  "note": "Same ComponentOf and PriorSimply. The rival requires a distinct whole, so it is strictly stronger than the premise's negation. Model-witnessed alongside the other premises of attributesFromFirst; neither is established and no refutation is recorded."
+  "note": "Same ComponentOf and PriorSimply. The rival requires a distinct whole, so it is strictly stronger than the premise's negation. Model-witnessed alongside the other premises of attributesFromFirst; neither is established and no refutation is recorded. Objection audit 2026-11-12 (attempt b6384b6b-ef1a-405e-8237-0c2127d86b5f): formal alternative; the positions are attested only through Aquinas's report in q.3 a.8, without their reasons."
 }

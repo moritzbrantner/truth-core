@@ -1,0 +1,11 @@
+{
+  "id": "f80bbd9e-7039-471a-93fe-f42814001243",
+  "label": "Creator of all being IMMENSE_1 gives IMMENSE_2 being IMMENSE_1",
+  "argument_id": "7583b7a3-784d-41f8-965a-1525f6112dcf",
+  "challenge_module": "TruthCore.Results.Causality.DeiFiliusImmenseIncomprehensible.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DeiFiliusImmenseIncomprehensible.Solution",
+  "theorem": "TruthCore.Results.Causality.DeiFiliusImmenseIncomprehensible.immenseSenseBridgeOfCreatorIsImmense",
+  "comparator_config": "results/f80bbd9e-7039-471a-93fe-f42814001243/comparator.json",
+  "status": "solution-present",
+  "description": "Strength order registration: the old bridge (whatever causes the being of everything else is IMMENSE_1) entails the new sense bridge, since whatever is IMMENSE_2 causes the being of everything else. Projection and application only; it establishes neither."
+}

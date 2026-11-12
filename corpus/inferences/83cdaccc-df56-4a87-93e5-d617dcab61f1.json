@@ -1,0 +1,12 @@
+{
+  "id": "83cdaccc-df56-4a87-93e5-d617dcab61f1",
+  "label": "Whatever has the nine operates from itself, from every POTENCY_1-free being operating (inference)",
+  "input_statement_ids": [
+    "45030701-91da-588f-b602-dca6c15e761a"
+  ],
+  "output_statement_id": "8f93d9cc-989e-4b96-9e6c-e7e819f28545",
+  "rule": "Restriction of a universal premise to a subclass of its antecedent: the sixth of the nine is pure act",
+  "meaning": "Strength order registration: STMT-PURE-ACT-OPERATES (every pure act operates from itself) entails its nine-restricted version, since the altogether-immutable conjunct of the nine is by definition being in potency in no respect. Projection and application only; it establishes neither version.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

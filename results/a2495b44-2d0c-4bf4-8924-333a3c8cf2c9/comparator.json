@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.NecessarySupportCoverage.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessarySupportCoverage.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.NecessarySupportCoverage.coverageOfSupportIsPresent"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

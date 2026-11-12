@@ -1,0 +1,25 @@
+{
+  "id": "725f3417-73d0-489f-b8ab-7b2628ff36b7",
+  "label": "Time clock: privileged duration versus any order-preserving coordinate",
+  "term": "time clock",
+  "term_label": "CLOCK",
+  "sense_definition_ids": [
+    "cf39ccc3-d092-4b8a-b929-6b2ad92d6ab8",
+    "375676b0-a295-4a17-a9e4-3db23319d517"
+  ],
+  "senses": [
+    {
+      "id": "614f6186-2e66-432b-9bd4-8ca9f070d790",
+      "label": "CLOCK_1",
+      "definition_id": "cf39ccc3-d092-4b8a-b929-6b2ad92d6ab8",
+      "lean_declaration": "TruthCore.Causality.MetricGrimReaper.PrivilegedClock"
+    },
+    {
+      "id": "e861c105-b139-4da0-a9eb-ca6546aa67a6",
+      "label": "CLOCK_2",
+      "definition_id": "375676b0-a295-4a17-a9e4-3db23319d517",
+      "lean_declaration": "TruthCore.Causality.MetricGrimReaper.TimeClock"
+    }
+  ],
+  "resolution": "Metric finiteness, spaced descents and the spaced Reaper premises are defined relative to a clock, and they are not invariant under reparametrization: a bounded clock (arctan) makes every integer past metrically finite and the spaced premises vacuous there; a logarithmic clock (ln t on the positive reals) makes every open-below finite past metrically infinite, so the spaced premises would again target FLRW-shaped histories. The Lean results of MetricGrimReaper are stated for an arbitrary clock, CLOCK_2, and hold for every one; the statements, the conclusion and the objection audit are read with the clock instantiated by the physically privileged duration, CLOCK_1 (cosmic or proper time). In particular the claims that the FLRW and Benardete objections have no target in the spaced premises hold under CLOCK_1, where an FLRW past has finite duration. No argument passes from one sense to the other: the theorems never use any property distinguishing CLOCK_1, and the choice of CLOCK_1 is an open interpretive commitment, motivated by duplication recombination (duplicates keep their intrinsic, proper duration) and contested by Misner-type logarithmic time (a lead, not read)."
+}

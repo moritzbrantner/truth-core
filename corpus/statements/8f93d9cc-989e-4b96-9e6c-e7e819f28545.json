@@ -1,0 +1,30 @@
+{
+  "id": "8f93d9cc-989e-4b96-9e6c-e7e819f28545",
+  "label": "Whatever has the nine SIMPLE_4, PERFECT_2, INFINITE_1 attributes operates from itself",
+  "paraphrase": "Open premise, analyst formulation, unattributed; the weak version of STMT-PURE-ACT-OPERATES. Whatever is simple, universally perfect, supremely good, such that whatever is GOD_4 is it (IsTheOneGod: uniqueness only; it does not say the being is GOD_4), infinite, altogether immutable (in potency in no respect, PURE_ACT), eternal, and has intellect and will has an immanent operation (the primitive Operates of SelfOperationLife, definition 7acc985a: an operation that remains in the agent, actio quae manet in agente, q.18 a.3 ad 1; not motion, and not including being unmoved). Scoped exactly to what the restated sufficiency NineSufficeForDeiFilius quantifies over. Since altogether immutability is pure act, it is STMT-PURE-ACT-OPERATES restricted to the beings that also have the other eight; it is strictly weaker (Control.Controls part 1: a pure act with no intellect and no immanent operation satisfies it and falsifies the strong version). It says nothing of a pure act without the nine. A causally inert abstract object, if the Being domain has one, is outside its scope by the worry's own premise: being inert it causes nothing, so in any domain with another being in act it fails the CausesEveryPerfectionOfOthers conjunct of supreme goodness (that it also lacks intellect is an analyst judgment, since HasIntellect is primitive). Because the nine include HAS_INTELLECT_1, it speaks only of beings with intellect. Near-definitional, stated plainly: with the unmovedness a pure act has, an immanent operation is close to the q.18 a.3 definiens of living (DEF-LIVING), so this premise carries most of the content of the living conjunct the route derives. q.18 a.3 ad 2 says of God that he is his own understanding and his own living; that is the nearest source support, and no claim states this premise.",
+  "lean_declaration": "TruthCore.Causality.DeiFiliusLivingNineScope.NineOperate",
+  "definition_ids": [
+    "85f7f569-ab4d-514b-aa2c-cf75171ad105",
+    "5f851204-5991-5e16-87f1-e8b3ed729708",
+    "58e0de99-6199-5851-8e03-381bca0d44f0",
+    "d980bbd2-1a96-564c-bc0d-4065d7786715",
+    "1d8890c0-afe2-5cdb-a400-0bbd4b79053d",
+    "da5c0716-718e-5aaa-abec-95c9e93cac00",
+    "1291944d-a8b2-54eb-899d-66bd5f8b4762",
+    "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4",
+    "7c64b499-6dba-5e03-bdf3-5acea95d8836",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "a49e4cf1-ca4f-5519-9724-892af257cedb",
+    "7acc985a-ea60-4538-9c9e-6b18ddecf3a9"
+  ],
+  "disambiguation_ids": [
+    "205a39c3-915d-5fe4-8076-a9ff91329e08",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "587c53cf-c2a8-51f6-b8c1-013e67756dc6",
+    "f561d4e4-ab8f-5d20-9926-d63a74df3b4e",
+    "9b16c72e-e8dc-5d69-88bf-0daf61ab2f9b",
+    "c0fda0ee-3508-5101-94ba-043e3eb28b0e",
+    "508617ab-cf24-5f3b-a387-64b3991359ec",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
+  ]
+}

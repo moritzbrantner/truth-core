@@ -1,0 +1,11 @@
+{
+  "id": "f93bd2da-d55b-4e08-8867-6dd399a32049",
+  "label": "Grim Reaper patchwork controls checked",
+  "argument_id": "7aca4d5b-8bc6-4699-a80e-66e0abd913e6",
+  "challenge_module": "TruthCore.Results.Causality.GrimReaperPatchwork.Challenge",
+  "solution_module": "TruthCore.Results.Causality.GrimReaperPatchwork.Solution",
+  "theorem": "TruthCore.Results.Causality.GrimReaperPatchwork.controls",
+  "comparator_config": "results/f93bd2da-d55b-4e08-8867-6dd399a32049/comparator.json",
+  "status": "solution-present",
+  "description": "The local-pieces and patchwork premises are independent and neither alone excludes a beginningless past: in the beginningless integer history, silent registers satisfy both patchwork premises and neither local premise, and pivot registers satisfy both local premises and neither patchwork premise; populated pasts there are neither founded nor begun. So the conclusion is reached only through the derivation, not through either premise. In a history with a first moment followed by moments with no earliest one, the coinitial premises, countable coinitiality, begun populated pasts and the earlier-grounded possibility all hold together with possible begun coming-to-be and no necessary concrete individual, while no register frame satisfies both unrestricted premises: the unrestricted version excludes that history and the coinitial version does not. Model claims concern these interpretations only."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "4d499782-9ee6-4e63-b70a-244fe6a1db8b",
+  "label": "A cause of being that has what it gives has being",
+  "argument_id": "9126bd28-f470-4b9b-a731-749506094638",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.CauseOfBeingHasBeing.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.CauseOfBeingHasBeing.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.CauseOfBeingHasBeing.causeOfBeingHasBeingOfGives",
+  "comparator_config": "results/4d499782-9ee6-4e63-b70a-244fe6a1db8b/comparator.json",
+  "status": "solution-present",
+  "description": "Strength order registration: a cause of x's being has every perfection it causes in x, and it causes x's being, so it has being. Application only; it establishes neither. Strictness: control 14."
+}

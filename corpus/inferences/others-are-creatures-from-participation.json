@@ -9,7 +9,7 @@
   ],
   "output_statement_id": "612078bf-5a68-5542-8b7b-f862f816ece0",
   "rule": "Universal instantiation, existential elimination and modus ponens",
-  "meaning": "Derives that everything other than the primary is a creature: each other thing has participated being (OPEN reading of q.44 a.1 co.), what has participated being has a distinct cause of its being (q.44 a.1 ad 1, STMT-PARTICIPATED-HAS-OTHER-CAUSE), and what has its being caused by another is a creature (OPEN reading of DEF-CREATURE).",
+  "meaning": "Derives that everything other than the primary is a creature: each other thing has participated being (OPEN reading of q.44 a.1 co.), what has participated being has a distinct cause of its being (q.44 a.1 ad 1, STMT-PARTICIPATED-HAS-OTHER-CAUSE), and what has its being caused by another (CREATURE_2) is CREATURE_1 (the CREATURE sense bridge, derived in specs/creature-senses.toml).",
   "assumption_statement_ids": [],
   "discharged_statement_ids": []
 }

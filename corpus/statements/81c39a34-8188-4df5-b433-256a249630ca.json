@@ -1,0 +1,14 @@
+{
+  "id": "81c39a34-8188-4df5-b433-256a249630ca",
+  "label": "In every history, grounding among concrete things present at some moment is well-founded",
+  "paraphrase": "Analyst formulation, attribution deferred, recorded as the strong version: in every history of the model, there is no endless descending chain of grounds among concrete individuals each present at some moment of that history. It excludes an endless per accidens past of generations, which Aquinas grants is not impossible (ST I q.46 a.2 ad 7). Not used by the derivation of inert emptiness, which needs only the post-absence version. Chains through abstract, absent or never-present candidates are unconstrained; transitivity and asymmetry of grounding are not assumed.",
+  "lean_declaration": "TruthCore.Causality.GroundedBeginnings.PresentGroundingWellFounded",
+  "definition_ids": [
+    "1103f0c4-ce72-42fb-a131-c33d951b1fee",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e"
+  ],
+  "disambiguation_ids": [
+    "81c233d4-01b4-528c-8bbd-7da228443ffe",
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
+  ]
+}

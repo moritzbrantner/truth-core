@@ -1,0 +1,33 @@
+{
+  "id": "82ffe2da-c008-4ccf-8c98-1c35b7771bc4",
+  "label": "A possible first-moment beginning is a possible finite-duration beginning",
+  "premise_statement_ids": [
+    "b58d1aac-eff7-48c4-8cbe-7d310e386dd3"
+  ],
+  "conclusion_statement_id": "951a2235-14e5-432e-8365-0efce1b8659d",
+  "inference_ids": [
+    "4a7a129f-daee-4c17-9e6e-532b72b5d487"
+  ],
+  "meaning": "Strength order between the two senses of B1 (linear time, any real clock): a possible populated history in which the time before every populated moment has a first moment is one in which that time is of finite duration, because in linear time a past with a first moment has finite duration. The converse fails: MetricBeginningArrival control 2 (positive real times) satisfies B1 in sense BEGINS_2 and not in sense BEGINS_1. This is the only passage between the senses; it runs from BEGINS_1 to BEGINS_2. No premise is established.",
+  "definition_ids": [
+    "1972f626-2de1-4d89-b1d0-46645eabe884",
+    "375676b0-a295-4a17-a9e4-3db23319d517",
+    "7c05f92b-907d-4c9b-b219-fc4054c9912b",
+    "816c7ad5-354c-4b80-88f7-1b5ba3e5f446",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e"
+  ],
+  "disambiguation_ids": [
+    "dc40914a-48c9-48a2-941e-40b96d847a71"
+  ],
+  "sense_bridges": [
+    {
+      "term": "BEGINS",
+      "from": "11826ab1-fe07-4f77-b95b-f04d5af9b8f2",
+      "to": "2b0ac089-00e3-4a64-9247-edac34154de2",
+      "statement_id": "951a2235-14e5-432e-8365-0efce1b8659d",
+      "role": "conclusion"
+    }
+  ]
+}

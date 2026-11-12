@@ -1,0 +1,11 @@
+{
+  "id": "eed87138-1076-43e5-b7cb-87bbefd2bf65",
+  "label": "No infinite ascent among actual concreta, from no infinite ascent in being",
+  "argument_id": "e212b0a0-21ac-4634-8f44-93ca4a10f5f2",
+  "challenge_module": "TruthCore.Results.Causality.GradedSupportFoundation.Challenge",
+  "solution_module": "TruthCore.Results.Causality.GradedSupportFoundation.Solution",
+  "theorem": "TruthCore.Results.Causality.GradedSupportFoundation.actualAscentWFOfGlobal",
+  "comparator_config": "results/eed87138-1076-43e5-b7cb-87bbefd2bf65/comparator.json",
+  "status": "solution-present",
+  "description": "The global no-infinite-ascent premise, which also yields the Fourth Way's grade maximum (STMT-GRADES-TO-MAXIMUM-AT-BEING), implies its restriction to actual concreta. Registered as a strength order."
+}

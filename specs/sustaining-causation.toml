@@ -1,0 +1,200 @@
+# Sustaining versus originating causation of being, time-indexed. A sense split
+# CAUSE_OF_BEING_1 (originating) / CAUSE_OF_BEING_2 (sustaining) over a temporal
+# History, from one primitive (BeingGiving.GivesAt), connected to two spine
+# nodes: the presence step of the immensity sense bridge IMMENSE_2 -> IMMENSE_1
+# (8bf775e9), and the lasting-ground premise A2ab of Arrival A (71df1177).
+# Existential inertia (Schmid 2021) is the rival reading of the cause of being.
+# Analyst formulations, attribution deferred.
+
+[batch]
+vocab = "TruthCore.Causality.SustainingCausation"
+results = "TruthCore.Results.Causality.SustainingCausation"
+
+# ---------------------------------------------------------------- statements
+
+[[statement]]
+id = "Whatever gives a thing being at a moment is present at that moment"
+lean = "GiverPresentWhenGiving"
+paraphrase = "OPEN analyst premise, attribution deferred (time-indexed contact principle): in every history of the model, whatever gives a thing being at a moment (the primitive GivesAt) is present at that moment. After ST I q.8 a.1: an agent must be joined to that wherein it acts immediately. It excludes giving being across a temporal gap. 'Present at t' is History.IsAt, the same predicate as spine premises A1-A3 and A2ab, under the one inclusive reading adopted for all of them (attempt c94eed5b): actual in the history and bearing on t, by location at t (a temporal thing) or co-presence to t (a non-temporal agent). Nothing is said about spatial location, and the agent's being in time is not asserted."
+definitions = ["158301bc-9585-4145-be60-34f08c9f922c", "DEF-TEMPORAL-HISTORY-NOW-SLICE"]
+
+[[statement]]
+id = "Whatever CAUSE_OF_BEING_2 sustains every other thing is present to each whenever it is"
+lean = "SustainerOfAllIsPresentToAll"
+paraphrase = "In every history of the model, whatever is a CAUSE_OF_BEING_2 sustaining cause of every other thing present at some moment is, at every moment at which another thing is present, present itself and giving that thing being (PresentToAllWheneverTheyAre). Derived from the contact principle alone. It types the q.8 a.1 presence of an agent to that on which it acts, not place, containment, the other modes of presence, or immediacy."
+definitions = ["ed47a5a7-fa84-43cb-950b-2552b33b99ff", "1335688a-d3f2-492e-9b71-c8062280fe16", "158301bc-9585-4145-be60-34f08c9f922c", "DEF-TEMPORAL-HISTORY-NOW-SLICE"]
+disambiguations = ["88a8fba7-f1a1-4340-8a7f-41dd39bbbe7d"]
+
+[[statement]]
+id = "Every cause of a thing's being is a CAUSE_OF_BEING_2 sustaining cause of it"
+lean = "CausingBeingIsSustaining"
+paraphrase = "OPEN analyst bridge, attribution deferred (sustaining reading of the tenseless cause of being): in every history of the model, if c causes x's being (CausesIn c x esse, CAUSING_AN_EFFECT_3) and x is present at some moment, then c gives x being at every moment at which x is present (CAUSE_OF_BEING_2). The time-indexed image of q.104 a.1 (direct per se conservation of esse, definition 56989bd0; the air is not lit 'even for a moment' when the sun ceases), without its dependence clause. Contested by existential inertia (Schmid 2021, read): persisting things need no concurrent sustaining cause. Its rival reading, that every cause of being is CAUSE_OF_BEING_1 originating, holds in Control part 1."
+definitions = ["ed47a5a7-fa84-43cb-950b-2552b33b99ff", "158301bc-9585-4145-be60-34f08c9f922c", "DEF-CAUSE-OF-PERFECTION", "56989bd0-a232-56ea-9093-c89350effff4", "DEF-TEMPORAL-HISTORY-NOW-SLICE"]
+disambiguations = ["88a8fba7-f1a1-4340-8a7f-41dd39bbbe7d", "DISAMB-BECOMING-BEING-CAUSE"]
+
+[[statement]]
+id = "Whatever is present at a moment of a history is in act as to being"
+lean = "PresentIsInActAsToBeing"
+paraphrase = "OPEN analyst bridge, attribution deferred: in every history of the model, whatever is present at some moment is in act in the esse respect (InAct x esse). The history-level counterpart of the world-level selected-world contract 0436de86 (ExistingInActAt); neither is derived from the other. It lets 'causes the being of everything else in act as to being' reach everything present at a moment."
+definitions = ["DEF-TEMPORAL-HISTORY-NOW-SLICE", "DEF-ACT"]
+disambiguations = ["DISAMB-IN-ACT"]
+
+[[statement]]
+id = "Whatever is IMMENSE_2 is present by giving being to everything else whenever it is"
+lean = "Immense2PresentToAll"
+paraphrase = "In every history of the model, whatever is IMMENSE_2 (INFINITE_1 and causing the being of every other being in act as to being) is, at every moment at which another thing is present, present itself and giving that thing being (PresentToAllWheneverTheyAre). The typed presence step of the immensity sense bridge 8bf775e9, derived from the sustaining reading of the cause of being, presence-in-act and the contact principle; only the creator conjunct of IMMENSE_2 is used. Not IMMENSE_1: no place, containment, measure, presence by power or by knowledge, or immediacy."
+definitions = ["641c767b-4289-4d92-b900-da7ad603d282", "1335688a-d3f2-492e-9b71-c8062280fe16", "92c03350-6809-497d-b123-2ffb11c0e0c1", "DEF-INFINITE", "158301bc-9585-4145-be60-34f08c9f922c"]
+disambiguations = ["3fc3ee02-c3cc-4a61-9724-914d9d07b0dd", "DISAMB-IN-ACT", "DISAMB-INFINITY"]
+
+[[statement]]
+id = "Whatever is IMMENSE_2 and present to all whenever they are is IMMENSE_1"
+lean = "PresentInfiniteCauseOfAllIsImmense"
+paraphrase = "Open narrowed sense bridge, analyst formulation, unattributed. Whatever is IMMENSE_2 and, in every history of the model, present by giving being to every other thing whenever it is, is IMMENSE_1 (the primitive Primitives.Immense: measured or contained by no place and present to everything that is). After q.8 a.1-3. It carries what the immensity sense bridge 8bf775e9 carries once its presence step is typed: place, containment and measure; presence by power and by knowledge (the other modes of q.8 a.3); immediacy; and the passage from typed presence to the primitive. It no longer carries the contact principle or sustaining causation, which are separate open premises of the route that derives 8bf775e9 from it. Entailed by 8bf775e9 (registered strength order; its antecedent is stronger). Strictness is not checked: with no being other than g, presence to all holds trivially and the two bridges coincide."
+definitions = ["641c767b-4289-4d92-b900-da7ad603d282", "bf2f30d1-609f-4b23-b819-786d877b949c", "1335688a-d3f2-492e-9b71-c8062280fe16", "DEF-INFINITE", "92c03350-6809-497d-b123-2ffb11c0e0c1"]
+disambiguations = ["3fc3ee02-c3cc-4a61-9724-914d9d07b0dd", "DISAMB-IN-ACT", "DISAMB-INFINITY"]
+
+[[statement]]
+id = "A concrete thing that begins to be present has a concrete CAUSE_OF_BEING_2 sustaining cause"
+lean = "BeginningsHaveSustainingCause"
+paraphrase = "OPEN analyst premise, attribution deferred: in every history of the model, a concrete thing absent at a moment s and present at a strictly later moment t has some concrete CAUSE_OF_BEING_2 sustaining cause, one that gives it being at every moment at which it is present. Things never absent before being present are unconstrained. Contested by existential inertia (Schmid 2021), which denies that a persisting thing needs a sustaining cause. Self-giving is not excluded by the type: a persistence-power inertialist could count x as its own sustainer, which makes x its own ground under 'Every CAUSE_OF_BEING_2 sustaining cause of a thing is a ground of it'; that self-loop is then excluded downstream by the post-absence well-foundedness premise A2c (bf18a0d0) if the A2 derivation is composed, not by this premise. The intended reading is a sustainer distinct from x (untyped)."
+definitions = ["ed47a5a7-fa84-43cb-950b-2552b33b99ff", "158301bc-9585-4145-be60-34f08c9f922c", "DEF-TEMPORAL-HISTORY-NOW-SLICE"]
+disambiguations = ["88a8fba7-f1a1-4340-8a7f-41dd39bbbe7d", "623ddbf6-9683-5361-bae4-e348a00ec680"]
+
+[[statement]]
+id = "Every CAUSE_OF_BEING_2 sustaining cause of a thing is a ground of it"
+lean = "SustainersAreGrounds"
+paraphrase = "OPEN analyst bridge, attribution deferred: in every history of the model, whatever sustains a thing's being (CAUSE_OF_BEING_2) is a ground of it under the supplied grounding relation of the lasting-ground premise A2ab. That relation's intended reading is the proximate ground of a thing's coming to be, per se or per accidens (DISAMB-CAUSAL-SERIES); a sustaining cause of being is a per se cause of being, so counting it among the grounds of a coming to be widens or reads that relation. Holds by definition if the grounding relation is taken to include sustaining causation. Composed with the A2 derivation (inertOfGroundedBeginnings), the post-absence well-foundedness premise A2c (bf18a0d0) must then hold for the widened relation, sustainer links included."
+definitions = ["ed47a5a7-fa84-43cb-950b-2552b33b99ff", "Beginnings have a concrete ground present at the absence or later"]
+disambiguations = ["88a8fba7-f1a1-4340-8a7f-41dd39bbbe7d", "DISAMB-CAUSAL-SERIES"]
+
+[[statement]]
+id = "A concrete thing that begins to be present has a concrete CAUSE_OF_BEING_1 originating cause"
+lean = "BeginningsHaveOriginatingCause"
+paraphrase = "OPEN analyst premise, attribution deferred: in every history of the model, a concrete thing absent at a moment s and present at a strictly later moment t has some concrete CAUSE_OF_BEING_1 originating cause: the thing has a first moment b of presence and the cause gives it being at b. It therefore requires such a first moment (it is false for a thing present on an open interval of dense time). Nothing is required of the cause after b. On the inclusive reading of GivesAt (causing coming to be counts, as the builder causes the house's becoming, q.104 a.1 co.), it is compatible with existential inertia (Schmid 2021 grants that a change occurs only if some factor causally induces it); on the strict esse-giving reading that compatibility is not shown (provisional analyst judgment)."
+definitions = ["142e451d-a24f-4aa1-b38b-344e5f235e72", "158301bc-9585-4145-be60-34f08c9f922c", "DEF-TEMPORAL-HISTORY-NOW-SLICE"]
+disambiguations = ["88a8fba7-f1a1-4340-8a7f-41dd39bbbe7d", "623ddbf6-9683-5361-bae4-e348a00ec680"]
+
+[[statement]]
+id = "Every CAUSE_OF_BEING_1 originating cause of a thing is a ground of it"
+lean = "OriginatorsAreGrounds"
+paraphrase = "OPEN analyst bridge, attribution deferred: in every history of the model, whatever originates a thing's being (CAUSE_OF_BEING_1) is a ground of it under the supplied grounding relation of the lasting-ground premise A2ab. Close to that relation's intended reading (the proximate ground of a thing's coming to be, DISAMB-CAUSAL-SERIES), but not identical: an originating cause gives being at a first moment, a proximate ground of coming to be need not. On the strict esse-giving reading it mildly widens the relation; composed with the A2 derivation, A2c (bf18a0d0) must then hold for the widened relation."
+definitions = ["142e451d-a24f-4aa1-b38b-344e5f235e72", "Beginnings have a concrete ground present at the absence or later"]
+disambiguations = ["88a8fba7-f1a1-4340-8a7f-41dd39bbbe7d", "DISAMB-CAUSAL-SERIES"]
+
+[[statement]]
+id = "A concrete thing present at two moments is present at every moment between them"
+lean = "ConcretePresenceConvex"
+paraphrase = "OPEN analyst premise, attribution deferred (no return after absence): in every history of the model, a concrete thing present at a moment a and at a later moment t is present at every moment s with a < s < t. It excludes intermittent existence, a thing that ceases and later is again (the same individual). Unread lead under the Substantive Objection Standard, no evidential weight yet: corruptionist accounts of bodily resurrection hold that a human being ceases at death and exists again at the resurrection, which is intermittent existence within the case's own framework. If such an account is adopted, this premise fails for human beings unless restricted (for instance to the natural order); no corruptionist source is read in the corpus. Comparability of moments is not part of the premise; the route that uses it states it separately."
+definitions = ["DEF-TEMPORAL-HISTORY-NOW-SLICE"]
+disambiguations = ["623ddbf6-9683-5361-bae4-e348a00ec680"]
+
+[[statement]]
+id = "Any two moments of time are comparable"
+lean = "TimesTrichotomous"
+paraphrase = "OPEN analyst premise, attribution deferred: for the supplied preorder of times, any two moments a and b satisfy a < b, a = b or b < a. Linear time, stated as a premise on the time type rather than built into it. It excludes branching or partially ordered time. No discreteness, density, first moment or endlessness is assumed."
+definitions = ["DEF-TEMPORAL-HISTORY-NOW-SLICE"]
+
+[[statement]]
+id = "Sustaining-causation controls: rival reading, omissions and nonvacuity"
+lean = "Control.Certificate"
+paraphrase = "Closed controls on interpretations with one world, two individuals (Bool; true is the cause), times the natural numbers, every individual concrete, true alone infinite. (1) Existential inertia: true is present at times 0 and 1, false from time 1 on, and true gives false being at time 1 only. Every cause of being is CAUSE_OF_BEING_1 originating, everything present is in act, the contact principle holds and true is IMMENSE_2, but the sustaining reading fails and true is not present to all whenever they are; the originating-cause, originators-are-grounds and convexity premises and the lasting-ground premise A2ab all hold, while the sustaining-cause premise fails. (2) An absent giver: false present from time 1, true never present but giving false being at every time: the sustaining reading and presence-in-act hold and the contact principle and presence to all fail; the sustaining-cause and sustainers-are-grounds premises hold and A2ab fails. (3) true present always, false from time 1, no giving: the sustaining reading fails, presence-in-act and the contact principle hold and presence to all fails; with no grounds, sustainers-are-grounds and the contact principle hold, the sustaining-cause premise and A2ab fail. (4) The same history with nothing in act and no cause of being: the sustaining reading and the contact principle hold, true is IMMENSE_2 (vacuously creator), presence-in-act and presence to all fail. (5) The same history with true giving false being from time 1 on and no grounds: the sustaining-cause premise and the contact principle hold, sustainers-are-grounds and A2ab fail. (6) Intermittent presence: true present at time 0 only, false at times 0 and 2, giving at time 0: the originating-cause, originators-are-grounds, contact and comparability premises hold, convexity fails and A2ab fails. (7) The history of (5) with true grounding false: every premise of the presence route and of both lasting-ground routes (comparability included) holds, true is IMMENSE_2 and present to all, and A2ab holds. Statements about these interpretations only."
+definitions = ["158301bc-9585-4145-be60-34f08c9f922c", "142e451d-a24f-4aa1-b38b-344e5f235e72", "ed47a5a7-fa84-43cb-950b-2552b33b99ff", "1335688a-d3f2-492e-9b71-c8062280fe16", "641c767b-4289-4d92-b900-da7ad603d282", "Beginnings have a concrete ground present at the absence or later", "DEF-TEMPORAL-HISTORY-NOW-SLICE"]
+disambiguations = ["88a8fba7-f1a1-4340-8a7f-41dd39bbbe7d", "3fc3ee02-c3cc-4a61-9724-914d9d07b0dd", "DISAMB-BECOMING-BEING-CAUSE"]
+
+# ---------------------------------------------------------------- arguments
+
+[[argument]]
+id = "A CAUSE_OF_BEING_2 sustainer of all is present to all, from the contact principle"
+theorem = "sustainerOfAllIsPresentToAll"
+premises = ["Whatever gives a thing being at a moment is present at that moment"]
+conclusion = "Whatever CAUSE_OF_BEING_2 sustains every other thing is present to each whenever it is"
+senses = {CAUSE_OF_BEING = "CAUSE_OF_BEING_2", CAUSING_AN_EFFECT = "CAUSING_AN_EFFECT_5"}
+axioms = []
+rule = "Instantiate the sustaining clause at the moment the other thing is present, then the contact principle at that giving"
+meaning = "Let g sustain (CAUSE_OF_BEING_2) every other thing present at some moment of history v, and let x, other than g, be present at t. Since x is present at some moment, g sustains x, so g gives x being at t; by the contact principle g is present at t. Hence g is present, and giving x being, whenever x is. A short derivation from one open premise. The controls do not check this statement directly; they check the composed IMMENSE_2 presence route, where the contact principle is needed (Control part 2) and an originating cause in place of a sustaining one does not suffice (part 1). No premise is established."
+
+[[argument]]
+id = "IMMENSE_2 is present to all whenever they are, from sustaining causation and contact"
+theorem = "immense2PresentToAll"
+premises = ["Every cause of a thing's being is a CAUSE_OF_BEING_2 sustaining cause of it", "Whatever is present at a moment of a history is in act as to being", "Whatever gives a thing being at a moment is present at that moment"]
+conclusion = "Whatever is IMMENSE_2 is present by giving being to everything else whenever it is"
+senses = {CAUSE_OF_BEING = "CAUSE_OF_BEING_2", CAUSING_AN_EFFECT = "CAUSING_AN_EFFECT_5", IMMENSE = "IMMENSE_2"}
+strong_version_needed = { "Every cause of a thing's being is a CAUSE_OF_BEING_2 sustaining cause of it" = "Not needed in substance: the creator conjunct concerns only other beings, so the weak version 'Every CAUSING_AN_EFFECT_3 cause of another thing's being is a CAUSE_OF_BEING_2 sustaining cause of it' suffices. This route keeps the strong version because its Challenge was frozen before the weak version existed; the route through the weak version is immense2PresentToAllOfAnothers (specs/concurrent-actualization.toml)." }
+sense_bridges = [
+  { term = "CAUSING_AN_EFFECT", from = "CAUSING_AN_EFFECT_3", to = "CAUSING_AN_EFFECT_5", statement_id = "Every cause of a thing's being is a CAUSE_OF_BEING_2 sustaining cause of it" },
+]
+axioms = []
+rule = "Creator conjunct of IMMENSE_2 at each present thing, through presence-in-act; sustaining reading; then the derived sustainer-presence step"
+meaning = "New non-transcription conditional derivation of the presence step that the immensity sense bridge 8bf775e9 carried untyped. Let g be IMMENSE_2 and x, other than g, present at t in history v. x is in act as to being (presence-in-act), so g causes x's being (creator conjunct); by the sustaining reading g gives x being at every moment x is present, so g sustains every other thing present at some moment; by the contact principle (through sustainerOfAllIsPresentToAll) g is present at t and gives x being then. The infinity conjunct is not used. Each premise is needed in a checked interpretation: with the originating reading in place of the sustaining one (existential inertia, Control part 1), without the contact principle (part 2), without the sustaining reading (part 3), without presence-in-act (part 4); all premises and the conclusion hold together nonvacuously (part 7). All three premises stay OPEN; the sustaining reading is where the existential-inertia dispute sits. No premise is established."
+
+[[argument]]
+id = "IMMENSE_2 is IMMENSE_1, from typed presence and the narrowed sense bridge"
+theorem = "immenseSenseBridgeOfSustainingPresence"
+premises = ["Every cause of a thing's being is a CAUSE_OF_BEING_2 sustaining cause of it", "Whatever is present at a moment of a history is in act as to being", "Whatever gives a thing being at a moment is present at that moment", "Whatever is IMMENSE_2 and present to all whenever they are is IMMENSE_1"]
+conclusion = "Whatever is IMMENSE_2 is IMMENSE_1"
+senses = {CAUSE_OF_BEING = "CAUSE_OF_BEING_2", CAUSING_AN_EFFECT = "CAUSING_AN_EFFECT_5"}
+strong_version_needed = { "Every cause of a thing's being is a CAUSE_OF_BEING_2 sustaining cause of it" = "Not needed in substance: the presence step uses the cause of being only for beings other than the IMMENSE_2 being, so the weak version 'Every CAUSING_AN_EFFECT_3 cause of another thing's being is a CAUSE_OF_BEING_2 sustaining cause of it' suffices. This route keeps the strong version because its Challenge was frozen before the weak version existed; the route through the weak version is immenseSenseBridgeOfAnothersSustaining (specs/concurrent-actualization.toml)." }
+sense_bridges = [
+  { term = "IMMENSE", from = "f9a7bc6c-f847-4f4c-9cf8-9f8d1cdcc5bf", to = "1bf8b401-ddd3-459a-bc15-67083eb8d2f1", statement_id = "Whatever is IMMENSE_2 and present to all whenever they are is IMMENSE_1" },
+  { term = "IMMENSE", from = "f9a7bc6c-f847-4f4c-9cf8-9f8d1cdcc5bf", to = "1bf8b401-ddd3-459a-bc15-67083eb8d2f1", statement_id = "Whatever is IMMENSE_2 is IMMENSE_1", role = "conclusion" },
+  { term = "CAUSING_AN_EFFECT", from = "CAUSING_AN_EFFECT_3", to = "CAUSING_AN_EFFECT_5", statement_id = "Every cause of a thing's being is a CAUSE_OF_BEING_2 sustaining cause of it" },
+]
+axioms = []
+rule = "Derive presence to all from IMMENSE_2 in every history (immense2PresentToAll), then apply the narrowed sense bridge"
+transcription = "single_application"
+meaning = "Transcription (single application, invariant 16) of the narrowed sense bridge, after a non-transcription presence derivation: the last step obtains IMMENSE_1 only by applying the narrowed bridge, whose consequent is the conclusion, so 8bf775e9 stays open until every premise here is closed. Let g be IMMENSE_2. In every history of the model, g is present by giving being to every other thing whenever it is (immense2PresentToAll, from the sustaining reading, presence-in-act and the contact principle). The narrowed sense bridge then gives IMMENSE_1. This splits 8bf775e9 into the typed presence step (three open premises) and a remainder (place, containment, measure, the other modes of presence, immediacy) that no longer carries sustaining causation or contact. It is a finer decomposition, not a weaker total commitment: 8bf775e9 entails the narrowed bridge (registered strength order). The existential-inertia objection to 8bf775e9 now targets exactly one premise, the sustaining reading. All premises stay OPEN; the history and giving relation are parameters, so any one interpretation satisfying the premises gives the bridge. No premise is established."
+
+[[argument]]
+id = "The narrowed immensity sense bridge from the immensity sense bridge"
+theorem = "narrowedOfImmenseSenseBridge"
+premises = ["Whatever is IMMENSE_2 is IMMENSE_1"]
+conclusion = "Whatever is IMMENSE_2 and present to all whenever they are is IMMENSE_1"
+sense_bridges = [
+  { term = "IMMENSE", from = "f9a7bc6c-f847-4f4c-9cf8-9f8d1cdcc5bf", to = "1bf8b401-ddd3-459a-bc15-67083eb8d2f1", statement_id = "Whatever is IMMENSE_2 is IMMENSE_1" },
+  { term = "IMMENSE", from = "f9a7bc6c-f847-4f4c-9cf8-9f8d1cdcc5bf", to = "1bf8b401-ddd3-459a-bc15-67083eb8d2f1", statement_id = "Whatever is IMMENSE_2 and present to all whenever they are is IMMENSE_1", role = "conclusion" },
+]
+axioms = []
+rule = "Weakening of the antecedent: drop the presence hypothesis"
+meaning = "Strength order registration: the immensity sense bridge 8bf775e9 entails its narrowed form, whose antecedent adds presence to all whenever they are. Application only; it establishes neither."
+
+[[argument]]
+id = "Lasting ground (A2ab) from CAUSE_OF_BEING_2 sustaining causes and contact"
+theorem = "lastingGroundOfSustainingCauses"
+premises = ["A concrete thing that begins to be present has a concrete CAUSE_OF_BEING_2 sustaining cause", "Every CAUSE_OF_BEING_2 sustaining cause of a thing is a ground of it", "Whatever gives a thing being at a moment is present at that moment"]
+conclusion = "A concrete thing that begins to be present has a concrete ground present at its absence or later"
+senses = {CAUSE_OF_BEING = "CAUSE_OF_BEING_2", CAUSING_AN_EFFECT = "CAUSING_AN_EFFECT_5"}
+axioms = []
+rule = "The sustaining cause gives the thing being at the later moment; contact puts it there"
+meaning = "New non-transcription conditional support option for premise A2ab (lasting ground) of Arrival A. Let a concrete x be absent at s and present at t > s in history v. It has a concrete sustaining cause g (CAUSE_OF_BEING_2), which gives x being at every moment x is present, in particular at t; by the contact principle g is present at t, which is after s; and g is a ground of x. No condition on the order of time (any preorder), on first moments or on convexity is used. Each premise is needed in a checked interpretation: without the sustaining-cause premise (Control part 3), without sustainers-are-grounds (part 5), without the contact principle (part 2); all hold nonvacuously with A2ab (part 7). Existential inertia rejects the sustaining-cause premise; it need not reject A2ab, which also has the originating route. All premises stay OPEN. No premise is established."
+
+[[argument]]
+id = "Lasting ground (A2ab) from CAUSE_OF_BEING_1 originating causes, contact and no return"
+theorem = "lastingGroundOfOriginatingCauses"
+premises = ["A concrete thing that begins to be present has a concrete CAUSE_OF_BEING_1 originating cause", "Every CAUSE_OF_BEING_1 originating cause of a thing is a ground of it", "Whatever gives a thing being at a moment is present at that moment", "A concrete thing present at two moments is present at every moment between them", "Any two moments of time are comparable"]
+conclusion = "A concrete thing that begins to be present has a concrete ground present at its absence or later"
+senses = {CAUSE_OF_BEING = "CAUSE_OF_BEING_1", CAUSING_AN_EFFECT = "CAUSING_AN_EFFECT_4"}
+axioms = []
+rule = "Trichotomy of the first moment of presence against the absence, with convexity excluding an earlier first moment"
+meaning = "New non-transcription conditional support option for premise A2ab (lasting ground) of Arrival A. Comparability of moments (linear time) is an explicit open premise, not a type-class restriction, so the route covers every model in which it holds. Let a concrete x be absent at s and present at t > s. It has a concrete originating cause g (CAUSE_OF_BEING_1): x has a first moment b of presence and g gives it being at b, so by contact g is present at b. By comparability b is before s, equal to s or after s. b is not s (x is absent at s); b is not before s, since x would then be present at b and t and absent at s between them, against convexity; so b is after s, and g is a ground of x present after s. No sustaining causation is used. On the inclusive reading of GivesAt (causing coming to be counts) this route is open to an existential-inertia theorist who grants originating causes, contact and no return; on the strict esse-giving reading that is not shown. On this formulation convexity and comparability enter because the originating cause acts at the first moment of presence overall; an originating premise tied to the first moment after the absence would need only contact and grounds (not formalized). The originating premise requires a first moment of presence for every beginning thing. Convexity is needed: intermittent presence satisfies the other premises and falsifies A2ab (Control part 6); all premises hold nonvacuously with A2ab (part 7). Whether comparability is needed is not checked. All premises stay OPEN. No premise is established."
+
+[[argument]]
+id = "Sustaining-causation controls checked"
+theorem = "controls"
+premises = []
+conclusion = "Sustaining-causation controls: rival reading, omissions and nonvacuity"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+sense_mixing_control = true
+rule = "Explicit one-world, two-individual interpretations over natural-number times, checked by case analysis and linear arithmetic"
+meaning = "The originating reading of the cause of being (existential inertia) does not give presence to all, while it is compatible with A2ab through the originating route; each premise of the IMMENSE_2 presence route and of the sustaining lasting-ground route is needed in one interpretation; for the originating lasting-ground route only convexity is shown needed (part 6), and the need of its other premises is not checked; all premises hold together with the conclusions in one interpretation. A finite countermodel shows a premise is needed in that interpretation, not that it is false. Model claims concern these interpretations only."
+
+# ---------------------------------------------------------------- relations
+
+[[relation]]
+id = "The immensity sense bridge strengthens its narrowed form"
+subject_kind = "statement"
+subject_id = "Whatever is IMMENSE_2 is IMMENSE_1"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "Whatever is IMMENSE_2 and present to all whenever they are is IMMENSE_1"
+verification_result_id = "The narrowed immensity sense bridge from the immensity sense bridge"
+note = "Same InAct, CausesIn, esse, Infinite and Immense; the narrowed form adds a history and giving relation and the antecedent that g is present to all whenever they are in every history. Strictness is not checked."

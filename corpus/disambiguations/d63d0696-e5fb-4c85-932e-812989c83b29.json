@@ -1,0 +1,25 @@
+{
+  "id": "d63d0696-e5fb-4c85-932e-812989c83b29",
+  "label": "Incomprehensible: primitive versus infinite and comprehended by no caused intellect",
+  "term": "incomprehensible",
+  "term_label": "INCOMPREHENSIBLE",
+  "sense_definition_ids": [
+    "c4cf79f1-60a9-498a-944b-aeb7dfb56573",
+    "94ebe0d2-7cf9-4360-87ce-61c598b4e666"
+  ],
+  "resolution": "The Dei Filius attributes (incomprehensible conjunct) and the bridge 'Whatever is INFINITE_1 is INCOMPREHENSIBLE_1' use INCOMPREHENSIBLE_1, the primitive Primitives.Incomprehensible (no created intellect knows g as perfectly as g is knowable). INCOMPREHENSIBLE_2 (IsIncomprehensibleToCausedIntellects) types its quantifier structure and its q.12 a.7 ground: g is INFINITE_1 and no caused intellect stands in the primitive relation Comprehends to g. They differ in content, not only in strength: INCOMPREHENSIBLE_2 ranges over caused (not created-from-nothing) intellects and uses a primitive relation whose identification with knowing as perfectly as knowable is not typed; neither is defined from the other and they are not identified. One statement relates them: the open sense bridge 'Whatever is INCOMPREHENSIBLE_2 is INCOMPREHENSIBLE_1'. Only an argument that lists it in sense_bridges passes from INCOMPREHENSIBLE_2 to INCOMPREHENSIBLE_1 (the routes nineGiveDeiFiliusImmenseIncomprehensibleTyped and deiFiliusRootImmenseIncomprehensibleTyped); the controls of DeiFiliusImmenseIncomprehensible show that without it a being with the nine can be INCOMPREHENSIBLE_2 and not INCOMPREHENSIBLE_1. Neither sense is unknowability: both negate comprehension only.",
+  "senses": [
+    {
+      "id": "cb367167-c649-4645-b2a5-d3f20b6b5d1e",
+      "label": "INCOMPREHENSIBLE_1",
+      "definition_id": "c4cf79f1-60a9-498a-944b-aeb7dfb56573",
+      "lean_declaration": "TruthCore.Causality.DeiFiliusAttributeField.Primitives.Incomprehensible"
+    },
+    {
+      "id": "be092edb-1ed5-41be-b097-d2dbf4be6a7b",
+      "label": "INCOMPREHENSIBLE_2",
+      "definition_id": "94ebe0d2-7cf9-4360-87ce-61c598b4e666",
+      "lean_declaration": "TruthCore.Causality.DeiFiliusImmenseIncomprehensible.IsIncomprehensibleToCausedIntellects"
+    }
+  ]
+}

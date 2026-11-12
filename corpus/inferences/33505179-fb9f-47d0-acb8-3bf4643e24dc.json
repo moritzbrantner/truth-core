@@ -1,0 +1,13 @@
+{
+  "id": "33505179-fb9f-47d0-acb8-3bf4643e24dc",
+  "label": "Non-INFINITE_1 intellects have non-maximal power, from non-maximal act bounding knowing (inference)",
+  "input_statement_ids": [
+    "ea1c35a5-6c8b-41f4-8029-aea2166d74cf",
+    "7db53cde-911c-48ec-ab4f-054a00288148"
+  ],
+  "output_statement_id": "195ce36e-eb0a-463e-b08c-13e45b832316",
+  "rule": "Witness the bound by the knower's own degree of act",
+  "meaning": "Let x have intellect and not be INFINITE_1. Its degree of act is not maximal (first premise) and bounds every degree at which it knows anything (second premise), so it is a non-maximal bound of x's power of knowing. Intellect is not used. Conditional consequence; both premises stay open.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "e86ef332-e32e-4714-b34e-2295d3cc4a21",
+  "label": "CLASSICAL_FIELD_1: the classical-attributes field read as exactly the nine attributes",
+  "term": "content of the classical-attributes field, nine-reading (Lean `NineClassicalAttributes`)",
+  "definition": "The primitive field Signature.HasClassicalAttributes read as intended to mean exactly the conjunction NineClassicalAttributes of the nine stage-two predicates (simple, perfect, supremely good, the one God, infinite, immutable, eternal, intellect, will). This is what Root.lean documents: the field is 'intended to group simplicity, perfection, goodness, infinity, immutability, eternity, unity, intellect and will'.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Case.Catholicism.NineClassicalAttributes",
+  "note": "One reading of an undefined primitive; the field is not defined by it. On this reading STMT-CLASSICAL-ATTRIBUTES-SUFFICE is close to analytic (it says the nine give their own grouping), the field interpretation FieldFromDeiFilius follows at once, and the seven Dei Filius bridges do no work for sufficiency. The sibling CLASSICAL_FIELD_2 reads the field as the full Dei Filius list (DeiFiliusAttributes, definition edcfac86), on which the bridges carry the warrant."
+}

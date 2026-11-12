@@ -1,0 +1,13 @@
+{
+  "id": "f847cb53-f1f0-49a1-9ba8-242198c55378",
+  "label": "The NECESSARY_2 classical GOD_4 root, from the Dei Filius root and field (inference)",
+  "input_statement_ids": [
+    "c0f4a346-b265-4091-9d38-69c69582ea95",
+    "dfc3cbae-f00f-4861-a5f6-f5aecec4c157"
+  ],
+  "output_statement_id": "da3facd6-008e-5e76-92fa-677350c2dfdb",
+  "rule": "Projection of the nine and application of the field interpretation at the same witness",
+  "meaning": "The root of the Dei Filius endpoint has the nine (they are among its attributes) and, by the field interpretation, the primitive field: the old endpoint at the same witness. With deiFiliusRoot this gives a route to the old endpoint in which the sufficiency premise is replaced by the field interpretation, five new bridges and the existing infinite-power premise. The field interpretation is a stipulation about the undefined primitive field (full-list reading CLASSICAL_FIELD_2). Conditional consequence only.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

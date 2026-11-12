@@ -1,0 +1,11 @@
+{
+  "id": "9e6285c0-e6db-4316-94c3-eb56b3237d16",
+  "label": "Whatever has its being caused is in act as to being, from caused perfection is had",
+  "argument_id": "f632c6e5-9a45-498e-a9d1-871770c217e1",
+  "challenge_module": "TruthCore.Results.Causality.CreatureSenses.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CreatureSenses.Solution",
+  "theorem": "TruthCore.Results.Causality.CreatureSenses.causedEsseIsHadFromCausedPerfection",
+  "comparator_config": "results/9e6285c0-e6db-4316-94c3-eb56b3237d16/comparator.json",
+  "status": "solution-present",
+  "description": "Sole-premise projection: if every caused perfection is had by its effect, then in particular a caused being (the respect esse) is had by its effect. It registers the strength order between the general premise and its esse-restricted weak version; no converse or strictness is claimed."
+}

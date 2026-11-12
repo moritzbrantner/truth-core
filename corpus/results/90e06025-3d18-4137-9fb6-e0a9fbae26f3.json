@@ -1,0 +1,11 @@
+{
+  "id": "90e06025-3d18-4137-9fb6-e0a9fbae26f3",
+  "label": "Unrestricted Grim Reaper pieces give coinitial Grim Reaper pieces",
+  "argument_id": "be38a5cb-59d9-4c43-8dfc-82fa19b4eb7f",
+  "challenge_module": "TruthCore.Results.Causality.GrimReaperPatchwork.Challenge",
+  "solution_module": "TruthCore.Results.Causality.GrimReaperPatchwork.Solution",
+  "theorem": "TruthCore.Results.Causality.GrimReaperPatchwork.coinitialPiecesOfPieces",
+  "comparator_config": "results/90e06025-3d18-4137-9fb6-e0a9fbae26f3/comparator.json",
+  "status": "solution-present",
+  "description": "Strength order: the local-pieces premise over every populated descent gives it over coinitial populated descents. No premise is established."
+}

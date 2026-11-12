@@ -394,6 +394,7 @@ def frontier_fixture(root):
                                      "disagreement": {"rival_statement_ids": []}}},
         "NF": {}, "SK": {}, "Q": {}, "Q2": {}, "TC": {}, "BR": {"lean_declaration": "Fixture.Bridge"},
         "OPQ": {}, "STMT-GOD-EXISTS": {},
+        "CY-A": {}, "CY-B": {}, "CY-D": {}, "CY-G": {}, "CY-H": {},
     }
     for statement_id, extra in statements.items():
         write("statements", {"id": statement_id, "paraphrase": f"{statement_id} paraphrase", **extra})
@@ -404,6 +405,10 @@ def frontier_fixture(root):
         ("ARG-RET", [], "X"), ("ARG-USE", ["F-LEG", "F-RET", "F-OBS", "F-CG", "F-OWN"], "C"),
         ("ARG-TC", ["F-LEG"], "TC"), ("ARG-TC-USE", ["TC", "OPQ"], "E"), ("ARG-OPQ", ["BR", "D"], "OPQ"),
         ("ARG-GOD", ["U"], "STMT-GOD-EXISTS"),
+        # #1476: an ungrounded cycle CY-A <-> CY-B with a dependent CY-D, and
+        # a cycle CY-G <-> CY-H entered from the met floor premise F-LEG.
+        ("ARG-CY-A", ["CY-B"], "CY-A"), ("ARG-CY-B", ["CY-A"], "CY-B"), ("ARG-CY-D", ["CY-A"], "CY-D"),
+        ("ARG-CY-G", ["CY-H"], "CY-G"), ("ARG-CY-H", ["CY-G"], "CY-H"), ("ARG-CY-G-F", ["F-LEG"], "CY-G"),
     ]:
         write("arguments", {"id": argument_id, "premise_statement_ids": premises,
                             "conclusion_statement_id": conclusion, "inference_ids": ["INF"],
@@ -425,6 +430,7 @@ def frontier_fixture(root):
                                 "case_split": {"target_statement_id": "ROOT", "note": "n", "cases": [
                                     {"label": "one", "lean_declaration": "TruthCore.One", "statement_id": "R"},
                                     {"label": "two", "lean_declaration": "TruthCore.Two"}]}}),
+        *((f"RES-{name}", f"ARG-{name}", {}) for name in ("CY-A", "CY-B", "CY-D", "CY-G", "CY-H", "CY-G-F")),
     ]:
         write("results", {"id": result_id, "argument_id": argument_id, "challenge_module": "Fixture.Challenge",
                           "solution_module": "Fixture.Solution", "theorem": "Fixture.none",
@@ -548,6 +554,13 @@ class TruthFrontierParity(unittest.TestCase):
             self.assertEqual(flags[U("result", "RES-OPQ")]["goal_consequent_premises"],
                              [{"hypothesis": "h", "statement_ids": [S("BR")]}])
             self.assertTrue(full["next_steps"]["partitions"])
+            # #1476: no closure from an ungrounded cycle; a grounded one closes.
+            closed = full["closed_statements"]
+            self.assertNotIn(S("CY-A"), closed)
+            self.assertNotIn(S("CY-B"), closed)
+            self.assertEqual([closed[S(name)] for name in ("CY-D", "CY-G", "CY-H")], ["proved"] * 3)
+            cycle_item = next(item for item in full["items"] if item["statement_id"] == S("CY-A"))
+            self.assertTrue(cycle_item["ungrounded_cycle"])
             unknown = python_frontier(root, "NOT-A-STATEMENT")
             unknown_args = ["--root", str(root), "--frontier-root", "NOT-A-STATEMENT"]
             self.assertEqual(self.json_truth(*unknown_args, "frontier"), unknown)

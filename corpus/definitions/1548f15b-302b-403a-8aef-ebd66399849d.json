@@ -1,0 +1,9 @@
+{
+ "id": "1548f15b-302b-403a-8aef-ebd66399849d",
+ "label": "Beginningless populated pasts have a coinitial descent",
+ "term": "countable coinitiality of beginningless populated pasts",
+ "definition": "BeginninglessPastsCountablyCoinitial h Concrete w holds when, in every history v accessible from w, every moment t at which a contingent concrete individual is present and whose past has no beginning starts a strictly descending sequence c (c 0 = t) that is coinitial. In ordinary language: a beginningless past can be stepped back through by countably many steps, as by days. Integer times satisfy it (c n = t - n, checked in GrimReaperPatchwork control 2); the full rational or real line by t - n and an open-below half-line such as (0, infinity) by t/2^n (not separately checked). In linear time it fails only for an order whose past has uncountable coinitiality, such as the reverse of the first uncountable ordinal.",
+ "basis": "stipulative",
+ "lean_declaration": "TruthCore.Causality.GrimReaperPatchwork.BeginninglessPastsCountablyCoinitial",
+ "note": "Analyst structural premise about the order of time; attribution deferred. It is needed to pass from 'no coinitial descent below a populated moment' to 'the populated moment's past has a beginning'. No physical model of time known to the corpus violates it. OPEN."
+}

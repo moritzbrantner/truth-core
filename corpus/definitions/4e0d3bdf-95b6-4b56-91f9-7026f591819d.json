@@ -1,0 +1,9 @@
+{
+  "id": "4e0d3bdf-95b6-4b56-91f9-7026f591819d",
+  "label": "Almighty at one being: can do every task that involves no contradiction",
+  "term": "almighty (omnipotens; Lean `IsAlmighty`)",
+  "definition": "IsAlmighty σ P g: for every task t of the Power vocabulary P that involves no contradiction (P.Consistent t), g can do t (P.CanDo g t). The body of GodIsOmnipotent (ST I q.25 a.3) at one being. Counterexample: any agent that cannot do some consistent task.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.DeiFiliusAttributeField.IsAlmighty",
+  "note": "Reuses the Power vocabulary (DEF-ACTIVE-POWER-TASK-VOCABULARY) unchanged; what counts as a task and as consistent is fixed only there. Analyst reading of Dei Filius ch. 1's 'omnipotens', attribution deferred."
+}
