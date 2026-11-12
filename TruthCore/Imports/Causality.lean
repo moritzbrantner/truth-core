@@ -204,6 +204,7 @@ public import TruthCore.Causality.SurveyCapabilityProfiles
 public import TruthCore.Causality.SurveyExternalCause
 public import TruthCore.Causality.SurveyProductiveSource
 public import TruthCore.Causality.SurveySourceEndpointControls
+public import TruthCore.Causality.SustainingCausation
 public import TruthCore.Causality.TeleologyFirstMover
 public import TruthCore.Causality.TemporalActualization
 public import TruthCore.Causality.TemporalCoverageEternity

@@ -46,7 +46,7 @@ proposed was repaired after the independent semantic challenge.
 
 | | Premise | Status | Rival |
 |---|---|---|---|
-| A2ab | Lasting ground: a concrete thing absent at a moment `s` and present later has *some* concrete ground present at `s` or later (`71df1177`) | open | a ground-free beginning (control 1); a beginning whose only ground ceased before an empty moment (control 2); undercutting objection to its inductive warrant, below |
+| A2ab | Lasting ground: a concrete thing absent at a moment `s` and present later has *some* concrete ground present at `s` or later (`71df1177`) | open; two further derivations (`SustainingCausation`, spec `specs/sustaining-causation.toml`, attempt `c94eed5b`): from a concrete CAUSE_OF_BEING_2 sustaining cause of every beginning thing, sustainers-as-grounds and the time-indexed contact principle (any order of time); or from a concrete CAUSE_OF_BEING_1 originating cause, originators-as-grounds, contact, no return after absence and comparability of moments (an explicit linear-time premise; the originating premise needs first moments of presence). Existential inertia (Schmid 2021) rejects the sustaining premise. On the inclusive reading of `GivesAt` (causing coming to be counts; q.104 a.1 co. makes the builder a cause of the house's becoming, not of its being) the originating route uses causes an inertialist can grant, so on this formulation the A2ab dispute does not sit in sustaining causation but in contact (no giving across a temporal gap), convexity, comparability of moments and first moments; on the strict esse-giving reading that is not shown. Convexity and comparability enter only because the originating premise ties the cause to the first moment of presence overall; one tied to the first moment after the absence would need only contact and grounds (not formalized). Sustainers- and originators-as-grounds widen A2ab's grounds relation, so composed with the A2 derivation A2c must hold for the widened relation (and excludes a self-sustaining persistence power, which would make a thing its own ground). `IsAt` is read inclusively here and in A1–A3 (location at, or co-presence to, the moment; check in attempt `c94eed5b`) | a ground-free beginning (control 1); a beginning whose only ground ceased before an empty moment (control 2); undercutting objection to its inductive warrant, below; intermittent presence breaks the originating route (`SustainingCausation` control 6); unread lead: corruptionist accounts of bodily resurrection are intermittent existence within the case's own framework, against convexity unless restricted |
 | A2c | Post-absence well-founded grounding: for each history and moment `s`, grounding among concrete things absent at `s` and present later is well-founded (`bf18a0d0`) | open | an endless series of grounds compressed after one moment at which all its members are absent: descending in time towards it (`BegunComingToBe.Control.zeno`, control 3), or all present at one later moment (unchecked). Independent justification on file: none beyond an open extension of Aquinas's grant, below |
 
 The traced form (`e6a1ac3c`: whatever concrete thing is present traces back, by
@@ -884,7 +884,28 @@ Objection audit. Existential inertia (Schmid 2021, read in the corpus) is a
 substantive objection to the immensity sense bridge if `CausesIn` is
 originating: what once caused everything need not now be present to anything.
 It is a rival framework, not an established counterexample, and on the sustaining
-reading the dispute moves to conservation (q.104 a.1), which stays open. No
+reading the dispute moves to conservation (q.104 a.1), which stays open.
+*Sustaining typed* (`SustainingCausation`, spec `specs/sustaining-causation.toml`,
+attempt `c94eed5b`, disambiguation `88a8fba7` CAUSE_OF_BEING: originating vs
+sustaining over a primitive time-indexed `GivesAt`). The presence step is now a
+derivation: whatever is IMMENSE_2 is present by giving being to everything else
+whenever it is (`9469ab62`), from three open premises, the sustaining reading of
+`CausesIn` (`23e04ae5`), presence-in-act (`140544c4`) and the time-indexed contact
+principle (`c4661518`). With a narrowed sense bridge (`a3913182`: place,
+containment, measure, the other modes of presence, immediacy) it gives `8bf775e9`
+itself, but that last step is a declared single-application transcription, so
+`8bf775e9` stays open until all its premises close. `8bf775e9` entails the
+narrowed bridge (strictness unchecked), so this is a finer split, not a weaker
+total commitment. This route reads `GivesAt` strictly (esse-giving), and
+`23e04ae5` is the cross-term sense bridge CAUSING_AN_EFFECT_3 →
+CAUSE_OF_BEING_2, named in prose only (term senses cannot record it: the
+CAUSING_AN_EFFECT_3 declaration does not occur in these theorems). The existential-inertia objection now targets exactly
+`23e04ae5`: in its typed shape (control 1) every cause of being originates, contact
+holds, and an IMMENSE_2 being is not present to what persists. Feser 2021 (read)
+answers that past existence is relevant but not sufficient and that constituents
+are only potentially the whole at the later time; that reply needs a
+concurrent-actualization premise (remaining in act needs an actual actualizer at
+the time), the untyped point where the two sides divide. No
 other substantive objection was identified. The spatial-presence lead
 against omnipresence targets a reading of presence the bridge does not use. The
 lead that finite minds grasp quantitative infinities through finite definitions

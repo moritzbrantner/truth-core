@@ -1,0 +1,11 @@
+{
+  "id": "b81b832f-77ac-4190-90e6-3a8329266be8",
+  "label": "The narrowed immensity sense bridge from the immensity sense bridge",
+  "argument_id": "af758407-f405-4972-9f34-2cf6bf14a1a2",
+  "challenge_module": "TruthCore.Results.Causality.SustainingCausation.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SustainingCausation.Solution",
+  "theorem": "TruthCore.Results.Causality.SustainingCausation.narrowedOfImmenseSenseBridge",
+  "comparator_config": "results/b81b832f-77ac-4190-90e6-3a8329266be8/comparator.json",
+  "status": "solution-present",
+  "description": "Strength order registration: the immensity sense bridge 8bf775e9 entails its narrowed form, whose antecedent adds presence to all whenever they are. Application only; it establishes neither."
+}

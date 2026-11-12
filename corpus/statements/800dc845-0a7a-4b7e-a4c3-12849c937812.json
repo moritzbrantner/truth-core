@@ -1,0 +1,9 @@
+{
+  "id": "800dc845-0a7a-4b7e-a4c3-12849c937812",
+  "label": "Any two moments of time are comparable",
+  "paraphrase": "OPEN analyst premise, attribution deferred: for the supplied preorder of times, any two moments a and b satisfy a < b, a = b or b < a. Linear time, stated as a premise on the time type rather than built into it. It excludes branching or partially ordered time. No discreteness, density, first moment or endlessness is assumed.",
+  "lean_declaration": "TruthCore.Causality.SustainingCausation.TimesTrichotomous",
+  "definition_ids": [
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e"
+  ]
+}
