@@ -28,5 +28,8 @@
     "d16b94fa-886f-54f3-85a3-7fc0c43d2b58",
     "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
     "1795a62e-f78b-5f5b-94e7-9e7490824811"
-  ]
+  ],
+  "strong_version_needed": {
+    "d5a94eb1-72d2-53e0-9a52-9787b5b61a8d": "Not needed for this endpoint: the retained frozen proof uses the premise only at esse. The existing sibling a31b3e52-c0ff-446e-82f8-979aa0d52c38 uses cffad050-e86d-48b8-b04b-be47fcc1352d with the same remaining premises. The sibling establishes no input premise."
+  }
 }

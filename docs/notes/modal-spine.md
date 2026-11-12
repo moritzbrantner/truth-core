@@ -990,6 +990,110 @@ with no weight; next test: read Enneads V.2.1 and check whether "beyond being"
 fails even the inclusive (eminent) `InAct`.
 
 **Where `376d6a5a` is load-bearing (2026-11-12, [attempt](../../corpus/attempts/a4a689b4-3e90-491e-8875-478b891e87f4.json), `specs/preexistence-without-transfer.toml`).**
+### Reconciliation and consumer audit draft (2026-11-12; independent challenge pending)
+
+This subsection is the complete proposed outcome of the reconciliation slice,
+not a reviewed overall judgment or completion of #1519. Main was fetched at
+`d98066db300d5b02c2062c2a55d622a237ace49b`; #1518 was fetched at
+`e97b8dba4` and merged with main without conflicts (integration head
+`50399906a402a953f80405317d9b112b4ff21070`). No map changes from #1571 were
+replayed. The results `cffad050`, `2c0b9bd7`, and root argument `5d2b7c6e`
+are branch contributions, not preexisting main evidence. The older ten/eleven
+route experiments below retain their historical baseline and must not be
+reported as current-main counts. #1522's two grades-at-being siblings, verum
+exception, and declined `1c154f2f` sense passage remain intact.
+
+**Exact immediate consumers.** `482f4ad2` and `678ff65f` use the comparative
+only at esse. Their existing replacements are respectively `a31b3e52` and
+`5d2b7c6e`; their frozen originals now say explicitly that the strong version
+is unnecessary for the endpoint. The remaining premises and the latter's GOD
+bridge are retained. This is sufficiency, not proof of globally weakest inputs.
+`892db443` uses arbitrary r, so its current proof cannot use the esse instance;
+its annotation is a scope statement, not a theorem of necessity.
+
+A further reduction is visible in the exact proof terms, but is **not yet a
+registered or checked result**: `CausalMapsBatch1.nothingMovesExceptInAct`
+uses comparison only in `hHas r y x (hMore y x r hne (hCause y x r hm))`.
+Replace this by distinct-cause possession applied to `hCause`; the distinct-part
+self-motion branch then proceeds unchanged. Its proposed sibling needs EM,
+mover-causes-what-it-moves-to, distinct-cause possession, distinct-part
+self-motion and whole-in-act-through-part. Neither a comparative nor a
+more-such-bearer premise should remain. All five inputs remain open.
+
+Likewise `QuartaViaGradesFromCausalAscent.gradesHaveAMaximum` uses `hCause`
+only to obtain `InAct c r` through `hBearer`. A proposed sibling can use
+distinct-cause possession at that induction step; it still needs `hBearer`
+to start from the observed comparison, exceeded-is-caused, well-foundedness
+of distinct causes at each r, and EM. Thus arbitrary-r consumers do not
+uniformly require causal **excess**: some need only causal **possession**.
+This candidate does not show those premises independently warranted, nor
+that the weaker esse principle suffices for a conclusion quantifying over r.
+No new route or discharge is claimed for either unregistered sibling.
+
+The other five named esse candidates (`ef122ccf`, `8bbe817d`, `87dd8489`,
+`3eafe507`, `815d22c8`) remain pending sibling certification. Their proposed
+weakening must preserve distinctness, the cause dictionary and the exact esse
+parameter. For the every-world consumer, a world-free comparative and causal
+dictionary do not remove the every-world support-to-cause bridge; the weakening
+cannot establish cross-world transport. The wider consumer inventory remains
+open; two resolved original interfaces and one explicit current-proof scope
+annotation do not complete its audit.
+
+**Warrant and strongest positive rival, proposed assessment.** The available
+conditional results do not discriminate between substantive eminent possession
+and law-mediated production by a source with a distinct productive capacity.
+On the latter account, causing r requires a relevant capacity, mechanism or
+joint arrangement, not formally exemplifying r or ranking higher on the same
+r scale. This is a positive conceptual alternative, not evidence that strong
+emergence actually occurs. It accepts that an actual agent has being while
+denying that this entails every effect perfection. An instrumental or emergent
+case tests the present premises only if it qualifies as CAUSE_2, and a denial
+of formal possession alone does not deny inclusive IN_ACT_3.
+
+If eminent possession is defined simply as the power to produce r, causal
+possession may follow conceptually, but the comparative-bearer and
+unlimited-exceeds-limited bridges need an independent interpretation: production
+power does not by itself place the producer above an actual bearer in a common
+quality order. If eminence instead means independently specified containment,
+causal possession is substantive and requires its own warrant. This fork is
+not registered here as finished sense vocabulary. The existing finite controls
+establish only encoded consistency/omission/strictness, not metaphysical
+possibility, empirical emergence, or a defeated rival. Reception's
+`not limited by this recipient` must also not be paraphrased as absolute
+unlimitedness. The comparative bridge, not merely agency-in-act, carries that
+step. Attribution remains deferred; no unread author is enlisted as evidence.
+
+**Next discriminating tests.** Independently challenge this entire proposed
+outcome, especially the two possession-only reductions and the capacity/order
+boundary. Then certify the sibling proofs above and the five esse candidates
+without touching frozen Challenges. Test a single same-dictionary model with
+an actual distinct esse cause and an effect perfection absent from the cause,
+retaining the intended agency and reception background; identify exactly
+which bridge it denies. A model with only an ordinary becoming cause does not
+settle this issue. Reassess the parent `8626f8a5` route after registration,
+retaining preexistence's independent warrant obligation. None is discharged
+by the reconciliation or annotations.
+
+**Service experiment / coordinator handoff evidence.** Canonical-workspace
+`GET /corpus/dossier` on `376d6a5a` returned HTTP 200, workspace and HEAD
+`50399906a402a953f80405317d9b112b4ff21070`; its result data equalled the
+Python CLI JSON exactly. Observed one-off response times were about 1.87 s
+service and 1.79 s CLI, not a benchmark or evidence of speedup. The Rust CLI
+binary is absent in this checkout; `worker_env.py -- python3 scripts/corpus.py`
+provided related/context/dossiers successfully without repeating preflight.
+Recommendation: retain corpus-query service with explicit binding; use CLI
+fallback here. Repeated Lean service edits were not attempted against the
+mismatched shared preview baseline and are untested. The computed frontier-diff attempt against main failed during its temporary
+archive extraction with `OSError: [Errno 122] Disk quota exceeded`; no fresh
+route counts or premise delta are available. The three annotations themselves
+change no premise lists. Offline corpus check passes; the three affected specs
+regenerate unchanged and attribution-check reports no changed stating claims.
+Existing proof evidence is reused for unchanged Lean sources; reconciliation-head final CI and the
+coordinator's independent semantic challenge remain pending. Shared convention
+sourceRevision: `15f348b072188255da837578eaafc8a98f12fdf0`.
+
+### Historical branch experiment (earlier baseline)
+
 Strict expansion here is the least fixpoint over verified arguments, with
 statements that have no verified derivation as leaves; strength-order results
 count as derivations, and so does this batch's own `9e7de16d` (distinct-cause
