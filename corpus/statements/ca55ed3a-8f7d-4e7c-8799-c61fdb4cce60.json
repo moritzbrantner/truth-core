@@ -1,6 +1,6 @@
 {
   "id": "ca55ed3a-8f7d-4e7c-8799-c61fdb4cce60",
-  "label": "Every first being is INCORRUPTIBLE_SIMPLY_1: it cannot fail to be in being",
+  "label": "Every first being is CORRUPTIBLE_INCORRUPTIBLE_1: it cannot fail to be in being",
   "paraphrase": "Open premise, analyst formulation, unattributed: every first being (no being other than it is simply prior to it) is simply incorruptible: it cannot fail to be in the respect of being (esse). Orientation only: Metaphysics Theta.8, 1050b16-19 (the eternal is prior in substance; the necessary beings are first); the pinned reading STMT-INCORRUPTIBLE-IS-IN-ACT-IN-SUBSTANCE covers 1050b16-18 and is not attributed this premise. It says nothing about failing to be in a place, quantity or quality. Its denial is a contingent first being.",
   "lean_declaration": "TruthCore.Causality.ActPriorityThetaEight.FirstBeingIsIncorruptibleSimply",
   "definition_ids": [
