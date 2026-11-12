@@ -1,0 +1,27 @@
+{
+  "id": "15fce38f-7b91-4c0b-a201-b83139147419",
+  "label": "Act is SIMPLY_PRIOR_1 to POTENCY_2 at a first being, from composition",
+  "premise_statement_ids": [
+    "8288ff1e-d534-4516-ac2d-8d010cb863ac",
+    "3d99779b-b44a-4daa-a873-8ccdd3c034ae",
+    "ca07cae9-6102-564e-a7fd-efb013744b3d",
+    "e078f07b-a4b8-595e-a3ee-02dd83474450"
+  ],
+  "conclusion_statement_id": "61ad11f3-476f-411d-9720-d9f05cbc22fc",
+  "inference_ids": [
+    "e3473d62-1a4f-495e-909c-e1b0ece98993"
+  ],
+  "meaning": "A first being is in act in some respect; if it were in potency in some respect it would be composite (act and potency make composite), so it would have a cause of its being other than itself (ST I q.3 a.7 reading), which as efficient cause would be simply prior to it (ST I q.2 a.3 reading), against firstness; so no first being is in potency, and the first-being version holds vacuously. Each of the four premises is needed (Control.CompositionOmissions). It uses no claim that idle potencies of other beings have prior beings in act, and no reduction or grounding premise. It relocates the question to whether a first being can be an uncaused composite (the existing uncaused-composite rival). Conditional consequence only; no premise is established.",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "25e19d5a-5cdf-5916-a888-f6a0ce970f11",
+    "3ea2762f-1a85-5059-b4e7-d29f192b16b6",
+    "85f7f569-ab4d-514b-aa2c-cf75171ad105",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
+  ]
+}

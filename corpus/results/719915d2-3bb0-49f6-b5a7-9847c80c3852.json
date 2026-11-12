@@ -1,0 +1,11 @@
+{
+  "id": "719915d2-3bb0-49f6-b5a7-9847c80c3852",
+  "label": "No component is the first being, from act priority at a first being",
+  "argument_id": "358d8c6e-7fa1-465d-99e3-7977fe2bf913",
+  "challenge_module": "TruthCore.Results.Causality.ActPriorityAtFirst.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ActPriorityAtFirst.Solution",
+  "theorem": "TruthCore.Results.Causality.ActPriorityAtFirst.noComponentFirstOfWeak",
+  "comparator_config": "results/719915d2-3bb0-49f6-b5a7-9847c80c3852/comparator.json",
+  "status": "solution-present",
+  "description": "The existing ComponentFirstness.noComponentFirst with act's simple priority replaced by its first-being instance. A component supposed first is in potency in some respect or participated. If in potency, act priority at a first being gives a being in act in that respect simply prior to it; firstness makes that being the component itself, against non-overlap. If participated, it has a distinct cause of its being, which is prior to it as efficient cause, against firstness. The proof used the strong reading only at the supposed first component, so the weak version suffices. Conditional consequence only; no premise is established."
+}

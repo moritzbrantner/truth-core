@@ -1,0 +1,11 @@
+{
+  "id": "3d99779b-b44a-4daa-a873-8ccdd3c034ae",
+  "label": "Whatever is in act in some respect and in POTENCY_2 in some respect is composite",
+  "paraphrase": "Open premise, analyst formulation, unattributed: whatever is in act in some respect and in potency in some respect is composite, under the supplied Composite predicate of the q.3 a.7 readings. The thought: a being whose actual being leaves a capacity unrealized has two principles, what it actually is and what it can be but is not. ST I q.3 a.7 co. states the converse (in every composite there is potency and act), not this direction. The restriction to beings in act in some respect keeps pure potency out: prime matter, in potency and in act in no respect, is not composite.",
+  "lean_declaration": "TruthCore.Causality.ActPriorityAtFirst.ActAndPotencyMakeComposite",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "3ea2762f-1a85-5059-b4e7-d29f192b16b6",
+    "85f7f569-ab4d-514b-aa2c-cf75171ad105"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "151d21f9-64f1-4a02-a898-fc560dd2a89a",
+  "label": "Cold stone, composition omissions and first-being act priority facts",
+  "paraphrase": "Closed controls over Bool beings (true a ground, false a stone) and Bool respects (true esse, false heat). (1) Cold stone: act priority at first beings, non-overlap, every first being in act in some respect, act and potency make composite, every composite has a distinct cause of its being, efficient causes are prior, the ground is a first being and the stone is in potency to heat, while act's simple priority over every potency fails: the stone has a simply prior ground but nothing is in act in heat. (2) Dropping any one of the four composition-route premises leaves the other three and non-overlap while a first stone is in potency to heat with nothing in act in heat, so first-being act priority fails. (3) For every carrier: the strong reading implies the first-being version; the first-being version with non-overlap gives that a first being is in potency in no respect; that conclusion gives the first-being version back; the strong reading, non-overlap and a bridge from simple priority between distinct beings to a relation G give every being in potency a distinct G-predecessor in act in that respect; and non-overlap is needed for the second fact. Statements about these interpretations and implications only.",
+  "lean_declaration": "TruthCore.Causality.ActPriorityAtFirst.Control.Certificate",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "3ea2762f-1a85-5059-b4e7-d29f192b16b6",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8",
+    "25e19d5a-5cdf-5916-a888-f6a0ce970f11",
+    "85f7f569-ab4d-514b-aa2c-cf75171ad105"
+  ]
+}

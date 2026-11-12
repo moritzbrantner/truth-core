@@ -1,0 +1,89 @@
+# Act's simple priority over potency, weakened to the routes' use: at a first
+# being. Analyst formulations, attribution deferred. Registers the strong
+# reading -> first-being instance as a strength order, rederives "no component
+# is the first being" from the weak version, and gives the weak version a
+# second support option from composition (q.3 a.7) that needs no premise about
+# beings other than a first one. Controls: strictness (cold stone), omission of
+# each composition premise, and the equivalence of the weak version with the
+# q.3 a.1 conclusion given non-overlap.
+
+[batch]
+vocab = "TruthCore.Causality.ActPriorityAtFirst"
+results = "TruthCore.Results.Causality.ActPriorityAtFirst"
+
+# ---------------------------------------------------------------- statements
+
+[[statement]]
+id = "Act is SIMPLY_PRIOR_1 to POTENCY_2 at a first being"
+lean = "FirstBeingActPriority"
+paraphrase = "Open premise, analyst formulation, unattributed: whatever first being (no being other than it is simply prior to it) is in potency in a respect is simply posterior to some being in act in that respect. The instance at first beings of act priority for the independent potency parameter (the same body as STMT-ACT-SIMPLY-PRIOR-TO-POTENCY on the independently supplied InPotency). It says nothing about a being to which another is simply prior. Given same-respect non-overlap it is equivalent to STMT-FIRST-BEING-IS-IN-NO-WAY-IN-POTENCY."
+definitions = ["DEF-ACT", "DEF-INDEPENDENT-POTENCY", "DEF-SIMPLE-PRIORITY", "DEF-FIRST-BEING"]
+
+[[statement]]
+id = "Whatever is in act in some respect and in POTENCY_2 in some respect is composite"
+lean = "ActAndPotencyMakeComposite"
+paraphrase = "Open premise, analyst formulation, unattributed: whatever is in act in some respect and in potency in some respect is composite, under the supplied Composite predicate of the q.3 a.7 readings. The thought: a being whose actual being leaves a capacity unrealized has two principles, what it actually is and what it can be but is not. ST I q.3 a.7 co. states the converse (in every composite there is potency and act), not this direction. The restriction to beings in act in some respect keeps pure potency out: prime matter, in potency and in act in no respect, is not composite."
+definitions = ["DEF-ACT", "DEF-INDEPENDENT-POTENCY", "DEF-SIMPLE"]
+
+[[statement]]
+id = "Every first being is in act in some respect"
+lean = "FirstBeingIsInSomeAct"
+paraphrase = "Open premise, analyst formulation, unattributed: whatever first being (no being other than it is simply prior to it) is in act in some respect. Its denial is a first principle in act in nothing, the shape of the potency-first cosmologies (Night, the seed) that ST I q.4 a.1 ad 2 answers."
+definitions = ["DEF-ACT", "DEF-FIRST-BEING", "DEF-SIMPLE-PRIORITY"]
+
+[[statement]]
+id = "Cold stone, composition omissions and first-being act priority facts"
+lean = "Control.Certificate"
+paraphrase = "Closed controls over Bool beings (true a ground, false a stone) and Bool respects (true esse, false heat). (1) Cold stone: act priority at first beings, non-overlap, every first being in act in some respect, act and potency make composite, every composite has a distinct cause of its being, efficient causes are prior, the ground is a first being and the stone is in potency to heat, while act's simple priority over every potency fails: the stone has a simply prior ground but nothing is in act in heat. (2) Dropping any one of the four composition-route premises leaves the other three and non-overlap while a first stone is in potency to heat with nothing in act in heat, so first-being act priority fails. (3) For every carrier: the strong reading implies the first-being version; the first-being version with non-overlap gives that a first being is in potency in no respect; that conclusion gives the first-being version back; the strong reading, non-overlap and a bridge from simple priority between distinct beings to a relation G give every being in potency a distinct G-predecessor in act in that respect; and non-overlap is needed for the second fact. Statements about these interpretations and implications only."
+definitions = ["DEF-ACT", "DEF-INDEPENDENT-POTENCY", "DEF-SIMPLE-PRIORITY", "DEF-FIRST-BEING", "DEF-SIMPLE"]
+
+# ---------------------------------------------------------------- arguments
+
+[[argument]]
+id = "Act is SIMPLY_PRIOR_1 to POTENCY_2 at a first being, from independent act priority"
+theorem = "weakOfStrong"
+premises = ["Act priority for the independent potency parameter"]
+conclusion = "Act is SIMPLY_PRIOR_1 to POTENCY_2 at a first being"
+axioms = []
+rule = "Instantiation: the potency bearer is taken to be a first being"
+meaning = "Act's simple priority over every potency of the independently supplied potency parameter (IndependentPriority, the transparent wrapper of the STMT-ACT-SIMPLY-PRIOR-TO-POTENCY body) gives it for the potencies of first beings. Registered as a strength order (the strong reading strengthens its first-being instance); strictness is witnessed by Control.ColdStone. An instance, not a new derivation; no premise is established."
+
+[[argument]]
+id = "No component is the first being, from act priority at a first being"
+theorem = "noComponentFirstOfWeak"
+premises = ["STMT-COMPONENT-IS-POTENTIAL-OR-PARTICIPATED", "Act is SIMPLY_PRIOR_1 to POTENCY_2 at a first being", "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT", "STMT-PARTICIPATED-HAS-OTHER-CAUSE", "STMT-EFFICIENT-CAUSE-IS-PRIOR-TO-EFFECT"]
+conclusion = "STMT-NO-COMPONENT-IS-FIRST-BEING"
+axioms = []
+rule = "Case split on the kind of component; act priority is applied only to the component supposed first"
+meaning = "The existing ComponentFirstness.noComponentFirst with act's simple priority replaced by its first-being instance. A component supposed first is in potency in some respect or participated. If in potency, act priority at a first being gives a being in act in that respect simply prior to it; firstness makes that being the component itself, against non-overlap. If participated, it has a distinct cause of its being, which is prior to it as efficient cause, against firstness. The proof used the strong reading only at the supposed first component, so the weak version suffices. Conditional consequence only; no premise is established."
+
+[[argument]]
+id = "Act is SIMPLY_PRIOR_1 to POTENCY_2 at a first being, from composition"
+theorem = "weakOfComposition"
+premises = ["Every first being is in act in some respect", "Whatever is in act in some respect and in POTENCY_2 in some respect is composite", "STMT-COMPOSITE-HAS-A-UNITING-CAUSE", "STMT-EFFICIENT-CAUSE-IS-PRIOR-TO-EFFECT"]
+conclusion = "Act is SIMPLY_PRIOR_1 to POTENCY_2 at a first being"
+axioms = []
+rule = "Reductio at the supposed first being: act in some respect with potency in another gives composition, composition a distinct cause of being, the cause priority, against firstness"
+meaning = "A first being is in act in some respect; if it were in potency in some respect it would be composite (act and potency make composite), so it would have a cause of its being other than itself (ST I q.3 a.7 reading), which as efficient cause would be simply prior to it (ST I q.2 a.3 reading), against firstness; so no first being is in potency, and the first-being version holds vacuously. Each of the four premises is needed (Control.CompositionOmissions). It uses no claim that idle potencies of other beings have prior beings in act, and no reduction or grounding premise. It relocates the question to whether a first being can be an uncaused composite (the existing uncaused-composite rival). Conditional consequence only; no premise is established."
+
+[[argument]]
+id = "Cold stone, composition omissions and first-being act priority facts, checked"
+theorem = "controls"
+premises = []
+conclusion = "Cold stone, composition omissions and first-being act priority facts"
+axioms = []
+rule = "Explicit two-being interpretations checked by case analysis, and general implications"
+meaning = "Controls for the first-being version of act priority. Control.ColdStone witnesses that the strong reading strictly strengthens the first-being version, jointly with non-overlap and the four composition-route premises. Control.CompositionOmissions shows that each composition premise is needed. Control.Facts proves the strength order, the equivalence of the first-being version with the q.3 a.1 conclusion given non-overlap (and that non-overlap is needed for that direction), and that the strong reading with non-overlap and a simple-priority-to-G bridge gives every being in potency a distinct G-predecessor in act in that respect. Model-witnessed and general implications only; no interpretation is claimed metaphysically possible."
+
+# ---------------------------------------------------------------- relations
+
+[[relation]]
+id = "Act priority for the independent potency parameter strengthens its first-being instance"
+subject_kind = "statement"
+subject_id = "Act priority for the independent potency parameter"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "Act is SIMPLY_PRIOR_1 to POTENCY_2 at a first being"
+verification_result_id = "Act is SIMPLY_PRIOR_1 to POTENCY_2 at a first being, from independent act priority"
+strictness_result_id = "Cold stone, composition omissions and first-being act priority facts, checked"
+note = "Same InAct, InPotency and PriorSimply parameters. The strong reading constrains every potency bearer; the weak one only first beings. Control.ColdStone satisfies the weak version while the strong one fails for a stone with a simply prior ground and nothing in act in heat."
