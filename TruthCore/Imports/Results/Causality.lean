@@ -97,6 +97,7 @@ public import TruthCore.Results.Causality.DeiFiliusLivingNineScope.Solution
 public import TruthCore.Results.Causality.DeiFiliusLivingSelfOperation.Solution
 public import TruthCore.Results.Causality.DeiFiliusLordBlessed.Solution
 public import TruthCore.Results.Causality.DeiFiliusOperationFromIntellect.Solution
+public import TruthCore.Results.Causality.DeiFiliusUnifiedRoute.Solution
 public import TruthCore.Results.Causality.DerivativeJointPower.Solution
 public import TruthCore.Results.Causality.DirectEsseGenusOmissionControl.Solution
 public import TruthCore.Results.Causality.DirectEsseRootGodExistence.ExistenceOnly.Solution

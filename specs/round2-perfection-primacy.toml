@@ -100,8 +100,8 @@ disambiguations = ["DISAMB-THOMISTIC-ESSE-PARTICIPATION"]
 [[statement]]
 id = "STMT-CAUSED-IN-BEING-BY-ANOTHER-IS-CREATURE"
 lean = "CausedInBeingByAnotherIsCreature"
-paraphrase = "OPEN analyst premise: whatever has its being caused by something distinct from it is a creature (DEF-CREATURE read as: ordered to a cause of its being). It counts a thing caused in being by a secondary cause as a creature too."
-definitions = ["DEF-CREATURE", "DEF-CAUSE-OF-PERFECTION", "DEF-ESSE"]
+paraphrase = "OPEN analyst premise: whatever has its being caused by something distinct from it is a creature (DEF-CREATURE read as: ordered to a cause of its being). It counts a thing caused in being by a secondary cause as a creature too. SCOPE CONDITION (definition 80dea550, the same domain stipulation as 'Whatever has its being caused by another is not INFINITE_1'): elements of Being are individuated by their act of being, so the divine persons, one in numerically identical esse, are one element; the Son's being from the Father is no instance of CausesIn c x esse with c distinct from x. Read without this stipulation, with the processions as instances, the premise would make the Son a creature, contrary to the case's Nicene commitment."
+definitions = ["DEF-CREATURE", "DEF-CAUSE-OF-PERFECTION", "DEF-ESSE", "80dea550-60c1-447a-83bf-d3f27ea0b2a8"]
 disambiguations = ["DISAMB-CAUSE"]
 
 # ---- Target 7: nothing else reaches the primary ----
@@ -109,7 +109,7 @@ disambiguations = ["DISAMB-CAUSE"]
 [[statement]]
 id = "STMT-CREATURE-ESSE-IS-RECEIVED"
 lean = "CreatureEsseIsReceived"
-paraphrase = "OPEN analyst generalization of ST I q.7 a.2 co.: the esse of every creature is received in some principle. The passage says it of a subsistent created form, whose esse is 'receptum et contractum'; the generalization to every creature is the analyst's."
+paraphrase = "OPEN analyst generalization of ST I q.7 a.2 co.: the esse of every creature is received in some principle. The passage says it of a subsistent created form, whose esse is 'receptum et contractum'; the generalization to every creature is the analyst's. It says only that the esse is received in SOME principle; reception in the thing's own essence is the separate STMT-ESSE-RECEIVED-IN-OWN-ESSENCE, and DEF-ESSE-RECEIVED-IN leaves the real constitution of the receiving principle open."
 definitions = ["DEF-CREATURE", "DEF-ESSE-RECEIVED-IN"]
 disambiguations = ["DISAMB-ESSE-RECEPTION"]
 
