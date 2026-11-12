@@ -22,7 +22,7 @@ disambiguations = ["DISAMB-BEING-UNIVOCITY", "DISAMB-EXISTENCE-ESSE-SUPPORT", "D
 [[statement]]
 id = "Concrete support at every admitted world ascends in esse"
 lean = "SupportAscendsInEsseEverywhere"
-paraphrase = "Open premise, analyst formulation, unattributed: for every admitted world v and concrete candidates a and b, if a exists at v and stands to b in the selected relation at v, then a is more in esse than b, in the same supplied comparative. No necessity restriction and no selected world. Strictly a strengthening of both the actual-grounding ascent premise at each world and the ascent premise between necessary concreta."
+paraphrase = "Open premise, analyst formulation, unattributed: for every admitted world v and concrete candidates a and b, if a exists at v and stands to b in the selected relation at v, then a is more in esse than b, in the same supplied comparative. No necessity restriction and no selected world. A strengthening of both the actual-grounding ascent premise at each world and the ascent premise between necessary concreta (verified: necessaryAscentOfEverywhere, actualAscentOfEverywhere); strictness not certified."
 definitions = ["Ascent in esse of support at every world", "DEF-MORE-IN", "DEF-ESSE", "DEF-PRESENT-ESSE-SUPPORT"]
 disambiguations = ["DISAMB-BEING-UNIVOCITY", "DISAMB-EXISTENCE-ESSE-SUPPORT"]
 
@@ -43,14 +43,14 @@ disambiguations = ["DISAMB-CAUSE", "DISAMB-EXISTENCE-ESSE-SUPPORT"]
 [[statement]]
 id = "No infinite ascent in esse among actual concreta"
 lean = "NoInfiniteAscentAmongActualConcreta"
-paraphrase = "Open premise, analyst formulation, unattributed: there is no infinite sequence of concreta existing at w each more in esse than the one before, in the supplied comparative. The weak version of STMT-NO-INFINITE-ASCENT-IN-BEING, which forbids such ascent among all candidates, merely possible ones included."
+paraphrase = "Open premise, analyst formulation, unattributed: the supplied comparative restricted to concreta existing at w is well-founded (hence there is no infinite sequence of such concreta each more in esse than the one before). The weak version of STMT-NO-INFINITE-ASCENT-IN-BEING, which forbids such ascent among all candidates, merely possible ones included."
 definitions = ["DEF-NO-INFINITE-ASCENT-IN-BEING", "DEF-MORE-IN", "DEF-ESSE"]
 disambiguations = ["DISAMB-BEING-UNIVOCITY"]
 
 [[statement]]
 id = "No infinite ascent in esse among NECESSARY_2 concreta"
 lean = "NoInfiniteAscentAmongNecessaryConcreta"
-paraphrase = "Open premise, analyst formulation, unattributed: there is no infinite sequence of concreta, each existing at every world accessible from w, each more in esse than the one before, in the supplied comparative. A weak version of STMT-NO-INFINITE-ASCENT-IN-BEING restricted to necessary concreta."
+paraphrase = "Open premise, analyst formulation, unattributed: the supplied comparative restricted to concreta existing at every world accessible from w is well-founded (hence there is no infinite sequence of such concreta each more in esse than the one before). A weak version of STMT-NO-INFINITE-ASCENT-IN-BEING restricted to necessary concreta."
 definitions = ["DEF-NO-INFINITE-ASCENT-IN-BEING", "DEF-MORE-IN", "DEF-ESSE", "DEF-KANT-MODAL-NECESSITY"]
 disambiguations = ["DISAMB-BEING-UNIVOCITY", "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"]
 
@@ -70,7 +70,7 @@ disambiguations = ["DISAMB-EXISTENCE-ESSE-SUPPORT", "DISAMB-NECESSARY-EXISTENCE-
 [[statement]]
 id = "Graded-foundation controls: joint witness, descending grade, off-world ascent, gradeless rivals"
 lean = "Control.Controls"
-paraphrase = "Closed controls on finite interpretations. (1) Joint witness: in the two-world profile where the necessary root false grounds the contingent true at the actual world false, with false more in esse than true and false a cause of true's being, every ascent premise, the actual ground-cause bridge, the unrestricted Aristotelian cause principle, no infinite ascent, both foundation conditions and the existing joint premises hold, with a nonempty edge, grade and cause. (2) Descending grade: in the same profile with the reversed grade (the grounded true is more in esse than its ground), actual grounding is well-founded and the grade has no infinite ascent, but the ground is not more in esse than what it grounds. (3) Off-world ascent: with two necessary concreta and a single support edge at the non-actual world only, support ascends the grade at every world and the grade has no infinite ascent, while coverage and the one-way no-novel-edge condition fail. (4) In the rotating triangle (at t0) and the rooted pair (at false), for no respect type, comparison and respect does support between necessary concreta ascend a comparison with no infinite ascent; and in the rooted pair a necessary concretum is underived at every admitted world. Statements about these interpretations only."
+paraphrase = "Closed controls on finite interpretations. (1) Joint witness: in the two-world profile where the necessary root false grounds the contingent true at the actual world false, with false more in esse than true and false a cause of true's being, every ascent premise, the actual and every-world ground-cause bridges, the unrestricted Aristotelian cause principle, no infinite ascent, both foundation conditions and the existing joint premises hold, with a nonempty edge, grade and cause. (2) Descending grade: in the same profile with the reversed grade (the grounded true is more in esse than its ground), actual grounding is well-founded and the grade has no infinite ascent, but the ground is not more in esse than what it grounds. (3) Off-world ascent: with two necessary concreta and a single support edge at the non-actual world only, support ascends the grade at every world and the grade has no infinite ascent, while coverage and the one-way no-novel-edge condition fail. (4) In the rotating triangle (at t0) and the rooted pair (at false), for no respect type, comparison and respect does support between necessary concreta ascend a comparison with no infinite ascent; and in the rooted pair a necessary concretum is underived at every admitted world. Statements about these interpretations only."
 definitions = ["Ascent in esse of support between necessary concreta", "Ascent in esse of support at every world", "Actual ground as distinct cause of being"]
 
 # ---------------------------------------------------------------- arguments
@@ -97,7 +97,7 @@ premises = ["Support between NECESSARY_2 concreta at any admitted world ascends 
 conclusion = "STMT-CONCRETE-NECESSARY-UNION-WF"
 axioms = []
 rule = "Subrelation of the inverse image of a well-founded relation: each cross-world union edge is one ascent step"
-meaning = "Derives J2 of the join without the one-way no-novel-edge condition, actual well-founded grounding or reflexive access. Every edge of the cross-world union of support among necessary concreta is, by the rigid ascent premise, a step up in the one world-invariant comparative MoreIn esse, which has no infinite ascent among necessary concreta. Because the grade takes no world argument, edges at different worlds are measured by one order, which is what the world-varying rivals deny. Not comparable in strength with the no-novel-edge route: Control.OffWorldAscent satisfies the ascent premise and no infinite ascent while no-novel-edge fails; and with a freely chosen grade, J2 itself yields such a grade (gradedOfUnionWF). Conditional consequence only; no premise is established."
+meaning = "Derives J2 of the join without the one-way no-novel-edge condition, actual well-founded grounding or reflexive access. Every edge of the cross-world union of support among necessary concreta is, by the rigid ascent premise, a step up in the one world-invariant comparative MoreIn esse, which has no infinite ascent among necessary concreta. Because the grade takes no world argument, edges at different worlds are measured by one order, which is what the world-varying rivals deny. Relation to the no-novel-edge route: ascent with no infinite ascent does not imply no-novel-edge (Control.OffWorldAscent); with a freely chosen grade, the no-novel-edge bundle implies the graded form (unionWFOfNoNovel composed with gradedOfUnionWF); for the fixed MoreIn esse the other direction is not certified. Conditional consequence only; no premise is established."
 
 [[argument]]
 id = "No mutual necessary support, from rigid ascent in esse and no infinite ascent"
@@ -135,7 +135,7 @@ premises = ["STMT-NO-INFINITE-ASCENT-IN-BEING"]
 conclusion = "No infinite ascent in esse among NECESSARY_2 concreta"
 axioms = []
 rule = "Subrelation of a well-founded relation"
-meaning = "The global no-infinite-ascent premise implies its restriction to concreta necessary from the selected world. Registered as a strength order. With the two restrictions, one global premise about the grade of being serves AGWF, J2 and the grades-to-maximum route."
+meaning = "The global no-infinite-ascent premise implies its restriction to concreta necessary from the selected world. Registered as a strength order. With the two restrictions and every-world ascent, one global premise about the grade of being serves AGWF, J2 and the grades-to-maximum route."
 
 [[argument]]
 id = "Actual ground more in esse, from the cause-is-more principle and ground-cause bridge"
@@ -204,7 +204,7 @@ premises = []
 conclusion = "Graded-foundation controls: joint witness, descending grade, off-world ascent, gradeless rivals"
 axioms = []
 rule = "Explicit finite interpretations, checked by case analysis and accessibility induction"
-meaning = "Controls for the graded batch. The joint witness shows all new premises, the reused grade premises and the cause principle are jointly satisfiable with a nonempty grounding edge, grade and cause, so no derivation is vacuous on that ground. The descending grade shows that well-founded grounding and a well-founded grade do not give ascent: the ascent premise is a substantive addition. Off-world ascent shows that the rigid ascent premises with no infinite ascent imply neither coverage nor the one-way no-novel-edge condition. The rival controls show the rotating triangle and rooted pair admit no rigid well-founded grade ascended by necessary support, while the rooted pair still satisfies the join's endpoint. Model-witnessed only; no interpretation is claimed metaphysically possible."
+meaning = "Controls for the graded batch. The joint witness shows all new premises (the two restricted no-ascent premises follow there from the global one by actualAscentWFOfGlobal and necessaryAscentWFOfGlobal), the reused grade premises and the cause principle are jointly satisfiable with a nonempty grounding edge, grade and cause, so no derivation is vacuous on that ground. The descending grade shows that well-founded grounding and a well-founded grade do not give ascent: the ascent premise is a substantive addition. Off-world ascent shows that the rigid ascent premises with no infinite ascent imply neither coverage nor the one-way no-novel-edge condition (the converse, from no-novel-edge to ascent of the fixed MoreIn esse, is not certified). The rival controls show the rotating triangle and rooted pair admit no rigid well-founded grade ascended by necessary support, while the rooted pair still satisfies the join's endpoint. Model-witnessed only; no interpretation is claimed metaphysically possible."
 
 # ---------------------------------------------------------------- relations
 

@@ -37,7 +37,7 @@ New, all open analyst premises:
   `NoInfiniteAscentAmongNecessaryConcreta`: the weak versions of no infinite
   ascent in being that the two foundation conditions need; the global
   `NoInfiniteAscentInBeing` implies both and also feeds the grades-to-maximum
-  route, so it is the one shared commitment;
+  route, so with every-world ascent it is the one shared commitment;
 * `ActualGroundIsDistinctEsseCause`: an actual concrete ground of an actual
   concretum is distinct from it and a cause of its being (`CausesIn _ _ esse`,
   CAUSE_2 at esse). The converse direction is the existing
@@ -108,8 +108,8 @@ def SupportIsDistinctEsseCauseEverywhere (m : Profile W B)
 /-- No infinite ascent in esse among actual concreta at `w`: the comparison
 restricted to concreta existing at `w` is well-founded. The weak version of
 `NoInfiniteAscentInBeing` (which forbids infinite ascent among all candidates,
-merely possible ones included); it is all that well-founded actual grounding
-needs. -/
+merely possible ones included); with ascent, it is all that well-founded actual
+grounding needs. -/
 def NoInfiniteAscentAmongActualConcreta (m : Profile W B) (w : W)
     (MoreIn : R → B → B → Prop) (esse : R) : Prop :=
   WellFounded fun y x => ActualConcrete m w y ∧ ActualConcrete m w x ∧ MoreIn esse y x
@@ -154,6 +154,7 @@ grounding edge, grade and cause. -/
 def GradedJointWitness : Prop :=
   NecessaryConcreteUnderived.JointWitness ∧
     SupportAscendsInEsseEverywhere witnessProfile boolGrade () ∧
+    SupportIsDistinctEsseCauseEverywhere witnessProfile boolCause () ∧
     NecessarySupportAscendsInEsse witnessProfile false boolGrade () ∧
     ActualGroundIsMoreInEsse witnessProfile false boolGrade () ∧
     NoInfiniteAscentInBeing boolGrade () ∧

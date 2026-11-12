@@ -193,9 +193,13 @@ theorem jointWitness : GradedJointWitness := by
   have hU : SupportAscendsInEsseEverywhere witnessProfile boolGrade () := by
     intro v a b _ _ _ hg
     exact ⟨hg.1, hg.2.1⟩
-  refine ⟨TruthCore.Results.Causality.NecessaryConcreteUnderived.jointWitness, hU,
+  refine ⟨TruthCore.Results.Causality.NecessaryConcreteUnderived.jointWitness, hU, ?_,
     necessaryAscentOfEverywhere _ _ _ _ hU, actualAscentOfEverywhere _ _ _ _ hU,
     boolGrade_wf, ?_, ?_, ⟨rfl, rfl, rfl⟩, ⟨rfl, rfl⟩, ⟨rfl, rfl⟩⟩
+  · intro v a b _ _ _ hg
+    refine ⟨?_, hg.1, hg.2.1⟩
+    intro hab
+    exact Bool.noConfusion ((hab.symm.trans hg.1).symm.trans hg.2.1)
   · intro a b _ _ hg
     refine ⟨?_, hg.1, hg.2.1⟩
     intro hab

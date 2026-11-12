@@ -482,7 +482,7 @@ supporter of its being, under F1, excluded middle and two further open premises:
 | | Premise | Status | Rival |
 |---|---|---|---|
 | J1 | Whatever concrete thing supports the being of a necessary concrete thing is itself necessary. | open; strengthens its selected-world instance J1@w (`84751fc2`, only actual supporters and actual support edges), strictly (`NecessarySupportActualScope`). J1@w suffices on the coverage route from necessity; it does not suffice on `checks`, its from-necessity assembly or the coverage bridge from no-novel-edge (below), and whether an intermediate scope does is untested | recorded; see the rival table |
-| J2 | Support of being among necessary concrete things is well-founded: no endless descent. | open; derived (`NecessarySupportCoverage.unionWFOfNoNovel`) from F1, actual well-founded grounding and the open one-way no-novel-edge premise; derived without either (`GradedSupportFoundation.unionWFOfAscent`) from rigid ascent in esse and no infinite ascent among necessary concreta (see "Graded foundation" below); bypassed by two coverage routes (below) | recorded; see the rival table |
+| J2 | Support of being among necessary concrete things is well-founded: no endless descent. | open; derived (`NecessarySupportCoverage.unionWFOfNoNovel`) from F1, actual well-founded grounding and the open one-way no-novel-edge premise; derived without F1, AGWF or no-novel-edge (`GradedSupportFoundation.unionWFOfAscent`) from rigid ascent in esse and no infinite ascent among necessary concreta (see "Graded foundation" below); bypassed by two coverage routes (below) | recorded; see the rival table |
 
 J2 is a global condition on support across all worlds. The batch
 `specs/necessary-support-coverage.toml` offers an alternative, **coverage**, an
@@ -527,9 +527,9 @@ scope (supporters at accessible or admitted worlds only) is untested.
 
 **Graded foundation** (2026-11-12, `specs/graded-support-foundation.toml`).
 Before this batch, actual well-founded grounding (AGWF) had only the
-uncalibrated numeric potential route (through finite rank), and every route to
-the join used AGWF except the J2 route, whose J2 came only from AGWF and
-no-novel-edge. The direct routes use instead the grade maximum, from no infinite
+uncalibrated numeric potential route (through finite rank). Four routes to the
+join use AGWF directly; the fifth uses J2 instead, but J2's only derivation
+used AGWF and no-novel-edge, so every route depended on AGWF. The direct routes use instead the grade maximum, from no infinite
 ascent in being. The batch tests whether one grade of being underlies all of
 them. All new premises are open analyst premises; nothing is closed.
 
@@ -548,19 +548,24 @@ them. All new premises are open analyst premises; nothing is closed.
   the reception-limitation premises) and an open bridge: an actual ground, or
   a ground at any world, is a distinct cause of being. Ascent at every world
   implies both ascent premises, and the global no-infinite-ascent premise
-  implies both restrictions (registered strength orders). So one premise about
-  the grade of being, global no infinite ascent, serves AGWF, J2 and the grade
-  maximum.
-- That shared premise is no weaker than AGWF itself. `gradedOfActualGroundingWF`
-  and `gradedOfUnionWF` show that each well-foundedness condition yields some
-  rigid well-founded grade that it ascends. With the grade freely chosen, the
-  graded forms are equivalent to AGWF and J2. What they add is the
-  identification of that grade with the Fourth Way's more in esse.
-- Controls (`Control.Controls`): a joint witness with nonempty edge, grade and
-  cause. `DescendingGrade`: well-founded grounding and grade without ascent,
+  implies both restrictions (registered strength orders). So, with every-world
+  ascent, one premise about the grade of being, global no infinite ascent,
+  serves AGWF, J2 and the grade maximum.
+- How strong the bundle is. Global no infinite ascent alone is not compared
+  with AGWF and does not give it (`DescendingGrade`). The bundle of ascent and
+  restricted no infinite ascent, with the grade chosen existentially, is
+  equivalent to AGWF (resp. J2): `gradedOfActualGroundingWF` and
+  `gradedOfUnionWF` give the converse. With the fixed `MoreIn esse` the bundle
+  implies AGWF (resp. J2); strictness is not certified. The extra content is
+  the identification of the grade with the Fourth Way's more in esse.
+- Controls (`Control.Controls`): a joint witness of all new premises with
+  nonempty edge, grade and cause (the restricted no-ascent premises follow from
+  the global one by `actualAscentWFOfGlobal` and `necessaryAscentWFOfGlobal`). `DescendingGrade`: well-founded grounding and grade without ascent,
   so ascent is a substantive premise. `OffWorldAscent`: the grade premises
-  hold while coverage and no-novel-edge fail, so a rigid grade does not yield
-  coverage and is incomparable with no-novel-edge. `NoGradeForRivals`: the
+  hold while coverage and no-novel-edge fail, so a rigid grade yields neither.
+  Conversely, with a freely chosen grade the no-novel-edge bundle implies the
+  graded form (`unionWFOfNoNovel` then `gradedOfUnionWF`); for the fixed
+  `MoreIn esse` that direction is not certified. `NoGradeForRivals`: the
   rotating triangle and the rooted pair admit no comparison at all that meets
   rigid ascent and no infinite ascent, while the rooted pair keeps the join's
   endpoint. Asymmetry and whole-roster nontrapping need no new theorem: AGWF
@@ -571,7 +576,8 @@ Warrant (analyst assessment; literature names are unread leads; [attempt](../../
 - **Ascent and its limits.** The cause-is-more principle supports ascent only for
   principal, simultaneous sustaining of being. The synonymy-restricted reading
   of *Metaphysics* II.1 gives univocal causes "at least as such", not "more".
-  Equivocal causes satisfy ascent a fortiori. Instrumental causes violate it.
+  Equivocal causes are not a limit: eminent possession gives ascent a fortiori
+  (an analyst claim). Instrumental causes violate it.
   So the bridge must read the selected relation as principal sustaining, and
   `DescendingGrade` is the formal shape of its failure.
 - **Per se and per accidens.** Ascent marks the relevant difference. In
@@ -579,8 +585,12 @@ Warrant (analyst assessment; literature names are unread leads; [attempt](../../
   need not be more in being, so an infinite per accidens series involves no
   ascent and is not excluded.
 - **No new warrant for no infinite ascent.** Given ascent, the restriction to
-  actual concreta is equivalent to AGWF up to the choice of grade, so its
-  warrant reduces to the #310 actuality argument. A dense convergent grade
+  actual concreta is equivalent to AGWF up to the choice of grade, so along
+  grounding chains its warrant is the #310 actuality argument. For the fixed
+  `MoreIn esse` it also forbids ascending chains that are not grounding chains,
+  which that argument does not cover. A weaker "no infinite ascent along
+  grounding chains" would suffice; given ascent it coincides with AGWF, so it is
+  recorded as the next test, not certified. A dense convergent grade
   (each sustainer strictly more, the grades approaching a limit) shows the
   premise is a real commitment, also under the order by approach to a primary.
   No motivation for such actual sustainers is recorded; this is prose only.
@@ -589,12 +599,16 @@ Warrant (analyst assessment; literature names are unread leads; [attempt](../../
   It is relevant only if compositional dependence counts as the selected support
   relation and the parts are actual. Its price is actual gunky matter on whose
   actual parts composites depend for existence.
-- **J2's rivals.** Coherentist and interdependence accounts, as recalled,
-  concern identity or nature dependence, not principal sustaining of necessary
-  concreta. Against rigid ascent their holder must claim either that a necessary
-  being's grade of being varies between worlds, or that support between
-  necessary beings runs between equals or from the lesser. No substantive
-  objection to J2 or to rigid ascent meets the standard.
+- **J2's rivals.** Conditional on the unread texts, coherentist and
+  interdependence accounts, as recalled, concern identity or nature dependence,
+  not principal sustaining of necessary concreta. Against rigid ascent their
+  holder must claim either that a necessary being's grade of being varies
+  between worlds, or that support between necessary beings runs between equals
+  or from the lesser. The latter conflicts only with the unrestricted
+  cause-is-more principle (`d5a94eb1`), not with cause-has-what-it-gives. No
+  established counterexample is on file. The warrant offered for strict ascent
+  among univocal (equal) necessary sustainers depends on the open unrestricted
+  cause-is-more principle.
 
 Provisional judgment: the route relocates the regress question; it does not
 remove it. See the [derivation attempt](../../corpus/attempts/7b8e8975-150f-410b-bc87-6b79352273c8.json).
@@ -1491,19 +1505,22 @@ conditional investigations, not a mandatory first gate:
    novel edge (as sketched it is a two-way invariance, stronger than no novel
    edge), and with F1 and J1 coverage; the rival's world-varying shape simply
    denies such an account. Done (2026-11-12, "Graded foundation"): a
-   discriminator with a stated motivation now exists. If support between
+   analyst-motivated discriminator now exists. If support between
    necessary beings ascends one world-invariant grade of being with no
    infinite ascent, J2 follows and the rival is excluded
    (`unionWFOfAscent`, `mutualSupportExcludedByGrade`). This uses neither
    no-novel-edge nor AGWF. The motivation is the cause-is-more principle, read
    at every world. The rival's price is a necessary being whose grade varies
-   between worlds, or support from an equal or a lesser being. The rigid grade
-   does not yield coverage (`OffWorldAscent`).
+   between worlds, or support from an equal or a lesser being. No established
+   counterexample; the warrant offered for strict ascent among univocal (equal)
+   necessary sustainers depends on the open unrestricted cause-is-more
+   principle. The rigid grade does not yield coverage (`OffWorldAscent`).
    Objection status (substantive objection standard, 2026-11-12): no substantive
-   objection to J2, to no-novel-edge, to rigid ascent or to coverage is
-   recorded. No independent warrant for coverage or no-novel-edge is recorded;
+   objection to J2, to no-novel-edge or to coverage is recorded; for rigid
+   ascent no established counterexample is recorded, with the univocal-equals
+   point above open. No independent warrant for coverage or no-novel-edge is recorded;
    their motivation is open. Rigid ascent has the analyst motivation above,
-   whose limits are equivocal, univocal and instrumental causes. The
+   whose limits are univocal and instrumental causes. The
    mutual-support rival names J2 and a definite mechanism (a cross-world cycle in
    the union of support edges), but the corpus supplies no independent
    justification that support between necessary concrete beings ever runs in a

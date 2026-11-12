@@ -7,5 +7,5 @@
   "theorem": "TruthCore.Results.Causality.GradedSupportFoundation.necessaryAscentWFOfGlobal",
   "comparator_config": "results/cee506e3-e871-4e53-bf5b-f3b0ef7a1c65/comparator.json",
   "status": "solution-present",
-  "description": "The global no-infinite-ascent premise implies its restriction to concreta necessary from the selected world. Registered as a strength order. With the two restrictions, one global premise about the grade of being serves AGWF, J2 and the grades-to-maximum route."
+  "description": "The global no-infinite-ascent premise implies its restriction to concreta necessary from the selected world. Registered as a strength order. With the two restrictions and every-world ascent, one global premise about the grade of being serves AGWF, J2 and the grades-to-maximum route."
 }

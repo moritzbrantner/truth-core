@@ -1,7 +1,7 @@
 {
   "id": "406f0cbe-49ce-4de6-9a7d-e1b10a55ed72",
   "label": "Concrete support at every admitted world ascends in esse",
-  "paraphrase": "Open premise, analyst formulation, unattributed: for every admitted world v and concrete candidates a and b, if a exists at v and stands to b in the selected relation at v, then a is more in esse than b, in the same supplied comparative. No necessity restriction and no selected world. Strictly a strengthening of both the actual-grounding ascent premise at each world and the ascent premise between necessary concreta.",
+  "paraphrase": "Open premise, analyst formulation, unattributed: for every admitted world v and concrete candidates a and b, if a exists at v and stands to b in the selected relation at v, then a is more in esse than b, in the same supplied comparative. No necessity restriction and no selected world. A strengthening of both the actual-grounding ascent premise at each world and the ascent premise between necessary concreta (verified: necessaryAscentOfEverywhere, actualAscentOfEverywhere); strictness not certified.",
   "lean_declaration": "TruthCore.Causality.GradedSupportFoundation.SupportAscendsInEsseEverywhere",
   "definition_ids": [
     "d2bba112-0652-47a3-bd64-df651447b40f",
