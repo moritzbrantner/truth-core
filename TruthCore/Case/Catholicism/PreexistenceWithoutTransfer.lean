@@ -30,8 +30,9 @@ the grades-to-a-maximum and moves-only-as-in-act steps; the composition routes
 consume preexistence and "God is maximal in being". This module separates what
 each needs.
 
-* **More in being, without transfer.** `CauseOfBeingIsMoreInBeing` is the esse
-  instance of "more such": whatever, distinct from `x`, causes `x`'s being is
+* **More in being, without transfer.** `CauseOfBeingIsMoreInBeing` is the instance
+  at esse of the formal reading of "more such" (same `MoreIn`; the synonymous
+  source sense is not claimed at esse): whatever, distinct from `x`, causes `x`'s being is
   more in being than `x`. It follows from "a cause of being has being"
   (`CauseOfBeingHasBeing.CauseOfBeingInActAsToBeing`, itself derived from agency
   in act and q.4 a.1 ad 3) and the existing reception bundle at esse, with no
@@ -42,15 +43,17 @@ each needs.
   the transfer premise (`CauseOfBeingCausesEveryPerfection`), the restriction
   `CauseOfBeingHasWhatItGives` gives preexistence; the existing result
   `CausalMapsBatch1.causeOfBeingHasWhatItGives` gives the converse from
-  preexistence and "a caused perfection is had". Neither has a derivation that
-  avoids the other or the unrestricted principle, so this closes a cycle, not a
-  route.
+  preexistence and "a caused perfection is had". Every derivation of either
+  bottoms out under strict expansion in the unrestricted principle, or cycles
+  through "more such" and distinct-cause transfer, so this lifts no route. A
+  ground for preexistence needs a ground for the restriction that is not
+  preexistence, or a ground for distinct-cause transfer.
 * **"More such" carries distinct-cause transfer.** `DistinctCauseHasWhatItGives`
   (whatever causes a perfection in another has it) follows from "more such" and
-  "what is more such has the perfection", and "more such" follows from it and
-  the reception bundle. The routes that need "more such" at an arbitrary
-  perfection therefore need distinct-cause transfer, not a cause-of-being
-  restriction.
+  "what is more such has the perfection"; conversely it and the five-premise
+  reception bundle give "more such". Any route using "more such" at an arbitrary
+  perfection together with "what is more such has the perfection" is committed
+  to distinct-cause transfer; a cause-of-being restriction does not suffice.
 
 `InAct` is the shared abstract parameter, read inclusively (formally or
 eminently, DISAMB-IN-ACT). `CausesIn c x esse` is CAUSE_2 at esse, read for
@@ -66,8 +69,10 @@ section Vocabulary
 variable {B R : Type}
 
 /-- OPEN as a premise, derived here: whatever, distinct from `x`, causes `x`'s
-being is more in being than `x`. The esse instance of the Metaphysics α "more
-such" premise (`CauseOfQualityInAnotherIsMoreSuchReading` at `r = esse`). -/
+being is more in being than `x`. The instance at esse of the formal reading
+`CauseOfQualityInAnotherIsMoreSuchReading` (same `MoreIn`); the synonymous source
+sense is not claimed at esse. `MoreIn esse` is the primitive comparative
+(DEF-MORE-IN); its order model is open (STMT-ATTRIBUTION-ORDER-RESTRICTS-CAUSE-MORE-SUCH). -/
 def CauseOfBeingIsMoreInBeing (CausesIn : B → B → R → Prop)
     (MoreIn : R → B → B → Prop) (esse : R) : Prop :=
   ∀ c x, c ≠ x → CausesIn c x esse → MoreIn esse c x
@@ -110,7 +115,7 @@ def moreEsseOnly (r : Bool) (x y : Bool) : Prop := r = esse ∧ x = false ∧ y 
 
 /-- Strictness and nonvacuity controls. -/
 def Strictness : Prop :=
-  -- (1) strictness: the esse instance of "more such" holds where "more such" fails
+  -- (1) strictness: the instance at esse holds where "more such" fails
   (CauseOfBeingIsMoreInBeing causesAll moreEsseOnly esse ∧
     ¬ TruthCore.Greek.Aristotle.Metaphysics.CauseOfQualityInAnotherIsMoreSuchReading
       causesAll moreEsseOnly) ∧
@@ -126,7 +131,9 @@ def Strictness : Prop :=
     ¬ TruthCore.Causality.CausalMapsBatch1.CauseHasWhatItGives
       (fun c x _ => c = true ∧ x = true) (fun (_ : Bool) (_ : Bool) => False)) ∧
   -- (4) nonvacuity: `false` causes the being and the other perfection of `true`,
-  -- has both, is more in both, and every premise of the batch holds
+  -- has both and is more in both; "a cause of being has being", the five reception
+  -- premises, the instance at esse, transfer, the cause-of-being restriction,
+  -- preexistence, "more such" and distinct-cause transfer hold together
   (TruthCore.Case.Catholicism.CauseOfBeingHasBeing.CauseOfBeingInActAsToBeing
       (fun _ _ => True) causesAll esse ∧
     TruthCore.Causality.CausalMapsBatch1.CausedPerfectionIsReceivedInEffect causesAll recvTrue ∧
@@ -856,7 +863,11 @@ end preexistOfTransferAndRestriction.witness
 /-- Every control of the batch: strictness of the esse instance and of the
 transfer ladder, nonvacuity, an omission model for each premise of each
 registered derivation (except excluded middle, which holds classically) and a
-joint witness for each. -/
+joint witness for each. Control 2 is one-directional (the restriction holds
+where distinct-cause transfer fails). The joint witnesses for
+`causeOfBeingMoreInBeing`, `distinctCauseGivesOfMoreSuch` and
+`godExistsFromMaximeEnsCausingAllByBeing` are vacuous (a `Unit` carrier or an
+empty `CausesIn`) and show consistency only. -/
 def Controls : Prop :=
   Strictness ∧
   causeOfBeingMoreInBeing.omit_hHas.Holds ∧

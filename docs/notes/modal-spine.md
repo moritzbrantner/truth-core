@@ -851,8 +851,11 @@ fails even the inclusive (eminent) `InAct`.
 **Where `376d6a5a` is load-bearing (2026-11-12, [attempt](../../corpus/attempts/a4a689b4-3e90-491e-8875-478b891e87f4.json), `specs/preexistence-without-transfer.toml`).**
 Strict expansion here is the least fixpoint over verified arguments, with
 statements that have no verified derivation as leaves; strength-order results
-count as derivations (excluding them changes no count below). Its only direct
-consumer is `causeOfQualityMoreSuch`, which derives the Metaphysics α "more
+count as derivations, and so does this batch's own `9e7de16d` (distinct-cause
+transfer from "more such"). Excluding strength orders and `9e7de16d` would make
+distinct-cause transfer `2c0b9bd7` a leaf, and then all eleven routes survive.
+Its only direct consumer besides the strength-order registrations (`11f49549`,
+`777d3b8d`) is `causeOfQualityMoreSuch`, which derives the Metaphysics α "more
 such" premise `d5a94eb1`. The computed bottleneck is that premise, not q.4 a.2
 preexistence alone. Granting preexistence, still only one of the ten routes
 survives. Granting "more such", all ten survive. The ten routes break down as
@@ -864,44 +867,59 @@ route through the quarta via's conclusion (`678ff65f`) is blocked by "more such"
 directly. The composition (`92ab7c94`, via `da3facd6`) is blocked by
 preexistence and by "God is maximal in being".
 Results, all zero-axiom and Comparator-checked, with omission models for every
-premise except excluded middle. (1) The esse instance of "more such",
-"a distinct cause of a thing's being is more in being than it" (`cffad050`,
-registered weak version of `d5a94eb1`), follows from "a cause of being has
+premise except excluded middle. (1) "A distinct cause of a thing's being is
+more in being than it" (`cffad050`) is the instance at esse of the formal
+reading `d5a94eb1` (same `MoreIn`, registered weak version); the synonymous
+source sense is not claimed at esse, and the order model of `MoreIn esse` is
+open (`STMT-ATTRIBUTION-ORDER-RESTRICTS-CAUSE-MORE-SUCH`, verdict in
+`DISAMB-ORDER-OF-BEING`). It follows from "a cause of being has
 being" `4ccb319f` and the reception bundle at esse, with no transfer principle.
 (2) Siblings of the two consumers that use "more such" only at esse: "God is
 maximal in being" (`4c79298d` is now available without `376d6a5a`), and GOD_4
 exists from a MAXIME_1 cause of all being (`5d2b7c6e`, a new root route). (3)
 Preexistence from transfer `f8ba2429` and the cause-of-being restriction
 `d0fc96b7`. With the existing derivation of `d0fc96b7` from preexistence and "a
-caused perfection is had", the two are interderivable given transfer. That
-closes a cycle, not a route: neither has a derivation that avoids the other or
-`376d6a5a`. (4) "More such" and distinct-cause transfer `2c0b9bd7` (whatever
+caused perfection is had", the two are interderivable given transfer. Every
+derivation of either bottoms out under strict expansion in `376d6a5a`, or cycles
+through "more such" `d5a94eb1` and distinct-cause transfer `2c0b9bd7`. A ground
+for preexistence needs a ground for `d0fc96b7` that is not preexistence, or a
+ground for `2c0b9bd7`. (4) "More such" with "what is more such has the
+perfection" `c11369aa` entails distinct-cause transfer `2c0b9bd7` (whatever
 causes a perfection in another thing has it, the registered weak version of
-`376d6a5a` without self-causation) are interderivable, given the reception
-bundle and "what is more such has the perfection". The consumers that need "more
-such" at an arbitrary perfection therefore need distinct-cause transfer, and the
-cause-of-being restriction does not suffice for them. Survivors after this
+`376d6a5a` without self-causation); transfer with the five-premise reception
+bundle entails "more such". Any route using "more such" at an arbitrary
+perfection together with `c11369aa` is committed to distinct-cause transfer;
+conversely transfer with the reception bundle suffices for "more such". The
+cause-of-being restriction does not suffice for those routes. Survivors after this
 batch, with `376d6a5a` removed: the prima via `ed7c588a` and the new route
 `5d2b7c6e`. None of the old nine is lifted. Granting preexistence would add
 `92ab7c94`; granting grades-to-a-maximum would add the four CONCRETE_6 routes.
 Those four pass the premise to `maximumExistsOfNecessaryAt`, which applies it at
 esse; whether every use is at esse is unchecked. If so, re-routing them through
 the existing esse instance `STMT-GRADES-TO-MAXIMUM-AT-BEING` would lift them.
+The positive finding: granting distinct-cause transfer `2c0b9bd7`, strictly
+weaker than `376d6a5a`, restores all eleven routes; granting the cause-of-being
+restriction `d0fc96b7` adds `92ab7c94`. The new route and the sibling of "God
+is maximal in being" use `cffad050` only with the maximum or God as cause; the
+weaker existing `PrimaryCauseIsMoreSuchReading … esse m`, derived on the
+attribution order for the primary, may suffice there (untested).
 *Warrant.* The route-lifting premise is "a cause of being has being". It is
 derived from agency in act (`ef068f46`, after q.75 a.2 *non enim est operari nisi
 entis in actu*, claim on file for operation edges only) and q.4 a.1 ad 3
 (sourced). Two premises of the reception bundle (`cdb79aa6`, `39a4c28c`)
 generalize q.7 aa.2 and 1 from esse to every perfection; (1) uses them only at
-esse, where they are the ungeneralized readings (received esse is limited by its
-recipient; esse is limited only by being received). The other three
+esse. At esse they correspond informally to q.7's readings `7de89edb` and
+`1304b462`, which use different vocabulary (unary `EsseLimited`; reception in a
+principle); no bridge is registered, so their esse instances are not thereby
+sourced. The other three
 (`a9036c3c`, `d0b76fb9` and the exceeding step `7030af77`) have no source note.
 No independent warrant is recorded for them or for agency in act. For the cause-of-being
 restriction that preexistence needs, the only positive grounds in the tradition
 are the virtual preexistence of the effect in the agent's power (q.4 a.2 co.,
 which is the thesis itself), "every agent produces its like" (q.4 a.3, unread)
 and the subsistent-being proof (q.4 a.2, second proof; SCG I.28; De ente c.4;
-all unread). The last applies only to a cause that is its own esse, not to every
-cause of being. No independent warrant for `d0fc96b7` is recorded.
+all unread). The last is reported, unverified, to apply only to a cause that is
+its own esse, not to every cause of being. No independent warrant for `d0fc96b7` is recorded.
 *Objections.* Strong emergence (a base causes consciousness that it lacks) has
 a target, distinct-cause transfer read formally (IN_ACT_1), and a mechanism, a
 counterexample. Its independent justification, that strong emergence occurs, is
@@ -909,11 +927,15 @@ an unread lead (Broad; O'Connor; Chalmers on consciousness). It is relevant to t
 cause-of-being restriction only through an open bridge: the emergence base
 would have to be an extrinsic efficient cause of the system's being, not its
 material constituent. It does not bear on (1), whose cause need only have
-being. So it does not yet meet the standard. It does force a choice on eminent
-containment (IN_ACT_3). If eminence is substantive, emergence would be a
-counterexample if it occurs. If having r eminently means only having power to
-produce r, transfer becomes nearly trivial, and the weight moves to the
-exceeding step and "what is more such has the perfection". The instrument and
+being. So it does not yet meet the standard; the hypothetical only motivates a
+question of meaning and carries no evidential weight. Pending sense fork within
+IN_ACT_3 (`InActFormallyOrVirtually`): substantive eminence versus
+power-eminence (having r eminently is only having power to produce r). On
+power-eminence transfer becomes nearly trivial, and the weight moves to the
+exceeding step and "what is more such has the perfection". The equivocation
+risk: `MoreIn` would then compare virtual possession in the cause with formal
+possession in the effect, so "more r" would no longer compare one kind of
+having. The instrument and
 artisan cases, recorded below for the unrestricted principle, bear equally on
 distinct-cause transfer, which still counts instruments if CAUSE_2 does.
 Meaning forks and their status. *Containment*: read formally (IN_ACT_1), and if CAUSE_2 at a respect r counts a maker as a cause of x's being r (an open
@@ -1731,8 +1753,10 @@ conditional investigations, not a mandatory first gate:
    lists sixty without `strong_version_needed`); a ground for the
    cause-of-being restriction `d0fc96b7` that is not preexistence (candidates:
    q.4 a.3 agent likeness, or the subsistent-being proof restricted to the
-   root, which would also lift the composition route); a principal-cause
-   sibling of distinct-cause transfer `2c0b9bd7`; warrant for
+   root, which would also lift the composition route); test whether
+   `PrimaryCauseIsMoreSuchReading … esse m` suffices in place of `cffad050`
+   for `5d2b7c6e` and the sibling of "God is maximal in being"; a
+   principal-cause sibling of distinct-cause transfer `2c0b9bd7`; warrant for
    act-to-existence `546975ef` (the actualist reading of esse at the reading
    world); and the remaining bridge leaves, effect dependence and
    dependence-to-grounding.

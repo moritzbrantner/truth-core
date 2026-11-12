@@ -13,7 +13,7 @@
   "inference_ids": [
     "5b937152-c4ed-464e-85c9-6593b3d75cef"
   ],
-  "meaning": "Sibling of CAUSE-OF-QUALITY-MORE-SUCH-FROM-RECEPTION-LIMITS with distinct-cause transfer in place of the unrestricted principle, which that proof uses only for distinct causes. A distinct cause c of r in x has r; x has r received in x, so limited by x; c's r is not received in x, so not limited by x; hence c is more r than x. With the previous result, 'more such' and distinct-cause transfer are interderivable given the reception bundle and 'what is more such has the perfection'. Each premise is needed in a checked interpretation (omission models). Conditional consequence only; no premise is established.",
+  "meaning": "Sibling of CAUSE-OF-QUALITY-MORE-SUCH-FROM-RECEPTION-LIMITS with distinct-cause transfer in place of the unrestricted principle, which that proof uses only for distinct causes. A distinct cause c of r in x has r; x has r received in x, so limited by x; c's r is not received in x, so not limited by x; hence c is more r than x. Any route using 'more such' at an arbitrary perfection together with c11369aa is committed to distinct-cause transfer; conversely transfer with the reception bundle suffices for 'more such'. Each premise is needed in a checked interpretation (omission models). Conditional consequence only; no premise is established.",
   "definition_ids": [
     "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
     "211a6432-8b8f-53ed-85e3-75173bb15b24",

@@ -9,7 +9,7 @@
   "inference_ids": [
     "396f2461-16f6-4ad2-a6e8-25e840bc1a8f"
   ],
-  "meaning": "A distinct cause of r in x is more r than x, and whatever is more r than something is r, so it is in act in r. This shows the cost of 'more such' at an arbitrary perfection: given that what is more such has the perfection (the quarta via's 'what is more such is such'), it entails distinct-cause transfer. Each premise is needed in a checked interpretation (omission models). Conditional consequence only; no premise is established.",
+  "meaning": "A distinct cause of r in x is more r than x, and whatever is more r than something is r, so it is in act in r. Any route using 'more such' at an arbitrary perfection together with c11369aa is committed to distinct-cause transfer; conversely transfer with the reception bundle suffices for 'more such'. Each premise is needed in a checked interpretation (omission models). Conditional consequence only; no premise is established.",
   "definition_ids": [
     "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
     "211a6432-8b8f-53ed-85e3-75173bb15b24",
@@ -22,6 +22,6 @@
     "1795a62e-f78b-5f5b-94e7-9e7490824811"
   ],
   "strong_version_needed": {
-    "d5a94eb1-72d2-53e0-9a52-9787b5b61a8d": "The conclusion concerns a distinct cause of any perfection; the esse instance of more such gives the cause's having only the perfection esse."
+    "d5a94eb1-72d2-53e0-9a52-9787b5b61a8d": "The conclusion concerns a distinct cause of any perfection; the instance at esse gives the cause's having only the perfection esse."
   }
 }

@@ -11,7 +11,7 @@
   ],
   "output_statement_id": "d5a94eb1-72d2-53e0-9a52-9787b5b61a8d",
   "rule": "Universal instantiation, modus ponens and modus tollens",
-  "meaning": "Sibling of CAUSE-OF-QUALITY-MORE-SUCH-FROM-RECEPTION-LIMITS with distinct-cause transfer in place of the unrestricted principle, which that proof uses only for distinct causes. A distinct cause c of r in x has r; x has r received in x, so limited by x; c's r is not received in x, so not limited by x; hence c is more r than x. With the previous result, 'more such' and distinct-cause transfer are interderivable given the reception bundle and 'what is more such has the perfection'. Each premise is needed in a checked interpretation (omission models). Conditional consequence only; no premise is established.",
+  "meaning": "Sibling of CAUSE-OF-QUALITY-MORE-SUCH-FROM-RECEPTION-LIMITS with distinct-cause transfer in place of the unrestricted principle, which that proof uses only for distinct causes. A distinct cause c of r in x has r; x has r received in x, so limited by x; c's r is not received in x, so not limited by x; hence c is more r than x. Any route using 'more such' at an arbitrary perfection together with c11369aa is committed to distinct-cause transfer; conversely transfer with the reception bundle suffices for 'more such'. Each premise is needed in a checked interpretation (omission models). Conditional consequence only; no premise is established.",
   "assumption_statement_ids": [],
   "discharged_statement_ids": []
 }
