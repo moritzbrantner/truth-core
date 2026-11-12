@@ -227,6 +227,7 @@ public import TruthCore.Results.Causality.PerAccidensResponses.Solution
 public import TruthCore.Results.Causality.PerfectRootPositiveIntellectWill.Solution
 public import TruthCore.Results.Causality.PerfectionOfBeing.Solution
 public import TruthCore.Results.Causality.PerfectionPreexistence.Solution
+public import TruthCore.Results.Causality.PerfectionTransferGrounding.Solution
 public import TruthCore.Results.Causality.PluralRootConfluence.Solution
 public import TruthCore.Results.Causality.PossessionSensitiveAppetite.Solution
 public import TruthCore.Results.Causality.PossibleCausalSourceNecessity.Solution

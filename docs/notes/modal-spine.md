@@ -704,8 +704,24 @@ Columns:
 | A cause of a thing's being is its concrete ground | A non-concrete cause of being (a law or abstract object) | `Round2Grounding.contingentGroundedViaParticipation` | Partial, on an analyst construction. Phaedo 100d–e (claim `PLATO-PHAEDO-100D-PARTICIPATION-EXPLANATORY`) makes a Form explain a thing's being so; explaining being so is not shown to be causing esse. Rosen reports, without endorsing, that on Lewis's account events are sets (claim `SEP-ABSTRACT-OBJECTS-32-LEWIS-EVENTS-ARE-SETS`); two stacked bridges are open: causing events is not causing esse, and impure sets are not shown non-concrete in the adopted sense ([boundary note](causal-concrete-rival-boundary.md)). Only the analyst's construction connects Lewis to the premise. Aristotle's sourced critique (Met. I.9) is on file against the Phaedo account. | No claim. One derivation from four open premises. |
 | Grades of being imply a maximum | Unbounded grades: everything is exceeded | `SelectedAncestryUnique.uniqueRoot` | Formal alternative. Comparatives without a maximum are established (the natural numbers under <), but they bear only on a general rule for "more and less", which nothing on the route uses: both derivations are specific to being. They show that a general more-and-less warrant would not suffice. No case of unbounded grades of being is on file. | No claim. Two derivations from open premises (no infinite ascent; approach to a primary). |
 | A universal cause of being causes the effect's perfections | Mere conservation: a secondary cause supplies a perfection | `CausalPerfectionTransfer.reconstruction` | Formal alternative. Lead, unread: medieval mere conservationism (Durandus). | No claim. Two derivations from open premises. |
+| A nonuniversal cause of a thing's being causes its perfections (`10cd24ed`, 2026-11-12) | A particular sustainer of a thing's esse that does not cause a perfection another agent causes | `PerfectionTransferGrounding.causeOfBeingCausesEveryPerfectionGrounded` (`Control.Controls` part 1, the concurrent model) | Formal alternative; no substantive objection established. Lead, with two open steps: q.104 a.1 co. (read) makes heavenly bodies causes of the being, not only the becoming, of what they generate. If they are nonuniversal causes of esse (an open bridge of `DISAMB-BECOMING-BEING-CAUSE`), the premise applies to them and requires them to cause every perfection of those effects, intellectual ones included (q.115 a.4, unread). The "continuous supply" example in the transfer note is enablement, not causing esse, and carries no weight. No positive warrant on file either: the strongest positive case (participation plus concurrence, q.105 a.5) rests on the source being the universal first agent, which a nonuniversal cause by definition is not. That is an absence of warrant, not evidence against the premise. | No claim, no derivation. |
 | What is simply prior is a concrete ground | Something non-concrete is simply prior to a concrete thing | `NecessaryFirstBeing.necessaryFirst` | Formal alternative. The Phaedo claim says nothing about priority; reading its explanation of being so as simple priority would be an unsupported bridge. | No claim. Two derivations from open premises. |
 | Whatever is God is maximal in being | A god exceeded in being by something not God | `StageTwo.GodIsSimple.godIsSimple` | Misdirected. Finite and demiurgic gods use another sense of "god". GOD_4 is a primitive field (`DEF-GOD-OF-CLASSICAL-THEISM`) whose content is fixed only by open premises, here the attribute premise `STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES` (infinite, perfect); the misdirection holds only given that premise. Which being deserves the name is the naming premise's question. | No claim. Two derivations from open premises. |
+
+**Perfection-transfer cycle (2026-11-12, [attempt](../../corpus/attempts/3de52780-6816-4638-bdba-92598aff14cc.json)).**
+PR #1480 found that unrestricted transfer (`f8ba2429`) and the residual
+(`5a4afaa5`) were proved only from each other. The residual is the scope delta
+of unrestricted over universal transfer. Its self-effect conjunct is vacuous
+under the open premise that nothing causes its own being (`b62a64ab`, already on
+root routes), and its nonuniversal conjunct is now the open leaf `10cd24ed`.
+Unrestricted transfer is derived from excluded middle, universal transfer,
+`10cd24ed` and `b62a64ab` (result `a3d5fb1a`). The two cycle members close as
+proved from open premises. Neither is established. Do not register residual ⇒
+`10cd24ed`: it would recreate an ungrounded cycle under the #1480 rule.
+"Only a universal cause causes esse" (q.45 a.5, unread) would make `10cd24ed`
+vacuous; it is unregistered and unresolved. Next test: of the 41 consumers of
+`f8ba2429` outside the cycle, move those that need only universal scope onto
+universal transfer.
 
 ### Stage two: the attributes and the name
 

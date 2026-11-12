@@ -142,6 +142,7 @@ public import TruthCore.Causality.ParticipatedDuration
 public import TruthCore.Causality.PerAccidensResponses
 public import TruthCore.Causality.PerfectionOfBeing
 public import TruthCore.Causality.PerfectionPreexistence
+public import TruthCore.Causality.PerfectionTransferGrounding
 public import TruthCore.Causality.PluralRootConfluence
 public import TruthCore.Causality.PossessionSensitiveAppetite
 public import TruthCore.Causality.PossibleCausalSourceNecessity
