@@ -1,0 +1,12 @@
+{
+  "id": "41bdb523-5e81-4534-87a3-e755319634f2",
+  "label": "CCR decomposes into borrowed reality and localized bridge classically (inference)",
+  "input_statement_ids": [
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
+  ],
+  "output_statement_id": "b9a475ed-8251-4d57-b1ba-cbb379398f13",
+  "rule": "Predicate closure and finite path induction at a fixed profile, world and relation",
+  "meaning": "CCR decomposes into borrowed reality and localized bridge classically. Conditional structural consequence only; no independent warrant or rival defeat. Excluded middle is explicit where listed.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

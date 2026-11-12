@@ -1,0 +1,10 @@
+{
+  "id": "8e8a0cd9-62df-4689-af28-3d6c55d78deb",
+  "label": "CCR is equivalent to borrowed reality at the fixed profile",
+  "paraphrase": "Analyst formulation, attribution deferred: At the same profile and world, CCR if and only if borrowed reality. The registered deduction explicitly assumes supplier concreteness.",
+  "lean_declaration": "TruthCore.Causality.ConcreteRootAccess.BlanketEquivalence",
+  "definition_ids": [
+    "ea94e8dd-6f08-4099-9032-d302dd799a4e",
+    "38b9012a-472b-4544-a271-16d22b25c9ac"
+  ]
+}

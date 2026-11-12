@@ -1,0 +1,12 @@
+{
+  "id": "c2c3d527-cd9d-499f-99f8-108489844826",
+  "label": "CCR implies borrowed reality without supplier concreteness (inference)",
+  "input_statement_ids": [
+    "aca3baa1-9be6-4720-a53d-22050e638561"
+  ],
+  "output_statement_id": "45890c84-1d33-4273-b0ea-0f75bfd67a33",
+  "rule": "Predicate closure and finite path induction at a fixed profile, world and relation",
+  "meaning": "CCR implies borrowed reality without supplier concreteness. Conditional structural consequence only; no independent warrant or rival defeat. Excluded middle is explicit where listed.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

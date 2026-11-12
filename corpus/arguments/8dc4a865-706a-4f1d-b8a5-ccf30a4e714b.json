@@ -1,0 +1,21 @@
+{
+  "id": "8dc4a865-706a-4f1d-b8a5-ccf30a4e714b",
+  "label": "CCR implies borrowed reality without supplier concreteness",
+  "premise_statement_ids": [
+    "aca3baa1-9be6-4720-a53d-22050e638561"
+  ],
+  "conclusion_statement_id": "45890c84-1d33-4273-b0ea-0f75bfd67a33",
+  "inference_ids": [
+    "c2c3d527-cd9d-499f-99f8-108489844826"
+  ],
+  "meaning": "CCR implies borrowed reality without supplier concreteness. Conditional structural consequence only; no independent warrant or rival defeat. Excluded middle is explicit where listed.",
+  "definition_ids": [
+    "38b9012a-472b-4544-a271-16d22b25c9ac",
+    "432451a4-cde1-4386-9015-95bb1176dfd0",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "ea94e8dd-6f08-4099-9032-d302dd799a4e"
+  ],
+  "disambiguation_ids": [
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
+  ]
+}

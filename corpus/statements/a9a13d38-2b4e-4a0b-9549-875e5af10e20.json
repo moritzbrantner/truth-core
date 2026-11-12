@@ -1,0 +1,10 @@
+{
+  "id": "a9a13d38-2b4e-4a0b-9549-875e5af10e20",
+  "label": "Universal finite concrete root access",
+  "paraphrase": "Analyst formulation, attribution deferred: Every actual concretum has a finite path from an actual concrete root, through actual concrete endpoints at the same world and selected relation.",
+  "lean_declaration": "TruthCore.Causality.ConcreteRootAccess.UniversalRootAccess",
+  "definition_ids": [
+    "ea94e8dd-6f08-4099-9032-d302dd799a4e",
+    "38b9012a-472b-4544-a271-16d22b25c9ac"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "89f57749-a292-40bd-98aa-b953f57f7dd2",
+  "label": "CCR implies borrowed reality without supplier concreteness",
+  "argument_id": "8dc4a865-706a-4f1d-b8a5-ccf30a4e714b",
+  "challenge_module": "TruthCore.Results.Causality.ConcreteRootAccess.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ConcreteRootAccess.Solution",
+  "theorem": "TruthCore.Results.Causality.ConcreteRootAccess.borrowedOfClosed",
+  "comparator_config": "results/89f57749-a292-40bd-98aa-b953f57f7dd2/comparator.json",
+  "status": "solution-present",
+  "description": "CCR implies borrowed reality without supplier concreteness. Conditional structural consequence only; no independent warrant or rival defeat. Excluded middle is explicit where listed."
+}

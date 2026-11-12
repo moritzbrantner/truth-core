@@ -7,7 +7,7 @@
   ],
   "output_statement_id": "aca3baa1-9be6-4720-a53d-22050e638561",
   "rule": "A ground-closed rootless collection is, by the bridge, closed under every actual supplier, and each member has one; the borrowed-reality principle makes it empty",
-  "meaning": "The borrowed-reality argument for the closed-collection condition, with its bridge explicit: the principle over all modelled actual suppliers yields the condition only if actual concreta are supplied only by concreta. Without the bridge it fails (Control.abstractSupplier). Constructive; conditional consequence only.",
+  "meaning": "Borrowed reality implies CCR under the sufficient supplier-concreteness bridge. Borrowed reality alone does not imply CCR, as abstractSupplier demonstrates. Blanket supplier concreteness is not necessary; the sibling batch supplies the localized root-access alternative. Constructive; conditional consequence only.",
   "assumption_statement_ids": [],
   "discharged_statement_ids": []
 }
