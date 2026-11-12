@@ -22,7 +22,7 @@ flowchart TD
 
 1. **Retrieve and fix the question.** Inspect `context <ARGUMENT-OR-RESULT-ID>`, `related <STMT-ID>` and the relevant `dossier <STMT-ID>`. Reuse definitions, senses, exact theorems, sources and failed attempts. State the chosen reading, logical background, domain and model class. Preserve consequential alternatives; a complete map of every interpretation is not a prerequisite. If a proposed generalization already follows by instantiating or composing an existing theorem, return that dependency or a short reuse lemma rather than a duplicate campaign.
 2. **Investigate flexibly.** Pursue the most informative support, rival, implication, necessary precondition, incompatibility, source or connection. Formalize load-bearing deductions and test revealing models where useful. A rival should be represented by its strongest relevant commitments; a local objection need not first supply an entire worldview. Explore conditional consequences without first proving every primitive.
-3. **Decompose only where useful.** Follow disputed premises and load-bearing terms as deeply as the current question requires. Split records for consequential inference, independent warrant, rival discrimination or reuse. Identify honest primitives and open bridges; neither a new predicate name nor a definition settles its applicability. Reuse shared [definition dependencies](corpus-model.md#definition-dependencies-and-formal-meaning). Do not expand ordinary vocabulary just for coverage.
+3. **Decompose only where useful.** Follow disputed premises and load-bearing terms as deeply as the current question requires. Split records for consequential inference, substantive warrant, rival discrimination or reuse. Identify honest primitives and open bridges; neither a new predicate name nor a definition settles its applicability. Reuse shared [definition dependencies](corpus-model.md#definition-dependencies-and-formal-meaning). Do not expand ordinary vocabulary just for a larger count; useful coverage of distinct questions and rival views is welcome.
 4. **Report substantive reassessment points.** Report when the question is resolved, unavailable evidence/capabilities or an owner decision blocks progress, repeated approaches expose the same obstacle without a materially different next test, or a more consequential question warrants a scope change. Persist changed uncertainty, exact evidence and assumptions, standing rivals and their prices, failed approaches, provisional assessment and next tests. A useful result, open premise or surviving countermodel alone is not a stopping condition: descend into relevant subarguments and reconnect findings to the parent. Continue other available work within the assignment. Failed search does not exhaust a question.
 5. **Draft, challenge and repair.** The coordinator prepares the complete proposed outcome: record/graph changes, overall judgments, diagrams and handoff. Apply the [final outcome review](#final-outcome-review-and-repair) before relying on new consequential assertions as reviewed support. A review of worker outputs does not cover a stronger coordinator summary.
 6. **Integrate and requeue.** Integrate the reviewed version, connect findings to their parent questions, update priorities and assign the next fresh worker. Requeue unfinished work with a specific next step or reopening condition, not an instruction to repeat the same unsuccessful search. Continue across PR checkpoints. Stop only when the requested scope is substantively resolved, every remaining branch has a concrete blocker preventing useful work, or the owner stops the loop. Preserve resumable handoffs for runtime interruptions.
@@ -56,6 +56,18 @@ Warrant standards and their application remain challengeable research targets. T
 
 For the meaning example, distinguish **if an actual denial is meaningful, some language has meaning** from the grounds for judging that a particular performance was meaningful. A meaningless utterance supplies no articulated denial; this does not establish that all utterances are meaningful or settle broader semantic theories. Record the actual-performance premise and its challenges separately from the conditional proof.
 
+### Cumulative warrant and support options
+
+For a proposition `P`, retain distinct but compatible ways to assess it:
+
+- **Direct or prima facie acceptance:** one may find `P` credible on its own terms, through experience, a basic intellectual seeming, a constitutive commitment or a necessary condition of actual reasoning. This is revisable epistemic warrant, not automatically a `self_evident` floor marking or formal establishment.
+- **Argumentative support:** one may accept `P` because `A` and `B` imply it under an explicitly interpreted, verified argument. `A` and `B` may themselves have direct warrant or further derivations. Preserve `P` as a direct option alongside this bundle; do not count the expansion as a regression.
+- **Holistic and comparative support:** connected propositions can reinforce an interpretation through coherence, explanatory integration, successful applications, and the costs or failures of competing accounts. Shared premises and mutually supporting arguments are normal; record them so the same evidence is not falsely counted twice.
+
+There is **no universal requirement for an independent proof of each premise** or for every support route to have disjoint foundations. Nor must every primitive be recursively derived before a provisional assessment is possible. Inspect instead what each line of support contributes, what observations or practices connect the web to its subject matter, whether it merely assumes the conclusion, and what substantive defeaters survive. Bare `A → B` and `B → A` alone do not justify either proposition, but that does not disqualify an otherwise warranted network. A proposition may reasonably remain a primitive of the inquiry, with its meaning and revision conditions explicit.
+
+Record self-refutation, self-undermining, absence of a view-internal reason to adopt it, and incompatibility with prerequisites of the activity separately. A view that fails one of these *substantive* tests loses comparative credibility under the tested scope; survival of relevant testing may raise relative confidence. Neither mere logical consistency nor the absence of an invented objection proves a view true, and eliminating one rival does not prove an unexhausted alternative. Such evaluations belong in the overall provisional judgment rather than automatically changing formal closure or a truth score.
+
 ## Integration and revision contract
 
 Keep these assessments separate in existing records and reports; do not collapse them into one “established” label:
@@ -87,7 +99,7 @@ Before a consequential definition, bridge, claimed defeat or influential judgmen
 1. **Map the intended claim.** Restate it plainly and map each load-bearing narrative commitment to an encoded condition, definition or hypothesis, or an explicit **OPEN** interpretation bridge. Inspect quantifiers, modality, hidden assumptions and the strongest relevant objection. Names and suggestive prose do not supply missing conditions.
 2. **Inspect the actual witness.** Check whether the model preserves the entities and relations required by the motivating claim, including their existence and identity across the relevant situations. For example, an empty comparison world may witness an abstract modal non-entailment while failing a reading that requires an object, its material or its origin there. When the encoding omits commitments needed by that interpretation, label the result a **structural surrogate** and state exactly what it witnesses.
 3. **Restore omitted commitments.** Test whether adding the intended but omitted conditions preserves the countermodel or consequence. It may destroy the countermodel. If this test remains open, keep the stronger interpretation unresolved; do not carry the surrogate's result across that gap.
-4. **Compare readings and warrant.** Preserve meaningful alternatives and compare their consequences under explicit assumptions without forcing a winner. Logical weakening can improve a sufficient premise set; it does not by itself establish equal or greater independent warrant or applicability. Check claimed novelty against the exact prior theorems and dependencies.
+4. **Compare readings and warrant.** Preserve meaningful alternatives and compare their consequences under explicit assumptions without forcing a winner. Logical weakening can improve a sufficient premise set; it does not by itself establish equal or greater warrant or applicability. Check claimed novelty against the exact prior theorems and dependencies.
 
 Retain disagreements rather than treating reviewer agreement as proof. A stronger assumption bundle becoming inconsistent does not invalidate a model of the original bundle. A local or reachable-world result does not establish its global counterpart, and a bounded unsuccessful rival search does not exclude unexamined rivals.
 
@@ -98,7 +110,7 @@ Integration must also enforce these boundaries:
 - **Context compatibility.** Compose only matching meanings, domains, logic and model classes, or record an explicit justified bridge. Similar words or theorem shapes do not supply that bridge.
 - **Joint support.** Preserve complete jointly required premise bundles and alternative routes. An incompatibility of `{A, B, C}` does not show pairwise incompatibility or select which member to reject. Coverage and exclusivity are separate obligations, needed only for inferences that use them.
 - **Nonvacuity.** Record whether the relevant bundle has a joint model, a demonstrated contradiction, or unresolved satisfiability, always relative to its background. Seek witnesses where practical; do not require a model for every investigation. A deduction from a known inconsistent bundle remains a formal consequence, but supplies no affirmative support for its conclusion. Preserve the incompatibility and reassess affected support routes.
-- **Dependency independence.** `A → B` and `B → A` supply no independent warrant for either. Audit shared sources, unsupported bridges and cycles before claiming corroboration. Another argument can add structural insight without adding independent evidence.
+- **Dependency audit, not independence quota.** `A → B` and `B → A` by themselves supply no new warrant for either. Audit shared sources, unsupported bridges and cycles before claiming *independent corroboration*, but consider the cumulative web and any prima facie or practice-based grounds it contains. An argument can improve understanding or support options without an entirely separate evidential ancestry.
 - **Revision.** When a definition, premise warrant or judgment changes, identify affected downstream uses and flag their interpretations or qualified conclusions for reassessment. Preserve valid theorems about the earlier meaning. Withdraw only the defeated support route; assess surviving routes separately. Keep the reason and evidence for each judgment revision.
 
 Apply three checks to any change in this policy: a correct proof of a mistranslated claim keeps its formal result but loses the claimed interpretation; an inconsistent assumption bundle yields an incompatibility rather than an affirmative victory; two arguments sharing an unsupported bridge leave that common dependence visible. A reversal of a provisional judgment must propagate through its qualified uses without pretending that a theorem's encoded statement changed.
@@ -109,7 +121,7 @@ Select work by the importance of the live question, the expected value of discri
 
 Default to reserving at least one of every five worker starts for a neglected plausible interpretation or a challenge to influential support. Record a reason when no such target is available, and raise the priority of repeatedly deferred relevant work. The coordinator may adjust this allocation to current research needs with an explicit rationale in the existing handoff; do not silently remove exploration capacity.
 
-After ten completed turns, at a substantive stopping point, or after a consequential revision, give a brief synthesis of the central question: what is now favored and why, which combinations were excluded, which bridges gained or lost support, and which shared dependencies remain decisive. Adjust the interval for short runs. Count clearer distinctions, informative conditional results, weakened assumptions, exposed dependencies and precise exhausted approaches as progress; do not substitute node counts, route cost or a guaranteed discovery per worker. Assess throughput by accepted meaningful findings per elapsed run, with their time/resource costs and dominant review, build or CI waits recorded in existing logs or the current handoff. Claim and PR counts are not quotas or substitutes for this evidence. Convergence means improving the assessment and locating remaining disagreement; it does not promise a final foundation or a monotonic increase in certainty.
+After ten completed turns, at a substantive stopping point, or after a consequential revision, give a brief synthesis of the central question: what is now favored and why, which combinations were excluded, which bridges gained or lost support, and which shared dependencies remain decisive. Adjust the interval for short runs. Count broader meaningful coverage, alternative conditional support bundles, clearer distinctions, informative results, weakened assumptions, exposed dependencies and precise exhausted approaches as progress, including when open-premise or root-closure totals do not change. Node and argument counts describe scale; route cost describes expanded obligations. None is a quality score, quota or recurring complaint. Assess throughput by accepted meaningful findings per elapsed run, with their time/resource costs and dominant review, build or CI waits recorded in existing logs or the current handoff. Claim and PR counts are not substitutes for this evidence. Convergence means improving the assessment and locating remaining disagreement; it does not promise a final foundation or a monotonic increase in certainty.
 
 The [configuration elimination method](configuration-elimination-loop.md#certified-forks-for-selected-investigations) and [#565 pilot note](notes/argument-first-pilots-565.md) supply particular proof tactics, not mandatory preliminary stages for every turn.
 
@@ -178,7 +190,7 @@ undefended:
 3. **Exclusions.** Which nearby cases fail to instantiate it, and what excludes
    them? Distinguish efficient causation, grounding and conservation rather than
    treating their names as interchangeable.
-4. **Properties.** What independently justifies each property the argument uses,
+4. **Properties.** What substantively supports each property the argument uses,
    especially asymmetry, transitivity and well-foundedness, for this interpreted
    relation on the stated domain? A physical example or the word “essential” is
    not a proof of well-foundedness. A finite or inductively generated model proves
@@ -193,7 +205,7 @@ undefended:
    of the same phenomena and explanatory task? Preserve their strongest objections
    and any unresolved disagreement.
 
-Prioritize the independent property justifications and the abstraction bridge
+Prioritize the property warrant and the abstraction bridge
 (questions 4–5). A pure relational theorem establishes a conditional mathematical
 consequence, not the causal applicability of its relation. Such theorems remain
 useful and may be developed with open interpretive burdens. Any philosophical
@@ -201,18 +213,19 @@ support remains explicitly conditional or provisional to the extent those
 burdens are unresolved; the theorem does not settle its own applicability. Preserve
 the exact assumptions and unmet burdens in the existing records; this requirement
 adds no registry or verification gate and changes no source-fidelity standard.
-Independent justification may be a defensible philosophical argument, with its
-assumptions and defeaters explicit; it need not be empirical evidence or a kernel
+Property warrant may be prima facie, conceptual, practice-based, empirical, or
+part of a larger coherent explanatory case, with assumptions and defeaters
+explicit. It need not be independent of the surrounding network or a kernel
 proof of every premise. Source attribution and formal consequence remain distinct
-from that independent defense.
+from that philosophical assessment.
 
-## Progress is depth on the root path, not volume
+## Progress includes breadth, depth and connections
 
-Use `target/release/truth frontier --routes` and `--reaching-root`. Report exactly what changed for root-facing open premises, including **no change** for unconnected outposts.
+Use `target/release/truth frontier --routes` and `--reaching-root` to report exactly what changed for root-facing open premises, including **no change** when appropriate. This is a separate formal-frontier report, not the verdict on the research: valuable exploration can add distinct propositions, rivals, arguments, interpretations or conditional routes while leaving the frontier unchanged. Give meaningful breadth its own credit and explain its purpose or connection plan.
 
 - An open premise is **bare** (no source claim states or supports it), **supported** (only a `supports` relation backs it, its note recording the gap, or only a bibliographic citation without pinned bytes or a permanently unavailable witness states it) or **stated** (a claim on a pinned source states it); supported and stated premises are undefended (#987). These are source/closure descriptions, not an ordering of philosophical credibility or research priority.
 - A transcription (`opaque_atoms`, `single_application`, `assembly`, `instantiation`) does not close an open conclusion; it propagates closure only when **all** its premises are closed. An alleged refutation counts only when verified **and** all its premises are closed.
-- Replacing one open premise with narrower leaves ("relocation") is legitimate exploration even when it adds bare premises; `frontier-diff` lists them for visibility and `thickness` reports the derivations gained (owner decision 2026-11-07, superseding the no-bare rule of #987). Report supported leaves as supported, not as stated.
+- Replacing one open premise with narrower leaves ("relocation") is legitimate exploration even when it adds bare premises; `frontier-diff` lists them for visibility and `thickness` reports the derivations gained (owner decision 2026-11-07, superseding the no-bare rule of #987). Retain the direct-assumption option for the original premise alongside any derivations; do not rank added support negatively because an expanded route is longer. Report supported leaves as supported, not as stated.
 - **Account for connections.** Inspect disconnected verified families (`truth orphans`) as possible bridge targets. Every new family needs a root-route purpose or a specific connection plan and blocker. Report unconnected work honestly; connection alone does not discharge a premise. Use the priority policy above rather than automatically favoring idle work or a complete sense fork.
 - Neither source attribution, a conditional theorem, a narrative, nor an unverified model proves a premise. Preserve exact semantics, assumptions, and surviving rivals; see [configuration elimination](configuration-elimination-loop.md).
 
