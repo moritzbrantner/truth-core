@@ -136,6 +136,20 @@ are still open and **not equivalent**:
    relation rather than substituting counterfactual dependence, mutual
    event-causation or a global fixed point for productive existence.
 
+**The label-erasure test.** Oppy's comparative cost counts a natural-only
+causal ontology as one kind of cause, versus natural *plus* non-natural as
+two kinds (§IV). This is not wrong just because the terms differ. To check
+its explanatory relevance, replace the labels with independently specified
+properties and causal roles. If *natural* simply means *whatever causes*,
+the one-kind advantage risks being verbal and admits any hypothesized creator
+as a causal relatum. If it instead means a substantive physical/impersonal
+kind, the source needs a positive argument that this kind can be the ultimate
+producer of this order; the two-kind accounting must also consider what
+further laws or primitive selection facts the models require. Likewise a
+term defined as *God* cannot acquire productive powers, necessity or
+goodness just from its spelling. This is a proposed discriminator test, not
+an attribution that Oppy *does* define naturality as causality alone.
+
 **A concrete logical warning.** `□P` alone does **not** entail `¬Caused(P)`:
 consider two admissible worlds, both with `P` and `Q` obtaining, and in both
 an irreflexive causal/grounding arrow `Q → P`. One may deny this model by
