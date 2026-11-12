@@ -1,0 +1,26 @@
+{
+  "id": "02a1b931-debc-4821-89e8-db3ef3d80001",
+  "label": "The nine give the Dei Filius attributes via all five typed senses (inference)",
+  "input_statement_ids": [
+    "280770e3-a40e-4611-a96d-9d65fec5b945",
+    "ad49ea00-287e-4c7c-8ab6-fe222d16d493",
+    "1063da3d-098d-49b3-9346-74d7edbb6e6c",
+    "eb6611a5-f8a7-44f6-9bf1-2f65eb80b3cb",
+    "8f24379f-c48d-43cf-beae-c0ad89a92cb4",
+    "a23dd1ac-1e5b-4842-bf82-385a36607a77",
+    "15df9d91-5912-4a75-9427-97d4a82e7a27",
+    "8bf775e9-34e0-48e5-bdd8-f48edd1040f7",
+    "de92711c-a871-4d4e-a9a3-64e160632006",
+    "0042dd05-7788-4d77-884d-32f868f9620f",
+    "5ea1069d-84cd-5850-a8b0-adbce332296e",
+    "e919fe2e-2563-44bb-9eba-16c8199fa477",
+    "8d73ef90-8260-4c45-b2ed-577630c760a7",
+    "00e962ae-f109-55f7-a7fd-f107ce0dea6b",
+    "d7741cdc-881b-5bda-85ce-d70223162f78"
+  ],
+  "output_statement_id": "5fbea2f5-0446-4852-9bd4-74fd0878755f",
+  "rule": "Composition of the registered nineGiveDeiFilius with none of its five primitive bridges, on primitives whose five fields are the antecedents of those bridges, then the five typed senses from the nine and their five sense bridges at the same being",
+  "meaning": "At any being g with the nine, the registered nineGiveDeiFilius (result of argument 1fa790f2) is applied with every input except the five old bridges 'Whatever HAS_INTELLECT_1 lives', 'Whatever causes the being of everything else is LORD_1 of everything else', 'Whatever is PERFECT_2 and HAS_INTELLECT_1 is BLESSED_1', 'Whatever causes the being of everything else is IMMENSE_1' and 'Whatever is INFINITE_1 is INCOMPREHENSIBLE_1', on the primitives whose living is intellect, whose lord and immense are creator of all, whose incomprehensible is infinity and whose most blessed is perfection with intellect; those five bridges then hold trivially and nothing about the given primitives is used. Every conjunct except the five primitives is carried over. g is LIVING_2 (the nine-restricted life premise) and pure act (its immutability conjunct), so the restricted sense bridge gives LIVING_1; g is LORD_2, BLESSED_2, IMMENSE_2 and INCOMPREHENSIBLE_2 (the four nine-statements), so their sense bridges give LORD_1, BLESSED_1, IMMENSE_1 and INCOMPREHENSIBLE_1. The senses are not identified: each passage is one listed sense-bridge premise, and only the weak version of each bridge is used. Joint satisfiability of this whole premise bundle, with the open leaves under its nine-statements and a being with the nine, is witnessed by the controls of this batch (model 1). Conditional consequence only; no premise is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

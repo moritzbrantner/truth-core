@@ -1,0 +1,27 @@
+{
+  "id": "bf0e2111-9d3d-42f7-b5d5-c292d97a653f",
+  "label": "Joint-satisfiability models for the unified Dei Filius route, checked",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "ed34595d-e8f1-40cb-9137-146243339a8e",
+  "inference_ids": [
+    "a5d53f10-e848-401d-b4a3-81e83b2c862c"
+  ],
+  "meaning": "Model 1 (two beings) satisfies every premise of the unified sufficiency route and the open leaves under its nine-statements, with a being that has the nine and therefore every Dei Filius attribute; the old intellect-living bridge fails there, so the bundle does not entail it in this model. Model 2 (the four roles of the spine root's full25 fixture, with every essence mapped to source) satisfies, given excluded middle, every premise of the unified root route and the same leaves; its selected root has every Dei Filius attribute. In the unchanged full25 fixture the caused-is-not-infinite bridge fails. Model 2 reuses the checked full25 fixture (NecessaryClassicalGodRootControl.checks, which depends on propext through Mathlib-importing modules), so this result permits the three Mathlib axioms; the two routes and the derivation of the caused-is-not-infinite bridge stay zero-axiom. Model-witnessed facts about these interpretations only: they show the bundles are jointly satisfiable in the stated formal semantics, not that any premise is true.",
+  "definition_ids": [
+    "4afe4ab4-f8cc-4120-b284-f1f0140e76c1",
+    "641c767b-4289-4d92-b900-da7ad603d282",
+    "80dea550-60c1-447a-83bf-d3f27ea0b2a8",
+    "94ebe0d2-7cf9-4360-87ce-61c598b4e666",
+    "6ced5205-e6a4-585e-950e-3b22e7c9ef01",
+    "4433942e-aaf6-55a9-b777-66e55638103d",
+    "1d8890c0-afe2-5cdb-a400-0bbd4b79053d"
+  ],
+  "disambiguation_ids": [
+    "1f2d3b9b-0b6b-459c-8871-3f136ad6d78a",
+    "3fc3ee02-c3cc-4a61-9724-914d9d07b0dd",
+    "70f4f510-d488-445f-86cf-03b889507372",
+    "587c53cf-c2a8-51f6-b8c1-013e67756dc6",
+    "aa1de96a-e0d2-4739-a34f-9b98f1034a34",
+    "d63d0696-e5fb-4c85-932e-812989c83b29"
+  ]
+}
