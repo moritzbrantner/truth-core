@@ -1209,9 +1209,10 @@ item or independent identity criterion inspected here refutes those combinations
 ### Proposed assessment, next test and work status
 
 For the current exact join, support is **underdetermined at transport**, even
-conditional on granting the actual necessary-root package. Coverage is a useful,
-weaker alternative to invariance/full J1 plus union WF; its sufficient role is
-already certified. Calling it a standing dependence principle does not supply
+conditional on granting the actual necessary-root package. Coverage supplies an alternative sufficient transport premise. It does not
+require supporter identity or union well-foundedness; full J1 plus union
+well-foundedness does not imply coverage, as the certified
+`NecessarySupportCoverage.Control.UncoveredEdgeControl` demonstrates. Calling it a standing dependence principle does not supply
 independent warrant. The positive modal-stability argument and the replacement
 account remain live; the existing controls discriminate their consequences but
 cannot adjudicate intended metaphysical applicability. This does not retract the
