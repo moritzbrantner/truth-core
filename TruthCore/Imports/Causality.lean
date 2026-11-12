@@ -53,6 +53,7 @@ public import TruthCore.Causality.ContractiveBorrowedPower
 public import TruthCore.Causality.ConvergentSchedule
 public import TruthCore.Causality.CountCauseTimeNecessity
 public import TruthCore.Causality.CountTemporalNecessity
+public import TruthCore.Causality.CreatureSenses
 public import TruthCore.Causality.DefinitionDictionaryConnections
 public import TruthCore.Causality.DeiFiliusAttributeField
 public import TruthCore.Causality.DeiFiliusImmenseIncomprehensible

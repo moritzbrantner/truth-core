@@ -1,0 +1,10 @@
+{
+  "id": "6bac351c-4f89-403c-8224-886cd84ea54a",
+  "label": "Controls for the CREATURE senses, checked (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "76aabb0f-90a6-4045-ba78-df27cb21695d",
+  "rule": "Three explicit interpretations, checked by case analysis on finite carriers",
+  "meaning": "Model 1 separates the senses: a being caused by another that no universal cause causes is CREATURE_2 and not CREATURE_1, so the bridge does not hold by definition. Model 1 also shows the Fourth-Way consequence is needed for the bridge, and model 2 that the weak premise is. Model 3 satisfies every premise of both new derivations together with a caused being. Model-witnessed facts about these interpretations only: they show the premises are needed in these interpretations and that the bundle is jointly satisfiable, not that any premise is true or false.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

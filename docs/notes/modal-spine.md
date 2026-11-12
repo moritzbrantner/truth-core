@@ -800,8 +800,8 @@ attributes are confessed.
 | Dominus | primitive `IsLord` (LORD_1); typed sibling LORD_2, `IsLordByCauseAndGovernment`: causes the being of and governs everything else (below) | open bridge: creator of all is lord (q.13 a.7); or (second route) LORD_2, derived from the nine with one new directing bridge (q.22 a.2) and the q.103 a.3 reading, plus a weaker sense bridge LORD_2 → LORD_1 | same two routes |
 | omnipotens | `IsAlmighty` (active power; no clash with immutability, which excludes passive potency) | from infinity by the existing `STMT-INFINITE-ACT-HAS-INFINITE-POWER` (itself derived from three open premises) | same |
 | aeternus | `Eternal` | one of the nine | one of the nine |
-| immensus | primitive `Immense` (IMMENSE_1); typed sibling IMMENSE_2, `IsImmenseAsInfiniteCauseOfAll`: infinite and causes the being of everything else (below) | open bridge: creator of all is immense (q.8 a.1-2); or (second route) IMMENSE_2, contained in the nine with no premise, plus a weaker sense bridge IMMENSE_2 → IMMENSE_1 that carries all the substantive content; that bridge is itself derived (declared single-application transcription) from a typed presence step and a narrowed bridge, the presence step resting either on the sustaining reading `23e04ae5` or on its weak version `ce55210c` (causes of another's being), which is derived from concurrent actualization `40a97664`, concurrence of causes of being `d7f5a528` and the reception bridge `da72ae93` (below) | same two routes |
-| incomprehensibilis | primitive `Incomprehensible` (INCOMPREHENSIBLE_1); typed sibling INCOMPREHENSIBLE_2, `IsIncomprehensibleToCausedIntellects`: infinite and comprehended by no caused intellect, with a new primitive relation `Comprehends` (below) | open bridge: the infinite is incomprehensible (q.12 a.7); or (second route) INCOMPREHENSIBLE_2, derived from the nine with two new bridges (q.7 a.2, q.12 a.7; the q.7 a.2 bridge `18ca6f9d` is itself derived from one caused-esse-is-received bridge and two reception-limitation premises, see the unified route below), plus a weaker, nearly analytic sense bridge INCOMPREHENSIBLE_2 → INCOMPREHENSIBLE_1 | same two routes |
+| immensus | primitive `Immense` (IMMENSE_1); typed sibling IMMENSE_2, `IsImmenseAsInfiniteCauseOfAll`: infinite and causes the being of everything else (below) | open bridge: creator of all is immense (q.8 a.1-2); or (second route) IMMENSE_2, contained in the nine with no premise, plus a weaker sense bridge IMMENSE_2 → IMMENSE_1 that carries all the substantive content; that bridge is itself derived (declared single-application transcription) from a typed presence step and a narrowed bridge, the presence step resting either on the sustaining reading `23e04ae5` or on its weak version `ce55210c` (causes of another's being), which is derived from concurrent actualization `40a97664`, concurrence of causes of being `d7f5a528` and the reception bridge `da72ae93` (below; `da72ae93` is now itself derived through the CREATURE senses) | same two routes |
+| incomprehensibilis | primitive `Incomprehensible` (INCOMPREHENSIBLE_1); typed sibling INCOMPREHENSIBLE_2, `IsIncomprehensibleToCausedIntellects`: infinite and comprehended by no caused intellect, with a new primitive relation `Comprehends` (below) | open bridge: the infinite is incomprehensible (q.12 a.7); or (second route) INCOMPREHENSIBLE_2, derived from the nine with two new bridges (q.7 a.2, q.12 a.7; the q.7 a.2 bridge `18ca6f9d` is itself derived from one caused-esse-is-received bridge and two reception-limitation premises, and that bridge from the CREATURE_2 → CREATURE_1 sense bridge and the q.7 a.2 reading at CREATURE_1, the sense bridge in turn from the proved Fourth-Way maximum; see the unified route and CREATURE senses below), plus a weaker, nearly analytic sense bridge INCOMPREHENSIBLE_2 → INCOMPREHENSIBLE_1 | same two routes |
 | intellectu ac voluntate omnique perfectione infinitus | `HasIntellect`, `HasWill`, `IsPerfect`, `Infinite` (weaker: infinity of intellect and will as such untyped) | four of the nine | four of the nine |
 | simplex omnino, incommutabilis | `IsSimple`, `IsImmutable` | two of the nine | two of the nine |
 | substantia spiritualis | `IsSpiritual`: not matter-form composed (weaker: substance untyped; alone it fits prime matter or an accident) | derived: simplicity and the q.3 a.7 matter-form clause | derived: the root excludes matter-form composition |
@@ -966,12 +966,66 @@ bridge `18ca6f9d` is now derived (`causedIsNotInfiniteFromReception`) from one
 new open bridge and two existing open premises: what has its being caused by
 another has its esse received in some principle (`da72ae93`, the bridge), received
 esse is limited, and an INFINITE_1 being's esse is not limited. The step from
-external cause to received esse is that one named bridge. It does not pass through
-`Creature`: `STMT-CAUSED-IN-BEING-BY-ANOTHER-IS-CREATURE` reads `Creature` broadly
-(ordered to some cause of its being), while `DEF-CREATURE` and the q.7 a.2 support
-of `STMT-CREATURE-ESSE-IS-RECEIVED` use the narrower sense (ordered to God), so a
-chain through both would equivocate. The individuation-by-esse scope condition
-binds the bridge in the same way. Joint satisfiability is no
+external cause to received esse is that one named bridge. Its first draft passed
+through `Creature` and equivocated: `STMT-CAUSED-IN-BEING-BY-ANOTHER-IS-CREATURE`
+glossed `Creature` broadly (ordered to some cause of its being), while
+`DEF-CREATURE` and the q.7 a.2 support of `STMT-CREATURE-ESSE-IS-RECEIVED` use
+the narrower sense (ordered to God). The individuation-by-esse scope condition
+binds the bridge in the same way.
+
+**CREATURE senses** (`CreatureSenses`, spec `specs/creature-senses.toml`, attempt
+`b682aeff`). The disambiguation `c49de1e9` now types both senses. CREATURE_1
+(`DEF-CREATURE`, `IsCreatureOfUniversalCause`) means caused in one's being by a
+being that causes the being of every other being in act. It reads q.13 a.5's
+"God" by the Fourth-Way description and does not build in uniqueness. CREATURE_2
+(`IsCausedInBeingByAnother`) means caused in one's being by some other being.
+CREATURE_1 entails CREATURE_2 by definition. A control separates them. The
+premise `STMT-CAUSED-IN-BEING-BY-ANOTHER-IS-CREATURE` is reread as the sense
+bridge: whatever is CREATURE_2 is CREATURE_1. Its consequent is the predicate
+that `STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES` and
+`STMT-CREATURE-ESSE-IS-RECEIVED` use, so the Round 2 chain through it, which
+carried the same unflagged equivocation, is now sense-consistent. The bridge is
+derived (`causedInBeingByAnotherIsCreature1`) from the proved Fourth-Way
+consequence `STMT-MAXIMAL-CAUSE-WITHOUT-DISTINCT-ESSE-CAUSE` and one
+weak premise `2f2f5bd2`, near-analytic under the atemporal reading of the cause of
+being. That consequence says that a maximum in
+being causes the being of every other being in act and has no distinct cause of
+its being. The weak premise says that whatever has its being caused is in act
+as to being, and it is the esse version of
+`STMT-CAUSED-PERFECTION-IS-HAD-BY-EFFECT`. With the bridge, `da72ae93` is derived
+(`causedEsseIsReceivedThroughCreature1`) from that bridge and the q.7 a.2 reading
+at CREATURE_1, the scope of things made by God. This is not a mere re-split. The
+generalization from what God causes to whatever is caused in being now rests on
+the universal causation of being that the Fourth Way already asserts on the root
+routes. The open q.7 a.2 reading `29e71e43` still carries two things: reception
+itself, and the generalization from a subsistent created form (what q.7 a.2
+speaks of) to every CREATURE_1.
+
+The legacy statements `b7d4eede`, `29e71e43` and `612078bf` take `Creature` as a
+Lean parameter. Bind-check matches by head constant, so on its own it cannot keep
+them at CREATURE_1. The new arguments therefore bind sense-fixed siblings whose
+own declarations name the sense constants:
+`CausedInBeingByAnotherIsCreature1` (`5969873b`, the derived bridge) and
+`Creature1EsseIsReceived` (`ea2c4745`, supported like `29e71e43`). The new
+arguments declare `term_senses` CREATURE_1, so bind-check rejects a CREATURE_2
+instantiation; a checked negative test was rejected. Two instantiation
+transcriptions tie the siblings to the legacy statements. Only the merged legacy
+arguments still rely on records for the sense.
+
+Computed against `78e5ed2e`: `b7d4eede` and `da72ae93` move from bare to closed
+(not established). `2f2f5bd2` is added bare and `ea2c4745` is added supported.
+Open premises reaching the root stay at 464 (bare 325 to 324, supported 93 to
+94). `0e242e29` itself newly reaches the root through this route; its own
+premises already did. `STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES`, read at
+CREATURE_1, now carries the existence of a universal cause of being. That is
+close to the conclusion of the attribution genus-principle argument that uses
+it, a warrant burden on that premise rather than a proof gap. Existential inertia targets sustaining causation of being,
+which `#1493` types as CAUSE_OF_BEING_2. The step here uses the atemporal cause
+of being and no persistence claim. The esse-essence tradition of Scotus, Ockham
+and Suárez is an unread lead. It would now target the reception premises, the
+q.7 a.2 reading `29e71e43` and the reception-limitation premise `7de89edb`, not
+the sense bridge. It would do so only on a really-distinct reading of the
+receiving principle. Joint satisfiability is no
 longer unresolved for these two routes. A two-being model satisfies the whole
 sufficiency bundle and every open leaf under its nine-statements; its being with
 the nine is a cause of the being of a composite, potential, caused intellect, and

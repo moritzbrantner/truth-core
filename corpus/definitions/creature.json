@@ -1,9 +1,10 @@
 {
   "id": "afcdd2c5-1167-5a73-97d7-cb99a6ad5817",
-  "label": "Creature: Creature x: x is one of the things ST I q.13 a.5 calls creatures, which are ordered to…",
+  "label": "CREATURE_1: ordered to God as to principle and cause, God read as a universal cause of being",
   "legacy_id": "DEF-CREATURE",
   "term": "creature (creatura)",
-  "definition": "`Creature x`: x is one of the things ST I q.13 a.5 calls creatures, which are ordered to God as to their principle and cause. In Lean it is an uninterpreted predicate on beings; only the open premise `OthersAreCreaturesReading Creature p` links it to the primary, by saying that everything other than p falls under it.",
+  "definition": "`Creature x`: x is one of the things ST I q.13 a.5 calls creatures, which are ordered to God as to their principle and cause. Typed reading (CREATURE_1, Lean `IsCreatureOfUniversalCause InAct CausesIn esse x`): some g other than x causes the being of every other being in act (CausesAllInGenus at esse, the q.2 a.3 'causa esse omnibus entibus', of which the Fourth Way says 'hoc dicimus Deum') and g causes x's being. Uniqueness of such a g is not built in. Example: any being other than the Fourth-Way maximum, whose being the maximum causes. Counterexample: a being caused only by a cause that does not cause the being of everything else. Older results keep `Creature` as an uninterpreted parameter; they hold for every predicate and so for this one. The open premise `OthersAreCreaturesReading Creature p` links it to the primary.",
   "basis": "stipulative",
-  "note": "Stipulated so that STMT-CREATURES-ORDERED-TO-PRIMARY-AS-CAUSE states no more than q.13 a.5 co., which speaks of creatures and not of everything other than God. Aquinas' account of creation (ST I q.44-45, e.g. q.45 a.1, creatio as emanatio totius entis) would source a fuller definition; none is needed by the current results."
+  "lean_declaration": "TruthCore.Causality.CreatureSenses.IsCreatureOfUniversalCause",
+  "note": "Stipulated so that STMT-CREATURES-ORDERED-TO-PRIMARY-AS-CAUSE states no more than q.13 a.5 co., which speaks of creatures and not of everything other than God. Aquinas' account of creation (ST I q.44-45, e.g. q.45 a.1, creatio as emanatio totius entis) would source a fuller definition; none is needed by the current results. Reading 'God' in q.13 a.5 by the Fourth-Way description (a cause of the being of every other being) is the analyst's precisification; it adds no freedom, creation from nothing or beginning. Sense CREATURE_1 of the CREATURE disambiguation (c49de1e9-c34f-424f-b144-b80c885974ca); CREATURE_2 (fdfbbc59-1f33-4fab-a96f-b41f37974af5) is the broad gloss, caused in being by some other being."
 }
