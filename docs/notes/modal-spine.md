@@ -2027,3 +2027,74 @@ conditional investigations, not a mandatory first gate:
    Rewire the eight earlier consumers of 3b2d2d46, which now warn without
    `strong_version_needed`, to the first-being version. Fix the sense links
    of a4d3261a, c6d6379b and 2b25a78c.
+
+
+### Possession consumer certification outcome (2026-11-12)
+
+The coordinator reports the independent semantic challenge of the reconciliation
+and consumer annotations passed, with the parent wording repair retained:
+preexistence and the restriction are interderivable given transfer **and a
+caused perfection is had**. That review is reused for the unchanged meanings;
+it is not proof verification. The proposed possession reductions are now
+implemented in `specs/possession-consumer-reductions.toml`, with their own frozen
+Challenge; no existing Challenge or spine dependency map was edited.
+
+* Motion: argument `d0c022f8-c53d-4c0f-917a-e16bb75ca9a5`, result
+  `fdd09678-af1d-477f-bf5a-1b894557d301`, concludes `f296a694` from EM,
+  mover-causes-what-it-moves-to, distinct-cause possession, distinct-part
+  self-motion and whole-in-act-through-part. The explicit CAUSE_1 to CAUSE_2
+  bridge is the mover-causes premise. No comparative parameter remains.
+* Ascent: argument `c201b61a-14ad-4fcb-8ae6-acdaabb213c2`, result
+  `47d67745-e14c-4679-b671-a98316c46600`, concludes `6c27657f` from the initial
+  more-such-bearer premise, distinct-cause possession, exceeded-is-caused,
+  well-founded distinct causes at each respect, and EM. The induction uses
+  possession rather than comparative excess. It yields a maximal bearer,
+  without uniqueness, greatestness or a cause-of-all claim.
+
+Both Solution and frozen Challenge modules build. Comparator accepts both
+results with zero permitted axioms and NanoDa accepts the Solution. Exact result-scoped binding checks pass (2 bound, 0 mismatch); delivered-head
+CI is reported in the PR. Registration and semantic review alone supply neither. These are additional conditional support
+options on the prima/quarta via root routes, not independent warrant for their
+inputs. Full-main frontier-diff also includes the inherited preexistence batch;
+its historical route counts above remain historical. No global minimality is
+claimed for either bundle or for the existing esse-only endpoints.
+
+Omission follow-up: the existing `QuartaViaCausalAscent.WithoutCause` Bool model
+has actual distinct causing `false -> true`, actuality only at `true`, and a
+self-comparison of `true`. Thus it is a promising possession-omission model:
+it retains the initial bearer, exceeded-caused and well-foundedness premises
+while no bearer is maximal. Its old certificate concerns the comparative
+premise; no new possession-omission certificate is claimed here. Conversely,
+`WithoutBearer` does not retain possession (the same cause lacks actuality),
+so its old certificate cannot be reused to claim necessity of the initial
+bearer in the new bundle. Omission of that premise remains untested here.
+
+Consumer audit continuation: `ef122ccf` (uniqueness), `8bbe817d` (distinct esse
+cause exclusion), `87dd8489` (imported quarta-via witness), `3eafe507` (actual
+ground ascent) and `815d22c8` (every-world ascent) retain their existing
+certificates; proposed esse-only siblings remain unregistered. Their recorded
+proof interfaces use the same supplied cause dictionary and esse comparison.
+The every-world bridge remains an input: no world transport follows from a
+world-free comparative. The wider #1519 inventory is incomplete. Next tests
+are these five siblings and the populated same-dictionary cause-of-being
+control specified above; the latter must retain agency/reception and explicitly
+identify its denied bridge. Capacity production remains a positive conceptual
+rival, not a refutation of inclusive IN_ACT_3 or evidence of actual metaphysical
+possibility. The existing substantive-versus-power eminence fork and independent
+warrant burdens stay open. No new overall warrant judgment is issued here.
+
+The frontier extraction failure was in `revision_frontier`'s temporary archive
+extraction. `/tmp` is a 16 GB tmpfs; the disk filesystem had over 100 GB free.
+Retrying with task-specific disk-backed TMPDIR succeeded; no broad cleanup was
+performed. CLI fallback was retained and the shared preview was not mutated.
+The canonical checkout lacked `.lake/build`; the existing pinned dependency
+cache was restored with `lake exe cache get` (no files downloaded), followed
+by the focused build. No repeated preflight or new dependency was introduced.
+
+Claim/type self-sweep: both conclusions retain the original dictionaries and
+quantifier scopes; the motion premise explicitly bridges CAUSE_1 to CAUSE_2,
+and the ascent retains its initial bearer. No source attribution was added.
+Definitions/disambiguations are inherited by the batch generator from the
+reused statements. The new results assert conditional consequence only; no
+finite control, premise warrant, global minimality or new sense definition is
+asserted by them. Corpus check and offline attribution-check pass.

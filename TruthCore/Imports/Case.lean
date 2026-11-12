@@ -8,6 +8,7 @@ public import TruthCore.Case.Catholicism.ClassicalAttributesLocalLogic
 public import TruthCore.Case.Catholicism.DivineLoveBridge
 public import TruthCore.Case.Catholicism.FoundingIndependence
 public import TruthCore.Case.Catholicism.MaximalBeingCauseExclusion
+public import TruthCore.Case.Catholicism.PossessionConsumerReductions
 public import TruthCore.Case.Catholicism.PreexistenceWithoutTransfer
 public import TruthCore.Case.Catholicism.PrimaViaStrengthBoundaries
 public import TruthCore.Case.Catholicism.Root
