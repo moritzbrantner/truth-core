@@ -1,0 +1,10 @@
+{
+  "id": "34d83f83-17ec-4e5e-b60f-4bc47fe515b3",
+  "label": "Existent concreteness refutes a non-concrete existing esse cause",
+  "subject_kind": "argument",
+  "subject_id": "c8e578e7-eb69-4757-8156-0d556294276c",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "4c9908ba-d2e6-455a-a3ea-0e0354ca2eed",
+  "note": "Same Profile and world: the rival's cause exists at w and is not concrete, which the conclusion excludes (also lake-checked as notSomeEsseCauseNonConcrete). Conditional on two open premises (the existence-to-act contract and the CONCRETE_6 calibration), so it does not count for closure."
+}

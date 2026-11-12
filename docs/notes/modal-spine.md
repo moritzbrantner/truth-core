@@ -701,12 +701,70 @@ Columns:
 | Every contingent concrete thing has a ground | Some contingent concrete thing is ungrounded (a brute fact) | `ActualRootNecessityUpgrade.upgrade` | Partial. Schmid's existential inertia (read, [eternity note](../eternity-dependence-connection.md)) gives a mechanism: a thing's persistence is explained by its earlier existence and the absence of a destroying cause, with no concurrent sustainer. Open bridge: whether grounding under `m.grounds` is concurrent sustenance by a distinct ground; if an earlier existent can be the ground, Schmid does not contest the premise. Hume (claim `HUME-TREATISE-I-3-3-NARROW-A`) argues only that the causal maxim is not demonstrable from ideas: a limit on one kind of warrant, not evidence of an ungrounded thing. Oppy 2020 (read) is support neither way: every possible world shares the actual initial history (claim `OPPY-2020-SHARED-LAWS-INITIAL-HISTORY`), but the claim and `DEF-OPPY-CAUSAL-MODAL-COMPARISON` withhold numerical identity of one bearer across worlds, so whether his uncaused initial state is a necessary individual (allowed by the premise) or a contingent ungrounded one (the rival) is an unresolved bearer-identity bridge. | No claim. Three derivations from open premises. |
 | The maximum in being causes all other being | The maximum is idle: a third thing causes another's being | `TermSenseForks3.maximeEnsCausesAllMaximal` | Formal alternative. Lead, unread for this purpose: a first mover that is a final cause only (Aristotle, Met. XII.7). | No claim. Four derivations from open premises. |
 | What exists is in act as to being | Thin existence: something exists with no act of being | `Round2ExistenceAct.intellectualExerciseRequiresActFromExistence` | Formal alternative. The rival's sense is fixed by its definition (`f5345c9c`, thin existence: things exist, but existing is not an actuality they have). The stage-two bundle shares one `InAct` and one esse respect, so a thin theorist contests the bundle of existence-to-act, perfection transfer and infinity together, not another sense. No sourced justification for the thin view is on file. | No claim. Three derivations from open premises, two through the sourced q.4 a.1 ad 3 premise. |
-| A cause of a thing's being is its concrete ground | A non-concrete cause of being (a law or abstract object) | `Round2Grounding.contingentGroundedViaParticipation` | Partial, on an analyst construction. Phaedo 100d–e (claim `PLATO-PHAEDO-100D-PARTICIPATION-EXPLANATORY`) makes a Form explain a thing's being so; explaining being so is not shown to be causing esse. Rosen reports, without endorsing, that on Lewis's account events are sets (claim `SEP-ABSTRACT-OBJECTS-32-LEWIS-EVENTS-ARE-SETS`); two stacked bridges are open: causing events is not causing esse, and impure sets are not shown non-concrete in the adopted sense ([boundary note](causal-concrete-rival-boundary.md)). Only the analyst's construction connects Lewis to the premise. Aristotle's sourced critique (Met. I.9) is on file against the Phaedo account. | No claim. One derivation from four open premises. |
+| A cause of a thing's being is its concrete ground | A non-concrete cause of being (a law or abstract object) | `Round2Grounding.contingentGroundedViaParticipation` | Partial, on an analyst construction, now relocated (2026-11-12, below): the typed rival is conditionally refuted by the existence-to-act contract and the CONCRETE_6 calibration alone, so the Form and set motivations must deny one of those. Phaedo 100d–e (claim `PLATO-PHAEDO-100D-PARTICIPATION-EXPLANATORY`) makes a Form explain a thing's being so; explaining being so is not shown to be causing esse. Rosen reports, without endorsing, that on Lewis's account events are sets (claim `SEP-ABSTRACT-OBJECTS-32-LEWIS-EVENTS-ARE-SETS`); two stacked bridges are open: causing events is not causing esse, and impure sets are not shown non-concrete in the adopted sense ([boundary note](causal-concrete-rival-boundary.md)). Only the analyst's construction connects Lewis to the premise. Aristotle's sourced critique (Met. I.9) is on file against the Phaedo account. | No claim. One derivation from four open premises. A second derivation (below) from the contract, the calibration, the maxim "nothing gives being that it does not have", act-to-existence and the two dependence premises. |
 | Grades of being imply a maximum | Unbounded grades: everything is exceeded | `SelectedAncestryUnique.uniqueRoot` | Formal alternative. Comparatives without a maximum are established (the natural numbers under <), but they bear only on a general rule for "more and less", which nothing on the route uses: both derivations are specific to being. They show that a general more-and-less warrant would not suffice. No case of unbounded grades of being is on file. | No claim. Two derivations from open premises (no infinite ascent; approach to a primary). |
 | A universal cause of being causes the effect's perfections | Mere conservation: a secondary cause supplies a perfection | `CausalPerfectionTransfer.reconstruction` | Formal alternative. Lead, unread: medieval mere conservationism (Durandus). | No claim. Two derivations from open premises. |
 | A nonuniversal cause of a thing's being causes its perfections (`10cd24ed`, 2026-11-12) | A particular sustainer of a thing's esse that does not cause a perfection another agent causes | `PerfectionTransferGrounding.causeOfBeingCausesEveryPerfectionGrounded` (`Control.Controls` part 1, the concurrent model) | Formal alternative; no substantive objection established. Lead, with two open steps: q.104 a.1 co. (read) makes heavenly bodies causes of the being, not only the becoming, of what they generate. If they are nonuniversal causes of esse (an open bridge of `DISAMB-BECOMING-BEING-CAUSE`), the premise applies to them and requires them to cause every perfection of those effects, intellectual ones included (q.115 a.4, unread). The "continuous supply" example in the transfer note is enablement, not causing esse, and carries no weight. No positive warrant on file either: the strongest positive case (participation plus concurrence, q.105 a.5) rests on the source being the universal first agent, which a nonuniversal cause by definition is not. That is an absence of warrant, not evidence against the premise. | No claim, no derivation. |
 | What is simply prior is a concrete ground | Something non-concrete is simply prior to a concrete thing | `NecessaryFirstBeing.necessaryFirst` | Formal alternative. The Phaedo claim says nothing about priority; reading its explanation of being so as simple priority would be an unsupported bridge. | No claim. Two derivations from open premises. |
 | Whatever is God is maximal in being | A god exceeded in being by something not God | `StageTwo.GodIsSimple.godIsSimple` | Misdirected. Finite and demiurgic gods use another sense of "god". GOD_4 is a primitive field (`DEF-GOD-OF-CLASSICAL-THEISM`) whose content is fixed only by open premises, here the attribute premise `STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES` (infinite, perfect); the misdirection holds only given that premise. Which being deserves the name is the naming premise's question. | No claim. Two derivations from open premises. |
+
+**The esse-cause bridge and the giver of being (2026-11-12, [attempt](../../corpus/attempts/c0c90cee-39f6-4650-aee9-d42e42f3cd48.json), `specs/cause-of-being-has-being.toml`).**
+Ranking (computed from the Lean proof of the composition, result `57213a13`, and
+strict expansion of each premise to statements with no derivation): the
+esse-cause bridge `cb1cdea9` feeds eight of the ten attribute and naming steps
+(root uniqueness, the maximum's identity with the root, and simplicity, hence
+identity of esse and essence, infinity, intellect and will). Only the join's own
+inputs feed more; next are simple priority `86efed1a` (five steps) and the
+uniting cause (four). Two of the bridge's four leaves now have more basic
+derivations. Concreteness: the existence-to-act contract (already a premise of
+the composition) and one direction of the CONCRETE_6 calibration of the
+profile's `concrete` (`2d9807a5`) give that every existent at `w` is concrete
+(`0e02cd69`), and with it a second derivation of the bridge that does not use
+the unscoped leaf `82eeeb3c`. No causal premise enters. Consequence: the typed
+rival "an existing non-concrete cause of esse" (`4c9908ba`) is conditionally
+refuted by the contract and the calibration, so a Platonist or Lewisian holder
+must say that the Form or set exists at `w` without esse in re (deny the
+contract, the thin-existence row above) or that the profile's `concrete` is not
+CONCRETE_6; the causal clause is not where the dispute lies. Existence of the
+cause: the maxim "nothing gives being that it does not have" (`4a5a43a5`: a
+cause of the being of something in act as to being is in act as to being), the
+contract and act-to-existence `546975ef` derive `STMT-ESSE-CAUSES-EXIST-AT`
+(now closed as proved from open premises). The maxim is the bottom rung of a
+registered ladder: unrestricted "nothing gives what it does not have" `376d6a5a`
+⇒ its cause-of-being restriction `d0fc96b7` ⇒ "a cause of being has being"
+`4ccb319f` ⇒ the maxim, with q.4 a.2 preexistence ⇒ the maxim as a second
+entry; each step is strict in a checked control. "A cause of being has being"
+also follows from agency in act (`ef068f46`: a cause of being is in act in some
+respect, after q.75 a.2) and the sourced q.4 a.1 ad 3 premise, with no transfer
+principle. The maxim stays a bare leaf in the computed frontier, since a
+strength-order entry closes nothing while the strong version is open.
+Objections: no substantive objection to the maxim, the calibration or agency in
+act identified; the Plotinian "giver beyond being" is an unread lead with no
+weight.
+
+**Where `376d6a5a` is load-bearing.** Its only consumer is
+`causeOfQualityMoreSuch` (the Metaphysics α "more such" premise), which needs
+the unrestricted scope (now recorded as `strong_version_needed`). Q.4 a.2
+preexistence is derived only through that premise, which is why strict
+expansion makes `376d6a5a` indispensable on nine of ten routes even though
+preexistence has its own sourced claim. In the composition it enters through
+preexistence (the perfection attribute) and `STMT-GOD-IS-MAXIMAL-IN-BEING` (the
+unity step), not through the esse-cause bridge, which needs only the bottom
+rung. Meaning forks and their status. *Containment*: read formally (IN_ACT_1)
+the principle meets an established counterexample, an artisan who causes a shape
+he does not have in that form; q.4 a.2 itself says "univoce vel eminentius", so
+the formal reading is not the source's and the shared `InAct` must be read
+inclusively (IN_ACT_3). That moves the burden to the consumers that use the
+same `InAct`: whether unlimited eminent possession exceeds limited formal
+possession (`STMT-UNLIMITED-POSSESSION-EXCEEDS-LIMITED`) and whether eminent
+possession counts for perfection. *Scope*: instruments (a chisel causes a shape
+it has neither formally nor as art) are a substantive objection to the
+unrestricted scope if `CausesIn` (CAUSE_2) counts instrumental causes; the reply
+that an instrument acts by the principal agent's power is an unread lead
+(q.62 a.4, De potentia q.3 a.7). The restriction to causes of being `d0fc96b7`
+is not touched by instruments of making, which are causes of becoming (open
+bridge of `DISAMB-BECOMING-BEING-CAUSE`). No principal-cause sibling is typed
+yet.
 
 **Perfection-transfer cycle (2026-11-12, [attempt](../../corpus/attempts/3de52780-6816-4638-bdba-92598aff14cc.json)).**
 PR #1480 found that unrestricted transfer (`f8ba2429`) and the residual
@@ -1484,6 +1542,15 @@ conditional investigations, not a mandatory first gate:
    grades of being. The
    sixteen formal-alternative rows need a read source before they carry any
    weight; until then they show only where each premise is needed.
+   Next for the esse-cause bridge and "nothing gives what it does not have"
+   (2026-11-12, above): a derivation of preexistence that avoids `376d6a5a`
+   (for example from unrestricted transfer `f8ba2429` and a cause-of-being
+   restriction grounded without preexistence), which would lift the nine-route
+   bottleneck; a principal-cause sibling of `376d6a5a` with
+   `causeOfQualityMoreSuch` restated for principal causes; warrant for
+   act-to-existence `546975ef` (the actualist reading of esse at the reading
+   world); and the remaining bridge leaves, effect dependence and
+   dependence-to-grounding.
 5. A2's warrant (2026-11-12, see the A2 derivation under Arrival A). A2 now has
    a derivation from two open grounding principles (A2ab, A2c). Next: state and
    test a non-inductive ex nihilo warrant for A2ab. The one standing objection,

@@ -1,0 +1,21 @@
+{
+  "id": "9126bd28-f470-4b9b-a731-749506094638",
+  "label": "A cause of being that has what it gives has being",
+  "premise_statement_ids": [
+    "d0fc96b7-fd2d-504e-912f-925de3b1e6ed"
+  ],
+  "conclusion_statement_id": "4ccb319f-9b7e-41fd-a560-d4affa25816b",
+  "inference_ids": [
+    "c6bf357a-2df9-4481-b326-ea018079cf8d"
+  ],
+  "meaning": "Strength order registration: a cause of x's being has every perfection it causes in x, and it causes x's being, so it has being. Application only; it establishes neither. Strictness: control 14.",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
+  ]
+}

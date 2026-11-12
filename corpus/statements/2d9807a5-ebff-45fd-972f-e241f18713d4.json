@@ -1,0 +1,16 @@
+{
+  "id": "2d9807a5-ebff-45fd-972f-e241f18713d4",
+  "label": "Whatever has esse in re is CONCRETE_6 in the profile",
+  "paraphrase": "OPEN interpretation premise, analyst formulation: one direction of the CONCRETE_6 calibration of the profile's free concreteness predicate. Whatever has esse in re (HasEsseInRe InAct esse, InAct x esse: being in the first way of De ente c.1, DEF-CONCRETE-ESSE-IN-RE) satisfies m.concrete. It is the left-to-right half of the concreteIsEsse field of CausalPowerConcreteness.EsseIntendedProfile (owner-adopted sense of concrete, #1103), stated for the Profile and InAct of the stage-two composition, where the statements on m.concrete already link CONCRETE_6. The converse (concrete things have esse in re) is not stated or used. With the existence-to-act contract STMT-EXISTING-IN-ACT-AT it commits the profile to reading existence at w as existence in re: nothing non-concrete exists at w. A theorist who counts a Form, set or law as existing at w without esse in re rejects that contract or this calibration, not a causal premise. Under the causal-criterion sense CONCRETE_5 the stage-two concreteness clauses would mean something else; this premise fixes CONCRETE_6.",
+  "lean_declaration": "TruthCore.Case.Catholicism.CauseOfBeingHasBeing.EsseInReIsConcrete",
+  "definition_ids": [
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109"
+  ],
+  "disambiguation_ids": [
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
+  ]
+}

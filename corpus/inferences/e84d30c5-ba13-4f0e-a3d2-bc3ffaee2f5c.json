@@ -1,0 +1,12 @@
+{
+  "id": "e84d30c5-ba13-4f0e-a3d2-bc3ffaee2f5c",
+  "label": "The unscoped giver of being entails the giver of a being's being (inference)",
+  "input_statement_ids": [
+    "4ccb319f-9b7e-41fd-a560-d4affa25816b"
+  ],
+  "output_statement_id": "4a5a43a5-bb4d-4a87-828a-d913a1f0422e",
+  "rule": "Drop the hypothesis that the effect is in act as to being",
+  "meaning": "Strength order registration. Application only; it establishes neither. Strictness: control 13.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

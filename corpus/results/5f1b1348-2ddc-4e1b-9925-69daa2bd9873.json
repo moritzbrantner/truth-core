@@ -1,0 +1,11 @@
+{
+  "id": "5f1b1348-2ddc-4e1b-9925-69daa2bd9873",
+  "label": "Causes of being of actual concreta exist at w, from the giver of being",
+  "argument_id": "9eb83aff-fc7b-4def-8e74-a8c8ee61cc42",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.CauseOfBeingHasBeing.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.CauseOfBeingHasBeing.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.CauseOfBeingHasBeing.esseCausesExistOfCauseHasBeing",
+  "comparator_config": "results/5f1b1348-2ddc-4e1b-9925-69daa2bd9873/comparator.json",
+  "status": "solution-present",
+  "description": "New non-transcription derivation of the analyst leaf STMT-ESSE-CAUSES-EXIST-AT. Let x be an actual concretum at w and c cause x's being. x exists at w, so it is in act as to being (existence-to-act contract); nothing gives being that it does not have, so c is in act as to being; whatever is in act as to being exists at w (the open act-to-existence converse, which reads the timeless InAct relative to the selected world), so c exists at w. Each premise is needed in a checked interpretation (controls 3, 4 and 5). The open content of the old leaf divides into the classical maxim at being and the actualist reading of esse at the reading world. No premise is established."
+}

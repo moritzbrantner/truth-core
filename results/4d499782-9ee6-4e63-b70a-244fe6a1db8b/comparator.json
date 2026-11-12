@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Case.Catholicism.CauseOfBeingHasBeing.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.CauseOfBeingHasBeing.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Case.Catholicism.CauseOfBeingHasBeing.causeOfBeingHasBeingOfGives"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

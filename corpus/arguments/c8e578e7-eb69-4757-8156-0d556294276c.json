@@ -1,0 +1,23 @@
+{
+  "id": "c8e578e7-eb69-4757-8156-0d556294276c",
+  "label": "Every existent at w is CONCRETE_6, from contract and calibration",
+  "premise_statement_ids": [
+    "0436de86-6579-53f2-9ff5-2111ba44ebae",
+    "2d9807a5-ebff-45fd-972f-e241f18713d4"
+  ],
+  "conclusion_statement_id": "0e02cd69-8fb0-4859-8287-937440c84b5b",
+  "inference_ids": [
+    "2e1ddb1a-de4f-47d3-b17e-e42bf2f074e2"
+  ],
+  "meaning": "Let x exist at w. By the existence-to-act contract x is in act as to being; by the CONCRETE_6 calibration what has esse in re is concrete; so x is concrete. No causal premise is used. Each premise is needed in a checked interpretation (controls 1 and 2). It refutes, conditionally on both open premises, the recorded rival that some actual concretum has an existing non-concrete cause of its esse: that rival's cause exists at w. So the Phaedo and Lewis motivations recorded for that rival must deny the existence-to-act contract or the calibration (a Form or set existing at w without esse in re), not the causal clause of the esse-cause bridge. Conditional consequence only; no premise is established.",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "fc6f0e12-470f-5717-8c5b-ece7a450fe59",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109"
+  ],
+  "disambiguation_ids": [
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
+  ]
+}
