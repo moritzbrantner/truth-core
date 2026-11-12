@@ -1,0 +1,11 @@
+{
+  "id": "434e4fcd-3b13-4326-8762-f4c17cc31a35",
+  "label": "Underived NECESSARY_2 concretum, from necessity, closed collections, J1 at w, coverage",
+  "argument_id": "f8661716-4006-4443-ad2e-47e0dc2bc607",
+  "challenge_module": "TruthCore.Results.Causality.ClosedGroundingRoots.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ClosedGroundingRoots.Solution",
+  "theorem": "TruthCore.Results.Causality.ClosedGroundingRoots.underivedFromNecessityOfActualCoverageClosed",
+  "comparator_config": "results/434e4fcd-3b13-4326-8762-f4c17cc31a35/comparator.json",
+  "status": "solution-present",
+  "description": "The join's endpoint from a necessary concretum, the closed-collection condition, the actual-world instance J1@w of J1, coverage and excluded middle. Conditional consequence only."
+}

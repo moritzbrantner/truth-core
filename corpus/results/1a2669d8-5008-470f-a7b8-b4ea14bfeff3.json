@@ -1,0 +1,11 @@
+{
+  "id": "1a2669d8-5008-470f-a7b8-b4ea14bfeff3",
+  "label": "Underived NECESSARY_2 concretum, from closed collections, the actual root and coverage",
+  "argument_id": "f62e68f6-e245-4bfa-86e9-ce3cbf7e4f44",
+  "challenge_module": "TruthCore.Results.Causality.ClosedGroundingRoots.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ClosedGroundingRoots.Solution",
+  "theorem": "TruthCore.Results.Causality.ClosedGroundingRoots.underivedOfCoverageClosed",
+  "comparator_config": "results/1a2669d8-5008-470f-a7b8-b4ea14bfeff3/comparator.json",
+  "status": "solution-present",
+  "description": "The join's endpoint from inhabitedness, the closed-collection condition, grounding of every actual contingent concretum, excluded middle and coverage, without AGWF, J1, J2 or reflexive access. Same structure as NecessarySupportCoverage.underivedOfCoverage with the weak version of AGWF. Conditional consequence only; no premise is established."
+}

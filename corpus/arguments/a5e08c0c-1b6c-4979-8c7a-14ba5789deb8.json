@@ -71,5 +71,8 @@
       "to": "9f9108e2-3cc3-45dd-be1d-d8fdaaced708",
       "statement_id": "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21"
     }
-  ]
+  ],
+  "strong_version_needed": {
+    "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21": "The closed-collection weak version does not suffice: in ClosedGroundingRoots Control.rootedCycle it holds with reflexive access and the one-way no-novel-edge condition while two necessary concreta support each other (a cycle grounded by a root)."
+  }
 }

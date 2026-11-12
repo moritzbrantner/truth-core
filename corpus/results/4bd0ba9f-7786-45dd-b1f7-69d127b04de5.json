@@ -1,0 +1,11 @@
+{
+  "id": "4bd0ba9f-7786-45dd-b1f7-69d127b04de5",
+  "label": "Underived NECESSARY_2 concretum, checks route with closed collections",
+  "argument_id": "c285b2d8-1f62-4906-aae8-b3c1fc9eba3f",
+  "challenge_module": "TruthCore.Results.Causality.ClosedGroundingRoots.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ClosedGroundingRoots.Solution",
+  "theorem": "TruthCore.Results.Causality.ClosedGroundingRoots.checksClosed",
+  "comparator_config": "results/4bd0ba9f-7786-45dd-b1f7-69d127b04de5/comparator.json",
+  "status": "solution-present",
+  "description": "The checks route of the join with the closed-collection condition in place of AGWF. J2 stays a premise; its derivation from F1 and no-novel-edge still needs AGWF (Control.limitGrounder). Conditional consequence only."
+}

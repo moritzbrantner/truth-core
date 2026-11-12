@@ -1,0 +1,146 @@
+# Closed grounding collections have a root (#310). Analyst formulations,
+# attribution deferred. Finds the weakest no-infinite-regress commitment the
+# stage-one join consumes: every route through well-founded actual grounding
+# (AGWF) uses it only to find an actual root, and the closed-collection
+# condition supplies exactly that. Registers AGWF => closed-collection as a
+# strength order (strict: limit grounder), reroutes the four AGWF join routes
+# and the necessary-concretum step through it, and connects the per se
+# attenuation library (#1379) to the join through it.
+
+[batch]
+vocab = "TruthCore.Causality.ClosedGroundingRoots"
+results = "TruthCore.Results.Causality.ClosedGroundingRoots"
+
+# ---------------------------------------------------------------- statements
+
+[[statement]]
+id = "Every ground-closed collection of actual CONCRETE_6 with no actual root is empty"
+lean = "ClosedGroundingCollectionsRooted"
+paraphrase = "Open premise, analyst formulation, unattributed: at the selected world w, no collection of actual concreta that contains every actual concrete ground of each of its members is both nonempty and without an actual root. In Lean: for every predicate S on candidates, if every member of S is an actual concretum at w, every actual concrete ground at w of a member of S is in S, and no member of S is an actual root (an actual concretum with no actual concrete ground at w), then nothing is in S. The weak version of STMT-ACTUAL-GROUNDING-WF: it allows endless descending chains and cycles of grounds as long as a root grounds into them, and it imposes no asymmetry or finite-path condition."
+definitions = ["Closed-collection rootedness of actual grounding", "008cb21a-256c-5a90-822c-acd4591d699a"]
+disambiguations = ["623ddbf6-9683-5361-bae4-e348a00ec680"]
+
+[[statement]]
+id = "Actual esse is received per se with uniform loss and a common bound"
+lean = "AttenuatedEsseReception"
+paraphrase = "Open bridge, analyst formulation, unattributed: the actual concreta at w are countable and carry real quantities such that every actual concretum has a positive amount of esse at most a common bound M; its esse is at most its own esse plus the weighted esse of the things it receives from, with nonnegative summable weights whose total for each receiver is at most a fixed q < 1; it receives with positive weight only from its actual concrete grounds; and only an actual concretum with no actual concrete ground has positive own esse. The quantities carry no real-world calibration."
+definitions = ["Attenuated per se reception of esse", "008cb21a-256c-5a90-822c-acd4591d699a", "DEF-ESSE"]
+disambiguations = ["623ddbf6-9683-5361-bae4-e348a00ec680"]
+
+[[statement]]
+id = "Closed-collection controls: limit grounder, pure regress, rooted cycle, attenuation witness"
+lean = "Control.Controls"
+paraphrase = "Closed controls on explicit finite-or-countable interpretations with one world. (1) Limit grounder: candidates none and some n; some (n+1) grounds some n and none grounds every some n. The closed-collection condition, inhabitedness, grounding of every actual contingent concretum, reflexive access, J1, its actual-world instance, coverage and the one-way no-novel-edge condition hold, and some necessary concretum is underived at every admitted world; actual grounding ascends a grade whose top is none; but actual grounding is not well-founded, J2 fails and the grade has infinite ascent among actual concreta. (2) Pure regress: candidates Nat, n+1 grounds n. The closed-collection condition fails while a necessary concretum, grounding of every actual contingent concretum, J1, its actual-world instance, coverage and ascent along a grade hold, and no necessary concretum is underived. (3) Rooted cycle: none grounds some false and some true, which ground each other; the closed-collection condition, reflexive access and the one-way no-novel-edge condition hold while asymmetry and well-foundedness of actual grounding fail and two necessary concreta support each other. (4) A one-point interpretation with no grounding satisfies the attenuation bridge. Statements about these interpretations only."
+definitions = ["Closed-collection rootedness of actual grounding", "Attenuated per se reception of esse"]
+
+# ---------------------------------------------------------------- arguments
+
+[[argument]]
+id = "Closed grounding collections rooted, from WELL_FOUNDED_ACTUAL_GROUNDING_1"
+theorem = "closedRootedOfWF"
+sense_bridges = [
+  { term = "NECESSARY", from = "8c881fa6-2b9f-44be-a32a-c8ef29c13643", to = "7af298fb-a2c4-4239-919b-7685f2e1f67a", statement_id = "STMT-ACTUAL-GROUNDING-WF" },
+  { term = "WELL_FOUNDEDNESS_AND_ANTI_BRUTE_ROOT", from = "9232f675-db0a-474c-9f00-d8e5aba69ef7", to = "556515c9-1fcc-4ea0-b85d-2a4cad7eff79", statement_id = "STMT-ACTUAL-GROUNDING-WF" },
+  { term = "WELL_FOUNDEDNESS_OF_THE_SELECTED_RELATION", from = "2f42c0e7-46ae-4e2b-9ac4-95dcb865da61", to = "f4609d52-a878-4d09-9af3-083b1945770c", statement_id = "STMT-ACTUAL-GROUNDING-WF" },
+  { term = "NONNECESSARY_VERSUS_CONTINGENT_ROOT", from = "cf6a8bb9-2a70-4e90-86bd-06f69106da2f", to = "9f9108e2-3cc3-45dd-be1d-d8fdaaced708", statement_id = "STMT-ACTUAL-GROUNDING-WF" },
+]
+premises = ["STMT-ACTUAL-GROUNDING-WF"]
+conclusion = "Every ground-closed collection of actual CONCRETE_6 with no actual root is empty"
+axioms = []
+rule = "Well-founded induction on the actual concreta: a member of a rootless ground-closed collection would have all its grounds outside the collection by the induction hypothesis, hence be a root"
+meaning = "Well-founded actual grounding implies the closed-collection condition, with no excluded middle. Registered as a strength order; the limit-grounder control makes it strict."
+
+[[argument]]
+id = "A NECESSARY_2 concretum, from closed grounding collections and contingent grounding"
+theorem = "necessaryConcreteOfClosedRooted"
+sense_bridges = [
+  { term = "NECESSARY", from = "8c881fa6-2b9f-44be-a32a-c8ef29c13643", to = "7af298fb-a2c4-4239-919b-7685f2e1f67a", statement_id = "STMT-NECESSARY-CONCRETE-AT", role = "conclusion" },
+]
+premises = ["STMT-COGITO-INHABITED-CONCRETE-WORLD", "Every ground-closed collection of actual CONCRETE_6 with no actual root is empty", "STMT-EVERY-CONTINGENT-GROUNDED-AT", "STMT-EXCLUDED-MIDDLE"]
+conclusion = "STMT-NECESSARY-CONCRETE-AT"
+axioms = []
+rule = "If no actual root existed, all actual concreta would form a nonempty ground-closed collection without a root; an actual root is not contingent, since every actual contingent concretum is grounded, so with excluded middle it exists at every accessible world"
+meaning = "The AGWF-free form of NecessaryRootFork.necessaryConcreteOfActualGrounded: an inhabited world in which closed grounding collections are rooted and every actual contingent concretum has an actual concrete ground contains a concretum that exists at every world accessible from w. The witness is an actual root. Conditional consequence only."
+
+[[argument]]
+id = "Underived NECESSARY_2 concretum, from closed collections, the actual root and coverage"
+theorem = "underivedOfCoverageClosed"
+sense_bridges = [
+  { term = "NECESSARY", from = "8c881fa6-2b9f-44be-a32a-c8ef29c13643", to = "7af298fb-a2c4-4239-919b-7685f2e1f67a", statement_id = "df42581f-5fff-4b5f-8b40-6e16d2b890f2" },
+  { term = "WORLD_RELATIVE_EXISTENCE_METAPHYSICAL_ESSE_NECESSITY", from = "2e064a7b-b29f-4f0b-8978-782674012d86", to = "57356a7a-ed0a-478f-abfc-2d47dd631135", statement_id = "df42581f-5fff-4b5f-8b40-6e16d2b890f2" },
+]
+premises = ["STMT-COGITO-INHABITED-CONCRETE-WORLD", "Every ground-closed collection of actual CONCRETE_6 with no actual root is empty", "STMT-EVERY-CONTINGENT-GROUNDED-AT", "STMT-EXCLUDED-MIDDLE", "df42581f-5fff-4b5f-8b40-6e16d2b890f2"]
+conclusion = "STMT-NECESSARY-CONCRETE-UNDERIVED-AT"
+axioms = []
+rule = "Composition: necessary actual root from the closed-collection condition, then coverage transfers its rootedness to every admitted world"
+meaning = "The join's endpoint from inhabitedness, the closed-collection condition, grounding of every actual contingent concretum, excluded middle and coverage, without AGWF, J1, J2 or reflexive access. Same structure as NecessarySupportCoverage.underivedOfCoverage with the weak version of AGWF. Conditional consequence only; no premise is established."
+
+[[argument]]
+id = "Underived NECESSARY_2 concretum, from necessity, closed collections, J1 and coverage"
+theorem = "underivedFromNecessityOfCoverageClosed"
+sense_bridges = [
+  { term = "NECESSARY", from = "8c881fa6-2b9f-44be-a32a-c8ef29c13643", to = "7af298fb-a2c4-4239-919b-7685f2e1f67a", statement_id = "STMT-NECESSARY-CONCRETE-AT" },
+  { term = "WORLD_RELATIVE_EXISTENCE_METAPHYSICAL_ESSE_NECESSITY", from = "2e064a7b-b29f-4f0b-8978-782674012d86", to = "57356a7a-ed0a-478f-abfc-2d47dd631135", statement_id = "df42581f-5fff-4b5f-8b40-6e16d2b890f2" },
+]
+premises = ["STMT-NECESSARY-CONCRETE-AT", "Every ground-closed collection of actual CONCRETE_6 with no actual root is empty", "STMT-NO-CONTINGENT-CONCRETE-SUPPORT", "df42581f-5fff-4b5f-8b40-6e16d2b890f2", "STMT-EXCLUDED-MIDDLE"]
+conclusion = "STMT-NECESSARY-CONCRETE-UNDERIVED-AT"
+axioms = []
+rule = "Reductio with excluded middle: the actual necessary concreta form a nonempty collection, closed under actual grounds by J1; a root among them would be underived at every admitted world by coverage"
+meaning = "The join's endpoint from a necessary concretum, the closed-collection condition, J1, coverage and excluded middle, without AGWF, J2 or reflexive access. The witness may differ from the given necessary concretum. Conditional consequence only."
+
+[[argument]]
+id = "Underived NECESSARY_2 concretum, from necessity, closed collections, J1 at w, coverage"
+theorem = "underivedFromNecessityOfActualCoverageClosed"
+sense_bridges = [
+  { term = "NECESSARY", from = "8c881fa6-2b9f-44be-a32a-c8ef29c13643", to = "7af298fb-a2c4-4239-919b-7685f2e1f67a", statement_id = "STMT-NECESSARY-CONCRETE-AT" },
+  { term = "WORLD_RELATIVE_EXISTENCE_METAPHYSICAL_ESSE_NECESSITY", from = "2e064a7b-b29f-4f0b-8978-782674012d86", to = "57356a7a-ed0a-478f-abfc-2d47dd631135", statement_id = "df42581f-5fff-4b5f-8b40-6e16d2b890f2" },
+]
+premises = ["STMT-NECESSARY-CONCRETE-AT", "Every ground-closed collection of actual CONCRETE_6 with no actual root is empty", "84751fc2-0179-49ce-b96a-04d95781d8bc", "df42581f-5fff-4b5f-8b40-6e16d2b890f2", "STMT-EXCLUDED-MIDDLE"]
+conclusion = "STMT-NECESSARY-CONCRETE-UNDERIVED-AT"
+axioms = []
+rule = "As the J1 form; closure of the actual necessary concreta under actual grounds needs only the actual-world instance J1@w"
+meaning = "The join's endpoint from a necessary concretum, the closed-collection condition, the actual-world instance J1@w of J1, coverage and excluded middle. Conditional consequence only."
+
+[[argument]]
+id = "Underived NECESSARY_2 concretum, checks route with closed collections"
+theorem = "checksClosed"
+sense_bridges = [
+  { term = "NECESSARY", from = "8c881fa6-2b9f-44be-a32a-c8ef29c13643", to = "7af298fb-a2c4-4239-919b-7685f2e1f67a", statement_id = "STMT-EVERY-CONTINGENT-GROUNDED-AT" },
+  { term = "WORLD_RELATIVE_EXISTENCE_METAPHYSICAL_ESSE_NECESSITY", from = "2e064a7b-b29f-4f0b-8978-782674012d86", to = "57356a7a-ed0a-478f-abfc-2d47dd631135", statement_id = "STMT-NO-CONTINGENT-CONCRETE-SUPPORT" },
+]
+premises = ["STMT-COGITO-INHABITED-CONCRETE-WORLD", "Every ground-closed collection of actual CONCRETE_6 with no actual root is empty", "STMT-EVERY-CONTINGENT-GROUNDED-AT", "STMT-ACTUAL-MODAL-REFLEXIVITY", "STMT-NO-CONTINGENT-CONCRETE-SUPPORT", "STMT-CONCRETE-NECESSARY-UNION-WF", "STMT-EXCLUDED-MIDDLE"]
+conclusion = "STMT-NECESSARY-CONCRETE-UNDERIVED-AT"
+axioms = []
+rule = "Composition: a necessary concretum from the closed-collection condition, then the existing modal union route (PositiveUnion.checks)"
+meaning = "The checks route of the join with the closed-collection condition in place of AGWF. J2 stays a premise; its derivation from F1 and no-novel-edge still needs AGWF (Control.limitGrounder). Conditional consequence only."
+
+[[argument]]
+id = "Closed grounding collections rooted, from attenuated per se reception of esse"
+theorem = "closedRootedOfAttenuation"
+premises = ["Actual esse is received per se with uniform loss and a common bound"]
+conclusion = "Every ground-closed collection of actual CONCRETE_6 with no actual root is empty"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Composition with QuantitativeTransferPaths.finitePath: positive esse at a member gives a finite path of positive receptions to a thing with positive own esse; each reception is an actual grounding edge, so the path stays in the ground-closed collection and ends at an actual root"
+meaning = "A per se argument for the closed-collection condition that can fail: if being is received only along actual grounding, each reception passes on at most a fixed fraction q < 1, all amounts share a common bound, every actual concretum has positive being and only roots have being of their own, then every ground-closed collection is rooted. Dropping uniform loss or the bound breaks the inference (existing controls binaryFixed, halfFixed). Uses Mathlib real analysis; conditional consequence only, with no calibration of the quantities."
+
+[[argument]]
+id = "Closed-collection controls, checked"
+theorem = "controls"
+premises = []
+conclusion = "Closed-collection controls: limit grounder, pure regress, rooted cycle, attenuation witness"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Explicit interpretations checked by case analysis and accessibility induction"
+meaning = "Controls for the batch. The limit grounder shows the closed-collection condition is strictly weaker than AGWF, does not give J2 even with reflexive access and no-novel-edge, and is jointly satisfiable with the premises of the coverage routes; it also shows ascent along a grade with a maximum is compatible with infinite ascent, so the grade maximum does not give no infinite ascent. The pure regress is an omission countermodel for the closed-collection condition in the from-necessity coverage routes. The rooted cycle shows it does not give asymmetry, and with reflexive access and no-novel-edge does not exclude mutual support between necessary concreta. The point witness shows the attenuation bridge is satisfiable (without a grounding edge). Model-witnessed only; no interpretation is claimed metaphysically possible."
+
+# ---------------------------------------------------------------- relations
+
+[[relation]]
+id = "WELL_FOUNDED_ACTUAL_GROUNDING_1 strengthens the closed-collection condition"
+subject_kind = "statement"
+subject_id = "STMT-ACTUAL-GROUNDING-WF"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "Every ground-closed collection of actual CONCRETE_6 with no actual root is empty"
+verification_result_id = "Closed grounding collections rooted, from WELL_FOUNDED_ACTUAL_GROUNDING_1"
+strictness_result_id = "Closed-collection controls, checked"
+note = "Same Profile, selected relation and world. The weak version constrains only ground-closed collections: an endless descending chain or a cycle grounded by a root is allowed. Strict: in Control.limitGrounder the weak version holds and AGWF fails."

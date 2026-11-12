@@ -71,5 +71,8 @@
       "to": "9f9108e2-3cc3-45dd-be1d-d8fdaaced708",
       "statement_id": "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21"
     }
-  ]
+  ],
+  "strong_version_needed": {
+    "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21": "The closed-collection weak version does not suffice: in ClosedGroundingRoots Control.limitGrounder it holds with reflexive access and the one-way no-novel-edge condition while J2 fails (an endless descending chain of necessary concreta, each also grounded by one root). The proof needs well-founded present support, which only the strong version supplies here."
+  }
 }

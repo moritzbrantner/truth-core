@@ -35,6 +35,7 @@ definitions = ["Actual coverage of support of a necessary concretum", "Well-foun
 [[argument]]
 id = "Well-founded necessary support union, from actual well-foundedness and no novel edge"
 theorem = "unionWFOfNoNovel"
+strong_version_needed = { "STMT-ACTUAL-GROUNDING-WF" = "The closed-collection weak version does not suffice: in ClosedGroundingRoots Control.limitGrounder it holds with reflexive access and the one-way no-novel-edge condition while J2 fails (an endless descending chain of necessary concreta, each also grounded by one root). The proof needs well-founded present support, which only the strong version supplies here." }
 premises = ["STMT-ACTUAL-MODAL-REFLEXIVITY", "STMT-ACTUAL-GROUNDING-WF", "STMT-NO-NOVEL-NECESSARY-SUPPORT"]
 sense_bridges = [
   { term = "NECESSARY", from = "8c881fa6-2b9f-44be-a32a-c8ef29c13643", to = "7af298fb-a2c4-4239-919b-7685f2e1f67a", statement_id = "STMT-ACTUAL-MODAL-REFLEXIVITY" },
@@ -51,6 +52,7 @@ meaning = "Derives J2 of the join, well-foundedness of the cross-world union of 
 [[argument]]
 id = "No mutual necessary support, from actual well-foundedness and no novel edge"
 theorem = "mutualSupportExcluded"
+strong_version_needed = { "STMT-ACTUAL-GROUNDING-WF" = "The closed-collection weak version does not suffice: in ClosedGroundingRoots Control.rootedCycle it holds with reflexive access and the one-way no-novel-edge condition while two necessary concreta support each other (a cycle grounded by a root)." }
 premises = ["STMT-ACTUAL-MODAL-REFLEXIVITY", "STMT-ACTUAL-GROUNDING-WF", "STMT-NO-NOVEL-NECESSARY-SUPPORT"]
 sense_bridges = [
   { term = "NECESSARY", from = "8c881fa6-2b9f-44be-a32a-c8ef29c13643", to = "7af298fb-a2c4-4239-919b-7685f2e1f67a", statement_id = "STMT-ACTUAL-MODAL-REFLEXIVITY" },
@@ -78,6 +80,7 @@ next_step = "Assess the warrant of the no-novel-edge condition; none is recorded
 [[argument]]
 id = "Underived necessary concretum, from the actual necessary root and coverage"
 theorem = "underivedOfCoverage"
+strong_version_needed = { "STMT-ACTUAL-GROUNDING-WF" = "Not needed for this endpoint. This interface is retained for comparison with its original proof path; the weak version, the closed-collection condition (registered strengthens, strict by ClosedGroundingRoots Control.limitGrounder), suffices: ClosedGroundingRoots.underivedOfCoverageClosed proves the same endpoint from the same premises with it in place of well-founded actual grounding. That reduction establishes none of the remaining premises." }
 premises = ["STMT-COGITO-INHABITED-CONCRETE-WORLD", "STMT-ACTUAL-GROUNDING-WF", "STMT-EVERY-CONTINGENT-GROUNDED-AT", "STMT-EXCLUDED-MIDDLE", "A NECESSARY_2 concretum supported anywhere is supported by an actual concretum"]
 sense_bridges = [
   { term = "NECESSARY", from = "8c881fa6-2b9f-44be-a32a-c8ef29c13643", to = "7af298fb-a2c4-4239-919b-7685f2e1f67a", statement_id = "STMT-ACTUAL-GROUNDING-WF" },
@@ -94,6 +97,7 @@ meaning = "An alternative to NecessaryConcreteUnderived.checks without J1 (no co
 [[argument]]
 id = "Underived necessary concretum, from necessity, no contingent support and coverage"
 theorem = "underivedFromNecessityOfCoverage"
+strong_version_needed = { "STMT-ACTUAL-GROUNDING-WF" = "Not needed for this endpoint. This interface is retained for comparison with its original proof path; the weak version, the closed-collection condition (registered strengthens, strict by ClosedGroundingRoots Control.limitGrounder), suffices: ClosedGroundingRoots.underivedFromNecessityOfCoverageClosed proves the same endpoint from the same premises with it in place of well-founded actual grounding. That reduction establishes none of the remaining premises." }
 premises = ["STMT-NECESSARY-CONCRETE-AT", "STMT-ACTUAL-GROUNDING-WF", "STMT-NO-CONTINGENT-CONCRETE-SUPPORT", "A NECESSARY_2 concretum supported anywhere is supported by an actual concretum", "STMT-EXCLUDED-MIDDLE"]
 sense_bridges = [
   { term = "NECESSARY", from = "8c881fa6-2b9f-44be-a32a-c8ef29c13643", to = "7af298fb-a2c4-4239-919b-7685f2e1f67a", statement_id = "STMT-NECESSARY-CONCRETE-AT" },
