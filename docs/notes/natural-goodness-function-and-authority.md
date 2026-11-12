@@ -1633,7 +1633,7 @@ morally effective waiver despite this conflict; an account distinguishing
 non-waivable protection from genuinely beneficial settlement; or a defense
 that S's directed demand creates an obligation of answerability beyond S's
 permission to rescue. These would change the relevant power assessment, not
-retroactively instantiate the competent-victim theorem.
+retroactively instantiate the competent-victim OPEN statement.
 
 #### Next test and connection boundary
 
