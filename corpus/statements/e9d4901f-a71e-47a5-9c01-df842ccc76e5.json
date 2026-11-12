@@ -1,10 +1,11 @@
 {
   "id": "e9d4901f-a71e-47a5-9c01-df842ccc76e5",
   "label": "Every PURE_ACT_5 being that HAS_INTELLECT_1 operates from itself",
-  "paraphrase": "Open premise, analyst formulation, unattributed; the intellect-restricted version of STMT-PURE-ACT-OPERATES. Whatever is in potency in no respect (PURE_ACT) and has intellect (HAS_INTELLECT_1) has an immanent operation (Operates, 7acc985a). Weaker than STMT-PURE-ACT-OPERATES (Control part 6: a pure act without intellect that does not operate) and stronger than 'Whatever has the nine operates from itself' (Control part 7: an intellectual pure act that lacks the nine and does not operate). Derived from the three capacity premises; it does not mention life.",
+  "paraphrase": "Open premise, analyst formulation, unattributed; the intellect-restricted version of STMT-PURE-ACT-OPERATES. Whatever is in potency in no respect (PURE_ACT) and has intellect (HAS_INTELLECT_1) has an immanent operation (Operates, 7acc985a). Weaker than STMT-PURE-ACT-OPERATES (Control part 6: a pure act without intellect that does not operate) and stronger than 'Whatever has the nine operates from itself' (Control part 7: an intellectual pure act that lacks the nine and does not operate). Derived from the three capacity premises; it does not mention life. Its potency predicate is POTENCY_2 (DEF-INDEPENDENT-POTENCY), the generic InPotency of the nine.",
   "lean_declaration": "TruthCore.Causality.DeiFiliusOperationFromIntellect.IntellectualPureActOperates",
   "definition_ids": [
     "a49e4cf1-ca4f-5519-9724-892af257cedb",
+    "3ea2762f-1a85-5059-b4e7-d29f192b16b6",
     "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4",
     "7acc985a-ea60-4538-9c9e-6b18ddecf3a9"
   ],

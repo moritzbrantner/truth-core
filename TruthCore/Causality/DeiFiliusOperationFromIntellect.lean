@@ -19,10 +19,11 @@ living, and composes them with the pure act that the sixth of the nine already i
   example is the knower able to contemplate);
 * `UnderstandingCapacityExercisedOrInPotency`: whatever has that capacity is
   either actually understanding (`InAct x understanding`) or in potency to
-  understanding (`InPotency x understanding`, the same potency predicate whose
-  absence in every respect is pure act). Restricted to the one respect of
-  understanding, an operation that remains in the agent; it says nothing about
-  capacities whose exercise is an effect in another (see below);
+  understanding (`InPotency x understanding`, POTENCY_2, `DEF-INDEPENDENT-POTENCY`:
+  the generic potency predicate whose absence in every respect is pure act). It
+  is the POTENCY sense bridge from POTENCY_3 to POTENCY_2 at one respect, listed
+  as such on the arguments. Restricted to the one respect of understanding (see
+  below);
 * `ExercisedUnderstandingIsImmanentOperation`: whatever has the capacity to
   understand and is actually understanding has an immanent operation (q.18 a.3
   ad 1: understanding is an action that remains in the agent). `InAct` is the
@@ -40,27 +41,33 @@ no potency, so it is exercised, and its exercise is an immanent operation.
 immutability, which is pure act).
 
 No premise mentions life: neither `Lives` (LIVING_1), `LivesAt` (LIVING_2), nor
-being unmoved. `Control.Controls` part 5 has all three premises and a being with
-the nine that operates and does not live at any time, so this derivation reaches
-operation only; living still needs the route's other steps
+being unmoved. `Control.Controls` part 5 (a being with the nine that operates and
+does not live at any time) holds trivially, since the premises leave `Lives` and
+`LivesAt` unconstrained; it shows only that no premise mentions life. Whether
+the premises nearly restate living is answered by their content, not by that
+control. Living still needs the route's other steps
 (`STMT-SELF-OPERATING-UNMOVED-LIVES`, the Prima Via motion premise, the sense
 bridge).
 
-Under the adopted sense of potency (`AdoptedPotency.InPotency`: capable and not
-actually), the second premise is the instance of excluded middle for
-`InAct x understanding` at a capable being (`exercisedOrInPotencyOfDecidable`
-in the Solution proves it constructively from that instance). The derivation's
-substantive inputs are then the first and third premises and the being's pure
-actuality: in the adopted sense, a pure act is a being none of whose capacities
-is unexercised.
+Unregistered alternative reading: under the adopted sense of potency (POTENCY_1,
+`AdoptedPotency.InPotency`: capable and not actually), the second premise is
+only the instance of excluded middle for `InAct x understanding` at a capable
+being (`exercisedOrInPotencyOfDecidable` in the Solution proves it
+constructively from that instance). The act/potency weight then moves into pure
+act: in the adopted sense, a pure act is a being none of whose capacities is
+unexercised.
 
-Why only the respect of understanding. A general version ("every capacity is
-exercised or a potency", over every respect) would make a pure act exercise
-every capacity it has, including any capacity to produce an effect it does not
-produce; the classical position (ST I q.25 a.5, God can do what he does not do;
-attribution deferred, no claim on file) denies that such an unexercised power to
-produce something puts its agent in potency. That is a reason inside the
-framework not to use the general version; the restricted one does not face it.
+Why only the respect of understanding, by cases. ST I q.25 a.5 (God can do what
+he does not do; attribution deferred, no claim on file) concerns active power, a
+capacity to produce an effect (q.25 a.1), while `CanBe` is an ability to be in a
+state. If producing an effect is not a `CanBe` respect, the general
+(every-respect) version of the second premise does not face q.25 a.5, and that
+passage does not motivate the restriction. If it is a `CanBe` respect, then under
+POTENCY_1 pure act (the sixth of the nine) already requires every such capacity
+to be exercised, so the q.25 a.5 point targets the nine's pure-act conjunct and
+restricting the second premise does not escape it. Only under POTENCY_2 does the
+restricted version avoid it while the general one would face it. No record yet
+carries the active/passive power distinction.
 
 Analyst formulations, attribution deferred. -/
 

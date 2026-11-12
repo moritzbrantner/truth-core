@@ -1,6 +1,6 @@
 {
   "id": "9c2a5dfe-f2f9-4d8b-9235-6a01fd108161",
-  "label": "Whatever HAS_INTELLECT_1 has the capacity to understand",
+  "label": "Whatever HAS_INTELLECT_1 has the POTENCY_3 capacity to understand",
   "paraphrase": "Open premise, analyst formulation, unattributed. Whatever has intellect (HAS_INTELLECT_1) is able to be actually understanding: CapacityPotency CanBe x understanding, the CanBe (POTENCY_3, DEF-CAPACITY-TO-BE) of the Metaphysics IX.6 analysis at the respect of understanding (39f50105). It does not say the being is understanding, nor that it is in potency to understanding: a being actually understanding is also able to understand (the capacity is retained in exercise, DISAMB-POTENCY). Intellect is here a standing capacity whose exercise is understanding. Example: a sleeping geometer. Control part 1: the other two premises hold, a being has the nine, and the nine's operation fails without it.",
   "lean_declaration": "TruthCore.Causality.DeiFiliusOperationFromIntellect.IntellectIsCapacityToUnderstand",
   "definition_ids": [

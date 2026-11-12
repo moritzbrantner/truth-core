@@ -10,7 +10,7 @@
   "inference_ids": [
     "2dec0d61-274e-4552-bfc5-0aed36555ee9"
   ],
-  "meaning": "A being g with the nine has intellect and is altogether immutable, which is being in potency in no respect. Its intellect is a capacity to understand (first premise); that capacity is exercised or a potency to understanding (second premise); g is not in potency to understanding, so it actually understands; an exercised capacity to understand is an immanent operation (third premise), so g operates. The act predicate is the nine's own InAct (the one of perfection and supreme goodness) and the potency predicate is the nine's own InPotency. No premise mentions life, time or being unmoved; living still needs the route's further steps. Conditional consequence; all three premises stay open, and this replaces the bare restriction by a derivation, it establishes nothing.",
+  "meaning": "A being g with the nine has intellect and is altogether immutable, which is being in potency in no respect. Its intellect is a capacity to understand (first premise); that capacity is exercised or a potency to understanding (second premise); g is not in potency to understanding, so it actually understands; an exercised capacity to understand is an immanent operation (third premise), so g operates. The act predicate is the nine's own InAct (the one of perfection and supreme goodness) and the potency predicate is the nine's own InPotency (POTENCY_2); the passage from capacity (POTENCY_3) to it is the listed sense bridge, the second premise. No premise mentions life, time or being unmoved; living still needs the route's further steps. Conditional consequence; all three premises stay open, and this replaces the bare restriction by a derivation, it establishes nothing.",
   "definition_ids": [
     "39f50105-c889-4c30-b841-ce458ec8109d",
     "7acc985a-ea60-4538-9c9e-6b18ddecf3a9",
@@ -20,6 +20,8 @@
     "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4",
     "7c64b499-6dba-5e03-bdf3-5acea95d8836",
     "da5c0716-718e-5aaa-abec-95c9e93cac00",
+    "115f23e3-2a19-5dcb-bc7f-96408004f110",
+    "3ea2762f-1a85-5059-b4e7-d29f192b16b6",
     "1d8890c0-afe2-5cdb-a400-0bbd4b79053d",
     "d980bbd2-1a96-564c-bc0d-4065d7786715",
     "a49e4cf1-ca4f-5519-9724-892af257cedb",
@@ -36,5 +38,13 @@
     "c0fda0ee-3508-5101-94ba-043e3eb28b0e",
     "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
     "508617ab-cf24-5f3b-a387-64b3991359ec"
+  ],
+  "sense_bridges": [
+    {
+      "term": "POTENCY_CAPACITY_AND_POWER_ACROSS_ADOPTED",
+      "from": "02e3f1d0-4ba1-498f-b34d-40bdd348d8c4",
+      "to": "d0b17a2e-febf-45e8-9b9e-11a75b2ccbc6",
+      "statement_id": "4728d5f4-d7a4-460c-aecc-37c6279ece9f"
+    }
   ]
 }
