@@ -136,6 +136,17 @@ describe("bucket plans", () => {
     expect(planBuckets(manifest, state("b=all"), null, null).wanted.some((id) => id.startsWith("isolated-"))).toBe(false);
   });
 
+  test("an unanchored dispute loads its default target before projecting the comparison", () => {
+    const dispute = state("view=dispute");
+    expect(planBuckets(manifest, dispute, null, null).needsLookup).toBe(true);
+    const plan = planBuckets(manifest, dispute, lookup, null);
+    expect(plan.wanted).toContain(owner(graph.defaultTarget!));
+    const loaded = mergeBuckets(manifest, plan.wanted.map((id) => byId.get(id)!));
+    const view = computeGraphView(loaded.graph, dispute);
+    expect(view.nodes.some((node) => node.id === graph.defaultTarget)).toBe(true);
+    expect(view.edges.some((edge) => edge.kind === "opposition")).toBe(true);
+  });
+
   test("facet filters skip buckets without a possible match", () => {
     const plan = planBuckets(manifest, state("closure=established"), null, null).wanted;
     for (const id of manifest.buckets.map((bucket) => bucket.id)) {
