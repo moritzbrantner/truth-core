@@ -1,0 +1,9 @@
+{
+  "id": "7ecc7415-79a0-4dea-842b-2dd4cda5ddce",
+  "label": "Off-world contingent support and late support controls for the world scope of J1",
+  "term": "off-world contingent support and late support controls",
+  "definition": "Two finite interpretations over worlds false and true with universal access and three concrete candidates t0, t1, t2; t0 and t1 exist at both worlds, t2 only at true; no generic causes. offWorldContingent: at false t0 supports t1, at true t2 supports t1. lateSupport: at false t0 supports t1, at true t2 supports t0. Both are evaluated at the selected world false.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.NecessarySupportActualScope.Control.Controls",
+  "note": "Analyst control models for the NecessarySupportActualScope batch; mathematical interpretations of the stated primitives, not claims of metaphysical possibility. Concrete is uniformly designated; the concrete/abstract line is not tested."
+}

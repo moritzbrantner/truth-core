@@ -1,0 +1,17 @@
+{
+  "id": "84751fc2-0179-49ce-b96a-04d95781d8bc",
+  "label": "Existing concrete supporters at the selected world of NECESSARY_2 concreta are NECESSARY_2",
+  "paraphrase": "Open premise, analyst formulation, unattributed: every concrete candidate that exists at the selected world w and stands, at w, in the selected relation to a concrete candidate existing at every world accessible from w itself exists at every world accessible from w. Supporters existing only at other worlds, and support edges at other worlds, are not constrained. The selected-world instance of STMT-NO-CONTINGENT-CONCRETE-SUPPORT, which constrains supporters and edges at every carrier world; it is the existing selected-world condition STMT-ACTUAL-NO-CONTINGENT instantiated on the concrete subtype.",
+  "lean_declaration": "TruthCore.Causality.NecessarySupportActualScope.ActualNoContingentConcreteSupport",
+  "definition_ids": [
+    "bfe1f490-ad43-4edb-b9c2-6b64e4b6d1f5",
+    "47033c70-0aca-565d-9473-8399577fea54",
+    "9146789d-5b36-572f-baa1-7eef28967793",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "b242943a-34cc-582d-8c38-c1203b9d2c91"
+  ],
+  "disambiguation_ids": [
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "5d15d8f2-1080-53c9-886f-cee2a4ff23a9"
+  ]
+}

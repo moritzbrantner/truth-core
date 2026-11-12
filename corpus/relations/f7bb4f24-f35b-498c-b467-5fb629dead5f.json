@@ -1,0 +1,12 @@
+{
+  "id": "f7bb4f24-f35b-498c-b467-5fb629dead5f",
+  "label": "J1 strengthens its selected-world instance",
+  "subject_kind": "statement",
+  "subject_id": "dd41c165-129a-59d3-84ce-bd13c0944901",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "84751fc2-0179-49ce-b96a-04d95781d8bc",
+  "verification_result_id": "79b59ca3-3c34-494b-9624-dd1c18814507",
+  "strictness_result_id": "3ce3b9c0-d8c7-43a4-b14c-1ff7adb16dfa",
+  "note": "Same Profile, selected relation and selected world. J1 constrains concrete supporters of necessary concreta at every carrier world; the instance only those existing and supporting at w. Control.offWorldContingent satisfies the instance while J1 fails."
+}
