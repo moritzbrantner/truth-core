@@ -1,0 +1,9 @@
+{
+  "id": "18f0cb4e-0a7e-41bd-af79-852194de490e",
+  "label": "Same selected necessary root named God with every Dei Filius attribute, no primitive field",
+  "term": "same selected necessary root named God with the Dei Filius attributes",
+  "definition": "NecessaryDeiFiliusGodRootAt: there exists ONE SAME selected actual concrete necessary root n retaining the PerfectRootAt body (selected-root uniqueness, esse maximum and formal-or-eminent perfection), represented esse/essence identity, firstness, matter/form exclusion and remoteness, which satisfies the signature IsGod predicate (GOD_4) and has every Dei Filius attribute (DeiFiliusAttributes, which include the nine case predicates). It is NecessaryClassicalGodRootAt with the primitive HasClassicalAttributes field replaced by the defined Dei Filius attributes. No uniqueness of all necessary individuals is asserted.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.DeiFiliusAttributeField.NecessaryDeiFiliusGodRootAt",
+  "note": "Transparent connective package. The field interpretation FieldFromDeiFilius turns it into the old endpoint (classicalRootOfDeiFiliusRoot); without that interpretation it says nothing about the primitive field. The five primitive conjuncts (living, lord, immense, incomprehensible, most blessed) carry only the content fixed by their definitions and open bridges."
+}

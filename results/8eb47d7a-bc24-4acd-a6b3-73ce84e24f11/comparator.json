@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.DeiFiliusAttributeField.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DeiFiliusAttributeField.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.DeiFiliusAttributeField.controls"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "5068b909-d6b0-458b-a3d7-30fd2f7088a8",
+  "label": "Most blessed: a primitive predicate for having in itself the perfect good of an intellectual nature",
+  "term": "most blessed (in se et ex se beatissimus; Lean `Primitives.MostBlessed`)",
+  "definition": "PRIMITIVE. MostBlessed g: g has, in and from itself, the perfect good of an intellectual nature. After ST I q.26 a.1 (beatitude is the perfect good of an intellectual nature, and belongs to God in the highest degree). Counterexample: a stone (no intellectual nature); a human being in this life (an intellectual nature without its perfect good).",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.DeiFiliusAttributeField.Primitives.MostBlessed",
+  "note": "Explicitly identified primitive (Encode first). Open semantic obligation: a typed account of beatitude as possession of an intellectual nature's perfect good. The only constraint placed on it is the open bridge 'Whatever is PERFECT_2 and has intellect is most blessed'."
+}

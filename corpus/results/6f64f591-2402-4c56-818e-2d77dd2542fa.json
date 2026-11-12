@@ -1,0 +1,11 @@
+{
+  "id": "6f64f591-2402-4c56-818e-2d77dd2542fa",
+  "label": "The nine give every typed Dei Filius attribute, from seven bridges",
+  "argument_id": "1fa790f2-9e45-4861-a9b7-cdbd2139c69d",
+  "challenge_module": "TruthCore.Results.Causality.DeiFiliusAttributeField.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DeiFiliusAttributeField.Solution",
+  "theorem": "TruthCore.Results.Causality.DeiFiliusAttributeField.nineGiveDeiFilius",
+  "comparator_config": "results/6f64f591-2402-4c56-818e-2d77dd2542fa/comparator.json",
+  "status": "solution-present",
+  "description": "At any being g with the nine: one, eternal, intellect, will, perfect, infinite, simple, immutable and supremely good are the nine themselves. Creator of all is contained by definition in the goodness conjunct (the case's IsSupremelyGood includes causing every perfection of everything else, so its being; a strengthening of DS 3002's goodness), not derived from it in a substantive sense. Spiritual (not composed of matter and form) follows from simplicity and the matter-form clause of the q.3 a.7 composition premise. Maximal in being follows from goodness-is-actuality (good as to being gives in act as to being) and the excess-in-act bridge against universal perfection: anything more in being would be in act in a respect g lacks, which perfection excludes. Almighty follows from infinity through the existing infinite-power premise. Living (LIVING_1), lord, immense, incomprehensible, most blessed and remote from all (a different reading of distinctness from the world) each use one open bridge, from intellect, creator, creator, infinity, perfection with intellect, and creator respectively. All in the typed reading of definition edcfac86. The controls show that each premise except goodness-is-actuality is needed here. Conditional consequence only; no premise is established."
+}

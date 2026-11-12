@@ -1,0 +1,9 @@
+{
+  "id": "885a98f3-cd54-41c5-89bc-25c341415890",
+  "label": "LIVING_2: life present at some time of a duration frame",
+  "term": "living, time-indexed (Lean `LivesSomeTime`)",
+  "definition": "LivesSomeTime LivesAt g: there is a time t of a duration frame at which g's life is present (∃ t, LivesAt g t; DEF-LIFE-PRESENT-AT). It is the conclusion shape of the existing typed route SelfOperationLife (result PURE-ACT-LIVES-FROM-SELF-OPERATION: whatever operates from itself and is moved in no respect lives at some time, with a primitive Operates and the q.18 a.3 reading), which derives it for pure act. For what is not in time, presence at t is read with q.10 a.2 ad 4 (eternity includes all times).",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.DeiFiliusAttributeField.LivesSomeTime",
+  "note": "Sibling reading of Dei Filius ch. 1's 'vivus', recorded so the existing typed route stays visible. Not used by DeiFiliusAttributes: reusing it would add a duration frame and a primitive Operates to the attribute vocabulary, and identifying it with the timeless LIVING_1 would merge two senses (invariant 7). A bridge between the senses (for example, whatever lives at some time of the frame lives) would be an explicit premise; none is recorded."
+}
