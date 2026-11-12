@@ -1,0 +1,11 @@
+{
+  "id": "7dbb9a2b-8df0-405d-8203-666bde89962b",
+  "label": "GOD_4 exists from the direct-esse first root, grades to a maximum at being only",
+  "argument_id": "fc46b7f9-32d0-416d-8f72-5bc908992f30",
+  "challenge_module": "TruthCore.Results.Causality.GradesAtBeingRoutes.Challenge",
+  "solution_module": "TruthCore.Results.Causality.GradesAtBeingRoutes.Solution",
+  "theorem": "TruthCore.Results.Causality.GradesAtBeingRoutes.directEsseRootGodExistsAtBeing",
+  "comparator_config": "results/7dbb9a2b-8df0-405d-8203-666bde89962b/comparator.json",
+  "status": "solution-present",
+  "description": "Sibling of the thirteen-input direct-esse route 72391d4d with STMT-GRADES-HAVE-A-MAXIMUM (6c27657f, every respect) replaced by its fixed-esse instance STMT-GRADES-TO-MAXIMUM-AT-BEING (e4e6b0cd); every other premise is the same statement. The old route applies grades only at esse, inside actualCore. necessaryFirst gives the same actual first root n; ExistingInActAt gives n esse; the existing maximumExistsOfExistingRoot, instantiated at the one-point respect type whose only respect is esse, gives a maximum in esse; maximumEqualsRoot identifies every maximum with n and the existing reducedDescription theorem names n as God through actuality-to-being, universal-source transfer, firstness, no-component remoteness and the retained nominal bridge. No premise is discharged; the old route is unchanged."
+}

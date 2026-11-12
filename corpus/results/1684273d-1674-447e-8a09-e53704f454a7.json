@@ -1,0 +1,11 @@
+{
+  "id": "1684273d-1674-447e-8a09-e53704f454a7",
+  "label": "GOD_4 exists from an actual root without contingent dependence, grades at being",
+  "argument_id": "3367bf93-3e4c-43c0-b31b-06375e7c4685",
+  "challenge_module": "TruthCore.Results.Causality.GradesAtBeingRoutes.Challenge",
+  "solution_module": "TruthCore.Results.Causality.GradesAtBeingRoutes.Solution",
+  "theorem": "TruthCore.Results.Causality.GradesAtBeingRoutes.existenceOnlyGodExistsAtBeing",
+  "comparator_config": "results/1684273d-1674-447e-8a09-e53704f454a7/comparator.json",
+  "status": "solution-present",
+  "description": "Sibling of the twelve-input direct-esse route 5e8e6054 with STMT-GRADES-HAVE-A-MAXIMUM (6c27657f, every respect) replaced by its fixed-esse instance STMT-GRADES-TO-MAXIMUM-AT-BEING (e4e6b0cd); every other premise is the same statement. The old route applies grades only at esse, inside actualCore. actualRootExists gives an actual root n from population, whole-roster nontrapping and excluded middle, without contingent dependence; the priority correspondence gives firstness; ExistingInActAt gives n esse; the existing maximumExistsOfExistingRoot at the one-point esse respect type gives a maximum in esse; maximumEqualsRoot and reducedDescription name n as God. No modal necessity is used or concluded. No premise is discharged; the old route is unchanged."
+}

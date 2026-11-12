@@ -1,0 +1,126 @@
+{
+  "id": "3367bf93-3e4c-43c0-b31b-06375e7c4685",
+  "label": "GOD_4 exists from an actual root without contingent dependence, grades at being",
+  "premise_statement_ids": [
+    "56f68b40-9737-59a0-8cac-5610980a1547",
+    "5c898d24-d1f7-5087-b09e-3287a723e787",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "86efed1a-f353-5b5d-9431-df7fc643ace1",
+    "d9fad785-40ab-555a-a1c1-5e39c9d50497",
+    "0436de86-6579-53f2-9ff5-2111ba44ebae",
+    "cb1cdea9-eb6c-578c-8008-84e0d4107fd3",
+    "e4e6b0cd-f61a-5605-a302-573c67cf063a",
+    "7067553d-cad9-5d79-b6b2-912e35051530",
+    "b26c10a0-983d-5a88-aa03-cc601bc1ddc6",
+    "09c6d5f0-d412-5038-85f9-75fffb935727",
+    "1ec205ed-b2a6-5384-bb5f-2565a9d325bf"
+  ],
+  "conclusion_statement_id": "8626f8a5-9531-5da7-9ebd-f901e74b1129",
+  "inference_ids": [
+    "a1f4a411-42a4-4740-913a-a1852540d5bd"
+  ],
+  "meaning": "Sibling of the twelve-input direct-esse route 5e8e6054 with STMT-GRADES-HAVE-A-MAXIMUM (6c27657f, every respect) replaced by its fixed-esse instance STMT-GRADES-TO-MAXIMUM-AT-BEING (e4e6b0cd); every other premise is the same statement. The old route applies grades only at esse, inside actualCore. actualRootExists gives an actual root n from population, whole-roster nontrapping and excluded middle, without contingent dependence; the priority correspondence gives firstness; ExistingInActAt gives n esse; the existing maximumExistsOfExistingRoot at the one-point esse respect type gives a maximum in esse; maximumEqualsRoot and reducedDescription name n as God. No modal necessity is used or concluded. No premise is discharged; the old route is unchanged.",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "4f194c7b-c2f8-5701-b5e7-4c23d2d5a1a2",
+    "f825624c-78af-5df8-ba76-c9ef691eb9af",
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "c9d479bb-308a-5a2b-9755-ddc0170d4e35",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "9969dfc2-1f2e-50be-b5e6-1f9cd402c7a6",
+    "d8e2ed12-8089-5202-ae51-e807cf611c76",
+    "fc6f0e12-470f-5717-8c5b-ece7a450fe59",
+    "25e19d5a-5cdf-5916-a888-f6a0ce970f11",
+    "486bb45e-c4a2-5ba5-8b12-498a24eb1678",
+    "18945900-2de0-5040-bdab-26268f257684",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "365e2a20-269f-5f0b-ac67-913e8ff5662a",
+    "1b8baf77-84fa-5513-a138-7fa14840dd87",
+    "ff8bf1d7-0bf9-5dda-8038-7127e3d46ec8",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "a2a8de58-42e0-5481-b7fb-848ae8602036",
+    "ad844320-77ce-5786-96d7-4b02f874269d",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "5766de66-8a37-5b04-aa65-9eec53319f50",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "baddf770-36bf-542f-bb3c-2297342d5452",
+    "16cf8319-84c7-5e24-9d18-5942b99c2e67",
+    "7ac7fea6-5b3a-5e97-b687-c76569c58429",
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+    "53b02c11-a28b-57c2-8d2e-7e013893db7e",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1",
+    "85f7f569-ab4d-514b-aa2c-cf75171ad105",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8",
+    "c19faf56-0908-5e6e-8c39-ccba40dce5d1",
+    "c2c8b139-fb8a-5ce2-8add-ec55a60d8b0b",
+    "a1b2e330-388f-4120-bc5c-969642317792"
+  ],
+  "disambiguation_ids": [
+    "6e92c6e3-edf0-5d7e-b2b3-788b24b8b768",
+    "3b0d67c5-59e4-5556-a728-26bd567f0fb1",
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58",
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "9403807f-f7d4-5ce8-a8ba-ca53ed932959",
+    "4822a4f5-a93b-52dc-855a-00b7d57928d5",
+    "205a39c3-915d-5fe4-8076-a9ff91329e08",
+    "42948082-5c8f-5dfb-b762-5feb8e6a6fb4",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "79644a0a-db5b-5497-bb47-9f96d14cdae7",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e",
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "b9adce48-6b86-5f58-b2ea-b25f51c70cbd",
+    "1795a62e-f78b-5f5b-94e7-9e7490824811",
+    "002f42cb-3015-5644-80b3-d408538394e6",
+    "be54be36-3ce8-53f9-8168-50d1114e6c76",
+    "34ddfede-ff4d-59ad-9882-4bcb490df9bb",
+    "92df85d7-aae7-57ac-b84e-3780ade842f1",
+    "c529e8d3-43e3-53a8-a82f-3955e9815265",
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
+  ],
+  "sense_bridges": [
+    {
+      "term": "GOD",
+      "from": "295c9096-50b8-4ccd-960e-f833730a0774",
+      "to": "52c2ebac-0a71-4dd4-8a21-804c1dd0847a",
+      "statement_id": "1ec205ed-b2a6-5384-bb5f-2565a9d325bf"
+    },
+    {
+      "term": "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST",
+      "from": "a833bcdb-8e99-4079-8cb6-fc1295eb690f",
+      "to": "9bea9a43-3a87-4d62-86de-e5873aea62f8",
+      "statement_id": "d9fad785-40ab-555a-a1c1-5e39c9d50497"
+    },
+    {
+      "term": "NECESSARY",
+      "from": "8c881fa6-2b9f-44be-a32a-c8ef29c13643",
+      "to": "7af298fb-a2c4-4239-919b-7685f2e1f67a",
+      "statement_id": "5c898d24-d1f7-5087-b09e-3287a723e787"
+    },
+    {
+      "term": "NONNECESSARY_VERSUS_CONTINGENT_ROOT",
+      "from": "cf6a8bb9-2a70-4e90-86bd-06f69106da2f",
+      "to": "9f9108e2-3cc3-45dd-be1d-d8fdaaced708",
+      "statement_id": "5c898d24-d1f7-5087-b09e-3287a723e787"
+    },
+    {
+      "term": "WELL_FOUNDEDNESS_AND_ANTI_BRUTE_ROOT",
+      "from": "9232f675-db0a-474c-9f00-d8e5aba69ef7",
+      "to": "556515c9-1fcc-4ea0-b85d-2a4cad7eff79",
+      "statement_id": "5c898d24-d1f7-5087-b09e-3287a723e787"
+    },
+    {
+      "term": "INTRINSIC_PRODUCTIVE_CONTRIBUTION_VERSUS_SOURCE_BACKED",
+      "from": "cbbac0e8-36c9-41a2-8367-e94080d28d68",
+      "to": "449eb783-1b3c-4f82-b11f-1c8114a005b9",
+      "statement_id": "5c898d24-d1f7-5087-b09e-3287a723e787"
+    }
+  ]
+}
