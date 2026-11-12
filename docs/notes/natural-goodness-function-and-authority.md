@@ -1291,3 +1291,207 @@ goal-indexed rival is found, if a real counterexample to C2 is established,
 or if a full primary Raz/Scanlon argument supplies a new noncircular basis
 for directed claims. Independent final semantic challenge is still required
 before treating this provisional synthesis as reviewed support.
+
+## Reasons and standing: symmetric authority test (#1508, 2026-11-12)
+
+**Complete proposed outcome for parent semantic challenge; unreviewed.** Shared
+semantic baseline: current fetched main
+`f9df3e2f7caf5fca6b31a465cbff5e655fedc394`. The assignment map in #1571
+was audited at `d98066db300d5b02c2062c2a55d622a237ace49b`; its #1508 brief
+is retained, without treating its old graph counts as current evidence.
+Shared convention sourceRevision: `15f348b072188255da837578eaafc8a98f12fdf0`.
+This continuation owns moral-authority notes/attempts only. #1505's draft
+#1572 at `f70dab0435e04a969a7c61a1bcf012f9b35bea47` is a read dependency,
+not merged corpus evidence. Its token entailment/candidate-explanation
+boundary and OPEN care-to-rescue application are preserved. Responsibility,
+urgency and directed standing remain different questions.
+
+### Registered target and inference boundary
+
+Inventory consumed context `32b1f78f-3557-59e8-bfb5-69dd3187e126`, related
+`f1ae59d2-cf3c-50f2-82f8-f4bb61a610e7`, and dossiers for that statement,
+`875d169d-0ccd-59e5-af65-4d66e349ca14`,
+`53e9f8bf-fa17-5c99-ac00-a0b9288ecf83` and
+`ecdbbaba-0902-58ca-a1eb-1e1e3ca25d55`. The last is the weaker actual-demand
+bridge; `681f5b58-90e7-5379-bc29-8ca3b2d9feab` remains its distinct
+victim-personally alternative. No new vocabulary is registered.
+Q-NORMATIVE-REASONS and Q-MORAL-AUTHORITY are question names, not IDs.
+
+`HardCaseTyped.certificate` has no standing or jurisdiction coordinate.
+It varies moral assignments under facts, without retaining a substantive
+norm connecting facts and verdicts. It neither refutes a realist's richer
+normative package nor shows that standing is absent when reasons hold.
+The current Darwall readings motivate a conceptual distinction and leave
+instantiation open; they are not a proof of irreducibility across every
+account. Definition `c0d119be-c248-52d5-89a3-b1fcf925e8b6` records the conceptual
+proposal without asserting that anyone has the standing. It has no Lean
+declaration. No theorem is newly certified.
+
+Named connection: #1460/#371 seek an obligation-to-governing-reason/lawgiver
+bridge to `STMT-GOD-EXISTS` (`8626f8a5-9531-5da7-9ebd-f901e74b1129`),
+then the Catholicism root. This investigation supplies no such implication.
+Its blocker is a warranted claim that the relevant normative or directed
+relation requires divine governance, together with the identification of that
+governor with GOD_4. Even established personal standing would not alone select
+a divine bearer. No premise change; no new registered root route.
+
+### Three layers of the strongest competing arguments
+
+These are explicit analyst reconstructions, using the existing source readings
+and issue briefs as orientation. They add no Wielenberg, Foot or Aquinas
+attributions. New source authentication is deferred.
+
+**Robust realist.** (1) Basic, universally applying normative truths connect
+suffering, agency and relational facts to reasons, without a desire or sanction
+condition. The norm already says *for which agent*, so asking again for a reason
+for that agent need not expose an omitted logical premise. Necessary truth
+alone does not show that the selected norm is true. (2) An additional substantive
+priority principle gives a decisive verdict where needed; independent rights
+norms can specify to whom performance is owed and who may demand it. A realist
+need not attempt to extract claimants from a scalar amount of goodness.
+(3) Alleged commands confer obligations only where a valid authority relation
+makes them binding. Thus bare commands do not explain all obligation without
+normative commitments. That conclusion attacks a norm-free command derivation;
+it does not entail that no divine explanation can illuminate those commitments.
+The positive warrant proposal is reflection on injury, equal status, relational
+claims and their coherence with other judgments. The objection is that this
+may leave disputed content and override principles insufficiently discriminated.
+Calling it non-natural or causally inert does not answer that warrant proposal.
+
+**Natural goodness.** (1) Human needs, dependence and rational social life
+identify goods and possible defects independently of present preference.
+(2) A substantive practical-rationality principle makes another's good a reason
+for this agent; a justice/relational principle makes some goods *owed* to that
+person. Good functioning alone is insufficient in the inspected formal types.
+(3) Priority and legitimate representation determine concrete demands and
+complaint. The warrant proposal connects justice and reliable care with a
+shared life that makes rational human flourishing possible, including protection
+of vulnerable members. The strongest objection is that social dependence may
+explain the benefits of justice without yet giving the successful exploiter a
+categorical reason, or giving an incompetent patient a claim. The reply can
+reject the reduction of practical rationality to successful exploitation, but
+must defend its substantive other-regarding standard rather than define the
+opponent out of rational agency. Neither failure nor success of this reply is
+established here.
+
+**Authorial/divine natural law.** (1) God as intrinsic Good and wise author of
+natures proposes an integrated explanation of creatures' due goods, rather
+than making arbitrary commands constitutive of good. These metaphysical
+premises are supplied by the proposed account, not investigated in this slice.
+(2) Due goods bind rational agents under a practical-reason/justice principle;
+wise care for the common good and the creator–creature relation are proposed
+reasons for rightful governance. The crucial jurisdiction premise is normative:
+this relation licenses these directions within these limits. Creation or power
+alone does not give it by definition. (3) Legitimate governance, valid content
+and an authentic direction can supply an addressed duty; victim claims and
+representation still need their own specification. A claimant's entitlement to
+care is not the creator's entitlement to obedience. The positive warrant is
+that wise, just care ordering rational creatures to genuine common good can
+make guidance non-arbitrary and authoritative. The strongest objection asks
+why the beneficiary owes obedience, particularly under a harmful alleged
+command, rather than having reasons to follow sound advice. A good source can
+improve conformity without acquiring every proposed claim-right. A reply must
+establish jurisdiction and exclude counterfeit or unjust directives. Historical
+transmission and delegation are additional gaps, not consequences of uniqueness.
+
+### Fixed test: claimant substitution without changing the injury
+
+Stipulate an informed, competent, indifferent adult about to inflict gratuitous,
+nonconsensual serious injury on an innocent, nonthreatening dependent. Abstention
+is feasible and harms nobody; no competing rescue or justificatory defense is
+present. These augmentations are stipulated for this test, not read out of
+`HardCases`. Hold the injury, benefit to the offender and normative reason
+against injury fixed. Compare the patient, an unappointed but perfectly informed
+adviser, a warranted representative of an incapable patient, and a purported
+creator's messenger. These are prose comparisons, not certified finite models.
+
+The adviser's correctness supplies an epistemic reason to listen; it does not
+identify who is owed compliance. The patient's injury supplies a concrete
+rationale for a claim: treating that loss merely as material for someone else's
+project denies protection precisely to its bearer. That rationale favors
+patient-directed protection but needs the normative premise that such interests
+constrain another's agency. Competence alone is not enough: an infant's inability
+to demand cannot itself settle whether the infant has a right. Representation
+requires authorization or a justified protective role; loud protest or concern
+alone supplies neither. The messenger additionally needs a true commission and
+rightful source jurisdiction. Offender indifference changes none of these
+stipulated facts and supplies no refutation of their normative force.
+
+The realist can supply a basic patient-right norm covering the infant; natural
+goodness can supply a due-care/justice norm; divine natural law can supply a
+participatory justice norm plus jurisdiction. Each can thereby offer the *same*
+patient-directed protection without agreement about its deeper explanation.
+Conversely, a reasons-only account may affirm decisive abstention while leaving
+claimant identity undetermined. This is an explanatory omission only if the
+account advertises directed obligation, not a contradiction in its reasons.
+No model here establishes that all three richer packages are jointly consistent.
+
+A consent variation tests waiver separately: valid authorization may remove a
+particular complaint while reasons against injury survive. Competence, scope
+and whether this right is waivable must be specified; consent is not a general
+permission for killing. A rescue variation reintroduces genuine competing
+claims and requires a priority principle. It cannot be answered just by adding
+more authority. This also keeps #1572's responsibility/urgency trial separate.
+
+### Proposed judgment, objections and next discriminating test
+
+**Provisional judgment for challenge:** an extra *normative commitment* is needed
+when the starting premises specify only agent reasons and the target specifies
+who is owed compliance. It need not be a separate axiom if a richer basic rights
+norm already includes that content, and this note does not prove universal
+irreducibility. A selective-burden charge is therefore not established merely
+because the realist asks the theist for a jurisdiction norm. Theism adds a
+personal-governance claim that a reasons-only account does not make; a realist
+advertising directed rights incurs its own patient/claimant warrant burden.
+Symmetry requires scrutiny of both actual claims, not identical explanatory
+structures or an independently proved primitive at every step.
+
+The strongest surviving rival to a required divine authority is basic directed
+rights grounded in morally significant patient features, with legitimate
+representation independent of any personal lawgiver. Its cost is accepting and
+defending that normative connection; no accepted floor conflict has been found.
+The authorial proposal potentially unifies goods, justice and jurisdiction, but
+that benefit remains conditional on defending those connections. Counting one
+integrated description instead of several primitives does not certify warrant.
+Neither account is defeated, and no comparative metaphysical winner is selected.
+
+Rejected approaches: extracting standing from the typed omission certificate;
+identifying decisive reasons with a particular claimant's right; deriving
+jurisdiction from manufacture; requiring rewards; and calling a primitive norm
+false because explanation stops there. All fail to test the claimed bridge.
+
+The next discriminating test is the incapable patient's representative: require
+each account to state why the *patient* has the protected claim, which facts
+vest a representative with demand authority, and whether a correctly advising
+but unauthorized stranger has that same authority. Seek a defended patienthood/
+justice argument for `ecdbbaba`, before the stronger victim-personally claim.
+This is more informative than another free reason-field model. An actual
+comparative ranking requires those substantive warrant arguments; they are
+not in the reused certificate. Parent reassessment should allocate that next
+slice and independently challenge this complete outcome, especially the
+rights-enriched realist reply and the noncompetent-patient test. No recursive
+review delegation, source claim, formal sense, theorem or closure change occurs.
+
+### Worker validation and return boundary
+
+Attempt `1e95fdf7-60ce-4fa6-9e43-114b0cc566b4` persists this delta. Offline
+`corpus.py check` passed with existing strength/sense warnings;
+`attribution-check --base f9df3e2f7caf5fca6b31a465cbff5e655fedc394` found no new
+or changed stating claim; diff hygiene passed. Claim/type self-sweep: no claims,
+statements, definitions, arguments, results or Lean inputs changed. Every new
+case comparison above is analyst prose, not a theorem or certified model.
+Unchanged proof evidence is reused; final integration CI and independent semantic
+challenge remain pending with the parent. No shared service mutation or new
+tracker was required.
+
+Computed with disk-backed task TMPDIR and worker_env command mode:
+`python3 scripts/corpus.py frontier-diff --base f9df3e2f7caf5fca6b31a465cbff5e655fedc394`:
+
+```text
+premise delta for Catholicism is true: the Catholic Church is a teaching authority founded by GOD_4, and every… [53964cbe]: f9df3e2f7caf5fca6b31a465cbff5e655fedc394 -> working tree
+open premises reaching the root: 479 (340 bare, 93 supported, 46 stated) -> 479 (340 bare, 93 supported, 46 stated)
+expanded-route diagnostic (lowest cost): Catholicism is true: the Catholic Church is a…, from Fork node: the intended reading of… and 7 more [8df2faad] (cost 16) -> Catholicism is true: the Catholic Church is a…, from Fork node: the intended reading of… and 7 more [8df2faad] (cost 16)
+distinct verified support alternatives: 373 -> 373
+verified support alternatives added: 0
+no change
+```
