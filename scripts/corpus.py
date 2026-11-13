@@ -205,10 +205,10 @@ SCHEMA_INSTANCE_PREDICATE = "instance_of_schema"
 # strong version as its only premise and the weak version as its conclusion.
 # In `frontier` an established strong version establishes the weak one, and a
 # refuted weak version refutes the strong one; never the reverse. The backing
-# argument closes the weak version by rule (a), or (d) for a transcription,
-# once the strong version is closed, except inside a support cycle (owner
-# decision 2026-11-12; see `frontier_report`). Reachability and route
-# expansion treat it as an ordinary verified derivation.
+# argument is an ordinary verified derivation of the weak version (rule (a),
+# or (d) for a transcription), set aside only where it would close a support
+# cycle (owner decision 2026-11-12; see `frontier_report`). Reachability and
+# route expansion treat it as an ordinary verified derivation too.
 STRENGTHENS_PREDICATE = "strengthens"
 # Designated route (argument → statement; owner decision on #143, 2026-10-24):
 # the headline route for reporting and comparisons (`frontier --routes` marks
@@ -998,13 +998,12 @@ def frontier_report(
     Strength order (#1017): for each `strengthens` relation an established
     strong version establishes (and closes) the weak one, and a refuted weak
     version refutes the strong one, inside the same least fixpoint; never the
-    reverse. The backing argument of a registration closes the weak version
-    by rule (a), or by rule (d) when it is a transcription, once the strong
-    version is closed: a closed strong version composes with the verified
-    entailment (owner decision 2026-11-12). Unlike an ordinary step it never
-    fires from an open strong leaf, and it is set aside when the strong
-    version cannot close or when its closure would run through the weak one
-    (a support cycle), since circular support is no derivation. Reachability
+    reverse. The backing argument of a registration is an ordinary verified
+    derivation for closure, by rule (a) or by rule (d) when it is a
+    transcription (owner decision 2026-11-12), except that it is set aside when
+    the strong version's support reaches back to the weak version through a
+    step that uses the weak version (a support cycle), since circular support
+    is no derivation. Reachability
     (the upward walks, `reaching_root_statements`, support bundles) and route
     expansion treat it as an ordinary verified derivation (2026-11-12)."""
     original_arguments, original_results = arguments, results
@@ -1280,11 +1279,13 @@ def frontier_report(
     # (which is independent of `closed`) may.
     sound_steps = [argument_by_id[argument_id] for argument_id in sorted(sound_arguments)]
     # Strength registrations as closure steps (owner decision 2026-11-12): a
-    # registration concludes its weak version and fires only from a closed
-    # strong version, by rule (a) or, for a transcription, by rule (d). It is
-    # set aside (its weak version again a leaf it does not conclude) when the
-    # strong version is concluded by nothing, becomes an ungrounded cycle
-    # member, or lies in one bottom cycle with the weak version.
+    # registration is an ordinary verified derivation of its weak version, by
+    # rule (a) or, for a transcription, by rule (d), with one exception. It is
+    # set aside (its weak version again a leaf it does not conclude) when, in a
+    # bottom support cycle, its strong version's support reaches back to its
+    # own weak version through a non-registration step that uses the weak
+    # version as a premise: closing the weak version through it would be
+    # circular.
     registration_steps = sorted(
         (result["id"], argument_by_id[result["argument_id"]], result["id"] in transcription_results)
         for result in original_results
@@ -1300,18 +1301,7 @@ def frontier_report(
             if result_id in active_registrations
         }
 
-    # Set aside, to a fixpoint, registrations whose strong version nothing
-    # concludes (registrations themselves included, for chains).
-    while True:
-        concluded = base_concluded | registration_concluded()
-        unconcluded = {
-            result_id
-            for result_id, argument, _ in registration_steps
-            if result_id in active_registrations and argument["premise_statement_ids"][0] not in concluded
-        }
-        if not unconcluded:
-            break
-        active_registrations -= unconcluded
+    concluded = base_concluded | registration_concluded()
     proved: set[str] = set()
     ungrounded: set[str] = set()
     while True:
@@ -1378,7 +1368,8 @@ def frontier_report(
                     if (transcribed or result_id not in active_registrations
                             or conclusion in closed or conclusion in ungrounded):
                         continue
-                    if argument["premise_statement_ids"][0] in closed:
+                    strong = argument["premise_statement_ids"][0]
+                    if strong in closed or strong in ungrounded or strong not in concluded:
                         closed.add(conclusion)
                         proved.add(conclusion)
                         proving = True
@@ -1402,16 +1393,6 @@ def frontier_report(
                         "premise_statement_ids": sorted(set(premises)),
                     }
                     changed = True
-        # A registration whose strong version can no longer close is set aside.
-        stuck = {
-            result_id
-            for result_id, argument, _ in registration_steps
-            if result_id in active_registrations and argument["premise_statement_ids"][0] in ungrounded
-        }
-        if stuck:
-            active_registrations -= stuck
-            concluded = base_concluded | registration_concluded()
-            continue
         # Conclusions still waiting: each could close only through another.
         pending = {statement for statement in concluded if statement not in closed and statement not in ungrounded}
         if not pending:
@@ -1436,14 +1417,21 @@ def frontier_report(
             reach[seed] = reached
         # Bottom components: everything a member reaches reaches it back.
         bottom = {statement for statement in pending if all(statement in reach[other] for other in reach[statement])}
-        # A registration inside a bottom cycle with its strong version would
-        # close the weak version circularly: set it aside and resume first.
+        # A registration whose strong version's support reaches back to its
+        # weak version through a non-registration step using the weak version
+        # would close that weak version circularly: set it aside and resume.
+        ordinary_steps = [*sound_steps, *(argument for _, argument in transcription_steps)]
         cyclic = {
             result_id
             for result_id, argument, _ in registration_steps
             if result_id in active_registrations
             and argument["conclusion_statement_id"] in bottom
-            and argument["premise_statement_ids"][0] in reach[argument["conclusion_statement_id"]]
+            and any(
+                argument["conclusion_statement_id"] in step["premise_statement_ids"]
+                and step["conclusion_statement_id"] in reach.get(argument["premise_statement_ids"][0], ())
+                for step in ordinary_steps
+                if step["conclusion_statement_id"] in bottom
+            )
         }
         if cyclic:
             active_registrations -= cyclic

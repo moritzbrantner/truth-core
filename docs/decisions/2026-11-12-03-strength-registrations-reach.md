@@ -12,13 +12,14 @@ version is closed by derivations from premises P and strong ⇒ weak is a
 verified result, the weak version follows from P by composition. Asked whether
 a registration should close its weak version whenever the strong version is
 closed by a derivation that does not run through the weak version, the owner
-answered "Yes, close through it." The backing argument now closes the weak
-version by rule (a), or by rule (d) when its result is a transcription
-(invariant 16), once the strong version is closed; it never fires from an open
-strong leaf. It stays set aside only when nothing concludes the strong version,
-when the strong version is an ungrounded cycle member, or when it lies in one
-bottom support cycle with its strong version, because circular support is not a
-derivation. A registration whose argument backs a `refutes` relation still
+answered "Yes, close through it." The backing argument is now an ordinary verified derivation for
+closure, by rule (a) or by rule (d) when its result is a transcription
+(invariant 16); like any one-premise argument it also closes the weak version
+from an open strong leaf, since "closed" means proved from premises that may
+be open. It is set aside only when, in a bottom support cycle, its strong
+version's support reaches back to its own weak version through a
+non-registration step that uses the weak version, because circular support is
+not a derivation; other registrations in the same cycle stay. A registration whose argument backs a `refutes` relation still
 counts as that refutation. For reachability and route expansion it is an
 ordinary verified derivation: `reaching_root_statements`, `path_to_root`, the
 open-premise items, `premise_dependents`, `support_options`, `thickness`,
