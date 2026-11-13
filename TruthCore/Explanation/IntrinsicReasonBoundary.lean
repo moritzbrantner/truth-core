@@ -96,8 +96,8 @@ def NoFactOrGlobalMember (m : Ontic W B) (h : Groups (Item B F S) G)
     (holds : W → Item B F S → Prop) (w : W) (n : B) : Prop :=
   (∀ g b, ActualRecord m h holds w n g →
     (Sum.inl (.fact b) : Item B F S) ∉ h.members g) ∧
-  (∀ g structure, ActualRecord m h holds w n g →
-    (Sum.inr (.global structure) : Item B F S) ∉ h.members g)
+  (∀ g s, ActualRecord m h holds w n g →
+    (Sum.inr (.global s) : Item B F S) ∉ h.members g)
 
 /-- A typed conditional positive result, not an opaque `A → conclusion`
 bridge. The source is underived *in the support relation*, and only the
@@ -137,8 +137,8 @@ theorem selectedNatureRecord
       | external b feature =>
         have hs := hExternal g b feature hg hi
         exact False.elim (hSource b hs.1 hs.2)
-      | global structure =>
-        exact False.elim ((hNoGlobal g structure hg) hi)
+      | global s =>
+        exact False.elim ((hNoGlobal g s hg) hi)
   rcases hg.2.2.1 with ⟨i, hi⟩
   rcases allOwn i hi with ⟨feature, hEq⟩
   refine ⟨g, hg, ⟨feature, ?_⟩, allOwn⟩
@@ -190,7 +190,7 @@ theorem populatedUnderivedNecessary :
 adequacy claim. The actualness/sufficiency side conditions are populated. -/
 theorem natureCandidate :
     ActualRecord populated (single (.inr (.nature () ()))) allHold false () () ∧
-    IntrinsicOnlyRecord populated (single (.inr (.nature () ()))) allHold false () () := by
+    IntrinsicOnlyRecord populated (single (.inr (.nature () ()))) allHold false () := by
   constructor
   · exact singleActual _
   · refine ⟨(), singleActual _, ⟨(), ?_⟩, ?_⟩
@@ -225,7 +225,7 @@ theorem natureInputNonvacuous :
   · constructor
     · intro g b hRec hMember
       simp [single, Groups.members] at hMember
-    · intro g structure hRec hMember
+    · intro g s hRec hMember
       simp [single, Groups.members] at hMember
 
 /-- Omit the foreign-reason-to-support bridge: a genuinely different
@@ -234,7 +234,7 @@ bearer's actual underivedness and de re necessity. -/
 theorem externalWithoutSupportBridge :
     ActualRecord populated (single (.inr (.external () ()))) allHold false () () ∧
     ¬ IntrinsicOnlyRecord populated
-      (single (.inr (.external () ()))) allHold false () () := by
+      (single (.inr (.external () ()))) allHold false () := by
   constructor
   · exact singleActual _
   · intro h
@@ -247,7 +247,7 @@ bearer has a different *kind* of candidate sufficient explanation. -/
 theorem globalWithoutScopeBridge :
     ActualRecord populated (single (.inr (.global ()))) allHold false () () ∧
     ¬ IntrinsicOnlyRecord populated
-      (single (.inr (.global ()))) allHold false () () := by
+      (single (.inr (.global ()))) allHold false () := by
   constructor
   · exact singleActual _
   · intro h
