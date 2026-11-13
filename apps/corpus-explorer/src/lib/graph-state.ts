@@ -21,6 +21,8 @@ export type GraphState = ProofSearchState & {
   kind: string;
   expanded: string[];
   returnView: string;
+  /** The supporting proof state preceding a dispute, independent of the overview bookmark. */
+  supportView: string;
   viewport: string;
   /** Root-path view: the statement whose supporting paths are shown. */
   target: string;
@@ -90,6 +92,7 @@ export const DEFAULT_STATE: GraphState = {
   kind: "",
   expanded: [],
   returnView: "",
+  supportView: "",
   viewport: "",
   target: "",
   node: "",
@@ -136,6 +139,7 @@ export function parseGraphState(params: ReadableParams): GraphState {
     kind: params.get("kind") ?? "",
     expanded: list(params, "expand"),
     returnView: params.get("return") ?? "",
+    supportView: params.get("support") ?? "",
     viewport: params.get("viewport") ?? "",
     target: params.get("target") ?? "",
     node: params.get("node") ?? "",
@@ -195,6 +199,7 @@ export function serializeGraphState(state: GraphState): string {
   if (state.kind) params.set("kind", state.kind);
   for (const id of state.expanded) params.append("expand", id);
   if (state.returnView) params.set("return", state.returnView);
+  if (state.supportView) params.set("support", state.supportView);
   if (state.viewport) params.set("viewport", state.viewport);
   appendProofSearchState(params, state);
   return params.toString();

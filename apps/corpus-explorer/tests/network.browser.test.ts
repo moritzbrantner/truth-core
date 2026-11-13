@@ -233,3 +233,89 @@ for (const mobile of [false, true]) {
     await page.close();
   }, 60000);
 }
+
+for (const mobile of [false, true]) {
+  test(`unified graph journey: ${mobile ? "touch" : "keyboard"}, AND/OR support, dispute, history and viewport`, async () => {
+    const corpus = getPropositionGraph();
+    const argument = corpus.arguments.find((entry) => entry.resultIds.length > 0 && entry.inferenceIds.some((id) =>
+      corpus.inferences.some((step) => step.id === id && step.output === entry.conclusion && step.inputs.length > 1)));
+    if (!argument) throw new Error("Expected a checked argument with an AND inference concluding its target");
+    const concludingStep = corpus.inferences.find((step) => argument.inferenceIds.includes(step.id) && step.output === argument.conclusion && step.inputs.length > 1)!;
+    const page = await browser.newPage({
+      viewport: mobile ? { width: 390, height: 844 } : { width: 1440, height: 900 },
+      hasTouch: mobile,
+      isMobile: mobile,
+    });
+    const errors: string[] = [];
+    page.on("pageerror", (error) => errors.push(error.message));
+    const url = new URL(`${basePath}/graph/`, server.url);
+    url.searchParams.set("sel", argument.conclusion);
+    url.searchParams.set("viewport", "120,-30,0.8");
+    url.searchParams.set("relations", "0");
+    url.searchParams.set("emphasis", "all");
+    await page.goto(url.toString());
+    await page.locator(".graph-detail").waitFor();
+
+    // The URL alone is insufficient: assert React Flow actually applies the
+    // stored transform, both before leaving and after returning to the graph.
+    const waitForOriginalViewport = () => page.waitForFunction(() => {
+      const viewport = document.querySelector(".react-flow__viewport");
+      if (!viewport) return false;
+      const transform = new DOMMatrixReadOnly(getComputedStyle(viewport).transform);
+      return Math.abs(transform.a - 0.8) < 0.001
+        && Math.abs(transform.e - 120) < 1
+        && Math.abs(transform.f + 30) < 1;
+    });
+    await waitForOriginalViewport();
+
+    const activate = async (name: string) => {
+      const button = page.getByRole("button", { name, exact: true }).first();
+      await button.scrollIntoViewIfNeeded();
+      if (mobile) await button.tap();
+      else { await button.focus(); await page.keyboard.press("Enter"); }
+    };
+    await activate("Trace support");
+    await page.waitForURL((value) => value.searchParams.get("view") === "focus" && value.searchParams.get("layout") === "layered" && value.searchParams.get("dir") === "down" && value.searchParams.get("hops") === "1");
+    await page.locator(`.react-flow__node[data-id="${concludingStep.id}"] .graph-node-inference[data-result-checked="true"]`).waitFor();
+    await page.locator(`.react-flow__edge[data-id="${concludingStep.id}->${argument.conclusion}"]`).waitFor();
+    for (const premise of concludingStep.inputs) {
+      await page.locator(`.react-flow__edge[data-id="${premise}->${concludingStep.id}"]`).waitFor();
+    }
+    if (screenshots) await page.locator(".graph-shell").screenshot({ path: `${screenshots}/${mobile ? "mobile" : "desktop"}-support-journey.png` });
+    await page.getByLabel("Support depth").selectOption("2");
+    await page.waitForURL((value) => !value.searchParams.has("hops"));
+    await activate("P versus ¬P");
+    await page.waitForURL((value) => value.searchParams.get("view") === "dispute" && value.searchParams.has("support"));
+    expect(await page.locator('.react-flow__edge[data-id^="opposition:"]').count()).toBeGreaterThan(0);
+    expect(await page.locator('.graph-node-statement[data-recorded-denial="true"], .graph-node-negation').count()).toBeGreaterThan(0);
+    if (screenshots) await page.locator(".graph-shell").screenshot({ path: `${screenshots}/${mobile ? "mobile" : "desktop"}-dispute-journey.png` });
+    expect(await page.getByRole("button", { name: "Back to support" }).isVisible()).toBe(true);
+
+    await page.goBack();
+    await page.waitForURL((value) => value.searchParams.get("view") === "focus" && value.searchParams.get("layout") === "layered");
+    expect(await page.getByLabel("Support depth").inputValue()).toBe("2");
+    await page.goBack();
+    await page.waitForURL((value) => !value.searchParams.has("view"));
+    expect(new URL(page.url()).searchParams.get("sel")).toBe(argument.conclusion);
+    expect(new URL(page.url()).searchParams.get("viewport")).toBe("120,-30,0.8");
+    expect(new URL(page.url()).searchParams.get("relations")).toBe("0");
+    expect(new URL(page.url()).searchParams.get("emphasis")).toBe("all");
+    await waitForOriginalViewport();
+
+    await page.goForward();
+    await page.waitForURL((value) => value.searchParams.get("view") === "focus");
+    await page.goForward();
+    await page.waitForURL((value) => value.searchParams.get("view") === "dispute");
+    await page.reload();
+    await page.getByRole("button", { name: "Back to support" }).click();
+    await page.waitForURL((value) => value.searchParams.get("view") === "focus");
+    expect(await page.getByLabel("Support depth").inputValue()).toBe("2");
+    await activate("Return to overview");
+    await page.waitForURL((value) => !value.searchParams.has("view"));
+    expect(new URL(page.url()).searchParams.get("viewport")).toBe("120,-30,0.8");
+    await waitForOriginalViewport();
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1)).toBe(true);
+    expect(errors).toEqual([]);
+    await page.close();
+  }, 60000);
+}

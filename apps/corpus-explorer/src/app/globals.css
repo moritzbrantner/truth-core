@@ -209,6 +209,8 @@ summary {
 .frontier-key-established { background: var(--status-self-evident); }
 .frontier-key-conditional { background: var(--paper); border: 2px solid var(--status-proved); }
 .frontier-key-other { background: var(--line-strong); }
+.frontier-key-checked { border-top: 2px solid var(--accent); display: inline-block; width: 1.2rem; }
+.frontier-key-unchecked { border-top: 2px dashed var(--line-strong); display: inline-block; width: 1.2rem; }
 .frontier-key-relation { border-top: 2px dashed var(--status-alternative); display: inline-block; width: 1.2rem; }
 .frontier-key-opposition { border-top: 2px dashed #b45353; display: inline-block; width: 1.2rem; }
 
@@ -713,6 +715,11 @@ button:focus-visible {
   border-color: var(--status-open);
 }
 
+.graph-node-statement[data-recorded-denial="true"] {
+  border: 2px solid var(--status-objection);
+  border-left-width: 6px;
+}
+
 .graph-node-negation {
   background: color-mix(in srgb, #b45353 8%, var(--paper));
   border: 2px dashed #b45353;
@@ -759,19 +766,24 @@ button:focus-visible {
 .graph-node-inference {
   border-color: var(--accent);
   border-radius: 999px;
-  height: 46px;
+  height: 60px;
 }
+
+.graph-node-inference[data-result-checked="false"] { border-color: var(--line-strong); border-style: dashed; }
 
 .graph-node-inference .graph-node-button {
   color: var(--accent);
-  display: block;
+  display: grid;
   font-size: 0.74rem;
+  gap: 0.2rem;
   overflow: hidden;
-  padding: 0.75rem 0.9rem;
+  padding: 0.5rem 0.9rem;
   text-align: center;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
+.graph-node-inference[data-result-checked="false"] .graph-node-button { color: var(--muted); }
 
 .graph-node-cluster {
   border-style: dashed;
@@ -938,6 +950,7 @@ button:focus-visible {
 .network-marker { width: 28px; height: 28px; display: grid; place-items: center; position: relative; color: var(--ink); }
 .network-symbol { width: var(--marker-size); height: var(--marker-size); border-radius: 50%; background: var(--community); border: 1px solid var(--paper); box-shadow: 0 0 0 1px var(--community); }
 .network-marker[data-kind="inference"] .network-symbol { border-radius: 2px; width: 5px; height: 5px; background: var(--line-strong); border: 0; box-shadow: none; }
+.network-marker[data-kind="inference"][data-result-checked="true"] .network-symbol { background: var(--accent); }
 .network-marker[data-frontier="true"] .network-symbol { box-shadow: 0 0 0 2px var(--paper), 0 0 0 4px var(--status-open), 0 0 0 8px color-mix(in srgb, var(--status-open) 16%, transparent); }
 .network-marker[data-frontier-depth="bare"] .network-symbol { box-shadow: 0 0 0 2px var(--paper), 0 0 0 4px var(--status-objection), 0 0 0 8px color-mix(in srgb, var(--status-objection) 22%, transparent); }
 .network-marker[data-frontier-depth="supported"] .network-symbol { box-shadow: 0 0 0 2px var(--paper), 0 0 0 4px var(--status-transcription), 0 0 0 8px color-mix(in srgb, var(--status-transcription) 22%, transparent); }
@@ -965,6 +978,8 @@ button:focus-visible {
   .graph-toolbar > .field-label { flex-basis: 100%; }
   .frontier-workspace .graph-shell { height: 60vh; min-height: 26rem; }
   .frontier-map-key { gap: 0.45rem 0.7rem; font-size: 0.65rem; }
+  .frontier-primary-controls .graph-segmented { flex-wrap: wrap; max-width: 100%; }
+  .frontier-primary-controls .graph-segmented button + button { border-left: 1px solid var(--line-strong); }
 }
 @media (max-width: 850px) {
   .frontier-workspace .graph-layout { order: -1; }

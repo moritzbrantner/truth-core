@@ -34,9 +34,11 @@ import {
   serializeGraphState,
   type GraphState,
 } from "@/lib/graph-state";
+import { inspectDispute, restoreOverview, restoreSupport, traceSupport } from "@/lib/graph-journey";
 import {
   computeGraphView,
   indexGraph,
+  resultCheckedInferenceIds,
   searchStatements,
   type ViewClusterNode,
   type ViewEdge,
@@ -65,13 +67,14 @@ const statusLabel = new Map(GRAPH_STATUSES.map((status) => [status.id, status.la
 
 const NODE_SIZE = {
   statement: { width: 280, height: 132 },
-  inference: { width: 190, height: 46 },
+  inference: { width: 190, height: 60 },
   negation: { width: 280, height: 132 },
   cluster: { width: 250, height: 104 },
 } as const;
 
-type FlowData = { view: ViewNode; selected: boolean; proof?: ProofOverlay } & Record<string, unknown>;
+type FlowData = { view: ViewNode; selected: boolean; proof?: ProofOverlay; resultChecked?: boolean; recordedDenial?: boolean } & Record<string, unknown>;
 type FlowNode = Node<FlowData>;
+type GraphUpdate = (patch: Partial<GraphState> | ((current: GraphState) => Partial<GraphState>), history?: "push" | "replace") => void;
 
 function StatementNodeView({ data }: NodeProps<FlowNode>) {
   const node = data.view as ViewStatementNode;
@@ -90,6 +93,7 @@ function StatementNodeView({ data }: NodeProps<FlowNode>) {
       data-frontier={statement.frontier}
       data-highlighted={node.highlighted}
       data-selected={data.selected}
+      data-recorded-denial={data.recordedDenial === true}
       data-status={statement.status}
     >
       <Handle position={Position.Bottom} type="target" />
@@ -105,6 +109,7 @@ function StatementNodeView({ data }: NodeProps<FlowNode>) {
             ? ` · frontier (${statement.frontierDepth}) · ${statement.transitiveDependentArguments} dependent`
             : ""}
         </span>
+        {data.recordedDenial ? <span className="graph-node-status">Recorded denial · not a refutation</span> : null}
         {data.proof?.forward || data.proof?.backward ? <span className="graph-node-status">{data.proof?.established ? "Forward established" : data.proof?.forward ? "Forward proposed" : "Backward required"}{data.proof?.junction ? " · proposed junction" : ""}{data.proof?.blocker ? " · branch blocker" : ""}</span> : null}
         <span className="graph-node-text">{statement.paraphrase}</span>
         <span className="graph-node-badges">
@@ -143,11 +148,12 @@ function InferenceNodeView({ data }: NodeProps<FlowNode>) {
       data-dimmed={!node.matched}
       data-highlighted={node.highlighted}
       data-selected={data.selected}
+      data-result-checked={data.resultChecked === true}
     >
       <Handle position={Position.Bottom} type="target" />
       <div className="graph-node-button" title={node.inference.meaning}>
-        <span aria-hidden="true">⊢ </span>
-        {node.inference.rule.replaceAll("_", " ")}
+        <span className="graph-node-status">{data.resultChecked ? "Result-checked step" : "Inference · no checked result"}</span>
+        <span><span aria-hidden="true">⊢ </span>{node.inference.rule.replaceAll("_", " ")}</span>
       </div>
       <Handle position={Position.Top} type="source" />
     </div>
@@ -205,8 +211,8 @@ const edgeStyle: Record<ViewEdge["kind"], React.CSSProperties> = {
   cluster: { stroke: "var(--line-strong)", strokeDasharray: "1 5" },
 };
 
-function nodeDescription(node: ViewNode) {
-  if (node.kind === "inference") { return `${node.inference.label ?? node.id}: ${node.inference.meaning}`; }
+function nodeDescription(node: ViewNode, checked: boolean) {
+  if (node.kind === "inference") { return `${node.inference.label ?? node.id}: ${node.inference.meaning}; ${checked ? "result-checked" : "no checked result"}`; }
   if (node.kind === "cluster") { return `${node.label}: ${node.size} statements`; }
   if (node.kind === "negation") { return `${node.paraphrase}; hypothetical negation, not a corpus statement`; }
   let status = String(node.statement.status);
@@ -240,6 +246,7 @@ export function PropositionGraphExplorer({
   const buckets = useGraphBuckets(manifest, state);
   const { graph, network } = buckets;
   const index = useMemo(() => indexGraph(graph), [graph]);
+  const resultCheckedIds = useMemo(() => resultCheckedInferenceIds(graph), [graph]);
   const compact = state.layout === "network" && (state.view === "all" || state.view === "local");
   // Hover emphasis is transient presentation state. It never changes the URL,
   // corpus relationships, or proof frontier.
@@ -265,13 +272,13 @@ export function PropositionGraphExplorer({
   const activeObligation = queue.find((item) => item.id === state.obligation);
   const search = useMemo(() => searchStatements(graph, state, 12, index), [graph, state, index]);
 
-  // Compose updates issued before the previous router.replace commits.
+  // Compose updates issued before the previous URL navigation commits.
   const pendingState = useRef<GraphState | null>(null);
   useEffect(() => {
     pendingState.current = null;
   }, [searchParams]);
   // Array-valued fields take a function of the pending state so rapid clicks compose.
-  const update = (patch: Partial<GraphState> | ((current: GraphState) => Partial<GraphState>)) => {
+  const update: GraphUpdate = (patch, history = "replace") => {
     const current = pendingState.current ?? state;
     const next = {
       ...current,
@@ -279,9 +286,9 @@ export function PropositionGraphExplorer({
     };
     pendingState.current = next;
     const query = serializeGraphState(next);
-    router.replace(query ? `${pathname}?${query}` : pathname, {
-      scroll: false,
-    });
+    const href = query ? `${pathname}?${query}` : pathname;
+    if (history === "push") router.push(href, { scroll: false });
+    else router.replace(href, { scroll: false });
   };
 
   // Facet counts over the whole corpus, summed from the bucket manifest.
@@ -325,6 +332,9 @@ export function PropositionGraphExplorer({
   const [measurements, setMeasurements] = useState<{ key: string; sizes: ReadonlyMap<string, { width: number; height: number }> }>({ key: "", sizes: new Map() });
   const measured = measurements.key === flowKey ? measurements.sizes : NO_MEASUREMENTS;
   const { nodes, edges } = useMemo(() => {
+    const recordedDenials = new Set(state.view === "dispute"
+      ? view.edges.filter((edge) => edge.kind === "opposition" && !edge.target.startsWith("negation:")).flatMap((edge) => [edge.source, edge.target])
+      : []);
     const hovered = compact && state.view === "local" && view.nodes.some((node) => node.id === hoveredId) ? hoveredId : "";
     const hoverNeighbors = new Set(hovered ? [hovered] : []);
     if (hovered) {
@@ -365,7 +375,7 @@ export function PropositionGraphExplorer({
     const flowNodes: FlowNode[] = view.nodes.map((node) => ({
       id: node.id,
       type: compact ? "marker" : node.kind,
-      ariaLabel: nodeDescription(node),
+      ariaLabel: nodeDescription(node, resultCheckedIds.has(node.id)),
       focusable: true,
       position: positions.get(node.id) ?? { x: 0, y: 0 },
       // Hand back React Flow's own measurement: a new node object without
@@ -380,6 +390,8 @@ export function PropositionGraphExplorer({
         hoverDimmed: Boolean(hovered) && !hoverNeighbors.has(node.id) && node.id !== state.sel,
         hoverNeighbor: Boolean(hovered) && hoverNeighbors.has(node.id),
         proof: overlay.get(node.id),
+        resultChecked: node.kind === "inference" && resultCheckedIds.has(node.id),
+        recordedDenial: node.kind === "statement" && node.id !== view.anchor && recordedDenials.has(node.id),
         community: network.community.get(node.id) ?? 0,
         degree: network.degree.get(node.id) ?? 0,
         emphasis: state.emphasis,
@@ -390,6 +402,7 @@ export function PropositionGraphExplorer({
     }));
     const flowEdges: Edge[] = view.edges.map((edge) => {
       const research = edge.kind === "relation" || edge.kind === "opposition";
+      const unchecked = !research && edge.kind !== "cluster" && !resultCheckedIds.has(edge.source) && !resultCheckedIds.has(edge.target);
       const boundary = !research && (frontierIds.has(edge.source) || frontierIds.has(edge.target) || frontierJunctions.has(edge.source) || frontierJunctions.has(edge.target));
       const emphasized = compact && state.emphasis === "frontier";
       const highlighted = edge.highlighted || relatedIds.has(edge.source) || relatedIds.has(edge.target);
@@ -408,7 +421,8 @@ export function PropositionGraphExplorer({
         label: compact ? undefined : edge.label,
         style: {
           ...edgeStyle[edge.kind],
-          stroke: emphasized && boundary ? "var(--status-open)" : edgeStyle[edge.kind].stroke,
+          stroke: unchecked ? "var(--line-strong)" : emphasized && boundary ? "var(--status-open)" : edgeStyle[edge.kind].stroke,
+          strokeDasharray: unchecked ? "3 5" : edgeStyle[edge.kind].strokeDasharray,
           opacity: hovered ? (incident ? 1 : 0.08) : compact ? (research ? 0.55 : emphasized && !boundary ? 0.18 : 0.72) : 1,
           strokeWidth: incident || highlighted ? 2.5 : compact ? 1.1 : 1.25,
         },
@@ -418,7 +432,7 @@ export function PropositionGraphExplorer({
       };
     });
     return { nodes: flowNodes, edges: flowEdges };
-  }, [view, state.sel, state.emphasis, state.relations, state.view, hoveredId, activeObligation, graph.arguments, graph.statements, graph.inferences, graph.relations, compact, network, index, overlay, measured]);
+  }, [view, state.sel, state.emphasis, state.relations, state.view, hoveredId, activeObligation, graph.arguments, graph.statements, graph.inferences, graph.relations, compact, network, index, overlay, measured, resultCheckedIds]);
   const onNodesChange = (changes: NodeChange<FlowNode>[]) => {
     const sizes = changes.flatMap((change) => (change.type === "dimensions" && change.dimensions ? [{ id: change.id, size: change.dimensions }] : []));
     if (!sizes.length) return;
@@ -461,6 +475,7 @@ export function PropositionGraphExplorer({
   const defaultTarget = graph.defaultTarget ?? "";
   const target = state.target || defaultTarget;
   const stageTargets = graph.stageConclusions.filter(({ statementId }) => index.statementById.has(statementId));
+  const supportBack = restoreSupport(state);
 
   return (
     <section aria-labelledby="graph-heading" className={proofStyles.overlay}>
@@ -472,10 +487,11 @@ export function PropositionGraphExplorer({
 
       <div className="frontier-primary-controls">
         <div className="graph-segmented" role="group" aria-label="Graph scope">
-          <button aria-pressed={state.scope === "global" && state.view === "all"} onClick={() => update({ scope: "global", view: "all", viewport: "" })} type="button">Global frontier</button>
-          <button aria-pressed={state.scope === "goal" && state.view === "root"} onClick={() => update({ scope: "goal", view: "root", viewport: "", target: state.sel && index.statementById.has(state.sel) ? state.sel : target })} type="button">Selected goal frontier</button>
-          <button aria-pressed={state.view === "local"} disabled={!index.statementById.has(state.sel) && !index.inferenceById.has(state.sel)} onClick={() => update({ view: "local", layout: "network", node: state.sel, scope: "global", viewport: "", returnView: state.returnView || serializeGraphState({ ...state, returnView: "" }) })} title="Select a proposition dot to explore its neighborhood" type="button">Local graph</button>
-          <button aria-pressed={state.view === "dispute"} disabled={!index.statementById.has(state.sel)} onClick={() => update({ view: "dispute", layout: "network", node: state.sel, scope: "global", viewport: "", returnView: state.returnView || serializeGraphState({ ...state, returnView: "" }) })} title="Compare the selected proposition with its recorded denial or hypothetical negation" type="button">P versus ¬P</button>
+          <button aria-pressed={state.scope === "global" && state.view === "all"} onClick={() => update({ scope: "global", view: "all", viewport: "", returnView: "", supportView: "" }, "push")} type="button">Global frontier</button>
+          <button aria-pressed={state.scope === "goal" && state.view === "root"} onClick={() => update({ scope: "goal", view: "root", viewport: "", target: state.sel && index.statementById.has(state.sel) ? state.sel : target, returnView: "", supportView: "" }, "push")} type="button">Selected goal frontier</button>
+          <button aria-pressed={state.view === "focus" && state.dir === "down"} disabled={!index.statementById.has(state.sel)} onClick={() => update((current) => traceSupport(current, current.sel), "push")} title="Show alternative supporting arguments (OR), each with every required premise (AND)" type="button">Trace support</button>
+          <button aria-pressed={state.view === "local"} disabled={!index.statementById.has(state.sel) && !index.inferenceById.has(state.sel)} onClick={() => update((current) => ({ view: "local", layout: "network", node: current.sel, viewport: "", supportView: "", returnView: current.returnView || serializeGraphState({ ...current, returnView: "", supportView: "" }) }), "push")} title="Select a proposition dot to explore its neighborhood" type="button">Local graph</button>
+          <button aria-pressed={state.view === "dispute"} disabled={!index.statementById.has(state.sel)} onClick={() => update((current) => inspectDispute(current, current.sel), "push")} title="Compare the selected proposition with its recorded denial or hypothetical negation" type="button">P versus ¬P</button>
         </div>
         <div className="graph-segmented" role="group" aria-label="Layout">
           {state.view === "dispute" ? (
@@ -497,10 +513,18 @@ export function PropositionGraphExplorer({
             </select>
           </label>
         ) : null}
+        {state.view === "focus" && state.dir === "down" ? (
+          <label className="field-label frontier-depth">Support depth
+            <select className="field-control" value={state.hops} onChange={(event) => update({ hops: Number(event.target.value), viewport: "" })}>
+              {Array.from({ length: MAX_HOPS + 1 }, (_, depth) => <option key={depth} value={depth}>{depth} {depth === 1 ? "step" : "steps"}</option>)}
+            </select>
+          </label>
+        ) : null}
         <button className="graph-button frontier-emphasis-button" type="button" aria-pressed={state.emphasis === "frontier"} onClick={() => update({ emphasis: state.emphasis === "frontier" ? "all" : "frontier" })}>
           {state.emphasis === "frontier" ? "Frontier highlighted" : "Show all equally"}
         </button>
-        {state.returnView ? <button className="graph-button" type="button" onClick={() => update({ ...parseGraphState(new URLSearchParams(state.returnView)), returnView: "" })}>Return to overview</button> : null}
+        {supportBack ? <button className="graph-button" type="button" onClick={() => update((current) => restoreSupport(current) ?? {}, "push")}>Back to support</button> : null}
+        {state.returnView ? <button className="graph-button" type="button" onClick={() => update((current) => restoreOverview(current), "push")}>Return to overview</button> : null}
       </div>
 
       <details className="frontier-advanced">
@@ -532,20 +556,17 @@ export function PropositionGraphExplorer({
             <button
               aria-pressed={state.view === id}
               key={id}
-              onClick={() =>
-                update({
+              onClick={() => update((current) => {
+                if (id === "dispute" && index.statementById.has(current.sel)) return inspectDispute(current, current.sel);
+                const focusMode = id === "focus" || id === "local" || id === "dispute";
+                return {
                   view: id,
-                  ...((id === "focus" || id === "local" || id === "dispute") && state.view !== id
-                    ? {
-                        returnView: serializeGraphState({
-                          ...state,
-                          returnView: "",
-                        }),
-                        viewport: "",
-                      }
+                  supportView: "",
+                  ...(focusMode && current.view !== id
+                    ? { returnView: current.returnView || serializeGraphState({ ...current, returnView: "", supportView: "" }), viewport: "" }
                     : {}),
-                })
-              }
+                };
+              }, "push")}
               type="button"
             >
               {label}
@@ -816,9 +837,10 @@ export function PropositionGraphExplorer({
                         view: "focus",
                         node: statement.id,
                         sel: statement.id,
-                        returnView: state.returnView || serializeGraphState({ ...state, returnView: "" }),
+                        returnView: state.returnView || serializeGraphState({ ...state, returnView: "", supportView: "" }),
+                        supportView: "",
                         viewport: "",
-                      })
+                      }, "push")
                     }
                     type="button"
                   >
@@ -831,7 +853,9 @@ export function PropositionGraphExplorer({
                         view: "root",
                         target: statement.id,
                         sel: statement.id,
-                      })
+                        viewport: "",
+                        supportView: "",
+                      }, "push")
                     }
                     type="button"
                   >
@@ -876,7 +900,7 @@ export function PropositionGraphExplorer({
         {compact && state.view === "all" ? `${network.componentCount} inference-only components, ${network.layoutComponentCount} research-connected islands; ${graph.relations.length} recorded research links in the loaded buckets. ` : ""}
         {compact && state.view === "all" && !state.showIsolated && !hasFilters(state) ? "Singletons (readings without an inference or research link) hidden; show them under More views and filters. " : ""}
         {state.view === "local" ? `Local neighborhood: ${state.hops} ${state.hops === 1 ? "hop" : "hops"} from ${view.anchor}. ` : ""}
-        {state.view === "dispute" ? `Dispute around ${view.anchor}: a recorded denial where available, otherwise an unasserted hypothetical ¬P; distance expresses opposition, not truth or evidence. ` : ""}
+        {state.view === "dispute" ? `Dispute around ${view.anchor}: ${view.nodes.some((node) => node.kind === "negation") ? "hypothetical ¬P is not a recorded proposition" : "recorded denial is a distinct corpus proposition, not a verified refutation"}; distance expresses opposition, not truth or evidential strength. ` : ""}
         {view.message ? `${view.message} ` : ""}
         {view.statementCount} of {manifest.totals.statements} statements ({manifest.totals.statements - view.statementCount} outside view), {view.nodes.filter((node) => node.kind === "inference").length} inference applications, {view.nodes.filter((node) => node.kind === "statement" && !node.matched).length} dimmed/context statements, {view.frontierCount} open premises (frontier) in view
         {view.truncated ? `; ${view.truncated} further statements not shown (narrow with hops or filters)` : ""}.
@@ -895,8 +919,10 @@ export function PropositionGraphExplorer({
               <span><i className="frontier-key-dot frontier-key-established" /> Established</span>
               <span><i className="frontier-key-dot frontier-key-conditional" /> Conditional</span>
               <span><i className="frontier-key-dot frontier-key-other" /> Other proposition</span>
+              <span><i className="frontier-key-checked" /> Result-checked inference</span>
+              <span><i className="frontier-key-unchecked" /> No checked result</span>
               {state.relations ? <span><i className="frontier-key-relation" /> Research link · not proof</span> : null}
-              {state.view === "dispute" ? <span><i className="frontier-key-opposition" /> Logical opposite · not proof</span> : null}
+              {state.view === "dispute" ? <span><i className="frontier-key-opposition" /> Denial / hypothetical ¬P · not refutation</span> : null}
             </div>
             {/* Mount the canvas once the needed buckets are in: a canvas remounted
                 while data streams in can keep nodes unmeasured (hidden). */}
@@ -939,7 +965,7 @@ export function PropositionGraphExplorer({
         </div>
       </div>
       <ProofExplorationControls graph={graph} target={proofTarget} state={state} start={(next) => update(next)} hide={() => update({ explore: false })} />
-      {state.explore ? <ProofExplorationPanel graph={graph} result={visibleProof} running={proof.running} onCancel={proof.cancel} onFocus={(id) => update({ view: "focus", node: id, sel: id, viewport: "", returnView: state.returnView || serializeGraphState({ ...state, returnView: "" }) })} /> : null}
+      {state.explore ? <ProofExplorationPanel graph={graph} result={visibleProof} running={proof.running} onCancel={proof.cancel} onFocus={(id) => update({ view: "focus", node: id, sel: id, viewport: "", returnView: state.returnView || serializeGraphState({ ...state, returnView: "", supportView: "" }), supportView: "" }, "push")} /> : null}
     </section>
   );
 }
@@ -1002,7 +1028,7 @@ function DetailPanel({
   network: LoadedNetwork;
   index: ReturnType<typeof indexGraph>;
   state: GraphState;
-  update: (patch: Partial<GraphState> | ((current: GraphState) => Partial<GraphState>)) => void;
+  update: GraphUpdate;
 }) {
   const statement = index.statementById.get(state.sel);
   const inference = index.inferenceById.get(state.sel);
@@ -1115,9 +1141,10 @@ function DetailPanel({
               update({
                 view: "focus",
                 node: inference.id,
-                returnView: state.returnView || serializeGraphState({ ...state, returnView: "" }),
+                returnView: state.returnView || serializeGraphState({ ...state, returnView: "", supportView: "" }),
+                supportView: "",
                 viewport: "",
-              })
+              }, "push")
             }
             type="button"
           >
@@ -1154,35 +1181,36 @@ function DetailPanel({
         </Link>
       </div>
       <div className="mt-4 flex flex-wrap gap-2">
+        <button className="graph-button" onClick={() => update((state) => traceSupport(state, current.id), "push")} type="button">
+          Trace support
+        </button>
         <button
           className="graph-button"
-          onClick={() => update({
-            view: "local", layout: "network", node: current.id, scope: "global", viewport: "",
-            returnView: state.returnView || serializeGraphState({ ...state, returnView: "" }),
-          })}
+          onClick={() => update((state) => ({
+            view: "local", layout: "network", node: current.id, viewport: "", supportView: "",
+            returnView: state.returnView || serializeGraphState({ ...state, returnView: "", supportView: "" }),
+          }), "push")}
           type="button"
         >
           Local graph
         </button>
-        <button className="graph-button" onClick={() => update({
-          view: "dispute", layout: "network", node: current.id, scope: "global", viewport: "",
-          returnView: state.returnView || serializeGraphState({ ...state, returnView: "" }),
-        })} type="button">P versus ¬P</button>
+        <button className="graph-button" onClick={() => update((state) => inspectDispute(state, current.id), "push")} type="button">P versus ¬P</button>
         <button
           className="graph-button"
           onClick={() =>
             update({
               view: "focus",
               node: current.id,
-              returnView: state.returnView || serializeGraphState({ ...state, returnView: "" }),
+              returnView: state.returnView || serializeGraphState({ ...state, returnView: "", supportView: "" }),
+              supportView: "",
               viewport: "",
-            })
+            }, "push")
           }
           type="button"
         >
           Focus here
         </button>
-        <button className="graph-button" onClick={() => update({ view: "root", target: current.id })} type="button">
+        <button className="graph-button" onClick={() => update({ view: "root", target: current.id, viewport: "", supportView: "" }, "push")} type="button">
           Paths into this
         </button>
       </div>
