@@ -1,0 +1,12 @@
+{
+  "id": "d8024a38-5d93-4c1d-8c21-fdbfa87a5cde",
+  "label": "Whatever is in act in being and in POTENCY_2 in some respect is composite",
+  "paraphrase": "Open premise, analyst formulation, unattributed: whatever is in act in the respect of being and in potency in some respect is composite. The instance at the respect of being of 'whatever is in act in some respect and in POTENCY_2 in some respect is composite' (3d99779b), which strictly strengthens it; given that whatever is in act in some respect is in act in being (STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING) the two are equivalent. InPotency is the free POTENCY_2 parameter; Composite is the inclusive SIMPLE_4 sense.",
+  "lean_declaration": "TruthCore.Causality.ActPriorityThetaEight.ActInBeingAndPotencyMakeComposite",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "3ea2762f-1a85-5059-b4e7-d29f192b16b6",
+    "85f7f569-ab4d-514b-aa2c-cf75171ad105",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
+  ]
+}

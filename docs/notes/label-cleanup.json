@@ -35400,16 +35400,6 @@
  },
  {
   "kind": "definition",
-  "id": "051fe0e7-e842-5581-870a-e3bc00aeaf9c",
-  "legacy_id": "DEF-INCORRUPTIBLE-SIMPLY",
-  "label": "INCORRUPTIBLE_SIMPLY_1; sempiternal in…: IncorruptibleSimply CanFailToBe esse x: x cannot fail to…",
-  "flags": [
-   "ids-replaced",
-   "truncated"
-  ]
- },
- {
-  "kind": "definition",
   "id": "bd3d37ae-a319-53df-ab69-5f8bea97dd31",
   "legacy_id": "DEF-INCREASING-EXISTENCE-DOMAINS",
   "label": "INCREASING_EXISTENCE_DOMAINS_2: Along every accessibility edge w→v, each candidate existing at w…",
