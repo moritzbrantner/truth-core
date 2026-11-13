@@ -15,7 +15,7 @@ its existence are not interchangeable without a bridge.
 | --- | --- | --- | --- |
 | A: modal necessity | Does **this being** exist at every world accessible from the selected world? | `NecessaryAt m w x` in `German/Kant/CosmologicalInference` | Defined; modal scope is frame-relative. |
 | B: own essential existence | Is **this being's existence fact** included in **its own nature**? | `OwnEssentialExistence p x` in `Explanation/EssenceReasonSeparation` | Analyst primitive `InEssence x (.fact x)`; essence semantics deliberately open. |
-| C: sufficient intrinsic explanation | Does this being's nature adequately explain **why its existence fact obtains**? | Existing `ExistencePSR.Reason.intrinsic` and `CandidateIntrinsicReason p w x` | Only a *candidate token* and an `explains` assignment; sufficiency of an essence-based explanation not established. |
+| C: sufficient intrinsic explanation | Does this being's nature adequately explain **why its existence fact obtains**? | Existing `ExistencePSR.Reason.intrinsic` and `CandidateIntrinsicReason p w x`; modal-sufficiency analogue `BruteFoundationExplanations.NecessitatesExistenceAt` | A *candidate token* and `explains` assignment do not prove adequacy; necessitation is a separately defined stronger condition, not by itself complete metaphysical explanation. |
 | D: existential underivedness | Is **this being's existence** unsupported by distinct prior bearers (under a specified support relation)? | `NoExistingSupportAt`, `ActualUnderivedEssenceIdentity` in `Causality/ActualUnderivedEssenceEsse` | Typed, but dependent on the chosen support relation and selected-world / all-world quantifiers. |
 | E: essence–esse identity | Is a bearer's *essence of* and *act of existence of* represented by the same actuality? | `p.esseOf n = p.essenceOf n` in `Causality/ActualUnderivedEssenceEsse` | Defined in an explicit Thomistic profile; not synonymous by definition with A–D. |
 
@@ -34,6 +34,11 @@ its existence are not interchangeable without a bridge.
    essence explains the actuality of its bearer. The precise bridge under
    investigation is `OwnEssentialExistence → AdequateIntrinsicExplanation`,
    where the consequent needs an adequacy criterion distinct from a token.
+   Reuse `BruteFoundationExplanations.NecessitatesExistenceAt` as the **modal
+   sufficiency test** rather than inventing another. Its existing theorem
+   `necessaryReasonAndNecessitation` already proves that a reason necessary
+   across the frame *and* sufficient in this sense entails A; neither
+   premise follows from essence membership alone.
 3. **B and modal dependence have different subjects of attribution.**
    `EssenceRequiresExistence p x y` means the nature of **x** requires the
    existence of **y**. `ModalRequiresExistence p w x y` means that in every
@@ -78,9 +83,12 @@ of existential underivedness.
 **Next work, tied to the God-existence route:** reconstruct the corpus bridge
 `STMT-NECESSARY-GROUND-HAS-INTRINSIC-REASON` (issue #319), and the
 independence/priority usage identified in #1595. Formulate a typed
-`AdequateIntrinsicExplanation` for existence facts, then investigate the
-conditions under which **B** plus modal-essence realization yields **A**, or
-under which **E** plus an essential-reason principle yields **C**. Preserve
+source-indexed connection from a being's **nature** to its reason token,
+**reusing** `BruteFoundationExplanations.NecessitatesExistenceAt` for the
+necessitating component; do not assume that modal sufficiency alone exhausts
+adequacy. Investigate the conditions under which **B** plus modal-essence
+realization yields **A**, or **E** plus an essential-reason principle yields
+**C**. Preserve
 each bridge as an open premise until its semantic and argumentative warrant
 is established; rerun the support formula after changing any route.
 
