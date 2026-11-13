@@ -58879,15 +58879,6 @@
  },
  {
   "kind": "relation",
-  "id": "a436e461-c577-5581-8b29-0d62618167f0",
-  "legacy_id": "REL-NECESSARY-ROOT-ACTUALIST-K-STRENGTHENS-BOX-K",
-  "label": "Necessary-being node, actualist K… strengthens Necessary-being node, possibilist K…",
-  "flags": [
-   "truncated"
-  ]
- },
- {
-  "kind": "relation",
   "id": "811c894c-747f-5d46-82c0-809991d454e9",
   "legacy_id": "REL-NECESSARY-ROOT-BOX-K-STRENGTHENS-TERTIA-VIA",
   "label": "Necessary-being node, possibilist K… strengthens NECESSARY_1-being node, tertia via…",

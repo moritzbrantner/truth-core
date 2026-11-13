@@ -1,0 +1,11 @@
+{
+  "id": "eece2649-7aec-4cf0-8fd5-0448e319957f",
+  "label": "Distinct-cause principle strengthens alternative causes for self-causing generated things",
+  "subject_kind": "statement",
+  "subject_id": "9709d14f-1324-58f1-8889-1110881c5b44",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "5c2aeb5a-042c-5fd6-999c-10ac39de6834",
+  "verification_result_id": "0e49c8cc-b290-5a0f-b16d-b4ed0f734a1f",
+  "note": "Strength registration (2026-11-12 audit): Domain restriction: the same principle for generated things that cause themselves (the delta_forward of strength comparison 40fac375)."
+}

@@ -36,7 +36,7 @@ Flagged labels per kind:
 - inference: 1394
 - model: 64
 - passage: 70
-- relation: 534
+- relation: 533
 - result: 75
 - source: 9
 - statement: 2575

@@ -7,7 +7,7 @@
   ],
   "output_statement_id": "cdf897a8-5490-561a-b9d2-507486a3f192",
   "rule": "Conjunction elimination",
-  "meaning": "Strength registration: the actualist K node implies the possibilist K node (drop the actual-existence clause).",
+  "meaning": "The actualist K node implies the possibilist K node (drop the actual-existence clause). With the converse this direction makes the two nodes logically equivalent (a logically_equivalent_to relation, 2026-11-12), so it is not registered as a strength order.",
   "assumption_statement_ids": [],
   "discharged_statement_ids": []
 }
