@@ -18,6 +18,7 @@ public import TruthCore.Explanation.EmptyHistoryCausalAvailability
 public import TruthCore.Explanation.EmptyHistoryCountControl
 public import TruthCore.Explanation.EmptyTruthmaker
 public import TruthCore.Explanation.EmptyTruthmakerReplies
+public import TruthCore.Explanation.EssenceReasonSeparation
 public import TruthCore.Explanation.ExistenceIngredient
 public import TruthCore.Explanation.ExistencePSR
 public import TruthCore.Explanation.ExplanatoryAdequacy

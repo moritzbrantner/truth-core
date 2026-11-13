@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.EssenceReasonSeparation.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.EssenceReasonSeparation.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.EssenceReasonSeparation.checks"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

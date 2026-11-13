@@ -1,0 +1,19 @@
+{
+  "id": "f98a1549-b2c6-4e71-aa22-d18dc795bb56",
+  "label": "Finite separation of own-essence membership and intrinsic explanation",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "a0c71215-734a-486f-9ce5-ead61d1b0aa0",
+  "inference_ids": [
+    "f2b592e3-1a23-467d-aeb0-160bc61ed7a6"
+  ],
+  "meaning": "A verified finite-model distinction of essential existence, explanation of existence by an intrinsic reason token, and modal co-requirement. The controls identify which bridge hypotheses the God-existence program needs; they do not refute their metaphysical applicability or claim intrinsic adequacy. Root-facing next step: test a nonvacuous nature-to-intrinsic-reason bridge for STMT-NECESSARY-GROUND-HAS-INTRINSIC-REASON in #1595 and compare it with the existing underived essence-esse route #319.",
+  "definition_ids": [
+    "0b1d99d6-f96b-4a07-90d1-c3fc5c5946bb",
+    "61b2ea45-ab9d-537f-b43f-b9208c15a362",
+    "d21ae4c5-8030-53b4-ae8f-48041355865c",
+    "fcb346d7-ddd2-50bb-a7c2-3d79d41b8eae"
+  ],
+  "disambiguation_ids": [
+    "13843b8b-4ef3-500e-949d-27e78b9dfaf9"
+  ]
+}

@@ -1,0 +1,19 @@
+[batch]
+vocab = "TruthCore.Explanation.EssenceReasonSeparation"
+results = "TruthCore.Results.Explanation.EssenceReasonSeparation"
+
+[[statement]]
+id = "Essential existence and intrinsic explanation separate in typed finite controls"
+lean = "SeparationControls"
+paraphrase = "Two actual necessarily existing individuals witness each direction of non-entailment between own-essence membership of an existence fact and assignment of a sound candidate intrinsic reason for that fact. In a third all-existing two-being profile, the modal existence-requirement relation holds both ways while the nature of false requires true's existence but the nature of true does not require false's; the causal edges in both directions are absent. These finite analyst interpretations distinguish three explicit meanings, not the metaphysical possibility of the models, the adequacy of intrinsic explanation, or the truth of a necessary-being thesis."
+definitions = ["0b1d99d6-f96b-4a07-90d1-c3fc5c5946bb", "fcb346d7-ddd2-50bb-a7c2-3d79d41b8eae", "d21ae4c5-8030-53b4-ae8f-48041355865c", "61b2ea45-ab9d-537f-b43f-b9208c15a362"]
+disambiguations = ["13843b8b-4ef3-500e-949d-27e78b9dfaf9"]
+
+[[argument]]
+id = "Finite separation of own-essence membership and intrinsic explanation"
+theorem = "checks"
+premises = []
+axioms = []
+conclusion = "Essential existence and intrinsic explanation separate in typed finite controls"
+rule = "Explicit finite same-domain models with sound candidate explanations and essence-indexed existence facts"
+meaning = "A verified finite-model distinction of essential existence, explanation of existence by an intrinsic reason token, and modal co-requirement. The controls identify which bridge hypotheses the God-existence program needs; they do not refute their metaphysical applicability or claim intrinsic adequacy. Root-facing next step: test a nonvacuous nature-to-intrinsic-reason bridge for STMT-NECESSARY-GROUND-HAS-INTRINSIC-REASON in #1595 and compare it with the existing underived essence-esse route #319."
