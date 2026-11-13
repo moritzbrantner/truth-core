@@ -25,7 +25,7 @@ theorem nonmutualDependenceFromStrictGround {B Atom : Type}
 
 /-- Both interpretation and consistency are necessary to draw the conditional
 conclusion: each omitted input has a populated counterinterpretation. -/
-theorem controls : Control.Certificate := by
+theorem controls : TruthCore.Causality.DependenceStrictGroundMap.Control.Certificate := by
   sorry
 
 end TruthCore.Results.Causality.DependenceStrictGroundMap
