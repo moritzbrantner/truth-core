@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useState } from "react";
 import type { GraphState } from "@/lib/graph-state";
 import type { ResearchObligation } from "@/lib/research-frontier";
 
@@ -10,10 +11,32 @@ type Props = {
   state: GraphState;
   select: (item: ResearchObligation) => void;
   update: (patch: Partial<GraphState> | ((current: GraphState) => Partial<GraphState>)) => void;
+  /** Obligations listed even beyond the initial window, such as a proposed lemma. */
+  keep?: readonly string[];
 };
 
-export function ResearchQueue({ items, selected, state, select, update }: Props) {
+/**
+ * Obligations listed before "Show all". The global queue holds thousands of
+ * items; mounting all of them on every graph transition dominated the page's
+ * render and layout cost (#1377). Pinned, selected, kept and selected-node
+ * related obligations are always listed, so the window hides no item the
+ * current state points at.
+ */
+export const QUEUE_WINDOW = 100;
+
+export function ResearchQueue({ items, selected, state, select, update, keep = [] }: Props) {
   const related = items.filter((item) => item.statementIds.includes(state.sel));
+  const [showAll, setShowAll] = useState(false);
+  const listed = showAll || items.length <= QUEUE_WINDOW
+    ? items
+    : items.filter(
+        (item, position) =>
+          position < QUEUE_WINDOW ||
+          item.id === state.obligation ||
+          state.pins.includes(item.id) ||
+          keep.includes(item.id) ||
+          item.statementIds.includes(state.sel),
+      );
   return (
     <aside className="research-queue" aria-label="Research obligations">
       <div className="flex items-center justify-between gap-2">
@@ -41,7 +64,7 @@ export function ResearchQueue({ items, selected, state, select, update }: Props)
         </p>
       ) : null}
       <ol className="research-items mt-3">
-        {items.map((item) => (
+        {listed.map((item) => (
           <li
             key={item.id}
             data-related={item.statementIds.includes(state.sel)}
@@ -76,6 +99,11 @@ export function ResearchQueue({ items, selected, state, select, update }: Props)
           </li>
         ))}
       </ol>
+      {items.length > QUEUE_WINDOW ? (
+        <button className="graph-link-button mt-2 text-sm" type="button" aria-expanded={showAll} onClick={() => setShowAll((current) => !current)}>
+          {showAll ? `Show the first ${QUEUE_WINDOW} obligations` : `Show all ${items.length} obligations`}
+        </button>
+      ) : null}
       {!items.length ? (
         <p className="mt-3 text-sm">
           No recorded obligations in this scope. Return to global or choose another goal. Missing records do not prove

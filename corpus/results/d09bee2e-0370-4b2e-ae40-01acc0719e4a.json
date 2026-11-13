@@ -1,0 +1,11 @@
+{
+  "id": "d09bee2e-0370-4b2e-ae40-01acc0719e4a",
+  "label": "More such carries distinct-cause transfer",
+  "argument_id": "9e7de16d-23d9-46bc-a9cc-ce724a7a0274",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.PreexistenceWithoutTransfer.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.PreexistenceWithoutTransfer.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.PreexistenceWithoutTransfer.distinctCauseGivesOfMoreSuch",
+  "comparator_config": "results/d09bee2e-0370-4b2e-ae40-01acc0719e4a/comparator.json",
+  "status": "solution-present",
+  "description": "A distinct cause of r in x is more r than x, and whatever is more r than something is r, so it is in act in r. Any route using 'more such' at an arbitrary perfection together with c11369aa is committed to distinct-cause transfer; conversely transfer with the reception bundle suffices for 'more such'. Each premise is needed in a checked interpretation (omission models). Conditional consequence only; no premise is established."
+}
