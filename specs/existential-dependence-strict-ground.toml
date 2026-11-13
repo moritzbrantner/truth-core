@@ -1,0 +1,35 @@
+[batch]
+vocab = "TruthCore.Causality.DependenceStrictGroundMap"
+results = "TruthCore.Results.Causality.DependenceStrictGroundMap"
+definitions = ["DEF-DEPENDS-FOR-BEING", "DEF-FINE-PLG-DERIVABILITY", "DEF-FINE-PLG-STRICT-PARTIAL-GROUND"]
+
+[[statement]]
+id = "Selected existential dependence has a consistent PLG interpretation"
+lean = "TruthCore.Modern.Fine.PureLogicOfGround.Consistent"
+paraphrase = "OPEN framework premise: the selected PLG set of sequents is consistent, in the exact syntactic sense that at least one sequent is not derivable. This does not follow from having a source or an intended metaphysical reading."
+
+[[statement]]
+id = "Distinct existential dependence maps to strict grounding of existence facts"
+lean = "DependenceMapsToStrictExistenceGround"
+paraphrase = "OPEN interpretive premise: for each ordered pair of distinct beings, an existing dependence-for-being edge is represented by a derivable Fine strict partial ground from the existence fact of the source to the existence fact of the dependent. The map does not follow from mere counterfactual co-existence, is not reflexive, and does not identify beings with their existence facts."
+
+[[statement]]
+id = "Existential grounding interpretation omission controls"
+lean = "Control.Certificate"
+paraphrase = "Mathematical controls: a universal PLG theory admits full symmetric dependence-to-ground mapping when consistency is omitted; a separately established consistent PLG theory coexists with symmetric dependence when the interpretation map is omitted. Both use the distinct Boolean beings true and false."
+
+[[argument]]
+id = "Nonmutual existential dependence from consistent strict grounding of existence facts"
+theorem = "nonmutualDependenceFromStrictGround"
+premises = ["Selected existential dependence has a consistent PLG interpretation", "Distinct existential dependence maps to strict grounding of existence facts"]
+conclusion = "STMT-DISTINCT-BEINGS-NOT-MUTUALLY-DEPENDENT"
+rule = "Reuse Fine strict-grounding transitivity and irreflexivity to exclude reverse dependence"
+meaning = "A genuine new conditional support option for the previously open distinct-being asymmetry claim: with a consistent PLG theory and a faithful strict-grounding interpretation of existential dependence edges, reversal yields a strict self-ground and inconsistency. Both input commitments remain open; the existing counterfactual dependence relation is not redefined or automatically a strict ground. This does not establish universal asymmetry, only the result under the selected interpretive configuration."
+
+[[argument]]
+id = "Mutual-dependence omission controls for strict-grounding interpretation"
+theorem = "controls"
+premises = []
+conclusion = "Existential grounding interpretation omission controls"
+rule = "Populated Boolean dependence counterinterpretations, with and without PLG consistency"
+meaning = "Omitting consistency permits all sequents; omitting the mapping leaves counterfactual dependence unconstrained even alongside a consistent Fine theory. This prevents the result from being misreported as a theorem about arbitrary dependence or intrinsic metaphysical priority."

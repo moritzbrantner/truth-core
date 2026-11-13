@@ -1,0 +1,6 @@
+{
+  "id": "fea5942a-b50c-4299-a5fe-80a5c2b8c0a9",
+  "label": "Selected existential dependence has a consistent PLG interpretation",
+  "paraphrase": "OPEN framework premise: the selected PLG set of sequents is consistent, in the exact syntactic sense that at least one sequent is not derivable. This does not follow from having a source or an intended metaphysical reading.",
+  "lean_declaration": "TruthCore.Modern.Fine.PureLogicOfGround.Consistent"
+}

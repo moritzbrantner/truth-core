@@ -1,0 +1,6 @@
+{
+  "id": "42756c07-03cd-4b54-8ed6-ed6c1a5132aa",
+  "label": "Distinct existential dependence maps to strict grounding of existence facts",
+  "paraphrase": "OPEN interpretive premise: for each ordered pair of distinct beings, an existing dependence-for-being edge is represented by a derivable Fine strict partial ground from the existence fact of the source to the existence fact of the dependent. The map does not follow from mere counterfactual co-existence, is not reflexive, and does not identify beings with their existence facts.",
+  "lean_declaration": "TruthCore.Causality.DependenceStrictGroundMap.DependenceMapsToStrictExistenceGround"
+}
