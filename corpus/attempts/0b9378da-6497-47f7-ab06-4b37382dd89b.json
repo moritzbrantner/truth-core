@@ -1,0 +1,20 @@
+{
+  "id": "0b9378da-6497-47f7-ab06-4b37382dd89b",
+  "label": "Privation as apt-subject absence gains direct source and conceptual support",
+  "statement_ids": [
+    "7c3da33e-7ead-54f8-aace-ed3cf3a7bb02"
+  ],
+  "date": "2026-11-13",
+  "kind": "reading",
+  "outcome": "succeeded",
+  "summary": "At baseline 03d97b48a86d4b7d7bbedcb4441398ce3a9dadef, read the existing broad apt-subject privation definition and the target's exact conditional biconditional. The materialized Aristotle texts and live Aquinas De principiis naturae 1-2 supply positive support: generation concerns an eligible subject's missing form, and Aquinas explicitly identifies non-actuality as privation while distinguishing privation from arbitrary negation. Exact analyst route: Deprived iff Apt and not InAct, together with CanBe implies Apt, yields the existing target constructively. Apt is explanatory notation only; no new definition or theorem was registered. Categories 10 (12a26-b5, 13a3-18) and Metaphysics V.22 (1022b22-1023a7) identify narrower natural-stage/possession senses, which do not overturn or silently restrict the existing broad sense. The difference between visual faculty and present seeing is retained. Practical competence/acquisition evidence supports the capacity/act distinction defeasibly; no experiment or universal empirical proof is claimed. No substantive objection to Q in the selected identical subject/respect/context was identified; Boolean omission controls concern free predicates and are not real counterexamples. The proposed judgment favors the selected conceptual reading while keeping generic applicability and source-attribution boundaries explicit. Precise source URLs, passages, reuse results, assumptions and strengthening tests are persisted in docs/notes/potency-privation-support-investigation.md. No premise closure or source claim changed.",
+  "evidence": [
+    "388eb17b-ee62-5010-82f6-82f94402dc1f",
+    "4eb6f90c-55cd-59bd-8a25-48f9e09196a2",
+    "2f6d414c-c6f0-5960-809d-5a98f9858d27",
+    "b5453aa4-3390-5878-9836-91ff6c8c0492",
+    "b39f5282-fa9a-5433-a9ef-eebcac297295",
+    "b9c3f090-3bf2-5c96-ae3e-c18a1d63cd3b"
+  ],
+  "blocker": "A corpus attribution to the newly read De principiis naturae passage would need a materialized witness under existing source rules; its actual live reading and exact locators are already preserved in the note. A stricter due-now privation sense would require a CanBe-to-due-now bridge before replacing this target. Formalizing the proposed apt-subject route also requires coordinated vocabulary and the unavailable verification setup."
+}

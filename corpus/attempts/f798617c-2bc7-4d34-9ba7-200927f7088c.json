@@ -1,0 +1,17 @@
+{
+  "id": "f798617c-2bc7-4d34-9ba7-200927f7088c",
+  "label": "Dependence exclusion through essential source persistence",
+  "date": "2026-11-13",
+  "statement_ids": [
+    "000e1f65-6e74-5519-bbf3-300d5f61ada8"
+  ],
+  "kind": "derivation",
+  "outcome": "blocked",
+  "summary": "Reviewed the frozen counterfactual DependsForBeing and real-possibility CanBeWithout senses using related/dossier and inspected the existing consuming arguments. Materialized and read q44 a1, q104 a1, and In V Metaphysics lect13. Preserved direct prima facie warrant for an essential existential prerequisite without identifying all counterfactual dependence with modal necessity. Draft P1-A in docs/notes/causal-dependence-support-investigation.md specifies a possibility-witness interface, persistence of the same dependency wherever its bearer exists, and centering at a source-absent situation. It exposes source-specific essentiality and no-replacement conditions; generic source need or historical origin alone is insufficient. Fine's author-hosted Essence and Modality draft supplies current corroborating conceptual reading, not a new corpus claim. A proposed witness contradiction is recorded for later formalization; no new theorem, source claim, semantic refutation, or root closure.",
+  "evidence": [
+    "95f41960-baf4-58ad-ba7f-b11b2f439f7c",
+    "da9c82ed-e886-5335-81c3-cebad9b27345",
+    "47957c28-218a-58e4-94e4-5220a0c45795"
+  ],
+  "blocker": "The frozen D does not certify persistence across the full admitted possibility range. Need an independently defended essential requirement on this same source, an identity-preserving no-replacement argument or justified comparison restriction, and an explicit counterfactual/possibility dictionary. Impossible source absence remains a separate semantic issue. Draft is unregistered and unverified; configured verifier toolchain unavailable."
+}
