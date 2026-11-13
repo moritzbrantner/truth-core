@@ -8,6 +8,8 @@ namespace TruthCore.Results.Aquinas.SummaContraGentiles.Chapter22Conjunction
 
 open TruthCore.Latin.Aquinas.SummaContraGentiles.BookI.Chapter22Conjunction
 
+set_option synthInstance.maxSize 4096
+
 /-- Non-transcription structural distinction: the counterworld of the
 conjunction still contains the *same esse*. In particular, this theorem does
 not use an opaque bridge from underivedness to essence–esse identity. -/
@@ -38,7 +40,6 @@ theorem contingent_join_not_first_quiddity (p : Profile W B P R) (w : W)
 /-- Each finite omission is a counterexample to the larger attributed
 inference with that exact bridge withheld, not a metaphysical refutation of
 the bridge. The stable distinct-union profile limits n.3–4's reach. -/
-set_option synthInstance.maxSize 4096 in
 theorem controls : Controls := by
   dsimp [Controls, NecessaryEsseAt, ContingentConjunctionAt, ModalSeparationAt,
     WorldSeparationShowsIntelligibilityAt, IntelligibleSeparationMakesAccidental,
@@ -51,7 +52,6 @@ theorem controls : Controls := by
 /-- Finite boundary on the D → E root-route question: exact actual
 underivedness from the existing interface does not by itself fix the q.3
 represented principle identity, even with the n.3–4 reply premises. -/
-set_option synthInstance.maxSize 4096 in
 theorem underived_distinct_boundary : UnderivedDistinctBoundary := by
   dsimp [UnderivedDistinctBoundary, stableDistinctOntic, stableDistinctSupport,
     NecessaryEsseAt, ModalSeparationAt, ContingentReplyPremisesAt,
