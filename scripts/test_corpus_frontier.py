@@ -1339,7 +1339,13 @@ class FrontierCorpusTest(unittest.TestCase):
             legacy_uuid("statement", "STMT-CHURCH-INSTITUTION-LINK-FOR-SELECTED-GOVERNANCE"),
         }
         self.assertEqual(set(arguments[results[proof_id]["argument_id"]]["premise_statement_ids"]), explicit_inputs)
-        self.assertIn(legacy_uuid("statement", "STMT-MATTHEW28-COMMISSION-GOES-BACK-TO-JESUS"), ids)
+        # The Matthew 28 input is the weak version of a registered strength
+        # order whose strong version is closed; the registration closes it by
+        # rule (d), as a transcription (owner decision 2026-11-12).
+        self.assertEqual(
+            report["closed_statements"].get(legacy_uuid("statement", "STMT-MATTHEW28-COMMISSION-GOES-BACK-TO-JESUS")),
+            "via_transcription",
+        )
         self.assertTrue(explicit_inputs <= set(report["reaching_root_statements"]))
         # Round 6 derives three of the four inputs from open inclusions of the
         # selected governing predicate; they are proved, not established, and
@@ -1362,7 +1368,12 @@ class FrontierCorpusTest(unittest.TestCase):
         # through the fuller nominal definition. Since 2026-11-07 a statement
         # reaches the root through any verified non-transcription route, so the
         # bare identification premise of the other verified routes reaches it too.
-        self.assertIn(legacy_uuid("statement", "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE"), ids)
+        # The fuller nominal identification is the weak version of a registered
+        # strength order whose strong version is closed, so the registration
+        # closes it (owner decision 2026-11-12); it still reaches the root.
+        fuller = legacy_uuid("statement", "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE")
+        self.assertEqual(report["closed_statements"].get(fuller), "proved")
+        self.assertIn(fuller, report["reaching_root_statements"])
         self.assertIn(legacy_uuid("statement", "STMT-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD"), ids)
         # Stage 1 and the prima via conclusion are conclusions of verified results.
         self.assertNotIn(legacy_uuid("statement", "STMT-GOD-EXISTS"), ids)
