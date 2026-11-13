@@ -1,0 +1,21 @@
+{
+  "id": "0626cd3a-7323-4820-aa75-bb4ca31e72f5",
+  "label": "Potency under privation gains an exact adopted-sense support bridge",
+  "statement_ids": [
+    "3c0b7bb3-1526-55a9-b71e-0d5fb3148782"
+  ],
+  "date": "2026-11-13",
+  "kind": "reading",
+  "outcome": "succeeded",
+  "summary": "At baseline 03d97b48a86d4b7d7bbedcb4441398ce3a9dadef, inspected related/dossier results, exact generic target declarations, the adopted potency definition, conservative-analysis result and existing privation composition. Materialized and read Physics I.7/I.8/III.1 and Metaphysics IX.1/IX.3/IX.6/IX.7; read De principiis naturae 1-2, Metaphysics V.22 and Categories 10 live. Positive result: for exactly adopted potency C and not A, Q (privation is absence of act on capable subjects) supplies T (potency is capacity under privation), and conversely T supplies Q. For an independent P the same equivalence requires the existing IX.6 analysis F. These are explicit unregistered constructive reconstructions, checked by a 16-assignment Boolean diagnostic but with no fresh Lean certificate. The existing registered result gives T and Q to F. Prima facie acceptance and conditional support are both retained; a cycle through F is not independent confirmation. The power-retained-in-exercise interpretation is positively motivated but is a different sense, already distinguished by the corpus, not a defeat of the adopted premise. Source scope, exact URLs/locators, conditions, provisional judgment and reopening tests are persisted in docs/notes/potency-privation-support-investigation.md. No statement, definition, source claim or closure status changed.",
+  "evidence": [
+    "388eb17b-ee62-5010-82f6-82f94402dc1f",
+    "4eb6f90c-55cd-59bd-8a25-48f9e09196a2",
+    "b39f5282-fa9a-5433-a9ef-eebcac297295",
+    "a26e8e49-ca29-55f0-81e6-411d72543c25",
+    "e374c69d-d5e5-547c-a8a1-f8de313e6f76",
+    "b9c3f090-3bf2-5c96-ae3e-c18a1d63cd3b",
+    "2814c3db-a02a-5cd8-87b4-4751c884ef1a"
+  ],
+  "blocker": "Formal registration of the new adopted T/Q equivalence awaits the coordinator's usable Lean verification setup and semantic challenge. No further source search is required to state that exact conditional result. Applying it to a generic independent potency predicate still requires F; it must not be silently specialized by a label."
+}

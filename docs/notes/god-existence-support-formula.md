@@ -135,6 +135,11 @@ The all-input formula is retained exactly by the 600-node/445-rule least-fixed-p
 
 ### Nine shared terminal obligations for G
 
+The [nine-premise support investigation](nine-premise-support-investigation.md)
+records additional arguments, source support and explicit bridge proposals for
+each of these inputs, with the remaining application conditions distinguished
+from formal consequence.
+
 Each following input occurs in every G conjunction **under this terminal-only expansion**. Removing its supplied input makes this expanded formula false. This does not say the proposition is false, universally indispensable to theism, or unavoidable when intermediate claims may be accepted directly.
 
 | Statement | Exact recorded premise |
@@ -220,6 +225,8 @@ The downloadable calculation contains the canonical graph/dictionary, exact diag
 ## Scope audit: independence and possible separate existence (2026-11-13)
 
 This audit uses the same registered graph and terminal basis as the calculation above (current main at `03d97b48a86d4b7d7bbedcb4441398ce3a9dadef`). It does **not** change the formal status of a premise, delete a conditionally valid result, or substitute a countermodel for a proof of its negation in every interpretation.
+
+The companion [priority and independence investigation](priority-independence-logic-support-investigation.md) now supplies a constructive conditional separation route and a weaker consumer-local argument proposal. Neither is registered as a new proof or silently substituted for the unrestricted premise here.
 
 ### A concrete modal countermodel
 
