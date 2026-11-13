@@ -1,0 +1,11 @@
+{
+  "id": "c62c4ec3-821c-45b5-bb0d-6cffe8660e1c",
+  "label": "Every first being is in act in some respect, from Theta.8 incorruptibility",
+  "argument_id": "983fd86b-28fa-4a5e-9e82-b4adfa944bec",
+  "challenge_module": "TruthCore.Results.Causality.ActPriorityThetaEight.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ActPriorityThetaEight.Solution",
+  "theorem": "TruthCore.Results.Causality.ActPriorityThetaEight.inActOfIncorruptible",
+  "comparator_config": "results/c62c4ec3-821c-45b5-bb0d-6cffe8660e1c/comparator.json",
+  "status": "solution-present",
+  "description": "A first being cannot fail to be (open analyst premise); whatever is simply incorruptible is in act in substance (In Metaph. IX lect. 9 n. 5-6 reading, d017b6b0); so a first being is in act in the respect of being, hence in some respect. A support option for 8288ff1e, not a weaker warrant: Control.ContingentFirst shows that 8288ff1e does not imply first-being incorruptibility, so the new premise is strictly more committal against the contingent-first-being rival. Conditional consequence only; no premise is established."
+}

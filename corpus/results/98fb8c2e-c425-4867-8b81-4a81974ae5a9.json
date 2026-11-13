@@ -1,0 +1,11 @@
+{
+  "id": "98fb8c2e-c425-4867-8b81-4a81974ae5a9",
+  "label": "A first being is in POTENCY_2 in no respect, from Theta.8 incorruptibility",
+  "argument_id": "6df393c4-3be2-42aa-85c7-e019ce8ce769",
+  "challenge_module": "TruthCore.Results.Causality.ActPriorityThetaEight.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ActPriorityThetaEight.Solution",
+  "theorem": "TruthCore.Results.Causality.ActPriorityThetaEight.firstBeingNoPotencyOfThetaEight",
+  "comparator_config": "results/98fb8c2e-c425-4867-8b81-4a81974ae5a9/comparator.json",
+  "status": "solution-present",
+  "description": "A first being cannot fail to be, so (In Metaph. IX lect. 9 reading) it is in act in being; if it were in potency in some respect it would, being in act in being, be composite; so it would have a cause of its being other than itself (ST I q.3 a.7 reading), which by the bridge causes it efficiently and so is simply prior to it (ST I q.2 a.3 reading), against firstness. Composes the existing firstBeingNoPotencyOfComposition, with the act predicate read as act in being. Replaces 8288ff1e and 3d99779b by first-being incorruptibility, the sourced reading d017b6b0 and the weaker restricted composition premise; shares the other three premises. Each of the six premises is needed (Control.ThetaEightOmissions). The Theta.8 substance premises without a composition premise do not reach the weak version (Control.HeavenlyFirst). Conditional consequence only; no premise is established."
+}

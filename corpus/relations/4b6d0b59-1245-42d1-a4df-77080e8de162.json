@@ -1,0 +1,12 @@
+{
+  "id": "4b6d0b59-1245-42d1-a4df-77080e8de162",
+  "label": "Act and potency make composite strengthens its restriction to act in being",
+  "subject_kind": "statement",
+  "subject_id": "3d99779b-b44a-4daa-a873-8ccdd3c034ae",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "d8024a38-5d93-4c1d-8c21-fdbfa87a5cde",
+  "verification_result_id": "0e232fd9-d0e1-458a-a198-8d2aa7bc191d",
+  "strictness_result_id": "7380b8e8-eeb7-4952-ad72-62734416efc4",
+  "note": "Same InAct, InPotency and Composite parameters; the weak version fixes the act respect at esse. Control.RestrictedStrict: a being in act in a place but not in being, in potency in being and simple. Given STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING they are equivalent (Control.Facts)."
+}
