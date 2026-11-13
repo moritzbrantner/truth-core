@@ -48,6 +48,7 @@ public import TruthCore.Results.Causality.ChainInstantiation.Solution
 public import TruthCore.Results.Causality.ClassicalGodAssembly.Solution
 public import TruthCore.Results.Causality.ClassicalGodFromPositiveRoot.Solution
 public import TruthCore.Results.Causality.ClassicalGodRevelationBoundary.Solution
+public import TruthCore.Results.Causality.ClosedGroundingRoots.Solution
 public import TruthCore.Results.Causality.CogitoNecessaryConcrete.Solution
 public import TruthCore.Results.Causality.ComingToBeHorns.Solution
 public import TruthCore.Results.Causality.CommonPriority.ContingentGround.Solution
@@ -78,6 +79,7 @@ public import TruthCore.Results.Causality.ConceptualExistenceBoundary.Solution
 public import TruthCore.Results.Causality.ConcreteActualCoverNecessaryBeing.Solution
 public import TruthCore.Results.Causality.ConcreteAtomisticNecessaryBeing.Solution
 public import TruthCore.Results.Causality.ConcreteExistentialSupply.Solution
+public import TruthCore.Results.Causality.ConcreteRootAccess.Solution
 public import TruthCore.Results.Causality.ConcurrentActualization.Solution
 public import TruthCore.Results.Causality.ConstitutiveConfiguration.Solution
 public import TruthCore.Results.Causality.ConstitutiveNatureUniqueness.Solution

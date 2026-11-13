@@ -1,0 +1,39 @@
+{
+  "id": "d0c022f8-c53d-4c0f-917a-e16bb75ca9a5",
+  "label": "MOTION_1 actuality from distinct causal possession",
+  "premise_statement_ids": [
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "6a0b545c-d3bb-52d1-b0b7-c3ea48febb92",
+    "2c0b9bd7-9dad-4837-bf7e-4cbeff35729c",
+    "99470e3f-81ac-5cf2-8a0e-69429f98fd0c",
+    "f1a124b6-5df4-5488-9411-5f85f9fee173"
+  ],
+  "conclusion_statement_id": "f296a694-aeea-5fa7-bdbf-0076530f9441",
+  "inference_ids": [
+    "af3f079d-1448-47b6-a6e4-80a8fdc632c5"
+  ],
+  "meaning": "Analyst formulation, attribution deferred. Distinct movers cause the respect and hence possess it by distinct-cause transfer, inclusively IN_ACT_3. Diagonal self-motion requires the retained distinct moving part and whole-through-part premises. Neither comparative excess nor more-such-bearer is used. Conditional support for the prima via root-route node only; premises remain subject to their existing warrant burdens. No globally weakest bundle is claimed.",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "d8e2ed12-8089-5202-ae51-e807cf611c76",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "701c8996-8d37-546d-9610-26b758dd04e8",
+    "e13e749b-d266-5f18-bc50-59b340444c1f",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "aa925dce-cf10-535e-a9ef-a5a0f00a677f"
+  ],
+  "sense_bridges": [
+    {
+      "term": "CAUSE",
+      "from": "bdc6001c-9699-4126-9e35-6fbd1da78100",
+      "to": "572f19f2-8833-4133-8bea-b8b5fa4ac24f",
+      "statement_id": "6a0b545c-d3bb-52d1-b0b7-c3ea48febb92"
+    }
+  ]
+}

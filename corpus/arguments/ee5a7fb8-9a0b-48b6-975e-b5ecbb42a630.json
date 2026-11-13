@@ -1,0 +1,22 @@
+{
+  "id": "ee5a7fb8-9a0b-48b6-975e-b5ecbb42a630",
+  "label": "Closed grounding collections rooted, from no wholly borrowed collection",
+  "premise_statement_ids": [
+    "45890c84-1d33-4273-b0ea-0f75bfd67a33",
+    "b28f3a70-fbb4-4c61-b9ac-099d97477f4d"
+  ],
+  "conclusion_statement_id": "aca3baa1-9be6-4720-a53d-22050e638561",
+  "inference_ids": [
+    "1ac138c8-b342-441c-8022-471273690c78"
+  ],
+  "meaning": "Borrowed reality implies CCR under the sufficient supplier-concreteness bridge. Borrowed reality alone does not imply CCR, as abstractSupplier demonstrates. Blanket supplier concreteness is not necessary; the sibling batch supplies the localized root-access alternative. Constructive; conditional consequence only.",
+  "definition_ids": [
+    "38b9012a-472b-4544-a271-16d22b25c9ac",
+    "432451a4-cde1-4386-9015-95bb1176dfd0",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "b7f3d512-b11e-40ad-a9f8-7f3d04cb2328"
+  ],
+  "disambiguation_ids": [
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
+  ]
+}

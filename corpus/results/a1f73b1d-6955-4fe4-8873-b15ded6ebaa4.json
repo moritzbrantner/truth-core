@@ -1,0 +1,11 @@
+{
+  "id": "a1f73b1d-6955-4fe4-8873-b15ded6ebaa4",
+  "label": "Whatever is GOD_4 is maximal in being, from causing being",
+  "argument_id": "4d1efe91-9060-4e16-a8c5-42d28c5ba0a2",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.PreexistenceWithoutTransfer.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.PreexistenceWithoutTransfer.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.PreexistenceWithoutTransfer.godMaximalFromCausingBeing",
+  "comparator_config": "results/a1f73b1d-6955-4fe4-8873-b15ded6ebaa4/comparator.json",
+  "status": "solution-present",
+  "description": "Sibling of GOD-MAXIMAL-FROM-CAUSING with the instance at esse of 'more such' (formal reading, same MoreIn) in place of the unrestricted premise, which that proof uses only at esse. Let g be GOD_4 and y another being. g causes y's being, so g is more in being than y and so has being. If some z were more in being than g, then z = g contradicts asymmetry, and z distinct from g is caused to be by g, so g is more in being than z, again against asymmetry. Each premise except excluded middle is needed in a checked interpretation (omission models); control 5 is a model with a God that causes another's being. Conditional consequence only; no premise is established."
+}

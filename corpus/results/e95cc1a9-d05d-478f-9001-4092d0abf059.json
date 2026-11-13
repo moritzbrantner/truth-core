@@ -1,0 +1,11 @@
+{
+  "id": "e95cc1a9-d05d-478f-9001-4092d0abf059",
+  "label": "CCR and universal finite root access are equivalent classically",
+  "argument_id": "ed8b7814-91bc-40d7-9333-ccd0cda27cfc",
+  "challenge_module": "TruthCore.Results.Causality.ConcreteRootAccess.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ConcreteRootAccess.Solution",
+  "theorem": "TruthCore.Results.Causality.ConcreteRootAccess.rootAccessEquivalence",
+  "comparator_config": "results/e95cc1a9-d05d-478f-9001-4092d0abf059/comparator.json",
+  "status": "solution-present",
+  "description": "CCR and universal finite root access are equivalent classically. Conditional structural consequence only; no independent warrant or rival defeat. Excluded middle is explicit where listed."
+}

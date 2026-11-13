@@ -1,0 +1,13 @@
+{
+  "id": "396f2461-16f6-4ad2-a6e8-25e840bc1a8f",
+  "label": "More such carries distinct-cause transfer (inference)",
+  "input_statement_ids": [
+    "d5a94eb1-72d2-53e0-9a52-9787b5b61a8d",
+    "c11369aa-7c3d-5dea-8421-535d5b4b3104"
+  ],
+  "output_statement_id": "2c0b9bd7-9dad-4837-bf7e-4cbeff35729c",
+  "rule": "Instantiate more such, then what is more such has the perfection",
+  "meaning": "A distinct cause of r in x is more r than x, and whatever is more r than something is r, so it is in act in r. Any route using 'more such' at an arbitrary perfection together with c11369aa is committed to distinct-cause transfer; conversely transfer with the reception bundle suffices for 'more such'. Each premise is needed in a checked interpretation (omission models). Conditional consequence only; no premise is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

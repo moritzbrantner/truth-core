@@ -25,6 +25,7 @@ import { LANES } from "@/lib/graph-areas";
 import { useGraphBuckets } from "./use-graph-buckets";
 import { NetworkMarker } from "./network-marker";
 import { layeredLayout } from "@/lib/graph-layout";
+import { signedDisputeLayout } from "@/lib/graph-network";
 import {
   MAX_HOPS,
   hasFilters,
@@ -40,6 +41,7 @@ import {
   type ViewClusterNode,
   type ViewEdge,
   type ViewInferenceNode,
+  type ViewNegationNode,
   type ViewNode,
   type ViewStatementNode,
 } from "@/lib/graph-view";
@@ -64,6 +66,7 @@ const statusLabel = new Map(GRAPH_STATUSES.map((status) => [status.id, status.la
 const NODE_SIZE = {
   statement: { width: 280, height: 132 },
   inference: { width: 190, height: 46 },
+  negation: { width: 280, height: 132 },
   cluster: { width: 250, height: 104 },
 } as const;
 
@@ -151,6 +154,21 @@ function InferenceNodeView({ data }: NodeProps<FlowNode>) {
   );
 }
 
+function NegationNodeView({ data }: NodeProps<FlowNode>) {
+  const node = data.view as ViewNegationNode;
+  return (
+    <div className="graph-node graph-node-negation" data-selected={data.selected}>
+      <Handle position={Position.Bottom} type="target" />
+      <div className="graph-node-button">
+        <span className="graph-node-status">Hypothetical ¬P · no corpus proposition recorded</span>
+        <span className="graph-node-text">{node.paraphrase}</span>
+        <span className="graph-badge">Counterpart for visual comparison only</span>
+      </div>
+      <Handle position={Position.Top} type="source" />
+    </div>
+  );
+}
+
 function ClusterNodeView({ data }: NodeProps<FlowNode>) {
   const node = data.view as ViewClusterNode;
   return (
@@ -174,6 +192,7 @@ const nodeTypes = {
   marker: NetworkMarker,
   statement: StatementNodeView,
   inference: InferenceNodeView,
+  negation: NegationNodeView,
   cluster: ClusterNodeView,
 };
 
@@ -182,12 +201,14 @@ const edgeStyle: Record<ViewEdge["kind"], React.CSSProperties> = {
   assumption: { stroke: "var(--line-strong)", strokeDasharray: "2 4" },
   conclusion: { stroke: "var(--accent)" },
   relation: { stroke: "var(--status-alternative)", strokeDasharray: "7 5" },
+  opposition: { stroke: "var(--status-refuted, #b45353)", strokeDasharray: "5 5" },
   cluster: { stroke: "var(--line-strong)", strokeDasharray: "1 5" },
 };
 
 function nodeDescription(node: ViewNode) {
   if (node.kind === "inference") { return `${node.inference.label ?? node.id}: ${node.inference.meaning}`; }
   if (node.kind === "cluster") { return `${node.label}: ${node.size} statements`; }
+  if (node.kind === "negation") { return `${node.paraphrase}; hypothetical negation, not a corpus statement`; }
   let status = String(node.statement.status);
   if (node.statement.frontier) { status = `${node.statement.frontierDepth} open frontier`; }
   return `${node.statement.paraphrase}; ${status}`;
@@ -333,10 +354,14 @@ export function PropositionGraphExplorer({
         argument.inferenceIds.forEach((id) => relatedIds.add(id));
       }
     }
-    const positions = compact ? network.positions : layeredLayout(
-      view.nodes.map((node) => ({ id: node.id, ...NODE_SIZE[node.kind] })),
-      view.edges.filter((edge) => edge.kind !== "relation"),
-    );
+    const positions = (() => {
+      if (state.view === "dispute") return signedDisputeLayout(view);
+      if (compact) return network.positions;
+      return layeredLayout(
+        view.nodes.map((node) => ({ id: node.id, ...NODE_SIZE[node.kind] })),
+        view.edges.filter((edge) => edge.kind !== "relation" && edge.kind !== "opposition"),
+      );
+    })();
     const flowNodes: FlowNode[] = view.nodes.map((node) => ({
       id: node.id,
       type: compact ? "marker" : node.kind,
@@ -364,7 +389,7 @@ export function PropositionGraphExplorer({
       style: { width: compact ? 28 : NODE_SIZE[node.kind].width, height: compact ? 28 : undefined },
     }));
     const flowEdges: Edge[] = view.edges.map((edge) => {
-      const research = edge.kind === "relation";
+      const research = edge.kind === "relation" || edge.kind === "opposition";
       const boundary = !research && (frontierIds.has(edge.source) || frontierIds.has(edge.target) || frontierJunctions.has(edge.source) || frontierJunctions.has(edge.target));
       const emphasized = compact && state.emphasis === "frontier";
       const highlighted = edge.highlighted || relatedIds.has(edge.source) || relatedIds.has(edge.target);
@@ -373,7 +398,13 @@ export function PropositionGraphExplorer({
         id: edge.id,
         source: edge.source,
         target: edge.target,
-        type: compact || edge.kind === "relation" ? "straight" : "smoothstep",
+        type: compact || research ? "straight" : "smoothstep",
+        // Edges carry no action: the dots are the focusable, described elements.
+        // Without the 20px hit path and a tab stop per edge, a mount of the
+        // global map creates one SVG element per edge fewer (#1377).
+        focusable: false,
+        selectable: false,
+        interactionWidth: 0,
         label: compact ? undefined : edge.label,
         style: {
           ...edgeStyle[edge.kind],
@@ -381,7 +412,7 @@ export function PropositionGraphExplorer({
           opacity: hovered ? (incident ? 1 : 0.08) : compact ? (research ? 0.55 : emphasized && !boundary ? 0.18 : 0.72) : 1,
           strokeWidth: incident || highlighted ? 2.5 : compact ? 1.1 : 1.25,
         },
-        markerEnd: compact || edge.kind === "premise" || edge.kind === "assumption"
+        markerEnd: compact || research || edge.kind === "premise" || edge.kind === "assumption"
           ? undefined
           : { type: MarkerType.ArrowClosed, color: String(edgeStyle[edge.kind].stroke) },
       };
@@ -405,6 +436,8 @@ export function PropositionGraphExplorer({
       update((current) => ({
         open: current.open.includes(clicked.key) ? current.open : [...current.open, clicked.key],
       }));
+    } else if (clicked.kind === "negation") {
+      update({ sel: clicked.statementId });
     } else {
       const obligation = queue.find((item) => item.statementIds.includes(clicked.id));
       update({ sel: clicked.id, obligation: obligation?.id ?? "" });
@@ -442,14 +475,22 @@ export function PropositionGraphExplorer({
           <button aria-pressed={state.scope === "global" && state.view === "all"} onClick={() => update({ scope: "global", view: "all", viewport: "" })} type="button">Global frontier</button>
           <button aria-pressed={state.scope === "goal" && state.view === "root"} onClick={() => update({ scope: "goal", view: "root", viewport: "", target: state.sel && index.statementById.has(state.sel) ? state.sel : target })} type="button">Selected goal frontier</button>
           <button aria-pressed={state.view === "local"} disabled={!index.statementById.has(state.sel) && !index.inferenceById.has(state.sel)} onClick={() => update({ view: "local", layout: "network", node: state.sel, scope: "global", viewport: "", returnView: state.returnView || serializeGraphState({ ...state, returnView: "" }) })} title="Select a proposition dot to explore its neighborhood" type="button">Local graph</button>
+          <button aria-pressed={state.view === "dispute"} disabled={!index.statementById.has(state.sel)} onClick={() => update({ view: "dispute", layout: "network", node: state.sel, scope: "global", viewport: "", returnView: state.returnView || serializeGraphState({ ...state, returnView: "" }) })} title="Compare the selected proposition with its recorded denial or hypothetical negation" type="button">P versus ¬P</button>
         </div>
         <div className="graph-segmented" role="group" aria-label="Layout">
-          {(["network", "layered"] as const).map((layout) => <button key={layout} type="button" aria-pressed={state.layout === layout} onClick={() => update({ layout, viewport: "" })}>{layout === "network" ? "Network" : "Layered"}</button>)}
+          {state.view === "dispute" ? (
+            <span className="graph-button" aria-label="Signed force layout">Signed layout</span>
+          ) : (
+            <>
+              <button type="button" aria-pressed={state.layout === "network"} onClick={() => update({ layout: "network", viewport: "" })}>Network</button>
+              <button type="button" aria-pressed={state.layout === "layered"} onClick={() => update({ layout: "layered", viewport: "" })}>Layered</button>
+            </>
+          )}
         </div>
         <label className="field-label frontier-search">Find a proposition
           <input className="field-control" onChange={(event) => update({ q: event.target.value })} placeholder="Search propositions or IDs" type="search" value={state.q} />
         </label>
-        {state.view === "local" ? (
+        {state.view === "local" || state.view === "dispute" ? (
           <label className="field-label frontier-depth">Neighborhood depth
             <select className="field-control" value={state.hops} onChange={(event) => update({ hops: Number(event.target.value), viewport: "" })}>
               {Array.from({ length: MAX_HOPS + 1 }, (_, depth) => <option key={depth} value={depth}>{depth} {depth === 1 ? "hop" : "hops"}</option>)}
@@ -484,6 +525,7 @@ export function PropositionGraphExplorer({
               ["root", "Root paths"],
               ["focus", "Focus"],
               ["local", "Local graph"],
+              ["dispute", "P versus ¬P"],
               ["all", "Full graph"],
             ] as const
           ).map(([id, label]) => (
@@ -493,7 +535,7 @@ export function PropositionGraphExplorer({
               onClick={() =>
                 update({
                   view: id,
-                  ...((id === "focus" || id === "local") && state.view !== id
+                  ...((id === "focus" || id === "local" || id === "dispute") && state.view !== id
                     ? {
                         returnView: serializeGraphState({
                           ...state,
@@ -527,7 +569,7 @@ export function PropositionGraphExplorer({
             />
           </label>
         ) : null}
-        {state.view === "focus" || state.view === "local" ? (
+        {state.view === "focus" || state.view === "local" || state.view === "dispute" ? (
           <div className="graph-focus-controls">
             <label className="field-label">
               Focus node
@@ -834,6 +876,7 @@ export function PropositionGraphExplorer({
         {compact && state.view === "all" ? `${network.componentCount} inference-only components, ${network.layoutComponentCount} research-connected islands; ${graph.relations.length} recorded research links in the loaded buckets. ` : ""}
         {compact && state.view === "all" && !state.showIsolated && !hasFilters(state) ? "Singletons (readings without an inference or research link) hidden; show them under More views and filters. " : ""}
         {state.view === "local" ? `Local neighborhood: ${state.hops} ${state.hops === 1 ? "hop" : "hops"} from ${view.anchor}. ` : ""}
+        {state.view === "dispute" ? `Dispute around ${view.anchor}: a recorded denial where available, otherwise an unasserted hypothetical ¬P; distance expresses opposition, not truth or evidence. ` : ""}
         {view.message ? `${view.message} ` : ""}
         {view.statementCount} of {manifest.totals.statements} statements ({manifest.totals.statements - view.statementCount} outside view), {view.nodes.filter((node) => node.kind === "inference").length} inference applications, {view.nodes.filter((node) => node.kind === "statement" && !node.matched).length} dimmed/context statements, {view.frontierCount} open premises (frontier) in view
         {view.truncated ? `; ${view.truncated} further statements not shown (narrow with hops or filters)` : ""}.
@@ -853,6 +896,7 @@ export function PropositionGraphExplorer({
               <span><i className="frontier-key-dot frontier-key-conditional" /> Conditional</span>
               <span><i className="frontier-key-dot frontier-key-other" /> Other proposition</span>
               {state.relations ? <span><i className="frontier-key-relation" /> Research link · not proof</span> : null}
+              {state.view === "dispute" ? <span><i className="frontier-key-opposition" /> Logical opposite · not proof</span> : null}
             </div>
             {/* Mount the canvas once the needed buckets are in: a canvas remounted
                 while data streams in can keep nodes unmeasured (hidden). */}
@@ -868,7 +912,7 @@ export function PropositionGraphExplorer({
                   });
                 }
               }}
-              fitViewOptions={{ padding: 0.12, minZoom: compact ? 0.05 : 0.4 }}
+              fitViewOptions={{ padding: 0.12, minZoom: compact || state.view === "dispute" ? 0.05 : 0.4 }}
               key={flowKey}
               maxZoom={1.6}
               minZoom={0.05}
@@ -881,6 +925,7 @@ export function PropositionGraphExplorer({
               onNodeMouseEnter={state.view === "local" && compact ? (_event, node) => setHoveredId(node.id) : undefined}
               onNodeMouseLeave={state.view === "local" && compact ? () => setHoveredId("") : undefined}
               onlyRenderVisibleElements
+              edgesFocusable={false}
             >
               <SelectionLocator state={state} compact={compact} />
               <Controls showInteractive={false} />
@@ -890,7 +935,7 @@ export function PropositionGraphExplorer({
         </div>
         <div className="frontier-sidebar">
           {state.sel ? <DetailPanel graph={graph} index={index} state={state} update={update} network={network} /> : null}
-          <ResearchQueue items={queue} selected={activeObligation} state={state} select={selectObligation} update={update} />
+          <ResearchQueue items={queue} selected={activeObligation} state={state} select={selectObligation} update={update} keep={lemmaObligation ? [lemmaObligation.id] : []} />
         </div>
       </div>
       <ProofExplorationControls graph={graph} target={proofTarget} state={state} start={(next) => update(next)} hide={() => update({ explore: false })} />
@@ -1119,6 +1164,10 @@ function DetailPanel({
         >
           Local graph
         </button>
+        <button className="graph-button" onClick={() => update({
+          view: "dispute", layout: "network", node: current.id, scope: "global", viewport: "",
+          returnView: state.returnView || serializeGraphState({ ...state, returnView: "" }),
+        })} type="button">P versus ¬P</button>
         <button
           className="graph-button"
           onClick={() =>

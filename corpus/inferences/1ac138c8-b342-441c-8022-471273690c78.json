@@ -1,0 +1,13 @@
+{
+  "id": "1ac138c8-b342-441c-8022-471273690c78",
+  "label": "Closed grounding collections rooted, from no wholly borrowed collection (inference)",
+  "input_statement_ids": [
+    "45890c84-1d33-4273-b0ea-0f75bfd67a33",
+    "b28f3a70-fbb4-4c61-b9ac-099d97477f4d"
+  ],
+  "output_statement_id": "aca3baa1-9be6-4720-a53d-22050e638561",
+  "rule": "A ground-closed rootless collection is, by the bridge, closed under every actual supplier, and each member has one; the borrowed-reality principle makes it empty",
+  "meaning": "Borrowed reality implies CCR under the sufficient supplier-concreteness bridge. Borrowed reality alone does not imply CCR, as abstractSupplier demonstrates. Blanket supplier concreteness is not necessary; the sibling batch supplies the localized root-access alternative. Constructive; conditional consequence only.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

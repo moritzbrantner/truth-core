@@ -1,0 +1,10 @@
+{
+  "id": "dbdd01ee-8d4e-4e36-b37f-64119218a66e",
+  "label": "Closed-collection controls: limit grounder, pure regress, rooted cycle, attenuation witness",
+  "paraphrase": "Closed controls on explicit finite-or-countable interpretations with one world. (1) Direct root grounder (Lean name limitGrounder): candidates none and some n; some (n+1) grounds some n and none directly grounds every some n. The closed-collection condition, inhabitedness, grounding of every actual contingent concretum, reflexive access, J1, its actual-world instance, coverage and the one-way no-novel-edge condition hold, and some necessary concretum is underived at every admitted world; actual grounding ascends a grade whose top is none; but actual grounding is not well-founded, J2 fails and the grade has infinite ascent among actual concreta. (2) Pure regress: candidates Nat, n+1 grounds n. The closed-collection condition fails while a necessary concretum, grounding of every actual contingent concretum, J1, its actual-world instance, coverage and ascent along a grade hold, and no necessary concretum is underived. (3) Rooted cycle: none grounds some false and some true, which ground each other; the closed-collection condition, reflexive access and the one-way no-novel-edge condition hold while asymmetry and well-foundedness of actual grounding fail and two necessary concreta support each other. (4) A one-point interpretation with no grounding satisfies the attenuation bridge. (5) Isolated root plus regress: some (n+1) directly grounds some n and the root none directly grounds nothing; the closed-collection condition fails although an actual root exists. (6) Abstract supplier: none is not concrete and grounds every some n, and some (n+1) grounds some n; the borrowed-reality principle over all modelled suppliers holds while the concrete-supplier bridge and the closed-collection condition fail. Statements about these interpretations only.",
+  "lean_declaration": "TruthCore.Causality.ClosedGroundingRoots.Control.Controls",
+  "definition_ids": [
+    "38b9012a-472b-4544-a271-16d22b25c9ac",
+    "14e3be39-e587-4d9a-a48e-c48885ecd260"
+  ]
+}

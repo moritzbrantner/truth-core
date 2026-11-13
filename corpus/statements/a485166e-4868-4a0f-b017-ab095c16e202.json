@@ -1,0 +1,10 @@
+{
+  "id": "a485166e-4868-4a0f-b017-ab095c16e202",
+  "label": "Localized root access for abstract-supplied CONCRETE_6 recipients",
+  "paraphrase": "Analyst formulation, attribution deferred: Every actual concretum with any actual nonconcrete supplier has finite concrete root access. This is a structural bridge, not independent warrant.",
+  "lean_declaration": "TruthCore.Causality.ConcreteRootAccess.LocalizedBridge",
+  "definition_ids": [
+    "ea94e8dd-6f08-4099-9032-d302dd799a4e",
+    "38b9012a-472b-4544-a271-16d22b25c9ac"
+  ]
+}

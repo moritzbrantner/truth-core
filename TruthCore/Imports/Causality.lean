@@ -34,6 +34,7 @@ public import TruthCore.Causality.CausalPowerConcreteness
 public import TruthCore.Causality.CausalPowerConcretenessStrength
 public import TruthCore.Causality.ChainInstantiation
 public import TruthCore.Causality.ClassicalGodRevelationBoundary
+public import TruthCore.Causality.ClosedGroundingRoots
 public import TruthCore.Causality.CogitoNecessaryConcrete
 public import TruthCore.Causality.ComingToBeHorns
 public import TruthCore.Causality.CommonPriority
@@ -44,6 +45,7 @@ public import TruthCore.Causality.ComprehensionByMeasure
 public import TruthCore.Causality.ConceivableGreatness
 public import TruthCore.Causality.ConceptualExistenceBoundary
 public import TruthCore.Causality.ConcreteExistentialSupply
+public import TruthCore.Causality.ConcreteRootAccess
 public import TruthCore.Causality.ConcurrentActualization
 public import TruthCore.Causality.ConstitutiveConfiguration
 public import TruthCore.Causality.ConstitutiveNatureUniqueness

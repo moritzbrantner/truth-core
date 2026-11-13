@@ -1,0 +1,15 @@
+{
+  "id": "02d40444-1171-4db7-96a8-4efb4b0d4bd9",
+  "label": "A NECESSARY_2 concretum, from closed grounding collections and contingent grounding (inference)",
+  "input_statement_ids": [
+    "56f68b40-9737-59a0-8cac-5610980a1547",
+    "aca3baa1-9be6-4720-a53d-22050e638561",
+    "c71c068c-bbae-5ed5-a99d-70b155c8d239",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
+  ],
+  "output_statement_id": "b19ffd92-01bd-5c0b-9643-e7407137ea5e",
+  "rule": "If no actual root existed, all actual concreta would form a nonempty ground-closed collection without a root; an actual root is not contingent, since every actual contingent concretum is grounded, so with excluded middle it exists at every accessible world",
+  "meaning": "The AGWF-free form of NecessaryRootFork.necessaryConcreteOfActualGrounded: an inhabited world in which closed grounding collections are rooted and every actual contingent concretum has an actual concrete ground contains a concretum that exists at every world accessible from w. The witness is an actual root. Conditional consequence only.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

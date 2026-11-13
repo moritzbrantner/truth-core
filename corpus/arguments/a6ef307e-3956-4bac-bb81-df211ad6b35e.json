@@ -1,0 +1,21 @@
+{
+  "id": "a6ef307e-3956-4bac-bb81-df211ad6b35e",
+  "label": "Blanket supplier concreteness makes CCR equivalent to borrowed reality",
+  "premise_statement_ids": [
+    "b28f3a70-fbb4-4c61-b9ac-099d97477f4d"
+  ],
+  "conclusion_statement_id": "8e8a0cd9-62df-4689-af28-3d6c55d78deb",
+  "inference_ids": [
+    "02f3cccf-d407-49bc-9282-3336b83808b7"
+  ],
+  "meaning": "Blanket supplier concreteness makes CCR equivalent to borrowed reality. Conditional structural consequence only; no independent warrant or rival defeat. Excluded middle is explicit where listed.",
+  "definition_ids": [
+    "38b9012a-472b-4544-a271-16d22b25c9ac",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "b7f3d512-b11e-40ad-a9f8-7f3d04cb2328",
+    "ea94e8dd-6f08-4099-9032-d302dd799a4e"
+  ],
+  "disambiguation_ids": [
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
+  ]
+}
