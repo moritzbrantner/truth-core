@@ -19,7 +19,7 @@ Flagged labels remaining: 9406.
 | --- | ---: | --- |
 | `truncated` | 9033 | the prose was cut to fit the 100-character limit |
 | `duplicate` | 286 | numbered to stay unique within its kind |
-| `ids-replaced` | 498 | readable-id tokens in the prose were replaced by their words |
+| `ids-replaced` | 497 | readable-id tokens in the prose were replaced by their words |
 | `from-legacy-id` | 326 | part of the label (an argument's route, or a fallback) came from the old id |
 | `fallback` | 0 | no prose to derive a label from |
 | `untagged-sense` | 222 | a term with several linked senses (or an undeterminable sense) is untagged |
@@ -31,7 +31,7 @@ Flagged labels per kind:
 - candidate: 84
 - claim: 1927
 - configuration: 5
-- definition: 1324
+- definition: 1323
 - disambiguation: 18
 - inference: 1394
 - model: 64
