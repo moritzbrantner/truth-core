@@ -1,0 +1,10 @@
+{
+  "id": "e4d4b92a-e46b-4454-a2ef-42e972cf5d2b",
+  "label": "SCG I.22 necessary esse isolates conjunction contingency (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "73ac7e21-6b5c-44ad-8a26-ac32f19e6a5c",
+  "rule": "Unpack a world-indexed necessity and a contingent-union witness; preserve the same esse principle at the witness",
+  "meaning": "Non-transcription structural consequence in a typed analyst profile: necessity of esse is separately quantified from contingent joining to q. The failed conjunction does not entail the failure of the esse; the no-necessity control shows the necessity condition matters. No attributed historical claim or metaphysical establishment is involved.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

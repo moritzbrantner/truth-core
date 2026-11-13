@@ -1,0 +1,14 @@
+{
+  "id": "cf69c562-30b2-428b-8a61-c3c466364677",
+  "label": "SCG I.22 contingent conjunction not the first quiddity (inference)",
+  "input_statement_ids": [
+    "0cd7ba22-54e4-4726-9f8a-b900fc1a46a0",
+    "8d28134d-3ace-4804-9290-ca85bc4777fe",
+    "b492a7ae-e3de-4d6d-ac56-aabeaf5b0f2d"
+  ],
+  "output_statement_id": "986f3763-c6c2-4bca-8f66-9d5500b3fb6c",
+  "rule": "Apply the structural separation theorem, then separately interpret conceivability, accidentality and proper quiddity",
+  "meaning": "Explicitly marked interpretive transcription after a real structural world-indexed separation result. The last conceptual steps are OPEN, independently meaningful premises, not independently proved ontic facts. It rejects the n.3 contingent attachment only as the first necessary esse's own quiddity; n.4 does not supply an explicit converse case, and stable distinct joining remains open to n.2's trilemma. No premise or root obligation is discharged.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

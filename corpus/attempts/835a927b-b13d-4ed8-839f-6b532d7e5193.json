@@ -1,0 +1,25 @@
+{
+  "id": "835a927b-b13d-4ed8-839f-6b532d7e5193",
+  "label": "SCG I.22 contingent conjunction: precise typed reply and D-to-E boundary",
+  "date": "2026-11-13",
+  "statement_ids": [
+    "db7f00d4-1a08-5039-8a6d-afe6f18aa5a8",
+    "73ac7e21-6b5c-44ad-8a26-ac32f19e6a5c",
+    "0cd7ba22-54e4-4726-9f8a-b900fc1a46a0",
+    "8d28134d-3ace-4804-9290-ca85bc4777fe",
+    "b492a7ae-e3de-4d6d-ac56-aabeaf5b0f2d",
+    "986f3763-c6c2-4bca-8f66-9d5500b3fb6c",
+    "72314397-7d7a-43d8-b2bc-7697bd6f1bc2",
+    "d801302d-eb21-4bf7-a1ff-1d980f4d17bd"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Bounded investigation for #1595 and #319 of SCG I.22 nn.2–4, with public Latin n.2 dependency trilemma, n.3's direct objection (necessary esse and contingent conjunction), and n.4's actual one-sided reply. The last paragraph explicitly asserts only that if the esse can be understood without the proposed essence, that essence is accidental relative to the esse and not the quiddity of the first necessary being which is the esse. The converse (inseparability revives dependence) was rejected as an attribution: it is an analyst reconstruction, not written as n.4's second case. No chapter-specific corpus source passage was materialized, so no new source claim or attributed definition was registered. The analyst profile in TruthCore/Latin/Aquinas/SummaContraGentiles/BookI/Chapter22Conjunction.lean reuses the q.3 a.4 Profile for the same x/esse/essence representation but keeps existence of an esse, its world-relative conjunction to a proposed quiddity, conceivability apart, accidentality to esse, identification of the first bearer with that esse, and genuine quiddity distinct. A structural derivation says necessary e with contingent e-q conjunction yields an accessible world where e still exists but e-q does not. The reply then applies three separately OPEN premises: world separation indicates intelligibility apart (analyst), intelligibility apart makes q accidental to e (source-orientation reading), and a q accidental to e is not the quiddity of x IDENTIFIED with e (source-orientation reading). This second result is explicitly marked an assembly/transcription, not independent premise warrant or essence–esse identity. Seven finite interpretations supply a positive contingent adjunct, independent omission controls for the three interpretation bridges, identification and esse necessity, and a stable necessary e-q union of distinct principles with q genuine quiddity. The direct D-to-E boundary control reuses NecessaryAt, NoExistingSupportAt and ActualUnderivedEssenceIdentity on one actual and necessarily existing underived bearer: represented esse and essence remain distinct while the n.3–4 bridge bundle holds, since the union never separates. This counters only bare D → E under the recorded signature, not Aquinas's n.2 trilemma or a richer per se necessity. Exact reading, source limits, independent mechanism and reopening test are in docs/notes/scg-i22-contingent-conjunction.md. This branch adds no root edge or closure marking; root premise change none. Local corpus generator/check, attribution check, source manifest check, import generation and bundle audit passed; Lean/Lake/Rust unavailable, so proofs/controls await kernel, binding, Comparator and NanoDa verification on submitted inputs.",
+  "evidence": [
+    "5de97688-122e-420d-8233-87a5b037b4ae",
+    "bd15efff-4d4a-4c06-ad9d-40d38875b5c8",
+    "a54d634a-b79a-4c29-9ce8-00475967f49b",
+    "a6db2a81-3e04-47b7-9cc9-c29bb169c221"
+  ],
+  "blocker": "The n.3–4 response excludes one contingent essence-esse attachment only when the bearer is ontically identified with its esse and the three interpretive bridges hold. The stable distinct union survives and D→E requires n.2's separately justified dependence-coverage trilemma or q.3's efficient-causal premises. Next test: type the three n.2 dependence directions using distinct relata and test coverage, actual underivedness, and the essence-as-accident conclusion against the stable distinct-union model; search for positive, independently defended co-fundamentality before treating that model as a substantive metaphysical rival. Then materialize/read a pinned SCG I.22 corpus passage before any source claim."
+}

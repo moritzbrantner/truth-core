@@ -1,0 +1,11 @@
+{
+  "id": "5de97688-122e-420d-8233-87a5b037b4ae",
+  "label": "SCG I.22 necessary esse isolates conjunction contingency",
+  "argument_id": "c4a5bae9-1c62-4635-94f0-d8280a17d527",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaContraGentiles.Chapter22Conjunction.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaContraGentiles.Chapter22Conjunction.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaContraGentiles.Chapter22Conjunction.necessary_esse_contingent_join_separates",
+  "comparator_config": "results/5de97688-122e-420d-8233-87a5b037b4ae/comparator.json",
+  "status": "solution-present",
+  "description": "Non-transcription structural consequence in a typed analyst profile: necessity of esse is separately quantified from contingent joining to q. The failed conjunction does not entail the failure of the esse; the no-necessity control shows the necessity condition matters. No attributed historical claim or metaphysical establishment is involved."
+}

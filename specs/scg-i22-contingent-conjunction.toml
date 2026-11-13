@@ -1,0 +1,78 @@
+# SCG I.22 nn.3–4 analyst reconstruction. Historical attribution deferred:
+# the public Latin is an orientation witness, not yet a materialized corpus passage.
+# The first derivation is structural; the second explicitly transcribes the
+# source's conceptual reply under three separately OPEN interpretation premises.
+
+[batch]
+vocab = "TruthCore.Latin.Aquinas.SummaContraGentiles.BookI.Chapter22Conjunction"
+results = "TruthCore.Results.Aquinas.SummaContraGentiles.Chapter22Conjunction"
+definitions = ["b18c2550-e953-42d4-817c-cc6805cf5004", "DEF-ESSE", "DEF-ESSENCE-THOMISTIC-NATURE"]
+disambiguations = ["DISAMB-ESSENCE", "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"]
+
+[[statement]]
+id = "SCG I.22 necessary esse and contingent conjunction separate"
+lean = "NecessityAndContingentJoinSeparateAt"
+paraphrase = "For a selected world and typed esse–quiddity profile, if the same esse principle exists throughout the accessible worlds and its conjunction to q fails at some accessible world despite holding at the selected world, then there is a world where that same esse exists without the conjunction. Analyst structural result; neither existence of such an esse nor intelligibility of conceptual separation is asserted."
+
+[[statement]]
+id = "SCG I.22 modal separation indicates conceptual intelligibility"
+lean = "WorldSeparationShowsIntelligibilityAt"
+paraphrase = "OPEN analyst bridge, not attributed to SCG: for each esse e and proposed quiddity q, a selected-world actual conjunction and a world accessible there where e still exists but the union fails warrant that e can be understood apart from q. Modal separability is not by definition conceptual separability; rejecting this bridge is a serious interpretation option."
+
+[[statement]]
+id = "SCG I.22 intelligible separation makes quiddity accidental"
+lean = "IntelligibleSeparationMakesAccidental"
+paraphrase = "OPEN selected reading of SCG I.22 n.4, attribution deferred: if an esse e can be understood without proposed q, then q is accidental to e. The consequent is an ontological relation of q to e, not the fact that q is contingently true or that the bearer is contingent. No converse and no real-world instance are assumed."
+
+[[statement]]
+id = "SCG I.22 accident not quiddity of identified esse bearer"
+lean = "AccidentNotQuiddityOfEsseBearer"
+paraphrase = "OPEN selected reading of SCG I.22 n.4, attribution deferred: when bearer x is ontically identified with its esse e, a q accidental to that e cannot be x's genuine quiddity. Identification is a separately interpreted predicate and not extensional co-presence or q.3 Profile equality. For a posterior composite which merely has e, this premise does not deny that q is its quiddity."
+
+[[statement]]
+id = "SCG I.22 contingent adjunct is not first esse bearer's quiddity"
+lean = "ContingentConjunctionRejectedAsQuiddityAt"
+paraphrase = "At a selected world, assuming three OPEN interpretation principles, any x whose esse principle e is necessary throughout the selected accessibility cone and which is ontically identified with that e cannot have as its genuine quiddity the separately proposed q whose conjunction to e is contingent. This does not deny x's actual q.3 essence: a rejected proposal is not that essence by fiat. Conditional interpretation of SCG I.22 nn.3–4, not an unconditional D-to-E inference, and not the claim that e and q must be identical."
+
+[[statement]]
+id = "SCG I.22 contingent union omissions and stable distinct alternative"
+lean = "Controls"
+paraphrase = "Seven two-world, two-principle interpretations: a positive necessary esse with contingent accidental attachment of a rejected proposed quiddity distinct from its represented actual essence, omissions of each of three interpretive premises, a non-esse-identical bearer, a nonnecessary esse, and a necessary stable attachment to a genuinely different quiddity represented as the actual essence. All the relevant positive/omission fields have nonempty actual extensions. These are finite signature facts, not evidence of metaphysical possibility or the actual truth/falsity of an OPEN premise."
+
+[[statement]]
+id = "SCG I.22 underived necessary bearer with distinct stable principles"
+lean = "UnderivedDistinctBoundary"
+paraphrase = "A finite boundary on bare D → E: in a single actual and necessarily existing one-bearer Ontic model, the existing NoExistingSupportAt holds with empty support while the q.3 profile has esseOf ≠ essenceOf. Its e is permanently conjoined to q, q is marked genuine quiddity, the n.3–4 three interpretive premises hold, and the existing ActualUnderivedEssenceIdentity is false. This shows the logical need for n.2 or q.3 additional premises, not a metaphysically possible distinct-but-underived divine being."
+
+[[argument]]
+id = "SCG I.22 necessary esse isolates conjunction contingency"
+theorem = "necessary_esse_contingent_join_separates"
+premises = []
+conclusion = "SCG I.22 necessary esse and contingent conjunction separate"
+rule = "Unpack a world-indexed necessity and a contingent-union witness; preserve the same esse principle at the witness"
+meaning = "Non-transcription structural consequence in a typed analyst profile: necessity of esse is separately quantified from contingent joining to q. The failed conjunction does not entail the failure of the esse; the no-necessity control shows the necessity condition matters. No attributed historical claim or metaphysical establishment is involved."
+
+[[argument]]
+id = "SCG I.22 contingent conjunction not the first quiddity"
+theorem = "contingent_join_not_first_quiddity"
+premises = ["SCG I.22 modal separation indicates conceptual intelligibility", "SCG I.22 intelligible separation makes quiddity accidental", "SCG I.22 accident not quiddity of identified esse bearer"]
+conclusion = "SCG I.22 contingent adjunct is not first esse bearer's quiddity"
+rule = "Apply the structural separation theorem, then separately interpret conceivability, accidentality and proper quiddity"
+transcription = "assembly"
+meaning = "Explicitly marked interpretive transcription after a real structural world-indexed separation result. The last conceptual steps are OPEN, independently meaningful premises, not independently proved ontic facts. It rejects the n.3 contingent attachment only as the first necessary esse's own quiddity; n.4 does not supply an explicit converse case, and stable distinct joining remains open to n.2's trilemma. No premise or root obligation is discharged."
+
+[[argument]]
+id = "SCG I.22 finite conjunction interpretations"
+theorem = "controls"
+premises = []
+conclusion = "SCG I.22 contingent union omissions and stable distinct alternative"
+rule = "Decidable evaluation of seven finite typed assignments"
+meaning = "The signature has a nonvacuous positive assignment and distinct omission assignments for each source/analyst bridge, self-esse identification, and necessity of the esse; a stable necessary joining of distinct principles is compatible with the n.3–4 bundle. This controls scope and vacuity only, never metaphysical possibility or premise warrant."
+
+[[argument]]
+id = "SCG I.22 underived distinct D to E boundary"
+theorem = "underived_distinct_boundary"
+premises = []
+conclusion = "SCG I.22 underived necessary bearer with distinct stable principles"
+rule = "Decidable evaluation of an actual de re necessary and underived one-bearer model"
+meaning = "Reuses the canonical NoExistingSupportAt, NecessaryAt and ActualUnderivedEssenceIdentity declarations. One actual necessary bearer has no supporter at the actual world but has represented esse distinct from essence while the n.3–4 reply remains satisfied. This is a countermodel to the bare formally typed D → E step only, not to the n.2 trilemma or the richer per se necessity it invokes."

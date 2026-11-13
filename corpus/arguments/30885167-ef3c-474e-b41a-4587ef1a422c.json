@@ -1,0 +1,19 @@
+{
+  "id": "30885167-ef3c-474e-b41a-4587ef1a422c",
+  "label": "SCG I.22 finite conjunction interpretations",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "72314397-7d7a-43d8-b2bc-7697bd6f1bc2",
+  "inference_ids": [
+    "b24bc7ba-7b3d-4752-98b4-68202b3aae8d"
+  ],
+  "meaning": "The signature has a nonvacuous positive assignment and distinct omission assignments for each source/analyst bridge, self-esse identification, and necessity of the esse; a stable necessary joining of distinct principles is compatible with the n.3–4 bundle. This controls scope and vacuity only, never metaphysical possibility or premise warrant.",
+  "definition_ids": [
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "183b48d2-1753-583d-aef9-4199cff86231",
+    "b18c2550-e953-42d4-817c-cc6805cf5004"
+  ],
+  "disambiguation_ids": [
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "5d15d8f2-1080-53c9-886f-cee2a4ff23a9"
+  ]
+}
