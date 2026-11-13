@@ -216,3 +216,59 @@ Verification completed:
 - `truth frontier-diff --base HEAD` reports no premise or support-bundle change for this documentation-only work.
 
 The downloadable calculation contains the canonical graph/dictionary, exact diagrams, count/size summaries, representative proof traces, the one-off symbolic calculation script and independent-count evidence. The script is analysis tooling, not an additional repository runtime or status authority. The canonical corpus and Rust CLI retain their current roles.
+
+## Scope audit: independence and possible separate existence (2026-11-13)
+
+This audit uses the same registered graph and terminal basis as the calculation above (current main at `03d97b48a86d4b7d7bbedcb4441398ce3a9dadef`). It does **not** change the formal status of a premise, delete a conditionally valid result, or substitute a countermodel for a proof of its negation in every interpretation.
+
+### A concrete modal countermodel
+
+`DEF-DEPENDS-FOR-BEING` makes `DependsForBeing y x` a primitive counterfactual/explanatory relation, including counterpossible contexts. It is **not** definitionally the negation of `CanBeWithout y x`. `DEF-CAN-BE-WITHOUT` says there is a real possibility in which `y` exists and `x` does not. The existing `Ontic`, `NecessaryAt` and `ContingentAt` in `TruthCore/German/Kant/CosmologicalInference.lean` supply a precise possible-worlds test, without reinterpreting these primitives.
+
+Let the world and being carriers each be `Bool`, with universal accessibility from the actual world `false`. At every accessible world both beings (`y = false`, `x = true`) exist. Set `DependsForBeing a b := (a = true ∧ b = false)` and `PriorSimply := False`. Interpret `CanBeWithout a b` exactly as `∃ v, access false v ∧ ExistsAt v a ∧ ¬ ExistsAt v b`. Hence:
+
+| Statement in this finite interpretation | Value |
+| --- | --- |
+| `NecessaryAt x` and `NecessaryAt y` | True |
+| `DependsForBeing x y`; `¬ DependsForBeing y x` | True; true |
+| `CanBeWithout y x`; `CanBeWithout x y` | False; false |
+| `DependenceExcludesBeingWithout`; `PriorityByBeingWithout` | True; true |
+| `IndependenceAllowsBeingWithout`; `NonmutualDependenceSufficesForPriority` | False; false |
+
+Thus an effect `x` can be necessary while depending asymmetrically on `y`; the existing relations do not prohibit this. The Lean omission model `Control.nonmutualDependenceSuffices.omit_hAllow` already has **exactly these** `DependsForBeing`, `CanBeWithout` and `PriorSimply` truth tables, with `nonmutualDependenceSuffices_omit_hAllow` checked by `decide` and included in the certified round-2 controls. The universal-accessibility/necessary-existence interpretation is a finite modal extension checked separately by exhaustive truth-table evaluation, **not** an additional Lean-certified bridge equating dependence with possible-world existence. This is a counterexample to the unqualified bridge for an admissible interpretation, not a proof that necessary dependent beings exist in reality.
+
+Even the restriction `ContingentAt x → (¬ DependsForBeing y x → CanBeWithout y x)` is **not** forced by the repository's unconstrained primitive: take two universally accessible worlds, with both beings existing only at the actual world, the same asymmetric dependence as above, and no world where `y` exists without `x`. `x` is contingent, yet the restricted bridge fails. To endorse it requires an additional semantic account under which failure of the counterfactual of dependence, when `x`'s absence is genuinely possible, supplies a joint `y ∧ ¬x` world. This second finite model tests logical non-entailment from the primitives; it is not a counterexample to every more restrictive theory of counterfactuals.
+
+### Scope choices and the defensible replacement
+
+Write `D(a,b)` for `DependsForBeing a b`, `S(a,b)` for possible separate existence, `C(x)` for contingency at the selected world and `P(a,b)` for simple priority. The old bridge is `∀ y x, ¬D(y,x) → S(y,x)`.
+
+| Candidate | Exact content | Consequence |
+| --- | --- | --- |
+| Localize to nonmutual dependence | `∀ y x, D(x,y) → ¬D(y,x) → S(y,x)` | Sufficient for the *existing* proof but still fails for necessary `x`. Not a repair by itself. |
+| Restrict to a contingent effect | `∀ y x, C(x) → D(x,y) → ¬D(y,x) → S(y,x)` | Weakest useful **scoped nontrivial** modal bridge for that proof pattern. Still **OPEN** under the primitive interpretation; yields only contingent-effect priority unless every relevant effect's contingency is separately established. |
+| Make independence modal | Define modal non-separability as `¬S(y,x)` | Its negation entails `S` by classical logic, but this is **not** the existing explanatory `D`. Equating them would hide the disputed bridge in a definition. |
+| Bypass possible separation | Accept `STMT-NONMUTUAL-DEPENDENCE-SUFFICES-FOR-PRIORITY` directly: `∀ y x, D(x,y) → ¬D(y,x) → P(y,x)` | The existing **OPEN** intermediate gives general priority without pretending to derive modal separability. It is a direct support option, not a newly proved theorem or independent warrant. |
+
+No unique weakest *philosophically warranted* bridge follows from the existing meanings. The recommended correction is to **retain** the old verified conditional theorem with its explicitly overstrong OPEN input, **not** present that input as warranted, and use the already recorded direct nonmutual-priority proposition for unrestricted applications. Keep the contingent-effect bridge as a candidate for a *separate scoped result* once its counterfactual semantics and an appropriate use site are fixed. In particular, do not strengthen it by declaring all dependent effects contingent. Its remaining commitments are the semantics of counterfactuals with impossible antecedents, which worlds count as really possible, and why nondependence—rather than mere absence of a causal edge—supplies a separability witness. Also keep the existing natural-priority-to-`SIMPLY_PRIOR_1` bridge openly qualified.
+
+### Exact effect on recorded support
+
+There is exactly **one registered rule** using `STMT-INDEPENDENCE-ALLOWS-BEING-WITHOUT`: the three-premise `NONMUTUAL-DEPENDENCE-PRIORITY-FROM-BEING-WITHOUT` result. Its conclusion `N = STMT-NONMUTUAL-DEPENDENCE-SUFFICES-FOR-PRIORITY` has no other registered deriving rule; one immediate consumer obtains `E = STMT-EFFICIENT-CAUSE-IS-PRIOR-TO-EFFECT`. The existing Lean proof uses the strong input only at `hAllow y x hyx`. Other arguments that consume `N` or `E` **do not themselves assume this strong premise** if those intermediate statements are taken directly. The 13 immediate G rules and nine irredundant direct conjunctions are unaffected.
+
+Let `d`, `i`, `r`, `n` be the direct-input variables for dependence excluding being-without, the disputed independence bridge, the priority-by-being-without criterion and `N`, respectively. The complete direct-or-derived system has the exact local equation
+
+$$F_N=n\lor(F_D\land i\land F_R).$$
+
+All three of `D`, the disputed `I` and `R` are terminal inputs with **no other rule consumer**; `N` has this single incoming rule. Consequently, in the original terminal-only projection there is an exact factorization `Φ_G^T = d ∧ i ∧ r ∧ K_G` (and analogously for H), where `K_G` contains none of `d,i,r,n`. This is a graph-structural factorization of the existing exact support family, not an independence claim about its philosophical premises.
+
+| Explicit graph/input scenario | G minimal sets | G size range | G shared inputs | H minimal sets |
+| --- | ---: | --- | ---: | ---: |
+| Original terminal-only expansion (`d ∧ i ∧ r`) | 67,798,928 | 39–149 | 9 | 109,971,456 |
+| Original 368 terminal inputs, with `i = false` and intermediate inputs still disabled | **0** | — | — | **0** |
+| Replace the deriving rule by direct input `n`, **recomputing** the terminal basis | 67,798,928 | 37–147 | 7 | 109,971,456 |
+| Permit `n` directly **as well as** `d ∧ i ∧ r` in a hybrid terminal basis | 135,597,856 | 37–149 | 6 | 219,942,912 |
+
+The third line is a **basis change**, not preservation of the original 368-input question: `N` becomes a terminal, and `D`, `I`, `R` leave the G/H backward slice. The exact bijection replaces `{d,i,r}` in each inclusion-minimal support with `{n}` (size −2); the original number of conjunctions is therefore unchanged. The fourth line has two incomparable variants of each `K` package, giving twice the original number. The six unaffected universally shared G inputs remain shared; the third line adds `n` as the seventh. A 39-input minimum package from this note was forward-replayed and remained minimal after the three-for-one replacement (37 inputs). These counts follow exactly from the existing verified graph structure and the exact original support-family counts; they do not treat bounded Rust route or antichain diagnostics as a full DNF enumeration.
+
+For the **unrestricted** 599-direct-input system, forbidding `i` leaves `F_N = n`, not false: direct acceptance of `N`, `E`, the stronger root H, and many other intermediate statements remains available. The all-input fixed-point graph still defines the exact formula, but the corpus note does not claim a flattened all-input minimal-set count. Removing the bad premise as an accepted *warrant* likewise does not logically refute it or invalidate the original conditional Lean proof; it changes which input bundles one considers defensible, not which conditionals are derivable in the registered graph.
