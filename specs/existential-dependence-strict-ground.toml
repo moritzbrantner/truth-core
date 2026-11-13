@@ -31,5 +31,6 @@ id = "Mutual-dependence omission controls for strict-grounding interpretation"
 theorem = "controls"
 premises = []
 conclusion = "Existential grounding interpretation omission controls"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
 rule = "Populated Boolean dependence counterinterpretations, with and without PLG consistency"
 meaning = "Omitting consistency permits all sequents; omitting the mapping leaves counterfactual dependence unconstrained even alongside a consistent Fine theory. This prevents the result from being misreported as a theorem about arbitrary dependence or intrinsic metaphysical priority."

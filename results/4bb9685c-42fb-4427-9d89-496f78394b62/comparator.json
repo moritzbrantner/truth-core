@@ -4,6 +4,10 @@
   "theorem_names": [
     "TruthCore.Results.Causality.DependenceStrictGroundMap.controls"
   ],
-  "permitted_axioms": [],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
   "enable_nanoda": true
 }
