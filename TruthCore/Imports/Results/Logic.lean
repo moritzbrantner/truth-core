@@ -104,6 +104,7 @@ public import TruthCore.Results.Logic.SelfApplication.DemarcationTest.Solution
 public import TruthCore.Results.Logic.SelfApplication.Dilemma.Solution
 public import TruthCore.Results.Logic.SelfApplication.ScopeNeeded.Solution
 public import TruthCore.Results.Logic.SoritesBoundary.Solution
+public import TruthCore.Results.Logic.Strength.NecessaryFrames.Solution
 public import TruthCore.Results.Logic.StrengthCause.Solution
 public import TruthCore.Results.Logic.StrengthOrder.Solution
 public import TruthCore.Results.Logic.StrengthUnique.Solution

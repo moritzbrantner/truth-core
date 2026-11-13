@@ -1755,6 +1755,18 @@ fn validate_strength_comparison(
             ));
         }
     }
+    // Python `validate_registration`: a delta that is the stronger or weaker
+    // statement, or names its declaration, certifies no difference (#1598).
+    let delta = text(relation, "delta_statement_id");
+    let declaration = |sid: &str| statements.get(sid).map(|s| text(s, "lean_declaration"));
+    for field in ["subject_id", "object_id"] {
+        let other = text(relation, field);
+        if delta == other || declaration(delta) == declaration(other) {
+            return Err(format!(
+                "{label}: delta_statement_id must name a statement and declaration distinct from {field}"
+            ));
+        }
+    }
     if relation.contains_key("remainder_statement_id")
         && !lean_statement(relation.get("remainder_statement_id"))
     {
@@ -2321,6 +2333,70 @@ fn unregistered_weakening_warnings<'a>(
         ));
     }
 
+    warnings
+}
+
+/// Python `strength_comparisons.certifies_difference` (#1598): a
+/// `strength_comparison` of the same pair, with no background and an
+/// `equivalence` certificate.
+fn certifies_difference(comparison: &Obj, registration: &Obj) -> bool {
+    text(comparison, "predicate") == "strength_comparison"
+        && text(registration, "predicate") == "strengthens"
+        && text(comparison, "subject_id") == text(registration, "subject_id")
+        && text(comparison, "object_id") == text(registration, "object_id")
+        && comparison
+            .get("background_statement_ids")
+            .and_then(Value::as_array)
+            .is_some_and(Vec::is_empty)
+        && comparison
+            .get("evidence_result_ids")
+            .and_then(Value::as_object)
+            .is_some_and(|evidence| evidence.contains_key("equivalence"))
+}
+
+/// Python `strength_difference_warnings` (#1598): one warning per
+/// `strengthens` registration without a certified difference, then a summary.
+fn strength_difference_warnings(relations: &[&Obj]) -> Vec<String> {
+    let comparisons: Vec<&Obj> = relations
+        .iter()
+        .copied()
+        .filter(|r| text(r, "predicate") == "strength_comparison")
+        .collect();
+    let mut registrations: Vec<&Obj> = relations
+        .iter()
+        .copied()
+        .filter(|r| text(r, "predicate") == "strengthens")
+        .collect();
+    registrations.sort_by_key(|r| text(r, "id"));
+    let (mut warnings, mut certified, mut separated) = (Vec::new(), 0usize, 0usize);
+    for registration in &registrations {
+        let matches: Vec<&&Obj> = comparisons
+            .iter()
+            .filter(|comparison| certifies_difference(comparison, registration))
+            .collect();
+        if matches.is_empty() {
+            warnings.push(format!(
+                "{}: strengthens {} to {} has no certified difference; register a strength_comparison of the pair with a delta statement and an equivalence certificate STRONG <-> WEAK and DELTA (#1598)",
+                text(registration, "id"),
+                text(registration, "subject_id"),
+                text(registration, "object_id")
+            ));
+            continue;
+        }
+        certified += 1;
+        if matches.iter().any(|c| truthy(c.get("separator")))
+            || truthy(registration.get("strictness_result_id"))
+        {
+            separated += 1;
+        }
+    }
+    if !registrations.is_empty() {
+        warnings.push(format!(
+            "strength order: {certified} of {} strengthens registrations have a certified difference, {} have none; {separated} record strictness (#1598)",
+            registrations.len(),
+            registrations.len() - certified
+        ));
+    }
     warnings
 }
 
@@ -3392,6 +3468,7 @@ fn check_warnings(root: &Path, loaded: &Loaded, files: &[(Vec<String>, PathBuf)]
         &records.results,
         &records.relations,
     ));
+    warnings.extend(strength_difference_warnings(&records.relations));
 
     // Unmet floor markings (Python `floor_reasons`).
     let claim_statement: HashMap<&str, &str> = records
@@ -4237,5 +4314,48 @@ mod tests {
                 .iter()
                 .all(|w| !w.starts_with("ARG-D") && !w.starts_with("ARG-PLAIN"))
         );
+    }
+
+    #[test]
+    fn strengthens_without_certified_difference_warns() {
+        let strengthens = |strong: &str, weak: &str| {
+            obj(
+                serde_json::json!({"id": format!("REL-{strong}-{weak}"), "predicate": "strengthens",
+                "subject_id": strong, "object_id": weak, "verification_result_id": "RES"}),
+            )
+        };
+        let comparison = |extra: Value| {
+            let mut fields = obj(
+                serde_json::json!({"id": "REL-C", "predicate": "strength_comparison",
+                "subject_id": "S", "object_id": "W", "background_statement_ids": [],
+                "evidence_result_ids": {"equivalence": "RES-EQ"}}),
+            );
+            if let Value::Object(extra) = extra {
+                fields.extend(extra);
+            }
+            fields
+        };
+        let registrations = vec![strengthens("S", "W"), strengthens("B", "S")];
+        let warnings = strength_difference_warnings(&refs(&registrations));
+        assert_eq!(warnings.len(), 3, "{warnings:?}");
+        assert!(warnings[0].starts_with("REL-B-S: strengthens B to S has no certified difference"));
+        assert!(warnings[2].starts_with(
+            "strength order: 0 of 2 strengthens registrations have a certified difference, 2 have none"
+        ));
+        let mut relations = registrations.clone();
+        relations.push(comparison(Value::Null));
+        let warnings = strength_difference_warnings(&refs(&relations));
+        assert_eq!(warnings.len(), 2, "{warnings:?}");
+        assert!(warnings[1].contains(
+            "1 of 2 strengthens registrations have a certified difference, 1 have none; 0 record"
+        ));
+        for extra in [
+            serde_json::json!({"background_statement_ids": ["G"]}),
+            serde_json::json!({"evidence_result_ids": {"implication": "RES"}}),
+        ] {
+            let mut relations = registrations.clone();
+            relations.push(comparison(extra));
+            assert_eq!(strength_difference_warnings(&refs(&relations)).len(), 3);
+        }
     }
 }

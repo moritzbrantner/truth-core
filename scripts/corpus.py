@@ -660,6 +660,36 @@ def unregistered_weakening_warnings(
     return warnings
 
 
+def strength_difference_warnings(relations: list[dict[str, Any]]) -> list[str]:
+    """Advisory until the backfill is complete (#1598): every `strengthens`
+    registration should name its difference, a `strength_comparison` of the
+    same pair with no background and an `equivalence` certificate
+    STRONG ⇔ WEAK ∧ DELTA (`strength_comparisons.certifies_difference`). One
+    warning per uncertified registration, then a count summary."""
+    from strength_comparisons import certifies_difference
+    comparisons = [relation for relation in relations if relation.get("predicate") == "strength_comparison"]
+    registrations = sorted((relation for relation in relations if relation.get("predicate") == STRENGTHENS_PREDICATE),
+                           key=lambda relation: relation["id"])
+    warnings, certified, separated = [], 0, 0
+    for registration in registrations:
+        matches = [comparison for comparison in comparisons if certifies_difference(comparison, registration)]
+        if not matches:
+            warnings.append(
+                f"{registration['id']}: strengthens {registration['subject_id']} to {registration['object_id']} "
+                "has no certified difference; register a strength_comparison of the pair with a delta statement "
+                "and an equivalence certificate STRONG <-> WEAK and DELTA (#1598)"
+            )
+            continue
+        certified += 1
+        separated += any(comparison.get("separator") for comparison in matches) or bool(registration.get("strictness_result_id"))
+    if registrations:
+        warnings.append(
+            f"strength order: {certified} of {len(registrations)} strengthens registrations have a certified "
+            f"difference, {len(registrations) - certified} have none; {separated} record strictness (#1598)"
+        )
+    return warnings
+
+
 def strength_use_warnings(
     arguments: list[dict[str, Any]],
     order: list[dict[str, Any]],
@@ -3453,6 +3483,7 @@ def check_warnings() -> list[str]:
     order = strength_order(relations, results, arguments)
     warnings.extend(strength_use_warnings(arguments, order))
     warnings.extend(unregistered_weakening_warnings(arguments, results, relations, order))
+    warnings.extend(strength_difference_warnings(relations))
     for entry in report["floor"]:
         if not entry["met"]:
             warnings.append(

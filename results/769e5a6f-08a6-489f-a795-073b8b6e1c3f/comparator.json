@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.Strength.NecessaryFrames.Challenge",
+  "solution_module": "TruthCore.Results.Logic.Strength.NecessaryFrames.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.Strength.NecessaryFrames.bOverTExact"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
