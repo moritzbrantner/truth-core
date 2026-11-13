@@ -1,0 +1,9 @@
+{
+  "id": "ea94e8dd-6f08-4099-9032-d302dd799a4e",
+  "label": "Finite concrete root access at a fixed world",
+  "term": "finite concrete root access",
+  "definition": "RootAccess is inductively generated from ActualRoot by finitely many supplier-to-recipient ActualConcreteGround steps whose recipients are actual concrete. Zero steps are allowed. UniversalRootAccess requires access for every actual concretum. LocalizedBridge requires it only for actual concrete recipients with at least one actual nonconcrete supplier. All use the same Profile, world and grounds relation. An actual concrete root can have abstract suppliers. Neither partial co-grounding nor existential sufficiency is inferred from an edge.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.ConcreteRootAccess.RootAccess",
+  "note": "Analyst formulation for #1553, attribution deferred. Inherits primitive grounding interpretation and open application obligations from closed-collection rootedness, definition 38b9012a-472b-4544-a271-16d22b25c9ac. No path bound, finiteness of inventory or population assumption. General equivalences decompose CCR, not independently warrant it. See docs/notes/direct-grounding-warrant.md for examples, rivals, exclusions, property and abstraction burdens."
+}

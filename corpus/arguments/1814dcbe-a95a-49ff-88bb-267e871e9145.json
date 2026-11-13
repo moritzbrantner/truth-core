@@ -1,0 +1,22 @@
+{
+  "id": "1814dcbe-a95a-49ff-88bb-267e871e9145",
+  "label": "CCR implies the localized bridge classically",
+  "premise_statement_ids": [
+    "aca3baa1-9be6-4720-a53d-22050e638561",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
+  ],
+  "conclusion_statement_id": "a485166e-4868-4a0f-b017-ab095c16e202",
+  "inference_ids": [
+    "cafedf94-fb5d-4de1-89d6-96125519d08a"
+  ],
+  "meaning": "CCR implies the localized bridge classically. Conditional structural consequence only; no independent warrant or rival defeat. Excluded middle is explicit where listed.",
+  "definition_ids": [
+    "38b9012a-472b-4544-a271-16d22b25c9ac",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "d8e2ed12-8089-5202-ae51-e807cf611c76",
+    "ea94e8dd-6f08-4099-9032-d302dd799a4e"
+  ],
+  "disambiguation_ids": [
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
+  ]
+}

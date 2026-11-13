@@ -1,0 +1,12 @@
+{
+  "id": "db5d88e5-c88a-419d-bc67-3e688c517a4e",
+  "label": "CCR and universal finite root access are equivalent classically (inference)",
+  "input_statement_ids": [
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
+  ],
+  "output_statement_id": "0c9e0382-34c1-486a-8e1e-73d5a03a84fd",
+  "rule": "Predicate closure and finite path induction at a fixed profile, world and relation",
+  "meaning": "CCR and universal finite root access are equivalent classically. Conditional structural consequence only; no independent warrant or rival defeat. Excluded middle is explicit where listed.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

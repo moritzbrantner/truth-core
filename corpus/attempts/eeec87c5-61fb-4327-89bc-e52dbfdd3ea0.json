@@ -1,0 +1,18 @@
+{
+  "id": "eeec87c5-61fb-4327-89bc-e52dbfdd3ea0",
+  "label": "Distinct dependence through consistent strict existential grounding",
+  "date": "2026-11-13",
+  "statement_ids": [
+    "0f49d71e-09e6-5a9c-b7e7-e0e9b8fe769c",
+    "307261a0-1fcf-5920-a3cd-ebfe29a7617e"
+  ],
+  "kind": "derivation",
+  "outcome": "blocked",
+  "summary": "Found a useful root-connection plan for an existing Fine PLG result after reuse/dossier/context search and direct Solution inspection. The second conjunct of ConsistentStrictGroundAcyclic forbids derivable strict ground together with its weak reversal, conditional on Consistent S. Draft P2-A in docs/notes/causal-dependence-support-investigation.md adds a faithful existence-fact mapping and a distinct D(x,y) to Derivable S(strictPartial(e y)(e x)) bridge; reciprocal D then supplies a strict reversal, converted to weak by existing subsumption. The plan uses no finite atom, well-foundedness, first-ground, or general sufficient-reason premise. Current author-hosted primary text corroborates strict-partial versus partial-strict and weak-equivalence distinctions; existing bibliographic evidence is unchanged. n18 supports already ordered prior/posterior pairs, not the global target. Direct warrant for strict explanation and genuine weak-dependence scope alternatives remain visible. No new graph edge or verified composition.",
+  "evidence": [
+    "92c24bb5-763e-55d0-90b1-ef53d0bd0ab6",
+    "fbc592d0-8fc4-5ac9-97f3-9302f3241d57",
+    "95f41960-baf4-58ad-ba7f-b11b2f439f7c"
+  ],
+  "blocker": "Need independent warrant that frozen counterfactual existential dependence between distinct beings lands in derivable strict partial existence-fact ground, a consistent selected S, and scope coverage beyond any restricted actual-concrete class. Calling a link strict without such warrant relocates the disputed content. Existing PLG theorem supplies consequence, not this interpretation or consistency. No fresh Lean/Comparator execution is available."
+}

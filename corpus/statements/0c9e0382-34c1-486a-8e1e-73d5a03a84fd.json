@@ -1,0 +1,10 @@
+{
+  "id": "0c9e0382-34c1-486a-8e1e-73d5a03a84fd",
+  "label": "CCR is equivalent to universal finite concrete root access",
+  "paraphrase": "Analyst formulation, attribution deferred: At the same profile and world, CCR if and only if universal finite concrete root access.",
+  "lean_declaration": "TruthCore.Causality.ConcreteRootAccess.RootAccessEquivalence",
+  "definition_ids": [
+    "ea94e8dd-6f08-4099-9032-d302dd799a4e",
+    "38b9012a-472b-4544-a271-16d22b25c9ac"
+  ]
+}

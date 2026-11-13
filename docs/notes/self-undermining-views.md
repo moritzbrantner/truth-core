@@ -1,11 +1,21 @@
 # Self-refuting and self-undermining views
 
-A consequence that conflicts with an independently warranted premise excludes
-the view that entails it, under the same interpretation and background. A
-specific rival follows deductively if the independently supported alternatives
-are exhaustive and the other options have been excluded. A conflict with an
-act of assertion, a loss of warrant for a belief, and the absence of a reason
-to adopt a view each require their own conditions and conclusions.
+A consequence that conflicts with a substantively warranted premise excludes
+the view that entails it, under the same interpretation and background. Warrant
+may be prima facie, based on an unavoidable inquiry precondition, or cumulative
+within a larger evidential network; it need not be a separate proof tree. A
+specific rival follows deductively only if the relevant alternatives are
+exhaustive and the other options have been excluded. A conflict with an act of
+assertion, a loss of warrant for a belief, and the absence of a reason to adopt
+a view each require their own conditions and conclusions.
+
+These tests also inform *comparative* assessments short of deduction: a view
+failing a well-supported self-refutation, self-undermining, internal-adoption or
+necessary-precondition test loses standing; a view surviving a serious test may
+gain relative standing. Neither logical consistency alone nor the mere absence
+of a discovered objection establishes truth, and an unsupported hypothetical
+objection carries no evidential weight. Keep these distinctions in the overall
+provisional judgment, not as automatic frontier closure.
 
 | # | Candidate | Corpus evidence and scope |
 | --- | --- | --- |
@@ -39,7 +49,7 @@ warrant, benchmark and prior-demonstration assumptions in more detail.
 
 The question is whether a view can admit a reason, of a specified kind, for an
 agent to adopt it. Here *internal* means admitted by the view's interpretation.
-The reason may come from independent evidence. The interpretation keeps the
+The reason may come from a larger shared network of evidence. The interpretation keeps the
 kind and target attitude fixed, such as a moral reason to adopt a stance in
 practice or an epistemic reason to believe that its claims are true.
 
@@ -56,9 +66,302 @@ reason relation and leaves its actual warrant open.
 Global reason denial removes reasons to adopt the view across every kind it
 covers, provided the view itself is among the targets. Its conflict with F6
 runs from an epistemic reason witness to the exclusion of the global denial.
-It supplies no independent warrant for F6. The separate
+It does not by itself supply a non-question-begging case for F6; prima facie,
+practice-based and cumulative grounds for F6 remain eligible. The separate
 [reflective-coherence analysis](reflective-coherence.md) treats the conditions
 under which a normative policy may require a worldview to be adopted.
+
+## The moral--epistemic parity bridge (research inventory, 2026-11-12)
+
+The next substantive connection is not an identity of moral and epistemic
+reasons. The two kinds can have different contents and targets while sharing
+the **same sort of favoring or authoritative relation**. A denial of *every*
+irreducibly normative favoring relation then reaches both domains, provided
+the epistemic instance really belongs to that sort. A denial restricted to
+moral reasons does not reach the epistemic domain by that inference alone.
+
+**Existing typed reuse.** F6 (`STMT-THERE-ARE-EPISTEMIC-REASONS`,
+`f56b2ee7-c69e-5e3b-85b0-e671d907ba58`) asserts a *thin* existential.
+`STMT-THERE-ARE-PREFERENCE-INDEPENDENT-EPISTEMIC-REASONS`
+(`2ca463c2-bd1f-5a13-a395-0e2c57a5ad8f`) concerns a reason that keeps
+pro tanto force across the represented preferences. `EpistemicAuthority`
+derives that stronger existential from **actual force plus belief
+answerability**; its goal-relative counterprofile accepts thin reasons but
+fails preference independence. `AdoptionReasons` already proves that denial
+of moral reasons can coexist with a reason of a separate epistemic kind to
+believe the moral denial, whereas global denial contradicts an F6 witness
+in the same reason profile. None of those results yet proves that
+preference-independent force is **irreducibly normative**, nor does the corpus
+currently bind a particular moral error theory to global denial.
+
+**Two distinct candidate arguments, not yet registered as proofs:**
+
+1. **Against global irreducible-reason denial:** If the error-theory package
+   denies *all* irreducibly normative reasons, and an actual epistemic reason
+   has that same irreducibly normative status, the package is inconsistent
+   with the epistemic witness. If it instead accepts only functional epistemic
+   reasons, it may retain a reason to believe the package without
+   inconsistency. Distinguish categorical independence from desire,
+   irreducibility to nonnormative facts, and all-things-considered practical
+   obligation; none is a synonym for the others.
+2. **Against moral-only error theory:** Showing that some genuinely epistemic
+   reasons exist, even irreducibly, does **not** alone supply a *moral* reason.
+   One also needs a positive moral instance (for example a warranted
+   harm/due-good-to-reason application) or an explicit cross-domain transfer
+   principle adequate to that instance. The genus of normative reasons can
+   be inhabited without each proposed species being inhabited. Do not infer
+   moral realism merely from the conceivability or possibility of epistemic
+   reasons.
+
+**The substantive surviving rival and its challenge.** Jonas Olson's
+functional account treats evidence as a reason insofar as basing a belief on
+it fulfills belief's truth-tracking/informational function, without positing
+irreducible normative authority. This offers a determinate replacement
+mechanism; the current two-kind model alone does not represent that mechanism.
+Alex Murphy argues that the error theorist's own explanation of apparent
+*moral* authority also applies to epistemic judgments, and that functional
+reasons are standards-based reasons whose apparent authority needs the same
+scrutiny. She also challenges the claim that morality cannot itself receive
+a functional explanation. This is a concrete test of Olson's **asymmetric
+reduction**, not a claim that an error theorist is incoherent simply for
+distinguishing the two types.
+
+**Belief--action feedback.** Beliefs guide investigations and other actions;
+those actions produce evidence that corrects beliefs. That interaction makes
+epistemic and practical reasons *jointly relevant* to one agent, but the
+descriptive feedback loop does not prove a categorical duty to investigate
+or the existence of moral reasons. A useful future comparison holds evidence,
+truth and investigative activity fixed while varying desire and the proposed
+source of normative force: objective favoring, belief-function standards, and
+practical aims. Test which can explain the person's reason to revise a
+comforting but false belief, and separately which can justify undertaking
+costly inquiry. See #930, #933, #1007 and the focused #1500 for the
+downstream routes.
+
+Primary-author research leads (read for this inventory; not new corpus
+stating-claim witnesses): Richard Rowland, *Moral Error Theory and the
+Argument from Epistemic Reasons* (2013),
+<https://www.jesp.org/paper/36346f73-90e0-815c-84b9-e23e5cf29446>;
+Jonas Olson, *Moral and Epistemic Error Theory: The Parity Premise Reconsidered*
+(2018), <https://www.diva-portal.org/smash/get/diva2%3A1278041/FULLTEXT01.pdf>;
+Alex Murphy, *Why Epistemic Reductionism Won't Save the Moral Error Theorist*
+(2020), <https://discovery.ucl.ac.uk/id/eprint/10141382/>.
+Their historical claims, a typed irreducibility/functional fork and the
+cross-domain implication remain unregistered; this section establishes no
+new Lean result, root-frontier change, premise truth or refutation.
+
+## #1500 complete proposed outcome: authority and transfer discrimination
+
+Draft for parent semantic challenge (2026-11-12); this extension has not been
+independently reviewed. Analyst formulations, attribution deferred. Reconciled
+#1502 head `2a540aec02d490e44d2b099056b168c2aa0a9dba` with main
+`80dbecadc` before research; merged working baseline `03a75fef6bdcf01b367f3ff5992c3119f01ebcfc`.
+Shared convention sourceRevision `15f348b072188255da837578eaafc8a98f12fdf0`.
+
+**Exact root connection.** The target is registered GodExists
+`8626f8a5-9531-5da7-9ebd-f901e74b1129`, consumed by CATHOLICISM-SKELETON
+`88671579-84e3-59b5-b507-c05fb0336022` toward CatholicismTrue
+`53964cbe-5831-5812-af33-4d87896d47a7`. These are the root endpoints, not an
+existing moral route. The missing #933/#1460/#371 bridge must move from actual
+moral reasons through justified governance to GOD_4. Here we discriminate its
+prior epistemic-to-moral transfer; even success there would not establish the
+governance, personal-source or God-identity steps. No library is extended.
+
+### What the existing authority evidence actually excludes
+
+`Results.Logic.EpistemicAuthority.authorityFromAnswerability` requires actual
+force and invariance of that force across supplied preferences. Its conclusion
+is preference independence, not irreducibility. `goalRelativeExcludesAuthority`
+excludes independence only given force conditional on a preference aim and an
+available indifferent preference. The certified `constitutiveAimAuthority`
+control instead permits preference independence when every supplied preference
+has the aim. Its domain restriction does not explain why a genuinely indifferent
+believer has an authoritative reason.
+
+There is a further substantive survivor: a function standard can classify a
+belief as defective irrespective of the believer's preferences. A heart may
+malfunction even when nobody wants it to function; analogously, a belief may
+fail its truth-tracking function without its holder caring. This analogy offers
+a positive account of correctness, not yet a reason to care, act, or answer to
+someone. Such a functional reconstruction is **not** the theorem's instrumental
+`GoalRelativeForce accuracyAim` package. Treating its preference independence
+as proof of irreducibility would exclude it by relabeling. Conversely, granting
+that functional defect is real does not yet grant categorical normative force.
+
+Thus distinguish (i) instrumental force conditional on an optional accuracy
+end, (ii) constitutive classification under belief's function, and (iii) a
+categorical pro-tanto reason for the believer. Whether (ii) supplies (iii) is
+the live normative bridge. Irreducibility adds another metaphysical question;
+all-things-considered action requirements add conflict and feasibility questions.
+The prior authority controls certify neither a functional reduction nor its
+failure. No fresh model certificate is claimed here.
+
+### Matched report case: where the proposed transfer enters
+
+An investigator has a laboratory result indicating that a treatment is unsafe,
+understands that indication, but finds the contrary belief comforting. Keep the
+result, its evidential bearing, the truth, and the investigator's competence
+fixed while varying only preference for comfort versus accuracy. Separately,
+another person will rely on a report when deciding whether to administer that
+treatment. The investigator can correct the report without harm or significant
+cost. These are descriptive assumptions; neither a duty nor a right is hidden
+in “rely,” “unsafe” or “can.” Consider three questions separately:
+
+| Question | Positive functional reply | Additional normative burden |
+|---|---|---|
+| What belief fits the evidence? | Belief's informational function selects the evidence-responsive belief even for the comfort-preferring subject. | Why correct performance supplies this subject a categorical reason, rather than a classification of success. |
+| Must the subject investigate further or correct the report? | Inquiry can improve informational performance; accurate reporting enables the recipient's practical aim. | Why that improvement warrants this action and its costs; an epistemic reason for a belief does not entail an action duty. |
+| Is correction owed to the recipient? | Social reporting practices may function to transmit dependable information. | A principle of nondeceptive reliance, due care or protection must make the recipient's stake reason-giving and, separately, give a claim against this speaker. |
+
+First remove the recipient while holding the private evidence and belief fixed.
+The epistemic correctness assessment persists; the selected directed reliance
+claim has no recipient in that variant. This is a conceptual omission trial,
+not a certified finite countermodel or proof that no other moral reason exists.
+Next restore the recipient but remove any undertaking, invitation or assurance:
+they overhear a private remark. The epistemic assessment again stays fixed.
+A special assurance-based duty may disappear, while a general duty to prevent
+foreseeable injury may remain under a different principle. Therefore the
+transfer cannot simply identify epistemic answerability with accountable demand.
+
+Now add an explicit undertaking to provide the safety report, known reasonable
+reliance, foreseeable serious preventable injury and cheap feasible correction.
+A positive moral bridge is: invited reliance creates a defeasible responsibility
+to correct material misinformation before the recipient acts. Its rationale is
+that the speaker has induced dependence on information they control, and can
+avert a serious cost shifted to the recipient. This supports a prima facie
+other-regarding reason even if the speaker prefers comfort. It does not follow
+from belief's truth aim alone. The strongest objection accepts evidential error
+and social function but denies that inducing dependence supplies any categorical
+reason; it can recommend correction instrumentally while retaining moral-only
+error theory. Defeating that objection requires defending the reliance principle,
+not restating the epistemic witness. A further objection permits deliberate
+misinformation to avert a greater injury: pro-tanto correction is therefore
+kept separate from an unconditional or overriding duty.
+
+The ordinary distinction between accountable assurance and an overheard remark
+gives a concrete reason to investigate reliance rather than unrestricted
+cross-kind parity. It does not show that undertakings create every duty, that
+all recipients can demand an account, or that injury alone fixes jurisdiction.
+Patient rights, another speaker's demand, waiver and enforcement stay separate,
+as in the read-only #1574 dependency at `17306d99fe1231bcf121659d1e0c55a271864e59`.
+The analogy does not transfer an infant's powers or the guardian findings into
+this report case. No authority-note edits are made.
+
+### Rival commitments, warrant and reassessment
+
+The strongest functional moral-only rival retains truth-responsive belief
+standards, a reliable explanation of inquiry and instrumental guidance, while
+denying irreducible moral favoring. It can also accept constitutive standards
+for moral discourse without accepting that their demands bind categorically.
+Its remaining burden is explaining apparent authoritative moral demands and the
+practical reliance judgments without accepting their categorical truth. That
+is an explanatory/warrant burden, not an identified contradiction with an
+accepted floor item. Nothing here licenses calling its price unreasonable.
+
+A rights-enriched realist can instead accept categorical epistemic and moral
+reasons plus reliance responsibilities as basic or necessarily connected to
+these facts. That package survives and offers a positive replacement for divine
+governance. A natural-goodness account can connect truthful communication with
+rational social flourishing, provided its justice-to-other-person bridge is
+defended. A divine account can integrate truthfulness and care under wise just
+governance, provided the legitimacy and particular duty connection are defended.
+These are candidate explanations. Merged #1572 distinguishes conditional token
+entailment from explanation and leaves explanatory relevance open; this result
+must not be strengthened into a realist refutation here. Divine governance's
+normative warrant remains open even if its metaphysics is accepted conditionally.
+
+**Proposed assessment for parent challenge:** evidence discriminates against
+using thin F6, preference invariance, shared functional language or causal
+belief/action feedback as a sufficient transfer. It does not discriminate
+between the strongest functional, realist and divine accounts on their full
+metaphysical truth. The report case gives defeasible positive support for a
+scoped reliance reason, conditional on the stated normative rationale. Its
+support is not independent evidence for God, and no moral instance is formally
+registered or established. A global denial of the very reason relation already
+inhabited is excluded by existing proofs; moral-only denial remains a distinct
+rival. Only commitments of the **same proponent, sense, domain and conditions**
+can support an inconsistency accusation.
+
+Three attempted shortcuts are rejected: preference independence to
+irreducibility (constitutive-function survivor); belief force to inquiry duty
+(action-guidance gap); shared reason genus to a directed moral instance
+(recipient/undertaking gap). New theorem duplication would not resolve any of
+these. The exact reassessment point is a warrant question: whether invited
+reliance and avoidable serious injury give the speaker a categorical pro-tanto
+reason even without endorsement. A useful next test compares culpably invited
+reliance with unavoidable reasonable misunderstanding, holding injury and
+correction cost fixed. It tests responsibility's source rather than stipulating
+a metaphysical winner. A competing accepted principle permitting the former,
+or an account reducing its force without losing the relevant judgments, would
+weaken the proposed local assessment. A defense of that principle would still
+leave directed standing and the moral-to-God bridge open.
+
+### Follow-through: invited reliance versus innocent misunderstanding
+
+Run that test before handoff. In case R the speaker knowingly invites reliance
+on their safety report; in case U the recipient reasonably misunderstands an
+uninvited private statement despite the speaker having taken reasonable care.
+Now each speaker discovers the impending reliance and can prevent the same
+serious injury by the same cheap correction. Hold epistemic access at this
+later point fixed. The invitation/history differs; injury, present knowledge,
+ability and correction cost do not.
+
+An undertaking-only principle predicts a special correction duty in R but
+supplies none in U. A general easy-rescue principle predicts a pro-tanto reason
+in both. A responsibility-sensitive account combines them: R can create a
+special directed responsibility, while U still admits a general protective
+reason after discovery. This is a conditional prediction of the three stated
+principles, not a proven exhaustive partition. It shows why lack of culpability
+for creating the misunderstanding does not itself settle the present reason
+to correct it. Conversely, the same correction verdict in R and U would not
+show that invited reliance adds no special responsibility: it can change to
+whom an account or remedy is owed while leaving the selected action unchanged.
+No punishment or liability for U is inferred from a present rescue reason.
+
+The positive rationale for the general principle is the recipient's serious
+avoidable loss compared with the speaker's small burden, without treating the
+recipient's welfare as hostage to the speaker's preferences. The objection is
+precise: this comparative fact may identify a benefit without making it a
+categorical reason for this actor. The reliance rationale adds a role-based
+connection in R; it cannot answer that objection for U merely by repetition.
+A fuller realism may accept both principles as substantive normative truths;
+a functional error theorist can explain their social utility while rejecting
+categorical bindingness. Neither contradicts thin F6. Theism must likewise
+justify why wise governance includes these particular protective demands.
+
+This follow-through resolves the narrower question: undertaking is a candidate
+source of **special** responsibility, not a necessary condition of every
+candidate reason to correct. It leaves the deeper categorical-to-benefit bridge
+open. The next discriminating research dependency is a defense or critique of
+general easy rescue for a nonresponsible observer; this is a different premise
+from belief answerability and should be allocated explicitly before expanding
+this parity slice. No available theorem or accepted floor identified in this
+inventory decides it. Parent reassessment should choose that warrant question
+or the authority lane's standing question, rather than commission another
+formal genus-inhabitation lemma.
+
+No claims, statements, definitions, arguments, results, Challenges or Lean types
+change. No new formal consequence, functional-model certificate, source
+attribution, rival defeat or premise closure is asserted. Full proposed findings
+are persisted here and in the existing attempt for the parent's independent
+semantic challenge; the earlier draft's verification does not review this text.
+
+Validation of the draft: offline corpus check passed with existing allowlisted
+sense warnings; attribution check found no changed stating claims; generated
+imports/docs and diff hygiene passed. No proof inputs changed, so existing proof
+evidence is reused; final delivered-head CI and parent semantic challenge remain
+required. `target/release/truth` was absent; equivalent existing Python corpus
+context/dossier/related commands succeeded, without building a replacement CLI.
+The comparison below used worker_env command mode and a disk-backed task TMPDIR:
+
+```text
+premise delta for Catholicism is true: the Catholic Church is a teaching authority founded by GOD_4, and every… [53964cbe]: 80dbecadc -> working tree
+open premises reaching the root: 479 (340 bare, 93 supported, 46 stated) -> 479 (340 bare, 93 supported, 46 stated)
+expanded-route diagnostic (lowest cost): Catholicism is true: the Catholic Church is a…, from Fork node: the intended reading of… and 7 more [8df2faad] (cost 16) -> Catholicism is true: the Catholic Church is a…, from Fork node: the intended reading of… and 7 more [8df2faad] (cost 16)
+distinct verified support alternatives: 373 -> 373
+verified support alternatives added: 0
+no change
+```
 
 ## Follow-up investigations
 

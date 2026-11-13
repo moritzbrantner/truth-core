@@ -1,0 +1,13 @@
+{
+  "id": "d07aed44-85cb-44a1-9ecf-c88936c23eba",
+  "label": "Q.4 a.2 preexistence from transfer and the cause-of-being restriction (inference)",
+  "input_statement_ids": [
+    "f8ba2429-b4f1-5712-a4d3-798213963d34",
+    "d0fc96b7-fd2d-504e-912f-925de3b1e6ed"
+  ],
+  "output_statement_id": "64498e7e-7f10-54a0-9ec0-c65e6076de1f",
+  "rule": "Transfer, then the cause-of-being restriction",
+  "meaning": "Let c cause x's being and x be in act in r. The cause of a thing's being causes each of its perfections, so c causes x's being r; a cause of a thing's being has every perfection it causes in that thing, so c is in act in r, formally or eminently. Each premise is needed in a checked interpretation (omission models). With the existing derivation of the restriction from preexistence and 'a caused perfection is had' (CausalMapsBatch1.causeOfBeingHasWhatItGives), preexistence and the restriction are interderivable given transfer and that premise. So this lifts no route. Every derivation of either bottoms out under strict expansion in 376d6a5a, or cycles through 'more such' d5a94eb1 and distinct-cause transfer 2c0b9bd7. A ground for preexistence needs a ground for d0fc96b7 that is not preexistence, or a ground for 2c0b9bd7. Conditional consequence only; no premise is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

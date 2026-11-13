@@ -1,0 +1,20 @@
+{
+  "id": "f50a16db-b0d9-4e01-97e4-a53f517e72c8",
+  "label": "Controls for preexistence without transfer, checked",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "fceaf7a8-905f-4c8b-845e-9ab15a60a244",
+  "inference_ids": [
+    "e9aef3a4-c04b-4946-9c95-a8a59899a7d6"
+  ],
+  "meaning": "Strictness, nonvacuity, omission and joint-witness controls listed in the conclusion's paraphrase. A finite countermodel shows a premise is needed in that interpretation, not that it is false.",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "5766de66-8a37-5b04-aa65-9eec53319f50"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
+  ]
+}
