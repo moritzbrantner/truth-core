@@ -1,0 +1,15 @@
+{
+  "id": "8ba4d04f-f4c2-41a2-8420-e61dafd29109",
+  "label": "Independence support from realizable dependency closure",
+  "statement_ids": [
+    "8ab3d114-d6e2-5f6d-805b-ae901f56d39b"
+  ],
+  "date": "2026-11-13",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Investigated a positive separation construction: the reflexive/transitive requirement closure of y and all required background beings contains y and omits x when neither y nor the background requires x. Actual admissibility and the nondependence-to-no-requirement transport are explicit open bridges. Checked all 29 three-element preorders, eight backgrounds and nine ordered pairs (2088 cases); finite checks concern stipulated structures only. Inspected the sole direct consumer and identified a weaker local allowance on pairs already satisfying D(x,y) and not D(y,x), sufficient with its other two unchanged premises. The global P1/P6 bundle classically identifies D with modal inseparability; necessary-background consequences are scope diagnostics, not an actual metaphysical refutation. Existing n.18 starts with priority and cannot noncircularly supply the consumer local allowance without another bridge. Provisional judgment favors the explicit separation route and local obligation; no blanket metaphysical recombination claim. See docs/notes/priority-independence-logic-support-investigation.md, section 2. No new registered implication or closure.",
+  "evidence": [
+    "95f41960-baf4-58ad-ba7f-b11b2f439f7c",
+    "47957c28-218a-58e4-94e4-5220a0c45795"
+  ]
+}

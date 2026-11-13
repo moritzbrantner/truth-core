@@ -1,0 +1,18 @@
+{
+  "id": "b4af6b1e-c47d-4daa-bfa0-f1be2f6ada7d",
+  "label": "Excluded middle support and local decision alternatives",
+  "statement_ids": [
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
+  ],
+  "date": "2026-11-13",
+  "kind": "reading",
+  "outcome": "succeeded",
+  "summary": "Read materialized Metaphysics IV.7 and the Ross translation, Heyting Disputation opening exchange, existing EM constructive results, thought-bivalence equivalence, assertion-boundary note, and the four EM-consuming rules in the recorded 39-premise GodExists example. Provisional assessment retains EM as a credible prima facie commitment for exact ontic propositions, distinguishing unknown truth from absence of truth. Constructive irrefutability and no-instance-denial constrain denials but do not prove universal EM or defeat withholding; DNE and thought bivalence remain equivalent commitments, not independent corroboration. Identified narrower decision demands: degree order, existence of higher bearers, maximum/root existence and equality; local decisions are constructive support where supplied, not a finite algorithm for all unbounded quantifiers. Exact helper audit and certification remain necessary before replacing global EM. See docs/notes/priority-independence-logic-support-investigation.md, section 4. No floor, rival endpoint, existing source claim or closure change.",
+  "evidence": [
+    "2164c64b-bdfc-5a19-b0d4-72cb3ae143b2",
+    "32c1a3f1-840f-55de-bea2-c2b1d2089ad0",
+    "3be6adf4-216f-53a0-b69b-084ac5fc7e48",
+    "d36bd424-9fe4-5a67-a109-7d0c5c419e06",
+    "e2d8d9a4-ecab-5d32-8c57-4109df41dbb6"
+  ]
+}

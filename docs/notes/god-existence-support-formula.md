@@ -135,6 +135,11 @@ The all-input formula is retained exactly by the 600-node/445-rule least-fixed-p
 
 ### Nine shared terminal obligations for G
 
+The [nine-premise support investigation](nine-premise-support-investigation.md)
+records additional arguments, source support and explicit bridge proposals for
+each of these inputs, with the remaining application conditions distinguished
+from formal consequence.
+
 Each following input occurs in every G conjunction **under this terminal-only expansion**. Removing its supplied input makes this expanded formula false. This does not say the proposition is false, universally indispensable to theism, or unavoidable when intermediate claims may be accepted directly.
 
 | Statement | Exact recorded premise |
