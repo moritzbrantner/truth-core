@@ -65,8 +65,8 @@ pub struct FrontierInputs {
     /// The least fixpoint's established and refuted statements.
     pub established: HashSet<String>,
     pub refuted: HashSet<String>,
-    /// Arguments backing a strength registration (closure steps only from a
-    /// closed strong version; owner decision 2026-11-12).
+    /// Arguments backing a strength registration (ordinary closure steps
+    /// except inside a support cycle; owner decision 2026-11-12).
     pub registration_arguments: HashSet<String>,
 }
 

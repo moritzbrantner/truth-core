@@ -112,17 +112,41 @@ class StrengthPropagationTest(unittest.TestCase):
         for field in ["closed_statements", "established_statements", "reaching_root_statements", "routes"]:
             self.assertEqual(rep[field], plain[field], field)
 
-    def test_registration_never_fires_from_an_open_strong_leaf(self) -> None:
-        # STRONG is concluded by nothing: an ordinary step would close WEAK
-        # from that leaf, a registration does not.
+    def test_registration_closes_from_an_open_strong_leaf_like_any_step(self) -> None:
+        # STRONG is concluded by nothing: like the plain argument, the
+        # registration proves WEAK from that open leaf; nothing is established.
         arguments = [REGISTRATION, argument("ARG-ROOT", ["WEAK", "OTHER"], "ROOT")]
         results = [result("ARG-S-W"), result("ARG-ROOT")]
         rep = report(arguments=arguments, results=results, relations=[strengthens("STRONG", "WEAK")])
-        self.assertNotIn("WEAK", rep["closed_statements"])
-        self.assertIn("WEAK", [item["statement_id"] for item in rep["items"]])
-        self.assertEqual(rep["closed_statements"]["ROOT"], "proved")
         plain = report(arguments=arguments, results=results)
-        self.assertEqual(plain["closed_statements"]["WEAK"], "proved")
+        self.assertEqual(rep["closed_statements"]["WEAK"], "proved")
+        self.assertEqual(rep["established_statements"], [])
+        self.assertIn("STRONG", [item["statement_id"] for item in rep["items"]])
+        self.assertEqual(rep["closed_statements"], plain["closed_statements"])
+
+    def test_only_the_circular_registration_is_set_aside(self) -> None:
+        # S1 is proved from W and X; S1 => S2 and S2 => W. Only S2 => W closes
+        # a circle (W feeds S1, which feeds S2); S2 follows from S1 without it.
+        names = ["ROOT", "S1", "S2", "W", "X"]
+        arguments = [argument("ARG-ROOT", ["S2"], "ROOT"), argument("ARG-S1", ["W", "X"], "S1"),
+                     argument("R1", ["S1"], "S2"), argument("R2", ["S2"], "W")]
+        rep = corpus.frontier_report([statement(n) for n in names], arguments, [result(a["id"]) for a in arguments],
+                                     [strengthens("S1", "S2", "R1"), strengthens("S2", "W", "R2")], root="ROOT")
+        self.assertEqual(rep["closed_statements"]["S1"], "proved")
+        self.assertEqual(rep["closed_statements"]["S2"], "proved")
+        self.assertNotIn("W", rep["closed_statements"])
+
+    def test_crossed_registrations_close_no_weak_version(self) -> None:
+        # S1 => W1 and S2 => W2, with S1 proved from W2 and S2 from W1.
+        names = ["ROOT", "S1", "S2", "W1", "W2"]
+        arguments = [argument("ARG-ROOT", ["S1", "S2"], "ROOT"), argument("ARG-S1", ["W2"], "S1"),
+                     argument("ARG-S2", ["W1"], "S2"), argument("R1", ["S1"], "W1"), argument("R2", ["S2"], "W2")]
+        rep = corpus.frontier_report([statement(n) for n in names], arguments, [result(a["id"]) for a in arguments],
+                                     [strengthens("S1", "W1", "R1"), strengthens("S2", "W2", "R2")], root="ROOT")
+        self.assertEqual(rep["closed_statements"]["S1"], "proved")
+        self.assertEqual(rep["closed_statements"]["S2"], "proved")
+        self.assertNotIn("W1", rep["closed_statements"])
+        self.assertNotIn("W2", rep["closed_statements"])
 
     def test_registration_backing_a_refutation_still_counts(self) -> None:
         # The registration STRONG => WEAK is also the refutation of RIVAL;
@@ -241,7 +265,9 @@ class StrengthPropagationTest(unittest.TestCase):
             root="ROOT", claims=claims,
         )
         items = {item["statement_id"]: item for item in rep["items"]}
-        self.assertEqual(items["WEAK"]["depth"], corpus.FRONTIER_STATED)
+        # WEAK is proved from the open leaf STRONG through the registration,
+        # so only STRONG is an open premise; the claim does not reach it.
+        self.assertEqual(rep["closed_statements"]["WEAK"], "proved")
         self.assertEqual(items["STRONG"]["depth"], corpus.FRONTIER_BARE)
         self.assertEqual(items["STRONG"]["stating_claims"], [])
 
