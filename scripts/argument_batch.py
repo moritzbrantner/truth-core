@@ -343,6 +343,8 @@ def build_records(spec: dict, write: bool) -> list[str]:
         if "strong_version_needed" in a:
             argument["strong_version_needed"] = {handles.ref("statement", key): value
                                                  for key, value in a["strong_version_needed"].items()}
+        if "weakening" in a:
+            argument["weakening"] = a["weakening"]
         if "commitment_statement_ids" in a:
             argument["commitment_statement_ids"] = refs("statement", a["commitment_statement_ids"])
         if "sense_mixing_control" in a:

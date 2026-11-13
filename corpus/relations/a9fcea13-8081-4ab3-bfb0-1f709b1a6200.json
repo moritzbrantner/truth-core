@@ -1,0 +1,11 @@
+{
+  "id": "a9fcea13-8081-4ab3-bfb0-1f709b1a6200",
+  "label": "Necessary concrete count-cause strengthens necessary being",
+  "subject_kind": "statement",
+  "subject_id": "f8c90eac-1d63-5808-ba4a-5e1a14ea2748",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
+  "verification_result_id": "bf63980e-dd9f-5895-a451-601af8fd6af1",
+  "note": "Strength registration (2026-11-12 audit): Same individual c: keep actual existence and NecessaryAt at w; drop concreteness, the accessible history and the cause marker. The backing result is an assembly transcription."
+}

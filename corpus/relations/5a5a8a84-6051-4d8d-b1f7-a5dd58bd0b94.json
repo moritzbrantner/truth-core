@@ -1,0 +1,11 @@
+{
+  "id": "5a5a8a84-6051-4d8d-b1f7-a5dd58bd0b94",
+  "label": "Motion as actualization of potency strengthens no motion without POTENCY_1",
+  "subject_kind": "statement",
+  "subject_id": "0628359b-4a71-5c67-a84b-0fd80104aceb",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "6948dde0-64ef-550b-ae3c-d30b3e113986",
+  "verification_result_id": "bd98bd58-99cc-544e-ad30-cb6c62afc0d2",
+  "note": "Strength registration (2026-11-12 audit): Same MovedIn and InPotency: keep one direction of the biconditional and one conjunct, stated as a negated existential. The argument also refutes the Ash'arite rival."
+}

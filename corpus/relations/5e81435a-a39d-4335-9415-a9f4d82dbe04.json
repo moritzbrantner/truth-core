@@ -1,0 +1,10 @@
+{
+  "id": "5e81435a-a39d-4335-9415-a9f4d82dbe04",
+  "label": "Necessary-being node possibilist K is logically equivalent to actualist K",
+  "subject_kind": "statement",
+  "subject_id": "cdf897a8-5490-561a-b9d2-507486a3f192",
+  "predicate": "logically_equivalent_to",
+  "object_kind": "statement",
+  "object_id": "7f24ce4d-9d93-56dc-9bd6-2dd947c224e5",
+  "note": "Both directions are verified: result aabfd1fe-f67d-44d7-848d-97cbfde35cd3 (possibilist K to actualist K) and result 5c9e78c3-1e39-5d3e-9b84-4253ff87b4fd (actualist K to possibilist K, also registered as strengthens a436e461). The equivalence holds on the same signature, profile, world and CN. Whether to keep that one-way strengthens registration is left open."
+}

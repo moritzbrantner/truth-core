@@ -1,0 +1,9 @@
+{
+  "id": "db0f415c-0b32-4f28-b550-e1da0fddc6a4",
+  "label": "Possible in the plenitude reading: Possible φ: the condition φ on times is possible",
+  "term": "possible (predicate on conditions on times, tertia via plenitude reading)",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PlenitudeOverInfinitePastReading",
+  "definition": "`Possible φ`, for a condition `φ : Time → Prop` on times: φ is possible, in the sense that the plenitude reading of the tertia via (*quod possibile est non esse, quandoque non est*, reading B) ties to realization: given an infinite past, whatever is possible has been realized at some earlier time. It is a supplied primitive predicate; nothing defines it from act, potency or worlds. It is neither the IX.6 capacity CanBe (ABLE_TO_BE_1) nor accessible-world ModalCapacity (ABLE_TO_BE_2) of DISAMB-CAN-BE-MODAL-CAPACITY: it is realizability at some time. A potency's yielding it is the open bridge 'whatever is in POTENCY_2 in a respect at some time can be in act in it'.",
+  "note": "Stipulative analyst formulation, attribution deferred. What would source it: a read and pinned passage of Aristotle, De caelo I.12 (281a28ff) or Metaphysics Θ.4 (1047b3-6), or of a commentator on the tertia via, that states possibility as realizability in time; the tertia via reading B is itself an interpretation (STMT-TERTIA-VIA-STEP-RESTS-ON-PLENITUDE), not a definition of 'possible'."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "21ab16f7-7896-4dd2-936b-e2ea777b958d",
+  "label": "Common rank for union support is logically equivalent to union well-foundedness",
+  "subject_kind": "statement",
+  "subject_id": "9240fa60-3e34-59a7-867e-f7a2294c6660",
+  "predicate": "logically_equivalent_to",
+  "object_kind": "statement",
+  "object_id": "6af3bd73-f2bc-5018-ba2f-ec7f97d6c059",
+  "note": "Both directions are verified: result b3e9c9b7-4475-5582-852d-32e65f980505 (common rank to well-foundedness) and result 5e35c4e8-fa41-5d31-8e1d-5f1411391c18 (well-foundedness to common rank), on the same Ontic, support relation and world."
+}

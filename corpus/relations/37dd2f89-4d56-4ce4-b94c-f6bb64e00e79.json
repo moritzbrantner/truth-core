@@ -1,0 +1,11 @@
+{
+  "id": "37dd2f89-4d56-4ce4-b94c-f6bb64e00e79",
+  "label": "Atomic parts for every object strengthens atomic parts for contingent objects",
+  "subject_kind": "statement",
+  "subject_id": "cf4364f6-81c6-5018-95e4-178353d2a2b3",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "83fdeb19-900c-5416-a828-2a1c9da983e8",
+  "verification_result_id": "cdc5ad01-b182-5bcb-aeb9-07ae07a55660",
+  "note": "Strength registration (2026-11-12 audit): Same parthood and simplicity; the weak version restricts the domain to actual contingent objects. The backing result is an assembly transcription."
+}
