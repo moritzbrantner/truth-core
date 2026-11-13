@@ -80,6 +80,103 @@ without y, whatever x's grounding relations are. An unrelated necessary
 thing is a counterexample to this unrestricted modal test, not a refutation
 of existential underivedness.
 
+## The Thomistic candidate: identity before explanatory adequacy
+
+In Thomistic usage, **esse** is the act of being, not simply the proposition
+`ExistsAt w x`. To call a source *subsistent esse itself*, or to say that its
+essence **is** its esse, gives a strong intrinsic characterization. The
+further slogan “its nature is the sufficient reason for its existence” can
+be treated as an **interpretative gloss** on that characterization only in a
+selected, non-efficient sense of reason. It is not a further efficient cause
+from a pre-existing essence to its own bearer, and it is not automatically
+the strictly prior ground of the very same existence fact. Otherwise a
+strict, irreflexive metaphysical-priority relation would require a self-loop.
+
+Aquinas **argues** for the identity instead of assuming every modally
+necessary thing satisfies it. The following source passages give several
+positive routes, each with an identifiable further burden:
+
+| Route | Source's positive reasoning | Live bridge to check in Truth Core |
+| --- | --- | --- |
+| External-cause dilemma | If essence and esse differ, esse is received from an external efficient source or from the essence's principles; the latter cannot efficiently originate the bearer itself. A genuinely first efficient source cannot have external receipt. | *ST* I q.3 a.4, first argument; existing `Question3.Article4` and `ActualUnderivedEssenceEsse` already formalize the conditional underived-to-identity inference. Do not duplicate it. |
+| Actuality versus potency | Esse makes an essence actual. If they are really distinct, the essence relates to esse as potency to act. Pure actuality excludes that potency; hence no such distinction in the first actual being. | *ST* I q.3 a.4, second argument; requires a defended **real** distinction/potency bridge, not merely differing concepts of essence and existence. |
+| Participation versus firstness | A being that has existence without being its existence has being by participation. A source prior to participated being cannot be another participant on the same terms. | *ST* I q.3 a.4, third argument; defend participation/received-being and actual firstness, not just modal necessity. |
+| Dependency trilemma | Given a genuinely **self-necessary** act of existence distinct from essence, either esse depends on essence, both derive from another, or essence depends on esse. The first two compromise underived self-necessity; the third makes the supposed essence adventitious rather than constitutive. | *SCG* I.22, first argument; preserve each horn and its notion of dependence. “Necessary through itself” here is **stronger** than `NecessaryAt` alone. |
+| Noncomposite first being | A distinct essence and esse would be co-constituents of a composite actuality. The first, utterly simple being cannot depend on such a composition. | *SCG* I.22, concluding argument; reuse existing composition/firstness results and inspect whether they assume the disputed essence/esse decomposition. |
+
+The especially useful new investigation is the *SCG* I.22 trilemma. It does
+not claim that necessary **co-existence** implies dependency; the claim is
+about which principle accounts for the concrete bearer and whether that
+principle could be constitutive if it were ontologically **posterior**.
+It therefore directly tests the owner's asymmetry/priority distinction.
+
+**Direct objection and answer in the Latin chapter.** The abridged public
+English presentation does not include the full intermediate reply, but the
+Latin *SCG* I.22 nn.3–4 does. Aquinas considers the possibility that the
+**esse itself** is unconditionally necessary, whereas its *conjunction*
+with this particular essence is contingent. He replies in two cases:
+
+- If this esse can be understood apart from that essence, the essence is
+  accidental/adventitious **to the self-necessary esse**, so it is not the
+  quiddity of the first being. A distinct essence could belong to some
+  posterior bearer, but not constitutively to the first source.
+- If this esse cannot be understood apart from that essence, its being is
+  dependent upon whatever explains the conjunction, reviving the original
+  burden. Here “cannot be understood apart” must **not** be replaced with
+  mere `∀v, ExistsAt v esse → ExistsAt v essence`: if both are necessary,
+  that extensional condition is trivially satisfied. The relevant premise
+  is constitutive/non-accidental necessity *of the union*, and its source.
+
+This gives a source-backed **argument against a specific proposed
+essence/esse separation**, not a license to turn all modal co-existence into
+ontological identity. Its important distinction is between the *necessary
+esse* and the *conjunction of that esse with a proposed quidditative source*.
+For a Lean test, explicitly type the two relata and conjunction, split the
+two intelligibility/constitution cases, and add controls for (a) accidental
+attachment that never becomes the first being's essence and (b) necessary
+co-presence with no stipulated constitutive union. Do not bake the conclusion
+into the definition of “through itself.”
+
+**Related intrinsic-reason readings, not aliases across authors.** Leibniz's
+*Monadology* §§44–45 connects a necessary being whose essence involves
+existence with a being having the reason for its existence in itself;
+possibility-to-actuality is part of this Leibnizian proposal. Spinoza's
+*Ethics* I, definition 1 **does** define `causa sui` through essence
+involving existence, with substance's existence then argued in proposition
+7. These supply legitimate, *selected-sense* bridges from B to a non-efficient
+intrinsic-reason sense of C. They do not show that merely recording the
+equality `essenceOf x = esseOf x` explains *why that actual being exists*,
+or that A (modal necessity) independently suffices. A Thomistic self-
+subsistent esse and a Spinozist *causa sui* are not identical notions just
+because both reject a distinct external efficient origin.
+
+Two separate implications must remain visible:
+
+1. **Underived first actual being + Thomistic dependence/composition
+   premises → E (essence–esse identity)**: multiple Thomistic arguments
+   support this, conditional on their specified dependence senses.
+2. **E + selected account of intrinsic, noncausal intelligibility → C
+   (adequate reason in itself)**: this is approximately definitional *if C
+   is explicitly defined as self-subsistent actuality with no distinct
+   existential ingredient needing reception*. If C instead demands a
+   nontrivial sufficient grounding explanation of the existence fact, E
+   alone does not provide one. Do not alias these two C-senses.
+
+Next proof work should reuse the first route and test *SCG* I.22's three
+dependency horns as a separate premise package, with a nonvacuous actual
+necessary bearer, an explicit interpretation of what counts as “through
+itself,” and an omission control for each substantive horn. No new source
+claim is attributed yet: this mapping uses a public English translation **and
+the Latin text of I.22 nn.2–9**, but the repository's pinned chapter-specific
+source evidence should be
+checked or extended before creating formal source-claim bindings.
+
+Primary passages read: [*Summa Theologiae* I q.3 a.4](https://www.newadvent.org/summa/1003.htm)
+and [*Summa contra Gentiles* I.22](https://www.ccel.org/ccel/aquinas/gentiles.iv.xx.html)
+(compare [Latin I.22, nn.2–9](https://la.wikisource.org/w/index.php?title=Summa_contra_Gentiles/Liber_I/Caput_XXII&oldid=132346));
+also [Leibniz, *Monadology* §§44–45](https://en.wikisource.org/wiki/Monadology_(Leibniz,_tr._Latta))
+and [Spinoza, *Ethics* I def.1, prop.7](https://en.wikisource.org/wiki/Ethics_(Spinoza)/Part_1).
+
 **Next work, tied to the God-existence route:** reconstruct the corpus bridge
 `STMT-NECESSARY-GROUND-HAS-INTRINSIC-REASON` (issue #319), and the
 independence/priority usage identified in #1595. Formulate a typed
