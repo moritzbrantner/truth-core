@@ -157,11 +157,19 @@ case leaves open.
 
 **Why the bridge is universal.** The bridge quantifies over every
 `CausesOrigin` edge, but the argument uses only self-edges. The universal form
-is kept because it is the productive reading of `CAUSE_4` itself, and its
-warrant (the actual-exercise requirement) is general. A sibling restricted to
-self-edges would rest on the same warrant and leave the same
-coming-to-be-to-being step open, so it would add no discriminating support. It
-is not registered.
+is kept here because it is the productive reading of `CAUSE_4` itself, and its
+warrant (the actual-exercise requirement) is stated generally. The weaker
+self-edge sibling, `∀ x, CausesOrigin x x → ∃ a, Occurs a ∧ bearer a = x ∧
+produces a x`, follows from the universal form, so it has at least the same
+warrant, and it is exposed to strictly fewer defeaters: it does not carry the
+coming-to-be-to-being step for ordinary origination (the builder case, Hall-style
+dependence and omission causes). It keeps only the self-edge case of that step,
+which is where the Smith whole-borne-exercise dispute sits. By the
+weakest-sufficient-version rule the argument should consume that sibling; the
+universal form is retained in this PR only because registering the sibling and
+its `strengthens` result is deferred to a tracked follow-up, and until then the
+universal form is the strong version this argument needs
+(`strong_version_needed`, recorded here).
 
 **Non-temporal activity and the divine case.** Aquinas, *ST* I q.45 a.3,
 distinguishes creation from motion or change and identifies active divine
