@@ -1,0 +1,32 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "0292b788-8058-5069-afde-4a19b82b5604",
+    "source_url": "https://www.corpusthomisticum.org/scg1014.html",
+    "retrieved_at": "2026-11-05T13:17:32Z",
+    "sha256": "sha256:0959a25158eac4902fee8eb24af471397fb80969f6400769c07c0a48a1c64334",
+    "encoding": "iso-8859-1",
+    "language": "lat",
+    "license": "Corpus Thomisticum identifies its text as 'Textum Leoninum emendatum ex plagulis de prelo Taurini 1961 editum' (the Leonine text as corrected from the proofs of the Turin 1961 edition); ©2019 Fundación Tomás de Aquino quoad hanc editionem, all rights reserved. The medieval work is public domain; no open licence for the digital transcription is asserted. Reuses the exact page snapshot pinned for SCG I.18 on 2026-11-05, whose original and selected bytes were reverified on 2026-11-14. Metadata, hashes, locators and a short incipit only; no Wayback fallback was pinned."
+  },
+  "passages": [
+    {
+      "id": "4eebc2d7-7aff-4d97-9734-6d192cdccf5c",
+      "label": "Thomas Aquinas, Summa contra gentiles, I.22",
+      "locator": "I.22 [23710–23720]",
+      "claim_locator_prefixes": [
+        "I.22 "
+      ],
+      "html_selector": {
+        "from": {
+          "anchor": "23710"
+        },
+        "to": {
+          "anchor": "23721"
+        }
+      },
+      "text_sha256": "sha256:71ffde575fe14a5667d33adbc883b0ad5e9541ddff7ca86d6072d63f4cd777c5",
+      "incipit": "[23710] Contra Gentiles, lib. 1 cap. 22 n. 1 Ex his autem quae supra ostensa"
+    }
+  ]
+}
