@@ -3,6 +3,7 @@ module
 
 public import TruthCore.Results.Aquinas.InMetaphysicam.PrimumMovensPureAct.Solution
 public import TruthCore.Results.Aquinas.SummaContraGentiles.Chapter22Conjunction.Solution
+public import TruthCore.Results.Aquinas.SummaContraGentiles.Chapter22SecondCase.Solution
 public import TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.ActPriorFromIncorruptible.Solution
 public import TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.ActPriorFromMotion.Solution
 public import TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.BeingInActReading.Solution

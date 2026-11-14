@@ -1,0 +1,29 @@
+{
+  "id": "4ee07cad-6890-43b7-bae6-0d9f28f56175",
+  "label": "SCG I.22 both n.4 cases reject a dependently joined quiddity",
+  "premise_statement_ids": [
+    "8d28134d-3ace-4804-9290-ca85bc4777fe",
+    "b492a7ae-e3de-4d6d-ac56-aabeaf5b0f2d",
+    "c439eaef-97fa-48c4-bb51-e502cc23e9c9",
+    "022ef8cb-eeb1-44a5-afa5-fb5ace2d00f1"
+  ],
+  "conclusion_statement_id": "15202335-3833-461d-a621-98bba7e1055f",
+  "inference_ids": [
+    "519d441b-d610-42aa-ad83-92cc0b2f4005"
+  ],
+  "meaning": "Formalizes the whole two-case n.4 reply in the dependence sense PER_SE_NECESSARY_2, reusing the first-case premises of PR #1602 without its modal-to-intelligibility bridge. Non-transcription: the conclusion follows by a constructive case split over the OPEN premises and the definition. It rejects only a proposed quiddity whose joining has a source other than the esse; a joining with no source or sourced only in the esse is outside it. No premise or root obligation is discharged; attribution deferred.",
+  "term_senses": {
+    "PER_SE_NECESSARY": "b0cc25e1-c3dd-4feb-a567-d7a581592824"
+  },
+  "definition_ids": [
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "183b48d2-1753-583d-aef9-4199cff86231",
+    "b18c2550-e953-42d4-817c-cc6805cf5004",
+    "d421e2c9-4eb2-4bef-bb63-6c502c7732b4",
+    "d9716c00-9d36-4814-9ee5-456eb0bf7dce"
+  ],
+  "disambiguation_ids": [
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "a4b9e53e-d4d9-4f15-bc7f-e5fa913a96ea"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "ba206f7b-39b7-4453-b2f4-50610e2b1c33",
+  "label": "SCG I.22 second case finite controls (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "270ffea0-f897-4b12-a5ce-f2af1e2d956a",
+  "rule": "Decidable evaluation of seven finite typed assignments",
+  "meaning": "Finite controls for the dependence-sense batch on the stable distinct profile of PR #1602. They show the second n.4 case, n.2's per se clause, the horn (iii) accident principle, n.6 union causation and coverage each do work, that the modal proxy misses n.3's own dependent union, and that a co-fundamental (one per se, unsourced) union and a self-sourced union each satisfy every encoded premise except the coarsened n.2 coverage. Scope and vacuity controls only, never metaphysical possibility or premise warrant.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

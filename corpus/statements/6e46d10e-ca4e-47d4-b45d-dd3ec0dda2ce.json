@@ -1,0 +1,11 @@
+{
+  "id": "6e46d10e-ca4e-47d4-b45d-dd3ec0dda2ce",
+  "label": "SCG I.22 non-unified quiddity union has a source not other than the esse",
+  "paraphrase": "At a selected world, for every bearer x: if x's represented esse e is per se necessary in the dependence sense (PER_SE_NECESSARY_2), x is ontically identified with e, e is joined to x's proposed quiddity q, q is x's genuine quiddity, and e and q are not one per se, then the joining of e to q depends on some s which is not other than e (constructively: not s ≠ e, rather than s = e). Conditional on n.6's union causation, both n.4 cases and n.2's per se clause, without n.2 coverage. The type gives some source not other than e; it does not say that every source is e (that follows from the two-case n.4 result under the same premises, not from this statement). The self-sourced residual is not refuted here.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaContraGentiles.BookI.Chapter22SecondCase.NonUnifiedQuiddityUnionSelfSourcedAt",
+  "definition_ids": [
+    "d9716c00-9d36-4814-9ee5-456eb0bf7dce",
+    "d421e2c9-4eb2-4bef-bb63-6c502c7732b4",
+    "b18c2550-e953-42d4-817c-cc6805cf5004"
+  ]
+}

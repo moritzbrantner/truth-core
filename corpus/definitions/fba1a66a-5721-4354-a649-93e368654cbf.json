@@ -1,0 +1,9 @@
+{
+  "id": "fba1a66a-5721-4354-a649-93e368654cbf",
+  "label": "Per se necessary esse, modal proxy (PER_SE_NECESSARY_1)",
+  "term": "per se necessary esse, modal proxy",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaContraGentiles.BookI.Chapter22Conjunction.NecessaryEsseAt",
+  "definition": "An esse principle e is necessary at world w in the modal proxy sense when the same e satisfies the esse-existence predicate at w and at every world accessible from w. Its negation for a conjunction is ContingentConjunctionAt: the joining holds at w but fails at some accessible world. No cause, dependence or grounding relation occurs in this sense.",
+  "note": "The rendering of n.3's 'per se necesse' used by the first-case formalization of PR #1602 (definition b18c2550-e953-42d4-817c-cc6805cf5004). It is an analyst proxy: SCG I's per se/per aliud distinction concerns whether something has a cause of its necessity, which this sense omits; see the sibling dependence sense d9716c00-9d36-4814-9ee5-456eb0bf7dce. The modal and dependence senses are not related in either direction in the corpus: a permanent but dependent union is not modally contingent (finite control in Chapter22SecondCase), and nothing is asserted about whether an esse without a cause of its necessity is present at every world."
+}

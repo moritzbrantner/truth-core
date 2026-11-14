@@ -1,0 +1,31 @@
+{
+  "id": "6c0b8281-8818-43d8-a1b9-dde19794fe3c",
+  "label": "SCG I.22 coverage and both n.4 cases reject a joined distinct quiddity",
+  "premise_statement_ids": [
+    "b7a4a82c-199c-4796-b9eb-eecdf82c5e34",
+    "8d28134d-3ace-4804-9290-ca85bc4777fe",
+    "b492a7ae-e3de-4d6d-ac56-aabeaf5b0f2d",
+    "c439eaef-97fa-48c4-bb51-e502cc23e9c9",
+    "022ef8cb-eeb1-44a5-afa5-fb5ace2d00f1",
+    "9e0c5792-0839-4468-b8df-22dab1976eac"
+  ],
+  "conclusion_statement_id": "8f2b84e3-da3c-41d6-a46e-4c119217afa5",
+  "inference_ids": [
+    "2f3810e8-3ebc-4ba2-bba5-78489be3d688"
+  ],
+  "meaning": "Composes the analyst-coarsened n.2 coverage with the two-case n.4 theorem, in the dependence sense PER_SE_NECESSARY_2. Non-transcription: a three-way case analysis reusing dependent_conjunction_not_quiddity. It is a conditional route from per se necessity to the rejection of every represented-distinct proposed quiddity of an esse-identified bearer; it does not prove that the bearer's actual q.3 essence equals its esse, which would further need the proposed quiddity to range over that essence. Every source-motivated premise is OPEN, attribution deferred; coverage is the premise the co-fundamental control violates. No root obligation is discharged.",
+  "term_senses": {
+    "PER_SE_NECESSARY": "b0cc25e1-c3dd-4feb-a567-d7a581592824"
+  },
+  "definition_ids": [
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "183b48d2-1753-583d-aef9-4199cff86231",
+    "b18c2550-e953-42d4-817c-cc6805cf5004",
+    "d421e2c9-4eb2-4bef-bb63-6c502c7732b4",
+    "d9716c00-9d36-4814-9ee5-456eb0bf7dce"
+  ],
+  "disambiguation_ids": [
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "a4b9e53e-d4d9-4f15-bc7f-e5fa913a96ea"
+  ]
+}

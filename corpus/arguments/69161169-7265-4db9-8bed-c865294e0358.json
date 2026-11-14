@@ -1,0 +1,24 @@
+{
+  "id": "69161169-7265-4db9-8bed-c865294e0358",
+  "label": "SCG I.22 second case finite controls",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "270ffea0-f897-4b12-a5ce-f2af1e2d956a",
+  "inference_ids": [
+    "ba206f7b-39b7-4453-b2f4-50610e2b1c33"
+  ],
+  "meaning": "Finite controls for the dependence-sense batch on the stable distinct profile of PR #1602. They show the second n.4 case, n.2's per se clause, the horn (iii) accident principle, n.6 union causation and coverage each do work, that the modal proxy misses n.3's own dependent union, and that a co-fundamental (one per se, unsourced) union and a self-sourced union each satisfy every encoded premise except the coarsened n.2 coverage. Scope and vacuity controls only, never metaphysical possibility or premise warrant.",
+  "term_senses": {
+    "PER_SE_NECESSARY": "b0cc25e1-c3dd-4feb-a567-d7a581592824"
+  },
+  "definition_ids": [
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "183b48d2-1753-583d-aef9-4199cff86231",
+    "b18c2550-e953-42d4-817c-cc6805cf5004",
+    "d421e2c9-4eb2-4bef-bb63-6c502c7732b4",
+    "d9716c00-9d36-4814-9ee5-456eb0bf7dce"
+  ],
+  "disambiguation_ids": [
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "a4b9e53e-d4d9-4f15-bc7f-e5fa913a96ea"
+  ]
+}
