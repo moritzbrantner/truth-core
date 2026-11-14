@@ -1,0 +1,13 @@
+{
+  "id": "210e2895-f3f6-46a3-82d5-267eb91c3a45",
+  "label": "Distinct dependence acyclicity from consistent strict grounding of existence facts (inference)",
+  "input_statement_ids": [
+    "fea5942a-b50c-4299-a5fe-80a5c2b8c0a9",
+    "42756c07-03cd-4b54-8ed6-ed6c1a5132aa"
+  ],
+  "output_statement_id": "702dc502-b64f-4d5c-b73d-331ea2e554b0",
+  "rule": "Map each distinct dependence edge to a derivable strict partial ground, collapse the chain by PLG transitivity and close by non-circularity",
+  "meaning": "Strength diagnostic for the structural-surrogate route: PLG consistency together with the dependence-to-strict-ground map already forces distinct-step D to have no finite cycle. The map premise therefore commits to more than the nonmutuality it is used to support, and its warrant must be a warrant for acyclicity of D. The passage from dependence for being to formal strict ground runs only through the OPEN map premise (sense bridge); the atoms stay uninterpreted. Neither input is established, and no well-foundedness or converse embedding claim follows.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

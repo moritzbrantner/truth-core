@@ -1,0 +1,6 @@
+{
+  "id": "8d28134d-3ace-4804-9290-ca85bc4777fe",
+  "label": "SCG I.22 intelligible separation makes quiddity accidental",
+  "paraphrase": "OPEN selected reading of the first case of SCG I.22 n.4, attribution deferred: if an esse e can be understood without proposed q, then q is accidental to e. The consequent is an ontological relation of q to e, not the fact that q is contingently true or that the bearer is contingent. The converse conditional (q accidental to e → e intelligible apart from q) is not assumed, nor is any real-world instance. n.4's separate second written case (e not intelligible apart from q) is not encoded here.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaContraGentiles.BookI.Chapter22Conjunction.IntelligibleSeparationMakesAccidental"
+}

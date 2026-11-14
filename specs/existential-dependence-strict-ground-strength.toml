@@ -1,0 +1,34 @@
+[batch]
+vocab = "TruthCore.Causality.DependenceStrictGroundMapStrength"
+results = "TruthCore.Results.Causality.DependenceStrictGroundMapStrength"
+definitions = ["DEF-DEPENDS-FOR-BEING", "DEF-FINE-PLG-DERIVABILITY", "DEF-FINE-PLG-STRICT-PARTIAL-GROUND"]
+disambiguations = ["23dd6f32-b456-4963-adb3-7befbf0dc4fb"]
+
+[[statement]]
+id = "Distinct-step dependence for being has no finite cycle"
+lean = "DistinctDependenceAcyclic"
+paraphrase = "Structural property of the dependence relation D on beings: no finite chain of D-edges, each between two distinct beings, returns to its starting being. It implies STMT-DISTINCT-BEINGS-NOT-MUTUALLY-DEPENDENT, which excludes only two-step cycles, and also excludes longer cycles such as a three-cycle of distinct beings (that strictness is elementary and not separately certified). It says nothing about infinite descent or well-foundedness."
+
+[[statement]]
+id = "Strict-ground support bundle has a populated model with a dependence edge"
+lean = "Control.Nonvacuous"
+paraphrase = "Mathematical nonvacuity witness: over the natural numbers, one consistent PLG theory (Fine infinite descent, deriving n+1 ≺ n), the identity labelling and the relation D x y iff y = x + 1 jointly satisfy PLG consistency and the dependence-to-strict-ground map, and D has a distinct edge (0 to 1). A formal interpretation only; it says nothing about which beings or existence facts there are."
+
+[[argument]]
+id = "Distinct dependence acyclicity from consistent strict grounding of existence facts"
+theorem = "mapForcesDistinctDependenceAcyclic"
+premises = ["fea5942a-b50c-4299-a5fe-80a5c2b8c0a9", "42756c07-03cd-4b54-8ed6-ed6c1a5132aa"]
+conclusion = "Distinct-step dependence for being has no finite cycle"
+rule = "Map each distinct dependence edge to a derivable strict partial ground, collapse the chain by PLG transitivity and close by non-circularity"
+meaning = "Strength diagnostic for the structural-surrogate route: PLG consistency together with the dependence-to-strict-ground map already forces distinct-step D to have no finite cycle. The map premise therefore commits to more than the nonmutuality it is used to support, and its warrant must be a warrant for acyclicity of D. The passage from dependence for being to formal strict ground runs only through the OPEN map premise (sense bridge); the atoms stay uninterpreted. Neither input is established, and no well-foundedness or converse embedding claim follows."
+sense_bridges = [{term = "DEPENDENCE_FOR_BEING_VERSUS_STRICT_GROUND", from = "DEPENDENCE_FOR_BEING_VERSUS_STRICT_GROUND_1", to = "DEPENDENCE_FOR_BEING_VERSUS_STRICT_GROUND_2", statement_id = "42756c07-03cd-4b54-8ed6-ed6c1a5132aa", role = "premise"}]
+
+[[argument]]
+id = "Nonvacuity witness for the strict-ground dependence bundle"
+theorem = "nonvacuity"
+premises = []
+conclusion = "Strict-ground support bundle has a populated model with a dependence edge"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Reuse the consistent Fine infinite-descent theory with the successor dependence relation"
+meaning = "Joint satisfiability of PLG consistency and the dependence-to-strict-ground map with a nonempty distinct-step D, in one formal interpretation over the natural numbers. It shows that the support bundle is not satisfied only by an empty dependence relation; it does not show that either input is true of real beings."
+sense_mixing_control = true

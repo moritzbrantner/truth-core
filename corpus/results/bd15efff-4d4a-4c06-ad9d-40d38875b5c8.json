@@ -1,0 +1,12 @@
+{
+  "id": "bd15efff-4d4a-4c06-ad9d-40d38875b5c8",
+  "label": "SCG I.22 contingent conjunction not the first quiddity",
+  "argument_id": "540843f8-a4c4-422c-932e-5ffd23bb1b6d",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaContraGentiles.Chapter22Conjunction.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaContraGentiles.Chapter22Conjunction.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaContraGentiles.Chapter22Conjunction.contingent_join_not_first_quiddity",
+  "comparator_config": "results/bd15efff-4d4a-4c06-ad9d-40d38875b5c8/comparator.json",
+  "status": "solution-present",
+  "description": "Explicitly marked interpretive transcription after a real structural world-indexed separation result. The last conceptual steps are OPEN, independently meaningful premises, not independently proved ontic facts. It rejects the n.3 contingent attachment only as the first necessary esse's own quiddity, and only through n.4's first written case. n.4's second written case (si autem non potest intelligi illud esse sine illa essentia: the esse then depends absolutely on whatever its conjunction depends on, returning the n.2 horns) is not yet formalized, attribution deferred; stable distinct joining must answer that case, n.2's trilemma and n.6's union causation. No premise or root obligation is discharged.",
+  "transcription": "assembly"
+}

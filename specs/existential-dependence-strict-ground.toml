@@ -1,0 +1,42 @@
+[batch]
+vocab = "TruthCore.Causality.DependenceStrictGroundMap"
+results = "TruthCore.Results.Causality.DependenceStrictGroundMap"
+definitions = ["DEF-DEPENDS-FOR-BEING", "DEF-FINE-PLG-DERIVABILITY", "DEF-FINE-PLG-STRICT-PARTIAL-GROUND"]
+disambiguations = ["23dd6f32-b456-4963-adb3-7befbf0dc4fb"]
+
+[[statement]]
+id = "fea5942a-b50c-4299-a5fe-80a5c2b8c0a9"
+label = "Selected PLG theory is consistent"
+lean = "TruthCore.Modern.Fine.PureLogicOfGround.Consistent"
+paraphrase = "OPEN framework premise: the selected PLG set of sequents is consistent, in the exact syntactic sense that at least one sequent is not derivable from it. This is a property of a set of uninterpreted sequents only; any dependence or existence context belongs to the argument that uses it, and consistency does not follow from having a source or an intended metaphysical reading."
+
+[[statement]]
+id = "42756c07-03cd-4b54-8ed6-ed6c1a5132aa"
+label = "Distinct existential dependence maps to strict grounding of existence facts"
+lean = "DependenceMapsToStrictExistenceGround"
+paraphrase = "OPEN interpretive premise, encoded as a structural surrogate. Formal content: for each ordered pair of distinct beings x, y with D x y, the sequent existenceFact y ≺ existenceFact x is derivable from the selected PLG theory, where existenceFact is an arbitrary labelling of beings by uninterpreted atoms. With PLG consistency this embeds distinct-step D into a consistent strict-ground order and so already forces D to have no finite cycle of distinct steps (verified separately), which is more than nonmutuality. The type does not say that the atoms are existence facts, that the edges are actual or faithful grounding, or which kind of ground is meant; that reading is a further OPEN interpretation (DISAMB 23dd6f32: D in the efficient-causal sense of DEF-DEPENDS-FOR-BEING, ground in Fine's formal uninterpreted sense; constitutive versus natural/causal readings of the atoms remain open siblings). The map does not follow from mere counterfactual co-existence, is not reflexive, and does not identify beings with their labels."
+
+[[statement]]
+id = "35cf3d0d-401f-4fc0-93bf-0c576be5b3dc"
+label = "Existential grounding interpretation omission controls"
+lean = "Control.Certificate"
+paraphrase = "Mathematical controls: a universal PLG theory admits full symmetric dependence-to-ground mapping when consistency is omitted; a separately established consistent PLG theory coexists with symmetric dependence when the interpretation map is omitted. Both use the distinct Boolean beings true and false."
+
+[[argument]]
+id = "Nonmutual existential dependence from consistent strict grounding of existence facts"
+theorem = "nonmutualDependenceFromStrictGround"
+premises = ["fea5942a-b50c-4299-a5fe-80a5c2b8c0a9", "42756c07-03cd-4b54-8ed6-ed6c1a5132aa"]
+conclusion = "STMT-DISTINCT-BEINGS-NOT-MUTUALLY-DEPENDENT"
+rule = "Reuse Fine strict-grounding transitivity and irreflexivity to exclude reverse dependence"
+meaning = "A structural-surrogate conditional support option for the open distinct-being nonmutuality claim: if distinct-step D embeds, under an arbitrary labelling of beings by uninterpreted atoms, into the strict partial ground order of a consistent PLG theory, then a reversed pair of distinct D-edges yields a derivable strict self-ground and contradicts consistency. Reading the atoms as existence facts and the edges as faithful grounding is an OPEN interpretation that the Lean type does not encode, and the passage from dependence for being to formal strict ground runs only through the OPEN map premise (sense bridge). The map with consistency is stronger than the conclusion: it already forces acyclicity of distinct-step D (verified separately), which also excludes longer cycles that nonmutuality permits, so its warrant is a warrant for acyclicity. Both inputs remain open; D is not redefined, and universal asymmetry is not established."
+sense_bridges = [{term = "DEPENDENCE_FOR_BEING_VERSUS_STRICT_GROUND", from = "DEPENDENCE_FOR_BEING_VERSUS_STRICT_GROUND_1", to = "DEPENDENCE_FOR_BEING_VERSUS_STRICT_GROUND_2", statement_id = "42756c07-03cd-4b54-8ed6-ed6c1a5132aa", role = "premise"}]
+
+[[argument]]
+id = "Mutual-dependence omission controls for strict-grounding interpretation"
+theorem = "controls"
+premises = []
+conclusion = "35cf3d0d-401f-4fc0-93bf-0c576be5b3dc"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Populated Boolean dependence counterinterpretations, with and without PLG consistency"
+meaning = "Omitting consistency permits all sequents; omitting the mapping leaves counterfactual dependence unconstrained even alongside a consistent Fine theory, so dependence for being and formal strict ground do not mix without the bridge. This prevents the result from being misreported as a theorem about arbitrary dependence or intrinsic metaphysical priority."
+sense_mixing_control = true

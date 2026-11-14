@@ -1,0 +1,13 @@
+{
+  "id": "dec5260e-8772-4990-b057-8519ca1dfca6",
+  "label": "Nonmutual existential dependence from consistent strict grounding of existence facts (inference)",
+  "input_statement_ids": [
+    "fea5942a-b50c-4299-a5fe-80a5c2b8c0a9",
+    "42756c07-03cd-4b54-8ed6-ed6c1a5132aa"
+  ],
+  "output_statement_id": "0f49d71e-09e6-5a9c-b7e7-e0e9b8fe769c",
+  "rule": "Reuse Fine strict-grounding transitivity and irreflexivity to exclude reverse dependence",
+  "meaning": "A structural-surrogate conditional support option for the open distinct-being nonmutuality claim: if distinct-step D embeds, under an arbitrary labelling of beings by uninterpreted atoms, into the strict partial ground order of a consistent PLG theory, then a reversed pair of distinct D-edges yields a derivable strict self-ground and contradicts consistency. Reading the atoms as existence facts and the edges as faithful grounding is an OPEN interpretation that the Lean type does not encode, and the passage from dependence for being to formal strict ground runs only through the OPEN map premise (sense bridge). The map with consistency is stronger than the conclusion: it already forces acyclicity of distinct-step D (verified separately), which also excludes longer cycles that nonmutuality permits, so its warrant is a warrant for acyclicity. Both inputs remain open; D is not redefined, and universal asymmetry is not established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

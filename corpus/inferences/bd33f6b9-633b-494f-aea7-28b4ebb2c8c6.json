@@ -1,0 +1,10 @@
+{
+  "id": "bd33f6b9-633b-494f-aea7-28b4ebb2c8c6",
+  "label": "Mutual-dependence omission controls for strict-grounding interpretation (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "35cf3d0d-401f-4fc0-93bf-0c576be5b3dc",
+  "rule": "Populated Boolean dependence counterinterpretations, with and without PLG consistency",
+  "meaning": "Omitting consistency permits all sequents; omitting the mapping leaves counterfactual dependence unconstrained even alongside a consistent Fine theory, so dependence for being and formal strict ground do not mix without the bridge. This prevents the result from being misreported as a theorem about arbitrary dependence or intrinsic metaphysical priority.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

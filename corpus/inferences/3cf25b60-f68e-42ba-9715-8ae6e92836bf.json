@@ -1,0 +1,10 @@
+{
+  "id": "3cf25b60-f68e-42ba-9715-8ae6e92836bf",
+  "label": "SCG I.22 underived distinct D to E boundary (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "d801302d-eb21-4bf7-a1ff-1d980f4d17bd",
+  "rule": "Decidable evaluation of an actual de re necessary and underived one-bearer model",
+  "meaning": "Reuses the canonical NoExistingSupportAt, NecessaryAt and ActualUnderivedEssenceIdentity declarations. One actual necessary bearer has no supporter at the actual world but has represented esse distinct from essence while the encoded first n.4 case remains satisfied. The bare D → E non-entailment itself is already witnessed by the existing UnderivedEssenceEsse controls; this result shows that boundary remains compatible with the first-case bundle. It does not address n.4's second case, the n.2 trilemma, n.6 union causation or the richer per se necessity they invoke, and its empty support relation does not represent an uncaused conjunction.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

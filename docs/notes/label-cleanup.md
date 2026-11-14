@@ -13,11 +13,11 @@ its kind, free of id-like text and at most 100 characters. The list may only shr
 (#1233): CI runs `python3 scripts/label_cleanup.py check --base <base>`. After fixing
 labels, `python3 scripts/label_cleanup.py prune` removes the entries that now pass.
 
-Flagged labels remaining: 9406.
+Flagged labels remaining: 9404.
 
 | flag | count | meaning |
 | --- | ---: | --- |
-| `truncated` | 9033 | the prose was cut to fit the 100-character limit |
+| `truncated` | 9031 | the prose was cut to fit the 100-character limit |
 | `duplicate` | 286 | numbered to stay unique within its kind |
 | `ids-replaced` | 497 | readable-id tokens in the prose were replaced by their words |
 | `from-legacy-id` | 326 | part of the label (an argument's route, or a fallback) came from the old id |
@@ -31,7 +31,7 @@ Flagged labels per kind:
 - candidate: 84
 - claim: 1927
 - configuration: 5
-- definition: 1323
+- definition: 1322
 - disambiguation: 18
 - inference: 1394
 - model: 64
