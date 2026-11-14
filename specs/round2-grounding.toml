@@ -105,7 +105,7 @@ disambiguations = ["DISAMB-CAUSAL-POWER-GROUNDING", "DISAMB-CONCRETE-ABSTRACT-CR
 id = "STMT-ACTUAL-GROUNDING-IS-SIMPLE-PRIORITY"
 lean = "ActualGroundingIsSimplePriority"
 paraphrase = "OPEN analyst bridge: whenever an actual concretum a grounds an actual concretum b at w, a is simply prior to b."
-definitions = ["DEF-SIMPLE-PRIORITY", "DEF-BRUTE-ROOT-RELATIVE-GROUNDING", "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY"]
+definitions = ["DEF-SIMPLE-PRIORITY", "a1b2e330-388f-4120-bc5c-969642317792"]
 disambiguations = ["DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"]
 
 [[statement]]
