@@ -15,10 +15,11 @@ self-causation reading. The weak exhaustiveness is derived from the
 literal De ente disjunction (`NATURE_SOURCE_1`, every respect) only through
 the open sense bridge `NatureSourcedDistinctEsseIsEfficient`; the
 `FormalNatureControl` interpretation shows that without that bridge the literal
-disjunction and the rejection of efficient self-causation give no extrinsic
-source. The conclusion certifies a cause of being other than x (`c ≠ x`, not
-non-constituency) and in act as to being; "efficient" in the q.3 a.4 name is
-not a further condition of the type. None of the premises is proved here.
+disjunction and the rejection of efficient self-causation give no other
+cause. The conclusion `DistinctEsseHasOtherActualCause` is a mode-unspecified
+cause of being other than x (`c ≠ x`, not non-constituency) and in act as to
+being; it is not the q.3 a.4 efficient-cause statement, and no bridge to that
+statement is registered. None of the premises is proved here.
 -/
 
 namespace TruthCore.Results.Aquinas.DeEnte.ExtrinsicSource
@@ -39,14 +40,13 @@ theorem distinctEsseCausedFromDeEnte (p : Profile B P R) (n : NatureSource B R)
 
 /-- From "caused" to "caused by another". For an actual x with esse other than
 its essence, some c causes x's esse; c is not x, by no-self-causation; c is in
-act as to being; so c witnesses the q.3 a.4 external cause of esse (distinct,
-actual cause of being; the type does not fix that it is efficient). -/
-theorem distinctEsseExternalFromCaused (p : Profile B P R)
+act as to being. The cause is mode-unspecified: nothing here makes it
+efficient, so the conclusion is not the q.3 a.4 efficient-cause statement. -/
+theorem distinctEsseOtherCauseFromCaused (p : Profile B P R)
     (hCaused : DistinctEsseHasSomeCause p)
     (hNoSelf : NothingCausesItsOwnBeing p.CausesIn p.esse)
-    (hInAct : CauseOfBeingInActAsToBeing p.InAct p.CausesIn p.esse)
-    (hBridge : OtherActualCauseOfBeingIsExternalEsseCause p) :
-    DistinctEsseRequiresExternalCauseReading p := by
+    (hInAct : CauseOfBeingInActAsToBeing p.InAct p.CausesIn p.esse) :
+    DistinctEsseHasOtherActualCause p := by
   sorry
 
 /-- The literal De ente disjunction, instantiated at esse for a distinct-esse
@@ -55,11 +55,6 @@ theorem distinctEsseExhaustionFromDeEnte (p : Profile B P R) (n : NatureSource B
     (hGeneral : NatureOrExtrinsicSourceReading p n)
     (hEfficient : NatureSourcedDistinctEsseIsEfficient p n) :
     DistinctEsseNatureOrOtherCause p n := by
-  sorry
-
-/-- The cause-sense bridge holds by the definition of `HasExternalEsseCause`. -/
-theorem otherActualCauseOfBeingIsExternalEsseCause (p : Profile B P R) :
-    OtherActualCauseOfBeingIsExternalEsseCause p := by
   sorry
 
 /-- The six finite interpretations on `Bool`. Explicit proof terms; no

@@ -34,15 +34,27 @@ Formal home: `TruthCore/Latin/Aquinas/DeEnte/ExtrinsicSource.lean`, results in
    of its own being in any mode) rests on "sui ipsius causa", as the claim
    records.
 
-The conclusion, "habeat esse ab alio", is the existing q.3 a.4 statement
-`STMT-DISTINCT-ESSE-REQUIRES-EXTERNAL-CAUSE` (`33ad148b`). The q.3 a.4 profile
-is reused, so the witness, the `CausesIn` relation and the represented
-essence/esse are the same. **What its type certifies:** for every actual x with
-`esseOf x ≠ essenceOf x`, some c with `c ≠ x`, in act as to being, causes x's
-esse (`CausesIn`, DEF-CAUSE-OF-PERFECTION, mode of causation not fixed). The
-words "efficient" and "extrinsic" in the q.3 a.4 statement are its prose
-reading; the type adds no efficiency condition, and `c ≠ x` does not exclude a
-constituent counted as a being.
+The conclusion, "habeat esse ab alio", is registered as its own
+mode-unspecified statement `457698e4` (`DistinctEsseHasOtherActualCause`): for
+every actual x with `esseOf x ≠ essenceOf x`, some c with `c ≠ x`, in act as
+to being, causes x's esse (`CausesIn`, DEF-CAUSE-OF-PERFECTION, mode of
+causation not fixed). `c ≠ x` does not exclude a constituent counted as a
+being. The q.3 a.4 profile is reused, so the witness, the `CausesIn` relation
+and the represented essence/esse are the same as in q.3 a.4.
+
+**Why not `33ad148b`.** The existing q.3 a.4 statement
+`STMT-DISTINCT-ESSE-REQUIRES-EXTERNAL-CAUSE` (`33ad148b`) has the *same* Lean
+type up to unfolding (`HasExternalEsseCause` is `∃ y, y ≠ x ∧ InAct y esse ∧
+CausesIn y x esse`), but its paraphrase and its q.3 a.4 module read `CausesIn`
+as an efficient cause, and downstream `4876dc46` advertises an external
+efficient cause. Its own route (transcription `af503cd7`) gets efficiency only
+from that interpretation of the q.3 a.4 premises, not from any type condition.
+The first draft of this PR concluded `33ad148b` through a definitional bridge;
+Codex review (#1631) rightly objected that this certified efficiency by
+definition. That bridge and argument were withdrawn: nothing here supplies
+efficiency, and the vocabulary has no efficiency predicate on `CausesIn` with
+which an OPEN generic-to-efficient bridge could be stated so that it could
+fail.
 
 ## The gap: "not self-produced" is not "produced by another"
 
@@ -78,10 +90,9 @@ matter, not a nature and its own subject's esse.
 
 | Result | Theorem | Content |
 |---|---|---|
-| `9f071740` | `distinctEsseExternalFromCaused` | some cause + no self-causation + causes of being are in act + definitional cause-sense bridge → `33ad148b` |
+| `8477d8c7` | `distinctEsseOtherCauseFromCaused` | some cause + no self-causation + causes of being are in act → `457698e4` (another actual cause of being, mode unspecified) |
 | `44eef980` | `distinctEsseCausedFromDeEnte` | weak exhaustiveness + self-causation reading → some cause |
 | `42a89226` | `distinctEsseExhaustionFromDeEnte` | literal disjunction + efficiency bridge → weak exhaustiveness |
-| `901d94c9` | `otherActualCauseOfBeingIsExternalEsseCause` | premise-free, by definition: a distinct cause of being in act witnesses `HasExternalEsseCause` (adds only distinctness and actuality) |
 | `08275113` | `extrinsicSourceControls` | six finite interpretations on `Bool` |
 
 The controls are interpretations in which `false` actually exists with esse
@@ -106,27 +117,27 @@ distinct from its essence:
 These show logical underdetermination under the encoded predicates only. They
 are not evidence that brute or formally sourced esse is possible or plausible.
 
-## Existing routes to the same conclusion
+## Existing routes and root connection
 
-`33ad148b` already had the q.3 a.4 transcription `af503cd7` from the stated
-dichotomy `be639b3f` and the stated no-sufficient-self-cause premise
-`61bd42e5`. That direct, source-attributed option stays. The new route is a
-sibling option with a different decomposition: it isolates the extra premise
-(`d1f3ffcc`) and shows where De ente needs the efficient reading. Both routes
-share one underlying commitment, causal coverage of distinct esse, so they are
-not independent corroboration of it. The participation route (`732302a1`)
-reaches a distinct esse-cause from `Participates x`, a different antecedent;
-nothing here relates participation to real essence–esse distinction.
+`33ad148b` (efficient external cause) keeps only its q.3 a.4 transcription
+`af503cd7` from the stated dichotomy `be639b3f` and the stated
+no-sufficient-self-cause premise `61bd42e5`. The De ente route is not a support
+option for it (see "Why not `33ad148b`"). Both share one underlying commitment,
+causal coverage of distinct esse. The participation route (`732302a1`) reaches
+a distinct esse-cause from `Participates x`, a different antecedent; nothing
+here relates participation to real essence–esse distinction.
 
-`33ad148b` reaches the root through `4876dc46` (participated beings have an
-external esse cause) on the designated efficient-regress route `3b0f4fa5`.
-Computed `truth frontier-diff --base origin/main` (excerpt): "distinct
-verified support alternatives: 469 -> 473"; "bare premises added: 1 ...
-[600f91cb]"; "added (stated): 2 ... [75919560], [a2800f45]"; "moved (stated ->
-closed): 1 ... [33ad148b]" ("closed" in that report means no longer an open
-leaf, here because it is proved from open premises). The dossier status of `33ad148b` is "proved;
-established: false": proved from open premises, not established. The cheapest
-expanded route is unchanged (cost 16).
+**No root connection yet.** Computed `truth frontier-diff --base origin/main`:
+"open premises reaching the root: 477 ... -> 477"; "distinct verified support
+alternatives: 469 -> 469"; "no change". The new statements do not reach the
+root. Connection plan and blocker: `33ad148b` reaches the root through
+`4876dc46` on the designated efficient-regress route `3b0f4fa5`; reaching it
+from `457698e4` needs (a) a typed efficiency predicate on causes of being in
+the q.3 a.4 vocabulary and (b) an OPEN bridge from a distinct actual cause of a
+distinct esse to an efficient one, defended against the non-efficient
+(formal/structural) rivals below. Alternatively `457698e4` composes directly
+with `cb1cdea9` (which uses the same mode-unspecified `CausesIn`) for #1496;
+see the plan at the end.
 
 ## Rivals on the same actual being and explanandum
 
@@ -135,7 +146,7 @@ offered, per the Substantive Objection Standard.
 
 | Account | Target | Mechanism and justification | Price under its own commitments |
 |---|---|---|---|
-| Thomistic received esse | — (the route) | A distinct esse has some cause (`d1f3ffcc`); in De ente's terms, a nature that is not its esse supplies it, if at all, only as an efficient agent (bridge `600f91cb`), and an agent quiddity would make the thing its own cause (steps 2–3). So the cause is another being, and in act as to being (`4ccb319f`). | Needs causal coverage of distinct esse and, for the De ente decomposition, the efficiency bridge; the conclusion is tenseless, so it says nothing about present sustaining (#1604/#1616). |
+| Thomistic received esse | — (the route) | A distinct esse has some cause (`d1f3ffcc`); in De ente's terms, a nature that is not its esse supplies it, if at all, only as an efficient agent (bridge `600f91cb`), and an agent quiddity would make the thing its own cause (steps 2–3). So the cause is another being, and in act as to being (`4ccb319f`); its mode (efficient or not) is not derived. | Needs causal coverage of distinct esse and, for the De ente decomposition, the efficiency bridge; the conclusion is tenseless, so it says nothing about present sustaining (#1604/#1616). |
 | Brute esse (#312/#746) | `d1f3ffcc` / the disjunction | x's esse has no cause and no nature source. Justification offered in the corpus: explanation must stop somewhere, and unrestricted PSR has recorded costs (#312/#746). | Consistent (brute control). By the brute hypothesis, it stops at an actual composite whose nature is not its esse and which has no account of its actuality, and it must give a stopping criterion that selects this composite rather than a source. That is the open #746 stopping-criterion question; no view-internal contradiction is shown here. |
 | Non-efficient intrinsic nature account | efficiency bridge `600f91cb` (and `d1f3ffcc`) | A nature may be a formal, non-efficient principle of its own subject's esse, so a distinct esse may be from the nature without efficient self-causation. Justification: the standard Thomist gloss of form as formal principle of being; step 2's qualifier motivates it. | It must say whether the nature *accounts for* x's actuality or only *specifies* an actuality it presupposes. If it only specifies, the actuality is still unaccounted for (brute row) or from another. If it accounts for it without being an agent, a principle that is not x's esse supplies x's actuality, which is #1621's intrinsic-adequacy question applied to distinct esse. Not refuted here. Also note: a form encoded as a distinct being that causes x's esse would satisfy the conclusion as typed. |
 | Constitutive or global structural explanation (#311/#750) | `d1f3ffcc` (the cause-of-being reading of "from another") | x exists because of its place in an actual structure that does not cause its esse. Justification: non-causal structural and grounding explanation in science and metaphysics. | If the structure is an actual being distinct from x that causes x's esse, it satisfies the conclusion (a candidate source, not a rival to the bridge). If it only characterizes x, it must show explanatory direction and joint sufficiency for the actual obtaining of this bearer (#311 EXP-LOCAL-TO-GLOBAL, #750). Unpaid, not refuted. |
@@ -150,7 +161,7 @@ combination is the brute-esse row. No separate objection identified.
 ## Overall provisional judgment (2026-11-14, this revision)
 
 **Claim.** For an actual x whose esse is really distinct from its essence,
-x's esse is caused by another being in act.
+x's esse is caused by another being in act (mode of causing unspecified; that the cause is efficient is a further, unregistered step).
 
 **Judgment.** The inference is valid exactly with one further premise, causal
 coverage of distinct esse (`d1f3ffcc`); the De ente text supplies that
@@ -189,10 +200,10 @@ follows; the real distinction is an input, not proved.
    accounting principle would show the extra principle is needed.
 2. **#319 connection.** The root-essence identity compositions
    (`RootEssenceIdentity.identityOfActualRoot` and its consumers) take the
-   q.3 a.4 pair `be639b3f`/`61bd42e5` directly. A sibling consuming `33ad148b`
+   q.3 a.4 pair `be639b3f`/`61bd42e5` directly. A sibling consuming `33ad148b` (or, after an efficiency bridge, `457698e4`)
    would let this route feed #319's necessary-root chain; blocker: those
    arguments are frozen, so it needs new sibling arguments, not edits.
-3. **#1496 connection.** Composing `33ad148b` with `cb1cdea9` gives an actual
+3. **#1496 connection.** Composing `457698e4` with `cb1cdea9` (same mode-unspecified `CausesIn`) gives an actual
    concrete ground for actual distinct-esse concreta at w, given the existing
    presence/actuality bridge. Reaching `c71c068c` (contingent concreta) still
    needs a contingency-to-real-distinction bridge, which is not available.
@@ -210,3 +221,14 @@ the formal-nature control is labelled a structural surrogate; nonvacuity was
 removed as a comparative reason, and "gains relative standing" was withdrawn
 in favour of an explanatory-scope comparison. No disagreement was left
 unresolved.
+
+**Codex review on #1631 (P1, accepted).** The first published head concluded
+`33ad148b`, whose paraphrase requires an efficient cause, from premises that
+give only a mode-unspecified cause, through a definitional bridge into
+`HasExternalEsseCause`. That would have let the corpus count the efficient
+statement as proved and feed `4876dc46`. Repair: the conclusion is now its own
+statement `457698e4`; the definitional bridge (`bfae6584`) and the arguments
+into `33ad148b` were withdrawn; the frontier diff is now "no change". The
+existing q.3 a.4 route binds `33ad148b` to the same mode-unspecified Lean type;
+its efficiency also rests on interpretation, not on a type condition. That is
+recorded here as an existing gap, not repaired in this PR.

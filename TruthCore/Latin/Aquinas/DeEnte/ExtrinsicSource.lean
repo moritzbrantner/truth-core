@@ -35,12 +35,13 @@ source, `NATURE_SOURCE_1` / `NATURE_SOURCE_2`):
 
 The shared q.3 a.4 `Profile` supplies `InAct`, the cause-of-being relation
 `CausesIn` (DEF-CAUSE-OF-PERFECTION, mode of causation not fixed by the type),
-`essenceOf`, `esseOf` and the `esse` respect, so the De ente route concludes
-the existing q.3 a.4 statement `DistinctEsseRequiresExternalCauseReading`
-about the same witness. That conclusion certifies a cause of being that is
-other than x (`c ≠ x` only, not non-constituency) and in act as to being;
-"efficient" and "extrinsic" in its name are the q.3 a.4 reading carried in
-prose, not further conditions of the type. A real distinction is represented,
+`essenceOf`, `esseOf` and the `esse` respect, so the witness is the same as
+in q.3 a.4. The route concludes `DistinctEsseHasOtherActualCause`: a cause of
+being other than x (`c ≠ x` only, not non-constituency) and in act as to
+being. It does not conclude the q.3 a.4 statement
+`DistinctEsseRequiresExternalCauseReading`, whose prose reads that cause as
+efficient: nothing here supplies efficiency, and the vocabulary has no
+efficiency predicate on `CausesIn` that an open bridge could state. A real distinction is represented,
 as in q.3 a.4, by `esseOf x ≠ essenceOf x` in the common `Principle` sort; a
 merely conceptual distinction is the case `esseOf x = essenceOf x`, where the
 bridge is silent. No modality, time or conservation is built in:
@@ -121,14 +122,15 @@ def QuiddityCausingEsseIsSelfCausationReading (p : Profile B P R) (n : NatureSou
     Prop :=
   ∀ x, n.quiddityEfficientlyCauses x p.esse → p.CausesIn x x p.esse
 
-/-- Sense bridge from the cause of being (`CausesIn c x esse` by another being
-in act as to being) to the q.3 a.4 external cause of esse. It holds by the
-definition of `HasExternalEsseCause` and adds only distinctness and actuality:
-the q.3 a.4 reading of that cause as efficient is carried in prose, not in
-the type, so nothing here makes a cause of being efficient. It is recorded so
-the passage between the two cause senses is explicit. -/
-def OtherActualCauseOfBeingIsExternalEsseCause (p : Profile B P R) : Prop :=
-  ∀ x c, c ≠ x → p.InAct c p.esse → p.CausesIn c x p.esse → HasExternalEsseCause p x
+/-- The conclusion of the De ente route, with the cause mode-unspecified:
+every actual x whose esse differs from its essence has its esse caused
+(`CausesIn`, DEF-CAUSE-OF-PERFECTION, no efficiency condition) by some c other
+than x (`c ≠ x` only) that is in act as to being. It is kept apart from the
+q.3 a.4 statement `DistinctEsseRequiresExternalCauseReading`, whose prose
+reads the cause as efficient; no premise here supplies efficiency, and no
+bridge to that statement is registered. -/
+def DistinctEsseHasOtherActualCause (p : Profile B P R) : Prop :=
+  ∀ x, DistinctEsseAt p x → ∃ c, c ≠ x ∧ p.InAct c p.esse ∧ p.CausesIn c x p.esse
 
 /-! ## Finite controls
 
@@ -140,7 +142,7 @@ metaphysically possible. -/
 /-- Brute-esse surrogate: nothing causes anything and nothing is from its
 nature. The self-causation reading, no-self-causation, the actuality of causes
 of being and the efficiency bridge hold; the literal disjunction, the weak
-exhaustiveness, some-cause and the external-cause conclusion fail. -/
+exhaustiveness, some-cause and the other-cause conclusion fail. -/
 def BruteEsseControl : Prop :=
   ∃ (p : Profile Bool Bool Unit) (n : NatureSource Bool Unit),
     DistinctEsseAt p false ∧
@@ -151,7 +153,7 @@ def BruteEsseControl : Prop :=
     ¬ NatureOrExtrinsicSourceReading p n ∧
     ¬ DistinctEsseNatureOrOtherCause p n ∧
     ¬ DistinctEsseHasSomeCause p ∧
-    ¬ DistinctEsseRequiresExternalCauseReading p
+    ¬ DistinctEsseHasOtherActualCause p
 
 /-- Formal-nature surrogate: `false` has its esse from its nature
 (`NATURE_SOURCE_1`) without its quiddity efficiently causing it, and nothing
@@ -162,7 +164,7 @@ fail. `fromNature` is an unconstrained primitive, so "formal" is a label for
 any non-efficient nature source, not a model of formal causation: the control
 shows that the two nature senses are independent primitives and that the
 literal disjunction plus the rejection of efficient self-causation give no
-extrinsic source without the efficiency bridge. -/
+other cause without the efficiency bridge. -/
 def FormalNatureControl : Prop :=
   ∃ (p : Profile Bool Bool Unit) (n : NatureSource Bool Unit),
     DistinctEsseAt p false ∧ n.fromNature false p.esse ∧
@@ -174,7 +176,7 @@ def FormalNatureControl : Prop :=
     ¬ NatureSourcedDistinctEsseIsEfficient p n ∧
     ¬ DistinctEsseNatureOrOtherCause p n ∧
     ¬ DistinctEsseHasSomeCause p ∧
-    ¬ DistinctEsseRequiresExternalCauseReading p
+    ¬ DistinctEsseHasOtherActualCause p
 
 /-- Self-cause surrogate: `false` causes its own esse through its quiddity.
 Every premise except no-self-causation holds; the conclusion fails. -/
@@ -188,7 +190,7 @@ def SelfCauseControl : Prop :=
     QuiddityCausingEsseIsSelfCausationReading p n ∧
     (∀ c x, p.CausesIn c x p.esse → p.InAct c p.esse) ∧
     ¬ (∀ x, ¬ p.CausesIn x x p.esse) ∧
-    ¬ DistinctEsseRequiresExternalCauseReading p
+    ¬ DistinctEsseHasOtherActualCause p
 
 /-- Unrealized-quiddity surrogate: `false`'s quiddity efficiently causes its
 esse but `false` is not thereby a cause of its own esse, and nothing causes
@@ -205,7 +207,7 @@ def UnrealizedQuiddityControl : Prop :=
     ¬ QuiddityCausingEsseIsSelfCausationReading p n ∧
     (∀ x, ¬ p.CausesIn x x p.esse) ∧
     (∀ c x, p.CausesIn c x p.esse → p.InAct c p.esse) ∧
-    ¬ DistinctEsseRequiresExternalCauseReading p
+    ¬ DistinctEsseHasOtherActualCause p
 
 /-- Nonactual-cause surrogate: `true`, not in act as to being, causes
 `false`'s esse. Every premise except the actuality of causes of being holds;
@@ -220,7 +222,7 @@ def NonactualCauseControl : Prop :=
     QuiddityCausingEsseIsSelfCausationReading p n ∧
     (∀ x, ¬ p.CausesIn x x p.esse) ∧
     ¬ (∀ c x, p.CausesIn c x p.esse → p.InAct c p.esse) ∧
-    ¬ DistinctEsseRequiresExternalCauseReading p
+    ¬ DistinctEsseHasOtherActualCause p
 
 /-- Nonvacuity: one interpretation where every premise of the De ente route
 holds, `false` actually exists with distinct esse, and `true`, in act as to
@@ -235,9 +237,8 @@ def ReceivedEsseNonvacuity : Prop :=
     QuiddityCausingEsseIsSelfCausationReading p n ∧
     (∀ x, ¬ p.CausesIn x x p.esse) ∧
     (∀ c x, p.CausesIn c x p.esse → p.InAct c p.esse) ∧
-    OtherActualCauseOfBeingIsExternalEsseCause p ∧
-    HasExternalEsseCause p false ∧
-    DistinctEsseRequiresExternalCauseReading p
+    (∃ c, c ≠ false ∧ p.InAct c p.esse ∧ p.CausesIn c false p.esse) ∧
+    DistinctEsseHasOtherActualCause p
 
 /-- All six finite controls together. -/
 def ExtrinsicSourceControls : Prop :=

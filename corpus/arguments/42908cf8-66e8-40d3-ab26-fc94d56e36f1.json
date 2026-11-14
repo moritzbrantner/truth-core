@@ -1,0 +1,25 @@
+{
+  "id": "42908cf8-66e8-40d3-ab26-fc94d56e36f1",
+  "label": "Distinct esse has another actual cause of being, from being caused and no self-causation",
+  "premise_statement_ids": [
+    "d1f3ffcc-04f2-4683-b385-2bfb2baf3f10",
+    "b62a64ab-ac11-569a-b8e8-de51a74b058f",
+    "4ccb319f-9b7e-41fd-a560-d4affa25816b"
+  ],
+  "conclusion_statement_id": "457698e4-eb21-4561-ab32-eccbfb0a992e",
+  "inference_ids": [
+    "826da472-96ba-4713-b8a2-7401cf28b59d"
+  ],
+  "meaning": "Non-transcription conditional derivation, for the same witness and the same q.3 a.4 profile: every actual x whose esse differs from its essence has its esse caused by another being that is in act as to being, with the mode of causing unspecified. This is the exact passage from 'not self-caused' to 'caused by another': the only extra premise beyond no-self-causation and the actuality of causes of being is that every actual distinct esse has some cause of being. It does not conclude STMT-DISTINCT-ESSE-REQUIRES-EXTERNAL-CAUSE: that statement's paraphrase requires an efficient cause, no premise here supplies efficiency, and the vocabulary has no efficiency predicate on CausesIn that an open bridge could state (connection plan in docs/notes/de-ente-extrinsic-source-1629.md). The cause is tenseless: no conservation, present sustaining, world-indexed existence, concreteness, uniqueness or God identification follows. A real distinction is the input DistinctEsseAt; no argument for it is used.",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "0ea9feb8-1f92-5b11-aa74-2f2e567c6106"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "57f80020-fa6f-5b69-be58-b4cf95b7226f"
+  ]
+}

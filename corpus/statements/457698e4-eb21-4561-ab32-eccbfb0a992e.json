@@ -1,0 +1,11 @@
+{
+  "id": "457698e4-eb21-4561-ab32-eccbfb0a992e",
+  "label": "Every actual distinct esse is caused by another being in act, mode of causing unspecified",
+  "paraphrase": "For every x that actually exists with esse distinct from its essence (DistinctEsseAt), some c other than x (c distinct from x only, not non-constituency) is in act as to being and causes x's esse (CausesIn c x esse, DEF-CAUSE-OF-PERFECTION, the tenseless cause of being). The mode of causing is not specified: this is not the claim that the cause is efficient, and it is kept apart from STMT-DISTINCT-ESSE-REQUIRES-EXTERNAL-CAUSE, whose paraphrase reads the cause as efficient. No conservation, present sustaining, world-indexed existence, concreteness or uniqueness is asserted.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.DeEnte.DistinctEsseHasOtherActualCause",
+  "definition_ids": [
+    "0ea9feb8-1f92-5b11-aa74-2f2e567c6106",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
+  ]
+}
