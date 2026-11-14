@@ -232,6 +232,23 @@ reliability demand must be stated and defended symmetrically, not imposed only o
 Enoch while exempting naturalism or natural law. This is an explanatory-adequacy
 obligation, not a request to infer a moral conclusion from an unconstrained `Prop`.
 
+#1586 quantifies the third-factor row in `docs/notes/third-factor-tracking-1586.md`.
+On one case distribution, a selection error of at most e1 and a factor/truth gap
+of at most e2 bound agreement below by 1 − e1 − e2, with no independence assumed.
+For binary verdicts and a finite measure, the bound taken at the actual error
+rates is attained exactly when the two errors almost surely never fall on the
+same case (null overlap). An aggregate gap bounds a subclass only after dividing
+by the subclass weight.
+
+Survival's pro tanto goodness does not bound e2 for all-things-considered or
+impartial verdicts. Nor does it bound the reverse direction of the pro tanto gap
+(acts with a reason the factor does not favour). It bears at most on the one-way
+part, which gives a certified one-sided bound on wrongly endorsed acts. The
+two-sided correlation needs a further open bound. On impartial conflict cases,
+accuracy rests on Enoch's reasoning step, a further reliability premise whose
+inputs the third factor shapes and which e1 and e2 do not bound. All rates
+remain open.
+
 ### Witness and interpretation boundary
 
 New primary passages: `STREET-DARWINIAN-DILEMMA-FULL` (SJSU university-hosted

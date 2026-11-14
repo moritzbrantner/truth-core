@@ -1,0 +1,14 @@
+{
+  "id": "a0a13270-3400-47aa-8c00-8600258b0624",
+  "label": "The SIMPLY_PRIOR_1 grounds what it is prior to, via distinct actual dependence (inference)",
+  "input_statement_ids": [
+    "47aff057-35ef-5418-930b-fef72e1104d2",
+    "57c5ed67-f9fa-55bb-9b3e-3c00643b21e9",
+    "a8298fbd-f3c5-480d-95e9-8316889c327f"
+  ],
+  "output_statement_id": "86efed1a-f353-5b5d-9431-df7fc643ace1",
+  "rule": "As simplyPriorGroundViaDependence; the conclusion already restricts to y distinct from x",
+  "meaning": "The sibling of Round2Grounding.simplyPriorGroundViaDependence with the distinct-relata bridge: STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND concerns only a y simply prior to something other than itself, so the dependence edge the requirement bridge supplies has distinct relata. Conditional consequence only; no premise is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

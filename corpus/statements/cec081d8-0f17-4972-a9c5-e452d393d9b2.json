@@ -1,0 +1,13 @@
+{
+  "id": "cec081d8-0f17-4972-a9c5-e452d393d9b2",
+  "label": "No actual CONCRETE_6 individual exists at the selected world",
+  "paraphrase": "Nothing is both concrete and existing at the selected world w. Recorded as the conclusion of a checked incompatibility: reflexive dependence for being, the unrestricted dependence-to-grounding bridge, actual grounding as simple priority and priority requiring nonmutual dependence jointly yield it, so with any actual concretum at w (H, STMT-NECESSARY-CLASSICAL-GOD-ROOT, asserts one; G alone does not) at least one of those four must be rejected. It is not asserted.",
+  "lean_declaration": "TruthCore.Causality.DependenceGroundingPriority.NoActualConcretumAt",
+  "definition_ids": [
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109"
+  ],
+  "disambiguation_ids": [
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
+  ]
+}

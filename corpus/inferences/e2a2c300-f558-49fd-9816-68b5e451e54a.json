@@ -1,0 +1,10 @@
+{
+  "id": "e2a2c300-f558-49fd-9816-68b5e451e54a",
+  "label": "Conditioning bound for a subclass factor/truth gap (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "c8c4b5ba-141e-4672-93c2-43ab5c6b60a7",
+  "rule": "Mathlib conditional probability (cond_apply) and monotonicity of measure",
+  "meaning": "An aggregate factor/truth gap does not transfer undiluted to a subclass such as impartial hard cases; the general transfer is only by division by the subclass weight, and the finite model shows that this is attained.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

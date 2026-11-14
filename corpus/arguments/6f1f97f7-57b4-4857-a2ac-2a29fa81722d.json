@@ -1,0 +1,14 @@
+{
+  "id": "6f1f97f7-57b4-4857-a2ac-2a29fa81722d",
+  "label": "Conditioning bound for a subclass factor/truth gap",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "c8c4b5ba-141e-4672-93c2-43ab5c6b60a7",
+  "inference_ids": [
+    "e2a2c300-f558-49fd-9816-68b5e451e54a"
+  ],
+  "meaning": "An aggregate factor/truth gap does not transfer undiluted to a subclass such as impartial hard cases; the general transfer is only by division by the subclass weight, and the finite model shows that this is attained.",
+  "definition_ids": [
+    "40a94f44-75f6-48f2-b878-68ea03dcc809",
+    "d4c61290-6c30-4fc3-97db-966bae5802c5"
+  ]
+}

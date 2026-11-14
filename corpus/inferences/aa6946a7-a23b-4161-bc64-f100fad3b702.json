@@ -1,0 +1,10 @@
+{
+  "id": "aa6946a7-a23b-4161-bc64-f100fad3b702",
+  "label": "Four-case sharpness, cancellation and hard-case concentration models (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "cc7b9a25-6ac9-4bb9-9056-28e91ee5c84b",
+  "rule": "Uniform measure on Fin 4 (uniformOn_apply_finset), explicit finite sets and Mathlib conditional probability",
+  "meaning": "Nonvacuity and sharpness witnesses for the union bound, a control showing that overlapping binary errors leave the bound unattained, and a hard-case model in which the aggregate guarantee holds and is attained while the judgment fails on every impartial hard case. The model shows only that the aggregate bound is compatible with total failure on a light subclass; it does not show that actual selected-for judgments fail on hard cases.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

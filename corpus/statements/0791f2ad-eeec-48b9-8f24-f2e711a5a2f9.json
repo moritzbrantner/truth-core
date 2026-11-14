@@ -1,0 +1,16 @@
+{
+  "id": "0791f2ad-eeec-48b9-8f24-f2e711a5a2f9",
+  "label": "A different actual CONCRETE_6 being that one depends on for its being is SIMPLY_PRIOR_1 to it",
+  "paraphrase": "At the selected world w, for any c and x, if c is distinct from x, both are concrete and exist at w, and x depends for its being on c (DEF-DEPENDS-FOR-BEING), then c is simply prior to x (SIMPLY_PRIOR_1). The actual-concrete, distinct-relata counterpart of STMT-NONMUTUAL-DEPENDENCE-SUFFICES-FOR-PRIORITY: it needs no nonmutuality antecedent and no possible-separation premise, and it says nothing of D(x,x), of non-actual or non-concrete relata, or of whole-existence priority beyond the primitive SIMPLY_PRIOR_1. It does not give the unscoped premise. Derived, not assumed, by composing the distinct-relata dependence-to-grounding bridge with STMT-ACTUAL-GROUNDING-IS-SIMPLE-PRIORITY.",
+  "lean_declaration": "TruthCore.Causality.DependenceGroundingPriority.ActualDistinctDependencePriority",
+  "definition_ids": [
+    "bf26b9b2-41ed-55b0-9557-dae90ab9b81f",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109"
+  ],
+  "disambiguation_ids": [
+    "23dd6f32-b456-4963-adb3-7befbf0dc4fb",
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
+  ]
+}

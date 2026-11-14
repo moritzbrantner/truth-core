@@ -1,0 +1,11 @@
+{
+  "id": "5f608b8b-0b4a-4a7a-8748-244dbe8bcefa",
+  "label": "Actual esse CAUSE_2 is SIMPLY_PRIOR_1, via distinct actual dependence",
+  "argument_id": "1f9e8ebc-d8e6-40d3-80cd-4987d0b3e61d",
+  "challenge_module": "TruthCore.Results.Causality.DependenceGroundingPriority.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DependenceGroundingPriority.Solution",
+  "theorem": "TruthCore.Results.Causality.DependenceGroundingPriority.actualEsseCausePriorityViaDependence",
+  "comparator_config": "results/5f608b8b-0b4a-4a7a-8748-244dbe8bcefa/comparator.json",
+  "status": "solution-present",
+  "description": "If c, distinct from the actual concretum x, causes x's esse, then x depends for its being on c (OPEN reading of q.44 a.1 ad 2 for causes of esse), c exists at w (OPEN) and is concrete (OPEN causal-capacity reading), so both are actual concreta and the scoped dependence-to-priority route makes c simply prior to x. This is a second derivation of the #1604 esse-cause priority node, through dependence for being rather than through the esse-cause-is-ground bridge; it uses the same bridge content as that node's route through STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND derived via dependence. All dependence instances it uses have distinct relata. Conditional consequence only; no premise is established."
+}

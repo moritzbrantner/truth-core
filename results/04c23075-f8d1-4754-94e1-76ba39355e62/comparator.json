@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.ThirdFactorTracking.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ThirdFactorTracking.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.ThirdFactorTracking.subclassGapBound"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

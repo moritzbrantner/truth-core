@@ -1,0 +1,27 @@
+{
+  "id": "2adcc5ff-3c4e-4662-8827-ee32dc48bd4d",
+  "label": "The SIMPLY_PRIOR_1 grounds what it is prior to, via distinct actual dependence",
+  "premise_statement_ids": [
+    "47aff057-35ef-5418-930b-fef72e1104d2",
+    "57c5ed67-f9fa-55bb-9b3e-3c00643b21e9",
+    "a8298fbd-f3c5-480d-95e9-8316889c327f"
+  ],
+  "conclusion_statement_id": "86efed1a-f353-5b5d-9431-df7fc643ace1",
+  "inference_ids": [
+    "a0a13270-3400-47aa-8c00-8600258b0624"
+  ],
+  "meaning": "The sibling of Round2Grounding.simplyPriorGroundViaDependence with the distinct-relata bridge: STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND concerns only a y simply prior to something other than itself, so the dependence edge the requirement bridge supplies has distinct relata. Conditional consequence only; no premise is established.",
+  "definition_ids": [
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "bf26b9b2-41ed-55b0-9557-dae90ab9b81f",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8",
+    "a1b2e330-388f-4120-bc5c-969642317792"
+  ],
+  "disambiguation_ids": [
+    "23dd6f32-b456-4963-adb3-7befbf0dc4fb",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
+  ]
+}
