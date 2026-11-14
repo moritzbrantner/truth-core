@@ -1,0 +1,24 @@
+{
+  "id": "bc674a0b-433f-4893-913c-57ac9f68eb9c",
+  "label": "Stage-one warrant: IsAt versus existence in grounded beginnings, and world-independent possibility",
+  "date": "2026-11-14",
+  "kind": "reading",
+  "outcome": "succeeded",
+  "statement_ids": [
+    "395cb0f6-0352-47b1-8996-918468cc716a",
+    "71df1177-b082-46e9-ab85-6815b3ed1650",
+    "bf18a0d0-f43c-49a6-9876-0dbdf5c5f98a",
+    "62b4a40a-919e-5da4-998c-131c386b7361",
+    "1b1462e6-c285-448c-87e2-3053bc05a341",
+    "b19ffd92-01bd-5c0b-9643-e7407137ea5e"
+  ],
+  "summary": "Bounded semantic/warrant audit, reconciled 2026-11-14 against main after #1478 (GroundedBeginnings A2ab/A2c and its warrant audit), #1493, #1464 and attempt c94eed5b (inclusive IsAt reading); findings in docs/notes/modal-spine.md, A2 objection-and-warrant audit bullet 'Presence versus existence' and the F1/F2' positive-interpretation paragraph after the rival table's Euclidean scope section. (1) Presence versus existence. History.IsAt and ExistsAt are distinct primitives linked only by A1. A2, A2ab (BeginningsHaveLastingGround, TruthCore/Causality/GroundedBeginnings.lean) and A2c use IsAt alone: A2ab's 'beginning' is ¬IsAt v x s ∧ IsAt v x t, not coming to be. Under the inclusive reading (location at, or co-presence to, the moment), an existing non-temporal agent first co-present at t counts as beginning, so A2ab asks for its ground and A2c forbids a self-ground. The inclusive reading does not settle whether such an agent is co-present to every moment of the history or only where it gives being (contact principle c4661518 supplies only the latter). On the first answer A2's warrant from 'from nothing, nothing comes' is unaffected; on the second A2ab's warrant must cover the onset of an existing agent's co-presence, which the coming-to-be motivation does not address. Recorded as an open semantic obligation on the reading, not an objection: no position on file posits an empty moment followed by a non-temporal agent's first act. (2) F1/F2' positive interpretation: if metaphysical possibility is admissibility in one world-independent space of complete world-descriptions, R(w,v) iff v admissible, giving F1 and F2 (hence F2'); elementary, prose only, not registered. Its warrant rests on world-independent admissibility and cross-world identity; the origin-tolerance rival (f2b3c229) bears the parallel burden of showing out-of-tolerance origins impossible for the same individual and justifying its symmetric access criterion. Neither discharged. Superseded and withdrawn from the original 2026-11-12 version: the hand-built, never Lean-checked two-world assignment (an existent present at no moment), written for a locational IsAt reading; the claim that A2 needs every producer temporally present at each earlier moment (main's A2ab already allows a ground present at s or later and derives A2 with A2c); and the F2'-only arrival remark (already in the rival table). No premise, statement, theorem or closure status changed.",
+  "evidence": [
+    "bb9a11b1-d0f1-4b78-a009-b1f0dfee3e32",
+    "b0585787-ad9b-4af8-a4f6-55bf721e436c",
+    "8544b7a9-3f37-4b05-96d9-27b67a897686",
+    "468cbe86-1bba-4a0c-9484-5feb910a22e6",
+    "7c839c5e-2b39-4c7e-af38-99bfc46c48b5"
+  ],
+  "blocker": "Open semantic obligation: fix when a non-temporal agent is co-present to a moment under the inclusive IsAt reading (every moment of the history, or only where it gives being), ideally as a disambiguation of the presence reading used by A1-A3, A2ab and c4661518, then reassess A2ab's warrant on the second answer. F2' needs independently warranted world-independent admissibility and cross-world identity, or the origin-tolerance rival needs its impossibility and access justification; neither is on file."
+}
