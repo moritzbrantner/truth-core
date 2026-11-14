@@ -1,0 +1,11 @@
+{
+  "id": "270ffea0-f897-4b12-a5ce-f2af1e2d956a",
+  "label": "SCG I.22 second case controls on the stable distinct union",
+  "paraphrase": "Seven two-world, two-principle, one-bearer interpretations extending the stable distinct profile of PR #1602 (esse permanently joined to a distinct q marked genuine quiddity). (a) With the union depending on q (n.3's description), the union is dependent but not modally contingent, and every premise of this batch holds except the second n.4 case; (a') with the second case but without n.2's per se clause. (b) A co-fundamental union with no source and one per se lies outside both senses of n.3 and satisfies both n.4 cases, n.2's per se clause and horn (iii) principle, and n.6 union causation, failing only the coarsened n.2 coverage, while q is a genuine quiddity and represented esse differs from essence; (b') with per se unity denied, n.6 fails. A self-sourced union satisfies every premise except coverage with q genuine quiddity. One profile withholds the horn (iii) accident principle under coverage. A positive separable, q-dependent profile satisfies every premise including coverage and rejects q. Finite signature facts only, not metaphysical possibility or premise warrant.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaContraGentiles.BookI.Chapter22SecondCase.SecondCaseControls",
+  "definition_ids": [
+    "d9716c00-9d36-4814-9ee5-456eb0bf7dce",
+    "d421e2c9-4eb2-4bef-bb63-6c502c7732b4",
+    "b18c2550-e953-42d4-817c-cc6805cf5004"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+ "id": "d614232c-11fe-48ce-8a7e-500f1a532c8f",
+ "label": "SCG I.22 n.4 second case, dependence sense of per se necessity, n.2 coverage and n.6",
+ "date": "2026-11-14",
+ "statement_ids": [
+  "c439eaef-97fa-48c4-bb51-e502cc23e9c9",
+  "022ef8cb-eeb1-44a5-afa5-fb5ace2d00f1",
+  "b7a4a82c-199c-4796-b9eb-eecdf82c5e34",
+  "9e0c5792-0839-4468-b8df-22dab1976eac",
+  "6f3710f1-10f4-4708-8dd4-cb53eb542344",
+  "8cd95493-a6d4-409b-b380-fe4714f8b2ad",
+  "15202335-3833-461d-a621-98bba7e1055f",
+  "8f2b84e3-da3c-41d6-a46e-4c119217afa5",
+  "6e46d10e-ca4e-47d4-b45d-dd3ec0dda2ce",
+  "270ffea0-f897-4b12-a5ce-f2af1e2d956a",
+  "8d28134d-3ace-4804-9290-ca85bc4777fe",
+  "b492a7ae-e3de-4d6d-ac56-aabeaf5b0f2d"
+ ],
+ "kind": "derivation",
+ "outcome": "succeeded",
+ "summary": "Follow-up of PR #1602 for #1608 (D to E on the God route, #1595, #319). Analyst reconstruction of SCG I.22 nn.2-6, attribution deferred (orientation witness la.wikisource oldid 132346; no chapter-specific corpus passage). Added the dependence sense of n.3's 'non per se necesse' as PER_SE_NECESSARY_2 (PerSeNecessaryEsseAt: exists and nothing other than e causes its necessity; DependentConjunctionAt: joined and the joining depends on something), sibling of the #1602 modal proxy PER_SE_NECESSARY_1 (NecessaryEsseAt / ContingentConjunctionAt), with a new disambiguation and no bridge asserted between the senses. New primitive relata, each defined in d421e2c9: conjunctionDependsOn, absolutelyDependsOn, necessityFrom, essenceDependsOn, perSeOne. OPEN premises: n.4's second written case (joined, not intelligible apart, joining depends on s implies e depends absolutely on s), n.2's per se clause (absolute dependence on another s gives necessity from s; kept as a premise, not folded into the definition), an analyst coarsening of n.2's dilemma and trilemma as coverage for joined distinct principles, n.2 horn (iii)'s accident principle, and n.6's union causation with per se unity primitive. Results (Lean, Comparator, NanoDa and bind-check pass locally): (1) control (a) in general form: an inseparable union of a per se necessary esse with distinct q cannot depend on q; (2) both n.4 cases in the dependence sense, by a constructive case split on intelligibility apart, without #1602's modal-to-intelligibility bridge: a quiddity whose joining has a source other than the esse is not the esse-identified bearer's quiddity; (3) with coverage and horn (iii): no represented-distinct joined proposed quiddity is that bearer's quiddity; (4) with n.6 instead of coverage: a genuine non-unified quiddity has its joining sourced only in the esse (not s distinct from e). Seven finite controls on #1602's stable distinct profile: n.3's own q-dependent union is dependent but not modally contingent (the modal proxy misses it) and satisfies every premise except the second case; omissions for the per se clause, horn (iii) accident principle and per se unity; a positive separable profile. Answer to the brief's question: the #1602 stable distinct profile survives the full encoded n.3-4 bundle (both cases, dependence sense) only with an unsourced (co-fundamental) or self-sourced joining; with n.3's q-dependent joining it is refuted through the second case and n.2 horn (i). The co-fundamental profile (unsourced, one per se) and the self-sourced profile satisfy every encoded premise except the coarsened n.2 coverage.",
+ "blocker": "Strongest standing rival: a co-fundamental union, distinct esse and quiddity that are one per se with no source of their joining. Its exact price in this encoding is the denial of the coarsened n.2 coverage (a consonant union of distinct principles with no dependence in any direction) together with the claim that distinct principles are one per se, which n.6 presupposes false through divine simplicity (non autem pars eius esse potest, cum essentia divina sit simplex); neither denial is refuted here and no positive replacement account of such per se unity is in the corpus. The self-sourced residual (joining depends only on the esse) also survives without coverage; n.6's self-causation clause is not encoded. JoinedDistinctQuiddityRejectedAt rejects only the proposed quiddity, so reaching essenceOf = esseOf further needs the proposed quiddity to range over the actual q.3 essence. Next tests: (i) formalize n.6's simplicity step (distinct essence and esse are not one per se) against the existing simplicity vocabulary (SCG I.18 passage aquinas-scg-i18-lat exists) and test whether the co-fundamental profile violates it; (ii) formalize n.6's self-causation clause against the self-sourced profile; (iii) state the bridge from rejecting every distinct proposed quiddity to essenceOf = esseOf and connect to ActualUnderivedEssenceEsse; (iv) investigate warrant for coverage as an independent premise.",
+ "evidence": [
+  "043cc3e3-8dd2-49e6-9fe4-93c110cdfb8d",
+  "16834fcc-7935-4c80-8157-0eaa2cc9bc5e",
+  "65e9b918-ab46-40de-8789-d8b0a2cfc2c8",
+  "a710f75c-2eaf-46f7-bb17-65bb98fbeba5",
+  "f239cdca-e412-4314-b9ef-cd693adc88ab"
+ ]
+}

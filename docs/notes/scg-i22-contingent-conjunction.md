@@ -222,3 +222,92 @@ passage before attribution.
 Validation: the corpus records are generated from
 `specs/scg-i22-contingent-conjunction.toml`. Kernel, binding, Comparator and
 NanoDa checks run in CI on PR #1602.
+
+## Second n.4 case and the dependence sense (#1608)
+
+Follow-up slice: `TruthCore.Latin.Aquinas.SummaContraGentiles.BookI.Chapter22SecondCase`,
+results in `TruthCore.Results.Aquinas.SummaContraGentiles.Chapter22SecondCase`,
+records from `specs/scg-i22-second-case.toml`, attempt
+`d614232c-11fe-48ce-8a7e-500f1a532c8f`. Still an analyst reconstruction,
+attribution deferred; the same orientation witness was re-read for nn.2–6.
+
+**Senses.** Disambiguation `a4b9e53e-d4d9-4f15-bc7f-e5fa913a96ea`
+(`PER_SE_NECESSARY`) records the modal proxy above as `PER_SE_NECESSARY_1`
+(`NecessaryEsseAt`, with `ContingentConjunctionAt`) and the dependence sense as
+`PER_SE_NECESSARY_2` (`PerSeNecessaryEsseAt`: the esse exists and nothing other
+than itself is a cause of its necessity; with `DependentConjunctionAt`: the
+joining depends on something). Every argument of this slice uses sense 2 only.
+No bridge between the senses is asserted. One finite control shows they come
+apart on n.3's own case: a permanent union that depends on q is dependent but
+not modally contingent.
+
+**New relata** (definition `d421e2c9-4eb2-4bef-bb63-6c502c7732b4`, all
+world-independent OPEN primitives): `conjunctionDependsOn e q s`,
+`absolutelyDependsOn e s`, `necessityFrom e s`, `essenceDependsOn q s`,
+`perSeOne e q`.
+
+**OPEN premises** (analyst statements, attribution deferred):
+
+| Premise | Source orientation |
+| --- | --- |
+| `InseparableEsseInheritsConjunctionSource`: joined, not intelligible apart, joining depends on s ⇒ e depends absolutely on s | n.4 second case |
+| `DependenceOnAnotherGivesNecessityFromIt`: absolute dependence on another s ⇒ s causes e's necessity | n.2 *si ab alio dependet, iam non est necesse esse* |
+| `JoinedDistinctTrilemmaCoverage`: joined distinct q ⇒ e or its joining depends on some s ≠ e, or q depends on e | n.2 dilemma and trilemma, coarsened by the analyst |
+| `ConsequentOfEsseIsAccidental`: q depends on e ⇒ q accidental to e | n.2 horn (iii) |
+| `NonUnifiedUnionHasSource`: joined and not one per se ⇒ the joining has a source | n.6 union causation |
+
+The n.2 clause is a premise, not part of the definition of per se necessity,
+so its omission is a checked control. The coverage premise merges horns (i)
+and (ii) into what they share (the esse, or its joining, depends on something
+other than the esse); that makes coverage weaker than the text's trilemma, not
+stronger.
+
+**Results** (all zero-axiom, Comparator and NanoDa locally green):
+
+1. `essence_dependent_inseparable_union_excluded`, control (a) in general form:
+   with the second case and the n.2 clause, an inseparable union of a per se
+   necessary esse with a distinct q cannot depend on q.
+2. `dependent_conjunction_not_quiddity`: both written n.4 cases in the
+   dependence sense, by a constructive case split on intelligibility apart.
+   It reuses the #1602 first-case premises but **not** the
+   modal-to-intelligibility bridge. A proposed quiddity whose joining has a
+   source other than the esse is not the esse-identified bearer's quiddity.
+3. `joined_distinct_quiddity_rejected`: coverage plus horn (iii) plus (2): no
+   proposed quiddity represented as distinct from the per se necessary esse
+   and joined to it is the bearer's quiddity. This is the conditional n.2–4
+   route. It rejects proposed quiddities only. Reaching `essenceOf = esseOf`
+   further needs the proposal to range over the actual q.3 essence.
+4. `non_unified_quiddity_union_self_sourced`: n.6 plus (2), without coverage:
+   a genuine quiddity not one per se with the esse has a joining sourced only
+   in the esse (constructively `¬ s ≠ e`).
+
+**Controls on the #1602 stable distinct profile** (`second_case_controls`):
+
+* (a) n.3's own description (the joining depends on q): every premise holds
+  except the second case, so the second case is what refutes it, through n.2
+  horn (i). A variant honours the second case but withholds the n.2 clause.
+* (b) co-fundamental (unsourced, one per se): outside both senses of n.3. Both
+  n.4 cases, the n.2 clause, the horn (iii) principle and n.6 hold, q is a
+  genuine quiddity, and represented esse ≠ essence. **Only coverage fails.**
+  With per se unity denied, n.6 fails instead.
+* A self-sourced joining also satisfies everything except coverage.
+* Further controls: an omission of the horn (iii) accident principle, and a
+  positive separable q-dependent profile in which all premises, including
+  coverage, hold and q is rejected.
+
+**Answer to the #1608 question.** The stable distinct profile survives the full
+encoded n.3–4 bundle (both cases, dependence sense) only with an unsourced or
+self-sourced joining. With n.3's q-dependent joining it is refuted. The
+surviving rival is the co-fundamental union. In this encoding its price is the
+denial of n.2's (coarsened) coverage together with per se unity of distinct
+principles, which n.6 presupposes false through divine simplicity (*non
+autem pars eius esse potest, cum essentia divina sit simplex*). Neither denial
+is refuted here. The corpus also has no positive replacement account of such
+per se unity, so it records no substantive objection to coverage either.
+
+**Next tests:** (i) n.6's simplicity step (distinct essence and esse are not
+one per se) against the existing simplicity vocabulary, tested on the
+co-fundamental profile; (ii) n.6's self-causation clause against the
+self-sourced profile; (iii) the bridge from rejecting every distinct proposed
+quiddity to `essenceOf = esseOf`, connected to `ActualUnderivedEssenceEsse`;
+(iv) the warrant for coverage as an independent premise.

@@ -1,0 +1,9 @@
+{
+  "id": "022ef8cb-eeb1-44a5-afa5-fb5ace2d00f1",
+  "label": "SCG I.22 dependence on another gives necessity from it",
+  "paraphrase": "OPEN selected reading of SCG I.22 n.2's per se clause ('si ab alio dependet, iam non est necesse esse'), attribution deferred: for every esse e and every s other than e, if e depends absolutely on s, then s is a cause of e's necessity. Dependence on itself is not covered. Kept as a premise, not folded into the definition of per se necessity.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaContraGentiles.BookI.Chapter22SecondCase.DependenceOnAnotherGivesNecessityFromIt",
+  "definition_ids": [
+    "d421e2c9-4eb2-4bef-bb63-6c502c7732b4"
+  ]
+}

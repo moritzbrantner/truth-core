@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Aquinas.SummaContraGentiles.Chapter22SecondCase.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaContraGentiles.Chapter22SecondCase.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Aquinas.SummaContraGentiles.Chapter22SecondCase.essence_dependent_inseparable_union_excluded"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

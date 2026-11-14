@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Aquinas.SummaContraGentiles.Chapter22SecondCase.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaContraGentiles.Chapter22SecondCase.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Aquinas.SummaContraGentiles.Chapter22SecondCase.non_unified_quiddity_union_self_sourced"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
