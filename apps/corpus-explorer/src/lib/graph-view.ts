@@ -80,6 +80,11 @@ export type GraphIndex = {
 
 export const clusterNodeId = (key: string) => `cluster:${key}`;
 
+/** Result records certify whole arguments; inference records alone do not. */
+export function resultCheckedInferenceIds(graph: PropositionGraph): Set<string> {
+  return new Set(graph.arguments.filter((argument) => argument.resultIds.length > 0).flatMap((argument) => argument.inferenceIds));
+}
+
 export function indexGraph(graph: PropositionGraph): GraphIndex {
   const consumers = new Map<string, GraphInference[]>();
   const producers = new Map<string, GraphInference[]>();

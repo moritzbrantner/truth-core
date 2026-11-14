@@ -6,6 +6,7 @@ export type NetworkMarkerData = {
   view: ViewNode;
   selected: boolean;
   proof?: ProofOverlay;
+  resultChecked?: boolean;
   community: number;
   degree: number;
   emphasis: "frontier" | "all";
@@ -20,7 +21,7 @@ export function NetworkMarker({ data }: NodeProps<Node<NetworkMarkerData>>) {
   let title: string;
   if (node.kind === "statement") title = node.statement.paraphrase;
   else if (node.kind === "negation") title = node.paraphrase;
-  else title = node.inference.meaning;
+  else title = `${data.resultChecked ? "Result-checked inference" : "Inference without checked result"}: ${node.inference.meaning}`;
   return (
     <div
       className="network-marker"
@@ -30,6 +31,7 @@ export function NetworkMarker({ data }: NodeProps<Node<NetworkMarkerData>>) {
       data-proof-junction={data.proof?.junction ?? false}
       data-proof-blocker={data.proof?.blocker ?? false}
       data-kind={node.kind}
+      data-result-checked={data.resultChecked === true}
       data-selected={data.selected}
       data-highlighted={node.highlighted}
       data-hover-dimmed={data.hoverDimmed === true}

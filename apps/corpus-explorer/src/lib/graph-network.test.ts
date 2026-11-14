@@ -3,11 +3,31 @@ import { fixtureGraph, fixtureReport } from "./frontier-fixture";
 import { fixture } from "./proposition-graph.fixture";
 import { buildPropositionGraph } from "./proposition-graph";
 import { networkStructure, NETWORK_TICKS, signedDisputeLayout } from "./graph-network";
-import { computeGraphView } from "./graph-view";
+import { computeGraphView, resultCheckedInferenceIds } from "./graph-view";
+import { traceSupport } from "./graph-journey";
 import { DEFAULT_STATE, parseGraphState, serializeGraphState } from "./graph-state";
 import { getPropositionGraph } from "./proposition-graph-data";
 
 const graph = fixtureGraph(fixture);
+
+test("only inferences belonging to result-checked arguments get checked styling", () => {
+  const checked = resultCheckedInferenceIds(graph);
+  expect([...checked].sort()).toEqual(["I1", "I2", "I4", "I6"]);
+  expect(checked.has("I3")).toBe(false);
+  expect(checked.has("I5")).toBe(false);
+});
+
+test("trace support includes every premise of each alternative argument", () => {
+  const withAlternative = {
+    ...graph,
+    inferences: [...graph.inferences, { ...graph.inferences[0], id: "I-ALT", inputs: ["P1"], output: "C" }],
+  };
+  const view = computeGraphView(withAlternative, traceSupport({ ...DEFAULT_STATE, sel: "C" }, "C"));
+  expect(new Set(view.nodes.map((node) => node.id))).toEqual(new Set(["C", "P1", "P2", "I1", "I-ALT"]));
+  expect(view.edges.filter((edge) => edge.target === "I1").map((edge) => edge.source).sort()).toEqual(["P1", "P2"]);
+  expect(view.edges.some((edge) => edge.id === "I-ALT->C")).toBe(true);
+  expect(view.edges.some((edge) => edge.id === "I1->C")).toBe(true);
+});
 
 test("network keeps AND junctions, shared statements, components and distinct leaves", () => {
   const structure = networkStructure(graph);
