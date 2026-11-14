@@ -105,16 +105,19 @@ type/name heuristic or argument membership test selects a correspondence. Corpus
 identifies statement records; it is insufficient for certificate application
 binding. Neither declaration names nor pretty-printed text establish matching.
 
-A proved exact factorization needs all three implications: stronger to
-weaker, stronger to delta, and weaker plus delta to stronger, together with the
-advertised equivalence certificate. Sufficiency alone leaves exactness
+A proved exact factorization needs either the equivalence certificate
+stronger iff weaker and delta, or all three implications it consists of:
+stronger to weaker, stronger to delta, and weaker plus delta to stronger
+(#1598; each set entails the other under the same background, so requiring
+both only duplicated proof obligations). Sufficiency alone leaves exactness
 unresolved. Equivalence of stronger and weaker is a separate question. A strict
 strengthening additionally needs a checked setting of the same specification
 whose background holds and which satisfies weaker and not stronger. Failure to
 find a converse supplies no separator. Multiple registrations may propose
 different named deltas; no uniqueness or minimality follows. A delta
 definitionally equal to the stronger formula or weaker-implies-stronger cannot
-pass the definitional degeneracy guard. This guard detects only definitional
+pass the definitional degeneracy guard, nor can a delta definitionally equal to
+the weaker formula or `True`, which would make the pair an equivalence (#1598). This guard detects only definitional
 matches; a negative check establishes no semantic nonredundancy. Exact
 factorization does not certify explanatory usefulness: S padded with True can
 factor S perfectly. Informativeness remains a reviewed interpretation, with

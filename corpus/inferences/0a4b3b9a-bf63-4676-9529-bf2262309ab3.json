@@ -1,0 +1,10 @@
+{
+  "id": "0a4b3b9a-bf63-4676-9529-bf2262309ab3",
+  "label": "S5 node is the S4 node plus a symmetric frame (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "d3bb2f64-6d45-4d98-8b2a-fb298b664fa8",
+  "rule": "Frame-condition algebra: a reflexive Euclidean frame is symmetric and transitive; a reflexive transitive symmetric frame is Euclidean",
+  "meaning": "Certified difference (#1598) of the registration S5 node strengthens S4 node: for every world type, signature, profile, world and relation, the S5 node holds iff the S4 node holds and the route's frame is symmetric. Premise-free; it compares the two encodings and asserts no frame class of the route.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

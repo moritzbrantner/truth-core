@@ -1,0 +1,13 @@
+{
+  "id": "a308c4b3-6d44-4368-89d5-da1eae2999ee",
+  "label": "Fixed truth and history-dependent verdict yield an incorrect verdict somewhere (inference)",
+  "input_statement_ids": [
+    "898b25e5-8d32-4188-8c91-c51deca64529",
+    "f94c7149-699e-4c13-a65e-c4aad5c2a9af"
+  ],
+  "output_statement_id": "fe53f4ab-dba8-4995-9e7b-7e52030a397b",
+  "rule": "Case split on actual accuracy: a correct actual verdict makes the differing verdict wrong under the fixed truth; an incorrect one is itself the mismatch",
+  "meaning": "The non-probabilistic part of Street's first horn (pp. 121–122) for one epistemic evaluative judgment, analyst formulation with attribution deferred. With the truth fixed across histories and the verdict varying with the history, the verdict is wrong in some scenario. Street's further step, that the actual judgments are in all likelihood mostly off track, is probabilistic and is not derived; neither defeat nor the absence of epistemic reasons follows.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

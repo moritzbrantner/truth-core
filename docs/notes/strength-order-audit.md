@@ -253,3 +253,28 @@ Effect on closure, computed against #1527 (where a registration is an ordinary v
 | `e6f32278` | Sameness or difference of alteration tracks the affection, while equality or inequality tr | Under the two-factor comparison criterion, the same affection in equal affected amounts yi |
 | `03415af9` | An endless populated past would admit a Grim Reaper system of locally ruled stations | In every possible history, each moment with a contingent concrete thing present has a foun |
 | `4e8e50bb` | Founded as a teaching authority coextends with direct principal founding or Jesus founding | For any GOD_4 candidate g and society c: if Jesus founded c in the primitive FoundedInMand |
+
+## Certified differences (#1598)
+
+Each `strengthens` registration should name its difference: a `strength_comparison` of the same pair with no background, a delta statement with its own Lean declaration and an `equivalence` certificate STRONG ⇔ WEAK ∧ DELTA ([corpus model, Strength order](../corpus-model.md)). `check` warns for every registration without one. A delta must say in the pair's own vocabulary what the strong version adds; WEAK → STRONG, STRONG, WEAK or `True` certify nothing, and a pair for which no such delta is found is listed under "Flagged" below instead of being given one.
+
+Backfill order: pairs on a route to the root first (`truth frontier --reaching-root`), in batches by vocabulary family, one spec per batch (`specs/strength-*.toml`).
+
+### Certified
+
+| registration (strong ⇒ weak) | delta | spec |
+|---|---|---|
+| unique existence ⇒ existence | at most one witness | hand-written (`REL-STRENGTH-UNIQUE`) |
+| a generated thing has a distinct cause ⇒ it has some cause | a self-causing generated thing has a distinct cause | hand-written (`REL-STRENGTH-CAUSE`) |
+| y > x ⇒ y ≥ x | y ≠ x | hand-written (`REL-STRENGTH-ORDER`) |
+| the cause of a thing's being causes each of its perfections ⇒ universal esse cause transfer | the transfer for nonuniversal causes and self-effects | hand-written (`REL-STRENGTH-PERFECTION-TRANSFER`) |
+| necessary root, S5 ⇒ S4 | the route's frame is symmetric | `strength-necessary-frames` |
+| necessary root, KTB ⇒ KT | the route's frame is symmetric | `strength-necessary-frames` |
+
+### Flagged
+
+None so far. (The necessary-root actualist-K and possibilist-K nodes, whose shared root facts already contain existence at `w`, are correctly recorded as `logically_equivalent_to`, not as a strength order.)
+
+### Next batches
+
+The rest of the necessary-root sense chain (S5 ⇒ KTB and S4 ⇒ KT: transitive frame; KT ⇒ actualist K: reflexive frame; K ⇒ de dicto K and K ⇒ tertia via, whose deltas need the root's uniqueness and, for the tertia via, stability of root existence under double negation), then the other route-to-root families in `truth frontier --reaching-root` order.

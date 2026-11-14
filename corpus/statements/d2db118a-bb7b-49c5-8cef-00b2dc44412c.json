@@ -1,0 +1,9 @@
+{
+  "id": "d2db118a-bb7b-49c5-8cef-00b2dc44412c",
+  "label": "Correctness of the scoped epistemic judgment is fixed by the actual selective history",
+  "paraphrase": "OPEN analyst premise, attribution deferred. Every scenario with the actual selective history agrees with the actual scenario on whether the judged content is correct. Constructivism (correctness constituted by attitudes the history fixes) and functional accounts (correctness as truth-conduciveness in the environment the history responded to) each supply it for different reasons. A necessitarian realism (correctness the same in every scenario) satisfies it formally, but survives through it only given actual accuracy, which Street's first horn disputes.",
+  "lean_declaration": "TruthCore.Logic.DarwinianEpistemicDebunking.CorrectnessFixedByHistory",
+  "definition_ids": [
+    "e17e93bf-eedf-45db-be80-ffac82ef7d98"
+  ]
+}

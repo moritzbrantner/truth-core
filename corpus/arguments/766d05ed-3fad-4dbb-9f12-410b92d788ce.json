@@ -1,0 +1,16 @@
+{
+  "id": "766d05ed-3fad-4dbb-9f12-410b92d788ce",
+  "label": "Fixed truth and history-dependent verdict yield an incorrect verdict somewhere",
+  "premise_statement_ids": [
+    "898b25e5-8d32-4188-8c91-c51deca64529",
+    "f94c7149-699e-4c13-a65e-c4aad5c2a9af"
+  ],
+  "conclusion_statement_id": "fe53f4ab-dba8-4995-9e7b-7e52030a397b",
+  "inference_ids": [
+    "a308c4b3-6d44-4368-89d5-da1eae2999ee"
+  ],
+  "meaning": "The non-probabilistic part of Street's first horn (pp. 121–122) for one epistemic evaluative judgment, analyst formulation with attribution deferred. With the truth fixed across histories and the verdict varying with the history, the verdict is wrong in some scenario. Street's further step, that the actual judgments are in all likelihood mostly off track, is probabilistic and is not derived; neither defeat nor the absence of epistemic reasons follows.",
+  "definition_ids": [
+    "e17e93bf-eedf-45db-be80-ffac82ef7d98"
+  ]
+}
