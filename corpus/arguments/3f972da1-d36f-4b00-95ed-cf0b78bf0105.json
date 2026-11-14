@@ -1,0 +1,30 @@
+{
+  "id": "3f972da1-d36f-4b00-95ed-cf0b78bf0105",
+  "label": "Distinct dependence acyclicity from consistent strict grounding of existence facts",
+  "premise_statement_ids": [
+    "fea5942a-b50c-4299-a5fe-80a5c2b8c0a9",
+    "42756c07-03cd-4b54-8ed6-ed6c1a5132aa"
+  ],
+  "conclusion_statement_id": "702dc502-b64f-4d5c-b73d-331ea2e554b0",
+  "inference_ids": [
+    "210e2895-f3f6-46a3-82d5-267eb91c3a45"
+  ],
+  "meaning": "Strength diagnostic for the structural-surrogate route: PLG consistency together with the dependence-to-strict-ground map already forces distinct-step D to have no finite cycle. The map premise is therefore strictly stronger than the nonmutuality it is used to support, and its warrant must be a warrant for acyclicity of D. The passage from dependence for being to formal strict ground runs only through the OPEN map premise (sense bridge); the atoms stay uninterpreted. Neither input is established, and no well-foundedness or converse embedding claim follows.",
+  "definition_ids": [
+    "bf26b9b2-41ed-55b0-9557-dae90ab9b81f",
+    "df5284cb-8f1f-5b61-9b1c-ee4c1544b469",
+    "5d9a94e0-d64b-53ca-b9cc-504735060e0a"
+  ],
+  "disambiguation_ids": [
+    "23dd6f32-b456-4963-adb3-7befbf0dc4fb"
+  ],
+  "sense_bridges": [
+    {
+      "term": "DEPENDENCE_FOR_BEING_VERSUS_STRICT_GROUND",
+      "from": "c6e310c2-a8c9-41cb-8d7e-18859802484d",
+      "to": "28212589-ee94-4eb0-b20e-f7cead4438b1",
+      "statement_id": "42756c07-03cd-4b54-8ed6-ed6c1a5132aa",
+      "role": "premise"
+    }
+  ]
+}

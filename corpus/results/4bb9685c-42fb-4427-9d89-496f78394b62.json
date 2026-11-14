@@ -7,5 +7,5 @@
   "theorem": "TruthCore.Results.Causality.DependenceStrictGroundMap.controls",
   "comparator_config": "results/4bb9685c-42fb-4427-9d89-496f78394b62/comparator.json",
   "status": "solution-present",
-  "description": "Omitting consistency permits all sequents; omitting the mapping leaves counterfactual dependence unconstrained even alongside a consistent Fine theory. This prevents the result from being misreported as a theorem about arbitrary dependence or intrinsic metaphysical priority."
+  "description": "Omitting consistency permits all sequents; omitting the mapping leaves counterfactual dependence unconstrained even alongside a consistent Fine theory, so dependence for being and formal strict ground do not mix without the bridge. This prevents the result from being misreported as a theorem about arbitrary dependence or intrinsic metaphysical priority."
 }

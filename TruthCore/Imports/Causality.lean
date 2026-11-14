@@ -68,6 +68,7 @@ public import TruthCore.Causality.DeiFiliusLordBlessed
 public import TruthCore.Causality.DeiFiliusOperationFromIntellect
 public import TruthCore.Causality.DeiFiliusUnifiedRoute
 public import TruthCore.Causality.DependenceStrictGroundMap
+public import TruthCore.Causality.DependenceStrictGroundMapStrength
 public import TruthCore.Causality.DerivativeJointPower
 public import TruthCore.Causality.DirectEsseGenusOmissionControl
 public import TruthCore.Causality.DirectEsseRootGoodnessOmission

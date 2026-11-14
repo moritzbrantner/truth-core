@@ -1,0 +1,10 @@
+{
+  "id": "bfc525dc-60cc-445e-9326-b090c684b5a6",
+  "label": "Nonvacuity witness for the strict-ground dependence bundle (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "2be59542-b34e-4037-b694-bbdaa01e83b3",
+  "rule": "Reuse the consistent Fine infinite-descent theory with the successor dependence relation",
+  "meaning": "Joint satisfiability of PLG consistency and the dependence-to-strict-ground map with a nonempty distinct-step D, in one formal interpretation over the natural numbers. It shows that the support bundle is not satisfied only by an empty dependence relation; it does not show that either input is true of real beings.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

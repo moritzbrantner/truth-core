@@ -9,11 +9,20 @@ namespace TruthCore.Causality.DependenceStrictGroundMap
 
 open TruthCore.Modern.Fine.PureLogicOfGround
 
-/-- OPEN interpretation premise. For distinct beings, counterfactual dependence
-`D x y` must *actually be represented* as a derivable strict partial ground of
-the existence fact of `x` by the existence fact of `y`. `existenceFact` keeps
-the things distinct from the facts about their existence; neither injectivity
-nor this map is definitional. Self-dependence is deliberately excluded. -/
+/-- OPEN interpretive premise, encoded as a structural surrogate. Formally it
+says only this: each `D`-edge `x → y` between distinct beings lands, under the
+labelling `existenceFact`, on a sequent `existenceFact y ≺ existenceFact x`
+that is derivable from the PLG theory `S`. `S` and `existenceFact` are
+arbitrary parameters and the atoms are uninterpreted
+(`DEF-FINE-PLG-STRICT-PARTIAL-GROUND`). The type therefore does not say that
+the atoms are existence facts, that the edges are actual or faithful grounding,
+or which kind of ground (constitutive or natural/causal) is meant. Reading the
+labels as existence facts and the sequents as real grounds is a further OPEN
+interpretation outside the type (`docs/notes/distinct-dependence-strict-ground-route.md`).
+Together with `Consistent S`, the map already forces `D` to have no finite
+cycle of distinct steps (`mapForcesDistinctDependenceAcyclic`), which is more
+than nonmutuality. Neither injectivity of the labelling nor this map is
+definitional; self-dependence is deliberately excluded. -/
 def DependenceMapsToStrictExistenceGround {B Atom : Type}
     (D : B → B → Prop) (existenceFact : B → Atom)
     (S : Set (Sequent Atom)) : Prop :=

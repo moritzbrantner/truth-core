@@ -33113,15 +33113,6 @@
  },
  {
   "kind": "definition",
-  "id": "bf26b9b2-41ed-55b0-9557-dae90ab9b81f",
-  "legacy_id": "DEF-DEPENDS-FOR-BEING",
-  "label": "Dependence for being: DependsForBeing x y: x would not be if y were not, in the sense ST I q.44…",
-  "flags": [
-   "truncated"
-  ]
- },
- {
-  "kind": "definition",
   "id": "578d48f2-35b0-5daf-8a52-d63b61c50697",
   "legacy_id": "DEF-CC100-4-DEPENDENCE",
   "label": "Dependent, dependence on another and…: For this source-only glossary, x depends on y retains the…",

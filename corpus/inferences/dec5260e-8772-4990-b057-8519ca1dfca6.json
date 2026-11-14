@@ -7,7 +7,7 @@
   ],
   "output_statement_id": "0f49d71e-09e6-5a9c-b7e7-e0e9b8fe769c",
   "rule": "Reuse Fine strict-grounding transitivity and irreflexivity to exclude reverse dependence",
-  "meaning": "A genuine new conditional support option for the previously open distinct-being asymmetry claim: with a consistent PLG theory and a faithful strict-grounding interpretation of existential dependence edges, reversal yields a strict self-ground and inconsistency. Both input commitments remain open; the existing counterfactual dependence relation is not redefined or automatically a strict ground. This does not establish universal asymmetry, only the result under the selected interpretive configuration.",
+  "meaning": "A structural-surrogate conditional support option for the open distinct-being nonmutuality claim: if distinct-step D embeds, under an arbitrary labelling of beings by uninterpreted atoms, into the strict partial ground order of a consistent PLG theory, then a reversed pair of distinct D-edges yields a derivable strict self-ground and contradicts consistency. Reading the atoms as existence facts and the edges as faithful grounding is an OPEN interpretation that the Lean type does not encode, and the passage from dependence for being to formal strict ground runs only through the OPEN map premise (sense bridge). The map with consistency is strictly stronger than the conclusion: it already forces acyclicity of distinct-step D, so its warrant is a warrant for acyclicity. Both inputs remain open; D is not redefined, and universal asymmetry is not established.",
   "assumption_statement_ids": [],
   "discharged_statement_ids": []
 }

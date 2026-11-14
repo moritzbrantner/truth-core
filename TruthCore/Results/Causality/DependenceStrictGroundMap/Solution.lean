@@ -15,10 +15,14 @@ open TruthCore.Results.Modern.Fine.PlgDerivedRules
 open TruthCore.Results.Modern.Fine.StrictGroundAcyclic
 open TruthCore.Results.Modern.Fine.InfiniteDescent
 
-/-- Conditional support for the existing nonmutual-existential-dependence
-premise. A reversible dependence pair would become a two-edge cycle of
-derivable *strict* grounds of existence facts, contradicting PLG consistency.
-The interpretation map and consistency are independent OPEN inputs. -/
+/-- Structural-surrogate support for the existing nonmutual-existential-
+dependence premise. A reversible pair of distinct dependence edges would map
+to a two-edge cycle of derivable strict partial grounds between the beings'
+labelling atoms, contradicting PLG consistency. The atoms are uninterpreted:
+reading them as existence facts, and the sequents as real grounds, is an OPEN
+interpretation that the type does not encode. The interpretation map and
+consistency are OPEN inputs. (The frozen Challenge's doc comment says
+"existence facts"; read it as these labelling atoms.) -/
 theorem nonmutualDependenceFromStrictGround {B Atom : Type}
     (D : B → B → Prop) (existenceFact : B → Atom)
     (S : Set (Sequent Atom))
