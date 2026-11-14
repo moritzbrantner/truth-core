@@ -1,0 +1,9 @@
+{
+  "id": "76789cec-a92b-4088-b6be-2b774b44cf76",
+  "label": "Finite controls for the cross-history horn of Darwinian epistemic debunking",
+  "paraphrase": "Two finite controls. In a two-history profile the truth is fixed and the verdict follows the history: some scenario is wrong, while the actual verdict is accurate, no scenario with the actual history is wrong, and correctness does not vary within the actual history. With the truth fixed and a single history, the verdict does not vary and nothing is wrong.",
+  "lean_declaration": "TruthCore.Logic.DarwinianEpistemicDebunking.CrossHistoryControls",
+  "definition_ids": [
+    "e17e93bf-eedf-45db-be80-ffac82ef7d98"
+  ]
+}

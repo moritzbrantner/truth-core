@@ -1,7 +1,7 @@
 {
   "id": "c830e937-36c6-4471-a60b-40f205ce2b80",
   "label": "The scoped epistemic judgment fails in some scenario with the actual selective history",
-  "paraphrase": "Tracking failure: in at least one scenario with the actual selective history, the scoped epistemic evaluative judgment returns an incorrect verdict. This does not say which scenario, and it does not say the actual verdict is incorrect.",
+  "paraphrase": "Tracking failure: in at least one scenario with the actual selective history, the scoped epistemic evaluative judgment returns an incorrect verdict. This does not say which scenario and does not entail that the actual verdict is incorrect; since the actual scenario has the actual history, an incorrect actual verdict is one case of it.",
   "lean_declaration": "TruthCore.Logic.DarwinianEpistemicDebunking.HistoryMateMismatch",
   "definition_ids": [
     "e17e93bf-eedf-45db-be80-ffac82ef7d98"

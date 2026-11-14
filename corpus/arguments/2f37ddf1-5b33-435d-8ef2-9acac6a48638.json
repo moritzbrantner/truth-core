@@ -1,0 +1,13 @@
+{
+  "id": "2f37ddf1-5b33-435d-8ef2-9acac6a48638",
+  "label": "Cross-history horn finite controls",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "76789cec-a92b-4088-b6be-2b774b44cf76",
+  "inference_ids": [
+    "6653805c-b268-48c3-bc4b-af2aed6277ad"
+  ],
+  "meaning": "A nonvacuity witness and an omission control for the cross-history argument. The first profile shows that its conclusion does not entail actual inaccuracy and that the within-history-variation reading misses this fixed-truth case. The second shows that verdict variation is needed. These are formal interpretations only.",
+  "definition_ids": [
+    "e17e93bf-eedf-45db-be80-ffac82ef7d98"
+  ]
+}

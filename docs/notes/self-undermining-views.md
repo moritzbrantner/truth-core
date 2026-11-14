@@ -41,7 +41,7 @@ provisional judgment, not as automatic frontier closure.
 | 20 | There are no normative reasons of any kind | [Global reason denial](../../corpus/results/40ae0ae9-36f6-487d-bbb6-2cb4a500e98a.json) leaves no internal adoption reason in the profile. [F6 excludes it](../../corpus/results/0c32687e-0e0f-45a8-a85f-9c324bc10728.json) when the same profile contains an epistemic reason. |
 | 21 | All truth is socially constructed | [Construction plus variation](../../corpus/results/a1fa828f-3efd-4f92-b3bc-5238c313eb86.json) excludes objective truth inside the scope when objective truth means actual truth stable across the supplied profiles. That exclusion applies to the thesis's own formulation if it is in scope. The [controls](../../corpus/results/7a23011d-5098-4477-8f2e-ab6750459bdf.json) preserve objective truth outside local scope and allow stable truth even with universal construction status when the variation premise fails. |
 | 22 | Evolutionary naturalism undermines trust in the reasoning that supports it | [The accepted package lacks warrant](../../corpus/results/fe69aa38-9a65-4f83-ba33-82c1e909307d.json) when it raises the specified reliability concern, that concern undercuts the basis, every supporting basis is the targeted one, and warrant requires undefeated support. The [controls](../../corpus/results/eea262e9-35fb-4779-9aae-8eea32fee146.json) preserve package truth in a model with lack of warrant and preserve warrant with independent support. The [fitness and truth analysis](plantinga-fitness-truth-boundary.md) leaves the reliability assessment for evolutionary naturalism open. |
-| 23 | Darwinian debunking of realist epistemic judgments, applied to the debunker | [The realist debunker lacks warrant](../../corpus/results/60425b3c-f72e-417a-bc63-26016902daa1.json) for the debunking conclusion when the uniform mismatch policy undercuts the debunker's own selection-fixed epistemic basis, whose correctness varies within its history, and that basis is the sole support. [History-fixed correctness](../../corpus/results/6e78b91c-a3c4-4904-b740-245dadb12466.json) blocks the tracking failure; [the controls](../../corpus/results/92a88754-ad36-4b22-a645-d054fc0400ac.json) keep the conclusion true and F6 intact, and keep an antirealist debunker warranted. See [Street's dilemma and epistemic reasons](#streets-dilemma-and-epistemic-reasons-1585). |
+| 23 | Darwinian debunking of realist epistemic judgments, applied to the debunker | [The realist debunker lacks warrant](../../corpus/results/60425b3c-f72e-417a-bc63-26016902daa1.json) for the debunking conclusion under an analyst within-history-variation reading, when the uniform mismatch policy undercuts the debunker's own selection-fixed epistemic basis and that basis is the sole support. [History-fixed correctness](../../corpus/results/6e78b91c-a3c4-4904-b740-245dadb12466.json) with actual accuracy blocks the tracking failure; [the controls](../../corpus/results/92a88754-ad36-4b22-a645-d054fc0400ac.json) keep the conclusion true and F6 intact, and keep warrant in a no-undercutting model with history-fixed correctness. Street's own fixed-truth horn has only its [non-probabilistic part](../../corpus/results/28051e37-ddea-4080-b5ff-7134e7d90b3d.json) formalized, with no self-application yet. See [Street's dilemma and epistemic reasons](#streets-dilemma-and-epistemic-reasons-1585). |
 
 The [epistemic-underminer analysis](epistemic-underminer-boundaries.md) records the
 warrant, benchmark and prior-demonstration assumptions in more detail.
@@ -387,61 +387,80 @@ different types: origin fixing (`SelectionFixesVerdict`), tracking failure
 (`HistoryMateMismatch`: wrong in some scenario with our history), actual
 inaccuracy (`¬ ActuallyAccurate`), justified defeat (`undercuts` in the
 existing `ReliabilityFrame`) and rejection of epistemic norms
-(`EpistemicNihilism`). Control 1 has origin fixing and a tracking failure
-with an accurate actual verdict.
+(`EpistemicNihilism`). Tracking failure does not entail actual inaccuracy
+(control 1 has an accurate actual verdict). Actual inaccuracy is a special
+case of it, though, because the actual scenario has the actual history.
+
+**Street's horn and the analyst variant.** Street's first horn (pp. 121–122,
+the Bermuda analogy) holds the realist's truths fixed and lets the judgments
+vary with selective pressure. It then argues by a coincidence step that the
+actual judgments are in all likelihood off track. Within-history variation of
+correctness is a separate analyst reading, not her horn. A realism whose
+correctness is the same in every scenario, her paradigm target, fails that
+reading.
 
 **Verified steps** (Comparator and NanoDa at the PR head):
 
-1. [Origin fixing and within-history variation yield a tracking failure](../../corpus/results/8be398bc-ab7e-41ea-b40f-50e97d1728fc.json).
-   This is the first horn for one epistemic judgment. Without origin fixing
-   there is no failure (control 2).
-2. [Realist self-application](../../corpus/results/60425b3c-f72e-417a-bc63-26016902daa1.json).
+1. [Fixed truth and a history-dependent verdict give an incorrect verdict somewhere](../../corpus/results/28051e37-ddea-4080-b5ff-7134e7d90b3d.json).
+   This is the non-probabilistic part of Street's horn. [Its controls](../../corpus/results/641cb6d7-e7bf-4cb6-8179-fb768a4e9b33.json)
+   give a fixed-truth case with an accurate actual verdict, no wrong scenario
+   with the actual history, and no within-history variation. The coincidence
+   step to likely actual error is not derived.
+2. [Origin fixing and within-history variation yield a tracking failure](../../corpus/results/8be398bc-ab7e-41ea-b40f-50e97d1728fc.json),
+   under the analyst variant. Control 2 is one omission example showing that
+   origin fixing is needed.
+3. [Self-application under the variant](../../corpus/results/60425b3c-f72e-417a-bc63-26016902daa1.json).
    The debunker's defeat policy, that a tracking failure of the judgment a
    basis delivers undercuts the basis, is stated uniformly over bases. The
    debunker's conclusion rests on epistemic evaluative judgments (that the
    evolutionary evidence counts in favor of the conclusion, that the inference
-   is good). If that basis is selection-fixed, its stance-independent
-   correctness varies within the history, and it is the sole support, the
-   existing sole-basis result removes warrant for the conclusion. The premise
-   that would undermine the debunker is the realist's within-history variation
-   applied to the debunker's own basis. The outcome is epistemic
+   is good). Suppose that basis is selection-fixed, its correctness varies
+   within the history, and it is the sole support. Then the existing sole-basis
+   result removes warrant for the conclusion. The outcome is epistemic
    self-undermining, not strict self-refutation: control 4 keeps the
    conclusion true and thin F6 satisfied by undefeated support for other
-   content.
-3. [History-fixed correctness keeps the judgment accurate across its history](../../corpus/results/6e78b91c-a3c4-4904-b740-245dadb12466.json).
-   Control 5: an antirealist debunker who accepts the same uniform policy keeps
-   warrant. Antirealism alone yields no contradiction.
+   content. The policy also fires on an actually false verdict, so it does not
+   by itself separate actual inaccuracy from justified defeat.
+4. [History-fixed correctness keeps an accurate judgment accurate across its history](../../corpus/results/6e78b91c-a3c4-4904-b740-245dadb12466.json).
+   Control 5 is a no-undercutting model with history-fixed correctness that
+   satisfies the same policy and keeps warrant. It shows consistency, not that
+   antirealism specifically secures warrant; it fits a necessitarian reading
+   equally.
 
-**Accounts compared.** *Epistemic realism with within-history variation*:
-the extended dilemma applies, and so does its self-application to a realist
-debunker. *Constructivism*: correctness is fixed by attitudes that the history
-fixes, so the policy is never triggered and the debunker keeps warrant.
-*Instrumental or functional accounts*: correctness is truth-conduciveness in
-the environment the history responded to; formally this is the same
-history-fixed shape, so the debunker survives. *Necessitarian or supervenience
-realism*: stance-independent epistemic correctness is the same in every
-scenario, or supervenes necessarily on descriptive truth-conduciveness, so the
-variation premise fails and the extension does not reach it.
+**Accounts compared.** *Realism with within-history variation*: the variant
+applies, and so does its self-application to a realist debunker.
+*Constructivism and functional accounts*: correctness is fixed by the history,
+through attitudes or through the environment the history responded to. The
+variant's policy is not triggered, and the debunker keeps warrant.
+*Necessitarian realism* (correctness the same in every scenario) fails the
+within-history premise, but it is the paradigm target of the cross-history
+horn (step 1). It survives step 4 only if its actual verdicts are accurate,
+which the horn disputes, so it is not counted as a survivor. *Relation-asserting
+supervenience realism* (epistemic correctness supervening on truth-conduciveness
+that selection responds to) belongs to Street's second horn, which is not
+formalized here; nothing here shows that the extension fails to reach it.
 
-**Strongest surviving replies.** (a) Global constructivism extends n. 57's
-antirealist reply to epistemic reasons. It keeps the debunking conclusion
-warranted; its price is that epistemic correctness is attitude-dependent. (b)
-Supervenience realism denies within-history variation. Its price is a
-necessary link between epistemic correctness and descriptive
-truth-conduciveness, which the debunker can contest but which no model here
-excludes. (c) An independent-basis reply (n. 57's alien) denies sole-basis
-dependence. For epistemic reasons the alien's considerations are themselves
-assessed by epistemic standards, which is the complication Street flags.
-Whether a basis exists that needs no epistemic evaluative judgment is open.
+**Strongest surviving replies to this reconstruction.**
+- (a) Global constructivism extends n. 57's antirealist reply to epistemic
+  reasons and keeps the debunking conclusion warranted. Its price is that
+  epistemic correctness depends on attitudes.
+- (b) An independent-basis reply (n. 57's alien) denies sole-basis
+  dependence. For epistemic reasons the alien's considerations are themselves
+  assessed by epistemic standards, which is the complication Street flags.
+  Whether a basis exists that needs no epistemic evaluative judgment is open.
 
-**Provisional judgment.** The extension of the dilemma to epistemic reasons
-is a conditional threat only to realisms that accept within-history variation.
-A debunker who holds such a realism undermines their own warrant. A
-constructivist or functional debunker does not, and supervenience realism
-escapes the first horn. The dilemma gives no case against thin F6. Revise if a
-weaker, non-modal reliability premise is found that yields defeat without the
-variation premise, or if a non-evaluative basis for the debunking conclusion
-is identified.
+**Provisional judgment, about this reconstruction only.**
+- Under the within-history variant, the self-application undermines a realist
+  debunker's warrant, and a debunker with history-fixed correctness keeps it.
+- Street's own horn has only its non-probabilistic part formalized (step 1).
+  It has no self-application yet: the policy used here triggers on
+  history-mate failure and also on bare actual falsity.
+- Her second horn is unformalized.
+- Nothing here gives a case against thin F6.
+- Revise when the coincidence step is formalized with a measure over
+  histories, or when a defeat principle is found that triggers on
+  cross-history mismatch without counting bare falsity as defeat, or when a
+  non-evaluative basis for the debunking conclusion is identified.
 
 **Root connection.** Frontier delta: no change (476 open premises reaching the
 root before and after). F6 is a floor item that these results neither use nor

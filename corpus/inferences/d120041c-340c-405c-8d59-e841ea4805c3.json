@@ -10,7 +10,7 @@
   ],
   "output_statement_id": "3db10140-06ed-43e2-8521-391acd2ec925",
   "rule": "Derive a tracking failure for the subject's own basis, apply the uniform policy, then reuse undercutSoleBasisPrecludesWarrant",
-  "meaning": "Self-application under epistemic realism, analyst formulation, attribution deferred. Take the target as the debunking conclusion and the basis as the subject's epistemic evaluative basis. If the policy that debunks realist epistemic judgments applies uniformly, that basis's verdict is fixed by selection, its stance-independent correctness varies within the history, every support for the conclusion comes from that basis, and warrant needs undefeated support, then the subject lacks warrant for the conclusion. The conclusion may still be true, other contents may be warranted, and no contradiction or epistemic nihilism follows.",
+  "meaning": "Self-application under the within-history-variation reading of epistemic realism, analyst formulation, attribution deferred. Take the target as the debunking conclusion and the basis as the subject's epistemic evaluative basis. If the policy that debunks realist epistemic judgments applies uniformly, that basis's verdict is fixed by selection, its correctness varies within the history, every support for the conclusion comes from that basis, and warrant needs undefeated support, then the subject lacks warrant for the conclusion. The conclusion may still be true, other contents may be warranted, and no contradiction or epistemic nihilism follows.",
   "assumption_statement_ids": [],
   "discharged_statement_ids": []
 }

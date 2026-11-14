@@ -7,5 +7,5 @@
   "theorem": "TruthCore.Results.Logic.DarwinianEpistemicDebunking.selectionWithVariationYieldsMismatch",
   "comparator_config": "results/8be398bc-ab7e-41ea-b40f-50e97d1728fc/comparator.json",
   "status": "solution-present",
-  "description": "Conditional analyst reconstruction of the first horn of Street's dilemma for one epistemic evaluative judgment, attribution deferred. If the selective history fixes the verdict and correctness varies among scenarios with that history, the verdict is wrong in some such scenario. The argument does not show actual inaccuracy, defeat of the judgment for anyone, or the absence of epistemic reasons."
+  "description": "Conditional analyst argument for one epistemic evaluative judgment under the within-history-variation reading, attribution deferred. It is not Street's first horn, which holds the truths fixed across histories (pp. 121–122). If the selective history fixes the verdict and correctness varies among scenarios with that history, the verdict is wrong in some such scenario. The argument does not show actual inaccuracy, defeat of the judgment for anyone, or the absence of epistemic reasons."
 }

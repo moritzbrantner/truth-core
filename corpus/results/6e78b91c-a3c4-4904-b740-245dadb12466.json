@@ -7,5 +7,5 @@
   "theorem": "TruthCore.Results.Logic.DarwinianEpistemicDebunking.historyFixedCorrectnessKeepsHistoryMatesAccurate",
   "comparator_config": "results/6e78b91c-a3c4-4904-b740-245dadb12466/comparator.json",
   "status": "solution-present",
-  "description": "Surviving-reply schema, analyst formulation. Where correctness is fixed by the history and the actual verdict is correct, the selection-fixed verdict is correct in every scenario with that history, so the tracking-failure premise of the uniform policy is not met. It applies to constructivist, functional and necessitarian-realist readings alike; it does not say which reading is true or that the actual verdict is accurate."
+  "description": "Surviving-reply schema, analyst formulation. Where correctness is fixed by the history and the actual verdict is correct, the selection-fixed verdict is correct in every scenario with that history, so the tracking-failure premise of the uniform policy is not met. It applies to constructivist and functional readings. A necessitarian realism meets its premises only if its actual verdict is accurate, which Street's first horn disputes, so it is not listed as a survivor. The argument does not say which reading is true or that the actual verdict is accurate."
 }

@@ -7,5 +7,5 @@
   "theorem": "TruthCore.Results.Logic.DarwinianEpistemicDebunking.darwinianDebunkingControls",
   "comparator_config": "results/92a88754-ad36-4b22-a645-d054fc0400ac/comparator.json",
   "status": "solution-present",
-  "description": "Nonvacuity and omission controls for the three arguments. Tracking failure is separate from actual inaccuracy; origin information alone gives no tracking failure; the realist self-application premises are jointly satisfiable and leave the conclusion true and F6 intact; an antirealist debunker who accepts the same uniform policy keeps warrant. These are formal interpretations only; no actual history, reliability or account of epistemic correctness is established."
+  "description": "Nonvacuity and omission controls for the three arguments. Tracking failure does not entail actual inaccuracy; one omission example shows origin fixing is needed; the self-application premises are jointly satisfiable and leave the conclusion true and F6 intact; a no-undercutting model with history-fixed correctness satisfies the same uniform policy and keeps warrant, which shows consistency, not that antirealism specifically secures warrant. These are formal interpretations only; no actual history, reliability or account of epistemic correctness is established."
 }
