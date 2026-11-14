@@ -1,0 +1,9 @@
+{
+  "id": "022ef8cb-eeb1-44a5-afa5-fb5ace2d00f1",
+  "label": "SCG I.22 dependence on another gives necessity from it",
+  "paraphrase": "OPEN selected reading of SCG I.22 n.2's per se clause ('si ab alio dependet, iam non est necesse esse'), attribution deferred: for every esse e and every s other than e, if e depends absolutely on s, then s is a cause of e's necessity. Dependence on itself is not covered. Kept as a premise, not folded into the definition of per se necessity. STRONGER than the text: n.2 says only that dependence on another is 'contra rationem eius quod est per se necesse-esse', which excludes per se necessity; this premise assigns necessity from another to every absolutely dependent esse, including one with no necessity at all (an Avicennian 'every caused existent is necessary per aliud' commitment). It is plausible for contingent dependents only if necessityFrom e s is read as 's is a cause on which e's being, and any necessity it has, depends'. The results apply it only where e is per se necessary, where the weaker textual reading suffices.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaContraGentiles.BookI.Chapter22SecondCase.DependenceOnAnotherGivesNecessityFromIt",
+  "definition_ids": [
+    "d421e2c9-4eb2-4bef-bb63-6c502c7732b4"
+  ]
+}

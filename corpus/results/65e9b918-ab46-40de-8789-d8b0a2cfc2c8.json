@@ -1,0 +1,11 @@
+{
+  "id": "65e9b918-ab46-40de-8789-d8b0a2cfc2c8",
+  "label": "SCG I.22 coverage and both n.4 cases reject a joined distinct quiddity",
+  "argument_id": "6c0b8281-8818-43d8-a1b9-dde19794fe3c",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaContraGentiles.Chapter22SecondCase.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaContraGentiles.Chapter22SecondCase.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaContraGentiles.Chapter22SecondCase.joined_distinct_quiddity_rejected",
+  "comparator_config": "results/65e9b918-ab46-40de-8789-d8b0a2cfc2c8/comparator.json",
+  "status": "solution-present",
+  "description": "Composes the analyst-coarsened n.2 coverage with the two-case n.4 theorem, in the dependence sense PER_SE_NECESSARY_2. Non-transcription: a three-way case analysis reusing dependent_conjunction_not_quiddity. It is a conditional route from per se necessity to the rejection of every represented-distinct proposed quiddity of an esse-identified bearer; it does not prove that the bearer's actual q.3 essence equals its esse, which would further need the proposed quiddity to range over that essence. Every source-motivated premise is OPEN, attribution deferred; coverage is the premise the co-fundamental control violates. No root obligation is discharged."
+}

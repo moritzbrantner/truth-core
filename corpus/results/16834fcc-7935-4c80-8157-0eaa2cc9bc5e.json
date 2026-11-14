@@ -1,0 +1,11 @@
+{
+  "id": "16834fcc-7935-4c80-8157-0eaa2cc9bc5e",
+  "label": "SCG I.22 second case finite controls",
+  "argument_id": "69161169-7265-4db9-8bed-c865294e0358",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaContraGentiles.Chapter22SecondCase.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaContraGentiles.Chapter22SecondCase.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaContraGentiles.Chapter22SecondCase.second_case_controls",
+  "comparator_config": "results/16834fcc-7935-4c80-8157-0eaa2cc9bc5e/comparator.json",
+  "status": "solution-present",
+  "description": "Finite controls for the dependence-sense batch on the stable distinct profile of PR #1602. They show the second n.4 case, n.2's per se clause, the horn (iii) accident principle, n.6 union causation and coverage each do work, that the modal proxy misses n.3's own dependent union, and that a co-fundamental (one per se, unsourced) union and a self-sourced union each satisfy every encoded premise except the coarsened n.2 coverage. Scope and vacuity controls only, never metaphysical possibility or premise warrant."
+}

@@ -1,0 +1,119 @@
+# SCG I.22 n.4 second written case, the dependence sense of n.3's "non per se
+# necesse" (PER_SE_NECESSARY_2), n.2's per se clause and coarsened coverage,
+# and n.6's union causation (#1608, follow-up of #1602). Analyst
+# reconstruction; historical attribution deferred: the public Latin
+# (la.wikisource oldid 132346) is an orientation witness, not a materialized
+# corpus passage. Every source-motivated premise is an OPEN analyst statement.
+
+[batch]
+vocab = "TruthCore.Latin.Aquinas.SummaContraGentiles.BookI.Chapter22SecondCase"
+results = "TruthCore.Results.Aquinas.SummaContraGentiles.Chapter22SecondCase"
+definitions = ["d421e2c9-4eb2-4bef-bb63-6c502c7732b4", "b18c2550-e953-42d4-817c-cc6805cf5004", "DEF-ESSE", "DEF-ESSENCE-THOMISTIC-NATURE"]
+disambiguations = ["a4b9e53e-d4d9-4f15-bc7f-e5fa913a96ea", "DISAMB-ESSENCE"]
+
+[[statement]]
+id = "SCG I.22 inseparable esse inherits its conjunction's source"
+lean = "InseparableEsseInheritsConjunctionSource"
+paraphrase = "OPEN selected reading of the second written case of SCG I.22 n.4, attribution deferred: at a selected world, for every esse e, proposed quiddity q and s, if e is joined to q, e cannot be understood without q, and the joining of e to q depends on s, then e depends absolutely on s (for its very being). Intelligibility apart is the primitive conceivableApart of the #1602 profile, not modal separation; conjunction dependence and absolute dependence are distinct primitive relations. Broader in domain than n.4, which speaks only of the per se necessary esse ('illud esse'): the premise quantifies over every joined pair, while the results apply it only where e is per se necessary. No real-world instance is asserted."
+definitions = ["d421e2c9-4eb2-4bef-bb63-6c502c7732b4", "b18c2550-e953-42d4-817c-cc6805cf5004"]
+
+[[statement]]
+id = "SCG I.22 dependence on another gives necessity from it"
+lean = "DependenceOnAnotherGivesNecessityFromIt"
+paraphrase = "OPEN selected reading of SCG I.22 n.2's per se clause ('si ab alio dependet, iam non est necesse esse'), attribution deferred: for every esse e and every s other than e, if e depends absolutely on s, then s is a cause of e's necessity. Dependence on itself is not covered. Kept as a premise, not folded into the definition of per se necessity. STRONGER than the text: n.2 says only that dependence on another is 'contra rationem eius quod est per se necesse-esse', which excludes per se necessity; this premise assigns necessity from another to every absolutely dependent esse, including one with no necessity at all (an Avicennian 'every caused existent is necessary per aliud' commitment). It is plausible for contingent dependents only if necessityFrom e s is read as 's is a cause on which e's being, and any necessity it has, depends'. The results apply it only where e is per se necessary, where the weaker textual reading suffices."
+definitions = ["d421e2c9-4eb2-4bef-bb63-6c502c7732b4"]
+
+[[statement]]
+id = "SCG I.22 joined distinct principles fall under the dependence trilemma"
+lean = "JoinedDistinctTrilemmaCoverage"
+paraphrase = "OPEN analyst coarsening of SCG I.22 n.2's dilemma and consonance trilemma, attribution deferred: at a selected world, for every esse e joined to a represented principle q distinct from e, either some s other than e is such that e depends absolutely on s or the joining of e to q depends on s (horns (i) and (ii), only in what they share, with n.3's conjunction refinement), or q depends on e (horn (iii)). The repugnance branch is omitted because a joined pair is one to which the esse belongs. Weaker than the text in its disjuncts, broader in domain: n.2 states the trilemma only of 'hoc esse quod necesse est', while this premise quantifies over every joined pair of distinct principles; the results apply it only where e is per se necessary. This coverage claim is exactly what a co-fundamental union of distinct principles denies."
+definitions = ["d421e2c9-4eb2-4bef-bb63-6c502c7732b4", "b18c2550-e953-42d4-817c-cc6805cf5004"]
+
+[[statement]]
+id = "SCG I.22 what follows on esse is accidental to it"
+lean = "ConsequentOfEsseIsAccidental"
+paraphrase = "OPEN selected reading of SCG I.22 n.2 horn (iii) ('omne quod sequitur ad esse rei, est ei accidentale'), attribution deferred: for every q and esse e, if q depends on e, then q is accidental to e in the ontic sense of the #1602 profile (adventitious relative to that esse, not chance or contingent truth)."
+definitions = ["d421e2c9-4eb2-4bef-bb63-6c502c7732b4", "b18c2550-e953-42d4-817c-cc6805cf5004"]
+
+[[statement]]
+id = "SCG I.22 union of what is not one per se has a source"
+lean = "NonUnifiedUnionHasSource"
+paraphrase = "OPEN selected reading of SCG I.22 n.6's union-causation principle ('ea quae per se non sunt unum, si coniungantur, oportet per aliquam causam uniri'), attribution deferred: at a selected world, for every esse e joined to q, if e and q are not one per se, then the joining depends on something. Whether distinct principles can be one per se is left to the primitive perSeOne. Not encoded: n.6's main premise ('omne autem quod convenit alicui quod non est de essentia eius, convenit ei per aliquam causam'), for which this clause is the justification ('enim'), and its implicit step from 'non est de essentia eius' to 'per se non sunt unum'. Divine simplicity in n.6 yields only that esse is not a part of the essence but 'aliquid praeter essentiam eius'."
+definitions = ["d421e2c9-4eb2-4bef-bb63-6c502c7732b4"]
+
+[[statement]]
+id = "SCG I.22 inseparable union of per se necessary esse cannot depend on its essence"
+lean = "EssenceDependentInseparableUnionExcludedAt"
+paraphrase = "At a selected world, for every esse e that is per se necessary in the dependence sense (PER_SE_NECESSARY_2: exists there and nothing other than e causes its necessity) and every q distinct from e, if e is joined to q and cannot be understood without q, then the joining of e to q does not depend on q. This is n.3's own description of the union ruled out for the inseparable case (n.2 horn (i) returns), conditional on the second n.4 case and n.2's per se clause; it says nothing about separable unions or about joinings that depend on nothing."
+definitions = ["d9716c00-9d36-4814-9ee5-456eb0bf7dce", "d421e2c9-4eb2-4bef-bb63-6c502c7732b4", "b18c2550-e953-42d4-817c-cc6805cf5004"]
+
+[[statement]]
+id = "SCG I.22 dependently joined quiddity is not the per se necessary bearer's quiddity"
+lean = "DependentConjunctionRejectedAsQuiddityAt"
+paraphrase = "At a selected world, for every bearer x and every s: if x's represented esse e is per se necessary in the dependence sense (PER_SE_NECESSARY_2), x is ontically identified with e, e is joined to x's proposed quiddity q, and that joining depends on some s other than e, then q is not x's genuine quiddity. Conditional on the first n.4 case (intelligible apart makes q accidental; accident is not quiddity of an esse-identified bearer), the second n.4 case and n.2's per se clause. It does not assert q = e, does not deny x's actual q.3 essence, and does not cover a joining with no source or with e itself as its only source."
+definitions = ["d9716c00-9d36-4814-9ee5-456eb0bf7dce", "d421e2c9-4eb2-4bef-bb63-6c502c7732b4", "b18c2550-e953-42d4-817c-cc6805cf5004"]
+
+[[statement]]
+id = "SCG I.22 joined distinct quiddity is not the per se necessary bearer's quiddity"
+lean = "JoinedDistinctQuiddityRejectedAt"
+paraphrase = "At a selected world, for every bearer x: if x's represented esse e is per se necessary in the dependence sense (PER_SE_NECESSARY_2), x is ontically identified with e, and e is joined to x's proposed quiddity q with q distinct from e as represented principles, then q is not x's genuine quiddity. Conditional on the analyst-coarsened n.2 coverage, n.2's per se clause and horn (iii) accident principle, both n.4 cases, and the accident-not-quiddity premise. It does not assert that x's actual q.3 essence equals its esse, and nothing here asserts that such a bearer exists."
+definitions = ["d9716c00-9d36-4814-9ee5-456eb0bf7dce", "d421e2c9-4eb2-4bef-bb63-6c502c7732b4", "b18c2550-e953-42d4-817c-cc6805cf5004"]
+
+[[statement]]
+id = "6e46d10e-ca4e-47d4-b45d-dd3ec0dda2ce"
+label = "SCG I.22 non-unified quiddity union has a source not other than the esse"
+lean = "NonUnifiedQuiddityUnionSelfSourcedAt"
+paraphrase = "At a selected world, for every bearer x: if x's represented esse e is per se necessary in the dependence sense (PER_SE_NECESSARY_2), x is ontically identified with e, e is joined to x's proposed quiddity q, q is x's genuine quiddity, and e and q are not one per se, then the joining of e to q depends on some s which is not other than e (constructively: not s ≠ e, rather than s = e). Conditional on n.6's union causation, both n.4 cases and n.2's per se clause, without n.2 coverage. The type gives some source not other than e; it does not say that every source is e (that follows from the two-case n.4 result under the same premises, not from this statement). The self-sourced residual is not refuted here."
+definitions = ["d9716c00-9d36-4814-9ee5-456eb0bf7dce", "d421e2c9-4eb2-4bef-bb63-6c502c7732b4", "b18c2550-e953-42d4-817c-cc6805cf5004"]
+
+[[statement]]
+id = "SCG I.22 second case controls on the stable distinct union"
+lean = "SecondCaseControls"
+paraphrase = "Seven two-world, two-principle, one-bearer interpretations extending the stable distinct profile of PR #1602 (esse permanently joined to a distinct q marked genuine quiddity). (a) With the union depending on q (n.3's description), the union is dependent but not modally contingent, and every premise of this batch holds except the second n.4 case; (a') with the second case but without n.2's per se clause. (b) A co-fundamental union with no source and one per se lies outside both senses of n.3 and satisfies both n.4 cases, n.2's per se clause and horn (iii) principle, and n.6 union causation, failing only the coarsened n.2 coverage, while q is a genuine quiddity and represented esse differs from essence; (b') with per se unity denied, n.6 fails. A self-sourced union satisfies every premise except coverage with q genuine quiddity. One profile withholds the horn (iii) accident principle under coverage. A positive separable, q-dependent profile satisfies every premise including coverage and rejects q. Finite signature facts only, not metaphysical possibility or premise warrant."
+definitions = ["d9716c00-9d36-4814-9ee5-456eb0bf7dce", "d421e2c9-4eb2-4bef-bb63-6c502c7732b4", "b18c2550-e953-42d4-817c-cc6805cf5004"]
+
+[[argument]]
+id = "SCG I.22 second case excludes an essence-dependent inseparable union"
+theorem = "essence_dependent_inseparable_union_excluded"
+premises = ["SCG I.22 inseparable esse inherits its conjunction's source", "SCG I.22 dependence on another gives necessity from it"]
+conclusion = "SCG I.22 inseparable union of per se necessary esse cannot depend on its essence"
+rule = "Second case gives absolute dependence of e on q; the per se clause makes q a cause of e's necessity; the dependence sense of per se necessity excludes that"
+meaning = "Control (a) of the #1602 semantic challenge in general form, in the dependence sense PER_SE_NECESSARY_2. A short derivation: the conclusion is the consequent of neither OPEN premise; it chains both through the definition of per se necessity. It shows that, given the second n.4 case and n.2's clause, n.3's own description of the union (the esse depends on the essence for its conjunction) is inconsistent with per se necessity whenever the union is inseparable. No premise or root obligation is discharged."
+senses = {PER_SE_NECESSARY = "PER_SE_NECESSARY_2"}
+
+[[argument]]
+id = "SCG I.22 both n.4 cases reject a dependently joined quiddity"
+theorem = "dependent_conjunction_not_quiddity"
+premises = ["SCG I.22 intelligible separation makes quiddity accidental", "SCG I.22 accident not quiddity of identified esse bearer", "SCG I.22 inseparable esse inherits its conjunction's source", "SCG I.22 dependence on another gives necessity from it"]
+conclusion = "SCG I.22 dependently joined quiddity is not the per se necessary bearer's quiddity"
+rule = "Constructive case split on intelligibility apart: the first case makes q accidental and not quiddity, so a genuine quiddity is inseparable; the second case and the per se clause then contradict per se necessity"
+meaning = "Formalizes the whole two-case n.4 reply in the dependence sense PER_SE_NECESSARY_2, reusing the first-case premises of PR #1602 without its modal-to-intelligibility bridge. Non-transcription: the conclusion follows by a constructive case split over the OPEN premises and the definition. It rejects only a proposed quiddity whose joining has a source other than the esse; a joining with no source or sourced only in the esse is outside it. No premise or root obligation is discharged; attribution deferred."
+senses = {PER_SE_NECESSARY = "PER_SE_NECESSARY_2"}
+
+[[argument]]
+id = "SCG I.22 coverage and both n.4 cases reject a joined distinct quiddity"
+theorem = "joined_distinct_quiddity_rejected"
+premises = ["SCG I.22 joined distinct principles fall under the dependence trilemma", "SCG I.22 intelligible separation makes quiddity accidental", "SCG I.22 accident not quiddity of identified esse bearer", "SCG I.22 inseparable esse inherits its conjunction's source", "SCG I.22 dependence on another gives necessity from it", "SCG I.22 what follows on esse is accidental to it"]
+conclusion = "SCG I.22 joined distinct quiddity is not the per se necessary bearer's quiddity"
+rule = "Case analysis on coarsened coverage: absolute dependence on another contradicts per se necessity through the clause; conjunction dependence on another is rejected by the two-case n.4 theorem; horn (iii) makes q accidental and so not quiddity"
+meaning = "Composes the analyst-coarsened n.2 coverage with the two-case n.4 theorem, in the dependence sense PER_SE_NECESSARY_2. Non-transcription: a three-way case analysis reusing dependent_conjunction_not_quiddity. It is a conditional route from per se necessity to the rejection of every represented-distinct proposed quiddity of an esse-identified bearer; it does not prove that the bearer's actual q.3 essence equals its esse, which would further need the proposed quiddity to range over that essence. Every source-motivated premise is OPEN, attribution deferred; coverage is the premise the co-fundamental control violates. No root obligation is discharged."
+senses = {PER_SE_NECESSARY = "PER_SE_NECESSARY_2"}
+
+[[argument]]
+id = "8599e494-489e-4a9a-a6fc-ab67eec56944"
+label = "SCG I.22 union causation gives a non-unified union a source not other than the esse"
+theorem = "non_unified_quiddity_union_self_sourced"
+premises = ["SCG I.22 union of what is not one per se has a source", "SCG I.22 intelligible separation makes quiddity accidental", "SCG I.22 accident not quiddity of identified esse bearer", "SCG I.22 inseparable esse inherits its conjunction's source", "SCG I.22 dependence on another gives necessity from it"]
+conclusion = "6e46d10e-ca4e-47d4-b45d-dd3ec0dda2ce"
+rule = "Obtain a source from n.6 union causation; the two-case n.4 theorem excludes that it is other than the esse"
+meaning = "Composes n.6's union causation with the two-case n.4 theorem, in the dependence sense PER_SE_NECESSARY_2, without n.2 coverage. Non-transcription: it reuses dependent_conjunction_not_quiddity on the source supplied by n.6. A genuine quiddity joined to a per se necessary esse must either be one per se with it (the co-fundamental option) or have a joining source that is not other than the esse (constructively: some s with not s ≠ e; the bound type does not say every source is the esse, though by dependent_conjunction_not_quiddity under the same premises no source is other than it). This self-sourced residual is not refuted here; n.6's self-causation clause is not encoded. Attribution deferred; no root obligation is discharged."
+senses = {PER_SE_NECESSARY = "PER_SE_NECESSARY_2"}
+
+[[argument]]
+id = "SCG I.22 second case finite controls"
+theorem = "second_case_controls"
+premises = []
+conclusion = "SCG I.22 second case controls on the stable distinct union"
+rule = "Decidable evaluation of seven finite typed assignments"
+meaning = "Finite controls for the dependence-sense batch on the stable distinct profile of PR #1602. They show the second n.4 case, n.2's per se clause, the horn (iii) accident principle, n.6 union causation and coverage each do work, that the modal proxy misses n.3's own dependent union, and that a co-fundamental (one per se, unsourced) union and a self-sourced union each satisfy every encoded premise except the coarsened n.2 coverage. Scope and vacuity controls only, never metaphysical possibility or premise warrant."
+senses = {PER_SE_NECESSARY = "PER_SE_NECESSARY_2"}

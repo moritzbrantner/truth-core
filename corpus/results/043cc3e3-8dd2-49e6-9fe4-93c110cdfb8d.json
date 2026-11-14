@@ -1,0 +1,11 @@
+{
+  "id": "043cc3e3-8dd2-49e6-9fe4-93c110cdfb8d",
+  "label": "SCG I.22 second case excludes an essence-dependent inseparable union",
+  "argument_id": "ac9ce3e8-847b-4011-8fb3-ba9e287a8bd7",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaContraGentiles.Chapter22SecondCase.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaContraGentiles.Chapter22SecondCase.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaContraGentiles.Chapter22SecondCase.essence_dependent_inseparable_union_excluded",
+  "comparator_config": "results/043cc3e3-8dd2-49e6-9fe4-93c110cdfb8d/comparator.json",
+  "status": "solution-present",
+  "description": "Control (a) of the #1602 semantic challenge in general form, in the dependence sense PER_SE_NECESSARY_2. A short derivation: the conclusion is the consequent of neither OPEN premise; it chains both through the definition of per se necessity. It shows that, given the second n.4 case and n.2's clause, n.3's own description of the union (the esse depends on the essence for its conjunction) is inconsistent with per se necessity whenever the union is inseparable. No premise or root obligation is discharged."
+}

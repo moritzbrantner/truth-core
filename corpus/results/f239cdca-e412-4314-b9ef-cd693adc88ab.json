@@ -1,0 +1,11 @@
+{
+  "id": "f239cdca-e412-4314-b9ef-cd693adc88ab",
+  "label": "SCG I.22 both n.4 cases reject a dependently joined quiddity",
+  "argument_id": "4ee07cad-6890-43b7-bae6-0d9f28f56175",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaContraGentiles.Chapter22SecondCase.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaContraGentiles.Chapter22SecondCase.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaContraGentiles.Chapter22SecondCase.dependent_conjunction_not_quiddity",
+  "comparator_config": "results/f239cdca-e412-4314-b9ef-cd693adc88ab/comparator.json",
+  "status": "solution-present",
+  "description": "Formalizes the whole two-case n.4 reply in the dependence sense PER_SE_NECESSARY_2, reusing the first-case premises of PR #1602 without its modal-to-intelligibility bridge. Non-transcription: the conclusion follows by a constructive case split over the OPEN premises and the definition. It rejects only a proposed quiddity whose joining has a source other than the esse; a joining with no source or sourced only in the esse is outside it. No premise or root obligation is discharged; attribution deferred."
+}

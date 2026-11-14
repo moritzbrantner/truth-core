@@ -1,0 +1,25 @@
+{
+  "id": "a4b9e53e-d4d9-4f15-bc7f-e5fa913a96ea",
+  "label": "Per se necessary esse in SCG I.22, modal proxy versus dependence sense",
+  "term": "per se necessary (SCG I.22 n.3 'per se necesse')",
+  "sense_definition_ids": [
+    "fba1a66a-5721-4354-a649-93e368654cbf",
+    "d9716c00-9d36-4814-9ee5-456eb0bf7dce"
+  ],
+  "resolution": "PER_SE_NECESSARY_1 (NecessaryEsseAt, with ContingentConjunctionAt for a non-necessary joining) is the modal proxy used by the first-case results of PR #1602. PER_SE_NECESSARY_2 (PerSeNecessaryEsseAt, with DependentConjunctionAt) is the dependence sense, of which only the per se (non per aliud) component is encoded: the esse exists and has no cause of its necessity other than itself, with no necessity component proper; and a joining that depends on something. The batch's coverage and second-case premises quantify over every joined pair of distinct principles, while n.2 and n.4 speak only of the per se necessary esse; the results apply them only there. Every argument of the Chapter22SecondCase batch uses PER_SE_NECESSARY_2 only; the #1602 arguments use PER_SE_NECESSARY_1 only. No argument passes from one sense to the other, and no bridge between them is asserted: the finite control essenceDependentProfile has a joining that is dependent but not modally contingent, so the modal proxy does not capture n.3's own dependent case.",
+  "term_label": "PER_SE_NECESSARY",
+  "senses": [
+    {
+      "id": "66caeaa0-2abb-4088-b7b9-ec07c087953d",
+      "label": "PER_SE_NECESSARY_1",
+      "definition_id": "fba1a66a-5721-4354-a649-93e368654cbf",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaContraGentiles.BookI.Chapter22Conjunction.NecessaryEsseAt"
+    },
+    {
+      "id": "b0cc25e1-c3dd-4feb-a567-d7a581592824",
+      "label": "PER_SE_NECESSARY_2",
+      "definition_id": "d9716c00-9d36-4814-9ee5-456eb0bf7dce",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaContraGentiles.BookI.Chapter22SecondCase.PerSeNecessaryEsseAt"
+    }
+  ]
+}
