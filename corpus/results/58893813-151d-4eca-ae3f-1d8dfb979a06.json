@@ -1,0 +1,11 @@
+{
+  "id": "58893813-151d-4eca-ae3f-1d8dfb979a06",
+  "label": "Makinson boundary in the shared-plus-local profile",
+  "argument_id": "3deb682c-1d70-4ef6-a3f6-bf90df0ee0b9",
+  "challenge_module": "TruthCore.Results.Logic.PrefaceConnectivity.Challenge",
+  "solution_module": "TruthCore.Results.Logic.PrefaceConnectivity.Solution",
+  "theorem": "TruthCore.Results.Logic.PrefaceConnectivity.hierarchicalPrefaceBoundary",
+  "comparator_config": "results/58893813-151d-4eca-ae3f-1d8dfb979a06/comparator.json",
+  "status": "solution-present",
+  "description": "Under ERROR_DEPENDENCE_1 an assertion and the some-failure event have probabilities x and 1-x, which a threshold above one half cannot both reach. With local probability r<1, κ(G)·r^n ≤ r^n eventually falls below 1-t. Threshold acceptance is PRO_TANTO_SUPPORT_THRESHOLD_FULL_BELIEF_1, an analyst policy, not warrant."
+}

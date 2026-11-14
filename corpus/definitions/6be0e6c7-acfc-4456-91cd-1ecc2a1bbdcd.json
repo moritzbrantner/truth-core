@@ -1,0 +1,9 @@
+{
+  "id": "6be0e6c7-acfc-4456-91cd-1ecc2a1bbdcd",
+  "label": "ERROR_DEPENDENCE_2: assertions fail only through independent local coordinates",
+  "term": "isolated independent errors",
+  "definition": "IsolatedOnly κ G means κ G = 1: the shared condition holds almost surely, so assertions fail only through their own local coordinates, which the product profile makes independent and identically distributed. This is the stipulated-independence regime in which P(all true) = q^n.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.PrefaceConnectivity.IsolatedOnly",
+  "note": "Control regime for #1584 test 1. It is not a model of the Truth Core corpus; the 0.99^300 illustration belongs only here and must not be applied to corpus proposition counts. See docs/notes/preface-connectivity-1584.md."
+}

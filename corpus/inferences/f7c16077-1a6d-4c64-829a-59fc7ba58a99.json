@@ -1,0 +1,10 @@
+{
+  "id": "f7c16077-1a6d-4c64-829a-59fc7ba58a99",
+  "label": "Makinson boundary in the shared-plus-local profile (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "74e47e53-eb0b-4963-93c0-254bd1da67b0",
+  "rule": "Exact profile probabilities, real conversion of measures, and exists_pow_lt_of_lt_one",
+  "meaning": "Under ERROR_DEPENDENCE_1 an assertion and the some-failure event have probabilities x and 1-x, which a threshold above one half cannot both reach. With local probability r<1, κ(G)·r^n ≤ r^n eventually falls below 1-t. Threshold acceptance is PRO_TANTO_SUPPORT_THRESHOLD_FULL_BELIEF_1, an analyst policy, not warrant.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

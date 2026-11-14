@@ -1,0 +1,9 @@
+{
+  "id": "629f2837-b2dd-44f5-a05e-7271405d6923",
+  "label": "Shared-blind local check flag",
+  "term": "shared-blind local check flag",
+  "definition": "noFlag F n is the event that no local check raised a flag: for every index i, the i-th local coordinate lies outside the flag event F. Flags are events on local coordinates only, so a check is blind to the shared coordinate by construction. Conditioning the profile on noFlag represents retaining the assertions after the checks found nothing; it is a probabilistic update, not a guarantee that the remaining assertions are true.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.PrefaceConnectivity.noFlag",
+  "note": "Analyst model of the owner's 'foreign word in a coherent sentence' observation for #1584: a local error that conflicts with surrounding structure can be flagged by a local check, while an error in the shared structure itself raises no local conflict. Whether actual corpus cross-checks resemble a discriminating flag is an OPEN application question; see docs/notes/preface-connectivity-1584.md."
+}

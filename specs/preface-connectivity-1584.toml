@@ -1,0 +1,88 @@
+[batch]
+vocab = "TruthCore.Logic.PrefaceConnectivity"
+results = "TruthCore.Results.Logic.PrefaceConnectivity"
+definitions = []
+disambiguations = []
+
+[[statement]]
+id = "Exact event probabilities of the shared-plus-local assertion profile"
+lean = "ProfileProbabilities"
+paraphrase = "For every product of a probability measure κ on a finite shared coordinate with n≥1 independent copies of a probability measure ν on a finite local coordinate, with assertion i true when the shared state lies in G and local state i lies in C: each assertion has probability κ(G)·ν(C), all n together κ(G)·ν(C)^n, at least one false 1−κ(G)·ν(C)^n; for a local flag event F, no flag anywhere has probability ν(Fᶜ)^n, and all true with no flag κ(G)·ν(C∩Fᶜ)^n. The independence is stipulated by the product construction; the profile is an analyst comparison model, not a model of the Truth Core corpus. See docs/notes/preface-connectivity-1584.md."
+definitions = ["15e3a4d1-a972-4809-b80b-f6f915ae0f5a", "629f2837-b2dd-44f5-a05e-7271405d6923"]
+
+[[statement]]
+id = "Equal per-assertion probability, different joint: ERROR_DEPENDENCE_1 vs ERROR_DEPENDENCE_2"
+lean = "MarginalsUnderdetermineJoint"
+paraphrase = "For 0<q<1 and n≥2 assertions, in every shared-only profile (ERROR_DEPENDENCE_1: local conditions almost sure, shared condition probability q) each assertion and all of them together have probability q and at-least-one-false has 1−q; in every isolated-errors profile (ERROR_DEPENDENCE_2: shared condition almost sure, local probability q) each assertion has probability q but all together have q^n, strictly less than q. Also, for any measure and any nonempty index, conditioning on the intersection of repeated copies of one evidence event equals conditioning on it once. Per-assertion support therefore does not determine joint support: q^n is what the isolated regime yields and does not follow from q and n alone. When restatements of one claim are modeled as the same event, repeating them supplies no further confirmation; that weight rests on the modeling choice, since the conditioning identity itself is definitional. No probability is assigned to any corpus statement."
+definitions = ["15e3a4d1-a972-4809-b80b-f6f915ae0f5a", "7d340922-35b3-417f-bb8b-51880270da9c", "6be0e6c7-acfc-4456-91cd-1ecc2a1bbdcd"]
+disambiguations = ["ab69cfd0-628d-4925-bc8c-2ea39925b9b8"]
+
+[[statement]]
+id = "Preface tension blocked under ERROR_DEPENDENCE_1 and restored by local error"
+lean = "HierarchicalPrefaceBoundary"
+paraphrase = "In every shared-plus-local profile: if every local condition is almost sure (ERROR_DEPENDENCE_1), then for every threshold t>1/2 and every n, the threshold policy (PRO_TANTO_SUPPORT_THRESHOLD_FULL_BELIEF_1) never accepts both an assertion and the event that at least one assertion is false. If the local condition has probability below one, then for every threshold t<1 there is N such that for all n≥N the at-least-one-false event is accepted, while each assertion is accepted exactly when t≤κ(G)·ν(C), independently of n. Dependence on a shared condition does not by itself remove the Makinson tension; the count of independent local error opportunities drives it. Threshold acceptance is the existing analyst policy, not epistemic warrant."
+definitions = ["15e3a4d1-a972-4809-b80b-f6f915ae0f5a", "7d340922-35b3-417f-bb8b-51880270da9c", "1f99af1e-04fe-5f06-bdd4-0db8178c79c2"]
+disambiguations = ["ab69cfd0-628d-4925-bc8c-2ea39925b9b8", "a6f612f9-4953-5637-9597-315c19cbb07c"]
+
+[[statement]]
+id = "Local checks lift joint support at most to shared risk; ERROR_DEPENDENCE_3 adds nothing"
+lean = "CrossCheckBoundary"
+paraphrase = "In every shared-plus-local profile with n≥1 and ν(Fᶜ)≠0, conditioning on no local flag gives all-true probability κ(G)·(ν(C∩Fᶜ)/ν(Fᶜ))^n, which is at most κ(G); the conditioned probability of the shared condition itself is exactly κ(G); and each conditioned assertion has probability κ(G)·ν(C∩Fᶜ)/ν(Fᶜ). If the flag fires exactly on local error (F=Cᶜ), the conditioned all-true probability and each conditioned assertion are κ(G) and at-least-one-false is 1−κ(G) for every n, so only the shared risk remains, and no threshold t>1/2 of the policy (PRO_TANTO_SUPPORT_THRESHOLD_FULL_BELIEF_1) accepts both a conditioned assertion and the conditioned at-least-one-false event. If absence of a flag is independent of local correctness (ERROR_DEPENDENCE_3), conditioning on no flag leaves the all-true probability unchanged. Local checks whose no-flag event favors local correctness (ν(C∩Fᶜ)/ν(Fᶜ)>ν(C), an unregistered algebraic reading of the formula) reduce the count-driven local risk; checks that are blind to the shared condition by the construction of this model leave its probability unchanged; truth-independent checks change nothing. Checks sensitive to the shared condition are outside the model. Stipulated model only; whether actual checks are discriminating is open."
+definitions = ["15e3a4d1-a972-4809-b80b-f6f915ae0f5a", "629f2837-b2dd-44f5-a05e-7271405d6923", "bc9e2ae8-0072-4212-b0de-e8768630c0d8", "d231d82f-a9a0-40de-80e5-d4562f9f7fef", "1f99af1e-04fe-5f06-bdd4-0db8178c79c2"]
+disambiguations = ["ab69cfd0-628d-4925-bc8c-2ea39925b9b8", "a6f612f9-4953-5637-9597-315c19cbb07c"]
+
+[[statement]]
+id = "Inconsistency eliminates a worldview everywhere; a survivor needs an explicit coverage premise"
+lean = "EliminationCoverage"
+paraphrase = "For every interpretation with truth-functional negation: a worldview with no common model (not WORLDVIEW_CONSISTENCY_1) is false at every world. For any family of candidate worldviews, if some candidate is true at the actual world (the explicit coverage premise) and every candidate other than k is inconsistent, candidate k is true at the actual world. Without coverage this fails: in the existing two-world control, an inconsistent rival and the consistent duty-denying worldview leave a survivor that is false at the actual world, and no candidate is true there. A coherent-but-false worldview is not eliminated by consistency tests."
+definitions = ["6523a45a-b797-57ed-b323-27a0d14d7832"]
+disambiguations = ["94fe8dfe-9a48-51ff-ad2a-59c98fc58dfe"]
+
+[[argument]]
+id = "Exact profile probabilities by product measure computation"
+theorem = "profileProbabilities"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Exact event probabilities of the shared-plus-local assertion profile"
+rule = "Measure.prod_prod, Measure.pi_pi and coordinate-evaluation measure preservation on finite discrete spaces"
+meaning = "Rewrites each assertion event as a product box and evaluates it with Mathlib's product and pi measures; the some-failure event is the complement of all-true. The product independence is the stipulated model, not a derived property of any actual assertions."
+
+[[argument]]
+id = "Shared-only against isolated-error joint probability control"
+theorem = "marginalsUnderdetermineJoint"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Equal per-assertion probability, different joint: ERROR_DEPENDENCE_1 vs ERROR_DEPENDENCE_2"
+sense_mixing_control = true
+rule = "Instantiation of the exact profile probabilities in the two regimes; q^n ≤ q^2 < q for 0<q<1; constant intersection"
+meaning = "A sense-mixing control: the same per-assertion probability gives joint q in the ERROR_DEPENDENCE_1 regime and q^n<q in the ERROR_DEPENDENCE_2 regime, so a joint figure computed under isolated independence cannot be transferred to a dependent bundle. Repetition of one evidence event leaves conditioning unchanged. No probability is assigned to any corpus statement."
+
+[[argument]]
+id = "Makinson boundary in the shared-plus-local profile"
+theorem = "hierarchicalPrefaceBoundary"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Preface tension blocked under ERROR_DEPENDENCE_1 and restored by local error"
+rule = "Exact profile probabilities, real conversion of measures, and exists_pow_lt_of_lt_one"
+meaning = "Under ERROR_DEPENDENCE_1 an assertion and the some-failure event have probabilities x and 1-x, which a threshold above one half cannot both reach. With local probability r<1, κ(G)·r^n ≤ r^n eventually falls below 1-t. Threshold acceptance is PRO_TANTO_SUPPORT_THRESHOLD_FULL_BELIEF_1, an analyst policy, not warrant."
+senses = { ERROR_DEPENDENCE = "ERROR_DEPENDENCE_1", PRO_TANTO_SUPPORT_THRESHOLD_FULL_BELIEF = "PRO_TANTO_SUPPORT_THRESHOLD_FULL_BELIEF_1" }
+
+[[argument]]
+id = "Local cross-check posteriors in the shared-plus-local profile"
+theorem = "crossCheckBoundary"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Local checks lift joint support at most to shared risk; ERROR_DEPENDENCE_3 adds nothing"
+rule = "Mathlib conditional probability (cond_apply), exact profile probabilities and ENNReal algebra"
+meaning = "Conditioning on no flag divides by ν(Fᶜ)^n; the per-index ratio ν(C∩Fᶜ)/ν(Fᶜ) is at most one, equals one under perfect local detection, and equals ν(C) for a truth-independent flag. The no-flag event is a product of the whole shared coordinate with local boxes, so the conditioned shared-condition probability stays κ(G). A single conditioned assertion keeps n−1 no-flag factors, which cancel. Under perfect detection a conditioned assertion and the conditioned some-failure event have probabilities κ(G) and 1−κ(G), so a threshold above one half cannot accept both. Stipulated model; no actual check is claimed to be discriminating or perfect."
+senses = { ERROR_DEPENDENCE = "ERROR_DEPENDENCE_3", PRO_TANTO_SUPPORT_THRESHOLD_FULL_BELIEF = "PRO_TANTO_SUPPORT_THRESHOLD_FULL_BELIEF_1" }
+
+[[argument]]
+id = "Coverage-explicit worldview elimination with two-world control"
+theorem = "eliminationCoverage"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Inconsistency eliminates a worldview everywhere; a survivor needs an explicit coverage premise"
+rule = "Unfolding semantic consistency; case split on the covering candidate; evaluation in the existing two-world interpretation"
+meaning = "Reuses ReflectiveCoherence's Consistent, Models and two-world control. A demonstrated inconsistency eliminates that exact commitment bundle under the fixed semantics; inferring the survivor uses the coverage premise as an explicit hypothesis, and the control shows it is needed. No coverage of actual worldview rivals is asserted."
+senses = { WORLDVIEW_CONSISTENCY = "WORLDVIEW_CONSISTENCY_1" }

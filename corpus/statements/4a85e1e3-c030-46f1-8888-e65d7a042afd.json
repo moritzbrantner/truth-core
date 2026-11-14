@@ -1,0 +1,17 @@
+{
+  "id": "4a85e1e3-c030-46f1-8888-e65d7a042afd",
+  "label": "Local checks lift joint support at most to shared risk; ERROR_DEPENDENCE_3 adds nothing",
+  "paraphrase": "In every shared-plus-local profile with n≥1 and ν(Fᶜ)≠0, conditioning on no local flag gives all-true probability κ(G)·(ν(C∩Fᶜ)/ν(Fᶜ))^n, which is at most κ(G); the conditioned probability of the shared condition itself is exactly κ(G); and each conditioned assertion has probability κ(G)·ν(C∩Fᶜ)/ν(Fᶜ). If the flag fires exactly on local error (F=Cᶜ), the conditioned all-true probability and each conditioned assertion are κ(G) and at-least-one-false is 1−κ(G) for every n, so only the shared risk remains, and no threshold t>1/2 of the policy (PRO_TANTO_SUPPORT_THRESHOLD_FULL_BELIEF_1) accepts both a conditioned assertion and the conditioned at-least-one-false event. If absence of a flag is independent of local correctness (ERROR_DEPENDENCE_3), conditioning on no flag leaves the all-true probability unchanged. Local checks whose no-flag event favors local correctness (ν(C∩Fᶜ)/ν(Fᶜ)>ν(C), an unregistered algebraic reading of the formula) reduce the count-driven local risk; checks that are blind to the shared condition by the construction of this model leave its probability unchanged; truth-independent checks change nothing. Checks sensitive to the shared condition are outside the model. Stipulated model only; whether actual checks are discriminating is open.",
+  "lean_declaration": "TruthCore.Logic.PrefaceConnectivity.CrossCheckBoundary",
+  "definition_ids": [
+    "15e3a4d1-a972-4809-b80b-f6f915ae0f5a",
+    "629f2837-b2dd-44f5-a05e-7271405d6923",
+    "bc9e2ae8-0072-4212-b0de-e8768630c0d8",
+    "d231d82f-a9a0-40de-80e5-d4562f9f7fef",
+    "1f99af1e-04fe-5f06-bdd4-0db8178c79c2"
+  ],
+  "disambiguation_ids": [
+    "ab69cfd0-628d-4925-bc8c-2ea39925b9b8",
+    "a6f612f9-4953-5637-9597-315c19cbb07c"
+  ]
+}

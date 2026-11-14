@@ -1,0 +1,12 @@
+{
+  "id": "ebf27107-3288-4a10-8d66-1eb68513c464",
+  "label": "Inconsistency eliminates a worldview everywhere; a survivor needs an explicit coverage premise",
+  "paraphrase": "For every interpretation with truth-functional negation: a worldview with no common model (not WORLDVIEW_CONSISTENCY_1) is false at every world. For any family of candidate worldviews, if some candidate is true at the actual world (the explicit coverage premise) and every candidate other than k is inconsistent, candidate k is true at the actual world. Without coverage this fails: in the existing two-world control, an inconsistent rival and the consistent duty-denying worldview leave a survivor that is false at the actual world, and no candidate is true there. A coherent-but-false worldview is not eliminated by consistency tests.",
+  "lean_declaration": "TruthCore.Logic.PrefaceConnectivity.EliminationCoverage",
+  "definition_ids": [
+    "6523a45a-b797-57ed-b323-27a0d14d7832"
+  ],
+  "disambiguation_ids": [
+    "94fe8dfe-9a48-51ff-ad2a-59c98fc58dfe"
+  ]
+}

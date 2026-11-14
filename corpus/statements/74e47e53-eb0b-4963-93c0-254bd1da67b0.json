@@ -1,0 +1,15 @@
+{
+  "id": "74e47e53-eb0b-4963-93c0-254bd1da67b0",
+  "label": "Preface tension blocked under ERROR_DEPENDENCE_1 and restored by local error",
+  "paraphrase": "In every shared-plus-local profile: if every local condition is almost sure (ERROR_DEPENDENCE_1), then for every threshold t>1/2 and every n, the threshold policy (PRO_TANTO_SUPPORT_THRESHOLD_FULL_BELIEF_1) never accepts both an assertion and the event that at least one assertion is false. If the local condition has probability below one, then for every threshold t<1 there is N such that for all n≥N the at-least-one-false event is accepted, while each assertion is accepted exactly when t≤κ(G)·ν(C), independently of n. Dependence on a shared condition does not by itself remove the Makinson tension; the count of independent local error opportunities drives it. Threshold acceptance is the existing analyst policy, not epistemic warrant.",
+  "lean_declaration": "TruthCore.Logic.PrefaceConnectivity.HierarchicalPrefaceBoundary",
+  "definition_ids": [
+    "15e3a4d1-a972-4809-b80b-f6f915ae0f5a",
+    "7d340922-35b3-417f-bb8b-51880270da9c",
+    "1f99af1e-04fe-5f06-bdd4-0db8178c79c2"
+  ],
+  "disambiguation_ids": [
+    "ab69cfd0-628d-4925-bc8c-2ea39925b9b8",
+    "a6f612f9-4953-5637-9597-315c19cbb07c"
+  ]
+}

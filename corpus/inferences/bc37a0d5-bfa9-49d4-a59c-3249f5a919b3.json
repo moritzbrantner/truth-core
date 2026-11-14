@@ -1,0 +1,10 @@
+{
+  "id": "bc37a0d5-bfa9-49d4-a59c-3249f5a919b3",
+  "label": "Exact profile probabilities by product measure computation (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "574f00bd-c6fe-45f5-8208-a9421b601182",
+  "rule": "Measure.prod_prod, Measure.pi_pi and coordinate-evaluation measure preservation on finite discrete spaces",
+  "meaning": "Rewrites each assertion event as a product box and evaluates it with Mathlib's product and pi measures; the some-failure event is the complement of all-true. The product independence is the stipulated model, not a derived property of any actual assertions.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -77,6 +77,7 @@ public import TruthCore.Results.Logic.PerformedDenial.EmptyControl.Solution
 public import TruthCore.Results.Logic.PerformedDenial.NoAccurateDenial.Solution
 public import TruthCore.Results.Logic.PerformedDenial.StaticControl.Solution
 public import TruthCore.Results.Logic.PluralClosureBoundary.Solution
+public import TruthCore.Results.Logic.PrefaceConnectivity.Solution
 public import TruthCore.Results.Logic.QuantifierShiftInvalid.Solution
 public import TruthCore.Results.Logic.RecognitionTranscript.Solution
 public import TruthCore.Results.Logic.ReferenceAnchor.Solution
