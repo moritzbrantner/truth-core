@@ -1,0 +1,24 @@
+{
+  "id": "f98a1549-b2c6-4e71-aa22-d18dc795bb56",
+  "label": "Finite separation of own-essence membership and intrinsic explanation",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "a0c71215-734a-486f-9ce5-ead61d1b0aa0",
+  "inference_ids": [
+    "f2b592e3-1a23-467d-aeb0-160bc61ed7a6"
+  ],
+  "meaning": "A verified finite-model distinction of essential existence, explanation of existence by an intrinsic reason token, and modal co-requirement. The controls identify which bridge hypotheses the God-existence program needs; they do not refute their metaphysical applicability or claim intrinsic adequacy. It is a premise-free sense-mixing control: senses NECESSARY_EXISTENCE_BY_OWN_NATURE_2, _3 and _4 are shown not to coincide, and no bridge between them is assumed. Root-facing next step for STMT-NECESSARY-GROUND-HAS-INTRINSIC-REASON in #1595: under its existence-PSR context the candidate token already follows from PSR plus exclusion of other reasons (candidate_intrinsic_of_psr_without_other_reasons, without the essence sense), so the live gap is the adequacy of that token, to be compared with the existing underived essence-esse route #319.",
+  "definition_ids": [
+    "0b1d99d6-f96b-4a07-90d1-c3fc5c5946bb",
+    "388b7ed8-ae8e-4ae2-8ba6-0e50b9bb27c3",
+    "72a1e556-042a-4358-a8a0-a2a87cc036d6",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "fcb346d7-ddd2-50bb-a7c2-3d79d41b8eae",
+    "d513fb8a-64ee-5d49-ae56-4d695f93ca71",
+    "70fccbe6-be10-5709-9d73-53a436b97f25",
+    "d7f66ca4-38c0-4cbb-ac5c-b2237ec3645c"
+  ],
+  "disambiguation_ids": [
+    "13843b8b-4ef3-500e-949d-27e78b9dfaf9"
+  ],
+  "sense_mixing_control": true
+}

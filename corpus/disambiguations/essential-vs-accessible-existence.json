@@ -5,9 +5,11 @@
   "term": "necessary existence by own nature versus accessible-world necessity",
   "sense_definition_ids": [
     "d21ae4c5-8030-53b4-ae8f-48041355865c",
-    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1"
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "72a1e556-042a-4358-a8a0-a2a87cc036d6",
+    "388b7ed8-ae8e-4ae2-8ba6-0e50b9bb27c3"
   ],
-  "resolution": "The sourced essential-existence statement distinguishes the explanation by an existent’s own nature from explanation by other natures. NecessaryAt only quantifies existence over accessible worlds. Neither a proof of that modal predicate nor a constant truth distribution by itself establishes own-nature explanation. No source fidelity or formal equivalence is inferred between these meanings; essential facts and instantiated concrete bearers remain distinct.",
+  "resolution": "The sourced essential-existence statement distinguishes the explanation by an existent’s own nature from explanation by other natures. NecessaryAt only quantifies existence over accessible worlds. Neither a proof of that modal predicate nor a constant truth distribution by itself establishes own-nature explanation. No source fidelity or formal equivalence is inferred between these meanings; essential facts and instantiated concrete bearers remain distinct. The sourced sense NECESSARY_EXISTENCE_BY_OWN_NATURE_1 ('essential existence or existence grounded in the bearer's own essence') is an interpretation fork between two sibling analyst readings: NECESSARY_EXISTENCE_BY_OWN_NATURE_3, essence membership of the bearer's own existence fact (OwnEssentialExistence), and NECESSARY_EXISTENCE_BY_OWN_NATURE_4, explanation of that fact by the bearer's own intrinsic reason token (CandidateIntrinsicReason). Sense _1 is not formalized and may not be passed to _3 or _4 without stating which reading is meant. The passage _3 → _4 is an OPEN bridge: finite controls separate them in both directions, and under an existence PSR the _4 token can follow from excluding other reasons without any use of _3. Neither _3 nor _4 is defined by, or defines, the modal sense _2.",
   "term_label": "NECESSARY_EXISTENCE_BY_OWN_NATURE",
   "senses": [
     {
@@ -20,6 +22,18 @@
       "label": "NECESSARY_EXISTENCE_BY_OWN_NATURE_2",
       "definition_id": "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
       "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.NecessaryAt"
+    },
+    {
+      "id": "1704d8c4-dfab-4857-a5c5-002793c6e108",
+      "label": "NECESSARY_EXISTENCE_BY_OWN_NATURE_3",
+      "definition_id": "72a1e556-042a-4358-a8a0-a2a87cc036d6",
+      "lean_declaration": "TruthCore.Explanation.EssenceReasonSeparation.OwnEssentialExistence"
+    },
+    {
+      "id": "f251b535-b9ec-45c4-909c-d8867104f0c9",
+      "label": "NECESSARY_EXISTENCE_BY_OWN_NATURE_4",
+      "definition_id": "388b7ed8-ae8e-4ae2-8ba6-0e50b9bb27c3",
+      "lean_declaration": "TruthCore.Explanation.EssenceReasonSeparation.CandidateIntrinsicReason"
     }
   ]
 }

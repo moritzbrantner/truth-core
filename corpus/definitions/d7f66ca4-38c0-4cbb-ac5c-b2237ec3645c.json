@@ -1,0 +1,9 @@
+{
+  "id": "d7f66ca4-38c0-4cbb-ac5c-b2237ec3645c",
+  "label": "Modal existence requirement of one being by another",
+  "term": "modal existence requirement",
+  "definition": "ModalRequiresExistence p w x y holds exactly when, at every world accessible from w at which x exists, y exists. It is co-presence across accessible worlds only. When y exists at every accessible world it holds for every x, so it records no source, direction of essence-indexed requirement, explanation or causal dependence.",
+  "basis": "stipulative",
+  "note": "Analyst comparison relation for #1595, used to contrast EssenceRequiresExistence with mere modal co-requirement on the same frame. It introduces no new frame or accessibility relation.",
+  "lean_declaration": "TruthCore.Explanation.EssenceReasonSeparation.ModalRequiresExistence"
+}

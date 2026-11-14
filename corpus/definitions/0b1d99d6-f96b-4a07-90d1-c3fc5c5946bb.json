@@ -1,0 +1,9 @@
+{
+  "id": "0b1d99d6-f96b-4a07-90d1-c3fc5c5946bb",
+  "label": "Essence-indexed requirement for an existence fact",
+  "term": "essence-indexed existence requirement",
+  "definition": "In the selected analyst profile, EssenceRequiresExistence p x y holds exactly when the fact that y exists is recorded as belonging to x's essence (p.InEssence x (ExistenceFact.fact y)). Own essential existence is the same relation with y = x. Source indexing is intended to be stronger than modal co-existence (on a Fine-style view, essence implies necessity), but the essence-to-modal bridge EssenceRequiresExistence → ModalRequiresExistence is an OPEN, unencoded premise. The relation is also distinct from whether an intrinsic explanation token actually explains that fact; membership itself does not assert explanatory adequacy.",
+  "basis": "stipulative",
+  "note": "A typed comparison of one possible Fine-style nature requirement, with attribution deferred. InEssence is primitive: what really belongs to a being's nature, whether essence membership necessitates modal truth, and whether it is sufficient to explain an existence fact remain open. The finite controls show differences in logical content only, not metaphysically possible worlds. This definition is not a new external-causation or strict-grounding relation.",
+  "lean_declaration": "TruthCore.Explanation.EssenceReasonSeparation.EssenceRequiresExistence"
+}

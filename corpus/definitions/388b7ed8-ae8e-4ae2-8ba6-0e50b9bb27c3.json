@@ -1,0 +1,9 @@
+{
+  "id": "388b7ed8-ae8e-4ae2-8ba6-0e50b9bb27c3",
+  "label": "NECESSARY_EXISTENCE_BY_OWN_NATURE_4: own intrinsic reason token explains the existence fact",
+  "term": "candidate intrinsic existence reason (explanatory reading)",
+  "definition": "In the selected analyst profile, CandidateIntrinsicReason p w x holds exactly when the bearer's own intrinsic reason token explains x's existence fact at world w (p.explanation.explains w (Reason.intrinsic x) (ExistenceFact.fact x)). It is the explanatory reading of existence by own nature. The token assignment does not certify that x's nature adequately explains its existence, and it says nothing about whether existence belongs to x's essence (sense NECESSARY_EXISTENCE_BY_OWN_NATURE_3).",
+  "basis": "stipulative",
+  "note": "Analyst sibling reading of the sourced sense DEF-NECESSARY-EXISTENCE-RELATIVE-OWN-NATURE, and the typed candidate for the reason in itself of DEF-LEIBNIZ-INTRINSIC-EXISTENCE-REASON. Attribution of this exact reading is deferred. An adequacy criterion for the token, and its mapping to BruteFoundationExplanations.NecessitatesExistenceAt, remain OPEN.",
+  "lean_declaration": "TruthCore.Explanation.EssenceReasonSeparation.CandidateIntrinsicReason"
+}
