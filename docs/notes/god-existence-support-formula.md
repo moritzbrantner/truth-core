@@ -372,7 +372,7 @@ These facts come from forward chaining over every registered argument with a res
 
 - **Terminal-only basis:** unchanged. a8298fbd is an intermediate whose only derivation is from 2e248016 (cc7dd608). So 2e248016 still lies in every `i`-free terminal G and H package, here as before.
 - **a8298fbd taken directly, without `i` and 2e248016:** on main neither G nor H is derivable. With this change both are. One greedy inclusion-minimal package for G has 41 inputs and contains none of d, r, c0d99549, N, E or e0088de9; it contains 7a63a3fe. G stays derivable without c0d99549 as well. H is not derivable once c0d99549 is also removed, so H keeps a dependence input elsewhere.
-- **`truth frontier-diff --base 526cc610d`:** open premises reaching the root stay at 476 (339 bare, 90 supported, 47 stated). Verified support alternatives rise from 462 to 468. a8298fbd now reaches the root. No bare premise is added and no premise is established.
+- **`truth frontier-diff --base 4a5b5c0e9`:** open premises reaching the root stay at 476 (339 bare, 90 supported, 47 stated). Verified support alternatives rise from 462 to 468. a8298fbd now reaches the root. No bare premise is added and no premise is established.
 
 Consumers of 2e248016 that were **not** moved, with the reason:
 
