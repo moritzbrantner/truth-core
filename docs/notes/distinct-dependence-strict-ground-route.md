@@ -273,32 +273,35 @@ contains **no contradiction**. They conflict only under a reflexive reading:
 
 Why reflexivity is a live reading rather than a manufactured objection: the
 definition glosses `D(x,y)` as "`x` would not be if `y` were not", including
-impossible antecedents. Read literally, `D(x,x)` is "`x` would not be if `x`
-were not", an instance of the counterfactual identity law (if A were the case,
-A would be the case). That law is valid in Lewis's VC and Stalnaker's C2.
-Whether every non-vacuist impossible-worlds semantics keeps it has not been
-checked here. The definition's own agent-cause paradigm (light on sun) is strict
-instead. So the definition text supports both readings on the diagonal, and
-neither is built into the Lean parameter.
+impossible antecedents, but "in the sense ST I q.44 a.1 ad 2 gives to an
+effect's relation to its agent cause". On the bare counterfactual clause, apart
+from that qualification, `D(x,x)` is "`x` would not be if `x` were not", an
+instance of the counterfactual identity law (if A were the case, A would be the
+case). The law holds in any selection semantics whose selected worlds satisfy
+the antecedent, impossible-worlds semantics included, so the open question is
+which clause `D` is, not whether the law holds. The agent-cause qualification
+and its paradigm (light on sun) are strict. So the definition read whole
+supports both readings on the diagonal, and neither is built into the Lean
+parameter.
 
 ### Sense scope: no new TERM_n
 
 | Reading | Self-relation | Existing representation |
 |---|---|---|
 | (a) non-strict counterfactual existence-requirement | `D(x,x)` holds | `DependsForBeing` plus the OPEN reflexivity statement `56252cd8` |
-| (b) strict dependence | `D(x,x)` fails | for the self case only, `DistinctEdge D` (distinct-step part). For explanatory orientation, sense 2 of `23dd6f32` (formal strict ground) through its OPEN map, or the profile's `grounds` |
+| (b) strict dependence | `D(x,x)` fails | for the self case only, `DistinctEdge D` (distinct-step part). Interpreted strict *explanatory* dependence is not separately represented: sense 2 of `23dd6f32` is Fine's formal strict ground on uninterpreted atoms, with no metaphysical reading, and the profile's `grounds` is a parameter joined to `D` only by OPEN bridges. No result here needs it |
 | (c) modal existence entailment | holds; also transitive | `ModalRequiresExistence` (`d7f66ca4`, #1597). Any necessary `y` is required by every `x` (`modal_requirement_of_necessary`), so co-necessary beings require each other |
 
 The self-relation question needs no new sense. On (a) the strict part is a
 *defined* restriction of the same primitive, and the distinct premise is
 already exactly its asymmetry. A genuinely *explanatory* strict relation
-differs in orientation, not only on the diagonal, and is already represented
-by the strict-ground sense and the `grounds` relation, joined to `D` only
-through OPEN bridges. (c) is reflexive and transitive but does not orient. No
+differs in orientation, not only on the diagonal. It is not separately
+represented (the strict-ground sense is uninterpreted, and `grounds` is joined
+to `D` only through OPEN bridges), and no result here uses it. (c) is reflexive and transitive but does not orient. No
 bridge from `D` to (c) is asserted, and none of these relations is made a
 synonym of another.
 
-**Records corrected (paraphrase or note only; no Lean change).**
+**Records corrected (paraphrase, note and doc comment only; no Lean type change).** The owning specs `specs/round2-perfection-primacy.toml` and `specs/round2-grounding.toml` carry the new paraphrases, and the doc comment of `DistinctBeingsNotMutuallyDependent` matches.
 `STMT-DISTINCT-BEINGS-NOT-MUTUALLY-DEPENDENT` no longer asserts as fact that
 `D` holds trivially of a thing and itself. It now says the premise is neutral
 on the diagonal. `STMT-DEPENDENCE-FOR-BEING-ASYMMETRIC` now records that it
@@ -331,11 +334,15 @@ Each law is a separate premise, and each result uses only the laws it names:
   - A reflexive, transitive reciprocal pair violates distinct nonmutuality and
     has an empty strict part.
 
-**Transitivity is not granted by fiat.** Counterfactual dependence is not
-transitive in Lewis's logic, which is why Lewis takes causation as its
-ancestral, and a direct agent-cause edge need not compose. The transitivity
-premise therefore suits a closure or chain reading of `D`, not automatically
-the direct-edge paradigm.
+**Transitivity is not granted by fiat.** `09b88101` is an OPEN claim about `D`
+as DEF-DEPENDS-FOR-BEING defines it; no closure of `D` is typed or meant, and
+all three premises of `938bfd7f` use that one `D`. Challenge: counterfactual
+dependence is not transitive in general (Lewis's logic invalidates
+counterfactual transitivity, which is why Lewis takes causation as the
+ancestral of dependence). Candidate warrant: per se ordered composition, as in
+the Second Way's "the first is the cause of the middle and the middle of the
+last". If `x` has its being only as received through `y`'s own dependence on
+`z`, then `x` depends on `z`. Neither is assessed further here.
 
 ### Root connection and #1590
 
@@ -370,8 +377,8 @@ the direct-edge paradigm.
 
 **Computed frontier delta** (`truth frontier-diff --base origin/main`):
 - Open premises reaching the root stay at 476 (339 bare).
-- `STMT-SIMPLE-PRIORITY-IS-TRANSITIVE` moves from bare to closed-as-proved from
-  open premises.
+- `STMT-SIMPLE-PRIORITY-IS-TRANSITIVE` moves from bare to the conclusion of a
+  verified argument from open premises. It is not established.
 - The new bare transitivity premise `09b88101` takes its place.
 - Verified support alternatives go from 456 to 457.
 - No premise is established.

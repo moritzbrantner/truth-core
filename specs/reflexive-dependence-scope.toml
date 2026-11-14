@@ -1,8 +1,8 @@
 # Reflexive existence-requirement versus strict dependence for being (#1593).
 # STMT-DISTINCT-BEINGS-NOT-MUTUALLY-DEPENDENT is silent on D(x,x); the unrestricted
 # STMT-DEPENDENCE-FOR-BEING-ASYMMETRIC excludes it. They conflict only under a
-# reflexive reading of the primitive DependsForBeing, which the literal counterfactual
-# gloss of DEF-DEPENDS-FOR-BEING supplies. This batch states reflexivity and
+# reflexive reading of the primitive DependsForBeing, which the bare counterfactual
+# clause of DEF-DEPENDS-FOR-BEING supplies apart from its agent-cause qualification. This batch states reflexivity and
 # transitivity as separate OPEN laws, checks the refutation of unrestricted asymmetry
 # under reflexivity, separates the premises in finite models, derives the priority order
 # laws only under the two OPEN priority bridges, gives the asymmetric-grounding consumer
@@ -21,14 +21,14 @@ disambiguations = ["23dd6f32-b456-4963-adb3-7befbf0dc4fb"]
 [[statement]]
 id = "Everything depends for its being on itself"
 lean = "DependenceForBeingReflexive"
-paraphrase = "OPEN analyst premise, the non-strict existence-requirement reading of DependsForBeing (DEF-DEPENDS-FOR-BEING): every x depends for its being on itself, that is, x would not be if x were not. Read literally as a counterfactual this is an instance of the counterfactual identity law (if A were the case, A would be the case), which holds in the standard Lewis and Stalnaker logics; DEF-DEPENDS-FOR-BEING does not build it into the primitive. It is incompatible with STMT-DEPENDENCE-FOR-BEING-ASYMMETRIC on any inhabited domain and compatible with STMT-DISTINCT-BEINGS-NOT-MUTUALLY-DEPENDENT. It is not a claim that anything explains or causes itself."
+paraphrase = "OPEN analyst premise, the non-strict existence-requirement reading of DependsForBeing (DEF-DEPENDS-FOR-BEING): every x depends for its being on itself, that is, x would not be if x were not. On the bare counterfactual clause of DEF-DEPENDS-FOR-BEING, apart from its agent-cause qualification, this is an instance of the counterfactual identity law (if A were the case, A would be the case), which holds in any selection semantics whose selected worlds satisfy the antecedent; the definition read whole, with its strict agent-cause paradigm, does not fix it, and it is not built into the primitive. It is incompatible with STMT-DEPENDENCE-FOR-BEING-ASYMMETRIC on any inhabited domain and compatible with STMT-DISTINCT-BEINGS-NOT-MUTUALLY-DEPENDENT. It is not a claim that anything explains or causes itself."
 definitions = ["DEF-DEPENDS-FOR-BEING"]
 disambiguations = ["23dd6f32-b456-4963-adb3-7befbf0dc4fb"]
 
 [[statement]]
 id = "Whatever depends for its being on what depends on z depends on z"
 lean = "DependenceForBeingTransitive"
-paraphrase = "OPEN analyst premise: if x depends for its being on y and y depends for its being on z, then x depends for its being on z. Stated separately from reflexivity and from nonmutuality. A direct productive edge (the light on the sun) need not have it, and counterfactual dependence is not transitive in Lewis's logic, which is why Lewis takes causation as its ancestral; the premise therefore holds of a closure or chain reading of DependsForBeing, not automatically of direct agent-cause edges."
+paraphrase = "OPEN analyst premise: if x depends for its being on y and y depends for its being on z, then x depends for its being on z. Stated separately from reflexivity and from nonmutuality, about DependsForBeing as DEF-DEPENDS-FOR-BEING defines it (no closure of the relation is meant). Challenge: counterfactual dependence is not transitive in general (Lewis's logic invalidates counterfactual transitivity, which is why Lewis takes causation as the ancestral of dependence), so the premise fails for D if D is mere counterfactual dependence. Candidate warrant: per se ordered composition, as in the Second Way's 'the first is the cause of the middle and the middle of the last': if x depends for its being on y only as receiving it through y's own dependence on z, x depends on z. Neither is established here."
 definitions = ["DEF-DEPENDS-FOR-BEING"]
 disambiguations = ["23dd6f32-b456-4963-adb3-7befbf0dc4fb"]
 
@@ -94,7 +94,7 @@ premises = ["STMT-NONMUTUAL-DEPENDENCE-SUFFICES-FOR-PRIORITY", "STMT-PRIORITY-RE
 conclusion = "STMT-SIMPLE-PRIORITY-IS-TRANSITIVE"
 axioms = ["propext", "Classical.choice", "Quot.sound"]
 rule = "Unpack both priorities by the requirement bridge, compose the dependences by transitivity, exclude the reverse dependence by transitivity, and close by the sufficiency bridge"
-meaning = "If x is SIMPLY_PRIOR_1 to y and y to z, the requirement bridge gives y depending on x, z on y and the two reverse non-dependences; transitivity gives z depending on x, and if x depended on z then x would depend on y, contrary to the first priority; the sufficiency bridge then makes x prior to z. Neither reflexivity nor nonmutuality of D is used. A conditional support option for the bare root-route premise; all three premises remain open, and the order-law controls show transitivity of D cannot be dropped."
+meaning = "If x is SIMPLY_PRIOR_1 to y and y to z, the requirement bridge gives y depending on x, z on y and the two reverse non-dependences; transitivity gives z depending on x, and if x depended on z then x would depend on y, contrary to the first priority; the sufficiency bridge then makes x prior to z. Neither reflexivity nor nonmutuality of D is used. All three premises are about the same D as DEF-DEPENDS-FOR-BEING defines it; no closure or other reading enters. A conditional support option for the bare root-route premise; all three premises remain open, and the order-law controls show transitivity of D cannot be dropped."
 
 [[argument]]
 id = "Simple priority is irreflexive, from the priority-requirement bridge"
@@ -108,6 +108,7 @@ meaning = "If whatever is SIMPLY_PRIOR_1 to x is something on which x depends an
 [[argument]]
 id = "Every actual CONCRETE_6 individual grounds itself, from reflexive dependence"
 theorem = "reflexiveDependenceForcesSelfGrounding"
+definitions = ["DEF-DEPENDS-FOR-BEING", "a1b2e330-388f-4120-bc5c-969642317792", "008cb21a-256c-5a90-822c-acd4591d699a"]
 comparator_theorems = ["actualGroundingAsymmetricViaDistinct"]
 premises = ["Everything depends for its being on itself", "STMT-ACTUAL-DEPENDENCE-IS-GROUNDING"]
 conclusion = "Every actual CONCRETE_6 individual grounds itself at the selected world"
@@ -118,6 +119,7 @@ meaning = "On the reflexive reading, STMT-ACTUAL-DEPENDENCE-IS-GROUNDING, which 
 [[argument]]
 id = "Distinct-relata dependence-to-grounding bridge, from the unrestricted bridge"
 theorem = "distinctDependenceGroundingFromUnrestricted"
+definitions = ["DEF-DEPENDS-FOR-BEING", "a1b2e330-388f-4120-bc5c-969642317792", "008cb21a-256c-5a90-822c-acd4591d699a"]
 premises = ["STMT-ACTUAL-DEPENDENCE-IS-GROUNDING"]
 conclusion = "If an actual CONCRETE_6 individual depends for its being on a different one, that one grounds it"
 axioms = ["propext", "Classical.choice", "Quot.sound"]

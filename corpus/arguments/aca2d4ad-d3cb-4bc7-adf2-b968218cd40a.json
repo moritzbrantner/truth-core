@@ -11,10 +11,9 @@
   ],
   "meaning": "On the reflexive reading, STMT-ACTUAL-DEPENDENCE-IS-GROUNDING, which has no distinctness condition, makes every actual concretum ground itself; with irreflexive actual grounding (or, through STMT-ACTUAL-GROUNDING-IS-SIMPLE-PRIORITY, with irreflexive simple priority) this is inconsistent as soon as one actual concretum exists (elementary; that last step is not separately certified). So the #1590 route DependsForBeing to grounds to PriorSimply needs either the strict reading of D or the distinct-relata restriction of its first bridge.",
   "definition_ids": [
-    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
-    "008cb21a-256c-5a90-822c-acd4591d699a",
     "bf26b9b2-41ed-55b0-9557-dae90ab9b81f",
-    "a1b2e330-388f-4120-bc5c-969642317792"
+    "a1b2e330-388f-4120-bc5c-969642317792",
+    "008cb21a-256c-5a90-822c-acd4591d699a"
   ],
   "disambiguation_ids": [
     "23dd6f32-b456-4963-adb3-7befbf0dc4fb",

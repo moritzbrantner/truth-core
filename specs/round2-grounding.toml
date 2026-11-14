@@ -118,7 +118,7 @@ disambiguations = ["DISAMB-CAUSAL-POWER-GROUNDING"]
 [[statement]]
 id = "STMT-DEPENDENCE-FOR-BEING-ASYMMETRIC"
 lean = "DependenceForBeingAsymmetric"
-paraphrase = "OPEN analyst premise: if x depends for its being on y, y does not depend for its being on x (hence nothing depends on itself). Mutual counterfactual dependence would falsify it."
+paraphrase = "OPEN analyst premise: if x depends for its being on y, y does not depend for its being on x (hence nothing depends on itself). Mutual counterfactual dependence would falsify it. It therefore presupposes a strict, non-reflexive reading of DependsForBeing: if everything depends for its being on itself, as the bare counterfactual clause of DEF-DEPENDS-FOR-BEING gives apart from its agent-cause qualification, it fails on any domain with one being (#1593). Its distinct-pair part is STMT-DISTINCT-BEINGS-NOT-MUTUALLY-DEPENDENT."
 definitions = ["DEF-DEPENDS-FOR-BEING"]
 
 [[statement]]

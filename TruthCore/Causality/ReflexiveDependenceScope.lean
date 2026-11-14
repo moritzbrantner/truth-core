@@ -16,10 +16,12 @@ premises read it differently on the diagonal:
 * `DependenceForBeingAsymmetric D` (STMT-DEPENDENCE-FOR-BEING-ASYMMETRIC)
   excludes `D x x`.
 
-They conflict only on a reading under which `D` is reflexive. Read literally as
-a counterfactual, "`x` would not be if `x` were not" is an instance of the
-counterfactual identity law, so the literal reading of the definition makes `D`
-reflexive. That reflexivity is the separate OPEN statement
+They conflict only on a reading under which `D` is reflexive. On the bare
+counterfactual clause of the definition, apart from its agent-cause
+qualification, "`x` would not be if `x` were not" is an instance of the
+counterfactual identity law, so on that clause `D` is reflexive; the agent-cause
+paradigm is strict, and the definition read whole fixes neither. That
+reflexivity is the separate OPEN statement
 `DependenceForBeingReflexive`; nothing here builds it into `D`.
 
 The structural laws below are stated separately, so that each result shows
@@ -49,7 +51,8 @@ def DependenceForBeingReflexive (D : B → B → Prop) : Prop :=
   ∀ x, D x x
 
 /-- Dependence for being is transitive: what depends on something that depends
-on `z` depends on `z`. OPEN; a direct productive edge need not have it. -/
+on `z` depends on `z`. OPEN, about `D` as defined: counterfactual dependence is
+not transitive in general; per se ordered composition is the candidate warrant. -/
 def DependenceForBeingTransitive (D : B → B → Prop) : Prop :=
   ∀ x y z, D x y → D y z → D x z
 
