@@ -1,0 +1,6 @@
+{
+  "id": "35cf3d0d-401f-4fc0-93bf-0c576be5b3dc",
+  "label": "Existential grounding interpretation omission controls",
+  "paraphrase": "Mathematical controls: a universal PLG theory admits full symmetric dependence-to-ground mapping when consistency is omitted; a separately established consistent PLG theory coexists with symmetric dependence when the interpretation map is omitted. Both use the distinct Boolean beings true and false.",
+  "lean_declaration": "TruthCore.Causality.DependenceStrictGroundMap.Control.Certificate"
+}

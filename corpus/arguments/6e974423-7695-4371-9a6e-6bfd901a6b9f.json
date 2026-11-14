@@ -1,0 +1,19 @@
+{
+  "id": "6e974423-7695-4371-9a6e-6bfd901a6b9f",
+  "label": "Mutual-dependence omission controls for strict-grounding interpretation",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "35cf3d0d-401f-4fc0-93bf-0c576be5b3dc",
+  "inference_ids": [
+    "bd33f6b9-633b-494f-aea7-28b4ebb2c8c6"
+  ],
+  "meaning": "Omitting consistency permits all sequents; omitting the mapping leaves counterfactual dependence unconstrained even alongside a consistent Fine theory, so dependence for being and formal strict ground do not mix without the bridge. This prevents the result from being misreported as a theorem about arbitrary dependence or intrinsic metaphysical priority.",
+  "definition_ids": [
+    "bf26b9b2-41ed-55b0-9557-dae90ab9b81f",
+    "df5284cb-8f1f-5b61-9b1c-ee4c1544b469",
+    "5d9a94e0-d64b-53ca-b9cc-504735060e0a"
+  ],
+  "sense_mixing_control": true,
+  "disambiguation_ids": [
+    "23dd6f32-b456-4963-adb3-7befbf0dc4fb"
+  ]
+}

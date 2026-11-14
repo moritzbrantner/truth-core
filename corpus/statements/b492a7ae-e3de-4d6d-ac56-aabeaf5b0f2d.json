@@ -1,0 +1,6 @@
+{
+  "id": "b492a7ae-e3de-4d6d-ac56-aabeaf5b0f2d",
+  "label": "SCG I.22 accident not quiddity of identified esse bearer",
+  "paraphrase": "OPEN selected reading of the first case of SCG I.22 n.4, attribution deferred: when bearer x is ontically identified with its esse e, a q accidental to that e cannot be x's genuine quiddity. Identification is a separately interpreted predicate and not extensional co-presence or q.3 Profile equality. For a posterior composite which merely has e, this premise does not deny that q is its quiddity.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaContraGentiles.BookI.Chapter22Conjunction.AccidentNotQuiddityOfEsseBearer"
+}

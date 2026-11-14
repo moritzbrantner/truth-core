@@ -1,0 +1,25 @@
+{
+  "id": "23dd6f32-b456-4963-adb3-7befbf0dc4fb",
+  "label": "Dependence for being versus formal strict ground of existence",
+  "term": "dependence for being versus (strict) ground of existence",
+  "term_label": "DEPENDENCE_FOR_BEING_VERSUS_STRICT_GROUND",
+  "sense_definition_ids": [
+    "bf26b9b2-41ed-55b0-9557-dae90ab9b81f",
+    "5d9a94e0-d64b-53ca-b9cc-504735060e0a"
+  ],
+  "senses": [
+    {
+      "id": "c6e310c2-a8c9-41cb-8d7e-18859802484d",
+      "label": "DEPENDENCE_FOR_BEING_VERSUS_STRICT_GROUND_1",
+      "definition_id": "bf26b9b2-41ed-55b0-9557-dae90ab9b81f",
+      "lean_declaration": "TruthCore.Causality.CausalMapsBatch1.EffectDependsOnEfficientCause"
+    },
+    {
+      "id": "28212589-ee94-4eb0-b20e-f7cead4438b1",
+      "label": "DEPENDENCE_FOR_BEING_VERSUS_STRICT_GROUND_2",
+      "definition_id": "5d9a94e0-d64b-53ca-b9cc-504735060e0a",
+      "lean_declaration": "TruthCore.Modern.Fine.PureLogicOfGround.StrictlyGrounds"
+    }
+  ],
+  "resolution": "In the strict-ground route to STMT-DISTINCT-BEINGS-NOT-MUTUALLY-DEPENDENT, D takes sense 1: DEF-DEPENDS-FOR-BEING, the efficient-causal counterfactual dependence of an effect on its agent cause (paradigm: the light in the air depends on the shining sun). 'Ground' takes sense 2 only: Fine's formal strict partial ground on UNINTERPRETED atoms (DEF-FINE-PLG-STRICT-PARTIAL-GROUND). The argument passes from sense 1 to sense 2 only through the explicit OPEN map statement 42756c07-03cd-4b54-8ed6-ed6c1a5132aa (a sense bridge), never by definition. The theorem selects NO metaphysical reading of the atoms or sequents. Two sibling interpretations of the map remain open and untyped: (a) constitutive/metaphysical ground of existence facts, in Fine's sense of non-causal metaphysical explanation; on this reading the definition's own paradigm edge is not covered, since the sun's existing is not standardly a partial ground of the light's existing (the light is caused by the sun, not constituted by it), so the map would have to be restricted to a non-causal relation of receiving esse; (b) a natural/causal-production reading, with PLG used as the logic common to all grounding relations; on this reading the paradigm edge is covered, but the note's 'constitutive explanatory direction' rationale does not apply, and the map's warrant reduces to the asymmetry of efficient causal dependence for being (compare STMT-EFFICIENT-CAUSE-NOT-DEPENDENT-ON-EFFECT). Neither reading is encoded by the Lean type, and no inclusion, identity or equivalence between sense 1 and sense 2, or between either sense and PriorSimply, is inferred from names."
+}

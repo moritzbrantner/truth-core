@@ -1,0 +1,16 @@
+{
+  "id": "ba5da429-c022-4029-8430-4ea7371291d7",
+  "label": "Own-essence membership and the candidate intrinsic reason separate, also under the existence PSR",
+  "statement_ids": [
+    "a0c71215-734a-486f-9ce5-ead61d1b0aa0",
+    "a7bbd2fd-242c-5097-a9a3-581d25835890"
+  ],
+  "date": "2026-11-14",
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Finite Bool/Bool controls (EssenceReasonSeparation.checks) separate modal necessity (NECESSARY_EXISTENCE_BY_OWN_NATURE_2), own-essence membership (_3, OwnEssentialExistence) and the candidate intrinsic reason token (_4, CandidateIntrinsicReason) in both directions, and show that ModalRequiresExistence holds symmetrically where EssenceRequiresExistence holds in one direction only. The sourced sense _1 is recorded as an interpretation fork between _3 and _4. Restoration tests from the semantic challenge on PR #1597: Fine-style factivity and bearer-indexed intrinsic tokens leave all controls intact, since every being exists everywhere. Control (1) violates ExistencePSR; psr_keeps_nature_without_intrinsic_reason gives a sound ExistencePSR model with A, B and not candidate C (only a circumstance token explains). candidate_intrinsic_of_psr_without_other_reasons derives candidate C from ExistencePSR plus the exclusion of circumstance tokens and of other bearers' intrinsic tokens, without using B. Both are checked lemmas in the vocabulary module, not registered results. Reuse of BruteFoundationExplanations.NecessitatesExistenceAt needs a presence bridge from ExistencePSR.Model to ExplanationProfile; with presence read as the bearer's existence the test is tautologous. Root-premise delta none.",
+  "evidence": [
+    "1b5c14e3-5372-4f94-84cb-03b769b3f245"
+  ],
+  "blocker": "OPEN: an adequacy criterion for the intrinsic token (what makes the bearer's nature explain its existence, beyond tag assignment); the presence mapping needed to reuse NecessitatesExistenceAt nontrivially; the essence-to-modal bridge EssenceRequiresExistence → ModalRequiresExistence; and any warrant for excluding circumstance reasons for the necessary ground. Next tests: state the presence bridge with nature-obtaining independent of existence and check whether necessaryReasonAndNecessitation then becomes nontrivial; compare with the E → C route via ActualUnderivedEssenceEsse (#319)."
+}

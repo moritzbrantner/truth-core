@@ -1,0 +1,28 @@
+# Conditional support for bare STMT-NOTHING-ORIGINATES-ITSELF (CAUSE_4).
+# The new bridge to the existing existential-production vocabulary remains
+# independently OPEN. This batch reuses the certified noSelf theorem and
+# makes no source attribution or root-premise establishment claim.
+
+[batch]
+vocab = "TruthCore.Causality.OriginExerciseBridge"
+results = "TruthCore.Results.Causality.OriginExerciseBridge"
+
+[[statement]]
+id = "Every originating cause operates through its own existentially productive exercise"
+lean = "OriginHasProductiveExercise"
+paraphrase = "OPEN analyst bridge: for every CAUSE_4 originating-cause edge CausesOrigin c x, an occurring exercise a borne by c produces x's existence, with produces in the same sense as DEF-NO-EXISTENTIAL-SELF-PRODUCTION (production of the being of the resultant individual, not merely of its coming-to-be). The passage from causing x's coming-to-be to producing x's being is part of this bridge's open content. This maps a source/target edge into the existing bearer/exercise/product vocabulary, without building causal priority or irreflexivity into CausesOrigin. It does not assert that anything originates, nor that every sort of cause is an originating cause. Attribution deferred; the application to reality is not established."
+definitions = ["9022c4bf-78d2-4c4b-98b3-38eb705990d2", "DEF-CAUSE-OF-ORIGIN"]
+disambiguations = ["DISAMB-CAUSE"]
+
+[[argument]]
+id = "e9a9eeaf-4845-42a8-a8dc-4721846cad0f"
+label = "No originating cause originates itself, from productive exercise and no self-production"
+theorem = "noSelfOriginFromNoSelfProduction"
+premises = [
+  "Every originating cause operates through its own existentially productive exercise",
+  "STMT-NO-EXISTENTIAL-SELF-PRODUCTION",
+]
+conclusion = "STMT-NOTHING-ORIGINATES-ITSELF"
+axioms = []
+rule = "Apply the existing no-self-production result to the witness supplied by an arbitrary CausesOrigin x x edge; its bearer equals x, contradicting production of its own bearer"
+meaning = "Non-transcription conditional derivation composed with the EXISTING independently certified NoSelfProduction argument. The new OPEN origin-to-exercise bridge makes an arbitrary self-origin edge CausesOrigin x x supply an occurring exercise a with bearer a = x and produces a x. The separately recorded NoSelfProduction statement excludes that conjunction; it itself has a non-transcription support route from four open mixed-token priority premises (TruthCore.Results.Causality.ExistentialSelfActualization.noSelf), reused in the unregistered composition theorem noSelfOriginFromExercise. The conclusion concerns only the CAUSE_4 reading, not all causal senses. No temporal precedence, self-maintenance prohibition, necessary-being uniqueness or independent warrant follows. This creates an explicit two-layer root-reaching support option; the five underlying commitments remain open, so there is no premise establishment."
