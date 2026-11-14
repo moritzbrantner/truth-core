@@ -1,0 +1,16 @@
+{
+  "id": "d120041c-340c-405c-8d59-e841ea4805c3",
+  "label": "Realist debunker relying only on the debunked epistemic basis lacks warrant (inference)",
+  "input_statement_ids": [
+    "10e7ab86-3b88-473b-b758-0eaf77476924",
+    "af1256e2-dcaa-48f5-975f-db90c0452667",
+    "d6708411-c173-473c-859d-c4bfc12d4a0f",
+    "ed122f4c-8a51-4310-813c-fe8db8a2f2d3",
+    "fcd6fdc2-8a5e-4c71-a105-1fff691a0e95"
+  ],
+  "output_statement_id": "3db10140-06ed-43e2-8521-391acd2ec925",
+  "rule": "Derive a tracking failure for the subject's own basis, apply the uniform policy, then reuse undercutSoleBasisPrecludesWarrant",
+  "meaning": "Self-application under the within-history-variation reading of epistemic realism, analyst formulation, attribution deferred. Take the target as the debunking conclusion and the basis as the subject's epistemic evaluative basis. If the policy that debunks realist epistemic judgments applies uniformly, that basis's verdict is fixed by selection, its correctness varies within the history, every support for the conclusion comes from that basis, and warrant needs undefeated support, then the subject lacks warrant for the conclusion. The conclusion may still be true, other contents may be warranted, and no contradiction or epistemic nihilism follows.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

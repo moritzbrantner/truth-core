@@ -1,0 +1,11 @@
+{
+  "id": "28051e37-ddea-4080-b5ff-7134e7d90b3d",
+  "label": "Fixed truth and history-dependent verdict yield an incorrect verdict somewhere",
+  "argument_id": "766d05ed-3fad-4dbb-9f12-410b92d788ce",
+  "challenge_module": "TruthCore.Results.Logic.DarwinianEpistemicDebunking.CrossHistory.Challenge",
+  "solution_module": "TruthCore.Results.Logic.DarwinianEpistemicDebunking.CrossHistory.Solution",
+  "theorem": "TruthCore.Results.Logic.DarwinianEpistemicDebunking.CrossHistory.fixedTruthWithHistoryVariationYieldsMismatch",
+  "comparator_config": "results/28051e37-ddea-4080-b5ff-7134e7d90b3d/comparator.json",
+  "status": "solution-present",
+  "description": "The non-probabilistic part of Street's first horn (pp. 121–122) for one epistemic evaluative judgment, analyst formulation with attribution deferred. With the truth fixed across histories and the verdict varying with the history, the verdict is wrong in some scenario. Street's further step, that the actual judgments are in all likelihood mostly off track, is probabilistic and is not derived; neither defeat nor the absence of epistemic reasons follows."
+}

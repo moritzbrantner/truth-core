@@ -399,6 +399,18 @@ def build_records(spec: dict, write: bool) -> list[str]:
         for key in ("verification_result_id", "strictness_result_id"):
             if key in r:
                 record[key] = handles.ref("result", r[key])
+        if r["predicate"] == "strength_comparison":
+            # Certified strength comparison (#1598): fields of
+            # scripts/strength_comparisons.py, handles resolved.
+            record["comparison_spec"] = lean_name(batch, r["comparison_spec"])
+            record["delta_statement_id"] = handles.ref("statement", r["delta_statement_id"])
+            record["background_statement_ids"] = refs("statement", r.get("background_statement_ids", []))
+            record["evidence_result_ids"] = {role: handles.ref("result", rid)
+                                             for role, rid in sorted(r["evidence_result_ids"].items())}
+            if "separator" in r:
+                record["separator"] = {"setting": lean_name(batch, r["separator"]["setting"]),
+                                       "result_id": handles.ref("result", r["separator"]["result_id"])}
+            record["statement_parameter_indices"] = r["statement_parameter_indices"]
         if "note" in r:
             record["note"] = r["note"]
         dump(record_path(existing["relations"], "relations", rel_id), record, write, planned)

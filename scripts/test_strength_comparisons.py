@@ -114,15 +114,51 @@ class StrengthComparisonsTest(unittest.TestCase):
         self.assertIn("delta_forward", report["remaining_obligations"])
         self.assertEqual(report["converse_status"], "unresolved")
 
-    def test_all_three_directions_and_iff_needed_for_exact_label(self):
+    def test_iff_or_all_three_directions_needed_for_exact_label(self):
         relation, data = fixture()
         full = strength.projection(relation, data, binding(relation, data), verified=True)
         self.assertEqual(full["delta_status"], "exact factorization proved")
-        for missing in strength.EXACT_DELTA_ROLES:
+        # The biconditional alone entails the three directions (#1598).
+        iff_only = copy.deepcopy(relation)
+        iff_only["evidence_result_ids"] = {"equivalence": "equivalence"}
+        report = strength.projection(iff_only, data, binding(iff_only, data), verified=True)
+        self.assertEqual(report["delta_status"], "exact factorization proved")
+        self.assertEqual(report["comparison_status"], "proved implication")
+        self.assertEqual(report["remaining_obligations"], [])
+        # Without it, all three directions are needed.
+        for missing in strength.EXACT_DELTA_ROLES - {"equivalence"}:
             partial = copy.deepcopy(relation)
+            del partial["evidence_result_ids"]["equivalence"]
             del partial["evidence_result_ids"][missing]
             report = strength.projection(partial, data, binding(partial, data), verified=True)
             self.assertNotEqual(report["delta_status"], "exact factorization proved")
+        three = copy.deepcopy(relation)
+        del three["evidence_result_ids"]["equivalence"]
+        report = strength.projection(three, data, binding(three, data), verified=True)
+        self.assertEqual(report["delta_status"], "exact factorization proved")
+
+    def test_delta_must_differ_from_both_versions(self):
+        relation, data = fixture()
+        for field in ("subject_id", "object_id"):
+            with self.subTest(field=field):
+                with self.assertRaisesRegex(ValueError, "distinct from"):
+                    strength.validate_registration({**relation, "delta_statement_id": relation[field]},
+                                                   data["statements"], data["results"], data["arguments"])
+        same_declaration = copy.deepcopy(data)
+        same_declaration["statements"][relation["delta_statement_id"]]["lean_declaration"] = \
+            data["statements"][relation["subject_id"]]["lean_declaration"]
+        with self.assertRaisesRegex(ValueError, "distinct from subject_id"):
+            strength.validate_registration(relation, same_declaration["statements"], data["results"], data["arguments"])
+
+    def test_certifies_difference_needs_same_pair_no_background_and_iff(self):
+        relation, _ = fixture()
+        registration = {"id": "REL-S", "predicate": "strengthens", "subject_id": relation["subject_id"],
+                        "object_id": relation["object_id"], "verification_result_id": "implication"}
+        self.assertTrue(strength.certifies_difference(relation, registration))
+        for change in ({"object_id": "X"}, {"background_statement_ids": ["G"]},
+                       {"evidence_result_ids": {"implication": "implication"}}, {"predicate": "strengthens"}):
+            with self.subTest(change=change):
+                self.assertFalse(strength.certifies_difference({**relation, **change}, registration))
 
     def test_strictness_needs_separating_setting_same_background_binding(self):
         relation, data = fixture()
