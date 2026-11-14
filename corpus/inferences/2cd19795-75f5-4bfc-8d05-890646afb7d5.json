@@ -1,0 +1,15 @@
+{
+  "id": "2cd19795-75f5-4bfc-8d05-890646afb7d5",
+  "label": "The esse-cause bridge from existent concreteness, via distinct actual dependence (inference)",
+  "input_statement_ids": [
+    "c99f9d23-3f05-5c3c-9279-44a59e445a14",
+    "0e02cd69-8fb0-4859-8287-937440c84b5b",
+    "2068f91c-1eeb-5dbb-a71a-f7b6a12bb495",
+    "a8298fbd-f3c5-480d-95e9-8316889c327f"
+  ],
+  "output_statement_id": "cb1cdea9-eb6c-578c-8008-84e0d4107fd3",
+  "rule": "As esseCauseGroundOfExistentConcreteness, with the dependence instance taken at the distinct cause",
+  "meaning": "The sibling of CauseOfBeingHasBeing.esseCauseGroundOfExistentConcreteness with the distinct-relata dependence-to-grounding bridge in place of the unrestricted one; that derivation also applies it only at a distinct cause. Concreteness of the cause comes from every existent at w being concrete. Conditional consequence only; no premise is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

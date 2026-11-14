@@ -1,0 +1,33 @@
+{
+  "id": "d812acaa-2f51-4647-be85-40cb9a6cf8d5",
+  "label": "A first being is in POTENCY_2 in no respect, from Theta.8 and esse-cause priority",
+  "premise_statement_ids": [
+    "ca55ed3a-8f7d-4e7c-8799-c61fdb4cce60",
+    "d017b6b0-3dd9-5c1a-b412-bdd9a7df5660",
+    "d8024a38-5d93-4c1d-8c21-fdbfa87a5cde",
+    "ca07cae9-6102-564e-a7fd-efb013744b3d",
+    "ee74c678-0a06-47d3-9c76-27ff798e9a01"
+  ],
+  "conclusion_statement_id": "0cf675c4-4099-5df9-b294-05f2cfef057d",
+  "inference_ids": [
+    "7b4113bc-d70e-426b-b07c-e27dfc6e8299"
+  ],
+  "meaning": "The Theta.8 route (firstBeingNoPotencyOfThetaEight) with the cause-to-efficient-cause bridge and efficient-cause priority replaced by one premise on the q.3 a.7 cause-of-perfection relation: a distinct cause of a thing's esse is simply prior to it. A first being cannot fail to be, so it is in act in being; if it were in potency in some respect it would be composite, hence have a distinct cause of its esse, which is simply prior to it, against firstness. Composes EsseCausePriority.firstBeingNoPotencyOfEssePriority at act in being. The original route applied efficient-cause priority only at that distinct esse-cause instance, so no instance it used is lost. Like the #1604 siblings, it avoids STMT-PERFECTION-CAUSING-IN-ANOTHER-IS-EFFICIENT only because the esse-cause priority premise's upstream bridge covers every CausesIn ... esse instance. Conditional consequence only; no premise is established.",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "25e19d5a-5cdf-5916-a888-f6a0ce970f11",
+    "051fe0e7-e842-5581-870a-e3bc00aeaf9c",
+    "3ea2762f-1a85-5059-b4e7-d29f192b16b6",
+    "a49e4cf1-ca4f-5519-9724-892af257cedb",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1",
+    "85f7f569-ab4d-514b-aa2c-cf75171ad105",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "ed4f1f3f-d0c2-57b7-8ce7-52245db29d79",
+    "508617ab-cf24-5f3b-a387-64b3991359ec"
+  ]
+}

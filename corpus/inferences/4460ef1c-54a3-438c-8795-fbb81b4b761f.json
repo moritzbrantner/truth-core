@@ -1,0 +1,10 @@
+{
+  "id": "4460ef1c-54a3-438c-8795-fbb81b4b761f",
+  "label": "Dependence-to-priority controls, checked (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "b3f44675-10e3-4f03-bf33-ada332d788af",
+  "rule": "Explicit Bool interpretations checked by case analysis",
+  "meaning": "Controls for the dependence-to-priority batch: a joint model of reflexive D with the distinct-relata bridge, grounding-to-priority and priority-requires-nonmutual-dependence and a nonvacuous priority instance; failure of the unrestricted bridge on that model; and omission models for each bridge of the scoped route. Model-witnessed facts about these interpretations only; no interpretation is claimed metaphysically possible.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": "1f9e8ebc-d8e6-40d3-80cd-4987d0b3e61d",
+  "label": "Actual esse CAUSE_2 is SIMPLY_PRIOR_1, via distinct actual dependence",
+  "premise_statement_ids": [
+    "0791f2ad-eeec-48b9-8f24-f2e711a5a2f9",
+    "2068f91c-1eeb-5dbb-a71a-f7b6a12bb495",
+    "c99f9d23-3f05-5c3c-9279-44a59e445a14",
+    "82eeeb3c-b96d-5483-b1ac-f6059ff02211"
+  ],
+  "conclusion_statement_id": "b50fb858-ca2e-48fa-a111-84ac761976d3",
+  "inference_ids": [
+    "d0dae4ca-b470-4e87-9890-a8b7372fae33"
+  ],
+  "meaning": "If c, distinct from the actual concretum x, causes x's esse, then x depends for its being on c (OPEN reading of q.44 a.1 ad 2 for causes of esse), c exists at w (OPEN) and is concrete (OPEN causal-capacity reading), so both are actual concreta and the scoped dependence-to-priority route makes c simply prior to x. This is a second derivation of the #1604 esse-cause priority node, through dependence for being rather than through the esse-cause-is-ground bridge; it uses the same bridge content as that node's route through STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND derived via dependence. All dependence instances it uses have distinct relata. Conditional consequence only; no premise is established.",
+  "definition_ids": [
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "bf26b9b2-41ed-55b0-9557-dae90ab9b81f",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8"
+  ],
+  "disambiguation_ids": [
+    "23dd6f32-b456-4963-adb3-7befbf0dc4fb",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
+  ]
+}

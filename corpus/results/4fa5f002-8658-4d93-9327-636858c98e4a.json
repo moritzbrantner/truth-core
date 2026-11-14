@@ -1,0 +1,11 @@
+{
+  "id": "4fa5f002-8658-4d93-9327-636858c98e4a",
+  "label": "The SIMPLY_PRIOR_1 grounds what it is prior to, via distinct actual dependence",
+  "argument_id": "2adcc5ff-3c4e-4662-8827-ee32dc48bd4d",
+  "challenge_module": "TruthCore.Results.Causality.DependenceGroundingPriority.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DependenceGroundingPriority.Solution",
+  "theorem": "TruthCore.Results.Causality.DependenceGroundingPriority.simplyPriorGroundViaDistinctDependence",
+  "comparator_config": "results/4fa5f002-8658-4d93-9327-636858c98e4a/comparator.json",
+  "status": "solution-present",
+  "description": "The sibling of Round2Grounding.simplyPriorGroundViaDependence with the distinct-relata bridge: STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND concerns only a y simply prior to something other than itself, so the dependence edge the requirement bridge supplies has distinct relata. Conditional consequence only; no premise is established."
+}
