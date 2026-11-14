@@ -79,7 +79,7 @@ definitions = ["DEF-DEPENDS-FOR-BEING", "DEF-CAN-BE-WITHOUT"]
 [[statement]]
 id = "STMT-INDEPENDENCE-ALLOWS-BEING-WITHOUT"
 lean = "IndependenceAllowsBeingWithout"
-paraphrase = "OPEN analyst premise: if y does not depend for its being on x, then y can be without x. It fails when x's not being is itself impossible, since then y cannot be while x is not although y does not depend on x."
+paraphrase = "OPEN unrestricted analyst bridge: if y does not depend for its being on x, then y can be without x. It is not valid merely from DEF-DEPENDS-FOR-BEING and DEF-CAN-BE-WITHOUT: if x is necessary, y may be independent of x although no world has y without x. The existing Lean theorem uses this as an explicit conditional premise, not as a derived fact. Restricting x to contingent beings avoids that counterexample but still needs a substantive bridge between counterfactual nondependence and modal separability; it cannot derive unrestricted priority without covering necessary effects."
 definitions = ["DEF-DEPENDS-FOR-BEING", "DEF-CAN-BE-WITHOUT"]
 
 [[statement]]
