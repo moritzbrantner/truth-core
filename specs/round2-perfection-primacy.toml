@@ -65,7 +65,7 @@ disambiguations = ["DISAMB-CAUSE"]
 [[statement]]
 id = "STMT-DISTINCT-BEINGS-NOT-MUTUALLY-DEPENDENT"
 lean = "DistinctBeingsNotMutuallyDependent"
-paraphrase = "OPEN analyst premise: no two distinct things depend for their being on each other; if x is distinct from y and x depends for its being on y, then y does not depend for its being on x. Restricted to distinct things because DependsForBeing, read counterfactually, holds trivially of a thing and itself. Navigation only (no claim): Aquinas, In V Metaph. lect. 13 n. 18, 'priora non dependent a posterioribus, sicut e converso'."
+paraphrase = "OPEN analyst premise: no two distinct things depend for their being on each other; if x is distinct from y and x depends for its being on y, then y does not depend for its being on x. Restricted to distinct things so that it is neutral on self-dependence: on the bare counterfactual clause of DEF-DEPENDS-FOR-BEING, apart from its agent-cause qualification, DependsForBeing holds trivially of a thing and itself, on a strict reading it never does, and the premise is compatible with either. It is exactly asymmetry of the distinct-step part of DependsForBeing. Navigation only (no claim): Aquinas, In V Metaph. lect. 13 n. 18, 'priora non dependent a posterioribus, sicut e converso'."
 definitions = ["DEF-DEPENDS-FOR-BEING"]
 
 # ---- Target 5: nonmutual dependence suffices for priority ----

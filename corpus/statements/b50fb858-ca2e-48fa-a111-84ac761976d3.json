@@ -1,0 +1,13 @@
+{
+  "id": "b50fb858-ca2e-48fa-a111-84ac761976d3",
+  "label": "A distinct esse CAUSE_2 of an actual CONCRETE_6 being at w is SIMPLY_PRIOR_1 to it",
+  "paraphrase": "At the selected world w, for any c and x, if c is distinct from x, x is concrete and exists at w, and c causes x's esse (CausesIn c x esse, the cause-of-perfection relation at esse), then c is simply prior to x. Scoped to actual concreta at one world and to the respect esse; nothing is said of self-causes, of respects other than esse, or of non-actual effects. Derived, not assumed, by composing STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND with STMT-ACTUAL-GROUNDING-IS-SIMPLE-PRIORITY.",
+  "lean_declaration": "TruthCore.Causality.EsseCausePriority.ActualEsseCausePriority",
+  "definition_ids": [
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109"
+  ]
+}

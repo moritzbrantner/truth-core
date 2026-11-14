@@ -1,0 +1,11 @@
+{
+  "id": "cc7dd608-8551-4045-8bfb-5a7643a9314a",
+  "label": "Distinct-relata dependence-to-grounding bridge, from the unrestricted bridge",
+  "argument_id": "9e1229f8-ce4e-4b27-9db8-0914e7224021",
+  "challenge_module": "TruthCore.Results.Causality.ReflexiveDependenceScope.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ReflexiveDependenceScope.Solution",
+  "theorem": "TruthCore.Results.Causality.ReflexiveDependenceScope.distinctDependenceGroundingFromUnrestricted",
+  "comparator_config": "results/cc7dd608-8551-4045-8bfb-5a7643a9314a/comparator.json",
+  "status": "solution-present",
+  "description": "Strength order: the unrestricted dependence-to-grounding bridge implies its distinct-relata restriction. The weak version is the one the #1590 grounding-priority route can use without committing D to irreflexivity."
+}

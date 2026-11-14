@@ -1,0 +1,12 @@
+{
+  "id": "707891ce-e16e-4b75-9ce7-d07973cb8503",
+  "label": "Distinct-relata dependence-to-grounding bridge, from the unrestricted bridge (inference)",
+  "input_statement_ids": [
+    "2e248016-f8bf-5d8a-931e-7f9ebbb13e42"
+  ],
+  "output_statement_id": "a8298fbd-f3c5-480d-95e9-8316889c327f",
+  "rule": "Drop the distinctness hypothesis",
+  "meaning": "Strength order: the unrestricted dependence-to-grounding bridge implies its distinct-relata restriction. The weak version is the one the #1590 grounding-priority route can use without committing D to irreflexivity.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

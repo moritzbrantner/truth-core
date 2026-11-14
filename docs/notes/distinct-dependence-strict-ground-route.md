@@ -241,3 +241,156 @@ existing independence premise only in the local context where it is used.
 - Sense record: disambiguation `23dd6f32-b456-4963-adb3-7befbf0dc4fb`.
   Interpretation, rivals and next tests:
   attempt `1020b663-7fe1-42d2-8b0c-8a767607a1ce`.
+
+## Self-dependence: reflexive requirement versus strict dependence (#1593)
+
+Date: 2026-11-14. Batch spec `specs/reflexive-dependence-scope.toml`; Lean
+vocabulary `TruthCore/Causality/ReflexiveDependenceScope.lean`; results in
+`TruthCore/Results/Causality/ReflexiveDependenceScope/`. Attempt
+`a4d430a0-9711-4d04-b4a5-be385f92e757`.
+
+### The conflict, made exact
+
+`STMT-DISTINCT-BEINGS-NOT-MUTUALLY-DEPENDENT` says nothing about `D(x,x)`;
+`STMT-DEPENDENCE-FOR-BEING-ASYMMETRIC` excludes it. The two share the primitive
+`DependsForBeing`, which has no built-in self-relation law, so the Lean corpus
+contains **no contradiction**. They conflict only under a reflexive reading:
+
+- **Checked:** if `D` is reflexive (new OPEN statement *Everything depends for
+  its being on itself*, `56252cd8`), unrestricted asymmetry fails on every
+  inhabited domain (`reflexiveRefutesAsymmetry`, result `bf6cb784`).
+- **Checked separation:** with `D(x,y) := x = y` on two beings, `D` is reflexive
+  and distinct-nonmutual but not asymmetric; the two-element order on `Bool`
+  (`true` depends on `false`) is in addition transitive and has a distinct edge
+  (`separationModels`, result `0ccf914c`). These models show only that the two
+  premises differ in meaning on the diagonal. They say nothing about which real
+  beings depend on themselves or on each other.
+- **Lake-checked lemma** (`distinctNonmutual_iff_distinctEdge_asymmetric`):
+  distinct nonmutuality is *exactly* asymmetry of the distinct-step part
+  `DistinctEdge D` (reused from the strength module). So the strict reading of
+  the asymmetric premise adds nothing over the distinct premise except the
+  exclusion of self-edges.
+
+Why reflexivity is a live reading rather than a manufactured objection: the
+definition glosses `D(x,y)` as "`x` would not be if `y` were not", including
+impossible antecedents, but "in the sense ST I q.44 a.1 ad 2 gives to an
+effect's relation to its agent cause". On the bare counterfactual clause, apart
+from that qualification, `D(x,x)` is "`x` would not be if `x` were not", an
+instance of the counterfactual identity law (if A were the case, A would be the
+case). The law holds in any selection semantics whose selected worlds satisfy
+the antecedent, impossible-worlds semantics included, so the open question is
+which clause `D` is, not whether the law holds. The agent-cause qualification
+and its paradigm (light on sun) are strict. So the definition read whole
+supports both readings on the diagonal, and neither is built into the Lean
+parameter.
+
+### Sense scope: no new TERM_n
+
+| Reading | Self-relation | Existing representation |
+|---|---|---|
+| (a) non-strict counterfactual existence-requirement | `D(x,x)` holds | `DependsForBeing` plus the OPEN reflexivity statement `56252cd8` |
+| (b) strict dependence | `D(x,x)` fails | for the self case only, `DistinctEdge D` (distinct-step part). Interpreted strict *explanatory* dependence is not separately represented: sense 2 of `23dd6f32` is Fine's formal strict ground on uninterpreted atoms, with no metaphysical reading, and the profile's `grounds` is a parameter joined to `D` only by OPEN bridges. No result here needs it |
+| (c) modal existence entailment | holds; also transitive | `ModalRequiresExistence` (`d7f66ca4`, #1597). Any necessary `y` is required by every `x` (`modal_requirement_of_necessary`), so co-necessary beings require each other |
+
+The self-relation question needs no new sense. On (a) the strict part is a
+*defined* restriction of the same primitive, and the distinct premise is
+already exactly its asymmetry. A genuinely *explanatory* strict relation
+differs in orientation, not only on the diagonal. It is not separately
+represented (the strict-ground sense is uninterpreted, and `grounds` is joined
+to `D` only through OPEN bridges), and no result here uses it. (c) is reflexive and transitive but does not orient. No
+bridge from `D` to (c) is asserted, and none of these relations is made a
+synonym of another.
+
+**Records corrected (paraphrase, note and doc comment only; no Lean type change).** The owning specs `specs/round2-perfection-primacy.toml` and `specs/round2-grounding.toml` carry the new paraphrases, and the doc comment of `DistinctBeingsNotMutuallyDependent` matches.
+`STMT-DISTINCT-BEINGS-NOT-MUTUALLY-DEPENDENT` no longer asserts as fact that
+`D` holds trivially of a thing and itself. It now says the premise is neutral
+on the diagonal. `STMT-DEPENDENCE-FOR-BEING-ASYMMETRIC` now records that it
+presupposes the strict reading. `DEF-DEPENDS-FOR-BEING`'s note records the
+self-relation fork.
+
+### Order laws, tested separately
+
+Each law is a separate premise, and each result uses only the laws it names:
+
+- **Irreflexive priority** from `STMT-PRIORITY-REQUIRES-NONMUTUAL-DEPENDENCE`
+  alone (`priorityIrreflexiveFromRequirement`, result `1ee45a81`). A
+  self-priority would need both `D(x,x)` and `¬D(x,x)`. This works on reading
+  (a) and on reading (b).
+- **Transitive priority** from both OPEN priority bridges plus OPEN
+  transitivity of `D` (new statement `09b88101`;
+  `priorityTransitiveFromDependence`, result `938bfd7f`). Reflexivity and
+  nonmutuality are not used.
+- **Strict part** (lake-checked lemmas). Under the two bridges,
+  `PriorSimply y x ↔ D(x,y) ∧ ¬D(y,x)` (`priority_iff_strictPart`). With
+  reflexivity and distinct nonmutuality, that strict part is exactly
+  `x ≠ y ∧ D(x,y)` (`strictPart_iff_distinctEdge`). So if `D` is reflexive,
+  transitive and distinct-nonmutual, its inverse is a non-strict partial order
+  and priority is its strict part. **This holds only under the two OPEN
+  bridges.**
+- **Controls** (`orderLawControls`, result `a79850a6`):
+  - A reflexive direct-edge chain on `Fin 3` (2→1, 1→0, not 2→0) satisfies
+    distinct nonmutuality and both bridges, but neither `D` nor the priority it
+    induces is transitive. So transitivity of `D` cannot be dropped.
+  - A reflexive, transitive reciprocal pair violates distinct nonmutuality and
+    has an empty strict part.
+
+**Transitivity is not granted by fiat.** `09b88101` is an OPEN claim about `D`
+as DEF-DEPENDS-FOR-BEING defines it; no closure of `D` is typed or meant, and
+all three premises of `938bfd7f` use that one `D`. Challenge: counterfactual
+dependence is not transitive in general (Lewis's logic invalidates
+counterfactual transitivity, which is why Lewis takes causation as the
+ancestral of dependence). Candidate warrant: per se ordered composition, as in
+the Second Way's "the first is the cause of the middle and the middle of the
+last". If `x` has its being only as received through `y`'s own dependence on
+`z`, then `x` depends on `z`. Neither is assessed further here.
+
+### Root connection and #1590
+
+- `STMT-DISTINCT-BEINGS-NOT-MUTUALLY-DEPENDENT` keeps its Lean meaning and its
+  availability on **both** readings. It is the self-relation-neutral premise,
+  so the nine-input support formula is unaffected by the choice.
+  `STMT-DEPENDENCE-FOR-BEING-ASYMMETRIC` is available only on reading (b).
+- **Consumer of the asymmetric premise.** `ACTUAL-GROUNDING-ASYMMETRIC-VIA-DEPENDENCE`
+  can instead use three premises: `STMT-ACTUAL-GROUNDING-IS-DEPENDENCE`, the
+  distinct premise, and irreflexivity of the grounding relation itself
+  (`actualGroundingAsymmetricViaDistinct`). This moves the self case from `D`
+  to `grounds`. The theorem is Comparator-checked through result `d86e618b`'s
+  configuration but **not registered as an argument**. Every new argument
+  concluding `STMT-ACTUAL-GROUNDING-ASYMMETRIC` fails the sense-mixing check:
+  that conclusion record itself links both `WELL_FOUNDEDNESS_AND_ANTI_BRUTE_ROOT_1`
+  (`c86cc1d1`, `GroundAncestor`) and `_2` (`c57e2682`, `ActualRoot`), although
+  neither occurs in its Lean type, and its existing arguments are allowlisted.
+  Registering the sibling first needs that record's sense links corrected.
+- **#1590's first bridge.** `STMT-ACTUAL-DEPENDENCE-IS-GROUNDING` has no
+  distinctness condition. On reading (a) it makes every actual concretum ground
+  itself (`reflexiveDependenceForcesSelfGrounding`, result `d86e618b`). With
+  irreflexive actual grounding, or with `STMT-ACTUAL-GROUNDING-IS-SIMPLE-PRIORITY`
+  plus irreflexive priority, that contradicts the existence of any actual
+  concretum. The #1590 route `D → grounds → PriorSimply` therefore needs either
+  reading (b) or the new distinct-relata sibling `a8298fbd`. That sibling is
+  proved from the unrestricted bridge (result `cc7dd608`), and the `strengthens`
+  relation records the order. `truth check` now warns that seven existing
+  consumers of the unrestricted bridge do not record why they need the strong
+  version. Several of them apply it only to distinct relata (for example via
+  `EsseEffectDependsOnItsCause`, which has `c ≠ x`), and moving them to the weak
+  sibling is a follow-up.
+
+**Computed frontier delta** (`truth frontier-diff --base origin/main`):
+- Open premises reaching the root stay at 476 (339 bare).
+- `STMT-SIMPLE-PRIORITY-IS-TRANSITIVE` moves from bare to the conclusion of a
+  verified argument from open premises. It is not established.
+- The new bare transitivity premise `09b88101` takes its place.
+- Verified support alternatives gain one (457 → 458 against merge base `692dfa9d`).
+- No premise is established.
+
+### Provisional judgment
+
+The conflict was a scope ambiguity, not a refutation of either premise. The
+distinct premise is the right shared input on both readings. The unrestricted
+asymmetric premise is acceptable only as a strict-reading premise, and its one
+root consumer can avoid it by moving the self case to grounding. What would
+revise this:
+- a semantics for `D` that rejects the counterfactual identity law for
+  existence, which would remove the reflexive reading; or
+- a consumer that needs irreflexive `D` itself and cannot move the self case
+  to its own relation.

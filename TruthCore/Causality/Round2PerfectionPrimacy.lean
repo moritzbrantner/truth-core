@@ -109,8 +109,10 @@ def PerfectionCausingInAnotherIsEfficient (CausesIn EfficientlyCausesIn : B → 
 
 /-- No two distinct things depend for their being on each other (*In V
 Metaph.* lect. 13 n. 18: *priora non dependent a posterioribus, sicut e
-converso*). Restricted to distinct things because DependsForBeing, read
-counterfactually, holds trivially of a thing and itself. -/
+converso*). Restricted to distinct things so that it is neutral on
+self-dependence: on the bare counterfactual clause, apart from its agent-cause
+qualification, DependsForBeing holds of a thing and itself; on a strict reading
+it does not (#1593). -/
 def DistinctBeingsNotMutuallyDependent (DependsForBeing : B → B → Prop) : Prop :=
   ∀ x y, x ≠ y → DependsForBeing x y → ¬ DependsForBeing y x
 

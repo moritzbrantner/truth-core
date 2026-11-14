@@ -1,0 +1,11 @@
+{
+  "id": "a79850a6-0a21-4a4d-afe7-df52e8df0a0d",
+  "label": "Order-law controls for dependence and the priority bridges, checked",
+  "argument_id": "10dec778-cce5-4de0-97e6-310bccbd2905",
+  "challenge_module": "TruthCore.Results.Causality.ReflexiveDependenceScope.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ReflexiveDependenceScope.Solution",
+  "theorem": "TruthCore.Results.Causality.ReflexiveDependenceScope.orderLawControls",
+  "comparator_config": "results/a79850a6-0a21-4a4d-afe7-df52e8df0a0d/comparator.json",
+  "status": "solution-present",
+  "description": "The direct-edge chain satisfies reflexivity, distinct nonmutuality and both priority bridges, yet D and the priority it induces are not transitive, so the transitivity premise of the priority-transitivity argument cannot be dropped. The reciprocal pair is reflexive and transitive but not distinct-nonmutual, and the bridges then give no priority between its members. Formal interpretations only."
+}

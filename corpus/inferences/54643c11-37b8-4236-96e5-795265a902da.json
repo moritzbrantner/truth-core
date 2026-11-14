@@ -1,0 +1,10 @@
+{
+  "id": "54643c11-37b8-4236-96e5-795265a902da",
+  "label": "Order-law controls for dependence and the priority bridges, checked (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "8da45a70-8cdc-4bbc-85c4-55e2ceddd126",
+  "rule": "Decide the Fin 3 chain and the Fin 2 reciprocal pair",
+  "meaning": "The direct-edge chain satisfies reflexivity, distinct nonmutuality and both priority bridges, yet D and the priority it induces are not transitive, so the transitivity premise of the priority-transitivity argument cannot be dropped. The reciprocal pair is reflexive and transitive but not distinct-nonmutual, and the bridges then give no priority between its members. Formal interpretations only.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

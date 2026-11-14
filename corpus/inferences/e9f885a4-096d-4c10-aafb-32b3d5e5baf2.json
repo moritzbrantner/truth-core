@@ -1,0 +1,15 @@
+{
+  "id": "e9f885a4-096d-4c10-aafb-32b3d5e5baf2",
+  "label": "Act is SIMPLY_PRIOR_1 to POTENCY_2 at a first being, from esse-cause priority (inference)",
+  "input_statement_ids": [
+    "8288ff1e-d534-4516-ac2d-8d010cb863ac",
+    "3d99779b-b44a-4daa-a873-8ccdd3c034ae",
+    "ca07cae9-6102-564e-a7fd-efb013744b3d",
+    "ee74c678-0a06-47d3-9c76-27ff798e9a01"
+  ],
+  "output_statement_id": "61ad11f3-476f-411d-9720-d9f05cbc22fc",
+  "rule": "Reductio at the supposed first being, as in firstBeingNoPotencyOfEssePriority; the first-being version then holds vacuously",
+  "meaning": "The first-being version of act priority from the same four premises: by firstBeingNoPotencyOfEssePriority a first being is in potency in no respect, so the first-being version holds vacuously. The sibling of weakOfComposition without the cause-to-efficient-cause bridge and efficient-cause priority. Conditional consequence only; no premise is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
