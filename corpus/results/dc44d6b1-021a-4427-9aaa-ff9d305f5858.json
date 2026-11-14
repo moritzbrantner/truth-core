@@ -1,0 +1,11 @@
+{
+  "id": "dc44d6b1-021a-4427-9aaa-ff9d305f5858",
+  "label": "Restricted and complete-description possibility transfer checked",
+  "argument_id": "4f637169-7df9-4be0-bb5c-d8bfde8f4c41",
+  "challenge_module": "TruthCore.Results.Modal.InitialHistoryTransfer1588.Challenge",
+  "solution_module": "TruthCore.Results.Modal.InitialHistoryTransfer1588.Solution",
+  "theorem": "TruthCore.Results.Modal.InitialHistoryTransfer1588.transferRefinement",
+  "comparator_config": "results/dc44d6b1-021a-4427-9aaa-ff9d305f5858/comparator.json",
+  "status": "solution-present",
+  "description": "Refines the #438 all-predicate law: one description needs only inclusion on its own witnesses, and a complete description needs exactly one access edge. Full IncludedAt remains exact only for transfer of every predicate. Establishes no possibility claim about actual histories."
+}

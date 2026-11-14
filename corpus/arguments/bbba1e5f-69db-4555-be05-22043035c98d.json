@@ -1,0 +1,18 @@
+{
+  "id": "bbba1e5f-69db-4555-be05-22043035c98d",
+  "label": "Rigid initial profile, bearer omission and transfer triad checked",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "77a76499-f2df-467f-b685-919f8b110d89",
+  "inference_ids": [
+    "f19cc31c-659c-4cae-8d4b-9650f181a9fa"
+  ],
+  "meaning": "Incompatible triad: under the rigid M profile any conceived history without the actual initial bearer is M-inadmissible, so a conceivability-based case for its possibility must supply restricted inclusion, which the rigid profile denies. Conditional on internal hypotheses; neither refutes fixed-history necessity nor establishes it.",
+  "definition_ids": [
+    "7c9bfc4c-dfb3-4f13-b0f8-e2a1ab0dc505",
+    "9f7c8d83-3d48-4c57-b5bb-625b01bedc51",
+    "978b9b69-3707-52e4-9205-127e9a5ebe77"
+  ],
+  "disambiguation_ids": [
+    "da25d281-9924-559c-bb21-0c3f9de50011"
+  ]
+}

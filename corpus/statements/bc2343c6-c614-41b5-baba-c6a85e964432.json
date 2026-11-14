@@ -1,0 +1,14 @@
+{
+  "id": "bc2343c6-c614-41b5-baba-c6a85e964432",
+  "label": "Rigid initial profile with full inclusion gives an E-necessary initial bearer",
+  "paraphrase": "For every typed history profile with M as its frame, every E frame and selected world a: if the profile is rigid at a and every E-successor of a is an M-successor, then some bearer initial at a exists at every E-successor of a. Composes the #535 propagation with the #438 box-transfer law. Analyst formulation, attribution deferred.",
+  "lean_declaration": "TruthCore.Modal.InitialHistoryTransfer1588.RigidInclusionNecessity",
+  "definition_ids": [
+    "7c9bfc4c-dfb3-4f13-b0f8-e2a1ab0dc505",
+    "9f7c8d83-3d48-4c57-b5bb-625b01bedc51",
+    "978b9b69-3707-52e4-9205-127e9a5ebe77"
+  ],
+  "disambiguation_ids": [
+    "da25d281-9924-559c-bb21-0c3f9de50011"
+  ]
+}

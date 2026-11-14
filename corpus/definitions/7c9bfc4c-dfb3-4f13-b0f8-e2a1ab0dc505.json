@@ -1,0 +1,9 @@
+{
+  "id": "7c9bfc4c-dfb3-4f13-b0f8-e2a1ab0dc505",
+  "label": "Initial history transfer 1588 restricted inclusion and alternative-start descriptions",
+  "term": "restricted epistemic-to-metaphysical inclusion for alternative initial histories",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Modal.InitialHistoryTransfer1588.IncludedOn",
+  "definition": "IncludedOn E M P w: every E-successor of w that satisfies P is an M-successor of w; pointwise, not a modal axiom, and weaker than IncludedAt E M w. AltBearer h b holds at a candidate history where the selected initial bearer b does not exist; AltType h a holds where the selected initial description differs from a's. Worlds are candidate history descriptions of FixedInitial535.History; E is a supplied epistemic admission frame and the history's own frame is the stipulated metaphysical (M) profile. In the finite model, rigidAccess admits exactly the histories with the same selected initial bearer (strong rigid reading), descAccess exactly those with the same initial description (weaker qualitative reading), and epistemic4 all four candidates.",
+  "note": "Analyst formulation, attribution deferred. Reuses DEF two-relation possibility (978b9b69) and the #535 history profile (9f7c8d83). OPEN: whether any supplied E profile matches actual epistemic or conceivability standards; whether either finite M profile matches metaphysical possibility; temporal firstness, naturalness and objective chance are not encoded. See docs/notes/fixed-initial-history-535.md, section on issue 1588."
+}

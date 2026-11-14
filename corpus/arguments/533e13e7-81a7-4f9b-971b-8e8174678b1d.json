@@ -1,0 +1,18 @@
+{
+  "id": "533e13e7-81a7-4f9b-971b-8e8174678b1d",
+  "label": "Rigid initial profile with full inclusion E-necessity checked",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "bc2343c6-c614-41b5-baba-c6a85e964432",
+  "inference_ids": [
+    "cfb73e8b-248a-4297-a16d-df30dce1fb20"
+  ],
+  "meaning": "If the transfer inclusion is granted together with the rigid profile, the actual initial bearer is present in every E-admitted history: granting inclusion does not by itself remove fixed-history necessity. The inclusion premise, not conceivability alone, carries the comparison.",
+  "definition_ids": [
+    "7c9bfc4c-dfb3-4f13-b0f8-e2a1ab0dc505",
+    "9f7c8d83-3d48-4c57-b5bb-625b01bedc51",
+    "978b9b69-3707-52e4-9205-127e9a5ebe77"
+  ],
+  "disambiguation_ids": [
+    "da25d281-9924-559c-bb21-0c3f9de50011"
+  ]
+}

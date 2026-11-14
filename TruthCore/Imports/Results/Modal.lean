@@ -34,6 +34,7 @@ public import TruthCore.Results.Modal.GraphBridge.Solution
 public import TruthCore.Results.Modal.GraphBridgeCertificate.Solution
 public import TruthCore.Results.Modal.HistoryContrastive.Solution
 public import TruthCore.Results.Modal.HistoryTimeScope.Solution
+public import TruthCore.Results.Modal.InitialHistoryTransfer1588.Solution
 public import TruthCore.Results.Modal.K.Countermodels.Solution
 public import TruthCore.Results.Modal.K.Extensionality.Solution
 public import TruthCore.Results.Modal.K.Laws.Solution

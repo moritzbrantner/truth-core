@@ -1,0 +1,13 @@
+{
+  "id": "5905c54b-e83b-4254-9688-f33874b54c58",
+  "label": "Restricted and complete-description possibility transfer",
+  "paraphrase": "For every candidate-description carrier, frames E and M, description P and origin w: if every E-successor of w satisfying P is an M-successor, then E-possibility of P at w yields M-possibility of P at w. For a complete description naming one candidate v, diamond transfer from E to M is equivalent to the single inclusion of the E-edge from w to v in M. Analyst formulation, attribution deferred; no claim about which profile is metaphysically adequate.",
+  "lean_declaration": "TruthCore.Modal.InitialHistoryTransfer1588.TransferRefinement",
+  "definition_ids": [
+    "7c9bfc4c-dfb3-4f13-b0f8-e2a1ab0dc505",
+    "978b9b69-3707-52e4-9205-127e9a5ebe77"
+  ],
+  "disambiguation_ids": [
+    "da25d281-9924-559c-bb21-0c3f9de50011"
+  ]
+}

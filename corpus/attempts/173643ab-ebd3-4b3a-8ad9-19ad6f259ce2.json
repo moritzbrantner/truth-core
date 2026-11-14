@@ -1,0 +1,21 @@
+{
+  "id": "173643ab-ebd3-4b3a-8ad9-19ad6f259ce2",
+  "label": "Fixed initial history and possibility transfer: inclusion edge and frugality assessed",
+  "date": "2026-11-14",
+  "statement_ids": [
+    "22fceba9-3b18-5924-956a-05cc311beba6",
+    "83f5fb38-7357-51dd-82ee-f167aac59758",
+    "b19ffd92-01bd-5c0b-9643-e7407137ea5e",
+    "8aeca775-935a-5f72-bf4a-04fecc8b4c24"
+  ],
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Composed FixedInitial535 History with PossibilityTransfer. Four-history equivalence-frame model: a same-description, different-initial-bearer history and a different-description history are E-possible but not M-possible under the rigid reading; the qualitative reading admits bearer omission and gives no necessary bearer. Restricted inclusion on one description's witnesses suffices for its transfer and is strictly weaker than full inclusion; for a complete history description transfer is equivalent to one access edge. Rigid preservation, an E-admissible bearer omission and restricted inclusion are jointly inconsistent; rigid plus full inclusion makes the initial bearer E-necessary. Re-read pinned Oppy 2020 §I p.14 (strong sentence) and §VI pp.19-20 (case-wise de dicto / this initial state / part-or-aspect readings). Frugality (Oppy 2013, navigation only) is a comparative theory-choice reason, not a definitional exclusion; its force needs an unsupplied rule counting possibilities rather than necessities as commitments, and against theism Oppy's own §VI supports parity. Practice treating initial conditions as explanatory targets supports E-admissibility only. Rejected: conceivability alone refutes fixed history; origin essentialism forces or forbids alternative starts. Full assessment in docs/notes/fixed-initial-history-535.md, section Issue #1588.",
+  "blocker": "No warranted account of metaphysical access for initial histories: the restricted inclusion for bearer-omitting histories is the discriminating premise and remains open; Oppy's part-or-aspect case needs its own inclusion edge; no accounting rule for modal commitments is defended. Independent semantic challenge pending.",
+  "evidence": [
+    "dc44d6b1-021a-4427-9aaa-ff9d305f5858",
+    "f2fb11be-5bde-4c6f-a894-c60a1dcf3052",
+    "33f9dfc9-4ad3-4fc9-8dea-991b958f843f",
+    "ea476f80-caae-431c-8205-328d57441bd7"
+  ]
+}

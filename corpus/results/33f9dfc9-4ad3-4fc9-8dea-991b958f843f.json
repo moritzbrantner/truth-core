@@ -1,0 +1,11 @@
+{
+  "id": "33f9dfc9-4ad3-4fc9-8dea-991b958f843f",
+  "label": "Rigid initial profile with full inclusion E-necessity checked",
+  "argument_id": "533e13e7-81a7-4f9b-971b-8e8174678b1d",
+  "challenge_module": "TruthCore.Results.Modal.InitialHistoryTransfer1588.Challenge",
+  "solution_module": "TruthCore.Results.Modal.InitialHistoryTransfer1588.Solution",
+  "theorem": "TruthCore.Results.Modal.InitialHistoryTransfer1588.rigidInclusionNecessity",
+  "comparator_config": "results/33f9dfc9-4ad3-4fc9-8dea-991b958f843f/comparator.json",
+  "status": "solution-present",
+  "description": "If the transfer inclusion is granted together with the rigid profile, the actual initial bearer is present in every E-admitted history: granting inclusion does not by itself remove fixed-history necessity. The inclusion premise, not conceivability alone, carries the comparison."
+}
