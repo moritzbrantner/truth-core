@@ -1,0 +1,13 @@
+{
+  "id": "7d76692c-52f9-4db0-bddb-2cba97d3565e",
+  "label": "One-sided third-factor bound on wrongly endorsed acts (inference)",
+  "input_statement_ids": [
+    "f139a251-8541-4a55-bebd-2ed0cca5fbda",
+    "a4b93fdd-7947-4f75-818c-26388da488dc"
+  ],
+  "output_statement_id": "822218cd-5642-443a-b719-b6050b8c60e3",
+  "rule": "Inclusion {B ∧ ¬M} ⊆ {B ∧ ¬F} ∪ {F ∧ ¬M} by case analysis on F, and measure subadditivity",
+  "meaning": "The strongest quantified form of Enoch's modest correlation available from his one-direction premise: what selection disposes us to endorse is mostly backed by a reason, with wrongly endorsed acts at most d1 + d2, and no independence assumed. It uses only the factor-without-reason direction the pro tanto goodness of survival bears on, and says nothing about reasons B fails to endorse. Both rates are open inputs; nothing is derived about their values.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

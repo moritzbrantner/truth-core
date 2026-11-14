@@ -22,7 +22,10 @@ One common distribution `μ` of cases is fixed. On each case `ω`:
 gap. The union bound below needs no independence: it rests on the inclusion
 `{B ≠ M} ⊆ {B ≠ F} ∪ {F ≠ M}`. The rates `e₁`, `e₂` are inputs. Their empirical
 and normative calibration is open: the premise that survival is pro tanto good
-does not bound `e₂` for categorical, impartial or all-things-considered verdicts.
+does not bound `e₂` for categorical, impartial or all-things-considered verdicts,
+nor the reverse direction of the pro tanto gap (cases where `F` fails and a pro
+tanto reason holds anyway). At most it bears on the one-way part
+`{F ∧ ¬M}`; the one-sided bound below uses only that part.
 The finite models on `Fin 4` are stipulated comparison models; their truth
 values are not claims about actual moral truths.
 -/
@@ -73,6 +76,28 @@ def BinaryErrorAccounting : Prop :=
     (IsFiniteMeasure μ →
       (μ (disagree B M) = μ (disagree B F) + μ (disagree F M) ↔
         μ (disagree B F ∩ disagree F M) = 0))
+
+/-- Cases where the first binary assignment endorses and the second does not. -/
+def endorsedNot {Ω : Type} (X Y : Ω → Bool) : Set Ω := {ω | X ω = true ∧ Y ω = false}
+
+/-- OPEN input: selection endorses an act the factor does not favour in a set of
+cases of measure at most `d₁`. -/
+def EndorsedAgainstFactorAtMost {Ω : Type} [MeasurableSpace Ω] (μ : Measure Ω)
+    (B F : Ω → Bool) (d₁ : ℝ≥0∞) : Prop :=
+  μ (endorsedNot B F) ≤ d₁
+
+/-- OPEN input: the factor favours an act that has no reason of the fixed
+verdict type in a set of cases of measure at most `d₂` (the only direction a
+pro tanto goodness of survival bears on). -/
+def FactorWithoutReasonAtMost {Ω : Type} [MeasurableSpace Ω] (μ : Measure Ω)
+    (F M : Ω → Bool) (d₂ : ℝ≥0∞) : Prop :=
+  μ (endorsedNot F M) ≤ d₂
+
+/-- The selected-for judgment endorses an act that has no reason of the fixed
+verdict type in a set of cases of measure at most `d`. -/
+def EndorsedWithoutReasonAtMost {Ω : Type} [MeasurableSpace Ω] (μ : Measure Ω)
+    (B M : Ω → Bool) (d : ℝ≥0∞) : Prop :=
+  μ (endorsedNot B M) ≤ d
 
 /-- An aggregate gap does not bound a subclass gap beyond dilution: conditioning
 on a measurable class `S` of cases (for example impartial hard cases) gives a

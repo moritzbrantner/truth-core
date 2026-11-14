@@ -14,7 +14,7 @@ disambiguations = ["1ea78c11-3346-5546-8da6-d1e1afb89834"]
 [[statement]]
 id = "The third factor differs from the matching normative truth in at most an e2 share of cases"
 lean = "FactorTruthGapAtMost"
-paraphrase = "OPEN analyst premise for #1586, attribution deferred. On the same distribution, the survival/goods factor F differs from the normative truth M about the same acts, under one fixed verdict type, in a set of cases of measure at most e2. This is the quantity Enoch's third-factor reply needs to be small. His premise that survival is pro tanto good does not bound it for all-things-considered or impartial verdicts; no value of e2 is supplied, and its normative and empirical calibration is open."
+paraphrase = "OPEN analyst premise for #1586, attribution deferred. On the same distribution, the survival/goods factor F differs from the normative truth M about the same acts, under one fixed verdict type, in a set of cases of measure at most e2. A small e2 is what a two-sided third-factor correlation needs. His premise that survival is pro tanto good does not bound it for all-things-considered or impartial verdicts, nor the reverse direction of the pro tanto gap (cases where F fails and a pro tanto reason holds anyway); at most it bears on the cases where F holds and no reason does, and even that part only qualifiedly, since survival is not always good. No value of e2 is supplied, and its normative and empirical calibration is open."
 definitions = ["d4c61290-6c30-4fc3-97db-966bae5802c5", "40a94f44-75f6-48f2-b878-68ea03dcc809", "daa6a2fe-5251-56b4-b808-cc21ce759a03"]
 disambiguations = ["1ea78c11-3346-5546-8da6-d1e1afb89834"]
 
@@ -33,6 +33,35 @@ premises = ["Selected-for judgment differs from the third factor in at most an e
 conclusion = "Selected-for judgment matches the normative truth except in at most an e share of cases"
 rule = "Error-set inclusion {B ≠ M} ⊆ {B ≠ F} ∪ {F ≠ M}, measure subadditivity, and complement in a probability measure"
 meaning = "For any measure on cases and verdicts of any type, a selection error at most e1 and a factor/truth gap at most e2 on the same distribution give a judgment/truth error at most e1 + e2, hence agreement at least 1 − e1 − e2 for a probability measure. No independence between the two errors is assumed. Analyst quantification of the correlation Enoch's third-factor reply proposes to explain; both rates are open inputs, and nothing is derived about their values, any single case, another distribution or another verdict type."
+
+[[statement]]
+id = "Selection endorses an act the third factor does not favour in at most a d1 share of cases"
+lean = "EndorsedAgainstFactorAtMost"
+paraphrase = "OPEN analyst premise for #1586, attribution deferred. On one specified distribution of cases, the selected-for binary judgment B endorses an act that the survival/goods factor F does not favour in a set of cases of measure at most d1. No value of d1 is supplied; its empirical calibration is open."
+definitions = ["d4c61290-6c30-4fc3-97db-966bae5802c5", "daa6a2fe-5251-56b4-b808-cc21ce759a03"]
+disambiguations = ["1ea78c11-3346-5546-8da6-d1e1afb89834"]
+
+[[statement]]
+id = "The third factor favours an act lacking a reason of the fixed verdict type in at most a d2 share"
+lean = "FactorWithoutReasonAtMost"
+paraphrase = "OPEN analyst premise for #1586, attribution deferred. On the same distribution, the survival/goods factor F favours an act for which the normative truth M, under one fixed verdict type, gives no reason, in a set of cases of measure at most d2. This one-way part is the only direction Enoch's qualified premise that survival is pro tanto good bears on, and only qualifiedly, since survival is not always good. No value of d2 is supplied; its normative and empirical calibration is open."
+definitions = ["d4c61290-6c30-4fc3-97db-966bae5802c5", "40a94f44-75f6-48f2-b878-68ea03dcc809", "daa6a2fe-5251-56b4-b808-cc21ce759a03"]
+disambiguations = ["1ea78c11-3346-5546-8da6-d1e1afb89834"]
+
+[[statement]]
+id = "Selection endorses an act lacking a reason of the fixed verdict type in at most a d share"
+lean = "EndorsedWithoutReasonAtMost"
+paraphrase = "On one distribution of cases, the selected-for binary judgment B endorses an act for which the normative truth M, under one fixed verdict type, gives no reason, in a set of cases of measure at most d. This bounds only wrongly endorsed acts: it says nothing about acts that have a reason which B fails to endorse, nor about any single case, other distribution or other verdict type."
+definitions = ["d4c61290-6c30-4fc3-97db-966bae5802c5"]
+
+[[argument]]
+id = "One-sided third-factor bound on wrongly endorsed acts"
+theorem = "oneSidedThirdFactorBound"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = ["Selection endorses an act the third factor does not favour in at most a d1 share of cases", "The third factor favours an act lacking a reason of the fixed verdict type in at most a d2 share"]
+conclusion = "Selection endorses an act lacking a reason of the fixed verdict type in at most a d share"
+rule = "Inclusion {B ∧ ¬M} ⊆ {B ∧ ¬F} ∪ {F ∧ ¬M} by case analysis on F, and measure subadditivity"
+meaning = "The strongest quantified form of Enoch's modest correlation available from his one-direction premise: what selection disposes us to endorse is mostly backed by a reason, with wrongly endorsed acts at most d1 + d2, and no independence assumed. It uses only the factor-without-reason direction the pro tanto goodness of survival bears on, and says nothing about reasons B fails to endorse. Both rates are open inputs; nothing is derived about their values."
 
 [[statement]]
 id = "Binary verdict errors cancel: judgment/truth error is the two error rates minus twice their overlap"

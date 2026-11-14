@@ -39,6 +39,21 @@ theorem thirdFactorUnionBound {Ω V : Type} [MeasurableSpace Ω] (μ : Measure �
   rw [agree_compl, prob_compl_eq_one_sub hd]
   exact tsub_le_tsub_left hle 1
 
+/-- One-sided third-factor bound: a wrongly endorsed act is endorsed against the
+factor or favoured by the factor without a reason. No independence. -/
+theorem oneSidedThirdFactorBound {Ω : Type} [MeasurableSpace Ω] (μ : Measure Ω)
+    (B F M : Ω → Bool) (d₁ d₂ : ℝ≥0∞) :
+    EndorsedAgainstFactorAtMost μ B F d₁ →
+    FactorWithoutReasonAtMost μ F M d₂ →
+    EndorsedWithoutReasonAtMost μ B M (d₁ + d₂) := by
+  intro h₁ h₂
+  have hsub : endorsedNot B M ⊆ endorsedNot B F ∪ endorsedNot F M := by
+    intro ω ⟨hB, hM⟩
+    cases hF : F ω
+    · exact Or.inl ⟨hB, hF⟩
+    · exact Or.inr ⟨hF, hM⟩
+  exact (measure_mono hsub).trans ((measure_union_le _ _).trans (add_le_add h₁ h₂))
+
 private theorem disagree_bool {Ω : Type} (B F M : Ω → Bool) :
     disagree B M = symmDiff (disagree B F) (disagree F M) := by
   ext ω

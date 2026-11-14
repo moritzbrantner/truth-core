@@ -18,6 +18,15 @@ theorem thirdFactorUnionBound {Ω V : Type} [MeasurableSpace Ω] (μ : Measure �
     JudgmentTruthAgreementAtLeast μ B M (e₁ + e₂) := by
   sorry
 
+/-- One-sided third-factor bound: a wrongly endorsed act is endorsed against the
+factor or favoured by the factor without a reason. No independence. -/
+theorem oneSidedThirdFactorBound {Ω : Type} [MeasurableSpace Ω] (μ : Measure Ω)
+    (B F M : Ω → Bool) (d₁ d₂ : ℝ≥0∞) :
+    EndorsedAgainstFactorAtMost μ B F d₁ →
+    FactorWithoutReasonAtMost μ F M d₂ →
+    EndorsedWithoutReasonAtMost μ B M (d₁ + d₂) := by
+  sorry
+
 /-- Exact binary error accounting: two errors cancel. -/
 theorem binaryErrorAccounting : BinaryErrorAccounting := by
   sorry

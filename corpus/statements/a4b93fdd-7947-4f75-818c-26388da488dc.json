@@ -1,0 +1,14 @@
+{
+  "id": "a4b93fdd-7947-4f75-818c-26388da488dc",
+  "label": "The third factor favours an act lacking a reason of the fixed verdict type in at most a d2 share",
+  "paraphrase": "OPEN analyst premise for #1586, attribution deferred. On the same distribution, the survival/goods factor F favours an act for which the normative truth M, under one fixed verdict type, gives no reason, in a set of cases of measure at most d2. This one-way part is the only direction Enoch's qualified premise that survival is pro tanto good bears on, and only qualifiedly, since survival is not always good. No value of d2 is supplied; its normative and empirical calibration is open.",
+  "lean_declaration": "TruthCore.Logic.ThirdFactorTracking.FactorWithoutReasonAtMost",
+  "definition_ids": [
+    "d4c61290-6c30-4fc3-97db-966bae5802c5",
+    "40a94f44-75f6-48f2-b878-68ea03dcc809",
+    "daa6a2fe-5251-56b4-b808-cc21ce759a03"
+  ],
+  "disambiguation_ids": [
+    "1ea78c11-3346-5546-8da6-d1e1afb89834"
+  ]
+}
