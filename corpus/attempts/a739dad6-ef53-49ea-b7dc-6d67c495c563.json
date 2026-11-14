@@ -1,0 +1,25 @@
+{
+  "id": "a739dad6-ef53-49ea-b7dc-6d67c495c563",
+  "label": "Originating versus sustaining dependence: the remaining H perfection-transfer cut",
+  "date": "2026-11-14",
+  "statement_ids": [
+    "a8298fbd-f3c5-480d-95e9-8316889c327f",
+    "c0d99549-799c-5a01-9b59-75fe88550b26",
+    "47b151ca-f500-5a7c-80d4-33bb90247ee3",
+    "d0b76fb9-5374-5cbf-93b6-2b5444dab441",
+    "cffad050-e86d-48b8-b04b-be47fcc1352d",
+    "4c79298d-ee09-5e99-9ced-1be92c19b4cc",
+    "da3facd6-008e-5e76-92fa-677350c2dfdb"
+  ],
+  "kind": "reading",
+  "outcome": "succeeded",
+  "summary": "Research-only, sourceRevision 4fffde08bae5fe5120a3ed7bebd072512cbe757a; no Lean theorem or registered argument added. A least-fixpoint graph replay over 2,102 registered solution-present argument/result rules offered all terminal inputs except separability 8ab3d114, unrestricted grounding 2e248016 and all-respects efficient dependence c0d99549, plus a8298fbd directly. On this conditional terminal basis G derives, H does not; restoring c0d restores H. With many additional background premises held fixed, a selected H dependency is c0d -> 47b151ca -> d0b76fb9 -> cffad050 -> 4c79298d -> H: perfection-transfer rather than merely the efficient-priority E bypassed in #1624. These arrows are NOT unary entailments. Direct existing d0b or cffad050 makes H graph-reachable but leaves it OPEN. Hypothetical narrower replacement EsseSourceNotReceivedInEffect := forall c x, c != x -> CausesIn c x esse -> not ReceivedIn c esse x, with five unchanged OPEN premises 4ccb319f, a9036c3c, cdb79aa6, 39a4c28c, 7030af77, gives the same cffad050 by the existing causeOfBeingMoreInBeing proof pattern. One unregistered hypothetical sibling rule restores H in the graph-only test. A more explanatory source for the narrower anti-reception premise is hDepEsse (EfficientlyCausesIn c x esse -> D_esse x c) together with selected-sense hAsym (0f49d71e), hHaverEsse (3e890700 restricted to esse) and hEffEsse (e0088de9 restricted to esse). The efficientCauseNotDependent/causePerfectionNotReceivedInEffect proof pattern yields anti-reception at esse; no self-causation premise is necessary because distinctness is already assumed. This remains an unverified proof-shape, not metaphysical warrant. A two-being table takes an originator parent p and child k, stipulates an abstract contemporary per-se sustaining edge k -> p (NOT an inference from actual biological care), and sets D_sust(p,k) with selected causal grounds and priority k -> p. It satisfies the restricted efficient-sustaining-dependence bridge and nonmutual/ground/priority conditions yet falsifies all-respects 47b151ca. The Python relational check used an isomorphic second-respect label care, but the renamed abstract valuation is purely STRUCTURAL: neither a full H model nor evidence of metaphysical possibility. Source q.44 a.1 ad 2 was already registered as SUPPORTS c0d rather than entails it; q.104 a.1 distinguishes becoming from being, direct per-se preservation from merely preventing corruption, without ruling out mediated sustenance (q.104 a.2). The novel result is the H perfection cut and scoped alternate proof shape, not a new source-attribution objection.",
+  "blocker": "OPEN senses: Profile.grounds has no causal-explanatory/constitutive declaration and DependsForBeing no originating/sustaining declaration. Neither actualness, asymmetry nor well-foundedness is automatic. The sun/light illustrates an illumination state, not necessarily a concrete being. Contemporary per-se esse-giving must be distinguished from origin, and hDepEsse, hAsym, hHaverEsse and hEffEsse need SAME-SENSE warrant. With D_esse interpreted as individual but-for dependence, hypothetical redundant sustaining sources resist hDepEsse even if some current source is needed. Reciprocal or non-well-founded sustaining causation does NOT by itself refute the narrower anti-reception: mutual CausesIn need not imply ReceivedIn of one cause's esse in the other. It instead challenges hAsym and possibly the derived dual MoreIn esse ordering; an anti-reception counterexample needs positive CROSS-RECEPTION. Five preserved reception/rank premises remain OPEN. Schmid-style existential inertia disputes needing any concurrent conserver. Next test: new typed senses, selected bridges and a new sibling Lean anti-reception/MoreIn result with omission and nonvacuity controls; then bind-check, Comparator, NanoDa and frontier-diff. No premise status changed or closure claimed.",
+  "evidence": [
+    "PR-1614",
+    "PR-1624",
+    "3ed36bec-27f4-5c77-93d5-3b6724d65204",
+    "40aefb2e-c9b3-5bb1-8802-96bbc4e2ed83",
+    "da9c82ed-e886-5335-81c3-cebad9b27345"
+  ]
+}
