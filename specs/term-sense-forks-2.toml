@@ -42,7 +42,7 @@ disambiguations = ["DISAMB-UNITING-CAUSE"]
 [[statement]]
 id = "STMT-NOTHING-CAUSES-ITS-OWN-BEING"
 lean = "NothingCausesItsOwnBeing"
-paraphrase = "UNITING-CAUSE_3 (also BECOMING-BEING-CAUSE_3). OPEN analyst premise (attribution deferred): nothing causes its own being (no x with CausesIn x x esse). The esse instance of STMT-NOTHING-CAUSES-ITS-OWN-PERFECTION; unlike that rival it is not refuted by a subject causing its proper accidents (navigation: ST I q.3 a.4 denies that a thing's essential principles suffice for its esse)."
+paraphrase = "UNITING-CAUSE_3 (also BECOMING-BEING-CAUSE_3). OPEN premise: nothing causes its own being (no x with CausesIn x x esse). Stated by De ente c.3 [69874] (Baur/Koch numbering), 'aliqua res seipsam in esse produceret, quod est impossibile' (claim 85857e47). The esse instance of STMT-NOTHING-CAUSES-ITS-OWN-PERFECTION; unlike that rival it is not refuted by a subject causing its proper accidents (navigation: ST I q.3 a.4 denies that a thing's essential principles suffice for its esse)."
 definitions = ["DEF-CAUSE-OF-PERFECTION", "DEF-ESSE"]
 disambiguations = ["DISAMB-UNITING-CAUSE", "DISAMB-CAUSE"]
 
