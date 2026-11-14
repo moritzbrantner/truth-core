@@ -464,8 +464,8 @@ e itself**. That is not automatically the *intrinsic-to-q* horn and does
 not instantiate n.6's self-causation conclusion: n.6 first divides
 sources relative to **q**. Under `OutsideQuiddity(e,q)`, s=e lies on the
 **external-to-q** side, even though s=x may be the first esse-identified
-bearer. **For the new typed predicates this classification is itself an
-explicit bridge**: `OutsideQuiddity(e,q) → ¬OfQuiddity(e,q)`, with both
+bearer. **For the new typed predicates this classification requires an OPEN
+semantic bridge**: `OutsideQuiddity(e,q) → ¬OfQuiddity(e,q)`, with both
 relations using the same sense of *de essentia*. The old model has neither
 predicate, so its horn position is **not** already certified. The strongest
 next test is therefore whether s=e actually gives
