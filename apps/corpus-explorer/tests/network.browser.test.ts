@@ -210,7 +210,9 @@ for (const mobile of [false, true]) {
     await page.waitForURL((location) => location.searchParams.get("hops") === "1");
     const peer = page.locator(`.react-flow__node[data-id="${relation.object}"]`);
     await peer.locator(".network-marker").waitFor();
-    expect(await page.locator('.react-flow__edge[data-id^="relation:"]').count()).toBeGreaterThan(0);
+    // React Flow draws an edge only after measuring both end handles, which can
+    // lag a frame behind the markers themselves.
+    await page.locator('.react-flow__edge[data-id^="relation:"]').first().waitFor({ state: "attached" });
     if (!mobile) {
       await page.locator(`.react-flow__node[data-id="${relation.subject}"]`).hover();
       expect(await peer.locator('.network-marker[data-hover-neighbor="true"]').count()).toBe(1);
@@ -277,17 +279,19 @@ for (const mobile of [false, true]) {
     await activate("Trace support");
     await page.waitForURL((value) => value.searchParams.get("view") === "focus" && value.searchParams.get("layout") === "layered" && value.searchParams.get("dir") === "down" && value.searchParams.get("hops") === "1");
     await page.locator(`.react-flow__node[data-id="${concludingStep.id}"] .graph-node-inference[data-result-checked="true"]`).waitFor();
-    await page.locator(`.react-flow__edge[data-id="${concludingStep.id}->${argument.conclusion}"]`).waitFor();
+    // A layered edge between vertically aligned nodes is a straight line with an
+    // empty bounding box, which Playwright reports as hidden: require presence.
+    await page.locator(`.react-flow__edge[data-id="${concludingStep.id}->${argument.conclusion}"]`).waitFor({ state: "attached" });
     for (const premise of concludingStep.inputs) {
-      await page.locator(`.react-flow__edge[data-id="${premise}->${concludingStep.id}"]`).waitFor();
+      await page.locator(`.react-flow__edge[data-id="${premise}->${concludingStep.id}"]`).waitFor({ state: "attached" });
     }
     if (screenshots) await page.locator(".graph-shell").screenshot({ path: `${screenshots}/${mobile ? "mobile" : "desktop"}-support-journey.png` });
     await page.getByLabel("Support depth").selectOption("2");
     await page.waitForURL((value) => !value.searchParams.has("hops"));
     await activate("P versus ¬P");
     await page.waitForURL((value) => value.searchParams.get("view") === "dispute" && value.searchParams.has("support"));
-    expect(await page.locator('.react-flow__edge[data-id^="opposition:"]').count()).toBeGreaterThan(0);
-    expect(await page.locator('.graph-node-statement[data-recorded-denial="true"], .graph-node-negation').count()).toBeGreaterThan(0);
+    await page.locator('.graph-node-statement[data-recorded-denial="true"], .graph-node-negation').first().waitFor();
+    await page.locator('.react-flow__edge[data-id^="opposition:"]').first().waitFor({ state: "attached" });
     if (screenshots) await page.locator(".graph-shell").screenshot({ path: `${screenshots}/${mobile ? "mobile" : "desktop"}-dispute-journey.png` });
     expect(await page.getByRole("button", { name: "Back to support" }).isVisible()).toBe(true);
 
