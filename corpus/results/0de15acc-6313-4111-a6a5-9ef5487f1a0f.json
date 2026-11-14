@@ -1,0 +1,11 @@
+{
+  "id": "0de15acc-6313-4111-a6a5-9ef5487f1a0f",
+  "label": "Esse-cause priority controls, checked",
+  "argument_id": "d7031082-ccf6-4ea7-b546-2105cc1f18b9",
+  "challenge_module": "TruthCore.Results.Causality.EsseCausePriority.Challenge",
+  "solution_module": "TruthCore.Results.Causality.EsseCausePriority.Solution",
+  "theorem": "TruthCore.Results.Causality.EsseCausePriority.controls",
+  "comparator_config": "results/0de15acc-6313-4111-a6a5-9ef5487f1a0f/comparator.json",
+  "status": "solution-present",
+  "description": "Controls for the esse-cause priority batch: a joint witness of both priority bridges with a nonvacuous esse cause; omission models for each priority bridge and for the caused-esse premise; a joint witness of the scope statements with both bridges; and a model where distinct-esse-cause priority holds while efficient-cause priority on the same relation fails. Model-witnessed facts about these interpretations only; no interpretation is claimed metaphysically possible."
+}

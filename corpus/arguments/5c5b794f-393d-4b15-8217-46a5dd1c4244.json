@@ -1,0 +1,34 @@
+{
+  "id": "5c5b794f-393d-4b15-8217-46a5dd1c4244",
+  "label": "No component is the first being, from esse-cause priority",
+  "premise_statement_ids": [
+    "86f10ec3-3068-5066-8ba1-3c85baeb1a22",
+    "61ad11f3-476f-411d-9720-d9f05cbc22fc",
+    "c6d6379b-6a9b-55b5-a701-3df289dfcca4",
+    "732302a1-f7bf-594d-9a8a-cb4bd00687a7",
+    "ee74c678-0a06-47d3-9c76-27ff798e9a01"
+  ],
+  "conclusion_statement_id": "09c6d5f0-d412-5038-85f9-75fffb935727",
+  "inference_ids": [
+    "3d1f0635-4648-40b7-9b27-4c42d34e48d6"
+  ],
+  "meaning": "noComponentFirstOfWeak with efficient-cause priority replaced by distinct-esse-cause priority. A component supposed first is in potency in some respect or participated. If in potency, act priority at a first being gives a being in act in that respect simply prior to it, which firstness makes the component itself, against non-overlap. If participated, it has a distinct cause of its esse (STMT-PARTICIPATED-ESSE-HAS-DISTINCT-CAUSE, the q.44 a.1 reading in the cause-of-perfection vocabulary), which is simply prior to it, against firstness. One cause-of-perfection relation at esse (CAUSING_AN_EFFECT_3) runs through the participation and priority premises; no passage to efficient causing occurs. That avoidance holds only because STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND, upstream of the esse-cause priority premise, covers every CausesIn … esse instance: if perfection-causing includes non-efficient exemplar or final causes, that bridge inherits the efficient-cause bridge's failure condition in stronger form. It uses the cause-of-being participation statement rather than STMT-PARTICIPATED-HAS-OTHER-CAUSE, whose type has the same body but whose record links the external efficient esse-cause sense (recorded sense-link defect, modal-spine note); that existing record is not changed. Conditional consequence only; no premise is established.",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "25e19d5a-5cdf-5916-a888-f6a0ce970f11",
+    "3ea2762f-1a85-5059-b4e7-d29f192b16b6",
+    "14d30c53-51c2-502d-b009-247dac0421e0",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1",
+    "85f7f569-ab4d-514b-aa2c-cf75171ad105",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8"
+  ],
+  "disambiguation_ids": [
+    "3b0d67c5-59e4-5556-a728-26bd567f0fb1",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "508617ab-cf24-5f3b-a387-64b3991359ec",
+    "54f33165-05df-5205-807a-04154b5fd6ad",
+    "c3c01e92-520e-5358-a58f-0cc7e9c9e6fa"
+  ]
+}
