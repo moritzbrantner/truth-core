@@ -1,0 +1,11 @@
+{
+  "id": "a54d634a-b79a-4c29-9ce8-00475967f49b",
+  "label": "SCG I.22 finite conjunction interpretations",
+  "argument_id": "30885167-ef3c-474e-b41a-4587ef1a422c",
+  "challenge_module": "TruthCore.Results.Aquinas.SummaContraGentiles.Chapter22Conjunction.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.SummaContraGentiles.Chapter22Conjunction.Solution",
+  "theorem": "TruthCore.Results.Aquinas.SummaContraGentiles.Chapter22Conjunction.controls",
+  "comparator_config": "results/a54d634a-b79a-4c29-9ce8-00475967f49b/comparator.json",
+  "status": "solution-present",
+  "description": "The signature has a nonvacuous positive assignment and distinct omission assignments for each source/analyst bridge, self-esse identification, and necessity of the esse; a stable necessary joining of distinct principles is compatible with the encoded first-case bundle of n.4, relative to the modal proxy for n.3's non-necessary conjunction; n.4's second case is not encoded. This controls scope and vacuity only, never metaphysical possibility or premise warrant."
+}
