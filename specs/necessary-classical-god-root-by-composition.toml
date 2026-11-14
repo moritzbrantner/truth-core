@@ -10,6 +10,7 @@
 [batch]
 vocab = "TruthCore.Causality.NecessaryClassicalGodRoot"
 results = "TruthCore.Results.Causality.NecessaryClassicalGodRootByComposition"
+disambiguations = ["DISAMB-POTENCY"]
 
 [[argument]]
 id = "NECESSARY_2 classical GOD_4 root from the underived root, PURE_ACT_1 by composition"

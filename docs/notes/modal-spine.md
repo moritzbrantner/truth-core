@@ -853,8 +853,9 @@ All new premises are open analyst formulations; nothing is closed.
   - Comparison. Every registered derivation of 61ad11f3 except the strength
     order from 3b2d2d46 already consumes 3d99779b or d8024a38, plus ca07cae9,
     e0088de9, e078f07b and 8288ff1e (or ca55ed3a with d017b6b0). Against those
-    supports the sibling uses a subset of the commitments at this step.
-    Against direct acceptance of 61ad11f3 it is an alternative bundle: a
+    supports the sibling uses a subset of the commitments at this step:
+    literally against ae809bfd, and against 15fce38f up to the strength order
+    4b6d0b59 (3d99779b strengthens d8024a38). Against direct acceptance of 61ad11f3 it is an alternative bundle: a
     general principle with ordinary instances, in place of a first-being
     principle with none.
   - Semantic burden. d8024a38 is plausible only when `InPotency` is the
@@ -867,18 +868,34 @@ All new premises are open analyst formulations; nothing is closed.
     item cannot be both the determinate actuality and the undetermined
     receptive principle, so they are two principles of one thing. q.3 a.7
     quarto gives only the other direction (see
-    [composition-causal-scope](composition-causal-scope.md)).
+    [composition-causal-scope](composition-causal-scope.md)). d8024a38,
+    3d99779b and the argument link DISAMB-POTENCY (508617ab), which separates
+    passive potency from receptive potency that coexists with possession
+    (RECEPTIVE_POTENCY_5), from abilities and from powers. Dropping c6d6379b
+    also drops same-respect non-overlap, so readings on which potency coexists
+    with possession are not excluded on this route. One `InPotency` runs
+    through d8024a38, the eternity premise, `IsImmutable InPotency` in the
+    attribute-sufficiency premise and the conclusion: adopting the passive
+    reading for d8024a38 makes PURE_ACT_1 here "no passive potency in any
+    respect", and the eternity and attribute-sufficiency premises must be
+    warranted on that same reading.
   - Rival. A being simple in the SIMPLE_4 sense with an unrealized passive
     potency rejects d8024a38. It rejects 61ad11f3 at the root as well, so it
-    does not favour either bundle over the other. Its further commitment,
-    derived informally (no time index here): if the root realized that
-    potency, it would gain an accident and become composite in the SIMPLE_4
-    sense, and by ca07cae9 with cb1cdea9 it would then have a distinct actual
-    concrete ground and stop being a root. So either the root's potency can never be
-    realized while the root remains a root, or ca07cae9 is restricted to fewer
-    kinds of composition, which breaks the shared sense on which the simplicity
-    step relies. No conflict of this price with an accepted floor item is
-    recorded; the rival stays open.
+    does not favour either bundle over the other. Its further commitment is
+    derived informally: `Composite` is untimed and cb1cdea9 is indexed to the
+    one world w, so "would become composite" is not expressible in the
+    bundle. It rests on two analyst bridges: (i) realizing a passive potency
+    is receiving an accident, so subject/accident composition in the SIMPLE_4
+    sense applies; (ii) the bundle's w-indexed premises, including ca07cae9
+    and cb1cdea9, still hold of the realized state, with the root an actual
+    concretum there. Under (i) and (ii), a root that realized the potency would
+    be composite, and by ca07cae9 with cb1cdea9 it would have a distinct
+    actual concrete ground and stop being a root. So either the root's
+    potency can never be realized while the root remains a root, or ca07cae9
+    is restricted to fewer kinds of composition, which breaks the shared
+    sense on which the simplicity step relies. A third option is to reject
+    (ii); it stays open pending a time-indexed test. No conflict of this price
+    with an accepted floor item is recorded; the rival stays open.
 
 Provisional judgment: the routes need only that a first being has no potency.
 The strong reading's universal scope buys nothing on them. On the grounding
