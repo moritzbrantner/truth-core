@@ -1,0 +1,14 @@
+{
+  "id": "2fe3d3fa-08be-4062-b84c-094249f27a70",
+  "label": "Initial history transfer 1588 finite model",
+  "paraphrase": "Structural surrogate, not a cosmology. One explicit four-history model (0 actual; 1 same initial bearer, different later observation; 2 same initial description, different initial bearer; 3 different description and bearer), with only initial bearers existing and three equivalence frames: E universal, rigid M sharing the initial bearer, qualitative M sharing the initial description. Under rigid M: the profile is rigid at 0, the later observation varies, bearer 0 is M-necessary but not E-necessary, M is included in E but not conversely, and the bearer-omitting and description-changing alternatives are E-possible and not M-possible. Under qualitative M: same description at all M-successors, not rigid, bearer 0 not necessary, bearer omission M-possible, description change not M-possible; inclusion restricted to same-description bearer omissions holds while inclusion on all bearer omissions and full inclusion fail, and transfer of the same-description omission succeeds. History 2 differs from 0 only by its primitive bearer label, so every separation using it presupposes bearer-distinct qualitative duplicates (OPEN; anti-haecceitist individuation would identify 0 and 2); the history-3 description-change separation does not. Finite formal interpretation only; no metaphysical possibility or chance is asserted.",
+  "lean_declaration": "TruthCore.Modal.InitialHistoryTransfer1588.Model",
+  "definition_ids": [
+    "7c9bfc4c-dfb3-4f13-b0f8-e2a1ab0dc505",
+    "9f7c8d83-3d48-4c57-b5bb-625b01bedc51",
+    "978b9b69-3707-52e4-9205-127e9a5ebe77"
+  ],
+  "disambiguation_ids": [
+    "da25d281-9924-559c-bb21-0c3f9de50011"
+  ]
+}

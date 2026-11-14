@@ -31,6 +31,7 @@ public import TruthCore.Modal.FixedInitial535
 public import TruthCore.Modal.GraphBridge
 public import TruthCore.Modal.GraphBridgeCertificate
 public import TruthCore.Modal.HistoryContrastive
+public import TruthCore.Modal.InitialHistoryTransfer1588
 public import TruthCore.Modal.KResearch
 public import TruthCore.Modal.Kripke
 public import TruthCore.Modal.LimitationPossibility
