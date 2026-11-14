@@ -1,0 +1,11 @@
+{
+  "id": "641cb6d7-e7bf-4cb6-8179-fb768a4e9b33",
+  "label": "Cross-history horn finite controls",
+  "argument_id": "2f37ddf1-5b33-435d-8ef2-9acac6a48638",
+  "challenge_module": "TruthCore.Results.Logic.DarwinianEpistemicDebunking.CrossHistory.Challenge",
+  "solution_module": "TruthCore.Results.Logic.DarwinianEpistemicDebunking.CrossHistory.Solution",
+  "theorem": "TruthCore.Results.Logic.DarwinianEpistemicDebunking.CrossHistory.crossHistoryControls",
+  "comparator_config": "results/641cb6d7-e7bf-4cb6-8179-fb768a4e9b33/comparator.json",
+  "status": "solution-present",
+  "description": "A nonvacuity witness and an omission control for the cross-history argument. The first profile shows that its conclusion does not entail actual inaccuracy and that the within-history-variation reading misses this fixed-truth case. The second shows that verdict variation is needed. These are formal interpretations only."
+}

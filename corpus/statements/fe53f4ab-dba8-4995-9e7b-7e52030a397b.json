@@ -1,0 +1,9 @@
+{
+  "id": "fe53f4ab-dba8-4995-9e7b-7e52030a397b",
+  "label": "The scoped epistemic judgment is incorrect in some scenario",
+  "paraphrase": "In at least one scenario, possibly with another selective history, the scoped epistemic evaluative judgment returns an incorrect verdict. It does not say the actual verdict is incorrect.",
+  "lean_declaration": "TruthCore.Logic.DarwinianEpistemicDebunking.ScenarioMismatch",
+  "definition_ids": [
+    "e17e93bf-eedf-45db-be80-ffac82ef7d98"
+  ]
+}

@@ -19,6 +19,8 @@ public import TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.Realiza
 public import TruthCore.Results.Logic.ContrastiveWorldview.Solution
 public import TruthCore.Results.Logic.CorrectionCriterion.Solution
 public import TruthCore.Results.Logic.CorrelatedTestimony1396.Solution
+public import TruthCore.Results.Logic.DarwinianEpistemicDebunking.CrossHistory.Solution
+public import TruthCore.Results.Logic.DarwinianEpistemicDebunking.Solution
 public import TruthCore.Results.Logic.EpistemicAccuracy.Solution
 public import TruthCore.Results.Logic.EpistemicAccuracy.Statewise.Solution
 public import TruthCore.Results.Logic.EpistemicAuthority.Solution

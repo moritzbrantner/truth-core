@@ -1,0 +1,9 @@
+{
+  "id": "2602100d-99e9-4641-be2d-76c679b037ea",
+  "label": "The scoped epistemic judgment is accurate in the actual scenario",
+  "paraphrase": "OPEN analyst premise. The scoped epistemic evaluative judgment's actual verdict is correct in the actual scenario.",
+  "lean_declaration": "TruthCore.Logic.DarwinianEpistemicDebunking.ActuallyAccurate",
+  "definition_ids": [
+    "e17e93bf-eedf-45db-be80-ffac82ef7d98"
+  ]
+}
