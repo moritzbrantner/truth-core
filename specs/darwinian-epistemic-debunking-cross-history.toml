@@ -1,0 +1,44 @@
+[batch]
+vocab = "TruthCore.Logic.DarwinianEpistemicDebunking"
+results = "TruthCore.Results.Logic.DarwinianEpistemicDebunking.CrossHistory"
+definitions = ["e17e93bf-eedf-45db-be80-ffac82ef7d98"]
+
+[[statement]]
+id = "Correctness of the scoped epistemic judgment is the same in every scenario"
+lean = "CorrectnessConstant"
+definitions = ["e17e93bf-eedf-45db-be80-ffac82ef7d98"]
+paraphrase = "OPEN analyst premise, the fixed destination of Street's first horn (pp. 121–122), attribution deferred. Whatever the selective history, the judged content's correctness is the same as in the actual scenario. A realism whose epistemic truths hold independently of all attitudes and histories satisfies it."
+
+[[statement]]
+id = "The verdict of the scoped epistemic judgment varies across selective histories"
+lean = "VerdictVariesAcrossHistories"
+definitions = ["e17e93bf-eedf-45db-be80-ffac82ef7d98"]
+paraphrase = "OPEN analyst premise, the pushed course of Street's first horn, attribution deferred. Some scenario with a different selective history returns a different verdict from the actual one. This is the no-relation picture: the selective pressure, not the fixed truth, settles where the verdict goes. No probability over histories is supplied."
+
+[[statement]]
+id = "The scoped epistemic judgment is incorrect in some scenario"
+lean = "ScenarioMismatch"
+definitions = ["e17e93bf-eedf-45db-be80-ffac82ef7d98"]
+paraphrase = "In at least one scenario, possibly with another selective history, the scoped epistemic evaluative judgment returns an incorrect verdict. It does not say the actual verdict is incorrect."
+
+[[argument]]
+id = "Fixed truth and history-dependent verdict yield an incorrect verdict somewhere"
+theorem = "fixedTruthWithHistoryVariationYieldsMismatch"
+premises = ["Correctness of the scoped epistemic judgment is the same in every scenario", "The verdict of the scoped epistemic judgment varies across selective histories"]
+conclusion = "The scoped epistemic judgment is incorrect in some scenario"
+rule = "Case split on actual accuracy: a correct actual verdict makes the differing verdict wrong under the fixed truth; an incorrect one is itself the mismatch"
+meaning = "The non-probabilistic part of Street's first horn (pp. 121–122) for one epistemic evaluative judgment, analyst formulation with attribution deferred. With the truth fixed across histories and the verdict varying with the history, the verdict is wrong in some scenario. Street's further step, that the actual judgments are in all likelihood mostly off track, is probabilistic and is not derived; neither defeat nor the absence of epistemic reasons follows."
+
+[[statement]]
+id = "Finite controls for the cross-history horn of Darwinian epistemic debunking"
+lean = "CrossHistoryControls"
+definitions = ["e17e93bf-eedf-45db-be80-ffac82ef7d98"]
+paraphrase = "Two finite controls. In a two-history profile the truth is fixed and the verdict follows the history: some scenario is wrong, while the actual verdict is accurate, no scenario with the actual history is wrong, and correctness does not vary within the actual history. With the truth fixed and a single history, the verdict does not vary and nothing is wrong."
+
+[[argument]]
+id = "Cross-history horn finite controls"
+theorem = "crossHistoryControls"
+premises = []
+conclusion = "Finite controls for the cross-history horn of Darwinian epistemic debunking"
+rule = "Evaluate a two-history and a one-history profile"
+meaning = "A nonvacuity witness and an omission control for the cross-history argument. The first profile shows that its conclusion does not entail actual inaccuracy and that the within-history-variation reading misses this fixed-truth case. The second shows that verdict variation is needed. These are formal interpretations only."

@@ -1,0 +1,11 @@
+{
+  "id": "769e5a6f-08a6-489f-a795-073b8b6e1c3f",
+  "label": "KTB node is the T node plus a symmetric frame",
+  "argument_id": "494cacd6-bd72-4544-a03c-448367961ece",
+  "challenge_module": "TruthCore.Results.Logic.Strength.NecessaryFrames.Challenge",
+  "solution_module": "TruthCore.Results.Logic.Strength.NecessaryFrames.Solution",
+  "theorem": "TruthCore.Results.Logic.Strength.NecessaryFrames.bOverTExact",
+  "comparator_config": "results/769e5a6f-08a6-489f-a795-073b8b6e1c3f/comparator.json",
+  "status": "solution-present",
+  "description": "Certified difference (#1598) of the registration KTB node strengthens T node: for every world type, signature, profile, world and relation, the KTB node holds iff the T node holds and the route's frame is symmetric. Premise-free; it compares the two encodings and asserts no frame class of the route."
+}

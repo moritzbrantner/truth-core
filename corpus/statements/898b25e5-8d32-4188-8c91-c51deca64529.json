@@ -1,0 +1,9 @@
+{
+  "id": "898b25e5-8d32-4188-8c91-c51deca64529",
+  "label": "Correctness of the scoped epistemic judgment is the same in every scenario",
+  "paraphrase": "OPEN analyst premise, the fixed destination of Street's first horn (pp. 121–122), attribution deferred. Whatever the selective history, the judged content's correctness is the same as in the actual scenario. A realism whose epistemic truths hold independently of all attitudes and histories satisfies it.",
+  "lean_declaration": "TruthCore.Logic.DarwinianEpistemicDebunking.CorrectnessConstant",
+  "definition_ids": [
+    "e17e93bf-eedf-45db-be80-ffac82ef7d98"
+  ]
+}

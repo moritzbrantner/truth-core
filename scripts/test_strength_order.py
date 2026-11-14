@@ -368,6 +368,25 @@ class StrengthValidationTest(unittest.TestCase):
         self.assertEqual(len(warnings), 1)
         self.assertIn("ARG-STRONG: is the delta_forward of strength_comparison REL-A from BASE to STRONG", warnings[0])
 
+    def test_strengthens_without_certified_difference_warns(self) -> None:
+        registrations = [strengthens("STRONG", "WEAK"), strengthens("BASE", "STRONG", result_id="ARG-STRONG")]
+        comparison = {**relation("statement", "STRONG", "strength_comparison", "WEAK"),
+                      "background_statement_ids": [], "evidence_result_ids": {"equivalence": "ARG-EQ"}}
+        warnings = corpus.strength_difference_warnings(registrations)
+        self.assertEqual(len(warnings), 3)
+        self.assertIn("REL-BASE-strengthens-STRONG: strengthens BASE to STRONG has no certified difference", warnings[0])
+        self.assertIn("strength order: 0 of 2 strengthens registrations have a certified difference, 2 have none", warnings[2])
+        # A same-pair comparison with an equivalence certificate certifies it;
+        # a background or a missing equivalence does not.
+        warnings = corpus.strength_difference_warnings([*registrations, comparison])
+        self.assertEqual(len(warnings), 2)
+        self.assertIn("1 of 2 strengthens registrations have a certified difference, 1 have none; 0 record", warnings[1])
+        for change in ({"background_statement_ids": ["G"]}, {"evidence_result_ids": {"implication": "ARG-S-W"}}):
+            with self.subTest(change=change):
+                self.assertEqual(len(corpus.strength_difference_warnings([*registrations, {**comparison, **change}])), 3)
+        separated = {**comparison, "separator": {"setting": "S", "result_id": "R"}}
+        self.assertIn("; 1 record strictness", corpus.strength_difference_warnings([*registrations, separated])[-1])
+
 
 class StrengthCorpusTest(unittest.TestCase):
     def test_registered_pairs_resolve(self) -> None:

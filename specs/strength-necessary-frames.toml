@@ -1,0 +1,73 @@
+# Certified differences of the necessary-root frame-chain strength pairs (#1598).
+# Each `strengthens` registration gets a strength_comparison of the same pair:
+# a delta statement with its own Lean declaration and an equivalence
+# certificate STRONG <-> WEAK and DELTA. The implication role reuses the
+# registration's backing result. Mathematical comparisons inside the
+# NecessarySenseFork encoding; no premise about the route's frame class.
+
+[batch]
+vocab = "TruthCore.Logic.Strength.NecessaryFrames"
+results = "TruthCore.Results.Logic.Strength.NecessaryFrames"
+disambiguations = ["DISAMB-NECESSARY"]
+
+[[statement]]
+id = "The route's modal frame is symmetric (frame condition B)"
+lean = "RouteFrameSymmetric"
+paraphrase = "Difference statement: the accessibility relation of the necessary-being route's modal frame is symmetric (if w accesses v, then v accesses w). It is a condition on the frame only and says nothing about the root."
+definitions = ["DEF-MODAL-FIXTURE-FRAME"]
+
+[[statement]]
+id = "S5 necessary-root node holds exactly when the S4 node holds and the frame is symmetric"
+lean = "S5OverS4Exact"
+paraphrase = "For every world type, signature, profile, world w and relation CN: the necessary-being node in frame class S5 (reflexive and Euclidean frame) holds if and only if the node in frame class S4 (reflexive and transitive frame) holds and the route's frame is symmetric."
+definitions = ["DEF-MODAL-FIXTURE-FRAME", "DEF-NECESSARY-IN-SENSE"]
+disambiguations = ["DISAMB-NECESSARY"]
+
+[[statement]]
+id = "KTB necessary-root node holds exactly when the T node holds and the frame is symmetric"
+lean = "BOverTExact"
+paraphrase = "For every world type, signature, profile, world w and relation CN: the necessary-being node in frame class KTB (reflexive and symmetric frame) holds if and only if the node in frame class KT (reflexive frame) holds and the route's frame is symmetric."
+definitions = ["DEF-MODAL-FIXTURE-FRAME", "DEF-NECESSARY-IN-SENSE"]
+disambiguations = ["DISAMB-NECESSARY"]
+
+[[argument]]
+id = "S5 node is the S4 node plus a symmetric frame"
+theorem = "s5OverS4Exact"
+premises = []
+conclusion = "S5 necessary-root node holds exactly when the S4 node holds and the frame is symmetric"
+rule = "Frame-condition algebra: a reflexive Euclidean frame is symmetric and transitive; a reflexive transitive symmetric frame is Euclidean"
+meaning = "Certified difference (#1598) of the registration S5 node strengthens S4 node: for every world type, signature, profile, world and relation, the S5 node holds iff the S4 node holds and the route's frame is symmetric. Premise-free; it compares the two encodings and asserts no frame class of the route."
+
+[[argument]]
+id = "KTB node is the T node plus a symmetric frame"
+theorem = "bOverTExact"
+premises = []
+conclusion = "KTB necessary-root node holds exactly when the T node holds and the frame is symmetric"
+rule = "Conjunction regrouping under the root witness: frame class KTB is KT together with symmetry"
+meaning = "Certified difference (#1598) of the registration KTB node strengthens T node: for every world type, signature, profile, world and relation, the KTB node holds iff the T node holds and the route's frame is symmetric. Premise-free; it compares the two encodings and asserts no frame class of the route."
+
+[[relation]]
+id = "S5 over S4 necessary-root node: certified difference"
+subject_kind = "statement"
+subject_id = "STMT-NECESSARY-ROOT-BOX-S5"
+predicate = "strength_comparison"
+object_kind = "statement"
+object_id = "STMT-NECESSARY-ROOT-BOX-S4"
+comparison_spec = "s5OverS4"
+delta_statement_id = "The route's modal frame is symmetric (frame condition B)"
+evidence_result_ids = { implication = "NECESSARY-ROOT-BOX-S5-STRENGTHENS-BOX-S4", equivalence = "S5 node is the S4 node plus a symmetric frame" }
+statement_parameter_indices = { stronger = [0, 1, 2, 3, 4], weaker = [0, 1, 2, 3, 4], delta = [0, 1, 2] }
+note = "Difference of the S5 and S4 readings of the necessary-being node: both say that a root with the classical facts exists at every world accessible from w; S5 adds to S4 exactly that the route's frame is symmetric (axiom B). The delta is a frame condition independent of the root. No strictness separator is recorded."
+
+[[relation]]
+id = "KTB over T necessary-root node: certified difference"
+subject_kind = "statement"
+subject_id = "STMT-NECESSARY-ROOT-BOX-B"
+predicate = "strength_comparison"
+object_kind = "statement"
+object_id = "STMT-NECESSARY-ROOT-BOX-T"
+comparison_spec = "bOverT"
+delta_statement_id = "The route's modal frame is symmetric (frame condition B)"
+evidence_result_ids = { implication = "NECESSARY-ROOT-BOX-B-STRENGTHENS-BOX-T", equivalence = "KTB node is the T node plus a symmetric frame" }
+statement_parameter_indices = { stronger = [0, 1, 2, 3, 4], weaker = [0, 1, 2, 3, 4], delta = [0, 1, 2] }
+note = "Difference of the KTB and T readings of the necessary-being node: KTB adds to T exactly that the route's frame is symmetric. The delta is a frame condition independent of the root. No strictness separator is recorded."

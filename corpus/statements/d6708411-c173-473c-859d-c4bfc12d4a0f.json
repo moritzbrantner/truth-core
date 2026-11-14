@@ -1,0 +1,9 @@
+{
+  "id": "d6708411-c173-473c-859d-c4bfc12d4a0f",
+  "label": "Correctness of the scoped epistemic judgment varies within the actual selective history",
+  "paraphrase": "OPEN analyst premise, a within-history-variation reading, attribution deferred. Some scenario with the actual selective history differs from the actual scenario in whether the judged content is correct. This is not Street's no-relation horn: on pp. 121–122 (the Bermuda analogy) her horn holds the realist's truths fixed, lets the judgments vary with selective pressure, and reaches likely actual error through a coincidence step. A realism whose correctness is the same in every scenario, her paradigm target, fails this premise; the cross-history reading is encoded separately.",
+  "lean_declaration": "TruthCore.Logic.DarwinianEpistemicDebunking.CorrectnessVariesWithinHistory",
+  "definition_ids": [
+    "e17e93bf-eedf-45db-be80-ffac82ef7d98"
+  ]
+}

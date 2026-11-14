@@ -1,0 +1,14 @@
+{
+  "id": "98a0542c-d0a6-44b3-a042-853d333da801",
+  "label": "Darwinian epistemic debunking finite controls",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "2beeefff-3693-4993-a584-934511642bca",
+  "inference_ids": [
+    "74a04c01-d820-4535-90e9-857f89b8d646"
+  ],
+  "meaning": "Nonvacuity and omission controls for the three arguments. Tracking failure does not entail actual inaccuracy; one omission example shows origin fixing is needed; the self-application premises are jointly satisfiable and leave the conclusion true and F6 intact; a no-undercutting model with history-fixed correctness satisfies the same uniform policy and keeps warrant, which shows consistency, not that antirealism specifically secures warrant. These are formal interpretations only; no actual history, reliability or account of epistemic correctness is established.",
+  "definition_ids": [
+    "26cbf25d-f3d5-46ea-91e8-e2140a57b04d",
+    "e17e93bf-eedf-45db-be80-ffac82ef7d98"
+  ]
+}
