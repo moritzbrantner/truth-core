@@ -4,7 +4,7 @@
   "input_statement_ids": [],
   "output_statement_id": "4a85e1e3-c030-46f1-8888-e65d7a042afd",
   "rule": "Mathlib conditional probability (cond_apply), exact profile probabilities and ENNReal algebra",
-  "meaning": "Conditioning on no flag divides by ν(Fᶜ)^n; the per-index ratio ν(C∩Fᶜ)/ν(Fᶜ) is at most one, equals one under perfect local detection, and equals ν(C) for a truth-independent flag. A single conditioned assertion keeps n−1 no-flag factors, which cancel. Under perfect detection a conditioned assertion and the conditioned some-failure event have probabilities κ(G) and 1−κ(G), so a threshold above one half cannot accept both. Stipulated model; no actual check is claimed to be discriminating or perfect.",
+  "meaning": "Conditioning on no flag divides by ν(Fᶜ)^n; the per-index ratio ν(C∩Fᶜ)/ν(Fᶜ) is at most one, equals one under perfect local detection, and equals ν(C) for a truth-independent flag. The no-flag event is a product of the whole shared coordinate with local boxes, so the conditioned shared-condition probability stays κ(G). A single conditioned assertion keeps n−1 no-flag factors, which cancel. Under perfect detection a conditioned assertion and the conditioned some-failure event have probabilities κ(G) and 1−κ(G), so a threshold above one half cannot accept both. Stipulated model; no actual check is claimed to be discriminating or perfect.",
   "assumption_statement_ids": [],
   "discharged_statement_ids": []
 }

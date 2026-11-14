@@ -58,11 +58,12 @@ not epistemic warrant.
 | Isolated errors (ERROR_DEPENDENCE_2), local q<1 | q | q^n | 1−q^n | yes for all large n, when t ≤ q |
 | Shared only (ERROR_DEPENDENCE_1), shared q | q | q | 1−q | never, at any n |
 | Shared g, local p<1 | g·p | g·p^n | 1−g·p^n | yes for all large n, when t ≤ g·p |
-| Shared g, local p, perfect local checks, after no flag | g | g | 1−g | never, at any n |
+| Shared g, local p>0, perfect local checks, after no flag | g | g | 1−g | never, at any n |
 | Shared g, local p, truth-independent checks, after no flag | g·p (general formula with ν(C∩Fᶜ)=p·ν(Fᶜ)) | g·p^n, unchanged | (not certified) | (not certified) |
 
 Every entry not marked "not certified" is a theorem in the stipulated profile
-(n ≥ 1; for the q^n < q comparison n ≥ 2 and 0<q<1). The conditioned
+(n ≥ 1; for the q^n < q comparison n ≥ 2 and 0<q<1; for the after-no-flag rows
+ν(Fᶜ) ≠ 0, which under perfect checks is p = ν(C) > 0). The conditioned
 per-assertion entries come from the certified formula
 P(assertion i | no flag) = κ(G)·ν(C∩Fᶜ)/ν(Fᶜ); in the truth-independent row the
 value g·p is that formula after substituting the independence equation, an
@@ -75,10 +76,12 @@ algebraic step not separately registered.
 With the same per-assertion probability q, the isolated-error profile gives
 q^n < q, while the shared-only profile (the issue's 300 restatements of H) gives
 joint q and some-failure 1−q. So per-assertion probabilities do not determine
-the joint: `q^n` is a consequence of the stipulated ERROR_DEPENDENCE_2 regime,
-not of q and n. The same theorem certifies that conditioning on n ≥ 1 copies of
-one evidence event equals conditioning on it once: restating or repeating H adds
-no confirmation. The joint probability of n assertions each at probability q
+the joint: `q^n` is what the stipulated ERROR_DEPENDENCE_2 regime yields, and it
+does not follow from q and n alone. The same theorem records that conditioning on
+n ≥ 1 copies of one evidence event equals conditioning on it once. That identity
+is definitional (`Set.iInter_const`); its weight for "restating or repeating H
+adds no confirmation" rests on the modeling choice that restatements denote the
+same event. The joint probability of n assertions each at probability q
 always lies between max(0, 1−n(1−q)) and q: the lower bound is the #1063 support
 bound `1 ≤ μ(⋂Aᵢ) + Σ(1−μ(Aᵢ))` (no independence premise), and the upper bound
 is measure monotonicity (elementary, not separately registered). The shared
@@ -92,26 +95,34 @@ assumption for an interconnected corpus.
 `4a85e1e3-c030-46f1-8888-e65d7a042afd`, theorem `crossCheckBoundary`).
 Conditioning on no local flag gives
 
-  P(all true | no flag) = κ(G) · (ν(C∩Fᶜ)/ν(Fᶜ))^n ≤ κ(G).
+  P(all true | no flag) = κ(G) · (ν(C∩Fᶜ)/ν(Fᶜ))^n ≤ κ(G),
+  P(shared condition | no flag) = κ(G).
 
-- A *discriminating* check (flags concentrate on local errors) raises the
-  per-index factor from ν(C) toward 1. Perfect local detection (`F = Cᶜ`) makes
-  the posterior exactly κ(G) for every n: the count-driven local risk is gone.
-  Each conditioned assertion also has κ(G), so after perfect checks no
-  threshold above one half accepts both an assertion and "at least one is
-  false".
-  This is the formal content of the foreign-word observation.
-- A *non-discriminating* check (ERROR_DEPENDENCE_3) leaves the posterior equal
+Here a check is called *discriminating* when its no-flag event favors local
+correctness, ν(C∩Fᶜ)/ν(Fᶜ) > ν(C). This criterion is an unregistered algebraic
+reading of the certified formula, not a separate theorem.
+
+- A discriminating check raises the per-index factor above ν(C). Perfect local
+  detection (`F = Cᶜ`, with ν(C) > 0) makes the posterior exactly κ(G) for every
+  n: the count-driven local risk is gone. Each conditioned assertion also has
+  κ(G), so after perfect checks no threshold above one half accepts both an
+  assertion and "at least one is false". On the analyst reading of flags as
+  coherence checks, this models the foreign-word observation.
+- A truth-independent check (ERROR_DEPENDENCE_3) leaves the posterior equal
   to the prior. A check that only re-derives a claim from the same untested
   input, or repeats a common source, is one concrete way to be
   non-discriminating. The #1396 tables give the exact criterion for when two
   correlated reports corroborate; this result adds the many-assertion,
   shared-blind case.
-- No number of shared-blind local checks raises joint support above κ(G).
-  Interlocking local structure can catch local errors; it cannot certify the
-  shared framework it presupposes. Support for G needs evidence that
-  discriminates G itself (for G as a binary hypothesis, the #1396 criterion
-  applies).
+- No number of shared-blind local checks raises joint support above κ(G), and
+  they leave the probability of G itself exactly at κ(G). In this model the
+  checks are shared-blind *by construction* (flags constrain only local
+  coordinates), so the result says nothing about checks that are sensitive to
+  the shared condition. Real interconnected graphs can contain such checks:
+  consistency testing of a whole bundle (test 4) can eliminate a shared
+  commitment, and consequences of G can be tested against independently
+  obtained data (for G as a binary hypothesis, the #1396 criterion applies).
+  Shared-sensitive flags are an open gap below.
 
 The improvement is measured by the change in the per-index factor, not by a
 count of graph edges: an edge whose check is truth-independent changes nothing.
@@ -119,14 +130,17 @@ count of graph edges: an edge whose check is truth-independent changes nothing.
 **Test 4: worldview elimination** (statement
 `ebf27107-3288-4a10-8d66-1eb68513c464`, theorem `eliminationCoverage`, reusing
 `ReflectiveCoherence`). A bundle with no common model (WORLDVIEW_CONSISTENCY_1
-fails) is false at every world: a demonstrated W ⊢ ⊥ eliminates that exact
-commitment bundle under the stated semantics. To infer that a survivor is true,
+fails) is false at every world: a demonstrated absence of a common model
+eliminates that exact commitment bundle under the stated semantics. (A
+syntactic derivation W ⊢ ⊥ would do the same only through a soundness bridge,
+which is not encoded here.) To infer that a survivor is true,
 the coverage premise "some candidate is true at the actual world" is an explicit
 hypothesis. The existing two-world control shows it is needed: one candidate is
 inconsistent, the other is the consistent duty-denying worldview, and the
-survivor is false at the actual world. A coherent-but-false worldview survives
-every consistency test, which is the worldview-level counterpart of the shared
-condition being invisible to local checks.
+survivor is false at the actual world. Consistency tests are *not* blind to
+shared frameworks: they eliminate inconsistent ones. They cannot discriminate
+among consistent ones, so a coherent-but-false worldview survives every
+consistency test.
 
 **Test 5: the Makinson boundary** (statement
 `74e47e53-eb0b-4963-93c0-254bd1da67b0`, theorem `hierarchicalPrefaceBoundary`).
@@ -144,8 +158,8 @@ one is false". In the model:
   local error opportunities drives it.
 
 Common-mode error is the control the issue asked for. It is a real error
-source that a large count of assertions does not amplify and local coherence
-does not detect.
+source that a large count of assertions does not amplify and that shared-blind
+local checks do not detect.
 
 ## What is formal, what is model, what is warrant
 
@@ -157,16 +171,23 @@ does not detect.
   coherence checks. These readings are interpretations, not established
   descriptions of any actual inquiry.
 - **Provisional philosophical judgment (2026-11-14):** the owner's comparative
-  hypothesis survives in a sharpened form. The preface argument's force depends
-  on independent, undetected local error opportunities. Interconnection helps
-  when, and to the degree that, it works as *discriminating* local checks. It
-  does not help when it is mere restatement or shared-source repetition, and it
-  never certifies the shared assumptions themselves. A structured graph
-  therefore faces a weaker count-driven preface argument than an atomized list
-  *only if* its cross-checks discriminate. Its residual risk then concentrates
-  on its shared commitments, where the right response is direct evidence about
-  those commitments and the testing of rivals (test 4), not a blanket
-  probability discount for size.
+  hypothesis survives in a sharpened form. The preface argument's count-driven
+  force depends on independent, undetected local error opportunities. A
+  structured graph faces a weaker count-driven preface argument than an
+  atomized list when either:
+  (a) its assertions' errors are common-mode rather than independent (tests
+  1–2 and 5). This relocates the risk to the shared condition without
+  confirming that condition; or
+  (b) its cross-checks discriminate local errors (test 3).
+  Restatement adds no confirmation beyond route (a), and truth-independent
+  checks add nothing. Shared-blind checks never raise support for the shared
+  assumptions. Checks sensitive to the shared condition, such as whole-bundle
+  consistency testing (test 4) or tests of G's consequences against
+  independent data, can bear on those assumptions, but this model does not
+  cover them. On both routes the residual risk concentrates on the shared
+  commitments. The right response there is direct evidence about those
+  commitments and the testing of rivals (test 4), not a blanket probability
+  discount for size.
 
   Evidence for this judgment: the five theorems above; #1063 and #1396 as
   reused, not independent, support. Revision conditions: a realistic dependence
@@ -178,9 +199,10 @@ does not detect.
 
 **Common-mode rival.** Target: the inference from "cross-checked" to "reduced
 preface risk". Mechanism: checks share the error they are meant to detect, so
-they are ERROR_DEPENDENCE_3 for that error. Independent justification: the
-theorem shows that shared-blind checks provide exactly zero support for the
-shared condition, and that truth-independent checks provide none at all. This
+they are ERROR_DEPENDENCE_3 for that error. Independent justification: in the
+model, shared-blind checks leave the probability of the shared condition
+exactly at κ(G) and cannot raise all-true support above it, and
+truth-independent checks leave all-true support unchanged. This
 is a substantive rival with a modeled mechanism, and it applies to every
 worldview, theistic or not. Its price: it must show *which* checks in a given
 body of inquiry are truth-independent or share the failure. A bare possibility
@@ -203,3 +225,9 @@ of shared error is not that showing.
    coherence as a truth-conducive *measure*. This note uses no coherence
    measure, so a direct comparison needs their setup reconstructed (attribution
    deferred).
+5. **Shared-sensitive checks.** Flags here constrain only local coordinates, so
+   they are blind to the shared condition by construction. Model flag events on
+   `Γ × Λ` (checks whose outcome depends on the shared condition, as
+   whole-bundle consistency tests or tests of G's consequences do). Then test
+   when such checks raise or lower support for G and how they interact with
+   the count-driven local risk.

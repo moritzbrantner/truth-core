@@ -6,7 +6,7 @@
   "inference_ids": [
     "e9b83da1-834a-4df2-8d6e-86e4df0ba904"
   ],
-  "meaning": "Conditioning on no flag divides by ν(Fᶜ)^n; the per-index ratio ν(C∩Fᶜ)/ν(Fᶜ) is at most one, equals one under perfect local detection, and equals ν(C) for a truth-independent flag. A single conditioned assertion keeps n−1 no-flag factors, which cancel. Under perfect detection a conditioned assertion and the conditioned some-failure event have probabilities κ(G) and 1−κ(G), so a threshold above one half cannot accept both. Stipulated model; no actual check is claimed to be discriminating or perfect.",
+  "meaning": "Conditioning on no flag divides by ν(Fᶜ)^n; the per-index ratio ν(C∩Fᶜ)/ν(Fᶜ) is at most one, equals one under perfect local detection, and equals ν(C) for a truth-independent flag. The no-flag event is a product of the whole shared coordinate with local boxes, so the conditioned shared-condition probability stays κ(G). A single conditioned assertion keeps n−1 no-flag factors, which cancel. Under perfect detection a conditioned assertion and the conditioned some-failure event have probabilities κ(G) and 1−κ(G), so a threshold above one half cannot accept both. Stipulated model; no actual check is claimed to be discriminating or perfect.",
   "term_senses": {
     "ERROR_DEPENDENCE": "acb91e9a-65fb-45f2-b9ef-80153a26b2e2",
     "PRO_TANTO_SUPPORT_THRESHOLD_FULL_BELIEF": "5aeeb921-2098-47c8-802c-225de5fe6d87"

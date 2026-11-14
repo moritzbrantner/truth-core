@@ -132,7 +132,10 @@ def HierarchicalPrefaceBoundary : Prop :=
 /-- Local cross-checks (test 3 of #1584), conditioning on no flag (`0<n`):
 the posterior that all assertions are true is `κ G * (ν (C ∩ Fᶜ) / ν Fᶜ)^n`,
 hence never above `κ G`: no number of shared-blind local checks raises joint
-support above the shared condition's probability. If the flag fires exactly on
+support above the shared condition's probability. The conditioned probability of
+the shared condition itself stays exactly `κ G`. Flags here are shared-blind by
+construction; checks sensitive to the shared condition are outside this model.
+If the flag fires exactly on
 local error (`F = Cᶜ`), the posterior of all-true is `κ G` and of some-failure
 `1 - κ G` for every `n`: only the shared risk remains. Each conditioned
 assertion has `κ G * (ν (C ∩ Fᶜ) / ν Fᶜ)`, so after perfect checks no threshold
@@ -146,6 +149,7 @@ def CrossCheckBoundary : Prop :=
     (G : Set Γ) (C F : Set Λ) (n : ℕ), 0 < n → ν Fᶜ ≠ 0 →
     (profile κ ν n)[|noFlag F n] (allTrue G C n) = κ G * (ν (C ∩ Fᶜ) / ν Fᶜ) ^ n ∧
     (profile κ ν n)[|noFlag F n] (allTrue G C n) ≤ κ G ∧
+    (profile κ ν n)[|noFlag F n] {x | x.1 ∈ G} = κ G ∧
     (∀ i : Fin n, (profile κ ν n)[|noFlag F n] (assertion G C i) =
       κ G * (ν (C ∩ Fᶜ) / ν Fᶜ)) ∧
     (PerfectLocalDetection C F →

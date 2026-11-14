@@ -215,7 +215,13 @@ theorem crossCheckBoundary : CrossCheckBoundary := by
         = ((ν Fᶜ ^ m)⁻¹ * ν Fᶜ ^ m) * (κ G * (ν (C ∩ Fᶜ) * (ν Fᶜ)⁻¹)) := by ring
       _ = κ G * (ν (C ∩ Fᶜ) * (ν Fᶜ)⁻¹) := by
         rw [ENNReal.inv_mul_cancel hm0 hmt, one_mul]
-  refine ⟨hformula, ?_, hone, fun (hFC : F = Cᶜ) => ?_,
+  have hshared : (profile κ ν n)[|noFlag F n] {x | x.1 ∈ G} = κ G := by
+    have hset : (noFlag F n ∩ {x | x.1 ∈ G} : Set (Γ × (Fin n → Λ))) =
+        G ×ˢ Set.pi univ (fun _ => Fᶜ) := by
+      ext ⟨g, ω⟩; simp [noFlag, and_comm]
+    rw [cond_apply MeasurableSet.of_discrete, noFlag_prob, hset, profileBox,
+      mul_comm (κ G), ← mul_assoc, ENNReal.inv_mul_cancel hpow0 hpowt, one_mul]
+  refine ⟨hformula, ?_, hshared, hone, fun (hFC : F = Cᶜ) => ?_,
     fun (hind : ν (C ∩ Fᶜ) = ν C * ν Fᶜ) => ?_⟩
   · have hratio : ν (C ∩ Fᶜ) / ν Fᶜ ≤ 1 :=
       ENNReal.div_le_of_le_mul (by rw [one_mul]; exact measure_mono inter_subset_right)
