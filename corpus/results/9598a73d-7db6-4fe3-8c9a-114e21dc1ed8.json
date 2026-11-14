@@ -1,0 +1,11 @@
+{
+  "id": "9598a73d-7db6-4fe3-8c9a-114e21dc1ed8",
+  "label": "Nothing originates itself, from productive self-exercise and no self-production",
+  "argument_id": "50610ecb-7dd7-4a5a-932b-b0feaf4a72c6",
+  "challenge_module": "TruthCore.Results.Causality.OriginExerciseBridge.SelfEdge.Challenge",
+  "solution_module": "TruthCore.Results.Causality.OriginExerciseBridge.SelfEdge.Solution",
+  "theorem": "TruthCore.Results.Causality.OriginExerciseBridge.SelfEdge.noSelfOriginFromSelfExercise",
+  "comparator_config": "results/9598a73d-7db6-4fe3-8c9a-114e21dc1ed8/comparator.json",
+  "status": "solution-present",
+  "description": "Non-transcription conditional derivation composed with the EXISTING independently certified NoSelfProduction argument. The OPEN self-edge origin-to-exercise bridge makes an arbitrary self-origin edge CausesOrigin x x supply an occurring exercise a with bearer a = x and produces a x. The separately recorded NoSelfProduction statement excludes that conjunction; it itself has a non-transcription support route from four open mixed-token priority premises (TruthCore.Results.Causality.ExistentialSelfActualization.noSelf). Sibling of argument e9a9eeaf (#1610): it consumes the weak self-edge sibling of the universal bridge be90bb15, which strengthens it, so no premise concerns origin edges between distinct beings; e9a9eeaf and its frozen universal-premise Challenge remain as the earlier support alternative. The conclusion concerns only the CAUSE_4 reading, not all causal senses. No temporal precedence, self-maintenance prohibition, necessary-being uniqueness or independent warrant follows. This creates an explicit two-layer root-reaching support option; the five underlying commitments remain open, so there is no premise establishment."
+}

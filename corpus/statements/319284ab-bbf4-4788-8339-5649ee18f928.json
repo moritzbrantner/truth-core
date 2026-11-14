@@ -1,0 +1,13 @@
+{
+  "id": "319284ab-bbf4-4788-8339-5649ee18f928",
+  "label": "Every origin edge between distinct beings is realized by its source's productive exercise",
+  "paraphrase": "Difference statement: for every CAUSE_4 origin edge CausesOrigin c x, either c = x or an occurring exercise a borne by c produces x's existence (produces as in DEF-NO-EXISTENTIAL-SELF-PRODUCTION). Classically this is the universal origin-to-exercise bridge restricted to edges whose source and target are distinct; the disjunctive form avoids assuming decidable identity. It carries the coming-to-be-to-being step for ordinary origination of one thing by another and says nothing about self-origin edges.",
+  "lean_declaration": "TruthCore.Causality.OriginExerciseBridge.NonSelfOriginHasProductiveExercise",
+  "definition_ids": [
+    "9022c4bf-78d2-4c4b-98b3-38eb705990d2",
+    "05dc1385-d245-5137-bf8b-dbdb1d3d9a7a"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "67f66fcf-bc91-435b-a6c9-4e6d403f09d2",
+  "label": "Universal origin bridge strengthens the self-edge origin bridge",
+  "subject_kind": "statement",
+  "subject_id": "be90bb15-c2ce-44cd-ae2d-5ec6dc4c24c9",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "83ec280a-b8bb-40de-b16a-d43385461054",
+  "verification_result_id": "4421bfcd-63b3-4855-87e3-3e9893525352",
+  "strictness_result_id": "44001670-8287-47bf-815b-c5719bee6449",
+  "note": "Same frame and exercise vocabulary; instantiation at self-edges only (#1610). The universal form adds the clause for origin edges between distinct beings, which carries the ordinary-origination candidates (builder case; Hall-style omission and prevention cases, which have distinct relata). The broad dependence reading of CAUSE_4 bears on the self-edge sibling only through a self-edge such as the Smith whole, which stays OPEN. The other-only control witnesses converse failure."
+}
