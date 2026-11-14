@@ -1,0 +1,6 @@
+{
+  "id": "42756c07-03cd-4b54-8ed6-ed6c1a5132aa",
+  "label": "Distinct existential dependence maps to strict grounding of existence facts",
+  "paraphrase": "OPEN interpretive premise, encoded as a structural surrogate. Formal content: for each ordered pair of distinct beings x, y with D x y, the sequent existenceFact y ≺ existenceFact x is derivable from the selected PLG theory, where existenceFact is an arbitrary labelling of beings by uninterpreted atoms. With PLG consistency this embeds distinct-step D into a consistent strict-ground order and so already forces D to have no finite cycle of distinct steps (verified separately), which is more than nonmutuality. The type does not say that the atoms are existence facts, that the edges are actual or faithful grounding, or which kind of ground is meant; that reading is a further OPEN interpretation (DISAMB 23dd6f32: D in the efficient-causal sense of DEF-DEPENDS-FOR-BEING, ground in Fine's formal uninterpreted sense; constitutive versus natural/causal readings of the atoms remain open siblings). The map does not follow from mere counterfactual co-existence, is not reflexive, and does not identify beings with their labels.",
+  "lean_declaration": "TruthCore.Causality.DependenceStrictGroundMap.DependenceMapsToStrictExistenceGround"
+}

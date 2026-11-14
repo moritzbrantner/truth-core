@@ -1,0 +1,6 @@
+{
+  "id": "fea5942a-b50c-4299-a5fe-80a5c2b8c0a9",
+  "label": "Selected PLG theory is consistent",
+  "paraphrase": "OPEN framework premise: the selected PLG set of sequents is consistent, in the exact syntactic sense that at least one sequent is not derivable from it. This is a property of a set of uninterpreted sequents only; any dependence or existence context belongs to the argument that uses it, and consistency does not follow from having a source or an intended metaphysical reading.",
+  "lean_declaration": "TruthCore.Modern.Fine.PureLogicOfGround.Consistent"
+}
