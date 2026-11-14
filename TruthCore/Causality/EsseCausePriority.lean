@@ -116,7 +116,8 @@ def OmitGroundingPriority : Prop :=
   ¬ ActualEsseCausePriority grounded true causes true noPrior
 
 /-- The three antecedent-supplying bridges and both priority bridges hold jointly
-with a nonvacuous esse cause. -/
+for the relation `causes`, under which `true` causes the esse of `false` (this
+proposition does not itself state that instance). -/
 def ScopeWitness : Prop :=
   CausedEsseIsHad causes allAct true ∧
   ActOfEsseSufficesForExistenceAt grounded.ontic allAct true true ∧
