@@ -11,7 +11,7 @@
   "inference_ids": [
     "8dbe2d30-0781-42c7-9cdb-4c55a6a4dd99"
   ],
-  "meaning": "The derivation of STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND in Round2Grounding.esseCauseGroundViaDependence applies the dependence-to-grounding bridge only to c and x with c distinct from x. This sibling takes the weaker distinct-relata version of that bridge, with the other three premises unchanged. It therefore does not commit DependsForBeing to irreflexivity, which the unrestricted bridge does in combination with grounding-to-priority and priority requiring nonmutual dependence (reflexiveUnrestrictedExcludesActualConcreta). Conditional consequence only; no premise is established.",
+  "meaning": "The derivation of STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND in Round2Grounding.esseCauseGroundViaDependence applies the dependence-to-grounding bridge only to c and x with c distinct from x. This sibling takes the weaker distinct-relata version of that bridge, with the other three premises unchanged. It therefore does not commit DependsForBeing to irreflexivity among actual concreta at w, which the unrestricted bridge does in combination with grounding-to-priority and priority requiring nonmutual dependence (reflexiveUnrestrictedExcludesActualConcreta). Conditional consequence only; no premise is established.",
   "definition_ids": [
     "211a6432-8b8f-53ed-85e3-75173bb15b24",
     "008cb21a-256c-5a90-822c-acd4591d699a",

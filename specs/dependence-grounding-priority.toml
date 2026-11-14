@@ -26,7 +26,7 @@ disambiguations = ["23dd6f32-b456-4963-adb3-7befbf0dc4fb", "623ddbf6-9683-5361-b
 [[statement]]
 id = "No actual CONCRETE_6 individual exists at the selected world"
 lean = "NoActualConcretumAt"
-paraphrase = "Nothing is both concrete and existing at the selected world w. Recorded as the conclusion of a checked incompatibility: reflexive dependence for being, the unrestricted dependence-to-grounding bridge, actual grounding as simple priority and priority requiring nonmutual dependence jointly yield it, so with any actual concretum (which every root route asserts) at least one of those four must be rejected. It is not asserted."
+paraphrase = "Nothing is both concrete and existing at the selected world w. Recorded as the conclusion of a checked incompatibility: reflexive dependence for being, the unrestricted dependence-to-grounding bridge, actual grounding as simple priority and priority requiring nonmutual dependence jointly yield it, so with any actual concretum at w (H, STMT-NECESSARY-CLASSICAL-GOD-ROOT, asserts one; G alone does not) at least one of those four must be rejected. It is not asserted."
 definitions = ["008cb21a-256c-5a90-822c-acd4591d699a", "DEF-KANT-ONTOLOGICAL-MODEL"]
 disambiguations = ["623ddbf6-9683-5361-bae4-e348a00ec680"]
 
@@ -83,7 +83,7 @@ premises = ["STMT-ESSE-CAUSES-EXIST-AT", "STMT-ESSE-CAUSES-ARE-CONCRETE", "STMT-
 conclusion = "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND"
 axioms = []
 rule = "As esseCauseGroundViaDependence, with the dependence instance taken at the distinct cause"
-meaning = "The derivation of STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND in Round2Grounding.esseCauseGroundViaDependence applies the dependence-to-grounding bridge only to c and x with c distinct from x. This sibling takes the weaker distinct-relata version of that bridge, with the other three premises unchanged. It therefore does not commit DependsForBeing to irreflexivity, which the unrestricted bridge does in combination with grounding-to-priority and priority requiring nonmutual dependence (reflexiveUnrestrictedExcludesActualConcreta). Conditional consequence only; no premise is established."
+meaning = "The derivation of STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND in Round2Grounding.esseCauseGroundViaDependence applies the dependence-to-grounding bridge only to c and x with c distinct from x. This sibling takes the weaker distinct-relata version of that bridge, with the other three premises unchanged. It therefore does not commit DependsForBeing to irreflexivity among actual concreta at w, which the unrestricted bridge does in combination with grounding-to-priority and priority requiring nonmutual dependence (reflexiveUnrestrictedExcludesActualConcreta). Conditional consequence only; no premise is established."
 
 [[argument]]
 id = "The esse-cause bridge from existent concreteness, via distinct actual dependence"
