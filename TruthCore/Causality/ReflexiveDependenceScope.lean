@@ -144,7 +144,7 @@ def pairD (_x _y : Fin 2) : Prop := True
 /-- Order-law controls. (1) The direct-edge chain satisfies reflexivity,
 distinct nonmutuality and both priority bridges for its strict part, yet `D` is
 not transitive and neither is the priority it induces: transitivity of priority
-needs transitivity of `D` (or of its closure), not the bridges. (2) The
+needs transitivity of `D` itself, not the bridges. (2) The
 reciprocal pair is reflexive and transitive but violates distinct
 nonmutuality, and its strict part is empty, so the bridges then give no
 priority between the pair. Formal interpretations only. -/
