@@ -38,7 +38,7 @@ premises = []
 conclusion = "Rigid initial profile, bearer omission and transfer are jointly inconsistent"
 axioms = []
 rule = "Rigid preservation and initial-to-presence soundness applied at an included witness"
-meaning = "Incompatible triad: under the rigid M profile any conceived history without the actual initial bearer is M-inadmissible, so a conceivability-based case for its possibility must supply restricted inclusion, which the rigid profile denies. Conditional on internal hypotheses; neither refutes fixed-history necessity nor establishes it."
+meaning = "Incompatible triad: under the rigid M profile any E-admitted history without the actual initial bearer is M-inadmissible. Restricted inclusion over all such histories is only a sufficient strengthening; an E-based case for an alternative start needs just one M-accessible bearer-omitting E-admitted history (the edge of the edge-check result), which the rigid profile also denies. Conditional on internal hypotheses; neither refutes fixed-history necessity nor establishes it."
 
 [[statement]]
 id = "Rigid initial profile with full inclusion gives an E-necessary initial bearer"
@@ -54,14 +54,14 @@ premises = []
 conclusion = "Rigid initial profile with full inclusion gives an E-necessary initial bearer"
 axioms = []
 rule = "Imported propagate and box_transfer_iff"
-meaning = "If the transfer inclusion is granted together with the rigid profile, the actual initial bearer is present in every E-admitted history: granting inclusion does not by itself remove fixed-history necessity. The inclusion premise, not conceivability alone, carries the comparison."
+meaning = "If full transfer inclusion is granted together with the rigid profile, some actual initial bearer is present in every E-admitted history: granting inclusion does not by itself remove fixed-history necessity. An access premise, not E-admissibility alone, carries the comparison."
 
 [[statement]]
 id = "Initial history transfer 1588 finite model"
 lean = "Model"
 definitions = ["7c9bfc4c-dfb3-4f13-b0f8-e2a1ab0dc505", "9f7c8d83-3d48-4c57-b5bb-625b01bedc51", "978b9b69-3707-52e4-9205-127e9a5ebe77"]
 disambiguations = ["da25d281-9924-559c-bb21-0c3f9de50011"]
-paraphrase = "One explicit four-history model (0 actual; 1 same initial bearer, different later observation; 2 same initial description, different initial bearer; 3 different description and bearer), with only initial bearers existing and three equivalence frames: E universal, rigid M sharing the initial bearer, qualitative M sharing the initial description. Under rigid M: the profile is rigid at 0, the later observation varies, bearer 0 is M-necessary but not E-necessary, M is included in E but not conversely, and the bearer-omitting and description-changing alternatives are E-possible and not M-possible. Under qualitative M: same description at all M-successors, not rigid, bearer 0 not necessary, bearer omission M-possible, description change not M-possible; inclusion restricted to same-description bearer omissions holds while inclusion on all bearer omissions and full inclusion fail, and transfer of the same-description omission succeeds. Finite formal interpretation only; no metaphysical possibility or chance is asserted."
+paraphrase = "Structural surrogate, not a cosmology. One explicit four-history model (0 actual; 1 same initial bearer, different later observation; 2 same initial description, different initial bearer; 3 different description and bearer), with only initial bearers existing and three equivalence frames: E universal, rigid M sharing the initial bearer, qualitative M sharing the initial description. Under rigid M: the profile is rigid at 0, the later observation varies, bearer 0 is M-necessary but not E-necessary, M is included in E but not conversely, and the bearer-omitting and description-changing alternatives are E-possible and not M-possible. Under qualitative M: same description at all M-successors, not rigid, bearer 0 not necessary, bearer omission M-possible, description change not M-possible; inclusion restricted to same-description bearer omissions holds while inclusion on all bearer omissions and full inclusion fail, and transfer of the same-description omission succeeds. History 2 differs from 0 only by its primitive bearer label, so every separation using it presupposes bearer-distinct qualitative duplicates (OPEN; anti-haecceitist individuation would identify 0 and 2); the history-3 description-change separation does not. Finite formal interpretation only; no metaphysical possibility or chance is asserted."
 
 [[argument]]
 id = "Initial history transfer 1588 finite model checked"
@@ -70,4 +70,20 @@ premises = []
 conclusion = "Initial history transfer 1588 finite model"
 axioms = ["propext", "Classical.choice", "Quot.sound"]
 rule = "Finite decision over four histories and three bearers"
-meaning = "Nonvacuity and omission controls: a concrete E-admissible, M-inadmissible initial-history description under the rigid reading; the weaker qualitative reading admits bearer omission; restricted inclusion is strictly weaker than full inclusion yet sufficient for its description. Model facts only."
+meaning = "Nonvacuity and omission controls in a structural surrogate: a concrete E-admissible, M-inadmissible initial-history description under the rigid reading; the weaker qualitative reading admits bearer omission; restricted inclusion is strictly weaker than full inclusion yet sufficient for its description. The bearer-omission separations presuppose bearer-distinct qualitative duplicates (OPEN). Model facts only."
+
+[[statement]]
+id = "Rigid initial profile denies the single bearer-omission edge"
+lean = "EdgeChecks"
+definitions = ["7c9bfc4c-dfb3-4f13-b0f8-e2a1ab0dc505", "9f7c8d83-3d48-4c57-b5bb-625b01bedc51", "978b9b69-3707-52e4-9205-127e9a5ebe77"]
+disambiguations = ["da25d281-9924-559c-bb21-0c3f9de50011"]
+paraphrase = "For every typed history profile with M as its frame, every E frame, world a and bearer b: if the profile is rigid at a and b is initial at a, then NO E-successor of a that lacks b is an M-successor of a (the single bearer-omission edge fails). In the four-history structural surrogate, the qualitative profile has that edge (via history 2) while failing restricted inclusion on all bearer omissions (via history 3), and the rigid profile lacks the edge. The surrogate separation presupposes bearer-distinct qualitative duplicates (OPEN). Analyst formulation, attribution deferred."
+
+[[argument]]
+id = "Rigid initial profile denies the single bearer-omission edge checked"
+theorem = "edgeChecks"
+premises = []
+conclusion = "Rigid initial profile denies the single bearer-omission edge"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Rigid soundness and preservation at an M-accessible witness; finite decision for the surrogate"
+meaning = "Binds the discriminating premise in its existential form: one E-admitted, M-accessible history lacking the actual initial bearer. The rigid profile denies exactly this edge; restricted inclusion over all such histories is a sufficient strengthening that the qualitative surrogate profile also fails. No warrant for or against the edge is established."

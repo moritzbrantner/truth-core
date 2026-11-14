@@ -7,5 +7,5 @@
   "theorem": "TruthCore.Results.Modal.InitialHistoryTransfer1588.rigidTriad",
   "comparator_config": "results/f2fb11be-5bde-4c6f-a894-c60a1dcf3052/comparator.json",
   "status": "solution-present",
-  "description": "Incompatible triad: under the rigid M profile any conceived history without the actual initial bearer is M-inadmissible, so a conceivability-based case for its possibility must supply restricted inclusion, which the rigid profile denies. Conditional on internal hypotheses; neither refutes fixed-history necessity nor establishes it."
+  "description": "Incompatible triad: under the rigid M profile any E-admitted history without the actual initial bearer is M-inadmissible. Restricted inclusion over all such histories is only a sufficient strengthening; an E-based case for an alternative start needs just one M-accessible bearer-omitting E-admitted history (the edge of the edge-check result), which the rigid profile also denies. Conditional on internal hypotheses; neither refutes fixed-history necessity nor establishes it."
 }

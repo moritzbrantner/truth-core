@@ -410,6 +410,16 @@ Spec `specs/initial-history-transfer-1588.toml`. Each candidate history is a
 #535 `History`. E is a supplied epistemic admission frame. The history's own
 frame is the stipulated M profile.
 
+- **Structural surrogate.** The four-history model is a structural surrogate,
+  not a cosmology. History 2 differs from history 0 only by its primitive
+  bearer label: description, later observation and roster size coincide. Every
+  separation that uses history 2 (`sameTypeAltBearer`, the strictness witness,
+  rigid M excluding it while qualitative M admits it, and the edge below)
+  therefore presupposes **bearer-distinct qualitative duplicates**. That
+  individuation premise is OPEN. Anti-haecceitist individuation would identify
+  histories 0 and 2, and the two readings would then coincide for
+  same-description alternatives. The history-3 / `AltType` separation does not
+  depend on it.
 - **Concrete E-admissible, M-inadmissible description.** In the four-history
   model, history 2 has the same initial description as the actual history but a
   different initial bearer: a qualitatively matching start without *this* start.
@@ -429,20 +439,30 @@ frame is the stipulated M profile.
   That edge is the weakest inclusion for a fully specified alternative start.
 - **Triad.** Rigid initial preservation, an E-admissible history lacking the
   actual initial bearer, and restricted inclusion for such histories are jointly
-  inconsistent (`rigidTriad`, composing #535 soundness/preservation). The
-  converse composition (`rigidInclusionNecessity`, #535 `propagate` with #438
-  `box_transfer_iff`) shows the other side. If full inclusion is *granted*
-  together with the rigid profile, the actual initial bearer is present in every
-  E-admitted history. Conceivability of an alternative start therefore
-  refutes fixed-history necessity only together with the inclusion premise, and
-  the rigid profile simply denies that premise. Neither theorem chooses which
+  inconsistent (`rigidTriad`, using `Rigid`'s soundness and preservation
+  clauses). The converse composition (`rigidInclusionNecessity`, #535
+  `propagate` with #438 `box_transfer_iff`) shows the other side. If full
+  inclusion is *granted* together with the rigid profile, some actual initial
+  bearer is present in every E-admitted history. Neither theorem chooses which
   triad member to drop.
+- **The single edge (repair after semantic challenge).** Restricted inclusion
+  over *all* bearer-omitting E-admitted histories is only a sufficient
+  strengthening. The discriminating premise is existential: `OmissionEdge`,
+  meaning some E-admitted history lacking the actual initial bearer is
+  M-accessible. `edgeChecks` shows the rigid profile denies exactly this edge
+  for every actual initial bearer. In the surrogate, the qualitative profile
+  has the edge via history 2 while failing restricted inclusion via history 3.
+  So the universal form does not separate the two profiles; the edge does.
+  E-admissibility of an alternative start counts against fixed-history
+  necessity only together with this edge, and the rigid profile simply denies
+  it.
 
-### Oppy's frugality defense on its strongest terms
+### Frugality defense (analyst reconstruction; Oppy 2013 attribution unverified)
 
 The 2020 chapter labels the profile an "austere view about what is possible"
-(§I, pp.13–14) without arguing for it there. The frugality argument is in Oppy
-2013, §§1, 3 (navigation only; not pinned). Analyst reconstruction:
+(§I, pp.13–14) without arguing for it there. The premises below are an analyst
+reconstruction. Their attribution to Oppy 2013, §§1, 3 is unverified: that text
+is navigation only and not pinned. On its strongest terms:
 
 1. Every modal judgment with evidential standing (outcome counterfactuals,
    dispositions) is accommodated by chance variation from actual laws and
@@ -461,21 +481,26 @@ Assessment under the substantive objection standard:
 - **Cost accounting (target: premise 2).** Removing possibilities adds
   necessities. In the checked model, rigid M makes bearer 0 necessary where
   E does not. Oppy himself says ontological necessities are always theoretical
-  primitives (statement 8aeca775; §VII, p.21). So fewer worlds is not fewer primitive
-  commitments unless one adds an accounting rule that counts possibilities, not
-  necessities, as the costly posits. That rule is not supplied. This shows a
-  gap in premise 2's application, not that the restricted profile is false.
-  Against theism, Oppy's own §VI use is parity: both packages posit a
-  necessary initial reality or part. Read that way, frugality gives the natural
-  foundation no added advantage and no added disadvantage at this node.
+  primitives (statement 8aeca775; §VII, p.21). In the same section he says the
+  property of existing necessarily is attributed to an item on each balance
+  sheet. So fewer worlds is not fewer primitive commitments unless one adds an
+  accounting rule that counts possibilities, not necessities, as the costly
+  posits. That rule is not supplied. This shows a gap in premise 2's
+  application, not that the restricted profile is false.
+  Scope against theism: by Oppy's own §VI–VII reasoning, both packages posit a
+  necessary initial reality or part. So modal austerity (fewer possibilities)
+  gives the natural foundation no differential against theism at this node.
+  Oppy's separate §IV argument for fewer commitments, which counts kinds of
+  causes, and his §VII claim that the necessary-singularity hypothesis trumps
+  the necessary-god hypothesis are not assessed here.
 - **Practice that treats initial conditions as explanatory targets (premise 3).**
   Cosmological work that treats special initial conditions as needing
   explanation compares alternative initial states (inflation was motivated
   this way; navigation: Guth 1981). That is positive evidence that alternative
   starts are *E-admissible*, and arguably admissible in physical model space.
   It does not supply the M edge, because Oppy can classify those alternatives
-  as epistemic or model-relative. This is exactly the inclusion premise above,
-  so this consideration does not decide between the profiles.
+  as epistemic or model-relative. This is exactly the edge above, so this
+  consideration does not decide between the profiles.
 - **Origin essentialism.** It constrains origin only where the bearer exists
   (#535 `ConditionalOrigin` holds in the rotating omission row). So it neither
   rules out alternative starts for Oppy nor rules them in for his critics.
@@ -492,23 +517,34 @@ be a witness if it is classified concrete. That requires a bridge from the #535
 built here. So this node does not separate the
 natural foundation from a theistic one; the separation lies downstream, in the
 physical-ground ladder's underived/uniting-cause/intellect bridges. The
-precise discriminating premise is **restricted inclusion for bearer-omitting
-initial histories**: some E-admissible history lacking the actual initial
-bearer is M-accessible. If that premise is warranted, the whole initial state
-under the rigid reading is not M-necessary and cannot serve as the rival's
-necessary concretum. The rival then retreats to Oppy's "part or aspect" case,
-and the same question recurs for histories omitting that part, which need
-their own edge. If it is not warranted, the rigid natural foundation survives
-at this node.
+precise discriminating premise is **the single bearer-omission edge**: some
+E-admitted history lacking the actual initial bearer is M-accessible
+(`OmissionEdge`). It amounts to the failure of that bearer's M-necessity at the
+E-admitted histories. Restricted inclusion over all such histories is only a
+sufficient strengthening, and the qualitative profile also fails it. The open
+question is the warrant for one such edge, for example a history-2-type
+alternative. Its witness presupposes bearer-distinct qualitative duplicates,
+which is OPEN. If the edge is warranted, the whole initial state under the
+rigid reading is not M-necessary and cannot serve as the rival's necessary
+concretum. The rival then retreats to Oppy's "part or aspect" case, and the
+same question recurs for histories omitting that part, which need their own
+edge. If the edge is not warranted, the rigid natural foundation survives at
+this node.
 
-**Provisional judgment** (pending independent semantic challenge): the
-restricted and inclusive profiles both remain live. Conceivability is neutral
-between them, and the dispute sits entirely in the inclusion edge. Frugality
-gives a defeasible reason for the restricted profile. Its force depends on an
-unsupplied rule for counting possibilities versus necessities, and against
-theism it supports parity rather than advantage. **Revise if** a warranted
+**Provisional judgment** (revised after the independent semantic challenge):
+the restricted and inclusive profiles both remain live. E-admissibility is
+neutral between them, and the dispute sits in the single existential edge.
+Frugality gives a defeasible reason for the restricted profile. Its force
+depends on an unsupplied rule for counting possibilities versus necessities.
+Against theism, modal austerity gives no differential at this node; Oppy's §IV
+and §VII advantage claims are not assessed. **Deferred:** the rigid/qualitative
+readings of "shares initial history" are a reading fork recorded only in
+definition 7c9bfc4c. A dedicated disambiguation is a follow-up under #216,
+needed before either reading becomes load-bearing downstream. The frozen
+Challenge docstring of `rigidTriad` still says it composes propagation; the
+Solution docstring and this note supersede it. **Revise if** a warranted
 account of metaphysical access for initial histories (e.g. a recombination
 principle covering initial bearers, or a necessitarian account of the initial
 state) is supplied, or if an explicit accounting rule for modal commitments is
-defended. Formal status: four premise-free conditional/model results; no root
+defended. Formal status: five premise-free conditional/model results; no root
 premise closed, no possibility of any actual history asserted.

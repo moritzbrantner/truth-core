@@ -7,5 +7,5 @@
   "theorem": "TruthCore.Results.Modal.InitialHistoryTransfer1588.model",
   "comparator_config": "results/ea476f80-caae-431c-8205-328d57441bd7/comparator.json",
   "status": "solution-present",
-  "description": "Nonvacuity and omission controls: a concrete E-admissible, M-inadmissible initial-history description under the rigid reading; the weaker qualitative reading admits bearer omission; restricted inclusion is strictly weaker than full inclusion yet sufficient for its description. Model facts only."
+  "description": "Nonvacuity and omission controls in a structural surrogate: a concrete E-admissible, M-inadmissible initial-history description under the rigid reading; the weaker qualitative reading admits bearer omission; restricted inclusion is strictly weaker than full inclusion yet sufficient for its description. The bearer-omission separations presuppose bearer-distinct qualitative duplicates (OPEN). Model facts only."
 }

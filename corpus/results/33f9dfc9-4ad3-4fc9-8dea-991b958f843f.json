@@ -7,5 +7,5 @@
   "theorem": "TruthCore.Results.Modal.InitialHistoryTransfer1588.rigidInclusionNecessity",
   "comparator_config": "results/33f9dfc9-4ad3-4fc9-8dea-991b958f843f/comparator.json",
   "status": "solution-present",
-  "description": "If the transfer inclusion is granted together with the rigid profile, the actual initial bearer is present in every E-admitted history: granting inclusion does not by itself remove fixed-history necessity. The inclusion premise, not conceivability alone, carries the comparison."
+  "description": "If full transfer inclusion is granted together with the rigid profile, some actual initial bearer is present in every E-admitted history: granting inclusion does not by itself remove fixed-history necessity. An access premise, not E-admissibility alone, carries the comparison."
 }

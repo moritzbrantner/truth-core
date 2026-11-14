@@ -24,4 +24,9 @@ theorem rigidInclusionNecessity : RigidInclusionNecessity := by
 theorem model : Model := by
   sorry
 
+/-- The rigid profile denies the single discriminating edge, and the structural
+surrogate separates that edge from restricted inclusion. -/
+theorem edgeChecks : EdgeChecks := by
+  sorry
+
 end TruthCore.Results.Modal.InitialHistoryTransfer1588

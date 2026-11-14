@@ -30,8 +30,9 @@ theorem completeDescriptionTransfer : CompleteDescriptionTransfer := by
 theorem transferRefinement : TransferRefinement :=
   ⟨restrictedTransfer, completeDescriptionTransfer⟩
 
-/-- Composes the #535 propagation theorem: an M-accessible bearer-omitting
-history would have to contain the actual initial bearer. -/
+/-- Uses only `Rigid`'s soundness and preservation clauses (not `propagate`):
+an M-accessible bearer-omitting history would have to contain the actual
+initial bearer. -/
 theorem rigidTriad : RigidTriad := by
   intro W B D h E a b hr hb ⟨v, hEv, hAbsent⟩ hIn
   have hMv := hIn v hEv hAbsent
@@ -52,6 +53,18 @@ theorem model : Model := by
   dsimp
   and_intros
   all_goals decide
+
+/-- The rigid profile denies the single discriminating edge, and the structural
+surrogate separates that edge from restricted inclusion. -/
+theorem edgeChecks : EdgeChecks := by
+  refine ⟨?_, ?_⟩
+  · intro W B D h E a b hr hb ⟨v, _, hAbsent, hMv⟩
+    exact hAbsent (hr.2.1 b v (hr.2.2 b v hMv hb))
+  · unfold EdgeSeparation OmissionEdge IncludedOn AltBearer history4 epistemic4
+      rigidAccess descAccess root
+    dsimp
+    and_intros
+    all_goals decide
 
 theorem checks : TruthCore.Modal.InitialHistoryTransfer1588.Checks :=
   ⟨transferRefinement, rigidTriad, rigidInclusionNecessity, model⟩

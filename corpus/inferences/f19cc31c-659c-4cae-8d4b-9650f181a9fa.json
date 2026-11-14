@@ -4,7 +4,7 @@
   "input_statement_ids": [],
   "output_statement_id": "77a76499-f2df-467f-b685-919f8b110d89",
   "rule": "Rigid preservation and initial-to-presence soundness applied at an included witness",
-  "meaning": "Incompatible triad: under the rigid M profile any conceived history without the actual initial bearer is M-inadmissible, so a conceivability-based case for its possibility must supply restricted inclusion, which the rigid profile denies. Conditional on internal hypotheses; neither refutes fixed-history necessity nor establishes it.",
+  "meaning": "Incompatible triad: under the rigid M profile any E-admitted history without the actual initial bearer is M-inadmissible. Restricted inclusion over all such histories is only a sufficient strengthening; an E-based case for an alternative start needs just one M-accessible bearer-omitting E-admitted history (the edge of the edge-check result), which the rigid profile also denies. Conditional on internal hypotheses; neither refutes fixed-history necessity nor establishes it.",
   "assumption_statement_ids": [],
   "discharged_statement_ids": []
 }

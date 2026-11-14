@@ -51,7 +51,8 @@ def TransferRefinement : Prop := RestrictedTransfer ∧ CompleteDescriptionTrans
 /-- Incompatible triad, stated as a conditional: under a rigid M-profile at `a`
 with actual initial bearer `b`, an E-admissible history omitting `b` and
 inclusion of E in M on such histories cannot all hold. Which member to give up
-is NOT decided here. -/
+is NOT decided here. The inclusion member is a sufficient strengthening of the
+single discriminating edge `OmissionEdge` below. -/
 def RigidTriad : Prop :=
   ∀ (W B D : Type) (h : History W B D) (E : Frame W) (a : W) (b : B),
     Rigid h a → h.initial b a → Dia E (AltBearer h b) a →
@@ -89,7 +90,11 @@ def descAccess : Frame (Fin 4) := ⟨fun a v => decide (v = 3) = decide (a = 3)�
 def sameTypeAltBearer : MProp (Fin 4) :=
   fun v => v ≠ 3 ∧ root v ≠ 0
 
-/-- Joint checked model facts. All three frames are equivalences, so the
+/-- Structural surrogate, not a cosmology. History 2 differs from history 0
+only by its primitive bearer label, so every separation using it presupposes
+bearer-distinct qualitative duplicates (OPEN; anti-haecceitist individuation
+would identify 0 and 2). The history-3 / `AltType` separation does not use it.
+Joint checked model facts. All three frames are equivalences, so the
 separations are not empty-access artifacts. Under the rigid profile the actual
 initial bearer 0 is M-necessary with later variation; the bearer-omitting and
 type-changing descriptions are E-admissible and M-inadmissible, and M-necessity
@@ -118,6 +123,30 @@ def Model : Prop :=
   ¬ IncludedOn epistemic4 descAccess (AltBearer (history4 descAccess) 0) 0 ∧
   ¬ IncludedAt epistemic4 descAccess 0 ∧
   Dia descAccess sameTypeAltBearer 0
+
+/-- The single discriminating edge: some E-admitted history lacking `b` is
+M-accessible from `a`. Restricted inclusion on all such histories is a
+sufficient strengthening of it, given one E-admitted omission. -/
+def OmissionEdge {W B D : Type} (h : History W B D) (E : Frame W) (a : W) (b : B) :
+    Prop :=
+  ∃ v, E.access a v ∧ AltBearer h b v ∧ h.ontic.frame.access a v
+
+/-- A rigid M-profile denies this edge for every actual initial bearer. -/
+def RigidDeniesEdge : Prop :=
+  ∀ (W B D : Type) (h : History W B D) (E : Frame W) (a : W) (b : B),
+    Rigid h a → h.initial b a → ¬ OmissionEdge h E a b
+
+/-- In the structural surrogate: the qualitative profile has the edge (via the
+bearer-distinct qualitative duplicate, history 2) while failing restricted
+inclusion on all bearer omissions (history 3); the rigid profile lacks the edge.
+History 2 differs from 0 only by its primitive bearer label, so this separation
+presupposes bearer-distinct qualitative duplicates. -/
+def EdgeSeparation : Prop :=
+  OmissionEdge (history4 descAccess) epistemic4 0 0 ∧
+  ¬ IncludedOn epistemic4 descAccess (AltBearer (history4 descAccess) 0) 0 ∧
+  ¬ OmissionEdge (history4 rigidAccess) epistemic4 0 0
+
+def EdgeChecks : Prop := RigidDeniesEdge ∧ EdgeSeparation
 
 def Checks : Prop :=
   TransferRefinement ∧ RigidTriad ∧ RigidInclusionNecessity ∧ Model
