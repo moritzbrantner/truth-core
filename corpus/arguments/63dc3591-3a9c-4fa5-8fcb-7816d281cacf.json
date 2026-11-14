@@ -1,0 +1,24 @@
+{
+  "id": "63dc3591-3a9c-4fa5-8fcb-7816d281cacf",
+  "label": "The universal origin bridge gives its self-edge sibling",
+  "premise_statement_ids": [
+    "be90bb15-c2ce-44cd-ae2d-5ec6dc4c24c9"
+  ],
+  "conclusion_statement_id": "83ec280a-b8bb-40de-b16a-d43385461054",
+  "inference_ids": [
+    "738aa88a-90e0-4105-a1ea-290b564e2937"
+  ],
+  "meaning": "Strength registration (not a new support for the root): the universal origin-to-exercise bridge, instantiated at a self-origin edge CausesOrigin x x, gives the self-edge sibling for the same frame and exercise vocabulary. The converse fails in the other-only control.",
+  "definition_ids": [
+    "62acf1f0-77c0-4d0b-854c-6d88a5bb5a53",
+    "9022c4bf-78d2-4c4b-98b3-38eb705990d2",
+    "05dc1385-d245-5137-bf8b-dbdb1d3d9a7a"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
+  ],
+  "strong_version_needed": {
+    "be90bb15-c2ce-44cd-ae2d-5ec6dc4c24c9": "The universal bridge is the strong side of this strength registration, not a premise of a route step; only its self-edge instances are consumed."
+  },
+  "weakening": true
+}

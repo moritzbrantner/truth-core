@@ -1,0 +1,13 @@
+{
+  "id": "a6b0e934-dce1-4674-ba4f-b84d01ff3d6c",
+  "label": "Universal origin bridge holds iff its self-edge sibling and its distinct-relata clause hold",
+  "paraphrase": "For every cause frame and exercise vocabulary (Occurs, bearer, produces): every origin edge is realized by its source's productive exercise if and only if every self-origin edge is realized by the self-originator's productive exercise and every origin edge is either a self-edge or realized by its source's productive exercise. A comparison of the two encodings; it asserts neither bridge.",
+  "lean_declaration": "TruthCore.Causality.OriginExerciseBridge.UniversalOverSelfExact",
+  "definition_ids": [
+    "9022c4bf-78d2-4c4b-98b3-38eb705990d2",
+    "62acf1f0-77c0-4d0b-854c-6d88a5bb5a53"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
+  ]
+}

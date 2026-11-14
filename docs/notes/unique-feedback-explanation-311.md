@@ -155,21 +155,34 @@ exercise of c produces x's being" is part of the bridge's OPEN content
 (DEF `9022c4bf`, statement `be90bb15`), and it is the step that the builder
 case leaves open.
 
-**Why the bridge is universal.** The bridge quantifies over every
-`CausesOrigin` edge, but the argument uses only self-edges. The universal form
-is kept here because it is the productive reading of `CAUSE_4` itself, and its
-warrant (the actual-exercise requirement) is stated generally. The weaker
-self-edge sibling, `∀ x, CausesOrigin x x → ∃ a, Occurs a ∧ bearer a = x ∧
-produces a x`, follows from the universal form, so it has at least the same
-warrant, and it is exposed to strictly fewer defeaters: it does not carry the
-coming-to-be-to-being step for ordinary origination (the builder case, Hall-style
-dependence and omission causes). It keeps only the self-edge case of that step,
-which is where the Smith whole-borne-exercise dispute sits. By the
-weakest-sufficient-version rule the argument should consume that sibling; the
-universal form is retained in this PR only because registering the sibling and
-its `strengthens` result is deferred to a tracked follow-up, and until then the
-universal form is the strong version this argument needs
-(`strong_version_needed`, recorded here).
+**Why the bridge is universal and its self-edge sibling.** The bridge
+quantifies over every `CausesOrigin` edge, but the argument uses only
+self-edges. The universal form (statement `be90bb15`, DEF `9022c4bf`) is kept
+as the productive reading of `CAUSE_4` itself, because its warrant (the
+actual-exercise requirement) is stated generally. Since #1610 the argument
+`e9a9eeaf` consumes the weak self-edge sibling `OriginHasProductiveSelfExercise`
+(`∀ x, CausesOrigin x x → ∃ a, Occurs a ∧ bearer a = x ∧ produces a x`, DEF
+`62acf1f0`), and no argument needs the strong version
+(`strong_version_needed` is gone). The universal form strengthens the sibling
+(verified instantiation result `selfExerciseOfExercise`). Their certified
+difference (#1598) is `NonSelfOriginHasProductiveExercise`: every origin edge
+is a self-edge or is realized by its source's productive exercise, that is,
+classically, the bridge for edges between distinct beings. The premise-free
+`universalOverSelfExact` proves universal ⇔ self-edge ∧ delta without decidable
+identity, and the other-only frame (`true` originates `false`, no exercises)
+separates them: the sibling holds there vacuously and the universal form fails.
+
+Warrant difference. The sibling follows from the universal form, so it has at
+least its warrant, and every defeater of the sibling defeats the universal form.
+The converse fails: the ordinary-origination candidates are all edges between
+distinct beings and bear only on the delta. They are the builder, a cause of a
+house's becoming but not of its being (*ST* I q.104 a.1), and Hall-style
+dependence and omission causes. The sibling keeps only the self-edge case of the
+coming-to-be-to-being step. That case is where the Smith/Newman whole-universe
+dispute sits: whether a whole said to originate itself through its constituents'
+reciprocal origination bears an exercise producing its own being. That dispute
+is not lightened by the weakening and stays OPEN. The weakening removes
+irrelevant exposure, not the live objection, and it establishes neither bridge.
 
 **Non-temporal activity and the divine case.** Aquinas, *ST* I q.45 a.3,
 distinguishes creation from motion or change and identifies active divine

@@ -2,6 +2,8 @@
 # The new bridge to the existing existential-production vocabulary remains
 # independently OPEN. This batch reuses the certified noSelf theorem and
 # makes no source attribution or root-premise establishment claim.
+# #1610: the argument consumes the weak self-edge sibling of the bridge; the
+# universal bridge strengthens it, with a certified difference (#1598).
 
 [batch]
 vocab = "TruthCore.Causality.OriginExerciseBridge"
@@ -14,15 +16,97 @@ paraphrase = "OPEN analyst bridge: for every CAUSE_4 originating-cause edge Caus
 definitions = ["9022c4bf-78d2-4c4b-98b3-38eb705990d2", "DEF-CAUSE-OF-ORIGIN"]
 disambiguations = ["DISAMB-CAUSE"]
 
+[[statement]]
+id = "Whatever originates itself does so through its own existentially productive exercise"
+lean = "OriginHasProductiveSelfExercise"
+paraphrase = "OPEN analyst bridge, weak self-edge sibling of be90bb15: for every x with a CAUSE_4 self-origin edge CausesOrigin x x, an occurring exercise a borne by x produces x's existence, with produces in the same sense as DEF-NO-EXISTENTIAL-SELF-PRODUCTION (production of the being of the resultant individual, not merely of its coming-to-be). The passage from x's causing its own coming-to-be to an exercise of x producing x's being is this bridge's open content. Nothing is said about origin edges between distinct beings. It does not assert that anything originates itself. Attribution deferred; the application to reality is not established."
+definitions = ["62acf1f0-77c0-4d0b-854c-6d88a5bb5a53", "DEF-CAUSE-OF-ORIGIN"]
+disambiguations = ["DISAMB-CAUSE"]
+
+[[statement]]
+id = "Every origin edge between distinct beings is realized by its source's productive exercise"
+lean = "NonSelfOriginHasProductiveExercise"
+paraphrase = "Difference statement: for every CAUSE_4 origin edge CausesOrigin c x, either c = x or an occurring exercise a borne by c produces x's existence (produces as in DEF-NO-EXISTENTIAL-SELF-PRODUCTION). Classically this is the universal origin-to-exercise bridge restricted to edges whose source and target are distinct; the disjunctive form avoids assuming decidable identity. It carries the coming-to-be-to-being step for ordinary origination of one thing by another and says nothing about self-origin edges."
+definitions = ["9022c4bf-78d2-4c4b-98b3-38eb705990d2", "DEF-CAUSE-OF-ORIGIN"]
+disambiguations = ["DISAMB-CAUSE"]
+
+[[statement]]
+id = "Universal origin bridge holds iff its self-edge sibling and its distinct-relata clause hold"
+lean = "UniversalOverSelfExact"
+paraphrase = "For every cause frame and exercise vocabulary (Occurs, bearer, produces): every origin edge is realized by its source's productive exercise if and only if every self-origin edge is realized by the self-originator's productive exercise and every origin edge is either a self-edge or realized by its source's productive exercise. A comparison of the two encodings; it asserts neither bridge."
+definitions = ["9022c4bf-78d2-4c4b-98b3-38eb705990d2", "62acf1f0-77c0-4d0b-854c-6d88a5bb5a53"]
+disambiguations = ["DISAMB-CAUSE"]
+
+[[statement]]
+id = "A frame with one origin edge between distinct beings and no exercises separates the origin bridges"
+lean = "OtherOnlySeparates"
+paraphrase = "Closed mathematical control: in the frame on Bool where true originates false and nothing originates itself, with an empty type of exercises, the self-edge origin bridge holds (vacuously, there being no self-origin edge) and the universal origin bridge fails (the edge true to false has no exercise). A statement about this finite interpretation only, not a claim that real origination lacks productive exercises."
+definitions = ["9022c4bf-78d2-4c4b-98b3-38eb705990d2", "62acf1f0-77c0-4d0b-854c-6d88a5bb5a53"]
+
 [[argument]]
 id = "e9a9eeaf-4845-42a8-a8dc-4721846cad0f"
-label = "No originating cause originates itself, from productive exercise and no self-production"
-theorem = "noSelfOriginFromNoSelfProduction"
+label = "No originating cause originates itself, from productive self-exercise and no self-production"
+theorem = "noSelfOriginFromSelfExercise"
 premises = [
-  "Every originating cause operates through its own existentially productive exercise",
+  "Whatever originates itself does so through its own existentially productive exercise",
   "STMT-NO-EXISTENTIAL-SELF-PRODUCTION",
 ]
 conclusion = "STMT-NOTHING-ORIGINATES-ITSELF"
 axioms = []
 rule = "Apply the existing no-self-production result to the witness supplied by an arbitrary CausesOrigin x x edge; its bearer equals x, contradicting production of its own bearer"
-meaning = "Non-transcription conditional derivation composed with the EXISTING independently certified NoSelfProduction argument. The new OPEN origin-to-exercise bridge makes an arbitrary self-origin edge CausesOrigin x x supply an occurring exercise a with bearer a = x and produces a x. The separately recorded NoSelfProduction statement excludes that conjunction; it itself has a non-transcription support route from four open mixed-token priority premises (TruthCore.Results.Causality.ExistentialSelfActualization.noSelf), reused in the unregistered composition theorem noSelfOriginFromExercise. The conclusion concerns only the CAUSE_4 reading, not all causal senses. No temporal precedence, self-maintenance prohibition, necessary-being uniqueness or independent warrant follows. This creates an explicit two-layer root-reaching support option; the five underlying commitments remain open, so there is no premise establishment."
+meaning = "Non-transcription conditional derivation composed with the EXISTING independently certified NoSelfProduction argument. The OPEN self-edge origin-to-exercise bridge makes an arbitrary self-origin edge CausesOrigin x x supply an occurring exercise a with bearer a = x and produces a x. The separately recorded NoSelfProduction statement excludes that conjunction; it itself has a non-transcription support route from four open mixed-token priority premises (TruthCore.Results.Causality.ExistentialSelfActualization.noSelf). Since #1610 the argument consumes the weak self-edge sibling of the universal bridge be90bb15, which strengthens it; no premise concerns origin edges between distinct beings. The conclusion concerns only the CAUSE_4 reading, not all causal senses. No temporal precedence, self-maintenance prohibition, necessary-being uniqueness or independent warrant follows. This creates an explicit two-layer root-reaching support option; the five underlying commitments remain open, so there is no premise establishment."
+
+[[argument]]
+id = "The universal origin bridge gives its self-edge sibling"
+theorem = "selfExerciseOfExercise"
+strong_version_needed = {"Every originating cause operates through its own existentially productive exercise" = "The universal bridge is the strong side of this strength registration, not a premise of a route step; only its self-edge instances are consumed."}
+premises = ["Every originating cause operates through its own existentially productive exercise"]
+conclusion = "Whatever originates itself does so through its own existentially productive exercise"
+axioms = []
+weakening = true
+transcription = "instantiation"
+rule = "universal instantiation at the self-edge CausesOrigin x x"
+meaning = "Strength registration (not a new support for the root): the universal origin-to-exercise bridge, instantiated at a self-origin edge CausesOrigin x x, gives the self-edge sibling for the same frame and exercise vocabulary. The converse fails in the other-only control."
+
+[[argument]]
+id = "Universal origin bridge is the self-edge sibling plus the distinct-relata clause"
+theorem = "universalOverSelfExact"
+premises = []
+conclusion = "Universal origin bridge holds iff its self-edge sibling and its distinct-relata clause hold"
+axioms = []
+rule = "Case split of each origin edge on the delta disjunction: a self-edge uses the self-edge sibling, otherwise the delta supplies the exercise"
+meaning = "Certified difference (#1598) of the registration universal origin bridge strengthens self-edge origin bridge: for every frame and exercise vocabulary, the universal bridge holds iff the self-edge sibling holds and every origin edge is a self-edge or realized by its source's productive exercise. Premise-free; it compares the two encodings, uses no decidable identity and asserts neither bridge."
+
+[[argument]]
+id = "Other-only origin frame separates the origin bridges"
+theorem = "otherOnlySeparates"
+premises = []
+conclusion = "A frame with one origin edge between distinct beings and no exercises separates the origin bridges"
+axioms = []
+rule = "Finite case analysis on Bool and the empty exercise type"
+meaning = "Strictness control: in the other-only frame with no exercises the self-edge bridge holds vacuously and the universal bridge fails at the edge true to false. A finite interpretation only; it shows that the self-edge sibling does not entail the universal bridge, not that any real origin edge lacks an exercise."
+
+[[relation]]
+id = "Universal origin bridge strengthens the self-edge origin bridge"
+subject_kind = "statement"
+subject_id = "Every originating cause operates through its own existentially productive exercise"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "Whatever originates itself does so through its own existentially productive exercise"
+verification_result_id = "The universal origin bridge gives its self-edge sibling"
+strictness_result_id = "Other-only origin frame separates the origin bridges"
+note = "Same frame and exercise vocabulary; instantiation at self-edges only (#1610). The universal form adds the clause for origin edges between distinct beings, which carries the ordinary-origination defeaters (builder case, Hall-style dependence and omission causes). The other-only control witnesses converse failure."
+
+[[relation]]
+id = "Universal over self-edge origin bridge: certified difference"
+subject_kind = "statement"
+subject_id = "Every originating cause operates through its own existentially productive exercise"
+predicate = "strength_comparison"
+object_kind = "statement"
+object_id = "Whatever originates itself does so through its own existentially productive exercise"
+comparison_spec = "universalOverSelf"
+delta_statement_id = "Every origin edge between distinct beings is realized by its source's productive exercise"
+evidence_result_ids = { implication = "The universal origin bridge gives its self-edge sibling", equivalence = "Universal origin bridge is the self-edge sibling plus the distinct-relata clause" }
+separator = { setting = "otherOnlySetting", result_id = "Other-only origin frame separates the origin bridges" }
+statement_parameter_indices = { stronger = [0, 1, 2, 3, 4, 5, 6], weaker = [0, 1, 2, 3, 4, 5, 6], delta = [0, 1, 2, 3, 4, 5, 6] }
+note = "Difference of the universal and self-edge origin-to-exercise bridges: both require an occurring existence-producing exercise of the originator for self-origin edges; the universal form adds exactly that every origin edge between distinct beings is realized by its source's productive exercise. The delta is the bridge's ordinary-origination clause, where the builder and Hall-style defeaters sit; it does not mention self-edges. The other-only separator is a finite interpretation, not a claim about real origination."

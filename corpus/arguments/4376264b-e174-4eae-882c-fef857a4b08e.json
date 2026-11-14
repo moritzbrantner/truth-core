@@ -1,0 +1,14 @@
+{
+  "id": "4376264b-e174-4eae-882c-fef857a4b08e",
+  "label": "Other-only origin frame separates the origin bridges",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "ebac3423-2861-4b2e-b91d-5b545d5f2715",
+  "inference_ids": [
+    "9275becd-6da6-4907-863e-dcafc2e3a68a"
+  ],
+  "meaning": "Strictness control: in the other-only frame with no exercises the self-edge bridge holds vacuously and the universal bridge fails at the edge true to false. A finite interpretation only; it shows that the self-edge sibling does not entail the universal bridge, not that any real origin edge lacks an exercise.",
+  "definition_ids": [
+    "62acf1f0-77c0-4d0b-854c-6d88a5bb5a53",
+    "9022c4bf-78d2-4c4b-98b3-38eb705990d2"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "ebac3423-2861-4b2e-b91d-5b545d5f2715",
+  "label": "A frame with one origin edge between distinct beings and no exercises separates the origin bridges",
+  "paraphrase": "Closed mathematical control: in the frame on Bool where true originates false and nothing originates itself, with an empty type of exercises, the self-edge origin bridge holds (vacuously, there being no self-origin edge) and the universal origin bridge fails (the edge true to false has no exercise). A statement about this finite interpretation only, not a claim that real origination lacks productive exercises.",
+  "lean_declaration": "TruthCore.Causality.OriginExerciseBridge.OtherOnlySeparates",
+  "definition_ids": [
+    "9022c4bf-78d2-4c4b-98b3-38eb705990d2",
+    "62acf1f0-77c0-4d0b-854c-6d88a5bb5a53"
+  ]
+}

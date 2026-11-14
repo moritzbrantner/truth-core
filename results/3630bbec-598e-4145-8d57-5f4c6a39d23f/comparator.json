@@ -2,7 +2,7 @@
   "challenge_module": "TruthCore.Results.Causality.OriginExerciseBridge.Challenge",
   "solution_module": "TruthCore.Results.Causality.OriginExerciseBridge.Solution",
   "theorem_names": [
-    "TruthCore.Results.Causality.OriginExerciseBridge.noSelfOriginFromNoSelfProduction"
+    "TruthCore.Results.Causality.OriginExerciseBridge.noSelfOriginFromSelfExercise"
   ],
   "permitted_axioms": [],
   "enable_nanoda": true

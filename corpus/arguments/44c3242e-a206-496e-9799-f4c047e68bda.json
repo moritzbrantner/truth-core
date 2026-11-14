@@ -1,0 +1,17 @@
+{
+  "id": "44c3242e-a206-496e-9799-f4c047e68bda",
+  "label": "Universal origin bridge is the self-edge sibling plus the distinct-relata clause",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "a6b0e934-dce1-4674-ba4f-b84d01ff3d6c",
+  "inference_ids": [
+    "e3bc697a-374d-4a40-a337-968761cdc0a7"
+  ],
+  "meaning": "Certified difference (#1598) of the registration universal origin bridge strengthens self-edge origin bridge: for every frame and exercise vocabulary, the universal bridge holds iff the self-edge sibling holds and every origin edge is a self-edge or realized by its source's productive exercise. Premise-free; it compares the two encodings, uses no decidable identity and asserts neither bridge.",
+  "definition_ids": [
+    "62acf1f0-77c0-4d0b-854c-6d88a5bb5a53",
+    "9022c4bf-78d2-4c4b-98b3-38eb705990d2"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "738aa88a-90e0-4105-a1ea-290b564e2937",
+  "label": "The universal origin bridge gives its self-edge sibling (inference)",
+  "input_statement_ids": [
+    "be90bb15-c2ce-44cd-ae2d-5ec6dc4c24c9"
+  ],
+  "output_statement_id": "83ec280a-b8bb-40de-b16a-d43385461054",
+  "rule": "universal instantiation at the self-edge CausesOrigin x x",
+  "meaning": "Strength registration (not a new support for the root): the universal origin-to-exercise bridge, instantiated at a self-origin edge CausesOrigin x x, gives the self-edge sibling for the same frame and exercise vocabulary. The converse fails in the other-only control.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
