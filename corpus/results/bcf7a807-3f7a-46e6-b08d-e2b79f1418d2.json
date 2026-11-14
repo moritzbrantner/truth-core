@@ -1,0 +1,11 @@
+{
+  "id": "bcf7a807-3f7a-46e6-b08d-e2b79f1418d2",
+  "label": "One-sided third-factor bound on wrongly endorsed acts",
+  "argument_id": "5735eae0-daae-4d82-b33a-9d0a94748554",
+  "challenge_module": "TruthCore.Results.Logic.ThirdFactorTracking.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ThirdFactorTracking.Solution",
+  "theorem": "TruthCore.Results.Logic.ThirdFactorTracking.oneSidedThirdFactorBound",
+  "comparator_config": "results/bcf7a807-3f7a-46e6-b08d-e2b79f1418d2/comparator.json",
+  "status": "solution-present",
+  "description": "The strongest quantified form of Enoch's modest correlation available from his one-direction premise: what selection disposes us to endorse is mostly backed by a reason, with wrongly endorsed acts at most d1 + d2, and no independence assumed. It uses only the factor-without-reason direction the pro tanto goodness of survival bears on, and says nothing about reasons B fails to endorse. Both rates are open inputs; nothing is derived about their values."
+}

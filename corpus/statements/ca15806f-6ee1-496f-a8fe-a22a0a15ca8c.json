@@ -1,0 +1,12 @@
+{
+  "id": "ca15806f-6ee1-496f-a8fe-a22a0a15ca8c",
+  "label": "Selected-for judgment matches the normative truth except in at most an e share of cases",
+  "paraphrase": "On one distribution of cases, the selected-for judgment B differs from the normative truth M in a set of cases of measure at most e; if the distribution is a probability measure and the agreement event is measurable, B agrees with M with probability at least 1 − e (zero once e ≥ 1). This is a bound on the truth–judgment correlation over that distribution, not on any single case, other distribution or other verdict type.",
+  "lean_declaration": "TruthCore.Logic.ThirdFactorTracking.JudgmentTruthAgreementAtLeast",
+  "definition_ids": [
+    "d4c61290-6c30-4fc3-97db-966bae5802c5"
+  ],
+  "disambiguation_ids": [
+    "1ea78c11-3346-5546-8da6-d1e1afb89834"
+  ]
+}

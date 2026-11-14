@@ -1,0 +1,10 @@
+{
+  "id": "4600bbe8-8470-4f66-aa8b-630f7f0487af",
+  "label": "Exact binary error accounting for the third-factor chain (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "9003f7d4-64e0-4154-a4e7-919c032b9148",
+  "rule": "Case analysis on three Booleans; measure of a symmetric difference; measure_sdiff_add_inter; ENNReal cancellation for finite values",
+  "meaning": "Sharpness of the union bound for binary verdicts: the bound e1 + e2 is attained by the actual rates exactly when the error sets are almost surely disjoint, and any overlap lowers the judgment/truth error by twice its measure. For non-binary verdicts two errors need not cancel; this theorem does not cover them.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

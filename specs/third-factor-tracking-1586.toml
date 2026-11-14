@@ -1,0 +1,109 @@
+[batch]
+vocab = "TruthCore.Logic.ThirdFactorTracking"
+results = "TruthCore.Results.Logic.ThirdFactorTracking"
+definitions = []
+disambiguations = []
+
+[[statement]]
+id = "Selected-for judgment differs from the third factor in at most an e1 share of cases"
+lean = "SelectionErrorAtMost"
+paraphrase = "OPEN analyst premise for #1586, attribution deferred. On one specified distribution of cases, the selected-for evaluative judgment B differs from the independently specified survival/goods factor F in a set of cases of measure at most e1. On the analyst's reading this is what Street's adaptive-link explanation would supply for the selected range of judgments; she states no rate, no value of e1 is supplied, and its empirical calibration is open."
+definitions = ["d4c61290-6c30-4fc3-97db-966bae5802c5", "daa6a2fe-5251-56b4-b808-cc21ce759a03"]
+disambiguations = ["1ea78c11-3346-5546-8da6-d1e1afb89834"]
+
+[[statement]]
+id = "The third factor differs from the matching normative truth in at most an e2 share of cases"
+lean = "FactorTruthGapAtMost"
+paraphrase = "OPEN analyst premise for #1586, attribution deferred. On the same distribution, the survival/goods factor F differs from the normative truth M about the same acts, under one fixed verdict type, in a set of cases of measure at most e2. A small e2 is what a two-sided third-factor correlation needs. His premise that survival is pro tanto good does not bound it for all-things-considered or impartial verdicts, nor the reverse direction of the pro tanto gap (cases where F fails and a pro tanto reason holds anyway); at most it bears on the cases where F holds and no reason does, and even that part only qualifiedly, since survival is not always good. No value of e2 is supplied, and its normative and empirical calibration is open."
+definitions = ["d4c61290-6c30-4fc3-97db-966bae5802c5", "40a94f44-75f6-48f2-b878-68ea03dcc809", "daa6a2fe-5251-56b4-b808-cc21ce759a03"]
+disambiguations = ["1ea78c11-3346-5546-8da6-d1e1afb89834"]
+
+[[statement]]
+id = "Selected-for judgment matches the normative truth except in at most an e share of cases"
+lean = "JudgmentTruthAgreementAtLeast"
+paraphrase = "On one distribution of cases, the selected-for judgment B differs from the normative truth M in a set of cases of measure at most e; if the distribution is a probability measure and the agreement event is measurable, B agrees with M with probability at least 1 − e (zero once e ≥ 1). This is a bound on the truth–judgment correlation over that distribution, not on any single case, other distribution or other verdict type."
+definitions = ["d4c61290-6c30-4fc3-97db-966bae5802c5"]
+disambiguations = ["1ea78c11-3346-5546-8da6-d1e1afb89834"]
+
+[[argument]]
+id = "Third-factor union bound without independence"
+theorem = "thirdFactorUnionBound"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = ["Selected-for judgment differs from the third factor in at most an e1 share of cases", "The third factor differs from the matching normative truth in at most an e2 share of cases"]
+conclusion = "Selected-for judgment matches the normative truth except in at most an e share of cases"
+rule = "Error-set inclusion {B ≠ M} ⊆ {B ≠ F} ∪ {F ≠ M}, measure subadditivity, and complement in a probability measure"
+meaning = "For any measure on cases and verdicts of any type, a selection error at most e1 and a factor/truth gap at most e2 on the same distribution give a judgment/truth error at most e1 + e2, hence agreement at least 1 − e1 − e2 for a probability measure. No independence between the two errors is assumed. Analyst quantification of the correlation Enoch's third-factor reply proposes to explain; both rates are open inputs, and nothing is derived about their values, any single case, another distribution or another verdict type."
+
+[[statement]]
+id = "Selection endorses an act the third factor does not favour in at most a d1 share of cases"
+lean = "EndorsedAgainstFactorAtMost"
+paraphrase = "OPEN analyst premise for #1586, attribution deferred. On one specified distribution of cases, the selected-for binary judgment B endorses an act that the survival/goods factor F does not favour in a set of cases of measure at most d1. No value of d1 is supplied; its empirical calibration is open."
+definitions = ["d4c61290-6c30-4fc3-97db-966bae5802c5", "daa6a2fe-5251-56b4-b808-cc21ce759a03"]
+disambiguations = ["1ea78c11-3346-5546-8da6-d1e1afb89834"]
+
+[[statement]]
+id = "The third factor favours an act lacking a reason of the fixed verdict type in at most a d2 share"
+lean = "FactorWithoutReasonAtMost"
+paraphrase = "OPEN analyst premise for #1586, attribution deferred. On the same distribution, the survival/goods factor F favours an act for which the normative truth M, under one fixed verdict type, gives no reason, in a set of cases of measure at most d2. This one-way part is the only direction Enoch's qualified premise that survival is pro tanto good bears on, and only qualifiedly, since survival is not always good. No value of d2 is supplied; its normative and empirical calibration is open."
+definitions = ["d4c61290-6c30-4fc3-97db-966bae5802c5", "40a94f44-75f6-48f2-b878-68ea03dcc809", "daa6a2fe-5251-56b4-b808-cc21ce759a03"]
+disambiguations = ["1ea78c11-3346-5546-8da6-d1e1afb89834"]
+
+[[statement]]
+id = "Selection endorses an act lacking a reason of the fixed verdict type in at most a d share"
+lean = "EndorsedWithoutReasonAtMost"
+paraphrase = "On one distribution of cases, the selected-for binary judgment B endorses an act for which the normative truth M, under one fixed verdict type, gives no reason, in a set of cases of measure at most d. This bounds only wrongly endorsed acts: it says nothing about acts that have a reason which B fails to endorse, nor about any single case, other distribution or other verdict type."
+definitions = ["d4c61290-6c30-4fc3-97db-966bae5802c5"]
+
+[[argument]]
+id = "One-sided third-factor bound on wrongly endorsed acts"
+theorem = "oneSidedThirdFactorBound"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = ["Selection endorses an act the third factor does not favour in at most a d1 share of cases", "The third factor favours an act lacking a reason of the fixed verdict type in at most a d2 share"]
+conclusion = "Selection endorses an act lacking a reason of the fixed verdict type in at most a d share"
+rule = "Inclusion {B ∧ ¬M} ⊆ {B ∧ ¬F} ∪ {F ∧ ¬M} by case analysis on F, and measure subadditivity"
+meaning = "The strongest quantified form of Enoch's modest correlation available from his one-direction premise: what selection disposes us to endorse is mostly backed by a reason, with wrongly endorsed acts at most d1 + d2, and no independence assumed. It uses only the factor-without-reason direction the pro tanto goodness of survival bears on, and says nothing about reasons B fails to endorse. Both rates are open inputs; nothing is derived about their values."
+
+[[statement]]
+id = "Binary verdict errors cancel: judgment/truth error is the two error rates minus twice their overlap"
+lean = "BinaryErrorAccounting"
+paraphrase = "For every measure on cases and binary B, F, M with measurable error sets: the judgment/truth error set is the symmetric difference of the selection error set and the factor/truth gap set; its measure plus twice the measure of their overlap equals the sum of the two error measures; for a finite measure, the judgment/truth error equals that sum exactly when the overlap is null. So the union bound is attained by the actual error rates exactly when the two errors (almost surely) never fall on the same case, and coinciding binary errors cancel."
+definitions = ["d4c61290-6c30-4fc3-97db-966bae5802c5"]
+
+[[argument]]
+id = "Exact binary error accounting for the third-factor chain"
+theorem = "binaryErrorAccounting"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Binary verdict errors cancel: judgment/truth error is the two error rates minus twice their overlap"
+rule = "Case analysis on three Booleans; measure of a symmetric difference; measure_sdiff_add_inter; ENNReal cancellation for finite values"
+meaning = "Sharpness of the union bound for binary verdicts: the bound e1 + e2 is attained by the actual rates exactly when the error sets are almost surely disjoint, and any overlap lowers the judgment/truth error by twice its measure. For non-binary verdicts two errors need not cancel; this theorem does not cover them."
+
+[[statement]]
+id = "A subclass factor/truth gap is at most the aggregate gap divided by the subclass weight"
+lean = "SubclassGapBound"
+paraphrase = "For every measure on cases, verdicts of any type and measurable class S of cases, the factor/truth gap conditioned on S is at most the aggregate gap divided by the measure of S. An aggregate bound e2 therefore bounds the gap within a class of weight w only by e2/w, which exceeds e2 whenever w < 1 and gives no information once w ≤ e2."
+definitions = ["d4c61290-6c30-4fc3-97db-966bae5802c5", "40a94f44-75f6-48f2-b878-68ea03dcc809"]
+
+[[argument]]
+id = "Conditioning bound for a subclass factor/truth gap"
+theorem = "subclassGapBound"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "A subclass factor/truth gap is at most the aggregate gap divided by the subclass weight"
+rule = "Mathlib conditional probability (cond_apply) and monotonicity of measure"
+meaning = "An aggregate factor/truth gap does not transfer undiluted to a subclass such as impartial hard cases; the general transfer is only by division by the subclass weight, and the finite model shows that this is attained."
+
+[[statement]]
+id = "Four-case models: sharp union bound, cancelling errors, and a gap concentrated on the hard case"
+lean = "ThirdFactorModels"
+paraphrase = "In four equally weighted stipulated cases: (1) a selection error 1/4 and a factor/truth gap 1/4 on different cases give agreement exactly 1/2, attaining the union bound; (2) the same two rates on the same case give agreement 1; (3) with the judgment equal to the factor (selection error 0) and a gap of 1/4 located in the one impartial hard case, aggregate agreement is 3/4, attaining the bound, while agreement conditioned on the hard case is 0 and on the three adaptive cases 1; the gap conditioned on the hard case is 1, equal to the aggregate gap divided by the hard-case weight. The verdicts are stipulations, not claims about actual moral truths or actual frequencies."
+definitions = ["d4c61290-6c30-4fc3-97db-966bae5802c5", "40a94f44-75f6-48f2-b878-68ea03dcc809"]
+
+[[argument]]
+id = "Four-case sharpness, cancellation and hard-case concentration models"
+theorem = "thirdFactorModels"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Four-case models: sharp union bound, cancelling errors, and a gap concentrated on the hard case"
+rule = "Uniform measure on Fin 4 (uniformOn_apply_finset), explicit finite sets and Mathlib conditional probability"
+meaning = "Nonvacuity and sharpness witnesses for the union bound, a control showing that overlapping binary errors leave the bound unattained, and a hard-case model in which the aggregate guarantee holds and is attained while the judgment fails on every impartial hard case. The model shows only that the aggregate bound is compatible with total failure on a light subclass; it does not show that actual selected-for judgments fail on hard cases."

@@ -1,0 +1,11 @@
+{
+  "id": "04c23075-f8d1-4754-94e1-76ba39355e62",
+  "label": "Conditioning bound for a subclass factor/truth gap",
+  "argument_id": "6f1f97f7-57b4-4857-a2ac-2a29fa81722d",
+  "challenge_module": "TruthCore.Results.Logic.ThirdFactorTracking.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ThirdFactorTracking.Solution",
+  "theorem": "TruthCore.Results.Logic.ThirdFactorTracking.subclassGapBound",
+  "comparator_config": "results/04c23075-f8d1-4754-94e1-76ba39355e62/comparator.json",
+  "status": "solution-present",
+  "description": "An aggregate factor/truth gap does not transfer undiluted to a subclass such as impartial hard cases; the general transfer is only by division by the subclass weight, and the finite model shows that this is attained."
+}

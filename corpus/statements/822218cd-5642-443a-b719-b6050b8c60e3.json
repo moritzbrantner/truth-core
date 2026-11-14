@@ -1,0 +1,9 @@
+{
+  "id": "822218cd-5642-443a-b719-b6050b8c60e3",
+  "label": "Selection endorses an act lacking a reason of the fixed verdict type in at most a d share",
+  "paraphrase": "On one distribution of cases, the selected-for binary judgment B endorses an act for which the normative truth M, under one fixed verdict type, gives no reason, in a set of cases of measure at most d. This bounds only wrongly endorsed acts: it says nothing about acts that have a reason which B fails to endorse, nor about any single case, other distribution or other verdict type.",
+  "lean_declaration": "TruthCore.Logic.ThirdFactorTracking.EndorsedWithoutReasonAtMost",
+  "definition_ids": [
+    "d4c61290-6c30-4fc3-97db-966bae5802c5"
+  ]
+}

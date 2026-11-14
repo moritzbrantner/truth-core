@@ -1,0 +1,13 @@
+{
+  "id": "632b7f3e-fcc6-4ed2-8a97-63e231830cae",
+  "label": "Selected-for judgment differs from the third factor in at most an e1 share of cases",
+  "paraphrase": "OPEN analyst premise for #1586, attribution deferred. On one specified distribution of cases, the selected-for evaluative judgment B differs from the independently specified survival/goods factor F in a set of cases of measure at most e1. On the analyst's reading this is what Street's adaptive-link explanation would supply for the selected range of judgments; she states no rate, no value of e1 is supplied, and its empirical calibration is open.",
+  "lean_declaration": "TruthCore.Logic.ThirdFactorTracking.SelectionErrorAtMost",
+  "definition_ids": [
+    "d4c61290-6c30-4fc3-97db-966bae5802c5",
+    "daa6a2fe-5251-56b4-b808-cc21ce759a03"
+  ],
+  "disambiguation_ids": [
+    "1ea78c11-3346-5546-8da6-d1e1afb89834"
+  ]
+}
