@@ -1,0 +1,24 @@
+{
+  "id": "93b3a482-512c-4c0b-a605-9f4884af74ad",
+  "label": "Local cross-check posteriors in the shared-plus-local profile",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "4a85e1e3-c030-46f1-8888-e65d7a042afd",
+  "inference_ids": [
+    "e9b83da1-834a-4df2-8d6e-86e4df0ba904"
+  ],
+  "meaning": "Conditioning on no flag divides by ν(Fᶜ)^n; the per-index ratio ν(C∩Fᶜ)/ν(Fᶜ) is at most one, equals one under perfect local detection, and equals ν(C) for a truth-independent flag. A single conditioned assertion keeps n−1 no-flag factors, which cancel. Under perfect detection a conditioned assertion and the conditioned some-failure event have probabilities κ(G) and 1−κ(G), so a threshold above one half cannot accept both. Stipulated model; no actual check is claimed to be discriminating or perfect.",
+  "term_senses": {
+    "ERROR_DEPENDENCE": "acb91e9a-65fb-45f2-b9ef-80153a26b2e2",
+    "PRO_TANTO_SUPPORT_THRESHOLD_FULL_BELIEF": "5aeeb921-2098-47c8-802c-225de5fe6d87"
+  },
+  "definition_ids": [
+    "15e3a4d1-a972-4809-b80b-f6f915ae0f5a",
+    "629f2837-b2dd-44f5-a05e-7271405d6923",
+    "1f99af1e-04fe-5f06-bdd4-0db8178c79c2",
+    "bc9e2ae8-0072-4212-b0de-e8768630c0d8",
+    "d231d82f-a9a0-40de-80e5-d4562f9f7fef"
+  ],
+  "disambiguation_ids": [
+    "ab69cfd0-628d-4925-bc8c-2ea39925b9b8"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "d231d82f-a9a0-40de-80e5-d4562f9f7fef",
+  "label": "Perfect local detection of assertion errors",
+  "term": "perfect local detection",
+  "definition": "PerfectLocalDetection C F means F = Cᶜ: a local check flags exactly the local errors, with no misses and no false alarms. It remains blind to failure of the shared condition.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.PrefaceConnectivity.PerfectLocalDetection",
+  "note": "Idealized limit case for #1584 test 3; the general cross-check formula covers imperfect checks. No actual check is claimed to be perfect. See docs/notes/preface-connectivity-1584.md."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "574f00bd-c6fe-45f5-8208-a9421b601182",
+  "label": "Exact event probabilities of the shared-plus-local assertion profile",
+  "paraphrase": "For every product of a probability measure κ on a finite shared coordinate with n≥1 independent copies of a probability measure ν on a finite local coordinate, with assertion i true when the shared state lies in G and local state i lies in C: each assertion has probability κ(G)·ν(C), all n together κ(G)·ν(C)^n, at least one false 1−κ(G)·ν(C)^n; for a local flag event F, no flag anywhere has probability ν(Fᶜ)^n, and all true with no flag κ(G)·ν(C∩Fᶜ)^n. The independence is stipulated by the product construction; the profile is an analyst comparison model, not a model of the Truth Core corpus. See docs/notes/preface-connectivity-1584.md.",
+  "lean_declaration": "TruthCore.Logic.PrefaceConnectivity.ProfileProbabilities",
+  "definition_ids": [
+    "15e3a4d1-a972-4809-b80b-f6f915ae0f5a",
+    "629f2837-b2dd-44f5-a05e-7271405d6923"
+  ]
+}

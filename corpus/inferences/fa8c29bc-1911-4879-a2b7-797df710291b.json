@@ -1,0 +1,10 @@
+{
+  "id": "fa8c29bc-1911-4879-a2b7-797df710291b",
+  "label": "Coverage-explicit worldview elimination with two-world control (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "ebf27107-3288-4a10-8d66-1eb68513c464",
+  "rule": "Unfolding semantic consistency; case split on the covering candidate; evaluation in the existing two-world interpretation",
+  "meaning": "Reuses ReflectiveCoherence's Consistent, Models and two-world control. A demonstrated inconsistency eliminates that exact commitment bundle under the fixed semantics; inferring the survivor uses the coverage premise as an explicit hypothesis, and the control shows it is needed. No coverage of actual worldview rivals is asserted.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

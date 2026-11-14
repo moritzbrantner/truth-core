@@ -47,6 +47,7 @@ public import TruthCore.Logic.NaturalTheologySemanticScope
 public import TruthCore.Logic.ObjectiveTruthDefinitionFork
 public import TruthCore.Logic.PerformedDenial
 public import TruthCore.Logic.PluralClosureBoundary
+public import TruthCore.Logic.PrefaceConnectivity
 public import TruthCore.Logic.QuantifierShift
 public import TruthCore.Logic.RecognitionTranscript
 public import TruthCore.Logic.ReferenceAnchor

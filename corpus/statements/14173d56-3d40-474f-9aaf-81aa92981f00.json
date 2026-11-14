@@ -1,0 +1,14 @@
+{
+  "id": "14173d56-3d40-474f-9aaf-81aa92981f00",
+  "label": "Equal per-assertion probability, different joint: ERROR_DEPENDENCE_1 vs ERROR_DEPENDENCE_2",
+  "paraphrase": "For 0<q<1 and n≥2 assertions, in every shared-only profile (ERROR_DEPENDENCE_1: local conditions almost sure, shared condition probability q) each assertion and all of them together have probability q and at-least-one-false has 1−q; in every isolated-errors profile (ERROR_DEPENDENCE_2: shared condition almost sure, local probability q) each assertion has probability q but all together have q^n, strictly less than q. Also, for any measure and any nonempty index, conditioning on the intersection of repeated copies of one evidence event equals conditioning on it once. Per-assertion support therefore does not determine joint support; q^n requires the stipulated isolated-independence regime, and restating one claim supplies no independent confirmation. No probability is assigned to any corpus statement.",
+  "lean_declaration": "TruthCore.Logic.PrefaceConnectivity.MarginalsUnderdetermineJoint",
+  "definition_ids": [
+    "15e3a4d1-a972-4809-b80b-f6f915ae0f5a",
+    "7d340922-35b3-417f-bb8b-51880270da9c",
+    "6be0e6c7-acfc-4456-91cd-1ecc2a1bbdcd"
+  ],
+  "disambiguation_ids": [
+    "ab69cfd0-628d-4925-bc8c-2ea39925b9b8"
+  ]
+}

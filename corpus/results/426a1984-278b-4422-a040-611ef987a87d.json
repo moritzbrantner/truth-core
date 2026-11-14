@@ -1,0 +1,11 @@
+{
+  "id": "426a1984-278b-4422-a040-611ef987a87d",
+  "label": "Shared-only against isolated-error joint probability control",
+  "argument_id": "a47969bc-7770-4093-a249-ca86bf785d44",
+  "challenge_module": "TruthCore.Results.Logic.PrefaceConnectivity.Challenge",
+  "solution_module": "TruthCore.Results.Logic.PrefaceConnectivity.Solution",
+  "theorem": "TruthCore.Results.Logic.PrefaceConnectivity.marginalsUnderdetermineJoint",
+  "comparator_config": "results/426a1984-278b-4422-a040-611ef987a87d/comparator.json",
+  "status": "solution-present",
+  "description": "A sense-mixing control: the same per-assertion probability gives joint q in the ERROR_DEPENDENCE_1 regime and q^n<q in the ERROR_DEPENDENCE_2 regime, so a joint figure computed under isolated independence cannot be transferred to a dependent bundle. Repetition of one evidence event leaves conditioning unchanged. No probability is assigned to any corpus statement."
+}

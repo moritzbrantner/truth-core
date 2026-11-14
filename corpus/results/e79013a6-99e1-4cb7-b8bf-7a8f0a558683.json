@@ -1,0 +1,11 @@
+{
+  "id": "e79013a6-99e1-4cb7-b8bf-7a8f0a558683",
+  "label": "Local cross-check posteriors in the shared-plus-local profile",
+  "argument_id": "93b3a482-512c-4c0b-a605-9f4884af74ad",
+  "challenge_module": "TruthCore.Results.Logic.PrefaceConnectivity.Challenge",
+  "solution_module": "TruthCore.Results.Logic.PrefaceConnectivity.Solution",
+  "theorem": "TruthCore.Results.Logic.PrefaceConnectivity.crossCheckBoundary",
+  "comparator_config": "results/e79013a6-99e1-4cb7-b8bf-7a8f0a558683/comparator.json",
+  "status": "solution-present",
+  "description": "Conditioning on no flag divides by ν(Fᶜ)^n; the per-index ratio ν(C∩Fᶜ)/ν(Fᶜ) is at most one, equals one under perfect local detection, and equals ν(C) for a truth-independent flag. A single conditioned assertion keeps n−1 no-flag factors, which cancel. Under perfect detection a conditioned assertion and the conditioned some-failure event have probabilities κ(G) and 1−κ(G), so a threshold above one half cannot accept both. Stipulated model; no actual check is claimed to be discriminating or perfect."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "15e3a4d1-a972-4809-b80b-f6f915ae0f5a",
+  "label": "Shared-plus-local assertion-error profile",
+  "term": "shared-plus-local assertion-error profile",
+  "definition": "profile κ ν n is the Mathlib product of a shared-coordinate measure κ with the Mathlib independent product of n copies of one local measure ν. Assertion i is true at a state exactly when the shared coordinate lies in G and the i-th local coordinate lies in C; allTrue is the intersection of the n assertion events and someFalse the union of their complements. The shared coordinate models a common-mode condition every assertion relies on; each local coordinate models an error opportunity specific to one assertion. Independence of the local coordinates from one another and from the shared one is stipulated by the product construction, not derived.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.PrefaceConnectivity.profile",
+  "note": "Analyst comparison model for #1584 (preface paradox) under the connection plan #930/#931/#934, attribution deferred; Makinson 1965 and Bovens-Olsson 2000 are navigation leads only. It is not a model of the Truth Core corpus or any actual belief system and assigns no probability to any corpus statement. Real assertions can share structure that is neither one common condition nor independent local errors (partial overlaps, chains of dependence); this profile covers only the two-level case. See docs/notes/preface-connectivity-1584.md."
+}

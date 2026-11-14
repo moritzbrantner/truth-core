@@ -1,0 +1,9 @@
+{
+  "id": "bc9e2ae8-0072-4212-b0de-e8768630c0d8",
+  "label": "ERROR_DEPENDENCE_3: no-flag event independent of local correctness",
+  "term": "truth-independent check flag",
+  "definition": "TruthIndependentFlag ν C F means ν (C ∩ Fᶜ) = ν C · ν Fᶜ: under the local measure, absence of a flag is probabilistically independent of local correctness. Such a check carries no discriminating information about the assertion it checks.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.PrefaceConnectivity.TruthIndependentFlag",
+  "note": "Control for #1584 test 3. A check that only re-derives an assertion from the same untested input, or reports a common source again, is one concrete way to have this property; whether a given actual check has it is an empirical/process question (compare the dependence processes in docs/notes/correlated-testimony-1396.md). See docs/notes/preface-connectivity-1584.md."
+}

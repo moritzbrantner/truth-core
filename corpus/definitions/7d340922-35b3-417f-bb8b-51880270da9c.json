@@ -1,0 +1,9 @@
+{
+  "id": "7d340922-35b3-417f-bb8b-51880270da9c",
+  "label": "ERROR_DEPENDENCE_1: every assertion expresses the shared condition",
+  "term": "shared-only error dependence",
+  "definition": "SharedOnly ν C means ν C = 1: every local condition holds almost surely, so each assertion is true exactly when the shared condition holds. The assertions then express one event (the issue's 300 restatements of H), and their errors are entirely common-mode.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.PrefaceConnectivity.SharedOnly",
+  "note": "Control regime for #1584 test 2. It is logical dependence of the assertions on one event, not evidential support among them: repeating or restating H adds no confirmation. See docs/notes/preface-connectivity-1584.md."
+}

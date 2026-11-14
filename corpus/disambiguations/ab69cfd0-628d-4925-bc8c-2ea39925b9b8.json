@@ -1,0 +1,32 @@
+{
+  "id": "ab69cfd0-628d-4925-bc8c-2ea39925b9b8",
+  "label": "Dependence and independence of assertion errors in preface arguments",
+  "term": "dependence and independence of assertion errors",
+  "term_label": "ERROR_DEPENDENCE",
+  "resolution": "Preface arguments use 'independent' and 'dependent' in at least three senses. ERROR_DEPENDENCE_1 (shared-only): every assertion expresses one shared condition, so errors are entirely common-mode and the assertions are logically dependent. ERROR_DEPENDENCE_2 (isolated): the shared condition is certain and assertions fail only through mutually independent local error opportunities; only here does P(all true) = q^n hold. ERROR_DEPENDENCE_3 (truth-independent check): absence of a check's flag is probabilistically independent of what it checks, so the check supplies no discriminating evidence. Senses 1 and 2 are contrasted, not bridged: the comparison results show that a joint probability computed under sense 2 cannot be carried over to a bundle in sense 1, which is why their argument is a sense-mixing control. Sense 3 concerns a check's relation to its target, not the relation among assertions. None of these senses is the logical independence of propositions, and none is attributed to the Truth Core corpus.",
+  "sense_definition_ids": [
+    "7d340922-35b3-417f-bb8b-51880270da9c",
+    "6be0e6c7-acfc-4456-91cd-1ecc2a1bbdcd",
+    "bc9e2ae8-0072-4212-b0de-e8768630c0d8"
+  ],
+  "senses": [
+    {
+      "id": "f8eccc3f-0ccb-463e-a896-a8c5880ab6f7",
+      "label": "ERROR_DEPENDENCE_1",
+      "definition_id": "7d340922-35b3-417f-bb8b-51880270da9c",
+      "lean_declaration": "TruthCore.Logic.PrefaceConnectivity.SharedOnly"
+    },
+    {
+      "id": "5c2610ff-cc5b-48f9-b057-e8d09601da39",
+      "label": "ERROR_DEPENDENCE_2",
+      "definition_id": "6be0e6c7-acfc-4456-91cd-1ecc2a1bbdcd",
+      "lean_declaration": "TruthCore.Logic.PrefaceConnectivity.IsolatedOnly"
+    },
+    {
+      "id": "acb91e9a-65fb-45f2-b9ef-80153a26b2e2",
+      "label": "ERROR_DEPENDENCE_3",
+      "definition_id": "bc9e2ae8-0072-4212-b0de-e8768630c0d8",
+      "lean_declaration": "TruthCore.Logic.PrefaceConnectivity.TruthIndependentFlag"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "f602c3fd-3dc2-401c-a0ef-312f660acbcf",
+  "label": "Preface paradox: shared-plus-local error profiles, cross-checks and coverage-explicit elimination",
+  "statement_ids": [
+    "574f00bd-c6fe-45f5-8208-a9421b601182",
+    "14173d56-3d40-474f-9aaf-81aa92981f00",
+    "74e47e53-eb0b-4963-93c0-254bd1da67b0",
+    "4a85e1e3-c030-46f1-8888-e65d7a042afd",
+    "ebf27107-3288-4a10-8d66-1eb68513c464"
+  ],
+  "date": "2026-11-14",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Issue #1584, analyst formulation with attribution deferred (Makinson 1965, Bovens-Olsson 2000 navigation only). Reuse check: truth related on the #1063 threshold and ReflectiveCoherence statements found no prior preface result; #1063 (support bound, uniform lottery), #1066 (product sampling) and #1396 (paired corroboration criterion) were reused as context rather than rebuilt. Built one stipulated model: Mathlib product of a shared common-mode coordinate with n i.i.d. local coordinates; local check flags blind to the shared coordinate. Certified: exact event probabilities; equal per-assertion probability q gives joint q under shared-only dependence and q^n<q under isolated errors, and repeated evidence conditions like one copy (tests 1-2); after conditioning on no flag the all-true probability is kappa(G)(nu(C and not F)/nu(not F))^n <= kappa(G), each assertion kappa(G)nu(C and not F)/nu(not F), perfect local detection leaves exactly the shared risk and blocks Makinson tension above 1/2, truth-independent flags change nothing (test 3); inconsistency eliminates at every world and a survivor needs an explicit coverage premise, refuted without it by the existing two-world control (test 4); shared-only dependence blocks Makinson tension above 1/2 at every n while any local error restores acceptance of 'some false' for large n (test 5). Rejected inferences: per-assertion probability plus count determines joint support; dependence alone removes the preface; more checks always add support; local coherence certifies shared commitments; consistency-elimination identifies a true survivor without coverage. Provisional judgment: the owner's comparative hypothesis survives in sharpened form; interconnection weakens the count-driven preface argument only insofar as cross-checks discriminate local errors, and residual risk concentrates on shared commitments. Standing rival: common-mode checks; its price is showing which actual checks are truth-independent. No probability assigned to any Truth Core statement; no root premise discharged. Note docs/notes/preface-connectivity-1584.md.",
+  "evidence": [
+    "66da5c07-8be5-43d7-bf11-cfe32a754b4c",
+    "426a1984-278b-4422-a040-611ef987a87d",
+    "58893813-151d-4eca-ae3f-1d8dfb979a06",
+    "e79013a6-99e1-4cb7-b8bf-7a8f0a558683",
+    "c5fa184f-6da3-4be5-9013-591a70d5e9c5"
+  ],
+  "blocker": "Partial-dependence networks (several overlapping shared nodes), a threshold result for imperfect checkers, and the application question whether specific Truth Core checks are discriminating for a given error type remain open. Connection to #930/#931/#934 is a plan, not a route."
+}
