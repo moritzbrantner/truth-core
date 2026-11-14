@@ -380,7 +380,7 @@ last". If `x` has its being only as received through `y`'s own dependence on
 - `STMT-SIMPLE-PRIORITY-IS-TRANSITIVE` moves from bare to the conclusion of a
   verified argument from open premises. It is not established.
 - The new bare transitivity premise `09b88101` takes its place.
-- Verified support alternatives go from 456 to 457.
+- Verified support alternatives gain one (457 → 458 against merge base `692dfa9d`).
 - No premise is established.
 
 ### Provisional judgment
