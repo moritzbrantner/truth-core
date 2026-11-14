@@ -259,8 +259,27 @@ world-independent OPEN primitives): `conjunctionDependsOn e q s`,
 The n.2 clause is a premise, not part of the definition of per se necessity,
 so its omission is a checked control. The coverage premise merges horns (i)
 and (ii) into what they share (the esse, or its joining, depends on something
-other than the esse); that makes coverage weaker than the text's trilemma, not
-stronger.
+other than the esse). That makes coverage weaker than the text's trilemma in
+its disjuncts, but **broader in domain**: n.2 states the trilemma only of *hoc
+esse quod necesse est*, and n.4's second case speaks only of *illud esse*,
+whereas both encoded premises quantify over every joined pair of distinct
+principles. The results apply them only where e is per se necessary.
+
+Two further scope notes (semantic challenge on #1618, F2–F3):
+
+* The encoded n.2 clause is **stronger than the text**. n.2 says only that
+  dependence on another is *contra rationem eius quod est per se necesse-esse
+  … iam non est necesse esse*, which excludes per se necessity. The premise
+  instead assigns `necessityFrom e s` to every esse that depends absolutely on
+  another s, even one with no necessity at all. That is plausible for
+  contingent dependents only if `necessityFrom` is read as "a cause on which
+  e's being, and any necessity it has, depends". The results use it only for a
+  per se necessary e, where the textual reading suffices.
+* `PerSeNecessaryEsseAt` encodes only existence plus the *per se* (non *per
+  aliud*) component. It has no necessity component proper: an existing esse
+  that is necessary in no sense satisfies it whenever nothing causes its
+  necessity. Hypotheses using it are weaker than full per se necessity, so no
+  conclusion is overstated.
 
 **Results** (all zero-axiom, Comparator and NanoDa locally green):
 
@@ -278,8 +297,10 @@ stronger.
    route. It rejects proposed quiddities only. Reaching `essenceOf = esseOf`
    further needs the proposal to range over the actual q.3 essence.
 4. `non_unified_quiddity_union_self_sourced`: n.6 plus (2), without coverage:
-   a genuine quiddity not one per se with the esse has a joining sourced only
-   in the esse (constructively `¬ s ≠ e`).
+   a genuine quiddity not one per se with the esse has a joining with *some*
+   source not other than the esse (constructively `¬ s ≠ e`). The bound type
+   does not say every source is the esse. That "only" follows from (2) under
+   the same premises, not from this result.
 
 **Controls on the #1602 stable distinct profile** (`second_case_controls`):
 
@@ -299,15 +320,25 @@ stronger.
 encoded n.3–4 bundle (both cases, dependence sense) only with an unsourced or
 self-sourced joining. With n.3's q-dependent joining it is refuted. The
 surviving rival is the co-fundamental union. In this encoding its price is the
-denial of n.2's (coarsened) coverage together with per se unity of distinct
-principles, which n.6 presupposes false through divine simplicity (*non
-autem pars eius esse potest, cum essentia divina sit simplex*). Neither denial
-is refuted here. The corpus also has no positive replacement account of such
-per se unity, so it records no substantive objection to coverage either.
+denial of n.2's (coarsened) coverage, together with per se unity of distinct
+principles. The latter conflicts with n.6's **main premise**, *omne autem quod
+convenit alicui quod non est de essentia eius, convenit ei per aliquam causam*.
+The per se unum clause is only that premise's justification (*enim*), and the
+conflict runs through the implicit step from *non est de essentia eius* to
+*per se non sunt unum*. Neither the main premise nor that step is encoded.
+Divine simplicity (*non autem pars eius esse potest, cum essentia divina sit
+simplex*) yields only that esse is not a part of the essence but *aliquid
+praeter essentiam eius*. A rival may accept simplicity in that sense and still
+hold that the non-part esse is per se one with the essence. (Corrected after
+the semantic challenge on #1618, F1. The first draft wrongly said n.6 rules
+out per se unity "through divine simplicity".) Neither denial is refuted
+here. The corpus also has no positive replacement account of such per se
+unity, so it records no substantive objection to coverage either.
 
-**Next tests:** (i) n.6's simplicity step (distinct essence and esse are not
-one per se) against the existing simplicity vocabulary, tested on the
-co-fundamental profile; (ii) n.6's self-causation clause against the
+**Next tests:** (i) encode n.6's main premise (what belongs to a thing but is
+not of its essence belongs to it through a cause) and its step from *non de
+essentia* to *non per se unum*, and test both on the co-fundamental profile,
+where simplicity supplies only *praeter essentiam*; (ii) n.6's self-causation clause against the
 self-sourced profile; (iii) the bridge from rejecting every distinct proposed
 quiddity to `essenceOf = esseOf`, connected to `ActualUnderivedEssenceEsse`;
 (iv) the warrant for coverage as an independent premise.

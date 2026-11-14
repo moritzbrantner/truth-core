@@ -1,7 +1,7 @@
 {
   "id": "c439eaef-97fa-48c4-bb51-e502cc23e9c9",
   "label": "SCG I.22 inseparable esse inherits its conjunction's source",
-  "paraphrase": "OPEN selected reading of the second written case of SCG I.22 n.4, attribution deferred: at a selected world, for every esse e, proposed quiddity q and s, if e is joined to q, e cannot be understood without q, and the joining of e to q depends on s, then e depends absolutely on s (for its very being). Intelligibility apart is the primitive conceivableApart of the #1602 profile, not modal separation; conjunction dependence and absolute dependence are distinct primitive relations. No real-world instance is asserted.",
+  "paraphrase": "OPEN selected reading of the second written case of SCG I.22 n.4, attribution deferred: at a selected world, for every esse e, proposed quiddity q and s, if e is joined to q, e cannot be understood without q, and the joining of e to q depends on s, then e depends absolutely on s (for its very being). Intelligibility apart is the primitive conceivableApart of the #1602 profile, not modal separation; conjunction dependence and absolute dependence are distinct primitive relations. Broader in domain than n.4, which speaks only of the per se necessary esse ('illud esse'): the premise quantifies over every joined pair, while the results apply it only where e is per se necessary. No real-world instance is asserted.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaContraGentiles.BookI.Chapter22SecondCase.InseparableEsseInheritsConjunctionSource",
   "definition_ids": [
     "d421e2c9-4eb2-4bef-bb63-6c502c7732b4",

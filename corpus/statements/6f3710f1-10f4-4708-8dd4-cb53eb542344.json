@@ -1,7 +1,7 @@
 {
   "id": "6f3710f1-10f4-4708-8dd4-cb53eb542344",
   "label": "SCG I.22 union of what is not one per se has a source",
-  "paraphrase": "OPEN selected reading of SCG I.22 n.6's union-causation principle ('ea quae per se non sunt unum, si coniungantur, oportet per aliquam causam uniri'), attribution deferred: at a selected world, for every esse e joined to q, if e and q are not one per se, then the joining depends on something. Whether distinct principles can be one per se is left to the primitive perSeOne; n.6's simplicity-based step that the essence and an esse beside it are not one per se is not encoded.",
+  "paraphrase": "OPEN selected reading of SCG I.22 n.6's union-causation principle ('ea quae per se non sunt unum, si coniungantur, oportet per aliquam causam uniri'), attribution deferred: at a selected world, for every esse e joined to q, if e and q are not one per se, then the joining depends on something. Whether distinct principles can be one per se is left to the primitive perSeOne. Not encoded: n.6's main premise ('omne autem quod convenit alicui quod non est de essentia eius, convenit ei per aliquam causam'), for which this clause is the justification ('enim'), and its implicit step from 'non est de essentia eius' to 'per se non sunt unum'. Divine simplicity in n.6 yields only that esse is not a part of the essence but 'aliquid praeter essentiam eius'.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaContraGentiles.BookI.Chapter22SecondCase.NonUnifiedUnionHasSource",
   "definition_ids": [
     "d421e2c9-4eb2-4bef-bb63-6c502c7732b4"
