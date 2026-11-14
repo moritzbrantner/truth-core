@@ -1,0 +1,11 @@
+{
+  "id": "60425b3c-f72e-417a-bc63-26016902daa1",
+  "label": "Realist debunker relying only on the debunked epistemic basis lacks warrant",
+  "argument_id": "6380434c-7e0b-4585-a1e8-9926cd0d1853",
+  "challenge_module": "TruthCore.Results.Logic.DarwinianEpistemicDebunking.Challenge",
+  "solution_module": "TruthCore.Results.Logic.DarwinianEpistemicDebunking.Solution",
+  "theorem": "TruthCore.Results.Logic.DarwinianEpistemicDebunking.realistDebunkerLacksOwnWarrant",
+  "comparator_config": "results/60425b3c-f72e-417a-bc63-26016902daa1/comparator.json",
+  "status": "solution-present",
+  "description": "Self-application under epistemic realism, analyst formulation, attribution deferred. Take the target as the debunking conclusion and the basis as the subject's epistemic evaluative basis. If the policy that debunks realist epistemic judgments applies uniformly, that basis's verdict is fixed by selection, its stance-independent correctness varies within the history, every support for the conclusion comes from that basis, and warrant needs undefeated support, then the subject lacks warrant for the conclusion. The conclusion may still be true, other contents may be warranted, and no contradiction or epistemic nihilism follows."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "850a11fa-f45b-4511-b6dc-3a3e0d603632",
+  "label": "History-fixed correctness keeps an accurate selection-fixed judgment accurate (inference)",
+  "input_statement_ids": [
+    "af1256e2-dcaa-48f5-975f-db90c0452667",
+    "d2db118a-bb7b-49c5-8cef-00b2dc44412c",
+    "2602100d-99e9-4641-be2d-76c679b037ea"
+  ],
+  "output_statement_id": "475beacf-c221-4a4a-a3b1-d7ba449963c1",
+  "rule": "Rewrite each history-mate's verdict and correctness to the actual ones",
+  "meaning": "Surviving-reply schema, analyst formulation. Where correctness is fixed by the history and the actual verdict is correct, the selection-fixed verdict is correct in every scenario with that history, so the tracking-failure premise of the uniform policy is not met. It applies to constructivist, functional and necessitarian-realist readings alike; it does not say which reading is true or that the actual verdict is accurate.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

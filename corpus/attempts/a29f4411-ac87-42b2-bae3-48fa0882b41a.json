@@ -1,0 +1,27 @@
+{
+  "id": "a29f4411-ac87-42b2-bae3-48fa0882b41a",
+  "label": "Street's dilemma extended to epistemic reasons: realist self-application and survivors",
+  "statement_ids": [
+    "8345891e-aa3b-5cf7-8b41-cdcc61f4c0f7",
+    "f56b2ee7-c69e-5e3b-85b0-e671d907ba58",
+    "bb9ca422-c45a-4f12-8822-711fcf1ab708",
+    "25ac8e5d-648d-4029-bb55-539385bd0bb5",
+    "c830e937-36c6-4471-a60b-40f205ce2b80",
+    "d6708411-c173-473c-859d-c4bfc12d4a0f",
+    "10e7ab86-3b88-473b-b758-0eaf77476924",
+    "475beacf-c221-4a4a-a3b1-d7ba449963c1"
+  ],
+  "date": "2026-11-14",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "#1585. Materialized the pinned Street 2006 witness and read n. 2 (p. 156) and n. 57 (pp. 163–164) with context: Street states she thinks the dilemma extends to realism about epistemic reasons, does not argue it, and says her alien-investigator reply to self-application assumes shared judgments about epistemic reasons, a complication she leaves undiscussed. Two stating claims record exactly this. Analyst reconstruction, attribution deferred: a Darwinian profile for one scoped epistemic evaluative judgment separates origin fixing, within-history variation of correctness, tracking failure (a wrong verdict in some scenario with the actual history), justified defeat (undercutting in the existing ReliabilityFrame) and global epistemic nihilism. Verified: (1) origin fixing plus within-history variation yields a tracking failure by case split on actual accuracy; (2) with the debunker's mismatch-undercuts policy stated uniformly over bases, the same premises for the debunker's own epistemic basis, sole-basis dependence and warrant-needs-undefeated-support give lack of warrant for the debunking conclusion, reusing undercutSoleBasisPrecludesWarrant; (3) history-fixed correctness with an accurate selection-fixed verdict keeps every history-mate accurate; (4) finite controls: tracking failure with actual accuracy, variation without origin fixing gives no failure, the realist self-application premises are jointly satisfiable with the conclusion true and thin F6 intact, and an antirealist debunker accepting the same policy keeps warrant. Self-application result: the realist who accepts the uniform policy and relies on an epistemic basis whose correctness varies within its history is epistemically self-undermined, not strictly self-refuting; the conclusion may be true. Antirealism alone yields no contradiction (control 5). Strongest surviving replies: (a) constructivism about epistemic reasons, on which correctness is fixed by the attitudes the history fixes, so the debunker keeps warrant; it extends the antirealist reply of n. 57 to epistemic reasons, and no source for that extension was read here; (b) a necessitarian or supervenience realism on which stance-independent epistemic correctness necessarily supervenes on descriptive truth-conduciveness, which selection responds to, so the within-history variation premise fails and the extended dilemma does not reach that realism; (c) the independent-basis reply (n. 57's alien) attacks sole-basis dependence, but for epistemic reasons the considerations the alien weighs are themselves assessed by epistemic standards, which is exactly the complication Street flags; whether some non-evaluative basis can support the conclusion is open. Frontier delta: no change (476 open premises reaching the root before and after). Root connection plan: F6 is a floor item and these results neither use nor threaten its thin existential; the route to the case runs through warrant for accepting root-route premises, the #930 bridge that remains unbuilt.",
+  "evidence": [
+    "8be398bc-ab7e-41ea-b40f-50e97d1728fc",
+    "60425b3c-f72e-417a-bc63-26016902daa1",
+    "6e78b91c-a3c4-4904-b740-245dadb12466",
+    "92a88754-ad36-4b22-a645-d054fc0400ac",
+    "1e288d24-a833-48d7-a817-9547231f74e4",
+    "a87edb35-252a-425f-8744-6ef15870b335"
+  ],
+  "blocker": "Whether the correctness of any actual epistemic evaluative judgment varies within our selective history (the realist premise) and whether the uniform mismatch-undercuts policy is a correct defeat principle are open; sole-basis dependence of the debunking conclusion is open; the #930 bridge from epistemic warrant to acceptance of root-route premises is unbuilt. Next test: formalize the supervenience realism profile with descriptive truth-conduciveness as an explicit input and test whether a weaker, non-modal reliability premise still gives defeat without the variation premise."
+}

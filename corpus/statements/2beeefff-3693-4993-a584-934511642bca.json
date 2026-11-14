@@ -1,0 +1,10 @@
+{
+  "id": "2beeefff-3693-4993-a584-934511642bca",
+  "label": "Finite controls for Darwinian epistemic debunking and its self-application",
+  "paraphrase": "Five finite controls. Origin fixing with within-history variation gives a tracking failure while the actual verdict is accurate. Variation without origin fixing leaves every history-mate accurate. History-fixed correctness with an accurate selection-fixed verdict has no tracking failure. In the existing targeted reliability control the realist self-application premises hold and the conclusion lacks warrant while true, with thin F6 holding as undefeated support for other content. With history-fixed correctness for every basis, the uniform policy, sole-basis and warrant conditions hold and the conclusion is warranted.",
+  "lean_declaration": "TruthCore.Logic.DarwinianEpistemicDebunking.DarwinianDebunkingControls",
+  "definition_ids": [
+    "e17e93bf-eedf-45db-be80-ffac82ef7d98",
+    "26cbf25d-f3d5-46ea-91e8-e2140a57b04d"
+  ]
+}

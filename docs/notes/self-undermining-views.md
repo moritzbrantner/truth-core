@@ -41,6 +41,7 @@ provisional judgment, not as automatic frontier closure.
 | 20 | There are no normative reasons of any kind | [Global reason denial](../../corpus/results/40ae0ae9-36f6-487d-bbb6-2cb4a500e98a.json) leaves no internal adoption reason in the profile. [F6 excludes it](../../corpus/results/0c32687e-0e0f-45a8-a85f-9c324bc10728.json) when the same profile contains an epistemic reason. |
 | 21 | All truth is socially constructed | [Construction plus variation](../../corpus/results/a1fa828f-3efd-4f92-b3bc-5238c313eb86.json) excludes objective truth inside the scope when objective truth means actual truth stable across the supplied profiles. That exclusion applies to the thesis's own formulation if it is in scope. The [controls](../../corpus/results/7a23011d-5098-4477-8f2e-ab6750459bdf.json) preserve objective truth outside local scope and allow stable truth even with universal construction status when the variation premise fails. |
 | 22 | Evolutionary naturalism undermines trust in the reasoning that supports it | [The accepted package lacks warrant](../../corpus/results/fe69aa38-9a65-4f83-ba33-82c1e909307d.json) when it raises the specified reliability concern, that concern undercuts the basis, every supporting basis is the targeted one, and warrant requires undefeated support. The [controls](../../corpus/results/eea262e9-35fb-4779-9aae-8eea32fee146.json) preserve package truth in a model with lack of warrant and preserve warrant with independent support. The [fitness and truth analysis](plantinga-fitness-truth-boundary.md) leaves the reliability assessment for evolutionary naturalism open. |
+| 23 | Darwinian debunking of realist epistemic judgments, applied to the debunker | [The realist debunker lacks warrant](../../corpus/results/60425b3c-f72e-417a-bc63-26016902daa1.json) for the debunking conclusion when the uniform mismatch policy undercuts the debunker's own selection-fixed epistemic basis, whose correctness varies within its history, and that basis is the sole support. [History-fixed correctness](../../corpus/results/6e78b91c-a3c4-4904-b740-245dadb12466.json) blocks the tracking failure; [the controls](../../corpus/results/92a88754-ad36-4b22-a645-d054fc0400ac.json) keep the conclusion true and F6 intact, and keep an antirealist debunker warranted. See [Street's dilemma and epistemic reasons](#streets-dilemma-and-epistemic-reasons-1585). |
 
 The [epistemic-underminer analysis](epistemic-underminer-boundaries.md) records the
 warrant, benchmark and prior-demonstration assumptions in more detail.
@@ -362,6 +363,91 @@ distinct verified support alternatives: 373 -> 373
 verified support alternatives added: 0
 no change
 ```
+
+## Street's dilemma and epistemic reasons (#1585)
+
+**Source.** Street, *A Darwinian Dilemma* (2006), pinned witness
+`a92e6bf6-5464-5634-814b-118fdc71d05b`, read at n. 2 (p. 156) and n. 57
+(pp. 163–164). She says she thinks the dilemma can be extended to realism
+about epistemic reasons and does not argue it
+([claim](../../corpus/claims/1e288d24-a833-48d7-a817-9547231f74e4.json)).
+In n. 57 her reply to the dilemma's self-application against antirealism uses
+an alien investigator with different practical judgments who reaches the same
+view on the same considerations. She assumes the alien shares our judgments
+about epistemic reasons, says the epistemic extension complicates that
+assumption, and leaves it there
+([claim](../../corpus/claims/a87edb35-252a-425f-8744-6ef15870b335.json)).
+Everything below is an analyst reconstruction with attribution deferred.
+
+**Vocabulary** (`TruthCore.Logic.DarwinianEpistemicDebunking`, definition
+`e17e93bf-eedf-45db-be80-ffac82ef7d98`). One scoped epistemic evaluative
+judgment has a verdict and a correctness value in each scenario; scenarios
+carry selective histories. The five outcomes the issue asks to keep apart are
+different types: origin fixing (`SelectionFixesVerdict`), tracking failure
+(`HistoryMateMismatch`: wrong in some scenario with our history), actual
+inaccuracy (`¬ ActuallyAccurate`), justified defeat (`undercuts` in the
+existing `ReliabilityFrame`) and rejection of epistemic norms
+(`EpistemicNihilism`). Control 1 has origin fixing and a tracking failure
+with an accurate actual verdict.
+
+**Verified steps** (Comparator and NanoDa at the PR head):
+
+1. [Origin fixing and within-history variation yield a tracking failure](../../corpus/results/8be398bc-ab7e-41ea-b40f-50e97d1728fc.json).
+   This is the first horn for one epistemic judgment. Without origin fixing
+   there is no failure (control 2).
+2. [Realist self-application](../../corpus/results/60425b3c-f72e-417a-bc63-26016902daa1.json).
+   The debunker's defeat policy, that a tracking failure of the judgment a
+   basis delivers undercuts the basis, is stated uniformly over bases. The
+   debunker's conclusion rests on epistemic evaluative judgments (that the
+   evolutionary evidence counts in favor of the conclusion, that the inference
+   is good). If that basis is selection-fixed, its stance-independent
+   correctness varies within the history, and it is the sole support, the
+   existing sole-basis result removes warrant for the conclusion. The premise
+   that would undermine the debunker is the realist's within-history variation
+   applied to the debunker's own basis. The outcome is epistemic
+   self-undermining, not strict self-refutation: control 4 keeps the
+   conclusion true and thin F6 satisfied by undefeated support for other
+   content.
+3. [History-fixed correctness keeps the judgment accurate across its history](../../corpus/results/6e78b91c-a3c4-4904-b740-245dadb12466.json).
+   Control 5: an antirealist debunker who accepts the same uniform policy keeps
+   warrant. Antirealism alone yields no contradiction.
+
+**Accounts compared.** *Epistemic realism with within-history variation*:
+the extended dilemma applies, and so does its self-application to a realist
+debunker. *Constructivism*: correctness is fixed by attitudes that the history
+fixes, so the policy is never triggered and the debunker keeps warrant.
+*Instrumental or functional accounts*: correctness is truth-conduciveness in
+the environment the history responded to; formally this is the same
+history-fixed shape, so the debunker survives. *Necessitarian or supervenience
+realism*: stance-independent epistemic correctness is the same in every
+scenario, or supervenes necessarily on descriptive truth-conduciveness, so the
+variation premise fails and the extension does not reach it.
+
+**Strongest surviving replies.** (a) Global constructivism extends n. 57's
+antirealist reply to epistemic reasons. It keeps the debunking conclusion
+warranted; its price is that epistemic correctness is attitude-dependent. (b)
+Supervenience realism denies within-history variation. Its price is a
+necessary link between epistemic correctness and descriptive
+truth-conduciveness, which the debunker can contest but which no model here
+excludes. (c) An independent-basis reply (n. 57's alien) denies sole-basis
+dependence. For epistemic reasons the alien's considerations are themselves
+assessed by epistemic standards, which is the complication Street flags.
+Whether a basis exists that needs no epistemic evaluative judgment is open.
+
+**Provisional judgment.** The extension of the dilemma to epistemic reasons
+is a conditional threat only to realisms that accept within-history variation.
+A debunker who holds such a realism undermines their own warrant. A
+constructivist or functional debunker does not, and supervenience realism
+escapes the first horn. The dilemma gives no case against thin F6. Revise if a
+weaker, non-modal reliability premise is found that yields defeat without the
+variation premise, or if a non-evaluative basis for the debunking conclusion
+is identified.
+
+**Root connection.** Frontier delta: no change (476 open premises reaching the
+root before and after). F6 is a floor item that these results neither use nor
+threaten. The route to the case runs through warrant for accepting root-route
+premises, the #930 bridge that is still unbuilt. Attempt
+`a29f4411-ac87-42b2-bae3-48fa0882b41a`.
 
 ## Follow-up investigations
 

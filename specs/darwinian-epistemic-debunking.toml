@@ -1,0 +1,84 @@
+[batch]
+vocab = "TruthCore.Logic.DarwinianEpistemicDebunking"
+results = "TruthCore.Results.Logic.DarwinianEpistemicDebunking"
+definitions = ["e17e93bf-eedf-45db-be80-ffac82ef7d98"]
+
+[[statement]]
+id = "The selective history fixes the verdict of the scoped epistemic judgment"
+lean = "SelectionFixesVerdict"
+definitions = ["e17e93bf-eedf-45db-be80-ffac82ef7d98"]
+paraphrase = "OPEN analyst premise, origin information in idealized form, attribution deferred. Every scenario with the actual selective history returns the actual verdict of the scoped epistemic evaluative judgment. Street speaks of tremendous influence; full fixing by the history is a strengthening, stated here as a premise."
+
+[[statement]]
+id = "Correctness of the scoped epistemic judgment varies within the actual selective history"
+lean = "CorrectnessVariesWithinHistory"
+definitions = ["e17e93bf-eedf-45db-be80-ffac82ef7d98"]
+paraphrase = "OPEN analyst premise, the realist no-relation horn, attribution deferred. Some scenario with the actual selective history differs from the actual scenario in whether the judged content is correct. Stance-independence of correctness does not by itself entail this: a realist who takes epistemic correctness to supervene necessarily on descriptive truth-conduciveness denies it."
+
+[[statement]]
+id = "The scoped epistemic judgment fails in some scenario with the actual selective history"
+lean = "HistoryMateMismatch"
+definitions = ["e17e93bf-eedf-45db-be80-ffac82ef7d98"]
+paraphrase = "Tracking failure: in at least one scenario with the actual selective history, the scoped epistemic evaluative judgment returns an incorrect verdict. This does not say which scenario, and it does not say the actual verdict is incorrect."
+
+[[argument]]
+id = "Origin fixing and within-history variation yield a tracking failure"
+theorem = "selectionWithVariationYieldsMismatch"
+premises = ["The selective history fixes the verdict of the scoped epistemic judgment", "Correctness of the scoped epistemic judgment varies within the actual selective history"]
+conclusion = "The scoped epistemic judgment fails in some scenario with the actual selective history"
+rule = "Case split on actual accuracy: a correct actual verdict is repeated where correctness differs; an incorrect one is itself the failure"
+meaning = "Conditional analyst reconstruction of the first horn of Street's dilemma for one epistemic evaluative judgment, attribution deferred. If the selective history fixes the verdict and correctness varies among scenarios with that history, the verdict is wrong in some such scenario. The argument does not show actual inaccuracy, defeat of the judgment for anyone, or the absence of epistemic reasons."
+
+[[statement]]
+id = "A tracking failure of the judgment a basis delivers undercuts that basis"
+lean = "UniformMismatchPolicy"
+definitions = ["e17e93bf-eedf-45db-be80-ffac82ef7d98", "26cbf25d-f3d5-46ea-91e8-e2140a57b04d"]
+paraphrase = "OPEN analyst defeat policy, the debunker's normative bridge, attribution deferred. For each basis of the subject, if the epistemic evaluative judgment that basis delivers fails in some scenario with the actual selective history, the basis is undercut for the subject. The policy is stated uniformly, so it applies to the debunker's own epistemic basis as well as to the judgments it targets."
+
+[[argument]]
+id = "Realist debunker relying only on the debunked epistemic basis lacks warrant"
+theorem = "realistDebunkerLacksOwnWarrant"
+premises = ["A tracking failure of the judgment a basis delivers undercuts that basis", "The selective history fixes the verdict of the scoped epistemic judgment", "Correctness of the scoped epistemic judgment varies within the actual selective history", "Every supporting basis for the target is the specified basis", "Warrant for the target requires some undefeated supporting basis"]
+conclusion = "The subject lacks warrant for the specified target"
+rule = "Derive a tracking failure for the subject's own basis, apply the uniform policy, then reuse undercutSoleBasisPrecludesWarrant"
+meaning = "Self-application under epistemic realism, analyst formulation, attribution deferred. Take the target as the debunking conclusion and the basis as the subject's epistemic evaluative basis. If the policy that debunks realist epistemic judgments applies uniformly, that basis's verdict is fixed by selection, its stance-independent correctness varies within the history, every support for the conclusion comes from that basis, and warrant needs undefeated support, then the subject lacks warrant for the conclusion. The conclusion may still be true, other contents may be warranted, and no contradiction or epistemic nihilism follows."
+
+[[statement]]
+id = "Correctness of the scoped epistemic judgment is fixed by the actual selective history"
+lean = "CorrectnessFixedByHistory"
+definitions = ["e17e93bf-eedf-45db-be80-ffac82ef7d98"]
+paraphrase = "OPEN analyst premise, attribution deferred. Every scenario with the actual selective history agrees with the actual scenario on whether the judged content is correct. Constructivism (correctness constituted by attitudes the history fixes), functional accounts (correctness as truth-conduciveness in the environment the history responded to) and a necessitarian realism (correctness the same in every scenario) each supply it for different reasons."
+
+[[statement]]
+id = "The scoped epistemic judgment is accurate in the actual scenario"
+lean = "ActuallyAccurate"
+definitions = ["e17e93bf-eedf-45db-be80-ffac82ef7d98"]
+paraphrase = "OPEN analyst premise. The scoped epistemic evaluative judgment's actual verdict is correct in the actual scenario."
+
+[[statement]]
+id = "The scoped epistemic judgment is accurate in every scenario with the actual selective history"
+lean = "HistoryMatesAccurate"
+definitions = ["e17e93bf-eedf-45db-be80-ffac82ef7d98"]
+paraphrase = "In every scenario with the actual selective history, the scoped epistemic evaluative judgment returns the correct verdict. No scenario with another history is covered."
+
+[[argument]]
+id = "History-fixed correctness keeps an accurate selection-fixed judgment accurate"
+theorem = "historyFixedCorrectnessKeepsHistoryMatesAccurate"
+premises = ["The selective history fixes the verdict of the scoped epistemic judgment", "Correctness of the scoped epistemic judgment is fixed by the actual selective history", "The scoped epistemic judgment is accurate in the actual scenario"]
+conclusion = "The scoped epistemic judgment is accurate in every scenario with the actual selective history"
+rule = "Rewrite each history-mate's verdict and correctness to the actual ones"
+meaning = "Surviving-reply schema, analyst formulation. Where correctness is fixed by the history and the actual verdict is correct, the selection-fixed verdict is correct in every scenario with that history, so the tracking-failure premise of the uniform policy is not met. It applies to constructivist, functional and necessitarian-realist readings alike; it does not say which reading is true or that the actual verdict is accurate."
+
+[[statement]]
+id = "Finite controls for Darwinian epistemic debunking and its self-application"
+lean = "DarwinianDebunkingControls"
+definitions = ["e17e93bf-eedf-45db-be80-ffac82ef7d98", "26cbf25d-f3d5-46ea-91e8-e2140a57b04d"]
+paraphrase = "Five finite controls. Origin fixing with within-history variation gives a tracking failure while the actual verdict is accurate. Variation without origin fixing leaves every history-mate accurate. History-fixed correctness with an accurate selection-fixed verdict has no tracking failure. In the existing targeted reliability control the realist self-application premises hold and the conclusion lacks warrant while true, with thin F6 holding as undefeated support for other content. With history-fixed correctness for every basis, the uniform policy, sole-basis and warrant conditions hold and the conclusion is warranted."
+
+[[argument]]
+id = "Darwinian epistemic debunking finite controls"
+theorem = "darwinianDebunkingControls"
+premises = []
+conclusion = "Finite controls for Darwinian epistemic debunking and its self-application"
+rule = "Evaluate three two-scenario profiles and reuse two existing reliability controls"
+meaning = "Nonvacuity and omission controls for the three arguments. Tracking failure is separate from actual inaccuracy; origin information alone gives no tracking failure; the realist self-application premises are jointly satisfiable and leave the conclusion true and F6 intact; an antirealist debunker who accepts the same uniform policy keeps warrant. These are formal interpretations only; no actual history, reliability or account of epistemic correctness is established."
