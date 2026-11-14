@@ -1,0 +1,30 @@
+{
+  "id": "11b24e97-e722-4df5-b46f-47f1ffe16600",
+  "label": "Act is SIMPLY_PRIOR_1 to POTENCY_2 at a first being, from esse-cause priority",
+  "premise_statement_ids": [
+    "8288ff1e-d534-4516-ac2d-8d010cb863ac",
+    "3d99779b-b44a-4daa-a873-8ccdd3c034ae",
+    "ca07cae9-6102-564e-a7fd-efb013744b3d",
+    "ee74c678-0a06-47d3-9c76-27ff798e9a01"
+  ],
+  "conclusion_statement_id": "61ad11f3-476f-411d-9720-d9f05cbc22fc",
+  "inference_ids": [
+    "e9f885a4-096d-4c10-aafb-32b3d5e5baf2"
+  ],
+  "meaning": "The first-being version of act priority from the same four premises: by firstBeingNoPotencyOfEssePriority a first being is in potency in no respect, so the first-being version holds vacuously. The sibling of weakOfComposition without the cause-to-efficient-cause bridge and efficient-cause priority. Conditional consequence only; no premise is established.",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "25e19d5a-5cdf-5916-a888-f6a0ce970f11",
+    "3ea2762f-1a85-5059-b4e7-d29f192b16b6",
+    "85f7f569-ab4d-514b-aa2c-cf75171ad105",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
+  ],
+  "strong_version_needed": {
+    "3d99779b-b44a-4daa-a873-8ccdd3c034ae": "As in weakOfComposition: the route takes act in some respect (STMT 8288ff1e), not act in being; the restriction to act in being suffices with STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING, which this route does not assume."
+  }
+}

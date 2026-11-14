@@ -1,0 +1,13 @@
+{
+  "id": "8da45a70-8cdc-4bbc-85c4-55e2ceddd126",
+  "label": "Dependence order-law controls for the priority bridges",
+  "paraphrase": "Mathematical controls on Fin 3 and Fin 2. (1) A reflexive direct-edge chain (2 depends on 1, 1 depends on 0, but 2 not on 0) satisfies distinct nonmutuality and both priority bridges when simple priority is read as the strict part of D, yet neither D nor that priority is transitive. (2) A reflexive, transitive D with one reciprocal pair violates distinct nonmutuality and has an empty strict part. Formal interpretations only.",
+  "lean_declaration": "TruthCore.Causality.ReflexiveDependenceScope.Control.OrderLawControls",
+  "definition_ids": [
+    "bf26b9b2-41ed-55b0-9557-dae90ab9b81f",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8"
+  ],
+  "disambiguation_ids": [
+    "23dd6f32-b456-4963-adb3-7befbf0dc4fb"
+  ]
+}

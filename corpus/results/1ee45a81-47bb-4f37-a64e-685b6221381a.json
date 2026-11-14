@@ -1,0 +1,11 @@
+{
+  "id": "1ee45a81-47bb-4f37-a64e-685b6221381a",
+  "label": "Simple priority is irreflexive, from the priority-requirement bridge",
+  "argument_id": "3c027c4d-4da2-40be-a04a-ed046cd4050a",
+  "challenge_module": "TruthCore.Results.Causality.ReflexiveDependenceScope.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ReflexiveDependenceScope.Solution",
+  "theorem": "TruthCore.Results.Causality.ReflexiveDependenceScope.priorityIrreflexiveFromRequirement",
+  "comparator_config": "results/1ee45a81-47bb-4f37-a64e-685b6221381a/comparator.json",
+  "status": "solution-present",
+  "description": "If whatever is SIMPLY_PRIOR_1 to x is something on which x depends and which does not depend on x, then nothing is simply prior to itself, whatever D x x is. This holds on both the reflexive and the strict reading of DependsForBeing. A conditional support option for the bare root-route irreflexivity premise; the bridge remains open."
+}

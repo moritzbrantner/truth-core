@@ -1,0 +1,11 @@
+{
+  "id": "d9b1d638-7eb8-4236-aca2-fd0c28682a51",
+  "label": "Unrestricted dependence-to-grounding bridge strengthens its distinct-relata restriction",
+  "subject_kind": "statement",
+  "subject_id": "2e248016-f8bf-5d8a-931e-7f9ebbb13e42",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "a8298fbd-f3c5-480d-95e9-8316889c327f",
+  "verification_result_id": "cc7dd608-8551-4045-8bfb-5a7643a9314a",
+  "note": "Same Profile, world and DependsForBeing; the weak version adds c ≠ x. Under reflexive DependsForBeing only the strong version yields self-grounding. Strictness is not separately certified."
+}

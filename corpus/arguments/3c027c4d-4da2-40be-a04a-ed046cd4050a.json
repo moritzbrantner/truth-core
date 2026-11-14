@@ -1,0 +1,22 @@
+{
+  "id": "3c027c4d-4da2-40be-a04a-ed046cd4050a",
+  "label": "Simple priority is irreflexive, from the priority-requirement bridge",
+  "premise_statement_ids": [
+    "47aff057-35ef-5418-930b-fef72e1104d2"
+  ],
+  "conclusion_statement_id": "08e493f8-68b1-562d-9218-fc3245b2cf1f",
+  "inference_ids": [
+    "8bb41add-c2e8-492f-9ef9-01afb4895c42"
+  ],
+  "meaning": "If whatever is SIMPLY_PRIOR_1 to x is something on which x depends and which does not depend on x, then nothing is simply prior to itself, whatever D x x is. This holds on both the reflexive and the strict reading of DependsForBeing. A conditional support option for the bare root-route irreflexivity premise; the bridge remains open.",
+  "definition_ids": [
+    "bf26b9b2-41ed-55b0-9557-dae90ab9b81f",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8",
+    "b2d8accf-16aa-5c2f-acef-dc24915dfe9a"
+  ],
+  "disambiguation_ids": [
+    "23dd6f32-b456-4963-adb3-7befbf0dc4fb",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "be54be36-3ce8-53f9-8168-50d1114e6c76"
+  ]
+}

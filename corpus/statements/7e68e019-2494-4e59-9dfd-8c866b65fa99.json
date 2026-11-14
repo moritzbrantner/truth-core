@@ -1,0 +1,14 @@
+{
+  "id": "7e68e019-2494-4e59-9dfd-8c866b65fa99",
+  "label": "Esse-cause priority controls: joint witness, bridge omissions and strictness",
+  "paraphrase": "Closed controls over Bool worlds, beings and respects (the reading world and esse are true). (1) Both priority bridges hold with an actual concretum false whose esse true causes, and true is simply prior to false. (2) Omitting the esse-cause-is-ground bridge: grounding-to-priority holds vacuously, an actual concretum has a distinct esse cause, and the scoped priority fails. (3) Omitting the grounding-to-priority bridge: the esse cause grounds its actual effect, nothing is simply prior, and the scoped priority fails. (4) The three antecedent-supplying statements (caused esse is had, act of esse suffices for existence at w, esse in re is concrete) and both priority bridges hold jointly for the relation causes, under which true causes the esse of false (the certified proposition does not itself state that instance). (5) Omitting caused-esse-is-had: nothing exists or is in act, the scoped priority and the other two scope statements hold, and the distinct-cause priority fails. (6) The distinct-cause version holds while efficient-cause priority on the same relation fails, for a self-cause of esse that is not prior to itself. Statements about these interpretations only.",
+  "lean_declaration": "TruthCore.Causality.EsseCausePriority.Control.Certificate",
+  "definition_ids": [
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168"
+  ]
+}

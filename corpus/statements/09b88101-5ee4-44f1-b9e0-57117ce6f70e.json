@@ -1,0 +1,12 @@
+{
+  "id": "09b88101-5ee4-44f1-b9e0-57117ce6f70e",
+  "label": "Whatever depends for its being on what depends on z depends on z",
+  "paraphrase": "OPEN analyst premise: if x depends for its being on y and y depends for its being on z, then x depends for its being on z. Stated separately from reflexivity and from nonmutuality, about DependsForBeing as DEF-DEPENDS-FOR-BEING defines it (no closure of the relation is meant). Challenge: counterfactual dependence is not transitive in general (Lewis's logic invalidates counterfactual transitivity, which is why Lewis takes causation as the ancestral of dependence), so the premise fails for D if D is mere counterfactual dependence. Candidate warrant: per se ordered composition, as in the Second Way's 'the first is the cause of the middle and the middle of the last': if x depends for its being on y only as receiving it through y's own dependence on z, x depends on z. Neither is established here.",
+  "lean_declaration": "TruthCore.Causality.ReflexiveDependenceScope.DependenceForBeingTransitive",
+  "definition_ids": [
+    "bf26b9b2-41ed-55b0-9557-dae90ab9b81f"
+  ],
+  "disambiguation_ids": [
+    "23dd6f32-b456-4963-adb3-7befbf0dc4fb"
+  ]
+}

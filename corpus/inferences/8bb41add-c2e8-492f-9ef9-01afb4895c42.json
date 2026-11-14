@@ -1,0 +1,12 @@
+{
+  "id": "8bb41add-c2e8-492f-9ef9-01afb4895c42",
+  "label": "Simple priority is irreflexive, from the priority-requirement bridge (inference)",
+  "input_statement_ids": [
+    "47aff057-35ef-5418-930b-fef72e1104d2"
+  ],
+  "output_statement_id": "08e493f8-68b1-562d-9218-fc3245b2cf1f",
+  "rule": "A self-priority would require both D x x and not D x x",
+  "meaning": "If whatever is SIMPLY_PRIOR_1 to x is something on which x depends and which does not depend on x, then nothing is simply prior to itself, whatever D x x is. This holds on both the reflexive and the strict reading of DependsForBeing. A conditional support option for the bare root-route irreflexivity premise; the bridge remains open.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

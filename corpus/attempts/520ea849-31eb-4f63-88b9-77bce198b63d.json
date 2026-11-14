@@ -1,0 +1,27 @@
+{
+  "id": "520ea849-31eb-4f63-88b9-77bce198b63d",
+  "label": "Esse-cause priority through actual grounding without modal separability (#1604)",
+  "statement_ids": [
+    "b50fb858-ca2e-48fa-a111-84ac761976d3",
+    "ee74c678-0a06-47d3-9c76-27ff798e9a01",
+    "cb1cdea9-eb6c-578c-8008-84e0d4107fd3",
+    "7a63a3fe-a29f-5282-8106-79fedcb10d08",
+    "e078f07b-a4b8-595e-a3ee-02dd83474450",
+    "8ab3d114-d6e2-5f6d-805b-ae901f56d39b",
+    "09c6d5f0-d412-5038-85f9-75fffb935727",
+    "61ad11f3-476f-411d-9720-d9f05cbc22fc"
+  ],
+  "date": "2026-11-14",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Reuse check: no registered result composed EsseCauseIsActualConcreteGround (cb1cdea9) with ActualGroundingIsSimplePriority (7a63a3fe); the latter's only consumer was the grounding-asymmetry-via-priority argument. Added the composition (b50fb858: a distinct esse cause of an actual concretum at w is SIMPLY_PRIOR_1 to it) and discharged its actuality antecedent with three existing OPEN statements (caused esse is had 2f2f5bd2, act of esse suffices for existence at w 546975ef, esse in re is concrete in the profile 2d9807a5), giving ee74c678 (a distinct esse cause is SIMPLY_PRIOR_1 to its effect, no actuality antecedent). Use-site test: the stage-two consumers of efficient-cause priority E (e078f07b) that reach the root (firstBeingNoPotencyOfComposition/weakOfComposition and noComponentFirstOfWeak) apply E only at (c, f, esse) with c distinct from a supposed first being f and CausesIn c f esse; their own premises do not supply ActualConcrete m w f (no profile occurs), which the three scope statements supply. Rederived 0cf675c4, 61ad11f3 and 09c6d5f0 with ee74c678 replacing E and the cause-to-efficient bridge e0088de9; the component route uses the cause-of-being participation statement 732302a1 instead of 2b25a78c (same body; 2b25a78c links the external-efficient-esse-cause sense, the recorded defect). Corrected 7a63a3fe's definition links from the root and ancestry definitions (c57e2682, c86cc1d1, two senses of WELL_FOUNDEDNESS_AND_ANTI_BRUTE_ROOT that its content does not use) to the actual-concrete-grounding-edge definition a1b2e330. Structural effect, by forward chaining over all registered argument/result rules: on main, removing STMT-INDEPENDENCE-ALLOWS-BEING-WITHOUT (i) from all terminal inputs leaves G and H underivable; on this branch both remain derivable. In the terminal-only basis cb1cdea9 is an intermediate whose only derivation uses the dependence route (2068f91c with ActualDependenceIsGrounding 2e248016), and 7a63a3fe, 2068f91c and 2e248016 each lie in every i-free G package; taking cb1cdea9 directly, G is derivable without i, 2e248016, 2068f91c, c0d99549 and N. H's i-free packages tested still need c0d99549. One greedy inclusion-minimal i-free terminal G package has 41 inputs and contains neither d nor r. Exact minimal-set counts were not recomputed. Limits: ee74c678 says nothing of self-causes or respects other than esse and does not give E (Control.NotEfficientPriority), so no-self-cause, causal well-foundedness, per se loops and the secunda via still need E.",
+  "blocker": "No blocker for the assigned composition. Open: (1) both bridges remain OPEN; the positive account (a cause of esse read as causa essendi, on which the effect's actual being depends while it is, is its actual ground; grounding a thing's being is metaphysical priority) is recorded in docs/notes/god-existence-support-formula.md with its limit (a merely originating cause, causa fiendi, is not thereby a ground) and the enabling-condition rival priced; the passage from tenseless CausesIn c x esse to the being x has at w is the sense-3-to-5 sustaining reading of DISAMB-BECOMING-BEING-CAUSE (OPEN bridge 23e04ae5), not part of DEF-CAUSE-OF-PERFECTION; the standing existential-inertia rival (a strict esse-originator, time-indexed sense 3, need not exist at w or ground x; recorded on 23e04ae5, Schmid 2021) is unresolved: either cb1cdea9 fails for strict originators or CausesIn at esse is read as sustaining and ca07cae9/732302a1 must deliver sustaining causes, so the burden is 23e04ae5's in substance; the route avoids e0088de9 only because cb1cdea9 covers every CausesIn at esse instance, so if perfection-causing includes non-efficient exemplar or final causes cb1cdea9 inherits e0088de9's failure condition in stronger form; (2) the terminal-only route to cb1cdea9 still passes through the dependence-to-grounding premise owned by #1590; (3) the exact inclusion-minimal support counts for G and H need the off-repository symbolic calculation; (4) 2b25a78c's sense-link defect is unchanged.",
+  "evidence": [
+    "b6838509-aaa1-477d-8f82-b9db39c5220a",
+    "95e0b6e3-bf7b-4ae5-ae41-98ce53e718b1",
+    "08a06197-09d0-4cc2-9542-65287cca37ed",
+    "0903b8c1-c2e4-449a-a934-a0a9a29c25cf",
+    "764f43fe-df3b-4cd4-9e32-217b58050cfa",
+    "0de15acc-6313-4111-a6a5-9ef5487f1a0f"
+  ]
+}

@@ -122,6 +122,7 @@ public import TruthCore.Results.Causality.DirectEsseRootUniquenessScopeControls.
 public import TruthCore.Results.Causality.DivineVeracity1410.Solution
 public import TruthCore.Results.Causality.DivineVeracityContent1410.Solution
 public import TruthCore.Results.Causality.DurationMeasureCandidates.Solution
+public import TruthCore.Results.Causality.EsseCausePriority.Solution
 public import TruthCore.Results.Causality.EsseReceptionDefinitions.Controls.Solution
 public import TruthCore.Results.Causality.EsseReceptionDefinitions.Counteraccount.Solution
 public import TruthCore.Results.Causality.EsseReceptionDefinitions.IdentityScopeControl.Solution
@@ -263,6 +264,7 @@ public import TruthCore.Results.Causality.PureIndiscernibility.Solution
 public import TruthCore.Results.Causality.QuantitativeTransferPaths.Solution
 public import TruthCore.Results.Causality.ReceptionLimitation.Solution
 public import TruthCore.Results.Causality.ReflexiveActualFusionNecessaryBeing.Solution
+public import TruthCore.Results.Causality.ReflexiveDependenceScope.Solution
 public import TruthCore.Results.Causality.RegressAccessibilityExcludesSeries.Solution
 public import TruthCore.Results.Causality.RegressAccessibilityUnboundedDepth.Solution
 public import TruthCore.Results.Causality.RegressReadingsCoincide.Solution

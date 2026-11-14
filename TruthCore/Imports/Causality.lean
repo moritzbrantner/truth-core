@@ -80,6 +80,7 @@ public import TruthCore.Causality.DivineVeracityContent1410
 public import TruthCore.Causality.DurationMeasureCandidates
 public import TruthCore.Causality.EndlessTemporalDuration
 public import TruthCore.Causality.EntireChainHead
+public import TruthCore.Causality.EsseCausePriority
 public import TruthCore.Causality.EsseReception
 public import TruthCore.Causality.EsseReceptionDefinitionFork
 public import TruthCore.Causality.EssentialPower
@@ -173,6 +174,7 @@ public import TruthCore.Causality.PureActThisness
 public import TruthCore.Causality.PureIndiscernibility
 public import TruthCore.Causality.QuantitativeTransferPaths
 public import TruthCore.Causality.ReceptionLimitation
+public import TruthCore.Causality.ReflexiveDependenceScope
 public import TruthCore.Causality.RegressReadings
 public import TruthCore.Causality.RegressRivalCoverage
 public import TruthCore.Causality.RivalRefutationsRound2

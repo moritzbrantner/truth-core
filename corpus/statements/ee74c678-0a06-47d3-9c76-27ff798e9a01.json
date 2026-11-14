@@ -1,0 +1,11 @@
+{
+  "id": "ee74c678-0a06-47d3-9c76-27ff798e9a01",
+  "label": "A distinct esse CAUSE_2 of a thing is SIMPLY_PRIOR_1 to it",
+  "paraphrase": "For any c and x, if c is distinct from x and c causes x's esse (CausesIn c x esse, the cause-of-perfection relation at esse), then c is simply prior to x. It is the instance of efficient-cause priority that the stage-two composition and component routes use, restricted to distinct causes and to esse, and stated for the cause-of-perfection relation rather than for efficient causing. It says nothing about self-causes or other respects, so it does not give STMT-EFFICIENT-CAUSE-IS-PRIOR-TO-EFFECT (Control.NotEfficientPriority).",
+  "lean_declaration": "TruthCore.Causality.EsseCausePriority.DistinctEsseCausePriority",
+  "definition_ids": [
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8"
+  ]
+}
