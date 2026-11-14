@@ -4,17 +4,26 @@ public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Articl
 public import TruthCore.Causality.ActualUnderivedEssenceEsse
 
 /-!
-# The contingent-conjunction objection in SCG I.22 nn.3–4
+# The contingent-conjunction objection in SCG I.22 nn.3–4 (first n.4 case)
 
 Analyst reconstruction, with historical attribution **deferred** until the
 chapter has a verified corpus passage. Aquinas explicitly entertains an esse
 that is necessary through itself while its conjunction with a proposed essence
-is not necessary (n.3), and replies that, if this esse can be understood apart
-from the essence, the latter is accidental to the esse, hence not the quiddity
-of the first necessary being, which is that esse (n.4).
+is not necessary (n.3). His n.4 reply has two written cases. The first: if this
+esse can be understood apart from the essence, the latter is accidental to the
+esse, hence not the quiddity of the first necessary being, which is that esse.
+The second (*si autem non potest intelligi illud esse sine illa essentia…*):
+if it cannot, the esse depends absolutely on whatever its conjunction depends
+on, and the n.2 dependence horns return. **This module formalizes only the
+first case.** The second case, with its relata for the conjunction's source
+and absolute dependence, is not yet formalized.
 
-The selected-world modal test below is an *analyst proxy* for the non-necessary
-conjunction. It is **not** Aquinas's `potest intelligi` by definition. The
+The selected-world modal test below is an *analyst proxy* for n.3's
+non-necessary conjunction. n.3 frames the objection as *dependence* (the esse
+depends on the essence for its conjunction), so a union present at every world
+but dependent satisfies n.3 on its dependence reading while escaping this
+proxy; every scope claim below is relative to the modal proxy. The proxy is
+also **not** Aquinas's `potest intelligi` by definition. The
 world-to-intelligibility bridge stays explicit and independently defeasible.
 `identifiedWithEsse` is likewise an open ontic identification, not a modal
 coextension or an equality between different Lean sorts. A positive result
@@ -105,11 +114,13 @@ def ContingentReplyPremisesAt (p : Profile W B P R) (w : W) : Prop :=
   IntelligibleSeparationMakesAccidental p ∧
   AccidentNotQuiddityOfEsseBearer p
 
-/-- The selected result of nn.3–4: a self-necessary esse whose conjunction
-to q is contingent can have q attached, but under the three OPEN
+/-- The selected result of the first n.4 case: an esse present at every
+accessible world (modal proxy, not underived *per se* necessity) whose
+conjunction to q is contingent can have q attached, but under the three OPEN
 interpretive/ontic premises q is not the quiddity of the first bearer
-identified with that esse. It does **not** prove `q = e`; necessary attachment
-and distinct but co-fundamental principles remain outside this rebuttal. -/
+identified with that esse. It does **not** prove `q = e`; a necessary
+attachment and distinct but co-fundamental principles lie outside this first
+case (n.4's second case, n.2 and n.6 address them; none is encoded here). -/
 def ContingentConjunctionRejectedAsQuiddityAt
     (p : Profile W B P R) (w : W) : Prop :=
   ∀ x, NecessaryEsseAt p w (p.q3.esseOf x) →
@@ -162,8 +173,12 @@ def noNecessaryEsseProfile : Profile Bool Unit Bool Unit :=
   { noIntelligibilityProfile with esseExistsAt := fun w e => w = false ∧ e = true }
 
 /-- A separate, permanently joined q may be a quiddity although its
-represented principle differs from e. The n.3–4 reply has no leverage over
-this case; the n.2 trilemma is an additional open argument, not a corollary. -/
+represented principle differs from e. The encoded first n.4 case
+(`ContingentReplyPremisesAt`) has no leverage over it: `conceivableApart` is
+false, which is exactly the antecedent of n.4's *second* written case, not
+encoded here. That case, n.2's coverage and n.6's union causation are the
+premises this profile must still answer, so it is not a model of the whole
+n.3–4 reply. -/
 def necessaryDistinctProfile : Profile Bool Unit Bool Unit :=
   { contingentProfile with
     q3 := { contingentProfile.q3 with essenceOf := fun _ => false }
@@ -186,8 +201,12 @@ def stableDistinctSupport (_ : Bool) (_ _ : Unit) : Prop := False
 
 /-- The bare D → E inference is false under the reused D and E signatures:
 actual existence, de re necessity, and no actual supporter all hold for the
-one bearer, but represented principles differ, and the n.3–4 premises do not
-resolve the permanently joined distinct-principles case. -/
+one bearer, but represented principles differ, and the first n.4 case's
+premises do not resolve the permanently joined distinct-principles case. The
+empty support relation does not mention the conjunction, so it does not
+represent an uncaused union. The bare non-entailment is already witnessed by
+`TruthCore.Causality.UnderivedEssenceEsse.Controls`; this adds only its
+compatibility with the first-case bundle. -/
 def UnderivedDistinctBoundary : Prop :=
   let m := stableDistinctOntic
   m.ExistsAt false () ∧

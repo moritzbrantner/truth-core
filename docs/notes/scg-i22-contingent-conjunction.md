@@ -27,15 +27,47 @@ the distinct nn.3–4 objection/reply; the Latin is essential here.
   which the esse is attached to it. Thus the esse is necessary through itself
   while the conjunction is not necessary. This targets an illicit move from
   contingent union to the dependence of the esse itself. The difference is
-  explanatory-relatum sensitive.
-- **n.4, the written reply:** if that esse can be *understood without* the
-  proposed essence, the essence is accidental **to that esse**; Aquinas then
-  identifies the necessary being with *that esse*, so the proposed essence is
-  accidental to the first necessary thing and not its quiddity. He allows it
-  to be an essence of something posterior. **n.4 does not explicitly write a
-  converse horn** arguing that inability to understand the esse apart
-  necessarily revives dependence. Such a converse is an analyst completion
-  and must not be reported as Aquinas's textual assertion.
+  explanatory-relatum sensitive. n.3 also says where the dependence lies:
+  *dependet quantum ad coniunctionem*, the esse depends on the essence for
+  its conjunction. Its *non per se necesse* is therefore read in two sibling
+  senses (see below).
+- **n.4, the written reply, in two cases.**
+  - *First case:* if that esse can be *understood without* the proposed
+    essence, the essence is accidental **to that esse**; Aquinas then
+    identifies the necessary being with *that esse*, so the proposed essence
+    is accidental to the first necessary thing and not its quiddity. He allows
+    it to be some essence posterior to God (*aliqua essentia Deo posterior*).
+  - *Second case:* *Si autem non potest intelligi illud esse sine illa
+    essentia, tunc illud esse absolute dependet ab eo a quo dependet
+    coniunctio sua ad essentiam illam. Et sic redit idem quod prius.* If the
+    esse cannot be understood without that essence, the esse depends
+    absolutely on whatever its conjunction depends on, and the n.2 dependence
+    horns return. This is a second written case, not the logical converse of
+    the first conditional. (An earlier draft of this note wrongly said n.4
+    has no such case; corrected after the owner's source-fidelity finding on
+    PR #1602.) **It is not yet formalized; attribution deferred.** Its
+    applicability needs explicit semantics for intelligibility, for the
+    source on which the conjunction depends, and for *per se* necessary
+    existence. It is not inferred from `NecessaryAt` or modal co-presence.
+
+### Two senses of n.3's *non per se necesse*
+
+- **Modal proxy (formalized):** the conjunction fails at some accessible
+  world (`ContingentConjunctionAt`), and *per se necesse* of the esse is
+  rendered by presence at every accessible world (`NecessaryEsseAt`).
+- **Dependence sense (sibling reading, not yet formalized):** in SCG I the
+  *per se*/*per aliud* distinction concerns whether something has a cause of
+  its necessity, and n.3 frames the objection as dependence. On this reading
+  a conjunction that is present at every world but depends on something
+  satisfies n.3's description. *Per se necesse* (I.22) then belongs on the
+  underived/uncaused side of `DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED`, not
+  on the `NecessaryAt` side. This sense needs its own definition and Lean
+  declaration together with the second-case relata (the source on which the
+  conjunction depends, and absolute dependence of the esse); until then it is
+  an open semantic obligation recorded in definition `b18c2550`.
+
+Every claim below that something lies "outside" the reply is relative to the
+modal proxy and to the first n.4 case.
 
 The n.2 trilemma and the n.4 reply use a stronger self-necessary sense than
 `NecessaryAt` alone: the actual *esse* is not derived from other principles
@@ -68,7 +100,12 @@ these further relata **separate**:
 The non-transcription theorem
 `necessary_esse_contingent_join_separates` derives `ModalSeparationAt`
 from `NecessaryEsseAt ∧ ContingentConjunctionAt` using a **counterworld
-witness with the same esse**. Dropping necessity breaks that inference: a
+witness with the same esse**. "Same esse" is a structural surrogate: the same
+represented esse principle satisfies `esseExistsAt` at the counterworld.
+Nothing links `esseExistsAt` to the bearer's `Ontic.ExistsAt`, to q.3
+actuality, or to q's existence there, so the union may fail simply because q
+is absent. That suffices for the first n.4 case, which concerns the esse
+being understood without the essence. Dropping necessity breaks that inference: a
 union may disappear only because its esse disappears. This solves a real
 scope confusion and makes the argument able to fail.
 
@@ -80,9 +117,10 @@ warrant. It uses three separate OPEN premises in order:
    substantive analyst interface and is not stated as a possible-world
    principle in n.4.
 2. Intelligibility of e apart from q makes q ontologically accidental to e.
-   This is Aquinas's selected n.4 reasoning, attribution deferred.
+   This is the first n.4 case, attribution deferred.
 3. If x is **identified with e**, a q accidental to e is not the genuine
-   quiddity of x. This is his second n.4 reasoning, attribution deferred.
+   quiddity of x. This is the conclusion drawn within the first n.4 case,
+   attribution deferred.
 
 It concludes only that the **contingently joined q is not the quiddity of x**;
 it does not conclude `q3.essenceOf x = q3.esseOf x`. It also does not require
@@ -107,14 +145,37 @@ structural separation premise while preserving the other two open bridges.
 The **strongest remaining semantic rival** to an inference directly from
 D to E is the seventh profile: e exists at both worlds; e and q are distinct
 represented principles; they are permanently joined; q is a genuine
-quiddity; neither separation nor accident is assigned. The n.3–4 bundle holds
-but has no antecedent to reject. A separately certified
-`underived_distinct_boundary` control combines this SAME profile with an
-empty `NoExistingSupportAt` graph on the single necessarily present bearer;
-it verifies that the existing `ActualUnderivedEssenceIdentity` is false.
-It is a **signature countermodel to the bare D → E implication**,
-not positive evidence that a real self-necessary being can have genuinely
-distinct co-fundamental principles. A philosophically stronger version might
+quiddity; neither separation nor accident is assigned. The encoded
+**first-case** bundle of n.4 holds but has no antecedent to reject. This is
+**not** a model of the whole n.3–4 reply: `conceivableApart` is false, which
+is exactly the antecedent of n.4's second written case, and the profile has
+no relation for the source on which the conjunction depends or for absolute
+dependence of the esse. Adding the second case as an open premise
+(`joined e q ∧ ¬conceivableApart e q → ∀ s, conjunctionDependsOn e q s →
+absolutelyDependsOn e s`) and n.2's per se clause (`per se necessary e →
+¬∃ s, absolutelyDependsOn e s`) would leave this profile standing only if its
+conjunction depends on nothing. On n.3's own description (the esse depends
+on the essence for its conjunction) it would then be refuted through n.2's
+horn (i). A **co-fundamental union** whose conjunction depends on nothing lies
+outside n.3's objection altogether. What it must answer is: n.4's second case
+(by having no conjunction source), n.2's consonance trilemma (which needs a
+coverage assumption), and n.6's union-causation principle (*quae per se non
+sunt unum, si coniungantur, oportet per aliquam causam uniri*). None of these
+is formalized here.
+
+A separately certified `underived_distinct_boundary` control combines this
+SAME profile with an empty `NoExistingSupportAt` graph on the single
+necessarily present bearer; it verifies that the existing
+`ActualUnderivedEssenceIdentity` is false. The bare non-entailment
+{actual, `NecessaryAt`, `NoExistingSupportAt`} ⊬ `esseOf = essenceOf` is
+**already witnessed** by the existing `TruthCore.Causality.UnderivedEssenceEsse.Controls`
+(third conjunct, model `varying`; statement
+`STMT-UNDERIVED-ESSENCE-INTERFACE-CONTROLS`). The new result adds only that
+this existing boundary remains compatible with the n.4 first-case bundle.
+The empty support relation does not mention the conjunction, so it does
+**not** represent an uncaused union. It is not positive evidence that a real
+self-necessary being can have genuinely distinct co-fundamental principles.
+A philosophically stronger version might
 argue that two formal aspects of one necessary reality need neither be
 efficiently caused by the other nor by a third; that independent warrant and
 its relation to Aquinas's richer **per se** necessity have not been established
@@ -140,20 +201,24 @@ intrinsic sufficient existence reason, or a claim about God. Intended and
 actual root-route premise change: **none** (these are new outpost statements,
 not new edges to the Catholicism root).
 
-The next substantive test is to formalize **n.2's dependency trilemma in
-the same typed environment**, not as one opaque `Distinct → Identity`
-bridge: separate (i) dependence of e on q, (ii) a common source of e and q,
-and (iii) dependence of q on e, then test coverage, the underivedness
-exclusion, and the criterion under which an e-dependent q would be accidental
-to the bearer identical with e. The stable distinct-union profile should
-first be evaluated against each premise; the live question is whether its
-co-fundamental union has a positive enough replacement account to challenge
-the trilemma, or instead violates a substantively defended premise. A
-selected original-text source claim requires materializing and reading a
-chapter-specific SCG I.22 passage before attribution.
+The recommended next slice (agreed by the owner's comment and the semantic
+challenge on PR #1602) is **n.4's second written case**, as an explicitly
+conditional Lean slice with OPEN semantics for intelligibility, for the
+source on which the conjunction depends, and for *per se* (underived)
+necessity, using the dependence sense of n.3 above. Its controls: (a) a
+conjunction dependent on q, expected to be refuted through n.2's horn (i);
+(b) a co-fundamental union with an empty conjunction source, expected to
+survive the second case and pass to n.2's coverage and n.6. After that,
+formalize **n.2's dependency trilemma in the same typed environment**, not
+as one opaque `Distinct → Identity` bridge: separate (i) dependence of e on
+q, (ii) a common source of e and q, and (iii) dependence of q on e, then test
+coverage, the underivedness exclusion, and n.6's union causation against the
+co-fundamental profile. The live question is whether a co-fundamental union
+has a positive enough replacement account to challenge these premises, or
+instead violates a substantively defended one. A selected original-text
+source claim requires materializing and reading a chapter-specific SCG I.22
+passage before attribution.
 
-Validation boundary: corpus records generated from
-`specs/scg-i22-contingent-conjunction.toml`; `corpus.py check` and other
-offline checks can inspect bindings. No local Lean/Lake or Rust CLI is
-installed in this checkout, so `controls` and the two theorem proofs are
-**development submissions awaiting kernel, Comparator, and NanoDa CI**.
+Validation: the corpus records are generated from
+`specs/scg-i22-contingent-conjunction.toml`. Kernel, binding, Comparator and
+NanoDa checks run in CI on PR #1602.
