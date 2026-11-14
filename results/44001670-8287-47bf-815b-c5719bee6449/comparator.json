@@ -1,8 +1,8 @@
 {
-  "challenge_module": "TruthCore.Results.Causality.OriginExerciseBridge.Challenge",
-  "solution_module": "TruthCore.Results.Causality.OriginExerciseBridge.Solution",
+  "challenge_module": "TruthCore.Results.Causality.OriginExerciseBridge.SelfEdge.Challenge",
+  "solution_module": "TruthCore.Results.Causality.OriginExerciseBridge.SelfEdge.Solution",
   "theorem_names": [
-    "TruthCore.Results.Causality.OriginExerciseBridge.otherOnlySeparates"
+    "TruthCore.Results.Causality.OriginExerciseBridge.SelfEdge.otherOnlySeparates"
   ],
   "permitted_axioms": [],
   "enable_nanoda": true

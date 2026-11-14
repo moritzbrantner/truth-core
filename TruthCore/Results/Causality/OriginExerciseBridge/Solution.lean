@@ -12,74 +12,24 @@ open TruthCore.Causality.TermSenseForks
 open TruthCore.Causality.OriginExerciseBridge
 open TruthCore.Causality.ExistentialSelfActualization
 
-/-- If every self-origin edge has an exercise of that very being producing its
-own existence, an existing prohibition on productive self-actualization
-excludes self-origin. This result has TWO explicit premises: the self-edge
-bridge and the independently recorded NoSelfProduction statement. That latter
+/-- If every origin-cause edge has an exercise of its source producing the
+target's existence, an existing prohibition on productive self-actualization
+excludes self-origin. This result has TWO explicit premises: the new bridge
+and the independently recorded NoSelfProduction statement. That latter
 statement already has a certified route from four open priority premises.
-Nothing defines CausesOrigin as irreflexive, and no premise concerns origin
-edges between distinct beings (#1610). -/
-theorem noSelfOriginFromSelfExercise {Being Respect Exercise : Type}
-    (F : CauseFrame Being Respect)
-    (Occurs : Exercise → Prop) (bearer : Exercise → Being)
-    (produces : Exercise → Being → Prop)
-    (hOrigin : OriginHasProductiveSelfExercise F Occurs bearer produces)
-    (hNoSelf : NoSelfProduction Occurs bearer produces) :
-    NothingOriginatesItself F := by
-  intro x hCausesOrigin
-  obtain ⟨a, hOccurs, hBearerEq, hProduces⟩ := hOrigin x hCausesOrigin
-  have hProducesBearer : produces a (bearer a) := by
-    simpa [hBearerEq] using hProduces
-  exact hNoSelf a hOccurs hProducesBearer
-
-/-- The universal origin-to-exercise bridge entails its self-edge sibling:
-instantiate the universal clause at the edge `CausesOrigin x x`. This backs
-the `strengthens` registration (universal → self-edge). -/
-theorem selfExerciseOfExercise {Being Respect Exercise : Type}
-    (F : CauseFrame Being Respect)
-    (Occurs : Exercise → Prop) (bearer : Exercise → Being)
-    (produces : Exercise → Being → Prop)
-    (hOrigin : OriginHasProductiveExercise F Occurs bearer produces) :
-    OriginHasProductiveSelfExercise F Occurs bearer produces :=
-  fun x hx => hOrigin x x hx
-
-/-- Certified difference (#1598): the universal bridge is exactly its
-self-edge sibling together with the clause for edges that are not self-edges.
-Premise-free comparison of the two encodings. -/
-theorem universalOverSelfExact : UniversalOverSelfExact := by
-  intro Being Respect Exercise F Occurs bearer produces
-  constructor
-  · intro hOrigin
-    exact ⟨fun x hx => hOrigin x x hx, fun c x hcx => Or.inr (hOrigin c x hcx)⟩
-  · rintro ⟨hSelf, hOther⟩ c x hcx
-    rcases hOther c x hcx with hEq | hExercise
-    · subst hEq
-      exact hSelf c hcx
-    · exact hExercise
-
-/-- Strictness: in the other-only setting the self-edge sibling holds and the
-universal bridge fails. A formal interpretation only. -/
-theorem otherOnlySeparates : OtherOnlySeparates := by
-  refine ⟨trivial, ?_, ?_⟩
-  · intro x hx
-    cases x with
-    | false => exact absurd hx.1 (by decide)
-    | true => exact absurd hx.2 (by decide)
-  · intro hOrigin
-    obtain ⟨a, _⟩ := hOrigin true false ⟨rfl, rfl⟩
-    exact nomatch a
-
-/-- The earlier universal-bridge composition, kept as an unregistered check:
-it factors through `selfExerciseOfExercise` and the self-edge result. -/
+Nothing defines CausesOrigin as irreflexive. -/
 theorem noSelfOriginFromNoSelfProduction {Being Respect Exercise : Type}
     (F : CauseFrame Being Respect)
     (Occurs : Exercise → Prop) (bearer : Exercise → Being)
     (produces : Exercise → Being → Prop)
     (hOrigin : OriginHasProductiveExercise F Occurs bearer produces)
     (hNoSelf : NoSelfProduction Occurs bearer produces) :
-    NothingOriginatesItself F :=
-  noSelfOriginFromSelfExercise F Occurs bearer produces
-    (selfExerciseOfExercise F Occurs bearer produces hOrigin) hNoSelf
+    NothingOriginatesItself F := by
+  intro x hCausesOrigin
+  obtain ⟨a, hOccurs, hBearerEq, hProduces⟩ := hOrigin x x hCausesOrigin
+  have hProducesBearer : produces a (bearer a) := by
+    simpa [hBearerEq] using hProduces
+  exact hNoSelf a hOccurs hProducesBearer
 
 /-- Fully composed Lean witness: use the previously verified productive
 self-actualization theorem to obtain NoSelfProduction from the four separately

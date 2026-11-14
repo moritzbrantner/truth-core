@@ -125,8 +125,11 @@ The separate root-reaching result
 `OriginHasProductiveExercise` bridge: every `CausesOrigin c x` edge has an
 *occurring* exercise `a` with `bearer a = c` that produces `x`'s existence.
 The result was verified on PR #1526, head `fe55756c`, with full CI and a
-completed finding-free Codex review. This does not verify this bridge's
-applicability. The warrant question is now substantially narrower than whether
+completed finding-free Codex review. Since #1610 a sibling result,
+`OriginExerciseBridge.SelfEdge.noSelfOriginFromSelfExercise`, reaches the same
+conclusion from the weaker self-edge bridge `OriginHasProductiveSelfExercise`;
+the frozen universal-premise result above is unchanged and stays a support
+alternative. Neither verifies this bridge's applicability. The warrant question is now substantially narrower than whether
 all things generically called causes involve positive production.
 
 **Positive argument for the selected productive reading.** A merely capable
@@ -156,14 +159,18 @@ exercise of c produces x's being" is part of the bridge's OPEN content
 case leaves open.
 
 **Why the bridge is universal and its self-edge sibling.** The bridge
-quantifies over every `CausesOrigin` edge, but the argument uses only
-self-edges. The universal form (statement `be90bb15`, DEF `9022c4bf`) is kept
-as the productive reading of `CAUSE_4` itself, because its warrant (the
-actual-exercise requirement) is stated generally. Since #1610 the argument
-`e9a9eeaf` consumes the weak self-edge sibling `OriginHasProductiveSelfExercise`
-(`∀ x, CausesOrigin x x → ∃ a, Occurs a ∧ bearer a = x ∧ produces a x`, DEF
-`62acf1f0`), and no argument needs the strong version
-(`strong_version_needed` is gone). The universal form strengthens the sibling
+quantifies over every `CausesOrigin` edge, but the argument `e9a9eeaf` uses
+only self-edges. The universal form (statement `be90bb15`, DEF `9022c4bf`) is
+kept as the productive reading of `CAUSE_4` itself, because its warrant (the
+actual-exercise requirement) is stated generally. Since #1610 a sibling
+argument (`noSelfOriginFromSelfExercise`, Challenge
+`OriginExerciseBridge.SelfEdge`) consumes the weak self-edge sibling
+`OriginHasProductiveSelfExercise` (`∀ x, CausesOrigin x x → ∃ a, Occurs a ∧
+bearer a = x ∧ produces a x`, DEF `62acf1f0`) with the same NoSelfProduction
+premise. That proof shows the strong version is not needed for the
+conclusion. `e9a9eeaf` and its frozen Challenge are kept unchanged as the
+earlier support alternative, with no `strong_version_needed` reason (the
+frozen-Challenge rule, invariant 12, forbids re-pointing it). The universal form strengthens the sibling
 (verified instantiation result `selfExerciseOfExercise`). Their certified
 difference (#1598) is `NonSelfOriginHasProductiveExercise`: every origin edge
 is a self-edge or is realized by its source's productive exercise, that is,
@@ -174,11 +181,12 @@ separates them: the sibling holds there vacuously and the universal form fails.
 
 Warrant difference. The sibling follows from the universal form, so it has at
 least its warrant, and every defeater of the sibling defeats the universal form.
-The converse fails: the ordinary-origination candidates are all edges between
-distinct beings and bear only on the delta. They are the builder, a cause of a
-house's becoming but not of its being (*ST* I q.104 a.1), and Hall-style
-dependence and omission causes. The sibling keeps only the self-edge case of the
-coming-to-be-to-being step. That case is where the Smith/Newman whole-universe
+The converse fails. The builder, a cause of a house's becoming but not of its
+being (*ST* I q.104 a.1), and Hall-style omission and prevention cases have
+distinct relata and bear only on the delta. The broad dependence reading of
+`CAUSE_4` behind Hall's cases bears on the sibling only through a self-edge
+such as the Smith whole below, which stays OPEN. The sibling keeps only the
+self-edge case of the coming-to-be-to-being step. That case is where the Smith/Newman whole-universe
 dispute sits: whether a whole said to originate itself through its constituents'
 reciprocal origination bears an exercise producing its own being. That dispute
 is not lightened by the weakening and stays OPEN. The weakening removes
@@ -298,7 +306,9 @@ not defeat this proposal. The disputed inference and interfaces are:
    account must connect these first-stage productions to the existence of
    that **entire** bearer, not merely its initial state.
 2. **Exercise and strict priority.** For the corpus proof the origin edge
-   needs `OriginHasProductiveExercise`: an *occurring* exercise borne by `U`
+   needs the self-edge bridge `OriginHasProductiveSelfExercise` (the
+   universal `OriginHasProductiveExercise` only through it): an *occurring*
+   exercise borne by `U`
    and producing `U`'s existence, rather than only exercises of proper parts.
    Mereological inheritance of those exercises by `U` is a substantive
    candidate bridge, not something to reject by definition. If such a
@@ -353,7 +363,10 @@ joint use is to exclude the reciprocal pair
 `Prior (inl (bearer a)) (inr a)` and
 `Prior (inr a) (inl (bearer a))`. The single structural assumption
 `∀ p q, Prior p q → ¬ Prior q p` (asymmetry) suffices directly with
-`BearerPrior`, `ProductPrior`, and `OriginHasProductiveExercise`.
+`BearerPrior`, `ProductPrior`, and the self-edge bridge
+`OriginHasProductiveSelfExercise` (unregistered
+`SelfEdge.noSelfOriginFromAsymmetricSelf`; the older unregistered checks use
+the universal `OriginHasProductiveExercise`).
 Irreflexivity plus transitivity imply asymmetry, but not conversely: an
 irreflexive directed three-cycle can be asymmetric while failing transitivity.
 Thus no global transitivity or well-foundedness is needed for the **local**

@@ -2,9 +2,9 @@
   "id": "b50802b2-a4d9-4682-9af6-990f8be04cf3",
   "label": "Universal origin bridge is the self-edge sibling plus the distinct-relata clause",
   "argument_id": "44c3242e-a206-496e-9799-f4c047e68bda",
-  "challenge_module": "TruthCore.Results.Causality.OriginExerciseBridge.Challenge",
-  "solution_module": "TruthCore.Results.Causality.OriginExerciseBridge.Solution",
-  "theorem": "TruthCore.Results.Causality.OriginExerciseBridge.universalOverSelfExact",
+  "challenge_module": "TruthCore.Results.Causality.OriginExerciseBridge.SelfEdge.Challenge",
+  "solution_module": "TruthCore.Results.Causality.OriginExerciseBridge.SelfEdge.Solution",
+  "theorem": "TruthCore.Results.Causality.OriginExerciseBridge.SelfEdge.universalOverSelfExact",
   "comparator_config": "results/b50802b2-a4d9-4682-9af6-990f8be04cf3/comparator.json",
   "status": "solution-present",
   "description": "Certified difference (#1598) of the registration universal origin bridge strengthens self-edge origin bridge: for every frame and exercise vocabulary, the universal bridge holds iff the self-edge sibling holds and every origin edge is a self-edge or realized by its source's productive exercise. Premise-free; it compares the two encodings, uses no decidable identity and asserts neither bridge."

@@ -2,9 +2,9 @@
   "id": "44001670-8287-47bf-815b-c5719bee6449",
   "label": "Other-only origin frame separates the origin bridges",
   "argument_id": "4376264b-e174-4eae-882c-fef857a4b08e",
-  "challenge_module": "TruthCore.Results.Causality.OriginExerciseBridge.Challenge",
-  "solution_module": "TruthCore.Results.Causality.OriginExerciseBridge.Solution",
-  "theorem": "TruthCore.Results.Causality.OriginExerciseBridge.otherOnlySeparates",
+  "challenge_module": "TruthCore.Results.Causality.OriginExerciseBridge.SelfEdge.Challenge",
+  "solution_module": "TruthCore.Results.Causality.OriginExerciseBridge.SelfEdge.Solution",
+  "theorem": "TruthCore.Results.Causality.OriginExerciseBridge.SelfEdge.otherOnlySeparates",
   "comparator_config": "results/44001670-8287-47bf-815b-c5719bee6449/comparator.json",
   "status": "solution-present",
   "description": "Strictness control: in the other-only frame with no exercises the self-edge bridge holds vacuously and the universal bridge fails at the edge true to false. A finite interpretation only; it shows that the self-edge sibling does not entail the universal bridge, not that any real origin edge lacks an exercise."
