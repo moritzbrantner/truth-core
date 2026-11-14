@@ -1,0 +1,29 @@
+{
+  "id": "a4d430a0-9711-4d04-b4a5-be385f92e757",
+  "label": "Reflexive existence-requirement versus strict dependence for being: scope and order laws",
+  "date": "2026-11-14",
+  "statement_ids": [
+    "0f49d71e-09e6-5a9c-b7e7-e0e9b8fe769c",
+    "da8e6b60-4dab-5858-9c8d-f6e84c821970",
+    "56252cd8-955d-40a5-bd81-de4a496d9018",
+    "09b88101-5ee4-44f1-b9e0-57117ce6f70e",
+    "7ad36aca-d55e-5b66-92fa-30749333df4f",
+    "08e493f8-68b1-562d-9218-fc3245b2cf1f",
+    "2e248016-f8bf-5d8a-931e-7f9ebbb13e42",
+    "a8298fbd-f3c5-480d-95e9-8316889c327f",
+    "39f7c63d-b372-564c-b18a-ed09d02dda9a"
+  ],
+  "kind": "reading",
+  "outcome": "succeeded",
+  "summary": "Issue #1593. (1) Scope conflict made exact: under the OPEN reflexivity statement, unrestricted asymmetry of DependsForBeing fails on every inhabited domain (bf6cb784); two Boolean models (identity, and the two-element order) are reflexive and distinct-nonmutual but not asymmetric (0ccf914c). No Lean contradiction exists in the corpus; the primitive fixes no self-relation law. Reflexivity is a live reading because the bare counterfactual clause of the definition, apart from its agent-cause qualification, instantiates the counterfactual identity law (valid in any selection semantics whose selected worlds satisfy the antecedent, impossible-worlds semantics included), while the agent-cause qualification and paradigm are strict; the definition read whole supports both readings. (2) Senses: no new TERM_n. Distinct nonmutuality is exactly asymmetry of DistinctEdge D (lake-checked lemma); interpreted strict explanatory dependence is not separately represented (sense 2 of 23dd6f32 is formal strict ground on uninterpreted atoms; grounds is joined to D only by OPEN bridges) and no result here needs it; modal entailment is ModalRequiresExistence (d7f66ca4). Paraphrases of the distinct and asymmetric statements and the DEF-DEPENDS-FOR-BEING note were corrected to record the fork. (3) Order laws tested separately: priority irreflexivity from the requirement bridge alone (1ee45a81); priority transitivity from both OPEN bridges plus OPEN transitivity of D (938bfd7f); strict-part correspondence only under the bridges (lake-checked lemmas); a Fin 3 direct-edge chain shows transitivity of D cannot be dropped, and a reciprocal pair has empty strict part (a79850a6). (4) Root: the distinct premise keeps its meaning and is available on both readings; the asymmetric premise only on the strict reading. Consumer sibling actualGroundingAsymmetricViaDistinct (distinct premise + irreflexive grounding) is Comparator-checked via d86e618b's config but not registered, because STMT-ACTUAL-GROUNDING-ASYMMETRIC links two WELL_FOUNDEDNESS_AND_ANTI_BRUTE_ROOT senses (c86cc1d1, c57e2682) absent from its Lean type, so any new argument concluding it fails the sense-mixing check. #1590: the unrestricted STMT-ACTUAL-DEPENDENCE-IS-GROUNDING forces self-grounding of every actual concretum under reflexive D (d86e618b); the distinct-relata sibling a8298fbd is proved from it (cc7dd608) with a strengthens relation. Computed frontier: 476 open premises unchanged (339 bare); STMT-SIMPLE-PRIORITY-IS-TRANSITIVE bare -> conclusion of a verified argument from open premises (not established), replaced by bare 09b88101; support alternatives +1 (457 -> 458 against merge base 692dfa9d). Nothing established.",
+  "evidence": [
+    "bf6cb784-1ec1-45c3-a258-7b58c97c4867",
+    "0ccf914c-9ba9-47aa-96d3-53fbf5ebfeca",
+    "1ee45a81-47bb-4f37-a64e-685b6221381a",
+    "938bfd7f-27d5-47ed-b69b-11d8d2bf4584",
+    "a79850a6-0a21-4a4d-afe7-df52e8df0a0d",
+    "d86e618b-56d8-4e5d-9a30-1b4d20bdc82f",
+    "cc7dd608-8551-4045-8bfb-5a7643a9314a"
+  ],
+  "blocker": "Next tests: (a) correct the WELL_FOUNDEDNESS sense links on STMT-ACTUAL-GROUNDING-ASYMMETRIC (and STMT-ACTUAL-GROUNDING-IS-DEPENDENCE) so the consumer sibling can be registered; (b) move the seven consumers of STMT-ACTUAL-DEPENDENCE-IS-GROUNDING that apply it only to distinct relata to the weak sibling a8298fbd, or record strong_version_needed; (c) decide whether DEF-DEPENDS-FOR-BEING's counterpossible semantics keeps the identity law (with the vacuist rival of attempt 1020b663); (d) assess the transitivity premise 09b88101, an OPEN claim about D as defined: the challenge is counterfactual non-transitivity (Lewis), the candidate warrant per se ordered composition (Second Way). Semantic challenge repairs on PR #1612: paraphrases copied into specs/round2-*.toml, doc comment aligned, c57e2682 links dropped from the two new grounding arguments."
+}

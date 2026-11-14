@@ -1,0 +1,14 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.ReflexiveDependenceScope.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ReflexiveDependenceScope.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.ReflexiveDependenceScope.reflexiveDependenceForcesSelfGrounding",
+    "TruthCore.Results.Causality.ReflexiveDependenceScope.actualGroundingAsymmetricViaDistinct"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

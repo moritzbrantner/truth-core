@@ -263,6 +263,7 @@ public import TruthCore.Results.Causality.PureIndiscernibility.Solution
 public import TruthCore.Results.Causality.QuantitativeTransferPaths.Solution
 public import TruthCore.Results.Causality.ReceptionLimitation.Solution
 public import TruthCore.Results.Causality.ReflexiveActualFusionNecessaryBeing.Solution
+public import TruthCore.Results.Causality.ReflexiveDependenceScope.Solution
 public import TruthCore.Results.Causality.RegressAccessibilityExcludesSeries.Solution
 public import TruthCore.Results.Causality.RegressAccessibilityUnboundedDepth.Solution
 public import TruthCore.Results.Causality.RegressReadingsCoincide.Solution

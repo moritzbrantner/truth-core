@@ -1,0 +1,13 @@
+{
+  "id": "315f7a92-178a-40a8-be19-db057722acc1",
+  "label": "Every actual CONCRETE_6 individual grounds itself, from reflexive dependence (inference)",
+  "input_statement_ids": [
+    "56252cd8-955d-40a5-bd81-de4a496d9018",
+    "2e248016-f8bf-5d8a-931e-7f9ebbb13e42"
+  ],
+  "output_statement_id": "8c46530e-770a-49d2-9995-e1583e294508",
+  "rule": "Instantiate the unrestricted bridge at x = c with self-dependence",
+  "meaning": "On the reflexive reading, STMT-ACTUAL-DEPENDENCE-IS-GROUNDING, which has no distinctness condition, makes every actual concretum ground itself; with irreflexive actual grounding (or, through STMT-ACTUAL-GROUNDING-IS-SIMPLE-PRIORITY, with irreflexive simple priority) this is inconsistent as soon as one actual concretum exists (elementary; that last step is not separately certified). So the #1590 route DependsForBeing to grounds to PriorSimply needs either the strict reading of D or the distinct-relata restriction of its first bridge.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

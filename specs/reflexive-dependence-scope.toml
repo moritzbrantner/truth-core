@@ -1,0 +1,148 @@
+# Reflexive existence-requirement versus strict dependence for being (#1593).
+# STMT-DISTINCT-BEINGS-NOT-MUTUALLY-DEPENDENT is silent on D(x,x); the unrestricted
+# STMT-DEPENDENCE-FOR-BEING-ASYMMETRIC excludes it. They conflict only under a
+# reflexive reading of the primitive DependsForBeing, which the bare counterfactual
+# clause of DEF-DEPENDS-FOR-BEING supplies apart from its agent-cause qualification. This batch states reflexivity and
+# transitivity as separate OPEN laws, checks the refutation of unrestricted asymmetry
+# under reflexivity, separates the premises in finite models, derives the priority order
+# laws only under the two OPEN priority bridges, gives the asymmetric-grounding consumer
+# a route that does not need irreflexive D, and shows how the #1590 dependence-to-
+# grounding bridge behaves under reflexive D. Analyst formulations, attribution
+# deferred. No premise is established. Note: docs/notes/distinct-dependence-strict-ground-route.md.
+
+[batch]
+vocab = "TruthCore.Causality.ReflexiveDependenceScope"
+results = "TruthCore.Results.Causality.ReflexiveDependenceScope"
+definitions = ["DEF-DEPENDS-FOR-BEING"]
+disambiguations = ["23dd6f32-b456-4963-adb3-7befbf0dc4fb"]
+
+# ---------------------------------------------------------------- statements
+
+[[statement]]
+id = "Everything depends for its being on itself"
+lean = "DependenceForBeingReflexive"
+paraphrase = "OPEN analyst premise, the non-strict existence-requirement reading of DependsForBeing (DEF-DEPENDS-FOR-BEING): every x depends for its being on itself, that is, x would not be if x were not. On the bare counterfactual clause of DEF-DEPENDS-FOR-BEING, apart from its agent-cause qualification, this is an instance of the counterfactual identity law (if A were the case, A would be the case), which holds in any selection semantics whose selected worlds satisfy the antecedent; the definition read whole, with its strict agent-cause paradigm, does not fix it, and it is not built into the primitive. It is incompatible with STMT-DEPENDENCE-FOR-BEING-ASYMMETRIC on any inhabited domain and compatible with STMT-DISTINCT-BEINGS-NOT-MUTUALLY-DEPENDENT. It is not a claim that anything explains or causes itself."
+definitions = ["DEF-DEPENDS-FOR-BEING"]
+disambiguations = ["23dd6f32-b456-4963-adb3-7befbf0dc4fb"]
+
+[[statement]]
+id = "Whatever depends for its being on what depends on z depends on z"
+lean = "DependenceForBeingTransitive"
+paraphrase = "OPEN analyst premise: if x depends for its being on y and y depends for its being on z, then x depends for its being on z. Stated separately from reflexivity and from nonmutuality, about DependsForBeing as DEF-DEPENDS-FOR-BEING defines it (no closure of the relation is meant). Challenge: counterfactual dependence is not transitive in general (Lewis's logic invalidates counterfactual transitivity, which is why Lewis takes causation as the ancestral of dependence), so the premise fails for D if D is mere counterfactual dependence. Candidate warrant: per se ordered composition, as in the Second Way's 'the first is the cause of the middle and the middle of the last': if x depends for its being on y only as receiving it through y's own dependence on z, x depends on z. Neither is established here."
+definitions = ["DEF-DEPENDS-FOR-BEING"]
+disambiguations = ["23dd6f32-b456-4963-adb3-7befbf0dc4fb"]
+
+[[statement]]
+id = "On an inhabited domain, depending for its being is not always one-way"
+lean = "InhabitedDependenceNotAsymmetric"
+paraphrase = "If there is at least one being, then it is not the case that for all x and y, x depending for its being on y excludes y depending for its being on x. A conditional consequence of reflexivity only: a single self-dependent being is a mutual pair with itself."
+definitions = ["DEF-DEPENDS-FOR-BEING"]
+disambiguations = ["23dd6f32-b456-4963-adb3-7befbf0dc4fb"]
+
+[[statement]]
+id = "Reflexive distinct-nonmutual dependence separates from asymmetric dependence in two finite models"
+lean = "Control.ReflexiveDistinctSeparation"
+paraphrase = "Mathematical controls on the two Booleans true and false. With D x y iff x = y, D is reflexive and nonmutual on distinct beings but not asymmetric. With D x y iff x = y or (x = true and y = false), D is moreover transitive and has a distinct edge (true depends on false), and it is still not asymmetric. Formal interpretations only: they show the two premises differ in meaning on the diagonal, not which beings depend on which."
+definitions = ["DEF-DEPENDS-FOR-BEING"]
+disambiguations = ["23dd6f32-b456-4963-adb3-7befbf0dc4fb"]
+
+[[statement]]
+id = "Dependence order-law controls for the priority bridges"
+lean = "Control.OrderLawControls"
+paraphrase = "Mathematical controls on Fin 3 and Fin 2. (1) A reflexive direct-edge chain (2 depends on 1, 1 depends on 0, but 2 not on 0) satisfies distinct nonmutuality and both priority bridges when simple priority is read as the strict part of D, yet neither D nor that priority is transitive. (2) A reflexive, transitive D with one reciprocal pair violates distinct nonmutuality and has an empty strict part. Formal interpretations only."
+definitions = ["DEF-DEPENDS-FOR-BEING", "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8"]
+disambiguations = ["23dd6f32-b456-4963-adb3-7befbf0dc4fb"]
+
+[[statement]]
+id = "Every actual CONCRETE_6 individual grounds itself at the selected world"
+lean = "EveryActualConcretumGroundsItself"
+paraphrase = "Every actual concrete individual (concrete and existing at w) grounds itself under the selected relation at w. Recorded as the conditional consequence of reflexive dependence for being with the unrestricted dependence-to-grounding bridge; it contradicts the irreflexivity of actual grounding whenever some actual concretum exists."
+definitions = ["a1b2e330-388f-4120-bc5c-969642317792", "008cb21a-256c-5a90-822c-acd4591d699a"]
+disambiguations = ["623ddbf6-9683-5361-bae4-e348a00ec680"]
+
+[[statement]]
+id = "If an actual CONCRETE_6 individual depends for its being on a different one, that one grounds it"
+lean = "ActualDistinctDependenceIsGrounding"
+paraphrase = "OPEN analyst bridge, the distinct-relata restriction of STMT-ACTUAL-DEPENDENCE-IS-GROUNDING: if an actual concretum x depends for its being on an actual concretum c distinct from x, then c grounds x under the selected relation at w. It is silent on D(x,x), so a reflexive reading of DependsForBeing does not turn it into self-grounding. One direction only."
+definitions = ["DEF-DEPENDS-FOR-BEING", "a1b2e330-388f-4120-bc5c-969642317792", "008cb21a-256c-5a90-822c-acd4591d699a"]
+disambiguations = ["23dd6f32-b456-4963-adb3-7befbf0dc4fb", "623ddbf6-9683-5361-bae4-e348a00ec680"]
+
+# ---------------------------------------------------------------- arguments
+
+[[argument]]
+id = "Self-dependence for its being makes depending two-way on an inhabited domain"
+theorem = "reflexiveRefutesAsymmetry"
+premises = ["Everything depends for its being on itself"]
+conclusion = "On an inhabited domain, depending for its being is not always one-way"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Instantiate asymmetry at one being and its own self-dependence"
+meaning = "If D is reflexive, any single being b gives D b b twice over, so the unrestricted asymmetry of STMT-DEPENDENCE-FOR-BEING-ASYMMETRIC fails on every inhabited domain. This makes the reading conflict of #1593 exact: the unrestricted premise is available only on a strict, non-reflexive reading of DependsForBeing. It does not refute STMT-DEPENDENCE-FOR-BEING-ASYMMETRIC outright, since reflexivity is itself an open premise."
+
+[[argument]]
+id = "Finite models separating reflexive distinct-nonmutual dependence from asymmetry"
+theorem = "separationModels"
+premises = []
+conclusion = "Reflexive distinct-nonmutual dependence separates from asymmetric dependence in two finite models"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Decide the two Boolean interpretations"
+meaning = "The identity relation on two beings, and the two-element order in which true depends on false, are reflexive and nonmutual on distinct beings but not asymmetric; the second is also transitive and has a distinct edge. This shows only that STMT-DISTINCT-BEINGS-NOT-MUTUALLY-DEPENDENT and STMT-DEPENDENCE-FOR-BEING-ASYMMETRIC differ in meaning on the diagonal; it is not a metaphysical claim about self-dependence."
+
+[[argument]]
+id = "Simple priority is transitive, from transitive dependence and the priority bridges"
+theorem = "priorityTransitiveFromDependence"
+premises = ["STMT-NONMUTUAL-DEPENDENCE-SUFFICES-FOR-PRIORITY", "STMT-PRIORITY-REQUIRES-NONMUTUAL-DEPENDENCE", "Whatever depends for its being on what depends on z depends on z"]
+conclusion = "STMT-SIMPLE-PRIORITY-IS-TRANSITIVE"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Unpack both priorities by the requirement bridge, compose the dependences by transitivity, exclude the reverse dependence by transitivity, and close by the sufficiency bridge"
+meaning = "If x is SIMPLY_PRIOR_1 to y and y to z, the requirement bridge gives y depending on x, z on y and the two reverse non-dependences; transitivity gives z depending on x, and if x depended on z then x would depend on y, contrary to the first priority; the sufficiency bridge then makes x prior to z. Neither reflexivity nor nonmutuality of D is used. All three premises are about the same D as DEF-DEPENDS-FOR-BEING defines it; no closure or other reading enters. A conditional support option for the bare root-route premise; all three premises remain open, and the order-law controls show transitivity of D cannot be dropped."
+
+[[argument]]
+id = "Simple priority is irreflexive, from the priority-requirement bridge"
+theorem = "priorityIrreflexiveFromRequirement"
+premises = ["STMT-PRIORITY-REQUIRES-NONMUTUAL-DEPENDENCE"]
+conclusion = "08e493f8-68b1-562d-9218-fc3245b2cf1f"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "A self-priority would require both D x x and not D x x"
+meaning = "If whatever is SIMPLY_PRIOR_1 to x is something on which x depends and which does not depend on x, then nothing is simply prior to itself, whatever D x x is. This holds on both the reflexive and the strict reading of DependsForBeing. A conditional support option for the bare root-route irreflexivity premise; the bridge remains open."
+
+[[argument]]
+id = "Every actual CONCRETE_6 individual grounds itself, from reflexive dependence"
+theorem = "reflexiveDependenceForcesSelfGrounding"
+definitions = ["DEF-DEPENDS-FOR-BEING", "a1b2e330-388f-4120-bc5c-969642317792", "008cb21a-256c-5a90-822c-acd4591d699a"]
+comparator_theorems = ["actualGroundingAsymmetricViaDistinct"]
+premises = ["Everything depends for its being on itself", "STMT-ACTUAL-DEPENDENCE-IS-GROUNDING"]
+conclusion = "Every actual CONCRETE_6 individual grounds itself at the selected world"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Instantiate the unrestricted bridge at x = c with self-dependence"
+meaning = "On the reflexive reading, STMT-ACTUAL-DEPENDENCE-IS-GROUNDING, which has no distinctness condition, makes every actual concretum ground itself; with irreflexive actual grounding (or, through STMT-ACTUAL-GROUNDING-IS-SIMPLE-PRIORITY, with irreflexive simple priority) this is inconsistent as soon as one actual concretum exists (elementary; that last step is not separately certified). So the #1590 route DependsForBeing to grounds to PriorSimply needs either the strict reading of D or the distinct-relata restriction of its first bridge."
+
+[[argument]]
+id = "Distinct-relata dependence-to-grounding bridge, from the unrestricted bridge"
+theorem = "distinctDependenceGroundingFromUnrestricted"
+definitions = ["DEF-DEPENDS-FOR-BEING", "a1b2e330-388f-4120-bc5c-969642317792", "008cb21a-256c-5a90-822c-acd4591d699a"]
+premises = ["STMT-ACTUAL-DEPENDENCE-IS-GROUNDING"]
+conclusion = "If an actual CONCRETE_6 individual depends for its being on a different one, that one grounds it"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Drop the distinctness hypothesis"
+meaning = "Strength order: the unrestricted dependence-to-grounding bridge implies its distinct-relata restriction. The weak version is the one the #1590 grounding-priority route can use without committing D to irreflexivity."
+
+[[argument]]
+id = "Order-law controls for dependence and the priority bridges, checked"
+theorem = "orderLawControls"
+premises = []
+conclusion = "Dependence order-law controls for the priority bridges"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Decide the Fin 3 chain and the Fin 2 reciprocal pair"
+meaning = "The direct-edge chain satisfies reflexivity, distinct nonmutuality and both priority bridges, yet D and the priority it induces are not transitive, so the transitivity premise of the priority-transitivity argument cannot be dropped. The reciprocal pair is reflexive and transitive but not distinct-nonmutual, and the bridges then give no priority between its members. Formal interpretations only."
+
+# ---------------------------------------------------------------- relations
+
+[[relation]]
+id = "Unrestricted dependence-to-grounding bridge strengthens its distinct-relata restriction"
+subject_kind = "statement"
+subject_id = "STMT-ACTUAL-DEPENDENCE-IS-GROUNDING"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "If an actual CONCRETE_6 individual depends for its being on a different one, that one grounds it"
+verification_result_id = "Distinct-relata dependence-to-grounding bridge, from the unrestricted bridge"
+note = "Same Profile, world and DependsForBeing; the weak version adds c ≠ x. Under reflexive DependsForBeing only the strong version yields self-grounding. Strictness is not separately certified."
