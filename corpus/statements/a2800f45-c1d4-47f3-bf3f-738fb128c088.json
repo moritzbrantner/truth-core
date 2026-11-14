@@ -1,0 +1,14 @@
+{
+  "id": "a2800f45-c1d4-47f3-bf3f-738fb128c088",
+  "label": "If a thing's quiddity efficiently causes (NATURE_SOURCE_2) its esse, the thing causes its own esse",
+  "paraphrase": "For every x: if x's own form or quiddity efficiently causes x's esse (NATURE_SOURCE_2), then x causes its own esse (CausesIn x x esse). Reading of De ente c.3 [69874]: esse cannot be caused by the form or quiddity of the thing as by an efficient cause, 'quia sic aliqua res esset sui ipsius causa et aliqua res seipsam in esse produceret'. Only this conditional is read; that nothing causes its own being is a separate statement.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.DeEnte.QuiddityCausingEsseIsSelfCausationReading",
+  "definition_ids": [
+    "4d6a0f0e-637a-4f1c-bf86-ac082b139de5",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
+  ],
+  "disambiguation_ids": [
+    "87ac7ae0-4235-4d08-bdf6-bc367251c6bd"
+  ]
+}

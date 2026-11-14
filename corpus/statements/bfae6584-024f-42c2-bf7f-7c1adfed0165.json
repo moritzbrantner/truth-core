@@ -1,0 +1,11 @@
+{
+  "id": "bfae6584-024f-42c2-bf7f-7c1adfed0165",
+  "label": "Another being in act that causes a thing's being is a q.3 a.4 external cause of its esse",
+  "paraphrase": "For every x and c: if c is distinct from x, c is in act as to being, and c causes x's being (CausesIn c x esse, CAUSING_AN_EFFECT_3), then x has an external cause of esse in the q.3 a.4 sense (HasExternalEsseCause, CAUSING_AN_EFFECT_2). It holds by the Lean definition of HasExternalEsseCause and adds only distinctness and actuality: the q.3 a.4 reading of that cause as efficient is carried in prose, not in the type, so this bridge does not make any cause of being efficient. It is recorded so that the passage between the two cause senses is explicit.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.DeEnte.OtherActualCauseOfBeingIsExternalEsseCause",
+  "definition_ids": [
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "196be87e-b944-5924-b791-87406fbe48f6",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
+  ]
+}

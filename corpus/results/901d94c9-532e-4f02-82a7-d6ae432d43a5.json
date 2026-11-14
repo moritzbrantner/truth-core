@@ -1,0 +1,11 @@
+{
+  "id": "901d94c9-532e-4f02-82a7-d6ae432d43a5",
+  "label": "Another actual cause of being is a q.3 a.4 external cause of esse, by definition",
+  "argument_id": "8c92911e-edf3-4538-bbe2-846814d7ceb3",
+  "challenge_module": "TruthCore.Results.Aquinas.DeEnte.ExtrinsicSource.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.DeEnte.ExtrinsicSource.Solution",
+  "theorem": "TruthCore.Results.Aquinas.DeEnte.ExtrinsicSource.otherActualCauseOfBeingIsExternalEsseCause",
+  "comparator_config": "results/901d94c9-532e-4f02-82a7-d6ae432d43a5/comparator.json",
+  "status": "solution-present",
+  "description": "Premise-free: for every q.3 a.4 profile, a distinct being in act as to being that causes x's being (CAUSING_AN_EFFECT_3) witnesses x's external cause of esse (CAUSING_AN_EFFECT_2). This holds by the Lean definition of HasExternalEsseCause and adds only distinctness and actuality; it does not make any cause of being efficient, since that reading of the q.3 a.4 sense is carried in prose, not in the type. Recorded as the explicit sense bridge."
+}

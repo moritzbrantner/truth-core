@@ -1,0 +1,14 @@
+{
+  "id": "85857e47-c498-41f6-83e2-6b37f0257e2c",
+  "label": "Aquinas, De ente Cap.3: nothing produces itself in being",
+  "statement_id": "b62a64ab-ac11-569a-b8e8-de51a74b058f",
+  "source_id": "004fd39d-a45d-5624-b927-053cb0fd0fc9",
+  "locator": "cap.3 [69874]: sic aliqua res esset sui ipsius causa et aliqua res seipsam in esse produceret, quod est impossibile",
+  "interpretation": "Baur/Koch c.3 (Leonine c.4). That some thing should produce itself in being is impossible. Read as: nothing causes its own esse (no x with CausesIn x x esse). 'Produce itself in being' is read as the thing's causing its own act of being in the cause-of-being sense of DEF-CAUSE-OF-PERFECTION; no temporal origin, conservation, or exclusion of every intrinsic explanation is read into it. Scope: the impossibility is asserted of both 'esset sui ipsius causa' and 'seipsam in esse produceret' under the efficient supposition of the sentence ('dico sicut a causa efficiente'). The generic reading (no cause of its own being, in whatever mode CausesIn takes) rests on 'sui ipsius causa'; if the impossibility is read only of efficient self-production, the statement's generic scope is an analyst extension. The De ente route uses it only against a thing that efficiently causes its own esse or that is a cause of its own esse.",
+  "attribution": "The passage states that it is impossible for something to be the cause of itself and produce itself in being, which is the premise (read for the cause of its own being).",
+  "status": "formalized",
+  "definition_ids": [
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
+  ]
+}

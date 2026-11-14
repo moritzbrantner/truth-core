@@ -1,0 +1,11 @@
+{
+  "id": "4d6a0f0e-637a-4f1c-bf86-ac082b139de5",
+  "label": "NATURE_SOURCE_2: x's own form or quiddity is an efficient cause of x's having r",
+  "term": "efficient causation by a thing's own quiddity (quiddityEfficientlyCauses x r)",
+  "definition": "NatureSource.quiddityEfficientlyCauses x r: x's own form or quiddity is an efficient cause of x's having r ('causatum ab ipsa forma vel quiditate rei (dico sicut a causa efficiente)', De ente c.3 [69874]). Efficient means a source from which the having of r proceeds as from an agent, as the q.77 a.6 reading of a subject that actively causes its proper accidents; a merely formal principle by which x has r is excluded. Whether such causing is the thing's own causing (CausesIn x x r) is the separate source reading QuiddityCausingEsseIsSelfCausationReading, not part of this definition. In Lean it is a primitive field.",
+  "basis": "sourced",
+  "claim_ids": [
+    "ce55e563-a4c9-4999-b463-b8e23004dfdd"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.DeEnte.NatureSource.quiddityEfficientlyCauses"
+}

@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Aquinas.DeEnte.ExtrinsicSource.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.DeEnte.ExtrinsicSource.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Aquinas.DeEnte.ExtrinsicSource.distinctEsseExhaustionFromDeEnte"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

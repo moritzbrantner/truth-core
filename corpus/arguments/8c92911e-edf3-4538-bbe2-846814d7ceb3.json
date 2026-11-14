@@ -1,0 +1,27 @@
+{
+  "id": "8c92911e-edf3-4538-bbe2-846814d7ceb3",
+  "label": "Another actual cause of being is a q.3 a.4 external cause of esse, by definition",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "bfae6584-024f-42c2-bf7f-7c1adfed0165",
+  "inference_ids": [
+    "daf0f56b-7141-4610-851a-f13710116df2"
+  ],
+  "meaning": "Premise-free: for every q.3 a.4 profile, a distinct being in act as to being that causes x's being (CAUSING_AN_EFFECT_3) witnesses x's external cause of esse (CAUSING_AN_EFFECT_2). This holds by the Lean definition of HasExternalEsseCause and adds only distinctness and actuality; it does not make any cause of being efficient, since that reading of the q.3 a.4 sense is carried in prose, not in the type. Recorded as the explicit sense bridge.",
+  "definition_ids": [
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "196be87e-b944-5924-b791-87406fbe48f6"
+  ],
+  "sense_bridges": [
+    {
+      "term": "CAUSING_AN_EFFECT",
+      "from": "39f64183-5038-4348-ad9f-5b64674f65f8",
+      "to": "0d3718b1-217b-4a2b-b544-cdf27127db4b",
+      "statement_id": "bfae6584-024f-42c2-bf7f-7c1adfed0165",
+      "role": "conclusion"
+    }
+  ],
+  "disambiguation_ids": [
+    "c3c01e92-520e-5358-a58f-0cc7e9c9e6fa"
+  ]
+}

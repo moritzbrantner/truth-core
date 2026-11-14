@@ -1,0 +1,11 @@
+{
+  "id": "b5ca3837-c09d-4fa0-8fe7-95ca1a2559ff",
+  "label": "NATURE_SOURCE_1: x's having r is caused from the principles of x's own nature, mode unspecified",
+  "term": "caused from the principles of a thing's nature (fromNature x r)",
+  "definition": "NatureSource.fromNature x r: x's having r is caused from the principles of x's own nature, as risibility in man (De ente c.3 [69874], Baur/Koch numbering; Leonine c.4). The mode of causation is left unspecified, because the sentence does not restrict it: it would cover an essence as active principle of its proper accidents, and, on the standard Thomist gloss (the analyst's, not this sentence's), a form as a formal, non-efficient principle of being; the qualifier 'dico sicut a causa efficiente' in the next sentence suggests that non-efficient causation of esse is in view. It is not the thing's own CausesIn self-edge, and it does not exclude that something else also contributes. In Lean it is a primitive field constrained only by the premises that use it.",
+  "basis": "sourced",
+  "claim_ids": [
+    "676bdaeb-d699-49ee-968b-0cd2a123927c"
+  ],
+  "lean_declaration": "TruthCore.Latin.Aquinas.DeEnte.NatureSource.fromNature"
+}

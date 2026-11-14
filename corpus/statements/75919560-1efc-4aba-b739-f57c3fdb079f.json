@@ -1,0 +1,13 @@
+{
+  "id": "75919560-1efc-4aba-b739-f57c3fdb079f",
+  "label": "Whatever belongs to a thing is from its nature (NATURE_SOURCE_1) or from another",
+  "paraphrase": "For every x and every respect r that x actually has (InAct x r), x's having r is caused from the principles of x's own nature in some unspecified mode (NATURE_SOURCE_1), or some being c other than x causes x's having r (CausesIn c x r, c distinct from x). Reading of De ente c.3 [69874] (Baur/Koch numbering; Leonine c.4), 'omne quod convenit alicui vel est causatum ex principiis naturae suae ... vel advenit ab aliquo principio extrinseco'. 'Extrinsic' is read only as distinctness from x, not as non-constituency, and the extrinsic principle is encoded as a being; the disjunction is not exclusive and says nothing about time, conservation or modality.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.DeEnte.NatureOrExtrinsicSourceReading",
+  "definition_ids": [
+    "b5ca3837-c09d-4fa0-8fe7-95ca1a2559ff",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24"
+  ],
+  "disambiguation_ids": [
+    "87ac7ae0-4235-4d08-bdf6-bc367251c6bd"
+  ]
+}

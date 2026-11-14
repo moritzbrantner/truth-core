@@ -1,0 +1,13 @@
+{
+  "id": "9e1cfc78-6da6-455f-9fe8-c0abb44bd4d7",
+  "label": "Distinct esse is from its quiddity or another, from De ente's disjunction and bridge (inference)",
+  "input_statement_ids": [
+    "75919560-1efc-4aba-b739-f57c3fdb079f",
+    "600f91cb-ac5e-4283-b078-26b941fe2211"
+  ],
+  "output_statement_id": "8592601e-a5ea-4924-ac9f-095cd0050a71",
+  "rule": "Instantiate the literal disjunction at esse for an actual distinct-esse x; the nature horn passes through the efficiency bridge, the other horn is kept",
+  "meaning": "Conditional derivation of the weak exhaustiveness from the literal De ente disjunction (NATURE_SOURCE_1, every respect) and the OPEN efficiency sense bridge, for the same profile and nature-source vocabulary. The disjunction alone does not give it: in FormalNatureControl the disjunction holds and the weak exhaustiveness fails, because the two nature senses are independent primitives. The source states the disjunction; the bridge is the analyst's.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

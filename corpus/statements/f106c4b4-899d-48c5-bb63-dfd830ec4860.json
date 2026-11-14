@@ -1,0 +1,17 @@
+{
+  "id": "f106c4b4-899d-48c5-bb63-dfd830ec4860",
+  "label": "De ente extrinsic-source controls: five premise omissions and one nonvacuity case",
+  "paraphrase": "Closed finite controls on interpretations over Bool (two beings, two principles, one respect), in each of which false actually exists with esse distinct from its essence. (1) Brute esse: nothing causes anything and nothing is from its nature; the literal De ente disjunction, the weak exhaustiveness, some-cause and the external-cause conclusion fail while the self-causation reading, no-self-causation, actuality of causes of being and the efficiency bridge hold. (2) Formal nature: false's esse is from its nature (NATURE_SOURCE_1) but not efficiently caused by its quiddity, and nothing causes anything; the literal disjunction, self-causation reading, no-self-causation and actuality of causes of being hold, while the efficiency bridge, weak exhaustiveness, some-cause and conclusion fail. 'Formal' is a label: fromNature is an unconstrained primitive, so this shows that the two nature senses are independent, not a model of formal causation. (3) Self-cause: false causes its own esse; only no-self-causation fails among the inputs, and the conclusion fails. (4) Unrealized quiddity: false's quiddity efficiently causes its esse without false causing it; the self-causation reading and some-cause fail, and the conclusion fails. (5) Nonactual cause: true, not in act, causes false's esse; only actuality of causes of being fails, and the conclusion fails. (6) Nonvacuity: every input holds and true, in act, causes false's esse. Statements about these interpretations only: they show which premises the conclusion needs, not that brute or formally sourced esse is possible or plausible.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.DeEnte.ExtrinsicSourceControls",
+  "definition_ids": [
+    "b5ca3837-c09d-4fa0-8fe7-95ca1a2559ff",
+    "4d6a0f0e-637a-4f1c-bf86-ac082b139de5",
+    "0ea9feb8-1f92-5b11-aa74-2f2e567c6106",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "196be87e-b944-5924-b791-87406fbe48f6",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
+  ],
+  "disambiguation_ids": [
+    "87ac7ae0-4235-4d08-bdf6-bc367251c6bd"
+  ]
+}

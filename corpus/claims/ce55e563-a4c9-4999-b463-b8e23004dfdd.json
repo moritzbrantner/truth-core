@@ -1,0 +1,18 @@
+{
+  "id": "ce55e563-a4c9-4999-b463-b8e23004dfdd",
+  "label": "Aquinas, De ente Cap.3: a quiddity efficiently causing esse would make the thing cause itself",
+  "statement_id": "a2800f45-c1d4-47f3-bf3f-738fb128c088",
+  "source_id": "004fd39d-a45d-5624-b927-053cb0fd0fc9",
+  "locator": "cap.3 [69874]: Non autem potest esse quod ipsum esse sit causatum ab ipsa forma vel quiditate rei (dico sicut a causa efficiente) quia sic aliqua res esset sui ipsius causa et aliqua res seipsam in esse produceret",
+  "interpretation": "Baur/Koch c.3 (Leonine c.4). Esse cannot be caused by the very form or quiddity of the thing, as by an efficient cause, because then some thing would be its own cause and would produce itself in being. Read as the conditional that the reason gives: if a thing's own quiddity efficiently causes its esse (NATURE_SOURCE_2), the thing causes its own esse (CausesIn x x esse, 'seipsam in esse produceret'). The identification of the quiddity's causing with the thing's causing is the passage's ('sic aliqua res esset sui ipsius causa'). The impossibility of self-production ('quod est impossibile') is the separate claim on STMT-NOTHING-CAUSES-ITS-OWN-BEING. Only efficient causation is rejected; the passage does not reject the form as a formal principle of being.",
+  "attribution": "The passage states that if esse were caused by the thing's form or quiddity as by an efficient cause, the thing would be its own cause and produce itself in being, which is the premise.",
+  "status": "formalized",
+  "definition_ids": [
+    "4d6a0f0e-637a-4f1c-bf86-ac082b139de5",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
+  ],
+  "disambiguation_ids": [
+    "87ac7ae0-4235-4d08-bdf6-bc367251c6bd"
+  ]
+}
