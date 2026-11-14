@@ -1,0 +1,25 @@
+{
+  "id": "51d3de27-d977-4589-926f-4fd1c79740ed",
+  "label": "Enoch third-factor reply quantified: union bound, binary sharpness and hard-case concentration",
+  "statement_ids": [
+    "69c528d9-b09e-583c-9dd2-2ee92fa2879f",
+    "8345891e-aa3b-5cf7-8b41-cdcc61f4c0f7",
+    "632b7f3e-fcc6-4ed2-8a97-63e231830cae",
+    "87612a89-9b08-4b2e-afe8-000f408794a3",
+    "ca15806f-6ee1-496f-a8fe-a22a0a15ca8c",
+    "9003f7d4-64e0-4154-a4e7-919c032b9148",
+    "c8c4b5ba-141e-4672-93c2-43ab5c6b60a7",
+    "cc7b9a25-6ac9-4bb9-9056-28e91ee5c84b"
+  ],
+  "date": "2026-11-14",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Issue #1586, analyst formulation with attribution deferred; no new source reading (Enoch 2010 §§5.1-5.3 and Street 2006 used only through the existing #651 claims). Reuse check: truth related on 69c528d9 found the #651 access comparison and hard-case controls, no prior quantitative result; #1585 Darwinian horns reused as context, #1063/#1584 Mathlib probability vocabulary reused (uniformOn, cond), #1584 product profile not needed since no independence is assumed. Certified: (1) on one common distribution, selection error mu{B!=F}<=e1 and factor/truth gap mu{F!=M}<=e2 give mu{B!=M}<=e1+e2 and agreement >=1-(e1+e2) for a probability measure, verdicts of any type, no independence (error-set inclusion plus subadditivity); (2) sharpness: for binary verdicts {B!=M} is the symmetric difference of the two error sets, so mu{B!=M}+2mu(both)=e1'+e2' for the actual rates, attained iff the overlap is null; coinciding binary errors cancel; (3) a subclass gap is bounded only by the aggregate gap divided by the subclass weight; (4) four-case models: sharp 1/4+1/4 -> 1/2, cancelling 1/4,1/4 -> 1, and B=F with a 1/4 gap on the impartial hard case giving aggregate agreement 3/4 (attained) but 0 on the hard case. Semantic finding: Enoch's qualified pro tanto goodness of survival supports at most the one-way inclusion F -> pro tanto reason, so it bounds neither direction of the all-things-considered gap nor the reverse direction of the pro tanto gap; on impartial conflict cases (fitness-favoured option rejected by the realist's own impartial verdict) F and M diverge by the definition of the case class. Provisional judgment: the third factor gives a coherent quantified correlation for adaptive/self-regarding pro tanto targets; for impartial hard cases accuracy must come from the reasoning-from-starting-points mechanism Enoch adds (§5.1), whose reliability is a separate quantity not bounded by e1 or e2. Enoch's reply is not refuted: he claims only a modest correlation. Rejected: treating the aggregate bound as a per-case or per-subclass guarantee; deriving any value of e1 or e2 from the pro tanto premise; a chain bound through B and F as support for reflective hard-case verdicts. #1500 not linked: its premises concern kind/authority of reasons, not error rates. Informs #1506; no root premise change. Note docs/notes/third-factor-tracking-1586.md.",
+  "evidence": [
+    "ba953e0a-9a32-42ac-91f8-04f96512d925",
+    "a497a902-af1c-4606-8e2b-ade61a88ed00",
+    "04c23075-f8d1-4754-94e1-76ba39355e62",
+    "37bee36b-6b6f-45f9-a805-ccab0811f02a"
+  ],
+  "blocker": "Empirical calibration of e1 and normative/empirical calibration of e2 per verdict type are open; the weight of impartial conflict cases in a realistic distribution and the reliability of reflective reasoning on them are open; graded (non-binary) verdicts, where errors need not cancel, are not covered."
+}

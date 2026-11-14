@@ -1,0 +1,9 @@
+{
+  "id": "d4c61290-6c30-4fc3-97db-966bae5802c5",
+  "label": "Error set of two verdict assignments on one common case distribution",
+  "term": "error set on a common case distribution",
+  "definition": "Fix one measure μ on a space Ω of cases and two assignments X, Y from cases to verdict values of one type. disagree X Y is the set of cases where X and Y give different values; its μ-measure is the error rate of X against Y on that distribution, and agree X Y is its complement. Every rate compared in one inequality is taken on the same μ; a rate on another distribution (another population, environment or range of cases) is a different quantity.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.ThirdFactorTracking.disagree",
+  "note": "Analyst vocabulary for #1586, attribution deferred. It assumes nothing about independence between error sets. Verdicts may be binary or of any type; binary verdicts are where two errors can cancel (BinaryErrorAccounting). See docs/notes/third-factor-tracking-1586.md."
+}

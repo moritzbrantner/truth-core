@@ -1,0 +1,10 @@
+{
+  "id": "cc7b9a25-6ac9-4bb9-9056-28e91ee5c84b",
+  "label": "Four-case models: sharp union bound, cancelling errors, and a gap concentrated on the hard case",
+  "paraphrase": "In four equally weighted stipulated cases: (1) a selection error 1/4 and a factor/truth gap 1/4 on different cases give agreement exactly 1/2, attaining the union bound; (2) the same two rates on the same case give agreement 1; (3) with the judgment equal to the factor (selection error 0) and a gap of 1/4 located in the one impartial hard case, aggregate agreement is 3/4, attaining the bound, while agreement conditioned on the hard case is 0 and on the three adaptive cases 1; the gap conditioned on the hard case is 1, equal to the aggregate gap divided by the hard-case weight. The verdicts are stipulations, not claims about actual moral truths or actual frequencies.",
+  "lean_declaration": "TruthCore.Logic.ThirdFactorTracking.ThirdFactorModels",
+  "definition_ids": [
+    "d4c61290-6c30-4fc3-97db-966bae5802c5",
+    "40a94f44-75f6-48f2-b878-68ea03dcc809"
+  ]
+}

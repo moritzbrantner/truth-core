@@ -1,0 +1,11 @@
+{
+  "id": "37bee36b-6b6f-45f9-a805-ccab0811f02a",
+  "label": "Four-case sharpness, cancellation and hard-case concentration models",
+  "argument_id": "4760847a-c00d-4a29-b176-eac796847a13",
+  "challenge_module": "TruthCore.Results.Logic.ThirdFactorTracking.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ThirdFactorTracking.Solution",
+  "theorem": "TruthCore.Results.Logic.ThirdFactorTracking.thirdFactorModels",
+  "comparator_config": "results/37bee36b-6b6f-45f9-a805-ccab0811f02a/comparator.json",
+  "status": "solution-present",
+  "description": "Nonvacuity and sharpness witnesses for the union bound, a control showing that overlapping binary errors leave the bound unattained, and a hard-case model in which the aggregate guarantee holds and is attained while the judgment fails on every impartial hard case. The model shows only that the aggregate bound is compatible with total failure on a light subclass; it does not show that actual selected-for judgments fail on hard cases."
+}

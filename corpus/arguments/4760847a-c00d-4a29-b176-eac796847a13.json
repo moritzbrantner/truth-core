@@ -1,0 +1,14 @@
+{
+  "id": "4760847a-c00d-4a29-b176-eac796847a13",
+  "label": "Four-case sharpness, cancellation and hard-case concentration models",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "cc7b9a25-6ac9-4bb9-9056-28e91ee5c84b",
+  "inference_ids": [
+    "aa6946a7-a23b-4161-bc64-f100fad3b702"
+  ],
+  "meaning": "Nonvacuity and sharpness witnesses for the union bound, a control showing that overlapping binary errors leave the bound unattained, and a hard-case model in which the aggregate guarantee holds and is attained while the judgment fails on every impartial hard case. The model shows only that the aggregate bound is compatible with total failure on a light subclass; it does not show that actual selected-for judgments fail on hard cases.",
+  "definition_ids": [
+    "40a94f44-75f6-48f2-b878-68ea03dcc809",
+    "d4c61290-6c30-4fc3-97db-966bae5802c5"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "40a94f44-75f6-48f2-b878-68ea03dcc809",
+  "label": "Factor/truth gap of a selected-for goods factor against one verdict type",
+  "term": "factor/truth gap",
+  "definition": "F assigns to each case whether the act or attitude promotes the survival or reproductive goods that selection responded to, specified independently of the judgment B and of the normative truth M. M assigns the normative verdict on the same act under one fixed verdict type: pro tanto reason, all-things-considered rightness, or impartial obligation. The factor/truth gap is the μ-measure of the cases where F and M differ. Its size depends on the verdict type and on the case distribution. That survival is pro tanto good makes F evidence of a pro tanto reason; by itself it puts no bound on the gap for all-things-considered or impartial verdicts, since a pro tanto reason can be outweighed or absent from an impartial standard.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.ThirdFactorTracking.FactorTruthGapAtMost",
+  "note": "Analyst reading of the third factor in DEF-ENOCH-THIRD-FACTOR-ACCESS for #1586, attribution deferred. Enoch's claim record (ENOCH-THIRD-FACTOR-ACCESS-REPLY, §§5.1–5.3) gives no rate; any value of the gap is an OPEN normative and empirical input. Comparing F with M is truth-relevant only because M is the verdict B purports to report; a gap stated for one verdict type does not transfer to another. See docs/notes/third-factor-tracking-1586.md."
+}

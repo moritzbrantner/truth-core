@@ -1,0 +1,9 @@
+{
+  "id": "9003f7d4-64e0-4154-a4e7-919c032b9148",
+  "label": "Binary verdict errors cancel: judgment/truth error is the two error rates minus twice their overlap",
+  "paraphrase": "For every measure on cases and binary B, F, M with measurable error sets: the judgment/truth error set is the symmetric difference of the selection error set and the factor/truth gap set; its measure plus twice the measure of their overlap equals the sum of the two error measures; for a finite measure, the judgment/truth error equals that sum exactly when the overlap is null. So the union bound is attained by the actual error rates exactly when the two errors (almost surely) never fall on the same case, and coinciding binary errors cancel.",
+  "lean_declaration": "TruthCore.Logic.ThirdFactorTracking.BinaryErrorAccounting",
+  "definition_ids": [
+    "d4c61290-6c30-4fc3-97db-966bae5802c5"
+  ]
+}

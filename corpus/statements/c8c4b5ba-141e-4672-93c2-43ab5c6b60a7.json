@@ -1,0 +1,10 @@
+{
+  "id": "c8c4b5ba-141e-4672-93c2-43ab5c6b60a7",
+  "label": "A subclass factor/truth gap is at most the aggregate gap divided by the subclass weight",
+  "paraphrase": "For every measure on cases, verdicts of any type and measurable class S of cases, the factor/truth gap conditioned on S is at most the aggregate gap divided by the measure of S. An aggregate bound e2 therefore bounds the gap within a class of weight w only by e2/w, which exceeds e2 whenever w < 1 and gives no information once w ≤ e2.",
+  "lean_declaration": "TruthCore.Logic.ThirdFactorTracking.SubclassGapBound",
+  "definition_ids": [
+    "d4c61290-6c30-4fc3-97db-966bae5802c5",
+    "40a94f44-75f6-48f2-b878-68ea03dcc809"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "87612a89-9b08-4b2e-afe8-000f408794a3",
+  "label": "The third factor differs from the matching normative truth in at most an e2 share of cases",
+  "paraphrase": "OPEN analyst premise for #1586, attribution deferred. On the same distribution, the survival/goods factor F differs from the normative truth M about the same acts, under one fixed verdict type, in a set of cases of measure at most e2. This is the quantity Enoch's third-factor reply needs to be small. His premise that survival is pro tanto good does not bound it for all-things-considered or impartial verdicts; no value of e2 is supplied, and its normative and empirical calibration is open.",
+  "lean_declaration": "TruthCore.Logic.ThirdFactorTracking.FactorTruthGapAtMost",
+  "definition_ids": [
+    "d4c61290-6c30-4fc3-97db-966bae5802c5",
+    "40a94f44-75f6-48f2-b878-68ea03dcc809",
+    "daa6a2fe-5251-56b4-b808-cc21ce759a03"
+  ],
+  "disambiguation_ids": [
+    "1ea78c11-3346-5546-8da6-d1e1afb89834"
+  ]
+}

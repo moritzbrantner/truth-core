@@ -1,0 +1,11 @@
+{
+  "id": "a497a902-af1c-4606-8e2b-ade61a88ed00",
+  "label": "Exact binary error accounting for the third-factor chain",
+  "argument_id": "d31eb416-9fe0-47aa-b43d-c7f6bbd26b86",
+  "challenge_module": "TruthCore.Results.Logic.ThirdFactorTracking.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ThirdFactorTracking.Solution",
+  "theorem": "TruthCore.Results.Logic.ThirdFactorTracking.binaryErrorAccounting",
+  "comparator_config": "results/a497a902-af1c-4606-8e2b-ade61a88ed00/comparator.json",
+  "status": "solution-present",
+  "description": "Sharpness of the union bound for binary verdicts: the bound e1 + e2 is attained by the actual rates exactly when the error sets are almost surely disjoint, and any overlap lowers the judgment/truth error by twice its measure. For non-binary verdicts two errors need not cancel; this theorem does not cover them."
+}

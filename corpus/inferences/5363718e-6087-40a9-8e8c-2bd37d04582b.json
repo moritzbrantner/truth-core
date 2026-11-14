@@ -1,0 +1,13 @@
+{
+  "id": "5363718e-6087-40a9-8e8c-2bd37d04582b",
+  "label": "Third-factor union bound without independence (inference)",
+  "input_statement_ids": [
+    "632b7f3e-fcc6-4ed2-8a97-63e231830cae",
+    "87612a89-9b08-4b2e-afe8-000f408794a3"
+  ],
+  "output_statement_id": "ca15806f-6ee1-496f-a8fe-a22a0a15ca8c",
+  "rule": "Error-set inclusion {B ≠ M} ⊆ {B ≠ F} ∪ {F ≠ M}, measure subadditivity, and complement in a probability measure",
+  "meaning": "For any measure on cases and verdicts of any type, a selection error at most e1 and a factor/truth gap at most e2 on the same distribution give a judgment/truth error at most e1 + e2, hence agreement at least 1 − e1 − e2 for a probability measure. No independence between the two errors is assumed. Analyst quantification of the correlation Enoch's third-factor reply proposes to explain; both rates are open inputs, and nothing is derived about their values, any single case, another distribution or another verdict type.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

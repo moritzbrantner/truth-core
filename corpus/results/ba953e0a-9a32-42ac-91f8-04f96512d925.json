@@ -1,0 +1,11 @@
+{
+  "id": "ba953e0a-9a32-42ac-91f8-04f96512d925",
+  "label": "Third-factor union bound without independence",
+  "argument_id": "ee49e256-0a73-4ad6-b101-6034436789dc",
+  "challenge_module": "TruthCore.Results.Logic.ThirdFactorTracking.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ThirdFactorTracking.Solution",
+  "theorem": "TruthCore.Results.Logic.ThirdFactorTracking.thirdFactorUnionBound",
+  "comparator_config": "results/ba953e0a-9a32-42ac-91f8-04f96512d925/comparator.json",
+  "status": "solution-present",
+  "description": "For any measure on cases and verdicts of any type, a selection error at most e1 and a factor/truth gap at most e2 on the same distribution give a judgment/truth error at most e1 + e2, hence agreement at least 1 − e1 − e2 for a probability measure. No independence between the two errors is assumed. Analyst quantification of the correlation Enoch's third-factor reply proposes to explain; both rates are open inputs, and nothing is derived about their values, any single case, another distribution or another verdict type."
+}
