@@ -1,0 +1,13 @@
+{
+  "id": "8c46530e-770a-49d2-9995-e1583e294508",
+  "label": "Every actual CONCRETE_6 individual grounds itself at the selected world",
+  "paraphrase": "Every actual concrete individual (concrete and existing at w) grounds itself under the selected relation at w. Recorded as the conditional consequence of reflexive dependence for being with the unrestricted dependence-to-grounding bridge; it contradicts the irreflexivity of actual grounding whenever some actual concretum exists.",
+  "lean_declaration": "TruthCore.Causality.ReflexiveDependenceScope.EveryActualConcretumGroundsItself",
+  "definition_ids": [
+    "a1b2e330-388f-4120-bc5c-969642317792",
+    "008cb21a-256c-5a90-822c-acd4591d699a"
+  ],
+  "disambiguation_ids": [
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
+  ]
+}

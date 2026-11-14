@@ -1,0 +1,14 @@
+{
+  "id": "47734976-c5fc-4a1b-8210-f0734f16c5ba",
+  "label": "Simple priority is transitive, from transitive dependence and the priority bridges (inference)",
+  "input_statement_ids": [
+    "bf93f259-29b4-53df-ae5b-ac7f522ea33d",
+    "47aff057-35ef-5418-930b-fef72e1104d2",
+    "09b88101-5ee4-44f1-b9e0-57117ce6f70e"
+  ],
+  "output_statement_id": "7ad36aca-d55e-5b66-92fa-30749333df4f",
+  "rule": "Unpack both priorities by the requirement bridge, compose the dependences by transitivity, exclude the reverse dependence by transitivity, and close by the sufficiency bridge",
+  "meaning": "If x is SIMPLY_PRIOR_1 to y and y to z, the requirement bridge gives y depending on x, z on y and the two reverse non-dependences; transitivity gives z depending on x, and if x depended on z then x would depend on y, contrary to the first priority; the sufficiency bridge then makes x prior to z. Neither reflexivity nor nonmutuality of D is used. A conditional support option for the bare root-route premise; all three premises remain open, and the order-law controls show transitivity of D cannot be dropped.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

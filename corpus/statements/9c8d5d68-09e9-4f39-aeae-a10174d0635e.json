@@ -1,0 +1,12 @@
+{
+  "id": "9c8d5d68-09e9-4f39-aeae-a10174d0635e",
+  "label": "Reflexive distinct-nonmutual dependence separates from asymmetric dependence in two finite models",
+  "paraphrase": "Mathematical controls on the two Booleans true and false. With D x y iff x = y, D is reflexive and nonmutual on distinct beings but not asymmetric. With D x y iff x = y or (x = true and y = false), D is moreover transitive and has a distinct edge (true depends on false), and it is still not asymmetric. Formal interpretations only: they show the two premises differ in meaning on the diagonal, not which beings depend on which.",
+  "lean_declaration": "TruthCore.Causality.ReflexiveDependenceScope.Control.ReflexiveDistinctSeparation",
+  "definition_ids": [
+    "bf26b9b2-41ed-55b0-9557-dae90ab9b81f"
+  ],
+  "disambiguation_ids": [
+    "23dd6f32-b456-4963-adb3-7befbf0dc4fb"
+  ]
+}

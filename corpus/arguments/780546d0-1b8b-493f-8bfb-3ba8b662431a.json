@@ -1,0 +1,18 @@
+{
+  "id": "780546d0-1b8b-493f-8bfb-3ba8b662431a",
+  "label": "Self-dependence for its being makes depending two-way on an inhabited domain",
+  "premise_statement_ids": [
+    "56252cd8-955d-40a5-bd81-de4a496d9018"
+  ],
+  "conclusion_statement_id": "45d8e959-66cb-4c05-871c-a703bb112705",
+  "inference_ids": [
+    "875be538-3eef-4282-a142-df544aa1dd4a"
+  ],
+  "meaning": "If D is reflexive, any single being b gives D b b twice over, so the unrestricted asymmetry of STMT-DEPENDENCE-FOR-BEING-ASYMMETRIC fails on every inhabited domain. This makes the reading conflict of #1593 exact: the unrestricted premise is available only on a strict, non-reflexive reading of DependsForBeing. It does not refute STMT-DEPENDENCE-FOR-BEING-ASYMMETRIC outright, since reflexivity is itself an open premise.",
+  "definition_ids": [
+    "bf26b9b2-41ed-55b0-9557-dae90ab9b81f"
+  ],
+  "disambiguation_ids": [
+    "23dd6f32-b456-4963-adb3-7befbf0dc4fb"
+  ]
+}

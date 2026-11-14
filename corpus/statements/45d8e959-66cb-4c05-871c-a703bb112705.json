@@ -1,0 +1,12 @@
+{
+  "id": "45d8e959-66cb-4c05-871c-a703bb112705",
+  "label": "On an inhabited domain, depending for its being is not always one-way",
+  "paraphrase": "If there is at least one being, then it is not the case that for all x and y, x depending for its being on y excludes y depending for its being on x. A conditional consequence of reflexivity only: a single self-dependent being is a mutual pair with itself.",
+  "lean_declaration": "TruthCore.Causality.ReflexiveDependenceScope.InhabitedDependenceNotAsymmetric",
+  "definition_ids": [
+    "bf26b9b2-41ed-55b0-9557-dae90ab9b81f"
+  ],
+  "disambiguation_ids": [
+    "23dd6f32-b456-4963-adb3-7befbf0dc4fb"
+  ]
+}

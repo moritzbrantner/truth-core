@@ -1,0 +1,11 @@
+{
+  "id": "bf6cb784-1ec1-45c3-a258-7b58c97c4867",
+  "label": "Self-dependence for its being makes depending two-way on an inhabited domain",
+  "argument_id": "780546d0-1b8b-493f-8bfb-3ba8b662431a",
+  "challenge_module": "TruthCore.Results.Causality.ReflexiveDependenceScope.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ReflexiveDependenceScope.Solution",
+  "theorem": "TruthCore.Results.Causality.ReflexiveDependenceScope.reflexiveRefutesAsymmetry",
+  "comparator_config": "results/bf6cb784-1ec1-45c3-a258-7b58c97c4867/comparator.json",
+  "status": "solution-present",
+  "description": "If D is reflexive, any single being b gives D b b twice over, so the unrestricted asymmetry of STMT-DEPENDENCE-FOR-BEING-ASYMMETRIC fails on every inhabited domain. This makes the reading conflict of #1593 exact: the unrestricted premise is available only on a strict, non-reflexive reading of DependsForBeing. It does not refute STMT-DEPENDENCE-FOR-BEING-ASYMMETRIC outright, since reflexivity is itself an open premise."
+}

@@ -2,7 +2,7 @@
   "id": "da8e6b60-4dab-5858-9c8d-f6e84c821970",
   "label": "If x depends for its being on y, y does not depend for its being on x",
   "legacy_id": "STMT-DEPENDENCE-FOR-BEING-ASYMMETRIC",
-  "paraphrase": "OPEN analyst premise: if x depends for its being on y, y does not depend for its being on x (hence nothing depends on itself). Mutual counterfactual dependence would falsify it.",
+  "paraphrase": "OPEN analyst premise: if x depends for its being on y, y does not depend for its being on x (hence nothing depends on itself). Mutual counterfactual dependence would falsify it. It therefore presupposes a strict, non-reflexive reading of DependsForBeing: if everything depends for its being on itself, as the literal counterfactual reading gives, it fails on any domain with one being (#1593). Its distinct-pair part is STMT-DISTINCT-BEINGS-NOT-MUTUALLY-DEPENDENT.",
   "lean_declaration": "TruthCore.Causality.Round2Grounding.DependenceForBeingAsymmetric",
   "definition_ids": [
     "bf26b9b2-41ed-55b0-9557-dae90ab9b81f"

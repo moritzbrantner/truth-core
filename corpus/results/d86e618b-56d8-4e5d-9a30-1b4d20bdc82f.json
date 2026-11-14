@@ -1,0 +1,11 @@
+{
+  "id": "d86e618b-56d8-4e5d-9a30-1b4d20bdc82f",
+  "label": "Every actual CONCRETE_6 individual grounds itself, from reflexive dependence",
+  "argument_id": "aca2d4ad-d3cb-4bc7-adf2-b968218cd40a",
+  "challenge_module": "TruthCore.Results.Causality.ReflexiveDependenceScope.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ReflexiveDependenceScope.Solution",
+  "theorem": "TruthCore.Results.Causality.ReflexiveDependenceScope.reflexiveDependenceForcesSelfGrounding",
+  "comparator_config": "results/d86e618b-56d8-4e5d-9a30-1b4d20bdc82f/comparator.json",
+  "status": "solution-present",
+  "description": "On the reflexive reading, STMT-ACTUAL-DEPENDENCE-IS-GROUNDING, which has no distinctness condition, makes every actual concretum ground itself; with irreflexive actual grounding (or, through STMT-ACTUAL-GROUNDING-IS-SIMPLE-PRIORITY, with irreflexive simple priority) this is inconsistent as soon as one actual concretum exists (elementary; that last step is not separately certified). So the #1590 route DependsForBeing to grounds to PriorSimply needs either the strict reading of D or the distinct-relata restriction of its first bridge."
+}

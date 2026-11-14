@@ -1,0 +1,15 @@
+{
+  "id": "a8298fbd-f3c5-480d-95e9-8316889c327f",
+  "label": "If an actual CONCRETE_6 individual depends for its being on a different one, that one grounds it",
+  "paraphrase": "OPEN analyst bridge, the distinct-relata restriction of STMT-ACTUAL-DEPENDENCE-IS-GROUNDING: if an actual concretum x depends for its being on an actual concretum c distinct from x, then c grounds x under the selected relation at w. It is silent on D(x,x), so a reflexive reading of DependsForBeing does not turn it into self-grounding. One direction only.",
+  "lean_declaration": "TruthCore.Causality.ReflexiveDependenceScope.ActualDistinctDependenceIsGrounding",
+  "definition_ids": [
+    "bf26b9b2-41ed-55b0-9557-dae90ab9b81f",
+    "a1b2e330-388f-4120-bc5c-969642317792",
+    "008cb21a-256c-5a90-822c-acd4591d699a"
+  ],
+  "disambiguation_ids": [
+    "23dd6f32-b456-4963-adb3-7befbf0dc4fb",
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
+  ]
+}

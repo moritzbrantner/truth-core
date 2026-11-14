@@ -1,0 +1,12 @@
+{
+  "id": "09b88101-5ee4-44f1-b9e0-57117ce6f70e",
+  "label": "Whatever depends for its being on what depends on z depends on z",
+  "paraphrase": "OPEN analyst premise: if x depends for its being on y and y depends for its being on z, then x depends for its being on z. Stated separately from reflexivity and from nonmutuality. A direct productive edge (the light on the sun) need not have it, and counterfactual dependence is not transitive in Lewis's logic, which is why Lewis takes causation as its ancestral; the premise therefore holds of a closure or chain reading of DependsForBeing, not automatically of direct agent-cause edges.",
+  "lean_declaration": "TruthCore.Causality.ReflexiveDependenceScope.DependenceForBeingTransitive",
+  "definition_ids": [
+    "bf26b9b2-41ed-55b0-9557-dae90ab9b81f"
+  ],
+  "disambiguation_ids": [
+    "23dd6f32-b456-4963-adb3-7befbf0dc4fb"
+  ]
+}

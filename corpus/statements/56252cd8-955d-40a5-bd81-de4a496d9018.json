@@ -1,0 +1,12 @@
+{
+  "id": "56252cd8-955d-40a5-bd81-de4a496d9018",
+  "label": "Everything depends for its being on itself",
+  "paraphrase": "OPEN analyst premise, the non-strict existence-requirement reading of DependsForBeing (DEF-DEPENDS-FOR-BEING): every x depends for its being on itself, that is, x would not be if x were not. Read literally as a counterfactual this is an instance of the counterfactual identity law (if A were the case, A would be the case), which holds in the standard Lewis and Stalnaker logics; DEF-DEPENDS-FOR-BEING does not build it into the primitive. It is incompatible with STMT-DEPENDENCE-FOR-BEING-ASYMMETRIC on any inhabited domain and compatible with STMT-DISTINCT-BEINGS-NOT-MUTUALLY-DEPENDENT. It is not a claim that anything explains or causes itself.",
+  "lean_declaration": "TruthCore.Causality.ReflexiveDependenceScope.DependenceForBeingReflexive",
+  "definition_ids": [
+    "bf26b9b2-41ed-55b0-9557-dae90ab9b81f"
+  ],
+  "disambiguation_ids": [
+    "23dd6f32-b456-4963-adb3-7befbf0dc4fb"
+  ]
+}

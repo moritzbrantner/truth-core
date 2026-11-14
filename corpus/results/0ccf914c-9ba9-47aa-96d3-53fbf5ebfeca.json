@@ -1,0 +1,11 @@
+{
+  "id": "0ccf914c-9ba9-47aa-96d3-53fbf5ebfeca",
+  "label": "Finite models separating reflexive distinct-nonmutual dependence from asymmetry",
+  "argument_id": "ad0b112d-8174-4c18-9bbc-ef653cae1378",
+  "challenge_module": "TruthCore.Results.Causality.ReflexiveDependenceScope.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ReflexiveDependenceScope.Solution",
+  "theorem": "TruthCore.Results.Causality.ReflexiveDependenceScope.separationModels",
+  "comparator_config": "results/0ccf914c-9ba9-47aa-96d3-53fbf5ebfeca/comparator.json",
+  "status": "solution-present",
+  "description": "The identity relation on two beings, and the two-element order in which true depends on false, are reflexive and nonmutual on distinct beings but not asymmetric; the second is also transitive and has a distinct edge. This shows only that STMT-DISTINCT-BEINGS-NOT-MUTUALLY-DEPENDENT and STMT-DEPENDENCE-FOR-BEING-ASYMMETRIC differ in meaning on the diagonal; it is not a metaphysical claim about self-dependence."
+}
