@@ -1,0 +1,11 @@
+{
+  "id": "b6838509-aaa1-477d-8f82-b9db39c5220a",
+  "label": "Actual esse CAUSE_2 is SIMPLY_PRIOR_1, from actual grounding",
+  "argument_id": "c2773e8b-5856-43fd-9c20-b9439f5a7e03",
+  "challenge_module": "TruthCore.Results.Causality.EsseCausePriority.Challenge",
+  "solution_module": "TruthCore.Results.Causality.EsseCausePriority.Solution",
+  "theorem": "TruthCore.Results.Causality.EsseCausePriority.actualEsseCausePriority",
+  "comparator_config": "results/b6838509-aaa1-477d-8f82-b9db39c5220a/comparator.json",
+  "status": "solution-present",
+  "description": "If c, distinct from the actual concretum x, causes x's esse, the OPEN esse-cause bridge makes c concrete, existing at w and a ground of x under the profile's selected relation; then c and x are both actual concreta related by grounding, so the OPEN grounding-to-priority bridge makes c simply prior to x. The second bridge's actuality antecedent for c is supplied by the first bridge's output. No dependence-for-being, dependence-to-grounding or possible-separation premise occurs. Each bridge is needed (Control.OmitEsseGround, Control.OmitGroundingPriority) and both hold jointly with a nonvacuous instance (Control.Witness). Conditional consequence only; neither bridge is established."
+}

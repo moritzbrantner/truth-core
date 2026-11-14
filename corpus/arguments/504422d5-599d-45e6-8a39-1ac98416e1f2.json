@@ -1,0 +1,31 @@
+{
+  "id": "504422d5-599d-45e6-8a39-1ac98416e1f2",
+  "label": "A first being is in POTENCY_2 in no respect, from esse-cause priority",
+  "premise_statement_ids": [
+    "8288ff1e-d534-4516-ac2d-8d010cb863ac",
+    "3d99779b-b44a-4daa-a873-8ccdd3c034ae",
+    "ca07cae9-6102-564e-a7fd-efb013744b3d",
+    "ee74c678-0a06-47d3-9c76-27ff798e9a01"
+  ],
+  "conclusion_statement_id": "0cf675c4-4099-5df9-b294-05f2cfef057d",
+  "inference_ids": [
+    "7433ea09-1b4a-4733-875c-a55d23154772"
+  ],
+  "meaning": "The composition route to the first being's pure actuality (firstBeingNoPotencyOfComposition) with the cause-to-efficient-cause bridge and efficient-cause priority replaced by one premise on the same cause-of-perfection relation as the q.3 a.7 cause premise: a distinct cause of a thing's esse is simply prior to it. A first being is in act in some respect; if it were in potency in another it would be composite, so it would have a distinct cause of its esse, which is simply prior to it, against firstness. No passage to efficient causing occurs. Conditional consequence only; no premise is established.",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "25e19d5a-5cdf-5916-a888-f6a0ce970f11",
+    "3ea2762f-1a85-5059-b4e7-d29f192b16b6",
+    "a49e4cf1-ca4f-5519-9724-892af257cedb",
+    "85f7f569-ab4d-514b-aa2c-cf75171ad105",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
+  ],
+  "strong_version_needed": {
+    "3d99779b-b44a-4daa-a873-8ccdd3c034ae": "As in firstBeingNoPotencyOfComposition: the route takes act in some respect (STMT 8288ff1e), not act in being; the restriction to act in being suffices with STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING, which this route does not assume."
+  }
+}

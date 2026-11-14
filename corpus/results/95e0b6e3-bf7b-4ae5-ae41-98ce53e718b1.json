@@ -1,0 +1,11 @@
+{
+  "id": "95e0b6e3-bf7b-4ae5-ae41-98ce53e718b1",
+  "label": "Distinct esse CAUSE_2 is SIMPLY_PRIOR_1, from actual esse-cause priority",
+  "argument_id": "49513d67-af96-4afd-9593-be0b33b6060f",
+  "challenge_module": "TruthCore.Results.Causality.EsseCausePriority.Challenge",
+  "solution_module": "TruthCore.Results.Causality.EsseCausePriority.Solution",
+  "theorem": "TruthCore.Results.Causality.EsseCausePriority.distinctEsseCausePriority",
+  "comparator_config": "results/95e0b6e3-bf7b-4ae5-ae41-98ce53e718b1/comparator.json",
+  "status": "solution-present",
+  "description": "Whatever has its esse caused is in act as to being (OPEN, CausedEsseIsHad); what is in act of esse exists at the selected world (OPEN); what has esse in re is concrete in the profile (OPEN, the CONCRETE_6 calibration). So the effect of a distinct cause of esse is an actual concretum at w, and the scoped esse-cause priority applies to it. The theorem imports actualEsseCausePriority's conclusion as its premise. Omitting the caused-esse premise leaves the other inputs while the conclusion fails (Control.OmitCausedEsseIsHad); all inputs hold jointly with a nonvacuous esse cause (Control.ScopeWitness). Conditional consequence only; no premise is established."
+}

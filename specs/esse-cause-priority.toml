@@ -1,0 +1,93 @@
+# Esse-cause priority through actual grounding, without modal separability
+# (#1604). Analyst formulations, attribution deferred. Composes the two existing
+# OPEN bridges EsseCauseIsActualConcreteGround and ActualGroundingIsSimplePriority
+# into simple priority of a distinct cause of the esse of an actual concretum,
+# discharges the actuality antecedent with three existing OPEN statements, and
+# rederives the three stage-two nodes that consumed efficient-cause priority only
+# at a distinct cause of a supposed first being's esse. No DependsForBeing,
+# ActualDependenceIsGrounding or possible-separation premise is used. Controls:
+# a joint witness, omission of each priority bridge and of the caused-esse
+# premise, and the strictness of the distinct-esse-cause version against
+# efficient-cause priority on the same relation.
+
+[batch]
+vocab = "TruthCore.Causality.EsseCausePriority"
+results = "TruthCore.Results.Causality.EsseCausePriority"
+
+# ---------------------------------------------------------------- statements
+
+[[statement]]
+id = "A distinct esse CAUSE_2 of an actual CONCRETE_6 being at w is SIMPLY_PRIOR_1 to it"
+lean = "ActualEsseCausePriority"
+paraphrase = "At the selected world w, for any c and x, if c is distinct from x, x is concrete and exists at w, and c causes x's esse (CausesIn c x esse, the cause-of-perfection relation at esse), then c is simply prior to x. Scoped to actual concreta at one world and to the respect esse; nothing is said of self-causes, of respects other than esse, or of non-actual effects. Derived, not assumed, by composing STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND with STMT-ACTUAL-GROUNDING-IS-SIMPLE-PRIORITY."
+definitions = ["DEF-CAUSE-OF-PERFECTION", "DEF-ESSE", "DEF-SIMPLE-PRIORITY", "DEF-CONCRETE-ESSE-IN-RE", "DEF-KANT-ONTOLOGICAL-MODEL"]
+
+[[statement]]
+id = "A distinct esse CAUSE_2 of a thing is SIMPLY_PRIOR_1 to it"
+lean = "DistinctEsseCausePriority"
+paraphrase = "For any c and x, if c is distinct from x and c causes x's esse (CausesIn c x esse, the cause-of-perfection relation at esse), then c is simply prior to x. It is the instance of efficient-cause priority that the stage-two composition and component routes use, restricted to distinct causes and to esse, and stated for the cause-of-perfection relation rather than for efficient causing. It says nothing about self-causes or other respects, so it does not give STMT-EFFICIENT-CAUSE-IS-PRIOR-TO-EFFECT (Control.NotEfficientPriority)."
+definitions = ["DEF-CAUSE-OF-PERFECTION", "DEF-ESSE", "DEF-SIMPLE-PRIORITY"]
+
+[[statement]]
+id = "Esse-cause priority controls: joint witness, bridge omissions and strictness"
+lean = "Control.Certificate"
+paraphrase = "Closed controls over Bool worlds, beings and respects (the reading world and esse are true). (1) Both priority bridges hold with an actual concretum false whose esse true causes, and true is simply prior to false. (2) Omitting the esse-cause-is-ground bridge: grounding-to-priority holds vacuously, an actual concretum has a distinct esse cause, and the scoped priority fails. (3) Omitting the grounding-to-priority bridge: the esse cause grounds its actual effect, nothing is simply prior, and the scoped priority fails. (4) The three antecedent-supplying statements (caused esse is had, act of esse suffices for existence at w, esse in re is concrete) and both priority bridges hold jointly with a nonvacuous esse cause. (5) Omitting caused-esse-is-had: nothing exists or is in act, the scoped priority and the other two scope statements hold, and the distinct-cause priority fails. (6) The distinct-cause version holds while efficient-cause priority on the same relation fails, for a self-cause of esse that is not prior to itself. Statements about these interpretations only."
+definitions = ["DEF-CAUSE-OF-PERFECTION", "DEF-ESSE", "DEF-SIMPLE-PRIORITY", "DEF-CONCRETE-ESSE-IN-RE", "DEF-KANT-ONTOLOGICAL-MODEL", "DEF-ACT"]
+
+# ---------------------------------------------------------------- arguments
+
+[[argument]]
+id = "Actual esse CAUSE_2 is SIMPLY_PRIOR_1, from actual grounding"
+theorem = "actualEsseCausePriority"
+premises = ["STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND", "STMT-ACTUAL-GROUNDING-IS-SIMPLE-PRIORITY"]
+conclusion = "A distinct esse CAUSE_2 of an actual CONCRETE_6 being at w is SIMPLY_PRIOR_1 to it"
+axioms = []
+rule = "Chain: the esse-cause bridge makes the cause an actual concrete ground; the grounding bridge applies to two actual concreta"
+meaning = "If c, distinct from the actual concretum x, causes x's esse, the OPEN esse-cause bridge makes c concrete, existing at w and a ground of x under the profile's selected relation; then c and x are both actual concreta related by grounding, so the OPEN grounding-to-priority bridge makes c simply prior to x. The second bridge's actuality antecedent for c is supplied by the first bridge's output. No dependence-for-being, dependence-to-grounding or possible-separation premise occurs. Each bridge is needed (Control.OmitEsseGround, Control.OmitGroundingPriority) and both hold jointly with a nonvacuous instance (Control.Witness). Conditional consequence only; neither bridge is established."
+
+[[argument]]
+id = "Distinct esse CAUSE_2 is SIMPLY_PRIOR_1, from actual esse-cause priority"
+theorem = "distinctEsseCausePriority"
+premises = ["A distinct esse CAUSE_2 of an actual CONCRETE_6 being at w is SIMPLY_PRIOR_1 to it", "2f2f5bd2-9b6a-4251-8b93-885996ae08e2", "STMT-ACT-OF-ESSE-SUFFICES-FOR-EXISTENCE-AT", "2d9807a5-ebff-45fd-972f-e241f18713d4"]
+conclusion = "A distinct esse CAUSE_2 of a thing is SIMPLY_PRIOR_1 to it"
+axioms = []
+rule = "Discharge of the actuality antecedent: the effect has esse, hence exists at w and is concrete in the profile"
+meaning = "Whatever has its esse caused is in act as to being (OPEN, CausedEsseIsHad); what is in act of esse exists at the selected world (OPEN); what has esse in re is concrete in the profile (OPEN, the CONCRETE_6 calibration). So the effect of a distinct cause of esse is an actual concretum at w, and the scoped esse-cause priority applies to it. The theorem imports actualEsseCausePriority's conclusion as its premise. Omitting the caused-esse premise leaves the other inputs while the conclusion fails (Control.OmitCausedEsseIsHad); all inputs hold jointly with a nonvacuous esse cause (Control.ScopeWitness). Conditional consequence only; no premise is established."
+
+[[argument]]
+id = "A first being is in POTENCY_2 in no respect, from esse-cause priority"
+theorem = "firstBeingNoPotencyOfEssePriority"
+premises = ["8288ff1e-d534-4516-ac2d-8d010cb863ac", "3d99779b-b44a-4daa-a873-8ccdd3c034ae", "STMT-COMPOSITE-HAS-A-UNITING-CAUSE", "A distinct esse CAUSE_2 of a thing is SIMPLY_PRIOR_1 to it"]
+strong_version_needed = { "3d99779b-b44a-4daa-a873-8ccdd3c034ae" = "As in firstBeingNoPotencyOfComposition: the route takes act in some respect (STMT 8288ff1e), not act in being; the restriction to act in being suffices with STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING, which this route does not assume." }
+conclusion = "STMT-FIRST-BEING-IS-IN-NO-WAY-IN-POTENCY"
+axioms = []
+rule = "Reductio at the supposed first being: act in some respect with potency in another gives composition, composition a distinct cause of esse, distinct-esse-cause priority a prior being, against firstness"
+meaning = "The composition route to the first being's pure actuality (firstBeingNoPotencyOfComposition) with the cause-to-efficient-cause bridge and efficient-cause priority replaced by one premise on the same cause-of-perfection relation as the q.3 a.7 cause premise: a distinct cause of a thing's esse is simply prior to it. A first being is in act in some respect; if it were in potency in another it would be composite, so it would have a distinct cause of its esse, which is simply prior to it, against firstness. No passage to efficient causing occurs. Conditional consequence only; no premise is established."
+
+[[argument]]
+id = "Act is SIMPLY_PRIOR_1 to POTENCY_2 at a first being, from esse-cause priority"
+theorem = "weakOfEssePriority"
+premises = ["8288ff1e-d534-4516-ac2d-8d010cb863ac", "3d99779b-b44a-4daa-a873-8ccdd3c034ae", "STMT-COMPOSITE-HAS-A-UNITING-CAUSE", "A distinct esse CAUSE_2 of a thing is SIMPLY_PRIOR_1 to it"]
+strong_version_needed = { "3d99779b-b44a-4daa-a873-8ccdd3c034ae" = "As in weakOfComposition: the route takes act in some respect (STMT 8288ff1e), not act in being; the restriction to act in being suffices with STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING, which this route does not assume." }
+conclusion = "61ad11f3-476f-411d-9720-d9f05cbc22fc"
+axioms = []
+rule = "Reductio at the supposed first being, as in firstBeingNoPotencyOfEssePriority; the first-being version then holds vacuously"
+meaning = "The first-being version of act priority from the same four premises: by firstBeingNoPotencyOfEssePriority a first being is in potency in no respect, so the first-being version holds vacuously. The sibling of weakOfComposition without the cause-to-efficient-cause bridge and efficient-cause priority. Conditional consequence only; no premise is established."
+
+[[argument]]
+id = "No component is the first being, from esse-cause priority"
+theorem = "noComponentFirstOfEssePriority"
+premises = ["STMT-COMPONENT-IS-POTENTIAL-OR-PARTICIPATED", "61ad11f3-476f-411d-9720-d9f05cbc22fc", "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT", "STMT-PARTICIPATED-ESSE-HAS-DISTINCT-CAUSE", "A distinct esse CAUSE_2 of a thing is SIMPLY_PRIOR_1 to it"]
+conclusion = "STMT-NO-COMPONENT-IS-FIRST-BEING"
+axioms = []
+rule = "Case split on the kind of component; the participated case uses distinct-esse-cause priority"
+meaning = "noComponentFirstOfWeak with efficient-cause priority replaced by distinct-esse-cause priority. A component supposed first is in potency in some respect or participated. If in potency, act priority at a first being gives a being in act in that respect simply prior to it, which firstness makes the component itself, against non-overlap. If participated, it has a distinct cause of its esse (STMT-PARTICIPATED-ESSE-HAS-DISTINCT-CAUSE, the q.44 a.1 reading in the cause-of-perfection vocabulary), which is simply prior to it, against firstness. One cause-of-perfection relation at esse (CAUSING_AN_EFFECT_3) runs through the participation and priority premises; no passage to efficient causing occurs. It uses the cause-of-being participation statement rather than STMT-PARTICIPATED-HAS-OTHER-CAUSE, whose type has the same body but whose record links the external efficient esse-cause sense (recorded sense-link defect, modal-spine note); that existing record is not changed. Conditional consequence only; no premise is established."
+
+[[argument]]
+id = "Esse-cause priority controls, checked"
+theorem = "controls"
+premises = []
+conclusion = "Esse-cause priority controls: joint witness, bridge omissions and strictness"
+axioms = []
+rule = "Explicit Bool interpretations checked by case analysis"
+meaning = "Controls for the esse-cause priority batch: a joint witness of both priority bridges with a nonvacuous esse cause; omission models for each priority bridge and for the caused-esse premise; a joint witness of the scope statements with both bridges; and a model where distinct-esse-cause priority holds while efficient-cause priority on the same relation fails. Model-witnessed facts about these interpretations only; no interpretation is claimed metaphysically possible."

@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.EsseCausePriority.Challenge",
+  "solution_module": "TruthCore.Results.Causality.EsseCausePriority.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.EsseCausePriority.weakOfEssePriority"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

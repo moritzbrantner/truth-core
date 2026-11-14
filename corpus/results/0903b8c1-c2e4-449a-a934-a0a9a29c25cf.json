@@ -1,0 +1,11 @@
+{
+  "id": "0903b8c1-c2e4-449a-a934-a0a9a29c25cf",
+  "label": "Act is SIMPLY_PRIOR_1 to POTENCY_2 at a first being, from esse-cause priority",
+  "argument_id": "11b24e97-e722-4df5-b46f-47f1ffe16600",
+  "challenge_module": "TruthCore.Results.Causality.EsseCausePriority.Challenge",
+  "solution_module": "TruthCore.Results.Causality.EsseCausePriority.Solution",
+  "theorem": "TruthCore.Results.Causality.EsseCausePriority.weakOfEssePriority",
+  "comparator_config": "results/0903b8c1-c2e4-449a-a934-a0a9a29c25cf/comparator.json",
+  "status": "solution-present",
+  "description": "The first-being version of act priority from the same four premises: by firstBeingNoPotencyOfEssePriority a first being is in potency in no respect, so the first-being version holds vacuously. The sibling of weakOfComposition without the cause-to-efficient-cause bridge and efficient-cause priority. Conditional consequence only; no premise is established."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "55620331-cd7c-476e-b65b-7e4709bc34ce",
+  "label": "Actual esse CAUSE_2 is SIMPLY_PRIOR_1, from actual grounding (inference)",
+  "input_statement_ids": [
+    "cb1cdea9-eb6c-578c-8008-84e0d4107fd3",
+    "7a63a3fe-a29f-5282-8106-79fedcb10d08"
+  ],
+  "output_statement_id": "b50fb858-ca2e-48fa-a111-84ac761976d3",
+  "rule": "Chain: the esse-cause bridge makes the cause an actual concrete ground; the grounding bridge applies to two actual concreta",
+  "meaning": "If c, distinct from the actual concretum x, causes x's esse, the OPEN esse-cause bridge makes c concrete, existing at w and a ground of x under the profile's selected relation; then c and x are both actual concreta related by grounding, so the OPEN grounding-to-priority bridge makes c simply prior to x. The second bridge's actuality antecedent for c is supplied by the first bridge's output. No dependence-for-being, dependence-to-grounding or possible-separation premise occurs. Each bridge is needed (Control.OmitEsseGround, Control.OmitGroundingPriority) and both hold jointly with a nonvacuous instance (Control.Witness). Conditional consequence only; neither bridge is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

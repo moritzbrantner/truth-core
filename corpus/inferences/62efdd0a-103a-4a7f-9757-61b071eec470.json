@@ -1,0 +1,10 @@
+{
+  "id": "62efdd0a-103a-4a7f-9757-61b071eec470",
+  "label": "Esse-cause priority controls, checked (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "7e68e019-2494-4e59-9dfd-8c866b65fa99",
+  "rule": "Explicit Bool interpretations checked by case analysis",
+  "meaning": "Controls for the esse-cause priority batch: a joint witness of both priority bridges with a nonvacuous esse cause; omission models for each priority bridge and for the caused-esse premise; a joint witness of the scope statements with both bridges; and a model where distinct-esse-cause priority holds while efficient-cause priority on the same relation fails. Model-witnessed facts about these interpretations only; no interpretation is claimed metaphysically possible.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
