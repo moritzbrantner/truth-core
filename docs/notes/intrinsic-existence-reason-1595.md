@@ -190,45 +190,71 @@ has been refuted by the materialized readings or finite assignments.
 
 ## Typed conditional and exact omission tests
 
-Reuse `ExistencePSR.ExistenceFact.fact`, `ExistencePSR.Model`,
-`BruteFoundationExplanations.ExplanationProfile`,
-`NecessitatesExistenceAt`/`necessaryReasonAndNecessitation`, and
-`JointGroups.Groups.members` (contributors **and** enablers). The new
-unverified analyst module `TruthCore.Explanation.IntrinsicReasonBoundary`
-implements a candidate-level conditional about **one witnessed entire
-record** for `ExistenceFact.fact n`. It does not introduce an opaque
-implication to the legacy statement. Its added data is deliberately limited:
+The module `TruthCore.Explanation.IntrinsicReasonBoundary` reuses
+`ExistencePSR.ExistenceFact.fact`, `JointGroups.Groups.members` (contributors
+**and** enablers), `NecessarilyUnderived.NoExistingSupportAt` and the Kant
+`Ontic`/`NecessaryAt` vocabulary. It is compiled in the library build but
+**unregistered**: it has no Challenge, argument, inference, result or
+Comparator configuration, so none of its theorems is certified and nothing
+binds to the frontier. It implements a candidate-level conditional about
+**one witnessed entire record** for `ExistenceFact.fact n`. It does not
+introduce an opaque implication to the legacy statement. Its added data is
+deliberately limited:
 
-- reason ingredients with disjoint, *typed* constructors `nature n feature`,
-  `external b feature`, `global rule`; the nature contents are
-  represented data, not an `isAdequate : Prop` Boolean attached to a token;
+- reason ingredients with constructors `nature b feature`,
+  `external b feature`, `global s`. `nature` and `external` carry the same
+  data (`Being × Feature`), so for one bearer the nature/external split is a
+  constructor **tag**, not a typed difference of content; the nature contents
+  are not independently specified. Exhaustiveness of the three-way
+  classification is fixed by the closed inductive type (with `global` over an
+  arbitrary `Structure` as catch-all), so it is **not** a premise of the
+  theorem; whether this classification covers real reasons is the open
+  interpretive question of step 5 above;
 - a single joint candidate record with effect `fact n`, a nonempty set of members, its
   admitted status, truth of every member at the actual world, and a separately
-  checked **worldwise sufficiency** condition over the `ExistsAt` fact;
-- a stronger, explicitly open **explanatory direction/relevance** requirement
-  distinguishing full ground from reversed implication or target-copy.
-  Modal truth-consequence cannot on its own certify this requirement.
+  checked **worldwise sufficiency** condition over the `ExistsAt` fact.
 
-**Limited theorem `selectedNatureRecord`:** actual full-record candidate existence + nonempty members +
-exclusion of *all* sufficient records containing external/global ingredients
-implies some same-record own-nature ingredient; if every member is classified,
-the *whole* chosen record is own-nature. This is a genuine typed classification
-but not yet `STMT-NECESSARY-GROUND-HAS-INTRINSIC-REASON`: the record may only
-entail existence, not explain it. Do not register the legacy conclusion from
-this lemma until the last relevance bridge is independently warranted.
+Not encoded, and open: an **explanatory direction/relevance** requirement
+distinguishing full ground from reversed implication or target-copy. Modal
+truth-consequence cannot on its own certify it.
 
-**Four necessary omission checks; one populated arena for the first two:**
+**Limited theorem `selectedNatureRecord`:** its four hypotheses are (i) some
+`ActualRecord` for `fact n` at `w` (admitted, nonempty, every member true at
+`w`, `n` exists at `w`, worldwise sufficient); (ii) `NoExistingSupportAt`:
+no existing being stands in `support` to `n` at `w`; (iii)
+`ForeignReasonSupports`: in any actual record, every `external b _` member and
+every `nature b _` member with `b ≠ n` yields an existing `b` with
+`support w b n`; and (iv) `NoFactOrGlobalMember`: no actual record contains a
+`fact` or `global` member. Its conclusion `IntrinsicOnlyRecord` is that some
+actual record has at least one member and **every** member of that record is
+`nature n feature`. External members are excluded only via (iii) with (ii),
+and the quantification is over actual records, not all sufficient records.
+Classification of every member is unconditional, because `Item` is a closed
+type. This is a constructor-tag classification, not yet
+`STMT-NECESSARY-GROUND-HAS-INTRINSIC-REASON`: `holds` is arbitrary, so the
+record may only entail existence, not explain it. Do not register the legacy
+conclusion from this lemma until the relevance bridge is independently
+warranted.
 
-1. With modal necessity and no incoming `supportsEsse` edges, assign a true
-   **external abstract reason** for `fact n`; the source can be causally
-   underived yet lacks an own-nature reason. `externalWithoutSupportBridge`
-   constructs this candidate profile. It refutes the inference from causal
-   underivedness to absence of all external *explanation* within these
-   stipulated semantics.
+**Four necessary omission checks; one populated arena for the first two.**
+Each written control proves in one model every other hypothesis of
+`selectedNatureRecord`, the failure of the omitted hypothesis, and the failure
+of the conclusion.
+
+1. With modal necessity and an empty `support` relation, give a true
+   candidate **external** ingredient as the sole member of an actual record.
+   `foreignExternalWithoutSupportBridge` uses two beings, with the external
+   ingredient borne by a being other than the target;
+   `externalWithoutSupportBridge` is the external-tagged, **self-borne**
+   variant (its only bearer is the target). Within these stipulated
+   candidate semantics, underivedness in the support relation does not
+   exclude an external candidate reason; the record is not claimed to be an
+   adequate (or abstract) explanation.
 2. With the same actual necessary bearer and full sufficiency, give a
-   `globalStructure` ingredient as the sole member of the complete record.
-   `globalWithoutScopeBridge` constructs it; dropping global-exclusion must
-   allow this model. It tests source-indexed exhaustiveness, not modal necessity.
+   `global` ingredient as the sole member of the complete record.
+   `globalWithoutScopeBridge` constructs it; dropping global-exclusion
+   allows this model. It tests the global-exclusion premise, not modal
+   necessity.
 3. Still to certify in this particular typed arena: with a generic essence rule about `square`'s area (or the figure of a
    triangle), let no bearer of that sort exist. The rule determines a
    **property conditional** on an instance but must not satisfy an
@@ -271,8 +297,21 @@ individual real nature-content and the realization/relevance bridge remain
 open. Reopen when (a) the grouped typed control and source-indexed direction
 test can be certified, (b) independent evidence warrants the proposed real
 nature and its existence-entailing content, or (c) a global account meets the
-same test and changes the comparative verdict. Toolchain verification and
-mechanical result registration are not claimed in this research-only step.
+same test and changes the comparative verdict. The module compiles in CI;
+Comparator certification and result registration are not claimed in this
+research-only step.
 
-There is no new historical claim, formal theorem, source record, root
-premise or closure marking. Intended/actual root-route premise change: none.
+There is no new historical claim, registered result (no
+Challenge/result/Comparator), source record, root premise or closure
+marking. Intended/actual root-route premise change: none.
+
+### Semantic challenge repairs (PR #1601)
+
+The independent challenge accepted `selectedNatureRecord` at its
+candidate-level scope. Repairs: the module docstring no longer says that
+neither text identifies an efficient self-producer with the reason; it states
+only that the consulted passages do not describe a temporally prior
+self-producer and leaves *causa sui* versus efficient causation (Ethics I16
+cor. 1, I25 schol.) unexamined. The theorem paragraph, the tag/exhaustiveness
+description, the omission controls (now bundling all other hypotheses, with a
+foreign-bearer external control) and stale names were aligned with the Lean.

@@ -10,8 +10,13 @@ public import TruthCore.Causality.NecessarilyUnderived
 Analyst reconstruction for #1595/#319, not a source-attributed argument.
 Leibniz, Monadology §§44–45 proposes an intrinsic existence reason for the
 necessary final ground. Spinoza, Ethics I def.1 and I7–8 note II distinguishes
-a reason in the individual's nature from a reason apart from it. Neither text
-identifies an efficient self-producer with this reason.
+a reason in the individual's nature from a reason apart from it. The consulted
+passages (Monadology §§44–45; Ethics I def. 1, I7, I8 note II, I11) do not
+describe a temporally prior self-producer; the relation of *causa sui* to
+efficient causation (Ethics I16 cor. 1, I25 schol.) is not examined here.
+
+Compiled in the library build but unregistered: no Challenge, argument,
+result or Comparator configuration, so nothing here is certified.
 
 The theorem classifies constituents of ONE true, worldwise sufficient candidate
 record for an actual existence fact. It exposes separately the disputed move
@@ -35,7 +40,15 @@ open TruthCore.German.Kant.CosmologicalInference
 /-- A purported real-nature ingredient names its bearer; its label is not an
 independent demonstration that such a nature obtains or explains existence.
 An external ingredient can be about another actual bearer; a global ingredient
-need not be borne by an individual. -/
+need not be borne by an individual.
+
+`nature b f` and `external b f` carry the same data (`Being × Feature`): for
+one bearer the nature/external split is a constructor TAG, not a typed content
+difference. Exhaustiveness of the three-way classification is fixed by this
+closed inductive type (`global` over an arbitrary `Structure` is the catch-all
+for reasons not borne by one individual); it is therefore not a premise of
+`selectedNatureRecord`, while its adequacy as a classification of real reasons
+stays an open interpretive question. -/
 inductive Ingredient (Being Feature Structure : Type) where
   | nature : Being → Feature → Ingredient Being Feature Structure
   | external : Being → Feature → Ingredient Being Feature Structure
@@ -146,11 +159,14 @@ theorem selectedNatureRecord
 
 /-! ### Populated finite omission controls
 
-All controls use the same nonempty always-existing bearer, universal two-world
-accessibility, and empty actual esse-support relation. They change the *one*
-nonempty reason ingredient, not an existence or modal truth assignment.
-Their members are only candidate reasons, so they demonstrate the necessity
-of interpretation bridges, not adequate rival metaphysical explanations.
+The first controls use the same nonempty always-existing bearer, universal
+two-world accessibility, and empty actual esse-support relation. They change
+the *one* nonempty reason ingredient, not an existence or modal truth
+assignment. Each omission control proves, in one model, every other
+hypothesis of `selectedNatureRecord`, the failure of the omitted one, and the
+failure of the conclusion. Their members are only candidate reasons, so they
+demonstrate the necessity of interpretation bridges, not adequate rival
+metaphysical explanations.
 -/
 
 def populated : Ontic Bool Unit where
@@ -228,31 +244,121 @@ theorem natureInputNonvacuous :
     · intro g s hRec hMember
       simp [single, Groups.members] at hMember
 
-/-- Omit the foreign-reason-to-support bridge: a genuinely different
-constructor carries a candidate worldwise sufficient reason despite the
-bearer's actual underivedness and de re necessity. -/
+/-- Omit the foreign-reason-to-support bridge, with an external-TAGGED,
+SELF-BORNE ingredient (`external () ()` has the target as bearer, since
+`Being = Unit`). Every other hypothesis holds and the bridge fails. This shows
+only that the tag alone defeats the conclusion; see
+`foreignExternalWithoutSupportBridge` for an ingredient about another bearer. -/
 theorem externalWithoutSupportBridge :
     ActualRecord populated (single (.inr (.external () ()))) allHold false () () ∧
+    NecessaryAt populated false () ∧
+    NoExistingSupportAt populated noSupport false () ∧
+    NoFactOrGlobalMember populated
+      (single (.inr (.external () ()))) allHold false () ∧
+    ¬ ForeignReasonSupports populated noSupport
+      (single (.inr (.external () ()))) allHold false () ∧
     ¬ IntrinsicOnlyRecord populated
       (single (.inr (.external () ()))) allHold false () := by
-  constructor
-  · exact singleActual _
+  refine ⟨singleActual _, populatedUnderivedNecessary.1,
+    populatedUnderivedNecessary.2, ⟨?_, ?_⟩, ?_, ?_⟩
+  · intro g b hRec hMember
+    simp [single, Groups.members] at hMember
+  · intro g s hRec hMember
+    simp [single, Groups.members] at hMember
+  · intro hBridge
+    exact (hBridge.1 () () () (singleActual _)
+      (by simp [single, Groups.members])).2
   · intro h
     rcases h with ⟨g, hRec, ⟨feature, hMember⟩, _⟩
     cases g
     simp [single, Groups.members] at hMember
 
 /-- Omit the global-reason exclusion: the same actual, necessary, underived
-bearer has a different *kind* of candidate sufficient explanation. -/
+bearer has a candidate sufficient record whose sole member is `global`.
+Every other hypothesis (including the vacuously true foreign-reason bridge)
+holds and global-exclusion fails. -/
 theorem globalWithoutScopeBridge :
     ActualRecord populated (single (.inr (.global ()))) allHold false () () ∧
+    NecessaryAt populated false () ∧
+    NoExistingSupportAt populated noSupport false () ∧
+    ForeignReasonSupports populated noSupport
+      (single (.inr (.global ()))) allHold false () ∧
+    ¬ NoFactOrGlobalMember populated
+      (single (.inr (.global ()))) allHold false () ∧
     ¬ IntrinsicOnlyRecord populated
       (single (.inr (.global ()))) allHold false () := by
-  constructor
-  · exact singleActual _
+  refine ⟨singleActual _, populatedUnderivedNecessary.1,
+    populatedUnderivedNecessary.2, ⟨?_, ?_⟩, ?_, ?_⟩
+  · intro g b feature hRec hMember
+    simp [single, Groups.members] at hMember
+  · intro g b feature hRec hDifferent hMember
+    simp [single, Groups.members] at hMember
+  · intro hScope
+    exact hScope.2 () () (singleActual _) (by simp [single, Groups.members])
   · intro h
     rcases h with ⟨g, hRec, ⟨feature, hMember⟩, _⟩
     cases g
     simp [single, Groups.members] at hMember
+
+/-! ### A foreign-bearer external control
+
+Two always-existing beings (`true` is the target, `false` another bearer),
+universal two-world accessibility, empty esse-support. The sole member is an
+external ingredient about the OTHER bearer. -/
+
+def twoBeings : Ontic Bool Bool where
+  frame := ⟨fun _ _ => True⟩
+  ExistsAt := fun _ _ => True
+  Causes := fun _ _ _ => False
+
+def noSupportTwo : Bool → Bool → Bool → Prop := fun _ _ _ => False
+
+def foreignExternal : Groups (Item Bool Unit Unit) Unit where
+  contributors := fun _ => {(Sum.inr (.external false ()) : Item Bool Unit Unit)}
+  enablers := fun _ => ∅
+  effect := fun _ => positive true
+  admitted := fun _ => True
+
+def allHoldTwo : Bool → Item Bool Unit Unit → Prop := fun _ _ => True
+
+theorem foreignExternalActual :
+    ActualRecord twoBeings foreignExternal allHoldTwo false true () := by
+  refine ⟨trivial, rfl, ⟨Sum.inr (.external false ()), ?_⟩, ?_, trivial, ?_⟩
+  · simp [foreignExternal, Groups.members]
+  · intro i hi
+    trivial
+  · intro v hv hall
+    trivial
+
+/-- Omit the foreign-reason-to-support bridge with a candidate external reason
+borne by a distinct existing being. Underivedness in the (empty) support
+relation and de re necessity hold, every other hypothesis holds, and both the
+bridge and the conclusion fail. Within these stipulated candidate semantics,
+underivedness in the support relation does not exclude an external candidate
+reason; the record need not be an adequate explanation. -/
+theorem foreignExternalWithoutSupportBridge :
+    ActualRecord twoBeings foreignExternal allHoldTwo false true () ∧
+    NecessaryAt twoBeings false true ∧
+    NoExistingSupportAt twoBeings noSupportTwo false true ∧
+    NoFactOrGlobalMember twoBeings foreignExternal allHoldTwo false true ∧
+    ¬ ForeignReasonSupports twoBeings noSupportTwo
+      foreignExternal allHoldTwo false true ∧
+    ¬ IntrinsicOnlyRecord twoBeings foreignExternal allHoldTwo false true := by
+  refine ⟨foreignExternalActual, ?_, ?_, ⟨?_, ?_⟩, ?_, ?_⟩
+  · intro v hv
+    trivial
+  · intro source hExists hSupport
+    exact hSupport
+  · intro g b hRec hMember
+    simp [foreignExternal, Groups.members] at hMember
+  · intro g s hRec hMember
+    simp [foreignExternal, Groups.members] at hMember
+  · intro hBridge
+    exact (hBridge.1 () false () foreignExternalActual
+      (by simp [foreignExternal, Groups.members])).2
+  · intro h
+    rcases h with ⟨g, hRec, ⟨feature, hMember⟩, _⟩
+    cases g
+    simp [foreignExternal, Groups.members] at hMember
 
 end TruthCore.Explanation.IntrinsicReasonBoundary
