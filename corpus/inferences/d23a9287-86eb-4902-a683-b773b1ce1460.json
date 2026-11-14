@@ -1,0 +1,10 @@
+{
+  "id": "d23a9287-86eb-4902-a683-b773b1ce1460",
+  "label": "Initial history transfer 1588 finite model checked (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "2fe3d3fa-08be-4062-b84c-094249f27a70",
+  "rule": "Finite decision over four histories and three bearers",
+  "meaning": "Nonvacuity and omission controls in a structural surrogate: a concrete E-admissible, M-inadmissible initial-history description under the rigid reading; the weaker qualitative reading admits bearer omission; restricted inclusion is strictly weaker than full inclusion yet sufficient for its description. The bearer-omission separations presuppose bearer-distinct qualitative duplicates (OPEN). Model facts only.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

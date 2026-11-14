@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.InitialHistoryTransfer1588.Challenge",
+  "solution_module": "TruthCore.Results.Modal.InitialHistoryTransfer1588.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.InitialHistoryTransfer1588.rigidInclusionNecessity"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,18 @@
+{
+  "id": "4f637169-7df9-4be0-bb5c-d8bfde8f4c41",
+  "label": "Restricted and complete-description possibility transfer checked",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "5905c54b-e83b-4254-9688-f33874b54c58",
+  "inference_ids": [
+    "cb3304cc-642b-42f0-95e9-8125a6f25275"
+  ],
+  "meaning": "Refines the #438 all-predicate law: one description needs only inclusion on its own witnesses, and a complete description needs exactly one access edge. Full IncludedAt remains exact only for transfer of every predicate. Establishes no possibility claim about actual histories.",
+  "definition_ids": [
+    "7c9bfc4c-dfb3-4f13-b0f8-e2a1ab0dc505",
+    "9f7c8d83-3d48-4c57-b5bb-625b01bedc51",
+    "978b9b69-3707-52e4-9205-127e9a5ebe77"
+  ],
+  "disambiguation_ids": [
+    "da25d281-9924-559c-bb21-0c3f9de50011"
+  ]
+}
