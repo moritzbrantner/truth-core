@@ -120,6 +120,26 @@ Two first-version premises were dropped, each for a substantive objection:
   A2 has one derivation from open, unsourced premises. Its universal scope over
   every possible history, including one with an empty moment, remains the
   crux of Arrival A.
+- *Presence versus existence* (2026-11-12, reconciled 2026-11-14; attempt
+  `bc674a0b`). `History.IsAt` and `ExistsAt` are distinct primitives, linked
+  only by A1 (presence gives existence). A2, A2ab and A2c are stated with
+  `IsAt` alone: A2ab's "beginning" (`BeginningsHaveLastingGround`) is
+  `¬ IsAt v x s ∧ IsAt v x t`, not coming to be. With the inclusive reading
+  adopted above, a non-temporal agent that exists throughout but is first
+  co-present to the later moment `t` therefore counts as beginning. A2ab then
+  asks for a ground of *it*, and A2c forbids it to ground itself. The inclusive
+  reading does not settle when a non-temporal agent is co-present to a moment:
+  to every moment of the history, or only where it gives being (the contact
+  principle `c4661518` supplies the latter only). On the first answer A2's
+  "concrete-empty moment" excludes such an agent, and A2's warrant from "from
+  nothing, nothing comes" is unaffected. On the second, A2ab's warrant would
+  have to cover the onset of an existing agent's co-presence, which the
+  coming-to-be motivation does not address. This is an open semantic
+  obligation on the reading, not an objection to A2: no position on file
+  posits an empty moment followed by a non-temporal agent's first act. An
+  earlier hand-built two-world assignment (an existent present at no moment)
+  was written for a locational reading. It was never Lean-checked, it has no
+  bearing under the inclusive reading's first answer, and it is withdrawn.
 
 A3 is itself derived (`ContingentComingToBe.possibleContingentFreePast`,
 spec `specs/modal-spine-coming-to-be.toml`) from one open possibility premise:
@@ -948,6 +968,24 @@ candidate survey is an unverified analyst assessment; it establishes neither
 coverage of serious rivals nor that the weakening lacks dialectical value.
 A defended rival interpretation or independently warranted persistence/deletion
 bridge would reopen this assessment. No premise is established by it.
+
+**Positive interpretation of F1 and F2′** (2026-11-12, reconciled 2026-11-14;
+[attempt `bc674a0b`](../../corpus/attempts/bc674a0b-433f-4893-913c-57ac9f68eb9c.json)).
+The rows above record rivals; this records the strongest positive reading on
+file. If metaphysical possibility is admissibility of a complete
+world-description in one space that does not depend on which description
+obtains, then `R(w, v)` holds exactly when `v` is admissible. The actual world
+is admissible (F1), and any two admissible worlds see each other (F2, hence
+F2′). That entailment is elementary and stated here in prose only, not as a
+registered result. The warrant is the substantive part: world-independent
+admissibility and a cross-world identity policy for individuals. Defining `R`
+this way proves a theorem about the chosen semantics, not that it is the right
+metaphysics. The two sides carry parallel burdens on the same question. The
+origin-tolerance reading must say why an origin outside tolerance is
+*impossible for the same individual*, not merely more distant or less similar,
+and must justify its symmetric shared-origin access criterion. The absolute
+reading must justify its admissibility and identity claims, not just name S5.
+Neither is discharged; F1 and F2′ stay open.
 
 ### Stage two: objection audit (2026-11-12)
 
