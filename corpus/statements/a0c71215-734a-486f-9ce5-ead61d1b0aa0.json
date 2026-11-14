@@ -1,13 +1,17 @@
 {
   "id": "a0c71215-734a-486f-9ce5-ead61d1b0aa0",
   "label": "Essential existence and intrinsic explanation separate in typed finite controls",
-  "paraphrase": "Two actual necessarily existing individuals witness each direction of non-entailment between own-essence membership of an existence fact and assignment of a sound candidate intrinsic reason for that fact. In a third all-existing two-being profile, the modal existence-requirement relation holds both ways while the nature of false requires true's existence but the nature of true does not require false's; the causal edges in both directions are absent. These finite analyst interpretations distinguish three explicit meanings, not the metaphysical possibility of the models, the adequacy of intrinsic explanation, or the truth of a necessary-being thesis.",
+  "paraphrase": "Two actual necessarily existing individuals witness each direction of non-entailment between own-essence membership of an existence fact and assignment of a sound candidate intrinsic reason for that fact. In a third all-existing two-being profile, the modal existence-requirement relation holds both ways while the nature of false requires true's existence but the nature of true does not require false's; the causal edges in both directions are absent. Own-essence membership is sense NECESSARY_EXISTENCE_BY_OWN_NATURE_3 and the candidate intrinsic reason is sense NECESSARY_EXISTENCE_BY_OWN_NATURE_4; the sourced sense _1 is not formalized here. The first control assigns no explanation to any existence fact, so it does not satisfy the existence PSR. These finite analyst interpretations distinguish three explicit meanings, not the metaphysical possibility of the models, the adequacy of intrinsic explanation, or the truth of a necessary-being thesis.",
   "lean_declaration": "TruthCore.Explanation.EssenceReasonSeparation.SeparationControls",
   "definition_ids": [
     "0b1d99d6-f96b-4a07-90d1-c3fc5c5946bb",
+    "72a1e556-042a-4358-a8a0-a2a87cc036d6",
+    "388b7ed8-ae8e-4ae2-8ba6-0e50b9bb27c3",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "d7f66ca4-38c0-4cbb-ac5c-b2237ec3645c",
     "fcb346d7-ddd2-50bb-a7c2-3d79d41b8eae",
-    "d21ae4c5-8030-53b4-ae8f-48041355865c",
-    "61b2ea45-ab9d-537f-b43f-b9208c15a362"
+    "d513fb8a-64ee-5d49-ae56-4d695f93ca71",
+    "70fccbe6-be10-5709-9d73-53a436b97f25"
   ],
   "disambiguation_ids": [
     "13843b8b-4ef3-500e-949d-27e78b9dfaf9"
