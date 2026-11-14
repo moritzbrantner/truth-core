@@ -1,0 +1,10 @@
+{
+  "id": "6664c4dd-ed77-4909-9790-7d61d90b1f1c",
+  "label": "Rigid initial profile denies the single bearer-omission edge checked (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "67cd1280-5152-4899-8acd-b0ae25d3d64a",
+  "rule": "Rigid soundness and preservation at an M-accessible witness; finite decision for the surrogate",
+  "meaning": "Binds the discriminating premise in its existential form: one E-admitted, M-accessible history lacking the actual initial bearer. The rigid profile denies exactly this edge; restricted inclusion over all such histories is a sufficient strengthening that the qualitative surrogate profile also fails. No warrant for or against the edge is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

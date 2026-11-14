@@ -1,0 +1,11 @@
+{
+  "id": "8fac57db-553c-47df-a989-34ff6d95641f",
+  "label": "Rigid initial profile denies the single bearer-omission edge checked",
+  "argument_id": "c4b44585-2284-4d61-b822-5598bc0e7399",
+  "challenge_module": "TruthCore.Results.Modal.InitialHistoryTransfer1588.Challenge",
+  "solution_module": "TruthCore.Results.Modal.InitialHistoryTransfer1588.Solution",
+  "theorem": "TruthCore.Results.Modal.InitialHistoryTransfer1588.edgeChecks",
+  "comparator_config": "results/8fac57db-553c-47df-a989-34ff6d95641f/comparator.json",
+  "status": "solution-present",
+  "description": "Binds the discriminating premise in its existential form: one E-admitted, M-accessible history lacking the actual initial bearer. The rigid profile denies exactly this edge; restricted inclusion over all such histories is a sufficient strengthening that the qualitative surrogate profile also fails. No warrant for or against the edge is established."
+}

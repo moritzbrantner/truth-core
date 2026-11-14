@@ -1,0 +1,14 @@
+{
+  "id": "77a76499-f2df-467f-b685-919f8b110d89",
+  "label": "Rigid initial profile, bearer omission and transfer are jointly inconsistent",
+  "paraphrase": "For every typed history profile whose own frame is the M profile, every E frame, selected world a and bearer b: if the profile is rigid at a and b is initial at a, and some E-successor of a lacks b, then E-successors lacking b are NOT all M-successors of a. Equivalently: rigid initial preservation, E-admissibility of a history omitting the actual initial bearer, and restricted inclusion for such histories cannot all hold. Which member fails is not decided. Analyst formulation, attribution deferred.",
+  "lean_declaration": "TruthCore.Modal.InitialHistoryTransfer1588.RigidTriad",
+  "definition_ids": [
+    "7c9bfc4c-dfb3-4f13-b0f8-e2a1ab0dc505",
+    "9f7c8d83-3d48-4c57-b5bb-625b01bedc51",
+    "978b9b69-3707-52e4-9205-127e9a5ebe77"
+  ],
+  "disambiguation_ids": [
+    "da25d281-9924-559c-bb21-0c3f9de50011"
+  ]
+}

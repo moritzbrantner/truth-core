@@ -833,6 +833,69 @@ All new premises are open analyst formulations; nothing is closed.
   `ActPriorityAtFirst.facts` item 2 with non-overlap. Removing a4d3261a and
   3b2d2d46 together now leaves 10/10 (92ab7c94 restored); the counts above
   with one composition premise also removed are unchanged.
+- **Composition sibling at the root** (#1603;
+  `specs/necessary-classical-god-root-by-composition.toml`,
+  `NecessaryClassicalGodRootByComposition.derive`, argument 379399d1, result
+  ef2c087e,
+  [attempt](../../corpus/attempts/383d23ad-bec6-442c-9fec-0112df1e1c97.json)).
+  It is 69affa96 with the restricted composition premise d8024a38 in place of
+  61ad11f3 and non-overlap c6d6379b; the other 21 premises and all parameters
+  are unchanged. The root exists at w, so `ExistingInActAt` (already a
+  premise) puts it in act in being; potency in any respect would then make it
+  composite, against the simplicity the positive root already derives from
+  ca07cae9. Firstness is not used for this step. One `Composite` parameter
+  (both statements link the inclusive SIMPLE_4 definition) and one free
+  `InPotency` (POTENCY_2) run through the argument, so no sense bridge is
+  added. Lean controls on the step: the simple potent root falsifies both
+  d8024a38 and 61ad11f3 with non-overlap holding; d8024a38 is nonvacuous; and
+  neither d8024a38 nor 61ad11f3 (each with non-overlap) implies the other in
+  general. They agree only at a simple existent first being.
+  - Comparison. Every registered derivation of 61ad11f3 except the strength
+    order from 3b2d2d46 already consumes 3d99779b or d8024a38, plus ca07cae9,
+    e0088de9, e078f07b and 8288ff1e (or ca55ed3a with d017b6b0). Against those
+    supports the sibling uses a subset of the commitments at this step:
+    literally against ae809bfd, and against 15fce38f up to the strength order
+    4b6d0b59 (3d99779b strengthens d8024a38). Against direct acceptance of 61ad11f3 it is an alternative bundle: a
+    general principle with ordinary instances, in place of a first-being
+    principle with none.
+  - Semantic burden. d8024a38 is plausible only when `InPotency` is the
+    bearer's own real passive potency. Read as an unexercised active power, or
+    as the logical possibility of being otherwise, it would make composite any
+    simple agent with an unexercised power. The free POTENCY_2 parameter does
+    not fix the passive reading; that obligation stays open. The analyst case
+    for the passive reading: a being in act in being is determinate in being;
+    a real passive potency to r is a lack of r with a receptivity to r; one
+    item cannot be both the determinate actuality and the undetermined
+    receptive principle, so they are two principles of one thing. q.3 a.7
+    quarto gives only the other direction (see
+    [composition-causal-scope](composition-causal-scope.md)). d8024a38,
+    3d99779b and the argument link DISAMB-POTENCY (508617ab), which separates
+    passive potency from receptive potency that coexists with possession
+    (RECEPTIVE_POTENCY_5), from abilities and from powers. Dropping c6d6379b
+    also drops same-respect non-overlap, so readings on which potency coexists
+    with possession are not excluded on this route. One `InPotency` runs
+    through d8024a38, the eternity premise, `IsImmutable InPotency` in the
+    attribute-sufficiency premise and the conclusion: adopting the passive
+    reading for d8024a38 makes PURE_ACT_1 here "no passive potency in any
+    respect", and the eternity and attribute-sufficiency premises must be
+    warranted on that same reading.
+  - Rival. A being simple in the SIMPLE_4 sense with an unrealized passive
+    potency rejects d8024a38. It rejects 61ad11f3 at the root as well, so it
+    does not favour either bundle over the other. Its further commitment is
+    derived informally: `Composite` is untimed and cb1cdea9 is indexed to the
+    one world w, so "would become composite" is not expressible in the
+    bundle. It rests on two analyst bridges: (i) realizing a passive potency
+    is receiving an accident, so subject/accident composition in the SIMPLE_4
+    sense applies; (ii) the bundle's w-indexed premises, including ca07cae9
+    and cb1cdea9, still hold of the realized state, with the root an actual
+    concretum there. Under (i) and (ii), a root that realized the potency would
+    be composite, and by ca07cae9 with cb1cdea9 it would have a distinct
+    actual concrete ground and stop being a root. So either the root's
+    potency can never be realized while the root remains a root, or ca07cae9
+    is restricted to fewer kinds of composition, which breaks the shared
+    sense on which the simplicity step relies. A third option is to reject
+    (ii); it stays open pending a time-indexed test. No conflict of this price
+    with an accepted floor item is recorded; the rival stays open.
 
 Provisional judgment: the routes need only that a first being has no potency.
 The strong reading's universal scope buys nothing on them. On the grounding

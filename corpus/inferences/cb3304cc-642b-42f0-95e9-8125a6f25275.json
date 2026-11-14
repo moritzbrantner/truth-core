@@ -1,0 +1,10 @@
+{
+  "id": "cb3304cc-642b-42f0-95e9-8125a6f25275",
+  "label": "Restricted and complete-description possibility transfer checked (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "5905c54b-e83b-4254-9688-f33874b54c58",
+  "rule": "Witness transfer through restricted inclusion; singleton description",
+  "meaning": "Refines the #438 all-predicate law: one description needs only inclusion on its own witnesses, and a complete description needs exactly one access edge. Full IncludedAt remains exact only for transfer of every predicate. Establishes no possibility claim about actual histories.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
