@@ -52,7 +52,7 @@ from that interpretation of the q.3 a.4 premises, not from any type condition.
 The first draft of this PR concluded `33ad148b` through a definitional bridge;
 Codex review (#1631) rightly objected that this certified efficiency by
 definition. That bridge and argument were withdrawn: nothing here supplies
-efficiency, and the vocabulary has no efficiency predicate on `CausesIn` with
+efficiency, and the vocabulary has no efficiency predicate on arbitrary causes of being with
 which an OPEN generic-to-efficient bridge could be stated so that it could
 fail.
 
@@ -132,7 +132,7 @@ here relates participation to real essence–esse distinction.
 alternatives: 469 -> 469"; "no change". The new statements do not reach the
 root. Connection plan and blocker: `33ad148b` reaches the root through
 `4876dc46` on the designated efficient-regress route `3b0f4fa5`; reaching it
-from `457698e4` needs (a) a typed efficiency predicate on causes of being in
+from `457698e4` needs (a) a typed efficiency predicate on arbitrary causes of being in
 the q.3 a.4 vocabulary and (b) an OPEN bridge from a distinct actual cause of a
 distinct esse to an efficient one, defended against the non-efficient
 (formal/structural) rivals below. Alternatively `457698e4` composes directly

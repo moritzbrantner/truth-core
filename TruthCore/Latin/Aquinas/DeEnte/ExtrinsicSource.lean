@@ -41,7 +41,7 @@ being other than x (`c ≠ x` only, not non-constituency) and in act as to
 being. It does not conclude the q.3 a.4 statement
 `DistinctEsseRequiresExternalCauseReading`, whose prose reads that cause as
 efficient: nothing here supplies efficiency, and the vocabulary has no
-efficiency predicate on `CausesIn` that an open bridge could state. A real distinction is represented,
+efficiency predicate on arbitrary causes of being that an open bridge could state. A real distinction is represented,
 as in q.3 a.4, by `esseOf x ≠ essenceOf x` in the common `Principle` sort; a
 merely conceptual distinction is the case `esseOf x = essenceOf x`, where the
 bridge is silent. No modality, time or conservation is built in:
