@@ -46,7 +46,7 @@ grounding, or which kind of ground is meant. Writing `Ex(x)` for
 the type. The labelling keeps beings and atoms as different types, but it does
 not make the atoms existence facts.
 
-The bundle is **strictly stronger than the target**.
+The bundle is **stronger than the target**.
 `mapForcesDistinctDependenceAcyclic`
 (`TruthCore/Results/Causality/DependenceStrictGroundMapStrength/`) verifies
 that consistency plus the map already force distinct-step `D` to have **no

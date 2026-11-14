@@ -9,7 +9,7 @@
   "inference_ids": [
     "210e2895-f3f6-46a3-82d5-267eb91c3a45"
   ],
-  "meaning": "Strength diagnostic for the structural-surrogate route: PLG consistency together with the dependence-to-strict-ground map already forces distinct-step D to have no finite cycle. The map premise is therefore strictly stronger than the nonmutuality it is used to support, and its warrant must be a warrant for acyclicity of D. The passage from dependence for being to formal strict ground runs only through the OPEN map premise (sense bridge); the atoms stay uninterpreted. Neither input is established, and no well-foundedness or converse embedding claim follows.",
+  "meaning": "Strength diagnostic for the structural-surrogate route: PLG consistency together with the dependence-to-strict-ground map already forces distinct-step D to have no finite cycle. The map premise therefore commits to more than the nonmutuality it is used to support, and its warrant must be a warrant for acyclicity of D. The passage from dependence for being to formal strict ground runs only through the OPEN map premise (sense bridge); the atoms stay uninterpreted. Neither input is established, and no well-foundedness or converse embedding claim follows.",
   "definition_ids": [
     "bf26b9b2-41ed-55b0-9557-dae90ab9b81f",
     "df5284cb-8f1f-5b61-9b1c-ee4c1544b469",

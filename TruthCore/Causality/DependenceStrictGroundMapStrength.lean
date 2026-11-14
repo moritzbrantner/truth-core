@@ -18,9 +18,11 @@ def DistinctEdge {B : Type} (D : B → B → Prop) (x y : B) : Prop :=
 
 /-- Structural acyclicity of distinct-step dependence: no finite chain of
 `DistinctEdge D` steps (Mathlib `Relation.TransGen`) returns to its start.
-This is a property of the relation `D` alone. It is strictly stronger than
+This is a property of the relation `D` alone. It implies
 `DistinctBeingsNotMutuallyDependent D`, which excludes only two-step cycles,
-and it says nothing about infinite descent or well-foundedness. -/
+and also excludes longer cycles (that strictness is elementary and not
+separately certified). It says nothing about infinite descent or
+well-foundedness. -/
 def DistinctDependenceAcyclic {B : Type} (D : B → B → Prop) : Prop :=
   ∀ x, ¬ Relation.TransGen (DistinctEdge D) x x
 
