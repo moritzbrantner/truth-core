@@ -14,8 +14,15 @@ its existence are not interchangeable without a bridge.
 | Label | Selected sense / precise question | Current formal home | Status |
 | --- | --- | --- | --- |
 | A: modal necessity | Does **this being** exist at every world accessible from the selected world? | `NecessaryAt m w x` in `German/Kant/CosmologicalInference` | Defined; modal scope is frame-relative. |
-| B: own essential existence | Is **this being's existence fact** included in **its own nature**? | `OwnEssentialExistence p x` in `Explanation/EssenceReasonSeparation` | Analyst primitive `InEssence x (.fact x)`; essence semantics deliberately open. |
-| C: sufficient intrinsic explanation | Does this being's nature adequately explain **why its existence fact obtains**? | Existing `ExistencePSR.Reason.intrinsic` and `CandidateIntrinsicReason p w x`; modal-sufficiency analogue `BruteFoundationExplanations.NecessitatesExistenceAt` | A *candidate token* and `explains` assignment do not prove adequacy; necessitation is a separately defined stronger condition, not by itself complete metaphysical explanation. |
+| B: own essential existence | Is **this being's existence fact** included in **its own nature**? | `OwnEssentialExistence p x` in `Explanation/EssenceReasonSeparation` (sense NECESSARY_EXISTENCE_BY_OWN_NATURE_3) | Analyst primitive `InEssence x (.fact x)`; essence semantics deliberately open. Not `ExistenceIngredient.essential b`, which only labels an essential-existence fact in a ground record and has no bearer whose nature includes it; no bridge between the two is encoded. |
+| C: sufficient intrinsic explanation | Does this being's nature adequately explain **why its existence fact obtains**? | Existing `ExistencePSR.Reason.intrinsic` and `CandidateIntrinsicReason p w x` (sense NECESSARY_EXISTENCE_BY_OWN_NATURE_4); modal-sufficiency analogue `BruteFoundationExplanations.NecessitatesExistenceAt`, usable only through an OPEN type bridge (see item 2) | A *candidate token* and `explains` assignment do not prove adequacy; necessitation is a separately defined stronger condition, not by itself complete metaphysical explanation. |
+
+The sourced sense NECESSARY_EXISTENCE_BY_OWN_NATURE_1 (DEF-NECESSARY-EXISTENCE-RELATIVE-OWN-NATURE:
+"essential existence or existence grounded in the bearer's own essence") is
+indeterminate between B and C. The disambiguation
+DISAMB-ESSENTIAL-VS-ACCESSIBLE-EXISTENCE now records B and C as sibling senses
+_3 and _4 with distinct Lean declarations; a use of the sourced sense must say
+which reading it takes, and B → C is an open bridge.
 | D: existential underivedness | Is **this being's existence** unsupported by distinct prior bearers (under a specified support relation)? | `NoExistingSupportAt`, `ActualUnderivedEssenceIdentity` in `Causality/ActualUnderivedEssenceEsse` | Typed, but dependent on the chosen support relation and selected-world / all-world quantifiers. |
 | E: essence–esse identity | Is a bearer's *essence of* and *act of existence of* represented by the same actuality? | `p.esseOf n = p.essenceOf n` in `Causality/ActualUnderivedEssenceEsse` | Defined in an explicit Thomistic profile; not synonymous by definition with A–D. |
 
@@ -29,6 +36,19 @@ its existence are not interchangeable without a bridge.
    They refute automatic *logical* identifications of these primitive formal
    relations; they are **not** evidence that the metaphysical readings are
    jointly possible, nor that candidate C is genuinely sufficient C.
+   The first control assigns no explanation at all, so it violates
+   `ExistencePSR`, the context of the target
+   `STMT-NECESSARY-GROUND-HAS-INTRINSIC-REASON` (*Monadology* §45). Restoring
+   that context does not remove the separation:
+   `psr_keeps_nature_without_intrinsic_reason` gives a sound PSR model with
+   `A ∧ B ∧ ¬CandidateC` (only a circumstance token explains). Restoring it
+   does change where the candidate token comes from:
+   `candidate_intrinsic_of_psr_without_other_reasons` derives `CandidateC`
+   from `ExistencePSR` plus "no circumstance token and no other bearer's
+   intrinsic token explains this fact", **without using B**. So on the
+   target's own PSR route the candidate token is supplied by PSR and the
+   exclusion of external reasons; the live gap is the adequacy of that token,
+   not B → candidate C.
 2. **B and C are not lexical synonyms on the current meanings.** A claim that
    existence belongs to a being's essence is not yet an account of how that
    essence explains the actuality of its bearer. The precise bridge under
@@ -38,7 +58,15 @@ its existence are not interchangeable without a bridge.
    sufficiency test** rather than inventing another. Its existing theorem
    `necessaryReasonAndNecessitation` already proves that a reason necessary
    across the frame *and* sufficient in this sense entails A; neither
-   premise follows from essence membership alone.
+   premise follows from essence membership alone. That reuse needs an OPEN
+   type bridge: `NecessitatesExistenceAt` lives on `ExplanationProfile`
+   (with `reasonPresent` and `explains : W → R → Being → Prop`), whereas
+   `ExistencePSR.Model` has no presence predicate and explains
+   `ExistenceFact`s. The bridge must say when `.intrinsic x` is *present*.
+   If presence just means that x exists, `NecessitatesExistenceAt` is
+   tautologous and `necessaryReasonAndNecessitation` reduces to
+   `NecessaryAt → NecessaryAt`. It is a substantive test only if presence
+   means that x's nature obtains independently of x's existence.
 3. **B and modal dependence have different subjects of attribution.**
    `EssenceRequiresExistence p x y` means the nature of **x** requires the
    existence of **y**. `ModalRequiresExistence p w x y` means that in every
@@ -46,7 +74,9 @@ its existence are not interchangeable without a bridge.
    the modal claim is automatic for every x. In a finite model, both x and y
    necessarily exist and mutually modally require one another, while only
    x's essence is stipulated to require y's existence. Thus modal
-   co-presence cannot recover source-indexed priority.
+   co-presence does not determine the direction of essence-indexed
+   requirement. (`EssenceRequiresExistence` carries no order laws, so this
+   says nothing about priority.)
 4. **C and D are not converses without further premises.** A noncausal
    intrinsic reason for an existence fact does not by itself exclude other
    supporters; and merely excluding external supporters does not manufacture
@@ -182,8 +212,11 @@ and [Spinoza, *Ethics* I def.1, prop.7](https://en.wikisource.org/wiki/Ethics_(S
 independence/priority usage identified in #1595. Formulate a typed
 source-indexed connection from a being's **nature** to its reason token,
 **reusing** `BruteFoundationExplanations.NecessitatesExistenceAt` for the
-necessitating component; do not assume that modal sufficiency alone exhausts
-adequacy. Investigate the conditions under which **B** plus modal-essence
+necessitating component once the presence bridge of item 2 is stated; do not
+assume that modal sufficiency alone exhausts adequacy. B → C is not the only
+route to the candidate token: under the target's PSR context it follows from
+PSR plus excluding other reasons (item 1), so the open question there is the
+token's adequacy. Investigate the conditions under which **B** plus modal-essence
 realization yields **A**, or **E** plus an essential-reason principle yields
 **C**. Preserve
 each bridge as an open premise until its semantic and argumentative warrant

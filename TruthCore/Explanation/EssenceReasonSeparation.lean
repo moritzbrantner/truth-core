@@ -14,6 +14,18 @@ The existing `Reason.intrinsic` is only a candidate explanation token; the
 models do not certify philosophical explanatory adequacy. The controls below
 establish logical non-entailments for these selected meanings, not the
 metaphysical possibility of the interpretations.
+
+`InEssence` does not reuse `ExistenceIngredient.essential b`: that is only a
+label naming an essential-existence fact inside a ground record, with no
+bearer whose nature includes it. Here the bearer index is the point, since
+`EssenceRequiresExistence p x y` may hold for `x ≠ y`. No bridge between the
+two is encoded; reading `OwnEssentialExistence p x` as "the labelled fact
+`essential x` obtains" would be a separate, open identification.
+
+`OwnEssentialExistence` (essence membership) and `CandidateIntrinsicReason`
+(an intrinsic explanation token) are distinct registered senses of
+NECESSARY_EXISTENCE_BY_OWN_NATURE; passing from the first to the second is an
+open bridge, not a definition.
 -/
 
 @[expose] public section
@@ -113,5 +125,51 @@ def SeparationControls : Prop :=
     ¬ EssenceRequiresExistence p true false ∧
     ¬ p.explanation.ontic.Causes false false true ∧
     ¬ p.explanation.ontic.Causes false true false)
+
+/-! ### The existence-PSR context of the target bridge
+
+The first control has no explanations at all, so it violates `ExistencePSR`.
+The two facts below are not registered results; they record where the
+candidate token comes from once the PSR context of the necessary-ground
+target is restored. -/
+
+/-- Control (1) with `ExistencePSR` restored: every existence fact has only a
+circumstance token, so essence membership still holds without a candidate
+intrinsic reason. -/
+def natureWithCircumstanceReason : Profile Bool Bool where
+  explanation :=
+    { ontic := alwaysExists, explains := fun _ r _ => r = .circumstance true }
+  InEssence := fun x fact => x = false ∧ fact = .fact false
+
+/-- Restoring `ExistencePSR` keeps `B ∧ ¬CandidateC` satisfiable. -/
+theorem psr_keeps_nature_without_intrinsic_reason :
+    Sound natureWithCircumstanceReason.explanation ∧
+    ExistencePSR natureWithCircumstanceReason.explanation ∧
+    NecessaryAt natureWithCircumstanceReason.explanation.ontic false false ∧
+    OwnEssentialExistence natureWithCircumstanceReason false ∧
+    ¬ CandidateIntrinsicReason natureWithCircumstanceReason false false := by
+  refine ⟨fun _ _ _ _ => trivial, fun _ _ _ => ⟨.circumstance true, rfl⟩,
+    fun _ _ => trivial, ⟨rfl, rfl⟩, ?_⟩
+  intro h
+  cases h
+
+/-- Under `ExistencePSR`, an existent whose existence fact is explained by no
+circumstance token and by no other being's intrinsic token is explained by its
+own intrinsic token. Essence membership is not used: the candidate token comes
+from the PSR and the exclusions, whether or not `OwnEssentialExistence` holds.
+Its adequacy as an explanation remains open. -/
+theorem candidate_intrinsic_of_psr_without_other_reasons (p : Profile W B)
+    (hpsr : ExistencePSR p.explanation) (w : W) (x : B)
+    (hx : p.explanation.ontic.ExistsAt w x)
+    (hnoCirc : ∀ y, ¬ p.explanation.explains w (.circumstance y) (.fact x))
+    (hbearer : ∀ y, p.explanation.explains w (.intrinsic y) (.fact x) → y = x) :
+    CandidateIntrinsicReason p w x := by
+  obtain ⟨r, hr⟩ := hpsr w x hx
+  cases r with
+  | circumstance y => exact absurd hr (hnoCirc y)
+  | intrinsic y =>
+    have hy := hbearer y hr
+    subst hy
+    exact hr
 
 end TruthCore.Explanation.EssenceReasonSeparation

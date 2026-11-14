@@ -1,0 +1,9 @@
+{
+  "id": "72a1e556-042a-4358-a8a0-a2a87cc036d6",
+  "label": "NECESSARY_EXISTENCE_BY_OWN_NATURE_3: own existence fact belongs to the bearer's essence",
+  "term": "own essential existence (essence membership)",
+  "definition": "In the selected analyst profile, OwnEssentialExistence p x holds exactly when the fact that x exists is recorded as belonging to x's own essence (p.InEssence x (ExistenceFact.fact x)). It is the essence-membership reading of existence by own nature. It asserts no explanation: whether a reason token, or x's nature, actually explains why x's existence fact obtains is the separate sense NECESSARY_EXISTENCE_BY_OWN_NATURE_4, and it is not defined by the modal predicate NecessaryAt.",
+  "basis": "stipulative",
+  "note": "Analyst sibling reading of the sourced sense DEF-NECESSARY-EXISTENCE-RELATIVE-OWN-NATURE, whose wording ('essential existence or existence grounded in the bearer's own essence') is indeterminate between this sense and the explanatory sense. Attribution of this reading to a source is deferred. InEssence is primitive: what belongs to a nature, and whether essence membership necessitates modal truth or explains existence, remain OPEN bridges.",
+  "lean_declaration": "TruthCore.Explanation.EssenceReasonSeparation.OwnEssentialExistence"
+}
