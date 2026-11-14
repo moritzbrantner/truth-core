@@ -1,0 +1,11 @@
+{
+  "id": "8cd95493-a6d4-409b-b380-fe4714f8b2ad",
+  "label": "SCG I.22 inseparable union of per se necessary esse cannot depend on its essence",
+  "paraphrase": "At a selected world, for every esse e that is per se necessary in the dependence sense (PER_SE_NECESSARY_2: exists there and nothing other than e causes its necessity) and every q distinct from e, if e is joined to q and cannot be understood without q, then the joining of e to q does not depend on q. This is n.3's own description of the union ruled out for the inseparable case (n.2 horn (i) returns), conditional on the second n.4 case and n.2's per se clause; it says nothing about separable unions or about joinings that depend on nothing.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaContraGentiles.BookI.Chapter22SecondCase.EssenceDependentInseparableUnionExcludedAt",
+  "definition_ids": [
+    "d9716c00-9d36-4814-9ee5-456eb0bf7dce",
+    "d421e2c9-4eb2-4bef-bb63-6c502c7732b4",
+    "b18c2550-e953-42d4-817c-cc6805cf5004"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "b7a4a82c-199c-4796-b9eb-eecdf82c5e34",
+  "label": "SCG I.22 joined distinct principles fall under the dependence trilemma",
+  "paraphrase": "OPEN analyst coarsening of SCG I.22 n.2's dilemma and consonance trilemma, attribution deferred: at a selected world, for every esse e joined to a represented principle q distinct from e, either some s other than e is such that e depends absolutely on s or the joining of e to q depends on s (horns (i) and (ii), only in what they share, with n.3's conjunction refinement), or q depends on e (horn (iii)). The repugnance branch is omitted because a joined pair is one to which the esse belongs. Weaker than the text in its disjuncts, broader in domain: n.2 states the trilemma only of 'hoc esse quod necesse est', while this premise quantifies over every joined pair of distinct principles; the results apply it only where e is per se necessary. This coverage claim is exactly what a co-fundamental union of distinct principles denies.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaContraGentiles.BookI.Chapter22SecondCase.JoinedDistinctTrilemmaCoverage",
+  "definition_ids": [
+    "d421e2c9-4eb2-4bef-bb63-6c502c7732b4",
+    "b18c2550-e953-42d4-817c-cc6805cf5004"
+  ]
+}

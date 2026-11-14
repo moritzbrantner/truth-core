@@ -1,0 +1,11 @@
+{
+  "id": "8f2b84e3-da3c-41d6-a46e-4c119217afa5",
+  "label": "SCG I.22 joined distinct quiddity is not the per se necessary bearer's quiddity",
+  "paraphrase": "At a selected world, for every bearer x: if x's represented esse e is per se necessary in the dependence sense (PER_SE_NECESSARY_2), x is ontically identified with e, and e is joined to x's proposed quiddity q with q distinct from e as represented principles, then q is not x's genuine quiddity. Conditional on the analyst-coarsened n.2 coverage, n.2's per se clause and horn (iii) accident principle, both n.4 cases, and the accident-not-quiddity premise. It does not assert that x's actual q.3 essence equals its esse, and nothing here asserts that such a bearer exists.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaContraGentiles.BookI.Chapter22SecondCase.JoinedDistinctQuiddityRejectedAt",
+  "definition_ids": [
+    "d9716c00-9d36-4814-9ee5-456eb0bf7dce",
+    "d421e2c9-4eb2-4bef-bb63-6c502c7732b4",
+    "b18c2550-e953-42d4-817c-cc6805cf5004"
+  ]
+}

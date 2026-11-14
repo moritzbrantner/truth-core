@@ -1,0 +1,15 @@
+{
+  "id": "519d441b-d610-42aa-ad83-92cc0b2f4005",
+  "label": "SCG I.22 both n.4 cases reject a dependently joined quiddity (inference)",
+  "input_statement_ids": [
+    "8d28134d-3ace-4804-9290-ca85bc4777fe",
+    "b492a7ae-e3de-4d6d-ac56-aabeaf5b0f2d",
+    "c439eaef-97fa-48c4-bb51-e502cc23e9c9",
+    "022ef8cb-eeb1-44a5-afa5-fb5ace2d00f1"
+  ],
+  "output_statement_id": "15202335-3833-461d-a621-98bba7e1055f",
+  "rule": "Constructive case split on intelligibility apart: the first case makes q accidental and not quiddity, so a genuine quiddity is inseparable; the second case and the per se clause then contradict per se necessity",
+  "meaning": "Formalizes the whole two-case n.4 reply in the dependence sense PER_SE_NECESSARY_2, reusing the first-case premises of PR #1602 without its modal-to-intelligibility bridge. Non-transcription: the conclusion follows by a constructive case split over the OPEN premises and the definition. It rejects only a proposed quiddity whose joining has a source other than the esse; a joining with no source or sourced only in the esse is outside it. No premise or root obligation is discharged; attribution deferred.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

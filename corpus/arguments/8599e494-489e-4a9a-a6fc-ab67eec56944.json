@@ -1,0 +1,30 @@
+{
+  "id": "8599e494-489e-4a9a-a6fc-ab67eec56944",
+  "label": "SCG I.22 union causation gives a non-unified union a source not other than the esse",
+  "premise_statement_ids": [
+    "6f3710f1-10f4-4708-8dd4-cb53eb542344",
+    "8d28134d-3ace-4804-9290-ca85bc4777fe",
+    "b492a7ae-e3de-4d6d-ac56-aabeaf5b0f2d",
+    "c439eaef-97fa-48c4-bb51-e502cc23e9c9",
+    "022ef8cb-eeb1-44a5-afa5-fb5ace2d00f1"
+  ],
+  "conclusion_statement_id": "6e46d10e-ca4e-47d4-b45d-dd3ec0dda2ce",
+  "inference_ids": [
+    "6bd81dcc-2711-448d-bdf3-dbbf1e5f75dd"
+  ],
+  "meaning": "Composes n.6's union causation with the two-case n.4 theorem, in the dependence sense PER_SE_NECESSARY_2, without n.2 coverage. Non-transcription: it reuses dependent_conjunction_not_quiddity on the source supplied by n.6. A genuine quiddity joined to a per se necessary esse must either be one per se with it (the co-fundamental option) or have a joining source that is not other than the esse (constructively: some s with not s ≠ e; the bound type does not say every source is the esse, though by dependent_conjunction_not_quiddity under the same premises no source is other than it). This self-sourced residual is not refuted here; n.6's self-causation clause is not encoded. Attribution deferred; no root obligation is discharged.",
+  "term_senses": {
+    "PER_SE_NECESSARY": "b0cc25e1-c3dd-4feb-a567-d7a581592824"
+  },
+  "definition_ids": [
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "183b48d2-1753-583d-aef9-4199cff86231",
+    "b18c2550-e953-42d4-817c-cc6805cf5004",
+    "d421e2c9-4eb2-4bef-bb63-6c502c7732b4",
+    "d9716c00-9d36-4814-9ee5-456eb0bf7dce"
+  ],
+  "disambiguation_ids": [
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "a4b9e53e-d4d9-4f15-bc7f-e5fa913a96ea"
+  ]
+}

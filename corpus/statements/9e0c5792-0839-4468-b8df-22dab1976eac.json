@@ -1,0 +1,10 @@
+{
+  "id": "9e0c5792-0839-4468-b8df-22dab1976eac",
+  "label": "SCG I.22 what follows on esse is accidental to it",
+  "paraphrase": "OPEN selected reading of SCG I.22 n.2 horn (iii) ('omne quod sequitur ad esse rei, est ei accidentale'), attribution deferred: for every q and esse e, if q depends on e, then q is accidental to e in the ontic sense of the #1602 profile (adventitious relative to that esse, not chance or contingent truth).",
+  "lean_declaration": "TruthCore.Latin.Aquinas.SummaContraGentiles.BookI.Chapter22SecondCase.ConsequentOfEsseIsAccidental",
+  "definition_ids": [
+    "d421e2c9-4eb2-4bef-bb63-6c502c7732b4",
+    "b18c2550-e953-42d4-817c-cc6805cf5004"
+  ]
+}

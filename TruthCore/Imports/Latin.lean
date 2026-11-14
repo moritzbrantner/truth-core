@@ -7,6 +7,7 @@ public import TruthCore.Latin.Aquinas.InMetaphysicam.BookIX
 public import TruthCore.Latin.Aquinas.InMetaphysicam.BookXII
 public import TruthCore.Latin.Aquinas.SummaContraGentiles.BookI.Chapter13
 public import TruthCore.Latin.Aquinas.SummaContraGentiles.BookI.Chapter22Conjunction
+public import TruthCore.Latin.Aquinas.SummaContraGentiles.BookI.Chapter22SecondCase
 public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.ActPotencyTheory
 public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.ActPriorFromIncorruptible
 public import TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.ActPriorFromMotion

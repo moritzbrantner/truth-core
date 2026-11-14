@@ -1,0 +1,27 @@
+{
+  "id": "ac9ce3e8-847b-4011-8fb3-ba9e287a8bd7",
+  "label": "SCG I.22 second case excludes an essence-dependent inseparable union",
+  "premise_statement_ids": [
+    "c439eaef-97fa-48c4-bb51-e502cc23e9c9",
+    "022ef8cb-eeb1-44a5-afa5-fb5ace2d00f1"
+  ],
+  "conclusion_statement_id": "8cd95493-a6d4-409b-b380-fe4714f8b2ad",
+  "inference_ids": [
+    "04e558f1-24e7-4636-8b82-0a1d24c8f5dd"
+  ],
+  "meaning": "Control (a) of the #1602 semantic challenge in general form, in the dependence sense PER_SE_NECESSARY_2. A short derivation: the conclusion is the consequent of neither OPEN premise; it chains both through the definition of per se necessity. It shows that, given the second n.4 case and n.2's clause, n.3's own description of the union (the esse depends on the essence for its conjunction) is inconsistent with per se necessity whenever the union is inseparable. No premise or root obligation is discharged.",
+  "term_senses": {
+    "PER_SE_NECESSARY": "b0cc25e1-c3dd-4feb-a567-d7a581592824"
+  },
+  "definition_ids": [
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "183b48d2-1753-583d-aef9-4199cff86231",
+    "b18c2550-e953-42d4-817c-cc6805cf5004",
+    "d421e2c9-4eb2-4bef-bb63-6c502c7732b4",
+    "d9716c00-9d36-4814-9ee5-456eb0bf7dce"
+  ],
+  "disambiguation_ids": [
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "a4b9e53e-d4d9-4f15-bc7f-e5fa913a96ea"
+  ]
+}
