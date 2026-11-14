@@ -206,6 +206,7 @@ public import TruthCore.Results.Causality.NecessaryBeingInAct.Solution
 public import TruthCore.Results.Causality.NecessaryClassicalGodCase.Solution
 public import TruthCore.Results.Causality.NecessaryClassicalGodRoot.Solution
 public import TruthCore.Results.Causality.NecessaryClassicalGodRootAtFirst.Solution
+public import TruthCore.Results.Causality.NecessaryClassicalGodRootByComposition.Solution
 public import TruthCore.Results.Causality.NecessaryClassicalGodRootControl.Solution
 public import TruthCore.Results.Causality.NecessaryClassicalGodRootFromAsymmetry.Solution
 public import TruthCore.Results.Causality.NecessaryClassicalGodRootFromUnderived.Registration.Solution
