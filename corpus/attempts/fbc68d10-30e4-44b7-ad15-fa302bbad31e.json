@@ -1,0 +1,25 @@
+{
+  "id": "fbc68d10-30e4-44b7-ad15-fa302bbad31e",
+  "label": "De ente c.3 nature-or-extrinsic inference: efficiency sense bridge isolated, sibling route",
+  "statement_ids": [
+    "457698e4-eb21-4561-ab32-eccbfb0a992e",
+    "33ad148b-ceab-5856-a4f8-c999a1dba644",
+    "d1f3ffcc-04f2-4683-b385-2bfb2baf3f10",
+    "75919560-1efc-4aba-b739-f57c3fdb079f",
+    "600f91cb-ac5e-4283-b078-26b941fe2211",
+    "8592601e-a5ea-4924-ac9f-095cd0050a71",
+    "a2800f45-c1d4-47f3-bf3f-738fb128c088",
+    "b62a64ab-ac11-569a-b8e8-de51a74b058f"
+  ],
+  "date": "2026-11-14",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Issue #1629. Materialized and read AQUINAS-DE-ENTE-C3-4 (Baur/Koch c.3 [69874] = Leonine c.4). Reuse: truth related/dossier on the participation route (ff8ff869, 732302a1, cb1cdea9) and the q.3 a.4 route (be639b3f, 61bd42e5, transcription af503cd7 to 33ad148b, consumed on the designated efficient-regress route via 4876dc46). Sourced three readings: the nature-or-extrinsic disjunction over everything that belongs to a thing (75919560, nature disjunct mode-unspecified, NATURE_SOURCE_1), the conditional that efficient causing by the quiddity would be self-causation (a2800f45, NATURE_SOURCE_2), and the impossibility of being one's own cause / producing oneself in being on existing b62a64ab (generic scope noted as resting on 'sui ipsius causa'). Findings: (1) the exact extra premise turning 'not self-caused' into 'caused by another' is d1f3ffcc, every actual distinct esse has some cause of being; with no self-causation and the actuality of causes of being it gives the mode-unspecified 457698e4, another actual cause of being (8477d8c7). After Codex review on #1631 this is NOT registered as the efficient-cause q.3 a.4 statement 33ad148b: no premise supplies efficiency and the vocabulary has no efficiency predicate on arbitrary causes of being; the earlier definitional bridge into 33ad148b was withdrawn. (2) In De ente's vocabulary d1f3ffcc comes from the efficiently read exhaustiveness 8592601e plus the self-causation reading (44eef980), and 8592601e from the literal disjunction only through the OPEN sense bridge 600f91cb (42a89226). (3) The literal disjunction does not suffice: in FormalNatureControl (08275113; 'formal' is a label for an unconstrained non-efficient nature source) the disjunction, self-causation reading, no-self-causation and actuality of causes of being hold with no other cause. The conclusion certifies a distinct (c distinct from x, not non-constituent), actual cause of being, mode unspecified. Rejected readings: the literal disjunction as sufficient; 'extrinsic' as non-constituent (stronger than needed); modal necessity as a separate rival (reduces to the intrinsic or brute row); citing 'forma dat esse materiae' as the passage granting a formal nature source of esse (it concerns form and matter; the formal reading is the standard Thomist gloss). Provisional judgment (docs/notes/de-ente-extrinsic-source-1629.md, revised after the semantic challenge): conditional on real distinction, the inference is valid exactly with causal coverage of distinct esse; received esse has an explanatory-scope advantage over brute esse but no substantive test is failed by brute esse here; strongest rival to the De ente inference is a non-efficient intrinsic nature account (price: account for actuality without being an agent, #1621's adequacy question for distinct esse); strongest rival overall is brute esse (price: a stopping point at a composite, with the #746 stopping-criterion burden). Existential inertia bears only on present sustaining; the conclusion is tenseless. No premise established; no root-route statement changes status.",
+  "evidence": [
+    "8477d8c7-db6c-48de-bf99-18eacf146886",
+    "44eef980-bf4a-487a-bfea-1a0fa5ff6f8e",
+    "42a89226-2e1a-4da3-bf34-74e1bd775d27",
+    "08275113-da24-4510-ab91-1d2553eb1c88"
+  ],
+  "blocker": "Root connection: 457698e4 does not reach the root; reaching 33ad148b (efficient cause, on the designated route via 4876dc46) needs a typed efficiency predicate on arbitrary causes of being and an OPEN generic-to-efficient bridge, which the current vocabulary cannot state. Open: d1f3ffcc (causal coverage of distinct esse) and, for its De ente decomposition, the efficiency bridge 600f91cb (next test: derive it from a specify-versus-actualize principle, or model a non-agent non-identical accounting principle); the real distinction itself (De ente's intellectus-essentiae argument not formalized); the #319 connection (root-essence identity compositions consume the q.3 a.4 pair directly; a sibling consuming 33ad148b is needed). #1496's contingent-concreta target needs a contingency-to-real-distinction bridge."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "05c81e70-cd94-4989-bc95-3f57f5d404dd",
+  "label": "Every distinct esse has some cause, from De ente's exhaustiveness and self-causation",
+  "premise_statement_ids": [
+    "8592601e-a5ea-4924-ac9f-095cd0050a71",
+    "a2800f45-c1d4-47f3-bf3f-738fb128c088"
+  ],
+  "conclusion_statement_id": "d1f3ffcc-04f2-4683-b385-2bfb2baf3f10",
+  "inference_ids": [
+    "fd7bb09c-96fe-48c7-8f49-2e2c8b858835"
+  ],
+  "meaning": "The De ente decomposition of the extra premise: the efficiently read nature-or-other exhaustiveness (NATURE_SOURCE_2) and the De ente self-causation reading give every actual distinct esse some cause of being (possibly the thing itself, which no-self-causation then excludes downstream). Composed with the step from caused to caused by another, this reconstructs the De ente c.3 [69874] inference (Baur/Koch; Leonine c.4) as three sourced or open inputs plus the efficiency bridge one level up.",
+  "definition_ids": [
+    "4d6a0f0e-637a-4f1c-bf86-ac082b139de5",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "0ea9feb8-1f92-5b11-aa74-2f2e567c6106"
+  ],
+  "disambiguation_ids": [
+    "87ac7ae0-4235-4d08-bdf6-bc367251c6bd"
+  ]
+}

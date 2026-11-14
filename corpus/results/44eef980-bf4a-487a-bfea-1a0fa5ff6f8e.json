@@ -1,0 +1,11 @@
+{
+  "id": "44eef980-bf4a-487a-bfea-1a0fa5ff6f8e",
+  "label": "Every distinct esse has some cause, from De ente's exhaustiveness and self-causation",
+  "argument_id": "05c81e70-cd94-4989-bc95-3f57f5d404dd",
+  "challenge_module": "TruthCore.Results.Aquinas.DeEnte.ExtrinsicSource.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.DeEnte.ExtrinsicSource.Solution",
+  "theorem": "TruthCore.Results.Aquinas.DeEnte.ExtrinsicSource.distinctEsseCausedFromDeEnte",
+  "comparator_config": "results/44eef980-bf4a-487a-bfea-1a0fa5ff6f8e/comparator.json",
+  "status": "solution-present",
+  "description": "The De ente decomposition of the extra premise: the efficiently read nature-or-other exhaustiveness (NATURE_SOURCE_2) and the De ente self-causation reading give every actual distinct esse some cause of being (possibly the thing itself, which no-self-causation then excludes downstream). Composed with the step from caused to caused by another, this reconstructs the De ente c.3 [69874] inference (Baur/Koch; Leonine c.4) as three sourced or open inputs plus the efficiency bridge one level up."
+}

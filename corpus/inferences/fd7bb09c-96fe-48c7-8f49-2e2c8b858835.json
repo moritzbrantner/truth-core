@@ -1,0 +1,13 @@
+{
+  "id": "fd7bb09c-96fe-48c7-8f49-2e2c8b858835",
+  "label": "Every distinct esse has some cause, from De ente's exhaustiveness and self-causation (inference)",
+  "input_statement_ids": [
+    "8592601e-a5ea-4924-ac9f-095cd0050a71",
+    "a2800f45-c1d4-47f3-bf3f-738fb128c088"
+  ],
+  "output_statement_id": "d1f3ffcc-04f2-4683-b385-2bfb2baf3f10",
+  "rule": "Case split on the weak exhaustiveness: the quiddity horn gives the thing itself as cause by the self-causation reading; the other horn gives the other cause",
+  "meaning": "The De ente decomposition of the extra premise: the efficiently read nature-or-other exhaustiveness (NATURE_SOURCE_2) and the De ente self-causation reading give every actual distinct esse some cause of being (possibly the thing itself, which no-self-causation then excludes downstream). Composed with the step from caused to caused by another, this reconstructs the De ente c.3 [69874] inference (Baur/Koch; Leonine c.4) as three sourced or open inputs plus the efficiency bridge one level up.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

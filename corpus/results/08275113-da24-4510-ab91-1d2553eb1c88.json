@@ -1,0 +1,11 @@
+{
+  "id": "08275113-da24-4510-ab91-1d2553eb1c88",
+  "label": "De ente extrinsic-source controls",
+  "argument_id": "178216aa-e97c-41d2-88bf-ce175e7834d2",
+  "challenge_module": "TruthCore.Results.Aquinas.DeEnte.ExtrinsicSource.Challenge",
+  "solution_module": "TruthCore.Results.Aquinas.DeEnte.ExtrinsicSource.Solution",
+  "theorem": "TruthCore.Results.Aquinas.DeEnte.ExtrinsicSource.extrinsicSourceControls",
+  "comparator_config": "results/08275113-da24-4510-ab91-1d2553eb1c88/comparator.json",
+  "status": "solution-present",
+  "description": "Closed controls for the De ente extrinsic-source route. Each open input fails in one interpretation and the conclusion fails there: the literal disjunction together with the weak exhaustiveness and some-cause (brute esse), the efficiency bridge with the weak exhaustiveness and some-cause downstream of it (formal nature, a label for an unconstrained non-efficient nature source), no-self-causation (self-cause), the self-causation reading with some-cause downstream (unrealized quiddity) and the actuality of causes of being (nonactual cause); one interpretation satisfies every input and the conclusion. These witness logical underdetermination under the encoded predicates only; they are not evidence that brute or formally sourced esse is possible or plausible."
+}

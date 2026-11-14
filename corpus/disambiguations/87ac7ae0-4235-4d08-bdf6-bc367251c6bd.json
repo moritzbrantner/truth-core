@@ -1,0 +1,25 @@
+{
+  "id": "87ac7ae0-4235-4d08-bdf6-bc367251c6bd",
+  "label": "Caused from a thing's nature: unspecified mode versus efficient causation by its quiddity",
+  "term": "caused from the principles of a thing's nature",
+  "term_label": "NATURE_SOURCE",
+  "resolution": "De ente c.3 [69874] (Baur/Koch; Leonine c.4) divides what belongs to a thing into what is 'causatum ex principiis naturae suae' and what 'advenit ab aliquo principio extrinseco', then rejects only that esse is caused by the thing's form or quiddity 'sicut a causa efficiente'. NATURE_SOURCE_1 (fromNature) is the literal disjunct with the mode of causation unspecified; NATURE_SOURCE_2 (quiddityEfficientlyCauses) is efficient causation by the quiddity, the sense of the rejection. The literal disjunction (NatureOrExtrinsicSourceReading) uses sense 1; the self-causation reading and the weak exhaustiveness DistinctEsseNatureOrOtherCause use sense 2. The only passage from sense 1 to sense 2 is the explicit OPEN analyst bridge NatureSourcedDistinctEsseIsEfficient, restricted to beings whose esse differs from their essence and listed as the sense bridge of the argument that derives the weak exhaustiveness. FormalNatureControl is a finite interpretation in which a distinct esse is from the nature in sense 1 but not in sense 2: there the literal disjunction and the rejection of efficient self-causation both hold and no other cause exists, so the inference to another cause passes through the bridge. 'Formal' is only a label there: fromNature is an unconstrained primitive, so the control shows that the two senses are independent, not how formal causation works. The bridge is kept non-definitional because the qualifier 'dico sicut a causa efficiente' suggests that a non-efficient causation of esse is in view, and because the standard Thomist gloss counts a form as a formal, non-efficient principle of being (the analyst's gloss; this passage's 'forma dat esse materiae' concerns form and matter, not a nature and its own subject's esse). No converse (sense 2 to sense 1) is asserted or needed.",
+  "sense_definition_ids": [
+    "b5ca3837-c09d-4fa0-8fe7-95ca1a2559ff",
+    "4d6a0f0e-637a-4f1c-bf86-ac082b139de5"
+  ],
+  "senses": [
+    {
+      "id": "be3f9464-6afa-463f-b8e9-dd9791e9cc96",
+      "label": "NATURE_SOURCE_1",
+      "definition_id": "b5ca3837-c09d-4fa0-8fe7-95ca1a2559ff",
+      "lean_declaration": "TruthCore.Latin.Aquinas.DeEnte.NatureSource.fromNature"
+    },
+    {
+      "id": "9e20e0c9-ca45-4687-831f-ce7f9a7be4e3",
+      "label": "NATURE_SOURCE_2",
+      "definition_id": "4d6a0f0e-637a-4f1c-bf86-ac082b139de5",
+      "lean_declaration": "TruthCore.Latin.Aquinas.DeEnte.NatureSource.quiddityEfficientlyCauses"
+    }
+  ]
+}

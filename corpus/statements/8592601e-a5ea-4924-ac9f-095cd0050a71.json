@@ -1,0 +1,15 @@
+{
+  "id": "8592601e-a5ea-4924-ac9f-095cd0050a71",
+  "label": "Every actual distinct esse is caused by its quiddity (NATURE_SOURCE_2) or by another",
+  "paraphrase": "OPEN analyst premise, the weakest exhaustiveness in De ente's vocabulary: for every x that actually exists with esse distinct from its essence, either x's own quiddity efficiently causes x's esse (NATURE_SOURCE_2) or some c other than x causes x's esse (CausesIn c x esse, the tenseless cause of being). Restricted to esse and to distinct-esse beings. With the self-causation reading it entails the vocabulary-free premise that every actual distinct esse has some cause of being. Brute esse, a non-efficient intrinsic account, and a non-causal global or structural explanation all reject it. Derived from the literal De ente disjunction only through the efficiency bridge.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.DeEnte.DistinctEsseNatureOrOtherCause",
+  "definition_ids": [
+    "4d6a0f0e-637a-4f1c-bf86-ac082b139de5",
+    "0ea9feb8-1f92-5b11-aa74-2f2e567c6106",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
+  ],
+  "disambiguation_ids": [
+    "87ac7ae0-4235-4d08-bdf6-bc367251c6bd"
+  ]
+}

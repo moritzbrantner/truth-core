@@ -1,0 +1,11 @@
+{
+  "id": "d1f3ffcc-04f2-4683-b385-2bfb2baf3f10",
+  "label": "Every actual distinct esse has some cause of being",
+  "paraphrase": "OPEN analyst premise, attribution deferred: for every x that actually exists with esse distinct from its essence (DistinctEsseAt), some c causes x's esse (CausesIn c x esse, the tenseless cause of being, mode not fixed by the type). It does not say that c is other than x. It is the exact extra premise that turns 'not self-caused' into 'caused by another': with no self-causation the cause is distinct. Brute esse rejects it; a non-causal intrinsic or structural account rejects it unless its explainer is counted as a being that causes x's esse. Its De ente decomposition is the efficiently read nature-or-other exhaustiveness plus the self-causation reading.",
+  "lean_declaration": "TruthCore.Latin.Aquinas.DeEnte.DistinctEsseHasSomeCause",
+  "definition_ids": [
+    "0ea9feb8-1f92-5b11-aa74-2f2e567c6106",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
+  ]
+}
