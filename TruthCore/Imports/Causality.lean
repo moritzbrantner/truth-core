@@ -4,6 +4,7 @@ module
 public import TruthCore.Causality.A10PreferentialExpectation
 public import TruthCore.Causality.AccidentalFeatureOrigin
 public import TruthCore.Causality.ActPriorityAtFirst
+public import TruthCore.Causality.ActPriorityThetaEight
 public import TruthCore.Causality.ActualCommonRoot
 public import TruthCore.Causality.ActualCoverNecessaryBeing
 public import TruthCore.Causality.ActualCoverStrictness

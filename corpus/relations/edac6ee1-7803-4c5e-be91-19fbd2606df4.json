@@ -1,0 +1,11 @@
+{
+  "id": "edac6ee1-7803-4c5e-be91-19fbd2606df4",
+  "label": "Only absent causers strengthens no existing cause of the whole",
+  "subject_kind": "statement",
+  "subject_id": "516be275-934a-59e1-bbb2-02fc3b57a936",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "ce2ca4eb-8d2b-5775-85b5-49f1497a4895",
+  "verification_result_id": "2a615dc1-eab4-5eff-a083-00b856367493",
+  "note": "Strength registration (2026-11-12 audit): Same Ontic, frame and world: drop the conjunct that some candidate cause edge exists."
+}

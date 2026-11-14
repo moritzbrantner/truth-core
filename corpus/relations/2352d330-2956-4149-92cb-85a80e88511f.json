@@ -1,0 +1,11 @@
+{
+  "id": "2352d330-2956-4149-92cb-85a80e88511f",
+  "label": "Set countercase strengthens the named-case disjunction",
+  "subject_kind": "statement",
+  "subject_id": "c9eb51d1-6902-5c79-904a-6ada74c12ceb",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "1c7cc2b9-1168-5948-bdf6-88ae7765b1f2",
+  "verification_result_id": "4c32c5b9-146c-5f5e-876f-ffc096383d1b",
+  "note": "Strength registration (2026-11-12 audit): Same frame: the set case is one disjunct of the named set, Form or mathematical cases."
+}

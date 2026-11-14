@@ -35,5 +35,8 @@
       "to": "018d4f0a-2276-42a7-b20d-b0fe6c9c3714",
       "statement_id": "e0088de9-28eb-533c-a1e7-662f780cc0e2"
     }
-  ]
+  ],
+  "strong_version_needed": {
+    "3d99779b-b44a-4daa-a873-8ccdd3c034ae": "The route takes act in some respect (STMT 8288ff1e), not act in being; the restriction to act in being suffices, for example, with STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING (or the Theta.8 incorruptibility premise with STMT-INCORRUPTIBLE-IS-IN-ACT-IN-SUBSTANCE, see firstBeingNoPotencyOfThetaEight), which this route does not assume."
+  }
 }

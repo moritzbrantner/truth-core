@@ -113,6 +113,9 @@ Two first-version premises were dropped, each for a substantive objection:
   restricted principle is silent exactly where A2 is needed. The objection is
   not evidence of an ungrounded beginning. A non-inductive ex nihilo warrant
   would not face it, but none is on file.
+  Creation ex nihilo read with Aquinas (ST I q.45 a.1 ad 3, q.46 a.1 ad 4-8,
+  public translation, source leads only) does not supply A3's earlier empty
+  moment either: creation can begin with time (attempt `f386034c`).
 - *Warrant.* Before this work no independent warrant for A2 was on file. Now
   A2 has one derivation from open, unsourced premises. Its universal scope over
   every possible history, including one with an empty moment, remains the

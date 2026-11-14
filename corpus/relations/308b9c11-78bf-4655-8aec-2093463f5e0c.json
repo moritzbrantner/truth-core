@@ -1,0 +1,11 @@
+{
+  "id": "308b9c11-78bf-4655-8aec-2093463f5e0c",
+  "label": "Local present-support acyclicity strengthens no single-world union cycle",
+  "subject_kind": "statement",
+  "subject_id": "3c19595b-f061-5ceb-942b-1c0ee1fcb910",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "ee8f94ff-bef1-58f3-8d43-281d901709ee",
+  "verification_result_id": "d92dee3e-166f-5cb2-b5ef-3fd20f0df417",
+  "note": "Strength registration (2026-11-12 audit): Same carrier and support: acyclicity of the support relation gives acyclicity of its subrelation with the union edge."
+}

@@ -35400,16 +35400,6 @@
  },
  {
   "kind": "definition",
-  "id": "051fe0e7-e842-5581-870a-e3bc00aeaf9c",
-  "legacy_id": "DEF-INCORRUPTIBLE-SIMPLY",
-  "label": "INCORRUPTIBLE_SIMPLY_1; sempiternal in…: IncorruptibleSimply CanFailToBe esse x: x cannot fail to…",
-  "flags": [
-   "ids-replaced",
-   "truncated"
-  ]
- },
- {
-  "kind": "definition",
   "id": "bd3d37ae-a319-53df-ab69-5f8bea97dd31",
   "legacy_id": "DEF-INCREASING-EXISTENCE-DOMAINS",
   "label": "INCREASING_EXISTENCE_DOMAINS_2: Along every accessibility edge w→v, each candidate existing at w…",
@@ -58883,15 +58873,6 @@
   "id": "4cee7f23-8713-5368-87aa-7ce816f6fb92",
   "legacy_id": "REL-TOMPKINS-SUPPORTS-NONLIVING-PHYSICAL-LAWS",
   "label": "Nathan Tompkins and colleagues, Testing…… supports Recurrence in nonliving natural processes…",
-  "flags": [
-   "truncated"
-  ]
- },
- {
-  "kind": "relation",
-  "id": "a436e461-c577-5581-8b29-0d62618167f0",
-  "legacy_id": "REL-NECESSARY-ROOT-ACTUALIST-K-STRENGTHENS-BOX-K",
-  "label": "Necessary-being node, actualist K… strengthens Necessary-being node, possibilist K…",
   "flags": [
    "truncated"
   ]

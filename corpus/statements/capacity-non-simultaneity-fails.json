@@ -1,6 +1,6 @@
 {
   "id": "578f43f1-814f-5109-b9fe-0eb7c2b0150d",
-  "label": "Some actual thing has the POTENCY_3 capacity for its act",
+  "label": "Not everything in act in a respect lacks the POTENCY_3 capacity for it",
   "legacy_id": "STMT-CAPACITY-NON-SIMULTANEITY-FAILS",
   "paraphrase": "Not everything in act in a respect lacks the capacity for it: the CAPACITY reading of non-simultaneity (STMT-NOTHING-ACTUAL-AND-CAPABLE) is false.",
   "lean_declaration": "TruthCore.Causality.TermSenseForks.CapacityNonSimultaneityFails",
