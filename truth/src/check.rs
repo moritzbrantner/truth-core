@@ -3316,11 +3316,14 @@ fn check_warnings(root: &Path, loaded: &Loaded, files: &[(Vec<String>, PathBuf)]
         })
         .collect();
 
+    // Python `frontier_report`: arguments and verified arguments include
+    // strength registrations, since a refutation whose argument is a
+    // registration still counts (2026-11-12); results looked up by id for
+    // floor justifications exclude them.
     let registration = &frontier.registration_arguments;
     let argument_by_id: HashMap<&str, &Obj> = records
         .arguments
         .iter()
-        .filter(|a| !registration.contains(text(a, "id")))
         .map(|a| (text(a, "id"), *a))
         .collect();
     let result_by_id: HashMap<&str, &Obj> = records
@@ -3329,8 +3332,9 @@ fn check_warnings(root: &Path, loaded: &Loaded, files: &[(Vec<String>, PathBuf)]
         .filter(|r| !registration.contains(text(r, "argument_id")))
         .map(|r| (text(r, "id"), *r))
         .collect();
-    let verified: HashSet<&str> = result_by_id
-        .values()
+    let verified: HashSet<&str> = records
+        .results
+        .iter()
         .map(|r| text(r, "argument_id"))
         .collect();
     let mut relations: Vec<&Obj> = records.relations.clone();

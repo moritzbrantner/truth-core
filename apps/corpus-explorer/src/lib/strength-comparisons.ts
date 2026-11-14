@@ -74,15 +74,18 @@ export function parseStrengthComparisons(value: unknown): StrengthComparison[] {
         && typeof f.declaration === "string" && typeof f.expected_application === "string" && typeof f.explicit_application === "string"
         && Array.isArray(f.parameter_indices) && f.parameter_indices.every((n: unknown, i: number, ns: unknown[]) => typeof n === "number" && Number.isInteger(n) && n >= 0 && (i === 0 || n > (ns[i - 1] as number))))) throw new Error("Invalid complete statement application binding");
     const roles = new Set(entry.obligations.map((item) => (item as StrengthObligation).role));
+    // Python `projection`: S ↔ (W ∧ D) alone entails S → W and is exact; without it all three directions are needed (#1598).
+    const implied = roles.has("implication") || roles.has("equivalence");
+    const exact = roles.has("equivalence") || ["implication", "delta_forward", "reconstruction"].every((role) => roles.has(role));
     const separated = record(entry.separator) && entry.separator.bound === true && ["setting", "result_id", "theorem"].every((key) => record(entry.separator) && typeof entry.separator[key] === "string");
     if ((entry.separator !== undefined && !separated)
       || (entry.remainder_status !== undefined && !["exact admitted-only remainder proved", "unresolved"].includes(String(entry.remainder_status)))
       || (entry.remainder_status === "exact admitted-only remainder proved" && !["allowed_cases", "remainder_identity"].every((role) => roles.has(role)))
-      || (entry.comparison_status === "strict strengthening" && (!separated || !roles.has("implication")))
-      || (entry.comparison_status === "proved equivalence" && (!roles.has("implication") || !roles.has("converse")))
+      || (entry.comparison_status === "strict strengthening" && (!separated || !implied))
+      || (entry.comparison_status === "proved equivalence" && (!implied || !roles.has("converse")))
       || (entry.converse_status === "refuted by separating setting" && !separated)
       || (entry.converse_status === "proved" && !roles.has("converse"))
-      || (entry.delta_status === "exact factorization proved" && !["implication", "delta_forward", "reconstruction", "equivalence"].every((role) => roles.has(role)))) throw new Error("Comparison label lacks its certified evidence");
+      || (entry.delta_status === "exact factorization proved" && !exact)) throw new Error("Comparison label lacks its certified evidence");
   }
   return value.comparisons as StrengthComparison[];
 }
