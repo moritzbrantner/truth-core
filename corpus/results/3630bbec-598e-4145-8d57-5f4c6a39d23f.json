@@ -1,6 +1,6 @@
 {
   "id": "3630bbec-598e-4145-8d57-5f4c6a39d23f",
-  "label": "No originating cause originates itself, from productive-exercise priority",
+  "label": "No originating cause originates itself, from productive exercise and no self-production",
   "argument_id": "e9a9eeaf-4845-42a8-a8dc-4721846cad0f",
   "challenge_module": "TruthCore.Results.Causality.OriginExerciseBridge.Challenge",
   "solution_module": "TruthCore.Results.Causality.OriginExerciseBridge.Solution",

@@ -143,9 +143,25 @@ whole universal quantified bridge from a historical example. In particular,
 the maker of a house may cause a new composite from existing matter without
 producing its matter ex nihilo. The intended `produces a x` is production of
 the *being of the resultant individual*, not of all its constituents out of
-nothing. Whether this interpretation faithfully matches the existing
-existence-token role and primitive `produces` predicate in every domain
-remains OPEN.
+nothing. It is the same `produces` as in `NoSelfProduction`
+(DEF-NO-EXISTENTIAL-SELF-PRODUCTION): both premises of the argument read the
+shared parameter as production of `x`'s being, never as mere production of
+`x`'s coming-to-be. The builder therefore illustrates only the
+actual-exercise requirement. A builder is the standard example of a cause of
+a house's *becoming* rather than of its *being* (Aquinas, *ST* I q.104 a.1),
+so the builder case is not an undisputed instance of `produces` in that sense.
+The step from "c is responsible for x's coming to be" (`CAUSE_4`) to "an
+exercise of c produces x's being" is part of the bridge's OPEN content
+(DEF `9022c4bf`, statement `be90bb15`), and it is the step that the builder
+case leaves open.
+
+**Why the bridge is universal.** The bridge quantifies over every
+`CausesOrigin` edge, but the argument uses only self-edges. The universal form
+is kept because it is the productive reading of `CAUSE_4` itself, and its
+warrant (the actual-exercise requirement) is general. A sibling restricted to
+self-edges would rest on the same warrant and leave the same
+coming-to-be-to-being step open, so it would add no discriminating support. It
+is not registered.
 
 **Non-temporal activity and the divine case.** Aquinas, *ST* I q.45 a.3,
 distinguishes creation from motion or change and identifies active divine
@@ -239,6 +255,9 @@ model, not evidence of an actual self-creating universe. Primary text:
 https://www.cambridge.org/core/journals/journal-of-the-american-philosophical-association/article/causal-loops-and-direct-selfcausation/5B4DE9F9DEA48B8B58D923665700EA14
 This is primary-text research navigation, not a new pinned corpus claim or
 an assertion that the whole event-level causal theory has been established.
+The parity question these cases raise is mapped as PP-01 in
+[`explorations/principle-parity-self-origination.toml`](../../explorations/principle-parity-self-origination.toml)
+and [`docs/principle-parity-challenges.md`](../principle-parity-challenges.md#first-worked-test-universe-versus-omnipotent-being-pp-01).
 
 **The precise scope of his challenge.** The Smith/Newman case is a genuine
 proposed countermodel to a universal `¬ CausesOrigin b b`: if (i) beginning
@@ -292,10 +311,18 @@ specific *ontological* question: how is any originating power actual in the
 finite loop if no source's existence can be presupposed? The no-self-origin
 defender may argue that actual productivity and an existence whose actuality
 is produced by that same activity are incompatible; the rival may instead
-defend simultaneous reciprocal actualization. The former is a substantive
-warrant for `BearerPrior`, **not** a proof that Smith's posited causation is
-impossible, and the latter is a definite alternative requiring an account
-of actual powers, not a nebulous exception. Furthermore the defender must
+defend simultaneous reciprocal actualization. The principle that a bearer
+must be actual *while* it exercises its power gives only **co-actuality**, and
+Smith's simultaneous loop grants co-actuality. *Strict* `BearerPrior` needs a
+further clause: **the bearer's existence is not supplied by that same
+exercise or by the loop that contains it.** That clause, not co-actuality,
+does the work against Smith. It is close to the contested point itself, and
+it stays **OPEN** against the rival of simultaneous reciprocal actualization.
+The principle is therefore a substantive warrant for the co-actuality part of
+`BearerPrior`. It is **not** a proof that Smith's posited causation is
+impossible, and it does not establish the strict part without the extra
+clause. The rival is a definite alternative that owes an account of actual
+powers; it is not a vague exception. Furthermore the defender must
 give a reason that `ProductPrior` is *strict explanatory* priority, not
 just that the cause and effect share the label `prior`.
 
@@ -318,8 +345,14 @@ interfaces must be defended against that case or they cannot be used to
 exclude it. Asymmetry itself remains OPEN in this interpreted domain;
 calling the relation "priority" is not a proof of asymmetry.
 
-The narrower route is currently **analytically derived, not registered as a
-new corpus result**. A trial of the normal batch generator was rejected by
+The narrower route is **Lean-checked but not registered as a new corpus
+result**. Unregistered theorems in
+`TruthCore/Results/Causality/OriginExerciseBridge/Solution.lean` check three
+things. `noSelfProductionOfAsymmetric` and `noSelfOriginFromAsymmetric` check
+the route itself. `asymmetricOfIrreflexiveTransitive` checks that the old
+bundle implies asymmetry. `threeCycle_asymmetric_not_transitive` checks that
+the converse fails. Asymmetry remains an OPEN premise, and none of these
+theorems has a corpus result or a Comparator certificate. A trial of the normal batch generator was rejected by
 the existing `DISAMB-MIXED-EXISTENTIAL-PRIORITY` sense index: it treats the
 `BearerPrior` and `ProductPrior` *properties of one supplied relation* as
 distinct senses requiring a bridge. The disambiguation's own resolution
