@@ -120,6 +120,26 @@ Two first-version premises were dropped, each for a substantive objection:
   A2 has one derivation from open, unsourced premises. Its universal scope over
   every possible history, including one with an empty moment, remains the
   crux of Arrival A.
+- *Presence versus existence* (2026-11-12, reconciled 2026-11-14; attempt
+  `bc674a0b`). `History.IsAt` and `ExistsAt` are distinct primitives, linked
+  only by A1 (presence gives existence). A2, A2ab and A2c are stated with
+  `IsAt` alone: A2ab's "beginning" (`BeginningsHaveLastingGround`) is
+  `¬ IsAt v x s ∧ IsAt v x t`, not coming to be. With the inclusive reading
+  adopted above, a non-temporal agent that exists throughout but is first
+  co-present to the later moment `t` therefore counts as beginning. A2ab then
+  asks for a ground of *it*, and A2c forbids it to ground itself. The inclusive
+  reading does not settle when a non-temporal agent is co-present to a moment:
+  to every moment of the history, or only where it gives being (the contact
+  principle `c4661518` supplies the latter only). On the first answer A2's
+  "concrete-empty moment" excludes such an agent, and A2's warrant from "from
+  nothing, nothing comes" is unaffected. On the second, A2ab's warrant would
+  have to cover the onset of an existing agent's co-presence, which the
+  coming-to-be motivation does not address. This is an open semantic
+  obligation on the reading, not an objection to A2: no position on file
+  posits an empty moment followed by a non-temporal agent's first act. An
+  earlier hand-built two-world assignment (an existent present at no moment)
+  was written for a locational reading. It was never Lean-checked, it has no
+  bearing under the inclusive reading's first answer, and it is withdrawn.
 
 A3 is itself derived (`ContingentComingToBe.possibleContingentFreePast`,
 spec `specs/modal-spine-coming-to-be.toml`) from one open possibility premise:
@@ -902,6 +922,24 @@ candidate survey is an unverified analyst assessment; it establishes neither
 coverage of serious rivals nor that the weakening lacks dialectical value.
 A defended rival interpretation or independently warranted persistence/deletion
 bridge would reopen this assessment. No premise is established by it.
+
+**Positive interpretation of F1 and F2′** (2026-11-12, reconciled 2026-11-14;
+[attempt `bc674a0b`](../../corpus/attempts/bc674a0b-433f-4893-913c-57ac9f68eb9c.json)).
+The rows above record rivals; this records the strongest positive reading on
+file. If metaphysical possibility is admissibility of a complete
+world-description in one space that does not depend on which description
+obtains, then `R(w, v)` holds exactly when `v` is admissible. The actual world
+is admissible (F1), and any two admissible worlds see each other (F2, hence
+F2′). That entailment is elementary and stated here in prose only, not as a
+registered result. The warrant is the substantive part: world-independent
+admissibility and a cross-world identity policy for individuals. Defining `R`
+this way proves a theorem about the chosen semantics, not that it is the right
+metaphysics. The two sides carry parallel burdens on the same question. The
+origin-tolerance reading must say why an origin outside tolerance is
+*impossible for the same individual*, not merely more distant or less similar,
+and must justify its symmetric shared-origin access criterion. The absolute
+reading must justify its admissibility and identity claims, not just name S5.
+Neither is discharged; F1 and F2′ stay open.
 
 ### Stage two: objection audit (2026-11-12)
 
@@ -1865,132 +1903,6 @@ support, strongest objections and replies, and a reasoned provisional judgment
 under the [systematic research loop](../systematic-corpus-loop.md). Such a judgment
 can guide priorities and qualified reports without changing computed closure;
 personal assent is not philosophical warrant.
-
-### Stage-one warrant audit: temporal emptiness and absolute possibility (2026-11-12)
-
-This is an analyst interpretation/warrant audit of A2 (`395cb0f6`) and F2
-(`62b4a40a`), with the weaker F2′ (`1b1462e6`) kept separate. It changes no
-Lean theorem, statement, source attribution or computed status. The existing
-`InertEmptiness.earlierNecessary`, `necessaryConcrete` and
-`ActualEuclidean.inertNecessaryConcrete` results remain valid conditionals.
-
-**A2's exact positive content.** `EmptinessStaysEmpty` says that for *every*
-history and every `s < t`, concrete absence at `s` entails concrete absence at
-`t`. Classically, the contrapositive says that if *any* concrete thing is
-temporally present at `t`, *something* concrete must have been temporally
-present at **each** earlier `s`. This is the precise feature the stage-one
-proof uses: A3 supplies an earlier moment free of contingent concreta; A2
-supplies a concrete occupant there; presence-to-existence makes that occupant
-existent in the accessible history `v`, and its noncontingency there follows
-from A3's universal absence condition. F1 and F2 (or F2′) then transport the
-same individual's existence to the designated actual world `w`.
-No occurrence of `Causes`, `grounds` or an adequacy relation connects that
-occupant to the later thing. The result is therefore a backward temporal
-population principle, not a demonstrated account of efficient production.
-
-**A precise interpretation mismatch, not an objection by mere possibility.**
-`History.IsAt w x t` is a distinct primitive from `ExistsAt w x`, with only
-`IsAt -> ExistsAt` required. Thus *no concrete thing temporally present* does
-not mean *no actual concrete being available as a cause*. One stipulated
-two-world interpretation makes the distinction exact:
-
-| Coordinate | `actual` world | `other` world |
-| --- | --- | --- |
-| `ExistsAt(source)` | true | true |
-| `IsAt(source, 0)` and `IsAt(source, 1)` | false | false |
-| `ExistsAt(creature)` | true | false |
-| `IsAt(creature, 0)` / `IsAt(creature, 1)` | false / true | false / false |
-
-Take universal accessibility, both individuals concrete, and the complete
-two-point time carrier `{0, 1}` ordered by `0 < 1`, with `now = 1`.
-Presence-to-existence holds; the creature is contingent and A3 holds at
-`actual`; F1 and F2 hold. A2 fails because the history is concrete-empty at
-`0` and populated at `1`. Yet `source` is a necessary concrete individual.
-One may *add* a primitive edge by which that existing but non-present source
-causes the creature: the history's causal field permits it, but the field has
-no independently defended causal semantics or verified realization here.
-This is an **unregistered, hand-inspected finite assignment**, not a new Lean
-certificate or evidence that atemporal creation actually occurs. It shows the
-specific modeling gap: the A2 formula forbids this assignment independently
-of whether the creature's origin is causeless, and the original control's
-`rooted` witness instead makes its necessary source present at *every* time.
-
-The distinction matters especially for a theory with an atemporal concrete
-source, but the general issue is broader: simultaneity, time-indexed
-presence, atemporal existence and existential production are different
-relations. Calling a concrete-empty instant **absolute nothing** begs the
-missing presence/existence bridge. This is not a counterexample to the
-verified A2-conditional theorem, and it does not show A2 metaphysically false.
-
-**A2's strongest warrant route.** A positive defense can argue that a new
-concrete occurrence requires an actual producer, and that an earlier
-concrete-empty moment contains no producer. The inference to A2 nevertheless
-needs an extra principle: every producer capable of a later concrete onset
-must be **temporally present in that history at each earlier moment**. A more
-elaborate causal-temporal closure account could instead attempt to exclude
-outside-time producers, simultaneous or newly appearing producers, and
-nonproductive arrivals; excluding outside-time producers *alone* does not
-entail A2. None of these requirements follows from the mere claim that
-nonexistents cannot act. A defender may motivate a strictly immanent,
-causally closed history, but the spine quantifies over every history,
-including ones whose sources could lie outside its time coordinate. An
-alternative cause-based premise allowing an existing atemporal or simultaneous
-producer would be weaker in this respect and would require a distinct proof
-to the root; replacing A2 by it in the existing theorem is unjustified.
-
-**F2's strongest positive interpretation.** If metaphysical possibility means
-the ways *total reality* might have been, and admissibility of a complete
-world-description is not indexed to which such description obtains, then the
-same space of complete alternatives is available from each admissible world.
-On that substantive interpretation `R(w,v)` amounts to admissibility of `v`
-in one world-independent space; actual reflexivity and Euclidean access
-follow. This provides a positive reason for F1 and F2, not merely the observation
-that modal system S5 is mathematically convenient. Crucially, its warrant
-depends on **world-independent admissibility** and the identity policy for
-individuals across descriptions. Defining `R` this way proves a theorem about
-the chosen semantics; it does not independently demonstrate that those are
-the correct metaphysical semantics.
-
-The strongest recorded alternative is the origin-tolerance profile: a thing
-can have nearby but not arbitrarily different origins under a fixed
-cross-world identity policy. The five-world certificate shows that the
-resulting *modeled* access can fail F2′ while A1–A3 hold. To make this a
-philosophical challenge to absolute metaphysical possibility, the profile
-must explain why an origin outside the tolerance is **impossible for the
-same individual**, not merely more distant, less similar or excluded by a
-restricted counterfactual question; it must also justify the symmetric
-access criterion for jointly present individuals. The existing attempt
-`f2b3c229` leaves precisely these application burdens open. Conversely, a
-defender of the absolute profile must justify the cross-world identity and
-admissibility claims rather than dismiss origin constraints by the name S5.
-The **stage-one conclusion** also has separately verified arrival variants
-using only F2′ (`ActualEuclidean.inertNecessaryConcrete` and
-`externalNecessaryConcrete`). The original `InertEmptiness.necessaryConcrete`
-and `LocalFramePossibleExternalCause.necessaryConcrete` theorems retain global
-F2 in their literal hypotheses. Thus the *conclusion* need not pay the global
-frame premise, without changing the original theorem signatures.
-
-**Provisional assessment.** F1 has a strong, direct interpretation under
-absolute metaphysical possibility: the actual complete reality is one of the
-possibilities. F2/F2′ have a substantive positive case under world-independent
-admissibility, but its application remains **OPEN**; neither the tolerance
-countermodel nor the positive semantics establishes a metaphysical verdict.
-A2 has a real temporal-population role in its exact proof, but its slogan
-“from nothing, nothing comes” is too weak to warrant the formal universal:
-non-presence is not nonexistence, and the producer's time-relation is unstated.
-I would not treat A2 as philosophically established without that bridge.
-
-**Next discriminating tests.** For A2, register and Lean-check the finite
-non-present necessary-source interpretation, then specify a genuine
-cause/production interface and test the weakest *source-availability*
-principle sufficient for a revised arrival. Preserve the original conditional
-as a distinct stronger route. For F2′, compare the strongest independently
-motivated account of world-independent compossibility with an origin-sensitive
-identity account on the same two-world possibility question; assess the
-identity/admissibility evidence before adding another frame theorem. Neither
-test requires a new modal engine, and neither makes a root premise closed by
-stipulation. Existing attempts and conditional result IDs are indexed in
-`corpus/attempts/bc674a0b-433f-4893-913c-57ac9f68eb9c.json`.
 
 ## Next investigations
 
