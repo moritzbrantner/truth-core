@@ -38,6 +38,18 @@ def degenerate (P : Prop) : ComparisonSpec where
   weaker := True
   delta := True → P
 
+/-- Delta `True` or delta = weaker would make the factorization an
+equivalence S ↔ W, not a strengthening (#1598). -/
+def trivialDelta (P Q : Prop) : ComparisonSpec where
+  stronger := P ∧ Q
+  weaker := Q
+  delta := True
+
+def weakDelta (P Q : Prop) : ComparisonSpec where
+  stronger := P ∧ Q
+  weaker := Q
+  delta := Q
+
 def equality (a b : Bool) : ComparisonSpec where
   stronger := a = b
   weaker := True

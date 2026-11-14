@@ -1,0 +1,13 @@
+{
+  "id": "4230c79b-625a-4d92-8e98-0532c163967a",
+  "label": "Origin fixing and within-history variation yield a tracking failure (inference)",
+  "input_statement_ids": [
+    "af1256e2-dcaa-48f5-975f-db90c0452667",
+    "d6708411-c173-473c-859d-c4bfc12d4a0f"
+  ],
+  "output_statement_id": "c830e937-36c6-4471-a60b-40f205ce2b80",
+  "rule": "Case split on actual accuracy: a correct actual verdict is repeated where correctness differs; an incorrect one is itself the failure",
+  "meaning": "Conditional analyst argument for one epistemic evaluative judgment under the within-history-variation reading, attribution deferred. It is not Street's first horn, which holds the truths fixed across histories (pp. 121–122). If the selective history fixes the verdict and correctness varies among scenarios with that history, the verdict is wrong in some such scenario. The argument does not show actual inaccuracy, defeat of the judgment for anyone, or the absence of epistemic reasons.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

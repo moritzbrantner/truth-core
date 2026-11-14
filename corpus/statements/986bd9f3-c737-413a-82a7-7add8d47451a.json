@@ -1,0 +1,9 @@
+{
+  "id": "986bd9f3-c737-413a-82a7-7add8d47451a",
+  "label": "The route's modal frame is symmetric (frame condition B)",
+  "paraphrase": "Difference statement: the accessibility relation of the necessary-being route's modal frame is symmetric (if w accesses v, then v accesses w). It is a condition on the frame only and says nothing about the root.",
+  "lean_declaration": "TruthCore.Logic.Strength.NecessaryFrames.RouteFrameSymmetric",
+  "definition_ids": [
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2"
+  ]
+}

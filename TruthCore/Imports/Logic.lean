@@ -17,6 +17,7 @@ public import TruthCore.Logic.Configuration
 public import TruthCore.Logic.ContrastiveWorldview
 public import TruthCore.Logic.CorrectionCriterion
 public import TruthCore.Logic.CorrelatedTestimony1396
+public import TruthCore.Logic.DarwinianEpistemicDebunking
 public import TruthCore.Logic.DistributedKnowledge
 public import TruthCore.Logic.EpistemicAccuracy
 public import TruthCore.Logic.EpistemicAuthority
@@ -62,6 +63,7 @@ public import TruthCore.Logic.ScopedEmpiricalProofBarrier
 public import TruthCore.Logic.SelfApplication
 public import TruthCore.Logic.SoritesBoundary
 public import TruthCore.Logic.Strength.Cause
+public import TruthCore.Logic.Strength.NecessaryFrames
 public import TruthCore.Logic.Strength.Order
 public import TruthCore.Logic.Strength.UniqueExistence
 public import TruthCore.Logic.StrengthComparison

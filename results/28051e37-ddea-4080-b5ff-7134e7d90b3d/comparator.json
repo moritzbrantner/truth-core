@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.DarwinianEpistemicDebunking.CrossHistory.Challenge",
+  "solution_module": "TruthCore.Results.Logic.DarwinianEpistemicDebunking.CrossHistory.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.DarwinianEpistemicDebunking.CrossHistory.fixedTruthWithHistoryVariationYieldsMismatch"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

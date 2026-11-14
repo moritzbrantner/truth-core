@@ -1,0 +1,9 @@
+{
+  "id": "f94c7149-699e-4c13-a65e-c4aad5c2a9af",
+  "label": "The verdict of the scoped epistemic judgment varies across selective histories",
+  "paraphrase": "OPEN analyst premise, the pushed course of Street's first horn, attribution deferred. Some scenario with a different selective history returns a different verdict from the actual one. This is the no-relation picture: the selective pressure, not the fixed truth, settles where the verdict goes. No probability over histories is supplied.",
+  "lean_declaration": "TruthCore.Logic.DarwinianEpistemicDebunking.VerdictVariesAcrossHistories",
+  "definition_ids": [
+    "e17e93bf-eedf-45db-be80-ffac82ef7d98"
+  ]
+}

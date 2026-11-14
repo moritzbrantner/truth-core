@@ -35,6 +35,8 @@ class StrengthBindingTest(unittest.TestCase):
             comparison('sufficient-only', 'sufficientOnly', 'delta_forward', 'reconstructionOnly'),
             comparison('unknown-role', 'selected', 'strictly_stronger', 'correct'),
             dict(id='degenerate', specification=NS + 'degenerate', certificates=[]),
+            dict(id='trivial-delta', specification=NS + 'trivialDelta', certificates=[]),
+            dict(id='weak-delta', specification=NS + 'weakDelta', certificates=[]),
             dict(id='separator', specification=NS + 'equality', certificates=[], separator={
                 'setting': NS + 'separator', 'theorem': NS + 'separatorCorrect'}),
             dict(id='wrong-setting', specification=NS + 'equality', certificates=[], separator={
@@ -163,6 +165,9 @@ class StrengthBindingTest(unittest.TestCase):
     def test_sufficiency_is_not_exact_extra_content(self):
         self.assertFalse(self.rows['sufficient-only']['bound'])
         self.assertTrue(self.rows['degenerate']['delta_degenerate'])
+        # Delta True or delta = weaker: an equivalence, not a difference (#1598).
+        self.assertTrue(self.rows['trivial-delta']['delta_degenerate'])
+        self.assertTrue(self.rows['weak-delta']['delta_degenerate'])
         self.assertFalse(self.rows['unknown-role']['bound'])
 
     def test_separator_binds_same_spec_and_complete_setting(self):

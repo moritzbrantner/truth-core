@@ -19,6 +19,8 @@ public import TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.Realiza
 public import TruthCore.Results.Logic.ContrastiveWorldview.Solution
 public import TruthCore.Results.Logic.CorrectionCriterion.Solution
 public import TruthCore.Results.Logic.CorrelatedTestimony1396.Solution
+public import TruthCore.Results.Logic.DarwinianEpistemicDebunking.CrossHistory.Solution
+public import TruthCore.Results.Logic.DarwinianEpistemicDebunking.Solution
 public import TruthCore.Results.Logic.EpistemicAccuracy.Solution
 public import TruthCore.Results.Logic.EpistemicAccuracy.Statewise.Solution
 public import TruthCore.Results.Logic.EpistemicAuthority.Solution
@@ -105,6 +107,7 @@ public import TruthCore.Results.Logic.SelfApplication.DemarcationTest.Solution
 public import TruthCore.Results.Logic.SelfApplication.Dilemma.Solution
 public import TruthCore.Results.Logic.SelfApplication.ScopeNeeded.Solution
 public import TruthCore.Results.Logic.SoritesBoundary.Solution
+public import TruthCore.Results.Logic.Strength.NecessaryFrames.Solution
 public import TruthCore.Results.Logic.StrengthCause.Solution
 public import TruthCore.Results.Logic.StrengthOrder.Solution
 public import TruthCore.Results.Logic.StrengthUnique.Solution

@@ -1,0 +1,17 @@
+{
+  "id": "f98ce97a-cdbf-4cc0-bd19-bb7f237a1957",
+  "label": "S5 node is the S4 node plus a symmetric frame",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "d3bb2f64-6d45-4d98-8b2a-fb298b664fa8",
+  "inference_ids": [
+    "0a4b3b9a-bf63-4676-9529-bf2262309ab3"
+  ],
+  "meaning": "Certified difference (#1598) of the registration S5 node strengthens S4 node: for every world type, signature, profile, world and relation, the S5 node holds iff the S4 node holds and the route's frame is symmetric. Premise-free; it compares the two encodings and asserts no frame class of the route.",
+  "definition_ids": [
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "f830795a-b5d8-5f9f-800d-2f3d1f443a0a"
+  ],
+  "disambiguation_ids": [
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
+  ]
+}
