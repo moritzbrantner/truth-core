@@ -11,7 +11,7 @@
   "inference_ids": [
     "f14c5666-65b1-4e97-b2a4-2155b4006899"
   ],
-  "meaning": "Whatever has its esse caused is in act as to being (OPEN, CausedEsseIsHad); what is in act of esse exists at the selected world (OPEN); what has esse in re is concrete in the profile (OPEN, the CONCRETE_6 calibration). So the effect of a distinct cause of esse is an actual concretum at w, and the scoped esse-cause priority applies to it. The theorem imports actualEsseCausePriority's conclusion as its premise. Omitting the caused-esse premise leaves the other inputs while the conclusion fails (Control.OmitCausedEsseIsHad); all inputs hold jointly with a nonvacuous esse cause (Control.ScopeWitness). Conditional consequence only; no premise is established.",
+  "meaning": "Whatever has its esse caused is in act as to being (OPEN, CausedEsseIsHad); what is in act of esse exists at the selected world (OPEN); what has esse in re is concrete in the profile (OPEN, the CONCRETE_6 calibration). So the effect of a distinct cause of esse is an actual concretum at w, and the scoped esse-cause priority applies to it. The theorem imports actualEsseCausePriority's conclusion as its premise. Omitting the caused-esse premise leaves the other inputs while the conclusion fails (Control.OmitCausedEsseIsHad); all inputs hold jointly for the relation causes, under which true causes the esse of false (Control.ScopeWitness). Conditional consequence only; no premise is established.",
   "definition_ids": [
     "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
     "211a6432-8b8f-53ed-85e3-75173bb15b24",
