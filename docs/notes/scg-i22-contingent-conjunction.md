@@ -342,3 +342,203 @@ where simplicity supplies only *praeter essentiam*; (ii) n.6's self-causation cl
 self-sourced profile; (iii) the bridge from rejecting every distinct proposed
 quiddity to `essenceOf = esseOf`, connected to `ActualUnderivedEssenceEsse`;
 (iv) the warrant for coverage as an independent premise.
+
+## The full n.6: belonging, source location, and a co-constitutive rival (#1623, 2026-11-14)
+
+### Newly pinned primary context and exact reuse
+
+Passage `4eebc2d7-7aff-4d97-9734-6d192cdccf5c` is now a
+**materialized, byte-verified Latin passage**
+for all of I.22 [23710–23720] in `corpus/passages/aquinas-scg-i22-lat.json`.
+It reuses the **identical page bytes** already pinned for SCG I.18 on
+2026-11-05 (Corpus Thomisticum snapshot SHA256 `0959a251…`). The full range
+was read, especially nn.2–4 and 6–9. This upgrades the source available for
+**this** investigation; it does not retroactively certify the earlier
+analyst statements as attributed claims. No new claim or Lean result is made.
+The prior paragraphs' warnings about the unavailable chapter-specific witness
+describe the state of the earlier PRs, not this new reading.
+
+Two other already pinned witnesses were rematerialized and read:
+`AQUINAS-DE-ENTE-C1-2` (cap.1 [69872], matter/form constitute the
+essence of a natural composite, with form as its actuality and in its way
+cause of the composite's esse), and `AQUINAS-ST-I-Q3-A7` (co., *tertio*,
+the diverse-united-by-cause argument). The existing complete pinned
+`ARIST-MET-VIII-6` was also rematerialized and read: its potential/actual
+account explains proximate matter/form unity without a **further** uniter,
+while allowing a mover in generation. Reuse the source analysis and existing
+formal controls in `docs/notes/aristotelian-unity-h6.md` and
+`docs/notes/composition-causal-scope.md`. The q.3 a.7 premise is already
+represented by `DiverseUnitedOnlyThroughUnitingCauseReading`, and its
+`CompositeUnitingCauseFromUnion` route retains five explicit premises.
+
+### What n.6 actually needs
+
+In [23715], the starting commitments are an already identified *first
+uncaused cause*, the previously asserted simplicity of its **essence**, and
+a supposition that its substantial esse is not identical with that essence.
+Simplicity excludes esse as a **part** of that essence; with nonidentity,
+it is something *praeter essentiam*. The next, **main** premise says that
+what belongs to something yet is not *de essentia* of that thing does so
+through a cause. Aquinas then *explains* this by the rule about the union
+of things that are not one of themselves (*per se*). These are related
+claims, not one automatically definitional identity:
+
+| Relatum or transition | Exact interpretation burden |
+| --- | --- |
+| `e ≠ q` in the q.3 `Principle` representation | Does this denote two **real** constituents, or two descriptions/formal respects of one actuality? Inequality of values alone settles neither. |
+| `¬PartOfEssence(e,q)` | Simplicity of the quiddity rules out esse as an internal part; this is not yet a claim that e is accidental, externally caused, or not one *per se* with q. |
+| `OutsideQuiddity(e,q)` | The n.6 inference from nonidentity-plus-no-part to *not of the essence*. This needs a faithful criterion for *de essentia*; mere modal non-coexistence is not required. |
+| `BelongsSubstantially(e,q,x)` | The esse of the **same** bearer x belongs to its actual quiddity q as substantial actuality, not merely that arbitrary represented principles are `joinedAt`. |
+| `CauseOfBelonging(s,e,q,x)` | A cause of substantial esse belonging to q. This is not definitionally `conjunctionDependsOn e q s`, nor necessarily `absolutelyDependsOn e s` or a present efficient `CausesIn y x esse` edge. |
+| `perSeOne e q` | Distinct principles may still be intrinsic co-principles of one subject; `e ≠ q → ¬perSeOne e q` is the **contested step**, not a consequence of distinct tags or simplicity of q alone. |
+
+The [23715] causal horns classify s by **whether it is of q's essence**,
+not by `s ≠ e` (the comparison in the existing n.2 coarsening and n.4
+results). On the intrinsic-to-q horn, q would explain its **own substantial
+being**, while q is only actual through the esse being explained; n.6's
+priority-of-cause argument rejects that self-production. Aquinas expressly
+allows an exceptional *accidental* self-causation through an already
+substantially existing subject; it cannot be used to reject every form of
+self-explanation. There is also a **kind-of-cause** restriction: the pinned
+*De ente* cap.1 [69872] says form is, in its way, a cause of a composite's
+esse **while belonging to its essence**; cap.3 [69874] expressly restricts
+the impossible essence-to-own-esse production to the **efficient-cause**
+sense. A formal or constitutive cause of substantial actuality therefore
+does not by itself instantiate the prohibited efficient self-production.
+This horn needs a bridge from `CauseOfBelonging` to sufficient **efficient**
+existential production, or a separately defended contradiction in formal
+explanatory priority. On the external-to-q horn, a quiddity that acquires its
+substantial esse from an additional cause cannot be the quiddity of the
+first uncaused cause. Neither conclusion follows solely from a source of
+the **joining**; both require that the source causes the relevant substantial
+esse belonging, and the external horn requires the relevant first-cause and
+same-essence correspondence.
+
+### Exact conditional skeleton and surviving model tests
+
+The following is an **unverified analyst inference plan**, not an added Lean
+theorem or an attribution of its extra bridges to Aquinas. Fix one **actual**
+first bearer x, its represented esse `e = q3.esseOf x` and **actual** essence
+`q = q3.essenceOf x`. Assume `IsQuiddityOf x q`, substantial `joinedAt` and
+actual presence, nonidentity, a simple quiddity, and firstness in a named
+causal relation. To reach a contradiction from `e ≠ q`:
+
+1. Supply `OutsideQuiddity(e,q)` from the source's no-part step, and
+   `BelongsSubstantially(e,q,x)` from a real substantial constitution—not
+   from mere arbitrary `joinedAt`.
+2. Apply n.6's **OPEN** main premise to obtain some
+   `CauseOfBelonging(s,e,q,x)`. One possible route derives it from the
+   already encoded `NonUnifiedUnionHasSource` **only with** the additional
+   `OutsideQuiddity ∧ BelongsSubstantially → ¬perSeOne` and
+   source-relatum correspondence. The main premise may instead be taken as
+   a separately open direct causal principle; that is not its warrant.
+3. Divide causes by `OfQuiddity(s,q)`. If yes, require the substantive
+   bridge from causing q's substantial esse to **efficient** self-production
+   or prohibited formal-priority circularity of **q**, preserving n.6's
+   formal/efficient distinction and accidental/substantial exception.
+   If no, require the bridge from the external cause of q's substantial
+   esse to the loss of x's firstness **when q is genuinely x's essence**.
+   Neither bridge is supplied by `s ≠ e` or by arbitrary R-underivedness.
+4. Only after both horns, with the q bound to this same x and the source
+   relation mapped to the imported q.3/actual-R interpretation, infer
+   `q3.essenceOf x = q3.esseOf x`. The current
+   `ActualUnderivedEssenceEsse.ActualUnderivedEssenceIdentity` remains
+   conditional on its **different**, already registered efficient-causal
+   interface; no new root edge or discharged premise results here.
+
+The previously checked `coFundamentalProfile` has `e ≠ q`, a genuine q,
+permanent joining, `perSeOne e q`, and **no** conjunction source. It satisfies
+the old encoded n.6 union clause, both n.4 cases and all relevant old
+premises **except** n.2 coverage. An extension setting
+`OutsideQuiddity = true`, `BelongsSubstantially = true` and
+`CauseOfBelonging = ∅` would **fail** the newly stated n.6 main premise.
+Setting `OutsideQuiddity = false` or denying substantial belonging instead
+evades that premise but rejects, respectively, step 1's *de essentia*
+reading or its same-bearer substantial application. These extensions are
+transparent **proposed truth assignments**, not checked new finite models or
+evidence of metaphysical possibility. The certified old control remains
+unchanged; it is **not** a countermodel to the full historical n.6.
+
+The existing `selfSourcedProfile` assigns the source of `e–q` joining **to
+e itself**. That is not automatically the *intrinsic-to-q* horn and does
+not instantiate n.6's self-causation conclusion: n.6 first divides
+sources relative to **q**. Under `OutsideQuiddity(e,q)`, s=e lies on the
+**external-to-q** side, even though s=x may be the first esse-identified
+bearer. **For the new typed predicates this classification is itself an
+explicit bridge**: `OutsideQuiddity(e,q) → ¬OfQuiddity(e,q)`, with both
+relations using the same sense of *de essentia*. The old model has neither
+predicate, so its horn position is **not** already certified. The strongest
+next test is therefore whether s=e actually gives
+q substantial esse and, if q is x's genuine constitutive essence, whether
+the resulting x→q priority conflicts with q's constitutive priority for x.
+One may not infer an incoming `y ≠ x` efficient cause of x merely from
+`s=e ≠ q`; that would equivocate between the source's relation to q and
+its relation to x.
+
+### Positive rival, warrant and next discriminator
+
+The strongest **grounded** rival mechanism is **immanent constitution**:
+Aristotle H.6 explains a natural composite's unity through proximate
+potential matter and actual form rather than through two independently
+actual things requiring a third tie; Aquinas's *De ente* cap.1 gives matter
+and form distinct constitutive roles **within the composite essence**.
+This independently motivates a denial that `distinct principles → not one
+per se` holds unrestrictedly. It does **not** yet defend a co-fundamental,
+unsourced union of **esse outside the quiddity** of a necessary first:
+in the actual example both matter/form are de essentia of the composite,
+form actualizes matter asymmetrically, and a productive cause is allowed.
+Transferring it to e/q must give a positive account of their identity as
+one substantial act, the necessity and sufficiency of their co-obtaining,
+and why the nature of q does not make e a separately received perfection.
+
+A second positive form of the remaining challenge is a **whole-first**
+account: an intrinsically actual first whole has real internal structure,
+while that structure is explained by the whole instead of a prior external
+source. This is the already investigated priority-monist/reverse-priority
+mechanism in `docs/notes/composition-causal-scope.md`, not a newly
+verified metaphysical witness. Its cost here is to defend how derivative
+internal structure can nonetheless be the actual **constitutive essence**
+of the first without explanatory circularity. A merely formal-aspect
+account avoids real plurality, but then `e ≠ q` in the current profile is
+not by itself a faithful encoding of a **real** essence/esse distinction.
+
+**Provisional assessment, this passage and baseline `4fffde08` (2026-11-14):**
+the full n.6 gives a more serious conditional objection to the co-fundamental
+model than the formerly encoded union rule: its main causal premise directly
+challenges unsourced substantial esse belonging, and it distinguishes two
+source locations plus a specific self-production argument. It is therefore
+reasonable to favor this **conditional explanatory challenge over the bare
+co-fundamental tag**. But the general causal principle, its *non de essentia*
+and *non per se unum* bridges, and its application to the **same actual
+first R-underived bearer** are not independently warranted by these texts
+or established by a theorem. A serious immanent-constitution argument
+survives against the universal diversity-to-uniter step; its transfer to
+a first essence/esse pair is unresolved, not a refutation. No premise
+establishment or root closure changes. Revision would require either a
+defended actual first-esse application of the causal principle, or a
+non-circular first-esse co-constitution that survives both causal horns.
+
+Next discriminating formal test when the pinned Lean toolchain is available:
+extend the **existing** `DependenceProfile`, retaining the q.3 actual essence,
+with independent `BelongsSubstantially`, `OutsideQuiddity`,
+`CauseOfBelonging` and `OfQuiddity` predicates. First contrast the direct
+main premise with the derivation from per-se nonunity on the same old
+co-fundamental control; then test the `s=e` external-to-q case and each
+intrinsic/extrinsic horn separately, preserving all necessary actual-presence,
+firstness, causal-kind, substantial-vs-accidental and same-bearer assumptions.
+In particular, the existing joining-source `s` is a **Principle**, whereas
+q.3 efficient `CausesIn y x esse` has a **Being** source; source presence,
+realization of an internal principle by a bearer, numerical distinctness and
+the actual-R bridge all need explicit, typed correspondence. Reject a
+purported bridge if it merely identifies `conjunctionDependsOn` with
+causing substantial esse. Independently compare I.22 n.8 [23717]: it treats
+real distinct co-requisites as a composite and assumes the **previously
+defended** absence of composition. This is an alternative conditional
+support route; it is not a proof of the contested n.6 bridge and it must
+not take essence=esse as an input to the simplicity proof. Also compare
+I.22 n.7 [23716], which treats distinct essence/esse as potency/act and
+invokes the previously asserted absence of potency in the first. The
+potential/actual immanent-unity mechanism therefore incurs a **second**
+independent conditional objection at a pure-act root, even if it escapes a
+third uniter. The actual scope and warrant for `e ≠ q → potency in the
+same first x` must be defended, not inferred from two Principle labels.
