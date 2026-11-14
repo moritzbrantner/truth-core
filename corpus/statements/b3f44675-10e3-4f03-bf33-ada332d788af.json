@@ -1,0 +1,17 @@
+{
+  "id": "b3f44675-10e3-4f03-bf33-ada332d788af",
+  "label": "Dependence-to-priority controls: reflexive compatibility, unrestricted failure and bridge omissions",
+  "paraphrase": "Closed controls over Bool worlds and beings (the reading world is true; every being exists and is concrete). (1) With D x y iff x = y or (x = false and y = true), D is reflexive, and the distinct-relata dependence-to-grounding bridge, actual grounding as simple priority and priority requiring nonmutual dependence hold jointly while false depends on true and true is simply prior to false. (2) On the same profile and D, the unrestricted dependence-to-grounding bridge fails (true depends on itself and does not ground itself). (3) Omitting the distinct-relata bridge: grounding-to-priority holds vacuously and the scoped priority fails. (4) Omitting grounding-to-priority: the distinct-relata bridge holds and the scoped priority fails. Statements about these interpretations only.",
+  "lean_declaration": "TruthCore.Causality.DependenceGroundingPriority.Control.Certificate",
+  "definition_ids": [
+    "bf26b9b2-41ed-55b0-9557-dae90ab9b81f",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "a1b2e330-388f-4120-bc5c-969642317792"
+  ],
+  "disambiguation_ids": [
+    "23dd6f32-b456-4963-adb3-7befbf0dc4fb",
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
+  ]
+}

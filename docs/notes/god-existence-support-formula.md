@@ -329,3 +329,71 @@ The passage from tenseless `CausesIn c x esse` to "the being that x actually has
 - **An esse-cause as an enabling condition without existential grounding.** *Target:* cb1cdea9. *Mechanism:* c's activity is needed for x's continuing to exist, but c only removes impediments or supplies conditions (q.104's remover of an impediment; the guard and supply examples of the causal-perfection-transfer note), so x's being is not grounded in c. *Independent justification:* enabling conditions without production are familiar and are distinguished by Aquinas himself. *Conflict:* DEF-CAUSE-OF-PERFECTION excludes "mere enablement" from `CausesIn`. An enabler is therefore not a `CausesIn … esse` instance, and the bridge's antecedent fails rather than its consequent. The rival's real target moves upstream, to ca07cae9 and 732302a1, the premises that a composite or participated thing has an effective cause of its being and not only enabling conditions. That is the existing uncaused-composite rival, now carried without any separability premise. This pricing covers only enablers. It does not show that every effective cause of an actual thing's being grounds it: the next rival is a standing case against that.
 - **Existential inertia: a non-sustaining esse-originator.** *Target:* cb1cdea9. *Mechanism:* a strict originator of esse is a `CausesIn … esse` instance. DISAMB-BECOMING-BEING-CAUSE reads OriginatesBeing, taken strictly, as time-indexed CAUSING_AN_EFFECT_3. Such an originator need not exist at w or ground x there, so cb1cdea9's consequent fails. *Independent justification:* that disambiguation, and the existential-inertia rival recorded on the sustaining bridge 23e04ae5 (persisting things need no concurrent sustaining cause; Schmid 2021, recorded there as read). cb1cdea9's own note says its sustaining interpretation needs separate defense. *Price:* there are two options. (a) cb1cdea9 fails for strict originators. (b) `CausesIn … esse` is read as sustaining; then ca07cae9 and 732302a1 must deliver *sustaining* causes for the composite or participated first-being candidate, which the inertia theorist denies. Either way, the burden is in substance 23e04ae5's. The route's escape from separability is paid for with the sustaining reading. This rival is unresolved here.
 - **Metaphysical interdependence (mutual grounding).** *Target:* the use of 7a63a3fe together with asymmetric priority. *Mechanism:* if two actual concreta ground each other, 7a63a3fe makes each prior to the other. Navigation only, attribution deferred: N. Thompson, "Metaphysical Interdependence", in M. Jago (ed.), *Reality Making* (OUP 2016). *Conflict:* this contradicts the routes' separate grounding-asymmetry premises, not the implication 7a63a3fe states. Where it bites, it is a rival to those premises. For the esse-cause instances here it would need an actual effect to ground its own esse-cause, and no such case is identified.
+
+## Dependence to priority through actual grounding (#1590, 2026-11-14)
+
+This section tests the route `ActualConcrete w c ∧ ActualConcrete w x ∧ DependsForBeing x c` → `grounds w c x` → `PriorSimply c x`. As in the previous section, the snapshot counts above were **not** recomputed.
+
+### What is verified
+
+All results are in `TruthCore.Results.Causality.DependenceGroundingPriority` (spec `specs/dependence-grounding-priority.toml`, attempt `040e3b4e-f59c-4ef4-9b5a-7cc181b5bde4`). Every premise is OPEN. Each conclusion holds only under its listed premises.
+
+| Result | Premises | Conclusion |
+| --- | --- | --- |
+| `actualDistinctDependencePriority` | distinct-relata dependence-to-grounding bridge (a8298fbd); actual grounding is simple priority (7a63a3fe) | 0791f2ad: if an actual concretum depends for its being on a *distinct* actual concretum c, c is SIMPLY_PRIOR_1 to it |
+| `actualEsseCausePriorityViaDependence` | 0791f2ad; caused esse depends on its cause (2068f91c); esse causes exist at w (c99f9d23); esse causes are concrete (82eeeb3c) | b50fb858, the #1604 esse-cause priority node, by a second route |
+| `firstBeingNoPotencyOfThetaEightEsse`, `weakOfThetaEightEsse` | the four Theta.8 premises (ca55ed3a, d017b6b0, d8024a38, ca07cae9); ee74c678 | 0cf675c4 and 61ad11f3, without efficient-cause priority E or the cause-to-efficient bridge e0088de9 |
+| `esseCauseGroundViaDistinctDependence`, `esseCauseGroundOfExistentConcretenessViaDistinct` | the premises of the two existing derivations of cb1cdea9, with a8298fbd in place of 2e248016 | cb1cdea9 |
+| `simplyPriorGroundViaDistinctDependence` | the premises of `simplyPriorGroundViaDependence`, with a8298fbd in place of 2e248016 | 86efed1a |
+| `reflexiveUnrestrictedExcludesActualConcreta` | everything depends for its being on itself (56252cd8); 2e248016; 7a63a3fe; priority requires nonmutual dependence (47aff057) | cec081d8: no actual concretum at w |
+
+The Comparator-checked corollary `actualNonmutualOfDistinct` derives N (STMT-NONMUTUAL-DEPENDENCE-SUFFICES-FOR-PRIORITY) **restricted to actual concreta** from 0791f2ad, because the nonmutuality antecedent already excludes `y = x`. N itself is not derived: it also covers non-actual and non-concrete relata. The controls (`Control.Certificate`) give a model in which D is reflexive and a8298fbd, 7a63a3fe and 47aff057 hold together with a nonvacuous priority instance. On that model the unrestricted bridge 2e248016 fails. They also give an omission model for each bridge of the scoped route.
+
+**Honest size of step 1.** `actualDistinctDependencePriority` is a plain composition of two existing bridges. Its content lies in what it avoids: it uses no separability premise, and it does not use the unrestricted bridge, which the next point shows to be load-bearing in a bad way.
+
+### Why the distinct-relata bridge matters on the root route
+
+`reflexiveUnrestrictedExcludesActualConcreta` certifies the step that result d86e618b left elementary. Reflexive D (an OPEN reading of DEF-DEPENDS-FOR-BEING's bare counterfactual clause, #1593) with 2e248016 makes every actual concretum ground itself. 7a63a3fe then makes it prior to itself, and 47aff057 then requires it both to depend and not to depend on itself. 47aff057 lies in every terminal G package, and the #1604 `i`-free route uses 2e248016 and 7a63a3fe. That route is therefore consistent only with a strict, non-reflexive reading of D among actual concreta. The new siblings take a8298fbd wherever the old derivations used the bridge only at distinct relata, and the controls show that this bundle has a model with reflexive D.
+
+### Use-site test (#1590, step 2)
+
+The Theta.8 routes 6df393c4 and ae809bfd reach N only through E, which is derived from N, c0d99549 (an effect depends for being on its efficient cause) and 47b151ca (an efficient cause does not depend on its effect). N in turn is derived from d, i and r. Both routes apply E at exactly one instance: `(c, f, esse)` with `c ≠ f` and `CausesIn c f esse`, where c is the distinct uniting cause that ca07cae9 gives a composite first-being candidate f. ee74c678 covers that instance, so the instances used lose nothing. The meaning of the conclusions is unchanged. No premise says that f can exist without c, so the necessary-cause failure of `i` does not arise.
+
+The net replacement in this subderivation is as follows.
+
+- **Removed:** E, and with it N, `d`, `i`, `r`, c0d99549 and 47b151ca; also e0088de9.
+- **Added**, along the dependence route to ee74c678: a8298fbd (or 2e248016), 7a63a3fe, 2068f91c, c99f9d23 and 82eeeb3c. Then the #1604 actuality-scope statements 2f2f5bd2, 546975ef and 2d9807a5, which give ee74c678 from b50fb858.
+
+The dependence premise 2068f91c replaces c0d99549. It is narrower: it covers only distinct causes of esse.
+
+### Structural effect, computed exactly
+
+These facts come from forward chaining over every registered argument with a result record. The terminal basis is every statement with no incoming rule. The script is analysis only, not repository tooling.
+
+- **Terminal-only basis:** unchanged. a8298fbd is an intermediate whose only derivation is from 2e248016 (cc7dd608). So 2e248016 still lies in every `i`-free terminal G and H package, here as before.
+- **a8298fbd taken directly, without `i` and 2e248016:** on main neither G nor H is derivable. With this change both are. One greedy inclusion-minimal package for G has 41 inputs and contains none of d, r, c0d99549, N, E or e0088de9; it contains 7a63a3fe. G stays derivable without c0d99549 as well. H is not derivable once c0d99549 is also removed, so H keeps a dependence input elsewhere.
+- **`truth frontier-diff --base 526cc610d`:** open premises reaching the root stay at 476 (339 bare, 90 supported, 47 stated). Verified support alternatives rise from 462 to 468. a8298fbd now reaches the root. No bare premise is added and no premise is established.
+
+Consumers of 2e248016 that were **not** moved, with the reason:
+
+- `contingentGroundedViaDependence` (dd7ee4b9): 3ef67739 does not require a distinct dependee.
+- `necessityCauseGroundViaDependence` (eddef85a): its conclusion d29cebca links both WELL_FOUNDEDNESS_AND_ANTI_BRUTE_ROOT senses although its type uses neither. This is the same sense-link defect as on STMT-ACTUAL-GROUNDING-ASYMMETRIC, so a new argument concluding it fails the sense-mixing check.
+- `perSeFromGrounding` (4fd4e8f7): it mixes the NECESSARY_3/4/11 senses and is allowlisted, and a sibling would need a sense bridge.
+
+The Lean proofs of the last two siblings are one-line changes, and the third is not. All three are follow-ups.
+
+### Semantic burden
+
+**Which reading of `grounds` the bridge needs.** `grounds w` is the profile's primitive selected relation (a1b2e330). It is not Fine's formal strict ground, which is sense 2 of 23dd6f32 and a different Lean declaration. #1600 found that the constitutive reading of ground fails on DEF-DEPENDS-FOR-BEING's own paradigm: the sun's existing does not constitute the light's. On that reading a8298fbd would be false of the paradigm edge. The bridge is plausible on the **causal-explanatory** reading, sibling (b) of 23dd6f32, which the #1604 section already uses for cb1cdea9: c grounds x at w when x's being at w is accounted for by c's actual causal responsibility. The paradigm fits that reading exactly. The light in the air is while the sun shines and ceases when the sun ceases, which is Aquinas's own example of a causa essendi (q.104 a.1). So the sun, an actual concretum distinct from the light, accounts for the light's being at w. The other OPEN premises that constrain `grounds` (roots as ungrounded actual concreta, grounding asymmetry or well-foundedness) must then be read on the same causal-explanatory reading. Neither Lean type encodes that reading.
+
+**Why grounding of existence is priority.** Take the same example. The sun is prior by nature to the light, though not in time: the light's being presupposes the sun's shining, and the sun's being does not presuppose the light. 7a63a3fe generalizes this one direction to every grounding edge between actual concreta. What the scoped route gives is the primitive SIMPLY_PRIOR_1 relation from the grounding of x's *being*. In #1595's terms it is not priority in every respect of x's existence. Asymmetry still comes only from separate OPEN premises; the #1604 section prices the mutual-grounding rival.
+
+**Rival: dependence by origin.** *Target:* a8298fbd and 2e248016. *Mechanism:* on the bare counterfactual clause of D, x depends on c whenever x would not be if c were not. By the necessity of origin, a child would not be if its parent had never been. (Navigation only, attribution deferred: Kripke, *Naming and Necessity*, Lecture III.) While the parent is alive, both are actual concreta, they are distinct, and D(child, parent) holds. Yet the parent does not account for the child's being at w: it is a causa fiendi, like the builder of a house (q.104 a.1). So the bridge's consequent fails. *Independent justification:* the necessity-of-origin judgment is widely held independently of this argument, and the fiendi/essendi distinction is Aquinas's own. *Price:* DEF-DEPENDS-FOR-BEING qualifies D as an effect's relation to its *agent cause*, after q.44 a.1 ad 2. Read with that qualification as dependence on a cause of being, D excludes the origin case and a8298fbd survives. Read as the bare counterfactual, D includes it and a8298fbd fails for originators. On the route, D instances enter only through 2068f91c (a distinct cause of esse) and 47aff057 (from priority). So the choice comes down to whether a `CausesIn … esse` cause sustains its effect. That is the sustaining bridge 23e04ae5, where the existential-inertia rival (#1616) already stands. The dependence route therefore relocates the separability burden onto the sustaining reading, exactly as the #1604 esse-cause route does. It adds no independent escape.
+
+**Reading boundary: bare modal requirement.** If D were read as `□(Exists x → Exists c)`, two necessarily coexisting actual concreta would each depend on the other. a8298fbd, 7a63a3fe and 47aff057 would then be jointly inconsistent for them. DEF-DEPENDS-FOR-BEING excludes that reading ("not necessitation"), so this is a scope condition on D, not an objection to the bridge. No such pair of concreta is identified.
+
+### Provisional judgment
+
+The scoped route is a valid conditional composition. On the root route it is better supported than the unrestricted bridge: it gives the same God-existence support without committing D to irreflexivity, which the unrestricted bridge does as soon as 7a63a3fe and 47aff057 are present. a8298fbd is plausible for D's causal paradigm on the causal-explanatory reading of `grounds`, and implausible on the constitutive one. Its standing rival, dependence by origin, is defeated only by the agent-cause (causa essendi) qualification of D, so its warrant stands or falls with the sustaining reading 23e04ae5. The following would revise this judgment:
+- a defense of 23e04ae5 against existential inertia (#1616), which would discharge the origin rival on the route; or
+- a derivation of a8298fbd that does not pass through 2e248016, which would change the terminal-only basis.

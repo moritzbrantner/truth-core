@@ -1,0 +1,11 @@
+{
+  "id": "69c40b27-10b7-4f23-83ea-55128cd3280e",
+  "label": "The esse-cause bridge, via distinct actual dependence",
+  "argument_id": "57f22435-95c6-43ba-8d68-51a9ffdae405",
+  "challenge_module": "TruthCore.Results.Causality.DependenceGroundingPriority.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DependenceGroundingPriority.Solution",
+  "theorem": "TruthCore.Results.Causality.DependenceGroundingPriority.esseCauseGroundViaDistinctDependence",
+  "comparator_config": "results/69c40b27-10b7-4f23-83ea-55128cd3280e/comparator.json",
+  "status": "solution-present",
+  "description": "The derivation of STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND in Round2Grounding.esseCauseGroundViaDependence applies the dependence-to-grounding bridge only to c and x with c distinct from x. This sibling takes the weaker distinct-relata version of that bridge, with the other three premises unchanged. It therefore does not commit DependsForBeing to irreflexivity, which the unrestricted bridge does in combination with grounding-to-priority and priority requiring nonmutual dependence (reflexiveUnrestrictedExcludesActualConcreta). Conditional consequence only; no premise is established."
+}

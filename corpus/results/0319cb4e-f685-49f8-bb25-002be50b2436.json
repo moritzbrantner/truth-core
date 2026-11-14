@@ -1,0 +1,11 @@
+{
+  "id": "0319cb4e-f685-49f8-bb25-002be50b2436",
+  "label": "A first being is in POTENCY_2 in no respect, from Theta.8 and esse-cause priority",
+  "argument_id": "d812acaa-2f51-4647-be85-40cb9a6cf8d5",
+  "challenge_module": "TruthCore.Results.Causality.DependenceGroundingPriority.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DependenceGroundingPriority.Solution",
+  "theorem": "TruthCore.Results.Causality.DependenceGroundingPriority.firstBeingNoPotencyOfThetaEightEsse",
+  "comparator_config": "results/0319cb4e-f685-49f8-bb25-002be50b2436/comparator.json",
+  "status": "solution-present",
+  "description": "The Theta.8 route (firstBeingNoPotencyOfThetaEight) with the cause-to-efficient-cause bridge and efficient-cause priority replaced by one premise on the q.3 a.7 cause-of-perfection relation: a distinct cause of a thing's esse is simply prior to it. A first being cannot fail to be, so it is in act in being; if it were in potency in some respect it would be composite, hence have a distinct cause of its esse, which is simply prior to it, against firstness. Composes EsseCausePriority.firstBeingNoPotencyOfEssePriority at act in being. The original route applied efficient-cause priority only at that distinct esse-cause instance, so no instance it used is lost. Like the #1604 siblings, it avoids STMT-PERFECTION-CAUSING-IN-ANOTHER-IS-EFFICIENT only because the esse-cause priority premise's upstream bridge covers every CausesIn ... esse instance. Conditional consequence only; no premise is established."
+}

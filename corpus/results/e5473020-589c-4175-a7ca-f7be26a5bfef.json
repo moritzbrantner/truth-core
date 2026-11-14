@@ -1,0 +1,11 @@
+{
+  "id": "e5473020-589c-4175-a7ca-f7be26a5bfef",
+  "label": "First-being act priority over POTENCY_2, from Theta.8 and esse-cause priority",
+  "argument_id": "27d7cebb-4119-44c2-a901-d554aa9da2a2",
+  "challenge_module": "TruthCore.Results.Causality.DependenceGroundingPriority.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DependenceGroundingPriority.Solution",
+  "theorem": "TruthCore.Results.Causality.DependenceGroundingPriority.weakOfThetaEightEsse",
+  "comparator_config": "results/e5473020-589c-4175-a7ca-f7be26a5bfef/comparator.json",
+  "status": "solution-present",
+  "description": "First-being act priority for the POTENCY_2 parameter from the same five premises: a first being is in potency in no respect, so the first-being version holds vacuously. The sibling of weakOfThetaEight without the cause-to-efficient-cause bridge and efficient-cause priority. Registered per route, as weakOfThetaEight is. Conditional consequence only; no premise is established."
+}

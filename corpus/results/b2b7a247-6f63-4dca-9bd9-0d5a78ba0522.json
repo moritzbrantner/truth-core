@@ -1,0 +1,11 @@
+{
+  "id": "b2b7a247-6f63-4dca-9bd9-0d5a78ba0522",
+  "label": "Distinct actual dependence is SIMPLY_PRIOR_1, from actual grounding",
+  "argument_id": "4d69464b-5fa1-42a2-918e-a63e6f10f48d",
+  "challenge_module": "TruthCore.Results.Causality.DependenceGroundingPriority.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DependenceGroundingPriority.Solution",
+  "theorem": "TruthCore.Results.Causality.DependenceGroundingPriority.actualDistinctDependencePriority",
+  "comparator_config": "results/b2b7a247-6f63-4dca-9bd9-0d5a78ba0522/comparator.json",
+  "status": "solution-present",
+  "description": "If x depends for its being on a distinct c and both are actual concreta at w, the OPEN distinct-relata bridge makes c ground x at w, and the OPEN grounding-to-priority bridge makes c simply prior to x. Plain conditional composition of two existing bridges; its value is that it reaches priority without STMT-INDEPENDENCE-ALLOWS-BEING-WITHOUT and without the unrestricted dependence-to-grounding bridge, so it stays consistent with a reflexive reading of DependsForBeing (Control.ReflexiveCompatible). Each bridge is needed (Control.OmitDistinctGround, Control.OmitGroundingPriority). The Comparator-checked corollary actualNonmutualOfDistinct gives STMT-NONMUTUAL-DEPENDENCE-SUFFICES-FOR-PRIORITY only for actual concrete relata, not unscoped. Conditional consequence only; neither bridge is established."
+}

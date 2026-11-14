@@ -1,0 +1,32 @@
+{
+  "id": "040e3b4e-f59c-4ef4-9b5a-7cc181b5bde4",
+  "label": "Existential dependence to simple priority through actual grounding (#1590)",
+  "statement_ids": [
+    "0791f2ad-eeec-48b9-8f24-f2e711a5a2f9",
+    "a8298fbd-f3c5-480d-95e9-8316889c327f",
+    "2e248016-f8bf-5d8a-931e-7f9ebbb13e42",
+    "7a63a3fe-a29f-5282-8106-79fedcb10d08",
+    "bf93f259-29b4-53df-ae5b-ac7f522ea33d",
+    "e078f07b-a4b8-595e-a3ee-02dd83474450",
+    "cb1cdea9-eb6c-578c-8008-84e0d4107fd3",
+    "b50fb858-ca2e-48fa-a111-84ac761976d3",
+    "cec081d8-0f17-4972-a9c5-e452d393d9b2",
+    "8ab3d114-d6e2-5f6d-805b-ae901f56d39b"
+  ],
+  "date": "2026-11-14",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Reuse check: no registered result composed a dependence-to-grounding bridge with ActualGroundingIsSimplePriority (7a63a3fe), and truth related found no existing scoped priority statement. Step 1: actualDistinctDependencePriority composes the distinct-relata bridge a8298fbd (#1593) with 7a63a3fe into 0791f2ad: if an actual concretum depends for its being on a distinct actual concretum c, c is SIMPLY_PRIOR_1 to it. This is a plain composition; the Comparator-checked corollary actualNonmutualOfDistinct gives N (bf93f259) restricted to actual concreta, not N. Step 2: actualEsseCausePriorityViaDependence derives the #1604 node b50fb858 from 0791f2ad, 2068f91c, c99f9d23 and 82eeeb3c. The Theta.8 routes (6df393c4, ae809bfd), which reach N only through efficient-cause priority E, apply E only at (c, f, esse) with c distinct from a composite first-being candidate f; they were rederived from ee74c678 (firstBeingNoPotencyOfThetaEightEsse, weakOfThetaEightEsse) without E, N, d, i, r, c0d99549, 47b151ca or e0088de9, and no premise lets f exist without c. Distinct-relata siblings: cb1cdea9 (both existing derivations) and 86efed1a now also follow with a8298fbd in place of the unrestricted 2e248016. Incompatibility: reflexiveUnrestrictedExcludesActualConcreta certifies that reflexive D (56252cd8), 2e248016, 7a63a3fe and 47aff057 exclude every actual concretum (cec081d8); since 47aff057 lies in every terminal G package, the #1604 i-free route was consistent only with a strict reading of D among actual concreta. Controls give a model of reflexive D with a8298fbd, 7a63a3fe and 47aff057 and a nonvacuous priority instance, failure of 2e248016 on it, and omission models for each scoped bridge. Structural effect by forward chaining over all registered argument/result rules: the terminal-only basis is unchanged (a8298fbd's only derivation is from 2e248016); with a8298fbd taken directly and without i and 2e248016, G and H are underivable on main and derivable on this branch; one greedy minimal G package has 41 inputs and contains none of d, r, c0d99549, N, E, e0088de9; G stays derivable without c0d99549, H does not. truth frontier-diff: 476 open root premises unchanged, verified support alternatives 462 -> 468, no bare premise added.",
+  "blocker": "No blocker for the assigned composition and use-site test. Open: (1) both bridges stay OPEN. a8298fbd is plausible on the causal-explanatory reading of the profile's grounds (the sun/light paradigm, a causa essendi in q.104 a.1, is covered) and false of that paradigm on the constitutive reading (#1600). Its standing rival is dependence by origin: on D's bare counterfactual clause a living parent is an actual distinct concretum the child depends on (necessity of origin) without grounding the child's being at w. Only D's agent-cause (causa essendi) qualification excludes it, and on the route D enters only through 2068f91c and 47aff057, so the burden reduces to the sustaining bridge 23e04ae5 and the existential-inertia rival owned by #1616. (2) Consumers of 2e248016 not moved: dd7ee4b9 (3ef67739 has no distinctness); eddef85a (its conclusion d29cebca links both WELL_FOUNDEDNESS_AND_ANTI_BRUTE_ROOT senses though its type uses neither, so a sibling fails the sense-mixing check until those links are corrected); 4fd4e8f7 (allowlisted NECESSARY_3/4/11 mixing; a sibling needs a sense bridge). Their Lean siblings are one-line changes. (3) A derivation of a8298fbd not through 2e248016 would be needed to change the terminal-only basis. (4) Exact minimal-set counts were not recomputed.",
+  "evidence": [
+    "b2b7a247-6f63-4dca-9bd9-0d5a78ba0522",
+    "5f608b8b-0b4a-4a7a-8748-244dbe8bcefa",
+    "0319cb4e-f685-49f8-bb25-002be50b2436",
+    "e5473020-589c-4175-a7ca-f7be26a5bfef",
+    "69c40b27-10b7-4f23-83ea-55128cd3280e",
+    "427f8251-66e0-4e09-a1ae-d2984cd92bd6",
+    "4fa5f002-8658-4d93-9327-636858c98e4a",
+    "9150bd9c-22b8-49ea-80ab-92fad0b6fb0c",
+    "abc7b1bc-6695-42da-ae22-d1a57e77d9d2"
+  ]
+}

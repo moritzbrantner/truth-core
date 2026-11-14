@@ -1,0 +1,122 @@
+# Existential dependence to simple priority through actual grounding (#1590).
+# Analyst formulations, attribution deferred. Composes the distinct-relata
+# dependence-to-grounding bridge (#1593, a8298fbd) with the OPEN bridge
+# STMT-ACTUAL-GROUNDING-IS-SIMPLE-PRIORITY into scoped priority, applies it to the
+# esse-cause priority node of #1604, rederives the two Theta.8 first-being routes
+# without efficient-cause priority, gives the distinct-relata siblings of the
+# unrestricted bridge's consumers that only use distinct relata, and certifies the
+# exclusion of actual concreta by reflexive dependence with the unrestricted bridge.
+# No possible-separation premise is used. No premise is established.
+# Note: docs/notes/god-existence-support-formula.md, "Dependence to priority
+# through actual grounding (#1590)".
+
+[batch]
+vocab = "TruthCore.Causality.DependenceGroundingPriority"
+results = "TruthCore.Results.Causality.DependenceGroundingPriority"
+
+# ---------------------------------------------------------------- statements
+
+[[statement]]
+id = "A different actual CONCRETE_6 being that one depends on for its being is SIMPLY_PRIOR_1 to it"
+lean = "ActualDistinctDependencePriority"
+paraphrase = "At the selected world w, for any c and x, if c is distinct from x, both are concrete and exist at w, and x depends for its being on c (DEF-DEPENDS-FOR-BEING), then c is simply prior to x (SIMPLY_PRIOR_1). The actual-concrete, distinct-relata counterpart of STMT-NONMUTUAL-DEPENDENCE-SUFFICES-FOR-PRIORITY: it needs no nonmutuality antecedent and no possible-separation premise, and it says nothing of D(x,x), of non-actual or non-concrete relata, or of whole-existence priority beyond the primitive SIMPLY_PRIOR_1. It does not give the unscoped premise. Derived, not assumed, by composing the distinct-relata dependence-to-grounding bridge with STMT-ACTUAL-GROUNDING-IS-SIMPLE-PRIORITY."
+definitions = ["DEF-DEPENDS-FOR-BEING", "DEF-SIMPLE-PRIORITY", "008cb21a-256c-5a90-822c-acd4591d699a", "DEF-KANT-ONTOLOGICAL-MODEL"]
+disambiguations = ["23dd6f32-b456-4963-adb3-7befbf0dc4fb", "623ddbf6-9683-5361-bae4-e348a00ec680"]
+
+[[statement]]
+id = "No actual CONCRETE_6 individual exists at the selected world"
+lean = "NoActualConcretumAt"
+paraphrase = "Nothing is both concrete and existing at the selected world w. Recorded as the conclusion of a checked incompatibility: reflexive dependence for being, the unrestricted dependence-to-grounding bridge, actual grounding as simple priority and priority requiring nonmutual dependence jointly yield it, so with any actual concretum (which every root route asserts) at least one of those four must be rejected. It is not asserted."
+definitions = ["008cb21a-256c-5a90-822c-acd4591d699a", "DEF-KANT-ONTOLOGICAL-MODEL"]
+disambiguations = ["623ddbf6-9683-5361-bae4-e348a00ec680"]
+
+[[statement]]
+id = "Dependence-to-priority controls: reflexive compatibility, unrestricted failure and bridge omissions"
+lean = "Control.Certificate"
+paraphrase = "Closed controls over Bool worlds and beings (the reading world is true; every being exists and is concrete). (1) With D x y iff x = y or (x = false and y = true), D is reflexive, and the distinct-relata dependence-to-grounding bridge, actual grounding as simple priority and priority requiring nonmutual dependence hold jointly while false depends on true and true is simply prior to false. (2) On the same profile and D, the unrestricted dependence-to-grounding bridge fails (true depends on itself and does not ground itself). (3) Omitting the distinct-relata bridge: grounding-to-priority holds vacuously and the scoped priority fails. (4) Omitting grounding-to-priority: the distinct-relata bridge holds and the scoped priority fails. Statements about these interpretations only."
+definitions = ["DEF-DEPENDS-FOR-BEING", "DEF-SIMPLE-PRIORITY", "008cb21a-256c-5a90-822c-acd4591d699a", "DEF-KANT-ONTOLOGICAL-MODEL", "a1b2e330-388f-4120-bc5c-969642317792"]
+disambiguations = ["23dd6f32-b456-4963-adb3-7befbf0dc4fb", "623ddbf6-9683-5361-bae4-e348a00ec680"]
+
+# ---------------------------------------------------------------- arguments
+
+[[argument]]
+id = "Distinct actual dependence is SIMPLY_PRIOR_1, from actual grounding"
+theorem = "actualDistinctDependencePriority"
+comparator_theorems = ["actualNonmutualOfDistinct"]
+premises = ["a8298fbd-f3c5-480d-95e9-8316889c327f", "STMT-ACTUAL-GROUNDING-IS-SIMPLE-PRIORITY"]
+conclusion = "A different actual CONCRETE_6 being that one depends on for its being is SIMPLY_PRIOR_1 to it"
+axioms = []
+rule = "Chain: the distinct-relata bridge gives a grounding edge between two actual concreta; the grounding bridge turns it into simple priority"
+meaning = "If x depends for its being on a distinct c and both are actual concreta at w, the OPEN distinct-relata bridge makes c ground x at w, and the OPEN grounding-to-priority bridge makes c simply prior to x. Plain conditional composition of two existing bridges; its value is that it reaches priority without STMT-INDEPENDENCE-ALLOWS-BEING-WITHOUT and without the unrestricted dependence-to-grounding bridge, so it stays consistent with a reflexive reading of DependsForBeing (Control.ReflexiveCompatible). Each bridge is needed (Control.OmitDistinctGround, Control.OmitGroundingPriority). The Comparator-checked corollary actualNonmutualOfDistinct gives STMT-NONMUTUAL-DEPENDENCE-SUFFICES-FOR-PRIORITY only for actual concrete relata, not unscoped. Conditional consequence only; neither bridge is established."
+
+[[argument]]
+id = "Actual esse CAUSE_2 is SIMPLY_PRIOR_1, via distinct actual dependence"
+theorem = "actualEsseCausePriorityViaDependence"
+premises = ["A different actual CONCRETE_6 being that one depends on for its being is SIMPLY_PRIOR_1 to it", "STMT-ESSE-EFFECT-DEPENDS-ON-ITS-CAUSE", "STMT-ESSE-CAUSES-EXIST-AT", "STMT-ESSE-CAUSES-ARE-CONCRETE"]
+conclusion = "b50fb858-ca2e-48fa-a111-84ac761976d3"
+axioms = []
+rule = "Discharge the scoped route's antecedents at a distinct cause of an actual concretum's esse"
+meaning = "If c, distinct from the actual concretum x, causes x's esse, then x depends for its being on c (OPEN reading of q.44 a.1 ad 2 for causes of esse), c exists at w (OPEN) and is concrete (OPEN causal-capacity reading), so both are actual concreta and the scoped dependence-to-priority route makes c simply prior to x. This is a second derivation of the #1604 esse-cause priority node, through dependence for being rather than through the esse-cause-is-ground bridge; it uses the same bridge content as that node's route through STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND derived via dependence. All dependence instances it uses have distinct relata. Conditional consequence only; no premise is established."
+
+[[argument]]
+id = "A first being is in POTENCY_2 in no respect, from Theta.8 and esse-cause priority"
+theorem = "firstBeingNoPotencyOfThetaEightEsse"
+premises = ["ca55ed3a-8f7d-4e7c-8799-c61fdb4cce60", "STMT-INCORRUPTIBLE-IS-IN-ACT-IN-SUBSTANCE", "d8024a38-5d93-4c1d-8c21-fdbfa87a5cde", "STMT-COMPOSITE-HAS-A-UNITING-CAUSE", "ee74c678-0a06-47d3-9c76-27ff798e9a01"]
+conclusion = "STMT-FIRST-BEING-IS-IN-NO-WAY-IN-POTENCY"
+axioms = []
+rule = "Reductio at the supposed first being: incorruptibility gives act in being, act in being with potency gives composition, composition a distinct cause of esse, distinct-esse-cause priority a prior being, against firstness"
+meaning = "The Theta.8 route (firstBeingNoPotencyOfThetaEight) with the cause-to-efficient-cause bridge and efficient-cause priority replaced by one premise on the q.3 a.7 cause-of-perfection relation: a distinct cause of a thing's esse is simply prior to it. A first being cannot fail to be, so it is in act in being; if it were in potency in some respect it would be composite, hence have a distinct cause of its esse, which is simply prior to it, against firstness. Composes EsseCausePriority.firstBeingNoPotencyOfEssePriority at act in being. The original route applied efficient-cause priority only at that distinct esse-cause instance, so no instance it used is lost. Like the #1604 siblings, it avoids STMT-PERFECTION-CAUSING-IN-ANOTHER-IS-EFFICIENT only because the esse-cause priority premise's upstream bridge covers every CausesIn ... esse instance. Conditional consequence only; no premise is established."
+
+[[argument]]
+id = "First-being act priority over POTENCY_2, from Theta.8 and esse-cause priority"
+theorem = "weakOfThetaEightEsse"
+premises = ["ca55ed3a-8f7d-4e7c-8799-c61fdb4cce60", "STMT-INCORRUPTIBLE-IS-IN-ACT-IN-SUBSTANCE", "d8024a38-5d93-4c1d-8c21-fdbfa87a5cde", "STMT-COMPOSITE-HAS-A-UNITING-CAUSE", "ee74c678-0a06-47d3-9c76-27ff798e9a01"]
+conclusion = "61ad11f3-476f-411d-9720-d9f05cbc22fc"
+axioms = []
+rule = "Reductio at the supposed first being, as in firstBeingNoPotencyOfThetaEightEsse; the first-being version then holds vacuously"
+meaning = "First-being act priority for the POTENCY_2 parameter from the same five premises: a first being is in potency in no respect, so the first-being version holds vacuously. The sibling of weakOfThetaEight without the cause-to-efficient-cause bridge and efficient-cause priority. Registered per route, as weakOfThetaEight is. Conditional consequence only; no premise is established."
+
+[[argument]]
+id = "The esse-cause bridge, via distinct actual dependence"
+theorem = "esseCauseGroundViaDistinctDependence"
+premises = ["STMT-ESSE-CAUSES-EXIST-AT", "STMT-ESSE-CAUSES-ARE-CONCRETE", "STMT-ESSE-EFFECT-DEPENDS-ON-ITS-CAUSE", "a8298fbd-f3c5-480d-95e9-8316889c327f"]
+conclusion = "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND"
+axioms = []
+rule = "As esseCauseGroundViaDependence, with the dependence instance taken at the distinct cause"
+meaning = "The derivation of STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND in Round2Grounding.esseCauseGroundViaDependence applies the dependence-to-grounding bridge only to c and x with c distinct from x. This sibling takes the weaker distinct-relata version of that bridge, with the other three premises unchanged. It therefore does not commit DependsForBeing to irreflexivity, which the unrestricted bridge does in combination with grounding-to-priority and priority requiring nonmutual dependence (reflexiveUnrestrictedExcludesActualConcreta). Conditional consequence only; no premise is established."
+
+[[argument]]
+id = "The esse-cause bridge from existent concreteness, via distinct actual dependence"
+theorem = "esseCauseGroundOfExistentConcretenessViaDistinct"
+premises = ["STMT-ESSE-CAUSES-EXIST-AT", "0e02cd69-8fb0-4859-8287-937440c84b5b", "STMT-ESSE-EFFECT-DEPENDS-ON-ITS-CAUSE", "a8298fbd-f3c5-480d-95e9-8316889c327f"]
+conclusion = "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND"
+axioms = []
+rule = "As esseCauseGroundOfExistentConcreteness, with the dependence instance taken at the distinct cause"
+meaning = "The sibling of CauseOfBeingHasBeing.esseCauseGroundOfExistentConcreteness with the distinct-relata dependence-to-grounding bridge in place of the unrestricted one; that derivation also applies it only at a distinct cause. Concreteness of the cause comes from every existent at w being concrete. Conditional consequence only; no premise is established."
+
+[[argument]]
+id = "The SIMPLY_PRIOR_1 grounds what it is prior to, via distinct actual dependence"
+theorem = "simplyPriorGroundViaDistinctDependence"
+premises = ["STMT-PRIORITY-REQUIRES-NONMUTUAL-DEPENDENCE", "STMT-SIMPLE-PRIORITY-RELATES-ACTUAL-CONCRETA", "a8298fbd-f3c5-480d-95e9-8316889c327f"]
+conclusion = "STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND"
+axioms = []
+rule = "As simplyPriorGroundViaDependence; the conclusion already restricts to y distinct from x"
+meaning = "The sibling of Round2Grounding.simplyPriorGroundViaDependence with the distinct-relata bridge: STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND concerns only a y simply prior to something other than itself, so the dependence edge the requirement bridge supplies has distinct relata. Conditional consequence only; no premise is established."
+
+[[argument]]
+id = "No actual CONCRETE_6 individual, from reflexive dependence with the unrestricted bridge"
+theorem = "reflexiveUnrestrictedExcludesActualConcreta"
+premises = ["56252cd8-955d-40a5-bd81-de4a496d9018", "STMT-ACTUAL-DEPENDENCE-IS-GROUNDING", "STMT-ACTUAL-GROUNDING-IS-SIMPLE-PRIORITY", "STMT-PRIORITY-REQUIRES-NONMUTUAL-DEPENDENCE"]
+conclusion = "No actual CONCRETE_6 individual exists at the selected world"
+axioms = []
+rule = "Each actual concretum would ground itself, hence be simply prior to itself, hence both depend and not depend on itself"
+meaning = "Certifies the step result d86e618b left elementary: on the reflexive reading of DependsForBeing, the unrestricted dependence-to-grounding bridge makes every actual concretum ground itself; actual grounding as simple priority makes it simply prior to itself; priority requiring nonmutual dependence then requires that it both depend and not depend on itself. So these four OPEN premises exclude every actual concretum. Since STMT-PRIORITY-REQUIRES-NONMUTUAL-DEPENDENCE lies in every terminal God-existence package and the #1604 i-free route uses the other two bridges, that route is consistent only with a strict, non-reflexive reading of D at actual concreta unless it uses the distinct-relata bridge. The control ReflexiveCompatible shows the distinct-relata bundle has a model with reflexive D and actual concreta. A forced rejection of at least one of the four, not of a preferred one."
+
+[[argument]]
+id = "Dependence-to-priority controls, checked"
+theorem = "controls"
+premises = []
+conclusion = "Dependence-to-priority controls: reflexive compatibility, unrestricted failure and bridge omissions"
+axioms = []
+rule = "Explicit Bool interpretations checked by case analysis"
+meaning = "Controls for the dependence-to-priority batch: a joint model of reflexive D with the distinct-relata bridge, grounding-to-priority and priority-requires-nonmutual-dependence and a nonvacuous priority instance; failure of the unrestricted bridge on that model; and omission models for each bridge of the scoped route. Model-witnessed facts about these interpretations only; no interpretation is claimed metaphysically possible."

@@ -1,0 +1,11 @@
+{
+  "id": "9150bd9c-22b8-49ea-80ab-92fad0b6fb0c",
+  "label": "No actual CONCRETE_6 individual, from reflexive dependence with the unrestricted bridge",
+  "argument_id": "fd18f25d-d90a-4b94-9d26-585a87c126f3",
+  "challenge_module": "TruthCore.Results.Causality.DependenceGroundingPriority.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DependenceGroundingPriority.Solution",
+  "theorem": "TruthCore.Results.Causality.DependenceGroundingPriority.reflexiveUnrestrictedExcludesActualConcreta",
+  "comparator_config": "results/9150bd9c-22b8-49ea-80ab-92fad0b6fb0c/comparator.json",
+  "status": "solution-present",
+  "description": "Certifies the step result d86e618b left elementary: on the reflexive reading of DependsForBeing, the unrestricted dependence-to-grounding bridge makes every actual concretum ground itself; actual grounding as simple priority makes it simply prior to itself; priority requiring nonmutual dependence then requires that it both depend and not depend on itself. So these four OPEN premises exclude every actual concretum. Since STMT-PRIORITY-REQUIRES-NONMUTUAL-DEPENDENCE lies in every terminal God-existence package and the #1604 i-free route uses the other two bridges, that route is consistent only with a strict, non-reflexive reading of D at actual concreta unless it uses the distinct-relata bridge. The control ReflexiveCompatible shows the distinct-relata bundle has a model with reflexive D and actual concreta. A forced rejection of at least one of the four, not of a preferred one."
+}
