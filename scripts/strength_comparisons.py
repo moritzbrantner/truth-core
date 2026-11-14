@@ -17,6 +17,10 @@ PREDICATE = "strength_comparison"
 SCHEMA_VERSION = 2
 ROLES = {"implication", "delta_forward", "reconstruction", "equivalence", "converse", "allowed_cases", "remainder_identity"}
 EXACT_DELTA_ROLES = {"implication", "delta_forward", "reconstruction", "equivalence"}
+# Either the biconditional S ↔ (W ∧ D) itself, or all three directions it
+# consists of, certifies the exact factorization (each set entails the other
+# under the same background; #1598).
+EXACT_DELTA_SUFFICIENT = ({"equivalence"}, {"implication", "delta_forward", "reconstruction"})
 TRUST = "Trusted live producer; freshness validation is not fresh proof execution. Existing result verifiers remain authoritative."
 
 
@@ -37,6 +41,12 @@ def validate_registration(relation, statements, results, arguments, configs=None
         sid = relation.get(field)
         if sid not in statements or not statements[sid].get("lean_declaration"):
             raise ValueError(f"{label}: {field} needs a known statement with a Lean declaration")
+    # Cheap non-triviality guard (#1598): a delta that is the stronger or the
+    # weaker statement, or names its declaration, certifies no difference.
+    delta = relation["delta_statement_id"]
+    for field in ("subject_id", "object_id"):
+        if delta == relation[field] or statements[delta]["lean_declaration"] == statements[relation[field]]["lean_declaration"]:
+            raise ValueError(f"{label}: delta_statement_id must name a statement and declaration distinct from {field}")
     if "remainder_statement_id" in relation and (relation["remainder_statement_id"] not in statements or not statements[relation["remainder_statement_id"]].get("lean_declaration")):
         raise ValueError(f"{label}: remainder_statement_id needs a known Lean statement")
     background = relation.get("background_statement_ids")
@@ -79,6 +89,19 @@ def validate_registration(relation, statements, results, arguments, configs=None
             raise ValueError(f"{label}: result {rid} has no canonical argument")
         if configs is not None and result.get("theorem") not in configs[rid].get("theorem_names", []):
             raise ValueError(f"{label}: result theorem is not a Comparator obligation: {rid}")
+
+
+def certifies_difference(comparison, registration):
+    """A `strength_comparison` certifies the difference of a `strengthens`
+    registration (#1598) when it compares the same stronger and weaker
+    statements with no background and registers the exact factorization
+    S ↔ (W ∧ D) as its `equivalence` certificate. Lean binding of that
+    certificate and the degeneracy guard run in the strength report."""
+    return (comparison.get("predicate") == PREDICATE and registration.get("predicate") == "strengthens"
+            and comparison.get("subject_id") == registration.get("subject_id")
+            and comparison.get("object_id") == registration.get("object_id")
+            and comparison.get("background_statement_ids") == []
+            and "equivalence" in (comparison.get("evidence_result_ids") or {}))
 
 
 def input_manifest(root):
@@ -168,13 +191,14 @@ def projection(relation, data, binding=None, *, verified=False):
         validate_binding(relation, data, binding)
     evidence = relation["evidence_result_ids"]
     roles = set(evidence) if verified else set()
-    strict = "implication" in roles and relation.get("separator") is not None
-    equivalent = {"implication", "converse"} <= roles
+    implied = bool(roles & {"implication", "equivalence"})
+    strict = implied and relation.get("separator") is not None
+    equivalent = implied and "converse" in roles
     if strict and equivalent:
         raise ValueError(f"{relation['id']}: contradictory converse and separating evidence")
-    exact = EXACT_DELTA_ROLES <= roles
+    exact = any(needed <= roles for needed in EXACT_DELTA_SUFFICIENT)
     if exact and binding and binding.get("delta_degenerate"):
-        raise ValueError(f"{relation['id']}: delta is definitionally S or W → S, excluded by the definitional degeneracy guard; explanatory usefulness is not certified")
+        raise ValueError(f"{relation['id']}: delta is definitionally S, W → S, W or True, excluded by the definitional degeneracy guard; explanatory usefulness is not certified")
     obligations = []
     bound_by_role = {c["role"]: c for c in (binding or {}).get("certificates", [])}
     for role, rid in sorted(evidence.items()):
@@ -190,16 +214,16 @@ def projection(relation, data, binding=None, *, verified=False):
     report = {"id": relation["id"], "stronger_statement_id": relation["subject_id"], "weaker_statement_id": relation["object_id"],
               "delta_statement_id": relation["delta_statement_id"], "background_statement_ids": relation["background_statement_ids"],
               "comparison_spec": relation["comparison_spec"], "note": relation["note"], "verified": verified,
-              "comparison_status": "strict strengthening" if strict else "proved equivalence" if equivalent else "proved implication" if "implication" in roles else "unresolved",
+              "comparison_status": "strict strengthening" if strict else "proved equivalence" if equivalent else "proved implication" if implied else "unresolved",
               "converse_status": "refuted by separating setting" if strict else "proved" if "converse" in roles else "unresolved",
               "delta_status": "exact factorization proved" if exact else "sufficient only; exactness unresolved" if "reconstruction" in roles else "unresolved",
               "explanatory_controls": [{"result_id": rid, "argument_id": data["results"][rid]["argument_id"], "theorem": data["results"][rid]["theorem"], "description": data["results"][rid]["description"]} for rid in relation.get("explanatory_control_result_ids", [])],
               "explanatory_status": "reviewed interpretation; informative explanation is not certified by factorization",
-              "obligations": obligations, "binding": binding, "remaining_obligations": sorted(EXACT_DELTA_ROLES - roles),
+              "obligations": obligations, "binding": binding, "remaining_obligations": [] if exact else sorted(EXACT_DELTA_ROLES - roles),
               "definitions": definitions, "disambiguations": disambiguations,
               "scope_notes": ["Comparison is under the displayed shared background and vocabulary, not the entire theorem environment.",
                               "Exact factorization S ↔ (W ∧ D) does not certify that D is informative: even S ∧ True can be an exact factorization.",
-                              "The degeneracy guard detects only definitional matches to S or W → S; a negative check proves no semantic nonredundancy.",
+                              "The degeneracy guard detects only definitional matches to S, W → S, W or True; a negative check proves no semantic nonredundancy.",
                               "A checked separating instance refutes the general converse under this comparison, not the converse for every fixed domain or interpretation. Current examples use Type 0; closed settings need not use universe zero.",
                               "D is a proposed additional requirement; W ∧ ¬S denotes cases admitted only by W. They are distinct roles.",
                               "No unique or minimal delta is claimed. Proof-term use does not establish premise necessity.",

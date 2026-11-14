@@ -37,10 +37,18 @@ test("strictness without checked separating evidence is rejected", () => {
 
 test("a sufficient delta cannot be relabelled as exact when reconstruction is missing", () => {
   const input = bundle();
-  input.comparisons[0].obligations = input.comparisons[0].obligations.filter((entry) => entry.role !== "reconstruction");
+  input.comparisons[0].obligations = input.comparisons[0].obligations.filter((entry) => !["reconstruction", "equivalence"].includes(entry.role));
   expect(() => parseStrengthComparisons(input)).toThrow("lacks its certified evidence");
   input.comparisons[0].delta_status = "sufficient only; exactness unresolved";
   expect(parseStrengthComparisons(input)[0].delta_status).toBe("sufficient only; exactness unresolved");
+});
+
+test("the equivalence certificate alone is an exact factorization and an implication (#1598)", () => {
+  const input = bundle();
+  input.comparisons[0].obligations = input.comparisons[0].obligations.filter((entry) => entry.role === "equivalence");
+  expect(parseStrengthComparisons(input)[0].delta_status).toBe("exact factorization proved");
+  input.comparisons[0].obligations = [];
+  expect(() => parseStrengthComparisons(input)).toThrow("lacks its certified evidence");
 });
 
 test("S iff W-and-D does not certify S iff W or resolve its converse", () => {

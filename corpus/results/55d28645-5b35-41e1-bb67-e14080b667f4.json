@@ -1,0 +1,11 @@
+{
+  "id": "55d28645-5b35-41e1-bb67-e14080b667f4",
+  "label": "S5 node is the S4 node plus a symmetric frame",
+  "argument_id": "f98ce97a-cdbf-4cc0-bd19-bb7f237a1957",
+  "challenge_module": "TruthCore.Results.Logic.Strength.NecessaryFrames.Challenge",
+  "solution_module": "TruthCore.Results.Logic.Strength.NecessaryFrames.Solution",
+  "theorem": "TruthCore.Results.Logic.Strength.NecessaryFrames.s5OverS4Exact",
+  "comparator_config": "results/55d28645-5b35-41e1-bb67-e14080b667f4/comparator.json",
+  "status": "solution-present",
+  "description": "Certified difference (#1598) of the registration S5 node strengthens S4 node: for every world type, signature, profile, world and relation, the S5 node holds iff the S4 node holds and the route's frame is symmetric. Premise-free; it compares the two encodings and asserts no frame class of the route."
+}

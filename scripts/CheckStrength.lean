@@ -221,9 +221,14 @@ def describe (request : Json) : MetaM Json := do
         ("stronger", str (← pp strong)), ("weaker", str (← pp weak)),
         ("delta", str (← pp delta)), ("remainder", str (← pp remainder))]),
       ("field_bindings", Json.arr bindings), ("certificates", Json.arr certificates)]
+    -- Definitional degeneracy guard (#1598): D ≡ S or D ≡ (W → S) makes the
+    -- factorization trivially provable; D ≡ W or D ≡ True would make it an
+    -- equivalence S ↔ W, not a strengthening. Semantic redundancy is not decided.
     let dSame ← isDefEq delta strong
     let dImp ← isDefEq delta (← mkArrow weak strong)
-    out := out ++ [("delta_degenerate", Json.bool (dSame || dImp))]
+    let dWeak ← isDefEq delta weak
+    let dTrue ← isDefEq delta (mkConst ``True)
+    out := out ++ [("delta_degenerate", Json.bool (dSame || dImp || dWeak || dTrue))]
     let mut allAgree := certificates.all fun c => (c.getObjValAs? Bool "bound").toOption.getD false
     allAgree := allAgree && bindings.all fun b => (b.getObjValAs? Bool "bound").toOption.getD false
     if let .ok separator := request.getObjVal? "separator" then

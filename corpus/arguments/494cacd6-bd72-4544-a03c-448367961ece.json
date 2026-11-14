@@ -1,0 +1,17 @@
+{
+  "id": "494cacd6-bd72-4544-a03c-448367961ece",
+  "label": "KTB node is the T node plus a symmetric frame",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "f7fb2fbe-02f1-46fb-b63f-c1e99ac89ea9",
+  "inference_ids": [
+    "1ab44b61-9604-4313-9632-28fbe3fc6713"
+  ],
+  "meaning": "Certified difference (#1598) of the registration KTB node strengthens T node: for every world type, signature, profile, world and relation, the KTB node holds iff the T node holds and the route's frame is symmetric. Premise-free; it compares the two encodings and asserts no frame class of the route.",
+  "definition_ids": [
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "f830795a-b5d8-5f9f-800d-2f3d1f443a0a"
+  ],
+  "disambiguation_ids": [
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
+  ]
+}
