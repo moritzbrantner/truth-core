@@ -1,0 +1,11 @@
+{
+  "id": "1e2e7021-db0c-4214-a971-428864395354",
+  "label": "Cause of being transfers every perfection strengthens its residual restriction",
+  "subject_kind": "statement",
+  "subject_id": "f8ba2429-b4f1-5712-a4d3-798213963d34",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "5a4afaa5-ae79-58bd-bfca-501d2a194b10",
+  "verification_result_id": "3952799d-2d50-5115-9400-aa69ca562ea8",
+  "note": "Strength registration (2026-11-12 audit): Same cause, effect and perfection vocabulary; the weak version keeps the transfer only for nonuniversal sources and self-effects."
+}

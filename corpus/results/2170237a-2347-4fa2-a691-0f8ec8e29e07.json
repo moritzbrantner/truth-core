@@ -1,0 +1,11 @@
+{
+  "id": "2170237a-2347-4fa2-a691-0f8ec8e29e07",
+  "label": "Borrowed reality and localized root access imply CCR",
+  "argument_id": "7c06405d-11c7-4a7f-abd1-8aea4626bd18",
+  "challenge_module": "TruthCore.Results.Causality.ConcreteRootAccess.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ConcreteRootAccess.Solution",
+  "theorem": "TruthCore.Results.Causality.ConcreteRootAccess.closedOfLocalized",
+  "comparator_config": "results/2170237a-2347-4fa2-a691-0f8ec8e29e07/comparator.json",
+  "status": "solution-present",
+  "description": "Borrowed reality and localized root access imply CCR. Conditional structural consequence only; no independent warrant or rival defeat. Excluded middle is explicit where listed."
+}

@@ -1,6 +1,6 @@
 import { areaOf, closureOf, laneOf, reachOf, recordKindsOf } from "./graph-facets";
 import { hasFilters, type GraphState } from "./graph-state";
-import { researchLinkedStatements, type GraphInference, type GraphStatement, type PropositionGraph } from "./proposition-graph";
+import { recordedNegationPairs, researchLinkedStatements, type GraphInference, type GraphStatement, type PropositionGraph } from "./proposition-graph";
 
 /** Root-path and focus views keep at most this many statements, nearest first. */
 export const MAX_VIEW_STATEMENTS = 300;
@@ -33,9 +33,19 @@ export type ViewClusterNode = {
   frontierCount: number;
 };
 
-export type ViewNode = ViewStatementNode | ViewInferenceNode | ViewClusterNode;
+/** An unasserted presentation counterpart, never a corpus statement or proof premise. */
+export type ViewNegationNode = {
+  kind: "negation";
+  id: string;
+  statementId: string;
+  paraphrase: string;
+  matched: boolean;
+  highlighted: boolean;
+};
 
-export type ViewEdgeKind = "premise" | "assumption" | "conclusion" | "relation" | "cluster";
+export type ViewNode = ViewStatementNode | ViewInferenceNode | ViewClusterNode | ViewNegationNode;
+
+export type ViewEdgeKind = "premise" | "assumption" | "conclusion" | "relation" | "opposition" | "cluster";
 
 export type ViewEdge = {
   id: string;
@@ -85,6 +95,10 @@ export function indexGraph(graph: PropositionGraph): GraphIndex {
     for (const [from, to] of [[relation.subject, relation.object], [relation.object, relation.subject]]) {
       neighbors.set(from, (neighbors.get(from) ?? new Set()).add(to));
     }
+  }
+  for (const [left, right] of recordedNegationPairs(graph)) {
+    neighbors.set(left, (neighbors.get(left) ?? new Set()).add(right));
+    neighbors.set(right, (neighbors.get(right) ?? new Set()).add(left));
   }
   return {
     statementById: new Map(graph.statements.map((statement) => [statement.id, statement])),
@@ -307,6 +321,13 @@ export function computeGraphView(
     ...state.pins,
     ...highlightedStatements,
   ]);
+  if (state.view === "dispute") {
+    const disputeAnchor = state.node || state.sel || state.target || graph.defaultTarget;
+    for (const [left, right] of recordedNegationPairs(graph)) {
+      if (left === disputeAnchor) explicitlyShown.add(right);
+      if (right === disputeAnchor) explicitlyShown.add(left);
+    }
+  }
   const matches = (id: string) => {
     const statement = index.statementById.get(id);
     return !filtering || (statement ? statementMatches(statement, state, index) : false);
@@ -329,14 +350,25 @@ export function computeGraphView(
         .map((statement) => statement.id),
       inferences: graph.inferences.map((inference) => inference.id),
     };
-  } else if (state.view === "focus" || state.view === "local") {
+  } else if (state.view === "focus" || state.view === "local" || state.view === "dispute") {
     anchor = state.node || state.sel || state.target || graph.defaultTarget;
     if (!anchor || (!index.statementById.has(anchor) && !index.inferenceById.has(anchor))) {
       return emptyView(anchor, "Choose a statement or inference to focus on.");
     }
-    selection = state.view === "local"
+    selection = state.view === "local" || state.view === "dispute"
       ? localGraphSelection(index, anchor, state.hops, state.relations)
       : focusSelection(index, anchor, state.hops, state.dir);
+    if (state.view === "dispute" && index.statementById.has(anchor)) {
+      const pair = recordedNegationPairs(graph).find(([left, right]) => left === anchor || right === anchor);
+      const opposite = pair?.find((id) => id !== anchor);
+      if (opposite) {
+        const other = localGraphSelection(index, opposite, state.hops, state.relations);
+        selection = {
+          statements: [...new Set([anchor, opposite, ...selection.statements, ...other.statements])],
+          inferences: [...new Set([...selection.inferences, ...other.inferences])],
+        };
+      }
+    }
   } else {
     anchor = state.target || graph.defaultTarget;
     if (!anchor || !index.statementById.has(anchor)) {
@@ -348,7 +380,7 @@ export function computeGraphView(
   // Explicit expansions are in-place, bounded one-hop additions. Sets retain shared identity and cycles.
   // Local neighborhoods must be bounded by their requested depth, even when
   // the URL retains expansions from an earlier research-queue or focus view.
-  if (state.view !== "all" && state.view !== "local") {
+  if (state.view !== "all" && state.view !== "local" && state.view !== "dispute") {
     const selectedStatements = new Set(selection.statements);
     const selectedInferences = new Set(selection.inferences);
     for (const id of state.expanded) {
@@ -532,6 +564,43 @@ export function computeGraphView(
   for (const edge of relationEdges.values()) {
     if (edge.count) edge.label = `${edge.label} · ${edge.count} records`;
     edges.push(edge);
+  }
+
+  for (const [left, right] of recordedNegationPairs(graph)) {
+    if (visible.has(left) && visible.has(right)) {
+      edges.push({
+        id: `opposition:${left}:${right}`,
+        source: left,
+        target: right,
+        kind: "opposition",
+        label: "recorded denial",
+        highlighted: state.view === "dispute",
+      });
+    }
+  }
+
+  if (state.view === "dispute" && anchor && index.statementById.has(anchor)) {
+    const pair = recordedNegationPairs(graph).find(([left, right]) => left === anchor || right === anchor);
+    const recordedOpposite = pair?.find((id) => id !== anchor);
+    if (!recordedOpposite) {
+      const opposite = `negation:${anchor}`;
+      nodes.push({
+        kind: "negation",
+        id: opposite,
+        statementId: anchor,
+        paraphrase: `¬ (${index.statementById.get(anchor)!.paraphrase})`,
+        matched: true,
+        highlighted: true,
+      });
+      edges.push({
+        id: `opposition:${anchor}:${opposite}`,
+        source: anchor,
+        target: opposite,
+        kind: "opposition",
+        label: "hypothetical negation",
+        highlighted: true,
+      });
+    }
   }
 
   return {

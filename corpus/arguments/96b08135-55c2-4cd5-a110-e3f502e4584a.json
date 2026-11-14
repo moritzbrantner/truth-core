@@ -1,0 +1,20 @@
+{
+  "id": "96b08135-55c2-4cd5-a110-e3f502e4584a",
+  "label": "Finite root access implies CCR",
+  "premise_statement_ids": [
+    "a9a13d38-2b4e-4a0b-9549-875e5af10e20"
+  ],
+  "conclusion_statement_id": "aca3baa1-9be6-4720-a53d-22050e638561",
+  "inference_ids": [
+    "57a6bdbf-82f4-4231-aa1e-d572aee50a39"
+  ],
+  "meaning": "Finite root access implies CCR. Conditional structural consequence only; no independent warrant or rival defeat. Excluded middle is explicit where listed.",
+  "definition_ids": [
+    "38b9012a-472b-4544-a271-16d22b25c9ac",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "ea94e8dd-6f08-4099-9032-d302dd799a4e"
+  ],
+  "disambiguation_ids": [
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
+  ]
+}

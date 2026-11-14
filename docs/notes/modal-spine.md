@@ -113,6 +113,9 @@ Two first-version premises were dropped, each for a substantive objection:
   restricted principle is silent exactly where A2 is needed. The objection is
   not evidence of an ungrounded beginning. A non-inductive ex nihilo warrant
   would not face it, but none is on file.
+  Creation ex nihilo read with Aquinas (ST I q.45 a.1 ad 3, q.46 a.1 ad 4-8,
+  public translation, source leads only) does not supply A3's earlier empty
+  moment either: creation can begin with time (attempt `f386034c`).
 - *Warrant.* Before this work no independent warrant for A2 was on file. Now
   A2 has one derivation from open, unsourced premises. Its universal scope over
   every possible history, including one with an empty moment, remains the
@@ -989,16 +992,202 @@ them is recorded either. The Plotinian "giver beyond being" is an unread lead
 with no weight; next test: read Enneads V.2.1 and check whether "beyond being"
 fails even the inclusive (eminent) `InAct`.
 
-**Where `376d6a5a` is load-bearing.** Its only consumer other than the strength-order registration is
-`causeOfQualityMoreSuch` (the Metaphysics α "more such" premise), which needs
-the unrestricted scope (now recorded as `strong_version_needed`). Q.4 a.2
-preexistence is derived only through that premise, which is why strict
-expansion makes `376d6a5a` indispensable on nine of ten routes even though
-preexistence has its own sourced claim. In the composition it enters through
-preexistence (the perfection attribute) and `STMT-GOD-IS-MAXIMAL-IN-BEING` (the
-unity step), not through the esse-cause bridge, which needs only the bottom
-rung. Meaning forks and their status. *Containment*: read formally (IN_ACT_1),
-and if CAUSE_2 at a respect r counts a maker as a cause of x's being r (an open
+**Where `376d6a5a` is load-bearing (2026-11-12, [attempt](../../corpus/attempts/a4a689b4-3e90-491e-8875-478b891e87f4.json), `specs/preexistence-without-transfer.toml`).**
+### Reconciliation and consumer audit draft (2026-11-12; independent challenge pending)
+
+This subsection is the complete proposed outcome of the reconciliation slice,
+not a reviewed overall judgment or completion of #1519. Main was fetched at
+`d98066db300d5b02c2062c2a55d622a237ace49b`; #1518 was fetched at
+`e97b8dba4` and merged with main without conflicts (integration head
+`50399906a402a953f80405317d9b112b4ff21070`). No map changes from #1571 were
+replayed. The results `cffad050`, `2c0b9bd7`, and root argument `5d2b7c6e`
+are branch contributions, not preexisting main evidence. The older ten/eleven
+route experiments below retain their historical baseline and must not be
+reported as current-main counts. #1522's two grades-at-being siblings, verum
+exception, and declined `1c154f2f` sense passage remain intact.
+
+**Exact immediate consumers.** `482f4ad2` and `678ff65f` use the comparative
+only at esse. Their existing replacements are respectively `4d1efe91` (result `a1f73b1d`,
+`godMaximalFromCausingBeing`) and
+`5d2b7c6e`; their frozen originals now say explicitly that the strong version
+is unnecessary for the endpoint. The remaining premises and the latter's GOD
+bridge are retained. This is sufficiency, not proof of globally weakest inputs.
+`892db443` uses arbitrary r, so its current proof cannot use the esse instance;
+its annotation is a scope statement, not a theorem of necessity.
+
+A further reduction is visible in the exact proof terms, but is **not yet a
+registered or checked result**: `CausalMapsBatch1.nothingMovesExceptInAct`
+uses comparison only in `hHas r y x (hMore y x r hne (hCause y x r hm))`.
+Replace this by distinct-cause possession applied to `hCause`; the distinct-part
+self-motion branch then proceeds unchanged. Its proposed sibling needs EM,
+mover-causes-what-it-moves-to, distinct-cause possession, distinct-part
+self-motion and whole-in-act-through-part. Neither a comparative nor a
+more-such-bearer premise should remain. All five inputs remain open.
+
+Likewise `QuartaViaGradesFromCausalAscent.gradesHaveAMaximum` uses `hCause`
+only to obtain `InAct c r` through `hBearer`. A proposed sibling can use
+distinct-cause possession at that induction step; it still needs `hBearer`
+to start from the observed comparison, exceeded-is-caused, well-foundedness
+of distinct causes at each r, and EM. Thus arbitrary-r consumers do not
+uniformly require causal **excess**: some need only causal **possession**.
+This candidate does not show those premises independently warranted, nor
+that the weaker esse principle suffices for a conclusion quantifying over r.
+No new route or discharge is claimed for either unregistered sibling.
+
+The other five named esse candidates (`ef122ccf`, `8bbe817d`, `87dd8489`,
+`3eafe507`, `815d22c8`) remain pending sibling certification. Their proposed
+weakening must preserve distinctness, the cause dictionary and the exact esse
+parameter. For the every-world consumer, a world-free comparative and causal
+dictionary do not remove the every-world support-to-cause bridge; the weakening
+cannot establish cross-world transport. The wider consumer inventory remains
+open; two resolved original interfaces and one explicit current-proof scope
+annotation do not complete its audit.
+
+**Warrant and strongest positive rival, proposed assessment.** The available
+conditional results do not discriminate between substantive eminent possession
+and law-mediated production by a source with a distinct productive capacity.
+On the latter account, causing r requires a relevant capacity, mechanism or
+joint arrangement, not formally exemplifying r or ranking higher on the same
+r scale. This is a positive conceptual alternative, not evidence that strong
+emergence actually occurs. It accepts that an actual agent has being while
+denying that this entails every effect perfection. An instrumental or emergent
+case tests the present premises only if it qualifies as CAUSE_2, and a denial
+of formal possession alone does not deny inclusive IN_ACT_3.
+
+If eminent possession is defined simply as the power to produce r, causal
+possession may follow conceptually, but the comparative-bearer and
+unlimited-exceeds-limited bridges need an independent interpretation: production
+power does not by itself place the producer above an actual bearer in a common
+quality order. If eminence instead means independently specified containment,
+causal possession is substantive and requires its own warrant. This fork is
+not registered here as finished sense vocabulary. The existing finite controls
+establish only encoded consistency/omission/strictness, not metaphysical
+possibility, empirical emergence, or a defeated rival. Reception's
+`not limited by this recipient` must also not be paraphrased as absolute
+unlimitedness. The comparative bridge, not merely agency-in-act, carries that
+step. Attribution remains deferred; no unread author is enlisted as evidence.
+
+**Next discriminating tests.** Independently challenge this entire proposed
+outcome, especially the two possession-only reductions and the capacity/order
+boundary. Then certify the sibling proofs above and the five esse candidates
+without touching frozen Challenges. Test a single same-dictionary model with
+an actual distinct esse cause and an effect perfection absent from the cause,
+retaining the intended agency and reception background; identify exactly
+which bridge it denies. A model with only an ordinary becoming cause does not
+settle this issue. Reassess the parent `8626f8a5` route after registration,
+retaining preexistence's independent warrant obligation. None is discharged
+by the reconciliation or annotations.
+
+**Service experiment / coordinator handoff evidence.** Canonical-workspace
+`GET /corpus/dossier` on `376d6a5a` returned HTTP 200, workspace and HEAD
+`50399906a402a953f80405317d9b112b4ff21070`; its result data equalled the
+Python CLI JSON exactly. Observed one-off response times were about 1.87 s
+service and 1.79 s CLI, not a benchmark or evidence of speedup. The Rust CLI
+binary is absent in this checkout; `worker_env.py -- python3 scripts/corpus.py`
+provided related/context/dossiers successfully without repeating preflight.
+Recommendation: retain corpus-query service with explicit binding; use CLI
+fallback here. Repeated Lean service edits were not attempted against the
+mismatched shared preview baseline and are untested. The computed frontier-diff attempt against main failed during its temporary
+archive extraction with `OSError: [Errno 122] Disk quota exceeded`; no fresh
+route counts or premise delta are available. The three annotations themselves
+change no premise lists. Offline corpus check passes; the three affected specs
+regenerate unchanged and attribution-check reports no changed stating claims.
+Existing proof evidence is reused for unchanged Lean sources; reconciliation-head final CI and the
+coordinator's independent semantic challenge remain pending. Shared convention
+sourceRevision: `15f348b072188255da837578eaafc8a98f12fdf0`.
+
+### Historical branch experiment (earlier baseline)
+
+Strict expansion here is the least fixpoint over verified arguments, with
+statements that have no verified derivation as leaves; strength-order results
+count as derivations, and so does this batch's own `9e7de16d` (distinct-cause
+transfer from "more such"). Excluding strength orders and `9e7de16d` would make
+distinct-cause transfer `2c0b9bd7` a leaf, and then all eleven routes survive.
+Its only direct consumer besides the strength-order registrations (`11f49549`,
+`777d3b8d`) is `causeOfQualityMoreSuch`, which derives the Metaphysics α "more
+such" premise `d5a94eb1`. The computed bottleneck is that premise, not q.4 a.2
+preexistence alone. Granting preexistence, still only one of the ten routes
+survives. Granting "more such", all ten survive. The ten routes break down as
+follows. Four (`5e8e6054`, `1c154f2f`, `72391d4d`, `0a639ec4`) are blocked only by
+grades-to-a-maximum `6c27657f`, which uses "more such" at an arbitrary
+perfection. Three (`661ce61d`, `beec1dc1`, `fd1f7e75`) are blocked by that step,
+by "more such" directly and, for two, by moves-only-as-in-act `f296a694`. The
+route through the quarta via's conclusion (`678ff65f`) is blocked by "more such"
+directly. The composition (`92ab7c94`, via `da3facd6`) is blocked by
+preexistence and by "God is maximal in being".
+Results, all zero-axiom and Comparator-checked, with omission models for every
+premise except excluded middle. (1) "A distinct cause of a thing's being is
+more in being than it" (`cffad050`) is the instance at esse of the formal
+reading `d5a94eb1` (same `MoreIn`, registered weak version); the synonymous
+source sense is not claimed at esse, and the order model of `MoreIn esse` is
+open (`STMT-ATTRIBUTION-ORDER-RESTRICTS-CAUSE-MORE-SUCH`, verdict in
+`DISAMB-ORDER-OF-BEING`). It follows from "a cause of being has
+being" `4ccb319f` and the reception bundle at esse, with no transfer principle.
+(2) Siblings of the two consumers that use "more such" only at esse: "God is
+maximal in being" (`4c79298d` is now available without `376d6a5a`), and GOD_4
+exists from a MAXIME_1 cause of all being (`5d2b7c6e`, a new root route). (3)
+Preexistence from transfer `f8ba2429` and the cause-of-being restriction
+`d0fc96b7`. With the existing derivation of `d0fc96b7` from preexistence and "a
+caused perfection is had", the two are interderivable given transfer. Every
+derivation of either bottoms out under strict expansion in `376d6a5a`, or cycles
+through "more such" `d5a94eb1` and distinct-cause transfer `2c0b9bd7`. A ground
+for preexistence needs a ground for `d0fc96b7` that is not preexistence, or a
+ground for `2c0b9bd7`. (4) "More such" with "what is more such has the
+perfection" `c11369aa` entails distinct-cause transfer `2c0b9bd7` (whatever
+causes a perfection in another thing has it, the registered weak version of
+`376d6a5a` without self-causation); transfer with the five-premise reception
+bundle entails "more such". Any route using "more such" at an arbitrary
+perfection together with `c11369aa` is committed to distinct-cause transfer;
+conversely transfer with the reception bundle suffices for "more such". The
+cause-of-being restriction does not suffice for those routes. Survivors after this
+batch, with `376d6a5a` removed: the prima via `ed7c588a` and the new route
+`5d2b7c6e`. None of the old nine is lifted. Granting preexistence would add
+`92ab7c94`; granting grades-to-a-maximum would add the four CONCRETE_6 routes.
+Those four pass the premise to `maximumExistsOfNecessaryAt`, which applies it at
+esse; whether every use is at esse is unchecked. If so, re-routing them through
+the existing esse instance `STMT-GRADES-TO-MAXIMUM-AT-BEING` would lift them.
+The positive finding: granting distinct-cause transfer `2c0b9bd7`, strictly
+weaker than `376d6a5a`, restores all eleven routes; granting the cause-of-being
+restriction `d0fc96b7` adds `92ab7c94`. The new route and the sibling of "God
+is maximal in being" use `cffad050` only with the maximum or God as cause; the
+weaker existing `PrimaryCauseIsMoreSuchReading … esse m`, derived on the
+attribution order for the primary, may suffice there (untested).
+*Warrant.* The route-lifting premise is "a cause of being has being". It is
+derived from agency in act (`ef068f46`, after q.75 a.2 *non enim est operari nisi
+entis in actu*, claim on file for operation edges only) and q.4 a.1 ad 3
+(sourced). Two premises of the reception bundle (`cdb79aa6`, `39a4c28c`)
+generalize q.7 aa.2 and 1 from esse to every perfection; (1) uses them only at
+esse. At esse they correspond informally to q.7's readings `7de89edb` and
+`1304b462`, which use different vocabulary (unary `EsseLimited`; reception in a
+principle); no bridge is registered, so their esse instances are not thereby
+sourced. The other three
+(`a9036c3c`, `d0b76fb9` and the exceeding step `7030af77`) have no source note.
+No independent warrant is recorded for them or for agency in act. For the cause-of-being
+restriction that preexistence needs, the only positive grounds in the tradition
+are the virtual preexistence of the effect in the agent's power (q.4 a.2 co.,
+which is the thesis itself), "every agent produces its like" (q.4 a.3, unread)
+and the subsistent-being proof (q.4 a.2, second proof; SCG I.28; De ente c.4;
+all unread). The last is reported, unverified, to apply only to a cause that is
+its own esse, not to every cause of being. No independent warrant for `d0fc96b7` is recorded.
+*Objections.* Strong emergence (a base causes consciousness that it lacks) has
+a target, distinct-cause transfer read formally (IN_ACT_1), and a mechanism, a
+counterexample. Its independent justification, that strong emergence occurs, is
+an unread lead (Broad; O'Connor; Chalmers on consciousness). It is relevant to the
+cause-of-being restriction only through an open bridge: the emergence base
+would have to be an extrinsic efficient cause of the system's being, not its
+material constituent. It does not bear on (1), whose cause need only have
+being. So it does not yet meet the standard; the hypothetical only motivates a
+question of meaning and carries no evidential weight. Pending sense fork within
+IN_ACT_3 (`InActFormallyOrVirtually`): substantive eminence versus
+power-eminence (having r eminently is only having power to produce r). On
+power-eminence transfer becomes nearly trivial, and the weight moves to the
+exceeding step and "what is more such has the perfection". The equivocation
+risk: `MoreIn` would then compare virtual possession in the cause with formal
+possession in the effect, so "more r" would no longer compare one kind of
+having. The instrument and
+artisan cases, recorded below for the unrestricted principle, bear equally on
+distinct-cause transfer, which still counts instruments if CAUSE_2 does.
+Meaning forks and their status. *Containment*: read formally (IN_ACT_1), and if CAUSE_2 at a respect r counts a maker as a cause of x's being r (an open
 bridge of `DISAMB-BECOMING-BEING-CAUSE`), the principle meets a counterexample:
 an artisan causes a shape he has only as art, not formally. Q.4 a.2 (claim
 `AQUINAS-ST-I-Q4-A2-PERFECTION-IN-CAUSE-A`) places the effect's perfection in
@@ -1012,9 +1201,9 @@ it has neither formally nor as art) are a substantive objection to the
 unrestricted scope if `CausesIn` (CAUSE_2) counts instrumental causes; the reply
 that an instrument acts by the principal agent's power is an unread lead
 (q.62 a.4, De potentia q.3 a.7). The restriction to causes of being `d0fc96b7`
-is not touched by instruments of making, which are causes of becoming (open
-bridge of `DISAMB-BECOMING-BEING-CAUSE`). No principal-cause sibling is typed
-yet.
+and the esse instance `cffad050` are not touched by instruments of making, which
+are causes of becoming (open bridge of `DISAMB-BECOMING-BEING-CAUSE`). No
+principal-cause sibling is typed yet.
 
 **Perfection-transfer cycle (2026-11-12, [attempt](../../corpus/attempts/3de52780-6816-4638-bdba-92598aff14cc.json)).**
 PR #1480 found that unrestricted transfer (`f8ba2429`) and the residual
@@ -1805,11 +1994,18 @@ conditional investigations, not a mandatory first gate:
    sixteen formal-alternative rows need a read source before they carry any
    weight; until then they show only where each premise is needed.
    Next for the esse-cause bridge and "nothing gives what it does not have"
-   (2026-11-12, above): a derivation of preexistence that avoids `376d6a5a`
-   (for example from unrestricted transfer `f8ba2429` and a cause-of-being
-   restriction grounded without preexistence), which would lift the nine-route
-   bottleneck; a principal-cause sibling of `376d6a5a` with
-   `causeOfQualityMoreSuch` restated for principal causes; warrant for
+   (2026-11-12, above): re-route the four CONCRETE_6 routes through the esse
+   instance `STMT-GRADES-TO-MAXIMUM-AT-BEING` in place of grades-to-a-maximum
+   `6c27657f`, after checking that every use is at esse (computed effect: four
+   more routes survive the removal of `376d6a5a`); re-route the other consumers
+   of "more such" that use it only at esse through `cffad050` (`truth check`
+   lists sixty without `strong_version_needed`); a ground for the
+   cause-of-being restriction `d0fc96b7` that is not preexistence (candidates:
+   q.4 a.3 agent likeness, or the subsistent-being proof restricted to the
+   root, which would also lift the composition route); test whether
+   `PrimaryCauseIsMoreSuchReading … esse m` suffices in place of `cffad050`
+   for `5d2b7c6e` and the sibling of "God is maximal in being"; a
+   principal-cause sibling of distinct-cause transfer `2c0b9bd7`; warrant for
    act-to-existence `546975ef` (the actualist reading of esse at the reading
    world); and the remaining bridge leaves, effect dependence and
    dependence-to-grounding.
@@ -1835,3 +2031,74 @@ conditional investigations, not a mandatory first gate:
    Rewire the eight earlier consumers of 3b2d2d46, which now warn without
    `strong_version_needed`, to the first-being version. Fix the sense links
    of a4d3261a, c6d6379b and 2b25a78c.
+
+
+### Possession consumer certification outcome (2026-11-12)
+
+The coordinator reports the independent semantic challenge of the reconciliation
+and consumer annotations passed, with the parent wording repair retained:
+preexistence and the restriction are interderivable given transfer **and a
+caused perfection is had**. That review is reused for the unchanged meanings;
+it is not proof verification. The proposed possession reductions are now
+implemented in `specs/possession-consumer-reductions.toml`, with their own frozen
+Challenge; no existing Challenge or spine dependency map was edited.
+
+* Motion: argument `d0c022f8-c53d-4c0f-917a-e16bb75ca9a5`, result
+  `fdd09678-af1d-477f-bf5a-1b894557d301`, concludes `f296a694` from EM,
+  mover-causes-what-it-moves-to, distinct-cause possession, distinct-part
+  self-motion and whole-in-act-through-part. The explicit CAUSE_1 to CAUSE_2
+  bridge is the mover-causes premise. No comparative parameter remains.
+* Ascent: argument `c201b61a-14ad-4fcb-8ae6-acdaabb213c2`, result
+  `47d67745-e14c-4679-b671-a98316c46600`, concludes `6c27657f` from the initial
+  more-such-bearer premise, distinct-cause possession, exceeded-is-caused,
+  well-founded distinct causes at each respect, and EM. The induction uses
+  possession rather than comparative excess. It yields a maximal bearer,
+  without uniqueness, greatestness or a cause-of-all claim.
+
+Both Solution and frozen Challenge modules build. Comparator accepts both
+results with zero permitted axioms and NanoDa accepts the Solution. Exact result-scoped binding checks pass (2 bound, 0 mismatch); delivered-head
+CI is reported in the PR. Registration and semantic review alone supply neither. These are additional conditional support
+options on the prima/quarta via root routes, not independent warrant for their
+inputs. Full-main frontier-diff also includes the inherited preexistence batch;
+its historical route counts above remain historical. No global minimality is
+claimed for either bundle or for the existing esse-only endpoints.
+
+Omission follow-up: the existing `QuartaViaCausalAscent.WithoutCause` Bool model
+has actual distinct causing `false -> true`, actuality only at `true`, and a
+self-comparison of `true`. Thus it is a promising possession-omission model:
+it retains the initial bearer, exceeded-caused and well-foundedness premises
+while no bearer is maximal. Its old certificate concerns the comparative
+premise; no new possession-omission certificate is claimed here. Conversely,
+`WithoutBearer` does not retain possession (the same cause lacks actuality),
+so its old certificate cannot be reused to claim necessity of the initial
+bearer in the new bundle. Omission of that premise remains untested here.
+
+Consumer audit continuation: `ef122ccf` (uniqueness), `8bbe817d` (distinct esse
+cause exclusion), `87dd8489` (imported quarta-via witness), `3eafe507` (actual
+ground ascent) and `815d22c8` (every-world ascent) retain their existing
+certificates; proposed esse-only siblings remain unregistered. Their recorded
+proof interfaces use the same supplied cause dictionary and esse comparison.
+The every-world bridge remains an input: no world transport follows from a
+world-free comparative. The wider #1519 inventory is incomplete. Next tests
+are these five siblings and the populated same-dictionary cause-of-being
+control specified above; the latter must retain agency/reception and explicitly
+identify its denied bridge. Capacity production remains a positive conceptual
+rival, not a refutation of inclusive IN_ACT_3 or evidence of actual metaphysical
+possibility. The existing substantive-versus-power eminence fork and independent
+warrant burdens stay open. No new overall warrant judgment is issued here.
+
+The frontier extraction failure was in `revision_frontier`'s temporary archive
+extraction. `/tmp` is a 16 GB tmpfs; the disk filesystem had over 100 GB free.
+Retrying with task-specific disk-backed TMPDIR succeeded; no broad cleanup was
+performed. CLI fallback was retained and the shared preview was not mutated.
+The canonical checkout lacked `.lake/build`; the existing pinned dependency
+cache was restored with `lake exe cache get` (no files downloaded), followed
+by the focused build. No repeated preflight or new dependency was introduced.
+
+Claim/type self-sweep: both conclusions retain the original dictionaries and
+quantifier scopes; the motion premise explicitly bridges CAUSE_1 to CAUSE_2,
+and the ascent retains its initial bearer. No source attribution was added.
+Definitions/disambiguations are inherited by the batch generator from the
+reused statements. The new results assert conditional consequence only; no
+finite control, premise warrant, global minimality or new sense definition is
+asserted by them. Corpus check and offline attribution-check pass.

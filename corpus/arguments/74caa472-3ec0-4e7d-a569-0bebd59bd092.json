@@ -1,0 +1,22 @@
+{
+  "id": "74caa472-3ec0-4e7d-a569-0bebd59bd092",
+  "label": "More such entails its esse instance",
+  "premise_statement_ids": [
+    "d5a94eb1-72d2-53e0-9a52-9787b5b61a8d"
+  ],
+  "conclusion_statement_id": "cffad050-e86d-48b8-b04b-be47fcc1352d",
+  "inference_ids": [
+    "faea5fe9-f874-4937-80ac-5fa166aa8efd"
+  ],
+  "meaning": "Strength order registration: the instance at esse of the formal reading of 'more such'. Application only; it establishes neither. Strictness: control 1.",
+  "definition_ids": [
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "5766de66-8a37-5b04-aa65-9eec53319f50"
+  ],
+  "disambiguation_ids": [
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "1795a62e-f78b-5f5b-94e7-9e7490824811"
+  ]
+}

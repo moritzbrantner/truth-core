@@ -46,7 +46,16 @@ scripts/verify-result.sh <RESULT-ID>
 
 Choose affected checks as the worker contract and CI require. Source and attribution gates run offline; materialize individual passages only when doing selected source research. `scripts/affected_results.py select --base <BASE> --head <HEAD>` selects affected results; `python3 scripts/corpus.py bind-check --affected --base <BASE>` binds just those (against the working tree unless `--head` is given), and `bind-check --result <ID>` (repeatable) binds named results. Both need only the selected Solution modules built; the stale-pin and registered-model checks run only in the full `bind-check`, which CI runs. Keep required NanoDa and Comparator gates; startup cache state never substitutes for them. Merge fresh `origin/main` immediately before pushing, regenerate the shared imports/docs and rerun applicable checks.
 
-Give a fresh proposition worker the four-line brief in `AGENTS.md`, exact statement IDs/theorems, owned paths, required gates and links to repository instructions. When parallel delegation is authorized, prefer a fresh worker with `fork_turns="none"` where supported, a self-contained brief, the research skill path and the relevant issue/current-handoff section. Include the supplied service/setup identity rather than requiring the worker to recover it from parent history. This changes context delivery, not delegation authority. Read mandatory policy once, then refresh instructions whose applicable inputs change. Once the dossier command from #413 is available, inspect `target/release/truth dossier <STMT-ID>` and its recorded attempts before restarting research; preserve new findings there. Do not copy engineering timing into philosophical records.
+Give a fresh proposition worker the [research brief](../AGENTS.md#worker-brief-and-handoff)
+and [scoped execution context](systematic-corpus-loop.md#worker-ownership-and-integration),
+including its policy revision, checkout, ownership/authority, service setup and
+existing check evidence. Retain that worker through repairs to the same slice.
+Read mandatory policy once, then refresh changed applicable inputs. Inspect
+`target/release/truth dossier <STMT-ID>` and its recorded attempts before restarting
+research; preserve new findings there. Keep engineering timing out of philosophical
+records. Designate warm clones explicitly and exclude them from disposable-clone
+cleanup under the ownership contract, preserving `target/release/truth` and Lean
+build seeds for reuse.
 
 The repository skill `.agents/skills/truth-core-research/SKILL.md` packages this
 research handoff routine. When a coordinator-owned Lean preview is supplied,
@@ -56,20 +65,16 @@ The optional native startup hooks provide local context only. They do not
 prepare a fresh clone, verify anything or grant merge authority; automatic
 execution requires the runtime's exact-definition trust review.
 
-One owner runs each local gate. The master consumes its PR/log evidence and reruns only for an input change, failure, or repository requirement. Keep long jobs in the master, or await their specific process/session handles before the worker exits. A queued shell command is not a completed gate. Hand off pending handles explicitly; do not leave a worker-owned verification process behind. Merge ready PRs serially and coordinate updates with other lanes.
+Follow the ownership contract for one owner per gate and coordinator-owned
+integration/waiting. Keep long jobs in the coordinator, or await their specific
+process/session handles before the worker exits. A queued command is not a
+completed gate; transfer pending handles explicitly instead of abandoning them.
 
-For each of the three trial work items, put this evidence in the existing PR body or check log:
-
-| Field | Record |
-| --- | --- |
-| Identity | Issue, PR, exact tested head, resolved convention `sourceRevision` |
-| Context | Scoped/full inheritance; token usage only if the runtime exposes it |
-| Startup | UTC start/end, elapsed seconds, cold/warm state, acquisition/build work observed |
-| Research/implementation | Actual interval and whether it is a partial window |
-| Local verification | Owner, commands, UTC intervals, results, log path; reason for each repeated gate |
-| CI | Workflow/run links and its own start/end interval |
-| Review and merge delay | Review request/completion and ready-to-merge/merge times, separately from CI duration |
-| Jobs and resources | Pending handles or none; `/usr/bin/time -v` maximum RSS when available |
-| Premises | Intended/actual frontier change, or none for engineering |
-
-Use `unavailable`, `pending`, or `partial window` when appropriate. Compare equivalent workloads and cache states; overlapping wall-clock windows do not add to a cycle total. Shared-runner timings and a three-item sample are observations, not a percentage savings estimate or evidence of faster philosophical conclusions. Warm no-op evidence must compare installed artifact content/metadata and source revisions before/after, rather than inferring it from exit code zero. Distinguish tool bookkeeping writes from installs, downloads and compilation. Record whether the trial avoided unchanged-pin cold compilation, lost jobs, duplicate master suites and unexplained gate repetition.
+Use the [ten-investigation sample](systematic-corpus-loop.md#observing-the-next-ten-investigations)
+in the existing handoff. When investigating startup or verification overhead,
+include warm/cold state, acquisition/build work, lease waits and reasons for
+repeated gates in the linked logs. Compare equivalent inputs and cache states;
+warm no-op evidence compares installed artifacts and source revisions, rather
+than inferring reuse from exit code zero. Distinguish bookkeeping from installs,
+downloads and compilation. Historical timings are observations, not guaranteed
+savings or evidence of faster philosophical conclusions.

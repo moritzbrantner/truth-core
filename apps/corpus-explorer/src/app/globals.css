@@ -210,6 +210,7 @@ summary {
 .frontier-key-conditional { background: var(--paper); border: 2px solid var(--status-proved); }
 .frontier-key-other { background: var(--line-strong); }
 .frontier-key-relation { border-top: 2px dashed var(--status-alternative); display: inline-block; width: 1.2rem; }
+.frontier-key-opposition { border-top: 2px dashed #b45353; display: inline-block; width: 1.2rem; }
 
 .field-label {
   color: var(--muted);
@@ -710,6 +711,13 @@ button:focus-visible {
 .graph-node-statement[data-frontier="true"] {
   background: color-mix(in srgb, var(--status-open) 12%, var(--paper));
   border-color: var(--status-open);
+}
+
+.graph-node-negation {
+  background: color-mix(in srgb, #b45353 8%, var(--paper));
+  border: 2px dashed #b45353;
+  height: 132px;
+  overflow: hidden;
 }
 
 .graph-node-status {

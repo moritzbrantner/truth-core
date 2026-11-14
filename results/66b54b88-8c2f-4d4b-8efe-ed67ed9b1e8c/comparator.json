@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.ClosedGroundingRoots.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ClosedGroundingRoots.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.ClosedGroundingRoots.controls"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

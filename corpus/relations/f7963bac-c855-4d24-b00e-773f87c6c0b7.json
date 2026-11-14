@@ -1,0 +1,11 @@
+{
+  "id": "f7963bac-c855-4d24-b00e-773f87c6c0b7",
+  "label": "Unique existence strengthens at-most-one",
+  "subject_kind": "statement",
+  "subject_id": "f976f890-aba8-59cb-a312-1feaf833e727",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "a0c179aa-43a0-5c0a-8b80-55cbfab4a6b5",
+  "verification_result_id": "80ae979c-c317-52b8-a9b9-ca041f0cee26",
+  "note": "Strength registration (2026-11-12 audit): Same supplied type and predicate; the weak version keeps uniqueness and drops the existence of a witness."
+}

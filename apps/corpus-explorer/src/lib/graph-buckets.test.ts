@@ -90,6 +90,19 @@ describe("graph buckets", () => {
     expect(owner.get("LONE")).not.toBe("root");
   });
 
+  test("a recorded denial keeps both real propositions in one layout bucket without joining proof components", () => {
+    const graph = fixtureGraph(fixture);
+    const augmented = {
+      ...graph,
+      statements: graph.statements.map((statement) => statement.id === "P1" ? { ...statement, denialStatementId: "LONE" } : statement),
+    };
+    const built = buildGraphBuckets(augmented);
+    const owner = checkPartition(built, augmented.statements.length, augmented.inferences.length);
+    expect(owner.get("P1")).toBe(owner.get("LONE"));
+    expect(built.manifest.totals.components).toBe(buildGraphBuckets(graph).manifest.totals.components);
+    expect(built.manifest.totals.layoutComponents).toBeLessThan(buildGraphBuckets(graph).manifest.totals.layoutComponents);
+  });
+
   test("real corpus: partition, facet totals and the default view", () => {
     const built = getGraphBuckets();
     const owner = checkPartition(built, built.graph.statements.length, built.graph.inferences.length);
@@ -121,6 +134,17 @@ describe("bucket plans", () => {
     expect(shown).toContain("root");
     expect(shown.some((id) => id.startsWith("isolated-"))).toBe(true);
     expect(planBuckets(manifest, state("b=all"), null, null).wanted.some((id) => id.startsWith("isolated-"))).toBe(false);
+  });
+
+  test("an unanchored dispute loads its default target before projecting the comparison", () => {
+    const dispute = state("view=dispute");
+    expect(planBuckets(manifest, dispute, null, null).needsLookup).toBe(true);
+    const plan = planBuckets(manifest, dispute, lookup, null);
+    expect(plan.wanted).toContain(owner(graph.defaultTarget!));
+    const loaded = mergeBuckets(manifest, plan.wanted.map((id) => byId.get(id)!));
+    const view = computeGraphView(loaded.graph, dispute);
+    expect(view.nodes.some((node) => node.id === graph.defaultTarget)).toBe(true);
+    expect(view.edges.some((edge) => edge.kind === "opposition")).toBe(true);
   });
 
   test("facet filters skip buckets without a possible match", () => {

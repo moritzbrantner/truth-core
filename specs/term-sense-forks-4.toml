@@ -302,6 +302,7 @@ meaning = "Finite interpretations for the mutability and God forks: the mixed re
 
 [[argument]]
 id = "GOD-EXISTS-FROM-MAXIME-ENS-CAUSING-ALL"
+strong_version_needed = {"d5a94eb1-72d2-53e0-9a52-9787b5b61a8d" = "Not needed for this endpoint: only the comparison of two maxima at esse uses this premise. Existing sibling 5d2b7c6e-57b3-44c1-ac3a-9789b65c63fb replaces it with cffad050-e86d-48b8-b04b-be47fcc1352d and retains the other premises, including the GOD sense bridge. The frozen interface is retained for comparison."}
 definitions = ["DEF-ACT", "DEF-CAUSE-OF-PERFECTION", "DEF-ESSE", "DEF-FIRST-BEING", "DEF-GOD-NOMINAL-Q13", "DEF-GOD-OF-CLASSICAL-THEISM", "DEF-MAXIME-ENS", "DEF-MORE-IN", "DEF-NOMINAL-DEFINITION", "DEF-REMOTE-FROM-ALL", "DEF-RESPECT", "DEF-SELF-EVIDENT-MARKING", "DEF-SIMPLE", "DEF-SIMPLE-PRIORITY"]
 label = "Stage 1 from the quarta via's conclusion: a MAXIME_1 being causing all being is God"
 theorem = "godExistsFromMaximeEnsCausingAll"

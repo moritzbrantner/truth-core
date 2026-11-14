@@ -1,0 +1,11 @@
+{
+  "id": "a2609ebc-9656-48fd-b64e-f27cc0a4d304",
+  "label": "Comparable bearer degrees strengthens directed bearers",
+  "subject_kind": "statement",
+  "subject_id": "a59a925d-b58f-5188-9573-94d251233d61",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "5770e90f-d3bb-580e-a084-2c71426a3c0c",
+  "verification_result_id": "f3532c30-a912-59a1-b5d8-e8b579483b59",
+  "note": "Strength registration (2026-11-12 audit): Same perfection and represented degrees; the higher of any two comparable bearers bounds both."
+}

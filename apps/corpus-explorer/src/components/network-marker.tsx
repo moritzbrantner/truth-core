@@ -17,7 +17,10 @@ export function NetworkMarker({ data }: NodeProps<Node<NetworkMarkerData>>) {
   const node = data.view;
   if (node.kind === "cluster") { return null; }
   const statement = node.kind === "statement" ? node.statement : undefined;
-  const title = node.kind === "statement" ? node.statement.paraphrase : node.inference.meaning;
+  let title: string;
+  if (node.kind === "statement") title = node.statement.paraphrase;
+  else if (node.kind === "negation") title = node.paraphrase;
+  else title = node.inference.meaning;
   return (
     <div
       className="network-marker"
