@@ -73,6 +73,21 @@ The **Layered** option retains source clustering and expanded proof cards; selec
 **Focus here** expands complete AND-premises and alternative (OR) applications.
 Network positions are deterministic and computed at static-build time, with no
 browser force animation.
+For a continuous investigation, select a proposition in the global network and
+choose **Trace support**. The same graph shows one layer of alternative supporting
+inferences (OR), each with all its required premises (AND); **Support depth**
+expands further layers. **P versus ¬P** then opens the signed opposition view
+around the selected proposition without leaving `/graph`. **Back to support**
+restores the proof depth and selection, and **Return to overview** restores the
+original filters, selected context and viewport. These mode transitions create
+browser-history entries; depth, filtering and pan/zoom edits update the current
+entry. Both return bookmarks are serialized in the shareable URL without nesting
+another graph implementation. A result-checked inference uses solid ordinary
+premise/conclusion connections (with assumptions distinguished separately);
+an inference without a checked result is muted and dashed. Recorded research
+relations remain purple dashed non-proof links, recorded denials are red opposition
+links between actual propositions, and an unrecorded hypothetical ¬P is a dashed
+red presentation node, never a corpus proposition or a verified refutation.
 Select a statement to bring its obligations to the top, or select an obligation to
 locate its statement and inspect the exact blocker. From a dot or queue item,
 the linked premise dossier exposes previous attempts, missing bridges, source

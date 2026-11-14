@@ -67,6 +67,8 @@ public import TruthCore.Causality.DeiFiliusLivingSelfOperation
 public import TruthCore.Causality.DeiFiliusLordBlessed
 public import TruthCore.Causality.DeiFiliusOperationFromIntellect
 public import TruthCore.Causality.DeiFiliusUnifiedRoute
+public import TruthCore.Causality.DependenceStrictGroundMap
+public import TruthCore.Causality.DependenceStrictGroundMapStrength
 public import TruthCore.Causality.DerivativeJointPower
 public import TruthCore.Causality.DirectEsseGenusOmissionControl
 public import TruthCore.Causality.DirectEsseRootGoodnessOmission
@@ -145,6 +147,7 @@ public import TruthCore.Causality.NecessarySupportCoverage
 public import TruthCore.Causality.NonlimitingConcreteExistence
 public import TruthCore.Causality.OccurrenceUnderivedEssence
 public import TruthCore.Causality.OriginDeletion
+public import TruthCore.Causality.OriginExerciseBridge
 public import TruthCore.Causality.OriginToleranceIdentity
 public import TruthCore.Causality.OwnerEndpointCalibration
 public import TruthCore.Causality.ParityUnionRegress

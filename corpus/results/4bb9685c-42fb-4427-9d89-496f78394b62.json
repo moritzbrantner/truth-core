@@ -1,0 +1,11 @@
+{
+  "id": "4bb9685c-42fb-4427-9d89-496f78394b62",
+  "label": "Mutual-dependence omission controls for strict-grounding interpretation",
+  "argument_id": "6e974423-7695-4371-9a6e-6bfd901a6b9f",
+  "challenge_module": "TruthCore.Results.Causality.DependenceStrictGroundMap.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DependenceStrictGroundMap.Solution",
+  "theorem": "TruthCore.Results.Causality.DependenceStrictGroundMap.controls",
+  "comparator_config": "results/4bb9685c-42fb-4427-9d89-496f78394b62/comparator.json",
+  "status": "solution-present",
+  "description": "Omitting consistency permits all sequents; omitting the mapping leaves counterfactual dependence unconstrained even alongside a consistent Fine theory, so dependence for being and formal strict ground do not mix without the bridge. This prevents the result from being misreported as a theorem about arbitrary dependence or intrinsic metaphysical priority."
+}

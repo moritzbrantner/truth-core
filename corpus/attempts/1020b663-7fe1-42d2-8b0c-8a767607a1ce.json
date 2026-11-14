@@ -1,0 +1,20 @@
+{
+  "id": "1020b663-7fe1-42d2-8b0c-8a767607a1ce",
+  "label": "Strict-ground map for nonmutual existential dependence: content, sense and rivals",
+  "date": "2026-11-14",
+  "statement_ids": [
+    "42756c07-03cd-4b54-8ed6-ed6c1a5132aa",
+    "0f49d71e-09e6-5a9c-b7e7-e0e9b8fe769c",
+    "702dc502-b64f-4d5c-b73d-331ea2e554b0"
+  ],
+  "kind": "reading",
+  "outcome": "blocked",
+  "summary": "Repair after the PR #1600 semantic challenge. (1) The map's Lean type is a structural surrogate: S and the labelling are arbitrary and PLG atoms are uninterpreted, so the type encodes only that distinct-step D embeds into the strict order of a consistent PLG theory. Reading the labels as existence facts and the edges as faithful grounding is an OPEN interpretation outside the type. (2) Verified strength: consistency plus the map force distinct-step D to have no finite cycle (mapForcesDistinctDependenceAcyclic), which is strictly more than nonmutuality. So the map's warrant is a warrant for acyclicity. Well-foundedness for finite Atom and the converse embedding are not verified or relied on. (3) Sense: disambiguation 23dd6f32 gives D sense 1 (DEF-DEPENDS-FOR-BEING, efficient-causal) and 'ground' sense 2 (formal uninterpreted strict partial ground), bridged only by the OPEN map. The constitutive/metaphysical reading of the atoms does not cover D's own paradigm edge (sun/light), so it would need a restricted non-causal receives-esse relation. On the natural/causal reading the warrant reduces to efficient-causal asymmetry strengthened to acyclicity. (4) Rivals to the map: modal co-existence; symmetric metaphysical dependence (Barnes 2018, Thompson 2016; challenger-cited, attribution deferred); vacuous counterpossibles. On the last, any two distinct necessary beings mutually D-depend, so the map plus consistency allows at most one necessary being in B. The map therefore depends on a non-vacuist semantics for D or a domain restriction, which DEF-DEPENDS-FOR-BEING leaves unspecified. (5) Nonvacuity: a joint Nat model with a nonempty D is verified. No substantive objection to the formal validity was identified.",
+  "evidence": [
+    "40b8313e-2a44-442b-a5ad-ab8683f7fb9c",
+    "e86849cf-cfc0-4a26-bdf3-e134da64753e",
+    "6d871ee2-14db-43a9-b8f4-a6d7707a86d2",
+    "PR-1600"
+  ],
+  "blocker": "The map's interpretation is unresolved. Next tests: (a) type a restricted non-causal receives-esse relation with its own definition and Lean declaration, and test the map on it; (b) type a causal ordering of existence facts and compare its warrant with STMT-EFFICIENT-CAUSE-NOT-DEPENDENT-ON-EFFECT; (c) fix whether D's counterpossibles are vacuist or non-vacuist (related to #1593); (d) assess the Barnes/Thompson symmetric-dependence cases after reading the texts."
+}

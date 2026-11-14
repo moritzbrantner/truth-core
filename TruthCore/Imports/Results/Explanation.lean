@@ -20,6 +20,7 @@ public import TruthCore.Results.Explanation.EmptyHistoryCountControl.Solution
 public import TruthCore.Results.Explanation.EmptyTruthmaker.Concrete.Solution
 public import TruthCore.Results.Explanation.EmptyTruthmaker.Core.Solution
 public import TruthCore.Results.Explanation.EmptyTruthmaker.Replies.Solution
+public import TruthCore.Results.Explanation.EssenceReasonSeparation.Solution
 public import TruthCore.Results.Explanation.ExistenceIngredient.Solution
 public import TruthCore.Results.Explanation.ExplanatoryAdequacy.Solution
 public import TruthCore.Results.Explanation.ExplanatoryClosure.Solution

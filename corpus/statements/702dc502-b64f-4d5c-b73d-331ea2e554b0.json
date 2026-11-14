@@ -1,0 +1,6 @@
+{
+  "id": "702dc502-b64f-4d5c-b73d-331ea2e554b0",
+  "label": "Distinct-step dependence for being has no finite cycle",
+  "paraphrase": "Structural property of the dependence relation D on beings: no finite chain of D-edges, each between two distinct beings, returns to its starting being. It implies STMT-DISTINCT-BEINGS-NOT-MUTUALLY-DEPENDENT, which excludes only two-step cycles, and also excludes longer cycles such as a three-cycle of distinct beings (that strictness is elementary and not separately certified). It says nothing about infinite descent or well-foundedness.",
+  "lean_declaration": "TruthCore.Causality.DependenceStrictGroundMapStrength.DistinctDependenceAcyclic"
+}

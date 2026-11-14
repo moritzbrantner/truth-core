@@ -118,6 +118,270 @@ necessary being by quietly assuming that every actual contingent being is
 productively actualized by something, that all such precedence is governed
 by one strict order, or that every unbounded external chain is impossible.
 
+### Origin-to-exercise warrant reassessment (2026-11-12)
+
+The separate root-reaching result
+`OriginExerciseBridge.noSelfOriginFromNoSelfProduction` consumes the **OPEN**
+`OriginHasProductiveExercise` bridge: every `CausesOrigin c x` edge has an
+*occurring* exercise `a` with `bearer a = c` that produces `x`'s existence.
+The result was verified on PR #1526, head `fe55756c`, with full CI and a
+completed finding-free Codex review. This does not verify this bridge's
+applicability. The warrant question is now substantially narrower than whether
+all things generically called causes involve positive production.
+
+**Positive argument for the selected productive reading.** A merely capable
+builder does not build a house; the builder *building* is the actual productive
+cause. Aristotle distinguishes potential and actually operating causes in
+*Physics* II.3, especially the builder/building example around 195b16-21.
+On a positive, efficient reading of origination, attributing the resulting
+coming-to-be to `c` therefore calls for the actual exercise of `c`'s causal
+capacity, not merely a static dependence of the outcome on the presence of `c`.
+If it originates `x` rather than merely modifies or maintains `x`, the
+productive exercise must terminate in `x`'s coming-to-be. This supplies a
+conceptual **warrant for** the bridge in that reading; it does not deduce the
+whole universal quantified bridge from a historical example. In particular,
+the maker of a house may cause a new composite from existing matter without
+producing its matter ex nihilo. The intended `produces a x` is production of
+the *being of the resultant individual*, not of all its constituents out of
+nothing. It is the same `produces` as in `NoSelfProduction`
+(DEF-NO-EXISTENTIAL-SELF-PRODUCTION): both premises of the argument read the
+shared parameter as production of `x`'s being, never as mere production of
+`x`'s coming-to-be. The builder therefore illustrates only the
+actual-exercise requirement. A builder is the standard example of a cause of
+a house's *becoming* rather than of its *being* (Aquinas, *ST* I q.104 a.1),
+so the builder case is not an undisputed instance of `produces` in that sense.
+The step from "c is responsible for x's coming to be" (`CAUSE_4`) to "an
+exercise of c produces x's being" is part of the bridge's OPEN content
+(DEF `9022c4bf`, statement `be90bb15`), and it is the step that the builder
+case leaves open.
+
+**Why the bridge is universal.** The bridge quantifies over every
+`CausesOrigin` edge, but the argument uses only self-edges. The universal form
+is kept here because it is the productive reading of `CAUSE_4` itself, and its
+warrant (the actual-exercise requirement) is stated generally. The weaker
+self-edge sibling, `∀ x, CausesOrigin x x → ∃ a, Occurs a ∧ bearer a = x ∧
+produces a x`, follows from the universal form, so it has at least the same
+warrant, and it is exposed to strictly fewer defeaters: it does not carry the
+coming-to-be-to-being step for ordinary origination (the builder case, Hall-style
+dependence and omission causes). It keeps only the self-edge case of that step,
+which is where the Smith whole-borne-exercise dispute sits. By the
+weakest-sufficient-version rule the argument should consume that sibling; the
+universal form is retained in this PR only because registering the sibling and
+its `strengthens` result is deferred to a tracked follow-up, and until then the
+universal form is the strong version this argument needs
+(`strong_version_needed`, recorded here).
+
+**Non-temporal activity and the divine case.** Aquinas, *ST* I q.45 a.3,
+distinguishes creation from motion or change and identifies active divine
+creation with divine action/essence rather than a temporally new accident in
+God. Therefore `Occurs a` may mean that a causal activity obtains, **not**
+that a distinct temporal event begins or that God's action is an accident
+ontically separate from God. Conversely, treating `Sum Being Exercise`'s
+different formal tags as proof of a real distinction or a strict priority
+between divine essence and divine action would be illicit. The priority
+interfaces must receive their own metaphysical warrant.
+
+**Specific rival mechanisms and their exact relevance.** Ned Hall, *Two
+Concepts of Causation*, §§1,5,7, argues for a difference between
+counterfactual **dependence** and event **production**; omissions can figure
+as causes in the former sense without being productive exercises. This is a
+substantive challenge to the bridge **if** `CausesOrigin` is interpreted broadly
+enough to count absence-based dependence as originating causation. It is not
+yet a counterexample to its narrower positive/efficient reading. In a more
+challenging case, Gott and Li, *Can the Universe Create Itself?* (1998),
+§§IX–XI, give self-consistent examples of closed-timelike-curve spacetime/field
+configurations and **separately propose** that a later-generated baby universe
+might be identical to the earlier universe. That identification is a
+conditional physical scenario, not a solved dynamical self-generation model.
+It is a concrete candidate **phase/region-loop mechanism** rather than a bare
+logical permission slip, but it does not alone prove that a single whole being
+has an exercise producing the total existence of that same whole. A critical
+extra step is the part/whole and identity transfer
+`causes(phase₂, phase₁)` to `CausesOrigin(universe, universe)` together with
+`produces(act_of_universe, whole_universe_existence)`. If that step can be
+justified, the rival challenges at least one of the bridge's bearer/product
+scope or the mixed priority properties; the present result does not refute it.
+The CTC solution plus conditional baby-universe identification supplies a
+meaningful research target, **not** an observation that our universe has this
+topology, an established baby-universe loop, or a proof of metaphysical
+self-production.
+
+Primary-text navigation inspected for this reassessment (not newly pinned
+corpus claims or source-fidelity certificates):
+
+- Aristotle, *Physics* II.3: https://etc.usf.edu/lit2go/98/physics/1663/book-2/
+- Aquinas, *Summa Theologiae* I q.45 a.3: https://www.newadvent.org/summa/1045.htm
+- Ned Hall, *Two Concepts of Causation*: https://fitelson.org/269/Hall_TCOC.pdf
+- J. Richard Gott and Li-Xin Li, *Can the Universe Create Itself?*:
+  https://arxiv.org/abs/astro-ph/9712344
+
+**Overall provisional judgment (2026-11-12).** The positive efficient
+origination reading makes an actual productive exercise a strong conceptual
+expectation. This **favors** the bridge within that reading, especially over
+an interpretation that calls a mere potential capacity an actual originator.
+It does not establish unrestricted `CausesOrigin` as productive. Hall gives a
+positive broader-causation alternative; Gott–Li gives a concrete cyclic
+cosmology whose precise mapping to whole-existence production is unsettled.
+No actual-world self-origination, unconditional no-self-origin law, and no
+necessary-being conclusion is established or defeated here. Reversal tests:
+(1) identify a bona fide `CAUSE_4` origination caused only by an omission or
+dependence, with no positive exercise; (2) provide an identity-preserving
+mapping of a CTC model's phase edges to **whole** self-origin, including the
+actual bearer/product claims; (3) justify or reject strict mixed priority for
+non-temporal creation. These are discriminating tests, not generic pleas that
+an unknown counterexample might exist.
+
+### Further strengthening: event-loop self-causation and a weaker priority law
+
+**A stronger positive rival.** Anthony E. Newman, *Causal Loops and Direct
+Self-Causation*, *Journal of the American Philosophical Association* 12(1)
+(2026), §§3–5, explicitly defends a part/whole causal inference. If a link
+causes each constituent event in a causal chain, it can cause the extended
+chain-event. On his transitive or full-causal-ancestry reading, in any causal
+loop, even one with an external cause, every link can cause every other link,
+including itself indirectly. Newman argues that
+the loop-event is therefore caused by its own parts and, because those parts
+compose it, can count as directly self-caused. His domino-chain and
+backward-influenced name-writing analogies supply a positive justification
+for his proposed part/whole rule; this is not a mere assertion that causal
+loops might somehow be exceptions. He distinguishes being causally affected
+from having an *ultimate* explanation of the whole affair.
+
+Crucially, §5 endorses as *plausible* a stronger existential-origin example
+from Quentin Smith (1999: 581): at `t = 0`, a universe consists of `a,b,c`,
+whose simultaneous states cause one another. Smith additionally supposes
+that each constituent is caused **to begin to exist** by something within
+the universe, then infers
+that the universe begins to exist through its own constituents and thus is
+self-caused. Newman recognizes why a beginningless infinite internal chain
+would not support the same inference, and argues that the mutually causal
+finite loop has a stronger claim: each member causes every member. His
+footnote 1 explicitly allows recasting the discussion with *things* rather
+than events as causal relata. This scenario targets existential origin,
+not merely the occurrence of an event. It is a hypothetical metaphysical
+model, not evidence of an actual self-creating universe. Primary text:
+https://www.cambridge.org/core/journals/journal-of-the-american-philosophical-association/article/causal-loops-and-direct-selfcausation/5B4DE9F9DEA48B8B58D923665700EA14
+This is primary-text research navigation, not a new pinned corpus claim or
+an assertion that the whole event-level causal theory has been established.
+The parity question these cases raise is mapped as PP-01 in
+[`explorations/principle-parity-self-origination.toml`](../../explorations/principle-parity-self-origination.toml)
+and [`docs/principle-parity-challenges.md`](../principle-parity-challenges.md#first-worked-test-universe-versus-omnipotent-being-pp-01).
+
+**The precise scope of his challenge.** The Smith/Newman case is a genuine
+proposed countermodel to a universal `¬ CausesOrigin b b`: if (i) beginning
+of all mutually producing constituents suffices for productive beginning of
+their composite `U`, (ii) the same `U` is both the originator and originated
+whole, and (iii) this supplies `CausesOrigin U U`, then the bare prohibition
+is false on that causal reading. Merely labelling the whole an *event* does
+not defeat this proposal. The disputed inference and interfaces are:
+
+1. **Composition and identity.** From every `a,b,c` being caused to begin
+   existing by another member, what establishes that the *aggregate's own
+   beginning* is productively caused by the **numerically identical**
+   aggregate, rather than a collection of mutually caused first-stage
+   states? Smith proposes a positive finite-loop answer, not an unspecified
+   loophole. If `U` simply is the whole at `t=0`, the challenge is acute.
+   If `U` is an enduring bearer or complete 4D history, an additional
+   account must connect these first-stage productions to the existence of
+   that **entire** bearer, not merely its initial state.
+2. **Exercise and strict priority.** For the corpus proof the origin edge
+   needs `OriginHasProductiveExercise`: an *occurring* exercise borne by `U`
+   and producing `U`'s existence, rather than only exercises of proper parts.
+   Mereological inheritance of those exercises by `U` is a substantive
+   candidate bridge, not something to reject by definition. If such a
+   whole-borne exercise exists, the proof still needs
+   `BearerPrior` (bearer's existence prior to its exercise) and
+   `ProductPrior` (exercise prior to product existence) under **one** strict
+   order. Smith's simultaneous example specifically challenges whether
+   both relations express strict existential priority in this setting.
+
+This does **not** refute Smith/Newman merely by an event/bearer category
+distinction. The task for its defender is to substantiate the proposed
+whole-origin composition, bearer identity and producing relation. The task
+for the no-self-origin defender is to establish the productive-exercise
+bridge and strict existential/act priority *even if* the parts coexist and
+mutually produce at the first moment; it cannot assume temporal precedence
+or dismiss the cosmology for being cyclic. The Gott–Li baby-universe scenario
+remains conditional, not an observed instance or a fully solved
+self-generative history.
+
+**A positive warrant to test against Smith.** The most promising defense is
+the **actual-source principle**: for something to produce an existence,
+there must be an *actual* bearer of the producing capacity while it is
+exercised. A merely possible or not-yet-actual producer cannot exercise a
+power; this is the force of Aristotle's actual builder/building distinction
+above. The principle does not require an earlier clock time. If Smith's
+`a,b,c` are alleged to cause one another's *very first existence*, rather
+than only the first states of already existent causes, then each purported
+productive exercise needs an actual source whose own being is supplied only
+by another exercise in the very same inaugural loop. This supplies a
+specific *ontological* question: how is any originating power actual in the
+finite loop if no source's existence can be presupposed? The no-self-origin
+defender may argue that actual productivity and an existence whose actuality
+is produced by that same activity are incompatible; the rival may instead
+defend simultaneous reciprocal actualization. The principle that a bearer
+must be actual *while* it exercises its power gives only **co-actuality**, and
+Smith's simultaneous loop grants co-actuality. *Strict* `BearerPrior` needs a
+further clause: **the bearer's existence is not supplied by that same
+exercise or by the loop that contains it.** That clause, not co-actuality,
+does the work against Smith. It is close to the contested point itself, and
+it stays **OPEN** against the rival of simultaneous reciprocal actualization.
+The principle is therefore a substantive warrant for the co-actuality part of
+`BearerPrior`. It is **not** a proof that Smith's posited causation is
+impossible, and it does not establish the strict part without the extra
+clause. The rival is a definite alternative that owes an account of actual
+powers; it is not a vague exception. Furthermore the defender must
+give a reason that `ProductPrior` is *strict explanatory* priority, not
+just that the cause and effect share the label `prior`.
+
+**A strictly weaker deductive route is available.** The existing two-token
+proof uses irreflexivity and transitivity of mixed priority, but their only
+joint use is to exclude the reciprocal pair
+`Prior (inl (bearer a)) (inr a)` and
+`Prior (inr a) (inl (bearer a))`. The single structural assumption
+`∀ p q, Prior p q → ¬ Prior q p` (asymmetry) suffices directly with
+`BearerPrior`, `ProductPrior`, and `OriginHasProductiveExercise`.
+Irreflexivity plus transitivity imply asymmetry, but not conversely: an
+irreflexive directed three-cycle can be asymmetric while failing transitivity.
+Thus no global transitivity or well-foundedness is needed for the **local**
+productive self-origin contradiction. A CTC cycle among three *different
+stage-events* does not automatically yield the prohibited reciprocal pair
+between a bearer-existence token and its own productive exercise. The
+Smith/Newman finite simultaneous-origin case is stronger: if its collective
+production really is the whole's self-origin, either the strict priority
+interfaces must be defended against that case or they cannot be used to
+exclude it. Asymmetry itself remains OPEN in this interpreted domain;
+calling the relation "priority" is not a proof of asymmetry.
+
+The narrower route is **Lean-checked but not registered as a new corpus
+result**. Unregistered theorems in
+`TruthCore/Results/Causality/OriginExerciseBridge/Solution.lean` check three
+things. `noSelfProductionOfAsymmetric` and `noSelfOriginFromAsymmetric` check
+the route itself. `asymmetricOfIrreflexiveTransitive` checks that the old
+bundle implies asymmetry. `threeCycle_asymmetric_not_transitive` checks that
+the converse fails. Asymmetry remains an OPEN premise, and none of these
+theorems has a corpus result or a Comparator certificate. A trial of the normal batch generator was rejected by
+the existing `DISAMB-MIXED-EXISTENTIAL-PRIORITY` sense index: it treats the
+`BearerPrior` and `ProductPrior` *properties of one supplied relation* as
+distinct senses requiring a bridge. The disambiguation's own resolution
+states that these are structural interfaces, not rival readings. Inventing
+a philosophical cross-sense bridge just to bypass the check would misstate
+the argument. The invalid generated batch was removed; the existing verified
+route is unchanged. Revisit this registration when the sense taxonomy can
+faithfully represent multiple laws of **one and the same** mixed relation.
+
+**Updated provisional assessment.** The no-self-origin claim is more robust
+than the original four-priority-premise presentation indicated: conditional
+on positive existential production, it needs only the two activity interfaces
+and absence of *mutual* existential/act priority. Newman's ordinary event
+loops do not by themselves establish productive bearer-origin, but his
+Smith-style simultaneous-universe example **expressly challenges that
+boundary**. The decisive disagreement is whether collective reciprocal
+origination gives `CausesOrigin U U` and, if so, whether the corpus's
+exercise and strict-priority premises hold for it. Nothing here establishes
+the relevant actual-world ontology, refutes a self-creating cosmology, or
+establishes the still-open no-self-origin premise.
+
 This is an **analyst conditional**, not a newly attributed quotation from
 Aquinas and not a proof of the open P2/P3 bridges. The source-derived
 `SecundaVia` exclusion of efficient self-causation remains separate; the

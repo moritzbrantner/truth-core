@@ -1,0 +1,6 @@
+{
+  "id": "2be59542-b34e-4037-b694-bbdaa01e83b3",
+  "label": "Strict-ground support bundle has a populated model with a dependence edge",
+  "paraphrase": "Mathematical nonvacuity witness: over the natural numbers, one consistent PLG theory (Fine infinite descent, deriving n+1 ≺ n), the identity labelling and the relation D x y iff y = x + 1 jointly satisfy PLG consistency and the dependence-to-strict-ground map, and D has a distinct edge (0 to 1). A formal interpretation only; it says nothing about which beings or existence facts there are.",
+  "lean_declaration": "TruthCore.Causality.DependenceStrictGroundMapStrength.Control.Nonvacuous"
+}
