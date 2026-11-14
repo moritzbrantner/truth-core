@@ -1,0 +1,13 @@
+{
+  "id": "aca3baa1-9be6-4720-a53d-22050e638561",
+  "label": "Every ground-closed collection of actual CONCRETE_6 with no actual root is empty",
+  "paraphrase": "Open premise, analyst formulation, unattributed: at the selected world w, no collection of actual concreta that contains every actual concrete ground of each of its members is both nonempty and without an actual root. In Lean: for every predicate S on candidates, if every member of S is an actual concretum at w, every actual concrete ground at w of a member of S is in S, and no member of S is an actual root (an actual concretum with no actual concrete ground at w), then nothing is in S. The weak version of STMT-ACTUAL-GROUNDING-WF: it allows endless descending chains and cycles of grounds as long as a root grounds into them, and no asymmetry or uniform path-length bound is imposed. Under explicit excluded middle, CCR is equivalent to finite concrete-root access for every actual concretum.",
+  "lean_declaration": "TruthCore.Causality.ClosedGroundingRoots.ClosedGroundingCollectionsRooted",
+  "definition_ids": [
+    "38b9012a-472b-4544-a271-16d22b25c9ac",
+    "008cb21a-256c-5a90-822c-acd4591d699a"
+  ],
+  "disambiguation_ids": [
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
+  ]
+}

@@ -42,33 +42,62 @@ campaigns are selected methods, not universal prerequisites. This policy
 supersedes older route-cost, bare-premise-first and assent-only floor priorities;
 it changes no proof, source, schema or computed closure rule.
 
+## Argument breadth and cumulative warrant (owner direction, 2026-11-12)
+
+Treat the breadth of relevant propositions, interpretations, argument families,
+and rival accounts as positive research progress when it adds meaningful coverage
+or genuine support options. A proposition can be considered directly on its
+prima facie merits **and** supported conditionally by arguments from other
+propositions. Keep both options visible; adding a derivation must not remove its
+direct-assumption option or be penalized because it introduces further open
+premises, shares dependencies, or raises expanded-route cost. Counts describe
+corpus scale, not philosophical merit; do not repeatedly present growth in
+proposition/argument counts or unchanged frontier totals as a weakness.
+
+Do **not** demand an independent argument for every premise, nor treat reasons
+as worthless once they connect to the same web. Evaluate a proposition's
+available warrant together: prima facie plausibility, direct experience,
+successful inquiry, conceptual or practical preconditions, explicit arguments,
+network coherence, explanatory performance, and substantive defeats of rivals.
+Some commitments are candidate primitives or necessary conditions of the very
+reasoning by which premises are assessed; recording their content, scope and
+defeaters can be an appropriate stopping point without an endlessly prior proof.
+Examine whether support adds discriminating information and whether it begs the
+question; mere mutual implication or a closed proof cycle adds no warrant by
+itself. Shared dependencies must remain visible, but are not a penalty or a
+requirement to find disjoint proof trees.
+
+Distinguish strict self-refutation, epistemic self-undermining, lack of internal
+reasons to adopt a view, and contradiction of necessary inquiry preconditions.
+These are different kinds of comparative evidence: a view failing a substantive
+test loses standing; one surviving a serious test may gain *relative* standing,
+without thereby becoming deductively true. The mere absence of a discovered
+objection is not itself a proof. Do not manufacture hypothetical objections or
+require another argument merely because a proposition is presently primitive.
+
+In progress assessments, lead with what was clarified, connected, supported,
+tested, or compared, including useful breadth and alternative support bundles.
+Use formal establishment, open-leaf counts, independence analysis and route
+cost only for their specific diagnostic questions. Keep overall provisional
+warrant distinct from Lean consequence and the existing computed closure rules;
+this policy changes no schema or proof gate. See the
+[systematic loop](docs/systematic-corpus-loop.md#cumulative-warrant-and-support-options).
+
 ## Fresh subagents for issue work (owner direction, 2026-11-08)
 
 During a workloop, the coordinator delegates each issue or bounded investigation
 to a fresh subagent. Split broad issues into independently reviewable slices;
-give each worker one slice with explicit file and argument ownership. The
-coordinator owns coverage, priorities, shared instructions, integration and merges.
+give each worker one slice with explicit file and argument ownership. Follow
+the canonical [worker ownership and integration contract](docs/systematic-corpus-loop.md#worker-ownership-and-integration)
+for scoped context, continuing repairs, review order, validation reuse and
+coordinator-owned integration. The originating worker retains its slice through
+semantic and CI repairs; a phase transition alone does not require a new agent.
 Use the canonical [parallel-lane policy](docs/systematic-corpus-loop.md#parallel-lanes)
 for two distinct propositions in different argument families, reserved review
-capacity and shared semantic baselines. Disjoint files or two subquestions of the
-same premise do not meet that breadth requirement. Independent research continues
-while other work awaits review or CI; routine corrections stay inside the loop.
-
-- Start workers without inherited conversation history (`fork_turns="none"`,
-  or the equivalent). Supply the brief below, relevant repository instructions,
-  exact corpus/theorem references, and the current workspace/service setup.
-  Do not forward the coordinator's transcript as the brief.
-- Use isolated warm checkouts for writers, with distinct ownership. Serialize
-  shared heavy verification and Lean-service operations under the existing
-  protocol. Workers must accommodate others' changes, not revert them.
-- Reuse a worker only within its current bounded slice. Start a fresh worker
-  for the next issue or unrelated argument family; workers do not recursively
-  delegate unless their brief explicitly authorizes it.
-- Workers persist substantive findings in the existing corpus records or linked
-  notes, then return a compact delta: PR/head, verified and unverified scope,
-  findings and remaining gaps, with evidence links. The coordinator updates the
-  one current handoff rather than importing long worker transcripts or creating
-  another tracker. Reuse unchanged verification evidence.
+capacity and shared semantic baselines. Independent research continues while
+other work awaits review or CI; routine corrections stay inside the loop.
+Persist findings in the existing records and return a compact delta with evidence
+to the coordinator's one current handoff.
 
 ## Research continuation and stopping (owner direction, 2026-11-10)
 
@@ -124,6 +153,8 @@ The master gives each worker a compact brief:
 
 For a substantial frontier investigation, include enough context to state the thesis, selected meaning, downstream purpose, known serious rivals and existing evidence. The worker may refine this map as the investigation develops; a complete argument tree or exhaustive rival list is not an entry requirement. It lives in the one current handoff or issue, not in another tracker.
 
+GitHub research issues follow the [research issue contract](docs/systematic-corpus-loop.md#github-research-issue-contract). They state an answerable question, graph destination, existing dependencies and a live discriminating uncertainty—not a prescribed conclusion or proof count. Before dispatch, reconcile the issue against current `main` and convert its next unresolved slice into the bounded worker brief above. After integration, record delivered evidence and remaining work in the existing issue/handoff; close a completed issue scope without treating the larger philosophical question as settled.
+
 The PR reports the actual premise comparison by linking or pasting the computed delta (`target/release/truth frontier-diff --base <merge-base>`; CI prints it to the job summary of the "Report the premise frontier" step), not a hand-reconstructed list; a new connection is not itself a discharge. A new verified, non-transcription argument is positive **conditional support-option** progress even if it replaces one leaf with several open premises in the expanded-route diagnostic. Record those new obligations separately; neither the new argument nor a lower route cost establishes its conclusion. For non-proof work, use “none” or “no premise change” where applicable.
 
 The coordinator runs `python3 scripts/worker_env.py --check` once for the
@@ -178,33 +209,20 @@ Before handoff or retirement, persist verified source findings, rejected interpr
    self-sweep for a related batch before its first push, and combine related
    findings into one reviewable PR where practical.
 
-## Local server experiment for the next workloop
+## Local Lean preview service
 
-At the start of the next workloop, the master should run a bounded experiment
-with workers interacting with a local service. Inspect the available tooling
-first: the explorer development server alone does not expose Lean verification.
-If an agent-facing service exists, start it and check its health. Otherwise,
-assign one bounded lane C task to implement the smallest usable adapter around
-the existing corpus/configuration commands and Lean language server; do not
-assume an endpoint or startup command already exists. Document the actual
-startup, health-check and client commands before asking workers to use it.
+Use the existing [local service and client](docs/agent-service.md) when the
+coordinator supplies a preview. The coordinator owns startup, health checks,
+dependency refresh and shutdown, and gives workers the endpoint, workspace and
+session identity. Workers keep isolated canonical clones and use the shared
+preview session under the documented lease; every response remains bound to
+its exact revision and inputs. Reuse the pinned Lean toolchain and dependencies.
 
-The master owns service startup and shutdown and gives participating workers
-the endpoint, supported operations and workspace/session identity alongside
-their normal brief. Have workers try corpus queries and repeated Lean proof
-edits through the service, using persistent Lean sessions for diagnostics and
-proof goals. Keep agent workspaces and Lean sessions isolated; queue expensive
-verification jobs and bind every response to its exact revision and inputs.
-Reuse existing CLI and corpus semantics rather than introducing a second
-proof-status registry. Keep the service local to the machine.
-
-Compare a small representative task with the CLI workflow, recording useful
-latency/setup differences, correctness issues and a retain/revise/remove
-recommendation in the existing handoff. Continue via the CLI if the experiment
-fails; it must not block research. Interactive diagnostics do not replace the
-required build, binding, axiom, Comparator and NanoDa checks on the final inputs.
-Reuse the pinned Lean toolchain and existing dependencies; this experiment does
-not authorize adding an external Lean dependency.
+Continue through the existing CLI when no usable preview is supplied. A new
+service experiment or adapter is a selected tooling task, not recurring startup
+work. Keep the service local; this protocol does not authorize an external Lean
+dependency. Interactive diagnostics do not replace the required build, binding,
+axiom, Comparator and NanoDa checks on the final inputs.
 
 ## Premise dossiers and attempts
 
@@ -252,6 +270,12 @@ An objection must:
 3. Provide independent justification for that mechanism.
 4. Explain why the objection is relevant to the actual argument.
 5. Distinguish established counterexamples from hypothetical possibilities.
+
+Here "independent justification" means positive support for the proposed
+failure mechanism beyond merely asserting that failure is conceivable or
+restating the desired objection. It does **not** require evidential isolation
+from the rest of the graph or an endlessly prior proof of every supporting
+premise. Apply the same non-question-begging test to supporting arguments.
 
 When claiming that an argument does not generalize, identify the
 specific relevant difference and justify why it matters.
@@ -385,7 +409,7 @@ Formalize what can be formalized and derive what can be derived. Keep the necess
 
 Use an **exploration map** (`explorations/<slug>.toml`, checked with `python3 scripts/argument_batch.py map`) when it helps expose a target's argument DAG; a complete map is not required before a bounded investigation. Reuse statement IDs and mark new nodes and bridges. Certify related derivations as one coherent batch where useful: one vocabulary module, one Solution, a Challenge generated by `python3 scripts/argument_batch.py challenge`, and records generated by `python3 scripts/argument_batch.py records SPEC --write --fix`. There is no derivation quota. Keep new bare premises and analyst bridges explicit and open.
 
-Seek nonvacuity witnesses and omission countermodels where practical and informative; record unresolved satisfiability or necessity rather than requiring a model for every result. Claims of satisfiability, non-entailment or minimality still need their own adequate evidence. `thickness --base <merge-base>` and `thickness --queue` are diagnostics, not progress scores or the sole priority queue. Record rejected leads as attempts. Base each PR on `main`; the authorized coordinator may use `python3 scripts/merge_queue.py --workdir <spare clone> PR...` for green reviewed PRs, regenerating generated-only conflicts and returning substantive conflicts to the author.
+Seek nonvacuity witnesses and omission countermodels where practical and informative; record unresolved satisfiability or necessity rather than requiring a model for every result. Claims of satisfiability, non-entailment or minimality still need their own adequate evidence. `thickness --base <merge-base>` and `thickness --queue` are diagnostics, not progress scores or the sole priority queue. Record rejected leads as attempts. Base each PR on `main` and follow [coordinator-owned integration](docs/systematic-corpus-loop.md#worker-ownership-and-integration); return conflicts to the owning worker and regenerate shared files under the existing rules.
 
 ## Connect every library to the case (owner direction, 2026-11-07)
 
@@ -418,7 +442,7 @@ Truth Core retains its purpose: investigate the case for Catholicism and the str
 - **Explore the configuration space.** Compose checked results, seek multiple routes to the same conclusion, minimize sufficient assumption bundles, derive incompatible cores, and construct joint models of surviving branches. Compare changes when consequential commitments are added, removed or reversed. Keep the logic and semantic profile fixed for each comparison, or mark the required bridge.
 - **Classify outcomes precisely.** Record conditional entailment, contradiction under stated assumptions, a model-witnessed alternative, or unresolved search. A failed proof search is not a refutation; an inconsistent background cannot support a nonvacuous victory. An abstract model witnesses only the stated formal interpretation.
 - **Count conditional progress.** A new implication, weaker sufficient premise set, incompatibility, countermodel or distinguished alternative is genuine research progress even when no philosophical premise is independently defended. Report configuration/derivation progress separately from the existing root-frontier closure status; do not silently claim that a conditional theorem establishes a premise or the root as true.
-- **Avoid recursive premise-defense by default.** Investigate independent warrant, source interpretation or real-world applicability when that is the selected research question, when it discriminates serious surviving alternatives, or when an unconditional truth claim is being made. Otherwise keep the assumption open and continue exploring configurations. Do not automatically spawn a new source task for every open primitive.
+- **Avoid recursive premise-defense by default.** Investigate the actual warrant for an assumption, source interpretation or real-world applicability when that is the selected research question, when it discriminates serious surviving alternatives, or when an unconditional truth claim is being made. Such warrant may be prima facie, practice-based, cumulative or inferential; it need not be a disconnected proof tree. Otherwise keep the assumption open and continue exploring configurations. Do not automatically spawn a new source task for every open primitive.
 
 Existing Challenge/Solution boundaries, source fidelity, exact premise reporting, no-smuggling rules, and root-closure criteria remain in force. This direction governs research priorities and the interpretation of progress; it does not declare any particular framework's assumptions true.
 

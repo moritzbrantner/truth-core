@@ -1,0 +1,11 @@
+{
+  "id": "fdd09678-af1d-477f-bf5a-1b894557d301",
+  "label": "MOTION_1 actuality from distinct causal possession",
+  "argument_id": "d0c022f8-c53d-4c0f-917a-e16bb75ca9a5",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.PossessionConsumerReductions.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.PossessionConsumerReductions.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.PossessionConsumerReductions.nothingMovesExceptInAct",
+  "comparator_config": "results/fdd09678-af1d-477f-bf5a-1b894557d301/comparator.json",
+  "status": "solution-present",
+  "description": "Analyst formulation, attribution deferred. Distinct movers cause the respect and hence possess it by distinct-cause transfer, inclusively IN_ACT_3. Diagonal self-motion requires the retained distinct moving part and whole-through-part premises. Neither comparative excess nor more-such-bearer is used. Conditional support for the prima via root-route node only; premises remain subject to their existing warrant burdens. No globally weakest bundle is claimed."
+}

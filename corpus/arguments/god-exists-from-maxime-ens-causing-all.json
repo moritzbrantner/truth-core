@@ -49,5 +49,8 @@
       "statement_id": "1ec205ed-b2a6-5384-bb5f-2565a9d325bf"
     }
   ],
-  "legacy_id": "GOD-EXISTS-FROM-MAXIME-ENS-CAUSING-ALL"
+  "legacy_id": "GOD-EXISTS-FROM-MAXIME-ENS-CAUSING-ALL",
+  "strong_version_needed": {
+    "d5a94eb1-72d2-53e0-9a52-9787b5b61a8d": "Not needed for this endpoint: only the comparison of two maxima at esse uses this premise. Existing sibling 5d2b7c6e-57b3-44c1-ac3a-9789b65c63fb replaces it with cffad050-e86d-48b8-b04b-be47fcc1352d and retains the other premises, including the GOD sense bridge. The frozen interface is retained for comparison."
+  }
 }

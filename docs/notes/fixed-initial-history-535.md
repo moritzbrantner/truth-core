@@ -102,6 +102,45 @@ entails deletion, while encoded origin tolerance alone leaves deletion open.
 Deletion at the actual world differs from deletion at all accessible worlds.
 Do not import their stronger-bundle contradiction into the original rival.
 
+### Does a fixed initial history require exactly N simples?
+
+No fixed **number of atoms** follows from necessity of an initial bearer
+alone. In a structural model, the same bearer can exist in every world but
+have different contingent proper parts. If a **complete initial history**
+including constituent identities is held fixed across all possible worlds,
+however, its initial roster is constant *inside that modal restriction*;
+particle inventories after branching chance outcomes need not be constant.
+
+Oppy's [“Ultimate Naturalistic Causal Explanations”](https://philarchive.org/archive/OPPUNC)
+(2013), §§1, 3, supplies a **frugality argument** for shared actual laws and
+initial history: objective chance already licenses alternative outcomes, so
+additional modal variations require positive reasons. His **Necessary Initial
+Part** would have whatever necessary composition that account specifies;
+neither its exact count nor the exhaustive metaphysical boundary follows
+from the word `necessary`. In
+[“O'Connor's Cosmological Argument”](https://philpapers.org/archive/OPPOCA-2.pdf)
+(2011), §4, manuscript pp. 5–6, Oppy also considers an initially
+**mereologically simple** natural state; subsequent states contain parts
+composed of particles and fields. He explicitly marks it speculative rather
+than confirmed physics.
+His 2020 §VI distinguishes a necessary initial whole from a necessary
+part/aspect, so it would misattribute his view to make every constituent
+necessarily existent without that extra premise.
+
+The published [Gel](https://doi.org/10.1017/S0034412521000482)–[Schmid](https://doi.org/10.1017/S0034412522000051)–[Gel](https://doi.org/10.1017/S0034412522000713)
+exchange asks why a *plurality* of necessary initial simples would number
+`N` rather than `N + 1`, and also asks why one first cause rather than more.
+Gel treats both an initial state's constituent inventory and a fundamental
+layer of necessary simples. Schmid distinguishes one initial **state** from one
+**constituent** (including in footnote 9), and Gel's uniqueness-of-pure-act
+reply rests on further metaphysical bridges. The exact unresolved test is
+whether chance-only alternatives **exhaust** metaphysical possibility and,
+if several constituents are necessary, whether their individuation and
+number have independent warrant; even a partless one-root model faces a
+further uniqueness/explanatory question. This extends the research frontier but
+does not add a verified result or close any root premise; see the
+[parity case ledger](../principle-parity-challenges.md).
+
 **Qualitative/counterpart foundation.** Histories share an initial structural
 role, laws and counterpart matching without containing numerically the same
 bearer. This preserves the local explanatory organization in the existing

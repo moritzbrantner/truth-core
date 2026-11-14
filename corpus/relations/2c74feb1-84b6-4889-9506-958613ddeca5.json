@@ -1,0 +1,11 @@
+{
+  "id": "2c74feb1-84b6-4889-9506-958613ddeca5",
+  "label": "Thought affirms or denies every proposition strengthens its object-of-thought restriction",
+  "subject_kind": "statement",
+  "subject_id": "ee440511-1103-5020-8a39-d2a6b96e5397",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "ebc49a63-5f67-54e3-99a8-abba3eafa3d0",
+  "verification_result_id": "708187e6-9c85-5688-82c8-6f5cb8c1061b",
+  "note": "Strength registration (2026-11-12 audit): Instance: the universal over all propositions taken at the objects of thought."
+}

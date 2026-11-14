@@ -1,0 +1,11 @@
+{
+  "id": "de375db2-ec3d-46c9-bae4-297578d8a1fe",
+  "label": "Blanket supplier concreteness makes CCR equivalent to borrowed reality",
+  "argument_id": "a6ef307e-3956-4bac-bb81-df211ad6b35e",
+  "challenge_module": "TruthCore.Results.Causality.ConcreteRootAccess.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ConcreteRootAccess.Solution",
+  "theorem": "TruthCore.Results.Causality.ConcreteRootAccess.blanketEquivalence",
+  "comparator_config": "results/de375db2-ec3d-46c9-bae4-297578d8a1fe/comparator.json",
+  "status": "solution-present",
+  "description": "Blanket supplier concreteness makes CCR equivalent to borrowed reality. Conditional structural consequence only; no independent warrant or rival defeat. Excluded middle is explicit where listed."
+}

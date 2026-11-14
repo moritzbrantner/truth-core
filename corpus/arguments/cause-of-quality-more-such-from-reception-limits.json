@@ -31,6 +31,6 @@
     "1795a62e-f78b-5f5b-94e7-9e7490824811"
   ],
   "strong_version_needed": {
-    "376d6a5a-c179-5090-b57c-f9a371222899": "The conclusion concerns every distinct cause of any quality in another, not only causes of that thing's being; the registered cause-of-being restriction would give it only for causes of being (specs/cause-of-being-has-being.toml)."
+    "376d6a5a-c179-5090-b57c-f9a371222899": "The conclusion concerns every distinct cause of any quality in another, not only causes of that thing's being, so the registered cause-of-being restriction (specs/cause-of-being-has-being.toml) does not suffice. The proof uses the principle only for distinct causes: the weaker distinct-cause version suffices and is used by the sibling 'More such from distinct-cause transfer and reception limits' (specs/preexistence-without-transfer.toml); this argument keeps the unrestricted version because its Challenge is frozen."
   }
 }

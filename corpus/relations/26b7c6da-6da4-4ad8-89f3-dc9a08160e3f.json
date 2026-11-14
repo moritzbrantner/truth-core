@@ -1,0 +1,11 @@
+{
+  "id": "26b7c6da-6da4-4ad8-89f3-dc9a08160e3f",
+  "label": "Scenario necessary concrete being strengthens necessary being",
+  "subject_kind": "statement",
+  "subject_id": "679eb3f7-b81c-5c0f-8072-29294269c162",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
+  "verification_result_id": "c3b6ee71-b0b0-558d-8aa8-5a1a80db4120",
+  "note": "Strength registration (2026-11-12 audit): Same Ontic, selected world and witness; the weak version drops only the concreteness of the witness. The backing result is an assembly transcription."
+}

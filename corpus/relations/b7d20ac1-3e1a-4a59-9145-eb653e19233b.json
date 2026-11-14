@@ -1,0 +1,11 @@
+{
+  "id": "b7d20ac1-3e1a-4a59-9145-eb653e19233b",
+  "label": "Restricted measure concession strengthens the failure of the measure doctrine",
+  "subject_kind": "statement",
+  "subject_id": "6c7941b0-a94f-542e-9282-849642fe4d3e",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "4c3e472c-dd45-55e3-8ec1-15360eb8a59a",
+  "verification_result_id": "1d912868-7820-5934-b827-d1b8248043cb",
+  "note": "Strength registration (2026-11-12 audit): Same Seems and truth semantics: the measure doctrine fails already outside the domain, so it fails over all contents."
+}

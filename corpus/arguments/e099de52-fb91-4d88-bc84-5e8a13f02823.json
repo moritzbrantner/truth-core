@@ -1,0 +1,53 @@
+{
+  "id": "e099de52-fb91-4d88-bc84-5e8a13f02823",
+  "label": "Underived NECESSARY_2 concretum, from necessity, closed collections, J1 and coverage",
+  "premise_statement_ids": [
+    "b19ffd92-01bd-5c0b-9643-e7407137ea5e",
+    "aca3baa1-9be6-4720-a53d-22050e638561",
+    "dd41c165-129a-59d3-84ce-bd13c0944901",
+    "df42581f-5fff-4b5f-8b40-6e16d2b890f2",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
+  ],
+  "conclusion_statement_id": "0bdcf366-29c7-5d45-b603-5c929dcad976",
+  "inference_ids": [
+    "3998da95-edf4-4c24-a6b8-5eb82c9582b7"
+  ],
+  "meaning": "The join's endpoint from a necessary concretum, the closed-collection condition, J1, coverage and excluded middle, without AGWF, J2 or reflexive access. The witness may differ from the given necessary concretum. Conditional consequence only.",
+  "definition_ids": [
+    "38b9012a-472b-4544-a271-16d22b25c9ac",
+    "7266f604-f0bc-4aac-89b9-0f4cc7be5f33",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "9146789d-5b36-572f-baa1-7eef28967793",
+    "d8e2ed12-8089-5202-ae51-e807cf611c76",
+    "1b8baf77-84fa-5513-a138-7fa14840dd87",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "75c193e1-bab0-5ec2-890b-9ff608b05aa7",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "baddf770-36bf-542f-bb3c-2297342d5452",
+    "47033c70-0aca-565d-9473-8399577fea54",
+    "b242943a-34cc-582d-8c38-c1203b9d2c91"
+  ],
+  "disambiguation_ids": [
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "5d15d8f2-1080-53c9-886f-cee2a4ff23a9",
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
+  ],
+  "sense_bridges": [
+    {
+      "term": "NECESSARY",
+      "from": "8c881fa6-2b9f-44be-a32a-c8ef29c13643",
+      "to": "7af298fb-a2c4-4239-919b-7685f2e1f67a",
+      "statement_id": "b19ffd92-01bd-5c0b-9643-e7407137ea5e"
+    },
+    {
+      "term": "WORLD_RELATIVE_EXISTENCE_METAPHYSICAL_ESSE_NECESSITY",
+      "from": "2e064a7b-b29f-4f0b-8978-782674012d86",
+      "to": "57356a7a-ed0a-478f-abfc-2d47dd631135",
+      "statement_id": "df42581f-5fff-4b5f-8b40-6e16d2b890f2"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+[batch]
+vocab = "TruthCore.Case.Catholicism.PossessionConsumerReductions"
+results = "TruthCore.Results.Case.Catholicism.PossessionConsumerReductions"
+
+[[argument]]
+id = "d0c022f8-c53d-4c0f-917a-e16bb75ca9a5"
+label = "MOTION_1 actuality from distinct causal possession"
+theorem = "nothingMovesExceptInAct"
+premises = ["STMT-EXCLUDED-MIDDLE", "STMT-MOVER-CAUSES-WHAT-IT-MOVES-TO", "Whatever causes a perfection in another thing has it", "STMT-SELF-MOVER-MOVES-BY-A-DISTINCT-PART", "STMT-WHOLE-IN-ACT-THROUGH-ITS-PART"]
+conclusion = "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT"
+axioms = []
+sense_bridges = [{ term = "CAUSE", from = "bdc6001c-9699-4126-9e35-6fbd1da78100", to = "572f19f2-8833-4133-8bea-b8b5fa4ac24f", statement_id = "STMT-MOVER-CAUSES-WHAT-IT-MOVES-TO" }]
+rule = "Identity case split and distinct-part reduction"
+meaning = "Analyst formulation, attribution deferred. Distinct movers cause the respect and hence possess it by distinct-cause transfer, inclusively IN_ACT_3. Diagonal self-motion requires the retained distinct moving part and whole-through-part premises. Neither comparative excess nor more-such-bearer is used. Conditional support for the prima via root-route node only; premises remain subject to their existing warrant burdens. No globally weakest bundle is claimed."
+
+[[argument]]
+id = "c201b61a-14ad-4fcb-8ae6-acdaabb213c2"
+label = "Grades maximum from distinct causal possession"
+theorem = "gradesHaveAMaximum"
+premises = ["STMT-MORE-SUCH-HAS-THE-PERFECTION", "Whatever causes a perfection in another thing has it", "STMT-EXCEEDED-PERFECTION-IS-CAUSED", "STMT-NO-INFINITE-REGRESS-OF-CAUSES-OF-A-PERFECTION", "STMT-EXCLUDED-MIDDLE"]
+conclusion = "STMT-GRADES-HAVE-A-MAXIMUM"
+axioms = []
+rule = "Well-founded induction along distinct causes"
+meaning = "Analyst formulation, attribution deferred. The initial exceeding bearer has r by the retained more-such-bearer premise. At each exceeded bearer, exceeded-is-caused gives a distinct cause; possession alone supplies its actuality for induction. Well-foundedness and excluded middle yield a weak maximal bearer, without uniqueness, greatestness or causality of that maximum. Supports the quarta via root-route node under explicit premises; no premise warrant or global minimality is claimed."

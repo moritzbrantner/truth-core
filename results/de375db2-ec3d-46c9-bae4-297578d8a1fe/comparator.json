@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.ConcreteRootAccess.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ConcreteRootAccess.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.ConcreteRootAccess.blanketEquivalence"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

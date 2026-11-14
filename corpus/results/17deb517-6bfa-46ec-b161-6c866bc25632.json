@@ -1,0 +1,11 @@
+{
+  "id": "17deb517-6bfa-46ec-b161-6c866bc25632",
+  "label": "CCR implies the localized bridge classically",
+  "argument_id": "1814dcbe-a95a-49ff-88bb-267e871e9145",
+  "challenge_module": "TruthCore.Results.Causality.ConcreteRootAccess.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ConcreteRootAccess.Solution",
+  "theorem": "TruthCore.Results.Causality.ConcreteRootAccess.localizedOfClosed",
+  "comparator_config": "results/17deb517-6bfa-46ec-b161-6c866bc25632/comparator.json",
+  "status": "solution-present",
+  "description": "CCR implies the localized bridge classically. Conditional structural consequence only; no independent warrant or rival defeat. Excluded middle is explicit where listed."
+}

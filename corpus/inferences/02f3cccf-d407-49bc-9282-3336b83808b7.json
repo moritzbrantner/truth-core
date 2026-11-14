@@ -1,0 +1,12 @@
+{
+  "id": "02f3cccf-d407-49bc-9282-3336b83808b7",
+  "label": "Blanket supplier concreteness makes CCR equivalent to borrowed reality (inference)",
+  "input_statement_ids": [
+    "b28f3a70-fbb4-4c61-b9ac-099d97477f4d"
+  ],
+  "output_statement_id": "8e8a0cd9-62df-4689-af28-3d6c55d78deb",
+  "rule": "Predicate closure and finite path induction at a fixed profile, world and relation",
+  "meaning": "Blanket supplier concreteness makes CCR equivalent to borrowed reality. Conditional structural consequence only; no independent warrant or rival defeat. Excluded middle is explicit where listed.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

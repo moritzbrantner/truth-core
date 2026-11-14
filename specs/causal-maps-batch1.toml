@@ -138,7 +138,7 @@ id = "CAUSE-OF-QUALITY-MORE-SUCH-FROM-RECEPTION-LIMITS"
 theorem = "causeOfQualityMoreSuch"
 premises = ["STMT-CAUSE-HAS-WHAT-IT-GIVES", "STMT-PERFECTION-CAUSED-IN-ANOTHER-IS-RECEIVED-IN-IT", "STMT-RECEIVED-PERFECTION-IS-LIMITED-BY-RECIPIENT", "STMT-PERFECTION-LIMITED-ONLY-THROUGH-RECEPTION", "STMT-CAUSE-HAS-PERFECTION-NOT-AS-RECEIVED-IN-EFFECT", "STMT-UNLIMITED-POSSESSION-EXCEEDS-LIMITED"]
 conclusion = "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH"
-strong_version_needed = {"STMT-CAUSE-HAS-WHAT-IT-GIVES" = "The conclusion concerns every distinct cause of any quality in another, not only causes of that thing's being; the registered cause-of-being restriction would give it only for causes of being (specs/cause-of-being-has-being.toml)."}
+strong_version_needed = {"STMT-CAUSE-HAS-WHAT-IT-GIVES" = "The conclusion concerns every distinct cause of any quality in another, not only causes of that thing's being, so the registered cause-of-being restriction (specs/cause-of-being-has-being.toml) does not suffice. The proof uses the principle only for distinct causes: the weaker distinct-cause version suffices and is used by the sibling 'More such from distinct-cause transfer and reception limits' (specs/preexistence-without-transfer.toml); this argument keeps the unrestricted version because its Challenge is frozen."}
 rule = "Universal instantiation, modus ponens and modus tollens"
 meaning = "Derives the Metaphysics II.1 / Posterior Analytics I.2 premise that a distinct cause of a quality is more such, from six OPEN analyst premises: the cause has what it gives; a perfection caused in another is received in it; reception limits by the recipient; limitation by z is only through reception in z; the cause's perfection is not received in its effect; and an unlimited possessor exceeds a limited one. A distinct cause c of r in x has r; x has r received in x, so limited by x; c's r is not received in x, so not limited by x; hence c is more r than x. It does not use STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE, so it does not close a cycle with PERFECTION-PREEXISTENCE-FROM-CAUSAL-TRANSFER."
 
@@ -185,6 +185,7 @@ meaning = "If c efficiently causes x and x efficiently caused c, then c would de
 
 [[argument]]
 id = "MOVES-ONLY-AS-IN-ACT-FROM-CAUSAL-EXCESS"
+strong_version_needed = {"d5a94eb1-72d2-53e0-9a52-9787b5b61a8d" = "The frozen proof applies causal comparison at arbitrary r, including the distinct part in its self-motion case, so the esse-only version does not supply those applications. This is current-proof scope, not a minimality claim: distinct-cause possession 2c0b9bd7 could replace the pair of causal comparison and bearer premises in a new sibling; that sibling remains unregistered and unchecked."}
 definitions = ["DEF-ACT", "DEF-CAUSE-OF-PERFECTION", "DEF-MORE-IN", "DEF-MOTION-AS-REDUCTION", "DEF-MOVER-PART", "DEF-RESPECT", "DEF-SELF-EVIDENT-MARKING", "DEF-MOVING-ONESELF-IN-THE-SAME-RESPECT"]
 theorem = "nothingMovesExceptInAct"
 premises = ["STMT-EXCLUDED-MIDDLE", "STMT-MOVER-CAUSES-WHAT-IT-MOVES-TO", "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH", "STMT-MORE-SUCH-HAS-THE-PERFECTION", "STMT-SELF-MOVER-MOVES-BY-A-DISTINCT-PART", "STMT-WHOLE-IN-ACT-THROUGH-ITS-PART"]

@@ -1,0 +1,12 @@
+{
+  "id": "204543c8-c0fe-44fe-b5c8-247419295b5d",
+  "label": "Closed grounding collections rooted, from WELL_FOUNDED_ACTUAL_GROUNDING_1 (inference)",
+  "input_statement_ids": [
+    "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21"
+  ],
+  "output_statement_id": "aca3baa1-9be6-4720-a53d-22050e638561",
+  "rule": "Well-founded induction on the actual concreta: a member of a rootless ground-closed collection would have all its grounds outside the collection by the induction hypothesis, hence be a root",
+  "meaning": "Well-founded actual grounding implies the closed-collection condition, with no excluded middle. Registered as a strength order; the limit-grounder control makes it strict.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

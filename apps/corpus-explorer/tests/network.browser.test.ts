@@ -83,9 +83,21 @@ for (const mobile of [false, true]) {
       await cdp.send("Input.dispatchTouchEvent", { type: "touchEnd", touchPoints: [] });
       await cdp.detach();
     } else {
-      await page.mouse.move(box.x + 12, box.y + 12);
+      // Start the drag on empty pane. A press on a dot focuses it, and React Flow's
+      // focus auto-pan then moves the viewport programmatically, which ends the
+      // user's gesture without an event, so no viewport is written (#1377).
+      const start = await page.evaluate(({ x, y, width, height }) => {
+        for (let top = y + 60; top < y + height - 60; top += 12) {
+          for (let left = x + 12; left < x + width - 70; left += 12) {
+            if (document.elementFromPoint(left, top)?.classList.contains("react-flow__pane")) return { x: left, y: top };
+          }
+        }
+        return null;
+      }, box);
+      if (!start) { throw new Error("No empty pane to drag"); }
+      await page.mouse.move(start.x, start.y);
       await page.mouse.down();
-      await page.mouse.move(box.x + 70, box.y + 45, { steps: 5 });
+      await page.mouse.move(start.x + 58, start.y + 33, { steps: 5 });
       await page.mouse.up();
     }
     await page.waitForURL((location) => location.searchParams.has("viewport"));

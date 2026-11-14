@@ -1,0 +1,10 @@
+{
+  "id": "966c08c6-f5f0-4ff5-9ae6-536e71456943",
+  "label": "What was in act in a respect and later is in POTENCY_2 in it has another efficient cause",
+  "paraphrase": "Open premise, analyst formulation, unattributed: whatever was in act in a respect at an earlier time and is in potency in that respect at a later time has an efficient cause other than itself, in some respect. With same-respect non-overlap the later potency is a loss of the act, a change, and the premise extends 'whatever is moved is moved by another' to that change; without non-overlap it also covers a being that keeps the act and gains the potency. Efficient causation is not time-indexed: c efficiently causes x in s at some time.",
+  "lean_declaration": "TruthCore.Causality.ActPriorityThetaEight.ActThenPotencyHasAnotherCause",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "3ea2762f-1a85-5059-b4e7-d29f192b16b6"
+  ]
+}

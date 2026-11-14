@@ -1,0 +1,11 @@
+{
+  "id": "c031d302-8e9b-4a8c-88c9-52b5a205da26",
+  "label": "Closed grounding collections rooted, from no wholly borrowed collection",
+  "argument_id": "ee5a7fb8-9a0b-48b6-975e-b5ecbb42a630",
+  "challenge_module": "TruthCore.Results.Causality.ClosedGroundingRoots.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ClosedGroundingRoots.Solution",
+  "theorem": "TruthCore.Results.Causality.ClosedGroundingRoots.closedRootedOfBorrowed",
+  "comparator_config": "results/c031d302-8e9b-4a8c-88c9-52b5a205da26/comparator.json",
+  "status": "solution-present",
+  "description": "Borrowed reality implies CCR under the sufficient supplier-concreteness bridge. Borrowed reality alone does not imply CCR, as abstractSupplier demonstrates. Blanket supplier concreteness is not necessary; the sibling batch supplies the localized root-access alternative. Constructive; conditional consequence only."
+}

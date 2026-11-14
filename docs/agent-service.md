@@ -1,7 +1,7 @@
 # Local agent service
 
-`scripts/agent_service.py` is the bounded experiment from AGENTS.md, "Local
-server experiment for the next workloop" (#489). It is a Python-stdlib HTTP
+`scripts/agent_service.py` provides the coordinator-owned local preview described
+in [AGENTS.md](../AGENTS.md#local-lean-preview-service) (#489). It is a Python-stdlib HTTP
 adapter on `127.0.0.1` over commands that already exist:
 
 - corpus operations run `scripts/corpus.py` in the requested workspace, so

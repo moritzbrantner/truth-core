@@ -1,0 +1,11 @@
+{
+  "id": "e27d0433-a362-41dd-b495-719dac5b5d05",
+  "label": "Potency as unactualized capacity strengthens no act and POTENCY_1 in the same respect",
+  "subject_kind": "statement",
+  "subject_id": "c85e8ef5-3dc4-502d-90f8-da1429e33fd8",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "c6d6379b-6a9b-55b5-a701-3df289dfcca4",
+  "verification_result_id": "1e4182bc-71c0-5ef5-9846-b22e330e080a",
+  "note": "Strength registration (2026-11-12 audit): Same InAct and InPotency: keep one direction and the non-actuality conjunct."
+}
