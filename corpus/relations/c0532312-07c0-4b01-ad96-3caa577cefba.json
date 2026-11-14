@@ -1,0 +1,11 @@
+{
+  "id": "c0532312-07c0-4b01-ad96-3caa577cefba",
+  "label": "Unique necessary actual root strengthens necessary concrete being",
+  "subject_kind": "statement",
+  "subject_id": "91b085c4-f1c7-5ada-9848-8e7dc753313a",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "b19ffd92-01bd-5c0b-9643-e7407137ea5e",
+  "verification_result_id": "45988f36-6196-5d11-a1be-993e88810089",
+  "note": "Strength registration (2026-11-12 audit): Same witness n: keep its concreteness, actual existence and NecessaryAt; drop rootness and uniqueness. The backing result is an assembly transcription."
+}

@@ -31,4 +31,10 @@ declares that a one-premise argument derives a weaker version of its premise;
 `check` warns about a verified argument that declares it, or that is the
 `implication` or `delta_forward` evidence of a `strength_comparison`, without
 a `strengthens` relation for the pair. Proof, binding and source rules are
-unchanged. The current contract is in `docs/corpus-model.md`, "Strength order".
+unchanged. An audit of the 209 verified one-premise results without a
+registration registered 45 strength orders, including the declined one,
+recorded two verified equivalences as `logically_equivalent_to` (removing the
+one-way registration of one of them), and left equivalences, countercase steps
+and consequences with new content unregistered with reasons
+(`docs/notes/strength-order-audit.md`). The current contract is in
+`docs/corpus-model.md`, "Strength order".

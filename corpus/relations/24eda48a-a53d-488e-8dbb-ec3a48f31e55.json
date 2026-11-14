@@ -1,0 +1,11 @@
+{
+  "id": "24eda48a-a53d-488e-8dbb-ec3a48f31e55",
+  "label": "De re necessary individual strengthens de dicto necessary existence",
+  "subject_kind": "statement",
+  "subject_id": "b62deb46-c451-5971-a569-cc5c0f44a398",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "7570cdf8-56b1-58dc-951d-e987959c2d29",
+  "verification_result_id": "880f6f37-3307-5cce-b0dc-da91d9524efa",
+  "note": "Strength registration (2026-11-12 audit): Same supplied Kripke frame and roster: a fixed bearer at every successor gives a bearer at each successor."
+}

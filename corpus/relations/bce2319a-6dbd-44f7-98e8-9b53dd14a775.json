@@ -1,0 +1,11 @@
+{
+  "id": "bce2319a-6dbd-44f7-98e8-9b53dd14a775",
+  "label": "No reasons of a kind strengthens no internal adoption reason of that kind",
+  "subject_kind": "statement",
+  "subject_id": "3f77c61c-11e5-4bb2-a905-8ec6f8ebca19",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "22073f51-9ad0-479f-a674-42faa1943783",
+  "verification_result_id": "c66ad93e-f5c3-4d14-b4c4-5db1218b5d38",
+  "note": "Strength registration (2026-11-12 audit): Instance: no reason of the kind for any target, taken at the view itself as target."
+}

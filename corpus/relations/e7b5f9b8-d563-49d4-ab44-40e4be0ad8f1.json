@@ -1,0 +1,11 @@
+{
+  "id": "e7b5f9b8-d563-49d4-ab44-40e4be0ad8f1",
+  "label": "Brute-foundation necessary concrete being strengthens necessary being",
+  "subject_kind": "statement",
+  "subject_id": "b19ffd92-01bd-5c0b-9643-e7407137ea5e",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
+  "verification_result_id": "033dd19f-6077-540d-a36c-d3b7ebe79a73",
+  "note": "Strength registration (2026-11-12 audit): Same Ontic, selected world and witness; the weak version drops only the concreteness of the witness."
+}

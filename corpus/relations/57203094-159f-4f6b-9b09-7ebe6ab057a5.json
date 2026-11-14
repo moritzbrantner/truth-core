@@ -1,0 +1,11 @@
+{
+  "id": "57203094-159f-4f6b-9b09-7ebe6ab057a5",
+  "label": "Alternative predicates not necessitating motion strengthens motion not identical with them",
+  "subject_kind": "statement",
+  "subject_id": "4b6f1d70-b2fc-57e1-a06f-8437947d826d",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "d2dd07b2-b867-54a1-8133-aed50fc90ed8",
+  "verification_result_id": "cff9ac04-1b40-5b27-82cd-5e3e004869fd",
+  "note": "Strength registration (2026-11-12 audit): Same predicates: the failure of each one-way universal gives the failure of the corresponding biconditional universal."
+}

@@ -160,7 +160,7 @@ transcription = "assembly"
 premises = ["STMT-NECESSARY-ROOT-ACTUALIST-K"]
 conclusion = "STMT-NECESSARY-ROOT-BOX-K"
 rule = "Conjunction elimination"
-meaning = "Strength registration: the actualist K node implies the possibilist K node (drop the actual-existence clause)."
+meaning = "The actualist K node implies the possibilist K node (drop the actual-existence clause). With the converse this direction makes the two nodes logically equivalent (a logically_equivalent_to relation, 2026-11-12), so it is not registered as a strength order."
 
 [[argument]]
 id = "NECESSARY-ROOT-BOX-K-STRENGTHENS-DE-DICTO-K"
@@ -339,16 +339,6 @@ object_kind = "statement"
 object_id = "STMT-CAUSAL-POWER-REQUIRES-CONCRETENESS-AT"
 verification_result_id = "CAUSAL-CONCRETENESS-COMMITMENT-STRENGTHENS-POWER"
 note = "The capacity half of the owner's two-clause concreteness commitment; established via strength from the met common-ground floor item."
-
-[[relation]]
-id = "REL-NECESSARY-ROOT-ACTUALIST-K-STRENGTHENS-BOX-K"
-subject_kind = "statement"
-subject_id = "STMT-NECESSARY-ROOT-ACTUALIST-K"
-predicate = "strengthens"
-object_kind = "statement"
-object_id = "STMT-NECESSARY-ROOT-BOX-K"
-verification_result_id = "NECESSARY-ROOT-ACTUALIST-K-STRENGTHENS-BOX-K"
-note = "Strength registration: the actualist K node implies the possibilist K node (drop the actual-existence clause)."
 
 [[relation]]
 id = "REL-NECESSARY-ROOT-BOX-K-STRENGTHENS-DE-DICTO-K"

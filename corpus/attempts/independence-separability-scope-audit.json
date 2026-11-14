@@ -1,0 +1,18 @@
+{
+  "id": "9c05bc24-dece-47d4-8337-f3d1e1dc9aea",
+  "label": "Modal countermodel and exact support audit for independence and separability",
+  "statement_ids": [
+    "8ab3d114-d6e2-5f6d-805b-ae901f56d39b",
+    "bf93f259-29b4-53df-ae5b-ac7f522ea33d",
+    "e078f07b-a4b8-595e-a3ee-02dd83474450"
+  ],
+  "date": "2026-11-13",
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "The unrestricted independence-to-modal-separability bridge fails in a concrete two-world universal-accessibility model with a necessary effect x: x depends on y, y does not depend on x, and both exist necessarily, so y cannot exist without x. This modal lifting matches the existing Lean omission-control truth tables for nonmutualDependenceSuffices_omit_hAllow; the extra modal interpretation was checked by finite truth-table evaluation, not a new Lean theorem. A co-variation model with contingent x also shows that contingency alone does not entail separability when dependence remains an unconstrained primitive. The registered graph has one direct consumer of the strong input, then a consumer deriving efficient-cause priority. The original terminal-only formula has no supports with this input forbidden, whereas taking the existing nonmutual-priority intermediate directly bypasses it. Exact three-input-to-one-input support substitution preserves 67,798,928 G and 109,971,456 H minimal families while shortening each package by two; unrestricted direct-or-derived support remains available. Full models, qualifications and graph equations: docs/notes/god-existence-support-formula.md, Scope audit.",
+  "evidence": [
+    "27d0aa1f-bd7c-5946-b886-0dea80ab650e",
+    "47957c28-218a-58e4-94e4-5220a0c45795"
+  ],
+  "blocker": "To derive unrestricted nonmutual priority without the refuted bridge, establish a separate justified priority principle, or certify a contingent-effect modal bridge with explicit semantics and prove contingency at each relevant use site. Neither follows from the present primitive definitions alone."
+}

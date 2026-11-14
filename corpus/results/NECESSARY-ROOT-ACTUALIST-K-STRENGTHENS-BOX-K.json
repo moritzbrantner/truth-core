@@ -8,6 +8,6 @@
   "theorem": "TruthCore.Results.Causality.NecessarySenseFork.actualistKToBoxK",
   "comparator_config": "results/NECESSARY-ROOT-ACTUALIST-K-STRENGTHENS-BOX-K/comparator.json",
   "status": "solution-present",
-  "description": "Strength registration: the actualist K node implies the possibilist K node (drop the actual-existence clause).",
+  "description": "The actualist K node implies the possibilist K node (drop the actual-existence clause). With the converse this direction makes the two nodes logically equivalent (a logically_equivalent_to relation, 2026-11-12), so it is not registered as a strength order.",
   "transcription": "assembly"
 }
